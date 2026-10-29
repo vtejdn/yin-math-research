@@ -1,3 +1,16 @@
 {
-  "people": []
+  "people": [
+    {
+      "display_name": "Sheng Yin",
+      "git_identities": [
+        {
+          "email": "vtejdn@outlook.com",
+          "name": "Yin"
+        }
+      ],
+      "github_accounts": [],
+      "id": "Yin",
+      "registered_by": "Yin"
+    }
+  ]
 }
