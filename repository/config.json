@@ -1,7 +1,7 @@
 {
   "framework_update_check": true,
-  "layout_format": 2,
   "material_next": {},
   "repository": "yin-math-research",
-  "repository_url": "https://github.com/vtejdn/yin-math-research"
+  "repository_abbr": "YMR",
+  "repository_display_name": "Yin's Math Research"
 }
