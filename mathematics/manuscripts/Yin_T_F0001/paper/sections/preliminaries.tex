@@ -1,0 +1,237 @@
+% Source interfaces: MSY23-U002/U004; C_F0035; C_F0068 Sections 1--3.
+\section{Preliminaries}\label{sec:preliminaries}
+
+We first recall division closures, the free field and an algebraic tensor criterion for membership in a division subring.
+We then discuss fractions of affiliated operators, realize algebraic tensors as finite-rank operators and recall the consequences of maximal $\Delta$.
+
+\subsection{Division closures and the free field}\label{subsec:free-field}
+
+\begin{definition}\label{def:rationality}
+For a unital subalgebra $A$ of a unital algebra $B$, its \emph{division closure} $\Div_B A$ is the smallest unital subalgebra containing $A$ and closed under inversion of its elements that are invertible in $B$; see \cite[Exercise~7.1.4]{Coh85} and \cite[Definition~4.10]{MSY23}.
+An affiliated operator $u$ is \emph{rational in $X$} if $u\in\Div_{L^0(\M)}\A_X$.
+\end{definition}
+
+The related notion of \emph{rational closure} is defined using entries of matrix inverses \cite[Definition~4.7]{MSY23}; see also \cite[Section~7]{Coh71}.
+It contains the division closure and may be strictly larger in general \cite[Exercise~7.1.4]{Coh85}.
+Since the division and rational closures coincide when $\Delta(X)=d$ (see Subsection~\ref{subsec:delta-tensor-maps}), we use \emph{rational in $X$} for membership in the division closure.
+
+The free field $\freefield{x_1,\ldots,x_d}$ is the universal division ring of fractions of the free polynomial algebra $\C\langle x_1,\ldots,x_d\rangle$; see \cite[Section~4.1 and Theorem~4.1]{MSY23} and \cite[Corollary~7.5.14]{Coh06}.
+It is the universal localization of this algebra at all full square matrices \cite[Theorem~7.5.13 and Corollary~7.5.14]{Coh06}.
+
+The free difference quotients on noncommutative polynomials \cite[Section~3, pp.~192--193]{Voi98} extend uniquely to the free field \cite[Section~2.1, (4), pp.~298--299]{BD78}.
+An explicit construction of these extensions on noncommutative rational functions is given in \cite[Section~4.4, Definition~4.4 and Corollary~4.11]{KV12}.
+For $1\leq i\leq d$, we use the linear identification $u\otimes v\mapsto u\otimes v^{\mathrm{op}}$ to write the extended maps as
+\[
+ \partial_i:\freefield{x_1,\ldots,x_d}\longrightarrow
+ \freefield{x_1,\ldots,x_d}\otimes_{\C}
+ \freefield{x_1,\ldots,x_d}^{\mathrm{op}}.
+\]
+For $c\in\C$ and $u,v\in\freefield{x_1,\ldots,x_d}$, with $u\ne0$, they satisfy
+\begin{equation}\label{eq:free-field-difference-rules}
+\begin{aligned}
+ \partial_i c&=0,& \partial_i x_j&=\delta_{ij}1\otimes1,\\
+ \partial_i(uv)&=(1\otimes v^{\mathrm{op}})\partial_i u
+                  +(u\otimes1)\partial_i v,&
+ \partial_i(u^{-1})&=-(u^{-1}\otimes(u^{-1})^{\mathrm{op}})\partial_i u.
+\end{aligned}
+\end{equation}
+
+\subsection{Coordinate maps over division subrings}
+
+For a division subring $F$ in a unital algebra $U$, the proof below constructs, for $u\notin F$, a right $F$-linear coordinate map $\phi_u:U\longrightarrow F$ satisfying $\phi_u(1)=0$ and $\phi_u(u)=1$.
+This map distinguishes $u\otimes_F1$ from $1\otimes_Fu$, which is recorded as the lemma below.
+This is the key lemma used in the proof of Theorem~\ref{thm:delta} to force an affiliated operator to be a rational function in $X$.
+
+\begin{lemma}\label{lem:equalizer}
+Let $U$ be a nonzero unital algebra and let $F\subseteq U$ be a division subring containing the identity of $U$.
+Then, for every $u\in U$,
+\[
+ u\otimes_F1=1\otimes_Fu\text{ in }U\otimes_FU
+ \quad\Longleftrightarrow\quad u\in F.
+\]
+\end{lemma}
+\begin{proof}
+If $u\in F$, the identity follows from the balancing relation
+\[
+ (v_1a)\otimes_F v_2=v_1\otimes_F (av_2),\qquad v_1,v_2\in U,\quad a\in F.
+\]
+If $u\notin F$, the elements $1,u$ are right $F$-linearly independent: $v_1+uv_2=0$ with $v_2\ne0$ would give $u=-v_1v_2^{-1}\in F$.
+Extend (1,u) to a basis of the right $F$-module $U$ by \cite[Theorem~IV.2.4]{Hun74}.
+The coordinate map $\phi_u$ at $u$ is right $F$-linear (see \cite[Theorem~IV.2.1 \& Theorem~4.11]{Hun74}) and satisfies $\phi_u(1)=0$, $\phi_u(u)=1$.
+The map $(v_1,v_2)\mapsto\phi_u(v_1)v_2$ is middle linear and hence induces an additive map \cite[Definition~IV.5.1 and Theorem~IV.5.2]{Hun74}
+\[
+ U\otimes_FU\longrightarrow U,\qquad v_1\otimes_Fv_2\longmapsto\phi_u(v_1)v_2
+\]
+which sends $u\otimes_F1-1\otimes_Fu$ to $1$, so this tensor cannot vanish.
+\end{proof}
+
+\subsection{Fractions of affiliated operators}\label{subsec:rational-affiliated}
+
+We now turn to fraction representations in $L^0(\M)$.
+Affiliation means commutation with each unitary in the commutant, including invariance of the domain; see \cite[Section 7.2]{AP18} and \cite[Section 5.1]{MSY23}.
+
+\begin{definition}\label{def:regular}
+An element $s\in\M$ is \emph{regular} if it is invertible in $L^0(\M)$.
+\end{definition}
+
+Regularity is equivalent to injectivity and dense range on $H$ \cite[Lemmas 5.1--5.2]{MSY23}.
+
+For $u\in L^0(\M)$, a fraction pair is given by
+\begin{equation}
+ s:=(1+uu^*)^{-1/2},\quad a:=su,\qquad
+ t:=(1+u^*u)^{-1/2},\quad b:=ut,
+ \label{eq:canonical}
+\end{equation}
+where $s,a,b,t\in\M$, $s,t$ are regular, and $u=s^{-1}a=bt^{-1}$.
+These facts follow from functional calculus and polar decomposition for affiliated operators \cite[Section 5.1]{MSY23}.
+
+\begin{definition}\label{def:fraction-terminology}
+For a fraction pair $Q=(s,a,b,t)$ of $u$ as in Definition~\ref{def:fraction-pair}, the representations $s^{-1}a$ and $bt^{-1}$ are called a \emph{left fraction} and a \emph{right fraction}, respectively; see \cite[Section~8.2.1]{Luc02}.
+
+For $u_1,\ldots,u_m\in L^0(\M)$, a regular $s\in\M$ is a \emph{common left denominator} if $su_j\in\M$ for every $j$; a regular $t\in\M$ is a \emph{common right denominator} if $u_jt\in\M$ for every $j$; see \cite[Section~1]{Lin00} and \cite[Lemma~4.1]{Miy22}.
+\end{definition}
+
+Common denominators for finite families are used in \cite[Section~1, p.~2 of the arXiv version]{Lin00}.
+The following proof iterates the two-element construction of \cite[Lemma~4.1]{Miy22}.
+
+\begin{lemma}\label{lem:clearing}
+For finite families $u_1,\ldots,u_m$ and $v_1,\ldots,v_n$ in $L^0(\M)$ there are regular $s,t\in\M$ such that
+\[
+ su_j\in\M\quad(1\leq j\leq m),\qquad
+ v_kt\in\M\quad(1\leq k\leq n).
+\]
+\end{lemma}
+\begin{proof}
+Choose a regular $s\in\M$ with $su_1\in\M$ using \eqref{eq:canonical}.
+Suppose $su_j\in\M$ for $1\leq j\leq\ell$, where $1\leq\ell<m$.
+Using \eqref{eq:canonical}, write
+\[
+ u_{\ell+1}=s_1^{-1}a_1,\qquad ss_1^{-1}=s_2^{-1}a_2,
+\]
+where $s_1,s_2,a_1,a_2\in\M$ and $s_1,s_2$ are regular.
+Then $s':=s_2s=a_2s_1$ is regular, and
+\[
+ s'u_j=s_2(su_j)\in\M\quad(1\leq j\leq\ell),\qquad
+ s'u_{\ell+1}=a_2a_1\in\M.
+\]
+This completes the induction for the left denominators.
+The proof for right denominators is similar.
+\end{proof}
+
+\begin{lemma}[{\cite[proof of Lemma~4.1]{Miy22}}]\label{lem:common}
+If $s_1,s_2\in\M$ are regular, they have a common left multiple $xs_1=ys_2$ with $x,y\in\M$ regular.
+If $t_1,t_2\in\M$ are regular, they have a common right multiple $t_1x'=t_2y'$ with $x',y'\in\M$ regular.
+Both common multiples are regular.
+\end{lemma}
+\begin{proof}
+Choose a left fraction $s_1s_2^{-1}=(s')^{-1}a$ using \eqref{eq:canonical}.
+Thus we may take $x:=s'$ and $y:=a$.
+Indeed, $s's_1=as_2$, and $a=s's_1s_2^{-1}$ is invertible in $L^0(\M)$, hence regular.
+A right fraction $t_1^{-1}t_2=b_3t_3^{-1}$ gives the second identity, with $b_3=t_1^{-1}t_2t_3$ regular.
+Products of regular elements are regular.
+\end{proof}
+
+Linnell \cite[Theorem~1.1]{Lin00} characterizes rational affiliated operators over a free group by finite-rank conditions on bounded operators obtained from left and right fractions.
+Miyagawa \cite[Section~4]{Miy22} gives a semicircular analogue using the expressions
+\[
+ s r_i^*b-a r_i^*t=\Gamma[Q,r_i^*],
+\]
+where $Q=(s,a,b,t)$ is a fraction pair and $r_i^*$ are the bounded right annihilation operators.
+
+\subsection{Algebraic tensors and finite-rank operators}\label{subsec:finite-rank-tensors}
+
+Write $\F(H)$ for the finite-rank bounded operators on $H$.
+For $x\in\M$, let $\rho(x)\in\B(H)$ denote the unique bounded extension of right multiplication
+\[
+ \rho(x)(y\Omega):=(yx)\Omega,\qquad y\in\M.
+\]
+We use the commutator convention $[S,T]:=ST-TS$.
+
+Let $S_2(H)$ be the Schatten class of Hilbert--Schmidt operators, that is, the Hilbert space of operators $S\in\B(H)$ with $\operatorname{Tr}(S^*S)<\infty$, equipped with the Hilbert--Schmidt norm $\|S\|_{\operatorname{HS}}:=\operatorname{Tr}(S^*S)^{1/2}$.
+Here $\operatorname{Tr}$ is the usual trace on $\B(H)$ \cite[Section 8.4]{AP18}.
+
+Let $J$ be Tomita's conjugation operator on $H$, given by $J(x\Omega):=x^*\Omega$; see \cite[Section~7.1.1]{AP18} and \cite[p.~13]{MSY23}.
+It satisfies $J^2=I$ and $\rho(x)=Jx^*J$.
+Following \cite[Section~1.1, equation~(1.1)]{CS05}, define
+\begin{equation}
+ \Theta(u\otimes v)\xi:=u\langle Jv,\xi\rangle,
+ \qquad \Theta:H\otimes_{\C}H\longrightarrow\F(H).
+ \label{eq:theta}
+\end{equation}
+Here $u,v\in H=L^2(\M,\tau)\subset L^0(\M)$ and $\xi\in H$.
+The map $\Theta$ is a linear bijection and extends to a unitary
+\[
+ \Theta:H\bar\otimes H\longrightarrow S_2(H).
+\]
+The actions in \cite[equation~(1.2)]{CS05} give, for $a,b\in\M$ and $u,v\in H$,
+\[
+ \Theta(au\otimes vb)=a\Theta(u\otimes v)b.
+\]
+
+Via the linear identification $u\otimes v\mapsto u\otimes v^{\mathrm{op}}$, we also regard $\Theta$ as a map on the corresponding subspace of $L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$.
+For $u,v\in\M$, equation~\eqref{eq:theta} reads
+\begin{equation}\label{eq:theta-bounded}
+ \Theta(u\otimes v^{\mathrm{op}})=uP_\Omega v.
+\end{equation}
+For $x\in\M$ and $u,v\in H$, the right multiplication operator $\rho(x)$ satisfies
+\begin{align*}
+ \rho(x)\Theta(u\otimes v^{\mathrm{op}})
+   &=\Theta(ux\otimes v^{\mathrm{op}}),\\
+ \Theta(u\otimes v^{\mathrm{op}})\rho(x)
+   &=\Theta(u\otimes(xv)^{\mathrm{op}}).
+\end{align*}
+Subtracting gives
+\begin{equation}
+ [\rho(x),\Theta(u\otimes v^{\mathrm{op}})]
+   =\Theta(ux\otimes v^{\mathrm{op}}-u\otimes(xv)^{\mathrm{op}}).
+ \label{eq:tensor-commutator}
+\end{equation}
+
+We extend $\tau$ to $H$ by $\tau(\xi):=\langle\Omega,\xi\rangle$.
+
+\subsection{The invariant \texorpdfstring{$\Delta$}{Delta} and free-field realization}\label{subsec:delta-tensor-maps}
+
+\Needspace{20\baselineskip}
+\begin{definition}\label{def:delta}
+The von Neumann tensor product $\M\bar\otimes\M^{\mathrm{op}}$, where $\M^{\mathrm{op}}$ is the opposite algebra, acts on $S_2(H)$ by
+\[
+ (a\otimes b^{\mathrm{op}})\cdot S:=aSb,\qquad a,b\in\M.
+\]
+For $X=(X_1,\ldots,X_d)\in\M^d$, set
+\[
+ \mathcal C_X:=
+ \left\{T=(T_1,\ldots,T_d)\in\F(H)^d:
+ \sum_{i=1}^d[\rho(X_i),T_i]=0\right\}.
+\]
+We call an element $T\in\mathcal C_X$ a \emph{finite-rank cycle}.
+Such tuples represent Hochschild $1$-cycles with Hilbert--Schmidt coefficients; see \cite{CS05}.
+Following \cite{CS05} and \cite[Section~3]{MSY23}, define
+\begin{equation}
+ \Delta(X):=d-\dim_{\M\bar\otimes\M^{\mathrm{op}}}
+ \overline{\mathcal C_X}^{\operatorname{HS}}.
+ \label{eq:delta-definition}
+\end{equation}
+The closure is taken in $S_2(H)^d$.
+The dimension is the von Neumann dimension \cite[Definition~1.10]{Luc02} for the product trace $(a\otimes b^{\mathrm{op}})\mapsto\tau(a)\tau(b)$; see also \cite[Definition~2.10]{CS05}.
+Thus $\Delta(X)\leq d$.
+\end{definition}
+
+We recall the finite-rank characterization of maximal $\Delta$ and the resulting free-field realization of the division closure, both from \cite{MSY23}.
+
+\begin{remark}\label{rem:cycle-characterization}
+By \cite[Section~3 and Remark~3.2]{MSY23}, for every $X\in\M^d$,
+\[
+ \Delta(X)=d
+ \quad\Longleftrightarrow\quad \mathcal C_X=\{0\}
+ \quad\Longleftrightarrow\quad
+ \left\{T\in\F(H)^d:\sum_i[T_i,X_i]=0\right\}=\{0\}.
+\]
+\end{remark}
+
+\begin{lemma}[{\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}}]
+\label{lem:free-field}
+If $\Delta(X)=d$, evaluation at $X$ extends to an embedding of the free field $\freefield{x_1,\ldots,x_d}$ into $L^0(\M)$.
+Its image is the division subring $\Div_{L^0(\M)}\A_X$.
+\end{lemma}
+
+If $\Delta(X)=d$, the rational closure and division closure of $\A_X$ in $L^0(\M)$ coincide \cite[Theorem~1.1 and Remark~5.10]{MSY23}.

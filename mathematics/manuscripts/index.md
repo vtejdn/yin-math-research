@@ -1,4 +1,3 @@
 # Manuscripts Index
 
-No entries are registered in this collection yet.
-See the [owning rule](../../framework/rules/writing.md#manuscript-index) for entry content, authority and maintenance.
+- [Affiliated rationality project](Yin_T_F0001/readme.md): [paper source and build instructions](Yin_T_F0001/paper/readme.md).

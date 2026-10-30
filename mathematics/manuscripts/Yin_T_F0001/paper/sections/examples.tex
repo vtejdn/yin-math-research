@@ -1,0 +1,34 @@
+\section{Examples}
+\label{sec:examples}
+
+A circular operator illustrates the distinction between the criteria in Theorems~\ref{thm:intrinsic-analytic} and~\ref{thm:analytic}.
+
+\begin{remark}\label{rem:normality}
+The normality assumption in Theorem~\ref{thm:analytic} cannot be omitted.
+Let $l_j,r_j$, $j=1,2$, be the left and right creation operators on a full Fock space with the vacuum vector $\Omega$.
+Their adjoints $l_j^*,r_j^*$ are the left and right annihilation operators, respectively.
+The operators $S_j:=l_j+l_j^*$ form a standard free semicircular pair; see \cite[5.13]{Voi98}.
+Set
+\[
+ c:=\frac{S_1+\mathrm iS_2}{\sqrt2},\qquad
+ \M:=W^*(c),\qquad
+ D:=-\frac{r_1^*-\mathrm i r_2^*}{\sqrt2}\in\B(H).
+\]
+The identities $[r_i^*,S_j]=\delta_{ij}P_\Omega$ give $[c,D]=P_\Omega$ and $[D,c^*]=0$.
+Thus, for every fraction pair $Q=(s,a,b,t)$ for $c^*$,
+\[
+ \Gamma[Q,D]=s[D,c^*]t=0\in\F(H).
+\]
+However, $c^*\notin\Div_{L^0(\M)}\C[c]$: every element of this division closure commutes with $c$, whereas $[c,c^*]=\mathrm i[S_2,S_1]\ne0$.
+
+The bounded dual $D$ also gives $\Delta(c)=1$ by \cite[Proposition~6.2]{MSY23}, so Theorem~\ref{thm:delta} still applies to $c$.
+Since $c^*$ is not rational in $c$, none of its equivalent conditions holds for $c^*$.
+In particular, the equation in Theorem~\ref{thm:delta}\textup{(\ref{item:delta-finite-rank})} has no finite-rank solution for any fraction pair for $c^*$.
+For every fraction pair $Q=(s,a,b,t)$ for $c^*$, $\Gamma[Q,D]=0$ and thus fails to solve this equation:
+\[
+ [\rho(c),\Gamma[Q,D]]=0
+ \ne s[P_\Omega,c^*]t=\Gamma[Q,P_\Omega].
+\]
+Here $[P_\Omega,c^*]\ne0$ since $c^*$ is centered and nonzero.
+Regularity makes $s$ injective and $t$ have dense range, so $s[P_\Omega,c^*]t\ne0$.
+\end{remark}

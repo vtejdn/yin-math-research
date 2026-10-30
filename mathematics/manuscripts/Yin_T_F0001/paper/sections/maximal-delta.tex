@@ -1,0 +1,283 @@
+% Complete proof of C_F0068 Part A, Sections 2--3; no Part B example.
+\section{Rationality under maximal \texorpdfstring{$\Delta$}{Delta}}\label{sec:maximal-delta}
+
+We prove Theorem~\ref{thm:delta} in this section.
+By Definition~\ref{def:psi}, $\Psi_i$ is right multiplication by $X_i\otimes1-1\otimes X_i^{\mathrm{op}}$.
+In particular,
+\begin{equation}\label{eq:psi-left-linearity}
+ \Psi_i(rk)=r\Psi_i(k),\qquad
+ r,k\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}.
+\end{equation}
+
+\begin{lemma}\label{lem:tensor-clearing}
+Given $k_1,\ldots,k_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$, there are regular $s,t\in\M$ such that
+\[
+ (s\otimes t^{\mathrm{op}})k_i
+ \in\M\otimes_{\C}\M^{\mathrm{op}}\qquad(1\leq i\leq d).
+\]
+\end{lemma}
+\begin{proof}
+For simplicity of notation, we give the calculation for simple tensors
+\[
+ k_i=u_i\otimes v_i^{\mathrm{op}},\qquad u_i,v_i\in L^0(\M).
+\]
+The same argument applies to general finite sums.
+Applying Lemma~\ref{lem:clearing} to $u_1,\ldots,u_d$ gives a regular $s\in\M$ such that
+\[
+ su_i\in\M\qquad(1\leq i\leq d).
+\]
+Applying its right-denominator assertion to $v_1,\ldots,v_d$ gives a regular $t\in\M$ such that
+\[
+ v_it\in\M\qquad(1\leq i\leq d).
+\]
+Then
+\[
+ (s\otimes t^{\mathrm{op}})k_i
+ =su_i\otimes(v_it)^{\mathrm{op}}
+ \in\M\otimes_{\C}\M^{\mathrm{op}}.
+\]
+\end{proof}
+
+\begin{lemma}\label{lem:tensor-injectivity}
+Suppose $\Delta(X)=d$.
+The map
+\[
+ (L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}})^d\longrightarrow
+ L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}},\qquad
+ (k_i)\longmapsto\sum_i\Psi_i(k_i)
+\]
+is injective.
+\end{lemma}
+\begin{proof}
+Suppose $\sum_i\Psi_i(k_i)=0$.
+Choose regular $s,t\in\M$ as in Lemma~\ref{lem:tensor-clearing} and set $T_i:=\Theta((s\otimes t^{\mathrm{op}})k_i)\in\F(H)$.
+By \eqref{eq:tensor-commutator} and \eqref{eq:psi-left-linearity},
+\[
+ \sum_i[\rho(X_i),T_i]
+ =\Theta\left((s\otimes t^{\mathrm{op}})\sum_i\Psi_i(k_i)\right)=0.
+\]
+Remark~\ref{rem:cycle-characterization} gives $T_i=0$ for every $i$.
+Injectivity of $\Theta$ implies $(s\otimes t^{\mathrm{op}})k_i=0$.
+Left multiplication by $s^{-1}\otimes(t^{-1})^{\mathrm{op}}$ then gives $k_i=0$.
+\end{proof}
+
+\begin{lemma}\label{lem:tensor-certificate}
+Let $Q=(s,a,b,t)$ be a fraction pair for $u\in L^0(\M)$, and let $\ell_1,\ldots,\ell_d\in H\otimes_{\C}H$.
+Set $T_i:=-\Theta(\ell_i)\in\F(H)$.
+Then
+\[
+ \sum_i\Psi_i(\ell_i)
+ =a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
+\]
+if and only if
+\[
+ \sum_i[\rho(X_i),T_i]=\Gamma[Q,P_\Omega].
+\]
+\end{lemma}
+\begin{proof}
+By \eqref{eq:tensor-commutator} and \eqref{eq:theta-bounded},
+\[
+ \sum_i[\rho(X_i),T_i]
+ =-\Theta\left(\sum_i\Psi_i(\ell_i)\right),
+ \qquad
+ \Gamma[Q,P_\Omega]
+ =-\Theta(a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}).
+\]
+The equivalence follows from the injectivity of $\Theta$.
+\end{proof}
+
+By Lemma~\ref{lem:free-field}, $\Div_{L^0(\M)}\A_X$ is a division subring of $L^0(\M)$ whenever $\Delta(X)=d$.
+We prove Theorem~\ref{thm:delta} through $(1)\implies(2)\implies(3)\implies(4)\implies(5)\implies(1)$.
+
+\begin{proof}[Proof of Theorem~\ref{thm:delta}]
+In this proof, set $U:=L^0(\M)$ and $F:=\Div_U\A_X$.
+
+$(1)\implies(2)$.
+By \cite[Theorem~1.1, (i) and (v)]{MSY23}, the assumption $\Delta(X)=d$ implies that $X_1,\ldots,X_d$ generate the free field: evaluation identifies $\freefield{x_1,\ldots,x_d}$ with $F$.
+The free difference quotients from Subsection~\ref{subsec:free-field}, transported through this evaluation isomorphism, define linear maps
+\[
+ \partial_i:F\longrightarrow F\otimes_{\C}F^{\mathrm{op}}.
+\]
+They satisfy the rules in equation~\eqref{eq:free-field-difference-rules} with $x_j$ replaced by $X_j$.
+Put $\delta v:=v\otimes1-1\otimes v^{\mathrm{op}}$.
+Direct expansion gives
+\[
+ \delta(v_1v_2)=(1\otimes v_2^{\mathrm{op}})\delta v_1+(v_1\otimes1)\delta v_2,
+ \qquad
+ \delta(v^{-1})=-(v^{-1}\otimes(v^{-1})^{\mathrm{op}})\delta v.
+\]
+For constants, $\delta c=0$, while for generators, $\delta X_j=\Psi_j(1\otimes1)=\sum_i\Psi_i(\partial_iX_j)$.
+We now show that this identity extends from constants and generators to all rational elements using the product and inverse rules.
+
+If $\delta v_\ell=\sum_i\Psi_i(\partial_i v_\ell)$ for $\ell=1,2$, the product rules and equation~\eqref{eq:psi-left-linearity} give
+\begin{align*}
+ \delta(v_1v_2)
+ &=(1\otimes v_2^{\mathrm{op}})\sum_i\Psi_i(\partial_i v_1)
+   +(v_1\otimes1)\sum_i\Psi_i(\partial_i v_2)\\
+ &=\sum_i\Psi_i\bigl((1\otimes v_2^{\mathrm{op}})\partial_i v_1
+                  +(v_1\otimes1)\partial_i v_2\bigr)\\
+ &=\sum_i\Psi_i\bigl(\partial_i(v_1v_2)\bigr).
+\end{align*}
+Similarly, if $0\ne v\in F$ satisfies $\delta v=\sum_i\Psi_i(\partial_i v)$, the inverse rules give
+\begin{align*}
+ \delta(v^{-1})
+ &=-(v^{-1}\otimes(v^{-1})^{\mathrm{op}})\sum_i\Psi_i(\partial_i v)\\
+ &=\sum_i\Psi_i\bigl(-(v^{-1}\otimes(v^{-1})^{\mathrm{op}})\partial_i v\bigr)\\
+ &=\sum_i\Psi_i\bigl(\partial_i(v^{-1})\bigr).
+\end{align*}
+Together with linearity, this shows that the elements satisfying the identity form a division subalgebra of $F$ containing $\C$ and $X_1,\ldots,X_d$.
+Since these generate $F$, the identity holds for every rational element $u\in F$.
+This proves equation~\eqref{eq:tensor-criterion} with $k_i:=\partial_i u$; thus assertion~\textup{(\ref{item:delta-tensors})} holds.
+Lemma~\ref{lem:tensor-injectivity} proves uniqueness of the tensors in assertion~\textup{(\ref{item:delta-tensors})}.
+
+$(2)\implies(3)$.
+Given tensors $k_i$ as in assertion~\textup{(2)}, for any fraction pair $Q=(s,a,b,t)$ set $\ell_i:=(s\otimes t^{\mathrm{op}})k_i$.
+By equation~\eqref{eq:psi-left-linearity},
+\[
+ \sum_i\Psi_i(\ell_i)
+ =(s\otimes t^{\mathrm{op}})
+   (u\otimes1-1\otimes u^{\mathrm{op}})
+ =a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}},
+\]
+so assertion~\textup{(\ref{item:delta-all-fraction-tensors})} holds.
+
+$(3)\implies(4)$.
+Choose a fraction pair $Q=(s,a,b,t)$ for $u$ and corresponding tensors $\ell_i$ in assertion~\textup{(3)}.
+By Lemma~\ref{lem:tensor-clearing}, there are regular $s',t'\in\M$ such that
+\[
+ (s'\otimes(t')^{\mathrm{op}})\ell_i
+ \in\M\otimes_{\C}\M^{\mathrm{op}}.
+\]
+By equation~\eqref{eq:psi-left-linearity} and equation~\eqref{eq:all-fraction-tensor-criterion},
+\[
+ \sum_i\Psi_i\bigl((s'\otimes(t')^{\mathrm{op}})\ell_i\bigr)
+ =s'a\otimes(tt')^{\mathrm{op}}-s's\otimes(bt')^{\mathrm{op}}.
+\]
+Since $(s's,s'a,bt',tt')$ is a fraction pair for $u$, assertion~\textup{(\ref{item:delta-bounded-fraction-tensors})} holds.
+
+For fixed $Q$, uniqueness in assertions \textup{(\ref{item:delta-all-fraction-tensors})} and \textup{(\ref{item:delta-bounded-fraction-tensors})} follows from Lemma~\ref{lem:tensor-injectivity}, applied to the difference of two solutions of equation~\eqref{eq:all-fraction-tensor-criterion}.
+
+$(4)\implies(5)$.
+Let $Q$ and $\ell_i$ be as in assertion~\textup{(\ref{item:delta-bounded-fraction-tensors})}.
+Lemma~\ref{lem:tensor-certificate} gives the finite-rank operators $T_i:=-\Theta(\ell_i)$ satisfying equation~\eqref{eq:certificate}.
+Thus assertion~\textup{(\ref{item:delta-finite-rank})} holds.
+
+$(5)\implies(1)$.
+Suppose assertion~\textup{(\ref{item:delta-finite-rank})} holds.
+Let $Q=(s,a,b,t)$ be the fraction pair and $T_1,\ldots,T_d\in\F(H)$ the operators satisfying equation~\eqref{eq:certificate}.
+Via $\Theta$, define a linear map $\pi:\F(H)\longrightarrow U\otimes_FU$ by
+\[
+ \pi(\Theta(v_1\otimes v_2^{\mathrm{op}})):=v_1\otimes_Fv_2,
+ \qquad v_1,v_2\in H.
+\]
+Note that $\Theta$ is a linear bijection, so $\pi$ is well defined.
+For a rank-one operator $\Theta(v_1\otimes v_2^{\mathrm{op}})$, equation~\eqref{eq:tensor-commutator} gives
+\begin{align*}
+ \pi\bigl([\rho(X_i),\Theta(v_1\otimes v_2^{\mathrm{op}})]\bigr)
+ &=(v_1X_i)\otimes_Fv_2-v_1\otimes_F(X_iv_2)\\
+ &=0.
+\end{align*}
+The last equality uses $X_i\in F$ and the balancing relation
+\[
+ (uf)\otimes_Fw=u\otimes_F(fw),\qquad u,w\in U,\quad f\in F.
+\]
+Every finite-rank operator is a finite sum of rank-one operators, so linearity gives $\pi([\rho(X_i),T])=0$ for every $T\in\F(H)$.
+
+Applying $\pi$ to equation~\eqref{eq:certificate} and using $\Theta(v_1\otimes v_2^{\mathrm{op}})=v_1P_\Omega v_2$ for $v_1,v_2\in\M$ (see equation~\eqref{eq:theta-bounded}), we obtain
+\begin{align*}
+ 0&=\pi\left(\sum_i[\rho(X_i),T_i]\right)\\
+  &=\pi(\Gamma[Q,P_\Omega])\\
+  &=\pi(sP_\Omega b-aP_\Omega t)\\
+  &=\pi\bigl(\Theta(s\otimes b^{\mathrm{op}})-\Theta(a\otimes t^{\mathrm{op}})\bigr)\\
+  &=s\otimes_Fb-a\otimes_Ft.
+\end{align*}
+Hence $a\otimes_Ft=s\otimes_Fb$.
+
+To clear the denominators, consider the map
+\[
+ \Phi_{s,t}:U\otimes_FU\longrightarrow U\otimes_FU,\qquad
+ \Phi_{s,t}(u\otimes_Fw):=s^{-1}u\otimes_Fwt^{-1}.
+\]
+It is well defined because it preserves the balancing relation.
+Applying $\Phi_{s,t}$ to $a\otimes_Ft=s\otimes_Fb$ yields
+\[
+ s^{-1}a\otimes_Ftt^{-1}=s^{-1}s\otimes_Fbt^{-1}.
+\]
+Since $u=s^{-1}a=bt^{-1}$, this is
+\[
+ u\otimes_F1=1\otimes_Fu.
+\]
+Lemma~\ref{lem:equalizer} therefore gives $u\in F=\Div_U\A_X$, so assertion~\textup{(1)} holds.
+
+For fixed $Q$, let $(T_1,\ldots,T_d)$ and $(S_1,\ldots,S_d)$ be two finite-rank solutions of equation~\eqref{eq:certificate}.
+Their right-hand sides are both $\Gamma[Q,P_\Omega]$, so subtraction gives
+\begin{align*}
+ \sum_i[\rho(X_i),T_i-S_i]
+ &=\sum_i[\rho(X_i),T_i]-\sum_i[\rho(X_i),S_i]=0.
+\end{align*}
+Each $T_i-S_i$ has finite rank.
+Since $\Delta(X)=d$, Remark~\ref{rem:cycle-characterization} implies $T_i-S_i=0$ for every $i$.
+Hence the two tuples coincide, proving uniqueness of the finite-rank solution tuple for the fixed fraction pair $Q$.
+
+\end{proof}
+
+\begin{remark}\label{rem:boundary-interpretation}
+Equip $L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ with the $L^0(\M)$-bimodule structure defined, for $u,v\in L^0(\M)$ and $k\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$, by
+\[
+ u\cdot k\cdot v:=k(v\otimes u^{\mathrm{op}}).
+\]
+The degree-one Hochschild differential with these coefficients \cite[Section~9.1.1, p.~300]{Wei94} is the map
+\[
+ d_1:\bigl(L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}\bigr)
+ \otimes_{\C}L^0(\M)
+ \longrightarrow L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}
+\]
+given by
+\[
+ d_1(k\otimes u):=k\cdot u-u\cdot k
+ =k(u\otimes1-1\otimes u^{\mathrm{op}}).
+\]
+Put $V_X:=\operatorname{span}_{\C}\{X_1,\ldots,X_d\}$.
+Restricting the last tensor factor to $V_X$, we obtain
+\[
+ \partial_X:
+ \bigl(L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}\bigr)
+ \otimes_{\C}V_X
+ \longrightarrow L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}},
+ \qquad \partial_X:=d_1|_{(L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}})\otimes_{\C}V_X}.
+\]
+By Definition~\ref{def:psi},
+\[
+ \partial_X\!\left(\sum_i k_i\otimes X_i\right)
+ =\sum_i\Psi_i(k_i).
+\]
+This restriction to the linear span of the generators follows \cite[Section~3.1.1, equation~(3.1)]{CS05}, with $L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ as the coefficient bimodule.
+Thus condition~\textup{(\ref{item:delta-tensors})} in Theorem~\ref{thm:delta} requires $u\otimes1-1\otimes u^{\mathrm{op}}$ to lie in the image of $\partial_X$.
+
+Similarly, equip $\F(H)$ with the $\A_X$-bimodule structure
+\[
+ x\cdot T\cdot y:=\rho(y)T\rho(x),
+ \qquad x,y\in\A_X,\quad T\in\F(H).
+\]
+The degree-one Hochschild differential is then
+\[
+ d_1:\F(H)\otimes_{\C}\A_X\longrightarrow\F(H),
+ \qquad d_1(T\otimes x):=T\cdot x-x\cdot T=[\rho(x),T].
+\]
+Since $\A_X$ is generated by $X_1,\ldots,X_d$, the identity
+\[
+ [\rho(xy),T]
+ =[\rho(y),\rho(x)T]+[\rho(x),T\rho(y)]
+\]
+shows, by induction on monomials, that restricting the last tensor factor to $V_X$ gives the full image of $d_1$:
+\[
+ \operatorname{im}d_1
+ =d_1\bigl(\F(H)\otimes_{\C}V_X\bigr)
+ =\left\{\sum_{i=1}^d[\rho(X_i),T_i]:T_i\in\F(H)\right\}.
+\]
+Condition \eqref{eq:certificate} is therefore
+\[
+ d_1\!\left(\sum_iT_i\otimes X_i\right)=\Gamma[Q,P_\Omega].
+\]
+Thus $\Gamma[Q,P_\Omega]$ is a boundary, or equivalently its class vanishes in $H_0(\A_X,\F(H)):=\F(H)/\operatorname{im}d_1$.
+\end{remark}

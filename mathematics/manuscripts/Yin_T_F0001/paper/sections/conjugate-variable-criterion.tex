@@ -1,0 +1,323 @@
+% Proof inputs: C_F0082 and C_F0063 Appendix A for liberation contractions;
+% C_F0025 for normal phase and C_F0080 for the arcsine obstruction.
+\section{Applications to liberation gradients and conjugate variables}
+\label{sec:conjugate-variable-criterion}
+
+We first apply Theorem~\ref{thm:intrinsic-analytic} to normal generators with $L^2$ liberation gradients and nonatomic spectral distributions.
+We then obtain the criterion for generators admitting conjugate variables as a corollary.
+
+\subsection{Liberation gradients}\label{subsec:liberation-gradients}
+
+We use the $L^2$ formulation of Voiculescu's liberation gradients in \cite[5.3--5.4 and Proposition~6.1]{Voi99}.
+\begin{definition}\label{def:liberation-gradients}
+Let $X=(X_1,\ldots,X_d)\in\M^d$ generate $\M$, and set
+\[
+ A_i:=W^*(X_i),\qquad B_i:=W^*(X_j:j\ne i),\qquad
+ \mathcal P_i:=\operatorname{Alg}(A_i,B_i)
+ \quad(1\leq i\leq d),
+\]
+where $B_1:=\C1$ if $d=1$.
+We say that $X$ admits \emph{$L^2$ liberation gradients} if the derivations
+\[
+ \gamma_i:\mathcal P_i\subset H\longrightarrow
+          \mathcal P_i\otimes_{\C}\mathcal P_i,\qquad
+ \gamma_i(a):=a\otimes1-1\otimes a\quad(a\in A_i),\qquad
+ \gamma_i(b):=0\quad(b\in B_i),
+\]
+are well-defined and $1\otimes1\in\dom\gamma_i^*$ for every $i$.
+Here $\gamma_i^*$ is the Hilbert space adjoint for the dense domain $\mathcal P_i\Omega$ and the target $H\bar\otimes H$.
+The liberation gradients $j_i:=j(A_i:B_i):=-\gamma_i^*(1\otimes1)\in H$ satisfy
+\[
+ j_i^*=-j_i,\qquad
+ \tau(j_ip)=(\tau\otimes\tau)(\gamma_ip)
+ \quad(p\in\mathcal P_i).
+\]
+\end{definition}
+This condition is equivalent to finiteness of the liberation Fisher information
+$\varphi^*(A_1;\ldots;A_d):=\sum_i\|j_i\|_2^2$ in \cite[Definition~9.1]{Voi99}.
+
+The following construction supplies the operators needed for Theorem~\ref{thm:intrinsic-analytic}.
+\begin{lemma}\label{lem:gradient-liberation}
+If $X$ admits $L^2$ liberation gradients in the sense of Definition~\ref{def:liberation-gradients}, then $X$ admits a normalized liberation dual system.
+\end{lemma}
+\begin{proof}
+Fix $i$, and define on $\mathcal P_i$
+\[
+ \delta_i:=\mathrm i\gamma_i,\qquad
+ C_i^\circ(p\Omega):=(\id\otimes\tau)\delta_ip,\qquad
+ \eta:=\mathrm i j_i.
+\]
+Then $\delta_i^*(1\otimes1)=\eta$.
+The prescriptions on $A_i,B_i$ and the product rule show that $\delta_i$ is real:
+$\delta_i(p^*)=(\delta_ip)^\dagger$, where $(u\otimes v)^\dagger:=v^*\otimes u^*$.
+By \cite[Lemmas~4.6--4.7]{Mai15}, $\eta=\eta^*$, the algebraic tensor product $\mathcal P_i\otimes_{\C}\mathcal P_i$ is contained in $\dom\delta_i^*$, and
+\[
+ \langle C_i^\circ p,q\rangle=\langle p,q\eta-C_i^\circ q\rangle
+ \qquad(p,q\in\mathcal P_i).
+\]
+In particular, both $\delta_i$ and $C_i^\circ$ are closable.
+We adapt the argument in \cite[proof of Lemma~12]{Dab10}.
+For $\delta_i p=\sum_r u_r\otimes v_r$, the prescriptions on $A_i,B_i$ and the product rule give
+\[
+ (\delta_i\otimes\id)\delta_i p-(\id\otimes\delta_i)\delta_i p
+ =\mathrm i\sum_r u_r\otimes1\otimes v_r.
+\]
+Indeed, the mixed product-rule terms cancel, and the two sides agree on $A_i$ and $B_i$.
+Since $C_i^\circ(\mathcal P_i)\subseteq\mathcal P_i$, applying $\id\otimes\tau\otimes\tau$ and using $\delta_i^*(1\otimes1)=\eta$ gives
+\[
+ (C_i^\circ)^2p=\sum_r u_r\tau(v_r\eta)+\mathrm iC_i^\circ p.
+\]
+The preceding integration by parts identity and the expansion of $\delta_i(p^*p)$ yield
+\begin{equation}\label{eq:liberation-energy}
+ \|C_i^\circ p\|_2^2
+ =2\operatorname{Re}\langle C_i^\circ p,p\eta\rangle
+  -\langle\delta_i(p^*p),1\otimes\eta\rangle
+  -\langle\mathrm iC_i^\circ p,p\rangle.
+\end{equation}
+
+For $a=a^*\in\mathcal P_i$ with $\|a\|<1$, set $v:=a+\mathrm i(1-a^2)^{1/2}$.
+The polynomial partial sums $v_n$ of its power series converge in operator norm.
+The series for $\delta_i v_n$ and $\delta_i(v_n^*)$ converge in $H\bar\otimes H$, since $\|\delta_i(a^n)\|_2\leq n\|a\|^{n-1}\|\delta_i a\|_2$.
+The product rule shows that $\delta_i(v_n^*v_n)$ converges, while $v_n^*v_n\to1$ in operator norm.
+Closedness of $\overline{\delta_i}$ therefore gives $\delta_i(v_n^*v_n)\to0$.
+Taking real parts and passing to the limit in \eqref{eq:liberation-energy}, with $\|v\|_2=1$, gives
+\[
+ \lim_n\|C_i^\circ v_n\|_2\leq2\|\eta\|_2+1.
+\]
+Apply the same argument to $v^*$; averaging via $a=(v+v^*)/2$, rescaling and splitting real and imaginary parts give, for some $K_i>0$,
+\[
+ \|C_i^\circ p\|_2\leq K_i\|p\|\qquad(p\in\mathcal P_i).
+\]
+
+The integration by parts identity shows that $\mathcal P_i\Omega\subseteq\dom(C_i^\circ)^*$ and
+\[
+ (C_i^\circ)^*(p\Omega)=p\eta-C_i^\circ(p\Omega),\qquad
+ \|(C_i^\circ)^*(p\Omega)\|_2\leq(K_i+\|\eta\|_2)\|p\|
+ \quad(p\in\mathcal P_i).
+\]
+Put $C_i:=\overline{C_i^\circ}$.
+For $x\in\M$, Kaplansky density \cite[Theorem~2.3.1]{AP18} gives a uniformly bounded net $p_\lambda\in\mathcal P_i$ with $p_\lambda\Omega\to x\Omega$.
+The estimate for $C_i^\circ p_\lambda$ gives a weakly convergent subnet in $H$.
+The graph of $C_i$ is a closed linear subspace of $H\oplus H$ and hence is weakly closed, so $x\Omega\in\dom C_i$.
+Applying the same argument to the bound for $(C_i^\circ)^*p_\lambda$ gives $x\Omega\in\dom C_i^*$.
+Thus
+\[
+ \M\Omega\subseteq\dom C_i\cap\dom C_i^*.
+\]
+On $\mathcal P_i\Omega$, the product rule and the values of $\delta_i$ give
+\[
+ [C_i^\circ,X_j]=\mathrm i\delta_{ij}[X_i,P_\Omega].
+\]
+Since $\mathcal P_i\Omega$ is a core for $C_i$ and the right-hand side is bounded, approximation in the graph norm extends this identity to $\dom C_i$, with $X_j\dom C_i\subseteq\dom C_i$.
+In particular it holds on $\M\Omega$.
+Set $L_i:=\mathrm iC_i$.
+Then both $\dom L_i$ and $\dom L_i^*$ contain $\M\Omega$, and
+\[
+ [X_j,L_i]|_{\M\Omega}=\delta_{ij}[X_i,P_\Omega]|_{\M\Omega}.
+\]
+This is a liberation dual system.
+Lemma~\ref{lem:liberation-normalization} supplies a normalized system.
+\end{proof}
+
+For normal generators, nonatomicity supplies the remaining regularity hypothesis of Theorem~\ref{thm:intrinsic-analytic}.
+\begin{proposition}\label{prop:liberation-gradients}
+Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, each with nonatomic spectral distribution.
+Suppose that $X$ admits $L^2$ liberation gradients in the sense of Definition~\ref{def:liberation-gradients}.
+Then $\Delta(X)=d$, and $X$ admits a normalized liberation dual system.
+For any such system, all the conclusions of Theorem~\ref{thm:intrinsic-analytic} hold.
+In particular, for every $u\in L^0(\M)$ and every fraction pair $Q$ for $u$, we have $u\in\Div_{L^0(\M)}\A_X$ if and only if there exist $T_1,\ldots,T_d\in\F(H)$ such that
+\[
+ \sum_i[\rho(X_i),T_i]=\Gamma[Q,P_\Omega].
+\]
+For each fixed $Q$, the tuple $(T_1,\ldots,T_d)$ is unique whenever it exists.
+\end{proposition}
+\begin{proof}
+Lemma~\ref{lem:gradient-liberation} gives a normalized liberation dual system.
+Normality and nonatomicity imply that every $X_i-\lambda$, $\lambda\in\C$, is regular.
+Theorem~\ref{thm:intrinsic-analytic} gives the criterion and uniqueness, and Proposition~\ref{prop:liberation-delta} gives $\Delta(X)=d$.
+\end{proof}
+
+\subsection{Conjugate variables}\label{subsec:ordinary-conjugates}
+
+We now deduce the ordinary conjugate-variable case.
+We use the following formulation, as in \cite[Proposition~3.5]{ACSY24}.
+
+\begin{definition}\label{def:conjugate-variables}
+Let $X=(X_1,\ldots,X_d)\in\M^d$ generate $\M$, and write
+\[
+ \A_X^\ast:=\C\langle X_1,\ldots,X_d,X_1^*,\ldots,X_d^*\rangle.
+\]
+We say that $X$ admits \emph{conjugate variables} if there exist non-commutative derivations
+\[
+ \partial_i:\A_X^\ast\subset H\longrightarrow H\bar\otimes H
+ \qquad(1\leq i\leq d)
+\]
+such that
+\begin{equation}
+ \partial_i(X_j)=\delta_{ij}1\otimes1,\qquad
+ 1\otimes1\in\dom\partial_i^*
+ \quad(1\leq i,j\leq d).
+ \label{eq:normal-conjugate-condition}
+\end{equation}
+The vectors $\xi_i:=\partial_i^*(1\otimes1)\in H$ are called conjugate variables for $X$.
+\end{definition}
+
+The following commutator equation will identify the derivatives of the adjoint generators.
+For a normal operator $x\in\M$ with nonatomic spectral distribution $\mu$, define in $L^2(\mu)\bar\otimes L^2(\mu)\subseteq H\bar\otimes H$
+\begin{equation}\label{eq:normal-phase-kernel}
+ v_x(z,w):=
+ \begin{cases}
+  (\bar z-\bar w)/(z-w),&z\ne w,\\
+  0,&z=w,
+ \end{cases}
+ \qquad K_x:=\Theta(v_x)\in S_2(H).
+\end{equation}
+
+\begin{lemma}\label{lem:normal-adjoint-uniqueness}
+Let $x\in\M$ be a normal operator with nonatomic spectral distribution $\mu$.
+For every $c\in\C$, the equation
+\[
+ [K,x]=c[P_\Omega,x^*]
+\]
+has the unique solution $K=cK_x$ in $S_2(H)$.
+\end{lemma}
+\begin{proof}
+The diagonal has $\mu\otimes\mu$ measure zero and $|v_x|=1$ off it.
+Multiplication of its kernel gives
+\[
+ [K_x,x]=[P_\Omega,x^*].
+\]
+If two solutions differ by $S\in S_2(H)$, then $[S,x]=0$.
+The classical Fuglede theorem gives $[S,x^*]=0$, so the positive compact operator $S^*S$ commutes with $x$.
+If $S\ne0$, a positive eigenvalue of $S^*S$ has a nonzero finite-dimensional eigenspace invariant under $x$.
+The restriction of $x$ to this space has an eigenvector, contrary to the absence of spectral atoms.
+Thus $S=0$.
+\end{proof}
+
+We next verify the hypotheses of Proposition~\ref{prop:liberation-gradients}.
+\begin{lemma}\label{lem:conjugate-liberation}
+Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$.
+Suppose that $X$ admits conjugate variables in the sense of Definition~\ref{def:conjugate-variables}.
+Then each $X_j$ has nonatomic spectral distribution, and $X$ admits $L^2$ liberation gradients.
+\end{lemma}
+\begin{proof}
+Choose derivations $\partial_1,\ldots,\partial_d$ as in Definition~\ref{def:conjugate-variables}.
+By \cite[Lemma~3.3]{ACSY24}, the algebraic tensor product $\A_X^\ast\otimes_{\C}\A_X^\ast$ is contained in $\dom\partial_i^*$, so each $\partial_i$ is closable.
+Fix $i$, $\lambda\in\C$ and $\varepsilon>0$, and set
+\[
+ y:=X_i-\lambda,\qquad e:=1_{\{\lambda\}}(X_i),\qquad
+ r_\varepsilon:=(y^*y+\varepsilon^2)^{-1},\qquad
+ f_\varepsilon:=\varepsilon^2yr_\varepsilon.
+\]
+To check the domains, choose $R>\|y\|^2+\varepsilon^2$ and put $q:=1-R^{-1}(y^*y+\varepsilon^2)\in\A_X^\ast$.
+Then $\|q\|<1$ and
+\[
+ r_\varepsilon=R^{-1}\sum_{n=0}^\infty q^n,\qquad
+ \|\partial_i(q^n)\|_2
+ \leq n\|q\|^{n-1}\|\partial_i q\|_2
+ \quad(n\geq1).
+\]
+The partial sums converge in operator norm and their images under $\partial_i$ converge in $H\bar\otimes H$.
+Thus $r_\varepsilon\in\dom\overline{\partial_i}$, with
+\[
+ \overline{\partial_i}r_\varepsilon
+ =-r_\varepsilon\cdot
+   \bigl(\partial_i(y^*)\cdot y+y^*\cdot\partial_i y\bigr)
+   \cdot r_\varepsilon.
+\]
+Multiplying the partial sums by $\varepsilon^2y$ and using the product rule also gives $f_\varepsilon\in\dom\overline{\partial_i}$.
+Since $y$ is normal, $yr_\varepsilon y^*=1-\varepsilon^2r_\varepsilon$, and hence
+\begin{align*}
+ \overline{\partial_i}f_\varepsilon
+ &=\varepsilon^4r_\varepsilon\cdot\partial_i y\cdot r_\varepsilon
+   -\varepsilon^2yr_\varepsilon\cdot\partial_i(y^*)\cdot yr_\varepsilon\\
+ &=(\varepsilon^2r_\varepsilon)\otimes(\varepsilon^2r_\varepsilon)
+   -(\varepsilon yr_\varepsilon)\cdot\partial_i(y^*)
+     \cdot(\varepsilon yr_\varepsilon).
+\end{align*}
+Spectral calculus gives
+\[
+ \|\varepsilon^2r_\varepsilon\|\leq1,\qquad
+ \|\varepsilon yr_\varepsilon\|\leq\tfrac12,\qquad
+ \varepsilon^2r_\varepsilon\longrightarrow e,\qquad
+ \varepsilon yr_\varepsilon\longrightarrow0
+ \quad\text{strongly as }\varepsilon\downarrow0.
+\]
+Consequently, $\overline{\partial_i}f_\varepsilon\to e\otimes e$ in $H\bar\otimes H$.
+On the other hand, $\|f_\varepsilon\|\leq\varepsilon/2$, so $f_\varepsilon\to0$ in $H$.
+Closedness of $\overline{\partial_i}$ gives $e\otimes e=0$, and faithfulness of $\tau$ gives $e=0$.
+Since $i$ and $\lambda$ were arbitrary, every $X_j$ has nonatomic spectral distribution.
+Fix $i$, and write $\xi_i:=\partial_i^*(1\otimes1)$.
+The map $\Psi_i$ acts on $H\bar\otimes H$ by the same formula.
+On $\A_X^\ast$, define $\gamma_i^\circ:=\Psi_i\partial_i$.
+Differentiating $X_jX_j^*=X_j^*X_j$ and applying Lemma~\ref{lem:normal-adjoint-uniqueness} gives $\partial_iX_j^*=\delta_{ij}v_{X_j}$, hence
+\[
+ \begin{aligned}
+  \gamma_i^\circ(X_j)&=\delta_{ij}(X_j\otimes1-1\otimes X_j),\\
+  \gamma_i^\circ(X_j^*)&=\delta_{ij}(X_j^*\otimes1-1\otimes X_j^*).
+ \end{aligned}
+\]
+Since $\Psi_i$ commutes with the outer bimodule actions, $\gamma_i^\circ$ is a derivation with algebraic tensor values, and these identities make it anti-real.
+The tensor-adjoint formula \cite[Lemma~4.3]{Mai15} gives
+\[
+ (\gamma_i^\circ)^*(1\otimes1)=[X_i^*,\xi_i].
+\]
+Consequently, $j_i:=[\xi_i,X_i^*]\in H$ is skewadjoint and satisfies
+\[
+ \tau(j_ip)=(\tau\otimes\tau)(\gamma_i^\circ p)
+ \qquad(p\in\A_X^\ast).
+\]
+
+The corresponding word-moment formula holds for the algebras $\C[X_i,X_i^*]$ and $\C\langle X_j,X_j^*:j\ne i\rangle$.
+By bounded Kaplansky approximation in each factor, it extends to $A_i=W^*(X_i)$ and $B_i=W^*(X_j:j\ne i)$, with the same $j_i$; see \cite[Remark~5.5(c)]{Voi99}.
+To check well-definedness, let $r$ be a formal relation between $A_i$ and $B_i$ that evaluates to zero, and let $\widetilde\gamma_i(r)$ be its evaluated formal tensor derivative.
+Applying the word-moment formula to $urv$ and using the product rule gives
+\[
+ (\tau\otimes\tau)\bigl(u\cdot\widetilde\gamma_i(r)\cdot v\bigr)=0
+ \qquad(u,v\in\mathcal P_i).
+\]
+The other product-rule terms contain the vanishing factor $r$.
+The faithful product-trace pairing therefore gives $\widetilde\gamma_i(r)=0$, so the derivation descends to $\mathcal P_i=\operatorname{Alg}(A_i,B_i)$.
+The resulting $L^2$ moment identity gives
+$1\otimes1\in\dom\gamma_i^*$ and $\gamma_i^*(1\otimes1)=-j_i$.
+Thus $X$ admits $L^2$ liberation gradients in the sense of Definition~\ref{def:liberation-gradients}.
+\end{proof}
+
+\begin{corollary}\label{prop:normal-conjugates}
+Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$.
+Suppose that $X$ admits conjugate variables in the sense of Definition~\ref{def:conjugate-variables}.
+Then all the conclusions of Proposition~\ref{prop:liberation-gradients} hold.
+In particular, $\Delta(X)=d$, and for any normalized liberation dual system for $X$, all the conclusions of Theorem~\ref{thm:intrinsic-analytic} hold.
+\end{corollary}
+\begin{proof}
+Lemma~\ref{lem:conjugate-liberation} gives nonatomic spectral distributions and $L^2$ liberation gradients, so Proposition~\ref{prop:liberation-gradients} applies.
+\end{proof}
+
+% Proof input: C_F0080, monomial obstruction to the vacuum adjoint condition.
+\begin{remark}\label{rem:liberation-without-conjugates}
+The existence of a liberation dual system does not imply the existence of conjugate variables, even for normal generators with nonatomic spectral distributions.
+Indeed, let
+\[
+ d\mu(x):=\frac{dx}{\pi\sqrt{1-x^2}}\quad(-1<x<1),\qquad
+ \M:=L^\infty((-1,1),\mu),\qquad \tau(f):=\int f\,d\mu,
+\]
+and let $X(x):=x$.
+Then $X=X^*$ generates $\M$ and has nonatomic spectral distribution, so every $X-\lambda$, $\lambda\in\C$, is regular.
+Taking $L:=P_\Omega$ gives a normalized liberation dual system, since $[X,L]=[X,P_\Omega]$ and $L$ is bounded on $H$.
+The liberation derivation relative to scalars is $a\mapsto a\otimes1-1\otimes a$, whose trace pairing is zero, so $j(W^*(X):\C)=0$ and Proposition~\ref{prop:liberation-gradients} applies.
+
+Suppose that $X$ admits a conjugate variable in the sense of Definition~\ref{def:conjugate-variables}, and choose the corresponding derivation $\partial$.
+Since $\partial X=1\otimes_{\C}1$, the product rule and the moments $\tau(X^{2r})=4^{-r}\binom{2r}{r}$ and $\tau(X^{2r+1})=0$ give
+\[
+ (\tau\otimes\tau)(\partial X^{2n+1})
+ =4^{-n}\sum_{r=0}^{n}\binom{2r}{r}\binom{2n-2r}{n-r}=1,
+\]
+where the last equality follows by comparing coefficients in $(1-z)^{-1/2}(1-z)^{-1/2}=(1-z)^{-1}$.
+On the other hand, $\|X^{2n+1}\|_2\to0$ by dominated convergence.
+Thus $\xi:=\partial^*(1\otimes_{\C}1)\in H$ would satisfy
+\[
+ 1=\bigl|(\tau\otimes\tau)(\partial X^{2n+1})\bigr|
+ \leq\|\xi\|_2\,\|X^{2n+1}\|_2\longrightarrow0,
+\]
+a contradiction.
+\end{remark}

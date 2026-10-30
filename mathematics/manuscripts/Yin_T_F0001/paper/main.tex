@@ -1,0 +1,68 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem*{remark*}{Remark}
+\newcommand{\C}{\mathbb C}
+\newcommand{\N}{\mathbb N}
+\newcommand{\B}{\mathcal B}
+\newcommand{\A}{\mathcal A}
+\newcommand{\M}{\mathcal M}
+\newcommand{\R}{\mathcal R}
+\newcommand{\HH}{\mathcal H}
+\newcommand{\F}{\mathcal F}
+\newcommand{\bF}{\mathbb F}
+%%%%%% brackets for the free field
+\makeatletter
+\def\moverlay{\mathpalette\mov@rlay}
+\def\mov@rlay#1#2{\leavevmode\vtop{%
+\baselineskip\z@skip \lineskiplimit-\maxdimen
+\ialign{\hfil$#1##$\hfil\cr#2\crcr}}}
+\makeatother
+\def\plangle{\moverlay{(\cr<}}
+\def\prangle{\moverlay{)\cr>}}
+\newcommand{\freefield}[1]{\C\mathopen{\plangle}#1\mathclose{\prangle}}
+\newcommand{\Div}{\operatorname{Div}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\dom}{\operatorname{Dom}}
+\newcommand{\Ker}{\operatorname{Ker}}
+\newcommand{\Image}{\operatorname{Im}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\hotimes}{\mathbin{\widehat{\otimes}}}
+\newcommand{\id}{\operatorname{id}}
+\newcommand{\dist}{\operatorname{dist}}
+\title[Rationality from maximal $\Delta$ and dual systems]{Rationality criteria from maximal $\Delta$\\and dual systems}
+\date{\today}
+\subjclass[2020]{46L54, 46L52, 16K40}
+\keywords{Free field, affiliated operator, dual system, conjugate variable, finite-rank commutator}
+\begin{document}
+\begin{abstract}
+Let $X:=(X_1,\ldots,X_d)$ be a tuple in a tracial $W^*$-probability space.
+We establish three criteria for affiliated operators to be rational in $X$, each with several equivalent characterizations.
+The first criterion is of algebraic nature and assumes only $\Delta(X)=d$ for $X$.
+From it, we derive a second criterion of an analytic nature using liberation dual systems.
+When $X$ consists of normal generators and admits a dual system, we obtain a third criterion that further refines the second in terms of finite-rank fraction commutators, thereby extending the rationality criteria of Duchamp and Reutenauer, Linnell, and Miyagawa for affiliated operators.
+\end{abstract}
+\maketitle
+\input{sections/introduction}
+\input{sections/preliminaries}
+\input{sections/maximal-delta}
+\input{sections/liberation-dual-system-criterion}
+\input{sections/dual-system-criterion}
+\input{sections/conjugate-variable-criterion}
+\input{sections/examples}
+\bibliographystyle{amsalpha}
+\bibliography{references}
+\end{document}

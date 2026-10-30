@@ -1,0 +1,239 @@
+% Provenance: C_F0031 and C_F0068 Part C, finite-rank closure and domains.
+\section{Dual system criterion}
+\label{sec:dual-system-criterion}
+
+We prove Theorem~\ref{thm:analytic} by applying the liberation dual system criterion of Theorem~\ref{thm:intrinsic-analytic}.
+We first prove that the existence of a finite-rank closure and its rank are independent of the fraction pair, and identify finite-rank solutions of equation~\eqref{eq:certificate} with the closures of the corresponding fraction commutators.
+We then construct a normalized liberation dual system directly from the dual operators and apply assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} of Theorem~\ref{thm:intrinsic-analytic}.
+
+The following lemma supplies the domain facts needed for the fraction commutators.
+\begin{lemma}\label{lem:fraction-domains}
+Let \(D_1,\ldots,D_d\) be densely defined linear operators on \(H\) such that
+\[\M\Omega\subseteq\dom D_i\cap\dom D_i^*\]
+for \(1\leq i\leq d\).
+For every \(u\in L^0(\M)\), every fraction pair \(Q\) of \(u\), and every \(i\), the operator \(\Gamma[Q,D_i]\) is closable and densely defined.
+\end{lemma}
+\begin{proof}
+Fix \(i\) and write \(Q=(s,a,b,t)\).
+Since \(b,t\in\M\) preserve \(\M\Omega\), the domain of \(\Gamma[Q,D_i]\) contains \(\M\Omega\).
+For \(\eta\in\M\Omega\) and \(\xi\in\dom\Gamma[Q,D_i]\), the hypothesis of the lemma gives
+\begin{equation}\label{eq:defect-adjoint}
+ \langle\eta,\Gamma[Q,D_i]\xi\rangle
+ =\left\langle
+ b^*D_i^*(s^*\eta)-t^*D_i^*(a^*\eta),\xi
+ \right\rangle.
+\end{equation}
+Thus \(\M\Omega\subseteq\dom(\Gamma[Q,D_i])^*\), so \(\Gamma[Q,D_i]\) is closable.
+\end{proof}
+
+The next lemma allows us to pass from one fraction pair to every fraction pair before applying Theorem~\ref{thm:intrinsic-analytic}.
+
+\begin{lemma}\label{lem:fraction-ranks}
+Let $D$ be a densely defined linear operator on $H$ such that
+$\M\Omega\subseteq\dom D\cap\dom D^*$.
+For $u\in L^0(\M)$ and any two fraction pairs $Q,Q'$ for $u$,
+\[
+ \overline{\Gamma[Q,D]}\in\F(H)
+ \quad\Longleftrightarrow\quad
+ \overline{\Gamma[Q',D]}\in\F(H).
+\]
+When these conditions hold, the two closures have the same rank.
+\end{lemma}
+\begin{proof}
+Write $Q=(s,a,b,t)$ and $Q'=(s',a',b',t')$.
+Lemma~\ref{lem:common} gives regular $x,y,p,q\in\M$ such that $xs=ys'$ and $tp=t'q$.
+Since $xa=ya'$ and $bp=b'q$, we have on $\M\Omega$
+\begin{equation}\label{eq:fraction-common-comparison}
+ x\Gamma[Q,D]p=y\Gamma[Q',D]q.
+\end{equation}
+Suppose that $\overline{\Gamma[Q,D]}\in\F(H)$.
+The left-hand side of equation~\eqref{eq:fraction-common-comparison} has finite rank, and $y$ is injective.
+Thus the restriction of $\Gamma[Q',D]$ to the dense subspace $q\M\Omega$ has finite rank.
+It is closable by Lemma~\ref{lem:fraction-domains}, so Lemma~\ref{lem:finite-closure} makes its closure a bounded finite-rank operator on all of $H$.
+The closure of $\Gamma[Q',D]$ extends this operator and hence equals it.
+Interchanging $Q$ and $Q'$ proves the equivalence.
+
+Both closures are now bounded, so equation~\eqref{eq:fraction-common-comparison} extends to
+\[
+ x\overline{\Gamma[Q,D]}p=y\overline{\Gamma[Q',D]}q
+ \qquad\text{on }H.
+\]
+The left factors $x,y$ are injective, while $p,q$ have dense range.
+These multiplications preserve the rank of a bounded finite-rank operator, proving the rank equality.
+\end{proof}
+
+We next identify any finite-rank solution of equation~\eqref{eq:certificate} with the fraction commutators of a dual system.
+
+\begin{lemma}\label{lem:finite-rank-identification}
+Let $X=(X_1,\ldots,X_d)\in\M^d$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
+Let $Q$ be a fraction pair for $u\in L^0(\M)$.
+If $T_1,\ldots,T_d\in\F(H)$ satisfy
+\[
+ \sum_j[\rho(X_j),T_j]=\Gamma[Q,P_\Omega],
+\]
+then $\overline{\Gamma[Q,D_i]}=T_i$ for every $i$.
+\end{lemma}
+\begin{proof}
+Write $Q=(s,a,b,t)$ and put $\ell_j:=-\Theta^{-1}(T_j)\in H\otimes_{\C}H$.
+By Lemma~\ref{lem:tensor-certificate},
+\[
+ \sum_j\Psi_j(\ell_j)=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}.
+\]
+Lemma~\ref{lem:tensor-clearing} gives regular $s',t'\in\M$ such that
+$\ell_j':=(s'\otimes(t')^{\mathrm{op}})\ell_j\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $j$.
+Equation~\eqref{eq:psi-left-linearity} gives
+\[
+ \sum_j\Psi_j(\ell_j')
+ =s'a\otimes(tt')^{\mathrm{op}}-s's\otimes(bt')^{\mathrm{op}}.
+\]
+For fixed $i$ and $\xi\in\M\Omega$, apply to this equality the linear map
+\[
+ \M\otimes_{\C}\M^{\mathrm{op}}\longrightarrow H,\qquad
+ c\otimes e^{\mathrm{op}}\longmapsto cD_i(e\xi).
+\]
+All inputs of $D_i$ lie in $\M\Omega$, and the dual relations give
+\[
+ cX_jD_i(e\xi)-cD_i(X_je\xi)=\delta_{ij}cP_\Omega e\xi.
+\]
+Using equation~\eqref{eq:theta-bounded}, we obtain
+\[
+ -s'\Gamma[Q,D_i]t'\xi
+ =\Theta(\ell_i')\xi=-s'T_it'\xi.
+\]
+Since $s'$ is injective, $\Gamma[Q,D_i]$ agrees with $T_i$ on the dense subspace $t'\M\Omega$.
+Lemma~\ref{lem:fraction-domains} gives closability of $\Gamma[Q,D_i]$.
+Its closure therefore extends the bounded operator $T_i$, whose domain is all of $H$, and hence equals $T_i$.
+\end{proof}
+
+For \(N,S\in\B(H)\) with \(N\) normal, the classical Fuglede theorem \cite[Theorem~I, p.~35]{Fug50} gives \(SN=NS\implies SN^*=N^*S\).
+The following analogue for bounded linear maps from \(\M\) to \(H\) will be used in Lemma~\ref{lem:module-commutation}.
+
+\begin{lemma}[{see \cite[Proposition~1]{CS77}}]\label{lem:normal-intertwining}
+Let \(x\in\M\) be normal, and let \(T:\M\to H\) be a bounded linear map.
+If \(T(xz)=xT(z)\) for every \(z\in\M\), then \(T(x^*z)=x^*T(z)\) for every \(z\in\M\).
+\end{lemma}
+
+\begin{lemma}\label{lem:module-commutation}
+Let \(T:\M\Omega\to H\) be a closable linear operator.
+Then \(z\mapsto T(z\Omega)\) is bounded from \(\M\) to \(H\).
+If \(x_1,\ldots,x_m\in\M\) are normal and \(T(x_j\xi)=x_jT\xi\) for every \(j\) and \(\xi\in\M\Omega\), then
+\[
+ T(a\xi)=aT\xi
+ \qquad(a\in W^*(x_1,\ldots,x_m),\ \xi\in\M\Omega).
+\]
+\end{lemma}
+\begin{proof}
+Identify \(\M\Omega\) with \(\M\).
+The graph of \(T:\M\to H\) is norm closed because the Hilbert-space closure \(\overline T\) is closed and agrees with \(T\) on \(\M\Omega\).
+The closed graph theorem therefore gives the asserted bound.
+Lemma~\ref{lem:normal-intertwining} gives \(T(x_j^*\xi)=x_j^*T\xi\).
+Products and linear combinations give the same relation for the unital $*$-algebra generated by \(x_1,\ldots,x_m\).
+For \(a\in W^*(x_1,\ldots,x_m)\), Kaplansky density \cite[Theorem~2.3.1]{AP18} gives a uniformly bounded net \(a_\lambda\) in this algebra converging strongly to \(a\).
+For fixed \(\xi\in\M\Omega\),
+\[
+ a_\lambda\xi\longrightarrow a\xi,\qquad
+ T(a_\lambda\xi)=a_\lambda T\xi\longrightarrow aT\xi.
+\]
+Closedness of \(\overline T\) and \(a\xi\in\M\Omega\) give \(T(a\xi)=aT\xi\).
+\end{proof}
+
+% Provenance: Yin_C_F0024-P1, Sections 2--6, and Yin_C_F0033-P1
+% specialized to M Omega; the proof of the criterion uses C_F0024-P3
+% (v2), identifying the C_F0063 certificates with actual fraction commutators.
+
+We now construct a normalized liberation dual system from a dual system for normal generators and compare their fraction commutators.
+
+\begin{lemma}\label{lem:fundamental}
+Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
+Then every $X_i-\lambda$, $\lambda\in\C$, is regular.
+Define on $\M\Omega$
+\begin{equation}\label{eq:dual-liberation-construction}
+ K_i:=[\rho(X_i),D_i|_{\M\Omega}],\qquad
+ C:=\sum_jK_j-P_\Omega,\qquad
+ L_i:=K_i-\frac1d C.
+\end{equation}
+The tuple $(L_1,\ldots,L_d)$ is a normalized liberation dual system for $X$.
+For every fraction pair $Q$ and every $i$, if $\overline{\Gamma[Q,D_i]}$ is bounded on $H$, then
+\begin{equation}\label{eq:dual-liberation-fractions}
+ \overline{\Gamma[Q,L_i]}
+ =[\rho(X_i),\overline{\Gamma[Q,D_i]}].
+\end{equation}
+In particular, if $\overline{\Gamma[Q,D_i]}\in\F(H)$ for every $i$, then
+\begin{equation}\label{eq:fundamental}
+ \sum_{i=1}^d[\rho(X_i),\overline{\Gamma[Q,D_i]}]=\Gamma[Q,P_\Omega].
+\end{equation}
+\end{lemma}
+\begin{proof}
+For a spectral projection $e:=1_{\{\lambda\}}(X_i)$, the dual relation gives
+$eP_\Omega e=e[X_i,D_i]e=0$ on $\M\Omega$.
+Density and faithfulness of the trace give $e=0$.
+Normality then implies that $X_i-\lambda$ is regular.
+
+Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the adjoint-domain hypothesis gives
+\[
+ \M\Omega\subseteq\dom K_i^*,\qquad
+ K_i^*\eta=D_i^*\rho(X_i^*)\eta-\rho(X_i^*)D_i^*\eta
+ \quad(\eta\in\M\Omega).
+\]
+Consequently, $\M\Omega$ is contained in the adjoint domains of $C$ and each $L_i$ as well.
+Left and right multipliers commute, and traciality gives
+$[\rho(X_i),P_\Omega]=[X_i,P_\Omega]$ on $H$.
+Jacobi's identity therefore gives on $\M\Omega$
+\[
+ [X_j,K_i]=[\rho(X_i),[X_j,D_i]]
+ =\delta_{ij}[X_i,P_\Omega],\qquad [X_j,C]=0.
+\]
+It follows that $[X_j,L_i]=\delta_{ij}[X_i,P_\Omega]$ and $\sum_iL_i=P_\Omega$ on $\M\Omega$.
+Thus $(L_1,\ldots,L_d)$ is a normalized liberation dual system.
+
+The operator $C$ is closable, so Lemma~\ref{lem:module-commutation} gives
+$C(a\xi)=aC\xi$ for all $a\in\M$ and $\xi\in\M\Omega$.
+For $Q=(s,a,b,t)$, this implies
+\[
+ \Gamma[Q,C]\xi=(sb-at)C\xi=0\qquad(\xi\in\M\Omega).
+\]
+Right multipliers commute with the left multipliers in $Q$, and hence
+\begin{equation}\label{eq:dual-liberation-on-domain}
+ \Gamma[Q,L_i]\xi
+ =\Gamma[Q,K_i]\xi
+ =\rho(X_i)\Gamma[Q,D_i]\xi-\Gamma[Q,D_i]\rho(X_i)\xi
+ \qquad(\xi\in\M\Omega).
+\end{equation}
+If $\overline{\Gamma[Q,D_i]}$ is bounded on $H$, the right-hand side extends to
+$[\rho(X_i),\overline{\Gamma[Q,D_i]}]\in\B(H)$.
+By Lemma~\ref{lem:fraction-domains}, $\Gamma[Q,L_i]$ is closable on its natural domain.
+Its closure extends this bounded operator on all of $H$, proving equation~\eqref{eq:dual-liberation-fractions}.
+Finally, summing equation~\eqref{eq:dual-liberation-fractions} on $\M\Omega$ and using $\sum_iL_i=P_\Omega$ gives equation~\eqref{eq:fundamental} by density.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:analytic}]
+Let $(L_1,\ldots,L_d)$ be the normalized liberation dual system constructed in Lemma~\ref{lem:fundamental}.
+That lemma also gives regularity of every scalar shift, so Theorem~\ref{thm:intrinsic-analytic} applies.
+Fix $u\in L^0(\M)$ and a fraction pair $Q$ for $u$.
+
+$\textup{(1)}\implies\textup{(3)}$.
+By Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-fraction-commutators})}, there are $T_1,\ldots,T_d\in\F(H)$ such that
+\[
+ \overline{\Gamma[Q,L_i]}=[\rho(X_i),T_i]\qquad(1\leq i\leq d).
+\]
+Summing on $\M\Omega$ and using $\sum_iL_i=P_\Omega$, then extending by boundedness, gives
+\[
+ \sum_i[\rho(X_i),T_i]=\Gamma[Q,P_\Omega].
+\]
+Lemma~\ref{lem:finite-rank-identification} gives $\overline{\Gamma[Q,D_i]}=T_i$ for every $i$, proving assertion~\textup{(3)}.
+
+$\textup{(3)}\implies\textup{(1)}$.
+By Lemma~\ref{lem:fraction-ranks}, $\overline{\Gamma[Q',D_i]}\in\F(H)$ for every fraction pair $Q'$ of $u$ and every $i$.
+Equation~\eqref{eq:dual-liberation-fractions} therefore gives
+\[
+ \overline{\Gamma[Q',L_i]}
+ =[\rho(X_i),\overline{\Gamma[Q',D_i]}]
+ \in[\rho(X_i),\F(H)].
+\]
+Thus assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} of Theorem~\ref{thm:intrinsic-analytic} holds, and $u\in\Div_{L^0(\M)}\A_X$.
+
+$\textup{(2)}\Longleftrightarrow\textup{(3)}$.
+Lemma~\ref{lem:fraction-domains} gives closability, and Lemma~\ref{lem:finite-closure} gives the forward implication.
+The reverse implication follows by restriction.
+The rank independence is Lemma~\ref{lem:fraction-ranks}.
+\end{proof}

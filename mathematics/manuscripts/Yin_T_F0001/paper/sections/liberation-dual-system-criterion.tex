@@ -1,0 +1,233 @@
+% Proof inputs: C_F0079 v4; C_F0068 Part A for maximal-Delta rationality.
+\section{Liberation dual system criterion}
+\label{sec:liberation-dual-system-criterion}
+
+We prove Theorem~\ref{thm:intrinsic-analytic} in this section.
+
+\begin{lemma}\label{lem:liberation-normalization}
+If $X\in\M^d$ admits a liberation dual system, then it admits a normalized liberation dual system.
+\end{lemma}
+\begin{proof}
+Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
+Define operators $C,\widetilde L_1,\ldots,\widetilde L_d$, each with domain $\M\Omega$, by
+\[
+ C\xi:=\sum_{k=1}^dL_k\xi-P_\Omega\xi,
+ \qquad \widetilde L_i\xi:=L_i\xi-\frac1dC\xi
+ \qquad(\xi\in\M\Omega,\ 1\leq i\leq d).
+\]
+Since $X_j\M\Omega\subseteq\M\Omega$, the liberation relations give, on $\M\Omega$,
+\[
+ [X_j,C]
+ =\sum_{k=1}^d[X_j,L_k]-[X_j,P_\Omega]
+ =\sum_{k=1}^d\delta_{kj}[X_k,P_\Omega]-[X_j,P_\Omega]
+ =0.
+\]
+Consequently, for $\xi\in\M\Omega$ and $1\leq i,j\leq d$,
+\[
+ [X_j,\widetilde L_i]\xi
+ =[X_j,L_i]\xi=\delta_{ij}[X_i,P_\Omega]\xi,
+ \qquad
+ \sum_{i=1}^d\widetilde L_i\xi
+ =\sum_{i=1}^dL_i\xi-C\xi
+ =P_\Omega\xi.
+\]
+Since $\mathcal M\Omega\subseteq\operatorname{dom}L_i^*$, we have for $\eta,\xi\in\M\Omega$,
+\[
+ \langle\eta,\widetilde L_i\xi\rangle
+ =\left\langle
+ L_i^*\eta-\frac1d\sum_{k=1}^dL_k^*\eta+\frac1dP_\Omega\eta,
+ \xi\right\rangle.
+\]
+By the definition of the adjoint, \(\eta\in\operatorname{dom}\widetilde L_i^*\), and hence \(\mathcal M\Omega\subseteq\operatorname{dom}\widetilde L_i^*\).
+Thus \(\widetilde L_1,\ldots,\widetilde L_d\) satisfy all the defining conditions.
+\end{proof}
+
+\begin{lemma}[{see \cite[Problem~III.5.18]{Kat95}}]\label{lem:finite-closure}
+Let \(T\) be a densely defined closable operator on a Hilbert space \(H\).
+If \(T\) has finite rank, then \(\overline T\in\F(H)\), with the same range and rank as \(T\).
+\end{lemma}
+
+\begin{lemma}\label{lem:tensor-l2-recovery}
+Let $x\in\M$ and suppose that $x-\lambda$ is regular for every $\lambda\in\C$.
+The map $\Psi_x$ of Definition~\ref{def:psi} is injective.
+If $k\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfies
+\[
+ \Psi_x(k)\in H\otimes_{\C}H,
+\]
+then $k\in H\otimes_{\C}H$.
+\end{lemma}
+\begin{proof}
+If $T\in\F(H)$ satisfies $[T,x]=0$, then $\operatorname{ran}T$ is a finite-dimensional invariant subspace for $x$.
+A nonzero such subspace would contain an eigenvector, contradicting regularity of $x-\lambda$.
+Thus $T=0$, so Remark~\ref{rem:cycle-characterization} gives $\Delta(x)=1$.
+Lemma~\ref{lem:tensor-injectivity}, applied to the one-element tuple $(x)$, now shows that $\Psi_x$ is injective.
+
+To prove the remaining assertion, put $U:=L^0(\M)$ and define the right multiplication maps
+\[
+ \begin{aligned}
+ R_x:U&\longrightarrow U,& R_x(u)&:=ux,\\
+ R_{x^{\mathrm{op}}}:U^{\mathrm{op}}&\longrightarrow U^{\mathrm{op}},&
+ R_{x^{\mathrm{op}}}(v^{\mathrm{op}})&:=(xv)^{\mathrm{op}}.
+ \end{aligned}
+\]
+Thus $\Psi_x=R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$.
+Neither right multiplication map has a nonzero finite-dimensional invariant subspace: such a subspace would contain an eigenvector, contradicting regularity of $x-\lambda$.
+Since $x\in\M$, both maps preserve $H$, and their restrictions to $H$ have the same property.
+
+For linear maps $A:V\to V$ and $B:W\to W$ on complex vector spaces, $A\otimes I-I\otimes B$ is injective on $V\otimes_{\C}W$ if $B$ has no nonzero finite-dimensional invariant subspace.
+Indeed, write a nonzero kernel vector as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal, so both families are linearly independent.
+Projecting the second factor modulo $\operatorname{span}\{w_1,\ldots,w_n\}$ shows that this span is $B$-invariant, a contradiction.
+The same conclusion holds with $A$ in place of $B$.
+
+The induced linear maps on the quotient spaces are
+\[
+ \begin{aligned}
+ \widetilde R_x:U/H&\longrightarrow U/H,&
+ \widetilde R_x(u+H)&:=ux+H,\\
+ \widetilde R_{x^{\mathrm{op}}}:U^{\mathrm{op}}/H&\longrightarrow U^{\mathrm{op}}/H,&
+ \widetilde R_{x^{\mathrm{op}}}(v^{\mathrm{op}}+H)&:=(xv)^{\mathrm{op}}+H.
+ \end{aligned}
+\]
+Projecting the first factor of $k$ modulo $H$ gives a vector in the kernel of
+\[
+ \widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}
+ \quad\text{on }(U/H)\otimes_{\C}U^{\mathrm{op}}.
+\]
+This map is injective by the preceding observation, so exactness of tensoring over $\C$ gives $k\in H\otimes_{\C}U^{\mathrm{op}}$.
+Projecting the second factor modulo $H$ now gives a vector in the kernel of
+\[
+ (R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}
+ \quad\text{on }H\otimes_{\C}(U^{\mathrm{op}}/H).
+\]
+This map is injective because $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
+It follows that $k\in H\otimes_{\C}H$.
+\end{proof}
+
+For a liberation dual system $(L_1,\ldots,L_d)$, define linear maps
+\[
+ \Phi_i:\M\otimes_{\C}\M^{\mathrm{op}}
+ \longrightarrow\Hom_{\C}(\M\Omega,H),\qquad
+ \Phi_i(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega}.
+\]
+The liberation commutator relations give, for $z\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$,
+\begin{equation}\label{eq:liberation-tensor-actions}
+ \Phi_i(\Psi_j(z))=\delta_{ij}\Theta(\Psi_i(z)),
+ \qquad
+ \Phi_i((s\otimes t^{\mathrm{op}})z)=s\Phi_i(z)t
+ \quad\text{on }\M\Omega.
+\end{equation}
+Indeed, the first identity on $c\otimes d^{\mathrm{op}}$ is $c[X_j,L_i]d=\delta_{ij}c[X_i,P_\Omega]d$, and the second follows from multiplication in the opposite factor.
+
+\begin{proposition}\label{prop:liberation-delta}
+Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
+If $X$ admits a liberation dual system, then $\Delta(X)=d$.
+\end{proposition}
+\begin{proof}
+Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $k_i:=\Theta^{-1}(T_i)$.
+Equation~\eqref{eq:tensor-commutator} gives $\sum_i\Psi_i(k_i)=0$.
+By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that $m_i:=(s\otimes t^{\mathrm{op}})k_i\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $i$.
+Equation~\eqref{eq:psi-left-linearity} yields $\sum_i\Psi_i(m_i)=0$.
+Applying $\Phi_i$ and equation~\eqref{eq:liberation-tensor-actions}, then using density of $\M\Omega$, we obtain
+\[
+ \Theta(\Psi_i(m_i))=0.
+\]
+Hence $\Psi_i(m_i)=0$.
+The regularity assumption and Lemma~\ref{lem:tensor-l2-recovery} give $m_i=0$.
+Cancellation of $s\otimes t^{\mathrm{op}}$ gives $k_i=0$, and therefore $T_i=0$.
+Remark~\ref{rem:cycle-characterization} now gives $\Delta(X)=d$.
+\end{proof}
+
+\begin{lemma}\label{lem:tensor-images-l2}
+Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
+Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
+If $k_1,\ldots,k_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfy
+\[
+ h:=\sum_{i=1}^d\Psi_i(k_i)\in\M\otimes_{\C}\M^{\mathrm{op}},
+\]
+then, for every $i$,
+\[
+ k_i\in H\otimes_{\C}H,
+ \qquad \overline{\Phi_i(h)}=\Theta(\Psi_i(k_i)).
+\]
+\end{lemma}
+\begin{proof}
+Fix $i$, write $h=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $S_i:=\Phi_i(h)$ on $\M\Omega$.
+The adjoint-domain condition in Definition~\ref{def:liberation-dual-system} gives
+\[
+ \M\Omega\subseteq\dom S_i^*,\qquad
+ S_i^*\eta=\sum_r d_r^*L_i^*(c_r^*\eta)
+ \quad(\eta\in\M\Omega).
+\]
+Thus $S_i$ is closable.
+By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that
+\[
+ m_j:=(s\otimes t^{\mathrm{op}})k_j
+ \in\M\otimes_{\C}\M^{\mathrm{op}}
+ \qquad(1\leq j\leq d).
+\]
+Applying $\Phi_i$ to $\sum_j\Psi_j(m_j)=(s\otimes t^{\mathrm{op}})h$ and using equation~\eqref{eq:liberation-tensor-actions} gives
+\begin{equation}\label{eq:liberation-cleared-operator}
+ sS_it=\Theta(\Psi_i(m_i))\quad\text{on }\M\Omega.
+\end{equation}
+The right-hand side has finite rank and $s$ is injective, so the restriction of $S_i$ to $t\M\Omega$ has finite rank.
+Since $t$ has dense range, $t\M\Omega$ is dense in $H$.
+This restriction is closable, and Lemma~\ref{lem:finite-closure} makes its closure a bounded finite-rank operator on $H$.
+The operator $\overline{S_i}$ extends that closure and therefore equals it.
+Set $h_i:=\Theta^{-1}(\overline{S_i})\in H\otimes_{\C}H$.
+Extending equation~\eqref{eq:liberation-cleared-operator} by boundedness and density, and using the outer bimodule actions of $\Theta$, we obtain
+\[
+ (s\otimes t^{\mathrm{op}})h_i
+ =\Psi_i(m_i)
+ =(s\otimes t^{\mathrm{op}})\Psi_i(k_i).
+\]
+Cancellation of the regular outside factors gives $\Psi_i(k_i)=h_i\in H\otimes_{\C}H$.
+Since every $X_i-\lambda$ is regular, Lemma~\ref{lem:tensor-l2-recovery} gives $k_i\in H\otimes_{\C}H$.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:intrinsic-analytic}]
+By Proposition~\ref{prop:liberation-delta}, $\Delta(X)=d$.
+We prove $(1)\implies(4)\implies(3)\implies(2)\implies(1)$.
+
+$(1)\implies(4)$.
+Fix any fraction pair $Q=(s,a,b,t)$ for $u$.
+By Theorem~\ref{thm:delta}\textup{(\ref{item:delta-all-fraction-tensors})}, there are tensors $\ell_i\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfying equation~\eqref{eq:all-fraction-tensor-criterion}.
+Set
+\[
+ h:=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
+   =\sum_i\Psi_i(\ell_i).
+\]
+Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{\Phi_i(h)}=\Theta(\Psi_i(\ell_i))$.
+By definition, $\Phi_i(h)=-\Gamma[Q,L_i]|_{\M\Omega}$.
+The common adjoint-domain condition makes $\Gamma[Q,L_i]$ closable by Lemma~\ref{lem:fraction-domains}.
+Its closure extends the bounded, everywhere-defined operator $-\overline{\Phi_i(h)}$ and therefore equals it.
+With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator} now gives
+\[
+ \overline{\Gamma[Q,L_i]}
+ =-\Theta(\Psi_i(\ell_i))
+ =[\rho(X_i),T_i].
+\]
+Thus assertion~\textup{(4)} holds.
+
+$(4)\implies(3)$.
+Fix any fraction pair $Q=(s,a,b,t)$ for $u$ and choose $T_i\in\F(H)$ such that
+$[\rho(X_i),T_i]=\overline{\Gamma[Q,L_i]}$ for every $i$.
+By equation~\eqref{eq:liberation-normalization}, on $\M\Omega$ we have
+\[
+ \begin{aligned}
+  \sum_i[\rho(X_i),T_i]
+  &=\sum_i\overline{\Gamma[Q,L_i]}\\
+  &=s\Bigl(\sum_iL_i\Bigr)b-a\Bigl(\sum_iL_i\Bigr)t\\
+  &=sP_\Omega b-aP_\Omega t
+   =\Gamma[Q,P_\Omega].
+ \end{aligned}
+\]
+Both sides are bounded, so density extends this identity to $H$, proving assertion~\textup{(3)}.
+
+$(3)\implies(2)$.
+Every affiliated operator admits a fraction pair, so this is immediate.
+
+$(2)\implies(1)$.
+This is the implication $\textup{(\ref{item:delta-finite-rank})}\implies\textup{(1)}$ of Theorem~\ref{thm:delta}.
+
+For each fixed fraction pair, uniqueness of the tuple $(T_1,\ldots,T_d)$ follows from Theorem~\ref{thm:delta}.
+\end{proof}
