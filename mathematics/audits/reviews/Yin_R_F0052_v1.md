@@ -71,4 +71,3 @@ The finding supplies no new independent review, whole-source proof audit or form
 
 The complete v2 argument, including the new scalar-c cutoff step and its assembly with the retained Parts A-C, passes this authoring-agent self-review without an unresolved mathematical gap.
 The unchanged claim can be selected as proved / self-reviewed on this proof; v1 and its independent review remain available at their fixed scope.
-The new proof supports the approved manuscript simplification without strengthening any manuscript hypothesis.

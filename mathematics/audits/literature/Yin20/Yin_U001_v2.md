@@ -8,7 +8,6 @@ author: Yin
 ## Yin20-U001 — Chapter IV introduction and Sections IV.1–IV.3
 
 - Source: [Yin20](../../../literature/pdf/Yin20.pdf), Chapter IV introduction and IV.1–IV.3, printed pp. 49–56 / PDF pp. 59–66.
-- Source SHA256: `7910F1FAFF438F8091B72A8D270F8368C73CA4959AF41500D09A0C924CD00C9A`.
 - Task: [Yin20 inner-rank source audit](readme.md#yin20-inner-rank-source-audit), assigned 2026-09-10.
 - Author and source reconstruction: the rational-expression agent.
 - State: complete source reconstruction; independent artifact review pending.
@@ -407,7 +406,7 @@ The opening of IV.4 on p. 56 explicitly warns that evaluating rational functions
 The historical polynomial-linearization and realization references mentioned in the p. 55 survey are not independent premises of the reconstructed block proof.
 Hrubeš–Wigderson [HW15] supplies the cited arithmetic-circuit viewpoint rather than a missing analytic boundedness conclusion.
 The retained external theorems are explicit dependencies, not silently promoted to locally reproved results.
-For the bounded Cohn check, the academic-hosted published PDF has 596 pages and SHA256 `288632674F5740A63556D75BFC921082352D1146CF534072CB8F0BF6F4F4B03C`.
+For the bounded Cohn check, the academic-hosted published PDF has 596 pages.
 Printed pp. 411–412, 419–422 and 450 / PDF pp. 435–436, 443–446 and 474 were read on 2026-09-10; printed pp. 420 and 450 were also rendered and inspected.
 The inspection confirmed the theorem's exact statement, its displayed proof and imported dependencies, and the relevant specialization definitions; it did not recursively audit the entire Cohn book.
 The Amitsur and KV12 construction claims remain source-statement interfaces reported by Yin20, without a fresh primary proof audit of either paper in this unit.
@@ -476,7 +475,6 @@ References to unchanged files and a sidecar describe the original checkpoint; th
 
 - Date and reviewer: 2026-09-10, the free-field algebra agent.
 - Source: [Yin20.pdf](../../../literature/pdf/Yin20.pdf), the 109-page local dissertation.
-  SHA256: 7910F1FAFF438F8091B72A8D270F8368C73CA4959AF41500D09A0C924CD00C9A.
   For the chapters used here, PDF page = printed page + 10.
 - Scope: source-definition and notation recheck, not a new U unit or project Claim.
   Existing definition sections and their correction boundaries were reread.

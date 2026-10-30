@@ -31,6 +31,6 @@ No whole-book audit or historical-priority assertion is made.
 
 | Field | Value |
 | --- | --- |
-| source-version | Luc02, public book manuscript dated July 1, 2002; 612 PDF pages, SHA-256 ec61b795a7823a02f3e3f3d016e1273bbdc98eda787c31f2de117194b04c36e2. |
+| source-version | Luc02, public book manuscript dated July 1, 2002; 612 PDF pages. |
 | source-locator | Section 8.2.1, Definition 8.14 and following paragraph, printed p.324 / PDF p.337. |
 | inspection | Direct text and visual check of the left/right fraction names and their position-of-inverse convention; affiliated-fraction terminology checked. No localization-theorem proof or whole-book audit. |

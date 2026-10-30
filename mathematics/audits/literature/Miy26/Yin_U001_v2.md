@@ -146,7 +146,6 @@ Scope: definition and notation reuse in the existing Miy26 units.
 This is a sidecar, not a new source unit, claim or replacement audit.
 
 Source: [Miy26](../../../literature/pdf/Miy26.pdf), arXiv:2603.19528v2, 2026-04-21, 23 pages, as identified in the registry (private lookup: `../../../literature/registry.md#miy26-user-supplied-audit-source`).
-SHA256: 33B96B988762667ECD95F8EA097BE2DFA83612875CB4637A4622D23885CAC35F.
 Printed and PDF page numbers agree.
 Text on pp. 1–2, 4–6 and 10–12 was read; rendered pages 1–2, 5–6 and 10–12 were inspected.
 No new whole-paper review or source-version comparison is claimed.

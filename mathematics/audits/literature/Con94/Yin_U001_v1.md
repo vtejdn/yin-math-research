@@ -6,7 +6,7 @@ author: Yin
 # Con94-U001: The Free-Group Tree Module and the Rationality Conjecture
 
 - Source: [Con94, retained electronic book](../../../literature/pdf/Con94.pdf), 654 PDF pages.
-  The inspected file has SHA-256 `21F7F4D78F5A6DC2214C0BCEFECC101D6F45A912520191E93753BC1F7CBA5794`; original acquisition provenance and the electronic revision date are not inferred from its presence.
+  Original acquisition provenance and the electronic revision date are not inferred from the file's presence.
   The registry (private lookup: `../../../literature/registry.md#con94-section-iv5-intake`) owns those acquisition facts.
 - Locators: Chapter IV, Section 5, opening construction, Lemma 1, Corollary 2 and Remark 3, numbered/PDF pp. 348-351.
   Necessary internal interfaces: IV.1 Proposition 4 and Corollary 5, p. 303; Lemma 6 and Proposition 7, p. 304; IV.3 Proposition 1 and equation (4.19), p. 322.
@@ -309,6 +309,6 @@ This review covers those local arguments and the declared interfaces; it does no
 
 | Field | Value |
 | --- | --- |
-| source-version | Con94, retained 654-page electronic book, SHA-256 21F7F4D78F5A6DC2214C0BCEFECC101D6F45A912520191E93753BC1F7CBA5794. Acquisition and edition/revision facts belong to the registry; no unverified original download history or printed-edition identity is asserted. |
+| source-version | Con94, retained 654-page electronic book. Acquisition and edition/revision facts belong to the registry; no unverified original download history or printed-edition identity is asserted. |
 | source-locator | IV.5 opening, Lemma 1, Corollary 2 and Remark 3, numbered/PDF pp. 348-351; internal dependencies IV.1 Proposition 4/Corollary 5 p. 303, Lemma 6/Proposition 7 p. 304, IV.3 equation (4.19)/Proposition 1 p. 322. |
 | inspection | 2026-10-10T12:24: assigned source text read, rendered pp. 349-351, 303-304 and 322 inspected; tree almost-equivariance, trace normalization, projection passage, matrix closure and the circle-model comparison reconstructed. Remark 3's trace-class/finite-rank notation collision has an explicit counterexample and corrected reading. The exact index/integrality and Kronecker statements are retained accepted inputs with the inspection depths stated above. Their original external proofs, a whole-book audit, author-confirmed errata, an edition concordance and formal verification are outside scope. |

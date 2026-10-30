@@ -62,7 +62,7 @@ No unresolved issue remains for this definition-level use.
 
 | Field | Value |
 | --- | --- |
-| source-version | Wei94, 1994 book; retained Cambridge Core Chapter 9 PDF hosted by MIT, 69 pages; SHA-256 5bf5c0971806b0bad3d13c7046807cadd88e1147a76117e0dc3fbb441046ec51. |
+| source-version | Wei94, 1994 book; retained Cambridge Core Chapter 9 PDF hosted by MIT, 69 pages. |
 | source-locator | Section 9.1.1, printed p.300 / PDF p.1; enveloping-algebra and bimodule conventions before Lemma 9.1.3, printed p.302 / PDF p.3. |
 | inspection | Direct text and visual definition/convention checks; degree-one specialization and coefficient action checked. Self-review only; no whole-chapter, higher-homology or Tor/Ext proof audit. |
 

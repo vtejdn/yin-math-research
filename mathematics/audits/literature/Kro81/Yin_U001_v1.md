@@ -17,7 +17,7 @@ The source's main rationality criterion is accepted, with the indexing and finit
 
 | Field | Value |
 | --- | --- |
-| source-version | Leopold Kronecker's Werke II, edited by K. Hensel, Teubner, 1897, pp. 113–192; 81-page retained scan, SHA-256 465ce0ff8304750211138197710ede35add826558ae5824ff29a8c4eea3fa3a4. No collation with the original 1881 printing. |
+| source-version | Leopold Kronecker's Werke II, edited by K. Hensel, Teubner, 1897, pp. 113–192; 81-page retained scan. No collation with the original 1881 printing. |
 | source-locator | VI–X, printed 141–158 / PDF 30–47; especially VII 147–149, VIII 149–152, IX 153–154 and X 154–158. |
 | inspection | All these passages read; recurrence/rank equivalence, nonzero initial minor, determinant-defect induction, rational reconstruction and polynomial annihilator checked as below. Printed 148–150 visually inspected to resolve OCR and signs. Historical references are not separately audited. |
 

@@ -36,6 +36,6 @@ The bounded search ended once the 1971 primary passage and the directly applicab
 
 | Field | Value |
 | --- | --- |
-| source-version | Coh71, The American Mathematical Monthly 78(6), 1971, pp.596--615; 21-page published scan with JSTOR cover; SHA-256 d044f45e19c0aa3471e951d8f145987c5e3318932021da60fa4c0a731a1e80eb. |
+| source-version | Coh71, The American Mathematical Monthly 78(6), 1971, pp.596--615; 21-page published scan with JSTOR cover. |
 | source-locator | Section 7, printed p.612 / PDF p.18, Theorem 7.1 and the following paragraph. |
 | inspection | Direct visual verification of the name, construction and field specialization; historical citation only. Theorem proofs and the whole article were not audited. No computation or formal verification. |

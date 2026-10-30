@@ -289,7 +289,6 @@ The original AP18 construction is separately retained in [AP18-U002](../AP18/Yin
 - Date and reviewer: 2026-09-10, the free-field algebra agent.
 - Source: [MSY23, published MSY23.pdf](../../../literature/pdf/MSY23.pdf), JFA 285 (2023), 110016, 50 pages.
   Printed and PDF page numbers agree.
-  SHA256: 9AD16FC82601EE48A9A1D22FFD3B93EB70489936DA135A06BED0AEEEA1A17416.
 - Existing units: [U001, rank](Yin_U001_v1.md#msy23-u001), [U002, finite-rank cycles](Yin_U002_v1.md#msy23-u002), [U003, representations and closures](Yin_U003_v2.md#msy23-u003), [U004, affiliated realization](Yin_U004_v1.md#msy23-u004), and [U005, strong Atiyah property](Yin_U005_v1.md#msy23-u005).
   Exact existing definition homes are linked below.
 - Scope: a definition and convention sidecar, not a new source unit or project claim.

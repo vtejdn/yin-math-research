@@ -43,6 +43,6 @@ There is no computation, formal verification or new mathematical theorem in this
 
 | Field | Value |
 | --- | --- |
-| source-version | Coh06, Cambridge University Press, 2006, NetLibrary electronic edition; retained PDF SHA-256 288632674f5740a63556d75bfc921082352d1146cf534072cb8f0bf6f4f4b03c. |
+| source-version | Coh06, Cambridge University Press, 2006, NetLibrary electronic edition. |
 | source-locator | Exercises 7.1, item 3, printed p.417 / PDF p.441; ring conventions, printed p.xvi / PDF p.18. |
 | inspection | Definition and conventions directly read; specialization to unital complex subalgebras checked and independently reviewed by a separate AI agent on 2026-10-11. Exercise proof tasks and the rest of the book were not audited. |

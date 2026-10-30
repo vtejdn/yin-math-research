@@ -41,7 +41,7 @@ No computation or formal verification was performed.
 
 | Field | Value |
 | --- | --- |
-| source-version | Coh85, second edition, Academic Press, 1985; pre-existing local scan, 608 PDF pages, SHA-256 bdb4451b8ef1f5348958ce290669a0600d8adcdda5b9b4b368ce14d026d41d4f. |
+| source-version | Coh85, second edition, Academic Press, 1985; pre-existing local scan, 608 PDF pages. |
 | source-locator | Exercises 7.1, item 4, printed p.387 / PDF p.407; ring conventions, printed p.xviii / PDF p.16. |
 | inspection | Definition, name, conventions and complex-algebra specialization directly checked visually and independently reviewed by a separate AI agent on 2026-10-11. Exercise proofs and the rest of the book were not audited. |
 

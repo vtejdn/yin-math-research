@@ -231,7 +231,7 @@ References to unchanged files and a sidecar describe the original checkpoint; th
 Date: 2026-09-10.
 Reviewer: the selfadjoint-interface agent.
 This definition-review sidecar supplements the existing [Voi98 audit](readme.md); it allocates no source-unit or claim identifier and changes no original audit.
-The source is the registered 39-page [published PDF](../../../literature/pdf/Voi98.pdf), SHA256 **6DDBF3024D367714CBDBC50555FC5737818941D1341C65F3B4056581661BF719**.
+The source is the registered 39-page [published PDF](../../../literature/pdf/Voi98.pdf).
 Printed page = one-based PDF page + 188.
 The passages identified below were freshly checked against that PDF; decisive displays in Definitions 3.1, 5.1, 5.14, 6.1 and 7.1 were also visually checked.
 This verifies definitions and convention boundaries, not every cited proof or historical priority.
