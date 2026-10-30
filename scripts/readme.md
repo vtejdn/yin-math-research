@@ -12,7 +12,7 @@ A simple authorized edit can be made directly; no aggregate command or tool PASS
 | --- | --- |
 | `research.py init --username HUMAN --display-name "License name" --repository KEY` | Initialize repository identity and separately chosen human key/name |
 | `research.py framework-update-check [--force] [--offline]` | Query or reuse daily official public version metadata; safely replace the ignored current cache |
-| `research.py framework-update-notified VERSION` | Record a version reminder only after it has actually been presented to the human |
+| `research.py framework-update-notified VERSION --expected-notified-version OBSERVED` | Record a presented reminder only while its observed notification premise holds |
 | `research.py identity-bind HUMAN` | Bind the operator in this checkout's Git worktree configuration |
 | `research.py identity-add HUMAN --display-name "Actual name"` | Register a known human and supplied mappings; the empty unbound registry permits explicit first self-registration without automatic binding |
 | `research.py profile --topic execution` | Locate the actual local operator's policy files; the agent applies them |
@@ -33,6 +33,9 @@ Before repository or first-human setup, the agent collects the independent local
 Invalid keys and missing or whitespace-only/multiline names fail before identity setup; the agent requests an author-selected valid replacement instead of sanitizing or inferring a value.
 The agent appends a missing, separately scoped project notice after the complete root LICENSE under the [identity rule](../framework/rules/identity.md#project-notices-during-setup), preserving upstream names/years and applicable notices; these tools neither generate credits nor complete the whole installation action.
 `research.py init` is an optional Git-bootstrap helper with its actual Git prerequisite; ordinary personal-folder file and author-registration work need not invoke it or `identity-bind`.
+Initialization supplies null repository_display_name and repository_abbr defaults; the agent records actual project choices and maintains the README heading through ordinary edits under the [identity rule](../framework/rules/identity.md#repository-names-and-use-environments).
+The Python Repository.initialize and identity.initialize interfaces take display_name and optional Git identity arguments by keyword after repository.
+The former init --url and Python URL arguments are retired and refused before initialization writes; project remote addresses remain in native Git configuration, while source-add --url and fetch-source --url retain their source-address roles.
 For no-Git personal use, repository/config.json may omit repository or set it to null; a newly prepared unnamed configuration uses null without inventing a repository name.
 Ordinary material reading, author registration, local creation/revision, source registration and current-E checks retain their actual duties without a target Git prerequisite.
 Git research writing and delivery require the human-registered repository name and explicit checkout binding; read-only material inspection and necessary setup repair remain usable while a name is missing.
@@ -75,20 +78,37 @@ Invalid version metadata, timeout, unavailable metadata and interruption never c
 An unsuccessful current-day result is not automatically retried.
 
 A reminder_due value is an agent action candidate, not notification or upgrade authorization.
-Actually present the installed/newer versions, official repository link and upgrade choice to the human before calling framework-update-notified VERSION.
-That command preserves the current attempt/result/version while recording only the actual notification.
+Actually present the installed/newer versions, official repository link and upgrade choice to the human before recording the notification in the existing cache.
+The optional `framework-update-notified VERSION --expected-notified-version OBSERVED` command requires the explicitly observed prior notified_version; use the literal `null` only for an actually observed empty field in a valid cache.
+The callable requires `record_update_notification(root, VERSION, expected_notified_version=OBSERVED)`, using Python None for that observed null; omitted or malformed input has no unconditional fallback.
+Under the existing short lock, the helper rereads a valid cache, compares only notified_version with the premise and preserves current attempt/result/version fields, whose independent changes do not invalidate that premise.
+A stale premise returns status superseded, cache_saved false and the current notified_version without writing or retrying; absent valid cache or malformed input is refused.
+The agent judges actual presentation order, so a later lower-version presentation can be recorded with the current premise when it remains newer than installed; command arrival and numeric magnitude do not establish that order.
+Report an unsaved or uncertain fact truthfully without repeating a reminder merely to set the marker.
+Adequate ordinary bounded maintenance may do the same under the [cache and concurrency rule](../framework/versioning.md#official-version-check), without making this command mandatory or adding cache fields, a second register or notification history.
 The agent owns the wording and choice; the helper never installs a framework or changes research authority.
 
 ## Installation and setup
 
 Use ordinary copying or cloning under the [installation action](../framework/agent-actions.md#install-the-framework).
-For an actual new research project from the official blank source, the agent continues from acquisition to collecting missing key/name and any needed Git project name, registration, a scoped project notice and necessary binding, reusing already supplied answers.
-Pending answers leave an authorless preparation copy; official-source inspection, backup or upgrade preparation does not select that setup.
-Project identity and requested README text are ordinary scoped edits; human registration and Git binding retain their separate explicit interfaces.
-For a new personal copy from the official blank tree, use an unnamed configuration unless the human supplied a name; the actual official repository and existing named project clones keep their real registrations.
+First read the obtained framework version and entrances and distinguish an actual new research project from source inspection, backup, maintenance, an existing shared-project clone or upgrade using the human request and actual target contents.
+For an actual new research project downloaded, copied, unpacked or Git-cloned from the official blank source, the agent first sets repository, repository_display_name and repository_abbr to actual human choices or null through ordinary bounded configuration edits.
+This includes clearing an unchosen inherited repository key in a Git clone before treating it as a project registration; a human may explicitly choose or confirm the same acme key without a new name restriction.
+Collect missing human key/name and project choices together, reusing supplied answers, then register the actual human, append the scoped project notice and complete necessary checkout binding.
+Missing human key/name answers leave an authorless preparation copy; missing project choices remain null while independent authorized setup continues, and official-source inspection, backup or upgrade preparation does not select fresh setup.
+Project identity and README content explicitly requested by the human are ordinary scoped edits; human registration and Git binding retain their separate explicit interfaces.
+Setup preserves other project prose and does not authorize adding this machine's interpreter, .venv, OS versions, tool locations or installation status to public entrances or shared configuration, even as relative paths or nonsensitive facts.
+Use `execution/runtime/readme.md` only for continuing nonsensitive local choices under the [runtime rule](../framework/rules/organization.md#machine-local-runtime), without an automatic note, environment inventory or environment creation.
+Reuse sufficient available capabilities and invoke a selected interpreter directly when suitable; missing notes, activation or an environment are not routine setup failures.
+Framework installation, upgrades and default material transfer exclude the whole source execution/ and .venv/ while preserving the destination's local contents; actual portable reproduction requirements stay at J, manuscript or other responsible public homes.
+Without Git, use the supplied repository key or null when unnamed, without initializing Git; the actual official repository and existing named project clones keep their real registrations.
 The agent may offer a non-blocking name update for the actually selected GitHub project remote; this is not an automatic comparison, remote rewrite or required CLI gate.
 The optional init helper does not run over an already copied repository/config.json and is not an installation prerequisite.
 Use the applicable existing registration/binding interface or ordinary authorized metadata edits and inspect people.json, LICENSE and necessary configuration/binding together; a successful identity-add or init result alone does not establish a completed project notice.
+Human id, License display_name, project display name/abbreviation, registered Git/account mappings, checkout binding and effective Git signature are separate facts.
+Registration and binding do not configure user.name or user.email; check the effective signature when a commit is needed and keep necessary changes local to that checkout.
+Optional init success supplies no completed License notice, project display choices, README heading, effective commit signature or remote setup; report actual completed and missing items from the resulting files without a receipt or new status field.
+Retain the complete upstream License and attribution years and append only a missing notice for actual project contributions; unknown display choices stay null, with the retained heading reported as incomplete project-title setup.
 Existing research clones reuse their real project and human registrations and retain notices, while repeated setup and upgrades preserve scope and historical years without duplicate attribution or wholesale LICENSE replacement.
 Agent-led upgrades may use fixed official public files and ordinary recovery copies without a Git executable, preserving named or unnamed local state and marking the installed version only after required adaptation succeeds.
 
@@ -174,10 +194,16 @@ There is no Git --view option or historical-state fallback; normal Task check/sh
 The common Task validator rejects links into the execution/ directory regardless of case or Windows trailing dots/spaces after URL decoding, before querying or reading E; inline-code addresses and similarly named ordinary directories retain their actual scope.
 Prepare direct exact edits under the [execution rules](../framework/rules/execution.md), with the [current-E template](../framework/templates/execution/execution-run.md).
 The interface has no event writer, history replay, authority inference or platform scheduler control.
+Runtime notes under execution/runtime/ are not E; this selected check neither reads nor validates those notes or .venv/, and their absence or changes grant no authority or allowance.
+The tools do not archive environments or create runtime notes automatically; explicit local maintenance needs no Task/E and preserves neighboring effective execution boundaries.
 
 ## Cross-repository intake
 
-Intake is an [agent-completed receiving action](../framework/agent-actions.md#acquire-material-from-another-research-repository): read the selected source and necessary candidates, judge preservation, adaptation and reuse, write the actual receiving material and required provenance, and inspect the result and affected references.
+Intake is an [agent-completed receiving action](../framework/agent-actions.md#acquire-material-from-another-research-repository): read each selected file or unit and necessary context/candidates, judge what to retain, reuse, copy and adapt under current receiving rules, write actual receiving material and required provenance, and inspect the result and necessary direct consumers.
+Verify the selected mathematics and claimed state for its intended use and the real original human and fixed-source facts, retaining exact content, useful failures, unresolved inputs and actual review limits.
+Sender framework versions, current-format support or missing installation metadata alone do not bar adequate receiving preparation or require changing the source repository.
+If the helper cannot handle a selected old filename, layout or input, report that interface limit and use an adequate ordinary path when necessary facts and a conforming local result can be established; its actual input and publication checks remain unchanged.
+Keep per-unit original and transport correspondence in the existing one-operation provenance home without per-file approvals, checklists, receipts or duplicate accounts; format or tool success establishes no mathematical adoption, and later different-author corrections retain their own authorship boundary.
 Ordinary file operations and existing registration/allocation mechanisms suffice without a dedicated command, prepared-text payload, mapping plan or uniform batch protocol.
 The following payload, mapping and publication protocol applies only to callers choosing the optional helper.
 Before receiving U through either ordinary file operations or this helper, the agent completes [acquisition for its inspected original](../framework/rules/literature.md#acquisition-before-u-reception) to its actual reused, obtained or failed outcome.
@@ -266,11 +292,17 @@ New acquisition times use `YYYY-MM-DDTHH:MM` UTC, without `Z`, numeric offsets, 
 ## Personal import
 
 Personal import is an [agent-completed action](../framework/agent-actions.md#import-ones-own-selected-content): read, judge, adapt and write the selected own content and necessary dependencies, then inspect the result and affected references.
+The same entrance covers export preparation; neither a public Git source nor a preliminary commit is required.
+Before choosing this helper for Task transfer, the agent completes the [Task-family and independent manuscript passes](../framework/rules/intake.md#task-and-manuscript-collection), including all extant selected-family versions and actual project documents unless the human narrows the scope.
+Concrete same-kind and cross-kind duplicates receive the [subagent comparison](../framework/rules/records.md#same-author-transfer-and-duplicate-comparison) before reduction and local-number allocation; unchanged text remains unchanged apart from necessary rule/address adaptation, confirmed reduction and affected consumers.
 Ordinary file operations and existing registration/allocation mechanisms suffice without a dedicated command, plan JSON, complete dependency graph, full input snapshot or uniform batch transaction.
 The following plan and publication protocol apply only when choosing this optional helper.
 material.py import --source SOURCE_ROOT --plan PLAN.json [--author HUMAN] reads the [explicit own-content plan](../framework/material-format.md#personal-import-input); --plan - reads stdin.
 The actual registered operator imports only that same human's selected content in ordinary local identities, with no external registration, source header, import-source record, intake operation, receipt or permanent map for own files.
-Roots and explicit necessary dependency ids bound traversal; repeated/cyclic nodes are handled once, without reverse consumers, sibling manuscripts or a whole U library.
+Roots and explicit necessary dependency ids bound this helper's prepared traversal; repeated/cyclic nodes are handled once, without automatic family discovery, manuscript selection, reverse-consumer expansion or a whole U library.
+Prepare every actual selected version and required project constituent explicitly when using it; the helper does not certify selection completeness, mathematical duplication or the two-pass judgment.
+Its source is the supplied local-file preparation, so a selected fixed Git view must retain that view through adequate ordinary operations rather than current-worktree fallback.
+Existing source/local entries, reuse, prepared edits and publication checks suffice without new fields, permanent source-number maps or an automatic transfer command.
 Use source/local file entries for actual typed materials, chosen profile parts, manuscripts, native programs, data and constituents, and prepared final text or precise edits for adaptation.
 The helper decodes receiving paths ending in lowercase `.md` for Markdown body checks; other constituent files retain their byte-copy scope without a Markdown-validation claim.
 For an actual own maintained document with an incorrect extension spelling, prepare its canonical `.md` local path, correct contents and necessary direct references through ordinary editing or the existing explicit source/local and prepared-text interface.
@@ -295,6 +327,9 @@ The agent chooses the shared-parent, exact-local-parent or complete standalone-c
 The tool authenticates no human identity, certifies no preservation/deduplication or review applicability, resumes no research and claims no manuscript build.
 
 ## Local source retrieval and registration
+
+The following parameters, expected-text inputs and publication protocol apply to callers choosing these helpers.
+Ordinary authorized retrieval, inspection, copying and registration edits remain available without a helper invocation or prepared JSON, retaining the same work/edition association, actual local-byte fingerprints, source facts, private storage and Git exclusions and affected-write coordination.
 
 `material.py fetch-source --url ADDRESS --output LOCAL --format pdf|html` fetches at most two supplied addresses and returns actual requested/final URLs, byte length, format/decoding facts and digest.
 Its digest is a transient response-byte fact, not a registered local baseline or source-identity verdict.
@@ -324,7 +359,7 @@ Choose the real account from its Artifact declaration and context, including com
 An unchanged byte/fact registration preserves the current account without requiring this input; an explicitly chosen free account may append minimal supplied facts.
 Competing accounts need explicit preparation, and a stale edit or inconsistent result fails before publication.
 Expected old text is checked before evaluating a prepared resolution of an old primary ambiguity; strict reading applies to the selected prepared result and explicit necessary old byte constraints.
-Registration returns facts read from the prepared persisted account, which the selected catalog and local U holding display also observe.
+Registration returns facts read from the prepared persisted local account, which explicit local catalog/holding checks also observe; public U display does not consult it.
 
 Use the [Artifact/Resource declarations](../framework/rules/literature.md#local-pdf-storage) and [holding contract](../framework/rules/literature.md#actual-source-holdings) for actual local source accounts.
 Holding declarations use agent-prepared registry text and ordinary editing, with optional [exact maintenance](#scoped-checks-and-bibliography-maintenance) for batches or shared publication.
@@ -340,7 +375,8 @@ An authorized retry uses explicit fetch/inspect/register.
 
 ## Shared publication
 
-Family-number issuance, identity registration, shared navigation, bibliography and intake/U allocation use the OS lock at `repository/.lock`.
+Family-number issuance, coupled identity registration and intake/U allocation use the OS lock at `repository/.lock`, as do explicitly selected navigation and bibliography helpers.
+Ordinary bounded navigation and bibliography prose edits coordinate actual affected writes without universally requiring this helper lock or publication protocol.
 C/T append/select and fixed-material revision protect their actual read, predecessor/current-main check and publication with the same short lock.
 Preparation of mathematical decisions remains outside the lock; a stale predecessor fails without retrying against another decision.
 An unselected candidate append reads fresh protected history and preserves every existing decision even when the selector has not changed.
@@ -348,14 +384,17 @@ Shared commands accept `--maintenance-wait SECONDS`, default 30; zero fails imme
 Waiting is cancellable and emits one notice.
 Re-read state after waiting; keep network, agent work and broad checks outside publication.
 File existence alone does not indicate a held lock.
+The shared publisher retains per-call atomic-write ownership information to recover a committed target even if its writer cannot return, while preserving competing targets and reporting any incomplete restoration.
+This is an in-memory recovery aid for selected publication, without a persistent transaction record or an additional requirement on ordinary text maintenance.
 
 ## Source contents
 
 After source preparation, the agent completes or reuses the selected edition's [searchable contents](../framework/rules/literature.md#searchable-contents) when a real contents list is supplied.
-Use the common rule's PDF stem or complete native HTML path, retaining nested directories and the HTML extension before `.md`, and publish its exact registry/source links together.
+Use the common rule's PDF stem or complete native HTML path, retaining nested directories and the HTML extension before `.md`, and maintain its exact source links and necessary shared consumers together.
+A local account may link to a transcription, without a shared backlink or prerequisite holding account.
 For example, `pdf/WorkA/source.html` uses `contents/WorkA/source.html.md`; use actual native anchors rather than inapplicable PDF page fields.
 Source acquisition success does not certify transcription completion.
-Contents are navigation, not U findings; state missing or unreadable coverage in the existing registry/handoff.
+Contents are navigation, not U findings; state edition and missing/unreadable transcription coverage in their existing shared account, while acquisition and local holding limits stay in the local registry.
 
 ## Scoped checks and bibliography maintenance
 
@@ -383,7 +422,9 @@ Mixed bibliography notes and literal examples retain their original text unless 
 The agent repairs actual active consumers and writing records; token lookup supplies no automatic active-citation refusal, completeness judgment or generic notice.
 It does not infer unchanged mathematics, relocation equivalence or review transfer.
 Valid J/E/intake maintenance emits no generic changed-file reminder.
-Ordinary public-reference checks on chosen registry prose or source links establish their stated logical-path scope without parsing source accounts or opening private source bytes.
+Ordinary public-reference checks apply to chosen shared owners and reject a target in the local registry before accessing it; explicit local-account reads use their actual selected declarations without a public-body check or an implicit original-byte inventory.
+The same public-target entrance rejects execution/runtime/ and .venv/readme.md as machine-local runtime notes before resolution, existence, contents or anchor access, with a runtime-specific diagnostic rather than literature or E attribution.
+This role check is reused by selected-file inputs, receiving and import body links and their publication guards; it does not impose a global byte-reader prohibition on explicitly authorized local notes.
 Outgoing-link checks do not discover unchanged incoming consumers or report reverse-reference coverage.
 The agent selects necessary incoming files and exact target locators through scoped searches and reading, then checks them in the requested view with the shared readers.
 
@@ -392,6 +433,9 @@ The shared `acme.core.links.markdown_link_spans(text)` returns actual link desti
 For explicit working-file link checks, `links.check_files(root, selected_paths)` returns errors for the supplied public files; it does not discover consumers or assess mathematical dependencies.
 An ordinary directory retains its actual role before Markdown file-anchor inspection even with a `.md` suffix and fragment; real Markdown files keep their missing and ambiguous anchor checks.
 For a selected Git view, read the chosen consumers with `acme.core.git_views.Tree` and their destinations with the shared reader, then pass the designated local locators and `tree.bytes` to `acme.materials.validation.validate_locator_targets`.
+WORKTREE preparation excludes the local literature registry by its existing private role before any account shape, existence or content query, including when an existing project's index still names it before authorized retirement from tracking.
+It likewise excludes machine-local runtime notes and current or retired source-store roles before shape queries, while general traversal skips local runtime notes without entering them.
+This shared-view boundary leaves INDEX and fixed-commit facts in their selected view, retains genuine public-input errors and adds no account-health precheck, automatic Git edit or restriction on explicit current local account and ordinary byte operations.
 That required-file reader checks explicitly selected file inputs; the receiving and personal-import body-link pass instead uses validate_navigation_targets with the actual owner and prepared postimage.
 The body-link reader returns a read-free guard for the existing publication lock to recheck ordinary target containment, existence and only the directory role needed by its actual prior check before allocation or writes.
 Pending prepared files retain their existing expected-content protection; logical source navigation remains lexical, and unrelated changes or ordinary target content without an adopted Markdown anchor are not frozen.
@@ -433,22 +477,24 @@ This optional callable does not run full material/proof or intake-object validat
 ### Explicit selected source reading
 
 The agent chooses any needed source check under the [source rule](../framework/rules/literature.md#selected-source-checks); a generic structural pass supplies no holding, edition, availability or byte verdict.
-With `root` bound to the chosen checkout and the actual key substituted, an optional INDEX metadata read uses existing APIs:
+Registry and holding checks use explicitly selected current local facts; public U display exposes no source_holding or holding-derived notices.
+With `root` bound to the actual checkout and the actual key substituted, an optional local account read uses existing APIs:
 
 ~~~python
-from acme.core.git_views import Tree
+from acme.core import paths
 from acme.checks import literature
 from acme.intake import bibliography
 
-with Tree(root, 'INDEX') as tree:
-    registry = tree.bytes(literature.REGISTRY.as_posix()).decode('utf-8-sig')
-    entries = bibliography.parse(tree.bytes(bibliography.BIB).decode('utf-8-sig'))
-    catalog = literature.source_catalog(registry, entries, holding_keys=['ChosenKey'])
+registry = paths.ordinary_path(root, literature.REGISTRY)
+text = registry.read_text(encoding='utf-8-sig') if registry.exists() else ''
+entries = bibliography.parse((root / bibliography.BIB).read_text(encoding='utf-8-sig'))
+catalog = literature.source_catalog(text, entries, holding_keys=['ChosenKey'])
 ~~~
 
-Use `WORKTREE` or the actual commit postimage in `Tree` for that requested view.
-The shared reader also accepts explicit `artifact_names` for a chosen artifact scope; keep unchanged necessary declarations in the selected input.
-Actual local-file availability or explicitly requested byte checks concern physical files, independently of the Git metadata view.
+There is no registry INDEX/commit replay or worktree fallback contract; shared bibliography, materials and intake records retain their own explicitly selected Git views.
+The local account reader also accepts explicit `artifact_names` for a chosen artifact scope; keep unchanged necessary declarations in the selected input.
+An absent registry creates no file, account, warning or assertion that originals or shared evidence are absent.
+Actual local-file availability and explicitly requested byte checks concern the selected physical originals, retaining recorded-baseline, path and publication protections.
 No new command, scope file or automatic per-edit source-check requirement is introduced.
 
 ## Declaration and privacy checks
@@ -457,7 +503,7 @@ The [bounded declaration parser](../framework/material-format.md#machine-readabl
 Visible mathematical cells, escaped pipes and scope whitespace retain their meaning.
 Structural checks do not establish mathematical sufficiency.
 
-Public link and material-input checks classify normalized, decoded [private profile targets](../framework/rules/organization.md#machine-local-locators) before body reads or anchor lookup.
+Public link and material-input checks classify normalized, decoded [private profile and local-registry targets](../framework/rules/organization.md#machine-local-locators) before body reads or anchor lookup.
 They report a public-document error and request inline-code lookup instructions, independently of private-file existence or encoding.
 Ordinary public anchors and tracked/staged-secret publication errors retain their checks.
 Explicit resource use may still read its needed private section.

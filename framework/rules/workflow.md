@@ -9,6 +9,8 @@ Selectable research defaults follow [preference precedence](preferences.md#scope
 The agent reads the actual materials and decides content, work/edition identity, necessary homes and inputs, review applicability and authorization.
 Reuse still-applicable judgments.
 Tools optionally execute explicitly chosen objects, field updates, files and mappings, and report bytes, paths, differences, request/response facts and structural constraints.
+For an actual [same-author transfer](intake.md#personal-import), the main agent determines the two-pass selection and retained homes, obtaining a subagent's direct mathematical comparison for concrete duplicate candidates under the [content rule](records.md#same-author-transfer-and-duplicate-comparison).
+Tools do not infer family closure, cross-kind equivalence or review coverage, and this comparison duty creates no routine all-material review or new proof-certification claim.
 At an actual public-reference operation, normalize and classify the final selected target before watching, reading its contents or checking an anchor, using the existing access rules and designated view.
 For local navigation, use the existing single URL decoding and lexical components to reject protected targets and Windows trailing-dot/space aliases of source prefixes, including their necessary ancestors, before target resolution, reparse or existence checks.
 Canonical logical source navigation supplies no source-file guard or availability condition, and ordinary preparation/publication does not resolve an unselected current or retired source root to classify another target.
@@ -19,6 +21,7 @@ Keep a prohibited-target diagnostic, a missing necessary input and a stale selec
 Tool success supplies no semantic equivalence, source adequacy, review sufficiency or permission.
 For the actual operation, the agent chooses suitable available PDF reading, text extraction, page rendering, OCR and LaTeX compilation capabilities.
 Reuse applicable host tools, project environments and build settings, confirming only what that operation needs without a compulsory inventory or fixed tool sequence.
+Apply the [runtime rule](organization.md#machine-local-runtime) to continuing machine choices and relevant local notes, without requiring notes, activation or a new environment for an already adequate capability.
 If a dedicated capability is absent, choose an adequate general tool or actually available alternative source format after checking the relevant version and applicability; another format establishes only the features it exposes, not PDF layout.
 Supplement needed tools only within actual authorization and environment constraints, without automatic installation, configuration or bootstrap.
 When a capability limit leaves required work incomplete, tell the human author in the normal response or handoff which source passage, formula, page, build or check is affected, how that limits the claimed result and what useful action remains.
@@ -28,6 +31,7 @@ Check the result and necessary direct consumers; record required facts in their 
 For an explicit J source refresh, the agent identifies the same original and selected current scope and maintains necessary retained inputs and actual consumers under the [intake rule](intake.md#homes-and-independent-reuse).
 Copying selected files supplies no consumer or mathematical review, and earlier acquisition scopes do not select themselves as current dependencies.
 Explicit source declarations and same-line fingerprints separate primary artifact facts from Resource/holding relationships; the agent prepares actual account changes and the tools check every supplied input before selected batch publication.
+Those acquisition and holding accounts are local under the [source-storage rule](literature.md#local-pdf-storage); ordinary shared material reading and navigation neither consult them nor infer local possession from shared evidence.
 Typed namespace occupancy, fixed identity entrances, numerical/field constraints, OS locking, exclusive creation, stale-input refusal and rollback remain mechanical responsibilities.
 Direct collaboration, same-human body maintenance, shared navigation/registration and the two kinds of actual conflict follow the [identity rule](identity.md#collaboration-maintenance-and-conflicts).
 Apply its scoped mathematical-recheck approval only when that conflict actually arises; ordinary authorized research and maintenance keep their existing authority.
@@ -126,7 +130,7 @@ Do not add a last-read-version field, reading register, rule fingerprints, recei
 Current-file reading and judging the continued applicability of earlier actual reading remain agent responsibilities.
 
 Keep each fact in its responsible record and update only necessary consumers.
-Finish the affected edit/publication batch before regenerating its navigation and checking the final prepared bytes.
+Finish the affected edit/publication batch before maintaining its navigation and checking the final prepared bytes.
 Do not check generated output while another command is still changing it.
 Repeat a passed check when relevant bytes change, a failure is repaired, or a new risk justifies the additional scope; do not repeat it merely for another status update.
 Working files, staged contents and committed trees are distinct; inspect the actual bytes needed for the requested operation under the [delivery rules](identity.md#submission-checks).
@@ -184,9 +188,10 @@ Choose any useful scoped material, link or storage checks for the actual questio
 A stale index does not change the authored decision.
 
 Refresh navigation after the affected material/configuration batch has settled, when its view is needed.
-One responsible agent runs `python scripts/render-research-navigation.py`, and others reuse the result until relevant inputs change.
-It derives Claim, Task and strategy indexes without a catalog authority or a full proof/history audit.
-For bounded discovery use `material.py discover`, `indexes` or `routes` with their stated scope.
+The responsible agent may edit affected C/T/S navigation directly from the responsible materials and exact selected decisions, including populated generated rows, or use `python scripts/render-research-navigation.py` when useful.
+Coordinate the affected write scope before editing and preserve unrelated and concurrent changes; reuse adequate navigation until relevant inputs change.
+The optional renderer derives the indexes without a catalog authority or full proof/history audit, retaining its short lock, input rechecks and shared publication protections when selected.
+For bounded discovery, use ordinary scoped search and reading or the optional `material.py discover`, `indexes` or `routes` commands with their stated scope.
 Use operation-local material and reference readers for the actual question; completed authoring or rendering adds no aggregate delivery audit.
 Run observations and execution queries do not trigger mathematical navigation regeneration.
 
@@ -312,7 +317,7 @@ This adds no separate version-locator, commit or hash requirement.
 Link source files, scripts and audits rather than reproducing large outputs; an adequately recorded attempt needs no duplicate account here.
 
 Keep the exploration history understandable.
-A correction explains the mathematical reason, preserves earlier statement/argument/assessment, revises fixed mathematics as needed, and explicitly adopts the affected material decision/evidence before regenerating navigation.
+A correction explains the mathematical reason, preserves earlier statement/argument/assessment, revises fixed mathematics as needed, and explicitly adopts the affected material decision/evidence before maintaining affected navigation.
 Check actual consumers.
 Distinguish a superseded argument from a refuted conclusion; neither erase a useful failure nor leave a known gap labelled established.
 
@@ -341,6 +346,7 @@ Applicability, sufficiency and research organization remain agent judgments, wit
 
 Record substantive findings and actual review scope in the responsible mathematical materials.
 Apply the [independent-review boundary](proof-audits.md#review-arrangements): an agent that develops a proof or inherits its substantive development context cannot independently review that proof.
+Useful ordinary delegation does not itself certify independence or require another reviewer layer when the current reviewer already meets the actual independent conditions.
 Independent parallel Tasks preferably use different line letters such as F and G; this recommendation does not reserve letters or change established identities.
 Agreement between agents is not a substitute for a proof.
 
@@ -424,16 +430,22 @@ Fixing a result retains its exact statement, complete argument or counterexample
 Completing a Task checks the original hypotheses, quantifiers, every completion criterion and the whole logical support chain, reusing applicable fixed inputs and reviews.
 These are distinct outcomes; stopping execution, a completed writing round or a Git checkpoint does not resolve a Task.
 Arrange independent review where the research rules require it, without creating a new approval gate at every intermediate step.
-Framework reviews are agent reviews; independent inspection uses a separate agent outside substantive proof development without inherited or shared mathematical discussion, summaries or prior verdicts about that proof.
+Framework reviews are agent reviews; choose the actual review object, depth and [independent-review obligation](proof-audits.md#independent-review-obligations) before the arrangement.
+Ordinary manuscript review, a complete proof check, R placement or another available agent does not itself require isolation or delegation.
+Independent inspection uses a reviewer outside substantive proof development without inherited or shared development discussion, mathematical summaries, author explanations or prior conclusions about that proof; an already qualified current reviewer may perform it directly.
 Direct fixed statements, arguments and necessary dependencies are legitimate review inputs under the [review arrangement rule](proof-audits.md#review-arrangements).
 After an independently identified gap is repaired, independent re-review of the correction and affected chain remains required; neither the prover nor a substantive repair contributor independently reviews that repair.
+An ordinary self-reviewed correction does not itself trigger that specific obligation; retain applicable mathematical version and review duties and any actual pending independent inspection at its existing responsible home.
+If required independent conditions cannot be supplied, report the concrete limit and continue unaffected authorized work without presenting an ordinary check as independent.
 
 Repeat a check when relevant content/input/use changes, a repaired failure needs rechecking, or prior coverage leaves a concrete uncertainty.
 Reuse adequate source inspections, computations and fixed reviews; organization alone does not trigger historical reruns or recursive proof re-audits.
 The agent chooses any necessary [source-check scope and view](literature.md#selected-source-checks); delivery adds no automatic holding reconstruction or private-source inspection.
-Explicit audit requests retain their specified independent scope.
+Explicit audit requests retain their actual requested scope and any specified independent requirement.
 
 Indexes are navigation, never a second authority for status, evidence, findings, permissions or progress.
-The existing renderer derives C/T/S indexes from responsible materials and selected decisions; agents do not edit generated rows.
+Maintain affected C/T/S indexes through ordinary bounded edits or optional rendering from responsible materials and exact selected decisions, including populated generated rows.
+Preserve actual values, source facts, exact selections and necessary fixed history when removing a retired column or otherwise maintaining rows.
+Change mathematical status or selection at its responsible material first; an index edit establishes no adoption, review conclusion, Task state or execution authority.
 Other indexes remain concise manual navigation, maintained by the agent changing the referenced collection after the responsible material settles.
 Each owning rule defines its entry content and sources; update only affected navigation.
