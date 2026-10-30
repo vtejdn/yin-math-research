@@ -9,7 +9,7 @@ author: Yin
 
 | Field | Value |
 | --- | --- |
-| source-version | Source: [Par88](../../../literature/pdf/Par88.pdf), exact artifact in the registry (private lookup: `../../../literature/registry.md#par88-intake`). |
+| source-version | Partington, *An Introduction to Hankel Operators* (Cambridge University Press, first published 1988; 2007 digitally printed reissue). The proof reading recorded the source/account locator `../../../literature/registry.md#par88-intake`; the [later definition recheck](#definition-recheck) describes a supplied 111-page scan of that reissue at the same locator. The presently available PDF matches the edition, page count and theorem/page locator, but its exact identity with the file read on 2026-09-09 is unverified. |
 | source-locator | Scope: Theorem 3.11, printed pp. 37-38 / PDF pp. 45-46, read and visually checked independently by the coordinating agent and the star-interface source reader. |
 | inspection | Coverage: **audited within this scope**, using the complete elementary reconstruction in [Miy22-U009](../Miy22/Yin_U009_v1.md#miy22-u009). |
 
@@ -17,7 +17,7 @@ No whole-book audit.
 The star-interface source reader read Chapter 5, pp. 48-50 / PDF pp. 56-58: the transfer formula C(sI-A)^{-1}B and stable state spectrum give a systems interpretation.
 
 Date: 2026-09-09.
-Source: [Par88](../../../literature/pdf/Par88.pdf), exact artifact in the registry (private lookup: `../../../literature/registry.md#par88-intake`).
+Source: [Par88](../../../literature/pdf/Par88.pdf), with the edition and historical-file identity limit stated in the source-version field above.
 Scope: Theorem 3.11, printed pp. 37-38 / PDF pp. 45-46, read and visually checked independently by the coordinating agent and the star-interface source reader.
 Coverage: **audited within this scope**, using the complete elementary reconstruction in [Miy22-U009](../Miy22/Yin_U009_v1.md#miy22-u009).
 No whole-book audit.
