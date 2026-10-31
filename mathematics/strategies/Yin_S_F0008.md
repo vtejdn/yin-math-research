@@ -53,7 +53,7 @@ The [q-Gaussian evidence note](../claims/Yin_C_F0020_v1.md#q-gaussian-boundednes
 
 - [Yin_C_F0023](../claims/Yin_C_F0023_v1.md#yin_c_f0023) now constructs bounded normalized duals for the whole interval -1<q<1 and every finite d.
   The degree-weighted conjugate series gives an explicit norm-convergent reconstruction.
-  Independently, MS23's Lipschitz conjugates imply the same conclusion through [Dab10-U002, Section 4](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002).
+  Independently, MS23's Lipschitz conjugates imply the same conclusion through [Dab10-U002, Section 4](../audits/literature/Dab10/Yin_U002.md#dab10-u002).
   Thus Yin_C_F0013 applies throughout this interval.
 - [Yin_C_F0020 A](../claims/Yin_C_F0020_v1.md#yin_c_f0020) remains a separate bounded-dual construction from Dab14's projective inverse of the q-commutator kernel.
   It applies whenever $|q|d<1$ and $\nu(q,d)<1$, including $d\ge2$, $|q|d\le0.13$.

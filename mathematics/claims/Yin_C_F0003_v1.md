@@ -20,7 +20,7 @@ This is a considered modification, **not an adopted replacement** for [Yin_C_F00
 
 Provenance: **mixed**.
 The statement is the user's proposed variation of Yin_C_F0001.
-The normalized disk-Cauchy counterexample is independently calculated below and linked to the known construction in [Xia23](https://www.acsu.buffalo.edu/~jxia/Preprints/integv3.pdf), Example 1.6, through [Xia23-U001](../audits/literature/Xia23/Yin_U001_v1.md#xia23-u001).
+The normalized disk-Cauchy counterexample is independently calculated below and linked to the known construction in [Xia23](https://www.acsu.buffalo.edu/~jxia/Preprints/integv3.pdf), Example 1.6, through [Xia23-U001](../audits/literature/Xia23/Yin_U001.md#xia23-u001).
 Source history is recorded there; no novelty is claimed.
 
 Current assessment: [selected assessment](#decision-exact-finding-scope).

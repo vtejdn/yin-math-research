@@ -453,9 +453,9 @@ Recorded review label: self-reviewed.
 | dependency | [C_F0069 Part A](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness of bare full-domain normal duals. |
 | dependency | [C_F0070 Part A](Yin_C_F0070_v1.md#statement) | Unique starred derivation from a bare scalar normal dual; no general vacuum conclusion imported. |
 | dependency | [C_F0055](Yin_C_F0055_v1.md#statement) | Scalar normal actual-vacuum-to-canonical-full-domain implication after nonatomicity and divided-difference identification. |
-| dependency | [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and actual canonical bounded-vector domains. |
+| dependency | [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and actual canonical bounded-vector domains. |
 | dependency | [C_F0043 Section 3](Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Section 3 norm mechanism, rechecked here coordinatewise with defect coefficient 0 or 1 for the complete mixed reverse implication. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Proposition 3.5 for scalar-normal nonatomicity and exact actual-vacuum interface. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Proposition 3.5 for scalar-normal nonatomicity and exact actual-vacuum interface. |
 
 ### Decision reviewed
 
@@ -474,9 +474,9 @@ Recorded review label: independently reviewed.
 | dependency | [C_F0069 Part A](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness of bare normal full-domain duals. |
 | dependency | [C_F0070 Part A](Yin_C_F0070_v1.md#statement) | Scalar normal starred derivation and exact canonical-core agreement. |
 | dependency | [C_F0055](Yin_C_F0055_v1.md#statement) | Scalar normal vacuum-to-canonical-full-domain result after diffuse divided-difference identification. |
-| dependency | [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and canonical bounded-vector domains. |
+| dependency | [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and canonical bounded-vector domains. |
 | dependency | [C_F0043 Section 3](Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Exact energy and graph mechanism, with the mixed coordinate checks proved in this argument. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Actual vacuum interface and scalar nonatomicity through Proposition 3.5. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Actual vacuum interface and scalar nonatomicity through Proposition 3.5. |
 | review | [Complementary whole review](../audits/reviews/Yin_R_F0044_v1.md#conclusion) | Entire fixed v2 Parts A--E; component contributions, independent checks and accepted source limits explicit. |
 
 
@@ -495,8 +495,8 @@ Recorded review label: independently reviewed.
 | dependency | [Exact material](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness of bare normal full-domain duals. |
 | dependency | [Exact material](Yin_C_F0070_v1.md#statement) | Scalar normal starred derivation and exact canonical-core agreement. |
 | dependency | [Exact material](Yin_C_F0055_v1.md#statement) | Scalar normal vacuum-to-canonical-full-domain result after diffuse divided-difference identification. |
-| dependency | [Exact material](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and canonical bounded-vector domains. |
+| dependency | [Exact material](../audits/literature/Dab10/Yin_U002.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and canonical bounded-vector domains. |
 | dependency | [Exact material](Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Exact energy and graph mechanism, with the mixed coordinate checks proved in this argument. |
-| dependency | [Exact material](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Actual vacuum interface and scalar nonatomicity through Proposition 3.5. |
+| dependency | [Exact material](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Actual vacuum interface and scalar nonatomicity through Proposition 3.5. |
 | review | [Original finding](../audits/reviews/Yin_R_F0044_v1.md#conclusion) | Whole fixed v2 Parts A–E, complete mixed reverse, partition converse, scalar and affine consequences; self-reviewed because of the disclosed unitary-twist contribution and shared development, not isolated whole-proof coverage. |
 

@@ -77,8 +77,8 @@ It does not assert an operator-norm-to-\(L^2\) bound for either contraction of \
 
 ### 1. Diffuseness, the phase, and closability
 
-By [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001), (1) implies \(\Delta(X)=d\).
-The absence-of-finite-rank-cycles characterization in [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) then implies that every normal marginal is diffuse.
+By [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001), (1) implies \(\Delta(X)=d\).
+The absence-of-finite-rank-cycles characterization in [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) then implies that every normal marginal is diffuse.
 Indeed, if a spectral projection \(e=1_{\{z\}}(X_j)\) were nonzero, the rank-one orthogonal projection onto \(\mathbb C e\Omega\) would commute with right multiplication by \(X_j\): this line reduces that normal operator.
 Putting this projection in coordinate \(j\) and zero in all other coordinates gives a nonzero finite-rank cycle.
 
@@ -129,7 +129,7 @@ Consequently \(h_t\to k\) in \(L^2(\mu^2)\).
 For fixed \(t\), approximate \(h_t\) and all its first real partial derivatives uniformly on a real four-dimensional box containing the product spectrum by complex polynomials in those four real coordinates.
 This is the tensor Bernstein \(C^1\) approximation: Theorem 3 and Theorem 4(1) of VV16, in the [accepted author PDF](https://eprints.whiterose.ac.uk/id/eprint/106084/1/tr182a2-copy-for-UoL.pdf), printed pp.6-7, with \(d=4,m=1\).
 The arbitrary-\(d\) statement of Theorem 4 was directly checked on 2026-10-15.
-The existing [VV16-U001](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001) retains the same source and its earlier two-dimensional application; its recorded application is not silently enlarged here.
+The existing [VV16-U001](../audits/literature/VV16/Yin_U001.md#vv16-u001) retains the same source and its earlier two-dimensional application; its recorded application is not silently enlarged here.
 
 For completeness, on the unit cube the tensor Bernstein derivative in coordinate \(r\) is the positive Bernstein average, with degree \(n-1\) in coordinate \(r\), of
 \[
@@ -346,8 +346,8 @@ Recorded review label: self-reviewed.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Parts 1-3, actual joint phase domains, derivative estimates and coassociativity on the full starred core. |
 | argument | [Argument](#argument) | Complete diffuse-phase, smooth approximation, positive-kernel, weak graph and bounded product-rule proof. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Proposition 3.5 maximal Delta and the inspected actual tensor-adjoint closability interface. |
-| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) | Maximal Delta excludes nonzero finite-rank cycles, used to prove diffuse marginals. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Proposition 3.5 maximal Delta and the inspected actual tensor-adjoint closability interface. |
+| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Maximal Delta excludes nonzero finite-rank cycles, used to prove diffuse marginals. |
 | dependency | [C_F0055 Sections 4-5](Yin_C_F0055_v1.md#5-vacuum-control-of-all-soft-cauchy-transforms) | The actual scalar-vacuum soft-Cauchy estimate, positive Q_t identity and limiting curvature bound; its scalar hypotheses are verified in Section 1. |
 | dependency | [C_F0073 Part A](Yin_C_F0073_v1.md#argument) | Conjugation of an actual Hilbert adjoint vacuum gives the vacuum xi_i star for epsilon_i. |
 
@@ -363,8 +363,8 @@ Recorded review label: self-reviewed.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Parts 1-3, actual joint phase domains, derivative estimates and coassociativity on the full starred core. |
 | argument | [Argument](#argument) | Complete diffuse-phase, smooth approximation, positive-kernel, weak graph and bounded product-rule proof. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Proposition 3.5 maximal Delta and the inspected actual tensor-adjoint closability interface. |
-| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) | Maximal Delta excludes nonzero finite-rank cycles, used to prove diffuse marginals. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Proposition 3.5 maximal Delta and the inspected actual tensor-adjoint closability interface. |
+| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Maximal Delta excludes nonzero finite-rank cycles, used to prove diffuse marginals. |
 | dependency | [C_F0055 Sections 4-5](Yin_C_F0055_v1.md#5-vacuum-control-of-all-soft-cauchy-transforms) | The actual scalar-vacuum soft-Cauchy estimate, positive Q_t identity and limiting curvature bound, with all scalar hypotheses checked. |
 | dependency | [C_F0073 Part A](Yin_C_F0073_v1.md#argument) | Conjugation of an actual Hilbert adjoint vacuum gives the vacuum xi_i star for epsilon_i. |
 | review | [Independent complete review](../audits/reviews/Yin_R_F0049_v1.md#conclusion) | Entire fixed statement and proof, all dependencies, direct four-dimensional Bernstein applicability and actual tensor-adjoint source check; no full-domain or contraction conclusion. |

@@ -18,7 +18,7 @@ Context: user-authorized follow-up analysis on 2026-09-09 after the completion o
 This result changes the ambient algebra and criterion; it does not reopen Yin_T_F0001 or change the refuted [Yin_C_F0001](Yin_C_F0001_v1.md#yin_c_f0001).
 No successor goal is allocated here.
 
-Provenance: project deduction by extending [Yin_C_F0005](Yin_C_F0005_v1.md#yin_c_f0005), with the fraction and defect constructions audited in [Miy22-U006-U007](../audits/literature/Miy22/Yin_U006_v1.md#miy22-u006).
+Provenance: project deduction by extending [Yin_C_F0005](Yin_C_F0005_v1.md#yin_c_f0005), with the fraction and defect constructions audited in [Miy22-U006-U007](../audits/literature/Miy22/Yin_U006.md#miy22-u006).
 Human author: Yin.
 Proof development: mathematical AI agent another AI agent.
 Initial assessment: complete proof draft, under review; the [selected assessment](#decision-isolated-review-20261022) records the mathematical and review assessments.
@@ -85,7 +85,7 @@ No closedness of $V$ and no reverse domain inclusion are asserted.
 
 ## 2. Accepted Inputs and Their Roles
 
-- [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005), Proposition 6.2, published pp. 47-48, says that bounded duals imply $\Delta(X)=d$.
+- [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005), Proposition 6.2, published pp. 47-48, says that bounded duals imply $\Delta(X)=d$.
   Its convention is $[X_i,D_j]=\delta_{ij}P$, matched by replacing our $D_j$ with $-D_j$.
   The source statement permits nonselfadjoint tuples.
 - [MSY23's accepted free-field interface](../audits/literature/MSY23/readme.md#accepted-inputs), Theorem 1.1(i),(v), published pp. 3-4, identifies (2) with an embedded free skew field.
@@ -93,7 +93,7 @@ No closedness of $V$ and no reverse domain inclusion are asserted.
   The reverse proof below needs this division-ring property, not a bounded inverse theorem.
   The source audit owns the exact source coverage and retained external foundations.
 - Standard finite-tracial affiliated-operator calculus supplies $U$, its canonical inclusion of $L^2(M,\tau)$, polar decomposition, bounded fractions, and invertibility of regular bounded elements.
-  [Miy22-U006](../audits/literature/Miy22/Yin_U006_v1.md#miy22-u006) records these interfaces and their scope.
+  [Miy22-U006](../audits/literature/Miy22/Yin_U006.md#miy22-u006) records these interfaces and their scope.
   For example,
   \[
   s=(1+uu^*)^{-1/2},\quad a=su,\qquad
@@ -434,7 +434,7 @@ It does not prove the stronger equality
 V\cap\operatorname{dom}u
 =V\cap\bigcap_i\operatorname{dom}(uD_i).
 \]
-The reverse inclusion in [Miy22-U008](../audits/literature/Miy22/Yin_U008_v1.md#miy22-u008) uses its creation/annihilation identities and is not imported here.
+The reverse inclusion in [Miy22-U008](../audits/literature/Miy22/Yin_U008.md#miy22-u008) uses its creation/annihilation identities and is not imported here.
 The complements in (25) are algebraic, with no Hilbert-closedness or graph-norm-density claim.
 
 ## 9. Checks, Review, and Limits

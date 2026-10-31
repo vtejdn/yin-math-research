@@ -62,8 +62,8 @@ The following existing inputs were read before proof development:
 - [Yin_C_F0026](Yin_C_F0026_v1.md#yin_c_f0026): the arbitrary-denominator counterexample has a **noncompact** extra starred commutator and does not meet (1).
 - [Yin_C_F0027](Yin_C_F0027_v1.md#yin_c_f0027): bounded rational forward calculus; two uniform polynomial \(\infty\)-to-2 bounds restore the actual closed operator and actual adjoint on all of \(\mathcal M\).
 - [Yin_C_F0028](Yin_C_F0028_v1.md#yin_c_f0028): the full one-coordinate question is already solved, even under merely bounded starred commutators.
-- [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001): the exact starred-core derivation and vacuum-adjoint interface, with Hilbert tensor codomain.
-- [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002): selfadjoint finite-Fisher contractions and their actual adjoints have \(\infty\)-to-2 bounds.
+- [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001): the exact starred-core derivation and vacuum-adjoint interface, with Hilbert tensor codomain.
+- [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002): selfadjoint finite-Fisher contractions and their actual adjoints have \(\infty\)-to-2 bounds.
 - [Yin_C_F0039's analytic-arc verification](Yin_C_F0039_v1.md#analytic-arc-application): a kernel holomorphic near a compact real square has a bounded-Borel projective tensor expansion, by finite interval partitions and summable Taylor coefficients.
   Its previous all-\(\mathcal M\) domain premise is **not** imported into the present statement.
 

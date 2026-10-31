@@ -38,8 +38,8 @@ No existing project theorem is used to supply an unproved local continuity or va
 | [Conclusion](#conclusion) | [C_F0069 statement](../../claims/Yin_C_F0069_v1.md#statement) | Exact automatic norm-to-L2 continuity claim without closability, scalar selfadjoint ACSY24 converse and marginal compression corollary. |
 | [Conclusion](#conclusion) | [C_F0069 argument](../../claims/Yin_C_F0069_v1.md#argument) | Entire triangular smooth calculus, spectral decomposition, algebraic divisible-subspace exclusion, Lau88 application, Bochner Fourier average and actual adjoint estimate. |
 | [Conclusion](#conclusion) | [C_F0069 source relationship](../../claims/Yin_C_F0069_v1.md#source-relationship-and-unresolved-scope) | Exact accepted source roles, local verification of every theorem premise, lack of general joint-converse conclusion and bounded novelty/search claims. |
-| [Conclusion](#conclusion) | [Lau88-U001](../literature/Lau88/Yin_U001_v1.md#lau88-u001) | Definitions and exact Proposition 3.7/Theorem 4.1 hypotheses checked against primary source; project application and original-source proof limits accurately distinguished. |
-| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Actual densely defined derivation and vacuum-adjoint condition matched to part B, using the existing accepted source audit at this definition/interface scope. |
+| [Conclusion](#conclusion) | [Lau88-U001](../literature/Lau88/Yin_U001.md#lau88-u001) | Definitions and exact Proposition 3.7/Theorem 4.1 hypotheses checked against primary source; project application and original-source proof limits accurately distinguished. |
+| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Actual densely defined derivation and vacuum-adjoint condition matched to part B, using the existing accepted source audit at this definition/interface scope. |
 
 ## Automatic continuity: all hypotheses checked
 

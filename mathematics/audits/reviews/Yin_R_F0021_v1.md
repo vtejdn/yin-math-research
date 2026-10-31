@@ -51,7 +51,7 @@ I also read and reconstructed the entire direct project dependency [Yin_C_F0031-
 
 This review checks that dependency's finite-range closure and dense-restriction cancellation arguments as actually used here.
 It does not replace Yin_C_F0031's separate claim-level review record.
-I checked the [batch authorization and version map](../../ledger/Yin_L_F0014_v1.md#authorization) and the accepted fraction/regularity interface and trust boundary recorded in [Miy22-U006](../literature/Miy22/Yin_U006_v1.md#miy22-u006).
+I checked the [batch authorization and version map](../../ledger/Yin_L_F0014_v1.md#authorization) and the accepted fraction/regularity interface and trust boundary recorded in [Miy22-U006](../literature/Miy22/Yin_U006.md#miy22-u006).
 I did not perform a new primary-PDF audit or independently reprove the foundational construction of the affiliated algebra.
 The source audit's existing distinction between reconstructed consequences and accepted affiliation foundations is retained.
 

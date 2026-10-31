@@ -31,7 +31,7 @@ The original independent descriptions, dates and full checked scope are preserve
   The reviewer requested that the compact rigidity proof name the positive operator C-star C explicitly; the mathematical argument already had that meaning.
   The reviewer verified the completed wording clarification after the full compact-version review.
   That clarification was the only further target edit and changes no mathematical assertion or argument.
-- Relevant research context: the user-requested smaller starred polynomial domains in [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001), within the expanded normal-dual rationality investigation.
+- Relevant research context: the user-requested smaller starred polynomial domains in [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001), within the expanded normal-dual rationality investigation.
 - Disclosure: this reviewer previously developed a related selfadjoint weak-commutator argument and separately constructed [Yin_C_F0026](../../claims/Yin_C_F0026_v1.md#yin_c_f0026).
   The reviewer did not author Yin_C_F0025 or its normal-coordinate spectral reconstruction.
   The coordinating agent proposed the compact refinement using a related rigidity argument; this reviewer independently checked that refinement before the author integrated it.
@@ -98,7 +98,7 @@ After the compact-to-Hilbert-Schmidt argument described below, Theta-inverse of 
 The target therefore supplies exactly the starred algebra, Hilbert tensor codomain, coordinate values and vacuum-adjoint condition in ACSY24 Proposition 3.5.
 The converse construction also passes: contraction of a source derivation has commutator Theta(partial_i a), and the displayed adjoint formula gives the required vacuum and polynomial adjoint domains.
 
-The reviewer read the local [ACSY24 audit](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001), including its regularization reconstruction, and the relevant [MSY23 realization interface](../literature/MSY23/Yin_U004_v1.md#msy23-u004).
+The reviewer read the local [ACSY24 audit](../literature/ACSY24/Yin_U001.md#acsy24-u001), including its regularization reconstruction, and the relevant [MSY23 realization interface](../literature/MSY23/Yin_U004.md#msy23-u004).
 The audit's weaker bounded-commutator regularization, reconstructed in the revised target, provides maximal Delta before any Hilbert-Schmidt conclusion.
 MSY23 then provides the embedded division ring at its existing source-inspection scope.
 No assertion about all bounded vectors being in the dual domains is imported from either interface.

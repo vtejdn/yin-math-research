@@ -49,7 +49,7 @@ The missing coassociativity or controlled-defect input is substantive.
 
 Before developing the test, the following existing records were read:
 
-- [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002), including its proof reconstruction and stated reality/coassociativity/functional-calculus scope;
+- [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002), including its proof reconstruction and stated reality/coassociativity/functional-calculus scope;
 - [C_F0043 Sections 3.1--3.2](Yin_C_F0043_v1.md), which explicitly computes and controls the nonzero coassociativity defect for its particular unitary reweighting;
 - [C_F0025](Yin_C_F0025_v1.md), the normal phase and represented-core conventions;
 - [C_F0047](Yin_C_F0047_v1.md), including its same-circle Fourier calculation;

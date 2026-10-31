@@ -59,8 +59,8 @@ Canonical publication, navigation consistency and submission checks are distinct
 | C_F0034/C_F0035 fraction/equalizer proofs (original material now separated into [Yin_C_F0034_v1](../../claims/Yin_C_F0034_v1.md), [Yin_C_F0035_v1](../../claims/Yin_C_F0035_v1.md)) | Fraction formulas, actual-domain closability, finite-rank cancellation and algebraic equalizer |
 | [C_F0027 original closure bridge](../../claims/Yin_C_F0027_v1.md#yin_c_f0027) | Section 5 core-bound recovery and bounded-set weak continuity; no fresh whole-review claim for its other results |
 | [C_F0043 controlled-defect calculation](../../claims/Yin_C_F0043_v1.md#yin_c_f0043) | Sections 3.1-3.2 calculation and analytic-unitary method; not the unused geometric transfer theorem |
-| [Yin20 representation-existence unit](../literature/Yin20/Yin_U001_v1.md#yin20-u001) | Sections 4-6 accepted existence interface and the corrected block constructions |
-| [CR94 minimal-family unit](../literature/CR94/Yin_U001_v1.md#cr94-u001) | Exact independent left/right state-family interface, distinct from existence |
+| [Yin20 representation-existence unit](../literature/Yin20/Yin_U001.md#yin20-u001) | Sections 4-6 accepted existence interface and the corrected block constructions |
+| [CR94 minimal-family unit](../literature/CR94/Yin_U001.md#cr94-u001) | Exact independent left/right state-family interface, distinct from existence |
 | [Initial contract-comparison record](../../ledger/Yin_L_F0016_v1.md#t_f0001-intrinsic-criterion-resolution) | Entire initial document; its pending-audit wording describes the state when read |
 | [Final contract-comparison record](../../ledger/Yin_L_F0016_v1.md#t_f0001-intrinsic-criterion-resolution) | Entire final document reopened; only bounded Claim identification and evidence/completion disposition changed from the preceding inspected draft |
 | [Prepared Task material v3](../../tasks/Yin_T_F0001_v3.md#yin_t_f0001) | Entire successor material, new resolution and preserved original contract; suitable for the reviewed completion transition |

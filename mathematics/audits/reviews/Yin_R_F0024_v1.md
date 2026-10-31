@@ -28,7 +28,7 @@ The C1 condition on b has been removed.
 
 Only the measurable sufficient direction of [Yin_C_F0048](../../claims/Yin_C_F0048_v1.md#yin_c_f0048) is used on annuli.
 [Yin_C_F0047](../../claims/Yin_C_F0047_v1.md#yin_c_f0047) makes its radial hypothesis automatic there.
-[VV16-U001](../literature/VV16/Yin_U001_v1.md#vv16-u001) is used for C1 approximation of smooth cutoffs times polynomials, with the statement-level source inspection already recorded in the [Yin_C_F0048 review](Yin_R_F0022_v1.md).
+[VV16-U001](../literature/VV16/Yin_U001.md#vv16-u001) is used for C1 approximation of smooth cutoffs times polynomials, with the statement-level source inspection already recorded in the [Yin_C_F0048 review](Yin_R_F0022_v1.md).
 No new external theorem, full source-proof audit, or Hilbert norm equivalence argument for transferring adjoints is introduced.
 
 ## 2. Finite measures and actual annular operators

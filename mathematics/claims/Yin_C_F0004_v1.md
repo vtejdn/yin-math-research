@@ -226,7 +226,7 @@ It does not require a Bezoutian determinant theorem or an explicit kernel for D.
 Equivalently, the rank is the total pole multiplicity of this rational function on the Riemann sphere, including infinity.
 The finite poles contribute deg q; infinity contributes max(deg p-deg q,0).
 For example, f=X has rank one although its scalar rational function has no finite pole.
-Miy22's strictly proper Laurent convention excludes an infinity pole; the [Kronecker comparison](../audits/literature/Miy22/Yin_U009_v1.md#miy22-u009) explains that distinction and the precise Haar specialization.
+Miy22's strictly proper Laurent convention excludes an infinity pole; the [Kronecker comparison](../audits/literature/Miy22/Yin_U009.md#miy22-u009) explains that distinction and the precise Haar specialization.
 This is a refinement of Yin_C_F0004, not a claim of novelty.
 
 ## Corollary: Functions of One Coordinate in a General Tuple

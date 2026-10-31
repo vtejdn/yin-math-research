@@ -123,7 +123,7 @@ The dual and all-bounded-vector domain assumptions remain required; this geometr
 ### Reuse Check and Dependencies
 
 [Yin_C_F0038-P1](Yin_C_F0038_v1.md#yin_c_f0038-p1) constructs L1 densities from closability and an all-\(\mathcal M\) domain before using selfadjointness.
-The [AP18 L1 interface](../audits/literature/AP18/Yin_U003_v1.md#l1-predual-interface) supplies completeness, the norm identity and normal pairing.
+The [AP18 L1 interface](../audits/literature/AP18/Yin_U003.md#l1-predual-interface) supplies completeness, the norm identity and normal pairing.
 [Yin_C_F0037-P1](Yin_C_F0037_v1.md#yin_c_f0037-p1) supplies atomlessness and the actual Hilbert-Schmidt starred commutators, without (47.2) or an adjoint module.
 [Yin_C_F0018 Section 1](Yin_C_F0018_v1.md#1-algebra-norms-and-the-correction-lemma) gives the projective norm and the exact right-multiplier action; its bounded-operator mechanism is adapted below to a bounded map from operator norm to Hilbert norm.
 The Hilbert-Schmidt/tensor correspondence is the accepted [Yin_C_F0025 convention](Yin_C_F0025_v1.md#yin_c_f0025).

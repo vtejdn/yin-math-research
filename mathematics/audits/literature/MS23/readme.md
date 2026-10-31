@@ -4,18 +4,23 @@ author: Yin
 
 # MS23 Source Units
 
+<a id="yin-edition"></a>
+## Yin: inspected edition
+
+The primary inspected source is the [36-page published article](../../../literature/pdf/MS23.pdf), Advances in Mathematics 413 (2023), 108834; printed and one-based PDF pages agree.
+The earlier 30-page arXiv reading remains a separate source scope.
+
 The following selected units retain their stated editions, passages, inspection dates, and review limits.
 
-- [Yin_U001_v1](Yin_U001_v1.md)
-- [Yin_U001_v2](Yin_U001_v2.md)
-- [Yin_U002_v1](Yin_U002_v1.md)
-- [Yin_U003_v1](Yin_U003_v1.md)
-- [Yin_U004_v1](Yin_U004_v1.md)
-- [Yin_U005_v1](Yin_U005_v1.md)
+- [Yin_U001](Yin_U001.md)
+- [Yin_U002](Yin_U002.md)
+- [Yin_U003](Yin_U003.md)
+- [Yin_U004](Yin_U004.md)
+- [Yin_U005](Yin_U005.md)
 
 ## Ms23 q gaussian dual source audit
 
-See [Yin_U001_v2](Yin_U001_v2.md), [Yin_U002_v1](Yin_U002_v1.md), [Yin_U003_v1](Yin_U003_v1.md), [Yin_U004_v1](Yin_U004_v1.md), [Yin_U005_v1](Yin_U005_v1.md).
+See [Yin_U001](Yin_U001.md), [Yin_U002](Yin_U002.md), [Yin_U003](Yin_U003.md), [Yin_U004](Yin_U004.md), [Yin_U005](Yin_U005.md).
 This navigation does not enlarge those units' recorded source-inspection or independent-review scopes.
 
 ## Goal completion review

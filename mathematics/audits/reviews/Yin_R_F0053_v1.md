@@ -31,7 +31,7 @@ No reviewer-supplied repair or new mathematical inspection is asserted here.
 | [Whole-proof finding](#whole-proof-finding) | [C_F0080 v1 Argument](../../claims/Yin_C_F0080_v1.md#argument) | Complete operator construction, monomial obstruction and original Chebyshev argument, including all moment and convergence steps. |
 | [Whole-proof finding](#whole-proof-finding) | [C_F0080 v1 Definitions and provenance](../../claims/Yin_C_F0080_v1.md#definitions-and-provenance) | Compared common-domain, commutator, local sum normalization and actual vacuum-adjoint conditions. |
 | [Whole-proof finding](#whole-proof-finding) | [C_F0079 v4 definition](../../claims/Yin_C_F0079_v4.md#liberation-dual-system) | Generator-first commutators and common domains only; no theorem or normalization construction is invoked. |
-| [Whole-proof finding](#whole-proof-finding) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Definition interface only: starred polynomial derivations, outer bimodule structure and actual vacuum-adjoint domain. |
+| [Whole-proof finding](#whole-proof-finding) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Definition interface only: starred polynomial derivations, outer bimodule structure and actual vacuum-adjoint domain. |
 
 ## Whole-proof finding
 

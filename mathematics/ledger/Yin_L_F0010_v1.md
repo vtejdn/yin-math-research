@@ -16,8 +16,8 @@ Current priorities remain in the [route index](../strategies/readme.md).
 
 ## What the Classical Proof Contributes
 
-[Par88-U001](../audits/literature/Par88/Yin_U001_v1.md#par88-u001) audits the actual Theorem 3.11 proof.
-Together with [Miy22-U009](../audits/literature/Miy22/Yin_U009_v1.md#miy22-u009), it separates three mechanisms:
+[Par88-U001](../audits/literature/Par88/Yin_U001.md#par88-u001) audits the actual Theorem 3.11 proof.
+Together with [Miy22-U009](../audits/literature/Miy22/Yin_U009.md#miy22-u009), it separates three mechanisms:
 
 1. A finite-dimensional space of Hankel columns is invariant under the backward shift.
    Finite rank alone is insufficient; the Hankel intertwining relation supplies the invariance.
@@ -26,8 +26,8 @@ Together with [Miy22-U009](../audits/literature/Miy22/Yin_U009_v1.md#miy22-u009)
 3. Square summability excludes unstable states.
    This controls the entire minimal resolvent and is the analytic step to study for bounded descent.
 
-For several letters, stable residual spaces and recognizable series already provide an algebraic analogue, audited in [BR10-U001](../audits/literature/BR10/Yin_U001_v1.md#br10-u001).
-[Miy22-U003-U005](../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003) realize both the residual and analytic steps in semicircular coordinates.
+For several letters, stable residual spaces and recognizable series already provide an algebraic analogue, audited in [BR10-U001](../audits/literature/BR10/Yin_U001.md#br10-u001).
+[Miy22-U003-U005](../audits/literature/Miy22/Yin_U003.md#miy22-u003) realize both the residual and analytic steps in semicircular coordinates.
 Repeating only formal rationality does not fill the present gap: [Yin_C_F0005](../claims/Yin_C_F0005_v1.md#yin_c_f0005) already gives S_D subset F_X intersect M.
 
 ## A Concrete State-Space Advance
@@ -51,7 +51,7 @@ General free-field elements need not have a scalar point of regularity; the moni
 
 ## The Most Useful New Literature Mechanism
 
-[JMS21-U001](../audits/literature/JMS21/Yin_U001_v1.md#jms21-u001) provides the closest analytic template: for a minimal rational Fock-space series, square summability passes from the scalar coefficients to all state-entry series; a positive finite-dimensional Gramian then gives strict stability.
+[JMS21-U001](../audits/literature/JMS21/Yin_U001.md#jms21-u001) provides the closest analytic template: for a minimal rational Fock-space series, square summability passes from the scalar coefficients to all state-entry series; a positive finite-dimensional Gramian then gives strict stability.
 This is a noncommutative counterpart of excluding classical poles on the boundary.
 
 For Yin_T_F0001 the discriminating next question is whether the bounded duals and the finite-rank hypothesis control **all necessary state observations** in the actual tracial Hilbert space.
@@ -69,7 +69,7 @@ Because A(X) is already invertible in affiliated operators, this estimate would 
 This is a proposed sufficient target, not an estimate established by minimality or finite rank.
 
 Even after obtaining that inverse, bounded scalar elimination remains necessary.
-[PV23-U001](../audits/literature/PV23/Yin_U001_v1.md#pv23-u001) confirms that scalar and matrix rational domains are separately defined in the general realization literature.
+[PV23-U001](../audits/literature/PV23/Yin_U001.md#pv23-u001) confirms that scalar and matrix rational domains are separately defined in the general realization literature.
 For a contraction obtained in an admissible rational coordinate chart, Miy22's small-norm scalar-pivot argument is a concrete sufficient mechanism; arbitrary polar factorization or matrix inversion is not a substitute.
 
 ## Tests That Rule Out Naive Transfers

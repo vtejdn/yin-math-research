@@ -23,7 +23,7 @@ That fact cannot be promoted to boundedness on an arbitrary operator norm or Haa
 In particular, k is the divided difference of f(z)=conjugate(z).
 
 Primary source checked: A. B. Aleksandrov and V. V. Peller, *Operator Lipschitz functions*, arXiv:1611.01593v1, [exact source](https://arxiv.org/pdf/1611.01593v1).
-The [selected source note](../audits/literature/AP16/Yin_U001_v1.md) records actual coverage.
+The [selected source note](../audits/literature/AP16/Yin_U001.md) records actual coverage.
 Theorem 3.3.2 (printed p. 53) characterizes commutator Lipschitz functions by universal Schur multipliers of their divided differences.
 Theorem 3.3.3 on the same page states that such functions have a complex derivative at every nonisolated point of their closed spectral set.
 Its proof on the following page uses the triangular-sign Schur multiplier obstruction.
@@ -87,6 +87,6 @@ No actual correlated tuple satisfying all C_F0025 hypotheses and violating the b
 
 ## 5. A positive example at the same Schur obstruction
 
-The [local disk-law calculation](../audits/literature/AP16/Yin_U001_v1.md#local-disk-law-comparison) gives a positive rationality example satisfying the original hypotheses at the same universal Schur obstruction.
+The [local disk-law calculation](../audits/literature/AP16/Yin_U001.md#local-disk-law-comparison) gives a positive rationality example satisfying the original hypotheses at the same universal Schur obstruction.
 Free copies are covered by C_F0055 (recorded assessment 2) as well.
 This explicit example prevents treating the Schur boundary as a refutation of T_F0001.

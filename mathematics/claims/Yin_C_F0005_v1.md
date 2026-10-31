@@ -42,7 +42,7 @@ This does not assert membership in Div_M C<X>, nor an equality F_X intersect M =
 [MSY23 source interfaces](../audits/literature/MSY23/readme.md#accepted-inputs) checks the published version supplied as MSY23: Proposition 6.2, pp. 47-48 (arXiv v2 p. 35), says existence of a bounded dual system implies Delta(X)=d, with no selfadjointness assumption.
 Its convention is [X_i,D_j]=delta_ij P; replacing our D_j by -D_j gives exactly that convention.
 Theorem 1.1(i),(v), published pp. 3-4 (arXiv v2 p. 3), then identifies F_X with an embedded free skew field and in particular proves that F_X is a unital division subring of U.
-The earlier arXiv interface remains recorded in [Miy26-U004](../audits/literature/Miy26/Yin_U004_v1.md#miy26-u004).
+The earlier arXiv interface remains recorded in [Miy26-U004](../audits/literature/Miy26/Yin_U004.md#miy26-u004).
 The main free-field theorem is an accepted external input, not a newly audited full source proof.
 The published ambient-algebra distinction is checked in the MSY23 source index.
 

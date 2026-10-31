@@ -40,7 +40,7 @@ Updated: 2026-09-08.
 ## Exact Target and Logical Role
 
 Organize the attempted reconstruction in [Unt20](../literature/pdf/Unt20.pdf), pp. 1-4, as a possible route to Yin_C_F0001's finite-rank-to-rationality implication.
-The [source reading map](../audits/literature/Unt20/Yin_U001_v1.md#unt20-u001) owns the equations, examples, and detailed gaps.
+The [source reading map](../audits/literature/Unt20/Yin_U001.md#unt20-u001) owns the equations, examples, and detailed gaps.
 
 The candidate chain is:
 
@@ -54,7 +54,7 @@ In particular, neither its L2 formulation nor its undefined "regularity" conditi
 
 ## Inputs and Obstruction
 
-Input read: [Unt20-U001](../audits/literature/Unt20/Yin_U001_v1.md#unt20-u001), with selected example checks and explicit missing context.
+Input read: [Unt20-U001](../audits/literature/Unt20/Yin_U001.md#unt20-u001), with selected example checks and explicit missing context.
 The [Yin_C_F0002 proof and audit](../claims/Yin_C_F0002_v1.md#yin_c_f0002) supplies the exact polynomial commutator identity and the maximal bounded derivative partial^D, whose finite-rank condition is equivalent to the finite-L2-factor form.
 It also proves rational-to-finite-rank, leaving the reverse implication open.
 

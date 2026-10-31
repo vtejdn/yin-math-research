@@ -196,7 +196,7 @@ The local maps agree on their overlapping input domains because they are given b
 
 ## 3. Maximal Delta on a Dense Left Module
 
-Use the accepted finite-rank-cycle characterization at [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002):
+Use the accepted finite-rank-cycle characterization at [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002):
 \[
 \Delta(X)=d
 \quad\Longleftrightarrow\quad
@@ -249,7 +249,7 @@ Varying \(\ell\in M\) supplies an independently dense family of second test vect
 Thus \(QT_j=0\), and injectivity of \(Q\) gives \(T_j=0\).
 This proves \(\Delta(X)=d\).
 
-The accepted [MSY23 free-field equivalence](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) identifies \(F\) with the embedded free skew field.
+The accepted [MSY23 free-field equivalence](../audits/literature/MSY23/Yin_U004.md#msy23-u004) identifies \(F\) with the embedded free skew field.
 This argument uses neither normality nor an input \(D_{j,0}\Omega\).
 It does not trace an uncontrolled unbounded product.
 
@@ -470,7 +470,7 @@ These are precisely the closures of the prescribed restrictions, not arbitrary l
 ## 8. A Strict Noncommuting Example
 
 Let \(d\geq2\), \(M=L(\mathbb F_d)\), and let \(U_1,\ldots,U_d\) be the canonical free Haar generators.
-Use bounded duals \(B_i\) with \([B_i,U_j]=\delta_{ij}P\), supplied by the audited free-Haar construction in [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005).
+Use bounded duals \(B_i\) with \([B_i,U_j]=\delta_{ij}P\), supplied by the audited free-Haar construction in [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
 
 Choose a positive measurable affiliated operator \(\eta\notin L^2(M)\).
 For instance,
@@ -614,8 +614,8 @@ We therefore take \(d\geq1\) in the proof below.
 | [Yin_C_F0033-P1](Yin_C_F0033_v1.md#yin_c_f0033-p1) | Normality, generation and the dual relations supply the local module identity; the defects have bounded representatives from Yin_C_F0031 |
 | [Yin_C_F0034-P1](Yin_C_F0034_v1.md#yin_c_f0034-p1) | The precise \(E,V_i,D_{i,0}\) assumptions hold, and generator defects are the rank-one \(P\) or zero |
 | [Yin_C_F0035-P1](Yin_C_F0035_v1.md#yin_c_f0035-p1) | The accepted free-field interface, applied after maximal Delta is proved, makes \(F\subset U\) a same-unit division subring |
-| [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) | Finite-rank-cycle characterization of \(\Delta(X)=d\) for a bounded tuple, with left/right conventions converted as in the audited unit |
-| [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) | The implication from maximal Delta to the embedded free field and the accepted finite-tracial affiliated foundation |
+| [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Finite-rank-cycle characterization of \(\Delta(X)=d\) for a bounded tuple, with left/right conventions converted as in the audited unit |
+| [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004) | The implication from maximal Delta to the embedded free field and the accepted finite-tracial affiliated foundation |
 
 The finite-tensor identification is reconstructed in the proof below; elementary trace cyclicity is applied only to bounded finite-rank operators.
 Finite-tracial left and right fractions and common regular multiples have the accepted source scope used in Yin_C_F0034.
@@ -747,7 +747,7 @@ These statements concern precisely \(D_i=\overline{D_{i,0}}\), not arbitrary lar
 
 The independently checked construction in Yin_C_F0029-P1 Section 8 is retained as an auxiliary example; its proof does not invoke the rationality conclusion.
 Here is the complete interface needed by P2.
-Take \(M=L(\mathbb F_d)\), \(d\ge2\), with free Haar generators \(U_j\) and bounded duals \(B_i\) supplied by [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005), with the audited sign convention \([B_i,U_j]=\delta_{ij}P\).
+Take \(M=L(\mathbb F_d)\), \(d\ge2\), with free Haar generators \(U_j\) and bounded duals \(B_i\) supplied by [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005), with the audited sign convention \([B_i,U_j]=\delta_{ij}P\).
 Set
 \[
 \eta=1+|1-U_1|^{-\alpha},\quad \tfrac12\le\alpha<1,\qquad

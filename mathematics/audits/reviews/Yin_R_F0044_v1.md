@@ -50,9 +50,9 @@ For the separate ACSY24 source finding, the reviewer first read the existing rec
 | [C_F0071 conclusion](#conclusion) | [C_F0070 Part A](../../claims/Yin_C_F0070_v1.md#statement) | Scalar normal starred derivation, diffuseness and exact canonical-core agreement only. |
 | [C_F0071 conclusion](#conclusion) | [C_F0055 scalar input](../../claims/Yin_C_F0055_v1.md#statement) | Nonatomic scalar normal law, actual vacuum and canonical bounded-vector domains; no mixed/free-tuple conclusion is imported. |
 | [C_F0071 conclusion](#conclusion) | [C_F0043 Section 3](../../claims/Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Real unitary twist, defect, energy identity, analytic-unitary approximation and canonical operator reconstruction, rechecked for the mixed adaptation. |
-| [C_F0071 conclusion](#conclusion) | [Dab10-U002](../literature/Dab10/Yin_U002_v1.md#dab10-u002) | Accepted selfadjoint finite-Fisher contraction and graph-domain implication; no attribution of the mixed theorem to the printed source. |
-| [C_F0071 conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Actual vacuum interface and Proposition 3.5 used for scalar nonatomicity, with the source reconstruction rechecked below. |
-| [ACSY24 no-normality finding](#acsy-no-normality) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Published Section 3.2 definition, Theorem 3.4, Proposition 3.5 and the entire local regularization reconstruction; no normality or reality premise. |
+| [C_F0071 conclusion](#conclusion) | [Dab10-U002](../literature/Dab10/Yin_U002.md#dab10-u002) | Accepted selfadjoint finite-Fisher contraction and graph-domain implication; no attribution of the mixed theorem to the printed source. |
+| [C_F0071 conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Actual vacuum interface and Proposition 3.5 used for scalar nonatomicity, with the source reconstruction rechecked below. |
+| [ACSY24 no-normality finding](#acsy-no-normality) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Published Section 3.2 definition, Theorem 3.4, Proposition 3.5 and the entire local regularization reconstruction; no normality or reality premise. |
 
 ## Partition and real-derivation checks
 

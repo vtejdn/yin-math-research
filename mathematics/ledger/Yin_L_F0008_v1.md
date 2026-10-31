@@ -64,13 +64,13 @@ Consequently it can be used independently of Yin_C_F0013 when its own coefficien
 <a id="ks07-selected-input"></a>
 ## Selected source inputs and reading evidence
 
-The source-specific reusable record is [KS07-U001](../audits/literature/KS07/Yin_U001_v1.md#ks07-u001).
+The source-specific reusable record is [KS07-U001](../audits/literature/KS07/Yin_U001.md#ks07-u001).
 It records the accepted strong Haagerup theorem and the monomial L2 calculation.
 The author of this route inspected the arXiv v2 text at Definition 1.2/Theorem 1.3 (printed pp. 2-3), the R-diagonal cumulant definition (pp. 7-8), and Section 4.1, equations (4.1)-(4.3) (p. 17).
 The original complete inequality proof is not claimed reviewed.
 Author-hosted journal PDF retrieval timed out, and the requested arXiv page screenshots failed; this reading used the parsed source formulas and their independent reconstruction.
 
-For the negative example, [NS06-U001](../audits/literature/NS06/Yin_U001_v1.md#ns06-u001) records Corollary 15.9 and the relevant free polar-decomposition interface in the supplied local publisher-layout PDF.
+For the negative example, [NS06-U001](../audits/literature/NS06/Yin_U001.md#ns06-u001) records Corollary 15.9 and the relevant free polar-decomposition interface in the supplied local publisher-layout PDF.
 Its source version differs from the online author copy used by the older Miy26 audit.
 
 ## Search, decisions, and remaining work

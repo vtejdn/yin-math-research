@@ -15,7 +15,7 @@ author: Yin
 ## Yin_C_F0015: A Reusable L2-to-Boundedness Lemma
 
 Date: 2026-09-09.
-Provenance: project deduction by another AI agent, abstracting the mechanisms already audited in [Miy22-U002](../audits/literature/Miy22/Yin_U002_v1.md#miy22-u002), [Miy22-U004](../audits/literature/Miy22/Yin_U004_v1.md#miy22-u004), and [Miy26-U002](../audits/literature/Miy26/Yin_U002_v1.md#miy26-u002).
+Provenance: project deduction by another AI agent, abstracting the mechanisms already audited in [Miy22-U002](../audits/literature/Miy22/Yin_U002.md#miy22-u002), [Miy22-U004](../audits/literature/Miy22/Yin_U004.md#miy22-u004), and [Miy26-U002](../audits/literature/Miy26/Yin_U002.md#miy26-u002).
 Authorization: the user requested a precise reusable sufficient condition for the proposed L2 extension after [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 The completed goal is not reopened.
 Initial assessment: complete proof draft awaiting independent review.
@@ -140,7 +140,7 @@ Each such row is in $\ell^2$, since prefixing a fixed word is injective.
 Those coefficient functionals are therefore bounded on finitely supported inputs, and the column expansion gives a bounded finite-rank operator, of rank $r$.
 Conversely, finite rank of such an operator bounds its column span.
 
-The further equivalence with rationality of the formal series $\sum_w\alpha_w z^w$ is the source-statement-verified Schuetzenberger interface in [Miy22-U002](../audits/literature/Miy22/Yin_U002_v1.md#miy22-u002), Theorem 2.5.
+The further equivalence with rationality of the formal series $\sum_w\alpha_w z^w$ is the source-statement-verified Schuetzenberger interface in [Miy22-U002](../audits/literature/Miy22/Yin_U002.md#miy22-u002), Theorem 2.5.
 It is not needed for this proof.
 Its formal variables $z_i$ must be distinguished from operator generators.
 
@@ -296,8 +296,8 @@ A finite family of affiliated rational states in $L^2(M)$ need not be invariant 
 
 ## 6. Reuse and Scope Boundaries
 
-For a standard free semicircular tuple, the Wick/Chebyshev word polynomials provide the orthonormal basis and $K_m=m+1$, as reconstructed in [Miy22-U004](../audits/literature/Miy22/Yin_U004_v1.md#miy22-u004).
-[Miy26-U002](../audits/literature/Miy26/Yin_U002_v1.md#miy26-u002) separately proves that an affiliated rational L2 element has finite residual dimension in that basis.
+For a standard free semicircular tuple, the Wick/Chebyshev word polynomials provide the orthonormal basis and $K_m=m+1$, as reconstructed in [Miy22-U004](../audits/literature/Miy22/Yin_U004.md#miy22-u004).
+[Miy26-U002](../audits/literature/Miy26/Yin_U002.md#miy26-u002) separately proves that an affiliated rational L2 element has finite residual dimension in that basis.
 Combining those two model-specific inputs with this lemma recovers its boundedness mechanism.
 
 A polynomial Haagerup estimate $K_m\le C_0(m+1)^s$, with fixed $C_0>0$ and $s\ge0$, satisfies (1).

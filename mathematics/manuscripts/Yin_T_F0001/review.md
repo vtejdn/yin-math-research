@@ -85,8 +85,8 @@ Lemma 5.1 is independent of this theorem, so its forward reference introduces no
 The individual finite-rank preimages in (4) are the same tuple as in (2), by the existing certificate uniqueness.
 
 The name normalized is an explicitly defined manuscript convention.
-The inspected Voi99 Definition 13.1 and Remarks 13.2, printed pp.160-161, impose neither a sum condition nor zero vacuum; [Voi99-U001](../../audits/literature/Voi99/Yin_U001_v1.md#bounded-liberation-dual-system) retains that source interface.
-MS23 Definition 2.4 uses normalized for ordinary duals with \(D_i\Omega=0\), as retained in [MS23-U001](../../audits/literature/MS23/Yin_U001_v1.md#ms23-u001) and checked against [the available preprint, p.7](https://arxiv.org/pdf/2203.00547).
+The inspected Voi99 Definition 13.1 and Remarks 13.2, printed pp.160-161, impose neither a sum condition nor zero vacuum; [Voi99-U001](../../audits/literature/Voi99/Yin_U001.md#bounded-liberation-dual-system) retains that source interface.
+MS23 Definition 2.4 uses normalized for ordinary duals with \(D_i\Omega=0\), as retained in [MS23-U001](../../audits/literature/MS23/Yin_U001.md#ms23-u001) and checked against [the available preprint, p.7](https://arxiv.org/pdf/2203.00547).
 The targeted literature search found no relevant use establishing canonical or normalized as a standard name for the present sum condition; no priority claim follows from that limited search.
 The local convention is written explicitly and is not attributed to either source.
 
@@ -282,7 +282,7 @@ No new source audit or independent proof review is claimed.
 
 The direct nonatomicity proof checked on 2026-10-18 is retained as the first part of Lemma 6.6.
 On 2026-10-28, the authoring agent checked its preservation under the reorganization and its use of the ordinary Definition 6.4.
-The actual adjoint condition, through [ACSY24-U003](../../audits/literature/ACSY24/Yin_U003_v1.md#derivation-adjoint-and-compression), gives a dense tensor-adjoint domain and hence closability of each \(\partial_i\).
+The actual adjoint condition, through [ACSY24-U003](../../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression), gives a dense tensor-adjoint domain and hence closability of each \(\partial_i\).
 For \(y=X_i-\lambda\), the Neumann series for \(r_\varepsilon=(y^*y+\varepsilon^2)^{-1}\) converges in operator norm and its derivatives converge in the Hilbert tensor product.
 Multiplying its partial sums by \(\varepsilon^2y\) also puts \(f_\varepsilon=\varepsilon^2yr_\varepsilon\) in the actual closure domain.
 The inverse derivative formula and normality give the displayed derivative limit \(e\otimes e\), where \(e\) is the spectral projection at \(\lambda\).

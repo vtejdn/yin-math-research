@@ -57,7 +57,7 @@ This is internal review, not formal verification or an external novelty assessme
 ## 1. Source acceptance and new approximation
 
 The reviewer checked the exact polynomial Runge statement independently in Glucksam-Weiss [arXiv v1](https://arxiv.org/html/2507.13182v1), Theorem 2.1, and Debray's [notes](https://www.math.purdue.edu/~adebray/lecture_notes/116notes.pdf), Theorem 6.4, p.16.
-The published Glucksam-Weiss page read by the author could not be fetched by this reviewer; [GW25-U001](../literature/GW25/Yin_U001_v1.md#gw25-u001) records this version distinction and the accepted source depth.
+The published Glucksam-Weiss page read by the author could not be fetched by this reviewer; [GW25-U001](../literature/GW25/Yin_U001.md#gw25-u001) records this version distinction and the accepted source depth.
 The established Runge statement suffices without a fresh proof of the approximation theorem.
 
 Compactness permits two nested filled ellipses inside the univalence neighborhood.

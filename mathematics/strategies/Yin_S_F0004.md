@@ -38,19 +38,19 @@ This is a **sufficient model-specific mechanism**, not a consequence already est
 
 ## Inputs and Obstruction
 
-[Miy22-U003](../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003) identifies commutator columns with suffix residuals in a total orthonormal Wick basis.
-[U004-U005](../audits/literature/Miy22/Yin_U004_v1.md#miy22-u004) use minimal recognizable representations, exponential coefficient decay, a finite matrix realization of Wick words, homogeneous norm estimates, and bounded scalar Schur pivots.
-[BR10-U001](../audits/literature/BR10/Yin_U001_v1.md#br10-u001) checks the relevant finite stable-space and recognizable/rational interfaces directly in the supplied book.
+[Miy22-U003](../audits/literature/Miy22/Yin_U003.md#miy22-u003) identifies commutator columns with suffix residuals in a total orthonormal Wick basis.
+[U004-U005](../audits/literature/Miy22/Yin_U004.md#miy22-u004) use minimal recognizable representations, exponential coefficient decay, a finite matrix realization of Wick words, homogeneous norm estimates, and bounded scalar Schur pivots.
+[BR10-U001](../audits/literature/BR10/Yin_U001.md#br10-u001) checks the relevant finite stable-space and recognizable/rational interfaces directly in the supplied book.
 
 Three distinct structures are needed before copying that proof: a total expansion with residuals controlled by finitely many commutator ranges; a finite multiplicative matrix realization of the expansion vectors over the original polynomial algebra; and subexponential homogeneous norm bounds for the matrix realization.
 The Wick map itself is not multiplicative.
 Yin_C_F0002's finite tensor rank alone supplies none of these additional structures.
 The disk example already obstructs assuming totality of holomorphic polynomials in every normal model.
 
-[Miy26-U002](../audits/literature/Miy26/Yin_U002_v1.md#miy26-u002) reuses Miy22's bounded-intersection result and the semicircular suffix/norm structure.
+[Miy26-U002](../audits/literature/Miy26/Yin_U002.md#miy26-u002) reuses Miy22's bounded-intersection result and the semicircular suffix/norm structure.
 It is not an independent unconditional bridge for general normal tuples.
 
-The [Kronecker strategy comparison](../ledger/Yin_L_F0010_v1.md#kronecker-strategies), 2026-09-09, adds the explicit minimal-state Gramian mechanism from [JMS21-U001](../audits/literature/JMS21/Yin_U001_v1.md#jms21-u001).
+The [Kronecker strategy comparison](../ledger/Yin_L_F0010_v1.md#kronecker-strategies), 2026-09-09, adds the explicit minimal-state Gramian mechanism from [JMS21-U001](../audits/literature/JMS21/Yin_U001.md#jms21-u001).
 It also rules out identifying the required residual shift with original normal multiplication, and rules out a universal polynomial-at-zero power-decay construction by the Haar inverse example.
 These observations sharpen the model-selection conditions without providing the missing model.
 

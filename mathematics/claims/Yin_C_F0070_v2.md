@@ -107,7 +107,7 @@ If a bounded map E instead satisfies `[E,x]=0`, the conclusion is `[E,x*]=0`; th
 The kernel construction is the one in [C_F0037](Yin_C_F0037_v1.md#statement).
 That earlier proof uses closability to pass from continuous functions to spectral projections.
 The proof below replaces that passage by continuous cutoffs for spectral cells with null boundaries; the limits act on fixed Hilbert-space vectors and never pass through E or F.
-Its additional published input is the bounded-map Fuglede implication from [CS77-U001](../audits/literature/CS77/Yin_U001_v1.md#cs77-u001): a bounded map `F:M -> H` commuting with left multiplication by a normal x also commutes with left multiplication by x*.
+Its additional published input is the bounded-map Fuglede implication from [CS77-U001](../audits/literature/CS77/Yin_U001.md#cs77-u001): a bounded map `F:M -> H` commuting with left multiplication by a normal x also commutes with left multiplication by x*.
 The argument below does not assume normality or weak continuity of E as a Banach-space map.
 
 ### Proof by continuous cutoffs and finite averaging
@@ -287,7 +287,7 @@ Let
  \qquad E_i^{\mathrm{can}}=\overline{E_{i,0}},                  \tag{S17}
 \]
 
-where the closure exists by [ACSY24, Theorem 3.4](../literature/pdf/ACSY24.pdf), with its exact actual-core interface checked in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+where the closure exists by [ACSY24, Theorem 3.4](../literature/pdf/ACSY24.pdf), with its exact actual-core interface checked in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 Then the following three conditions are equivalent:
 
 1. `M Omega subset Dom E_i^can` for every i.
@@ -351,7 +351,7 @@ No step applies a Hilbert closed-graph theorem to the supplied full-domain map.
 ## Source relationship and limits
 
 [C_F0069 Part A](Yin_C_F0069_v1.md#statement) supplies automatic M-to-H boundedness.
-The normal bounded-map Fuglede implication is the accepted specialization of [CS77 Proposition 1](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EF9F6641DD6268FD9AA68964E85E56FE/S001708950000327Xa.pdf/commutators-and-normal-operators.pdf), checked in [CS77-U001](../audits/literature/CS77/Yin_U001_v1.md#cs77-u001).
+The normal bounded-map Fuglede implication is the accepted specialization of [CS77 Proposition 1](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EF9F6641DD6268FD9AA68964E85E56FE/S001708950000327Xa.pdf/commutators-and-normal-operators.pdf), checked in [CS77-U001](../audits/literature/CS77/Yin_U001.md#cs77-u001).
 The proof uses standard spectral calculus, Hilbert-Schmidt tensor identification, continuous cutoffs at null boundaries and finite unitary averaging.
 
 [C_F0037](Yin_C_F0037_v1.md) is the earlier closable dense-left-module result and proof provenance.
@@ -360,7 +360,7 @@ Its spectral-projection/weak-continuity passage is replaced here by the fixed-ve
 [C_F0027](Yin_C_F0027_v1.md) is the existing graph-restoration mechanism; Part B states the local application fully.
 These are explicit prior interfaces and proof provenance, not claims that the present bare-domain statement was already asserted there.
 
-[ACSY24 Theorem 3.4](../literature/pdf/ACSY24.pdf) supplies closability of the specified canonical core in Part B; its precise domain and adjoint formula are checked in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+[ACSY24 Theorem 3.4](../literature/pdf/ACSY24.pdf) supplies closability of the specified canonical core in Part B; its precise domain and adjoint formula are checked in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 Neither that construction nor the maximal-Delta implication from full-domain duals by itself gives the full-domain equivalence.
 Theorem 3.4 constructs a core operator from a derivation and vacuum; [C_F0024 Section 3](Yin_C_F0024_v1.md#3-maximal-delta-from-dual-identities-on-all-bounded-vectors) concludes maximal Delta from an already full-domain dual.
 Proposition 3.5 is the source's maximal-Delta assertion.
@@ -387,8 +387,8 @@ Recorded review label: unreviewed.
 | statement | [Statement](#statement) | Unchanged Parts A-C. |
 | argument | [Argument](#argument) | Revised S1-S10 and retained S11-S19 and vacuum calculation. |
 | dependency | [Automatic norm continuity](Yin_C_F0069_v1.md#statement) | Part A: boundedness of bare full-domain normal duals and diffuse coordinate laws. |
-| dependency | [CS77-U001](../audits/literature/CS77/Yin_U001_v1.md#cs77-u001) | Bounded-map Fuglede implication on B(M,H). |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Part B: actual canonical-core closability under the vacuum premise. |
+| dependency | [CS77-U001](../audits/literature/CS77/Yin_U001.md#cs77-u001) | Bounded-map Fuglede implication on B(M,H). |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Part B: actual canonical-core closability under the vacuum premise. |
 
 ### Decision cutoff-reviewed
 
@@ -403,7 +403,7 @@ Recorded review label: unreviewed.
 | statement | [Statement](#statement) | Unchanged Parts A-C with all domain and actual vacuum qualifications. |
 | argument | [Argument](#argument) | Revised S1-S10, including arbitrary scalar c for diffuse x, and retained S11-S19 and vacuum calculation. |
 | dependency | [Automatic norm continuity](Yin_C_F0069_v1.md#statement) | Part A: boundedness of bare full-domain normal duals and diffuse coordinate laws. |
-| dependency | [CS77-U001](../audits/literature/CS77/Yin_U001_v1.md#cs77-u001) | Bounded-map Fuglede implication on B(M,H). |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Part B: actual canonical-core closability under the vacuum premise. |
+| dependency | [CS77-U001](../audits/literature/CS77/Yin_U001.md#cs77-u001) | Bounded-map Fuglede implication on B(M,H). |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Part B: actual canonical-core closability under the vacuum premise. |
 | review | [Cutoff and assembly self-review](../audits/reviews/Yin_R_F0052_v1.md#conclusion) | Complete v2 statement and argument, with actual self-review relationship and exact bindings. |
 

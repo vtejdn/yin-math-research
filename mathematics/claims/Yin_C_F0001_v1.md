@@ -14,7 +14,7 @@ author: Yin
 This module contains the user-approved conjecture.
 The supporting [Yin_C_F0002 proof](Yin_C_F0002_v1.md#yin_c_f0002) establishes the derivative interface and the rational-to-finite-rank implication.
 [Yin_C_F0012](Yin_C_F0012_v1.md#yin_c_f0012) refutes the converse with two selfadjoint generators; the original statement below is preserved unchanged.
-The [Unt20 reading](../audits/literature/Unt20/Yin_U001_v1.md#unt20-u001) supplies the proposed reconstruction route [Yin_S_F0001](../strategies/Yin_S_F0001.md#s_f0001).
+The [Unt20 reading](../audits/literature/Unt20/Yin_U001.md#unt20-u001) supplies the proposed reconstruction route [Yin_S_F0001](../strategies/Yin_S_F0001.md#s_f0001).
 
 <a id="yin_c_f0001"></a>
 ## Yin_C_F0001: Rationality Criterion for Normal Generators

@@ -60,7 +60,7 @@ The main equivalence proof is accepted as an external theorem, not independently
 The final ledger's published-version locators and the identification of the supplied MSY23 file with MSY23 are delegated to the [MSY23 source audit](../literature/MSY23/readme.md#accepted-inputs).
 At the time of the initial Yin_C_F0005 proof review this mathematical reviewer directly checked the stated interface in the identified arXiv version, not the complete newly supplied journal artifact.
 The subsequent full published-source audit records its additional coverage separately.
-The prior interface record [Miy26-U004](../literature/Miy26/Yin_U004_v1.md#miy26-u004) also records the free-field theorem and the standard finite-tracial affiliated algebra / canonical L2 realization from AP18, Theorems 7.2.8 and 7.3.2.
+The prior interface record [Miy26-U004](../literature/Miy26/Yin_U004.md#miy26-u004) also records the free-field theorem and the standard finite-tracial affiliated algebra / canonical L2 realization from AP18, Theorems 7.2.8 and 7.3.2.
 Those foundational affiliated-operator statements are accepted inputs; no stronger bounded-closure theorem is imported.
 
 The rank-one realization and finite-rank tensor bijection are the already independently reviewed [Yin_C_F0002](../../claims/Yin_C_F0002_v1.md#yin_c_f0002).

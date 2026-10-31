@@ -67,7 +67,7 @@ The calculation below is self-contained; no exact attribution of the mixed compa
 
 The recognized regularization and approximation steps received targeted source checks:
 
-- The existing [VV16-U001](../audits/literature/VV16/Yin_U001_v1.md) already accepts A. Yu. Veretennikov and E. V. Veretennikova, *On partial derivatives of multivariate Bernstein polynomials*, Theorems 3 and 4(1), at statement/applicability depth.
+- The existing [VV16-U001](../audits/literature/VV16/Yin_U001.md) already accepts A. Yu. Veretennikov and E. V. Veretennikova, *On partial derivatives of multivariate Bernstein polynomials*, Theorems 3 and 4(1), at statement/applicability depth.
   That complete local audit was read in this continuation.
   Its exact rectangle interface with d=2 and m=1 is the accepted approximation input for Section 3; the original source proof was not previously audited and no new full audit is claimed here.
 - Laura Prat, *Potential Theory of Signed Riesz Kernels: Capacity and Hausdorff Measure*, IMRN 2004, no. 19, 937--981, Section 2, printed p.941, equation (2.5), in the [45-page institutional PDF](https://diposit.ub.edu/server/api/core/bitstreams/d287057d-7d0d-4d48-8d8b-228a39cddfcb/content).
@@ -408,7 +408,7 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/VV16/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/VV16/Yin_U001.md).
 
 Complete nine-section proof, exact three-point identities, smooth actual-vacuum tests, positive-weight bounds, actual original adjoint and graph domains, and full free-normal unbounded criterion with arbitrary bounded fractions plus bounded weak-form equivalence.
 Existing C_F0025/C_F0027/C_F0045/C_F0024 and VV16 interfaces checked at their recorded scopes.
@@ -416,4 +416,4 @@ General correlated tuples excluded.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0037_v1.md).
 
-Material covered by that review: [Exact material](../audits/literature/VV16/Yin_U001_v1.md); [Exact material](Yin_C_F0055_v1.md).
+Material covered by that review: [Exact material](../audits/literature/VV16/Yin_U001.md); [Exact material](Yin_C_F0055_v1.md).

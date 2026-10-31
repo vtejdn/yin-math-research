@@ -63,7 +63,7 @@ This route starts from actual evaluated rational states without assuming such an
   These representation statements require scalar-origin regularity.
 - [The reviewed Kronecker investigation](../ledger/Yin_L_F0010_v1.md#kronecker-strategies) proves the finite-observation reduction: choose words W so that the rows uA_w span C^{1 x n}.
   Boundedness of all rows uA_w L(X)^{-1}, w in W, makes the entire inverse bounded by an invertible scalar change of row basis.
-- [JMS21-U001](../audits/literature/JMS21/Yin_U001_v1.md#jms21-u001) supplies a Gramian mechanism in coefficient space.
+- [JMS21-U001](../audits/literature/JMS21/Yin_U001.md#jms21-u001) supplies a Gramian mechanism in coefficient space.
   It is a template, not an estimate already valid in L2(M).
 
 ## Original First Discriminating Test
@@ -98,9 +98,9 @@ Recompute the minimal state dimension and rank bound after a change of chart; ge
 Existence of a suitable scalar chart for every free-field element remains unproved.
 
 After a bounded inverse is obtained, prove scalar elimination separately.
-A justified small-norm realization permits the [Miy22-U005](../audits/literature/Miy22/Yin_U005_v1.md#miy22-u005) pivot argument.
+A justified small-norm realization permits the [Miy22-U005](../audits/literature/Miy22/Yin_U005.md#miy22-u005) pivot argument.
 Otherwise find bounded scalar pivots or another applicable descent theorem.
-[PV23-U001](../audits/literature/PV23/Yin_U001_v1.md#pv23-u001) explains why matrix inversion alone does not discharge this obligation.
+[PV23-U001](../audits/literature/PV23/Yin_U001.md#pv23-u001) explains why matrix inversion alone does not discharge this obligation.
 
 ## Continuation and Redirection
 

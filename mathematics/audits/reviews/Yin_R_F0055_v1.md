@@ -50,12 +50,33 @@ The original separately organized mathematical reviews remain the basis of the r
 PASS below means continued applicability of the named prior review at its unchanged scope, not a new derivation or an expanded source-proof audit.
 The findings concern the inspected historical second assessments and their actual fixed mathematical inputs.
 
+<a id="c-f0088-applicability"></a>
+### C_F0051
+
 | Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
 | --- | --- | --- | --- |
-| <a id="c-f0088-applicability"></a> C_F0051 | Strictly positive upper-bounded density, actual changed-measure vacuum, original closure/adjoint domains, free-tuple and fraction interfaces, unbounded-dual example | C_F0025 v3, C_F0024 v3, C_F0045 v3, C_F0047 v3, C_F0048 v3 | PASS. The reference radial L2 premise and radiuswise normalization remain in the statement. C_F0048 supplies a reconstructed sufficient-direction mechanism, not an unjustified invocation of its stronger-hypothesis theorem. No necessity or arbitrary correlated-tuple claim is added. |
-| <a id="c-f0089-applicability"></a> C_F0052 | Represented core, vacuum, zero extension, intrinsic norm recovery, original graphs and free-product consequence | C_F0025 v3, C_F0024 v3, C_F0045 v3, C_F0047 v3, C_F0048 v3 | PASS. Bounded nonnegative density and total-mass normalization allow zeros without identifying measure classes. C_F0051 is comparison only. The five dependencies requested at original review are present in v2. |
-| <a id="c-f0091-applicability"></a> C_F0053 | Complete A/B/C conclusions, weighted geometric estimate, actual original graphs, free-tuple criterion and curvature-only obstruction | C_F0025 v3, C_F0024 v3, C_F0044 v3, C_F0045 v3 | PASS. The TV06 interface is included in selected support. Finite curvature AND square-integrable maximal density remain required; the curvature-only example fails the vacuum premise. Indexed primary-text inspection in the old review is not relabelled as a PDF rendering or complete source-proof audit. |
-| <a id="c-f0092-applicability"></a> C_F0054 | Real phase-modified derivation, closability, actual zero vacuum, Haar multiplier divergence, canonical comparison and formal defect boundary | None | PASS. The direct Haar calculation proves a route obstruction; the original canonical operator in that example remains bounded. Background Claims are comparisons, not omitted logical premises. No refutation of the original normal-vacuum domain implication follows. |
+| C_F0051 | Strictly positive upper-bounded density, actual changed-measure vacuum, original closure/adjoint domains, free-tuple and fraction interfaces, unbounded-dual example | C_F0025 v3, C_F0024 v3, C_F0045 v3, C_F0047 v3, C_F0048 v3 | PASS. The reference radial L2 premise and radiuswise normalization remain in the statement. C_F0048 supplies a reconstructed sufficient-direction mechanism, not an unjustified invocation of its stronger-hypothesis theorem. No necessity or arbitrary correlated-tuple claim is added. |
+
+<a id="c-f0089-applicability"></a>
+### C_F0052
+
+| Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
+| --- | --- | --- | --- |
+| C_F0052 | Represented core, vacuum, zero extension, intrinsic norm recovery, original graphs and free-product consequence | C_F0025 v3, C_F0024 v3, C_F0045 v3, C_F0047 v3, C_F0048 v3 | PASS. Bounded nonnegative density and total-mass normalization allow zeros without identifying measure classes. C_F0051 is comparison only. The five dependencies requested at original review are present in v2. |
+
+<a id="c-f0091-applicability"></a>
+### C_F0053
+
+| Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
+| --- | --- | --- | --- |
+| C_F0053 | Complete A/B/C conclusions, weighted geometric estimate, actual original graphs, free-tuple criterion and curvature-only obstruction | C_F0025 v3, C_F0024 v3, C_F0044 v3, C_F0045 v3 | PASS. The TV06 interface is included in selected support. Finite curvature AND square-integrable maximal density remain required; the curvature-only example fails the vacuum premise. Indexed primary-text inspection in the old review is not relabelled as a PDF rendering or complete source-proof audit. |
+
+<a id="c-f0092-applicability"></a>
+### C_F0054
+
+| Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
+| --- | --- | --- | --- |
+| C_F0054 | Real phase-modified derivation, closability, actual zero vacuum, Haar multiplier divergence, canonical comparison and formal defect boundary | None | PASS. The direct Haar calculation proves a route obstruction; the original canonical operator in that example remains bounded. Background Claims are comparisons, not omitted logical premises. No refutation of the original normal-vacuum domain implication follows. |
 
 ## Checking scope and limitations
 
@@ -82,7 +103,7 @@ Each exact mathematical input and original review retains its own scope under th
 ### [Yin_C_F0053_v1](../../claims/Yin_C_F0053_v1.md#decision-candidate-0002)
 
 
-- [Yin_U001_v1.md](../literature/TV06/Yin_U001_v1.md)
+- [Yin_U001.md](../literature/TV06/Yin_U001.md)
 - [Yin_R_F0027_v1.md](Yin_R_F0027_v1.md)
 - [Yin_C_F0053_v1.md](../../claims/Yin_C_F0053_v1.md)
 

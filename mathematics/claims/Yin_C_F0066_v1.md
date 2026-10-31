@@ -62,7 +62,7 @@ X_j=\ell_j+\ell_j^*,\quad M=W^*(X_1,X_2),\quad
 \tau(x)=\langle\Omega,x\Omega\rangle.
 \]
 This is the standard variance-one free semicircular tracial model, with faithful normal trace and \(H=L^2(M,\tau)\).
-The checked local source interface is [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005), especially its semicircular model and sign calculation.
+The checked local source interface is [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005), especially its semicircular model and sign calculation.
 That source supplies the standard model and attribution; the new domain obstruction below is a direct calculation.
 
 Set \(\mathcal P=\mathbb C\langle X_1,X_2\rangle\Omega\), identifying bounded elements with their vacuum vectors.
@@ -159,7 +159,7 @@ A sufficient replacement must supply domain control for rational fraction inputs
 
 ## Dependencies and relationships
 
-The direct external source interface is [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) for the standard tracial Fock model and creation-operator conventions.
+The direct external source interface is [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) for the standard tracial Fock model and creation-operator conventions.
 Polynomial injectivity, supplied adjoints, the bounded right fraction, the zero-domain argument and the unbounded witness calculation are proved above.
 No earlier project Claim is a mathematical premise of this counterexample.
 The following links are comparisons and scope relationships, not logical dependency edges.
@@ -255,11 +255,11 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/Voi98/Yin_U005_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/Voi98/Yin_U005.md).
 
 Whole fixed proof v1: standard tracial Fock model and variance, exact supplied polynomial domains, actual adjoints, all dual and starred commutators, nonvacuous bounded fraction pairs, zero natural domain for every pair, genuine unboundedness, Voi98-U005 source interface, and comparison-only relationships and closed-domain boundaries.
 Separate agent review; no Task completion, formal verification, or personal human inspection asserted.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0038_v1.md).
 
-Material covered by that review: [Exact material](../audits/literature/Voi98/Yin_U005_v1.md); [Exact material](Yin_C_F0066_v1.md).
+Material covered by that review: [Exact material](../audits/literature/Voi98/Yin_U005.md); [Exact material](Yin_C_F0066_v1.md).

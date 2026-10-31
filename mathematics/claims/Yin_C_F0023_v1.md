@@ -52,7 +52,7 @@ B_i\Omega=0,\qquad
 \]
 
 Here is an explicit convergent bound.
-Put $t=|q|$, and retain the constants from [MS23-U003](../audits/literature/MS23/Yin_U003_v1.md#ms23-u003):
+Put $t=|q|$, and retain the constants from [MS23-U003](../audits/literature/MS23/Yin_U003.md#ms23-u003):
 
 \[
 C_t=\prod_{k\geq1}(1-t^k)^{-1},\qquad
@@ -159,7 +159,7 @@ D_i^*p=p\xi_i-D_i p.
 \tag{11}
 \]
 
-This directly reconstructs the adjoint interface in [MS23-U001, Equation (5)](../audits/literature/MS23/Yin_U001_v1.md#ms23-u001).
+This directly reconstructs the adjoint interface in [MS23-U001, Equation (5)](../audits/literature/MS23/Yin_U001.md#ms23-u001).
 In its commutator notation, the additional simplification is $[D_i,p^*]^*\Omega=D_i p$.
 Once (6) identifies $\xi_i$ as bounded, (11) becomes
 
@@ -301,9 +301,9 @@ The explicit q-Wick estimate below already supplies (6), so this analytic-series
 
 The consumed source interfaces are precise:
 
-- [MS23-U001](../audits/literature/MS23/Yin_U001_v1.md#ms23-u001), published pp. 5-10, supplies the q-Fock conventions, bounded generators and faithful trace, triangular Wick evaluation, the polynomial-domain dual/conjugate interface, and bounded free right deletion.
-- [MS23-U002](../audits/literature/MS23/Yin_U002_v1.md#ms23-u002), Proposition 4.5 and its complete proof, published pp. 14-22, identifies the normalized dual with the special crossing-partition formula and verifies (1).
-- [MS23-U003](../audits/literature/MS23/Yin_U003_v1.md#ms23-u003), Theorem 4.6 and Corollary 4.7, published pp. 22-26, gives the conjugate expansion and the homogeneous operator-norm majorant used below.
+- [MS23-U001](../audits/literature/MS23/Yin_U001.md#ms23-u001), published pp. 5-10, supplies the q-Fock conventions, bounded generators and faithful trace, triangular Wick evaluation, the polynomial-domain dual/conjugate interface, and bounded free right deletion.
+- [MS23-U002](../audits/literature/MS23/Yin_U002.md#ms23-u002), Proposition 4.5 and its complete proof, published pp. 14-22, identifies the normalized dual with the special crossing-partition formula and verifies (1).
+- [MS23-U003](../audits/literature/MS23/Yin_U003.md#ms23-u003), Theorem 4.6 and Corollary 4.7, published pp. 22-26, gives the conjugate expansion and the homogeneous operator-norm majorant used below.
 
 The source audit retains q-Fock positivity, the uniform deletion bound and the homogeneous Haagerup estimate as established inputs at its stated original-proof inspection depths.
 This deduction does not silently upgrade those inspection depths or require a new result from the source's later Lipschitz or Gibbs-potential sections.

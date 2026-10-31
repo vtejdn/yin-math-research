@@ -45,7 +45,7 @@ Use precisely the following two direct mathematical dependencies:
    The representative is unique in the finite-rank class; for rational u and every fraction pair it equals the cleared rational-derivative tensor.
    Its hypotheses follow from the present canonical selfadjoint dual identities and adjoint-vacuum condition.
 
-C_F0022's analytic source is [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002), especially Lemma 12's contraction estimate and the actual-closure argument.
+C_F0022's analytic source is [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002), especially Lemma 12's contraction estimate and the actual-closure argument.
 Its existing source review includes the one-variable reduction and its closed-real-derivation functional-calculus inspection limit.
 That source is retained through C_F0022; this draft does not claim a fresh audit of Dab10 or its entire foundational theory.
 C_F0064 is compatible but is not needed as a direct dependency.

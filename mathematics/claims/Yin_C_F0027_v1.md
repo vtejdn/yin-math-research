@@ -45,7 +45,7 @@ Suppose $D_{i,0}:\mathcal A\to H$ are complex-linear closable operators satisfyi
 Write $D_i=\overline{D_{i,0}}$.
 The ACSY24 hypotheses imply these assumptions, with Hilbert-Schmidt extensions, and also give $\mathcal A\subseteq\operatorname{Dom}D_{i,0}^*$.
 The latter inclusion will be required explicitly for the analytic bridge in Section 5.
-The exact source interface and the regularization argument are recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+The exact source interface and the regularization argument are recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 
 The first conclusion uses only (1): every element of $\operatorname{Rat}_M A$ preserves $\operatorname{Dom}D_i$ and has a bounded finite-rank commutator with $D_i$, for every $i$.
 Here $\operatorname{Rat}_M A$ is the rational closure formed using matrix inverses that are bounded in matrix algebras over $M$.
@@ -208,7 +208,7 @@ In particular, if $f=uL(X)^{-1}v$ with scalar row and column vectors $u,v$ and t
 [D_i,f]=-uL(X)^{-1}[D_i^{(n)},L(X)]L(X)^{-1}v.
 \tag{13}
 \]
-The usual affine linear representations in [MSY23-U003](../audits/literature/MSY23/Yin_U003_v1.md#msy23-u003) preserve precisely this existing bounded-inverse assumption.
+The usual affine linear representations in [MSY23-U003](../audits/literature/MSY23/Yin_U003.md#msy23-u003) preserve precisely this existing bounded-inverse assumption.
 They are not used to infer boundedness of an entire matrix inverse from boundedness of its scalar compression.
 
 For comparison with polynomial weak tests, suppose $\mathcal A\subseteq\operatorname{Dom}D_i^*$ and define, for bounded $f$,
@@ -293,7 +293,7 @@ Normality of the coordinates is not needed in Sections 2-4 themselves.
 Normality is retained in the setting because the full bridge invokes the normal-tuple Yin_C_F0024 theorem.
 The analytic bridge additionally uses Kaplansky density and weak closedness of a closed operator graph.
 
-For a selfadjoint tuple with L2 conjugate variables, [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) supplies (2), with the sufficient constants $4\|\xi_i\|_2$ and $5\|\xi_i\|_2$ and its recorded one-variable reduction.
+For a selfadjoint tuple with L2 conjugate variables, [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002) supplies (2), with the sufficient constants $4\|\xi_i\|_2$ and $5\|\xi_i\|_2$ and its recorded one-variable reduction.
 The primary proof of the contraction estimate uses both reality and coassociativity.
 Those properties and estimates must not be transferred without verification to arbitrary derivations in the ACSY24 normal setting.
 The ACSY24 adjoint formula contains the separate term $T_{i,p^*}^*\Omega$, so a bound for $D_{i,0}p$ alone has not been shown here to control $D_{i,0}^*p$.

@@ -17,7 +17,7 @@ A liberation dual system means linear operators L_i on H satisfying
  L_i\Omega=0,\qquad
  [X_j,L_i]|_{M\Omega}=\delta_{ij}[X_i,P_\Omega]|_{M\Omega}.
 \]
-The definition is the domain variant compared with Voi99 Definition 13.1 in [Voi99-U001](../audits/literature/Voi99/Yin_U001_v1.md#voi99-u001).
+The definition is the domain variant compared with Voi99 Definition 13.1 in [Voi99-U001](../audits/literature/Voi99/Yin_U001.md#voi99-u001).
 Write A_X=C<X_1,...,X_d> and
 \[
  \Psi_i(k)=k(X_i\otimes1-1\otimes X_i^{\rm op}),\qquad
@@ -43,7 +43,7 @@ For a fixed fraction pair Q the solution tuple is unique.
 ### Algebraic and analytic inputs
 
 We use the finite-rank-cycle characterization of maximal Delta, the rank-one tensor representation and its four factor actions, and finite common-denominator clearing in a finite von Neumann algebra.
-Their exact source interfaces are retained in [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002), [CS05-U002](../audits/literature/CS05/Yin_U002_v1.md#cs05-u002), and [C_F0068 Part A](Yin_C_F0068_v1.md#argument).
+Their exact source interfaces are retained in [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002), [CS05-U002](../audits/literature/CS05/Yin_U002.md#cs05-u002), and [C_F0068 Part A](Yin_C_F0068_v1.md#argument).
 The maximal-Delta rationality theorem is used at its fixed Part A scope; its printed right-hand side has the opposite sign, converted by replacing all finite-rank witnesses by their negatives.
 The criterion for a prescribed fraction follows from its tensor proof as described below.
 The finite-rank closure fact is the established statement inspected in [Kat95](../audits/literature/Kat95/readme.md): a densely defined closable finite-rank operator has an everywhere-defined bounded finite-rank closure with the same range.

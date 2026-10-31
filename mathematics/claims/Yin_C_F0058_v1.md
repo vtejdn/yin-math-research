@@ -21,8 +21,8 @@ The canonical Claim record owns its mathematical and review assessments.
 The general correlated-tuple contract remains open.
 
 Direct inputs are [C_F0025_v1](Yin_C_F0025_v1.md#decision-candidate-0002) for original represented derivatives and vacuum adjoints; [C_F0045_v1](Yin_C_F0045_v1.md#decision-candidate-0002) for the exact free-product right-module model and marginal lifting; [C_F0055_v1](Yin_C_F0055_v1.md#decision-candidate-0002) for unrestricted scalar normal contraction; [C_F0027_v1](Yin_C_F0027_v1.md#decision-candidate-0002) for original closure recovery; and [C_F0024_v1](Yin_C_F0024_v1.md#decision-candidate-0002) for the same-closure arbitrary-fraction rationality interface.
-The accepted [Pis12-U001](../audits/literature/Pis12/Yin_U001_v1.md#pis12-u001) finite-family little Grothendieck inequality is used exactly as in C_F0045, with squared constant k_C=4/pi.
-C1 polynomial approximation reuses the exact accepted [VV16-U001 interface](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001); no new full audit of that source is claimed.
+The accepted [Pis12-U001](../audits/literature/Pis12/Yin_U001.md#pis12-u001) finite-family little Grothendieck inequality is used exactly as in C_F0045, with squared constant k_C=4/pi.
+C1 polynomial approximation reuses the exact accepted [VV16-U001 interface](../audits/literature/VV16/Yin_U001.md#vv16-u001); no new full audit of that source is claimed.
 The free-product estimates below are proved here; no new external analytic theorem is invoked.
 
 ## 1. A precise sufficient class
@@ -389,11 +389,11 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/VV16/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/VV16/Yin_U001.md).
 
 Whole consolidated six-section proof: actual transformed vacua, free end-module tensor isometries, both contraction estimates without Hilbert-bounded scalar duals, original core adjoints and closed graphs, arbitrary original dual normalization, full C_F0024 bounded fractions and bounded weak companion relative to the unstarred algebra C<N,g(N)V>.
 Initial C1 unitary g scope only.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0069_v1.md#verdict-and-exact-scope).
 
-Material covered by that review: [Exact material](../audits/literature/VV16/Yin_U001_v1.md); [Exact material](Yin_C_F0058_v1.md).
+Material covered by that review: [Exact material](../audits/literature/VV16/Yin_U001.md); [Exact material](Yin_C_F0058_v1.md).

@@ -76,7 +76,7 @@ Yin_S_F0002 retains the broader bounded-realization and scalar-descent obligatio
 
 ## Next Step and Decision Conditions
 
-The user's Proposition 2.3 follow-up additionally gives a [reviewed bounded rank-factorization refinement](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004): for every bounded matrix C, rho_M(C)=rho_U(C).
+The user's Proposition 2.3 follow-up additionally gives a [reviewed bounded rank-factorization refinement](../audits/literature/MSY23/Yin_U004.md#msy23-u004): for every bounded matrix C, rho_M(C)=rho_U(C).
 The zero-Schur bordered matrix associated with bounded f therefore has a bounded factorization of the expected inner rank.
 A second concrete route is to constrain these factors to a rational algebra; polar decomposition alone gives arbitrary M-valued factors.
 

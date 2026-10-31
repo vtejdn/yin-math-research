@@ -28,7 +28,7 @@ Affine rescaling of a square and separate treatment of real and imaginary parts 
 The delivered PDF has 19 pages, a v2 margin dated 2016-10-16 and a title-page date 2018-10-15.
 This is acceptance of the selected statements; the higher-order proof and entire paper were not audited.
 
-The companion [VV16 source audit](../literature/VV16/Yin_U001_v1.md), was read in full.
+The companion [VV16 source audit](../literature/VV16/Yin_U001.md), was read in full.
 Its institutional accepted-version locator and rectangle interface match the selected theorem.
 The reviewer's separate White Rose PDF fetch timed out; the independent statement check above used the successfully retrieved arXiv PDF.
 No full proof audit is inferred from either retrieval.

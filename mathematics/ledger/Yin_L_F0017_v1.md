@@ -41,7 +41,7 @@ It does not identify the null sets or essential sup norms of the two measures gl
 
 ## Original remaining domain question
 
-C_F0053 uses [TV06-U001](../audits/literature/TV06/Yin_U001_v1.md#tv06-u001) at its checked primary-statement scope.
+C_F0053 uses [TV06-U001](../audits/literature/TV06/Yin_U001.md#tv06-u001) at its checked primary-statement scope.
 Positive changes of measure turn that Cauchy norm bound into the intrinsic polynomial estimate.
 The separate assumptions are essential to what has been proved: convergence of truncated Cauchy pairings on polynomials does not, by uniform boundedness alone, give bounded L2 norms on a dense incomplete polynomial test space.
 No implication from the original vacuum to the geometric energy is claimed.

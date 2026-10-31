@@ -20,7 +20,7 @@ Complete proof promoted after independent review by another AI agent, separate f
 The mathematical body below is unchanged.
 Permanent review binding and Claim allocation are separate administrative actions.
 
-Exact inputs: [C_F0025_v1 original normal core](Yin_C_F0025_v1.md#yin_c_f0025), [C_F0061_v1 bounded Neumann and finite-phase graph constructions](Yin_C_F0061_v1.md#l2-polynomial-pencil-original-graph), and the [CR94-U001 minimal-state interface](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001).
+Exact inputs: [C_F0025_v1 original normal core](Yin_C_F0025_v1.md#yin_c_f0025), [C_F0061_v1 bounded Neumann and finite-phase graph constructions](Yin_C_F0061_v1.md#l2-polynomial-pencil-original-graph), and the [CR94-U001 minimal-state interface](../audits/literature/CR94/Yin_U001.md#cr94-u001).
 Section 5 proves the algebraic first bootstrap without additional analytic assumptions or a full-inverse bootstrap.
 
 The conclusion concerns the original normalized coarse/contraction graphs and the original specified weak forms via C_F0025 normalization invariance.
@@ -215,7 +215,7 @@ Minimal affine state independence extracts those two L2 families from finite L2 
 | argument | [Exact material](#minimal-rational-states-original-graph) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Original normal polynomial-core coarse derivations, inner phase and exact original weak-form normalization invariance. |
 | dependency | [Exact material](Yin_C_F0061_v1.md#decision-candidate-0002) | Bounded Neumann graph approximation, exact soft inverse derivative, finite-phase estimate and fixed-polynomial graph action; its full inverse L2 premise is not imported. |
-| dependency | [Exact source input](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001) | Previously accepted minimal-state separate linear independence of the left/right families, not affine existence. |
+| dependency | [Exact source input](../audits/literature/CR94/Yin_U001.md#cr94-u001) | Previously accepted minimal-state separate linear independence of the left/right families, not affine existence. |
 | review | [Original finding](../audits/reviews/Yin_R_F0078_v1.md#independent-review-left-and-right-states-recover-the-original-output-graph) | Unknown initial context; whole five-section two-state compressed residual and independent-family extraction. The authors supplied the graph-recovery proof; reviewer did not supply its repair. |
 
 
@@ -233,7 +233,7 @@ Minimal affine state independence extracts those two L2 families from finite L2 
 | argument | [Exact material](#minimal-rational-states-original-graph) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Original normal polynomial-core coarse derivations, inner phase and exact original weak-form normalization invariance. |
 | dependency | [Exact material](Yin_C_F0061_v1.md#decision-candidate-0002) | Bounded Neumann graph approximation, exact soft inverse derivative, finite-phase estimate and fixed-polynomial graph action; its full inverse L2 premise is not imported. |
-| dependency | [Exact source input](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001) | Previously accepted minimal-state separate linear independence of the left/right families, not affine existence. |
+| dependency | [Exact source input](../audits/literature/CR94/Yin_U001.md#cr94-u001) | Previously accepted minimal-state separate linear independence of the left/right families, not affine existence. |
 | review | [New whole independent finding](../audits/reviews/Yin_R_F0078_v1.md#f0104-whole-independent-20261023) | Complete current fixed proof at the exact hypotheses and limits stated in the new finding; earlier unknown relationships and their historical adoption are not reclassified. |
 
 ## Historical assessments
@@ -267,11 +267,11 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/CR94/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/CR94/Yin_U001.md).
 
 Whole permanent proof: left/right state convergence, compressed square-root residual, original fixed-polynomial graph action, specified weak forms through normalization invariance, and finite-tensor minimal-state extraction.
 No full inverse L2 or unnormalized original full-domain invariance is asserted.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0078_v1.md#historical-f0104).
 
-Material covered by that review: [Exact material](../audits/literature/CR94/Yin_U001_v1.md); [Exact material](Yin_C_F0062_v1.md).
+Material covered by that review: [Exact material](../audits/literature/CR94/Yin_U001.md); [Exact material](Yin_C_F0062_v1.md).

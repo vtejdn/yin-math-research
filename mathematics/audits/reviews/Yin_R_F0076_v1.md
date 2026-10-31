@@ -70,7 +70,7 @@ The long Tolsa paper and its upstream proofs were not fully audited.
 The original [Melnikov-Verdera author-hosted paper](https://mat.uab.cat/web/jvm/wp-content/uploads/sites/35/2024/01/A_Geometric-_Proof_IMRN1.pdf), IMRN 1995, 325-331, was also inspected at its Lipschitz-graph theorem and symmetrization formulas on pp.325-327 as provenance.
 The general-measure assertion is accepted through the precise Tolsa proposition; no original whole-paper audit is claimed.
 
-The companion [Tol17-U001 source record](../literature/Tol17/Yin_U001_v1.md#tol17-u001), was read in full and matches the independently checked statement and its limits.
+The companion [Tol17-U001 source record](../literature/Tol17/Yin_U001.md#tol17-u001), was read in full and matches the independently checked statement and its limits.
 The [author's publication list](https://mat.uab.cat/~xtolsa/xtolsarecentpapers.html) was independently checked and gives Memoirs AMS 245 (2017), no.1158.
 The source note distinguishes that journal citation from the catalog/copyright label reported by root.
 The reviewer has not compared the published monograph's numbering against the preprint.

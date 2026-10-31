@@ -29,7 +29,7 @@ Coassociativity means precisely equality (7) with membership in these specified 
 Reuse before proof covered C_F0025, C_F0028, C_F0029, C_F0050, C_F0054, S_F0011, the local method index, and the scalar argument now accepted as C_F0055 (recorded assessment 2).
 The direct mathematical inputs are C_F0025 (recorded assessment 3) and C_F0055 (recorded assessment 2).
 The approximation below uses finite geometric sums; no new external approximation theorem is imported.
-The named free-difference-quotient coassociativity mechanism is already source-checked in [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002).
+The named free-difference-quotient coassociativity mechanism is already source-checked in [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002).
 That source's selfadjoint contraction theorem is not applied to the normal tuple here; the missing mixed-contraction interface is retained in Section 6.
 
 ## 1. Exact inputs and conclusion

@@ -82,7 +82,7 @@ A dense subspace \(V_i\subseteq\operatorname{Dom}D_i^*\) is a sufficient certifi
 There are no direct project-claim dependencies.
 The accepted analytic inputs are:
 
-- The identification \(H\subseteq U(M)\), affiliated polar decomposition, and bounded spectral calculus for the absolute value of an affiliated operator, at the standard finite-tracial scope recorded in [Miy22-U006](../audits/literature/Miy22/Yin_U006_v1.md#miy22-u006).
+- The identification \(H\subseteq U(M)\), affiliated polar decomposition, and bounded spectral calculus for the absolute value of an affiliated operator, at the standard finite-tracial scope recorded in [Miy22-U006](../audits/literature/Miy22/Yin_U006.md#miy22-u006).
 - Hilbert-space adjoints and closures, and the closed graph theorem for a linear map between Banach spaces.
 - Equality of traces of the left and right supports of a bounded operator, obtained from its polar decomposition; finite subadditivity of projection trace under joins.
 - Density of \(M\) in \(L^2(M,\tau)\), and extension of uniformly bounded operator convergence from a dense test subspace.

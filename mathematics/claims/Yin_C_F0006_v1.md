@@ -24,7 +24,7 @@ The maps below are bijections on eligible bounded dual systems, preserve the fin
 No arbitrary analytic change of variables is asserted to have these properties.
 
 The proof uses the bounded polynomial/inverse rules from [Yin_C_F0002](Yin_C_F0002_v1.md#yin_c_f0002).
-The known semicircular criterion for all bounded dual systems is the audited [Miy22-U003](../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003); its use in examples is a source specialization, not an independent reproving of Miy22.
+The known semicircular criterion for all bounded dual systems is the audited [Miy22-U003](../audits/literature/Miy22/Yin_U003.md#miy22-u003); its use in examples is a source specialization, not an independent reproving of Miy22.
 
 
 Write `R_a` for bounded right multiplication by a, so `R_a` commutes with all left multipliers.

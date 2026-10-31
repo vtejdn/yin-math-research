@@ -95,7 +95,7 @@ Thus the bounded corollary can be expressed with an actual commutator on the ful
 
 ## 2. Sources and the Additional Analytic Input
 
-Finite Fisher information gives algebraic freeness and the conjugate/normalized-dual interface, as recorded in [MS23-U001](../audits/literature/MS23/Yin_U001_v1.md#ms23-u001).
+Finite Fisher information gives algebraic freeness and the conjugate/normalized-dual interface, as recorded in [MS23-U001](../audits/literature/MS23/Yin_U001.md#ms23-u001).
 Its adjoint calculation, with the present inner-product convention and the flip-star identity, simplifies to
 
 \[
@@ -106,7 +106,7 @@ Its adjoint calculation, with the present inner-product convention and the flip-
 Indeed, if partial_i p=sum a tensor b, then [D_i^0,p*]=sum b* P a* on A, whose bounded adjoint applied to Omega is sum a tau(b)=D_i^0p.
 Polynomial density makes D_i^0 closable.
 
-The essential new analytic input is [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002), Lemma 12, arXiv:0804.2906v2, PDF p. 9.
+The essential new analytic input is [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002), Lemma 12, arXiv:0804.2906v2, PDF p. 9.
 Its exact selfadjoint estimate implies the safe general-polynomial bound
 
 \[
@@ -132,7 +132,7 @@ No claim about one-variable factoriality is imported from Dab10.
 Dab10-U002 owns exact primary reading, assumptions and the original-proof inspection limit.
 
 Finite Fisher also supplies Delta(X)=d: the free-perturbation Fisher bound makes t Phi*(X+sqrt(t)S) tend to zero, and the accepted CS05 comparison gives maximal Delta.
-[MS23-U005](../audits/literature/MS23/Yin_U005_v1.md#ms23-u005) records the exact chain through MSY23-U002 and MSY23-U004.
+[MS23-U005](../audits/literature/MS23/Yin_U005.md#ms23-u005) records the exact chain through MSY23-U002 and MSY23-U004.
 Hence F is an embedded free skew field in U.
 Only this division-ring property is used in the final descent.
 

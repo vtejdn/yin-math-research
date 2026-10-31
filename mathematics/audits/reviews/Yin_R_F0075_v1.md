@@ -64,7 +64,7 @@ Registration and the active goal assessment remain with the responsible material
 
 ## 1. Input and scope checks
 
-The review read the exact [Yin_C_F0025 hypotheses](../../claims/Yin_C_F0025_v1.md#yin_c_f0025), the prior [Yin_C_F0042 arc reconstruction](../../claims/Yin_C_F0042_v1.md#yin_c_f0042), the [Yin_C_F0041 inner-multiplier estimates](../../claims/Yin_C_F0041_v1.md#yin_c_f0041), and the [Dab10 contraction interface](../literature/Dab10/Yin_U002_v1.md#dab10-u002).
+The review read the exact [Yin_C_F0025 hypotheses](../../claims/Yin_C_F0025_v1.md#yin_c_f0025), the prior [Yin_C_F0042 arc reconstruction](../../claims/Yin_C_F0042_v1.md#yin_c_f0042), the [Yin_C_F0041 inner-multiplier estimates](../../claims/Yin_C_F0041_v1.md#yin_c_f0041), and the [Dab10 contraction interface](../literature/Dab10/Yin_U002.md#dab10-u002).
 These are used with their established inspection boundaries.
 
 The candidate retains the compact bounded extensions of all starred-generator commutators from Yin_C_F0025; it does not replace compactness by an unspecified boundedness condition.

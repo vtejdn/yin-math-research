@@ -16,7 +16,7 @@ Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 Route: [Yin_S_F0001](../strategies/Yin_S_F0001.md#s_f0001).
 
 Provenance: **mixed**.
-The polynomial identity and Hilbert-Schmidt interpretation are recorded in [Voi98](../literature/pdf/Voi98.pdf), Sections 5.11-5.12, through [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005), and explicitly restated in [Shl24-U001](../audits/literature/Shl24/Yin_U001_v1.md#shl24-u001).
+The polynomial identity and Hilbert-Schmidt interpretation are recorded in [Voi98](../literature/pdf/Voi98.pdf), Sections 5.11-5.12, through [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005), and explicitly restated in [Shl24-U001](../audits/literature/Shl24/Yin_U001.md#shl24-u001).
 The proofs below directly check the more general bounded-generator convention, scalar bounded-inverse extension, finite-family interface, and exact domain limits.
 No novelty is asserted.
 
@@ -278,7 +278,7 @@ Set **D_i=iY_i** to obtain (DS); its formula i[Y_i,T]=Psi(partial_i T) then beco
 That source uses the first-variable-linear inner product, whereas (T) states the equivalent identification using the second-variable-linear convention.
 Shl24 prints (P) directly for its selfadjoint setting; Yin_C_F0002's broader bounded-generator scope is justified by (W), not attributed to that source.
 
-For the [Unt20 reading](../audits/literature/Unt20/Yin_U001_v1.md#unt20-u001), statement 4 supplies the finite L2-factor condition exactly when its derivative is taken to be partial^D.
+For the [Unt20 reading](../audits/literature/Unt20/Yin_U001.md#unt20-u001), statement 4 supplies the finite L2-factor condition exactly when its derivative is taken to be partial^D.
 It does not identify the manuscript's unspecified derivative domain with this one.
 The rational-factor converse, integration/reconstruction, and Yin_C_F0001's full reverse implication remain open.
 Any use of partial_i on the extracted L2 factors requires its own domain justification.

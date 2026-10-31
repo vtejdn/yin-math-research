@@ -41,7 +41,7 @@ This supplies **special cases**, not a necessary condition or a reduction of eve
 [Yin_C_F0006](../claims/Yin_C_F0006_v1.md#yin_c_f0006) proves the transfer for coordinatewise Mobius transformations with bounded inverse denominators, polynomial shears, and invertible affine linear maps, retaining normality of each transformed coordinate.
 Right multiplication coefficients are essential in the dual formulas.
 
-Using [Miy22](../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003), this includes the non-Haar unitaries (S_j-i)(S_j+i)^{-1}, and the nonfree selfadjoint tuple (S_1+S_2^2-1,S_2).
+Using [Miy22](../audits/literature/Miy22/Yin_U003.md#miy22-u003), this includes the non-Haar unitaries (S_j-i)(S_j+i)^{-1}, and the nonfree selfadjoint tuple (S_1+S_2^2-1,S_2).
 The proof and centered-moment witness are in Yin_C_F0006.
 These examples demonstrate progress beyond distributionally free semicircular coordinates without changing the conjecture.
 

@@ -52,14 +52,14 @@ The exact outstanding hypothesis of Yin_C_F0045 is
 for a finite constant a.
 Yin_C_F0045 lifts (2) through freely independent coordinate algebras and restores both original all-M domains.
 
-The reuse check read Yin_C_F0025, [Yin_C_F0026](Yin_C_F0026_v1.md#yin_c_f0026), [Yin_C_F0028](Yin_C_F0028_v1.md#yin_c_f0028), [Yin_C_F0043](Yin_C_F0043_v1.md#yin_c_f0043), [Yin_C_F0044](Yin_C_F0044_v1.md#yin_c_f0044), Yin_C_F0045, and [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002).
+The reuse check read Yin_C_F0025, [Yin_C_F0026](Yin_C_F0026_v1.md#yin_c_f0026), [Yin_C_F0028](Yin_C_F0028_v1.md#yin_c_f0028), [Yin_C_F0043](Yin_C_F0043_v1.md#yin_c_f0043), [Yin_C_F0044](Yin_C_F0044_v1.md#yin_c_f0044), Yin_C_F0045, and [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002).
 Yin_C_F0026 loses compactness of the extra starred commutator and is not a counterexample to the present assumptions.
 Yin_C_F0028 does not put all bounded measurable coordinate functions into the original domains.
 The Dab10 contraction uses reality and coassociativity; Yin_C_F0043 computes a particular unitary defect rather than supplying an arbitrary-normal theorem.
 
 The local literature registry and existing Cauchy source locators were searched next.
 A targeted primary web search for distributional Cauchy information, vacuum conjugates, curvature and infinity-to-2 estimates did not produce an applicable automatic theorem.
-The existing [Tol17-U001](../audits/literature/Tol17/Yin_U001_v1.md#tol17-u001) retains its explicit growth hypothesis.
+The existing [Tol17-U001](../audits/literature/Tol17/Yin_U001.md#tol17-u001) retains its explicit growth hypothesis.
 A primary search result for [Tolsa-Verdera, May the Cauchy transform of a non-trivial finite measure vanish on the support of the measure?](https://mat.uab.cat/~xtolsa/xv2.pdf) displayed a different criterion involving finite curvature and an integrable maximal-density bound.
 The full endpoint failed to open, so no theorem from that article is imported or newly audited.
 This is a bounded search boundary, not an assertion that no general theorem exists.

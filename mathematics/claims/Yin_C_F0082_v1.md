@@ -26,7 +26,7 @@ Fix \(d\geq1\) and an arbitrary tuple \(X=(X_1,\ldots,X_d)\in M^d\), and set
 \]
 with \(B_1=\mathbb C1\) when \(d=1\).
 Use the trace restrictions for these algebras.
-Assume that the [liberation Fisher information](../audits/literature/Voi99/Yin_U004_v1.md#liberation-fisher-information) is finite:
+Assume that the [liberation Fisher information](../audits/literature/Voi99/Yin_U004.md#liberation-fisher-information) is finite:
 \[
  \varphi^*(A_1;\ldots;A_d)=\sum_{i=1}^d\|j(A_i:B_i)\|_2^2<\infty.
  \tag{1}
@@ -55,7 +55,7 @@ This supplements the domain variant in [C_F0079 v4](Yin_C_F0079_v4.md#liberation
 ### Represented derivations and actual vacuum adjoints
 
 Write \(j_i=j(A_i:B_i)\in L^2(N,\tau)\) and \(\mathcal A=\operatorname{Alg}(A_1,\ldots,A_d)\).
-The [Voi99 convention](../audits/literature/Voi99/Yin_U003_v1.md#liberation-derivation-and-gradient) is
+The [Voi99 convention](../audits/literature/Voi99/Yin_U003.md#liberation-derivation-and-gradient) is
 \[
  \gamma_i(a)=a\otimes1-1\otimes a\quad(a\in A_i),\qquad
  \gamma_i(b)=0\quad(b\in B_i),\qquad
@@ -95,7 +95,7 @@ Define
  \qquad p\in\mathcal A.
  \tag{7}
 \]
-The [actual tensor-adjoint formula of Mai15 Lemmas 4.3 and 4.7](../audits/literature/Mai15/Yin_U001_v2.md#the-stronger-formulas-and-estimates) yields
+The [actual tensor-adjoint formula of Mai15 Lemmas 4.3 and 4.7](../audits/literature/Mai15/Yin_U001.md#the-stronger-formulas-and-estimates) yields
 \[
  \mathcal A\Omega\subseteq\operatorname{Dom}(C_i^\circ)^*,\qquad
  (C_i^\circ)^*(p\Omega)=p\eta_i-C_i^\circ(p\Omega).
@@ -137,7 +137,7 @@ These are operator-norm-to-Hilbert-norm estimates, not bounded-operator estimate
 
 ### Both actual domains contain bounded vectors
 
-For \(x\in N\), [Kaplansky density](../audits/literature/AP18/Yin_U001_v1.md#ap18-u001) gives a net \(p_\lambda\in\mathcal A\) with \(\|p_\lambda\|\le\|x\|\) and \(p_\lambda\Omega\to x\Omega\) in \(H_N\).
+For \(x\in N\), [Kaplansky density](../audits/literature/AP18/Yin_U001.md#ap18-u001) gives a net \(p_\lambda\in\mathcal A\) with \(\|p_\lambda\|\le\|x\|\) and \(p_\lambda\Omega\to x\Omega\) in \(H_N\).
 By (10), the pairs
 \[
  \bigl(C_i^\circ(p_\lambda\Omega),(C_i^\circ)^*(p_\lambda\Omega)\bigr)
@@ -186,7 +186,7 @@ Also \(\ell_i\Omega=d^{-1}\Omega\).
 
 Let \(E_N:M\to N\) be the trace-preserving conditional expectation.
 Its standard finite-tracial implementation is the orthogonal projection \(e_N:H\to H_N\), with \(e_N(x\Omega)=E_N(x)\Omega\).
-This is the conditional-expectation interface used in the [Voi99 source account](../audits/literature/Voi99/Yin_U003_v1.md#results-and-checked-mechanisms).
+This is the conditional-expectation interface used in the [Voi99 source account](../audits/literature/Voi99/Yin_U003.md#results-and-checked-mechanisms).
 The subspace \(H_N\) reduces left multiplication by every element of \(N\).
 On \(H=H_N\oplus H_N^\perp\), define
 \[
@@ -229,10 +229,10 @@ Recorded role label: corollary.
 | statement | [Statement](#statement) | Arbitrary bounded tuples with finite coordinate liberation Fisher information admit closed normalized liberation duals with both full bounded-vector domains. |
 | argument | [Argument](#argument) | Represented derivation, signed vacuum, actual adjoint, retained energy estimate, two weak graph limits, commutators, sum normalization and ambient extension. |
 | dependency | [Liberation estimate](Yin_C_F0063_v1.md#appendix-a-automatic-actual-liberation-contractions) | Only the abstract algebraic-liberation estimate with an actual L2 vacuum and its real controlled-defect proof; no normal-core or rationality premise is imported. |
-| dependency | [Gradient source interface](../audits/literature/Voi99/Yin_U003_v1.md#voi99-u003) | Word-moment gradient, skewadjointness, the signed actual vacuum, and the accepted finite-tracial conditional-expectation interface; represented well-definedness is proved here. |
-| dependency | [Fisher information](../audits/literature/Voi99/Yin_U004_v1.md#voi99-u004) | Definition 9.1 for the coordinate algebras, so each coordinate gradient lies in L2. |
-| dependency | [Actual tensor adjoints](../audits/literature/Mai15/Yin_U001_v2.md#mai15-u001) | Lemmas 4.3 and 4.7 for a real derivation with an L2 vacuum; the coassociative norm theorem is not invoked. |
-| dependency | [Kaplansky density](../audits/literature/AP18/Yin_U001_v1.md#ap18-u001) | Bounded core approximation, accepted at the retained statement-and-applicability inspection depth. |
+| dependency | [Gradient source interface](../audits/literature/Voi99/Yin_U003.md#voi99-u003) | Word-moment gradient, skewadjointness, the signed actual vacuum, and the accepted finite-tracial conditional-expectation interface; represented well-definedness is proved here. |
+| dependency | [Fisher information](../audits/literature/Voi99/Yin_U004.md#voi99-u004) | Definition 9.1 for the coordinate algebras, so each coordinate gradient lies in L2. |
+| dependency | [Actual tensor adjoints](../audits/literature/Mai15/Yin_U001.md#mai15-u001) | Lemmas 4.3 and 4.7 for a real derivation with an L2 vacuum; the coassociative norm theorem is not invoked. |
+| dependency | [Kaplansky density](../audits/literature/AP18/Yin_U001.md#ap18-u001) | Bounded core approximation, accepted at the retained statement-and-applicability inspection depth. |
 
 ### Decision self-reviewed
 
@@ -249,9 +249,9 @@ Recorded role label: corollary.
 | statement | [Statement](#statement) | Arbitrary bounded tuples with finite coordinate liberation Fisher information admit closed normalized liberation duals with both full bounded-vector domains. |
 | argument | [Argument](#argument) | Represented derivation, signed vacuum, actual adjoint, retained energy estimate, two weak graph limits, commutators, sum normalization and ambient extension. |
 | dependency | [Liberation estimate](Yin_C_F0063_v1.md#appendix-a-automatic-actual-liberation-contractions) | Only the abstract algebraic-liberation estimate with an actual L2 vacuum and its real controlled-defect proof; no normal-core or rationality premise is imported. |
-| dependency | [Gradient source interface](../audits/literature/Voi99/Yin_U003_v1.md#voi99-u003) | Word-moment gradient, skewadjointness, the signed actual vacuum, and the accepted finite-tracial conditional-expectation interface; represented well-definedness is proved here. |
-| dependency | [Fisher information](../audits/literature/Voi99/Yin_U004_v1.md#voi99-u004) | Definition 9.1 for the coordinate algebras, so each coordinate gradient lies in L2. |
-| dependency | [Actual tensor adjoints](../audits/literature/Mai15/Yin_U001_v2.md#mai15-u001) | Lemmas 4.3 and 4.7 for a real derivation with an L2 vacuum; the coassociative norm theorem is not invoked. |
-| dependency | [Kaplansky density](../audits/literature/AP18/Yin_U001_v1.md#ap18-u001) | Bounded core approximation, accepted at the retained statement-and-applicability inspection depth. |
+| dependency | [Gradient source interface](../audits/literature/Voi99/Yin_U003.md#voi99-u003) | Word-moment gradient, skewadjointness, the signed actual vacuum, and the accepted finite-tracial conditional-expectation interface; represented well-definedness is proved here. |
+| dependency | [Fisher information](../audits/literature/Voi99/Yin_U004.md#voi99-u004) | Definition 9.1 for the coordinate algebras, so each coordinate gradient lies in L2. |
+| dependency | [Actual tensor adjoints](../audits/literature/Mai15/Yin_U001.md#mai15-u001) | Lemmas 4.3 and 4.7 for a real derivation with an L2 vacuum; the coassociative norm theorem is not invoked. |
+| dependency | [Kaplansky density](../audits/literature/AP18/Yin_U001.md#ap18-u001) | Bounded core approximation, accepted at the retained statement-and-applicability inspection depth. |
 | review | [Whole deduction self-review](../audits/reviews/Yin_R_F0080_v1.md#whole-deduction) | Complete statement, argument and each accepted input interface, with actual self-reviewed relationship and the bounded-selfadjoint, scalar-shift and source-scope limits retained. |
 

@@ -45,7 +45,7 @@ That subsidiary interface does not solve either analytic target.
 
 - [Yin_C_F0018 and its transport application](../claims/Yin_C_F0018_v1.md#yin_c_f0018), at its current material decision: a Jacobian inverse in the usual Banach projective tensor matrix algebra corrects bounded trace-class commutator operators to bounded duals.
   The ledger gives exact multiplication order, absolute-convergence bounds, and a direct small analytic coefficient condition.
-- The [GS14-U001 source interface](../audits/literature/GS14/Yin_U001_v1.md#gs14-u001) supplies small analytic transports with an analytic inverse.
+- The [GS14-U001 source interface](../audits/literature/GS14/Yin_U001.md#gs14-u001) supplies small analytic transports with an analytic inverse.
   Its norm-small perturbations meet the explicit projective correction condition after sufficient smallness.
 - [Yin_C_F0013](../claims/Yin_C_F0013_v1.md#yin_c_f0013) then gives the affiliated finite-defect criterion.
   It does not provide the desired bounded scalar reconstruction.

@@ -85,14 +85,14 @@ No finite-commutator assertion for a nonexistent dual system is made.
 
 ## Inputs and Their Exact Roles
 
-- [Miy22-U001](../audits/literature/Miy22/Yin_U001_v1.md#miy22-u001) supplies the standard tracial Fock realization of the semicircular pair.
+- [Miy22-U001](../audits/literature/Miy22/Yin_U001.md#miy22-u001) supplies the standard tracial Fock realization of the semicircular pair.
   The bounded right annihilators satisfy `[r_i*,S_j]=delta_ij P`; this is checked on the word basis by deletion of the final letter.
-  The [MSY23 bounded-dual interface](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005), together with its main free-field theorem, therefore supplies free-field evaluation for S.
+  The [MSY23 bounded-dual interface](../audits/literature/MSY23/Yin_U005.md#msy23-u005), together with its main free-field theorem, therefore supplies free-field evaluation for S.
   No bounded dual is thereby supplied for the centrally scaled X.
-- [MSY23-U004, Theorem 5.6 and Remark 5.10](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) says that invertibility of all full polynomial matrices in U(N) is equivalent to an injective evaluated free field, whose image is exactly the affiliated division closure.
+- [MSY23-U004, Theorem 5.6 and Remark 5.10](../audits/literature/MSY23/Yin_U004.md#msy23-u004) says that invertibility of all full polynomial matrices in U(N) is equivalent to an injective evaluated free field, whose image is exactly the affiliated division closure.
   It also supplies the finite-tracial fact that an injective square bounded matrix has an affiliated inverse.
   No bounded inverse conclusion is imported.
-- [Dab10-U001](../audits/literature/Dab10/Yin_U001_v1.md#dab10-u001), with [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005), gives factoriality for a selfadjoint generating tuple of length at least two with bounded duals.
+- [Dab10-U001](../audits/literature/Dab10/Yin_U001.md#dab10-u001), with [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005), gives factoriality for a selfadjoint generating tuple of length at least two with bounded duals.
   This also verifies factoriality of the initial M_0 from its Fock duals if needed.
   Its use for S precedes and is independent of any assertion about X.
 

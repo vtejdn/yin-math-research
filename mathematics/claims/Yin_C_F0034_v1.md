@@ -102,7 +102,7 @@ No reverse inclusion in (34.6) is asserted.
 
 - [Yin_C_F0031-P1](Yin_C_F0031_v1.md#yin_c_f0031-p1) supplies the bounded extension of a densely defined closable finite-range operator and cancellation through bounded injective left and dense-range right operators when the right operator preserves the initial domain.
   Its hypotheses are checked below each time it is used.
-- The accepted finite-tracial affiliated fraction and regularity interface is recorded in [Miy22-U006](../audits/literature/Miy22/Yin_U006_v1.md#miy22-u006), with its shared affiliation foundations and source-inspection limits retained.
+- The accepted finite-tracial affiliated fraction and regularity interface is recorded in [Miy22-U006](../audits/literature/Miy22/Yin_U006.md#miy22-u006), with its shared affiliation foundations and source-inspection limits retained.
   It supplies the algebra \(U(M)\), the inclusion of \(M\), bounded left and right fractions for every affiliated element, and the stated operator meaning of bounded regularity.
   Only this infrastructure is accepted here; the common-multiple, defect and algebra calculations are proved below.
 - Hilbert adjoints, finite-dimensional range, and complex linearity are used at their usual elementary scope.

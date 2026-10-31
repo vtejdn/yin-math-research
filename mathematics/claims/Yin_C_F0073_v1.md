@@ -102,7 +102,7 @@ Tracial conjugation gives
 \[
  J\lambda(a)J=\rho(a^*),\qquad J\rho(a)J=\lambda(a^*).            \tag{8}
 \]
-This is the convention of AP18 Section 7.1.1, inspected in [the existing foundational-reference note](../audits/literature/AP18/Yin_U002_v2.md#ap18-u002).
+This is the convention of AP18 Section 7.1.1, inspected in [the existing foundational-reference note](../audits/literature/AP18/Yin_U002.md#ap18-u002).
 The displayed identities follow directly on bounded vectors and then by density.
 
 The antiunitary involution \(\dagger\) on the coarse Hilbert space satisfies
@@ -236,7 +236,7 @@ The pointed free-product Hilbert model identifies
  H_{i_1}^\circ\otimes_2\cdots\otimes_2H_{i_n}^\circ              \tag{16}
 \]
 through centered reduced products.
-This exact inner-product and end-action interface is reconstructed in [Voi98-U005, Free products 5.5-5.8](../audits/literature/Voi98/Yin_U005_v1.md#free-products-55-58) and used on the full polynomial core in [C_F0045 Section 3](Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core).
+This exact inner-product and end-action interface is reconstructed in [Voi98-U005, Free products 5.5-5.8](../audits/literature/Voi98/Yin_U005.md#free-products-55-58) and used on the full polynomial core in [C_F0045 Section 3](Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core).
 Only that Hilbert model is used here; the further contraction hypotheses or conclusions of C_F0045 are not imported.
 
 Define \(V\Omega=\Omega\) and
@@ -305,9 +305,9 @@ Recorded review label: unreviewed.
 | dependency | [C_F0069 Part A](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness for full-domain normal duals. |
 | dependency | [C_F0070 Part A](Yin_C_F0070_v1.md#statement) | Unique starred Hilbert-valued derivations and normalized right contractions. |
 | dependency | [C_F0072](Yin_C_F0072_v1.md#statement) | Two contraction bounds imply actual vacuum and both canonical full domains, also for the conjugate derivation. |
-| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) | The pointed free-product Hilbert model and end actions in Sections 5.5-5.8; the reversal is checked above. |
+| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | The pointed free-product Hilbert model and end actions in Sections 5.5-5.8; the reversal is checked above. |
 | dependency | [C_F0045 Section 3](Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Existing full-core reduced-word realization only. |
-| dependency | [AP18 conjugation interface](../audits/literature/MSY23/Yin_U002_v2.md#msy23-u002) | Existing source inspection of tracial J; the left/right identities are checked directly in Section 1. |
+| dependency | [AP18 conjugation interface](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Existing source inspection of tracial J; the left/right identities are checked directly in Section 1. |
 
 ### Decision reviewed
 
@@ -326,9 +326,9 @@ Recorded review label: independently reviewed.
 | dependency | [C_F0069 Part A](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness for full-domain normal duals. |
 | dependency | [C_F0070 Part A](Yin_C_F0070_v1.md#statement) | Unique starred Hilbert-valued derivations and normalized right contractions. |
 | dependency | [C_F0072](Yin_C_F0072_v1.md#statement) | Two contraction bounds imply actual vacuum and both canonical full domains, also for the conjugate derivation. |
-| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) | The pointed free-product Hilbert model and end actions in Sections 5.5-5.8; the reversal is checked above. |
+| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | The pointed free-product Hilbert model and end actions in Sections 5.5-5.8; the reversal is checked above. |
 | dependency | [C_F0045 Section 3](Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Existing full-core reduced-word realization only. |
-| dependency | [AP18 conjugation interface](../audits/literature/MSY23/Yin_U002_v2.md#msy23-u002) | Existing source inspection of tracial J; the left/right identities are checked directly in Section 1. |
+| dependency | [AP18 conjugation interface](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Existing source inspection of tracial J; the left/right identities are checked directly in Section 1. |
 | review | [Independent complete review](../audits/reviews/Yin_R_F0046_v1.md#conclusion) | Exact fixed statement and complete argument, with actual source interfaces, review arrangement and unresolved scope disclosed. |
 
 ### Decision finding-owned-review
@@ -346,7 +346,7 @@ Recorded review label: independently reviewed.
 | dependency | [Exact material](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness for full-domain normal duals. |
 | dependency | [Exact material](Yin_C_F0070_v1.md#statement) | Unique starred Hilbert-valued derivations and normalized right contractions. |
 | dependency | [Exact material](Yin_C_F0072_v1.md#statement) | Two contraction bounds imply actual vacuum and both canonical full domains, also for the conjugate derivation. |
-| dependency | [Exact material](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) | The pointed free-product Hilbert model and end actions in Sections 5.5-5.8; the reversal is checked above. |
+| dependency | [Exact material](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | The pointed free-product Hilbert model and end actions in Sections 5.5-5.8; the reversal is checked above. |
 | dependency | [Exact material](Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Existing full-core reduced-word realization only. |
-| dependency | [Exact material](../audits/literature/AP18/Yin_U002_v2.md#ap18-u002) | Existing source inspection of tracial J; the left/right identities are checked directly in Section 1. |
+| dependency | [Exact material](../audits/literature/AP18/Yin_U002.md#ap18-u002) | Existing source inspection of tracial J; the left/right identities are checked directly in Section 1. |
 | review | [Original finding](../audits/reviews/Yin_R_F0046_v1.md#conclusion) | Whole Parts A–C and Sections 1–5: actual-vacuum adjoint invariance, left-bound/right-dual/F(X*) equivalence, normalization, canonical graphs and full free-normal reversal extension; initial-context relationship unknown. |

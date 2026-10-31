@@ -42,7 +42,7 @@ These are the complete direct Claim interfaces used in the displayed proof:
 | [Yin_C_F0048_v1](../../claims/Yin_C_F0048_v1.md#decision-candidate-0002) | Measurable-density sufficient transfer on that annular probability, with its original closed and adjoint domains; no C1 density converse is used. |
 | [Yin_C_F0049_v1](../../claims/Yin_C_F0049_v1.md#decision-candidate-0002) | Sections 2--3 annular finite-measure normalization and original-graph smooth cutoff argument; each use needs only the selected annular bounds, and the proof reconstructs the adapted interface. |
 
-The directly used external source interfaces remain [Pis12-U001](../literature/Pis12/Yin_U001_v1.md#pis12-u001), and [VV16-U001](../literature/VV16/Yin_U001_v1.md#vv16-u001).
+The directly used external source interfaces remain [Pis12-U001](../literature/Pis12/Yin_U001.md#pis12-u001), and [VV16-U001](../literature/VV16/Yin_U001.md#vv16-u001).
 Their recorded source identification, statements and application scopes were checked.
 Their historical theorem proofs were not newly audited, and no fresh web acquisition is claimed.
 Ordinary Hilbert adjoint/closed-graph facts, Kaplansky density, finite-trace projection inequalities and conditional expectation are used as the accepted functional-analytic foundations already specified in the direct Claim inputs.

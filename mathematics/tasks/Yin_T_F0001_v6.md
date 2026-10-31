@@ -57,7 +57,7 @@ Assume finite non-microstates free Fisher information:
 Here \(\partial_i X_j=\delta_{ij}1\otimes1\), with the Leibniz rule.
 Equivalently, all first-order conjugate variables \(\xi_i\in H\) exist.
 Their boundedness, Lipschitz regularity, and higher conjugates are not assumed.
-The established conjugate-variable interface supplies algebraic freeness and the evaluated difference quotients; see [MS23-U001](../audits/literature/MS23/Yin_U001_v1.md#ms23-u001).
+The established conjugate-variable interface supplies algebraic freeness and the evaluated difference quotients; see [MS23-U001](../audits/literature/MS23/Yin_U001.md#ms23-u001).
 
 Define the normalized polynomial dual with **exact initial domain** \(\mathcal P\):
 \[
@@ -170,7 +170,7 @@ Using \(A_i\) or the intrinsic tests as auxiliary objects is permitted; the fina
   C_F0065's second model is an unnormalized closed extension with extra graph vectors, and its polynomials are not a graph core.
   Neither gives a counterexample to (CD).
   Their old proofs and acceptance evidence remain unchanged.
-- The [standard semicircular affiliated criterion](../audits/literature/Miy22/Yin_U007_v1.md#miy22-u007) is a calibration case: (CD) must recover the bounded right annihilators for that tuple.
+- The [standard semicircular affiliated criterion](../audits/literature/Miy22/Yin_U007.md#miy22-u007) is a calibration case: (CD) must recover the bounded right annihilators for that tuple.
   When the canonical \(D_i\) themselves are bounded, [C_F0013_v1](../claims/Yin_C_F0013_v1.md#decision-candidate-0002) applies directly.
   Its theorem for other supplied bounded duals does not identify their canonical normalization as bounded without proof.
   An obstruction created only by shrinking the semicircular canonical domain is outside the new contract.
@@ -242,7 +242,7 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/MS23/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/MS23/Yin_U001.md).
 
 Whole original T_F0001 contract at recorded assessment 5 and prepared Task material v3; complete C_F0063 (recorded assessment 2) main proof and Appendix A, C_F0062 (recorded assessment 2) graph bridge, C_F0064 (recorded assessment 2) bounded companion, actual dependencies and accepted source interfaces.
 Every affiliated element and arbitrary bounded fraction pair, both directions and numerical-rank independence are covered under the explicitly permitted intrinsic tensor-test realization.

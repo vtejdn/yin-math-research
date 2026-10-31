@@ -54,7 +54,7 @@ The original inspection date, computations, source limits and independent wordin
    The nonscalar constant g fails that condition.
    The explicit positive Neumann argument proves inverse closure at every matrix size.
    Thus f is excluded from the scalar division closure and from every polynomial bounded-inverse matrix representation, regardless of size or minimality.
-6. The bounded-dual exclusion uses selfadjointness, the exact skew-adjoint/source-dual conversion, and the accepted [Dab10-U001](../literature/Dab10/Yin_U001_v1.md#dab10-u001) factoriality theorem with two generators.
+6. The bounded-dual exclusion uses selfadjointness, the exact skew-adjoint/source-dual conversion, and the accepted [Dab10-U001](../literature/Dab10/Yin_U001.md#dab10-u001) factoriality theorem with two generators.
    Its n>=2 qualification is essential and satisfied.
    The nontrivial center contradicts that consequence.
    This does not assert anything about a finite-rank class for nonexistent duals.

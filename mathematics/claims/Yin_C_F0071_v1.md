@@ -328,6 +328,6 @@ Recorded review label: self-reviewed.
 | dependency | [C_F0069 Part A](Yin_C_F0069_v1.md#statement) | Automatic operator-norm-to-H boundedness of bare full-domain normal duals. |
 | dependency | [C_F0070 Part A](Yin_C_F0070_v1.md#statement) | Unique starred derivation from a bare scalar normal dual; no general vacuum conclusion imported. |
 | dependency | [C_F0055](Yin_C_F0055_v1.md#statement) | Scalar normal actual-vacuum-to-canonical-full-domain implication after nonatomicity and divided-difference identification. |
-| dependency | [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and actual canonical bounded-vector domains. |
+| dependency | [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002) | Selfadjoint finite-Fisher contraction bounds and actual canonical bounded-vector domains. |
 | dependency | [C_F0043 Section 3](Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Unitary-core contraction estimates and canonical full-domain reconstruction for the reverse unitary implication. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Proposition 3.5 for scalar-normal nonatomicity and exact actual-vacuum interface. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Proposition 3.5 for scalar-normal nonatomicity and exact actual-vacuum interface. |

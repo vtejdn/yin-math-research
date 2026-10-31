@@ -38,8 +38,8 @@ The historical test concerns this ambient-only shortcut and does not satisfy the
 C_F0011 proves that the scaled tuple has no bounded dual system.
 The stronger bounded-dual setting retains its separate [C_F0012 counterexample](../claims/Yin_C_F0012_v1.md#statement).
 
-The published theorem actually available is [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004), with its affiliated ambient algebra, together with the bounded-dual implication in [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005).
-The distinct domain-quantified bounded representation theorem is recorded in [MSY23-U003](../audits/literature/MSY23/Yin_U003_v1.md#msy23-u003).
+The published theorem actually available is [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004), with its affiliated ambient algebra, together with the bounded-dual implication in [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
+The distinct domain-quantified bounded representation theorem is recorded in [MSY23-U003](../audits/literature/MSY23/Yin_U003.md#msy23-u003).
 This note does not replace any of those precise interfaces by (L).
 
 ## Scaled-Semicircular Model
@@ -72,7 +72,7 @@ The two measure choices remain distinct; C_F0011 retains its separate complete n
 Yin_S_F0004 already records the exact residual, realization, and norm-estimate structures required to reuse Miy22.
 A narrower extra observation from the exploratory source search is that replacing Wick polynomials by arbitrary **orthogonal free Appell polynomials** does not automatically provide a broad new model.
 
-The exact inspected monic free Appell recurrence, original edition/passages and source-reading limits are owned by [Ans04-U001](../audits/literature/Ans04/Yin_U001_v1.md#ans04-u001).
+The exact inspected monic free Appell recurrence, original edition/passages and source-reading limits are owned by [Ans04-U001](../audits/literature/Ans04/Yin_U001.md#ans04-u001).
 For a nondegenerate selfadjoint orthogonal polynomial family, comparison with the three-term recurrence forces all free cumulants of degree at least three to vanish, so this particular family remains shifted/scaled semicircular.
 This local comparison does not classify every possible residual model and leaves nonorthogonal expansions and more general finite-state recurrences available.
 

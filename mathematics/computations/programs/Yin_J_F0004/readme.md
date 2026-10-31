@@ -3,13 +3,13 @@ author: Yin
 ---
 # ms23-wick-derivatives
 
-Context: [original integration finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-integration-review-finding); [original derivative finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-u004-corrected-finding); [MS23-U004](../../../audits/literature/MS23/Yin_U004_v1.md#ms23-u004); [MS23 source units](../../../audits/literature/MS23/readme.md).
+Context: [original integration finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-integration-review-finding); [original derivative finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-u004-corrected-finding); [MS23-U004](../../../audits/literature/MS23/Yin_U004.md#ms23-u004); [MS23 source units](../../../audits/literature/MS23/readme.md).
 
 ## Question and scope
 
 756 exact binary-word free-derivative identities at q=0,2/7,-1/3 and lengths1--6, preserving the corrected Kronecker factor and finite range.
 
-Target: [MS23-U004](../../../audits/literature/MS23/Yin_U004_v1.md#ms23-u004), Proposition 5.1 and Example 5.2 in the 36-page published MS23 edition identified there.
+Target: [MS23-U004](../../../audits/literature/MS23/Yin_U004.md#ms23-u004), Proposition 5.1 and Example 5.2 in the 36-page published MS23 edition identified there.
 
 ### Scope and Independent Calculations
 

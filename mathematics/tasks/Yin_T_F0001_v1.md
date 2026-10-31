@@ -235,7 +235,7 @@ The deliverable is the abstract theorem, complete proof, automatic corollaries a
 Neither multivariable rational L2 boundedness nor bounded scalar reconstruction is resolved merely by this abstraction.
 
 The user's subsequent 2026-09-10 reference to ACSY24 Proposition 3.5 refines the domain assessment.
-[ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) proves the maximal-Delta input from a dense starred polynomial derivation domain and vacuum adjoints, with a reviewed bounded-regularization reconstruction of the source's abbreviated unbounded step.
+[ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) proves the maximal-Delta input from a dense starred polynomial derivation domain and vacuum adjoints, with a reviewed bounded-regularization reconstruction of the source's abbreviated unbounded step.
 No all-M domain inclusion or normality is needed for that input.
 Yin_C_F0024 remains an independently reviewed sufficient theorem; the remaining smaller-core question concerns the analytic domain and finite-defect formulation, rather than the free-field realization.
 

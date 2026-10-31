@@ -25,12 +25,12 @@ No source opening, mathematical review or numerical execution is newly performed
 
 | Review | Target | Scope |
 | --- | --- | --- |
-| [Original finding](#ms23-integration-review-finding) | [Exact input](../literature/MS23/Yin_U001_v1.md#ms23-u001) | Corrected difference-quotient closability interface and complete original integration checks, 2026-09-09. |
-| [Original finding](#ms23-integration-review-finding) | [Exact input](../literature/MS23/Yin_U005_v1.md#ms23-u005) | Whole main theorem/consequence chain, nonconstant and dimension qualifications, MSY23 bridge and reviewer-supplied summable-majorant ordinary/opposite tensor conversion; no original proofs of all external foundations. |
-| [Original finding](#ms23-u001-corrected-finding) | [Exact input](../literature/MS23/Yin_U001_v1.md#definitions-23-24-and-theorem-25) | Whole local foundation/deletion/dual proof plus the reviewer-identified necessary Voi98 difference-quotient adjoint-domain repair; original source and external-input boundaries. |
-| [Original finding](#ms23-u001-corrected-finding) | [Exact input](../literature/MS23/Yin_U001_v2.md#definitions-23-24-and-theorem-25) | The same unchanged original proof and corrected interface only; the additional 2026-09-10 definition reread is outside this original finding. |
-| [Original finding](#ms23-u004-corrected-finding) | [Exact input](../literature/MS23/Yin_U004_v1.md#ms23-u004) | Complete derivative cancellation/majorant/graph-limit chain with the reviewer-identified necessary derivative-closability interface repaired in MS23-U001; exact 756-case rerun and source limits preserved. |
-| [Original finding](#ms23-u002-proof-finding) | [Exact input](../literature/MS23/Yin_U002_v1.md#ms23-u002) | Complete algebraic partition/crossing/deletion-insertion proof, endpoint exclusions and exact script inspection/rerun; vacuum-adjoint and analytic norm assertions excluded. |
+| [Original finding](#ms23-integration-review-finding) | [Exact input](../literature/MS23/Yin_U001.md#ms23-u001) | Corrected difference-quotient closability interface and complete original integration checks, 2026-09-09. |
+| [Original finding](#ms23-integration-review-finding) | [Exact input](../literature/MS23/Yin_U005.md#ms23-u005) | Whole main theorem/consequence chain, nonconstant and dimension qualifications, MSY23 bridge and reviewer-supplied summable-majorant ordinary/opposite tensor conversion; no original proofs of all external foundations. |
+| [Original finding](#ms23-u001-corrected-finding) | [Exact input](../literature/MS23/Yin_U001.md#definitions-23-24-and-theorem-25) | Whole local foundation/deletion/dual proof plus the reviewer-identified necessary Voi98 difference-quotient adjoint-domain repair; original source and external-input boundaries. |
+| [Original finding](#ms23-u001-corrected-finding) | [Exact input](../literature/MS23/Yin_U001.md#definitions-23-24-and-theorem-25) | The same unchanged original proof and corrected interface only; the additional 2026-09-10 definition reread is outside this original finding. |
+| [Original finding](#ms23-u004-corrected-finding) | [Exact input](../literature/MS23/Yin_U004.md#ms23-u004) | Complete derivative cancellation/majorant/graph-limit chain with the reviewer-identified necessary derivative-closability interface repaired in MS23-U001; exact 756-case rerun and source limits preserved. |
+| [Original finding](#ms23-u002-proof-finding) | [Exact input](../literature/MS23/Yin_U002.md#ms23-u002) | Complete algebraic partition/crossing/deletion-insertion proof, endpoint exclusions and exact script inspection/rerun; vacuum-adjoint and analytic norm assertions excluded. |
 | [Original finding](#ms23-u002-proof-finding) | [Exact input](../../computations/programs/Yin_J_F0003/main.py) | Exact original script structure, independent calculations and historical finite outputs at the listed bounds, without new execution. |
 
 <a id="ms23-integration-review-finding"></a>
@@ -102,19 +102,19 @@ Source: the supplied 36-page published MS23 article, at the original inspection 
 
 The selected original findings concern:
 
-- [MS23-U001: foundations](../literature/MS23/Yin_U001_v1.md)
-- [MS23-U004: Wick derivatives](../literature/MS23/Yin_U004_v1.md)
+- [MS23-U001: foundations](../literature/MS23/Yin_U001.md)
+- [MS23-U004: Wick derivatives](../literature/MS23/Yin_U004.md)
 
 ## Outcome
 
 The reconstructed local mathematical arguments pass independent review at their explicitly retained external-input boundaries.
 One dependency-location repair was requested at this review: MS23-U004 attributed difference-quotient closability to MS23-U001, but MS23-U001 then proved the closability of the normalized dual without explicitly supplying the separate difference-quotient adjoint-domain theorem.
-The existing [Voi98-U004](../literature/Voi98/Yin_U004_v1.md#voi98-u004), Corollary 4.2/Proposition 4.3 interface, already proves the needed fact.
+The existing [Voi98-U004](../literature/Voi98/Yin_U004.md#voi98-u004), Corollary 4.2/Proposition 4.3 interface, already proves the needed fact.
 The reviewer requested that exact link and its applicability in MS23-U001 or MS23-U004.
 This was a missing local interface reference, not a new mathematical obstruction.
 
 No author file was changed by this reviewer.
-The integrating author subsequently added the difference-quotient interface to [MS23-U001](../literature/MS23/Yin_U001_v1.md); the [final integration report](#reviewed-chain-and-resolved-findings) records the separate check of that repair and MS23-U005's integration changes.
+The integrating author subsequently added the difference-quotient interface to [MS23-U001](../literature/MS23/Yin_U001.md); the [final integration report](#reviewed-chain-and-resolved-findings) records the separate check of that repair and MS23-U005's integration changes.
 No formal verification, outside human review or original-proof review of all external foundations is claimed.
 
 <a id="ms23-u001-corrected-finding"></a>
@@ -183,7 +183,7 @@ No outside web search was required for this bounded cross-review, and no externa
 
 Date: 2026-09-09.
 Reviewer: the estimate agent, separate from the combinatorial agent, who authored MS23-U002 and its computation.
-Target: the [MS23-U002 reconstruction](../literature/MS23/Yin_U002_v1.md), plus the complete [exact checking program](../../computations/programs/Yin_J_F0003/main.py) and its [retained mathematical record](../../computations/programs/Yin_J_F0003/readme.md).
+Target: the [MS23-U002 reconstruction](../literature/MS23/Yin_U002.md), plus the complete [exact checking program](../../computations/programs/Yin_J_F0003/main.py) and its [retained mathematical record](../../computations/programs/Yin_J_F0003/readme.md).
 The review used the supplied 36-page published edition; no later source identity replaces that original inspected input.
 
 Result: PASS within the stated algebraic/combinatorial scope.

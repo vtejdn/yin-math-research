@@ -34,7 +34,7 @@ Thus existence of a liberation dual system, even a bounded selfadjoint normalize
 The liberation commutator and common-domain conditions are the local variant stated in [C_F0079 v4](Yin_C_F0079_v4.md#liberation-dual-system).
 Here normalized means that the sum of the operators is P_Omega, so in one variable the sum condition is simply L=P_Omega.
 Regular means injective with dense range, equivalently invertible as an affiliated operator.
-The conjugate-variable condition is the actual vacuum adjoint condition for the derivations recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+The conjugate-variable condition is the actual vacuum adjoint condition for the derivations recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 Since X is selfadjoint, its starred polynomial algebra is exactly C[X], and the prescribed generator value determines the entire derivation.
 No comparison theorem from either source is needed in the proof below.
 

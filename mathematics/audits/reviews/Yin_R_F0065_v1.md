@@ -55,7 +55,7 @@ For one block, the three cases in the proof give equal terms away from the match
 Boundedness passes these identities from the dense reduced algebraic vectors to all H.
 The resulting normal pair (u,h), rather than the nonnormal singleton or its real coordinates, satisfies the exact [C_F0013](../../claims/Yin_C_F0013_v1.md#statement) hypotheses.
 
-The accepted [NS06-U001](../literature/NS06/Yin_U001_v1.md#ns06-u001) Corollary 15.9 at printed p.244 / supplied 434-page PDF p.261 applies because the factors are free and u is Haar.
+The accepted [NS06-U001](../literature/NS06/Yin_U001.md#ns06-u001) Corollary 15.9 at printed p.244 / supplied 434-page PDF p.261 applies because the factors are free and u is Haar.
 Its general product-cumulant proof is accepted, not newly audited.
 The support of h is one; affiliated algebra multiplication gives both inverse identities for h inverse times u adjoint.
 Unitary invariance and the exact beta integral give squared L2 norm seven, while positive mass in every interval next to zero proves unboundedness.

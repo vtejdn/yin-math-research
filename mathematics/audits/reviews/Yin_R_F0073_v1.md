@@ -67,7 +67,7 @@ No claim that the two whole files are identical is made.
 | --- | --- |
 | [Yin_C_F0037](../../claims/Yin_C_F0037_v1.md) and [Yin_C_F0038](../../claims/Yin_C_F0038_v1.md) | Independently reviewed kernel/atomlessness theorem and the L1 construction before any selfadjointness step, as recorded in the original [C_F0037 finding](Yin_R_F0066_v1.md#yin_c_f0037-spectral-pinching-and-domain-bridges) and [C_F0038 finding](Yin_R_F0066_v1.md#yin_c_f0038-l1-density-and-an-actual-adjoint-test-module) |
 | [Yin_C_F0018 Section 1](../../claims/Yin_C_F0018_v1.md#1-algebra-norms-and-the-correction-lemma) | Projective norm, summable tensor representations and exact right-multiplier action; no transport theorem is invoked |
-| [AP18 L1 interface](../literature/AP18/Yin_U003_v1.md#l1-predual-interface) | Completeness, normal-functional norm and density uniqueness at the accepted source scope |
+| [AP18 L1 interface](../literature/AP18/Yin_U003.md#l1-predual-interface) | Completeness, normal-functional norm and density uniqueness at the accepted source scope |
 | [Yin_C_F0029-P2](../../claims/Yin_C_F0029_v1.md#yin_c_f0029-p2) | All-bounded-vector dual domain and a constructed dense left module in each actual adjoint domain; exact affiliated criterion |
 
 The Yin_C_F0025 Hilbert-Schmidt convention and finite-tracial Hilbert-space foundations retain their inspected scope in the companion audit.

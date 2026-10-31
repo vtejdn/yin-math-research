@@ -182,7 +182,7 @@ In one variable, scalar pole exclusion bridges it.
 Yin_C_F0012 proves that normality and bounded duals alone do not bridge it for several variables.
 
 Two variables and noncommutativity do not force failure for every tuple.
-The free semicircular theorem in [Miy22](../literature/pdf/Miy22.pdf), at the scope of its [bounded-theorem audit](../audits/literature/Miy22/Yin_U005_v1.md#miy22-u005), provides a multi-generator setting where the criterion holds.
+The free semicircular theorem in [Miy22](../literature/pdf/Miy22.pdf), at the scope of its [bounded-theorem audit](../audits/literature/Miy22/Yin_U005.md#miy22-u005), provides a multi-generator setting where the criterion holds.
 Its special Fock-space realization and analytic realization estimates must not be inferred merely from existence of bounded duals.
 The [author's arXiv abstract](https://arxiv.org/abs/2109.08841), opened on 2026-09-09 for this scope comparison, confirms the multi-semicircular result; no new version was downloaded or proof re-audit claimed.
 

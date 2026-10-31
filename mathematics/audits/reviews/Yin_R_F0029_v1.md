@@ -33,7 +33,7 @@ C_F0025 provides the surrounding represented-core conventions; C_F0043 provides 
 C_F0044 and Yin_S_F0011 describe the open research boundary.
 None of their larger conclusions is imported to prove this counterexample.
 
-The existing [Dab10-U002 source interface](../literature/Dab10/Yin_U002_v1.md#dab10-u002) is accepted at its recorded scope to identify the estimate whose hypotheses cannot be weakened in the proposed way.
+The existing [Dab10-U002 source interface](../literature/Dab10/Yin_U002.md#dab10-u002) is accepted at its recorded scope to identify the estimate whose hypotheses cannot be weakened in the proposed way.
 This reviewer read that full audit and C_F0043 Sections 3.1--3.2, including its controlled coassociativity defect.
 Dab10-U002 records parsed primary-text reading and local proof reconstruction of Lemma 10/Remark 11 and Lemma 12 on arXiv:0804.2906v2 pp. 8--9, with a subsequent independent primary-text review.
 Its retained closed-real-derivation functional-calculus foundation is not re-proved here.

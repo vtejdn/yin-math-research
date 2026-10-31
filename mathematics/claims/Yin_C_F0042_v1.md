@@ -17,7 +17,7 @@ Proof development: another AI agent.
 Record kind: substantive research and complete proof under the separate normal-domain investigation, principally the polynomial-domain question.
 Registered as ordinary Claim Yin_C_F0042 after [independent complete review](../audits/reviews/Yin_R_F0072_v1.md#5-geometric-and-goal-boundaries); no mathematical Role is assigned.
 Provenance: project deduction using the inputs below, with no novelty assertion.
-The new approximation source is indexed as [GW25-U001](../audits/literature/GW25/Yin_U001_v1.md#gw25-u001).
+The new approximation source is indexed as [GW25-U001](../audits/literature/GW25/Yin_U001.md#gw25-u001).
 The previous [Yin_C_F0041 spectral-graph proof](Yin_C_F0041_v1.md#yin_c_f0041) is preserved.
 
 <a id="yin_c_f0042"></a>
@@ -52,7 +52,7 @@ M\subseteq\operatorname{Dom}\overline{D_{i0}}
 Consequently the full Yin_C_F0024 affiliated-fraction criterion and the equivalence with bounded finite-rank representatives of Yin_C_F0025's polynomial weak forms apply, with the original unstarred A_X.
 No claim that S_j belongs to that rational algebra is made.
 
-The local reuse search covered Yin_C_F0025, Yin_C_F0027, Yin_C_F0040, Yin_C_F0041, [Yin_C_F0039's analytic-arc multiplier construction](Yin_C_F0039_v1.md#analytic-arc-application), [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002), and [Tre17-U001](../audits/literature/Tre17/Yin_U001_v1.md#tre17-u001).
+The local reuse search covered Yin_C_F0025, Yin_C_F0027, Yin_C_F0040, Yin_C_F0041, [Yin_C_F0039's analytic-arc multiplier construction](Yin_C_F0039_v1.md#analytic-arc-application), [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002), and [Tre17-U001](../audits/literature/Tre17/Yin_U001.md#tre17-u001).
 Yin_C_F0039 had a larger domain premise, and Yin_C_F0041 used the special inclusion P_S contained in P_X.
 Neither supplied the missing graph-domain approximation for a general analytic arc.
 The new step below supplies it before reusing their estimates.

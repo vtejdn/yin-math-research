@@ -138,7 +138,7 @@ S=\begin{pmatrix}0&D^*\\D&0\end{pmatrix},
 \qquad C_j=[S,Z_j]
 =\begin{pmatrix}0&-B_{ij}^*\\\delta_{ij}P&0\end{pmatrix}.
 \]
-The bounded-regularization calculation reconstructed in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) gives, with $R_t=(1+tS^2)^{-1}$,
+The bounded-regularization calculation reconstructed in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) gives, with $R_t=(1+tS^2)^{-1}$,
 \[
 [SR_t,Z_j]=R_tC_jR_t-tSR_tC_jSR_t.
 \]
@@ -153,8 +153,8 @@ If finite-rank operators $Q_k$ satisfy $\sum_k[Q_k,X_k]=0$, ordinary bounded tra
 \]
 Strong convergence suffices for the finite-rank trace pairings, and its limit is $-\operatorname{Tr}(Q_iVPW)=0$.
 The independent dense commutant-vector tests imply $Q_i=0$.
-The finite-rank-cycle characterization in [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) therefore proves $\Delta(X)=d$.
-The accepted [MSY23 free-field interface](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) identifies $F$ with the embedded free skew field.
+The finite-rank-cycle characterization in [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) therefore proves $\Delta(X)=d$.
+The accepted [MSY23 free-field interface](../audits/literature/MSY23/Yin_U004.md#msy23-u004) identifies $F$ with the embedded free skew field.
 In particular every $X_j-c$, $c\in\mathbb C$, is injective, because the nonzero formal element $x_j-c$ is a unit of that field.
 Normality therefore makes the spectral distribution $\mu_j$ of $X_j$ nonatomic.
 
@@ -219,7 +219,7 @@ It makes $\mathcal A\subseteq\operatorname{Dom}D_{i,0}^*$ explicit.
 Thus, for the normal tuples in this theorem, the compact-commutator operator hypotheses used here are equivalent, up to the harmless normalization (5), to the small-core derivation hypotheses of the source.
 No affiliation of $D_i$ with $M$ is asserted.
 
-The exact source and the additional domain-safe regularization proof are recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001), published pp. 34--36.
+The exact source and the additional domain-safe regularization proof are recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001), published pp. 34--36.
 The source derivation formulation independently recovers the maximal-Delta conclusion already established above from bounded commutators.
 This argument does not use the all-$M$ domain theorem Yin_C_F0024 to establish maximal Delta.
 
@@ -393,7 +393,7 @@ Testing the first variable only on $\mathcal A$ therefore does not automatically
 
 For bounded selfadjoint generators with $L^2$ conjugate variables, the normalized polynomial duals satisfy (1), and their adjoint-generator commutators are already $\delta_{ij}P$.
 Consequently (4) applies directly on their polynomial core.
-The additional all-$M$ domain estimates in [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) recover the full equivalence and domain interpretations of [Yin_C_F0022](Yin_C_F0022_v1.md#yin_c_f0022) for this standard case.
+The additional all-$M$ domain estimates in [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002) recover the full equivalence and domain interpretations of [Yin_C_F0022](Yin_C_F0022_v1.md#yin_c_f0022) for this standard case.
 This includes the finite-dimensional q-Gaussian tuples for $-1<q<1$ through their known finite-Fisher property.
 The present proof does not transfer those additional estimates to arbitrary normal tuples.
 
@@ -403,7 +403,7 @@ For free Haar generators the bounded terminal-deletion duals have $[D_i,U_j]=\de
 \]
 They therefore satisfy the small-core hypotheses, including the Hilbert--Schmidt adjoint commutators.
 Their complete bounded-dual criterion remains available from [Yin_C_F0013](Yin_C_F0013_v1.md#yin_c_f0013).
-The sign convention and group-word calculation are recorded in [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005).
+The sign convention and group-word calculation are recorded in [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
 
 ## 7. What Remains Outside This Statement
 

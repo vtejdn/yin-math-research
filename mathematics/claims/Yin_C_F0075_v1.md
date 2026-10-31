@@ -157,7 +157,7 @@ Both fraction operators have dense domain containing M Omega.
 Their adjoints contain M Omega: the tested adjoint expression is b* D* s*-t* D* a*, and analogously for the canonical system.
 Thus both are closable.
 
-Use the accepted finite-rank closure fact from [C_F0031, Part (1)](Yin_C_F0031_v1.md#statement), with the established source identified as [Kat95 Problem III.5.18](../audits/literature/Kat95/Yin_U001_v1.md#selected-citation-check): a densely defined closable finite-rank operator has a bounded finite-rank closure, of the same rank.
+Use the accepted finite-rank closure fact from [C_F0031, Part (1)](Yin_C_F0031_v1.md#statement), with the established source identified as [Kat95 Problem III.5.18](../audits/literature/Kat95/Yin_U001.md#selected-citation-check): a densely defined closable finite-rank operator has a bounded finite-rank closure, of the same rank.
 If either fraction operator has finite rank, call that closure T.
 Its restriction to the dense M Omega agrees with the other fraction operator there.
 Hence the closure of the other contains the graph of T.

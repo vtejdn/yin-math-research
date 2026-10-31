@@ -211,7 +211,7 @@ A comparison between normalized duals does not itself establish existence of a g
 The complete review and exact scope of the realification obstruction are linked in the [progress map](../ledger/Yin_L_F0017_v1.md#t_f0005-t_f0007-progress).
 
 Reviewed maximal-density continuation, 2026-09-16: [Yin_C_F0053](../claims/Yin_C_F0053_v1.md#maximal-density-cauchy-core-transfer), with [complete independent review](../audits/reviews/Yin_R_F0027_v1.md), replaces C_F0044's uniform linear growth by square-integrability of maximal linear density while retaining finite curvature.
-Positive weights applied to [TV06-U001](../audits/literature/TV06/Yin_U001_v1.md#tv06-u001) give the original core estimate, actual vacuum and both original scalar domains, followed by C_F0045's full original free-tuple criterion.
+Positive weights applied to [TV06-U001](../audits/literature/TV06/Yin_U001.md#tv06-u001) give the original core estimate, actual vacuum and both original scalar domains, followed by C_F0045's full original free-tuple criterion.
 A line-supported power-law example proves curvature alone insufficient but fails the vacuum condition, so it is not a Task counterexample.
 The earlier Tolsa-Verdera source exclusion below remains valid: its geometric premises have not been deduced from the bare vacuum, and polynomial pairing convergence alone does not justify uniform boundedness of Cauchy truncations.
 
@@ -259,7 +259,7 @@ This route retains its earlier polynomial-core questions and completed intermedi
 
 ## Mechanisms and Discriminating Steps
 
-The accepted [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) supplies maximal Delta, hence the embedded holomorphic free field, from its starred-core derivations and vacuum adjoints.
+The accepted [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) supplies maximal Delta, hence the embedded holomorphic free field, from its starred-core derivations and vacuum adjoints.
 Its actual hypothesis gives Hilbert-Schmidt adjoint-generator commutators, which is stronger than the merely bounded commutators sufficient for the Delta regularization argument.
 
 The selected reverse route is [Yin_C_F0025](../claims/Yin_C_F0025_v1.md#yin_c_f0025): use normality and diffuse spectral measures to upgrade compact adjoint-generator commutators to the forced Hilbert-Schmidt kernels, derive the fundamental identity on the starred core, and test bounded elements through weak commutator forms.

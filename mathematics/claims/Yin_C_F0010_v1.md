@@ -182,7 +182,7 @@ Let E:L2(0,1) to L2(R) be zero extension, and let the normalized Hilbert transfo
 \]
 
 The primary input is the L2 extension with Fourier multiplier -i sgn(xi), hence norm 1, in [Tao06, Proposition 1.2 and the following L2 discussion, pp. 3-4](https://www.math.ucla.edu/~tao/247a.1.06f/notes4.pdf).
-This is also part of the already accepted [Voi98-U002 Hilbert-transform interface](../audits/literature/Voi98/Yin_U002_v1.md#voi98-u002).
+This is also part of the already accepted [Voi98-U002 Hilbert-transform interface](../audits/literature/Voi98/Yin_U002.md#voi98-u002).
 Set
 
 \[
@@ -231,7 +231,7 @@ h=(1-2U)^{-1}=-\sum_{m\ge1}2^{-m}U^{-m}
 
 satisfies tau(h)=0 and Dh=0, and every further iterate of D on h is zero.
 Nevertheless h is nonconstant.
-The series converges in operator norm, and the dual deletes only positive terminal letters, so the assertion follows termwise by boundedness of D; the exact Haar dual convention is checked in [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005).
+The series converges in operator norm, and the dual deletes only positive terminal letters, so the assertion follows termwise by boundedness of D; the exact Haar dual convention is checked in [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
 This concerns D acting on a state vector; it is not a statement that the commutator [D,h] vanishes.
 Bounded probes such as a=U recover nonzero tau(ha), which explains the role of varying a in (2).
 

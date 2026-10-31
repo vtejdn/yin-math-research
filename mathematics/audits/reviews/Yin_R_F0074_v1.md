@@ -55,14 +55,14 @@ The proof retains the actual compact starred-polynomial-core hypotheses of [Yin_
 It does not replace compactness by mere boundedness.
 Yin_C_F0025 supplies closability of the originally given operator, the actual polynomial adjoint formula, the compact-to-Hilbert-Schmidt upgrade, the normal spectral phase and the coarse derivation after normalization.
 
-The reviewer reread the relevant complete reconstruction in [Yin_C_F0040](../../claims/Yin_C_F0040_v1.md#yin_c_f0040), the selfadjoint contraction and domain estimates in [Dab10-U002](../literature/Dab10/Yin_U002_v1.md#dab10-u002), and the two-estimate weak-graph argument in [Yin_C_F0027](../../claims/Yin_C_F0027_v1.md#yin_c_f0027).
+The reviewer reread the relevant complete reconstruction in [Yin_C_F0040](../../claims/Yin_C_F0040_v1.md#yin_c_f0040), the selfadjoint contraction and domain estimates in [Dab10-U002](../literature/Dab10/Yin_U002.md#dab10-u002), and the two-estimate weak-graph argument in [Yin_C_F0027](../../claims/Yin_C_F0027_v1.md#yin_c_f0027).
 Their established foundational inputs remain accepted at their previously recorded scope.
 The present proof is not a new audit of the whole Dabrowski article or of the free-field foundations.
 
 The additional approximation input was independently checked in [Trefethen, arXiv:1608.02216v1](https://arxiv.org/pdf/1608.02216), Lemma 5.1 on printed pp. 4-5 and the definition of its elliptic polycylinder.
 The exact statement gives geometric tensor Chebyshev coefficient decay after choosing smaller Bernstein ellipses.
 The input applies to a function holomorphic near a compact real square; it does not require Assumption A of the paper's separate main theorem.
-The source's contour-integral foundation is retained at the inspection depth of [Tre17-U001](../literature/Tre17/Yin_U001_v1.md#tre17-u001), rather than claimed newly proved here.
+The source's contour-integral foundation is retained at the inspection depth of [Tre17-U001](../literature/Tre17/Yin_U001.md#tre17-u001), rather than claimed newly proved here.
 
 ## 2. Restriction of the Algebra and of the Adjoints
 

@@ -20,8 +20,8 @@ This is a bounded weak-form criterion for the displayed classes, not the full ar
 Exact original hypotheses: [C_F0025_v1](Yin_C_F0025_v1.md#yin_c_f0025).
 The included arguments use the complete original graph module and affine state theorem in [the permanent affine proof](Yin_C_F0059_v1.md#kernel-affine-original-l2-states).
 Scalar soft inversion is reproduced in Appendix A.
-Its C1 polynomial approximation uses the previously accepted [VV16-U001 interface](../audits/literature/VV16/Yin_U001_v1.md).
-The scalar polynomial gcd/Bezout step reuses the Hun74 III.3.9/III.3.11 interface recorded in [Hun74-U006](../audits/literature/Hun74/Yin_U006_v1.md#exact-retained-statement-and-proof-inspection-depth).
+Its C1 polynomial approximation uses the previously accepted [VV16-U001 interface](../audits/literature/VV16/Yin_U001.md).
+The scalar polynomial gcd/Bezout step reuses the Hun74 III.3.9/III.3.11 interface recorded in [Hun74-U006](../audits/literature/Hun74/Yin_U006.md#exact-retained-statement-and-proof-inspection-depth).
 These are proof inputs at their recorded scopes, not new source audits.
 
 The main theorem covers every unstarred polynomial numerator Q in a bounded P(X_k)^(-1)Q.
@@ -385,8 +385,8 @@ The proof derives reduced inverse L2 integrability by starred probes, suffix des
 | argument | [Exact material](#scalar-denominator-original-weak-criterion) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Original canonical coarse derivations, actual vacuum, inner phase, faithful unstarred free algebra and normalization interface. |
 | dependency | [Exact material](Yin_C_F0059_v1.md#decision-candidate-0002) | Original kernel algebra graph module in the main proof and automatic L2 left/right states in Appendix B. |
-| dependency | [Exact material](../audits/literature/Hun74/Yin_U006_v1.md#hun74-u006) | Accepted scalar polynomial PID, gcd cancellation and Bezout interface only. |
-| dependency | [Exact source input](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001) | Existing C1 rectangle polynomial approximation used by Appendix A in the original scalar graph; no new source audit. |
+| dependency | [Exact material](../audits/literature/Hun74/Yin_U006.md#hun74-u006) | Accepted scalar polynomial PID, gcd cancellation and Bezout interface only. |
+| dependency | [Exact source input](../audits/literature/VV16/Yin_U001.md#vv16-u001) | Existing C1 rectangle polynomial approximation used by Appendix A in the original scalar graph; no new source audit. |
 | review | [Original finding](../audits/reviews/Yin_R_F0079_v1.md#retained-r101-scope-and-verdict) | Unknown initial context; main Sections 1–5 and Appendix A only, including arbitrary numerators, suffix probes, Bezout, original soft-inverse graphs and d=1. |
 | review | [Original finding](../audits/reviews/Yin_R_F0079_v1.md#retained-r102-verdict-and-achieved-conclusion) | Unknown initial context; separate Appendix B two-sided singular scalar denominators, actual bounded output approximants, residuals and original graphs. |
 
@@ -405,8 +405,8 @@ The proof derives reduced inverse L2 integrability by starred probes, suffix des
 | argument | [Exact material](#scalar-denominator-original-weak-criterion) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Original canonical coarse derivations, actual vacuum, inner phase, faithful unstarred free algebra and normalization interface. |
 | dependency | [Exact material](Yin_C_F0059_v1.md#decision-candidate-0002) | Original kernel algebra graph module in the main proof and automatic L2 left/right states in Appendix B. |
-| dependency | [Exact material](../audits/literature/Hun74/Yin_U006_v1.md#hun74-u006) | Accepted scalar polynomial PID, gcd cancellation and Bezout interface only. |
-| dependency | [Exact source input](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001) | Existing C1 rectangle polynomial approximation used by Appendix A in the original scalar graph; no new source audit. |
+| dependency | [Exact material](../audits/literature/Hun74/Yin_U006.md#hun74-u006) | Accepted scalar polynomial PID, gcd cancellation and Bezout interface only. |
+| dependency | [Exact source input](../audits/literature/VV16/Yin_U001.md#vv16-u001) | Existing C1 rectangle polynomial approximation used by Appendix A in the original scalar graph; no new source audit. |
 | review | [Fresh whole-proof finding](../audits/reviews/Yin_R_F0079_v1.md#fresh-c102-whole) | Independently reviewed. Whole main Sections 1-5 and complete Appendices A-B, original weak forms and exact input/source boundaries. |
 
 ## Historical assessments
@@ -431,7 +431,7 @@ Recorded review label: independently reviewed.
 | argument | [Exact material](#scalar-denominator-original-weak-criterion) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Original canonical coarse derivations, actual vacuum, inner phase, faithful unstarred free algebra and normalization interface. |
 | dependency | [Exact material](Yin_C_F0059_v1.md#decision-candidate-0002) | Original kernel algebra graph module in the main proof and automatic L2 left/right states in Appendix B. |
-| dependency | [Exact material](../audits/literature/Hun74/Yin_U006_v1.md#hun74-u006) | Accepted scalar polynomial PID, gcd cancellation and Bezout interface only. |
+| dependency | [Exact material](../audits/literature/Hun74/Yin_U006.md#hun74-u006) | Accepted scalar polynomial PID, gcd cancellation and Bezout interface only. |
 | review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r101) | Main theorem Sections 1-5 and Appendix A independently checked by another AI agent; Appendix B separately checked by another AI agent in the attached scoped review. Covers arbitrary unstarred polynomial numerators, actual starred probes, descending suffix coefficients, scalar Bezout, soft inverse original graphs, all original weak forms and two-sided scalar sandwiches. General mixed denominators and the full unbounded task remain open. |
 
 Recorded mathematical summary: Every bounded quotient P(Xk)^(-1)Q(X), with scalar polynomial P and arbitrary unstarred polynomial Q, has bounded finite-rank representatives of every original weak commutator.
@@ -441,7 +441,7 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r102); [Exact material](../audits/literature/VV16/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r102); [Exact material](../audits/literature/VV16/Yin_U001.md).
 
 Main theorem Sections 1-5 and Appendix A independently checked by another AI agent; Appendix B separately checked by another AI agent in the attached scoped review.
 Covers arbitrary unstarred polynomial numerators, actual starred probes, descending suffix coefficients, scalar Bezout, soft inverse original graphs, all original weak forms and two-sided scalar sandwiches.
@@ -449,4 +449,4 @@ General mixed denominators and the full unbounded task remain open.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r101).
 
-Material covered by that review: [Exact material](../audits/literature/VV16/Yin_U001_v1.md); [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r102); [Exact material](Yin_C_F0060_v1.md).
+Material covered by that review: [Exact material](../audits/literature/VV16/Yin_U001.md); [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r102); [Exact material](Yin_C_F0060_v1.md).

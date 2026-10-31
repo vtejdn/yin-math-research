@@ -58,7 +58,7 @@ It does not yet remove it for arbitrary dense left-module domains or for general
 
 ### Dependencies and Source Interface
 
-The L1 norm identity and completeness are [AP18 Theorem 7.4.5](../audits/literature/AP18/Yin_U003_v1.md#l1-predual-interface).
+The L1 norm identity and completeness are [AP18 Theorem 7.4.5](../audits/literature/AP18/Yin_U003.md#l1-predual-interface).
 Standard affiliated spectral calculus gives (45.4).
 The polynomial vacuum formula follows from the generator product rule already checked in [Yin_C_F0002](Yin_C_F0002_v1.md#yin_c_f0002); the proof below spells out the needed tracial and star identities, without requiring a separately assumed well-defined difference quotient on a quotient algebra.
 Kaplansky density applies because the tuple is selfadjoint and generates \(\mathcal M\).

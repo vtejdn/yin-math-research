@@ -58,7 +58,7 @@ The result applies, for example, to the canonical all-\(|q|<1\) q-Gaussian tuple
 ### Dependencies and Difference from Known Inputs
 
 The proof reuses the Banach-Liouville mechanism of Yin_C_F0033, but applies it to the orbit map of an arbitrary vector \(z\in\mathcal E\), which need not be bounded or a vacuum vector.
-The passage from commutation with all bounded left multipliers to affiliation is exactly [AP18 Definition 7.2.2](../audits/literature/AP18/Yin_U003_v1.md#affiliation-interface).
+The passage from commutation with all bounded left multipliers to affiliation is exactly [AP18 Definition 7.2.2](../audits/literature/AP18/Yin_U003.md#affiliation-interface).
 Closed graph, scalar Liouville, Kaplansky density and bounded perturbation of a closed operator are the standard analytic inputs already used in Yin_C_F0032/Yin_C_F0033.
 The resulting criterion can invoke Yin_C_F0029 directly; alternatively (37.3) reduces its finite-rank equivalence to [Yin_C_F0013](Yin_C_F0013_v1.md#yin_c_f0013).
 

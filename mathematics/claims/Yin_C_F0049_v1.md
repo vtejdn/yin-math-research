@@ -78,7 +78,7 @@ In particular
 \]
 
 The local reuse check read Yin_C_F0048, its [independent audit](../audits/reviews/Yin_R_F0022_v1.md), [Yin_C_F0047](Yin_C_F0047_v1.md#yin_c_f0047), and the distributional boundary in [Yin_C_F0044](Yin_C_F0044_v1.md#yin_c_f0044).
-The C1 approximation used for smooth cutoffs is precisely [VV16-U001](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001), already imported at statement and applicability inspection depth.
+The C1 approximation used for smooth cutoffs is precisely [VV16-U001](../audits/literature/VV16/Yin_U001.md#vv16-u001), already imported at statement and applicability inspection depth.
 The source searches for Cauchy truncations and positivity in these existing records were checked; no additional external theorem or broad search is needed.
 This proof invokes only the measurable sufficient direction of Yin_C_F0048 on a fixed annulus, where its radial hypothesis is independently automatic.
 It does not invoke the converse being proved.

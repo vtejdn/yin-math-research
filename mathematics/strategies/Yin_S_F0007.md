@@ -62,7 +62,7 @@ A result for one property is not automatically a result for the other.
 
 - [Yin_C_F0015](../claims/Yin_C_F0015_v1.md#yin_c_f0015), at its current material decision, isolates the scalar analytic step: finite residual/Hankel structure and a subexponential homogeneous norm estimate imply boundedness.
   Its hypotheses must be derived from the candidate model, not asserted as a definition of regularity.
-- [Miy26-U002](../audits/literature/Miy26/Yin_U002_v1.md#miy26-u002) and the exact free Haar variant in Miy26-U003 are established positive models.
+- [Miy26-U002](../audits/literature/Miy26/Yin_U002.md#miy26-u002) and the exact free Haar variant in Miy26-U003 are established positive models.
   Their coefficient, regularization and bounded-intersection inputs remain separate.
 - [Yin_C_F0016](../claims/Yin_C_F0016_v1.md#yin_c_f0016), at its current material decision, tests finite free Fisher information against the existing examples.
   In the selfadjoint bounded-dual setting, L2 conjugate variables already exist.
@@ -70,7 +70,7 @@ A result for one property is not automatically a result for the other.
   Its beta-law example also excludes bounded Lipschitz conjugates alone as a sufficient condition for rational L2 boundedness; it does not exclude bounded scalar reconstruction under that stronger hypothesis.
 - Yin_C_F0007's finite-dimensional rational derivative factors in $L^2(M)$ are not automatically finite-dimensional coefficient residuals in an orthogonal basis.
   Finite-dimensional state realizations in the free field also do not imply square integrability of every inverse entry.
-- [Miy22-U005, Lemma 3.8](../audits/literature/Miy22/Yin_U005_v1.md#miy22-u005) supplies scalar elimination for a norm-decaying geometric matrix inverse without adjoint closure.
+- [Miy22-U005, Lemma 3.8](../audits/literature/Miy22/Yin_U005.md#miy22-u005) supplies scalar elimination for a norm-decaying geometric matrix inverse without adjoint closure.
   [Yin_C_F0008](../claims/Yin_C_F0008_v1.md#yin_c_f0008) is a different elimination input for arbitrary bounded matrix inverses under its adjoint-closure hypothesis.
 
 ## Structural Questions and Discriminating Tests
@@ -101,7 +101,7 @@ The shared question is whether analytic regularity supplies finite-dimensional c
    Finite Fisher information alone is excluded for both targets; bounded Lipschitz conjugates alone are excluded for the L2 target.
    Do not repeat these universal routes without a changed hypothesis.
 2. Use finite-Hankel/linear-system equivalences to replace the residual hypothesis by a structural statement that can be checked in a concrete model.
-   Compare with the existing [JMS21 Gramian interface](../audits/literature/JMS21/Yin_U001_v1.md#jms21-u001) and the audited recognizable-series inputs.
+   Compare with the existing [JMS21 Gramian interface](../audits/literature/JMS21/Yin_U001.md#jms21-u001) and the audited recognizable-series inputs.
 3. Select a candidate model only after both its residual operation and a matching norm estimate have credible exact source or derivation support.
    A known Haagerup estimate by itself is insufficient.
 4. For the second target, additionally construct a fully bounded inverse representation or another valid scalar reconstruction.

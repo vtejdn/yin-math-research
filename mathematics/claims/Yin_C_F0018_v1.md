@@ -224,7 +224,7 @@ Theorem 4.2, p. 29, also supplies an analytic inverse after further smallness.
 These are accepted statement-level inputs; their original complete proofs are not re-audited here.
 [Primary preprint](https://arxiv.org/pdf/1204.2182).
 
-The exact source hypotheses, accepted-input decision and reading boundary are indexed in [GS14-U001](../audits/literature/GS14/Yin_U001_v1.md#gs14-u001).
+The exact source hypotheses, accepted-input decision and reading boundary are indexed in [GS14-U001](../audits/literature/GS14/Yin_U001.md#gs14-u001).
 That unit records the source input; the projective correction and its application remain the local deduction proved here.
 
 Our deduction is explicit: since $\|S_i\|=2$, choose $R=A'$ and $r=2$ in (11).

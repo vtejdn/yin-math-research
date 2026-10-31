@@ -75,7 +75,7 @@ Put
  M=W^*(S_1,S_2).
 \]
 The standard tracial Fock identification gives a faithful normal vacuum trace on \(M\), identifies \(\mathcal H=L^2(M,\tau)\), and makes \(S_1,S_2\) a variance-one free semicircular pair.
-This foundational model and normalization are the inspected [Miy22-U001](../audits/literature/Miy22/Yin_U001_v1.md#miy22-u001).
+This foundational model and normalization are the inspected [Miy22-U001](../audits/literature/Miy22/Yin_U001.md#miy22-u001).
 No statement about Brown measure is required.
 
 On the word basis, right deletion commutes with left deletion, while its commutator with left creation is nonzero only on the vacuum.
@@ -109,7 +109,7 @@ Use the unitary coarse-tensor realization
  \Theta(g\otimes h)=gP_\Omega h\quad(g,h\in M).
                                                                \tag{9}
 \]
-Its tracial convention is the inspected [Voi98-U005 Hilbert-Schmidt realization](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005).
+Its tracial convention is the inspected [Voi98-U005 Hilbert-Schmidt realization](../audits/literature/Voi98/Yin_U005.md#voi98-u005).
 It respects the outer bimodule actions.
 
 For every \(p\in A\), expansion of the commutator using (6) gives a finite sum of operators \(gP_\Omega h\) with \(g,h\in A\).
@@ -154,7 +154,7 @@ the representing vector is in \(H\), so the actual Hilbert adjoint satisfies
 In bilinear tracial notation this says \((\tau\otimes\tau)\delta(p)=\tau(c^*p)\).
 The actual adjoint vector is \(c\), not \(c^*\).
 
-Equations (11) and (13) verify the complete starred-algebra hypothesis of ACSY24 Proposition 3.5, with its exact interface recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+Equations (11) and (13) verify the complete starred-algebra hypothesis of ACSY24 Proposition 3.5, with its exact interface recorded in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 
 Equation (12) identifies the canonical contraction \(E_0\) with \(E|_{A\Omega}\).
 Since this is the restriction of a bounded operator to a dense domain, its Hilbert closure is exactly \(E\) on all \(H\).
@@ -242,9 +242,9 @@ Recorded review label: self-reviewed.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Complete ACSY premise, bounded canonical dual, nonrational bounded witness, vanishing for every fraction pair and explicit boundary failure. |
 | argument | [Argument](#argument) | Full Fock construction, represented derivation, actual vacuum, affiliated centralizer and all-fraction calculation. |
-| dependency | [Miy22-U001](../audits/literature/Miy22/Yin_U001_v1.md#miy22-u001) | Standard variance-one tracial Fock model, word actions and the affiliated-algebra convention. |
-| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) | Tracial Hilbert-Schmidt realization of the coarse tensor; the derivative and all commutators are reconstructed directly. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Exact full starred derivation and actual vacuum hypothesis of Proposition 3.5, verified explicitly here. |
+| dependency | [Miy22-U001](../audits/literature/Miy22/Yin_U001.md#miy22-u001) | Standard variance-one tracial Fock model, word actions and the affiliated-algebra convention. |
+| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | Tracial Hilbert-Schmidt realization of the coarse tensor; the derivative and all commutators are reconstructed directly. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Exact full starred derivation and actual vacuum hypothesis of Proposition 3.5, verified explicitly here. |
 
 ### Decision reviewed
 
@@ -260,9 +260,9 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Complete ACSY premise, bounded canonical dual, nonrational bounded witness, vanishing for every fraction pair and explicit boundary failure. |
 | argument | [Argument](#argument) | Full Fock construction, represented derivation, actual vacuum, affiliated centralizer and all-fraction calculation. |
-| dependency | [Miy22-U001](../audits/literature/Miy22/Yin_U001_v1.md#miy22-u001) | Standard variance-one tracial Fock model, word actions and the affiliated-algebra convention. |
-| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) | Tracial Hilbert-Schmidt realization of the coarse tensor; the derivative and all commutators are reconstructed directly. |
-| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Exact full starred derivation and actual vacuum hypothesis of Proposition 3.5, verified explicitly here. |
+| dependency | [Miy22-U001](../audits/literature/Miy22/Yin_U001.md#miy22-u001) | Standard variance-one tracial Fock model, word actions and the affiliated-algebra convention. |
+| dependency | [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | Tracial Hilbert-Schmidt realization of the coarse tensor; the derivative and all commutators are reconstructed directly. |
+| dependency | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Exact full starred derivation and actual vacuum hypothesis of Proposition 3.5, verified explicitly here. |
 | review | [Independent complete review](../audits/reviews/Yin_R_F0047_v1.md#conclusion) | Entire fixed statement and proof, all three source interfaces, actual canonical domains and every-fraction quantifier. |
 
 
@@ -278,7 +278,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Complete ACSY premise, bounded canonical dual, nonrational bounded witness, vanishing for every fraction pair and explicit boundary failure. |
 | argument | [Exact material](#argument) | Full Fock construction, represented derivation, actual vacuum, affiliated centralizer and all-fraction calculation. |
-| dependency | [Exact material](../audits/literature/Miy22/Yin_U001_v1.md#miy22-u001) | Standard variance-one tracial Fock model, word actions and the affiliated-algebra convention. |
-| dependency | [Exact material](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) | Tracial Hilbert-Schmidt realization of the coarse tensor; the derivative and all commutators are reconstructed directly. |
-| dependency | [Exact material](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Exact full starred derivation and actual vacuum hypothesis of Proposition 3.5, verified explicitly here. |
+| dependency | [Exact material](../audits/literature/Miy22/Yin_U001.md#miy22-u001) | Standard variance-one tracial Fock model, word actions and the affiliated-algebra convention. |
+| dependency | [Exact material](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | Tracial Hilbert-Schmidt realization of the coarse tensor; the derivative and all commutators are reconstructed directly. |
+| dependency | [Exact material](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Exact full starred derivation and actual vacuum hypothesis of Proposition 3.5, verified explicitly here. |
 | review | [Original finding](../audits/reviews/Yin_R_F0047_v1.md#conclusion) | Whole four-section circular counterexample: represented starred derivation, actual vacuum, specified bounded canonical closure, affiliated centralizer exclusion, every-fraction rank zero and nonzero boundary; initial construction/context relationship unknown. |

@@ -202,12 +202,12 @@ It does not yet show joint conjugate variables for a noncommuting tuple.
 
 ## Source relationship and unresolved scope
 
-The accepted published inputs are [Lau88, Proposition 3.7 and Theorem 4.1](https://dml.cz/bitstream/handle/10338.dmlcz/102208/CzechMathJ_38-1988-1_11.pdf), at the exact scope of [Lau88-U001](../audits/literature/Lau88/Yin_U001_v1.md#lau88-u001).
+The accepted published inputs are [Lau88, Proposition 3.7 and Theorem 4.1](https://dml.cz/bitstream/handle/10338.dmlcz/102208/CzechMathJ_38-1988-1_11.pdf), at the exact scope of [Lau88-U001](../audits/literature/Lau88/Yin_U001.md#lau88-u001).
 The local argument proves each additional premise: diffuseness, decomposability, the triangular smooth calculus, absence of divisible subspaces, and absence of eigenvalues.
 The original precursor proof chain of the published automatic-continuity theorem is not re-audited.
 Standard spectral calculus, the HS tensor identification, smooth partitions of unity and the Riesz representation theorem are used in their usual bounded-operator settings.
 
-The actual vacuum condition in B is the interface of [ACSY24, Theorem 3.4 and Proposition 3.5](../literature/pdf/ACSY24.pdf), checked in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+The actual vacuum condition in B is the interface of [ACSY24, Theorem 3.4 and Proposition 3.5](../literature/pdf/ACSY24.pdf), checked in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 B proves the required estimate directly; ACSY24 is not applied backwards.
 The Fourier average uses neither Hilbert-space closability nor a principal-value theorem.
 A bounded search of existing project materials and public dual-system/automatic-continuity literature located Lau88 for A; no exact published scalar converse was verified in that search.
@@ -234,8 +234,8 @@ Recorded review label: unreviewed.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Automatic normal-dual norm continuity and scalar selfadjoint converse, with the exact marginal corollary. |
 | argument | [Argument](#argument) | Complete triangular, divisible-subspace and Fourier-average proofs. |
-| dependency | [Lau88-U001](../audits/literature/Lau88/Yin_U001_v1.md#lau88-u001) | Accepted Proposition 3.7 and Theorem 4.1 with all local hypotheses checked. |
-| support | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Definition and actual adjoint interface only, not an inference of the converse. |
+| dependency | [Lau88-U001](../audits/literature/Lau88/Yin_U001.md#lau88-u001) | Accepted Proposition 3.7 and Theorem 4.1 with all local hypotheses checked. |
+| support | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Definition and actual adjoint interface only, not an inference of the converse. |
 
 ### Decision reviewed
 
@@ -249,7 +249,7 @@ Recorded review label: unreviewed.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Parts A and B, including arbitrary normal full-domain continuity and scalar or marginal selfadjoint vacuum. |
 | argument | [Argument](#argument) | Complete proof of both parts and the marginal compression, without an assumed Hilbert-space closability or adjoint domain. |
-| dependency | [Lau88-U001](../audits/literature/Lau88/Yin_U001_v1.md#lau88-u001) | Accepted Proposition 3.7 and Theorem 4.1, with every local hypothesis verified. |
-| support | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Exact actual vacuum-adjoint interface; no converse imported. |
+| dependency | [Lau88-U001](../audits/literature/Lau88/Yin_U001.md#lau88-u001) | Accepted Proposition 3.7 and Theorem 4.1, with every local hypothesis verified. |
+| support | [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Exact actual vacuum-adjoint interface; no converse imported. |
 | review | [Independent whole review](../audits/reviews/Yin_R_F0042_v1.md#conclusion) | Complete fixed statement, argument, source hypotheses and unresolved general-tuple boundary. |
 

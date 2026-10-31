@@ -88,7 +88,7 @@ These are different assertions: changing fractions can change the operator, whil
 ## Complete Definition of Bounded Scalar Rational Expressions
 
 Terminology clarification, 2026-09-09: this is exactly the standard division closure in $M$, described through admissible finite expressions.
-[Yin20 definition interface](../audits/literature/Yin20/Yin_U001_v2.md#general-definition-homes-and-primary-locators), Definition IV.5.5 and Remark IV.5.6(iv), printed p. 60 / PDF p. 70, gives the same recursive construction.
+[Yin20 definition interface](../audits/literature/Yin20/Yin_U001.md#general-definition-homes-and-primary-locators), Definition IV.5.5 and Remark IV.5.6(iv), printed p. 60 / PDF p. 70, gives the same recursive construction.
 "Bounded scalar rational expressions" is explanatory wording, not a distinct class.
 Prefer "division closure in $M$" when naming the algebra.
 
@@ -157,7 +157,7 @@ Yin_C_F0012's separate norm-exclusion argument proves that no alternative bounde
 ## How Yin_C_F0013 Avoids the Bounded Rationality Intermediate
 
 Let $\mathscr D$ be the class of affiliated elements with finite bounded denominator defects, and let $F=\operatorname{Div}_{U(M)}A_X$.
-The [Miy22-U007 reconstruction](../audits/literature/Miy22/Yin_U007_v1.md#miy22-u007) identifies the source's bounded intermediate precisely:
+The [Miy22-U007 reconstruction](../audits/literature/Miy22/Yin_U007.md#miy22-u007) identifies the source's bounded intermediate precisely:
 
 \[
 u\in\mathscr D

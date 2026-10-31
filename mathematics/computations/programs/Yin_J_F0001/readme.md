@@ -3,13 +3,13 @@ author: Yin
 ---
 # dr97-tree-commutator
 
-Context: [DR97 source units](../../../audits/literature/DR97/readme.md); [DR97-U002](../../../audits/literature/DR97/Yin_U002_v1.md#dr97-u002).
+Context: [DR97 source units](../../../audits/literature/DR97/readme.md); [DR97-U002](../../../audits/literature/DR97/Yin_U002.md#dr97-u002).
 
 ## Question and scope
 
 Finite free-group endpoint/suffix and auxiliary scalar-column comparisons; preserve the explicitly weaker scalar-column evidence and absence of rationality/convergence certification.
 
-Target: [DR97-U002](../../../audits/literature/DR97/Yin_U002_v1.md#dr97-u002), the edge cancellation identity in DR97 Proposition 5, pp. 617–618, and the auxiliary scalar column on p. 617.
+Target: [DR97-U002](../../../audits/literature/DR97/Yin_U002.md#dr97-u002), the edge cancellation identity in DR97 Proposition 5, pp. 617–618, and the auxiliary scalar column on p. 617.
 
 ### Scope and Mathematical Reduction
 

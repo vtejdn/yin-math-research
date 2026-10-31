@@ -51,8 +51,8 @@ The obstruction is the supplied nonclosed domain, not the absence of those extra
 The [prior C_F0026 artifact](Yin_C_F0026_v1.md#yin_c_f0026) was inspected.
 Its missing-vacuum obstruction does not compute the required dense natural domains and has a noncompact starred commutator.
 The present argument addresses these different quantifiers directly.
-The local Voi98-U005 source audit ([source audit](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005), subsection "Semicircular model and sign correction: 5.13") supplies established semicircular dual-model context.
-Voi98-U003 ([source audit](../audits/literature/Voi98/Yin_U003_v1.md#voi98-u003), Proposition 3.8 subsection) records the monic orthonormal recurrence and `P_n=U_n(X/2)` normalization.
+The local Voi98-U005 source audit ([source audit](../audits/literature/Voi98/Yin_U005.md#voi98-u005), subsection "Semicircular model and sign correction: 5.13") supplies established semicircular dual-model context.
+Voi98-U003 ([source audit](../audits/literature/Voi98/Yin_U003.md#voi98-u003), Proposition 3.8 subsection) records the monic orthonormal recurrence and `P_n=U_n(X/2)` normalization.
 These are attribution and convention checks: all concrete model, normalization, dual, denominator and domain assertions used below are explicitly verified here.
 No conclusion of C_F0063, C_F0064, C_F0034, or C_F0026 is used as a mathematical premise.
 The method index and current S_F0011 were consulted; no existing domain-compatibility theorem covers this example.
@@ -682,10 +682,10 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/Voi98/Yin_U005_v1.md); [Exact material](../audits/literature/Voi98/Yin_U003_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/Voi98/Yin_U005.md); [Exact material](../audits/literature/Voi98/Yin_U003.md).
 
 Whole two-model proof and both exact natural-domain comparisons, closed graph extension and actual adjoint, all hypotheses, source attribution, unchanged-contract negative scope and explicitly undecided stronger branches.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r107).
 
-Material covered by that review: [Exact material](../audits/literature/Voi98/Yin_U005_v1.md); [Exact material](../audits/literature/Voi98/Yin_U003_v1.md); [Exact material](Yin_C_F0065_v1.md).
+Material covered by that review: [Exact material](../audits/literature/Voi98/Yin_U005.md); [Exact material](../audits/literature/Voi98/Yin_U003.md); [Exact material](Yin_C_F0065_v1.md).

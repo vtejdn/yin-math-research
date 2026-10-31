@@ -49,7 +49,7 @@ Hence this review supplies progress on Yin_T_F0001 and the first interface in Yi
 - Internal mathematical review: complete independent reading and direct recalculation of all obligations above.
   Another AI agent separately reviewed Statement 6, estimate (G), and the Haar example and reported the same conclusion; its report was available to the reviewer after the reviewer's own calculation.
 - Source inspection: this reviewer did not reopen the original Voi98 or Shl24 sources.
-  Separate primary-source inspection by another AI agent is documented through [Voi98-U005](../literature/Voi98/Yin_U005_v1.md#voi98-u005) and [Shl24-U001](../literature/Shl24/Yin_U001_v1.md#shl24-u001).
+  Separate primary-source inspection by another AI agent is documented through [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005) and [Shl24-U001](../literature/Shl24/Yin_U001.md#shl24-u001).
   Conditional on the stated source convention `[X_j,Y_i]=i delta_ij P`, the normalization `D_i=iY_i` and the conversion of inner-product conventions were independently checked here.
   The broader bounded-generator theorem rests on the written proof, not on attributing that scope to those sources.
 - Artifact checks: the inspected proof was read as UTF-8.

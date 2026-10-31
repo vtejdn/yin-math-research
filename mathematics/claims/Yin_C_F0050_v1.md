@@ -144,9 +144,9 @@ The needed inputs have already been checked in the repository:
    The global comparison constant enters its later necessity argument, which is not invoked here.
 4. [C_F0048, measurable sufficient direction](Yin_C_F0048_v1.md), together with [C_F0047](Yin_C_F0047_v1.md), supplies the bounded annular operator.
    Its radial midpoint condition is automatic on a fixed annulus bounded away from zero.
-5. The exact complex little Grothendieck inequality used in C_F0045, with squared constant `k_C=4/pi`, is already source-checked at [Pis12-U001](../audits/literature/Pis12/Yin_U001_v1.md#pis12-u001).
+5. The exact complex little Grothendieck inequality used in C_F0045, with squared constant `k_C=4/pi`, is already source-checked at [Pis12-U001](../audits/literature/Pis12/Yin_U001.md#pis12-u001).
    It applies to a bounded map from a commutative continuous-function algebra to a Hilbert space; it requires neither normality nor complete boundedness of that map.
-6. Real C1 polynomial approximation, already source-checked as [VV16-U001](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001), is used only to put smooth cutoffs times polynomials in the actual original graphs.
+6. Real C1 polynomial approximation, already source-checked as [VV16-U001](../audits/literature/VV16/Yin_U001.md#vv16-u001), is used only to put smooth cutoffs times polynomials in the actual original graphs.
 7. C_F0029 is used at its stated dense-left-module scope, including its explicit distinction between closures of restrictions and larger closed extensions.
 
 The relevant complete reviews of [C_F0045](../audits/reviews/Yin_R_F0023_v1.md) and [C_F0049](../audits/reviews/Yin_R_F0024_v1.md) were also read.

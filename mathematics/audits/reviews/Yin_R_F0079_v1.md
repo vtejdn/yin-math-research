@@ -35,7 +35,7 @@ The wording in the retained [supplied-domain counterexample finding](#retained-r
 Review timestamp: 2026-10-23T01:27 UTC.
 Relationship: independently reviewed.
 Exact fixed statement and argument: [C_F0060_v1](../../claims/Yin_C_F0060_v1.md#scalar-denominator-original-weak-criterion), including all of its main proof and both appendices.
-The adopted upstream interfaces are [C_F0025_v1](../../claims/Yin_C_F0025_v1.md#yin_c_f0025), [C_F0059_v1](../../claims/Yin_C_F0059_v1.md#kernel-affine-original-l2-states), the [accepted scalar polynomial PID, gcd cancellation and Bezout interface](../literature/Hun74/Yin_U006_v1.md#exact-retained-statement-and-proof-inspection-depth), and [VV16-U001](../literature/VV16/Yin_U001_v1.md#vv16-u001).
+The adopted upstream interfaces are [C_F0025_v1](../../claims/Yin_C_F0025_v1.md#yin_c_f0025), [C_F0059_v1](../../claims/Yin_C_F0059_v1.md#kernel-affine-original-l2-states), the [accepted scalar polynomial PID, gcd cancellation and Bezout interface](../literature/Hun74/Yin_U006.md#exact-retained-statement-and-proof-inspection-depth), and [VV16-U001](../literature/VV16/Yin_U001.md#vv16-u001).
 
 The unique maximal initial x_k-run decomposition is valid in the faithfully evaluated free polynomial algebra.
 The common scalar gcd is a left factor of every numerator term, so cancellation commutes with the scalar denominator without requiring the whole numerator to commute with it.
@@ -110,7 +110,7 @@ The extra properties must not be merged into one model or a refutation of canoni
 
 Voi98's actual published PDF was inspected at Proposition 3.6, Proposition 3.8 and Section 5.13 for the retained free-extension, monic orthonormal and semicircular dual conventions.
 The local backward-shift sign and variance-one normalization are proved directly, without treating the source's differently normalized selfadjoint dual as the same operator.
-The [Voi98-U003](../literature/Voi98/Yin_U003_v1.md#voi98-u003) and [Voi98-U005](../literature/Voi98/Yin_U005_v1.md#voi98-u005) attribution interfaces retain their other source-proof limits.
+The [Voi98-U003](../literature/Voi98/Yin_U003.md#voi98-u003) and [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005) attribution interfaces retain their other source-proof limits.
 The C_F0024 restriction/closure convention, C_F0026 missing-vacuum comparison and C_F0013 bounded-dual statement were checked at their relevant statement scopes after the initial target findings, not imported as counterexample premises.
 The exact singular integrability, closed graph, adjoint and natural-domain arguments are local; ordinary compact-interval approximation and Hilbert-space foundations remain accepted inputs.
 
@@ -543,7 +543,7 @@ No reviewer-supplied mathematical repair is recorded, and no main-theorem covera
   No future canonical version is presumed published by this review.
 - Route: Yin_S_F0011.
   Route history and construction notes are not proof inputs to this review.
-- Selected Claim attachments inspected: [Voi98-U005](../literature/Voi98/Yin_U005_v1.md#voi98-u005), especially Section 5.13 model/sign conventions; [Voi98-U003](../literature/Voi98/Yin_U003_v1.md#voi98-u003), especially Proposition 3.8 monic orthonormal recurrence.
+- Selected Claim attachments inspected: [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005), especially Section 5.13 model/sign conventions; [Voi98-U003](../literature/Voi98/Yin_U003.md#voi98-u003), especially Proposition 3.8 monic orthonormal recurrence.
   They supply attribution and conventions, not omitted proofs of the counterexamples.
 - Direct version-qualified mathematical dependencies: none.
   The registered empty dependency list is correct for these locally verified arguments.
@@ -1048,15 +1048,15 @@ This proves the full C obligation in both directions.
 <a id="r109-6-boundary-cases-and-retained-exclusions"></a>
 ##### canonical-domain: 6. Boundary cases and retained exclusions
 
-C_F0022 and [Dab10-U002](../literature/Dab10/Yin_U002_v1.md#dab10-u002) explicitly handle \(d=1\): freely adjoin a variance-one semicircular variable, retain the original conjugate variable, apply the printed two-variable contraction estimate, and restrict to original polynomials.
+C_F0022 and [Dab10-U002](../literature/Dab10/Yin_U002.md#dab10-u002) explicitly handle \(d=1\): freely adjoin a variance-one semicircular variable, retain the original conjugate variable, apply the printed two-variable contraction estimate, and restrict to original polynomials.
 The values, norms and constants on the original algebra are unchanged.
 The subsequent weak-graph proof is performed in the original H.
 No factoriality conclusion or division by \(d-1\) is used.
 
-For the standard semicircular tuple, the [Fock conventions](../literature/Miy22/Yin_U001_v1.md#miy22-u001) give bounded right deletion \(r_i^*\), with \(r_i^*\Omega=0\) and \([r_i^*,X_j]=\delta_{ij}P_\Omega\): left and right word operations commute off the vacuum, where the displayed rank-one defect is obtained directly.
+For the standard semicircular tuple, the [Fock conventions](../literature/Miy22/Yin_U001.md#miy22-u001) give bounded right deletion \(r_i^*\), with \(r_i^*\Omega=0\) and \([r_i^*,X_j]=\delta_{ij}P_\Omega\): left and right word operations commute off the vacuum, where the displayed rank-one defect is obtained directly.
 These conditions force its polynomial action to be the contracted difference quotient.
 Since \(r_i^*\) is bounded and polynomials are dense, the closure of that restriction is exactly \(r_i^*\) on H.
-Hence \(\mathcal E_i(Q)=H\) and the statement recovers the bounded raw criterion recorded in [Miy22-U006/Miy22-U007](../literature/Miy22/Yin_U007_v1.md#miy22-u007).
+Hence \(\mathcal E_i(Q)=H\) and the statement recovers the bounded raw criterion recorded in [Miy22-U006/Miy22-U007](../literature/Miy22/Yin_U007.md#miy22-u007).
 More generally a bounded canonical dual also gives \(\mathcal E_i(Q)=H\).
 
 Zero and scalar elements cause no exceptional division step: a legal scalar pair satisfies \(a=cs,b=ct\), so the raw defect and rational derivative are zero.
@@ -1144,7 +1144,7 @@ Original date, calculations, accepted-source limits and completion comparison ar
 | [Original scalar-denominator main finding](#retained-r101-scope-and-verdict) | [Statement](../../claims/Yin_C_F0060_v1.md#1-statement-and-algebraic-cancellation) | Complete C_F0060 main Sections 1–5 and Appendix A only: all unstarred numerators, actual starred probes, suffix descent, scalar Bezout, original soft-inverse graphs, all weak forms and d=1; Appendix B requires its separate [two-sided scalar-denominator finding](#retained-r102-verdict-and-achieved-conclusion). |
 | [Original scalar-denominator main finding](#retained-r101-scope-and-verdict) | [Complete selected argument](../../claims/Yin_C_F0060_v1.md#scalar-denominator-original-weak-criterion) | Complete C_F0060 main Sections 1–5 and Appendix A only: all unstarred numerators, actual starred probes, suffix descent, scalar Bezout, original soft-inverse graphs, all weak forms and d=1; Appendix B requires its separate [two-sided scalar-denominator finding](#retained-r102-verdict-and-achieved-conclusion). |
 | [Original scalar-denominator main finding](#retained-r101-scope-and-verdict) | [Consolidated statement](../../claims/Yin_C_F0060_v1.md#scalar-denominator-original-weak-criterion) | Main Sections 1–5 and Appendix A of this consolidated statement only; Appendix B is a separate [two-sided scalar-denominator finding](#retained-r102-verdict-and-achieved-conclusion). |
-| [Original scalar-denominator main finding](#retained-r101-scope-and-verdict) | [Recorded approximation input](../literature/VV16/Yin_U001_v1.md#vv16-u001) | Previously invoked C1 rectangle polynomial approximation for the original scalar graph, at the existing VV16-U001 scope; no new original-source audit. |
+| [Original scalar-denominator main finding](#retained-r101-scope-and-verdict) | [Recorded approximation input](../literature/VV16/Yin_U001.md#vv16-u001) | Previously invoked C1 rectangle polynomial approximation for the original scalar graph, at the existing VV16-U001 scope; no new original-source audit. |
 | [Original two-sided scalar-denominator finding](#retained-r102-verdict-and-achieved-conclusion) | [Appendix B statement](../../claims/Yin_C_F0060_v1.md#appendix-b-two-sided-scalar-denominators) | Whole C_F0060 Appendix B plus its exact Appendix A and C_F0059 affine-state inputs: both singular scalar inverse states, true bounded output approximants, phase residuals, all original graphs and weak forms. Main arbitrary-numerator theorem excluded. |
 | [Original two-sided scalar-denominator finding](#retained-r102-verdict-and-achieved-conclusion) | [Complete selected argument](../../claims/Yin_C_F0060_v1.md#scalar-denominator-original-weak-criterion) | Whole C_F0060 Appendix B plus its exact Appendix A and C_F0059 affine-state inputs: both singular scalar inverse states, true bounded output approximants, phase residuals, all original graphs and weak forms. Main arbitrary-numerator theorem excluded. |
 | [Original two-sided scalar-denominator finding](#retained-r102-verdict-and-achieved-conclusion) | [Consolidated statement](../../claims/Yin_C_F0060_v1.md#scalar-denominator-original-weak-criterion) | Appendix B two-sided scalar-denominator assertion of this consolidated statement only, with its stated inputs; main arbitrary-numerator theorem requires the [scalar-denominator main finding](#retained-r101-scope-and-verdict). |

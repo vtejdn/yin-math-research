@@ -128,7 +128,7 @@ Maximal Delta means that a finite-rank cycle
 
 has every T_i zero.
 The sign obtained by reversing both commutators does not change this zero-cycle condition.
-The exact input is [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002), together with the bounded-dual implication in [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005).
+The exact input is [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002), together with the bounded-dual implication in [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
 Neither an adjoint-generator substitution nor a selfadjointness hypothesis is introduced.
 
 Yin_C_F0002's tensor convention gives, for g,h in H,
@@ -249,7 +249,7 @@ First, the entries of g and of h in (3) are each complex-linearly independent.
 For example, a constant column c with gc=0 gives the formal coefficients uA_w c=0 for every word w, so observability forces c=0.
 A constant row c with ch=0 similarly gives cA_w v=0 for every w; reachability forces c=0.
 These formal coefficient comparisons are legitimate because the displayed monic inverse is regular at zero and has the formal expansion sum_w A_w x^w.
-A zero free-field rational function has zero such expansion by the same defined-domain rational consistency used in [MSY23-U003](../audits/literature/MSY23/Yin_U003_v1.md#msy23-u003).
+A zero free-field rational function has zero such expansion by the same defined-domain rational consistency used in [MSY23-U003](../audits/literature/MSY23/Yin_U003.md#msy23-u003).
 The formal series algebra is stably finite: a one-sided inverse of a square matrix forces its constant matrix to be invertible, and its resulting formal Neumann inverse is two-sided.
 Thus that consistency theorem applies here.
 The injective evaluation F into U preserves these linear-independence statements for the evaluated entries.

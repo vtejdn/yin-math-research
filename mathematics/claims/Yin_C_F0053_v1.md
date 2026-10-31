@@ -124,7 +124,7 @@ Their existing reviewed arguments are used at these stated scopes.
 
 The new selected source is Xavier Tolsa and Joan Verdera, *May the Cauchy transform of a non-trivial finite measure vanish on the support of the measure?*, Annales Academiae Scientiarum Fennicae Mathematica 31 (2006), 479--494.
 Its [publisher PDF](https://www.acadsci.fi/mathematica/Vol31/tolsa.pdf), definitions on printed p.480 and Theorem 2 on p.481, was read successfully.
-[TV06-U001](../audits/literature/TV06/Yin_U001_v1.md#tv06-u001) records the separate source-interface inspection at statement/application depth, with no full proof audit or retained PDF.
+[TV06-U001](../audits/literature/TV06/Yin_U001.md#tv06-u001) records the separate source-interface inspection at statement/application depth, with no full proof audit or retained PDF.
 
 For a finite positive Radon measure lambda with `G(lambda)<infinity`, the exact consequence needed from that theorem is
 
@@ -460,17 +460,17 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/TV06/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/TV06/Yin_U001.md).
 
 Complete statements A/B/C and all selected proof/source support; fixed dependencies, positive weighting, original vacuum and graphs, full free-tuple affiliated interface and nonvacuum counterexample; no unrestricted vacuum-to-energy implication.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0027_v1.md).
 
-Material covered by that review: [Exact material](../audits/literature/TV06/Yin_U001_v1.md); [Exact material](Yin_C_F0053_v1.md).
+Material covered by that review: [Exact material](../audits/literature/TV06/Yin_U001.md); [Exact material](Yin_C_F0053_v1.md).
 
 Yin_C_F0053 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete independent mathematical review at its unchanged scope.
 No new whole-proof independent review, proof change, dependency change or Task completion.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0055_v1.md#c-f0091-applicability).
 
-Material covered by that review: [Exact material](../audits/literature/TV06/Yin_U001_v1.md); [Exact material](Yin_C_F0053_v1.md).
+Material covered by that review: [Exact material](../audits/literature/TV06/Yin_U001.md); [Exact material](Yin_C_F0053_v1.md).

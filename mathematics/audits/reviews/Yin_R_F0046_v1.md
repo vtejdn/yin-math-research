@@ -47,9 +47,9 @@ No reviewer repair is recorded.
 | [Conclusion](#conclusion) | [C_F0069 Part A](../../claims/Yin_C_F0069_v1.md#statement) | Automatic norm-to-L2 boundedness of supplied full-domain normal duals, applied to X and X* and to the sign-converted J-conjugate system. |
 | [Conclusion](#conclusion) | [C_F0070 Part A](../../claims/Yin_C_F0070_v1.md#statement) | Unique starred Hilbert-valued derivations and their normalized right contractions; diffuseness and uniqueness apply equally to X*. |
 | [Conclusion](#conclusion) | [C_F0072](../../claims/Yin_C_F0072_v1.md#statement) | Both operator-norm-to-L2 contraction bounds give an actual vacuum of norm at most 2(C_E+C_F), the actual core adjoint and both canonical full domains. |
-| [Conclusion](#conclusion) | [Voi98-U005](../literature/Voi98/Yin_U005_v1.md#voi98-u005) | Accepted/reconstructed pointed free-product Hilbert model and end actions in Sections 5.5-5.8 only; no use of the source's invalid literal compression formula. |
+| [Conclusion](#conclusion) | [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005) | Accepted/reconstructed pointed free-product Hilbert model and end actions in Sections 5.5-5.8 only; no use of the source's invalid literal compression formula. |
 | [Conclusion](#conclusion) | [C_F0045 Section 3](../../claims/Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Existing realization of the whole reduced-word polynomial core; no marginal bound, freeness lifting estimate or later theorem conclusion imported. |
-| [Conclusion](#conclusion) | [AP18 conjugation interface](../literature/AP18/Yin_U002_v2.md#tomita-foundational-reference) | Existing tracial J construction and its source boundary; both left/right conjugation formulas verified directly in the present review. |
+| [Conclusion](#conclusion) | [AP18 conjugation interface](../literature/AP18/Yin_U002.md#tomita-foundational-reference) | Existing tracial J construction and its source boundary; both left/right conjugation formulas verified directly in the present review. |
 
 ## Actual vacua and the conjugation conventions
 

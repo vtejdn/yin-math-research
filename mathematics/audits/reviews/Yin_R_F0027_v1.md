@@ -13,7 +13,7 @@ Consumer scope: the original normal polynomial-core domain question.
 The reviewed support is:
 
 - [Complete proof](../../claims/Yin_C_F0053_v1.md#maximal-density-cauchy-core-transfer), Sections 1--7
-- [TV06-U001 source interface](../literature/TV06/Yin_U001_v1.md#tv06-u001)
+- [TV06-U001 source interface](../literature/TV06/Yin_U001.md#tv06-u001)
 
 **Verdict: pass for all three stated conclusions A, B, and C.**
 Finite total Menger curvature together with square-integrable maximal linear density supplies the original scalar domains and quantitative estimate.

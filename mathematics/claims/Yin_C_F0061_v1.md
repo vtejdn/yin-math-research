@@ -22,7 +22,7 @@ This is a conditional sufficient criterion for bounded scalar weak forms, not an
 The proof below has no mathematical dependence on scratch files.
 Exact permanent review binding and Claim allocation are separate actions.
 
-The accepted [CR94-U001 minimality interface](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001) supplies algebraic state independence; no analytic state-integrability hypothesis is imported.
+The accepted [CR94-U001 minimality interface](../audits/literature/CR94/Yin_U001.md#cr94-u001) supplies algebraic state independence; no analytic state-integrability hypothesis is imported.
 The actual proof uses C_F0025 normal phases, original polynomial graph closure, bounded Neumann series, and tracial spectral dominated convergence as detailed below.
 No new source theorem is imported and no complete source audit is claimed.
 

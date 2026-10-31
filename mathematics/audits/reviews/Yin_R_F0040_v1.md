@@ -51,7 +51,7 @@ This is an independent mathematical review, not a claim that the human record au
 
 ## Part A: algebra, denominators and operator identification
 
-The free-field input is the combination of the finite-rank-cycle/full-linear-matrix theorem in [MSY23-U002](../literature/MSY23/Yin_U002_v1.md#msy23-u002) with the affiliated invertibility and evaluation theorem in [MSY23-U004](../literature/MSY23/Yin_U004_v1.md#msy23-u004).
+The free-field input is the combination of the finite-rank-cycle/full-linear-matrix theorem in [MSY23-U002](../literature/MSY23/Yin_U002.md#msy23-u002) with the affiliated invertibility and evaluation theorem in [MSY23-U004](../literature/MSY23/Yin_U004.md#msy23-u004).
 The latter's same-unit image equals the affiliated division closure.
 The tuple is only bounded here; neither a formal selfadjoint involution on its evaluated free field nor generation of the ambient algebra is used.
 
@@ -169,7 +169,7 @@ No arbitrary larger closed extension is used.
 ## Finite-Fisher inputs and dependency limits
 
 The analytic portions of [C_F0022, Sections 2--3](../../claims/Yin_C_F0022_v1.md#2-sources-and-the-additional-analytic-input) were checked for their actual content, rather than inferred from that Claim's assessment.
-The accepted underlying interfaces were inspected in [MS23-U001](../literature/MS23/Yin_U001_v1.md#ms23-u001), [Dab10-U002](../literature/Dab10/Yin_U002_v1.md#dab10-u002), and [Voi98-U003](../literature/Voi98/Yin_U003_v1.md#voi98-u003), at the conjugate/normalized-dual, contraction-estimate and free-extension scopes respectively.
+The accepted underlying interfaces were inspected in [MS23-U001](../literature/MS23/Yin_U001.md#ms23-u001), [Dab10-U002](../literature/Dab10/Yin_U002.md#dab10-u002), and [Voi98-U003](../literature/Voi98/Yin_U003.md#voi98-u003), at the conjugate/normalized-dual, contraction-estimate and free-extension scopes respectively.
 
 In particular, the tensor-leg convention yields (D_i^0)*p=p xi_i-D_i^0p.
 The constants 4 and 5 follow from the selfadjoint contraction estimate and splitting into real and imaginary parts; these are operator-norm-to-L2 estimates.

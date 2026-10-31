@@ -42,14 +42,14 @@ U_w\Omega=e_w,\qquad
 \left\|\sum_{|w|=m}\alpha_wU_w\right\|
 \le(m+1)\left(\sum_{|w|=m}|\alpha_w|^2\right)^{1/2}.
 \]
-These are the full orthonormal basis and exact polynomial norm estimate verified in [Miy22-U004](../audits/literature/Miy22/Yin_U004_v1.md#miy22-u004).
+These are the full orthonormal basis and exact polynomial norm estimate verified in [Miy22-U004](../audits/literature/Miy22/Yin_U004.md#miy22-u004).
 
 For
 \[
 f\in F_s\cap L^2(M),\qquad
 F_s=\operatorname{Div}_{U(M)}\mathbb C\langle s\rangle,
 \]
-[Miy26-U002](../audits/literature/Miy26/Yin_U002_v1.md#miy26-u002) proves that the right residuals of its Wick coefficients span a finite-dimensional space.
+[Miy26-U002](../audits/literature/Miy26/Yin_U002.md#miy26-u002) proves that the right residuals of its Wick coefficients span a finite-dimensional space.
 Its bounded regularizers and core commutator identity provide this missing interface; it is not inferred solely from an abstract rational expression.
 
 Yin_C_F0015 then gives norm convergence in $C^*(s)$.
@@ -79,7 +79,7 @@ Every affiliated rational L2 expression in $c,c^*$ is covered by the preceding t
 
 The literal Yin_C_F0015 basis is the full semicircular Wick basis on $2d$ letters.
 Holomorphic words $c_w$ span only a proper holomorphic subspace and must not be called a basis of the whole tracial L2 space.
-The [Miy26 circular coordinate conventions](../audits/literature/Miy26/Yin_U001_v2.md#circular-word-conventions) retain that distinction.
+The [Miy26 circular coordinate conventions](../audits/literature/Miy26/Yin_U001.md#circular-word-conventions) retain that distinction.
 No normality of the individual circular variables is asserted or needed for this coordinate application.
 
 ### A concrete nonfree polynomial-coordinate family
@@ -175,12 +175,12 @@ The example verifies both actual L2 convergence and operator-domain meaning; it 
 
 ### Free Haar unitaries
 
-For finitely many free Haar unitaries $u_i=\lambda(g_i)$ in $M=L(F_d)$, [Miy26-U003](../audits/literature/Miy26/Yin_U003_v1.md#miy26-u003), Theorem 3.5, proves the rational L2-to-bounded conclusion, with the retained Lin00/DR97 interfaces stated there.
+For finitely many free Haar unitaries $u_i=\lambda(g_i)$ in $M=L(F_d)$, [Miy26-U003](../audits/literature/Miy26/Yin_U003.md#miy26-u003), Theorem 3.5, proves the rational L2-to-bounded conclusion, with the retained Lin00/DR97 interfaces stated there.
 
 The orthonormal Fourier basis is indexed by reduced group words.
 It is not indexed by all words in the free monoid on $g_i,g_i^{-1}$: nonreduced words repeat group elements, so simply listing all of them destroys orthonormality.
 
-The [DR97-U004 argument](../audits/literature/DR97/Yin_U004_v1.md#dr97-u004) handles this exactly.
+The [DR97-U004 argument](../audits/literature/DR97/Yin_U004.md#dr97-u004) handles this exactly.
 Extend coefficients by zero on nonreduced words.
 This reduced-word support is a regular language, with adjacent inverse letters forbidden.
 The pertinent rationality theorem supplies a recognizable zero-extended series.
@@ -196,7 +196,7 @@ For $H^2(\mathbb T)$, the functions $z^n$, $n\ge0$, are orthonormal and satisfy 
 They span a proper closed subspace of $L^2(\mathbb T)$, so this is a subspace variant of Yin_C_F0015.
 For a square-summable analytic coefficient sequence of finite Hankel rank, the same finite-state decay argument gives a bounded rational boundary function.
 
-The exact classical result and both Fourier-block conventions are recorded in [Miy22-U009](../audits/literature/Miy22/Yin_U009_v1.md#miy22-u009).
+The exact classical result and both Fourier-block conventions are recorded in [Miy22-U009](../audits/literature/Miy22/Yin_U009.md#miy22-u009).
 A Hankel operator on an arbitrary L2 symbol sees only one Fourier half; its finite rank does not make the entire symbol rational without a normalization or another block condition.
 The full one-Haar case belongs to the preceding reduced-word discussion.
 

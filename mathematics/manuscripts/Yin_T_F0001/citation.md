@@ -11,8 +11,8 @@ This map records only current citation applications, not consulted or uncited wo
 
 ## `ACSY24`
 
-Source evidence: [ACSY24-U001](../../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) records the derivation and actual adjoint-domain condition in the published Proposition 3.5, pp.34--36, with its source-review limits.
-[ACSY24-U003](../../audits/literature/ACSY24/Yin_U003_v1.md#derivation-adjoint-and-compression) checks Lemma 3.3's adjoint-domain equivalence on a weakly dense starred algebra, without a reality assumption.
+Source evidence: [ACSY24-U001](../../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) records the derivation and actual adjoint-domain condition in the published Proposition 3.5, pp.34--36, with its source-review limits.
+[ACSY24-U003](../../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression) checks Lemma 3.3's adjoint-domain equivalence on a weakly dense starred algebra, without a reality assumption.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -21,9 +21,9 @@ Source evidence: [ACSY24-U001](../../audits/literature/ACSY24/Yin_U001_v1.md#acs
 
 ## `AP18`
 
-Source evidence: [AP18-U001](../../audits/literature/AP18/Yin_U001_v1.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../audits/literature/AP18/Yin_U002_v1.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
-The [AP18-U003, affiliation and domains](../../audits/literature/AP18/Yin_U003_v1.md#affiliation-interface), [square-integrable affiliated-operator interface](../../audits/literature/Miy26/Yin_U004_v1.md#miy26-u004), and [AP18-U002 v2, canonical-conjugation reading](../../audits/literature/AP18/Yin_U002_v2.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
-The inspected artifact is the undated 338-page author draft; the registry's 2018 year is not a verified draft date.
+Source evidence: [AP18-U001](../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
+The [AP18-U003, affiliation and domains](../../audits/literature/AP18/Yin_U003.md#affiliation-interface), [square-integrable affiliated-operator interface](../../audits/literature/Miy26/Yin_U004.md#miy26-u004), and [AP18-U002 v2, canonical-conjugation reading](../../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
+The inspected artifact is the undated 338-page author draft; 2018 is not a verified draft date.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ The inspected locator is the published 1978 version; the source record does not 
 
 ## `Coh06`
 
-Source evidence: [Coh06-U001](../../audits/literature/Coh06/Yin_U001_v1.md#coh06-u001) records the division-closure terminology.
+Source evidence: [Coh06-U001](../../audits/literature/Coh06/Yin_U001.md#coh06-u001) records the division-closure terminology.
 The specific universal-localization statements were read in the [BD78 source-interface record](../../audits/literature/BD78/readme.md#f0001-derivation-extension-20261012), which records Cohn's exact edition locators and limits.
 
 | TeX use | Citation locator | Application and boundary |
@@ -55,7 +55,7 @@ The specific universal-localization statements were read in the [BD78 source-int
 
 ## `Coh71`
 
-Source evidence: [Coh71-U001](../../audits/literature/Coh71/Yin_U001_v1.md#coh71-u001) checks the definition and its ambient setting in Section 7.
+Source evidence: [Coh71-U001](../../audits/literature/Coh71/Yin_U001.md#coh71-u001) checks the definition and its ambient setting in Section 7.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -63,8 +63,8 @@ Source evidence: [Coh71-U001](../../audits/literature/Coh71/Yin_U001_v1.md#coh71
 
 ## `Coh85`
 
-Source evidence: [Coh85-U001](../../audits/literature/Coh85/Yin_U001_v1.md#coh85-u001) checks the division-closure definition and its unital convention.
-The source intake's [rational-closure comparison](../../audits/literature/Coh85/Yin_U001_v1.md#rational-closure-comparison) records the matrix-inverse definition, containment and stated possibility of strict containment; the exercise's proof tasks and examples were not audited.
+Source evidence: [Coh85-U001](../../audits/literature/Coh85/Yin_U001.md#coh85-u001) checks the division-closure definition and its unital convention.
+The source intake's [rational-closure comparison](../../audits/literature/Coh85/Yin_U001.md#rational-closure-comparison) records the matrix-inverse definition, containment and stated possibility of strict containment; the exercise's proof tasks and examples were not audited.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ The source intake's [rational-closure comparison](../../audits/literature/Coh85/
 
 ## `Con94`
 
-Source evidence: [Con94-U001](../../audits/literature/Con94/Yin_U001_v1.md#con94-u001) records both the Section IV.5 conjecture and the Section IV.3 operator statement, including their distinct scopes.
+Source evidence: [Con94-U001](../../audits/literature/Con94/Yin_U001.md#con94-u001) records both the Section IV.5 conjecture and the Section IV.3 operator statement, including their distinct scopes.
 The inspected artifact is the registered electronic book; its pagination is not asserted to match every printed edition.
 
 | TeX use | Citation locator | Application and boundary |
@@ -83,9 +83,9 @@ The inspected artifact is the registered electronic book; its pagination is not 
 
 ## `CS05`
 
-Source evidence: [CS05-U001](../../audits/literature/CS05/Yin_U001_v1.md#cs05-u001) checks the relative-\(\Delta\) definitions, generator-boundary interface, and Theorem 4.11 within its recorded scope.
+Source evidence: [CS05-U001](../../audits/literature/CS05/Yin_U001.md#cs05-u001) checks the relative-\(\Delta\) definitions, generator-boundary interface, and Theorem 4.11 within its recorded scope.
 The [generator-boundary source check](../../audits/literature/MSY23/readme.md#hochschild-source-check) records the inspection of Section 3.1.1, equations (3.1) and (3.6), in the same arXiv v1.
-[CS05-U002](../../audits/literature/CS05/Yin_U002_v1.md#cs05-u002) checks Section 1.1, equations (1.1)–(1.2) and the Hilbert–Schmidt extension in the retained arXiv v1, printed/PDF p. 3.
+[CS05-U002](../../audits/literature/CS05/Yin_U002.md#cs05-u002) checks Section 1.1, equations (1.1)–(1.2) and the Hilbert–Schmidt extension in the retained arXiv v1, printed/PDF p. 3.
 For these Section 1.1 citations, the paper's \(\Theta\) is the source's \(\Psi\), with the second \(H\) factor identified linearly with its opposite and \(\rho(a)=Ja^*J\).
 The source begins with bounded tensor factors; Subsection 2.4 restricts its Hilbert-space extension to algebraic \(L^2\) tensors to obtain all bounded finite-rank operators.
 
@@ -102,7 +102,7 @@ The source begins with bounded tensor factors; Subsection 2.4 restricts its Hilb
 
 ## `CS77`
 
-Source evidence: [CS77-U001](../../audits/literature/CS77/Yin_U001_v1.md#cs77-u001) checks Proposition 1 and the bounded-map specialization, not a closable-domain or von Neumann-closure theorem.
+Source evidence: [CS77-U001](../../audits/literature/CS77/Yin_U001.md#cs77-u001) checks Proposition 1 and the bounded-map specialization, not a closable-domain or von Neumann-closure theorem.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -110,7 +110,7 @@ Source evidence: [CS77-U001](../../audits/literature/CS77/Yin_U001_v1.md#cs77-u0
 
 ## `Dab10`
 
-Source evidence: [Dab10-U002](../../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002) retains the selfadjoint contraction-method interface and its scope.
+Source evidence: [Dab10-U002](../../audits/literature/Dab10/Yin_U002.md#dab10-u002) retains the selfadjoint contraction-method interface and its scope.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -118,7 +118,7 @@ Source evidence: [Dab10-U002](../../audits/literature/Dab10/Yin_U002_v1.md#dab10
 
 ## `DR97`
 
-Source evidence: [DR97-U003](../../audits/literature/DR97/Yin_U003_v1.md#dr97-u003) checks Theorem 7's finite-generator inverse-closure conclusion and its proof repairs.
+Source evidence: [DR97-U003](../../audits/literature/DR97/Yin_U003.md#dr97-u003) checks Theorem 7's finite-generator inverse-closure conclusion and its proof repairs.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -126,7 +126,7 @@ Source evidence: [DR97-U003](../../audits/literature/DR97/Yin_U003_v1.md#dr97-u0
 
 ## `Fug50`
 
-Source evidence: [Fug50-U001, bounded commutation](../../audits/literature/Fug50/Yin_U001_v1.md#bounded-commutation) records the primary-source identity, Theorem I statement, bounded specialization and proof-review limits.
+Source evidence: [Fug50-U001, bounded commutation](../../audits/literature/Fug50/Yin_U001.md#bounded-commutation) records the primary-source identity, Theorem I statement, bounded specialization and proof-review limits.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -134,7 +134,7 @@ Source evidence: [Fug50-U001, bounded commutation](../../audits/literature/Fug50
 
 ## `Hun74`
 
-Source evidence: [Hun74-U002](../../audits/literature/Hun74/Yin_U002_v1.md#hun74-u002), [Hun74-U004](../../audits/literature/Hun74/Yin_U004_v1.md#hun74-u004), and [Hun74-U005](../../audits/literature/Hun74/Yin_U005_v1.md#hun74-u005) record the division-ring basis, coordinate-map and balanced-tensor interfaces.
+Source evidence: [Hun74-U002](../../audits/literature/Hun74/Yin_U002.md#hun74-u002), [Hun74-U004](../../audits/literature/Hun74/Yin_U004.md#hun74-u004), and [Hun74-U005](../../audits/literature/Hun74/Yin_U005.md#hun74-u005) record the division-ring basis, coordinate-map and balanced-tensor interfaces.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ Source evidence: [Kat95 selected citation check](../../audits/literature/Kat95/r
 
 ## `Kro81`
 
-Source evidence: [Kro81-U001](../../audits/literature/Kro81/Yin_U001_v1.md#kro81-u001) reconstructs the coefficient rationality criterion in the retained 1897 collected edition.
+Source evidence: [Kro81-U001](../../audits/literature/Kro81/Yin_U001.md#kro81-u001) reconstructs the coefficient rationality criterion in the retained 1897 collected edition.
 That edition was not collated with the original 1881 printing, and the citation does not claim priority.
 
 | TeX use | Citation locator | Application and boundary |
@@ -169,7 +169,7 @@ Source evidence: [KV12 source record](../../audits/literature/KV12/readme.md) ch
 
 ## `Lin00`
 
-Source evidence: [Lin00-U001](../../audits/literature/Lin00/Yin_U001_v1.md#lin00-u001) records the source theorem statement and fraction conventions, and [Lin00-U002](../../audits/literature/Lin00/Yin_U002_v1.md#lin00-u002) reconstructs its finite-generator proof chain.
+Source evidence: [Lin00-U001](../../audits/literature/Lin00/Yin_U001.md#lin00-u001) records the source theorem statement and fraction conventions, and [Lin00-U002](../../audits/literature/Lin00/Yin_U002.md#lin00-u002) reconstructs its finite-generator proof chain.
 All theorem and section locators below refer to the retained arXiv v1, not the journal pagination.
 
 | TeX use | Citation locator | Application and boundary |
@@ -181,7 +181,7 @@ All theorem and section locators below refer to the retained arXiv v1, not the j
 
 ## `Luc02`
 
-Source evidence: [Luc02-U001](../../audits/literature/Luc02/Yin_U001_v1.md#luc02-u001) checks §8.2.1 fraction terminology in the retained book manuscript.
+Source evidence: [Luc02-U001](../../audits/literature/Luc02/Yin_U001.md#luc02-u001) checks §8.2.1 fraction terminology in the retained book manuscript.
 It does not record inspection of Definition 1.10; the named module-dimension locator remains an identified source-inspection gap.
 The general tracial-algebra dimension construction has its separately cited CS05 support.
 
@@ -192,7 +192,7 @@ The general tracial-algebra dimension construction has its separately cited CS05
 
 ## `Mai15`
 
-Source evidence: [Mai15-U001 v2](../../audits/literature/Mai15/Yin_U001_v2.md#mai15-u001) checks the actual adjoint-domain multiplication and real adjoint identities in the retained arXiv version.
+Source evidence: [Mai15-U001 v2](../../audits/literature/Mai15/Yin_U001.md#mai15-u001) checks the actual adjoint-domain multiplication and real adjoint identities in the retained arXiv version.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -201,7 +201,7 @@ Source evidence: [Mai15-U001 v2](../../audits/literature/Mai15/Yin_U001_v2.md#ma
 
 ## `Miy22`
 
-Source evidence: [Miy22-U005](../../audits/literature/Miy22/Yin_U005_v1.md#miy22-u005), [Miy22-U006](../../audits/literature/Miy22/Yin_U006_v1.md#miy22-u006), and [Miy22-U007](../../audits/literature/Miy22/Yin_U007_v1.md#miy22-u007) retain the bounded theorem, fraction interfaces and affiliated rationality theorem.
+Source evidence: [Miy22-U005](../../audits/literature/Miy22/Yin_U005.md#miy22-u005), [Miy22-U006](../../audits/literature/Miy22/Yin_U006.md#miy22-u006), and [Miy22-U007](../../audits/literature/Miy22/Yin_U007.md#miy22-u007) retain the bounded theorem, fraction interfaces and affiliated rationality theorem.
 The inspected work is the 24-page 2022 journal PDF; its original foundations remain at the stated unit scopes.
 
 | TeX use | Citation locator | Application and boundary |
@@ -214,7 +214,7 @@ The inspected work is the 24-page 2022 journal PDF; its original foundations rem
 
 ## `MSY23`
 
-Source evidence: [MSY23-U002](../../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002), [MSY23-U003](../../audits/literature/MSY23/Yin_U003_v1.md#msy23-u003), [MSY23-U004](../../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004), and [MSY23-U005](../../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005) retain the finite-rank, free-field, affiliated-algebra and bounded-dual interfaces.
+Source evidence: [MSY23-U002](../../audits/literature/MSY23/Yin_U002.md#msy23-u002), [MSY23-U003](../../audits/literature/MSY23/Yin_U003.md#msy23-u003), [MSY23-U004](../../audits/literature/MSY23/Yin_U004.md#msy23-u004), and [MSY23-U005](../../audits/literature/MSY23/Yin_U005.md#msy23-u005) retain the finite-rank, free-field, affiliated-algebra and bounded-dual interfaces.
 These units inspect the 50-page published article; their proof and external-input limits remain as recorded.
 
 | TeX use | Citation locator | Application and boundary |
@@ -239,7 +239,7 @@ These units inspect the 50-page published article; their proof and external-inpu
 
 ## `Voi98`
 
-Source evidence: [Voi98-U002](../../audits/literature/Voi98/Yin_U002_v1.md#voi98-u002), [Voi98-U005](../../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005), and [Voi98-U006](../../audits/literature/Voi98/Yin_U006_v1.md#voi98-u006) record the conjugate-variable, dual-system, Fock-model and Fisher-information passages.
+Source evidence: [Voi98-U002](../../audits/literature/Voi98/Yin_U002.md#voi98-u002), [Voi98-U005](../../audits/literature/Voi98/Yin_U005.md#voi98-u005), and [Voi98-U006](../../audits/literature/Voi98/Yin_U006.md#voi98-u006) record the conjugate-variable, dual-system, Fock-model and Fisher-information passages.
 The inspected source is the published 39-page article; the exact proof repairs and source limits remain in those units.
 
 | TeX use | Citation locator | Application and boundary |
@@ -250,7 +250,7 @@ The inspected source is the published 39-page article; the exact proof repairs a
 
 ## `Wei94`
 
-Source evidence: [Wei94-U001](../../audits/literature/Wei94/Yin_U001_v1.md#wei94-u001) checks Section 9.1.1's chain differential and the coefficient bimodule convention.
+Source evidence: [Wei94-U001](../../audits/literature/Wei94/Yin_U001.md#wei94-u001) checks Section 9.1.1's chain differential and the coefficient bimodule convention.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -258,9 +258,9 @@ Source evidence: [Wei94-U001](../../audits/literature/Wei94/Yin_U001_v1.md#wei94
 
 ## `Voi99`
 
-Source evidence: [Voi99-U001](../../audits/literature/Voi99/Yin_U001_v1.md#voi99-u001) checks the published Section 13, pp.160–161, including Definition 13.1 and the bounded selfadjoint commutation conditions.
-The [gradient and adjoint unit](../../audits/literature/Voi99/Yin_U003_v1.md#voi99-u003) checks 5.3--5.5 and Proposition 6.1, including the word-moment extension to von Neumann closures and the sign \(\gamma_i^*(1\otimes1)=-j_i\).
-The [information unit](../../audits/literature/Voi99/Yin_U004_v1.md#voi99-u004) checks Definition 9.1 and its finite-coordinate norm convention.
+Source evidence: [Voi99-U001](../../audits/literature/Voi99/Yin_U001.md#voi99-u001) checks the published Section 13, pp.160–161, including Definition 13.1 and the bounded selfadjoint commutation conditions.
+The [gradient and adjoint unit](../../audits/literature/Voi99/Yin_U003.md#voi99-u003) checks 5.3--5.5 and Proposition 6.1, including the word-moment extension to von Neumann closures and the sign \(\gamma_i^*(1\otimes1)=-j_i\).
+The [information unit](../../audits/literature/Voi99/Yin_U004.md#voi99-u004) checks Definition 9.1 and its finite-coordinate norm convention.
 The [full-source audit](../../audits/literature/Voi99/readme.md) retains the inspected edition, complete coverage and source corrections.
 
 | TeX use | Citation locator | Application and boundary |

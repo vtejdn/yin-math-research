@@ -83,6 +83,6 @@ Keep category-appropriate structured fields for articles, books, chapters, prepr
 Do not duplicate a complete journal citation in a `note` field.
 A note may identify a cited edition or add information not already printed from structured fields.
 
-The selected display is informed by the [MSY23 bibliography observations](../../audits/literature/MSY23/Yin_U005_v1.md#bibliographic-display-observed-in-the-published-edition) and the recorded [AMS/EMS/LMS comparisons](../bibliography-guidelines.md).
+The selected display is informed by the [MSY23 bibliography observations](../../audits/literature/MSY23/Yin_U005.md#bibliographic-display-observed-in-the-published-edition) and the recorded [AMS/EMS/LMS comparisons](../bibliography-guidelines.md).
 These sources support a family of mathematical bibliography practices, not a single universal BibTeX style.
 Venue-specific punctuation and fonts do not change source identity or bibliographic accuracy.

@@ -114,7 +114,7 @@ This special case is not needed for the q-Gaussian proof.
 
 ## 4. MS23 inputs and the full parameter range
 
-The reviewer read the local [MS23-U001 foundations unit](../literature/MS23/Yin_U001_v1.md#ms23-u001), [MS23-U002 combinatorial dual unit](../literature/MS23/Yin_U002_v1.md#ms23-u002), and [MS23-U003 conjugate-estimate unit](../literature/MS23/Yin_U003_v1.md#ms23-u003).
+The reviewer read the local [MS23-U001 foundations unit](../literature/MS23/Yin_U001.md#ms23-u001), [MS23-U002 combinatorial dual unit](../literature/MS23/Yin_U002.md#ms23-u002), and [MS23-U003 conjugate-estimate unit](../literature/MS23/Yin_U003.md#ms23-u003).
 These are the precise source-audit interfaces consumed by Yin_C_F0023.
 The reviewed input is the published 36-page MS23 artifact at the locators and original-proof boundaries recorded in those units.
 This review does not claim another complete reading of the original PDF or a new audit of the foundational symmetrizer and Haagerup theorems.
@@ -150,8 +150,8 @@ The older Yin_C_F0020 projective-kernel construction remains a valid distinct co
 This review does not alter its recorded proof or reinterpret its original scope.
 
 There is also a second independently checked derivation of the all-q conclusion.
-[MS23-U004](../literature/MS23/Yin_U004_v1.md#ms23-u004) supplies Lipschitz conjugates for the same full parameter range.
-[Dab10-U002, Section 4](../literature/Dab10/Yin_U002_v1.md#dab10-u002) proves that, when
+[MS23-U004](../literature/MS23/Yin_U004.md#ms23-u004) supplies Lipschitz conjugates for the same full parameter range.
+[Dab10-U002, Section 4](../literature/Dab10/Yin_U002.md#dab10-u002) proves that, when
 
 \[
 K_i=(\mathrm{id}\otimes\tau)\overline\partial_i\xi_i\in M,

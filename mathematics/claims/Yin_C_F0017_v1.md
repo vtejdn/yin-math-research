@@ -212,7 +212,7 @@ Finally
 =(I_n+T+\cdots+T^{N-1})(I_n-T^N)^{-1}\in M_n(D).
 \]
 Together with (13) this proves the second part of (2).
-This is the explicit small-power scalar-elimination argument already checked in [Miy22-U005, Lemma 3.8](../audits/literature/Miy22/Yin_U005_v1.md#miy22-u005); no new general matrix-closure assumption is introduced.
+This is the explicit small-power scalar-elimination argument already checked in [Miy22-U005, Lemma 3.8](../audits/literature/Miy22/Yin_U005.md#miy22-u005); no new general matrix-closure assumption is introduced.
 
 ### 6. Boundaries and examples
 
@@ -224,7 +224,7 @@ This theorem gives
 \]
 even when the crude triangle bound $\sum_i|t_i|\|b_i\|<1$ is unavailable.
 
-Formal rationality regular at zero is equivalent to recognizability, by the source interface in [Miy22-U002](../audits/literature/Miy22/Yin_U002_v1.md#miy22-u002).
+Formal rationality regular at zero is equivalent to recognizability, by the source interface in [Miy22-U002](../audits/literature/Miy22/Yin_U002.md#miy22-u002).
 It supplies the finite-dimensional algebraic condition in (1); it does not supply the weighted summability (3).
 Nor does the assertion that a rational evaluation belongs to affiliated L2 identify it with this Taylor expansion.
 

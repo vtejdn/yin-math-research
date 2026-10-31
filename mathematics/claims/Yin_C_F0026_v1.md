@@ -47,7 +47,7 @@ Consequently these small-core hypotheses with merely bounded adjoint-generator c
 They also do not imply $M\Omega\subseteq\operatorname{Dom}\overline{D_0}$.
 Thus the literal domain and arbitrary-fraction formulation of [Yin_C_F0024](Yin_C_F0024_v1.md#yin_c_f0024) cannot be copied with $M$ replaced by $\mathcal A$ on the basis of those hypotheses alone.
 
-The added adjoint-generator commutator in this example is noncompact, so the example does **not** satisfy the Hilbert-Schmidt commutator hypothesis furnished by the derivations in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001).
+The added adjoint-generator commutator in this example is noncompact, so the example does **not** satisfy the Hilbert-Schmidt commutator hypothesis furnished by the derivations in [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001).
 It does not refute a rationality criterion restricted to suitable common domains, a condition asserting existence of compatible fractions, or a separately defined closure or distributional regularization of the combined defect.
 Its conclusion concerns the stated literal compositions at the displayed test vector.
 
@@ -352,7 +352,7 @@ It also does not establish that no densely defined or distributionally regulariz
 Multiplying a distributional derivative by its vanishing bounded denominator, or closing a combined expression after cancellation, changes the definition and needs a separate argument.
 Neither operation makes the literal $\overline{D_0}(b\Omega)$ in (1) defined.
 
-The [ACSY24 audit](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) distinguishes the weaker bounded-commutator regularization used for maximal Delta from the Hilbert-Schmidt commutators supplied by its derivation hypotheses.
+The [ACSY24 audit](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) distinguishes the weaker bounded-commutator regularization used for maximal Delta from the Hilbert-Schmidt commutators supplied by its derivation hypotheses.
 The present counterexample fits the former operator hypotheses and fails the latter by (15).
 No counterexample to the actual ACSY24 derivation hypothesis or to a carefully reformulated full rationality theorem is claimed here.
 

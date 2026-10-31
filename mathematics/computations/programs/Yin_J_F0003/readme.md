@@ -3,13 +3,13 @@ author: Yin
 ---
 # ms23-dual-combinatorics
 
-Context: [MS23-U002](../../../audits/literature/MS23/Yin_U002_v1.md#ms23-u002); [original integration finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-integration-review-finding); [original proof and rerun finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-u002-proof-finding); [MS23 source units](../../../audits/literature/MS23/readme.md).
+Context: [MS23-U002](../../../audits/literature/MS23/Yin_U002.md#ms23-u002); [original integration finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-integration-review-finding); [original proof and rerun finding](../../../audits/reviews/Yin_R_F0057_v1.md#ms23-u002-proof-finding); [MS23 source units](../../../audits/literature/MS23/readme.md).
 
 ## Question and scope
 
 Exact q-polynomial recursive-versus-partition dual checks, crossing controls and the Example3.1 missing-q correction; no all-degree or analytic boundedness certification.
 
-Targets: [MS23-U002](../../../audits/literature/MS23/Yin_U002_v1.md#ms23-u002), Proposition 4.5 and its cancellation steps, and Proposition 3.3 and Example 3.1 in the same supplied 36-page published edition.
+Targets: [MS23-U002](../../../audits/literature/MS23/Yin_U002.md#ms23-u002), Proposition 4.5 and its cancellation steps, and Proposition 3.3 and Example 3.1 in the same supplied 36-page published edition.
 
 ### Scope and Mathematical Reduction
 

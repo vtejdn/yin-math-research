@@ -112,7 +112,7 @@ This section needs only the maps $D_i:M\to H$ and the generator relations in (1)
 It needs neither normality, adjoint domains, nor continuity of those maps.
 It extends the bounded-dual trace mechanism of MSY23 Proposition 6.2 by first moving each finite-dimensional range into the domain.
 
-We use the accepted finite-rank-cycle characterization from [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002): $\Delta(X)=d$ is equivalent to
+We use the accepted finite-rank-cycle characterization from [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002): $\Delta(X)=d$ is equivalent to
 \[
 \sum_i[T_i,X_i]=0,\quad T_i\in\operatorname{FinRank}(H)
 \quad\Longrightarrow\quad T_i=0\text{ for all }i.
@@ -126,7 +126,7 @@ Every finite family $g_1,\ldots,g_N\in H\subset U$ admits one bounded regular $r
 Write $g_k=b_k t_k^{-1}$ with bounded $b_k$ and bounded regular $t_k$.
 For two regular denominators, write the affiliated unit $t_1^{-1}t_2=pq^{-1}$ with $p,q$ bounded regular; then $t_1p=t_2q$ is a regular common right multiple.
 Induction gives $r=t_k c_k$ with every $c_k\in M$, so $g_k r=b_k c_k\in M$.
-These elementary fraction facts are also reconstructed in Yin_C_F0013 Section 3 and [Miy22-U006](../audits/literature/Miy22/Yin_U006_v1.md#miy22-u006).
+These elementary fraction facts are also reconstructed in Yin_C_F0013 Section 3 and [Miy22-U006](../audits/literature/Miy22/Yin_U006.md#miy22-u006).
 
 Suppose the cycle in (8) is given.
 Choose the $g_k$ as a basis of the finite-dimensional space $\sum_i\operatorname{Ran}T_i$, and choose $r$ as above.
@@ -157,7 +157,7 @@ The two test-vector families are independently dense in $H$, since they are $c^*
 Hence $QT_j=0$, and injectivity of $Q$ gives $T_j=0$.
 This proves (8), and therefore $\Delta(X)=d$.
 
-The accepted MSY23 Theorem 1.1 free-field equivalence, at [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004), now identifies $F$ with the free skew field on the specified $d$ generators.
+The accepted MSY23 Theorem 1.1 free-field equivalence, at [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004), now identifies $F$ with the free skew field on the specified $d$ generators.
 In particular $F$ is a division subring of $U$.
 No finite-Fisher or selfadjoint entropy comparison is needed for this deduction.
 Equation (9) never takes the trace of an uncontrolled product involving an unbounded $D_j$.
@@ -351,14 +351,14 @@ This conclusion is not asserted for an arbitrary larger closed extension whose c
 **Bounded duals and Haar generators.**
 Any bounded dual system for a normal tuple restricts to maps satisfying (1), so Yin_C_F0013 is an immediate special case of the affiliated and bounded criteria above.
 For free Haar generators, the bounded operator deleting a terminal positive generator from a reduced group word has $[D_i,U_j]=\delta_{ij}P$.
-The sign and complete reduced-word check are in [MSY23-U005, Proposition 6.3](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005).
+The sign and complete reduced-word check are in [MSY23-U005, Proposition 6.3](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
 Thus the abstract theorem includes Haar unitaries without replacing $\mathbb C\langle U\rangle$ by an adjoint-generated polynomial algebra or treating real and imaginary parts as algebraically free variables.
 Yin_C_F0013's additional cofinite-H-domain formulation for bounded duals remains separately valid at its original scope.
 
 **Selfadjoint generators with finite Fisher information.**
 Suppose instead that $X$ is selfadjoint and its conjugate variables lie in $L^2(M)$.
 Take the closure of the normalized polynomial operators $(\mathrm{id}\otimes\tau)\partial_i$.
-[Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002), using Lemma 12 with the explicit one-variable reduction, proves that both their domains and adjoint domains contain $M$.
+[Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002), using Lemma 12 with the explicit one-variable reduction, proves that both their domains and adjoint domains contain $M$.
 Its bounded-set continuity extends their generator identities from polynomials to $M$, as explicitly checked in Yin_C_F0022 Section 3.
 Restricting to $M$ therefore satisfies (1), and the present theorem yields all of Yin_C_F0022's affiliated and bounded conclusions.
 The closure of the restriction is the original canonical closure, because the polynomial core is contained in $M$.

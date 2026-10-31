@@ -32,7 +32,7 @@ The unrestricted normal-measure problem remains open.
 Current assessment, 2026-09-11: registered as ordinary **Yin_C_F0048** after [complete review by a separate agent](../audits/reviews/Yin_R_F0022_v1.md), with preliminary contributions disclosed.
 The measurable-density sufficient transfer, C1 converse, actual vacuum formula, original-domain consequence and nonradial example are proved as stated.
 This supersedes the initial pending assessment.
-The selected approximation input is indexed as [VV16-U001](../audits/literature/VV16/Yin_U001_v1.md#vv16-u001), accepted at statement and applicability inspection depth.
+The selected approximation input is indexed as [VV16-U001](../audits/literature/VV16/Yin_U001.md#vv16-u001), accepted at statement and applicability inspection depth.
 General normal measures and correlated tuples remain open.
 No Role or lemma extraction is assigned.
 

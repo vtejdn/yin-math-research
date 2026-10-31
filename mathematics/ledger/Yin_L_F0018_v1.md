@@ -8,15 +8,15 @@ author: Yin
 Date: 2026-09-10.
 Author: the free-field algebra agent, responding to the user's request to search the previously audited MSY23 materials for the boundedness of a linear representation's matrix inverse.
 The actual primary text on published pp. 8--9 and 21--25 was freshly read, including the proofs of Theorem 4.4 and Lemma 4.8.
-This is a separate selected-source recheck; the fingerprinted [MSY23-U003](../audits/literature/MSY23/Yin_U003_v1.md#msy23-u003) remains unchanged.
+This is a separate selected-source recheck; the [MSY23-U003](../audits/literature/MSY23/Yin_U003.md#msy23-u003) remains unchanged.
 
-Current sufficient homes, 2026-10-21: [MSY23-U003 v2](../audits/literature/MSY23/Yin_U003_v2.md#bounded-linearization-recheck) retains the exact source proof/domain analysis and its actual additional primary reading.
+Current sufficient homes, 2026-10-21: [MSY23-U003 v2](../audits/literature/MSY23/Yin_U003.md#bounded-linearization-recheck) retains the exact source proof/domain analysis and its actual additional primary reading.
 [C_F0012 Sections6-7](../claims/Yin_C_F0012_v1.md#6-exclusion-from-the-norm-closed-and-scalar-division-algebras) supply the complete accepted distance and minimal-state mathematics used below; the final matrix C*-inverse-closure step is retained here as its direct comparison consequence.
 The note preserves this source-versus-example distinction and actual failed bounded-realization inference; no new C12 review or current adoption is performed.
 
 ## Source theorem and ambient-domain boundary
 
-[MSY23-U003 v2](../audits/literature/MSY23/Yin_U003_v2.md#additional-bounded-realization-source-recheck) retains the complete original analysis of Definition 4.2, Theorems 4.3–4.4, Definition 4.5, Proposition 2.3 and Lemma 4.8, with the actual primary-reading dates and limits.
+[MSY23-U003 v2](../audits/literature/MSY23/Yin_U003.md#additional-bounded-realization-source-recheck) retains the complete original analysis of Definition 4.2, Theorems 4.3–4.4, Definition 4.5, Proposition 2.3 and Lemma 4.8, with the actual primary-reading dates and limits.
 A bounded inverse pencil is available in the source for rational closure evaluated in M.
 Boundedness of an output evaluated in the affiliated algebra supplies a different premise; the following project example excludes that attempted inference, including every alternative bounded inverse pencil.
 

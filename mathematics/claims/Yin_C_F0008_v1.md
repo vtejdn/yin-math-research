@@ -188,7 +188,7 @@ equation (2) follows.
 The norm in (9) is used to prove that the algorithm's pivots exist.
 The construction does not require prior knowledge of the value of this norm or access to the entries of T^{-1}.
 
-The [MSY23-U003 definition and closure interface](../audits/literature/MSY23/Yin_U003_v1.md#msy23-u003) identifies rational closure with the smallest unital subalgebra closed under inverses of all square matrices in the same ambient algebra.
+The [MSY23-U003 definition and closure interface](../audits/literature/MSY23/Yin_U003.md#msy23-u003) identifies rational closure with the smallest unital subalgebra closed under inverses of all square matrices in the same ambient algebra.
 Equation (2) therefore gives the same-ambient equality
 
 \[
@@ -252,7 +252,7 @@ No limiting operation contributes an element to R.
 The direct theorem uses elementary C*-positivity, its spectral lower-bound criterion for scalar invertibility, and the reconstructed block identities.
 No external free-field or minimal-realization theorem is needed.
 The conventional rational-closure identification in (11) is the already audited same-ambient interface in MSY23-U003.
-Local source comparison also inspected the [DR97 small-power scalar-elimination proof](../audits/literature/DR97/Yin_U004_v1.md), which supplies a different sufficient condition without the adjoint hypothesis.
+Local source comparison also inspected the [DR97 small-power scalar-elimination proof](../audits/literature/DR97/Yin_U004.md), which supplies a different sufficient condition without the adjoint hypothesis.
 No new public search or source acquisition was needed for this direct positive-pivot proof, and no claim about its historical priority is made.
 
 Prepared by another AI agent and independently reviewed by the coordinating agent in the linked audit.

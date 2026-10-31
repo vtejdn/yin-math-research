@@ -124,13 +124,13 @@ Normality and generation of M are allowed but are not used in the positive algeb
 
 The exact reused inputs are:
 
-- [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002): maximal Delta is equivalent to absence of a nonzero tuple of finite-rank operators satisfying sum_i[rho(X_i),T_i]=0.
+- [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002): maximal Delta is equivalent to absence of a nonzero tuple of finite-rank operators satisfying sum_i[rho(X_i),T_i]=0.
   Here rho(x) is right multiplication.
-- [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004): maximal Delta supplies an injective free-field evaluation, and F is its image, a same-unit division subring of U.
+- [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004): maximal Delta supplies an injective free-field evaluation, and F is its image, a same-unit division subring of U.
 - [C_F0035](Yin_C_F0035_v1.md#yin_c_f0035): u tensor_F 1 = 1 tensor_F u if and only if u belongs to F.
 - [C_F0007, Section 1](Yin_C_F0007_v1.md): its extension of finite-cycle injectivity from L2 tensors to affiliated tensors uses only maximal Delta and clearing finitely many outer denominators.
   The full C_F0007 statement has stronger bounded-dual assumptions; only the explicit argument is reused below under its actual inputs.
-- [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005), Section 6 entropy interface: freely independent atomless bounded selfadjoint variables have maximal Delta.
+- [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005), Section 6 entropy interface: freely independent atomless bounded selfadjoint variables have maximal Delta.
   This is an accepted source interface, not a new audit of free-entropy theory.
 
 Primary source checked for the free-field background: Mai, Speicher and Yin, The free field: realization via unbounded operators and Atiyah property, [arXiv:1905.08187](https://arxiv.org/abs/1905.08187).
@@ -519,9 +519,9 @@ Recorded role label: lemma.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Parts A, B and C, including exact hypotheses, SOME/EVERY distinction and canonical closed-domain scope. |
 | argument | [Argument P1](#argument) | Complete Sections 1--5, including counterexample and noncircular dual/conjugate specialization. |
-| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) | Maximal Delta and finite-rank-cycle characterization for bounded tuples. |
-| dependency | [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) | Affiliated algebra and matrix foundations; maximal-Delta free-field embedding. |
-| dependency | [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005) | Free atomless selfadjoint base pair has maximal Delta in the sharpness example. |
+| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Maximal Delta and finite-rank-cycle characterization for bounded tuples. |
+| dependency | [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004) | Affiliated algebra and matrix foundations; maximal-Delta free-field embedding. |
+| dependency | [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005) | Free atomless selfadjoint base pair has maximal Delta in the sharpness example. |
 | dependency | [Tensor equalizer](Yin_C_F0035_v1.md#yin_c_f0035-p1) | Part A reverse implication over the same-unit division subring F. |
 | dependency | [Fraction calculus](Yin_C_F0034_v1.md#yin_c_f0034-p1) | Part C forward inclusion, defect extensions, fraction and rank independence with E=V_i=M Omega. |
 | dependency | [Fundamental identity](Yin_C_F0033_v1.md#yin_c_f0033-p1) | Part C actual bounded defects satisfy the finite-rank certificate equation. |
@@ -543,9 +543,9 @@ Recorded role label: lemma.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Parts A, B and C, including exact hypotheses, SOME/EVERY distinction and canonical closed-domain scope. |
 | argument | [Argument P1](#argument) | Complete Sections 1--5, including counterexample and noncircular dual/conjugate specialization. |
-| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) | Maximal Delta and finite-rank-cycle characterization for bounded tuples. |
-| dependency | [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) | Affiliated algebra and matrix foundations; maximal-Delta free-field embedding. |
-| dependency | [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005) | Free atomless selfadjoint base pair has maximal Delta in the sharpness example. |
+| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Maximal Delta and finite-rank-cycle characterization for bounded tuples. |
+| dependency | [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004) | Affiliated algebra and matrix foundations; maximal-Delta free-field embedding. |
+| dependency | [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005) | Free atomless selfadjoint base pair has maximal Delta in the sharpness example. |
 | dependency | [Tensor equalizer](Yin_C_F0035_v1.md#yin_c_f0035-p1) | Part A reverse implication over the same-unit division subring F. |
 | dependency | [Fraction calculus](Yin_C_F0034_v1.md#yin_c_f0034-p1) | Part C forward inclusion, defect extensions, fraction and rank independence with E=V_i=M Omega. |
 | dependency | [Fundamental identity](Yin_C_F0033_v1.md#yin_c_f0033-p1) | Part C actual bounded defects satisfy the finite-rank certificate equation. |
@@ -568,9 +568,9 @@ Recorded role label: theorem.
 | --- | --- | --- |
 | statement | [Statement](#statement) | Parts A, B and C, including exact hypotheses, SOME/EVERY distinction and canonical closed-domain scope. |
 | argument | [Argument P1](#argument) | Complete Sections 1--5, including counterexample and noncircular dual/conjugate specialization. |
-| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002_v1.md#msy23-u002) | Maximal Delta and finite-rank-cycle characterization for bounded tuples. |
-| dependency | [MSY23-U004](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004) | Affiliated algebra and matrix foundations; maximal-Delta free-field embedding. |
-| dependency | [MSY23-U005](../audits/literature/MSY23/Yin_U005_v1.md#msy23-u005) | Free atomless selfadjoint base pair has maximal Delta in the sharpness example. |
+| dependency | [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-u002) | Maximal Delta and finite-rank-cycle characterization for bounded tuples. |
+| dependency | [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004) | Affiliated algebra and matrix foundations; maximal-Delta free-field embedding. |
+| dependency | [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005) | Free atomless selfadjoint base pair has maximal Delta in the sharpness example. |
 | dependency | [Tensor equalizer](Yin_C_F0035_v1.md#yin_c_f0035-p1) | Part A reverse implication over the same-unit division subring F. |
 | dependency | [Fraction calculus](Yin_C_F0034_v1.md#yin_c_f0034-p1) | Part C forward inclusion, defect extensions, fraction and rank independence with E=V_i=M Omega. |
 | dependency | [Fundamental identity](Yin_C_F0033_v1.md#yin_c_f0033-p1) | Part C actual bounded defects satisfy the finite-rank certificate equation. |

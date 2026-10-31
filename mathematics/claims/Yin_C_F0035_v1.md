@@ -129,9 +129,9 @@ This supplement adds precise sources without changing the statement, argument, p
 
 | Existing input in Yin_C_F0035-P1 | Accepted primary source and applicability |
 | --- | --- |
-| Extension of the independent set {1,u} to a right F-basis | [Hun74 IV.2.4, p. 183](../audits/literature/Hun74/Yin_U002_v1.md#division-ring-bases). The printed left-module theorem applies to right modules via F-opposite. The same-unit inclusion makes U a unitary right F-vector space; no commutativity is needed. |
-| Right-linear coordinate functional phi | [Hun74 IV.4.11, p. 204](../audits/literature/Hun74/Yin_U004_v1.md#algebraic-dual), with the explicit right-sided conversion in the audit. The proof uses a single coordinate functional, not finite dimensionality of U or a basis of its full dual. |
-| Balanced tensor and induced additive map Psi | [Hun74 IV.5.1–5.2, pp. 208–209](../audits/literature/Hun74/Yin_U005_v1.md#balanced-tensor). Right F-linearity of phi proves balancing of (x,y) to phi(x)y, exactly as checked in (35.4). The tensor is an abelian group with the stated natural right/left factor actions. |
+| Extension of the independent set {1,u} to a right F-basis | [Hun74 IV.2.4, p. 183](../audits/literature/Hun74/Yin_U002.md#division-ring-bases). The printed left-module theorem applies to right modules via F-opposite. The same-unit inclusion makes U a unitary right F-vector space; no commutativity is needed. |
+| Right-linear coordinate functional phi | [Hun74 IV.4.11, p. 204](../audits/literature/Hun74/Yin_U004.md#algebraic-dual), with the explicit right-sided conversion in the audit. The proof uses a single coordinate functional, not finite dimensionality of U or a basis of its full dual. |
+| Balanced tensor and induced additive map Psi | [Hun74 IV.5.1–5.2, pp. 208–209](../audits/literature/Hun74/Yin_U005.md#balanced-tensor). Right F-linearity of phi proves balancing of (x,y) to phi(x)y, exactly as checked in (35.4). The tensor is an abelian group with the stated natural right/left factor actions. |
 
 These sources identify the logical standard inputs already used by P1.
 Yin_C_F0029 and Yin_C_F0013 remain its **extraction sources**, not proof premises.

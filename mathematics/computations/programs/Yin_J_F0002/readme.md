@@ -3,13 +3,13 @@ author: Yin
 ---
 # miy22-commutators
 
-Context: [Miy22-U003](../../../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003); [Miy22 source units](../../../audits/literature/Miy22/readme.md).
+Context: [Miy22-U003](../../../audits/literature/Miy22/Yin_U003.md#miy22-u003); [Miy22 source units](../../../audits/literature/Miy22/readme.md).
 
 ## Question and scope
 
 Finite exact Fock word actions and adjoint-sign comparisons without intermediate support truncation; the universal identities, closure and analytic scope remain in source audits.
 
-Target: [Miy22-U003](../../../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003), Lemmas 3.2–3.3 and the signs in Remark 3.10.
+Target: [Miy22-U003](../../../audits/literature/Miy22/Yin_U003.md#miy22-u003), Lemmas 3.2–3.3 and the signs in Remark 3.10.
 
 ### Scope and Mathematical Reduction
 
@@ -55,7 +55,7 @@ python mathematics/computations/programs/Yin_J_F0002/main.py
 
 Only the standard library is needed; fixed inputs are in the script.
 The enumeration uses exact integers without floating tolerances or Fock-space truncation.
-The source specification is the journal edition identified in [Miy22-U003](../../../audits/literature/Miy22/Yin_U003_v1.md#miy22-u003), Lemmas 3.2–3.3 on pp. 9–10 and Remark 3.10 on p. 18.
+The source specification is the journal edition identified in [Miy22-U003](../../../audits/literature/Miy22/Yin_U003.md#miy22-u003), Lemmas 3.2–3.3 on pp. 9–10 and Remark 3.10 on p. 18.
 The command uses a suitable available Python interpreter and is a present reproduction instruction, not a newly recorded run.
 The program prints its finite result; no saved output or input dataset is required.
 

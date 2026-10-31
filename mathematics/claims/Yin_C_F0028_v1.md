@@ -201,7 +201,7 @@ This proves condition 2 from condition 1.
 
 This step uses cancellation of scalar polynomial factors in one complex variable.
 It is not an inference from boundedness of an arbitrary compression of a multivariable inverse pencil.
-The [Yin20 formal algorithm](../audits/literature/Yin20/Yin_U001_v1.md#yin20-u001), with its repaired inverse sign, can now linearize this genuinely bounded-domain expression, producing a pencil whose entire inverse is bounded.
+The [Yin20 formal algorithm](../audits/literature/Yin20/Yin_U001.md#yin20-u001), with its repaired inverse sign, can now linearize this genuinely bounded-domain expression, producing a pencil whose entire inverse is bounded.
 
 ## 5. Forward Domains, All Coordinates and Exact Rank
 

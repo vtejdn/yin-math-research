@@ -40,9 +40,9 @@ No reviewer-supplied repair is recorded.
 | --- | --- | --- |
 | [Conclusion](#conclusion) | [C_F0074 statement](../../claims/Yin_C_F0074_v1.md#statement) | Complete ACSY hypothesis, bounded canonical dual and adjoint, bounded nonrational witness, zero commutator for every fraction pair, and nonzero stated boundary. |
 | [Conclusion](#conclusion) | [C_F0074 argument](../../claims/Yin_C_F0074_v1.md#argument) | All four proof sections: Fock signs, represented derivation, actual vacuum, canonical closure, affiliated centralizer and every-fraction calculation. |
-| [Conclusion](#conclusion) | [Miy22-U001](../literature/Miy22/Yin_U001_v1.md#miy22-u001) | Standard finite tracial variance-one Fock identification, creation/deletion word actions, dense polynomial core and affiliated scalar inverse-closure convention. |
-| [Conclusion](#conclusion) | [Voi98-U005](../literature/Voi98/Yin_U005_v1.md#voi98-u005) | Accepted coarse Hilbert tensor to Hilbert--Schmidt realization and outer-action compatibility, translated to the explicitly declared second-variable-linear convention. |
-| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Exact Proposition 3.5 starred derivation and actual vacuum-adjoint premise; no normality or reality requirement imported. |
+| [Conclusion](#conclusion) | [Miy22-U001](../literature/Miy22/Yin_U001.md#miy22-u001) | Standard finite tracial variance-one Fock identification, creation/deletion word actions, dense polynomial core and affiliated scalar inverse-closure convention. |
+| [Conclusion](#conclusion) | [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005) | Accepted coarse Hilbert tensor to Hilbert--Schmidt realization and outer-action compatibility, translated to the explicitly declared second-variable-linear convention. |
+| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Exact Proposition 3.5 starred derivation and actual vacuum-adjoint premise; no normality or reality requirement imported. |
 
 ## Fock relations and the represented derivation
 

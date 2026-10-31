@@ -60,8 +60,8 @@ Its bounded-element full-closure conclusion is proved in Section 5 below.
 - [C_F0031](Yin_C_F0031_v1.md) supplies the finite-rank closure fact.
   The direct adjoint test below gives closability on the full natural domain, as in [C_F0068 Section 5.4](Yin_C_F0068_v1.md#54-full-natural-domains-and-bounded-element-graph-invariance).
 - ACSY24 Proposition 3.5 gives maximal Delta from the starred derivations and actual vacuum adjoints.
-  [ACSY24-U001](../audits/literature/ACSY24/Yin_U001_v1.md#acsy24-u001) records that interface.
-  The free-field conclusion then follows from the accepted [MSY23 interface](../audits/literature/MSY23/Yin_U004_v1.md#msy23-u004).
+  [ACSY24-U001](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) records that interface.
+  The free-field conclusion then follows from the accepted [MSY23 interface](../audits/literature/MSY23/Yin_U004.md#msy23-u004).
 
 In particular, the forward proof uses the existence of abstract finite-rank certificates, not the old sum/product/inverse proof for the actual fraction commutators.
 

@@ -156,7 +156,7 @@ Compression and traciality justify this step without assuming that \(e\) commute
 
 ## Source coverage and accepted foundations
 
-The main declared source is [Voi98-U005](../literature/Voi98/Yin_U005_v1.md#voi98-u005), specifically its subsection on the semicircular model and sign correction.
+The main declared source is [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005), specifically its subsection on the semicircular model and sign correction.
 The reviewer read that interface and checked the extracted primary text of Voi98, Section 5.13, printed pp. 212-213, PDF pp. 24-25 of the locally registered published journal article.
 Those passages give the full Fock left/right creation model, the vacuum commutators, and the standard tracial representation.
 The source uses \(s(h)=(\ell(h)+\ell(h)^*)/2\); the present \(X_j\) is \(s(2e_j)\), of variance one.
@@ -164,7 +164,7 @@ The source's printed imaginary-part sign is not imported: the needed real orthon
 No general unbounded-dual theory or source Section 5.14 restriction assertion is used.
 
 Standard finite-tracial affiliated-operator algebra, spectral calculus, and polar decomposition remain accepted foundations.
-As a background comparison of the bounded-fraction and regularity conventions, the reviewer also read [Miy22-U006](../literature/Miy22/Yin_U006_v1.md#miy22-u006) and checked the extracted primary Section 4 opening and Lemma 4.3 on printed/PDF p. 19 of the registered published Miy22 article.
+As a background comparison of the bounded-fraction and regularity conventions, the reviewer also read [Miy22-U006](../literature/Miy22/Yin_U006.md#miy22-u006) and checked the extracted primary Section 4 opening and Lemma 4.3 on printed/PDF p. 19 of the registered published Miy22 article.
 That source records bounded fractions and the injective/dense-range meaning of regularity in this same semicircular setting.
 It displays exponent \(-1\); the exponent \(-1/2\) used here is independently justified by the explicit scalar functions in finding 3.
 This consultation checks background terminology and compatibility; it is not newly selected proof support or an added source-proof dependency.

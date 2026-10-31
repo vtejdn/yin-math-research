@@ -36,8 +36,8 @@ These are bounded source-statement and applicability checks; no new audit of the
 | --- | --- | --- |
 | [Conclusion](#conclusion) | [C_F0076 statement](../../claims/Yin_C_F0076_v1.md#statement) | All three parts: diffuse phase values and closability, actual joint closed-graph domains and all eight phase-derivative bounds, full starred-core domains and both coassociativity identities. |
 | [Conclusion](#conclusion) | [C_F0076 argument](../../claims/Yin_C_F0076_v1.md#argument) | Complete five-section argument, including the actual four-dimensional C1 approximation, soft-kernel domination, weak joint graph limit, bounded spatial product rules and cancellation. |
-| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Proposition 3.5 at its exact represented starred-domain and actual-vacuum premise, and Lemma 3.3's dense algebraic-tensor adjoint-domain implication; the latter statement was additionally checked in the original published pp.34-35. |
-| [Conclusion](#conclusion) | [MSY23-U002](../literature/MSY23/Yin_U002_v1.md#msy23-u002) | Maximal Delta is equivalent to absence of nonzero finite-rank right-multiplication cycles; used to exclude every spectral atom of each normal coordinate. |
+| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Proposition 3.5 at its exact represented starred-domain and actual-vacuum premise, and Lemma 3.3's dense algebraic-tensor adjoint-domain implication; the latter statement was additionally checked in the original published pp.34-35. |
+| [Conclusion](#conclusion) | [MSY23-U002](../literature/MSY23/Yin_U002.md#msy23-u002) | Maximal Delta is equivalent to absence of nonzero finite-rank right-multiplication cycles; used to exclude every spectral atom of each normal coordinate. |
 | [Conclusion](#conclusion) | [C_F0055 Sections 4-5](../../claims/Yin_C_F0055_v1.md#5-vacuum-control-of-all-soft-cauchy-transforms) | Exact scalar actual-vacuum soft-Cauchy estimate, positive Q_t formula and limiting curvature bound, after verifying compact support, nonatomicity and the marginal projected vacuum. No free-product lifting or full-M conclusion is imported. |
 | [Conclusion](#conclusion) | [C_F0073 Part A](../../claims/Yin_C_F0073_v1.md#argument) | Actual-vacuum conjugation for the derivation epsilon, including complex linearity, outer Leibniz rule and vacuum xi star. No later symmetry or bare-dual hypothesis is used. |
 
@@ -80,7 +80,7 @@ The [VV16 accepted-version PDF](https://eprints.whiterose.ac.uk/id/eprint/106084
 The dimension is arbitrary; d=4,m=1 is admissible.
 Rescale the box and apply the real statement separately to real and imaginary parts.
 The function is globally C1, so no boundary extension is needed.
-The earlier [VV16-U001](../literature/VV16/Yin_U001_v1.md#vv16-u001) retains its original d=2 application; this review does not rewrite that scope or claim a source-proof audit.
+The earlier [VV16-U001](../literature/VV16/Yin_U001.md#vv16-u001) retains its original d=2 application; this review does not rewrite that scope or claim a source-proof audit.
 
 The candidate's elementary finite-difference argument also supplies this approximation: the derivative of the tensor Bernstein polynomial is the positive binomial average of a first finite difference, which is an interval average of the continuous first derivative.
 Uniform continuity and uniform concentration give convergence of that derivative; the corresponding argument gives convergence of the function.

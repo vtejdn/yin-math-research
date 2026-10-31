@@ -79,7 +79,7 @@ The local search checked Yin_C_F0025's canonical coarse derivations, Yin_C_F0028
 Yin_C_F0028 already handles the single normal coordinate; the new statement is useful for several normal coordinates.
 That dense-left-module argument does not by itself apply to a polynomial core.
 
-The primary source [Dabrowski, arXiv:0804.2906v2](https://arxiv.org/pdf/0804.2906), printed p. 9, was reread at the full proof of Lemma 10 and the statement and proof of Lemma 12, after consulting [Dab10-U002](../audits/literature/Dab10/Yin_U002_v1.md#dab10-u002).
+The primary source [Dabrowski, arXiv:0804.2906v2](https://arxiv.org/pdf/0804.2906), printed p. 9, was reread at the full proof of Lemma 10 and the statement and proof of Lemma 12, after consulting [Dab10-U002](../audits/literature/Dab10/Yin_U002.md#dab10-u002).
 Its contraction calculation uses both reality and coassociativity of selfadjoint free difference quotients.
 The source is not a theorem about unitary generators.
 The modified calculation below accounts for the nonzero coassociativity defect explicitly.

@@ -80,11 +80,11 @@ These input locators identify the complete accepted proof versions used in this 
 There is no mathematical dependence on a scratch artifact.
 External representation/minimality interfaces are retained at the scopes recorded by these modules, rather than re-audited or silently strengthened here.
 
-Existence of a full affine representation for every free-field element is the precise accepted interface of [Yin20-U001, Sections4--6](../audits/literature/Yin20/Yin_U001_v1.md#yin20-u001), reconstructing Theorem IV.3.2 by the corrected Algorithm IV.3.4.
+Existence of a full affine representation for every free-field element is the precise accepted interface of [Yin20-U001, Sections4--6](../audits/literature/Yin20/Yin_U001.md#yin20-u001), reconstructing Theorem IV.3.2 by the corrected Algorithm IV.3.4.
 The finite expression recursion and explicit sum/product/inverse block identities produce a full affine pencil over the free field; applying its faithful embedding gives the corresponding affiliated inverse.
 The present use retains that algebraic existence theorem, not a bounded matrix inverse conclusion.
 Among the nonempty set of representation sizes choose a least one.
-Separate linear independence of its left and right states is then the distinct accepted interface [CR94-U001](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001).
+Separate linear independence of its left and right states is then the distinct accepted interface [CR94-U001](../audits/literature/CR94/Yin_U001.md#cr94-u001).
 That latter source is not used to assert representation existence.
 
 ## 3. Bounded rational elements have finite L2 derivative tensors
@@ -219,8 +219,8 @@ Original coarse graphs and normalized full-domain invariance are recovered witho
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Exact original polynomial dual hypotheses, normalized coarse derivations, free-field embedding, weak-form normalization invariance and the reverse bounded implication. |
 | dependency | [Exact material](Yin_C_F0062_v1.md#decision-candidate-0002) | Minimal left and right L2 state recovery from finite rational derivative tensors and actual original compressed output graphs; no full inverse L2 premise. |
 | dependency | [Exact material](Yin_C_F0063_v1.md#decision-candidate-0002) | Actual liberation finite-defect derivation and finite-support deconvolution, applied with the bounded fraction pair (1,f,f,1), to place formal rational derivatives in algebraic L2 tensors. |
-| dependency | [Exact source input](../audits/literature/Yin20/Yin_U001_v1.md#yin20-u001) | Previously accepted Sections 4–6 corrected affine-existence construction. |
-| dependency | [Exact source input](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001) | Previously accepted distinct least-size left/right state independence, without an invertible constant coefficient. |
+| dependency | [Exact source input](../audits/literature/Yin20/Yin_U001.md#yin20-u001) | Previously accepted Sections 4–6 corrected affine-existence construction. |
+| dependency | [Exact source input](../audits/literature/CR94/Yin_U001.md#cr94-u001) | Previously accepted distinct least-size left/right state independence, without an invertible constant coefficient. |
 | review | [Original finding](../audits/reviews/Yin_R_F0078_v1.md#closed-domain-statement-and-boundary) | Unknown initial context; whole six-section bounded weak-form equivalence and normalized graph invariance, with distinct affine-existence and state-independence inputs. |
 
 
@@ -239,8 +239,8 @@ Original coarse graphs and normalized full-domain invariance are recovered witho
 | dependency | [Exact material](Yin_C_F0025_v1.md#decision-candidate-0002) | Exact original polynomial dual hypotheses, normalized coarse derivations, free-field embedding, weak-form normalization invariance and the reverse bounded implication. |
 | dependency | [Exact material](Yin_C_F0062_v1.md#decision-candidate-0002) | Minimal left and right L2 state recovery from finite rational derivative tensors and actual original compressed output graphs; no full inverse L2 premise. |
 | dependency | [Exact material](Yin_C_F0063_v1.md#decision-candidate-0002) | Actual liberation finite-defect derivation and finite-support deconvolution, applied with the bounded fraction pair (1,f,f,1), to place formal rational derivatives in algebraic L2 tensors. |
-| dependency | [Exact source input](../audits/literature/Yin20/Yin_U001_v1.md#yin20-u001) | Previously accepted Sections 4–6 corrected affine-existence construction. |
-| dependency | [Exact source input](../audits/literature/CR94/Yin_U001_v1.md#cr94-u001) | Previously accepted distinct least-size left/right state independence, without an invertible constant coefficient. |
+| dependency | [Exact source input](../audits/literature/Yin20/Yin_U001.md#yin20-u001) | Previously accepted Sections 4–6 corrected affine-existence construction. |
+| dependency | [Exact source input](../audits/literature/CR94/Yin_U001.md#cr94-u001) | Previously accepted distinct least-size left/right state independence, without an invertible constant coefficient. |
 | review | [New whole independent finding](../audits/reviews/Yin_R_F0078_v1.md#f0106-whole-independent-20261023) | Complete current fixed proof at the exact hypotheses and limits stated in the new finding; earlier unknown relationships and their historical adoption are not reclassified. |
 
 ## Historical assessments
@@ -275,11 +275,11 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 ## Recorded review scopes
 
-Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/Yin20/Yin_U001_v1.md); [Exact material](../audits/literature/CR94/Yin_U001_v1.md).
+Accompanying material (original association; no added proof premise): [Exact material](../audits/literature/Yin20/Yin_U001.md); [Exact material](../audits/literature/CR94/Yin_U001.md).
 
 Whole six-section assembly and both actual proof interfaces: all bounded elements, both implications for specified original polynomial weak forms, zero and constants, affine existence and minimal independence, finite L2 rational tensors, minimal states, actual original coarse graphs and normalized closure/adjoint invariance.
 No unnormalized full-domain invariance or arbitrary raw fraction-domain equality is inferred.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0078_v1.md#historical-f0106).
 
-Material covered by that review: [Exact material](../audits/literature/CR94/Yin_U001_v1.md); [Exact material](../audits/literature/Yin20/Yin_U001_v1.md); [Exact material](Yin_C_F0064_v1.md).
+Material covered by that review: [Exact material](../audits/literature/CR94/Yin_U001.md); [Exact material](../audits/literature/Yin20/Yin_U001.md); [Exact material](Yin_C_F0064_v1.md).

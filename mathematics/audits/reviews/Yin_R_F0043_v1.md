@@ -37,8 +37,8 @@ No review of the two unresolved general questions is inferred from the present s
 | [Conclusion](#conclusion) | [C_F0070 source relationship](../../claims/Yin_C_F0070_v1.md#source-relationship-and-limits) | Exact dependency scopes, prior mechanism attribution, actual canonical closure and unproved general-implication boundaries. |
 | [Conclusion](#conclusion) | [C_F0069 statement](../../claims/Yin_C_F0069_v1.md#statement) | Part A automatic M-to-H boundedness and diffuseness applied to each diagonal generator relation; unchanged complete support reused from R_F0042. |
 | [Conclusion](#conclusion) | [C_F0069 argument](../../claims/Yin_C_F0069_v1.md#argument) | Part A interface only, with bare full-domain operators, normal coordinates and no closability or adjoint premise. |
-| [Conclusion](#conclusion) | [CS77-U001](../literature/CS77/Yin_U001_v1.md#cs77-u001) | Exact bounded-map Fuglede specialization on B(M,H), including its hermitian generators and absence of a required H-to-H extension. |
-| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Theorem 3.4 closability of the specified canonical starred core and the actual vacuum-adjoint definition used in Parts B and C. |
+| [Conclusion](#conclusion) | [CS77-U001](../literature/CS77/Yin_U001.md#cs77-u001) | Exact bounded-map Fuglede specialization on B(M,H), including its hermitian generators and absence of a required H-to-H extension. |
+| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Theorem 3.4 closability of the specified canonical starred core and the actual vacuum-adjoint definition used in Parts B and C. |
 
 ## Kernel and bounded-map commutation checks
 

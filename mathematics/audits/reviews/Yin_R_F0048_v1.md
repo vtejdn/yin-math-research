@@ -208,7 +208,7 @@ C_F0072 and the relevant C_F0073 reductions rely on C_F0070, while C_F0070 does 
 The proof never imports C_F0073's additional reversal symmetry or freely independent special case.
 
 The finite-rank assertion is supplied by C_F0031's complete elementary Hilbert-space proof, which was also rechecked: density of the adjoint domain and finite-dimensional projection give bounded coordinate functionals, hence a bounded extension; density and closedness of the finite-dimensional range preserve the actual range.
-The [Kat95 selected source check](../literature/Kat95/Yin_U001_v1.md#selected-citation-check) identifies Problem III.5.18 as a boundedness problem statement on printed p.166 / PDF p.189 and the extension passage in III.2.2 on printed p.145 / PDF p.168.
+The [Kat95 selected source check](../literature/Kat95/Yin_U001.md#selected-citation-check) identifies Problem III.5.18 as a boundedness problem statement on printed p.166 / PDF p.189 and the extension passage in III.2.2 on printed p.145 / PDF p.168.
 Its stronger all-H/range consequences are stated as elementary applicability deductions.
 That source attribution does not act as a fifth unverified mathematical dependency or claim that the inspected problem includes a proof.
 The retained source-reading limits remain unchanged.

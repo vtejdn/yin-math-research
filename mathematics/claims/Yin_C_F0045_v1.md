@@ -22,7 +22,7 @@ Current assessment, 2026-09-11: registered as ordinary **Yin_C_F0045** after [co
 Freeness lifts a single marginal infinity-to-2 estimate to both original all-M domains, with the quantitative constants below.
 This includes the Yin_C_F0044 geometric marginal class and restores the original unstarred affiliated criterion.
 This assessment supersedes the initial pending label; arbitrary marginal estimates and correlated normal tuples remain unresolved.
-The selected external inequality is indexed in [Pis12-U001](../audits/literature/Pis12/Yin_U001_v1.md#pis12-u001).
+The selected external inequality is indexed in [Pis12-U001](../audits/literature/Pis12/Yin_U001.md#pis12-u001).
 No Role or lemma extraction is assigned.
 
 ## 1. Exact statement
@@ -81,7 +81,7 @@ For a fixed j only (2) for that j is needed for its two bounds.
 
 ## 2. Reuse and the remaining imported functional-analytic input
 
-The local reuse check read Yin_C_F0025's canonical normalization and normal phase kernel, [Yin_C_F0044](Yin_C_F0044_v1.md#yin_c_f0044) and its exact infinity-to-2 estimate, [Yin_C_F0043's original-operator graph restoration](Yin_C_F0043_v1.md#7-restoring-the-original-operators-and-their-adjoints), and [Voi98-U005](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005), especially its reconstruction of the free-product Hilbert space and right end actions in Sections 5.5-5.8.
+The local reuse check read Yin_C_F0025's canonical normalization and normal phase kernel, [Yin_C_F0044](Yin_C_F0044_v1.md#yin_c_f0044) and its exact infinity-to-2 estimate, [Yin_C_F0043's original-operator graph restoration](Yin_C_F0043_v1.md#7-restoring-the-original-operators-and-their-adjoints), and [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005), especially its reconstruction of the free-product Hilbert space and right end actions in Sections 5.5-5.8.
 The latter audit already separates the correct right lift from the invalid compressed formula in the source.
 The currently used action is a right end action, and is checked directly on the full polynomial core below.
 

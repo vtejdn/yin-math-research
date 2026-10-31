@@ -22,8 +22,8 @@ The target is the uncommitted [C_F0070 v2 statement](../../claims/Yin_C_F0070_v2
 | [Conclusion](#conclusion) | [Argument](../../claims/Yin_C_F0070_v2.md#argument) | New S1-S10 cutoff proof, scalar-c version, and assembly with retained S11-S19 and actual vacuum calculation. |
 | [Conclusion](#conclusion) | [Cutoff proof](../../claims/Yin_C_F0070_v2.md#proof-by-continuous-cutoffs-and-finite-averaging) | Boundedness, Jacobi, Fuglede, null-boundary cutoffs, finite averaging and kernel convergence. |
 | [Conclusion](#conclusion) | [Automatic boundedness](../../claims/Yin_C_F0069_v1.md#statement) | Actual Part A interface used for the supplied full-domain normal duals. |
-| [Conclusion](#conclusion) | [CS77-U001](../literature/CS77/Yin_U001_v1.md#cs77-u001) | Accepted bounded-map Fuglede specialization on B(M,H), with no Hilbert-space bound on E or F. |
-| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001_v1.md#acsy24-u001) | Actual starred-core closure under the vacuum-adjoint hypothesis, used only in Part B. |
+| [Conclusion](#conclusion) | [CS77-U001](../literature/CS77/Yin_U001.md#cs77-u001) | Accepted bounded-map Fuglede specialization on B(M,H), with no Hilbert-space bound on E or F. |
+| [Conclusion](#conclusion) | [ACSY24-U001](../literature/ACSY24/Yin_U001.md#acsy24-u001) | Actual starred-core closure under the vacuum-adjoint hypothesis, used only in Part B. |
 
 ## Changed proof and decisive checks
 

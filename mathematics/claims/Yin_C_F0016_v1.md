@@ -59,7 +59,7 @@ K_i=\frac{D_i-D_i^*}{2},\qquad Y_i=-iK_i.
 \]
 
 Each $Y_i$ is bounded selfadjoint, $\|Y_i\|\leq\|D_i\|$, and $[X_j,Y_i]=i\delta_{ij}P_\Omega$.
-These are exactly the [Voi98-U005, Section 5.10](../audits/literature/Voi98/Yin_U005_v1.md#voi98-u005) conventions.
+These are exactly the [Voi98-U005, Section 5.10](../audits/literature/Voi98/Yin_U005.md#voi98-u005) conventions.
 With $J\widehat a=\widehat{a^*}$, its conjugate formula gives
 
 \[
@@ -76,7 +76,7 @@ Therefore
 \tag{2}
 \]
 
-This is the already reviewed convention conversion in [Dab10-U001](../audits/literature/Dab10/Yin_U001_v1.md#dab10-u001).
+This is the already reviewed convention conversion in [Dab10-U001](../audits/literature/Dab10/Yin_U001.md#dab10-u001).
 Its factoriality theorem is not needed here.
 Selfadjointness is used in taking adjoints; the argument is not asserted for an arbitrary normal tuple.
 
@@ -117,7 +117,7 @@ The density $w(t)=4t^3\mathbf1_{(0,1)}(t)$ is compactly supported and
 \int_{\mathbb R}w(t)^3\,dt=\frac{32}{5}<\infty.
 \]
 
-The [Voi98-U002, Proposition 3.5](../audits/literature/Voi98/Yin_U002_v1.md#voi98-u002) Hilbert-transform construction therefore supplies an $L^2$ conjugate variable and $\Phi^*(h)<\infty$.
+The [Voi98-U002, Proposition 3.5](../audits/literature/Voi98/Yin_U002.md#voi98-u002) Hilbert-transform construction therefore supplies an $L^2$ conjugate variable and $\Phi^*(h)<\infty$.
 But $h^{-1}\in F_h\cap L^2(M_0)\setminus M_0$, by the same integral above.
 This calculation does not use the source's disputed introductory cubic-density normalization for Fisher information.
 
@@ -270,7 +270,7 @@ Query families were: free Fisher information and $L^3$ densities; $q$-Gaussian c
 Only primary author/preprint/publisher material is used above.
 
 Parsed online PDFs inspected: MS23 v3, 30 pages, selected pp. 5-7, 17, 20-25; KS07's 27-page arXiv v2, selected pp. 2-3; GS14's 37-page arXiv v3, selected pp. 3-4 and 29.
-Bibliographic identities are owned by the [literature registry](../literature/readme.md).
+Bibliographic identities are owned by the [canonical bibliography](../literature/references.bib).
 Journal versions were not compared with these preprints.
 Direct versioned MS23 PDF/HTML access and the author-hosted KS07 PDF failed; the unversioned arXiv PDF URLs succeeded, with versions checked from their title pages and records.
 No PDF was downloaded or retained.

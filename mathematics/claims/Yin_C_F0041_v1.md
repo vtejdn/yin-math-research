@@ -69,7 +69,7 @@ We first restore both domains for the restriction to P_S and then prove that its
 We do not assert that S_i belongs to the unstarred rational algebra of X.
 
 Inputs already checked before this proof: Yin_C_F0025's spectral phase and polynomial adjoint formulas; Yin_C_F0040 Sections 3.1-3.3 for inner multipliers and reconstruction; Dab10-U002 for the selfadjoint finite-Fisher contractions and both actual domain estimates; Yin_C_F0027 Section 5 for weak closed graphs and Kaplansky density.
-The additional accepted approximation input is [Tre17-U001](../audits/literature/Tre17/Yin_U001_v1.md#tre17-u001), Lemma 5.1.
+The additional accepted approximation input is [Tre17-U001](../audits/literature/Tre17/Yin_U001.md#tre17-u001), Lemma 5.1.
 No bounded matrix-inverse representation is inferred from a bounded affiliated output.
 
 ## 2. Restrict to the auxiliary selfadjoint polynomial algebra
