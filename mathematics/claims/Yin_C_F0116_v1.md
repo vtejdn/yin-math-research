@@ -14,7 +14,7 @@ author: Yin
 Date: 2026-09-16.
 Human record author: Yin.
 Developed by another AI agent; transcribed and edited by the coordinator.
-Independent review is recorded separately.
+The original complete proof review is recorded separately with its [input-relationship limits](../audits/reviews/Yin_R_F0097_v1.md#review-relationships).
 This statement concerns the specified finite family, not the full general T_F0007 contract.
 
 <a id="finite-free-square-zero-positive-support"></a>
@@ -304,7 +304,8 @@ Review: [Exact material](../audits/reviews/Yin_R_F0097_v1.md).
 
 Material covered by that review: [Exact material](Yin_C_F0116_v1.md).
 
-Yin_C_F0116 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete independent mathematical review at its unchanged scope.
+Yin_C_F0116 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete mathematical review at its unchanged scope.
+The original independent description is historical; the [R_F0097 relationship disclosure](../audits/reviews/Yin_R_F0097_v1.md#review-relationships) retains the unestablished initial input conditions.
 No new whole-proof independent review, proof change, dependency change or Task completion.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0103_v1.md#c-f0095-applicability).

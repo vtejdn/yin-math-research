@@ -13,7 +13,7 @@ author: Yin
 
 Provenance: project deduction, 2026-09-11.
 Initial assessment: proof draft, awaiting separate review.
-Current assessments are recorded in the [selected assessment](#decision-candidate-0002).
+Current assessments are recorded in the [selected assessment](#current-assessment).
 No novelty claim is made.
 Proof dependencies: [Yin_C_F0017](Yin_C_F0017_v1.md#yin_c_f0017), [Miy22-U002](../audits/literature/Miy22/Yin_U002.md#miy22-u002), [Miy26-U005](../audits/literature/Miy26/Yin_U005.md#miy26-u005), and the usual Banach-algebra spectral-radius and polynomial spectral-mapping theorems already used in Miy26-U003.
 

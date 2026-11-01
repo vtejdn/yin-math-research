@@ -20,7 +20,7 @@ Initial assessment: complete proof draft awaiting independent review.
 
 Current assessment, 2026-09-11: [the independent complete review](../audits/reviews/Yin_R_F0114_v1.md#4-quadratic-formula-and-boundary-checks) accepts Yin_C_F0104, including the original-adjoint recovery and explicit quadratic correction.
 This dated acceptance supersedes the initial candidate disposition.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 ## 1. Reuse and the exact analytic input
 

@@ -14,6 +14,20 @@ Exact definition homes and conventions: NS06: [probability space and operator te
 
 Recorded consumer navigation: Statement/proof uses of the specified models: [Yin_C_F0017](../ledger/Yin_L_F0004_v1.md#yin_c_f0017-definitions), [Yin_C_F0019](../ledger/Yin_L_F0004_v1.md#yin_c_f0019-definitions).
 
+### Brown measure
+
+Exact definition home and convention: [BZ22's bounded finite-tracial logarithmic-potential normalization](../audits/literature/BZ22/Yin_U001.md#brown-measure-convention).
+
+Recorded consumer navigation: Brown measure in [Yin_C_F0094's product-spectrum statement](../claims/Yin_C_F0094_v1.md#statement) and [proof version 2's normal-source density argument](../claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair).
+
+<a id="r-diagonal-additive-free-infinite-divisibility"></a>
+### Additive free infinite divisibility for R-diagonal elements
+
+Exact definition home and conventions: [KPZ26's bounded finite-tracial additive definition and source-hypothesis conversion](../audits/literature/KPZ26/Yin_U001.md#definition-and-hypothesis-conversion).
+This is distinct from multiplicative infinite divisibility of the modulus and from R-diagonality alone.
+
+Recorded consumer navigation: Sufficient-class use in [Yin_C_F0094's statement](../claims/Yin_C_F0094_v1.md#statement); homogeneous-spectrum application and mixed-degree comparison in [Yin_L_F0023, Sections 2](../ledger/Yin_L_F0023_v1.md#2-a-broad-full-spectrum-class-already-covered-by-literature) and [3](../ledger/Yin_L_F0023_v1.md#3-what-the-mixed-degree-comparison-gives-for-miy26s-recurrence).
+
 <a id="closure-operations"></a>
 ### Scalar division closure and matrix rational closure
 
@@ -182,3 +196,12 @@ Their direct model consumer is the [two-projection comparison](../ledger/Yin_L_F
 
 The [finite rectangular matrix normalization](../audits/literature/NS06/Yin_U003.md#exact-finite-matrix-adaptation) and [tracial free-Poisson Wick conventions](../audits/literature/Yan25/Yin_U001.md#yan25-fock-interface) retain their separate rate and trace choices.
 Their recorded proof consumers are the [finite-corner spectral transfer](../claims/Yin_C_F0095_v1.md#statement) and [all-positive-rate spectral result](../claims/Yin_C_F0096_v1.md#statement).
+
+<a id="iterated-holomorphic-tests"></a>
+### Iterated signed-dual tests
+
+Exact definition home and conventions: [Yin_C_F0118's closed iterated-test subspace](../claims/Yin_C_F0118_v1.md#3-iterated-tests-characterize-finite-holomorphic-polynomials), including the zero-length test, in its canonical finite q-Gaussian model with bounded normalized signed duals.
+
+Recorded consumer navigation: [Yin_C_F0107, Section 8](../claims/Yin_C_F0107_v1.md#8-what-is-now-automatic-for-holomorphic-q-circular-rationals) uses the subspace for rational-state inclusion and conditional reconstruction.
+[Yin_C_F0109, Section 1](../claims/Yin_C_F0109_v1.md#1-question-and-reuse-boundary) uses the finite-test input and retains the unresolved Hilbert-space totality target.
+Yin_C_F0111 uses it in the [nilpotent-vector criterion](../claims/Yin_C_F0111_v1.md#4-nilpotent-iterated-kernel-vectors-are-positive-polynomials) and the [conditional exponential-tail criterion](../claims/Yin_C_F0111_v1.md#6-a-separate-tail-criterion-for-general-iterated-kernel-vectors), retaining their additional hypotheses.

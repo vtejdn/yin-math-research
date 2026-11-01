@@ -2,7 +2,7 @@
 author: Yin
 ---
 
-# Independent internal review: finite free square-zero positive support
+# Internal review: finite free square-zero positive support
 
 Review completed: 2026-09-16.
 Human record author: Yin.
@@ -13,6 +13,13 @@ Reviewed Claim: [Yin_C_F0116_v1](../../claims/Yin_C_F0116_v1.md#decision-candida
 Complete reviewed statement and supporting proof: [Yin_C_F0116_v1.md](../../claims/Yin_C_F0116_v1.md#finite-free-square-zero-positive-support), introductory statement and Sections 1--6.
 Consumer context: [Yin_T_F0007_v1](../../tasks/Yin_T_F0007_v1.md#decision-candidate-0001).
 
+## Review relationships
+
+| Review | Relationship |
+| --- | --- |
+| [Complete finite-family proof review](#finite-family-proof-review) | unknown |
+
+<a id="finite-family-proof-review"></a>
 **Verdict: pass for both conclusions for every finite integer m>=1.**
 In the specified reduced free product of m normalized-trace M2 factors, every bounded element of the affiliated scalar division closure of `A=C<x_1,...,x_m>`, with `x_i=e12^(i)`, has positive-word Fourier support and belongs to the bounded scalar division closure of the same A.
 Unbounded intermediate affiliated inverses are included.
@@ -22,10 +29,15 @@ No conclusion about arbitrary proper non-star or diffuse inputs is accepted.
 
 The reviewer did not invent, develop or write the terminal-block construction or its affiliated-closure proof.
 The reviewer had independently reviewed the earlier C_F0113 conditional reconstruction and was familiar with the same C_F0106/DR97 interface.
-The coordinator first supplied the author's proposed core mechanism; the reviewer independently checked the local matrices, boundary commutations, actual affiliated domains and trace ordering, reporting provisional findings before receiving the fixed full proof.
+The coordinator first supplied the author's proposed core mechanism; the reviewer checked the local matrices, boundary commutations, actual affiliated domains and trace ordering, reporting provisional findings before receiving the fixed full proof.
 Those checks were communicated to the coordinator and author; no correction or additional hypothesis was requested.
 The present review then read and checked the complete fixed proof, including its finite-m reconstruction and scope.
 This is separately organized internal AI review with disclosed prior subject familiarity and shared context, not blind review or external human review.
+
+Relationship clarification, 2026-11-01T12:28: the original record described this review as independent.
+The retained arrangement account and its available Git version do not identify whether the initial mechanism was the proof candidate under review or additional substantive author explanation or development context.
+The initial input's role remains unknown, so an independent relationship is not established under the [review-arrangement rule](../../../framework/rules/proof-audits.md#review-arrangements).
+The earlier checks, their communication and the subsequent complete-proof inspection retain their stated scope and historical date; this clarification records no new mathematical review or proof defect.
 
 The **only necessary direct Claim dependency** is [Yin_C_F0106_v1](../../claims/Yin_C_F0106_v1.md#decision-candidate-0002).
 Its actual finite-factor residual and state construction is used; its full-star scalar closure conclusion alone would not imply the present non-star conclusion.

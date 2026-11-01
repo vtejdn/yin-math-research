@@ -100,7 +100,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0093](Yin_R_F0093_v1.md) | Independent review of sum normalization and the full fraction-commutator criterion | [v1](Yin_R_F0093_v1.md) |
 | [Yin_R_F0095](Yin_R_F0095_v1.md) | C_F0092 bounded derivative-contraction duals: whole-candidate self-review | [v1](Yin_R_F0095_v1.md) |
 | [Yin_R_F0096_v1](Yin_R_F0096_v1.md) | Contract review of Miy26 spectral generalization | [v1](Yin_R_F0096_v1.md) |
-| [Yin_R_F0097_v1](Yin_R_F0097_v1.md) | Independent internal review: finite free square-zero positive support | [v1](Yin_R_F0097_v1.md) |
+| [Yin_R_F0097_v1](Yin_R_F0097_v1.md) | Internal review: finite free square-zero positive support | [v1](Yin_R_F0097_v1.md) |
 | [Yin_R_F0098_v1](Yin_R_F0098_v1.md) | Independent review: two free square-zero matrix-unit algebras | [v1](Yin_R_F0098_v1.md) |
 | [Yin_R_F0099_v1](Yin_R_F0099_v1.md) | Complete independent review of Yin_C_F0115_v1 | [v1](Yin_R_F0099_v1.md) |
 | [Yin_R_F0100_v1](Yin_R_F0100_v1.md) | Complete independent review of Yin_C_F0117_v1 | [v1](Yin_R_F0100_v1.md) |

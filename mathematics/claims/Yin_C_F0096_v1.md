@@ -17,7 +17,7 @@ Goal: [Yin_T_F0004](../tasks/Yin_T_F0004_v1.md).
 Strategy: [Yin_S_F0014](../strategies/Yin_S_F0014.md).
 Initial assessment: complete candidate proof, awaiting independent review.
 No historical novelty claim is made.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 ## Statement
 

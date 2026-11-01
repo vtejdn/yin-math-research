@@ -4,8 +4,8 @@ Direct truncated geometric-series multiplication is independent of the six-state
 recurrence. Gaussian rational arithmetic avoids floating-point tolerances.
 Current reproduction from the repository root:
   .venv/Scripts/python.exe mathematics/computations/programs/Yin_J_F0007/main.py
-On POSIX use .venv/bin/python for the same command. Install the shared
-mathematics/computations/requirements.txt first; this instruction records no new run.
+On POSIX use .venv/bin/python for the same command.
+No third-party dependencies are required; this instruction records no new run.
 """
 
 from dataclasses import dataclass

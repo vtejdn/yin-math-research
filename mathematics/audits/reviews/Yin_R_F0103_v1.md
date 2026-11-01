@@ -45,7 +45,7 @@ Human record author: Yin.
 The human authorized a scoped rule and evidence comparison for these Claims.
 This was a targeted maintenance recheck after the agent knew the previous diagnosis and conclusions, not a new independent whole-proof review.
 The agent read the original reviews and compared their actual statement coverage, direct-input disclosures and correction passages with the selected mathematical materials.
-The original separately organized mathematical reviews remain the basis of the retained independently reviewed classification, with no blind, human or external review inferred.
+The original mathematical reviews retain their checked scopes and limitations; each responsible review record owns its actual input disclosure and relationship.
 
 ## Per-Claim findings
 
@@ -86,6 +86,8 @@ The findings concern the inspected historical second assessments and their actua
 | Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
 | --- | --- | --- | --- |
 | C_F0116 | Complete finite-family support, terminal commutation, actual closed affiliated operations and adjoint-free reconstruction | [C_F0106 (recorded assessment 2)](../../claims/Yin_C_F0106_v1.md#decision-candidate-0002) | PASS. Every finite m>=1 in the specified normalized M2 family is covered. C_F0112/C_F0113 are precedent rather than premises. The generic bounded-T lemma is explicit and is the interface later used by C_F0117. |
+
+The [original R_F0097 review](Yin_R_F0097_v1.md#review-relationships) owns its input disclosure and relationship limits; this applicability finding does not establish the initial mechanism's input conditions.
 
 <a id="c-f0096-applicability"></a>
 ### C_F0117

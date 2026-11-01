@@ -17,7 +17,7 @@ Goal: [Yin_T_F0004](../tasks/Yin_T_F0004_v1.md).
 Strategy: [Yin_S_F0014](../strategies/Yin_S_F0014.md).
 Initial mathematical assessment: complete proof draft, awaiting independent review.
 No novelty claim is made.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 This record extends the scalar rational-image observation in the [Yin_T_F0004 exploration](../ledger/Yin_L_F0023_v1.md#4-direct-positive-families-for-the-all-rational-inverse-criterion) to finite matrices and corners.
 The reuse search checked Yin_C_F0015, Yin_C_F0017, the Miy26 rational-L2 audit, existing rational-coordinate transfers and the local NS06 cumulant/compression chapters before the proof below.
