@@ -121,4 +121,3 @@ No new search, numerical experiment, theorem promotion or Yin_T_F0001 completion
 The two-state test produced Yin_C_F0012: actual minimal monic states and the entire inverse can be L2 and unbounded, with finite-rank commutators and no alternative bounded scalar expression.
 The universal bounded-state upgrade is false.
 Yin_S_F0006 emerged from Yin_S_F0005; Yin_S_F0002's coordinating bounded-descent target includes that failed universal upgrade.
-No old ID or argument was deleted, and no replacement goal was created.

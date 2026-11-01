@@ -70,4 +70,3 @@ The old model-specific record remains paused; its mechanism and exact distinctio
 No further model was selected before the original goal was resolved.
 This model-specific mechanism is not refuted; it can be reconsidered for an explicit authorized restricted problem.
 Yin_S_F0006 emerged from Yin_S_F0005; Yin_S_F0002's coordinating bounded-descent target includes that failed universal upgrade.
-No old ID or argument was deleted, and no replacement goal was created.

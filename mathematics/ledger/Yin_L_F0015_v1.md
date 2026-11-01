@@ -60,7 +60,7 @@ If b and c are bounded units, the identity B^{-1}B=I gives
 \]
 
 With b as the column-swapped pivot, this entry equals (c-db^{-1}a)^{-1}.
-Its boundedness therefore makes that Schur complement a unit in M and puts the complete inverse in the scalar division closure, by (2) after permutation.
+Its boundedness therefore makes that Schur complement a unit in M and puts the complete inverse in the scalar division closure, by [C_F0009, equation (8)](../claims/Yin_C_F0009_v1.md#proof-of-the-two-state-pivot-criterion) after permutation.
 This illustrates that one can sometimes certify bounded inverse entries from the bounded observation by first choosing a different scalar pivot.
 
 All these conditions are checkable algebraic sufficient conditions.

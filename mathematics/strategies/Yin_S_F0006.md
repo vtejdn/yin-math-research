@@ -62,4 +62,3 @@ No new conjecture or modified goal is automatically selected if this counterexam
 2026-09-09, the coordinating agent: changed disposition from `active` to `completed` after independent review of Yin_C_F0012.
 Yin_C_F0012 passes independent complete-chain and fresh analytic review and meets every original Yin_T_F0001 refutation requirement.
 Yin_S_F0006 emerged from Yin_S_F0005; Yin_S_F0002's coordinating bounded-descent target includes that failed universal upgrade.
-No old ID or argument was deleted, and no replacement goal was created.

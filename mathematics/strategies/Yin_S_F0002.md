@@ -92,4 +92,3 @@ The [preserved exploration](../ledger/Yin_L_F0002_v1.md) contains an explicitly 
 2026-09-09, the coordinating agent: changed disposition from `active` to `refuted` after independent review of Yin_C_F0012.
 Yin_C_F0012 disproves S_D subset R_X and hence the proposed universal bounded descent, while Yin_C_F0005 affiliated necessity and Yin_C_F0008 restricted scalar elimination remain valid.
 Yin_S_F0006 emerged from Yin_S_F0005; Yin_S_F0002's coordinating bounded-descent target includes that failed universal upgrade.
-No old ID or argument was deleted, and no replacement goal was created.

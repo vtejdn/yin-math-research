@@ -133,6 +133,3 @@ Yin_C_F0016's counterexamples to those analytic upgrades remain valid.
   Yin_C_F0015 and Yin_C_F0016 have separate proof/review assessments in the Claim materials.
   No assertion of a new positive tuple family or literature priority is made.
 - Integration verification, 2026-09-09: Yin_C_F0015 and Yin_C_F0016 both passed independent internal mathematical review.
-  The repository validator checked 126 Markdown files and 1,414 local links/anchors successfully; Git whitespace checks passed.
-  All new research records use English.
-  These artifact checks do not substitute for the linked mathematical reviews.

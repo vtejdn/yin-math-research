@@ -11,7 +11,7 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 
 | Field | Value |
 | --- | --- |
-| source-version | [Voi99, published edition](../../../literature/pdf/Voi99.pdf), printed pp.101–163. |
+| source-version | [Voi99, published edition](../../../literature/pdf/Voi99.pdf), printed pp.101–166. |
 | source-locator | Introduction and Sections 1–4, printed pp.101–114, PDF pp.1–14. |
 | inspection | 2026-10-18, authoring agent for Yin. All text and displayed arguments in this range were read. The small-time expansion, analytic density bounds, weak-limit recovery, amalgamated centered-word argument and projection identities were checked. Section 4 was inspected as explicitly conditional motivation. External construction and subordination theorems remain accepted inputs. |
 
