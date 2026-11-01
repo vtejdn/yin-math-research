@@ -245,7 +245,7 @@ The subsequent [Yin_C_F0042](../claims/Yin_C_F0042_v1.md#yin_c_f0042) resolves a
 The auxiliary polynomial algebra need not be contained in the original core.
 Next tests are closed curves, patchwise charts without one holomorphic inverse, and spectra without analytic parametrization; a spectral cutoff still cannot be assumed to preserve the original polynomial core.
 
-Continuation, 2026-09-11: the user's further density and automatic-adjoint questions are registered as the separate density and adjoint-domain Task with focused route the focused density and adjoint-domain route.
+Continuation, 2026-09-11: the user's further density and automatic-adjoint questions are registered as [Yin_T_F0002](../tasks/Yin_T_F0002_v1.md#yin_t_f0002) with focused route [Yin_S_F0012](Yin_S_F0012.md#s_f0012).
 This route retains its earlier polynomial-core questions and completed intermediate-domain evidence; it is not silently superseded.
 
 ## Original Scope and Authorization

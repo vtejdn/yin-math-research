@@ -130,3 +130,10 @@ Recorded consumer navigation: Preserved proof uses: [Yin_C_F0013-P1](../ledger/Y
 Exact definition homes and conventions: [Balanced tensor product and module conventions](../audits/literature/Hun74/Yin_U005.md#balanced-tensor).
 
 Recorded consumer navigation: The same-unit division-subring instance and preserved proof use are specified in [Yin_C_F0035-P1](../ledger/Yin_L_F0004_v1.md#yin_c_f0035-definitions).
+
+<a id="measure-topology"></a>
+### Finite-tracial affiliated measure topology
+
+Exact source interface and conventions: [FK86, Sections 1.2 and 1.4–1.5](../audits/literature/FK86/Yin_U001.md#measure-topology-interface) retains the projection-neighborhood description, complete Hausdorff topological star-algebra interface and accepted-foundation limits.
+
+Recorded consumer navigation: measure-gluing steps in [Yin_C_F0085-P1](../claims/Yin_C_F0085_v1.md#yin_c_f0085-p1) and [Yin_C_F0086-P1](../claims/Yin_C_F0086_v1.md#yin_c_f0086-p1).

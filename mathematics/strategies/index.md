@@ -24,6 +24,13 @@ Each Task entrance includes only that route's explicit Task associations.
 | [Yin_S_F0008](Yin_S_F0008.md) | q-Gaussian Rational Boundedness | Yin | active | Current selected model | [Yin_T_F0001_v1: Affiliated rationality and analytic boundedness](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) | Historical selected model scope: Separate multivariable rational L2 and bounded reconstruction targets; all-q bounded duals already proved | Root |
 | [Yin_S_F0011](Yin_S_F0011.md) | Canonical Closed Duals and Intrinsic Rationality | Yin | completed | Completed canonical closed-dual finite-Fisher criterion | [Yin_T_F0001_v7: Affiliated rationality from canonical closed duals under finite Fisher information](../tasks/Yin_T_F0001_v7.md#yin_t_f0001) | C_F0067 (recorded assessment 2): full-domain SOME/ALL equivalence, automatic density, intrinsic representative equality and numerical-rank independence, reusing C_F0022 (recorded assessment 3)/C_F0063 (recorded assessment 2); earlier supplied-domain boundaries preserved | Root |
 
+<a id="task-yin_t_f0002"></a>
+## Yin_T_F0002
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0012](Yin_S_F0012.md) | Density and Automatic Adjoint Test Domains | Yin | completed | Completed research round | [Yin_T_F0002_v1: Weaker dual and adjoint domains](../tasks/Yin_T_F0002_v1.md#yin_t_f0002) | Yin_C_F0084 density obstruction; automatic adjoint modules through Yin_C_F0085/Yin_C_F0086 and complementary normal-phase criteria; broader tests retained | Root |
+
 ## Feedback and Derived Routes
 
 These are the contributor's stated relationships and scopes.
@@ -35,3 +42,4 @@ A received original remains distinct even when its author matches the local oper
 | [Yin_S_F0005](Yin_S_F0005.md) | Minimal Rational States and Quantitative Observability | Yin | predecessor | [Yin_S_F0002: Normal Commutator Identity, Affiliated Descent, and Bounded Linearization](Yin_S_F0002.md#s_f0002) | Yin | Former concrete bounded-state subroute; its universal bounded upgrade was refuted, while the original hypotheses and failures remain historical. |
 | [Yin_S_F0007](Yin_S_F0007.md) | Structural Conditions for Analytic Rationality | Yin | predecessor | [Yin_S_F0004: A Finite Residual Model Beyond Semicircular Coordinates](Yin_S_F0004.md#s_f0004) | Yin | Broader structural successor to the model-specific residual mechanism, authorized 2026-09-09; the old model route remains paused. |
 | [Yin_S_F0008](Yin_S_F0008.md) | q-Gaussian Rational Boundedness | Yin | predecessor | [Yin_S_F0007: Structural Conditions for Analytic Rationality](Yin_S_F0007.md#s_f0007) | Yin | Focused q-Gaussian branch recorded 2026-09-09; current Q5/Q6 authorization remains a separate Task contract. |
+| [Yin_S_F0012](Yin_S_F0012.md) | Density and Automatic Adjoint Test Domains | Yin | predecessor | [Yin_S_F0011: Canonical Closed Duals and Intrinsic Rationality](Yin_S_F0011.md#s_f0011) | Yin | Focused successor to the completed intermediate-domain round, 2026-09-11; the earlier route retains separate polynomial-core obligations. |

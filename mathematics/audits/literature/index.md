@@ -106,3 +106,4 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Wei94/Yin_U001](Wei94/Yin_U001.md) | Hochschild Boundary with Bimodule Coefficients |
 | [Xia23/Yin_U001](Xia23/Yin_U001.md) | Xia23-U001: Disk-Cauchy Commutators and the Adjoint Obstruction |
 | [Yin20/Yin_U001](Yin20/Yin_U001.md) | Yin20: rational expressions, the free field and linear representations |
+| [FK86/Yin_U001](FK86/Yin_U001.md) | FK86-U001: The finite-tracial affiliated measure topology |

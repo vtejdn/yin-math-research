@@ -87,3 +87,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0080](Yin_R_F0080_v1.md) | Finite liberation information and both operator domains: assembled proof self-review | [v1](Yin_R_F0080_v1.md) |
 | [Yin_R_F0081](Yin_R_F0081_v1.md) | Normal liberation equivalence and nonnormal obstruction: whole-proof self-review | [v1](Yin_R_F0081_v1.md) |
 | [Yin_R_F0082](Yin_R_F0082_v1.md) | Sandwich counterexample and bounded bh extension: retained and isolated reviews | [v1](Yin_R_F0082_v1.md) |
+| [Yin_R_F0083](Yin_R_F0083_v1.md) | Contract Review of Yin_T_F0002 | [v1](Yin_R_F0083_v1.md) |
+| [Yin_R_F0084](Yin_R_F0084_v1.md) | Failure on a proper test module: isolated and original whole-proof reviews | [v1](Yin_R_F0084_v1.md) |
+| [Yin_R_F0085](Yin_R_F0085_v1.md) | Arbitrary dense selfadjoint dual domains yield automatic adjoint modules — isolated current inspection | [v1](Yin_R_F0085_v1.md) |
+| [Yin_R_F0086](Yin_R_F0086_v1.md) | Automatic adjoint modules on dense domains for mixed line/circle normal coordinates — isolated current inspection | [v1](Yin_R_F0086_v1.md) |
