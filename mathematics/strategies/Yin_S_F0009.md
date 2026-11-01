@@ -8,6 +8,7 @@ author: Yin
 
 | Task | Scope |
 | --- | --- |
+| [R-diagonal and transport contract](../tasks/Yin_T_F0009_v1.md#contract) | Holomorphic R-diagonal positive-word evaluation, coefficient recognizability and bounded scalar reconstruction, with the unrestricted rational-L2 obstruction retained. |
 | [Expanded model contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) | Historical selected model scope: Holomorphic recognizable-series theorem and unrestricted affiliated-L2 inverse obstruction; positive-word evaluation remains a separate test |
 | [General bounded-closure contract](../tasks/Yin_T_F0003_v1.md#contract) | Bounded scalar reconstruction component for holomorphic R-diagonal models; this general sufficient-condition contract does not cover the distinct rational L2 target |
 
@@ -24,7 +25,7 @@ Dated outcomes, earlier authorizations and superseded allocations below retain t
 
 <a id="s_f0009"></a>
 Historical goal allocation: the [2026-09-27 reorganization](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27) names a separate R-diagonal and analytic-transport Task as the destination of this branch from the [earlier T_F0001 expansion](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract).
-Its exact separate contract has not been identified in the available local Task materials.
+The corresponding contract is [T_F0009](../tasks/Yin_T_F0009_v1.md#contract), which owns both inherited model properties and their remaining completion obligations.
 The verified associations above retain their stated scopes and do not supply current execution authority.
 Coordinating route: [Yin_S_F0007](Yin_S_F0007.md#s_f0007).
 Current disposition and priority: owned by the [route selection](#route).

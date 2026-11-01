@@ -1,0 +1,60 @@
+\documentclass[11pt]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{mathrsfs}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\M}{\mathcal M}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Tr}{\operatorname{Tr}}
+\newcommand{\Log}{\operatorname{Log}}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\id}{\operatorname{id}}
+\renewcommand{\Cap}{\operatorname{cap}}
+\newcommand{\spec}{\operatorname{spec}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\dd}{\,d}
+\numberwithin{equation}{section}
+\setcounter{tocdepth}{1}
+\title[Affine semicircular determinants]{A variational formula for affine semicircular determinants}
+\author{Sheng Yin}
+\address{Institute for Advanced Study in Mathematics, Harbin Institute of Technology}
+\email{sheng.yin@hit.edu.cn}
+\date{October 10, 2026}
+\begin{document}
+\begin{abstract}
+We express the Fuglede--Kadison determinant of an affine pencil in free semicircular operators as an infimum over positive definite matrices.
+The infimum is attained if and only if the pencil is boundedly invertible, in which case its minimizer is unique.
+At zero constant term, a scalar rescaling recovers the determinant-capacity identity of Mai and Speicher.
+For selfadjoint coefficients we compare the formula with a strictly constrained Hilbert--Schmidt variational principle and establish ordered min--max formulas under their respective positivity hypotheses.
+Strictly positive pencils admit a minimum over a linear matrix inequality.
+Applications to Brown measure include a uniform determinant lower bound, restrictions on atoms, radial distribution formulas, and a Hessian formula for the regularized density.
+The text of this manuscript was generated entirely by OpenAI's large language model Astra.
+\end{abstract}
+\maketitle
+\tableofcontents
+\input{sections/introduction}
+\input{sections/dyson}
+\input{sections/main-proof}
+\input{sections/imaginary-hs}
+\input{sections/positive-pencils}
+\input{sections/ordered-minmax}
+\input{sections/spectral}
+\appendix
+\input{sections/comparison-appendix}
+\bibliographystyle{alpha}
+\bibliography{references}
+\end{document}

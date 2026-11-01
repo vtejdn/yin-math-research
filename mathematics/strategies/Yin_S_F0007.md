@@ -8,6 +8,7 @@ author: Yin
 
 | Task | Scope |
 | --- | --- |
+| [R-diagonal and transport contract](../tasks/Yin_T_F0009_v1.md#contract) | Structural residual/realization conditions, homogeneous norm estimates and quantitative regularity for the inherited R-diagonal and analytic-transport models; rational L2 boundedness and bounded scalar reconstruction remain separate. |
 | [Expanded model contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) | Historical selected model scope: Structural residual/realization conditions, Haagerup/RD estimates and quantitative differential regularity for the inherited models; distinct L2 and bounded scalar targets |
 | [General bounded-closure contract](../tasks/Yin_T_F0003_v1.md#contract) | Bounded scalar reconstruction component: structural conditions and the existing model routes; the completed sufficient-condition round does not settle every model or the distinct rational L2 target |
 
@@ -29,13 +30,13 @@ Dated outcomes, earlier authorizations and superseded allocations below retain t
 
 <a id="s_f0007"></a>
 The [historical 2026-09-27 allocation](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27) names a separate R-diagonal and analytic-transport Task as the destination of this programme.
-Its exact separate contract has not been identified in the available local Task materials.
+The corresponding contract is [T_F0009](../tasks/Yin_T_F0009_v1.md#contract), which owns both inherited model properties and their remaining completion obligations.
 This coordinating route retains its recorded active disposition and structural mechanisms for the residual R-diagonal and analytic-transport programme.
 Current disposition and priority are owned by the [route selection](#route).
 
 Original authorization: user-requested follow-up to [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001), 2026-09-09.
 The user explicitly requested this strategy and investigation of regularity conditions, including conjugate variables and finite free Fisher information.
-The exact associations above retain the earlier model selection and the bounded-reconstruction component of the completed general bounded-closure Task; neither identifies the separate destination contract or authorizes current execution.
+The exact associations above retain the earlier model selection and the bounded-reconstruction component of the completed general bounded-closure Task; the corresponding T_F0009 contract above identifies the destination, without authorizing current execution.
 
 Lineage: a broader structural successor to the model mechanism in [Yin_S_F0004](Yin_S_F0004.md#s_f0004), informed by the resolved affiliated criterion Yin_C_F0013 and the Yin_C_F0012/Yin_C_F0014 counterexamples.
 The original Yin_T_F0001 conjecture remains refuted.
@@ -93,7 +94,7 @@ Literature progress on one column does not automatically provide the missing imp
 The user's earlier [explicit Yin_T_F0001 expansion](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) selected three model routes: [Yin_S_F0008, q-Gaussian](Yin_S_F0008.md#s_f0008), [Yin_S_F0009, holomorphic R-diagonal](Yin_S_F0009.md#s_f0009), and [Yin_S_F0010, analytic free transport](Yin_S_F0010.md#s_f0010).
 That selection superseded the earlier suggestion to check a Meixner recurrence first.
 The [later historical allocation](../tasks/Yin_T_F0001_v2.md#manuscript-and-other-tasks) assigns Yin_S_F0009/Yin_S_F0010 to a separate R-diagonal and analytic-transport Task and the q-Gaussian targets to a separate q-Gaussian boundedness Task.
-The exact separate contracts remain unidentified in the available local Task materials; these named destinations do not replace the verified associations above.
+The corresponding contracts are [T_F0009](../tasks/Yin_T_F0009_v1.md#contract) for the R-diagonal and transport programme and [T_F0006](../tasks/Yin_T_F0006_v1.md#contract) for the q-Gaussian targets; the associations retain those distinct scopes.
 Meixner remains an optional source lead for a named structural interface, not an additional assigned model Task.
 
 The [application map](../ledger/Yin_L_F0007_v1.md#finite-residual-applications) supplies the established semicircular, polynomial-coordinate and supported Haar/Hardy baselines.

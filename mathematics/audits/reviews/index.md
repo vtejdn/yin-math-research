@@ -125,3 +125,67 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0119_v1](Yin_R_F0119_v1.md) | Small-q joint dual inverse and an obstruction to automatic adjoint-vacuum totality — isolated current inspection | [v1](Yin_R_F0119_v1.md) |
 | [Yin_R_F0120_v1](Yin_R_F0120_v1.md) | Compatible nondense local dual tests give an aggregate rationality criterion — isolated current inspection | [v1](Yin_R_F0120_v1.md) |
 | [Yin_R_F0121_v1](Yin_R_F0121_v1.md) | Isolated review of signed charge rational states | [v1](Yin_R_F0121_v1.md) |
+| [Yin_R_F0122](Yin_R_F0122_v1.md) | Ordered Affine Minimax: Independent Proof Review | [v1](Yin_R_F0122_v1.md) |
+| [Yin_R_F0123](Yin_R_F0123_v1.md) | Yin_T_F0008: Positive Certificates and the Circular Signed Schur Minimum | [v1](Yin_R_F0123_v1.md) |
+| [Yin_R_F0124](Yin_R_F0124_v1.md) | Yin_T_F0008: Independent Review of the Affine Hilbert--Schmidt Infimum | [v1](Yin_R_F0124_v1.md) |
+| [Yin_R_F0125](Yin_R_F0125_v1.md) | Review of Yin_C_F0125: Ordered Matrix Minimax under Positive Hilbert--Schmidt Covariance | [v1](Yin_R_F0125_v1.md) |
+| [Yin_R_F0126](Yin_R_F0126_v1.md) | Yin_T_F0008: Independent Mathematical Completion Comparison | [v1](Yin_R_F0126_v1.md) |
+| [Yin_R_F0127](Yin_R_F0127_v1.md) | Affine Semicircular Determinant: Proof Review | [v1](Yin_R_F0127_v1.md) |
+| [Yin_R_F0128](Yin_R_F0128_v1.md) | Yin_T_F0008: Independent Review of the General Signed Schur Formula | [v1](Yin_R_F0128_v1.md) |
+| [Yin_R_F0129](Yin_R_F0129_v1.md) | Retained project review: MS24: Dependency Audit for the Integer Capacity Bound | [v1](Yin_R_F0129_v1.md) |
+| [Yin_R_F0130](Yin_R_F0130_v1.md) | Retained project review: Matrix coefficients of free circular elements and vanishing rho | [v1](Yin_R_F0130_v1.md) |
+| [Yin_R_F0131](Yin_R_F0131_v1.md) | F0010 coefficient dependence: whole original argument review | [v1](Yin_R_F0131_v1.md) |
+| [Yin_R_F0132](Yin_R_F0132_v1.md) | Whole independent reviews of F0010 scalar and matrix capacity accounts | [v1](Yin_R_F0132_v1.md) |
+| [Yin_R_F0133](Yin_R_F0133_v1.md) | F0010 assembled contract and fixed-support completion review | [v1](Yin_R_F0133_v1.md) |
+| [Yin_R_F0134](Yin_R_F0134_v1.md) | Review of corrected one-sided and diffuse Jordan failed tests | [v1](Yin_R_F0134_v1.md) |
+| [Yin_R_F0135](Yin_R_F0135_v1.md) | Independent review of atomic dense-core dual counterexamples | [v1](Yin_R_F0135_v1.md) |
+| [Yin_R_F0136](Yin_R_F0136_v1.md) | Independent review of closed normalized duals under bounded division closure of adjoints | [v1](Yin_R_F0136_v1.md) |
+| [Yin_R_F0137](Yin_R_F0137_v1.md) | Independent review of elliptic unitary coordinates and full-domain duals | [v1](Yin_R_F0137_v1.md) |
+| [Yin_R_F0138](Yin_R_F0138_v1.md) | Independent review of normal representatives and the L1-to-L2 reduction | [v1](Yin_R_F0138_v1.md) |
+| [Yin_R_F0139](Yin_R_F0139_v1.md) | Independent review of square-summable phase lifting and its universal obstruction | [v1](Yin_R_F0139_v1.md) |
+| [Yin_R_F0140](Yin_R_F0140_v1.md) | Independent review of the bounded full-domain nonnormal separation example | [v1](Yin_R_F0140_v1.md) |
+| [Yin_R_F0141](Yin_R_F0141_v1.md) | Independent review of the singular free semicircular coordinate equivalence | [v1](Yin_R_F0141_v1.md) |
+| [Yin_R_F0142](Yin_R_F0142_v1.md) | Independent review of the correlated weighted full-domain reduction | [v1](Yin_R_F0142_v1.md) |
+| [Yin_R_F0143](Yin_R_F0143_v1.md) | Independent review of the selfadjoint contraction estimate with kernel weights | [v1](Yin_R_F0143_v1.md) |
+| [Yin_R_F0144](Yin_R_F0144_v1.md) | Independent review of C3 spectral-graph invariance of full-domain conditions | [v1](Yin_R_F0144_v1.md) |
+| [Yin_R_F0145](Yin_R_F0145_v1.md) | Independent review of actual-vacuum and strong-domain equivalence for a singular coordinate change | [v1](Yin_R_F0145_v1.md) |
+| [Yin_R_F0146](Yin_R_F0146_v1.md) | Independent review of kernel tensor coefficients and the Sylvester-coordinate example | [v1](Yin_R_F0146_v1.md) |
+| [Yin_R_F0147](Yin_R_F0147_v1.md) | Independent review of normal free congruences and the planar scalar example | [v1](Yin_R_F0147_v1.md) |
+| [Yin_R_F0148](Yin_R_F0148_v1.md) | Independent review of actual-vacuum restoration under polynomial linear coordinate changes | [v1](Yin_R_F0148_v1.md) |
+| [Yin_R_F0149](Yin_R_F0149_v1.md) | Independent review of nonlinear target derivations and actual-adjoint reduction | [v1](Yin_R_F0149_v1.md) |
+| [Yin_R_F0150](Yin_R_F0150_v1.md) | Independent review of the actual circle-law curvature obstruction | [v1](Yin_R_F0150_v1.md) |
+| [Yin_R_F0151](Yin_R_F0151_v1.md) | Independent review of the nonlinear free ACSY example with a non-L2 inverse | [v1](Yin_R_F0151_v1.md) |
+| [Yin_R_F0152](Yin_R_F0152_v1.md) | Relative Fock degree bounds and target canonical domains: independent complete review | [v1](Yin_R_F0152_v1.md) |
+| [Yin_R_F0153](Yin_R_F0153_v1.md) | Independent review of the realized weighted-liberation lower-bound obstruction | [v1](Yin_R_F0153_v1.md) |
+| [Yin_R_F0154](Yin_R_F0154_v1.md) | Maximal Delta without any bare full-domain coordinate dual: independent complete review | [v1](Yin_R_F0154_v1.md) |
+| [Yin_R_F0155](Yin_R_F0155_v1.md) | Independent complete review of the actual-vacuum inverse-row obstruction | [v1](Yin_R_F0155_v1.md) |
+| [Yin_R_F0156](Yin_R_F0156_v1.md) | A semicircular product with an actual intrinsic vacuum: complete independent review | [v1](Yin_R_F0156_v1.md) |
+| [Yin_R_F0157](Yin_R_F0157_v1.md) | Independent review of the finite curvature triangle bound and all-degree Wick action | [v1](Yin_R_F0157_v1.md) |
+| [Yin_R_F0158](Yin_R_F0158_v1.md) | Factorization continuity and the projective criterion: review with a disclosed application repair | [v1](Yin_R_F0158_v1.md) |
+| [Yin_R_F0159](Yin_R_F0159_v1.md) | Independent application-only review of the repaired hidden-factor continuity example | [v1](Yin_R_F0159_v1.md) |
+| [Yin_R_F0160](Yin_R_F0160_v1.md) | Independent complete review of the singular-factor full-domain dual construction | [v1](Yin_R_F0160_v1.md) |
+| [Yin_R_F0161](Yin_R_F0161_v1.md) | Independent complete review of the finite Gaussian normal-coordinate correction | [v1](Yin_R_F0161_v1.md) |
+| [Yin_R_F0162](Yin_R_F0162_v1.md) | The affine matrix inverse-trace criterion: complete independent review | [v1](Yin_R_F0162_v1.md) |
+| [Yin_R_F0163](Yin_R_F0163_v1.md) | Independent complete review of finite polynomial relation compatibility | [v1](Yin_R_F0163_v1.md) |
+| [Yin_R_F0164](Yin_R_F0164_v1.md) | Independent complete review of canonical domains for measurable Gaussian kernels | [v1](Yin_R_F0164_v1.md) |
+| [Yin_R_F0165](Yin_R_F0165_v1.md) | Independent complete review of the measurable Hermitian Gaussian criterion | [v1](Yin_R_F0165_v1.md) |
+| [Yin_R_F0166](Yin_R_F0166_v1.md) | Independent whole-proof review of sharp rotational quadratic estimates | [v1](Yin_R_F0166_v1.md) |
+| [Yin_R_F0167](Yin_R_F0167_v1.md) | Independent whole-proof review of coordinate-local paired quadratic identities | [v1](Yin_R_F0167_v1.md) |
+| [Yin_R_F0168](Yin_R_F0168_v1.md) | Independent whole-proof review of the three-circle vacuum-constant obstruction | [v1](Yin_R_F0168_v1.md) |
+| [Yin_R_F0169](Yin_R_F0169_v1.md) | Independent whole-proof review of free-product quadratic adjoint domination | [v1](Yin_R_F0169_v1.md) |
+| [Yin_R_F0170](Yin_R_F0170_v1.md) | Independent scalar review of soft-energy polarization and the factor-two quadratic estimate | [v1](Yin_R_F0170_v1.md) |
+| [Yin_R_F0171](Yin_R_F0171_v1.md) | Independent whole-proof review of the scalar factor-two estimate and its free-product consequence | [v1](Yin_R_F0171_v1.md) |
+| [Yin_R_F0172](Yin_R_F0172_v1.md) | Independent review of the arcsine ordinary-dual obstruction and liberation finite-rank test | [v1](Yin_R_F0172_v1.md) |
+| [Yin_R_F0173](Yin_R_F0173_v1.md) | Affine Semicircular Determinant: Proof Review: historical self-review scope | [v1](Yin_R_F0173_v1.md) |
+| [Yin_R_F0174](Yin_R_F0174_v1.md) | Determinant presentation and zero-value equivalence finding | [v1](Yin_R_F0174_v1.md) |
+| [Yin_R_F0175](Yin_R_F0175_v2.md) | Internal review of the retained affine determinant reformulations | [v1](Yin_R_F0175_v1.md), [v2](Yin_R_F0175_v2.md) |
+| [Yin_R_F0176](Yin_R_F0176_v2.md) | Capacity Sources: Independent Interface Review | [v1](Yin_R_F0176_v1.md), [v2](Yin_R_F0176_v2.md) |
+| [Yin_R_F0177](Yin_R_F0177_v1.md) | Complete self-review of the retained Brown envelope, radial, resolvent and capacity arguments | [v1](Yin_R_F0177_v1.md) |
+| [Yin_R_F0178](Yin_R_F0178_v1.md) | Fresh mathematical review of the affine Hilbert--Schmidt infimum and comparison of the earlier obligations | [v1](Yin_R_F0178_v1.md) |
+| [Yin_R_F0179](Yin_R_F0179_v1.md) | Isolated review of the atomic dense-core dual counterexamples | [v1](Yin_R_F0179_v1.md) |
+| [Yin_R_F0180](Yin_R_F0180_v1.md) | Isolated and historical reviews of affine attainment | [v1](Yin_R_F0180_v1.md) |
+| [Yin_R_F0181](Yin_R_F0181_v1.md) | Isolated review of four affine determinant and spectral modules | [v1](Yin_R_F0181_v1.md) |
+| [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
+| [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
+| [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
+| [Yin_R_G0004](Yin_R_G0004_v1.md) | Complete current single-Haar scalar identity constructor self-finding | [v1](Yin_R_G0004_v1.md) |

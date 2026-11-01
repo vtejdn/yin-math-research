@@ -1,0 +1,167 @@
+\section{Proof of the global Hilbert--Schmidt comparison}
+\label{app:comparison}
+
+We prove Lemma~\ref{lem:hs-global}, retaining a positive regularizer until the last step.
+All traces on finite matrix algebras and their corners are unnormalized.
+Set $K=\id+\Psi$ and
+\[
+ \ell_\varepsilon(a)=\tfrac12\varphi_m
+       \log((a+T_\Psi)^2+\varepsilon^21_m),\qquad
+ F_\varepsilon(a)=\ell_\varepsilon(a)
+       -\tfrac1{2m}\Tr(aK^{-1}(a)),\quad a=a^*.
+\]
+We will establish the uniform bound
+\begin{equation}\label{eq:hs-regularized-global}
+ F_\varepsilon(a)\le-\tfrac12+
+              \frac{\varepsilon+\varepsilon^2/2}{1-\theta},
+ \qquad \theta=\|\Psi\|_{2\to2}<1.
+\end{equation}
+
+\subsection{An inverse comparison}
+If $A=A^*$ has $\|A\|\le\theta<1$ on a finite-dimensional Hilbert space $\mathcal H$ and $J=J^*=J^{-1}$, then
+\begin{equation}\label{eq:hs-involution-inverse}
+ L=(J-A)^{-1}\le(\id-A)^{-1},\qquad
+ \|L\|\le(1-\theta)^{-1}.
+\end{equation}
+The norm bound follows by factoring $J-A=J(\id-JA)$ and using the Neumann series.
+To prove the order bound, put $D_0=\id-A>0$ and $P=(\id-J)/2$, an orthogonal projection.
+When $P\ne0$, block elimination, or direct multiplication, gives
+\[
+ (D_0-2P)^{-1}=D_0^{-1}+2D_0^{-1}P
+   (\id_{P\mathcal H}-2PD_0^{-1}P)^{-1}PD_0^{-1}.
+\]
+Because $D_0^{-1}\ge(1+\theta)^{-1}\id>\tfrac12\id$, the middle inverse is strictly negative on $P\mathcal H$.
+The correction is negative semidefinite, which proves \eqref{eq:hs-involution-inverse}.
+For $P=0$ the correction is absent.
+
+There is an additional positivity-preservation fact when $A$ is a completely positive map and $J(x)=uxu$ with $u=u^*=u^{-1}$:
+\begin{equation}\label{eq:hs-inverse-cp}
+ L=\sum_{k\ge0}(JA)^kJ
+\end{equation}
+is completely positive.
+Each summand is completely positive and the series converges in norm.
+This does not assert that $L$ is positive as a Hilbert--Schmidt operator; the order comparison in \eqref{eq:hs-involution-inverse} is a separate assertion.
+
+\subsection{A maximum over the constant term}
+For fixed $\varepsilon>0$, the function $F_\varepsilon$ attains its global maximum on the real vector space of Hermitian matrices.
+Indeed, $K^{-1}\ge(1+\theta)^{-1}\id$, whereas
+\[
+ \ell_\varepsilon(a)\le\tfrac12
+       \log((\|a\|+\|T_\Psi\|)^2+\varepsilon^2).
+\]
+The negative quadratic term consequently dominates as $\|a\|_2\to\infty$.
+Continuity gives a maximum.
+
+Fix a maximizing $a$, and write
+\[
+ R=E_m((a+T_\Psi-i\varepsilon1_m)^{-1})=H+iQ,
+ \qquad H=H^*,\quad Q>0.
+\]
+Differentiation under the trace gives $d\ell_\varepsilon(a)[h]=m^{-1}\Tr(Hh)$ for $h=h^*$.
+For example, differentiate $(a+T_\Psi)^2+\varepsilon^21_m$ and use the traced logarithmic derivative and cyclicity.
+Stationarity therefore gives $H=K^{-1}(a)$.
+The Dyson equation becomes
+\begin{equation}\label{eq:hs-maximal-dyson}
+ R^{-1}=a-\Psi(R)-i\varepsilon1_m=H-iB,
+ \qquad B=\Psi(Q)+\varepsilon1_m>0.
+\end{equation}
+The logarithmic primitive \eqref{eq:selfadjoint-potential} gives
+\[
+ \ell_\varepsilon(a)=-\frac1m\log|\det R|
+       +\frac1{2m}\Tr(H\Psi(H)-Q\Psi(Q)).
+\]
+Taking real traces in $RR^{-1}=1_m$ yields $\Tr H^2+\Tr(Q\Psi(Q))+\varepsilon\Tr Q=m$.
+Thus
+\begin{equation}\label{eq:hs-maximal-value}
+ F_\varepsilon(a)=-\tfrac12-\frac1m\log|\det R|
+                         +\frac{\varepsilon}{2m}\Tr Q.
+\end{equation}
+We next control the last two terms, including when $H$ has a kernel.
+
+\subsection{The support and kernel of the real part}
+Multiplying \eqref{eq:hs-maximal-dyson} in both orders gives $[Q,B]+i[Q+B,H]=0$.
+The first summand is skewadjoint and the second is selfadjoint, so each vanishes.
+The matrix $QH-HB$ is then selfadjoint.
+Separating the two parts of $H^2+QB+i(QH-HB)=1_m$ gives
+\begin{equation}\label{eq:hs-support-identities}
+ QB=BQ=1_m-H^2,\qquad QH=HB,\qquad HQ=BH.
+\end{equation}
+Let $e$ be the orthogonal projection onto the range of $H$, let $f=1_m-e$, and put $d=\operatorname{rank}e$, $r=\operatorname{rank}f$.
+The matrices $Q,B,R$ commute with these projections, since $Q$ and $B$ commute with $H^2$.
+
+On the $e$-corner the matrix $H_e$ is invertible.
+Set $u=\operatorname{sign}(H_e)$, the selfadjoint unitary with eigenvalues the signs of the eigenvalues of $H_e$.
+Since $Q_e$ commutes with $|H_e|$, \eqref{eq:hs-support-identities} implies $B_e=uQ_eu$.
+Consequently $R_e^{-1}=uR_e^*u$, so $|\det R_e|=1$.
+On the $f$-corner, $H_f=0$, and the same identities give $R_f=iQ_f$, $B_f=Q_f^{-1}$.
+Therefore
+\begin{equation}\label{eq:hs-kernel-determinant}
+ \log|\det R|=\log\det Q_f.
+\end{equation}
+When a corner is absent, its determinant is one and its trace is zero.
+
+For $v,w\in\{e,f\}$ write $\Psi_{vw}(x)=v\Psi(wxw)v$ for the maps between the corner matrix algebras $M_e=eM_m(\C)e$ and $M_f=fM_m(\C)f$.
+On their direct sum the compressed map is selfadjoint, has norm at most $\theta$, and has mutually adjoint off-diagonal blocks.
+Each block preserves complete positivity.
+
+Assume first that $e\ne0$, and let $A=\Psi_{ee}$, $J(x)=uxu$, $L=(J-A)^{-1}$.
+By \eqref{eq:hs-involution-inverse}--\eqref{eq:hs-inverse-cp}, $L$ is selfadjoint and completely positive, with $\|L\|\le(1-\theta)^{-1}$ and $L\le(\id-A)^{-1}$.
+The $e$-part of $B=\Psi(Q)+\varepsilon1_m$ gives
+\begin{equation}\label{eq:hs-support-elimination}
+ Q_e=L\Psi_{ef}(Q_f)+\varepsilon L(e).
+\end{equation}
+On the $f$-corner define
+\begin{equation}\label{eq:hs-effective-data}
+ \Phi=\Psi_{ff}+\Psi_{fe}L\Psi_{ef},\qquad
+ D=f+\Psi_{fe}(L(e)).
+\end{equation}
+Then $\Phi$ is completely positive and Hilbert--Schmidt selfadjoint, and $D\ge f>0$ on this corner.
+Moreover $\id_f-\Phi>0$ as a Hilbert--Schmidt operator.
+Indeed, the positive block operator $\id-\Psi|_{M_e\oplus M_f}$ has positive Schur complement
+\[
+ \id_f-\Psi_{ff}-\Psi_{fe}(\id_e-A)^{-1}\Psi_{ef}>0.
+\]
+Replacing $(\id_e-A)^{-1}$ by the smaller operator $L$ preserves this inequality.
+In particular,
+\begin{equation}\label{eq:hs-effective-trace}
+ \Tr\Phi(f)<r\quad\text{if }r>0.
+\end{equation}
+The remaining Dyson equation and the trace of \eqref{eq:hs-support-elimination} now read
+\begin{equation}\label{eq:hs-effective-equation}
+ Q_f^{-1}=\Phi(Q_f)+\varepsilon D,\qquad
+ \Tr Q=\Tr(DQ_f)+\varepsilon\Tr L(e).
+\end{equation}
+The second equality uses selfadjointness of $L$ and $\Psi_{ef}^*=\Psi_{fe}$.
+If $e=0$, take $\Phi=\Psi$, $D=1_m$ and omit all terms containing $L$; the same conclusions hold.
+
+\subsection{The positive-cone estimate}
+Suppose $r>0$.
+Lemma~\ref{lem:imaginary-minimum}, applied on the $f$-corner with covariance $\Phi$ and positive matrix parameter $\varepsilon D$, shows that $Q_f$ minimizes
+\[
+ -\log\det x+\varepsilon\Tr(Dx)+\tfrac12\Tr(x\Phi(x)),
+ \qquad x>0\text{ on }f\C^m.
+\]
+Comparison with $x=f$, together with the trace of \eqref{eq:hs-effective-equation} multiplied by $Q_f$, yields
+\[
+ \log\det Q_f\ge\frac\varepsilon2\Tr(DQ_f)
+       -\varepsilon\Tr D+\tfrac12(r-\Tr\Phi(f)).
+\]
+Substitute this into \eqref{eq:hs-maximal-value} and use \eqref{eq:hs-kernel-determinant}--\eqref{eq:hs-effective-equation}.
+The terms containing $\Tr(DQ_f)$ cancel, and the last term is nonnegative by \eqref{eq:hs-effective-trace}.
+We obtain
+\begin{equation}\label{eq:hs-uniform-errors}
+ F_\varepsilon(a)\le-\tfrac12+\frac\varepsilon m\Tr D
+                          +\frac{\varepsilon^2}{2m}\Tr L(e).
+\end{equation}
+If $f=0$, \eqref{eq:hs-kernel-determinant} and \eqref{eq:hs-support-elimination} give the same bound with the $D$-term omitted.
+
+These error terms are uniform over the maximizing matrices $a$ and the support projections of the associated matrices $H$.
+Since the Hilbert--Schmidt norm of a rank-$d$ identity is $\sqrt d$, complete positivity and the norm bounds give
+\[
+ 0\le\Tr L(e)\le\frac d{1-\theta},\qquad
+ \Tr D\le r+\frac{\theta\sqrt{dr}}{1-\theta}
+                  \le\frac m{1-\theta}.
+\]
+Thus \eqref{eq:hs-uniform-errors} implies \eqref{eq:hs-regularized-global} at every maximum and hence at every Hermitian constant term $a$.
+Finally, spectral integration gives $\ell_\varepsilon(a)\downarrow\log\Delta(a+T_\Psi)$ as $\varepsilon\downarrow0$.
+This proves \eqref{eq:hs-global-comparison}, including a limit of $-\infty$.

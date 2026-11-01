@@ -42,3 +42,9 @@ This navigation does not enlarge those units' recorded source-inspection or inde
 
 See [Yin_U005](Yin_U005.md).
 This navigation does not enlarge those units' recorded source-inspection or independent-review scopes.
+
+<a id="presentation-observations"></a>
+## Selected presentation observations
+
+The selected exposition reading and its actual inspection scope are retained in [Yin_U005](Yin_U005.md#presentation-observations).
+These observations are distinct from the units' mathematical proof inspections and do not establish an adopted writing policy.

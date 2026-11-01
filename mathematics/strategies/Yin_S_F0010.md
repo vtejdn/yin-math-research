@@ -8,6 +8,7 @@ author: Yin
 
 | Task | Scope |
 | --- | --- |
+| [R-diagonal and transport contract](../tasks/Yin_T_F0009_v1.md#contract) | Analytic-transport hypotheses for rational L2 boundedness and bounded scalar reconstruction, with the projective-Jacobian and finite-rank boundaries retained. |
 | [Expanded model contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) | Historical selected model scope: Projective-Jacobian bounded-dual transport and finite-rank obstruction; general rational reconstruction unresolved |
 | [General bounded-closure contract](../tasks/Yin_T_F0003_v1.md#contract) | Bounded scalar reconstruction component for analytic transport; the completed general sufficient-condition round leaves the general model question open and does not cover rational L2 boundedness |
 
@@ -24,7 +25,7 @@ Dated outcomes, earlier authorizations and superseded allocations below retain t
 
 <a id="s_f0010"></a>
 Historical goal allocation: the [2026-09-27 reorganization](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27) names a separate R-diagonal and analytic-transport Task as the destination of this branch from the user's [expanded T_F0001 contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract).
-Its exact separate contract has not been identified in the available local Task materials.
+The corresponding contract is [T_F0009](../tasks/Yin_T_F0009_v1.md#contract), which owns both inherited model properties and their remaining completion obligations.
 The verified associations above retain their stated scopes and do not supply current execution authority.
 Coordinating route: [Yin_S_F0007](Yin_S_F0007.md#s_f0007).
 Recorded ownership transfer: 2026-09-27 under the approved scope reorganization.

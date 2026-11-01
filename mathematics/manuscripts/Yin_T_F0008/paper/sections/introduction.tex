@@ -1,0 +1,263 @@
+\section{Introduction}\label{sec:introduction}
+
+\noindent\textbf{Disclosure of AI assistance.}
+The mathematical content and text of this manuscript were generated entirely by an autonomous exploration system driven by OpenAI's large language model Astra under human guidance.
+No part of the work has been checked and understood by the author.
+This manuscript records our exploration and its findings.
+We share it in its current form to invite feedback and collaboration from interested readers.
+\medskip
+
+This work was motivated by a question posed by Roland Speicher in his blog \cite{Spe26}: whether the Fuglede--Kadison determinant formula for centered operator-valued semicircular elements extends to arbitrary mean.
+It is also an experiment in doing mathematics with AI.
+\medskip
+
+The Fuglede--Kadison determinant extends the absolute determinant of a finite matrix to operators in a finite tracial von Neumann algebra.
+For a matrix-valued semicircular element with zero mean, Mai and Speicher \cite[Theorem 1.2]{MS24} express this determinant through the capacity of a completely positive map determined by the coefficients.
+A deterministic term changes the question substantially.
+Such terms arise in particular when one studies the determinant of $T-zI$ as a function of the spectral parameter $z$.
+
+In this paper we express the Fuglede--Kadison determinant of an affine semicircular pencil with complex matrix coefficients as an infimum over positive definite matrices.
+We prove that the infimum is attained exactly when the pencil is invertible, and determine the unique minimizer in that case.
+
+\subsection{Setting and the coefficient maps}
+Let $(\M,\tau)$ be a finite von Neumann algebra with faithful normal tracial state.
+Throughout, $s_1,\ldots,s_n\in\M$ are freely independent standard semicircular elements.
+Each has spectral density $(2\pi)^{-1}\sqrt{4-t^2}$ on $[-2,2]$.
+Freeness means that the trace of a product of centered elements from the generated unital algebras vanishes whenever adjacent factors come from different algebras;
+see \cite[Section 1.11 and Chapter 2, Section 2]{MS17}.
+
+For $m\ge1$, write $\Tr_m$ for the ordinary matrix trace, $\tr_m=\Tr_m/m$, $\varphi_m=\tr_m\otimes\tau$, and $E_m=\id_{M_m(\C)}\otimes\tau$.
+Subscripts on $\Tr$ and $\varphi$ will be omitted when the size is fixed.
+The notation $b>0$ means that the finite matrix $b$ is positive definite, while $b\ge0$ means positive semidefinite.
+The identity matrix of size $m$ is written $1_m$, following \cite[Section 2.2]{MS24}.
+
+\begin{definition}[Determinant and capacity]\label{def:determinant-capacity}
+For $Y\in M_m(\M)$, let $\mu_{|Y|}$ be the spectral probability measure of $|Y|=(Y^*Y)^{1/2}$ under $\varphi_m$.
+We use the Fuglede--Kadison determinant
+\begin{equation}\label{eq:fk-definition}
+ \Delta(Y)=\exp\left(\int_{[0,\infty)}\log t\dd\mu_{|Y|}(t)\right),
+ \qquad \log0=-\infty,\quad \exp(-\infty)=0.
+\end{equation}
+For $b\in M_m(\C)$, put $\Delta_m(b)=|\det b|^{1/m}$.
+For a completely positive map $\eta:M_m(\C)\to M_m(\C)$, its capacity is
+\begin{equation}\label{eq:capacity-definition}
+ \Cap(\eta)=\inf_{b>0}\frac{\det\eta(b)}{\det b}.
+\end{equation}
+\end{definition}
+These are the conventions of \cite[Definitions 1.1 and 2.1]{MS24};
+see also \cite{FK52,Gur04}.
+Complete positivity means that every matrix amplification of the map preserves positivity.
+In particular, maps of the form $b\mapsto\sum_j a_jba_j^*$ have this property \cite[Section 2.2]{MS24}.
+The quotient in \eqref{eq:capacity-definition} is the homogeneous form of the definition with $\det b=1$.
+Capacity also connects this determinant problem with operator scaling and noncommutative rank; see \cite[Sections 1.1--1.3]{GGOW20}.
+The homogeneous function $\log\det\eta(b)-\log\det b$ is studied by geodesically convex optimization in \cite[Section 1.1]{AZGL+18}.
+
+\begin{definition}[Affine semicircular pencil]\label{def:affine-pencil}
+For $a_0,a_1,\ldots,a_n\in M_m(\C)$, an affine semicircular pencil is the operator
+\begin{equation}\label{eq:affine-pencil}
+ S=a_0+\sum_{j=1}^n a_j\otimes s_j\in M_m(\M).
+\end{equation}
+Here $a_0$ denotes $a_0\otimes1_{\M}$.
+We use the same convention for other matrices in $M_m(\C)$.
+We associate to the coefficients $a_1,\ldots,a_n$ the complex-linear maps
+\begin{equation}\label{eq:coefficient-maps}
+ \eta(b)=\sum_{j=1}^n a_jba_j^*,\qquad
+ \rho(b)=\sum_{j=1}^n a_jba_j,
+ \qquad b\in M_m(\C).
+\end{equation}
+\end{definition}
+This terminology includes nonselfadjoint coefficients, as does the semicircular matrix convention in \cite[p.~3]{MS24}.
+When we require selfadjoint coefficients, we state that assumption separately.
+The maps $\eta$ and $\rho$ follow the notation of \cite[Theorem 1.2 and Lemma 3.5(ii)]{MS24}.
+
+At $a_0=0$, the identity of Mai and Speicher is
+\begin{equation}\label{eq:centered-capacity}
+ \Delta\left(\sum_j a_j\otimes s_j\right)
+       =e^{-1/2}\Cap(\eta)^{1/(2m)}.
+\end{equation}
+For a nonzero constant term, $a_0$ and $\eta$ alone do not determine the determinant.
+Indeed, let $s$ be standard semicircular and $t>2$.
+The scalar pencils $t+s$ and $t+is$ have the same constant term and the same map $\eta(b)=b$, but
+\begin{equation}\label{eq:phase-obstruction}
+ \Delta(t+s)<t<\Delta(t+is).
+\end{equation}
+Strict concavity of the logarithm gives $\tau\log(t+s)<\log t$, whereas $\tfrac12\tau\log(t^2+s^2)>\log t$.
+Their maps $\rho$ are respectively $b\mapsto b$ and $b\mapsto-b$.
+The general formula below retains this additional information.
+Its appearance can also be seen directly in the covariance of the selfadjoint block operator associated with $S$.
+
+\subsection{The general formula and attainment}
+For each $b>0$, define
+\begin{equation}\label{eq:inner-map}
+ H_b=1_m+\eta(b),\qquad
+ \mathcal T_b(Y)=H_bYb^{-1}+\rho(Y^*),\quad Y\in M_m(\C).
+\end{equation}
+This is a real-linear map on the real vector space of complex matrices.
+Its invertibility for every $b>0$ is part of the next theorem.
+
+% Provenance: Yin_C_F0126 and Yin_C_F0127; the manuscript proof uses the direct spectral-gap argument.
+\begin{theorem}\label{thm:main}
+Let $S$ be the pencil in Definition~\ref{def:affine-pencil}, with arbitrary complex coefficient matrices.
+For every $b>0$, the map $\mathcal T_b$ in \eqref{eq:inner-map} is invertible as a real-linear map on $M_m(\C)$.
+Write $Z_b=\mathcal T_b^{-1}(a_0)$.
+Then
+\begin{equation}\label{eq:main-determinant}
+ \Delta(S)=e^{-1/2}\inf_{b>0}
+ \left[\frac{\det(1_m+\eta(b))}{\det b}\right]^{1/(2m)}
+ \exp\left[\frac1{2m}\operatorname{Re}\Tr(a_0^*Z_b)\right].
+\end{equation}
+Define
+\begin{equation}\label{eq:main-action}
+ \mathcal V(b)=\log\det H_b-\log\det b-m
+                 +\operatorname{Re}\Tr(a_0^*Z_b).
+\end{equation}
+The following conditions are equivalent:
+\begin{enumerate}
+\renewcommand{\labelenumi}{(\roman{enumi})}
+\item the infimum in \eqref{eq:main-determinant} is attained;
+\item $\mathcal V$ has a critical point on the positive definite cone;
+\item $S$ is invertible in the bounded operator algebra $M_m(\M)$.
+\end{enumerate}
+When these conditions hold, let $b_*$ denote the unique minimizer, which is also the unique critical point of $\mathcal V$, and put $Z_{b_*}=\mathcal T_{b_*}^{-1}(a_0)$.
+Then
+\begin{equation}\label{eq:main-optimizer}
+ b_*=E_m((S^*S)^{-1}),\qquad Z_{b_*}=E_m((S^*)^{-1}).
+\end{equation}
+\end{theorem}
+
+Equivalently,
+\[
+ \log\Delta(S)=\frac1{2m}\inf_{b>0}\mathcal V(b).
+\]
+The minimizers are the same as in \eqref{eq:main-determinant}.
+Here a critical point means that the first variation of $\mathcal V$ vanishes in every selfadjoint matrix direction.
+
+At zero constant term, $Z_b=0$ for every trial, and
+\begin{equation}\label{eq:capacity-reduction}
+ \inf_{b>0}\frac{\det(1_m+\eta(b))}{\det b}=\Cap(\eta).
+\end{equation}
+For the lower bound, use $1_m+\eta(b)\ge\eta(b)$ and determinant monotonicity.
+Conversely, for every fixed $c>0$, the substitution $b=tc$ gives
+\[
+ \frac{\det(1_m+\eta(tc))}{\det(tc)}
+   =\frac{\det(t^{-1}1_m+\eta(c))}{\det c}
+   \longrightarrow\frac{\det\eta(c)}{\det c}.
+\]
+Taking the infimum over $c$ proves \eqref{eq:capacity-reduction}.
+Hence our formula recovers \eqref{eq:centered-capacity} directly.
+The proof of Theorem~\ref{thm:main} uses the semicircular Dyson equation, rather than the centered determinant identity, to establish the general formula.
+
+\subsection{Other variational descriptions}
+Throughout this subsection assume $a_j=a_j^*$ for $0\le j\le n$.
+We first prove a strict-domain version of the formula proposed in Speicher's public discussion~\cite{Spe26}.
+For $c>0$, put $\mathcal C_c(x)=cxc$ and
+\begin{equation}\label{eq:hs-domain}
+ \mathcal B_\eta=
+ \{c>0:\mathcal C_c-\eta>0\text{ on }M_m(\C)\}.
+\end{equation}
+Here strict positivity is with respect to the Hilbert--Schmidt inner product $\langle x,y\rangle=\Tr(x^*y)$.
+
+\begin{proposition}[Strict Hilbert--Schmidt formula]\label{prop:hs-formula}
+For every $c\in\mathcal B_\eta$, the map $\mathcal C_c+\eta$ is invertible.
+Put $h_c=(\mathcal C_c+\eta)^{-1}(a_0)$.
+Then
+\begin{equation}\label{eq:hs-determinant}
+ \Delta(S)=e^{-1/2}\inf_{c\in\mathcal B_\eta}
+       \Delta_m(c)\exp\left(\frac1{2m}\Tr(a_0h_c)\right).
+\end{equation}
+\end{proposition}
+Section~\ref{sec:imaginary-hs} proves this formula and compares its trial domain and quadratic correction with those of Theorem~\ref{thm:main}.
+
+Strictly positive pencils admit a minimum over a linear matrix inequality.
+\begin{definition}[Feasible matrices]\label{def:positive-feasibility}
+For $b>0$, put
+\begin{equation}\label{eq:positive-lmi}
+ L(b)=\begin{pmatrix}a_0-\eta(b)&1_m\\1_m&b\end{pmatrix}.
+\end{equation}
+The feasible and strictly feasible sets are respectively
+\begin{equation}\label{eq:feasible-set}
+ \mathcal B=\{b>0:L(b)\ge0\},\qquad
+ \mathcal B_{\rm str}=\{b>0:L(b)>0\}.
+\end{equation}
+\end{definition}
+Define
+\begin{equation}\label{eq:positive-objective}
+ J(b)=-\log\det b+\Tr(a_0b)-\tfrac12\Tr(b\eta(b))-m.
+\end{equation}
+
+% Provenance: the final matrix-supersolution formulation of Yin_C_F0121.
+\begin{theorem}[Strictly positive pencils]\label{thm:positive}
+The pencil $S$ is strictly positive, meaning $S\ge\gamma1_m$ for some $\gamma>0$, if and only if $\mathcal B_{\rm str}$ is nonempty.
+Under this hypothesis,
+\begin{equation}\label{eq:positive-minimum}
+ \Delta(S)=\exp\left(\frac1m\min_{b\in\mathcal B}J(b)\right)
+          =\exp\left(\frac1m\inf_{b\in\mathcal B_{\rm str}}J(b)\right).
+\end{equation}
+The minimum is attained uniquely at $q=E_m(S^{-1})$, which satisfies
+\[
+ q^{-1}=a_0-\eta(q),\qquad q\le b\quad(b\in\mathcal B).
+\]
+The infimum on $\mathcal B_{\rm str}$ is not attained.
+\end{theorem}
+Section~\ref{sec:positive} proves the theorem and relates $q$ to the minimizer $b_*=E_m(S^{-2})$ in Theorem~\ref{thm:main}.
+
+Section~\ref{sec:ordered-minmax} gives ordered min--max formulas for scalar pencils, commuting coefficients and isotropic covariance, and a separate matrix formula when $\eta$ is strictly positive as a Hilbert--Schmidt operator.
+
+\subsection{Consequences for Brown measure}
+Let $T=a_0+\sum_j a_j\otimes s_j$.
+The Brown measure $\mu_T$ is the probability measure whose logarithmic potential is $u(z)=\log\Delta(T-z1_m)$; the precise convention is recalled in Section~\ref{sec:spectral}, following \cite[Chapter 11, Section 9]{MS17}.
+Spectral shifts in Theorem~\ref{thm:main} therefore give $u$ and the spectral criterion
+\[
+ z\notin\spec(T)
+ \quad\Longleftrightarrow\quad
+ \text{the infimum for $T-z1_m$ is attained}.
+\]
+Theorem~\ref{thm:main} and the nonnegative quadratic correction in \eqref{eq:main-action} give the following consequence.
+
+% Proof input: Yin_C_F0172, Sections 1--2.
+\begin{corollary}[Capacity bound and absence of atoms]\label{cor:brown-capacity}
+For every $z\in\C$,
+\begin{equation}\label{eq:intro-uniform-bound}
+ \Delta(T-z1_m)\ge e^{-1/2}\Cap(\eta)^{1/(2m)}.
+\end{equation}
+If $\Cap(\eta)>0$, then $\mu_T$ has no atoms.
+\end{corollary}
+The proof is given in Section~\ref{subsec:brown-atoms}, where Proposition~\ref{prop:brown-atoms} also shows that every atom of $\mu_T$ lies in $\spec(a_0)$ without a capacity assumption.
+
+When both $a_0$ and $\rho$ vanish, Theorem~\ref{thm:main} determines the radial distribution and the operator spectrum.
+This includes linear combinations of free circular elements with matrix coefficients; see Example~\ref{ex:brown-circular-coefficients}.
+Write $r(\eta)$ for the spectral radius of $\eta$, the maximum modulus of its eigenvalues.
+
+% Proof input: Yin_C_F0170; positive capacity uses Yin_C_F0172.
+\begin{proposition}[Radial Brown measure]\label{prop:brown-radial}
+Assume $a_0=0$ and $\rho=0$.
+The logarithmic potential has the form $u(z)=f(|z|^2)$, where $f$ is finite, continuously differentiable, nondecreasing and concave on $(0,\infty)$.
+Its radial distribution is
+\begin{equation}\label{eq:brown-radial-cdf}
+ F(s):=\mu_T(\{|z|^2\le s\})=2sf'(s),\qquad s>0.
+\end{equation}
+The measure $\mu_T$ is absolutely continuous with respect to planar area on $\C\setminus\{0\}$.
+If $\Cap(\eta)>0$, it is absolutely continuous on all of $\C$.
+Moreover,
+\begin{equation}\label{eq:brown-spectral-disk}
+ \spec(T)=\{z\in\C:|z|^2\le r(\eta)\}.
+\end{equation}
+\end{proposition}
+Section~\ref{subsec:brown-radial} proves this proposition and gives the distribution in terms of regularized minimizers, together with bounds for the density.
+For general coefficients, Section~\ref{subsec:brown-density} computes the Laplacian of the regularized logarithmic potential through the Hessian at the minimizer.
+
+\subsection{Proof mechanism and organization}
+The proof of the general formula starts with a regularized variational formula.
+The function being minimized has compact sublevel sets in the positive definite cone.
+A positive-map argument shows that every critical point has the signs required by the selfadjoint block resolvent.
+Dyson uniqueness then identifies the global minimizer.
+Rescaling the trial variable removes the regularizer.
+For the attainment assertion, a critical point yields a strict spectral-radius estimate and an analytic continuation of the matrix Cauchy transform through zero.
+This proof is independent of the later Hilbert--Schmidt comparison and of the applications to Brown measure.
+
+Section~\ref{sec:dyson} establishes the common Dyson and spectral tools.
+Section~\ref{sec:main-proof} proves Theorem~\ref{thm:main}.
+Section~\ref{sec:imaginary-hs} treats imaginary constant terms and the strict Hilbert--Schmidt comparison.
+Section~\ref{sec:positive} gives the order-theoretic formula for strictly positive pencils, and Section~\ref{sec:ordered-minmax} establishes the ordered min--max principles.
+Section~\ref{sec:spectral} develops the applications to spectra and Brown measures.
+Appendix~\ref{app:comparison} contains the global comparison argument used in Section~\ref{sec:imaginary-hs}.

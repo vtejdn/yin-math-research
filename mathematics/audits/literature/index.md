@@ -1,6 +1,6 @@
 # Literature Index
 
-These links locate the current author-owned source units.
+These links locate the current author-owned source units and selected source notes.
 Mathematical content, source inspections, finite computation limits and review relationships remain in those materials.
 
 | Material | Title and scope |
@@ -125,3 +125,79 @@ Mathematical content, source inspections, finite computation limits and review r
 | [MS23/Yin_U006](MS23/Yin_U006.md) | MS23: The One-Variable Model |
 | [NS06/Yin_U003](NS06/Yin_U003.md) | NS06-U003: Finite circular matrix models |
 | [Yan25/Yin_U001](Yan25/Yin_U001.md) | Yan25-U001: Tracial free-Poisson Wick source specializations |
+| [ACSY24/Yin_U004](ACSY24/Yin_U004.md) | ACSY24-U004: Point-spectrum weights and Brown atoms |
+| [AK20/Yin_U001](AK20/Yin_U001.md) | AK20-U001: Radial Brown statements under flatness |
+| [BCG25/Yin_U001](BCG25/Yin_U001.md) | BCG25: A Scalar Exterior Variational Formula |
+| [Bla06/Yin_U001](Bla06/Yin_U001.md) | Dense Adjoint Domains and Closability |
+| [Bla06/Yin_U002](Bla06/Yin_U002.md) | The normal bidual summand of a von Neumann algebra |
+| [CN21/Yin_U001](CN21/Yin_U001.md) | CN21: actual Jacobian-adjoint domain and the restriction boundary |
+| [CN25/Yin_U001](CN25/Yin_U001.md) | CN25: approximate Jacobian relations and uniform derivation domains |
+| [CS89/Yin_U001](CS89/Yin_U001.md) | Ultraweak Closure of Multilinear Balancing Relations |
+| [DG24/Yin_U001](DG24/Yin_U001.md) | DG24-U001: Operator-valued cumulants and circular characterization |
+| [DGB16/Yin_U001](DGB16/Yin_U001.md) | DGB16-U001: algebraic entropy, rationalization and finite-flow reductions |
+| [DGS21/Yin_U001](DGS21/Yin_U001.md) | DGS21-U001: Endpoint Estimates and the Actual Canonical Dual Domains |
+| [DR10/Yin_U001](DR10/Yin_U001.md) | DR10-U001: scalar Fejer--Riesz statement and reciprocal-conjugate root attribution |
+| [DR10/Yin_U002](DR10/Yin_U002.md) | DR10-U002: outer matrix polynomial factorization on the circle |
+| [Den09/Yin_U001](Den09/Yin_U001.md) | Den09-U001: Mahler measure as a Fuglede--Kadison determinant |
+| [Den09/Yin_U002](Den09/Yin_U002.md) | Den09-U002: determinant approximation, finite sections and marked groups |
+| [FK52/Yin_U001](FK52/Yin_U001.md) | FK52-U001: The ordinary bounded determinant product proof |
+| [GBV15/Yin_U001](GBV15/Yin_U001.md) | GBV15: rational algebraic entropy and finite-set realization |
+| [GGOW20/Yin_U001](GGOW20/Yin_U001.md) | Free-Field Rank and Finite-Dimensional Obstructions |
+| [GGOW20/Yin_U002](GGOW20/Yin_U002.md) | Capacity and the Polynomial Scaling Bound |
+| [GGOW20/Yin_U003](GGOW20/Yin_U003.md) | Near Minimizers and Tensor Products of Capacity |
+| [GGOW20/Yin_U004](GGOW20/Yin_U004.md) | Rational Scaling, Precision, and Capacity Approximation |
+| [Gur04/Yin_U001](Gur04/Yin_U001.md) | Positive Maps, Rank, and the Edmonds-Rado Promise |
+| [Gur04/Yin_U002](Gur04/Yin_U002.md) | Capacity and Positive Operator Scaling |
+| [Gur04/Yin_U003](Gur04/Yin_U003.md) | Gur04-U003 - Exact scaling, attainment, and indecomposability |
+| [HLN07/Yin_U001](HLN07/Yin_U001.md) | HLN07: A Related Deterministic-Equivalent Formula |
+| [HP03/Yin_U001](HP03/Yin_U001.md) | HP03: The Unital Operator Jensen Input |
+| [Keh25/Yin_U001](Keh25/Yin_U001.md) | Keh25-U001: product compactness for pointwise Hilbert bounds |
+| [LSW24b/Yin_U001](LSW24b/Yin_U001.md) | Projective tensor symmetry: the corrected scope |
+| [Luc22/Yin_U001](Luc22/Yin_U001.md) | Luc22-U001: Determinant conventions and the four group Lehmer constants |
+| [Luc22/Yin_U002](Luc22/Yin_U002.md) | Luc22-U002: Algebraic reduction, abelian specialization and geometric examples |
+| [MS17/Yin_U001](MS17/Yin_U001.md) | MS17: Selected Affine and Spectral Inputs |
+| [MS24/Yin_U001](MS24/Yin_U001.md) | MS24: Determinant and Capacity Conventions |
+| [MS24/Yin_U002](MS24/Yin_U002.md) | MS24: Moments, Hermitization and Scaling |
+| [MS24/Yin_U003](MS24/Yin_U003.md) | MS24: The Determinant Formula |
+| [MS24/Yin_U004](MS24/Yin_U004.md) | MS24: Integer Capacity and the Haar Model |
+| [MS24/Yin_U005](MS24/Yin_U005.md) | MS24: External Interfaces and Limits |
+| [MS24/Yin_U006](MS24/Yin_U006.md) | MS24-U006: Complete finite-dimensional scaling interfaces for the determinant proof |
+| [MSW17/Yin_U001](MSW17/Yin_U001.md) | MSW17-U001: Selfadjoint Conjugate Variables and Contraction Estimates |
+| [NS06/Yin_U004](NS06/Yin_U004.md) | NS06-U004: semicircular mixed moments and normalized free compression |
+| [Sch01/Yin_U001](Sch01/Yin_U001.md) | Sch01: Integer Group-Ring Determinant Input |
+| [Shl06/Yin_U001](Shl06/Yin_U001.md) | Shl06: Unbounded Dual Systems and the Conjugate Interface |
+| [Shl06/Yin_U002](Shl06/Yin_U002.md) | Shl06: Spectral Truncation of Hilbert--Schmidt Commutators |
+| [Sin07/Yin_U001](Sin07/Yin_U001.md) | Sin07-U001: Fixed-degree continuity of Mahler measure |
+| [Spe26/Yin_U001](Spe26/Yin_U001.md) | Spe26: Affine Determinant Proposal and Its Domain |
+| [Wei94/Yin_U002](Wei94/Yin_U002.md) | The tensor-algebra bimodule resolution of length one |
+| [AEK19 source notes](AEK19/readme.md) | AEK19: the linear stability operator of the matrix Dyson equation |
+| [AK26 source notes](AK26/readme.md) | AK26: commutative covariance and spectral-radius boundaries |
+| [AZGL+18 source notes](AZGL+18/readme.md) | AZGL+18: capacity as a geodesically convex optimization problem |
+| [BJL19 source notes](BJL19/readme.md) | BJL19: Matrix Geometric Mean and Positive Riccati Equation |
+| [BSS18 source notes](BSS18/readme.md) | BSS18: regularized Brown measures and hermitization |
+| [BV04 source notes](BV04/readme.md) | BV04: contextual optimization references |
+| [BYZ24 source notes](BYZ24/readme.md) | BYZ24: uniform density bounds under free circular addition |
+| [Bel15 source notes](Bel15/readme.md) | Bel15: imaginary-part parametrization |
+| [Bia97 source notes](Bia97/readme.md) | Bia97: semicircular free-convolution attribution |
+| [CFM20 source notes](CFM20/readme.md) | CFM20: Existence of Free Stein Kernels |
+| [CMM+24 source notes](CMM+24/readme.md) | CMM+24: Delta Additivity and the Kolmogorov Rank Bound |
+| [Die26 source notes](Die26/readme.md) | Die26: Almost-coassociativity and the normal-tuple domain question |
+| [Dou66 source notes](Dou66/readme.md) | Dou66: bounded majorization and factorization |
+| [FN17 source notes](FN17/readme.md) | FN17: Free Stein Kernels and the Identity Kernel |
+| [HL00 source notes](HL00/readme.md) | HL00: scalar R-diagonal comparison |
+| [HRFS07 source notes](HRFS07/readme.md) | HRFS07: half-plane uniqueness for the operator-valued quadratic equation |
+| [HS09 source notes](HS09/readme.md) | HS09: spectral subspaces and invariant block masses |
+| [Han08 source notes](Han08/readme.md) | Han08: Wigner–Yanase Skew Information |
+| [KR12 source notes](KR12/readme.md) | KR12: projective symmetry claim and its use limitation |
+| [KSW23 source notes](KSW23/readme.md) | KSW23: Conjugate variables for q-Araki--Woods models |
+| [Kum23 source notes](Kum23/readme.md) | Kum23: Mixed q-Araki--Woods conjugate systems |
+| [Kun26 source notes](Kun26/readme.md) | Kun26: Semicircular Spectral-Edge Feasibility |
+| [Leg99 source notes](Leg99/readme.md) | Leg99: Menger curvature and rectifiability |
+| [Liu12 source notes](Liu12/readme.md) | Commutation with a Generated von Neumann Algebra |
+| [MR17 source notes](MR17/readme.md) | MR17: free Hilbert transforms and the remaining endpoint interface |
+| [Nel17 source notes](Nel17/readme.md) | Nel17: Non-Tracial Conjugate Variables and Difference Quotients |
+| [Pop03 source notes](Pop03/readme.md) | Pop03: strict positive defects and positive-map stability |
+| [SH15 source notes](SH15/readme.md) | SH15: Positive-Definite Geodesics |
+| [Tho08 source notes](Tho08/readme.md) | Tho08: derivation extensions and the closability topology |
+| [Yan24 source notes](Yan24/readme.md) | Yan24: Twisted Araki--Woods conjugate systems |
+| [Zho26 source notes](Zho26/readme.md) | Zho26: circular-addition density formulas |

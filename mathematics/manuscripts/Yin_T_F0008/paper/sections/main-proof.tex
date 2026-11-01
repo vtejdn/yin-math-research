@@ -1,0 +1,268 @@
+\section{Proof of the general formula and attainment}\label{sec:main-proof}
+
+We retain the notation of Theorem~\ref{thm:main} and the block covariance in \eqref{eq:full-covariance}.
+All traces in this section are unnormalized matrix traces.
+Adjoints of maps are taken for the Hilbert--Schmidt inner product unless stated otherwise.
+
+\subsection{A coercive regularization}
+For $\varepsilon>0$ and $c>0$, put
+\[
+ C=\varepsilon^21_m+\eta(c),\qquad
+ \mathcal L_{\varepsilon,c}(Y)=CYc^{-1}+\rho(Y^*).
+\]
+On the real vector space $M_m(\C)$ use the inner product $\langle X,Y\rangle_{\R}=\operatorname{Re}\Tr(X^*Y)$.
+The map $\mathcal L_{\varepsilon,c}$ is selfadjoint for this inner product, and its quadratic form is
+\begin{equation}\label{eq:quadratic-form}
+ B_{\varepsilon,c}(Y)=\Tr(Y^*CYc^{-1})
+             +\operatorname{Re}\Tr(Y^*\rho(Y^*)).
+\end{equation}
+For the second summand, symmetry follows from cyclicity of the trace:
+$\operatorname{Re}\Tr(X^*a_jY^*a_j) =\operatorname{Re}\Tr(Y^*a_jX^*a_j)$.
+To check positivity, set $D_j=c^{-1/2}Y^*a_jc^{1/2}$.
+Then
+\[
+ |\Tr(D_j^2)|\le\Tr(D_j^*D_j)
+      =\Tr(Y^*a_jca_j^*Yc^{-1}).
+\]
+The inequality is the Hilbert--Schmidt Cauchy--Schwarz inequality applied to $D_j^*$ and $D_j$.
+Consequently,
+\begin{equation}\label{eq:quadratic-lower-bound}
+ B_{\varepsilon,c}(Y)\ge
+           \varepsilon^2\Tr(Y^*Yc^{-1})>0\qquad(Y\ne0).
+\end{equation}
+Thus $\mathcal L_{\varepsilon,c}$ is invertible as a real-linear map on $M_m(\C)$.
+Its unique solution $Y=Y_{\varepsilon,c}$ at right-hand side $a_0$ depends smoothly on $c$.
+In particular, $\varepsilon=1$, $c=b$ proves the asserted invertibility of $\mathcal T_b$.
+
+Define
+\begin{equation}\label{eq:regularized-objective}
+ \mathcal F_\varepsilon(c)=\log\det C-\log\det c
+       +\Tr c-m+\operatorname{Re}\Tr(a_0^*Y_{\varepsilon,c}).
+\end{equation}
+Completing the square in the real inner product gives
+\begin{equation}\label{eq:inner-maximum}
+ \operatorname{Re}\Tr(a_0^*Y_{\varepsilon,c})
+ =\max_Y\{2\operatorname{Re}\Tr(a_0^*Y)-B_{\varepsilon,c}(Y)\}
+ \ge0.
+\end{equation}
+Hence
+\[
+ \mathcal F_\varepsilon(c)\ge
+ m\log\varepsilon^2+\Tr c-\log\det c-m.
+\]
+Since $t-\log t\to+\infty$ as $t\downarrow0$ or $t\to\infty$, every sublevel set is contained in $\{\alpha 1_m\le c\le\beta 1_m\}$ for some $0<\alpha\le\beta<\infty$.
+Continuity then shows that $\mathcal F_\varepsilon$ attains a global minimum in the positive cone.
+
+\subsection{Critical points and the resolvent solution}
+We now identify every critical point of $\mathcal F_\varepsilon$.
+In this subsection $Y=Y_{\varepsilon,c}$.
+Differentiating the maximum in \eqref{eq:inner-maximum} requires only the explicit $c$-derivative: the derivative with respect to $Y$ vanishes at its maximizer.
+Put
+\begin{equation}\label{eq:auxiliary-P}
+ P=C^{-1}-Yc^{-1}Y^*.
+\end{equation}
+This matrix is initially only known to be selfadjoint.
+Differentiating \eqref{eq:regularized-objective} in every selfadjoint direction gives
+\begin{equation}\label{eq:regularized-critical}
+ c^{-1}=1_m+\eta^*(P)+c^{-1}Y^*CYc^{-1}.
+\end{equation}
+Indeed, the terms involving the derivative of $C$ combine to $\Tr(\eta^*(P)\,dc)$; the derivative of $c^{-1}$ in the quadratic form contributes $\Tr(c^{-1}Y^*CYc^{-1}\,dc)$.
+
+We next prove that $P$ is positive definite.
+Set
+\[
+ U=C^{1/2}Yc^{-1/2},\qquad K=1_m-U^*U,\qquad W=1_m-UU^*,
+\]
+and define the completely positive map
+\[
+ \Phi(x)=C^{-1/2}\eta(c^{1/2}xc^{1/2})C^{-1/2}.
+\]
+Then $P=C^{-1/2}WC^{-1/2}$, and \eqref{eq:regularized-critical} is equivalent to
+\begin{equation}\label{eq:sign-fixed-point}
+ K=c+\Phi^*(W),\qquad
+ \Phi(1_m)=1_m-\varepsilon^2C^{-1}<1_m.
+\end{equation}
+Choose a unitary extension $V$ of the polar factor of the square matrix $U$, so that $U=V(U^*U)^{1/2}$ and $W=VKV^*$.
+For $\Lambda(x)=\Phi^*(VxV^*)$ we have $\Lambda^*(1_m)=V^*\Phi(1_m)V<1_m$.
+The positive-map estimate in Section~\ref{subsec:gap-tools} implies that the spectral radius of $\Lambda$, equal to that of its adjoint, is less than one.
+Thus
+\[
+ K=(\id-\Lambda)^{-1}(c)=\sum_{k\ge0}\Lambda^k(c)>0.
+\]
+It follows that $W>0$ and $P>0$ as required.
+
+Consider the invertible selfadjoint block matrix
+\[
+ \mathfrak q=\begin{pmatrix}P&Y\\Y^*&-c\end{pmatrix}.
+\]
+Its Schur complement is $P+Yc^{-1}Y^*=C^{-1}$, so
+\begin{equation}\label{eq:signed-inverse}
+ \mathfrak q^{-1}=
+ \begin{pmatrix}
+ C&CYc^{-1}\\
+ c^{-1}Y^*C&-c^{-1}+c^{-1}Y^*CYc^{-1}
+ \end{pmatrix}
+ =\begin{pmatrix}\varepsilon^21_m&a_0\\a_0^*&-1_m\end{pmatrix}
+       -\Theta(\mathfrak q).
+\end{equation}
+The upper right equality uses $CYc^{-1}+\rho(Y^*)=a_0$, and the lower diagonal equality is \eqref{eq:regularized-critical}.
+Now set
+\begin{equation}\label{eq:physical-block}
+ \mathscr R=\begin{pmatrix}i\varepsilon P&Y\\Y^*&ic/\varepsilon\end{pmatrix}.
+\end{equation}
+Multiplying \eqref{eq:signed-inverse} by the corresponding diagonal scalars, or directly inverting \eqref{eq:physical-block}, gives
+\[
+ \mathscr R^{-1}=A-\Theta(\mathscr R)-i\varepsilon 1_{2m}.
+\]
+Since $\operatorname{Im}\mathscr R>0$, the matrix $-\mathscr R$ is the unique solution of \eqref{eq:dyson-general} at $i\varepsilon$.
+Thus $\mathscr R=E_{2m}((\mathscr H-i\varepsilon 1_{2m})^{-1})$.
+The operator block inverse yields
+\begin{equation}\label{eq:regularized-optimizer}
+ \begin{split}
+ P_\varepsilon&=E_m((SS^*+\varepsilon^21_m)^{-1}),\\
+ Y_\varepsilon&=E_m((SS^*+\varepsilon^21_m)^{-1}S),\\
+ c_\varepsilon&=\varepsilon^2E_m((S^*S+\varepsilon^21_m)^{-1}).
+ \end{split}
+\end{equation}
+Every critical point therefore has the same $c=c_\varepsilon$.
+Since a minimum exists, $c_\varepsilon$ is the unique minimizer and the unique critical point of $\mathcal F_\varepsilon$.
+
+\subsection{The minimum value and removal of regularization}
+All quantities in the next calculation are evaluated at \eqref{eq:regularized-optimizer}.
+Write $\gamma_\rho=\operatorname{Re}\Tr(Y^*\rho(Y^*))$.
+The Schur complement gives $|\det\mathscr R|=\det c/\det C$, while block multiplication gives
+\[
+ \tfrac12\operatorname{Re}\Tr(\Theta(\mathscr R)\mathscr R)
+       =-\Tr(P\eta(c))+\gamma_\rho.
+\]
+Applying \eqref{eq:regularized-primitive} to $G_\varepsilon=-\mathscr R$ therefore gives
+\begin{equation}\label{eq:minimum-primitive}
+ 2m\log\Delta_\varepsilon(S)
+ =\log\det C-\log\det c-\Tr(P\eta(c))+\gamma_\rho.
+\end{equation}
+On the other hand, $\mathcal L_{\varepsilon,c}(Y)=a_0$ and the trace of \eqref{eq:regularized-critical} after multiplication by $c$ give
+\[
+ \operatorname{Re}\Tr(a_0^*Y)=\Tr(Y^*CYc^{-1})+\gamma_\rho,
+ \qquad
+ m=\Tr c+\Tr(P\eta(c))+\Tr(Y^*CYc^{-1}).
+\]
+Substitution in \eqref{eq:minimum-primitive} proves
+\begin{equation}\label{eq:regularized-minimum}
+ 2m\log\Delta_\varepsilon(S)=\min_{c>0}\mathcal F_\varepsilon(c).
+\end{equation}
+
+The substitution $c=\varepsilon^2b$ is a bijection of the positive cone.
+It gives $C=\varepsilon^2H_b$ and $\mathcal L_{\varepsilon,c}=\mathcal T_b$, hence
+\begin{equation}\label{eq:scaled-minimum}
+ 2m\log\Delta_\varepsilon(S)
+      =\min_{b>0}\{\mathcal V(b)+\varepsilon^2\Tr b\}.
+\end{equation}
+Let $\alpha=\inf_{b>0}\mathcal V(b)\in[-\infty,\infty)$.
+The right-hand side is at least $\alpha$.
+For each fixed $b>0$ it is at most $\mathcal V(b)+\varepsilon^2\Tr b$, so its upper limit as $\varepsilon\downarrow0$ is at most $\mathcal V(b)$.
+Taking the infimum over fixed trials proves convergence to $\alpha$, also when $\alpha=-\infty$.
+Since the left-hand side decreases to $2m\log\Delta(S)$, we obtain $2m\log\Delta(S)=\inf_{b>0}\mathcal V(b)$.
+Exponentiating proves \eqref{eq:main-determinant}.
+
+\subsection{A critical point forces a spectral gap}
+Suppose now that $b>0$ is a critical point of $\mathcal V$.
+Write $H=1_m+\eta(b)$, $Y=Z_b$, and $P=H^{-1}-Yb^{-1}Y^*$.
+The same differentiation as above, with the term $\Tr c$ absent, gives
+\begin{equation}\label{eq:unregularized-critical}
+ b^{-1}=\eta^*(P)+b^{-1}Y^*HYb^{-1}.
+\end{equation}
+Set $U=H^{1/2}Yb^{-1/2}$ and use the same $K,W,V,\Phi$ as in \eqref{eq:sign-fixed-point}, with $C=H$ and $c=b$.
+This time $K=\Phi^*(W)=\Lambda(K)$ and $\Phi(1_m)=1_m-H^{-1}<1_m$.
+Thus $K=0$.
+Consequently $U$ is unitary, $P=0$, and $Y$ is invertible.
+We have proved
+\begin{equation}\label{eq:boundary-identities}
+ b=Y^*(1_m+\eta(b))Y,\qquad
+ a_0=Y^{-*}+\rho(Y^*),
+\end{equation}
+where $Y^{-*}=(Y^*)^{-1}$.
+
+These identities also give a spectral-radius bound on the full block space.
+Define the completely positive maps
+\[
+ \mathcal A(x)=Y^*\eta(x)Y,\qquad
+ \mathcal B(x)=Y\eta^*(x)Y^*.
+\]
+The first identity in \eqref{eq:boundary-identities} says $b-\mathcal A(b)=Y^*Y>0$, so the spectral radius of $\mathcal A$ is less than one.
+The map $\mathcal B$ is similar to $\mathcal A^*:x\mapsto\eta^*(YxY^*)$, by conjugation with the invertible map $x\mapsto YxY^*$.
+It too has spectral radius less than one.
+Hence
+\[
+ P_0=(\id-\mathcal B)^{-1}(YY^*)>0,
+ \qquad P_0-\mathcal B(P_0)=YY^*.
+\]
+Put
+\begin{equation}\label{eq:gap-basepoint}
+ G_0=-\begin{pmatrix}0&Y\\Y^*&0\end{pmatrix},\qquad
+ D=\begin{pmatrix}P_0&0\\0&b\end{pmatrix}>0,
+ \qquad \mathcal S(x)=G_0\Theta(x)G_0.
+\end{equation}
+The second identity in \eqref{eq:boundary-identities} and its adjoint give $G_0^{-1}=-A-\Theta(G_0)$.
+Moreover,
+\begin{equation}\label{eq:strict-full-stability}
+ D-\mathcal S(D)=G_0^2
+       =\operatorname{diag}(YY^*,Y^*Y)>0.
+\end{equation}
+The positive-map estimate therefore gives $r(\mathcal S)<1$ on all of $M_{2m}(\C)$.
+
+We explain why the selfadjoint solution $G_0$ is the value at zero of the analytically continued matrix Cauchy transform.
+For invertible $G$ near $G_0$ set
+\[
+ \mathcal E(w,G)=G^{-1}-w1_{2m}+A+\Theta(G).
+\]
+Its derivative with respect to $G$ at $(0,G_0)$ is the invertible complex-linear map
+\[
+ L(X)=-G_0^{-1}(\id-\mathcal S)(X)G_0^{-1}.
+\]
+This produces a unique local analytic solution $g(w)$ with $g(0)=G_0$.
+Indeed, on a sufficiently small closed ball about $G_0$ the map $G\mapsto G-L^{-1}\mathcal E(w,G)$ has derivative in $G$ of norm at most $1/2$.
+For $|w|$ small it maps that ball into itself, because its value at the center tends to $G_0$.
+Its iterates converge uniformly to the unique fixed point, and locally uniform convergence of the holomorphic iterates gives analyticity in $w$.
+
+Adjoint symmetry and local uniqueness give $g(\overline w)=g(w)^*$.
+Differentiating the equation at zero and using \eqref{eq:strict-full-stability} yields
+\begin{equation}\label{eq:gap-derivative}
+ g'(0)=-(\id-\mathcal S)^{-1}(G_0^2)=-D<0.
+\end{equation}
+Thus $\operatorname{Im}g(i\varepsilon)=-\varepsilon D+O(\varepsilon^2)<0$ for small $\varepsilon>0$.
+Dyson uniqueness identifies $g(i\varepsilon)$ with the matrix Cauchy transform of $\mathscr H$.
+The identity theorem extends this equality to the upper half of a small disk.
+Since $g$ is selfadjoint on the real diameter, the spectral-gap criterion in Section~\ref{subsec:gap-tools} shows that $\mathscr H$ is boundedly invertible.
+As $\mathscr H^2=\operatorname{diag}(SS^*,S^*S)$, this is equivalent to bounded invertibility of $S$.
+
+\subsection{Attainment and the unique minimizer}
+Conversely, suppose that $S$ is boundedly invertible.
+The minimizing trial in \eqref{eq:scaled-minimum} is
+\[
+ b_\varepsilon=E_m((S^*S+\varepsilon^21_m)^{-1}).
+\]
+Norm continuity of inversion in a spectral gap gives
+\[
+ b_\varepsilon\longrightarrow b_*=E_m((S^*S)^{-1})>0,
+ \qquad Y_\varepsilon\longrightarrow E_m((S^*)^{-1}).
+\]
+The matrices $b_\varepsilon$ stay bounded, so $\varepsilon^2\Tr b_\varepsilon\to0$.
+Passing to the limit in \eqref{eq:scaled-minimum} and using continuity of $\mathcal V$ shows that $b_*$ attains its infimum.
+Continuity of $\mathcal T_b^{-1}(a_0)$ gives $Z_{b_*}=E_m((S^*)^{-1})$.
+
+Every attained minimum lies in the open positive cone and is a critical point of the smooth real function $\mathcal V$.
+This also applies to the expression minimized in \eqref{eq:main-determinant}, which equals $\exp(\mathcal V(b)/(2m))$ for every $b>0$.
+The preceding subsection has shown that every critical point forces invertibility.
+It also determines that critical point uniquely: once $S$ is invertible, the continued matrix Cauchy transform satisfies
+\[
+ G_0=-E_{2m}(\mathscr H^{-1}),\qquad
+ g'(0)=-E_{2m}(\mathscr H^{-2}).
+\]
+The upper right block of the first identity determines $Y=E_m((S^*)^{-1})$, and the lower diagonal block of \eqref{eq:gap-derivative} determines $b=E_m((S^*S)^{-1})$.
+This proves all equivalences and the uniqueness assertion in Theorem~\ref{thm:main}.
+
+\begin{remark}[Capacity and attainment]\label{rem:capacity-attainment}
+Attainment of homogeneous capacity is related to exact operator scaling \cite[Theorem 4.7]{Gur04}, and is a different question from attainment in Theorem~\ref{thm:main}.
+For $m=1$, $a_0=0$ and $\eta(b)=b$, the homogeneous quotient $\eta(b)/b$ is identically one, whereas $(1+\eta(b))/b=1+1/b$ reaches its infimum only as $b\to\infty$.
+The corresponding standard semicircular element is not invertible.
+\end{remark}

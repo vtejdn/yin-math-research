@@ -19,6 +19,7 @@ Recorded consumer navigation: Statement/proof uses of the specified models: [Yin
 Exact definition home and convention: [BZ22's bounded finite-tracial logarithmic-potential normalization](../audits/literature/BZ22/Yin_U001.md#brown-measure-convention).
 
 Recorded consumer navigation: Brown measure in [Yin_C_F0094's product-spectrum statement](../claims/Yin_C_F0094_v1.md#statement) and [proof version 2's normal-source density argument](../claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair).
+The same normalization is used by the [affine spectral-potential argument](../claims/Yin_C_F0123_v1.md#brown-measure-and-the-local-source-boundary); its [MS17 source interface](../audits/literature/MS17/Yin_U001.md#ms17-u001) supplies the separately inspected regularization and weak-limit conventions.
 
 <a id="r-diagonal-additive-free-infinite-divisibility"></a>
 ### Additive free infinite divisibility for R-diagonal elements
@@ -205,3 +206,42 @@ Exact definition home and conventions: [Yin_C_F0118's closed iterated-test subsp
 Recorded consumer navigation: [Yin_C_F0107, Section 8](../claims/Yin_C_F0107_v1.md#8-what-is-now-automatic-for-holomorphic-q-circular-rationals) uses the subspace for rational-state inclusion and conditional reconstruction.
 [Yin_C_F0109, Section 1](../claims/Yin_C_F0109_v1.md#1-question-and-reuse-boundary) uses the finite-test input and retains the unresolved Hilbert-space totality target.
 Yin_C_F0111 uses it in the [nilpotent-vector criterion](../claims/Yin_C_F0111_v1.md#4-nilpotent-iterated-kernel-vectors-are-positive-polynomials) and the [conditional exponential-tail criterion](../claims/Yin_C_F0111_v1.md#6-a-separate-tail-criterion-for-general-iterated-kernel-vectors), retaining their additional hypotheses.
+
+<a id="capacity-and-affine-determinants"></a>
+### Capacity, scaling and affine determinant constructions
+
+These entries identify complete source definitions and local constructions.
+Their determinant identities, existence, uniqueness, attainment and review status remain assertions of the responsible materials.
+Ordinary determinants include zero spectral mass; kernel-removed determinants and total versus normalized matrix traces remain distinct conventions.
+
+| Concept and exact home | Source and adopted convention | Recorded consumer navigation |
+| --- | --- | --- |
+| [Positive and completely positive maps, rank non-decrease and doubly stochastic maps](../audits/literature/Gur04/Yin_U001.md#positive-maps-and-rank) | Gur04's inspected finite-matrix definitions; [MS24](../audits/literature/MS24/Yin_U001.md#capacity-and-scaling) retains its scalar indecomposability qualification. | [MS24 determinant proof](../audits/literature/MS24/Yin_U003.md#ms24-u003); the [general affine coefficient maps](../claims/Yin_C_F0126_v1.md#setting-and-primary-unregularized-formula) use the completely positive specialization. |
+| [Capacity and operator scaling](../audits/literature/Gur04/Yin_U002.md#capacity-definition) | Ordinary matrix determinant on positive-definite trials, with [MS24's normalization](../audits/literature/MS24/Yin_U001.md#capacity-and-scaling); no normalization by a determinant root. | [Centered MS24 formula](../audits/literature/MS24/Yin_U003.md#ms24-u003) and [the affine zero-mean specialization](../claims/Yin_C_F0126_v1.md#setting-and-primary-unregularized-formula). |
+| [Ordinary Fuglede–Kadison determinant](../audits/literature/MS24/Yin_U001.md#determinant-convention) and [kernel-removed determinant](../audits/literature/Luc22/Yin_U001.md#luc22-kernel-removed-determinant) | The source records distinguish zero spectral mass, matrix trace and zero-operator conventions; these are different constructions. | [Affine semicircular setting](../claims/Yin_C_F0119_v1.md#setting-and-exact-statement) and [single-Haar scalar/matrix normalization](../claims/Yin_C_F0176_v1.md#matrix-capacity-question) use the ordinary determinant. |
+| [Hermitized covariance and coefficient maps](../audits/literature/MS24/Yin_U002.md#covariance-and-hermitization) | The complete eta, eta-adjoint, rho and rho-adjoint block formulas retain arbitrary complex coefficient matrices. | [Affine Dyson formulation](../claims/Yin_C_F0119_v1.md#the-full-covariance-retained-by-hermitization) and [unrestricted affine action](../claims/Yin_C_F0126_v1.md#setting-and-primary-unregularized-formula). |
+| [Affine determinant functional](../claims/Yin_C_F0119_v1.md#setting-and-exact-statement) | Explicit local notation defined by the selected half-plane Dyson solution and a regularized finite-matrix limit; no conventional literature capacity name is inferred. | [The physical primitive and scalar infimum](../claims/Yin_C_F0119_v1.md#monotonicity-and-scalar-infimum); the freely variable affine formula has its distinct trial construction below. |
+| [Positive-cone action and specified exponential paths](../claims/Yin_C_F0120_v1.md#existence-strict-convexity-along-positive-cone-paths-and-uniqueness) | Explicit selfadjoint-Kraus objective and positive-definite paths; pathwise convexity is distinct from Euclidean convexity. | [Positive imaginary-drift determinant identity](../claims/Yin_C_F0120_v1.md#proof-of-the-determinant-identity). |
+| [Matrix supersolution domain](../claims/Yin_C_F0121_v1.md#minimum-over-all-matrix-supersolutions) | The positive trial matrix and affine block inequality define the domain; strict feasibility and strict positivity are separate proved assertions. | [Positive-pencil minimum](../claims/Yin_C_F0121_v1.md#proof-of-global-minimality), restricted to the stated strictly positive or negative pencils. |
+| [Strict Hilbert–Schmidt affine trial domain](../claims/Yin_C_F0124_v1.md#1-exact-formula-and-freely-variable-domain) | The inequality concerns the finite Hilbert–Schmidt operator C_b−eta, not complete positivity alone; the public Spe26 proposal's domain is explicitly repaired. | [Strict-domain affine theorem](../claims/Yin_C_F0124_v1.md#statement) and [the positive-coordinate reformulation](../claims/Yin_C_F0164_v1.md#statement). |
+| [Unrestricted affine action and real-linear inner equation](../claims/Yin_C_F0126_v1.md#setting-and-primary-unregularized-formula) | Every positive matrix is a trial; the inner unknown is an arbitrary complex matrix on a real vector space. | [Attainment and spectrum interface](../claims/Yin_C_F0127_v1.md#statement), [optimizer Hessians](../claims/Yin_C_F0169_v1.md#argument) and [radial Brown potentials](../claims/Yin_C_F0170_v1.md#argument). |
+
+<a id="haar-coefficient-capacities"></a>
+### Single-Haar coefficient and spectral-factor constructions
+
+| Concept and exact home | Source and adopted convention | Recorded consumer navigation |
+| --- | --- | --- |
+| [Scalar outer polynomial and coefficient normalization](../claims/Yin_C_F0174_v1.md#scalar-capacity-normalization) | Fixed Laurent interval, zero padding and positive constant term; [DR10's scalar source convention](../audits/literature/DR10/Yin_U001.md#dr10-u001) permits circle zeros while excluding open-disk zeros. | [Scalar Gram proof](../claims/Yin_C_F0174_v1.md#scalar-capacity-finite-sdp), [Toeplitz dual](../claims/Yin_C_F0174_v1.md#scalar-capacity-dual) and [prediction construction](../claims/Yin_C_F0174_v1.md#scalar-capacity-prediction). |
+| [Finite coefficient-Gram capacity and Toeplitz dual](../claims/Yin_C_F0174_v1.md#scalar-capacity-finite-sdp) | The [dual definition](../claims/Yin_C_F0174_v1.md#scalar-capacity-dual) is a separate finite optimization with its own attainment boundary; normalization and the ordinary zero branch are explicit. | [Scalar prediction comparison and controls](../claims/Yin_C_F0174_v1.md#scalar-capacity-prediction); [finite-matrix extension](../claims/Yin_C_F0176_v1.md#matrix-finite-gram-capacity). |
+| [Coefficient convolution and prediction capacities](../claims/Yin_C_F0174_v1.md#scalar-capacity-prediction) | Finite coefficient convolution matrices and the fixed constant-term constraint; the [ordinary analytic spaces and weighted completion](../claims/Yin_C_F0174_v1.md#scalar-capacity-analytic-attainment) are distinct admissible classes. | [Exact scalar controls](../claims/Yin_C_F0174_v1.md#scalar-capacity-controls); [matrix convolution construction](../claims/Yin_C_F0176_v1.md#matrix-convolution-capacities) retains its block and size normalization. |
+| [Positive matrix-field variation](../claims/Yin_C_F0176_v1.md#matrix-field-variation) | Measurable positive fields with the stated boundedness/inverse bounds and the normalized trace; [regularization](../claims/Yin_C_F0176_v1.md#matrix-regularized-interface) is defined separately. | [Matrix coefficient sensitivities](../claims/Yin_C_F0176_v1.md#matrix-regularized-interface) and [matrix convolution limits](../claims/Yin_C_F0176_v1.md#matrix-convolution-capacities). |
+| [Fixed-support Haar determinant and logarithmic regularizations](../claims/Yin_C_F0175_v1.md#coefficient-reuse-and-scope) | Actual Laurent coefficient space, ordinary zero input and normalized finite-matrix transfer; the [scalar regularizer](../claims/Yin_C_F0175_v1.md#coefficient-regularized-variation) differs from the singular-value matrix regularizer. | [Coefficient continuity and variations](../claims/Yin_C_F0175_v1.md#coefficient-global-continuity) and [matrix transfer](../claims/Yin_C_F0175_v1.md#coefficient-matrix-transfer). |
+
+<a id="operator-valued-circular-conventions"></a>
+### Operator-valued cumulants and circular elements
+
+Exact source home and convention: [DG24 Definition 2.5 and Theorem 2.9(b)/Definition 2.10](../audits/literature/DG24/Yin_U001.md#dg24-u001), at the source edition, passages and statement/applicability depth recorded there.
+The definition keeps arbitrary inserted base matrices and the two mixed second cumulants.
+
+Recorded statement/proof consumer: [the complete matrix-coefficient and amplified-cumulant construction](../claims/Yin_C_F0173_v1.md#circular-example-statement).
+Its [radial-potential consumer](../claims/Yin_C_F0170_v1.md#argument) uses the vanishing pseudo-covariance interface; scalar R-diagonality is a different condition.

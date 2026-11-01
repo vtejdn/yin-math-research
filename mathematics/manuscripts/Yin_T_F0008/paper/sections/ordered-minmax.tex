@@ -1,0 +1,432 @@
+\section{Ordered min--max principles}\label{sec:ordered-minmax}
+
+The preceding formulas minimize over positive definite matrices.
+For certain selfadjoint pencils we can instead maximize first over a positive semidefinite matrix and then minimize over a selfadjoint matrix.
+The order is essential.
+We begin with scalar and isotropic covariance, where the maximum over the nonnegative variable is explicit, and then treat a different class in which the covariance is strictly positive as a Hilbert--Schmidt operator.
+Throughout this section $a_j=a_j^*$ for $0\le j\le n$.
+
+\subsection{A shifted semicircle and commuting coefficients}
+
+For $\sigma>0$ and $a\in\R$, put
+\begin{equation}\label{eq:minmax-scalar-action}
+ \ell_{a,\sigma}(p,q)
+ =\frac{(a-p)^2-q^2}{2\sigma}
+      +\frac12\log(p^2+q^2),
+ \qquad p\in\R,\quad q\ge0,
+\end{equation}
+with $\log0=-\infty$.
+
+\begin{proposition}\label{prop:minmax-scalar}
+For a standard semicircular element $s$,
+\begin{equation}\label{eq:minmax-scalar}
+ \log\Delta_\tau(a+\sqrt\sigma\,s)
+   =\min_{p\in\R}\max_{q\ge0}\ell_{a,\sigma}(p,q).
+\end{equation}
+For every $p$, the maximizer in $q$ is unique.
+The function $p\mapsto\max_{q\ge0}\ell_{a,\sigma}(p,q)$ has a unique minimizer.
+The optimizers are
+\begin{equation}\label{eq:minmax-scalar-optimizer}
+ p_*=
+ \begin{cases}
+  a/2,&|a|\le2\sqrt\sigma,\\
+  \bigl(a+\operatorname{sgn}(a)\sqrt{a^2-4\sigma}\bigr)/2,
+      &|a|>2\sqrt\sigma,
+ \end{cases}
+ \qquad q_*^2=(\sigma-p_*^2)_+.
+\end{equation}
+Here $r_+=\max\{r,0\}$ for $r\in\R$.
+\end{proposition}
+
+\begin{proof}
+For fixed $p$, differentiation in $r=q^2$ gives
+\[
+ \frac{\partial}{\partial r}
+ \left(-\frac r{2\sigma}+\frac12\log(p^2+r)\right)
+ =-\frac1{2\sigma}+\frac1{2(p^2+r)}.
+\]
+This derivative decreases strictly wherever the expression is finite.
+The unique maximizing $q(p)$ therefore satisfies $q(p)^2=(\sigma-p^2)_+$, and the maximum as a function of $p$ equals
+\begin{equation}\label{eq:minmax-scalar-reduced}
+ f_{a,\sigma}(p)=\frac{(a-p)^2}{2\sigma}
+ +\begin{cases}
+    \dfrac{p^2}{2\sigma}-\dfrac12+\dfrac12\log\sigma,
+          &|p|\le\sqrt\sigma,\\[3pt]
+    \log|p|,&|p|\ge\sqrt\sigma.
+  \end{cases}
+\end{equation}
+Its value and first derivative agree at both joining points.
+Its second derivative is $2/\sigma$ in the inner interval and $1/\sigma-1/p^2>0$ in the two open outer intervals.
+Thus it is continuously differentiable, strictly convex, and tends to $+\infty$ as $|p|\to\infty$.
+Solving $f_{a,\sigma}'(p)=0$ gives \eqref{eq:minmax-scalar-optimizer}.
+
+The scalar Dyson equation and \eqref{eq:selfadjoint-potential} give
+\[
+ \log\Delta_\tau(a+\sqrt\sigma\,s)
+ =\begin{cases}
+   \frac12\log\sigma-\frac12+\dfrac{a^2}{4\sigma},
+              &|a|\le2\sqrt\sigma,\\[3pt]
+   -\log|g|+\dfrac\sigma2g^2,&|a|>2\sqrt\sigma,
+  \end{cases}
+\]
+where in the second line $g$ is the root of $\sigma g^2-ag+1=0$ with smaller absolute value.
+Indeed the boundary value of the Cauchy transform in the first regime has modulus $\sigma^{-1/2}$; substitution in the same primitive gives its displayed value.
+Boundary passage is justified by the semicircular spectral integral, including the endpoints.
+In the second regime $g=1/p_*$ and $a-p_*=\sigma g$.
+Substitution in \eqref{eq:minmax-scalar-reduced} now proves \eqref{eq:minmax-scalar} in both regimes.
+\end{proof}
+
+The pair $(p_*,q_*)$ need not be a global saddle point of $\ell_{a,\sigma}$.
+If $|a|>2\sqrt\sigma$, then $q_*=0$, whereas $\ell_{a,\sigma}(p,0)\to-\infty$ as $p\to0$.
+Hence $p_*$ does not minimize the slice with $q=q_*$.
+The convexity used in the proof is the convexity after maximizing over $q$; it does not authorize an exchange of the two extrema.
+
+Suppose next that all the selfadjoint coefficients of $S=a_0+\sum_{j=1}^n a_j\otimes s_j$ commute.
+Simultaneous unitary diagonalization gives real entries $a_{jk}$, $1\le k\le m$.
+Put $a_k=a_{0k}$ and $\sigma_k=\sum_{j=1}^n a_{jk}^2$.
+The $k$th diagonal entry has a semicircular distribution with mean $a_k$ and variance $\sigma_k$.
+Therefore, if all $\sigma_k>0$,
+\begin{equation}\label{eq:minmax-commuting}
+ \log\Delta_\varphi(S)
+ =\frac1m\min_{p\in\R^m}\max_{q\in[0,\infty)^m}
+       \sum_{k=1}^m\ell_{a_k,\sigma_k}(p_k,q_k).
+\end{equation}
+This follows from Proposition~\ref{prop:minmax-scalar}, the block-diagonal determinant rule and separability of the successive extrema.
+When $\sigma_k=0$, replace its summand by the deterministic value $\log|a_k|$ and omit its variables.
+In particular a zero deterministic entry makes the logarithmic determinant $-\infty$.
+
+\subsection{Isotropic covariance and a scalar spectral coordinate}
+
+Assume now that
+\begin{equation}\label{eq:minmax-isotropy}
+ \eta(b)=\sum_{j=1}^n a_jba_j
+       =\sigma\tr_m(b)1_m,\qquad \sigma>0,
+\end{equation}
+and let $a_0=a_0^*$ be arbitrary.
+Write $\nu=m^{-1}\sum_{k=1}^m\delta_{\lambda_k}$ for its eigenvalue probability measure, with algebraic multiplicities, and define
+\[
+ \ell_{x,\nu,\sigma}(p,q)
+ =\frac{(x-p)^2-q^2}{2\sigma}
+   +\frac12\int_\R\log\bigl((p-t)^2+q^2\bigr)\,\dd\nu(t).
+\]
+The logarithmic term is also $m^{-1}\log|\det((p+iq)1_m-a_0)|$.
+The spectral coordinate and density below are the finite-atomic case of Biane's description of free convolution with a semicircular distribution \cite[Section 3, Lemma 4, Proposition 2 and Corollary 3]{Bia97}.
+We give the proof in this setting together with the ordered variational expression for the logarithmic determinant.
+For comparison, \cite[Theorem 1.1 and (1.6)]{BCG25} gives a branch-restricted variational formula for scalar free additive convolutions at real points below the spectrum.
+That work permits more general input measures; the ordered expression below uses the finite-atomic measure $\nu$ and holds for every real $x$.
+
+\begin{proposition}\label{prop:minmax-isotropic}
+Under \eqref{eq:minmax-isotropy}, for every $x\in\R$,
+\begin{equation}\label{eq:minmax-isotropic}
+ \log\Delta_\varphi(S-x1_m)
+ =\min_{p\in\R}\max_{q\ge0}\ell_{x,\nu,\sigma}(p,q).
+\end{equation}
+Both successive extrema are attained, and $p\mapsto\max_{q\ge0}\ell_{x,\nu,\sigma}(p,q)$ has a unique minimizer.
+
+More precisely, set
+\[
+ I(p,q)=\int_\R\frac{\dd\nu(t)}{(p-t)^2+q^2},
+\]
+interpreting a pole at $q=0$ as $+\infty$.
+For fixed $p$, the maximizing $q(p)$ is zero if $I(p,0)\le1/\sigma$ and is otherwise the unique positive solution of $I(p,q)=1/\sigma$.
+The function
+\begin{equation}\label{eq:minmax-isotropic-coordinate}
+ X(p)=p+\sigma\int_\R
+          \frac{p-t}{(p-t)^2+q(p)^2}\,\dd\nu(t)
+\end{equation}
+is a strictly increasing homeomorphism of $\R$, and the minimizing $p$ is $X^{-1}(x)$.
+The entire spectral measure of $S$ has the continuous density
+\begin{equation}\label{eq:minmax-isotropic-density}
+ \frac{\dd\mu_S}{\dd x}(x)
+       =\frac{q(X^{-1}(x))}{\pi\sigma}.
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Differentiation in $q^2$ gives the stated maximizing condition.
+The function $I(p,q)$ decreases strictly in $q>0$, so the maximizer $q(p)$ is unique and continuous: the positive branch can approach zero only at a non-pole point where $I(p,0)=1/\sigma$, while an atom of mass $w$ at $p$ forces $q(p)^2\ge\sigma w$.
+The set where $q(p)>0$ is a bounded finite union of intervals.
+Its endpoints solve the rational equation $I(p,0)=1/\sigma$ away from the finitely many atoms, and that equation has finitely many roots.
+
+On an interval with $q=q(p)>0$, let
+\[
+ B=\int_\R\frac{\dd\nu(t)}{((p-t)^2+q^2)^2},
+ \qquad
+ C=\int_\R\frac{p-t}{((p-t)^2+q^2)^2}\,\dd\nu(t).
+\]
+Implicit differentiation gives $q'=-C/(qB)$ and hence
+\begin{equation}\label{eq:minmax-isotropic-monotonicity}
+ X'(p)=2\sigma\left(q^2B+\frac{C^2}{B}\right)>0.
+\end{equation}
+On an open interval where $q=0$, one has $X'(p)=1-\sigma I(p,0)>0$ except possibly at the finitely many solutions of $I(p,0)=1/\sigma$.
+Continuity across the endpoints proves that $X$ is strictly increasing.
+Moreover $X(p)=p+O(1/p)$ at infinity, so it maps $\R$ onto itself.
+
+The derivative of $p\mapsto\ell_{x,\nu,\sigma}(p,q(p))$ is $(X(p)-x)/\sigma$.
+This follows on each of the intervals just considered; the derivatives match at their endpoints because $q$ is continuous and no endpoint is a pole.
+Consequently this function is continuously differentiable, strictly convex and coercive, with minimum at $p=X^{-1}(x)$.
+
+It remains to identify the value.
+For $z=x+i\varepsilon$, $\varepsilon>0$, the Dyson equation reduces to
+\begin{equation}\label{eq:minmax-isotropic-dyson}
+ G(z)=(w(z)1_m-a_0)^{-1},\qquad
+ g(z)=\tr_mG(z)=\int_\R\frac{\dd\nu(t)}{w(z)-t},\qquad
+ w(z)=z-\sigma g(z).
+\end{equation}
+Write $w=p+iq$, with $q>0$.
+Imaginary parts give
+\[
+ \varepsilon=q\bigl(1-\sigma I(p,q)\bigr),
+ \qquad I(p,q)<1/\sigma.
+\]
+Thus $|g|^2\le I(p,q)<1/\sigma$, $|w-z|\le\sqrt\sigma$, and $|w-\lambda_k|\ge\sqrt{\sigma/m}$ for every eigenvalue.
+As $\varepsilon\downarrow0$, the points $w$ stay bounded and uniformly away from all poles.
+Every subsequential limit satisfies the maximizing condition for $q(p)$ and the real equation $X(p)=x$.
+The preceding uniqueness proves convergence to $X^{-1}(x)+i q(X^{-1}(x))$.
+
+The primitive \eqref{eq:selfadjoint-potential} becomes
+\begin{equation}\label{eq:minmax-isotropic-primitive}
+ \log\Delta_\varphi(S-z1_m)
+ =\int_\R\log|w(z)-t|\,\dd\nu(t)
+       +\frac\sigma2\operatorname{Re}(g(z)^2).
+\end{equation}
+In the boundary limit $g=(x-p-iq)/\sigma$, and the right side is exactly $\ell_{x,\nu,\sigma}(p,q)$ at $p=X^{-1}(x)$ and $q=q(p)$.
+Pole separation makes the limit finite.
+On the operator side, selfadjoint spectral calculus gives the same limit as the ordinary logarithmic determinant.
+This proves \eqref{eq:minmax-isotropic}.
+
+The boundary values of $g$ are continuous, and $|g(x+i\varepsilon)|\le1/\sqrt\sigma$ uniformly.
+Stieltjes inversion, in the convention of \eqref{eq:stieltjes-interval}, gives \eqref{eq:minmax-isotropic-density}: dominated convergence applies on each finite interval, and \eqref{eq:stieltjes-atom} excludes atoms.
+The interval formula identifies the full measure, so no singular continuous part remains.
+Faithfulness identifies its support with the operator spectrum.
+\end{proof}
+
+\subsection{Strict positivity on Hilbert--Schmidt space}
+
+On $M_m(\C)$ use the Hilbert--Schmidt inner product $\langle x,y\rangle_2=\Tr(x^*y)$.
+Assume that the selfadjoint covariance $\eta$ is strictly positive for this inner product:
+\begin{equation}\label{eq:minmax-hs-assumption}
+ \Tr(x^*\eta(x))>0\qquad(x\ne0).
+\end{equation}
+Its inverse $K=\eta^{-1}$ is a positive definite selfadjoint operator on Hilbert--Schmidt space.
+
+\begin{remark}[Isotropic covariance and Hilbert--Schmidt positivity]\label{rem:minmax-domains}
+For $m>1$, the isotropic covariance in \eqref{eq:minmax-isotropy} vanishes on every traceless matrix.
+It is therefore not invertible as an operator on matrix space and does not satisfy \eqref{eq:minmax-hs-assumption}.
+Thus Theorem~\ref{prop:minmax-matrix} does not include the isotropic case of Proposition~\ref{prop:minmax-isotropic} when $m>1$.
+On the other hand, this isotropic map satisfies the order-flatness condition of \cite[Assumption A1]{AEK19}, since its value on $b\ge0$ is exactly $\sigma\tr_m(b)1_m$.
+Order flatness therefore does not imply strict positivity on Hilbert--Schmidt space.
+\end{remark}
+For $u=u^*$ and $v\ge0$, define
+\begin{equation}\label{eq:minmax-matrix-action}
+ \mathcal H_{a_0}(u,v)
+ =\frac12\Tr\bigl((a_0-u)K(a_0-u)\bigr)
+  -\frac12\Tr(vK(v))+\log|\det(u+iv)|,
+\end{equation}
+with value $-\infty$ when $u+iv$ is singular.
+
+\begin{theorem}\label{prop:minmax-matrix}
+Let $S=a_0+\sum_j a_j\otimes s_j$, with all $a_j=a_j^*$, including $a_0$, and assume \eqref{eq:minmax-hs-assumption}.
+Then
+\begin{equation}\label{eq:minmax-matrix}
+ \log\Delta_\varphi(S)
+ =\frac1m\min_{u=u^*}\max_{v\ge0}\mathcal H_{a_0}(u,v).
+\end{equation}
+Both successive extrema are attained and the value is finite.
+The function $u\mapsto\max_{v\ge0}\mathcal H_{a_0}(u,v)$ is convex and tends to $+\infty$ as $\|u\|_2\to\infty$.
+\end{theorem}
+
+\begin{proof}
+We first add a positive imaginary regularizer.
+Put $D=\eta(1_m)>0$.
+Indeed a vector in the kernel of $\sum_j a_j^2$ would be killed by every $a_j$, so its rank-one projection would be in the kernel of $\eta$, contradicting \eqref{eq:minmax-hs-assumption}.
+For $\varepsilon>0$, set
+\begin{equation}\label{eq:minmax-matrix-regularized}
+\begin{split}
+ \mathcal H_{a_0,\varepsilon}(u,v)
+ ={}&\frac12\Tr\bigl((a_0-u)K(a_0-u)\bigr)
+ +\log|\det(u+iv)|\\
+ &-\frac12\Tr\bigl((v-\varepsilon D)K(v-\varepsilon D)\bigr).
+\end{split}
+\end{equation}
+Since $K(D)=1_m$, its difference from \eqref{eq:minmax-matrix-action} is $\varepsilon\Tr v-\frac12\varepsilon^2\Tr D$.
+
+For fixed $u$, strict positivity of $K$ makes the negative quadratic term in $v$ dominate the logarithmic term as $\|v\|_2\to\infty$.
+Upper semicontinuity at singular matrices, together with the finite trial $v=1_m$, gives a global maximum over $v\ge0$.
+Its maximizers are uniformly bounded for $u$ in a compact set and $0\le\varepsilon\le1$.
+
+Every maximizing $v$ is in fact positive definite if $\varepsilon>0$.
+Its determinant is nonzero; write $r=(u+iv)^{-1}=p-iq$, where $p=p^*$ and $q\ge0$.
+The gradient in $v$ is $-K(v)+\varepsilon1_m+q$.
+Testing positive directions and both radial directions at a maximum gives
+\[
+ C=K(v)-\varepsilon1_m-q\ge0,
+ \qquad \Tr(Cv)=0.
+\]
+Applying the positive map $\eta$ yields $v=\eta(q)+\varepsilon D+\eta(C)\ge\varepsilon D>0$.
+The maximum is therefore interior and satisfies
+\begin{equation}\label{eq:minmax-matrix-inner}
+ v=\eta(q)+\varepsilon D.
+\end{equation}
+
+To prove uniqueness of this maximizer, associate to every interior stationary point the matrices and covariance
+\[
+ \mathcal G=\begin{pmatrix}iq&p\\p&iq\end{pmatrix},
+ \qquad
+ \Xi\begin{pmatrix}x&y\\z&w\end{pmatrix}
+       =\begin{pmatrix}\eta(w)&0\\0&\eta(x)\end{pmatrix}.
+\]
+The map $\Xi$ is completely positive and has selfadjoint Kraus matrices: for each $a_j$ use
+\[
+ \frac1{\sqrt2}\begin{pmatrix}0&a_j\\a_j&0\end{pmatrix},
+ \qquad
+ \frac1{\sqrt2}\begin{pmatrix}0&ia_j\\-ia_j&0\end{pmatrix}.
+\]
+The scalar Hadamard unitary diagonalizes the two-by-two block pattern and gives
+\begin{equation}\label{eq:minmax-auxiliary-dyson}
+ \mathcal G^{-1}
+ =\begin{pmatrix}0&u\\u&0\end{pmatrix}
+  -i\varepsilon\begin{pmatrix}D&0\\0&D\end{pmatrix}
+  -\Xi(\mathcal G),\qquad \operatorname{Im}\mathcal G>0.
+\end{equation}
+Congruence by $\operatorname{diag}(D^{-1/2},D^{-1/2})$, and adjunction if needed to use the upper half-plane convention, reduce this equation to the uniqueness argument of Section~\ref{sec:dyson}.
+Thus $\mathcal G$, and hence the maximizing $v=v_\varepsilon(u)$, is unique.
+The auxiliary equation proves uniqueness; it does not restrict the freely chosen trial variables in \eqref{eq:minmax-matrix}.
+The equation for $v_\varepsilon(u)$ is also the case of \cite[Proposition 3.1 and Remark 3.2]{Bel15} with the source variables $X=0$ and $q=\varepsilon D$.
+That result describes the imaginary part of an operator-valued subordination function as a function of its real part.
+Here $-\operatorname{Im}(u+iv)^{-1}=(v+uv^{-1}u)^{-1}$.
+
+We next prove convexity after maximizing over $v$.
+At $v=v_\varepsilon(u)$, define operators on the real Hilbert space of Hermitian matrices by
+\[
+ \mathcal S_r(x)=\tfrac12(rxr^*+r^*xr),\qquad
+ \mathcal A_r(x)=\operatorname{Re}(rxr),\qquad
+ \mathcal C_r(x)=\operatorname{Im}(rxr).
+\]
+Here real and imaginary parts mean Hermitian parts.
+The map $\mathcal S_r$ is completely positive and selfadjoint for the trace pairing, and $r^*vr=rvr^*=q$.
+Therefore
+\[
+ \eta\mathcal S_r(v)=\eta(q)=v-\varepsilon D<v.
+\]
+Conjugating the positive map $\eta\mathcal S_r$ by $x\mapsto v^{1/2}xv^{1/2}$ makes its value at $1_m$ strictly less than $1_m$, so its spectral radius is less than one.
+The Hilbert--Schmidt selfadjoint operator $\eta^{1/2}\mathcal S_r\eta^{1/2}$ is similar to it.
+Its spectrum lies in $(-1,1)$, which proves $K-\mathcal S_r>0$ as a quadratic form.
+The square root $\eta^{1/2}$ here is the positive square root on Hilbert--Schmidt space; no positivity as a matrix map is used.
+Since
+\[
+ (\mathcal S_r-\mathcal A_r)(x)=2qxq
+\]
+and $x\mapsto qxq$ is positive semidefinite for the trace pairing, $B=K-\mathcal A_r$ is positive definite.
+Direct differentiation of \eqref{eq:minmax-matrix-regularized} gives
+\[
+ \mathcal H_{uu}=B,\qquad
+ \mathcal H_{vv}=-B,\qquad
+ \mathcal H_{uv}=\mathcal C_r.
+\]
+The map $\mathcal C_r$ is selfadjoint for the real trace pairing by cyclicity.
+The implicit-function theorem makes $v_\varepsilon(u)$ smooth, and the reduced Hessian is
+\begin{equation}\label{eq:minmax-matrix-hessian}
+ D_u^2\bigl[\max_{v\ge0}\mathcal H_{a_0,\varepsilon}(u,v)\bigr]
+       =B+\mathcal C_r B^{-1}\mathcal C_r>0.
+\end{equation}
+This is the Schur complement obtained by eliminating the maximizing variable; compare \cite[Appendix A.5.5]{BV04}.
+Thus $u\mapsto\max_{v\ge0}\mathcal H_{a_0,\varepsilon}(u,v)$ is strictly convex.
+Testing $v=1_m$ also bounds it below by $\frac12\Tr((a_0-u)K(a_0-u))-C_0$, with $C_0$ independent of $0\le\varepsilon\le1$, because $|\det(u+i1_m)|\ge1$.
+Its minimizer in $u$ exists and is unique.
+
+At this minimizing $u$ and $v=v_\varepsilon(u)$, stationarity in $u$ gives $u=a_0-\eta(p)$.
+Together with \eqref{eq:minmax-matrix-inner}, it gives
+\[
+ r^{-1}=a_0+i\varepsilon D-\eta(r),
+ \qquad \operatorname{Im}r<0.
+\]
+The resolvent uniqueness argument identifies $r=E_m((S+i\varepsilon D)^{-1})$.
+The primitive \eqref{eq:selfadjoint-potential}, after congruence by $D^{-1/2}$, gives
+\begin{equation}\label{eq:minmax-matrix-value}
+ m\log\Delta_\varphi(S+i\varepsilon D)
+ =-\log|\det r|
+       +\tfrac12\operatorname{Re}\Tr(r\eta(r)).
+\end{equation}
+The right side is exactly $\mathcal H_{a_0,\varepsilon}(u,v)$ at these matrices: substitute $a_0-u=\eta(p)$ and $v-\varepsilon D=\eta(q)$.
+This identifies the global ordered extremum, not merely its stationary value.
+
+Finally, the uniform bounds on the maximizing matrices $v$ and the explicit difference $\mathcal H_{a_0,\varepsilon}-\mathcal H_{a_0}$ give local uniform convergence of $u\mapsto\max_{v\ge0}\mathcal H_{a_0,\varepsilon}(u,v)$ as $\varepsilon\downarrow0$.
+The common coercive lower bound keeps the minimizing matrices $u$ in a compact set.
+The minima therefore converge to a finite, attained minimum of $u\mapsto\max_{v\ge0}\mathcal H_{a_0}(u,v)$.
+On the operator side set $\widetilde S=D^{-1/2}SD^{-1/2}=\widetilde S^*$.
+Then
+\[
+ \log\Delta_\varphi(S+i\varepsilon D)
+ =\frac1m\log\det D
+   +\frac12\varphi\log(\widetilde S^2+\varepsilon^21_m)
+ \longrightarrow\log\Delta_\varphi(S)
+\]
+by selfadjoint spectral calculus and determinant multiplicativity.
+This proves \eqref{eq:minmax-matrix} and all its attainment claims.
+\end{proof}
+
+In the centered case $a_0=0$, the function $u\mapsto\max_{v\ge0}\mathcal H_0(u,v)$ is even, so convexity places a minimum at $u=0$.
+Consequently Theorem~\ref{prop:minmax-matrix} gives
+\begin{equation}\label{eq:minmax-matrix-centered}
+\begin{split}
+ &\max_{v>0}\left\{\log\det v-\tfrac12\Tr(vK(v))\right\}\\
+ &\qquad=\min_{b>0}\left\{-\log\det b+\tfrac12\Tr(b\eta(b))\right\}-m.
+\end{split}
+\end{equation}
+Both optimizers are unique under \eqref{eq:minmax-hs-assumption}.
+Indeed the function minimized on the right is strictly convex and coercive, with stationary equation $\eta(b)=b^{-1}$.
+The function maximized on the left is strictly concave and tends to $-\infty$ at its boundary and at infinity; its stationary equation is $K(v)=v^{-1}$.
+The substitution $v=b^{-1}$ identifies the two optimizers and the corresponding values in \eqref{eq:minmax-matrix-centered}.
+By the centered case of Theorem~\ref{thm:main}, this common value is $\frac12\log\Cap(\eta)-\frac m2$.
+Here capacity is positive and the equation $\eta(b)=b^{-1}$ has a positive definite solution; the main theorem also covers covariances without these properties.
+
+\subsection{Why the covariance hypothesis matters}
+
+Complete positivity alone does not suffice for the formula involving $\eta^{-1}$ in \eqref{eq:minmax-matrix}.
+Let
+\[
+ Z=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
+ X=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+ \eta(b)=ZbZ,\qquad a_0=tX,\quad t>0.
+\]
+This covariance is completely positive, invertible and Hilbert--Schmidt selfadjoint, but $K=\eta$ satisfies $K(X)=-X$.
+At $u=0$, the function $v\mapsto\mathcal H_{a_0}(0,v)$ is
+\[
+ -t^2+\log\det v-\tfrac12\Tr(vZvZ).
+\]
+For $v>0$ with diagonal entries $\alpha,\delta$, $\Tr(vZvZ)=(\alpha-\delta)^2+2\det v$.
+The inequality $\log r-r\le-1$ for $r>0$ shows that the maximum over $v\ge0$ is $-t^2-1$, achieved at $v=1_2$.
+Singular $v$ gives value $-\infty$.
+The right-hand side of \eqref{eq:minmax-matrix} is therefore at most $-(1+t^2)/2$.
+In contrast, the actual pencil $S=tX+Z\otimes s$ satisfies
+\[
+ S^2=(t^2+s^2)1_2,\qquad
+ \log\Delta_\varphi(S)=\tfrac12\tau\log(t^2+s^2)>-\tfrac12.
+\]
+The final inequality follows by comparison with $\tau\log(s^2)=-1$.
+Thus deleting \eqref{eq:minmax-hs-assumption} changes the variational value, not just the proof of convexity.
+Like the scalar formula, the matrix identity maximizes in $v$ first and then minimizes in $u$; it does not assert a global saddle point or an interchange of extrema.
+
+\begin{remark}\label{prop:minmax-square-completion}
+There is also an ordered form of the strict Hilbert--Schmidt formula which does not require an inverse covariance.
+For $b>0$, let $c_b$ be the positive definite matrix defined in \eqref{eq:hs-balanced-scale}.
+Since $\mathcal C_{c_b}+\eta$ is positive definite on Hermitian matrices, quadratic conjugacy, as in \cite[Example 3.22]{BV04}, gives
+\begin{align*}
+ \frac12\Tr\bigl(a_0(\mathcal C_{c_b}+\eta)^{-1}(a_0)\bigr)
+ =\max_{h=h^*}\bigl\{\Tr(a_0h)
+       -\tfrac12\Tr(hc_bhc_b+h\eta(h))\bigr\}.
+\end{align*}
+The unique maximizer is $h=(\mathcal C_{c_b}+\eta)^{-1}(a_0)$.
+Inserting this identity in Proposition~\ref{prop:hs-formula} and using \eqref{eq:hs-determinant-factor} yields
+\begin{equation}\label{eq:minmax-hs-square-completion}
+\begin{split}
+ \log\Delta_\varphi(S)=-\frac12+\inf_{b>0}\max_{h=h^*}
+ \biggl\{&\frac1{2m}\log\frac{\det(1_m+\eta(b))}{\det b}
+       +\tr_m(a_0h)\\
+       &-\frac12\tr_m(hc_bhc_b+h\eta(h))\biggr\}.
+\end{split}
+\end{equation}
+This identity holds for all selfadjoint coefficients and does not use $\eta^{-1}$.
+Unlike \eqref{eq:minmax-matrix}, it does not assert attainment of the infimum over $b$.
+\end{remark}

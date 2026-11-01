@@ -1,0 +1,314 @@
+\section{Imaginary constant terms and the strict Hilbert--Schmidt formula}
+\label{sec:imaginary-hs}
+
+Throughout this section $a_j=a_j^*$ for $1\le j\le n$.
+We write
+\[
+ T=\sum_j a_j\otimes s_j=T^*,\qquad
+ \eta(x)=\sum_j a_jxa_j,\qquad S=a_0+T,
+\]
+For the formula for $S=a_0+T$, we also assume $a_0=a_0^*$.
+The same positive-cone minimization will give a formula for $T-iD$, with $D>0$, and supply the global comparison needed for a strict Hilbert--Schmidt formula for $S$.
+
+\subsection{A positive-cone minimum}
+For $D>0$ and $b>0$, define
+\begin{equation}\label{eq:imaginary-action}
+ J_D(b)=-\log\det b+\Tr(Db)+\tfrac12\Tr(b\eta(b)).
+\end{equation}
+All finite traces here are unnormalized.
+
+\begin{lemma}\label{lem:imaginary-minimum}
+The function $J_D$ has a unique minimizer on the positive definite cone.
+This minimizer is its only critical point and satisfies
+\begin{equation}\label{eq:imaginary-critical}
+ b^{-1}=D+\eta(b).
+\end{equation}
+\end{lemma}
+\begin{proof}
+If $D\ge\delta1_m$, then
+\[
+ J_D(b)\ge\sum_{k=1}^m(-\log\lambda_k+\delta\lambda_k),
+\]
+where $\lambda_k>0$ are the eigenvalues of $b$.
+Indeed, $\Tr(ba_jba_j)=\Tr((b^{1/2}a_jb^{1/2})^2)\ge0$.
+Each scalar summand is bounded below and tends to infinity at both ends of $(0,\infty)$.
+Every sublevel set is therefore contained in a compact subset of the positive definite cone, and a minimum exists.
+
+To see uniqueness, join two positive matrices by $b(t)=b_0^{1/2}e^{tx}b_0^{1/2}$, where $x=x^*$.
+In a basis diagonalizing $x$, write its eigenvalues as $x_k$, and set $d=b_0^{1/2}Db_0^{1/2}>0$, $c_j=b_0^{1/2}a_jb_0^{1/2}=c_j^*$.
+Then
+\[
+ \Tr(Db(t))=\sum_k d_{kk}e^{tx_k},\qquad
+ \Tr(b(t)a_jb(t)a_j)=\sum_{k,l}|(c_j)_{kl}|^2e^{t(x_k+x_l)}.
+\]
+The second expressions are convex in $t$, the first is strictly convex if $x\ne0$, and $-\log\det b(t)$ is affine.
+Thus $J_D$ is strictly convex along every nonconstant such path.
+Finally, symmetry of $\eta$ for the trace pairing gives
+\[
+ dJ_D(b)[x]=\Tr((-b^{-1}+D+\eta(b))x),\qquad x=x^*.
+\]
+This proves the critical-point equation.
+A critical point minimizes along each of these paths, which join it to every positive matrix, so it is the unique global minimizer.
+\end{proof}
+
+The lemma also applies to any completely positive map that is selfadjoint on Hilbert--Schmidt space.
+To verify this assertion, start with a Kraus representation $\Psi(x)=\sum_j k_jxk_j^*$ and write $k_j=u_j+iv_j$ with $u_j,v_j$ selfadjoint.
+Since $\Psi=\Psi^*$,
+\[
+ \Psi(x)=\tfrac12\sum_j(k_jxk_j^*+k_j^*xk_j)
+        =\sum_j(u_jxu_j+v_jxv_j).
+\]
+Thus $\Psi$ has the selfadjoint coefficient representation used in the proof.
+Complete positivity here does not mean positivity as a Hilbert--Schmidt operator: for $a_1=\operatorname{diag}(1,-1)$, the map $x\mapsto a_1xa_1$ sends every selfadjoint off-diagonal matrix $x$ to $-x$.
+The path argument is needed precisely because ordinary linear convexity of $J_D$ can fail.
+
+\begin{remark}[Positive matrix equations and geodesic convexity]
+\label{rem:positive-cone-context}
+Equation~\eqref{eq:imaginary-critical} is a positive matrix equation of the form studied by Helton, Rashidi Far and Speicher \cite[Theorem 2.1]{HRFS07}; their result gives existence, uniqueness and a convergent fixed-point iteration.
+Under Hilbert--Schmidt selfadjointness of $\eta$, Lemma~\ref{lem:imaginary-minimum} also identifies its solution as a minimizer.
+The paths used in the proof are the positive-definite geodesics in \cite[Section 2, equation (2.2)]{SH15}.
+Thus the proof establishes strict geodesic convexity of $J_D$, meaning strict convexity along each nonconstant such path.
+\end{remark}
+
+\begin{proposition}[Imaginary constant term]\label{prop:imaginary-drift}
+For every $D>0$,
+\begin{equation}\label{eq:imaginary-determinant}
+ \Delta(T-iD)=\exp\left(\frac{\min_{b>0}J_D(b)-m}{m}\right).
+\end{equation}
+The minimizer is unique and satisfies \eqref{eq:imaginary-critical}.
+\end{proposition}
+\begin{proof}
+First let $D=1_m$.
+The expected resolvent $G=E_m((i1_m-T)^{-1})$ is purely imaginary, because $T$ and $-T$ have the same matrix-valued distribution.
+Its imaginary part is strictly negative, so $G=-ib$ with $b>0$.
+The Dyson equation gives $b^{-1}=1_m+\eta(b)$, and \eqref{eq:selfadjoint-potential} gives
+\[
+ \log\Delta(T-i1_m)
+   =-\frac1m\log\det b-\frac1{2m}\Tr(b\eta(b)).
+\]
+The trace identity $m=\Tr b+\Tr(b\eta(b))$ identifies this value with $(J_{1_m}(b)-m)/m$.
+Lemma~\ref{lem:imaginary-minimum} identifies $b$ as the unique minimizer.
+
+For general $D$, put $T'=D^{-1/2}TD^{-1/2}$ and $\eta'(x)=\sum_j(D^{-1/2}a_jD^{-1/2})x(D^{-1/2}a_jD^{-1/2})$.
+The congruence $T-iD=D^{1/2}(T'-i1_m)D^{1/2}$ and determinant multiplicativity give
+\[
+ \log\Delta(T-iD)=\frac1m\log\det D+\log\Delta(T'-i1_m).
+\]
+The positive-cone bijection $c=D^{1/2}bD^{1/2}$ satisfies $J_{1_m}^{\eta'}(c)=J_D^\eta(b)-\log\det D$.
+This reduces the assertion to the case already proved.
+\end{proof}
+
+Letting $D=\varepsilon1_m$ tend to zero in Proposition~\ref{prop:imaginary-drift} gives a formula for $T$.
+Put $J_0(b)=-\log\det b+\tfrac12\Tr(b\eta(b))$.
+Then
+\begin{equation}\label{eq:imaginary-zero}
+ \Delta(T)=\exp\left(\frac{\inf_{b>0}J_0(b)-m}{m}\right),
+ \qquad
+ \Cap(\eta)=\exp\left(2\inf_{b>0}J_0(b)-m\right).
+\end{equation}
+The convention is $\exp(-\infty)=0$, and no attainment is asserted.
+Indeed, $J_{\varepsilon1_m}(b)=J_0(b)+\varepsilon\Tr b$, and testing each fixed $b$ shows that its infima decrease to $\inf J_0$.
+On the operator side, $\log\Delta(T-i\varepsilon1_m) =\frac12\varphi_m\log(T^2+\varepsilon^21_m)$ decreases to $\log\Delta(T)$.
+This proves the first equality.
+The second follows from the zero-mean case of Theorem~\ref{thm:main}, which recovers the capacity identity in \cite[Theorem 1.2]{MS24}.
+
+Scaling $b=tc$, with $\det c=1$, also gives
+\begin{equation}\label{eq:imaginary-homogeneous-capacity}
+ \Cap(\eta)=\inf_{b>0}
+   \frac{\bigl(\Tr(b\eta(b))/m\bigr)^m}{(\det b)^2}.
+\end{equation}
+For $\beta=\Tr(c\eta(c))>0$, the minimum of $-m\log t+t^2\beta/2$ is $m/2+(m/2)\log(\beta/m)$; if $\beta=0$, its infimum is $-\infty$.
+This proves \eqref{eq:imaginary-homogeneous-capacity}.
+
+\begin{remark}[Capacity and common congruences]\label{rem:capacity-congruence}
+For selfadjoint coefficients, \eqref{eq:imaginary-homogeneous-capacity} can be written as
+\[
+ m\Cap(\eta)^{1/m}
+ =\inf_{\substack{c>0\\\det c=1}}
+       \sum_j\|c^{1/2}a_jc^{1/2}\|_{\rm HS}^2,
+ \qquad \|x\|_{\rm HS}^2=\Tr(x^*x).
+\]
+This expresses capacity through an infimum over common positive congruences of the coefficient matrices.
+It is related to the capacity and norm minimizations in operator scaling \cite{AZGL+18}, where independent left and right changes of basis are allowed.
+Here selfadjointness permits the same positive factor on both sides; the displayed identity follows directly from \eqref{eq:imaginary-homogeneous-capacity}.
+\end{remark}
+
+\subsection{The strict Hilbert--Schmidt formula}
+We now prove Proposition~\ref{prop:hs-formula}.
+The domain $\mathcal B_\eta$ in \eqref{eq:hs-domain} is nonempty, since large scalar multiples of $1_m$ belong to it.
+
+\begin{remark}[The strict domain]\label{rem:hs-strict-domain}
+Speicher's public discussion \cite{Spe26} presents an affine determinant proposal attributed there to ChatGPT, without an inspectable proof.
+Its displayed nonstrict domain can leave the inverse in the proposed expression undefined.
+For example, take $a_1=\operatorname{diag}(1,-1)$ and $c=1_2$.
+Then $\mathcal C_c-\eta\ge0$, but $\mathcal C_c+\eta$ vanishes on off-diagonal matrices.
+Proposition~\ref{prop:hs-formula} uses strict positivity of $\mathcal C_c-\eta$ as a Hilbert--Schmidt operator, which guarantees that the inverse exists.
+The attribution to \cite{Spe26} concerns the candidate expression; the argument below proves its strict-domain version.
+\end{remark}
+
+To compare the expressions in \eqref{eq:main-determinant} and \eqref{eq:hs-determinant}, we first parameterize $\mathcal B_\eta$ by positive definite matrices.
+
+\begin{lemma}[Positive coordinates for the strict domain]
+\label{lem:hs-coordinates}
+For $b>0$, put $H_b=1_m+\eta(b)$ and
+\begin{equation}\label{eq:hs-balanced-scale}
+ c_b=b^{-1/2}(b^{1/2}H_bb^{1/2})^{1/2}b^{-1/2}.
+\end{equation}
+Then $b\mapsto c_b$ is a bijection from the positive definite cone onto $\mathcal B_\eta$, with inverse $b_c=(\mathcal C_c-\eta)^{-1}(1_m)$.
+Moreover,
+\begin{equation}\label{eq:hs-determinant-factor}
+ c_bbc_b=1_m+\eta(b),\qquad
+ 2\log\det c_b=\log\det H_b-\log\det b.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For $c>0$, set $\Psi=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
+It is completely positive and Hilbert--Schmidt selfadjoint.
+If $c\in\mathcal B_\eta$, congruence gives $\id-\Psi>0$.
+For a Hermitian eigenmatrix $x$ of $\Psi$, positivity gives
+\[
+ |\Tr(x\Psi(x))|\le\Tr(|x|\Psi(|x|))
+       \le\lambda_{\max}(\Psi)\Tr(x^2).
+\]
+The first inequality follows by expanding $x=x_+-x_-$; the diagonal and mixed traces are all nonnegative.
+Every eigenvalue has a nonzero Hermitian eigenmatrix, since $\Psi$ preserves adjoints.
+Consequently $\|\Psi\|_{2\to2}=\lambda_{\max}(\Psi)<1$.
+Both $\id-\Psi$ and $\id+\Psi$ are therefore positive definite.
+The Neumann series for $(\id-\Psi)^{-1}$ is completely positive, and its zeroth term shows that
+\[
+ b_c=c^{-1/2}(\id-\Psi)^{-1}(c^{-1})c^{-1/2}>0.
+\]
+This also proves the invertibility of $\mathcal C_c+\eta$ claimed in Proposition~\ref{prop:hs-formula}.
+
+Conversely, if $cbc-\eta(b)=1_m$ with $b>0$, then $p=c^{1/2}bc^{1/2}$ satisfies $p-\Psi(p)=c^{-1}>0$.
+The positive-map estimate of Section~\ref{subsec:gap-tools} gives $r(\Psi)<1$.
+Selfadjointness gives $\id-\Psi>0$, hence $c\in\mathcal B_\eta$.
+Finally, $cbc=H_b$ has the unique positive solution \eqref{eq:hs-balanced-scale}, by uniqueness of the positive square root of $b^{1/2}H_bb^{1/2}$.
+This proves both compositions and the determinant identity.
+\end{proof}
+
+The matrix in \eqref{eq:hs-balanced-scale} is the geometric mean $c_b=b^{-1}\#H_b$: for $A,B>0$, $A\#B$ is the unique positive solution of $XA^{-1}X=B$; see \cite[Section 2]{BJL19}.
+This identifies the explicit positive solution, while the positive-map argument above proves the bijection with the strict domain.
+
+Write $h_b=(\mathcal C_{c_b}+\eta)^{-1}(a_0)$ and retain $Z_b=\mathcal T_b^{-1}(a_0)$ from Theorem~\ref{thm:main}; here $\rho=\eta$.
+Define
+\begin{equation}\label{eq:hs-energies}
+ q_{\rm HS}(b)=\Tr(a_0h_b),\qquad
+ q_{\rm gen}(b)=\operatorname{Re}\Tr(a_0Z_b).
+\end{equation}
+Define
+\begin{equation}\label{eq:hs-objectives}
+ \begin{split}
+ \Phi_{\rm HS}(c)&=\frac{2\log\det c-m+
+             \Tr(a_0(\mathcal C_c+\eta)^{-1}(a_0))}{2m},\\
+ \Phi_{\rm gen}(b)&=\frac{\mathcal V(b)}{2m}.
+ \end{split}
+\end{equation}
+
+\begin{proposition}[Comparison of the corrections]\label{prop:hs-comparison}
+For every $b>0$,
+\begin{equation}\label{eq:hs-energy-order}
+ 0\le q_{\rm HS}(b)\le q_{\rm gen}(b),\qquad
+ \Phi_{\rm HS}(c_b)\le\Phi_{\rm gen}(b).
+\end{equation}
+The inequality can be strict, even when $\eta=0$.
+\end{proposition}
+\begin{proof}
+Fix $b$ and put $c=c_b$, $p=c^{1/2}bc^{1/2}$, $a=c^{-1/2}a_0c^{-1/2}$, $\Psi=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
+The transformed equations for $w=c^{1/2}h_bc^{1/2}$ and $X=c^{1/2}Z_bc^{1/2}$ are
+\begin{equation}\label{eq:hs-transformed-equations}
+ (\id+\Psi)w=a,\qquad pXp^{-1}+\Psi(X^*)=a.
+\end{equation}
+The quadratic corrections are $\langle a,w\rangle_{\R}$ and $\langle a,X\rangle_{\R}$, for $\langle x,y\rangle_{\R}=\operatorname{Re}\Tr(x^*y)$.
+
+On this real Hilbert space let $J(x)=x^*$ and $K(x)=pxp^{-1}$.
+The operator $K$ is positive definite and selfadjoint, $J$ is a selfadjoint involution, and $KJK=J$.
+Splitting into Hermitian and skew-Hermitian matrices gives
+\[
+ K=\begin{pmatrix}A&B\\B^*&D\end{pmatrix},\qquad
+ \Psi=\begin{pmatrix}\Psi_+&0\\0&\Psi_-\end{pmatrix}.
+\]
+Here adjoints and inequalities are for the real inner product.
+The identity $KJK=J$ yields $A^2-BB^*=\id$, $AB=BD$ and $D^2-B^*B=\id$.
+Thus $A,D\ge\id$ and
+\begin{equation}\label{eq:hs-block-identity}
+ B(D+\id)^{-1}B^*=A-\id.
+\end{equation}
+The operator $K+\Psi J$ is positive definite.
+Indeed it is a congruence of $\mathcal T_b$, whose real quadratic form is bounded below by $\Tr(Y^*Yb^{-1})$ in the proof of Theorem~\ref{thm:main}.
+Its Schur complement is therefore
+\[
+ F=A+\Psi_+-B(D-\Psi_-)^{-1}B^*>0.
+\]
+Since $\|\Psi\|_{2\to2}<1$, we have $0<D-\Psi_-<D+\id$.
+Inverting and using \eqref{eq:hs-block-identity} gives $F\le\id+\Psi_+$.
+The right-hand side $a$ in \eqref{eq:hs-transformed-equations} is Hermitian, so block inversion gives
+\[
+ q_{\rm gen}(b)=\langle a,F^{-1}a\rangle_{\R}
+    \ge\langle a,(\id+\Psi_+)^{-1}a\rangle_{\R}
+    =q_{\rm HS}(b)\ge0.
+\]
+Together with \eqref{eq:hs-determinant-factor}, this proves the claim.
+\end{proof}
+
+The remaining ingredient gives $\log\Delta(S)\le\Phi_{\rm HS}(c)$ for every $c\in\mathcal B_\eta$.
+We state the estimate here; its proof in Appendix~\ref{app:comparison} uses the logarithmic primitive and Lemma~\ref{lem:imaginary-minimum}.
+
+\begin{lemma}[Global comparison]\label{lem:hs-global}
+Let $\Psi$ be completely positive and Hilbert--Schmidt selfadjoint, with $\theta=\|\Psi\|_{2\to2}<1$, and let $T_\Psi$ be a centered selfadjoint matrix-valued semicircular element with covariance $\Psi$.
+For every $a=a^*$,
+\begin{equation}\label{eq:hs-global-comparison}
+ \log\Delta(a+T_\Psi)
+ \le-\tfrac12+\frac1{2m}\Tr(a(\id+\Psi)^{-1}(a)).
+\end{equation}
+The assertion includes determinant zero.
+\end{lemma}
+
+\begin{proof}[Proof of Proposition~\ref{prop:hs-formula}]
+For each $c\in\mathcal B_\eta$, apply Lemma~\ref{lem:hs-global} to $a=c^{-1/2}a_0c^{-1/2}$ and $\Psi=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
+Determinant multiplicativity and trace cyclicity give
+\[
+ \log\Delta(S)\le\Phi_{\rm HS}(c).
+\]
+For the converse, Lemma~\ref{lem:hs-coordinates}, Proposition~\ref{prop:hs-comparison} and Theorem~\ref{thm:main} give
+\begin{equation}\label{eq:hs-infimum-chain}
+ \inf_{c\in\mathcal B_\eta}\Phi_{\rm HS}(c)
+ =\inf_{b>0}\Phi_{\rm HS}(c_b)
+ \le\inf_{b>0}\Phi_{\rm gen}(b)=\log\Delta(S).
+\end{equation}
+These inequalities are valid in the extended real line.
+Exponentiating proves \eqref{eq:hs-determinant}.
+\end{proof}
+
+\begin{remark}[Comparison under the change of variables]\label{rem:hs-objectives}
+Lemma~\ref{lem:hs-coordinates} identifies the determinant factors under its bijection of trial domains, but the inequality between the quadratic corrections in Proposition~\ref{prop:hs-comparison} can be strict.
+For example, take $\eta=0$,
+\[
+ a_0=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+ b=\operatorname{diag}(1,4),\qquad
+ c_b=\operatorname{diag}(1,1/2).
+\]
+Then $Z_b=a_0b$, $h_b=c_b^{-1}a_0c_b^{-1}$, and $q_{\rm gen}(b)=5$ whereas $q_{\rm HS}(b)=4$.
+Thus $\Phi_{\rm HS}(c_b)$ and $\Phi_{\rm gen}(b)$ need not agree.
+More generally, when $\eta=0$,
+\[
+ \begin{split}
+ q_{\rm gen}(b)-q_{\rm HS}(b)
+ &=\Tr(ba_0^2)-\Tr(b^{1/2}a_0b^{1/2}a_0)\\
+ &=\tfrac12\|[b^{1/2},a_0]\|_{\rm HS}^2
+ =\Tr(b)I_{\rm WY}\bigl(b/\Tr(b),a_0\bigr).
+ \end{split}
+\]
+Here $I_{\rm WY}(d,a)=-\tfrac12\Tr([d^{1/2},a]^2)$ is the Wigner--Yanase skew information for $d\ge0$, $\Tr d=1$ and $a=a^*$; see \cite{Han08}.
+Hence this difference vanishes exactly when $b$ and $a_0$ commute.
+For every $\eta$ in the present setting, $\Phi_{\rm HS}(c_b)$ and $\Phi_{\rm gen}(b)$ coincide pointwise when $a_0=0$.
+For scalar selfadjoint data $\eta(b)=\sigma b$, both $h_b$ and $Z_b$ are $a_0/(b^{-1}+2\sigma)$ and $c_b^2=\sigma+b^{-1}$, so the entire scalar formulas also coincide pointwise.
+
+For general selfadjoint coefficient matrices, \eqref{eq:hs-infimum-chain} provides only one direction.
+Lemma~\ref{lem:hs-global} supplies the other; the strict Hilbert--Schmidt formula is therefore not merely a substitution into the general formula.
+\end{remark}
+
+Finally, arbitrary complex coefficients can be treated by applying Proposition~\ref{prop:hs-formula} to the selfadjoint pencil $\mathscr H=\left(\begin{smallmatrix}0&S\\S^*&0\end{smallmatrix}\right)$.
+With the normalized trace in each size, the two determinants satisfy $\Delta(\mathscr H)=\Delta(S)$.
+This yields a strict-domain formula in size $2m$.
+The coordinate comparison above then also uses $2m\times2m$ trial matrices, whereas Theorem~\ref{thm:main} uses $m\times m$ trial matrices.

@@ -68,6 +68,43 @@ Each Task entrance includes only that route's explicit Task associations.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Yin_S_F0016](Yin_S_F0016.md) | Bounded Rational Reconstruction in Free Products | Yin | active | Selected closure question | [Yin_T_F0007_v1: Free-product bounded closure stability](../tasks/Yin_T_F0007_v1.md#yin_t_f0007) | Free-product permanence of bounded rational reconstruction; diffuse and nonuniform atomic tests | Root |
 
+<a id="task-yin_t_f0008"></a>
+## Yin_T_F0008
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0017](Yin_S_F0017.md) | Matrix Variational Principles for Affine Determinants | Yin | completed | General and independent deliverables established | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Yin_C_F0126 supplies an independent unrestricted formula and effective full MS24 recovery; Yin_C_F0124 remains a benchmark | Root |
+| [Yin_S_F0018](Yin_S_F0018.md) | Selfadjoint Affine Dyson Reduction | Yin | completed | Selfadjoint and indefinite interface established | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Yin_C_F0121-Yin_C_F0122/Yin_C_F0125 retain smaller scoped formulas; Yin_C_F0126 resolves the structured indefinite extension to all complex coefficients | Root |
+| [Yin_S_F0019](Yin_S_F0019.md) | Spectral Shifts and Logarithmic Potentials | Yin | completed | Potential and full-spectrum interfaces established | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Shifted Yin_C_F0126 gives the potential, Yin_C_F0123 the justified measure interfaces, and Yin_C_F0127 the exact attainment/spectrum criterion | Root |
+| [Yin_S_F0020](Yin_S_F0020.md) | Positive-Cone Action and a Real-Part Extension | Yin | completed | Mechanism absorbed into Yin_S_F0023 | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Finite positive-cone minimum supplies the effective kernel-corner comparison for arbitrary real drift | Root |
+| [Yin_S_F0021](Yin_S_F0021.md) | Ordered Minimax, Scalarization and Stability | Yin | superseded | General target absorbed by Yin_S_F0022 | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Restricted Yin_C_F0125 is proved; the raw unrestricted U/V candidate is refuted; Yin_C_F0126 supplies the general extremum through different variables | Root |
+| [Yin_S_F0022](Yin_S_F0022.md) | A Variational Formula for a Signed Schur Pencil | Yin | completed | Independent general formula established | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Yin_C_F0126 resolves the structured indefinite Schur extremum for every complex pencil; Yin_C_F0127 gives exact unique attainment and spectrum | Root |
+| [Yin_S_F0023](Yin_S_F0023.md) | Hilbert--Schmidt Constrained Affine Variation | Yin | completed | General formula established | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#continuation-2026-09-12-yin_c_f0121) | Yin_C_F0124: strict Hilbert--Schmidt infimum, global comparison, full complex reduction and independent finite MS24 recovery | Root |
+| [Yin_S_F0024](Yin_S_F0024.md) | Direct Positive-Matrix Affine Capacity | Yin | completed | Direct capacity formula established | [Yin_T_F0008_v1: Affine capacity and spectral potentials](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) | Yin_C_F0126 gives the unrestricted positive-matrix infimum and full MS24 scaling; benchmark-derived reformulations retain their separate provenance | Root |
+
+<a id="task-yin_t_f0009"></a>
+## Yin_T_F0009
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0007](Yin_S_F0007.md) | Structural Conditions for Analytic Rationality | Yin | active | Model coordination | [Yin_T_F0009_v1: R-diagonal and analytic-transport rational boundedness and reconstruction](../tasks/Yin_T_F0009_v1.md#contract) | Structural residual/realization conditions, homogeneous norm estimates and quantitative regularity for the inherited R-diagonal and analytic-transport models; rational L2 boundedness and bounded scalar reconstruction remain separate. | Root |
+| &#8627; [Yin_S_F0009](Yin_S_F0009.md) | Holomorphic R-Diagonal Boundedness | Yin | active | Inherited selected model | [Yin_T_F0009_v1: R-diagonal and analytic-transport rational boundedness and reconstruction](../tasks/Yin_T_F0009_v1.md#contract) | Holomorphic R-diagonal positive-word evaluation, coefficient recognizability and bounded scalar reconstruction, with the unrestricted rational-L2 obstruction retained. | Parent: [Yin_S_F0007](Yin_S_F0007.md#route) |
+| &#8627; [Yin_S_F0010](Yin_S_F0010.md) | Analytic Free Transport and Rational Boundedness | Yin | active | Inherited selected model | [Yin_T_F0009_v1: R-diagonal and analytic-transport rational boundedness and reconstruction](../tasks/Yin_T_F0009_v1.md#contract) | Analytic-transport hypotheses for rational L2 boundedness and bounded scalar reconstruction, with the projective-Jacobian and finite-rank boundaries retained. | Parent: [Yin_S_F0007](Yin_S_F0007.md#route) |
+
+<a id="task-yin_t_f0010"></a>
+## Yin_T_F0010
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0025](Yin_S_F0025.md) | Single-Haar variational, capacity and coefficient analysis | Yin | completed | Initial coordinated route: establish exact variational/capacity structure and coefficient-dependence domains together; scalar core first, finite-matrix extension explicit. | [Yin_T_F0010_v1: Variational and capacity formulas for a single-Haar determinant and its coefficient dependence](../tasks/Yin_T_F0010_v1.md#contract) | Exact scalar and finite-matrix single-Haar determinant formulas, capacity descriptions and dependence on coefficients. | Root |
+
+<a id="task-yin_t_f0011"></a>
+## Yin_T_F0011
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0026](Yin_S_F0026.md) | From ACSY vacua to full bounded-vector duals | Yin | active | Follow the authorized paired-quadratic route for A plus normality, with a*a on the left and aa* on the right. The remaining normal scope is arbitrary correlated coordinates. The general A-to-F comparison remains unresolved. | [Yin_T_F0011_v1: Full-domain duals and ACSY conjugate variables: rationality and maximal Delta](../tasks/Yin_T_F0011_v1.md#contract) | Compare the normal analytic hypotheses S and A, and the general maximal-Delta hypotheses F and A, including actual canonical domains and existential quantifiers. | Root |
+
 ## Feedback and Derived Routes
 
 These are the contributor's stated relationships and scopes.
@@ -81,3 +118,7 @@ A received original remains distinct even when its author matches the local oper
 | [Yin_S_F0008](Yin_S_F0008.md) | q-Gaussian Rational Boundedness | Yin | predecessor | [Yin_S_F0007: Structural Conditions for Analytic Rationality](Yin_S_F0007.md#s_f0007) | Yin | Focused q-Gaussian branch recorded 2026-09-09; current Q5/Q6 authorization remains a separate Task contract. |
 | [Yin_S_F0012](Yin_S_F0012.md) | Density and Automatic Adjoint Test Domains | Yin | predecessor | [Yin_S_F0011: Canonical Closed Duals and Intrinsic Rationality](Yin_S_F0011.md#s_f0011) | Yin | Focused successor to the completed intermediate-domain round, 2026-09-11; the earlier route retains separate polynomial-core obligations. |
 | [Yin_S_F0016](Yin_S_F0016.md) | Bounded Rational Reconstruction in Free Products | Yin | predecessor | [Yin_S_F0013: General Bounded-Closure Conditions](Yin_S_F0013.md#s_f0013) | Yin | Successor for the open free-product question retained by the completed sufficient-condition route, 2026-09-11. |
+| [Yin_S_F0020](Yin_S_F0020.md) | Positive-Cone Action and a Real-Part Extension | Yin | predecessor | [Yin_S_F0017: Matrix Variational Principles for Affine Determinants](Yin_S_F0017.md#s_f0017) | Yin | Positive-cone successor mechanism added 2026-09-12 within the original unrestricted variational goal. |
+| [Yin_S_F0021](Yin_S_F0021.md) | Ordered Minimax, Scalarization and Stability | Yin | predecessor | [Yin_S_F0017: Matrix Variational Principles for Affine Determinants](Yin_S_F0017.md#s_f0017) | Yin | Ordered-real/imaginary successor added 2026-09-12; retain its restricted result and unrestricted negative-direction obstruction. |
+| [Yin_S_F0023](Yin_S_F0023.md) | Hilbert--Schmidt Constrained Affine Variation | Yin | predecessor | [Yin_S_F0020: Positive-Cone Action and a Real-Part Extension](Yin_S_F0020.md#s_f0020) | Yin | Combines the finite positive-cone mechanism with the separately sourced repaired Spe26 candidate, recorded 2026-09-13. |
+| [Yin_S_F0022](Yin_S_F0022.md) | A Variational Formula for a Signed Schur Pencil | Yin | predecessor | [Yin_S_F0021: Ordered Minimax, Scalarization and Stability](Yin_S_F0021.md#s_f0021) | Yin | General-formula work is absorbed through different signed Schur variables; the predecessor restricted theorem and failed raw candidate are not promoted. |

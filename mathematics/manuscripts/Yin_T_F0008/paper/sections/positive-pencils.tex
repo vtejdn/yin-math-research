@@ -1,0 +1,132 @@
+\section{A variational formula for strictly positive affine pencils}\label{sec:positive}
+
+
+We prove Theorem~\ref{thm:positive} and relate its minimizer to the one in Theorem~\ref{thm:main}.
+
+Throughout this section all $a_j=a_j^*$, including $a_0$, so that $S=S^*$ and $\eta(b)=\sum_j a_jba_j$.
+Recall $L(b)$, $\mathcal B$ and $\mathcal B_{\rm str}$ from Definition~\ref{def:positive-feasibility}, and put
+\begin{equation}\label{eq:residual}
+ F(b)=a_0-b^{-1}-\eta(b),\qquad b>0.
+\end{equation}
+Eliminating the lower diagonal block of $L(b)$ gives $L(b)\ge0$ if and only if $F(b)\ge0$, and likewise for strict positivity.
+This is the Schur complement calculation; it follows by multiplying $L(b)$ by invertible triangular block matrices to obtain $\operatorname{diag}(F(b),b)$.
+In particular, the condition $L(b)\ge0$ is a linear matrix inequality: its matrix entries depend affinely on the selfadjoint variable $b$.
+Both feasible sets are convex and are specified without solving a Dyson equation.
+
+\begin{remark}[Semicircular spectral edges and semidefinite programming]
+\label{rem:positive-sdp}
+Kunisky's semidefinite formulation of Lehner's semicircular norm formula \cite[Theorem 1.9 and Section 4.1]{Kun26}, applied to $-S$, gives its upper spectral edge as
+\[
+ \sup\spec(-S)=\inf\left\{t\in\R:
+   \text{there is }b>0\text{ with }
+   \begin{pmatrix}t1_m+a_0-\eta(b)&1_m\\1_m&b\end{pmatrix}\ge0
+                         \right\}.
+\]
+The block at $t=0$ is $L(b)$.
+Its Schur complement is $t1_m+F(b)$, so a negative feasible $t$ exists exactly when $F(b)>0$ for some $b>0$.
+Thus the strict-positivity criterion in Theorem~\ref{thm:positive} agrees with this spectral-edge formula.
+The determinant minimum and the least feasible matrix are obtained by the argument below.
+\end{remark}
+
+The function $J$ in \eqref{eq:positive-objective} is the ordinary log determinant of the positive matrix
+\begin{equation}\label{eq:positive-trial-matrix}
+ P(b)=b^{-1/2}\exp\left(
+ b^{1/2}(a_0-\tfrac12\eta(b))b^{1/2}-1_m\right)b^{-1/2}>0.
+\end{equation}
+Indeed, $\log\det P(b)=J(b)$, so $\Delta_m(P(b))=\exp(J(b)/m)$.
+
+\begin{proof}[Proof of Theorem~\ref{thm:positive}]
+\emph{Positivity from coefficients.}
+Use the full Fock space $\mathcal F=\C\Omega\oplus\bigoplus_{k\ge1}(\C^n)^{\otimes k}$.
+The left creation operators $\ell_j\in\mathcal B(\mathcal F)$ prepend the $j$th basis vector and satisfy $\ell_i^*\ell_j=\delta_{ij}I$.
+The operators $\ell_j+\ell_j^*$ have the joint semicircular distribution of the $s_j$; see \cite[Section 2.1, pp.~3--5]{Miy22}.
+The vacuum state on their generated von Neumann algebra is faithful and tracial.
+Thus equality of these joint distributions gives the same matrix spectral laws and positivity tests as in $M_m(\M)$.
+
+Given $b>0$, put $d_j=b^{1/2}a_jb^{1/2}$ and $C=\sum_jd_j\otimes\ell_j\in\mathcal B(\C^m\otimes\mathcal F)$.
+Direct multiplication gives the square completion
+\begin{equation}\label{eq:fock-square}
+ b^{1/2}Sb^{1/2}=(I+C)^*(I+C)+b^{1/2}F(b)b^{1/2}.
+\end{equation}
+If $F(b)\ge\delta 1_m$ with $\delta>0$, this proves $S\ge\delta 1_m$.
+Conversely, suppose $S\ge\gamma 1_m$.
+For $0\le t<\gamma$ set $q(t)=E_m((S-t1_m)^{-1})>0$.
+The selfadjoint Dyson equation, continued from the upper half-plane through this spectral gap, gives
+\begin{equation}\label{eq:gap-dyson}
+ q(t)^{-1}=a_0-t1_m-\eta(q(t)),\qquad F(q(t))=t1_m.
+\end{equation}
+Hence $q(t)\in\mathcal B_{\rm str}$ for $t>0$ and $q=q(0)$ belongs to $\mathcal B$.
+
+\emph{The expectation of $S^{-1}$ is the least feasible matrix.}
+Fix any $b\in\mathcal B$ and start the iteration
+\begin{equation}\label{eq:monotone-iteration}
+ q_0=0,\qquad q_{k+1}=(a_0-\eta(q_k))^{-1}.
+\end{equation}
+For $0\le X\le b$, positivity of $\eta$ gives $a_0-\eta(X)\ge a_0-\eta(b)\ge b^{-1}>0$.
+The iteration is therefore defined, order preserving and bounded above by $b$, so $0<q_1\le q_2\le\cdots\le b$.
+Its limit is the expectation of $S^{-1}$, as can be seen without selecting an algebraic root.
+Compress the Fock realization of $S$ to words of length at most $N$.
+Each compression is at least $\gamma I$.
+Separate the vacuum from the subtrees classified by the last letter of a word.
+Every subtree carries the same pencil truncated at depth $N-1$; eliminating these blocks shows that the vacuum block of the inverse is exactly $q_{N+1}$ in \eqref{eq:monotone-iteration}.
+The compressions, extended by $\gamma I$ on the orthogonal complements, converge strongly to $S$ and have uniformly bounded inverses.
+Their inverses converge strongly to $S^{-1}$, by the resolvent identity.
+Taking vacuum matrix coefficients identifies the limit as $q$.
+Thus
+\begin{equation}\label{eq:least-feasible}
+ q\le b\qquad(b\in\mathcal B).
+\end{equation}
+
+\emph{Global minimality and strictness.}
+The first variation of $J$ is
+\[
+ dJ(b)[Y]=\Tr(F(b)Y),\qquad Y=Y^*.
+\]
+For $b\in\mathcal B$ write $Y=b-q\ge0$ and $b_t=q+tY$.
+The function $F$ is operator concave on positive matrices: its second derivative along this segment is $-2b_t^{-1}Yb_t^{-1}Yb_t^{-1}\le0$.
+Consequently $F(b_t)\ge(1-t)F(q)+tF(b)\ge0$, and
+\begin{equation}\label{eq:objective-order}
+ \frac{d}{dt}J(b_t)=\Tr(F(b_t)Y)\ge0.
+\end{equation}
+This proves $J(b)\ge J(q)$.
+
+For uniqueness it suffices to prove strictness near $q$.
+Let $q'=\left.\frac{d}{dt}q(t)\right|_{t=0}=E_m(S^{-2})>0$.
+Differentiation of \eqref{eq:gap-dyson} gives $q'=q^2+q\eta(q')q$.
+Set $c_j=q^{1/2}a_jq^{1/2}$ and $\Phi(x)=\sum_jc_jxc_j$.
+With $H=q^{-1/2}q'q^{-1/2}>0$ this reads $H-\Phi(H)=q>0$.
+The positive-map estimate in Section~\ref{subsec:gap-tools} shows that the spectral radius of $\Phi$ is less than one.
+The map $\Phi$ is also selfadjoint for the Hilbert-Schmidt inner product $\langle X,Y\rangle=\Tr(X^*Y)$.
+It follows that the Hessian of $J$ at $q$, in the direction $Y=q^{1/2}Zq^{1/2}\ne0$, is
+\[
+ d^2J(q)[Y,Y]=\Tr(Z^2)-\Tr(Z\Phi(Z))>0.
+\]
+Since $dJ(q)=0$, this gives $J(q+tY)>J(q)$ for small positive $t$.
+Together with \eqref{eq:objective-order}, it proves uniqueness.
+
+Finally, \eqref{eq:selfadjoint-potential} at zero, where $G(0)=-q$, gives
+\[
+ \log\Delta(S)=\tfrac1m\left(-\log\det q
+                       +\tfrac12\Tr(q\eta(q))\right)=J(q)/m.
+\]
+The last equality uses the trace of \eqref{eq:gap-dyson} at $t=0$.
+Since $q(t)\to q$ and $q(t)\in\mathcal B_{\rm str}$ for $t>0$, the strict-domain infimum is the same.
+It cannot be attained there because the unique minimizer on $\mathcal B$ has $F(q)=0$.
+\end{proof}
+
+The feasible set is convex.
+The proof of minimality uses its least element and the nonnegative directional derivative of $J$ along segments starting there; it does not require convexity of $J$.
+
+
+The two variational formulas minimize different functions and have different optimizers.
+Under the present assumption that $S$ is strictly positive, Theorem~\ref{thm:main} gives $b_*=E_m(S^{-2})$ and $Z_{b_*}=q$, whereas Theorem~\ref{thm:positive} minimizes at $q$ itself.
+The differentiated Dyson equation above relates them by
+\begin{equation}\label{eq:optimizer-relation}
+ b_*=q^2+q\eta(b_*)q.
+\end{equation}
+Thus the strict-positivity formula supplies an order description of the expectation of $S^{-1}$ and a feasibility criterion in addition to the general determinant formula.
+
+Replacing $S$ by $-S$ treats strictly negative pencils.
+Nonstrict feasibility alone does not provide the positive gap used here.
+For example, the scalar pencil $2+s$ has the feasible trial $b=1$, but zero belongs to its spectrum, so Theorem~\ref{thm:positive} does not apply.
+The general infimum in Theorem~\ref{thm:main} continues to apply to this boundary case.

@@ -1,0 +1,643 @@
+\section{Spectral applications}\label{sec:spectral}
+
+Throughout this section let
+\[
+ T=a_0+\sum_{j=1}^n a_j\otimes s_j\in M_m(\M),\qquad
+ S_z=T-z1_m,\qquad a_z=a_0-z1_m,
+\]
+with arbitrary complex coefficient matrices.
+We keep the maps $\eta$ and $\rho$ from \eqref{eq:coefficient-maps}.
+Applying Theorem~\ref{thm:main} to $S_z$ gives the logarithmic potential of $\mu_T$ and characterizes $\spec(T)$.
+
+\subsection{Shifted potentials and spectral interpretation}
+For $b>0$, write $Z_b(z)=\mathcal T_b^{-1}(a_z)$ and
+\[
+ \mathcal V_z(b)=\log\det H_b-\log\det b-m
+                   +\operatorname{Re}\Tr(a_z^*Z_b(z)),
+ \qquad H_b=1_m+\eta(b).
+\]
+Theorem~\ref{thm:main} gives
+\begin{equation}\label{eq:shifted-potential}
+ u(z):=\log\Delta(S_z)=\frac1{2m}\inf_{b>0}\mathcal V_z(b),
+\end{equation}
+with the value $-\infty$ permitted.
+It also gives
+\begin{equation}\label{eq:full-spectrum}
+ z\notin\spec(T)
+ \quad\Longleftrightarrow\quad
+ \mathcal V_z\text{ has a critical point}
+ \quad\Longleftrightarrow\quad
+ \inf_{b>0}\mathcal V_z(b)\text{ is attained}.
+\end{equation}
+At a point of the resolvent set, the unique minimizer is $b_z=E_m((S_z^*S_z)^{-1})$.
+The criterion concerns bounded invertibility; finiteness of $u(z)$ alone does not imply it.
+
+We use the Wirtinger derivatives $\partial_z=(\partial_x-i\partial_y)/2$ and $\partial_{\bar z}=(\partial_x+i\partial_y)/2$, where $z=x+iy$.
+\begin{definition}[Brown measure]\label{def:brown}\label{def:brown-measure}
+The Brown measure of $T$ with respect to $\varphi_m$ is the probability measure
+\begin{equation}\label{eq:brown-definition}
+ \mu_T=\frac1{2\pi}\nabla_z^2u,\qquad
+ \nabla_z^2=4\partial_{\bar z}\partial_z,
+\end{equation}
+where the Laplacian is taken in the sense of distributions.
+\end{definition}
+Here $u$ is subharmonic and locally integrable, and $\supp\mu_T\subseteq\spec(T)$.
+With the normalization at infinity fixed by the determinant, it is exactly the logarithmic potential
+\begin{equation}\label{eq:brown-logarithmic-potential}
+ u(z)=\int_{\C}\log|z-w|\dd\mu_T(w).
+\end{equation}
+These properties of the Brown measure are recalled in \cite[Chapter 11, Theorem 5, Definition 6 and (11.6)--(11.8)]{MS17}.
+We use them to interpret the variational formula; no equality between $\supp\mu_T$ and $\spec(T)$ is assumed.
+
+For $\varepsilon>0$, set
+\begin{equation}\label{eq:spectral-potential}
+ u_\varepsilon(z)=\tfrac12\varphi_m
+                   \log(S_z^*S_z+\varepsilon^21_m).
+\end{equation}
+The rescaled minimum \eqref{eq:scaled-minimum} reads
+\begin{equation}\label{eq:brown-regularized-minimum}
+ u_\varepsilon(z)=\frac1{2m}\min_{b>0}F_\varepsilon(z,b),
+ \qquad F_\varepsilon(z,b)=\mathcal V_z(b)+\varepsilon^2\Tr b.
+\end{equation}
+Its unique minimizer $b_\varepsilon(z)$ and the matrix $Z_\varepsilon(z)=\mathcal T_{b_\varepsilon(z)}^{-1}(a_z)$ are
+\begin{equation}\label{eq:brown-regularized-optimizer}
+ \begin{split}
+ b_\varepsilon(z)&=E_m((S_z^*S_z+\varepsilon^21_m)^{-1}),\\
+ Z_\varepsilon(z)&=Z_{b_\varepsilon(z)}(z)
+     =E_m((S_zS_z^*+\varepsilon^21_m)^{-1}S_z).
+ \end{split}
+\end{equation}
+We will use these matrices both to recover radial masses and to compute a regularized density.
+The regularized Cauchy transform and its relation to hermitization are developed in \cite[arXiv version, Sections~2.1.6 and~2.2]{BSS18}.
+Here \eqref{eq:brown-regularized-minimum} expresses the same regularized potential through a positive-matrix minimum.
+
+\subsection{Determinant lower bounds and atoms of the Brown measure}
+\label{subsec:brown-atoms}
+We first prove Corollary~\ref{cor:brown-capacity}, then locate the possible atoms without assuming positive capacity.
+For $a\in M_m(\C)$ and $b>0$, put $q_a(b)=\operatorname{Re}\Tr(a^*\mathcal T_b^{-1}(a))$.
+
+% Proof inputs: Yin_C_F0126 and Yin_C_F0172.
+\begin{proof}[Proof of Corollary~\ref{cor:brown-capacity}]
+Use the real inner product $\langle X,Y\rangle_{\R}=\operatorname{Re}\Tr(X^*Y)$.
+The positivity established in \eqref{eq:quadratic-lower-bound}, at $\varepsilon=1$, implies
+\[
+ q_a(b)=\langle a,\mathcal T_b^{-1}(a)\rangle_{\R}\ge0.
+\]
+Put $T_0=\sum_j a_j\otimes s_j$.
+Taking infima in Theorem~\ref{thm:main} gives, for every $a\in M_m(\C)$,
+\begin{equation}\label{eq:brown-capacity-lower-bound}
+ \Delta(a+T_0)\ge\Delta(T_0)
+               =e^{-1/2}\Cap(\eta)^{1/(2m)}.
+\end{equation}
+Taking $a=a_0-z1_m$ proves \eqref{eq:intro-uniform-bound}.
+At positive capacity, this gives the uniform bound
+\[
+ u(z)\ge -\frac12+\frac1{2m}\log\Cap(\eta)>-\infty.
+\]
+An atom at $z$ would make \eqref{eq:brown-logarithmic-potential} equal $-\infty$ there, since its positive part is bounded on the compact support.
+This proves the assertion about atoms.
+\end{proof}
+
+% Proof input: Yin_L_F0042, Section 6.
+\begin{proposition}[Possible atom locations]\label{prop:brown-atoms}
+For every $z\in\C$,
+\begin{equation}\label{eq:brown-atom-locations}
+ \det(a_0-z1_m)\ne0\ \Longrightarrow\ \Delta(T-z1_m)>0.
+\end{equation}
+In particular every atom of $\mu_T$ belongs to $\spec(a_0)$.
+\end{proposition}
+\begin{proof}
+Put $T_0=\sum_j a_j\otimes s_j$, and let $u_0$ be the logarithmic potential of $\mu_{T_0}$.
+Applying Theorem~\ref{thm:main} to $T_0-re^{i\theta}1_m$ and using the real-linearity of $\mathcal T_b^{-1}$, we obtain
+\begin{equation}\label{eq:brown-ray-monotonicity}
+ u_0(re^{i\theta})=\frac1{2m}\inf_{b>0}
+ \{A(b)+r^2q_{-e^{i\theta}1_m}(b)\},\qquad
+ A(b)=\log\det H_b-\log\det b-m.
+\end{equation}
+Since $q_{-e^{i\theta}1_m}(b)\ge0$ by \eqref{eq:quadratic-lower-bound}, the potential is nondecreasing in $r\ge0$ for each fixed $\theta$.
+It cannot take the value $-\infty$ at a positive radius.
+Indeed, for any bounded real interval $I$ and any $w\in\C$,
+\[
+ \int_I\log^-|re^{i\theta}-w|\dd r
+ \le\int_{-1}^1-\log|t|\dd t=2,
+ \qquad \log^-t=\max\{-\log t,0\}.
+\]
+The inequality follows from $|re^{i\theta}-w|\ge|r-\operatorname{Re}(e^{-i\theta}w)|$.
+The positive logarithmic part is uniformly bounded when $w$ ranges over a compact set.
+Fubini's theorem therefore shows that a compactly supported logarithmic potential is integrable on every finite line segment.
+If $u_0(r_0e^{i\theta})=-\infty$ for $r_0>0$, monotonicity would make it $-\infty$ on $[r_0/2,r_0]e^{i\theta}$, a contradiction.
+Hence $\Delta(T_0-z1_m)>0$ for $z\ne0$.
+
+Now suppose $A=a_0-z1_m$ is invertible and write
+\[
+ T-z1_m=A(1_m+C),\qquad
+ C=\sum_j A^{-1}a_j\otimes s_j.
+\]
+The centered conclusion applied to $C$ at the shift $-1$ gives $\log\Delta(1_m+C)>-\infty$.
+If $c>0$ is the smallest singular value of $A$, then, with $B=1_m+C$, $(AB)^*(AB)\ge c^2B^*B$.
+Add $\varepsilon^21_m$, apply the operator-monotone logarithm and the trace, and let $\varepsilon\downarrow0$.
+The result is
+\[
+ \log\Delta(T-z1_m)\ge\log c+\log\Delta(1_m+C)>-\infty.
+\]
+This proves \eqref{eq:brown-atom-locations} and the last assertion.
+\end{proof}
+
+The atom locations in Proposition~\ref{prop:brown-atoms} need not all carry positive mass.
+Nor does atomlessness imply absolute continuity with respect to planar area.
+For example, if $T=s$ is a standard selfadjoint semicircular element, then $\eta=\id$ and $\Cap(\eta)=1$, while $\mu_T$ is supported on $\R$.
+
+A second distinction concerns regularization at a fixed point.
+Spectral calculus gives
+\begin{equation}\label{eq:brown-kernel-limit}
+ \lim_{\varepsilon\downarrow0}\varepsilon^2
+               \tr_m b_\varepsilon(z)
+   =\varphi_m(1_{\{0\}}(S_z^*S_z)).
+\end{equation}
+This is the trace of the kernel projection of $S_z$, which need not equal $\mu_T(\{z\})$.
+More generally, the former is at most the latter; see \cite[Section~2.1, p.~12]{ACSY24} for this distinction between point-spectrum weights and atoms of the Brown measure.
+For the deterministic matrix $T=\left(\begin{smallmatrix}0&1\\0&0\end{smallmatrix}\right)$, the right side at zero is $1/2$, whereas $\mu_T=\delta_0$: indeed $\log\Delta(T-z1_2)=\log|z|$.
+Thus divergence of $b_\varepsilon(z)$ alone does not determine $\mu_T(\{z\})$.
+
+\subsection{Centered pencils with vanishing \texorpdfstring{$\rho$}{rho}}
+\label{subsec:brown-radial}
+Assume in this subsection that $a_0=0$ and $\rho=0$ as a map on $M_m(\C)$.
+
+\begin{example}[Matrix coefficients and free circular elements]
+\label{ex:brown-circular-coefficients}
+Let $s_1,\ldots,s_{2r}$ be free standard semicircular elements and set
+\[
+ c_k=\frac{s_{2k-1}+is_{2k}}{\sqrt2},\qquad 1\le k\le r.
+\]
+Then $c_1,\ldots,c_r$ are free standard circular elements.
+For matrices $d_1,\ldots,d_r\in M_m(\C)$, the operator
+\[
+ T=\sum_{k=1}^r d_k\otimes c_k
+\]
+is a centered semicircular pencil with coefficients
+\[
+ a_{2k-1}=\frac{d_k}{\sqrt2},\qquad
+ a_{2k}=\frac{id_k}{\sqrt2}.
+\]
+For every $x\in M_m(\C)$, these pairs give
+\[
+ \rho(x)=\frac12\sum_{k=1}^r
+           \bigl(d_kxd_k+(id_k)x(id_k)\bigr)=0,
+ \qquad
+ \eta(x)=\sum_{k=1}^r d_kxd_k^*.
+\]
+Thus Proposition~\ref{prop:brown-radial} applies to $T$ with this map $\eta$.
+\end{example}
+
+For a centered semicircular pencil, all $M_m(\C)$-valued cumulants of $(T,T^*)$ except those of order two vanish.
+The condition $\rho=0$ also gives $E_m(TxT)=E_m(T^*xT^*)=0$.
+Its only possibly nonzero cumulants are therefore
+\[
+ E_m(TxT^*)=\eta(x),\qquad E_m(T^*xT)=\eta^*(x),
+ \qquad x\in M_m(\C).
+\]
+By \cite[Theorem 2.9(b)]{DG24}, $T$ is $M_m(\C)$-valued $R$-diagonal.
+Since all cumulants of order greater than two vanish, \cite[Definition 2.10]{DG24} identifies $T$ as an $M_m(\C)$-valued circular element.
+These cumulants are unchanged when $T$ is replaced by $e^{i\theta}T$, so its $M_m(\C)$-valued $*$-distribution is rotation invariant.
+We now apply Theorem~\ref{thm:main} to $T-z1_m$ to prove Proposition~\ref{prop:brown-radial} and the following formulas for the logarithmic potential and density of $\mu_T$.
+
+% Proof input: fixed radial deduction Yin_C_F0170.
+\begin{proposition}[Radial density and minimizers]\label{prop:brown-radial-details}
+The function $f$ in Proposition~\ref{prop:brown-radial} is given by
+\begin{equation}\label{eq:brown-radial-envelope}
+ f(s)=\frac1{2m}\inf_{b>0}
+ \left\{\log\det H_b-\log\det b-m
+                       +s\Tr(H_b^{-1}b)\right\}.
+\end{equation}
+The radial distribution $F$ in \eqref{eq:brown-radial-cdf} is locally Lipschitz on $(0,\infty)$, and
+\begin{equation}\label{eq:brown-radial-density}
+ \mu_T=\alpha\delta_0+\beta(z)\dd^2z,\qquad
+ \beta(z)=\frac1\pi F'(|z|^2),\qquad
+ 0\le\beta(z)\le\frac{F(|z|^2)}{\pi|z|^2}
+              \le\frac1{\pi|z|^2}\quad\text{a.e. }z\ne0,
+\end{equation}
+where $\alpha=\lim_{s\downarrow0}F(s)$.
+For every $s>0$,
+\begin{equation}\label{eq:brown-radial-optimizer}
+ F(s)=\frac{s}{m}\lim_{\varepsilon\downarrow0}
+ \Tr\bigl((1_m+\eta(b_\varepsilon(s)))^{-1}b_\varepsilon(s)\bigr),
+\end{equation}
+where the minimizer in \eqref{eq:brown-regularized-optimizer} depends only on $s=|z|^2$.
+\end{proposition}
+\begin{proof}[Proof of Propositions~\ref{prop:brown-radial} and
+\ref{prop:brown-radial-details}]
+Since $\rho=0$, the solution of $\mathcal T_b(Z_b(z))=-z1_m$ is $Z_b(z)=-zH_b^{-1}b$.
+Substitution in \eqref{eq:shifted-potential} proves \eqref{eq:brown-radial-envelope}.
+Its slope at each fixed trial is positive, so $f$ is nondecreasing and concave.
+Radiality of the potential gives rotation invariance of its distributional Laplacian.
+Let $\nu$ be the image of $\mu_T$ under $z\mapsto|z|^2$.
+Averaging the logarithmic kernel over angles yields
+\begin{equation}\label{eq:brown-radial-log-kernel}
+ f(s)=\frac12\int_{[0,\infty)}\log\max\{s,t\}\dd\nu(t),
+ \qquad s>0.
+\end{equation}
+The scalar identity used here is $(2\pi)^{-1}\int_0^{2\pi}\log|r-te^{i\theta}|\dd\theta =\log\max\{r,t\}$; it follows by expanding the logarithm after factoring out the larger radius, and by an integrable limit when the radii agree.
+Compact support bounds the positive part, while the identity bounds the integrated negative part.
+Thus the interchange of integrals is valid and the result is finite.
+
+The left and right derivatives of \eqref{eq:brown-radial-log-kernel} are
+\[
+ f'_-(s)=\frac{\nu([0,s))}{2s},\qquad
+ f'_+(s)=\frac{\nu([0,s])}{2s}.
+\]
+The measure inequality gives $f'_-(s)\le f'_+(s)$, while concavity gives the opposite inequality.
+Hence $\nu(\{s\})=0$ for every $s>0$, $f\in C^1((0,\infty))$, and \eqref{eq:brown-radial-cdf} follows.
+Also $F(s)/s=2f'(s)$ is nonincreasing.
+For $0<s_1<s_2$ this implies
+\[
+ 0\le F(s_2)-F(s_1)
+ \le (s_2-s_1)\frac{F(s_1)}{s_1}
+ \le\frac{s_2-s_1}{s_1}.
+\]
+Thus $F$ is locally Lipschitz, with $0\le F'(s)\le F(s)/s$ almost everywhere.
+Polar coordinates, $\dd^2z=\tfrac12\dd s\dd\theta$, now give \eqref{eq:brown-radial-density}.
+Every possible singular part is concentrated at zero.
+
+The function $F_\varepsilon(z,b)$ in \eqref{eq:brown-regularized-minimum} depends on $z$ only through $s=|z|^2$.
+Write $u_\varepsilon(z)=f_\varepsilon(s)$.
+Uniqueness of the minimizer makes $b_\varepsilon$ independent of the argument of $z$.
+This minimizer is smooth for $s>0$, either from its resolvent expression along $z=\sqrt{s}$ or by differentiation of the stationary equation.
+Differentiating the minimum value therefore gives
+\[
+ f_\varepsilon'(s)=\frac1{2m}
+          \Tr(H_{b_\varepsilon(s)}^{-1}b_\varepsilon(s)).
+\]
+The functions $f_\varepsilon$ are concave and decrease to $f$.
+For a fixed positive $s$, bound their derivatives between their left and right secant slopes.
+First send $\varepsilon$ to zero, then send the secant increment to zero.
+Since $f$ is differentiable, $f_\varepsilon'(s)\to f'(s)$, proving \eqref{eq:brown-radial-optimizer}.
+
+For the spectrum, the critical identities \eqref{eq:boundary-identities} with $a_z=-z1_m$ and $\rho=0$ force $z\ne0$, $Y=-1_m/\overline z$, and
+\begin{equation}\label{eq:brown-radial-stein}
+ (s\id-\eta)b=1_m,\qquad b>0,\qquad s=|z|^2.
+\end{equation}
+If $s>r(\eta)$, the positive convergent series $b=\sum_{k\ge0}s^{-k-1}\eta^k(1_m)$ solves this equation.
+With the displayed $Y$ it satisfies $\mathcal T_b(Y)=-z1_m$, has $P=H_b^{-1}-Yb^{-1}Y^*=0$, and satisfies \eqref{eq:unregularized-critical}.
+Theorem~\ref{thm:main} therefore puts $z$ in the resolvent set.
+Conversely, any positive solution of \eqref{eq:brown-radial-stein} makes
+\[
+ x\longmapsto s^{-1}b^{-1/2}\eta(b^{1/2}xb^{1/2})b^{-1/2}
+\]
+completely positive with value $1_m-s^{-1}b^{-1}<1_m$ at the identity.
+Its norm, and hence its spectral radius, is less than one.
+Similarity gives $r(\eta)<s$.
+At zero the first critical identity would read $0=Y^{-*}$, which is impossible.
+This proves \eqref{eq:brown-spectral-disk}.
+Finally Corollary~\ref{cor:brown-capacity} removes the origin atom when capacity is positive.
+\end{proof}
+
+The spectral disk in \eqref{eq:brown-spectral-disk} is the full operator spectrum.
+The argument above does not show that $\supp\mu_T$ fills that disk.
+The estimate on $F(s)/s$ concerns the average mass per unit squared radius; it does not assert that the pointwise density is nonincreasing.
+At zero the density need not have a finite bound.
+
+Under the stronger two-sided flatness assumption $c\tr_m(x)1_m\le\eta(x)\le C\tr_m(x)1_m$ for all $x\ge0$, with $C>c>0$, Alt and Kr\"uger prove analyticity and positive upper and lower bounds for the density inside the disk \cite[Proposition~2.9 and Theorem~2.5]{AK20}.
+The argument above allows degenerate maps and yields the weaker regularity stated in Propositions~\ref{prop:brown-radial} and~\ref{prop:brown-radial-details}.
+
+\begin{remark}[Comparison with scalar $R$-diagonal elements]
+\label{rem:brown-scalar-r-diagonal}
+For a scalar $R$-diagonal element, represented in $*$-distribution as $uh$ with $u$ Haar unitary, $h\ge0$ nonconstant and $u,h$ free, Haagerup and Larsen describe the radial distribution through the $S$-transform of the law of $h^2$ \cite[author preprint, Theorem~4.4]{HL00}.
+The formula above instead uses the matrix covariance map and its variational minimizers.
+The condition $\rho=0$ gives circularity over $M_m(\C)$ in Example~\ref{ex:brown-circular-coefficients}; it does not by itself give scalar $R$-diagonality with respect to $\varphi_m$.
+Thus the scalar $S$-transform formula requires an additional hypothesis in the matrix-coefficient setting.
+\end{remark}
+
+\subsection{An invertibility criterion and enclosed mass}
+The attainment criterion can be expressed using an invertible matrix and a spectral-radius bound.
+For $g\in M_m(\C)$ invertible, put
+\[
+ \Psi_g(x)=g\eta(x)g^*.
+\]
+% Proof input: Yin_L_F0042, Sections 1--3.
+\begin{proposition}\label{prop:brown-stable-resolvent}
+A point $z$ lies outside $\spec(T)$ if and only if there is an invertible $g\in M_m(\C)$ such that
+\begin{equation}\label{eq:brown-stable-resolvent}
+ a_z=g^{-1}+\rho(g),\qquad r(\Psi_g)<1.
+\end{equation}
+This matrix is unique and equals $g_z=E_m(S_z^{-1})$.
+The unique minimizer is
+\begin{equation}\label{eq:brown-stable-minimizer}
+ b_z=(\id-\Psi_{g_z})^{-1}(g_zg_z^*)
+     =\sum_{k\ge0}\Psi_{g_z}^k(g_zg_z^*)>0.
+\end{equation}
+The strict spectral-radius condition is equivalent to the existence of a positive matrix $b$ with $b-\Psi_g(b)>0$.
+\end{proposition}
+\begin{proof}
+If $z\notin\spec(T)$, Theorem~\ref{thm:main} gives an attained minimum.
+The identities \eqref{eq:boundary-identities} then give \eqref{eq:brown-stable-resolvent} with $g=Y^*$ and $b-g\eta(b)g^*=gg^*>0$.
+Conjugating by $b^{1/2}$ turns $\Psi_g$ into a completely positive map with value strictly less than $1_m$ at the identity, so its spectral radius is less than one.
+
+Conversely, suppose \eqref{eq:brown-stable-resolvent} holds and define $b$ by the positive series in \eqref{eq:brown-stable-minimizer}.
+Then $b=gH_bg^*$.
+Put $Y=g^*$.
+We have
+\[
+ H_bYb^{-1}=g^{-1},\qquad
+ H_bYb^{-1}+\rho(Y^*)=a_z,
+\]
+so $Y=\mathcal T_b^{-1}(a_z)$.
+Also $H_b^{-1}-Yb^{-1}Y^*=0$ and $Y^*H_bY=b$.
+These two identities give \eqref{eq:unregularized-critical}.
+Theorem~\ref{thm:main} therefore gives $z\notin\spec(T)$, $g=E_m(S_z^{-1})$ and $b=b_z$.
+It also proves uniqueness.
+
+The implication from $b-\Psi_g(b)>0$ to $r(\Psi_g)<1$ has already been proved.
+For the reverse implication, $r(\Psi_g)<1$ makes $b=\sum_{k\ge0}\Psi_g^k(1_m)>0$ a solution of $b-\Psi_g(b)=1_m$.
+\end{proof}
+
+The equation $a_z=g^{-1}+\rho(g)$ alone need not determine $E_m(S_z^{-1})$.
+The additional condition $r(\Psi_g)<1$ selects that matrix; equivalently, one can find $b>0$ with $b-\Psi_g(b)>0$.
+
+\begin{corollary}\label{prop:brown-contour-mass}
+Let $\Gamma$ be a positively oriented piecewise smooth simple closed curve in the resolvent set of $T$, and let $\Omega$ be its bounded interior.
+Then
+\begin{equation}\label{eq:brown-contour-mass}
+ \mu_T(\Omega)=-\frac1{2\pi i}\int_\Gamma\tr_m(g_z)\dd z.
+\end{equation}
+If $\rho=0$, the full spectrum and the exterior potential are
+\begin{align}
+ \spec(T)&=\spec(a_0)\cup
+ \{z\notin\spec(a_0):r(x\mapsto a_z^{-1}\eta(x)a_z^{-*})\ge1\},
+                                  \label{eq:brown-affine-circular-spectrum}\\
+ u(z)&=\log\Delta_m(a_z)
+       =\frac1m\log|\det a_z|,
+ \qquad z\notin\spec(T).          \label{eq:brown-exterior-potential}
+\end{align}
+In this case
+\begin{equation}\label{eq:brown-eigenvalue-mass}
+ \mu_T(\Omega)=\frac1m
+   \#\{\text{eigenvalues of }a_0\text{ in }\Omega,
+                        \text{ counted algebraically}\}.
+\end{equation}
+\end{corollary}
+\begin{proof}
+By Proposition~\ref{prop:brown-stable-resolvent}, $g_z=E_m(S_z^{-1})$ off the spectrum.
+Differentiation of the trace logarithm gives
+\[
+ 2\partial_z u(z)=-\varphi_m(S_z^{-1})=-\tr_m(g_z).
+\]
+Differentiating \eqref{eq:brown-logarithmic-potential} there instead gives $2\partial_z u(z)=\int(z-w)^{-1}\dd\mu_T(w)$.
+The curve has positive distance from $\supp\mu_T$, so integration and the scalar Cauchy formula prove \eqref{eq:brown-contour-mass}.
+
+If $\rho=0$, \eqref{eq:brown-stable-resolvent} forces $g_z=a_z^{-1}$.
+The equation has no solution when $a_z$ is singular.
+When $a_z$ is invertible, $r(\Psi_{g_z})<1$ holds exactly under the strict inequality complementary to \eqref{eq:brown-affine-circular-spectrum}.
+At a resolvent point, $b_z=a_z^{-1}H_{b_z}a_z^{-*}$ and $Z_{b_z}=a_z^{-*}$.
+Thus $\det H_{b_z}/\det b_z=|\det a_z|^2$, while the quadratic correction equals $\operatorname{Re}\Tr(a_z^*a_z^{-*})=m$.
+Substitution proves \eqref{eq:brown-exterior-potential} in every resolvent component.
+Finally $-g_z=(z1_m-a_0)^{-1}$ in \eqref{eq:brown-contour-mass}, and the finite-dimensional argument principle proves \eqref{eq:brown-eigenvalue-mass}.
+\end{proof}
+
+In particular, the mass of any region separated by such a contour is a multiple of $1/m$ when $\rho=0$.
+The contour hypothesis is part of this statement; it does not give an unconditional formula for the mass of each atom of $\mu_T$.
+
+\begin{remark}[Diagonal variance profiles]
+\label{rem:brown-variance-profile}
+Assume $\rho=0$, $a_0=\operatorname{diag}(\alpha_1,\ldots,\alpha_m)$ and $\eta(x)=\operatorname{diag}(\sum_j s_{ij}x_{jj})$, with $s_{ij}\ge0$.
+Put $\mathsf S=(s_{ij})$ and $D_z=\operatorname{diag}(|\alpha_i-z|^{-2})$ for $z\notin\spec(a_0)$.
+The map $x\mapsto a_z^{-1}\eta(x)a_z^{-*}$ vanishes on matrices with zero diagonal and restricts to $D_z\mathsf S$ on diagonal matrices.
+Hence its spectral radius equals $r(D_z\mathsf S)$.
+In this case \eqref{eq:brown-affine-circular-spectrum} reduces to the variance-profile test for a deformed circular element over a commutative base.
+Alt and Kr\"uger use the same threshold $r(\mathsf S D_z)=1$ in \cite[arXiv version, Proposition~5.16]{AK26}; the two products are similar.
+Under their block-primitivity assumption A1 and data regularity assumption A2, they also identify the support of the Brown measure and prove boundedness and interior analyticity of the density \cite[arXiv version, Theorem~2.2]{AK26}.
+Assumption A2 is automatic for a finite base, whereas A1 remains an additional condition.
+The elementary reduction above requires neither condition and concerns the operator spectrum.
+\end{remark}
+
+\begin{remark}[Spectral subspaces]
+\label{rem:brown-spectral-subspaces}
+When the ambient algebra is a $\mathrm{II}_1$-factor, Haagerup and Schultz associate to every Borel set $B$ an invariant spectral subspace whose projection has trace $\mu_T(B)$ \cite[Theorem~1.1]{HS09}.
+For a region separated by a resolvent contour, the subspace is the range of the Riesz idempotent $e_\Omega=(2\pi i)^{-1}\int_\Gamma(z1_m-T)^{-1}\dd z$; compare \cite[Introduction, (1.3)]{HS09}.
+Thus \eqref{eq:brown-contour-mass} computes the mass of this spectral block.
+Under $\rho=0$, the further eigenvalue-count identity follows from the finite-dimensional argument principle.
+\end{remark}
+
+\subsection{Density from the variational optimizer}
+\label{subsec:brown-density}
+To differentiate the minimum value, we first prove that the Hessian at the minimizer is positive definite, using a positive matrix regularizer.
+All gradients and Hessians with respect to $b$ are taken on the real Hilbert space of Hermitian matrices with pairing $\langle k,l\rangle=\Tr(kl)$.
+
+% Proof input: Yin_L_F0041, including the matrix-regularizer proof.
+\begin{lemma}\label{lem:brown-matrix-regularizer}
+Fix an affine pencil $S$ with constant term $a$, and let $\mathcal V_a$ be the function in \eqref{eq:main-action} with $a_0=a$.
+For every $D\in M_m(\C)$ with $D>0$,
+\begin{equation}\label{eq:brown-matrix-regularizer}
+ \tfrac12\varphi_m\log(S^*S+D)
+ =\frac1{2m}\min_{b>0}\{\mathcal V_a(b)+\Tr(Db)\}.
+\end{equation}
+Its unique minimizer is $b_D=E_m((S^*S+D)^{-1})$.
+The real Hessian $\mathfrak H_D=D_b^2\mathcal V_a(b_D)$ is positive definite, and its inverse is the completely positive map
+\begin{equation}\label{eq:brown-inverse-hessian}
+ \mathfrak H_D^{-1}(k)
+ =E_m((S^*S+D)^{-1}k(S^*S+D)^{-1}).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Apply \eqref{eq:scaled-minimum}, at $\varepsilon=1$, to $SD^{-1/2}$.
+Its coefficient maps are
+\[
+ \eta_D(x)=\eta(D^{-1/2}xD^{-1/2}),\qquad
+ \rho_D(x)=\sum_j a_jD^{-1/2}xa_jD^{-1/2}.
+\]
+Use the trial bijection $b'=D^{1/2}bD^{1/2}$.
+If $Z=\mathcal T_b^{-1}(a)$, the corresponding solution for $SD^{-1/2}$ is $Z'=ZD^{1/2}$: its equation is the old equation multiplied on the right by $D^{-1/2}$.
+The quadratic correction $\operatorname{Re}\Tr(a^*Z)$ is unchanged, the logarithm of the determinant ratio decreases by $\log\det D$, and the linear term is $\Tr(Db)$.
+The same determinant term appears on the operator side, since
+\[
+ (SD^{-1/2})^*(SD^{-1/2})+1_m
+   =D^{-1/2}(S^*S+D)D^{-1/2}.
+\]
+The trace-log congruence identity follows without commutation: for positive invertible $Q$, differentiate $\varphi_m\log(D^{-t/2}QD^{-t/2})$.
+Cyclicity of the trace makes its derivative $-\tr_m\log D$; integrating from $t=0$ to $t=1$ gives the required subtraction of $m^{-1}\log\det D$.
+This proves \eqref{eq:brown-matrix-regularizer}.
+Transforming the known unique minimizer gives $b_D$ as stated.
+
+Put $Q_D=S^*S+D$.
+Stationarity and its derivative in a Hermitian direction $k$ give
+\[
+ \nabla\mathcal V_a(b_D)+D=0,\qquad
+ D_Db_D[k]=-E_m(Q_D^{-1}kQ_D^{-1})=:-\mathcal A_D(k),
+ \qquad \mathfrak H_D\mathcal A_D=\id.
+\]
+The map $\mathcal A_D$ is completely positive and selfadjoint for the trace pairing.
+Moreover
+\[
+ \langle k,\mathcal A_D(k)\rangle
+  =(\Tr\otimes\tau)
+       ((Q_D^{-1/2}kQ_D^{-1/2})^2)>0
+       \qquad(k=k^*\ne0).
+\]
+Faithfulness and invertibility of $Q_D$ give strictness.
+Thus $\mathcal A_D$ is positive definite on the finite-dimensional real space, so $\mathfrak H_D=\mathcal A_D^{-1}>0$ and \eqref{eq:brown-inverse-hessian} follows.
+\end{proof}
+
+The same formula at $D=t1_m\downarrow0$ shows that, whenever $S$ is boundedly invertible, the Hessian at its unregularized minimizer is positive definite with inverse $k\mapsto E_m((S^*S)^{-1}k(S^*S)^{-1})$.
+This is a statement at the minimizer.
+It does not imply global convexity of $\mathcal V_a$.
+At positive regularizer one obtains the quadratic-form bounds
+\[
+ \lambda_{\min}(D)^2\id\le\mathfrak H_D
+       \le(\|S\|^2+\|D\|)^2\id.
+\]
+Indeed the operator $Q_D^{-1/2}kQ_D^{-1/2}$ in the proof has Hilbert--Schmidt norm between $\|Q_D\|^{-1}\|k\|_2$ and $\lambda_{\min}(D)^{-1}\|k\|_2$.
+The lower bound can degenerate as $D$ tends to zero.
+
+\begin{proposition}\label{prop:brown-optimizer-density}
+For each $\varepsilon>0$, the regularized logarithmic potential satisfies
+\begin{equation}\label{eq:brown-envelope-transform}
+ \partial_z u_\varepsilon(z)
+       =-\frac1{2m}\Tr Z_\varepsilon(z)^*.
+\end{equation}
+Evaluate all derivatives of $F_\varepsilon$ at $(z,b_\varepsilon(z))$, and set
+\[
+ \mathfrak H=D_b^2F_\varepsilon>0,\qquad
+ h_x=\partial_x\nabla_bF_\varepsilon,
+ \qquad h_y=\partial_y\nabla_bF_\varepsilon.
+\]
+Set $\beta_\varepsilon=(2\pi)^{-1}\nabla_z^2u_\varepsilon$.
+Then
+\begin{equation}\label{eq:brown-hessian-density}
+ \begin{split}
+ \beta_\varepsilon(z)=\frac1{4\pi m}\bigl(&
+  2\langle1_m,\mathcal T_b^{-1}(1_m)\rangle_{\R}
+ +2\langle i1_m,\mathcal T_b^{-1}(i1_m)\rangle_{\R}\\
+ &-\langle h_x,\mathfrak H^{-1}h_x\rangle
+  -\langle h_y,\mathfrak H^{-1}h_y\rangle\bigr),
+ \qquad b=b_\varepsilon(z).
+ \end{split}
+\end{equation}
+It is positive, and $\beta_\varepsilon(z)\dd^2z$ converges weakly to $\mu_T$ as $\varepsilon\downarrow0$.
+\end{proposition}
+\begin{proof}
+For fixed positive $\varepsilon$, the resolvent formulas \eqref{eq:brown-regularized-optimizer} are real analytic in $x,y$.
+At the minimizer the derivative with respect to $b$ vanishes, so differentiation of the minimum value uses only the explicit parameter derivative.
+The quadratic correction $\operatorname{Re}\Tr(a^*Z_b)$ has first variation $2\langle da,Z_b\rangle_{\R}$.
+Since $\partial_xa_z=-1_m$ and $\partial_ya_z=-i1_m$, it follows that
+\[
+ \partial_xu_\varepsilon=-\frac1m\operatorname{Re}\Tr Z_\varepsilon,
+ \qquad
+ \partial_yu_\varepsilon=-\frac1m\operatorname{Im}\Tr Z_\varepsilon.
+\]
+This is \eqref{eq:brown-envelope-transform}.
+
+Lemma~\ref{lem:brown-matrix-regularizer}, with $D=\varepsilon^21_m$, proves $\mathfrak H>0$.
+Differentiating stationarity gives $\partial_xb_\varepsilon=-\mathfrak H^{-1}h_x$ and $\partial_yb_\varepsilon=-\mathfrak H^{-1}h_y$.
+Hence the real Hessian of the optimized value is the Schur complement
+\begin{equation}\label{eq:brown-value-hessian}
+ \partial_{jk}u_\varepsilon
+  =\frac1{2m}\bigl(F_{jk}
+        -\langle h_j,\mathfrak H^{-1}h_k\rangle\bigr),
+ \qquad j,k\in\{x,y\}.
+\end{equation}
+At fixed $b$, $F_\varepsilon(z,b)$ is a real quadratic function of $x,y$, so $F_{xx}=2\langle1_m,\mathcal T_b^{-1}(1_m)\rangle_{\R}$ and $F_{yy}=2\langle i1_m,\mathcal T_b^{-1}(i1_m)\rangle_{\R}$.
+Taking the normalized Laplacian proves \eqref{eq:brown-hessian-density}.
+
+For the sign, put $Q=S_z^*S_z+\varepsilon^21_m$ and $P=S_zS_z^*+\varepsilon^21_m$.
+Direct trace differentiation and $S_zQ^{-1}S_z^*=1_m-\varepsilon^2P^{-1}$ give
+\[
+ \partial_{\bar z}\partial_z u_\varepsilon
+  =\tfrac12\varphi_m(Q^{-1}-Q^{-1}S_zQ^{-1}S_z^*)
+  =\tfrac{\varepsilon^2}{2}\varphi_m(Q^{-1}P^{-1}).
+\]
+Thus
+\begin{equation}\label{eq:positive-density}
+ \beta_\varepsilon(z)=\frac{\varepsilon^2}{\pi}
+                         \varphi_m(Q^{-1}P^{-1})>0.
+\end{equation}
+The trace equals that of the positive invertible operator $Q^{-1/2}P^{-1}Q^{-1/2}$; commutation is unnecessary.
+The weak convergence follows from \cite[Chapter 11, Section 9, (11.14)--(11.15)]{MS17}, with the normalization in \eqref{eq:brown-definition}.
+\end{proof}
+
+\begin{remark}[Free circular addition and uniform density bounds]
+\label{rem:brown-circular-addition}
+Suppose $x$ is an operator in a finite tracial von Neumann algebra and $c_t$ is a circular element of variance $t>0$, scalar $*$-free from $x$.
+Zhong's density formula for $x+c_t$ on its region where the subordination parameter is positive combines a two-resolvent term with the derivative of an implicitly determined parameter \cite[arXiv version, Theorem~4.2]{Zho26}.
+This gives a useful comparison with the optimizer differentiation above.
+Belinschi, Zhi Yin and Zhong prove, in this setting, that the regularized densities are uniformly bounded by $1/(\pi t)$ and that the limiting Brown measure is absolutely continuous with the same bound \cite[arXiv version, Theorem~7.10 and Lemma~7.11]{BYZ24}.
+Such a bound supplies the control needed when the regularizer tends to zero.
+The scalar freeness and nonzero circular variance in these results are additional assumptions; the general matrix-coefficient formula \eqref{eq:brown-hessian-density} does not supply them.
+\end{remark}
+
+Formula~\eqref{eq:brown-hessian-density} uses the positive minimizer, the inverse of $\mathcal T_b$, and two linear systems with the positive definite coefficient operator $\mathfrak H$ on Hermitian matrices.
+It provides another way to compute the same derivatives as the hermitized Dyson equation.
+To make the comparison explicit, set
+\[
+ A_z=\begin{pmatrix}0&a_z\\a_z^*&0\end{pmatrix},\qquad
+ G^{-1}=i\varepsilon1_{2m}-A_z-\Theta(G),\qquad
+ \operatorname{Im}G<0.
+\]
+With $E_{21}=\left(\begin{smallmatrix}0&0\\1_m&0\end{smallmatrix}\right)$, differentiation gives the uniquely solvable equation
+\begin{equation}\label{eq:linearized-dyson}
+ X-G\Theta(X)G=-GE_{21}G,
+\end{equation}
+and
+\begin{equation}\label{eq:potential-derivatives}
+ \partial_z u_\varepsilon=\tfrac12\tr_mG_{21},\qquad
+ \beta_\varepsilon=\frac1\pi\tr_mX_{21}.
+\end{equation}
+Indeed $G_{21}=-E_m(Q^{-1}S_z^*)=-Z_\varepsilon^*$ and $X=\partial_{\bar z}G$; invertibility of the linearized equation follows from the weighted contraction after \eqref{eq:imaginary-balance}.
+Neither formulation gives a uniform zero-regularizer inverse bound.
+Weak convergence permits atoms and curve-supported mass and does not justify pointwise convergence of the densities for arbitrary coefficients.
+
+\begin{remark}[Linear stability of the Dyson equation]\label{rem:dyson-stability}
+Writing $\mathcal C_G(X)=GXG$, the operator in \eqref{eq:linearized-dyson} is $\id-\mathcal C_G\Theta$.
+Under the convention $M=-G$, it is the stability operator studied in \cite[Section 4.2, Proposition 4.4 and Theorem 2.6]{AEK19}.
+Their quantitative estimates use a flatness assumption, and Theorem 2.6 also assumes spatial decay.
+Our block covariance does not satisfy the strictly positive lower bound in the flatness assumption: for $P>0$, \eqref{eq:full-covariance} gives
+\[
+ \Theta\begin{pmatrix}P&0\\0&0\end{pmatrix}
+       =\begin{pmatrix}0&0\\0&\eta^*(P)\end{pmatrix}.
+\]
+Here invertibility at positive $\varepsilon$ follows from the weighted estimate in Section~\ref{sec:dyson}.
+At the real parameter used in Section~\ref{sec:main-proof}, the strict inequality \eqref{eq:strict-full-stability} instead gives the invertible linearization needed for analytic continuation and the spectral gap.
+\end{remark}
+
+\subsection{Recoveries and examples}
+If $a_0,a_j$ are selfadjoint, $T=T^*$ and the smaller matrix Cauchy transform satisfies
+\[
+ g(w)=E_m((w1_m-T)^{-1}),\qquad
+ g(w)^{-1}=w1_m-a_0-\eta(g(w)),\qquad
+ \operatorname{Im}g(w)<0\quad(\operatorname{Im}w>0).
+\]
+Its normalized trace recovers interval masses and atoms by \eqref{eq:stieltjes-interval} and \eqref{eq:stieltjes-atom}; the potential is given by \eqref{eq:selfadjoint-potential}.
+For a selfadjoint operator the Brown measure equals its scalar spectral measure on the real line \cite[Chapter 11, p.~270]{MS17}, and faithfulness identifies its support with the spectrum.
+The gap criterion in Section~\ref{subsec:gap-tools} therefore applies directly.
+
+For isotropic covariance $\eta(b)=\sigma\tr_m(b)1_m$, Proposition~\ref{prop:minmax-isotropic} reduces the calculation to two real variables.
+The density of the spectral measure of $T$ is $q(X^{-1}(x))/(\pi\sigma)$, as stated in \eqref{eq:minmax-isotropic-density}.
+This one-dimensional density and the planar densities in Proposition~\ref{prop:brown-radial-details} refer to their respective hypotheses.
+
+For a scalar circular variable of variance $v>0$, put $\eta(b)=vb$ and $\rho=0$.
+In \eqref{eq:brown-radial-envelope}, the substitution $t=v+b^{-1}>v$ gives
+\[
+ f(s)=\frac12\inf_{t>v}\{\log t-1+s/t\}
+ =\begin{cases}
+   \tfrac12(\log v-1+s/v),&0\le s\le v,\\
+   \tfrac12\log s,&s\ge v.
+  \end{cases}
+\]
+For $s\le v$ the infimum is the limit at $t=v$; for $s>v$ it is attained at $t=s$.
+Thus $F(s)=\min\{s/v,1\}$ and $\beta(z)=(\pi v)^{-1}1_{\{|z|^2<v\}}$, the normalized uniform law on the disk of radius $\sqrt v$.
+If instead $T=\operatorname{diag}(c,0)$ with $c$ standard circular, the normalized potential is the mean of the two diagonal potentials.
+It gives half the circular law and half an atom at zero, illustrating the possibility allowed by \eqref{eq:brown-radial-density}.
+More generally, invariant block decompositions give weighted sums of the Brown measures of the diagonal blocks; in a $\mathrm{II}_1$-factor this is \cite[Proposition~6.5]{HS09}, with the weights given by the traces of the block projections.
+
+Finally, for the scalar deterministic pencil $T=\lambda$,
+\[
+ F_\varepsilon(z,b)=-\log b-1+(|\lambda-z|^2+\varepsilon^2)b,
+ \qquad b_\varepsilon=(|\lambda-z|^2+\varepsilon^2)^{-1}.
+\]
+Its Hessian is $b_\varepsilon^{-2}$ and its mixed derivatives are $h_x=2(x-\operatorname{Re}\lambda)$, $h_y=2(y-\operatorname{Im}\lambda)$.
+Substitution into \eqref{eq:brown-hessian-density} yields
+\[
+ \beta_\varepsilon(z)=
+ \frac{\varepsilon^2}{\pi(|\lambda-z|^2+\varepsilon^2)^2}.
+\]
+Polar integration gives total mass one, and the mass outside every fixed neighborhood of $\lambda$ tends to zero.
+Hence the limiting measure is $\delta_\lambda$, in agreement with the determinant potential.
+This also verifies the signs and both real-direction contributions in the Hessian formula.

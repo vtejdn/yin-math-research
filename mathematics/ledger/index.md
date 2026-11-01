@@ -30,3 +30,33 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0023_v1](Yin_L_F0023_v1.md) | Extending Miy26 Spectral Formulas | [v1](Yin_L_F0023_v1.md) |
 | [Yin_L_F0024_v1](Yin_L_F0024_v1.md) | q-Rational Coefficients: Controlled Recursion and Reconstruction | [v1](Yin_L_F0024_v1.md) |
 | [Yin_L_F0025_v1](Yin_L_F0025_v1.md) | Bounded Division Closure for Two Projections | [v1](Yin_L_F0025_v1.md) |
+| [Yin_L_F0026](Yin_L_F0026_v1.md) | Original model-programme contract-obligation comparison | [v1](Yin_L_F0026_v1.md) |
+| [Yin_L_F0027](Yin_L_F0027_v1.md) | Affiliated Rationality and Additional Analytic Conditions | [v1](Yin_L_F0027_v1.md) |
+| [Yin_L_F0028](Yin_L_F0028_v1.md) | Direct Matrix Variables for Affine Determinants | [v1](Yin_L_F0028_v1.md) |
+| [Yin_L_F0029](Yin_L_F0029_v1.md) | Affine Determinants: External Candidates and Their Applicability | [v1](Yin_L_F0029_v1.md) |
+| [Yin_L_F0030](Yin_L_F0030_v1.md) | Negative Covariance Directions in the Independent Minimax Route | [v1](Yin_L_F0030_v1.md) |
+| [Yin_L_F0031](Yin_L_F0031_v1.md) | Positive Certificates and an Unconstrained Positive-Cone Formula | [v1](Yin_L_F0031_v1.md) |
+| [Yin_L_F0032](Yin_L_F0032_v1.md) | An Independent Signed Schur Minimum for Affine Circular Pencils | [v1](Yin_L_F0032_v1.md) |
+| [Yin_L_F0033](Yin_L_F0033_v1.md) | Affine Variational Formulas: Independent General Formula and Spectrum | [v1](Yin_L_F0033_v1.md) |
+| [Yin_L_F0034](Yin_L_F0034_v1.md) | AP16 selected reading: normal phase and operator Schur multipliers | [v1](Yin_L_F0034_v1.md) |
+| [Yin_L_F0035](Yin_L_F0035_v1.md) | AP18: Affiliation and Adjoint Domains | [v1](Yin_L_F0035_v1.md) |
+| [Yin_L_F0036](Yin_L_F0036_v1.md) | MS24: Analytic Dependency Review | [v1](Yin_L_F0036_v1.md) |
+| [Yin_L_F0037](Yin_L_F0037_v1.md) | MS24: Dependency Audit for the Integer Capacity Bound | [v1](Yin_L_F0037_v1.md) |
+| [Yin_L_F0038](Yin_L_F0038_v1.md) | MS24: Main Proofs and Their Upstream Dependencies | [v1](Yin_L_F0038_v1.md) |
+| [Yin_L_F0039](Yin_L_F0039_v1.md) | MS24: Verification of the Finite-Dimensional Scaling Dependencies | [v1](Yin_L_F0039_v1.md) |
+| [Yin_L_F0040](Yin_L_F0040_v1.md) | MSY23: Definition Recheck | [v1](Yin_L_F0040_v1.md) |
+| [Yin_L_F0041](Yin_L_F0041_v1.md) | Brown potentials as variational envelopes and positive optimizer Hessians | [v1](Yin_L_F0041_v1.md) |
+| [Yin_L_F0042](Yin_L_F0042_v1.md) | Direct Brown mass and resolvent certificates from the affine variational formula | [v1](Yin_L_F0042_v1.md) |
+| [Yin_L_F0043](Yin_L_F0043_v1.md) | Coefficient convolution capacities for a scalar single-Haar polynomial | [v1](Yin_L_F0043_v1.md) |
+| [Yin_L_F0044](Yin_L_F0044_v1.md) | Coefficient dependence of a single-Haar determinant on a fixed exponent interval | [v1](Yin_L_F0044_v1.md) |
+| [Yin_L_F0045](Yin_L_F0045_v1.md) | Matrix-field variation and convolution capacities for one Haar variable | [v1](Yin_L_F0045_v1.md) |
+| [Yin_L_F0046](Yin_L_F0046_v1.md) | Single-Haar determinant: mathematical scope and formula interfaces | [v1](Yin_L_F0046_v1.md) |
+| [Yin_L_F0047](Yin_L_F0047_v1.md) | ACSY24 and full-domain duals: exact reductions, positive cases and remaining gaps | [v1](Yin_L_F0047_v1.md) |
+| [Yin_L_F0048](Yin_L_F0048_v1.md) | ACSY24 Theorem 3.4 and maximal Delta from full-domain duals | [v1](Yin_L_F0048_v1.md) |
+| [Yin_L_F0049](Yin_L_F0049_v1.md) | Nonnormal tests for ACSY24 versus full-domain duals | [v1](Yin_L_F0049_v1.md) |
+| [Yin_L_F0050](Yin_L_F0050_v5.md) | ACSY24, full-domain duals and the normality boundary for fraction commutators | [v1](Yin_L_F0050_v1.md), [v2](Yin_L_F0050_v2.md), [v3](Yin_L_F0050_v3.md), [v4](Yin_L_F0050_v4.md), [v5](Yin_L_F0050_v5.md) |
+| [Yin_L_F0051](Yin_L_F0051_v1.md) | Literature on actual conjugate-variable derivations and their domain consequences | [v1](Yin_L_F0051_v1.md) |
+| [Yin_L_F0052](Yin_L_F0052_v3.md) | A bounded module counterexample with a single uniformly distributed selfadjoint generator | [v1](Yin_L_F0052_v1.md), [v2](Yin_L_F0052_v2.md), [v3](Yin_L_F0052_v3.md) |
+| [Yin_L_F0053](Yin_L_F0053_v2.md) | Full-source audit comparison for condition A and normal bounded-vector domains | [v1](Yin_L_F0053_v1.md), [v2](Yin_L_F0053_v2.md) |
+| [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
+| [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |
