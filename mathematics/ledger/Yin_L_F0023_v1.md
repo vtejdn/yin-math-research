@@ -59,7 +59,7 @@ Equivalently, \(\sigma(f)\) is contained in the circular model's explicit set.
 This conclusion covers arbitrary mixed linear and quadratic terms, but is an inclusion.
 Failure of the orbit to decay has not been proved sufficient for membership in \(\sigma(f)\) for an arbitrary R-diagonal family.
 
-For the freely infinitely divisible subclass the homogeneous case has equality by (1), including unequal laws and variances after the indicated weighting.
+For the freely infinitely divisible subclass the homogeneous case has equality by the [KPZ26-U001 homogeneous interface, equations (1)–(3)](../audits/literature/KPZ26/Yin_U001.md#consumed-theorem-and-explicit-spectrum-specialization), including unequal laws and variances after the indicated weighting.
 The first unresolved mixed-degree test is the reverse implication in (9) for a genuinely mixed polynomial, including whether \(0\in\sigma(f)\) always holds when the constant coefficient vanishes.
 A product factorization or a sum of polynomials in disjoint free subsets can collapse to an already R-diagonal case; it should not be mistaken for the general two-variable test.
 

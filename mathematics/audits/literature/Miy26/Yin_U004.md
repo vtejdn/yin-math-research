@@ -112,12 +112,13 @@ The support formula alone does not prove the disk assertion for an arbitrary R-d
 The circular example unit performs that check.
 The [MaPhySto record](https://www.maphysto.dk/oldpages/publications/publ-131.html) dates the preprint August 1999 and links it to the 2000 published work; no complete comparison with the journal version was performed.
 
+<a id="miy26-u004-dhh-support"></a>
 ## DHH+25: the free-walk Brown-support comparison
 
 Miy26's **[DHH+25]** was checked in [arXiv:2510.10712v1](https://arxiv.org/html/2510.10712v1), Theorems 1.25 and 1.27-1.28, PDF pp. 13-15.
-For normalized, identically distributed, freely independent R-diagonal steps and an independent unitary initial condition, Theorem 1.27 identifies the Brown support as a closed survival-time region minus an explicit disk.
+For normalized, identically distributed, freely independent R-diagonal steps and an independent unitary initial condition, Theorem 1.27 asserts that the Brown support equals a closed survival-time region minus an explicit disk.
 For the circular specialization with $u_0=1$, the inverse $L^2$ norm is infinite, so that disk is empty.
-With real nonzero step coefficient $t$ in Miy26, the other source's time is $k t^2$, giving
+With real nonzero step coefficient $t$ in Miy26, the other source's time is $k t^2$, so its asserted equality specializes to
 
 $$
 \operatorname{supp}\mu_{\prod_{j=1}^k(1+t c_j)}
@@ -129,9 +130,20 @@ $$
 The radial quotient $(|z|^{2/k}-1)/(|z|^2-1)$ has continuous value $1/k$ on $|z|=1$, so the complete threshold there is $|z-1|^2/k$, as also specified by Theorem 1.28.
 At $t=0$, the product is the identity and its Brown support is $\{1\}$; the strict-sublevel formula above does not apply.
 For negative $t$, simultaneous multiplication of the circular family by $-1$ preserves its joint star-distribution and hence its Brown measure and spectrum.
-This checks the parameter conversion and exact support interface accepted in the circular example unit; the original 109-page paper's proof and random-matrix convergence theorems were not audited.
+This was the statement-and-parameter interface accepted in the circular example unit on 2026-09-08; the original 109-page paper's proof and random-matrix convergence theorems were not audited at that reading.
 The [version history](https://arxiv.org/abs/2510.10712v1) inspected on the audit date lists only v1, submitted 2025-10-12.
 No later version or publication is asserted.
+
+The later selected proof inspection in [DHH+25-U001](../DHH+25/Yin_U001.md#a-second-issue-the-detailed-proof-only-supplies-containment) distinguishes that theorem assertion from the checked proof chain: Proposition 6.4(6), Theorem 6.7 and the cited BZ22 v2 Theorem 3.6 establish containment in the calculated closed region.
+No proof of the general density nonvanishing asserted in DHH+25 Remark 1.26 was found in that inspected chain.
+
+For standard circular steps with $k\ge2$ and $t\ne0$, the reverse inclusion is already supplied by [C_F0094 proof version 2's normal-source density repair](../../../claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair), using the checked BZ22 density formula and the nonzero step to prove strict positivity on the open domain outside its finite exceptional set.
+The normalized circular steps have no $L^2$ inverse, as the degree-one case of [U006's vacuum obstruction](Yin_U006.md#r-diagonality-and-the-brown-inner-radius) checks; the cyclic initial matrix is normal, so the repair's hypotheses hold.
+Its [existing isolated whole-proof review](../../reviews/Yin_R_F0105_v1.md#fresh-c43-whole) includes the density, power-pushforward and closure interfaces.
+For $k=1$, the accepted HL00 interface above gives the circular Brown disk and translation/scaling gives the product disk; this does not use the unrestricted DHH+25 $k=1$ specialization, whose Haar-step obstruction is retained in [DHH+25-U001](../DHH+25/Yin_U001.md#a-restriction-revealed-by-an-endpoint-check).
+Together with the direct $t=0$ case and the phase reduction, these existing arguments support the equality at the circular scope used here.
+In C_F0094, the Brown-support argument uses U006's elementary strict-to-weak closure conversion, and its final spectral comparison uses U006's independently derived spectrum formula; neither use relies on U006's Brown-support equality.
+The 2026-09-08 statement-level reading and the later selected source-proof inspection retain their distinct scopes; the local positivity argument is a project contribution, not part of the source's inspected proof.
 
 ## Contextual citations and search limits
 

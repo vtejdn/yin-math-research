@@ -18,10 +18,6 @@ The new findings below record a later isolated inspection and do not backfill th
 
 ## 1. Source Interfaces and Notation
 
-Integration correspondence, 2026-09-11: root inserted only the dated acceptance/registration checkpoint and Yin_C_F0099/Yin_C_F0100 navigation anchors in the target.
-The complete mathematical arguments and original candidate labels remain unchanged.
-Registration assigns no mathematical Role.
-
 The reviewer independently reopened [Collins-Kemp, arXiv:1211.6037v3](https://arxiv.org/pdf/1211.6037).
 Equations (1.5)-(1.7), printed pp. 3-4, give the free Bernoulli product law, its interval endpoints, and the interpretation of the mass at 1 as the trace of the intersection projection.
 Section 4.2, printed p. 45, gives the four central characters and the generic matrix model used in the target.
@@ -213,7 +209,7 @@ This maintenance performs no new or redated review.
 ## New isolated inspection of the arbitrary-pair counterexample
 
 Initial finding formed 2026-10-22T22:30; recorded after comparison 2026-10-22T22:37, in UTC, for human record author Yin.
-A separate agent outside substantive development read the complete C_F0099 mathematics and L_F0047's shared source, closure and generic-matrix setting before old target conclusions, development dialogue or mathematical summaries were supplied.
+A separate agent outside substantive development read the complete C_F0099 mathematics and the shared source, closure and generic-matrix setting in [L_F0025, Sections 1–2](../../ledger/Yin_L_F0025_v1.md#1-question-source-reuse-and-accepted-inputs) before old target conclusions, development dialogue or mathematical summaries were supplied.
 It completed all six assigned initial findings before consulting their old R accounts or current assessment/review-scope sections.
 
 **PASS for the complete counterexample and its exact affiliated-versus-bounded scalar-closure separation.**
@@ -236,7 +232,7 @@ No mathematical discrepancy or repair was found.
 ## New isolated inspection of the equality for every free-pair trace
 
 Initial finding formed 2026-10-22T22:30; recorded after comparison 2026-10-22T22:37, in UTC, for human record author Yin.
-The same separate isolated arrangement read all C_F0100 mathematics and the shared L_F0047 interface before old conclusions.
+The same separate isolated arrangement read all C_F0100 mathematics and the shared [L_F0025 interface](../../ledger/Yin_L_F0025_v1.md#1-question-source-reuse-and-accepted-inputs) before old conclusions.
 This finding concerns the complete positive proof, separately from the counterexample above.
 
 **PASS for all freely independent projection traces, including irrational, nonuniform and scalar endpoints.**

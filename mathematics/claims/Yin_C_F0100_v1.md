@@ -53,7 +53,7 @@ In the endpoint-touching cases the corresponding characters vanish.
 
 Suppose first that \(e_{10}\ne0\).
 Equation (16) gives \(e_{01}=0\), and (15) gives \(r_->0\).
-Use the element \(x\) in (10).
+Use the element \(x\) in [C_F0099, Section 3.1, equation (10)](Yin_C_F0099_v1.md#31-an-explicit-finite-tracial-model).
 On the generic part its determinant \(t(1+t)\) is bounded away from zero on \(K\), while its entries are continuous.
 On all present character blocks its values are nonzero:
 \[
@@ -62,7 +62,7 @@ On all present character blocks its values are nonzero:
 The only character with value zero would be \(e_{01}\), which is absent.
 Hence \(x^{-1}\in\mathcal M\).
 Also \((1+T)^{-1}\in\mathcal M\).
-Computing as in (11)–(14) now proves
+Computing as in [C_F0099, Sections 3.1–3.2, equations (11)–(14)](Yin_C_F0099_v1.md#31-an-explicit-finite-tracial-model) now proves
 \[
  e_{10}=2(1+T)^{-1}p-px^{-1}p
    \in\operatorname{Div}_{\mathcal M}A.

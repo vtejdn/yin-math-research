@@ -38,7 +38,6 @@ The DOI is [10.48550/arXiv.2605.25434](https://doi.org/10.48550/arXiv.2605.25434
 The experimental [v1 HTML](https://arxiv.org/html/2605.25434v1) was used to locate formulas but displays **August 24, 2026**.
 The selected statements were consequently checked again in the versioned PDF.
 A complete PDF/HTML comparison or explanation of that discrepancy is not claimed.
-No local source PDF was retained in this intake, so a local byte count and checksum are not applicable.
 Web PDF rendering was attempted but did not reliably return all requested page images; the accepted checks below use the primary PDF's extracted formulas and matching selected HTML formulas, not an asserted full visual review.
 
 ## Input map
@@ -48,7 +47,7 @@ Web PDF rendering was attempted but did not reliably return all requested page i
 | Freely infinitely divisible R-diagonal elements | Definition 3.1 and Theorem 3.2, p. 7 | Definition and characterization checked, including the Boolean-to-free Bercovici--Pata factor. The two short implication interfaces were read; the cited foundational classification proofs were not re-audited. |
 | Homogeneous polynomial permanence | Theorem 4.1, p. 9; proof pp. 12-14 | Bounded, finite, star-free R-diagonal family; additive free infinite divisibility; scalar homogeneous polynomials of one positive degree. Statement checked and final proof mechanism read. The preceding Fock-model lemmas and the approximation theorem are retained external proof inputs, not independently verified here. |
 | No square-integrable inverse at zero | Proposition 5.2, p. 15 | Statement and its short S-transform proof checked, including the kernel case. |
-| Brown support equals spectrum | Corollary 5.3, p. 15 | Bounded case only. Its dependency is Proposition 5.2 and the R-diagonal annulus/spectrum input, which is already accepted at [Miy26-U008](../Miy26/Yin_U004.md#miy26-u004). |
+| Brown support equals spectrum | Corollary 5.3, p. 15 | Bounded case only. Its dependency is Proposition 5.2 and the R-diagonal annulus/spectrum input, which is already accepted at [Miy26-U004](../Miy26/Yin_U004.md#miy26-u004). |
 | Circular and product examples | Example 3.4, pp. 8-9; surrounding p. 7 classification | The bounded products of circular elements are covered. Negative powers in the broader example can be unbounded and are not inserted into the bounded theorem. |
 
 ## Definition and hypothesis conversion
@@ -113,7 +112,7 @@ If \(R=0\), faithfulness makes \(T=0\), and (3) is the singleton \(\{0\}\), hand
 
 Formula (3) is a direct specialization of checked source statements and this normalization calculation.
 It is not registered as a newly proved project Claim.
-It extends the homogeneous circular disk calculation in [Miy26-U005](../Miy26/Yin_U006.md#miy26-u006).
+It extends the homogeneous circular disk calculation in [Miy26-U006](../Miy26/Yin_U006.md#miy26-u006).
 A scalar constant term translates the disk.
 The usual polynomial spectral mapping theorem then gives \(\sigma(q(T))=q(\{|z|\le R\})\) for scalar one-variable polynomials \(q\); this does not turn an arbitrary mixed-degree multivariable polynomial into a homogeneous one.
 

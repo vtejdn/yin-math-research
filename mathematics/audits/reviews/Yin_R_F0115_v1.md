@@ -274,7 +274,9 @@ This is a correction to the verification record, with no mathematical gap or cha
 
 ## Actual review arrangement
 
-The reviewer reconstructs the fixed projection proof and the disclosed RX06 passages. The later exact deletion of the unretained-program integer-check paragraph changes only the verification account. No shared target-proof repair is shown, but the original record does not establish initial isolation from the author-development or earlier target-review context.
+The reviewer reconstructs the fixed projection proof and the disclosed RX06 passages.
+The later exact deletion of the unretained-program integer-check paragraph changes only the verification account.
+No shared target-proof repair is shown, but the original record does not establish initial isolation from the author-development or earlier target-review context.
 The original 2026-09-11 date and all mathematical and source-inspection limits remain intact.
 This maintenance performs no new review or isolated-context certification.
 

@@ -43,7 +43,7 @@ Targets: [Miy26-U005](../../../audits/literature/Miy26/Yin_U005.md#miy26-u005) a
 
 #### Scope and mathematical reduction
 
-The word checks independently evaluate the finite Wick sum and right-annihilation commutator, then compare with U004's residual formula.
+The word checks independently evaluate the finite Wick sum and right-annihilation commutator, then compare with [Miy26-U005's residual formula](../../../audits/literature/Miy26/Yin_U005.md#lemma-41-repaired-proof-and-exact-coefficient-identity).
 Alphabet sizes are d=1,2, mixed operator lengths 0–4 and input lengths 0–3.
 All intermediate actions are exact and untruncated; positive-word inputs separately check the creation restriction.
 

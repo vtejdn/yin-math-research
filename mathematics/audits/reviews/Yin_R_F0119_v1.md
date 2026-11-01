@@ -127,7 +127,8 @@ Root owns any registration and shared-index updates.
 
 ## Actual review arrangement
 
-The reviewer read and checked the frozen whole argument without requested correction. Distinct author/reviewer and a fixed polynomial-kernel input do not establish initial separation from author-development discussion or earlier target-review conclusions; the actual relationship is unknown.
+The reviewer read and checked the frozen whole argument without requested correction.
+Distinct author/reviewer and a fixed polynomial-kernel input do not establish initial separation from author-development discussion or earlier target-review conclusions; the actual relationship is unknown.
 The original 2026-09-11 date, mathematical findings, source depths and stated limits remain unchanged.
 This maintenance performs no new review or isolated-context certification.
 

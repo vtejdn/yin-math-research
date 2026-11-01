@@ -178,7 +178,7 @@ Original accompanying material and inspection boundaries are listed under [recor
 
 Accompanying material (original association; no added proof premise): [Exact material](#reorganization-authorization-2026-09-27).
 
-The [original contract-obligation comparison](../ledger/Yin_L_F0005_v1.md) preserves the exact inherited hypotheses, transferred questions and method-versus-completion boundaries.
+The [original contract-obligation comparison](../ledger/Yin_L_F0021_v1.md#contract-comparison) preserves the exact inherited hypotheses, transferred questions and method-versus-completion boundaries.
 It is ordinary contract comparison and supplies no overall Task review grade, mathematical proof verdict or completion decision.
 
 Fixed comparison inputs: [Exact material](#reorganization-authorization-2026-09-27); [Exact material](Yin_T_F0005_v2.md).

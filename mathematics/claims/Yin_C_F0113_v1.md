@@ -14,7 +14,7 @@ author: Yin
 
 Date: 2026-09-16.
 Human record author: Yin.
-Proof developed by Codex research agent another AI agent, for [Yin_T_F0007_v1](../tasks/Yin_T_F0007_v1.md#decision-candidate-0001).
+Proof developed by a Codex research agent for [Yin_T_F0007_v1](../tasks/Yin_T_F0007_v1.md#decision-candidate-0001).
 The three stated conclusions were accepted after complete independent mathematical review by another AI agent: the scalar polynomial center, the exact noncentral commutator norm, and the conditional bounded scalar reconstruction.
 The positive-word support question and full three-generator permanence statement remain open.
 No mathematical Role is assigned.

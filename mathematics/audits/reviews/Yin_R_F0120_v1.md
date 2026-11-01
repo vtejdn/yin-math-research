@@ -124,7 +124,9 @@ Root owns subsequent registration and shared-index changes.
 
 ## Actual review arrangement
 
-The record establishes a distinct reviewer checking the complete root-authored proof without correction. It does not establish initial separation from root mathematical development or previous target-review conclusions. The fixed C_F0029 dependency and its accepted foundations do not themselves determine the target finding relationship.
+The record establishes a distinct reviewer checking the complete root-authored proof without correction.
+It does not establish initial separation from root mathematical development or previous target-review conclusions.
+The fixed C_F0029 dependency and its accepted foundations do not themselves determine the target finding relationship.
 The original 2026-09-11 date, exact source depths and mathematical limits remain intact.
 This maintenance performs no new review or isolated-context certification.
 

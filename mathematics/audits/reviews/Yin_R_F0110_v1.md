@@ -136,9 +136,6 @@ Mathematical and source-interface review: completed independently as above.
 The [retained finite exact word checks](../../computations/programs/Yin_J_F0005/readme.md#retained-mathematical-account) report 1,953 Wick columns and 3,906 commutator columns.
 Their finite scope is supplementary and was not rerun in this proof review; neither those data nor the chosen test parameters establish the all-word or analytic assertions.
 
-The initial system PDF helpers could not initialize their MiKTeX configuration in the sandbox.
-The already installed temporary PyMuPDF package supplied the independent page rendering; no dependency installation or source edit was required.
-This tooling issue left no source-reading obligation unresolved.
 Compilation, formal verification, external human review and historical novelty assessment were not performed.
 
 Yin_C_F0096 is accepted at the final revision identified above.

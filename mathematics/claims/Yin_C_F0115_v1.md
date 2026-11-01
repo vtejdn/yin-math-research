@@ -15,7 +15,7 @@ Kind: Claim/proof.
 Date: 2026-09-16.
 Human record author: Yin.
 Proof developed by the coordinating research agent; independent review is recorded separately.
-Consumer: [T_F0007 v4](../tasks/Yin_T_F0007_v1.md#decision-candidate-0001).
+Consumer: [T_F0007 v1](../tasks/Yin_T_F0007_v1.md#decision-candidate-0001).
 This resolves a specific reciprocal test, not free-product bounded-closure permanence.
 The earlier exploratory sketch is preserved separately.
 
@@ -36,7 +36,8 @@ Its scalar Cauchy transform satisfies
 Consequently zero belongs to the spectrum of H but has zero spectral mass.
 This is enough for the asserted inverse conclusion; no assertion about a density on a neighborhood, Brown measure, or a complete spectrum is needed.
 
-The only non-elementary scalar-law input is [NS06-U002](../audits/literature/NS06/Yin_U002.md#ns06-u002), the cumulant additivity and local inverse-Cauchy identity for compactly supported freely independent selfadjoint variables.
+The only non-elementary scalar-law input is [NS06-U002's formal scalar-law interface](../audits/literature/NS06/Yin_U002.md#cumulant-additivity-and-formal-inverse-cauchy-interface): cumulant additivity and the formal inverse-Cauchy/R-transform identities of Proposition 12.3 and Theorems 12.5/12.7 in the inspected publisher edition.
+The compact-support analytic germ and upper-half-plane continuation are local reasoning in Section 3, with the actual primary-reading depth and separate analytic checks retained in [R_F0099](../audits/reviews/Yin_R_F0099_v1.md#independence-and-source-inspection-depth).
 The existing [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004) gives the finite-algebra interface between injectivity and affiliated invertibility.
 The prior [two-generator result](Yin_C_F0112_v1.md) is comparison only and is not used to establish (1).
 
@@ -81,7 +82,8 @@ Near infinity, the accepted inverse-Cauchy identities and R additivity give
     u=R_nu(w)+1/w,
     w=G_nu(u).                                                          (5)
 
-These hold for sufficiently large z in an open portion of the upper half-plane: bounded support supplies convergent moment series and the analytic inverse germ described in NS06-U002.
+These hold for sufficiently large z in an open portion of the upper half-plane: for each compactly supported probability law mu with Cauchy transform G_mu, g_mu(t)=G_mu(1/t)=t+O(t^2) is analytic near zero, so its local analytic inverse yields the inverse-Cauchy germ K_mu(w)=1/g_mu^(-1)(w).
+The [formal source identities](../audits/literature/NS06/Yin_U002.md#cumulant-additivity-and-formal-inverse-cauchy-interface) identify K_mu(w)=1/w+R_mu(w); this compact-support analytic upgrade is local reasoning, as checked in [R_F0099, item 4](../audits/reviews/Yin_R_F0099_v1.md#complete-argument-checks).
 Both sides of the last equality are analytic on the entire upper half-plane, since u takes values there and G_nu has only real poles.
 The identity theorem therefore extends
 
@@ -144,7 +146,6 @@ Other expressions may behave differently.
 No full n-factor permanence statement is asserted by this proof.
 
 Source statement/application inspection was performed using the already registered local NS06 artifact.
-The proof requires separate whole-argument review, especially the scalar freeness and analytic-continuation steps.
 No numerical experiment, rendered PDF check, proof-assistant verification, or historical novelty claim is made.
 
 

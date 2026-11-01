@@ -51,7 +51,7 @@ The formula valid at every complex `lambda` and every real `t` is
 \tag{3}
 \]
 
-It also equals the Brown-measure support, using the precise external result in [U004](Yin_U004.md#miy26-u004).
+The Brown-measure support is the same set, with the source-proof boundary and the existing reviewed local support distinguished [below](#brown-support-for-the-product-and-retained-interface).
 Formula (3) replaces the source's quotient at `|lambda|=1` by its continuous value and avoids its intermediate divisions by `t`.
 
 ### Homogeneous coefficient calculation and sufficiency
@@ -193,15 +193,27 @@ The original quotient `(|lambda|^(2/k)-1)/(|lambda|^2-1)` has the value `1/k` on
 
 ### Brown support for the product and retained interface
 
-The primary interface checked by the external-input agent is [DHH+25](https://arxiv.org/html/2510.10712v1) (cited as DHH+25 in Miy26), Theorems 1.25 and 1.27-1.28, in [U004](Yin_U004.md#miy26-u004).
-In its notation use `u_0=1` and `t_DHH=k*t^2`, so every circular increment is multiplied by `sqrt(t_DHH/k)=|t|`.
+The primary interface checked by the external-input agent on 2026-09-08 is [DHH+25](https://arxiv.org/html/2510.10712v1) (cited as DHH+25 in Miy26), Theorems 1.25 and 1.27-1.28, in [U004](Yin_U004.md#miy26-u004-dhh-support).
+Theorem 1.27 asserts support equality.
+The later selected proof inspection retained in [DHH+25-U001](../DHH+25/Yin_U001.md#a-second-issue-the-detailed-proof-only-supplies-containment) found that Proposition 6.4(6), Theorem 6.7 and the cited BZ22 v2 Theorem 3.6 prove only containment in the closure of the strict domain; no general density-nonvanishing proof was found in that checked chain.
+
+For `k>=2` and `t!=0`, use `u_0=1` and `t_DHH=k*t^2`, so every circular increment is multiplied by `sqrt(t_DHH/k)=|t|`.
 For negative `t`, simultaneous multiplication of the circular family by `-1` preserves its joint star-distribution and hence its Brown measure and spectrum.
 
 For the circular input, the inverse-square integrability parameter is infinite and the theorem's possible excluded inner disk is empty.
 Its threshold function is `k*|lambda-1|^2/S_k(|lambda|^(2/k))`.
-The degenerate `t=0` distribution is `delta_1` and is checked directly.
-These are precise uses of that primary support theorem; its 109-page original proof is not independently audited here.
-U004 records the actual version, theorem hypotheses, acceptance decision, and remaining coverage limits.
+The reverse inclusion is the existing [C_F0094 proof version 2 density repair](../../../claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair), whose [selected isolated whole-proof review](../../reviews/Yin_R_F0105_v1.md#fresh-c43-whole) covers this normal-source calculation and its boundary cases.
+Indeed, each standard circular step is bounded, normalized and R-diagonal; the degree-one vacuum obstruction above gives its infinite inverse-square integral, and `t!=0` makes the scaled step nonzero.
+The cyclic initial matrix is normal and non-scalar for `k>=2`.
+The repair applies the checked BZ22 density formula to obtain strict positivity on the open subordination domain outside its finite exceptional set, which does not change the closure; the block power-pushforward then gives the reverse support inclusion in the calculated product region.
+This is the local project contribution supplying equality beyond the inspected external containment.
+C_F0094's Brown-support argument uses the elementary closure conversion below; its later spectral comparison uses the independent spectrum calculation (3).
+Neither use depends on the Brown-support equality recorded here.
+
+For `k=1` and `t!=0`, the accepted HL00 interface in U004 and the standard circular step's zero inner radius give the disk `|lambda-1|<=|t|` directly by translation/scaling.
+The general DHH+25 `k=1` statement has the separate [Haar-step applicability objection](../DHH+25/Yin_U001.md#a-restriction-revealed-by-an-endpoint-check) and is not used for this case.
+For `t=0`, the distribution is `delta_1` and the support is checked directly; there is no nonempty strict domain or positive-density argument in that case.
+U004 and DHH+25-U001 retain the actual versions, theorem hypotheses and different inspection depths; the 109-page original proof is not independently audited in this unit.
 
 For completeness, the boundary conversion is local, not an assumption imported from that theorem.
 Put `g(lambda)=|lambda-1|^2/S_k(|lambda|^(2/k))`.
@@ -226,6 +238,7 @@ The quadratic-spectrum agent independently read this unit and the NS06 Propositi
 That review checked the color-independent extension, zero Brown inner radius, product coefficients, transfer matrix, and degenerate parameters.
 Its request to spell out the strict-to-weak sublevel closure was resolved by the explicit angular/radial argument above.
 No unresolved gap was found in that scope; this is independent AI review.
+The later DHH+25 proof boundary and C_F0094 positivity repair retain their separate source-inspection and review scopes linked above.
 
 These units support [Miy26 spectral source audit](readme.md#miy26-spectral-source-audit).
 No general spectrum/Brown-support conjecture, arbitrary R-diagonal spectral extension, formal verification, or external human review is claimed.
@@ -236,4 +249,6 @@ Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-p
 
 Passages: Example 4.3, pp. 14-15; Proposition 4.4, p. 15; Example 4.5, pp. 16-17.
 
-Inspection: 2026-09-08: coefficients, the R-diagonal adaptation, transfer matrix, inverse construction and all stated scalar boundary cases reconstructed and independently cross-reviewed, with exact finite checks. Specified Brown-support statements retain their accepted external-interface scope; no whole-book audit, general spectrum/Brown-support claim, formal verification or external human review.
+Inspection: 2026-09-08: coefficients, the R-diagonal adaptation, transfer matrix, inverse construction and all stated scalar boundary cases reconstructed and independently cross-reviewed, with exact finite checks.
+The Brown-support input at that reading was accepted at statement-and-applicability depth; the later selected source-proof boundary and existing reviewed local repair are separately identified above.
+No whole-book audit, general spectrum/Brown-support claim, formal verification or external human review.

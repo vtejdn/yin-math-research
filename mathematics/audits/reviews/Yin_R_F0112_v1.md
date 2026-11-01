@@ -21,7 +21,7 @@ author: Yin
 Whole §§1–4 conditional small-left-module theorem and cancelling-block obstruction checked.
 Local orbit summability is genuinely extra, ensures actual Q-series, bounded weakly continuous orbits and paired star commutators; [C_F0086](../../claims/Yin_C_F0086_v1.md) common-corner argument works via closed linear relation in H^3 without requiring Q closability, then original-E graph-core transfer gives adjoint module.
 Commuting projection windows suffice separately for each i.
-L(F2) terminal dual sign read in MSY23 U006; conjugated V-subalgebras free by reduced-word argument and centered orthogonality gives exact N^-1/2 estimate.
+L(F2) terminal dual sign read in [MSY23-U005, Proposition 6.3](../literature/MSY23/Yin_U005.md#msy23-u005); conjugated V-subalgebras free by reduced-word argument and centered orthogonality gives exact N^-1/2 estimate.
 Non-L1 positive eta and positive/negative tensor blocks force non-Cauchy actions on every nonzero F-projection while preserving same projective phase, refuting arbitrary representation continuity only.
 Canonical analytic growth bound remains open; no counterexample to automatic adjoint existence.
 

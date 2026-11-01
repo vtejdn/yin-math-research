@@ -106,7 +106,7 @@ e_n=[n]_q!\sum_{|w|=n}|\alpha_w|^2.
 \tag{6.3}
 \]
 
-By (4.3), condition (6.2) is equivalent to
+By the bounds in [C_F0097, equation (4.3)](Yin_C_F0097_v1.md#one-state-energy-obstruction), condition (6.2) is equivalent to
 
 \[
 \sum_w |\alpha_w|^2(1-q)^{-|w|}<\infty.

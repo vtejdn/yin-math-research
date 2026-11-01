@@ -126,7 +126,9 @@ The rejected left-multiplier shortcut correctly displays the extra mixed-coordin
 
 ## Actual review arrangement
 
-The original root review reads the fixed sufficient-condition proof and its C_F0102/C_F0086/C_F0037/C_F0032 dependencies, preserving the disclosed Hor89 access limit. It does not establish initial separation from target-author mathematical development or earlier target-review conclusions. Reading dependency proofs and their accepted interfaces does not itself prove target authorship or context isolation.
+The original root review reads the fixed sufficient-condition proof and its C_F0102/C_F0086/C_F0037/C_F0032 dependencies, preserving the disclosed Hor89 access limit.
+It does not establish initial separation from target-author mathematical development or earlier target-review conclusions.
+Reading dependency proofs and their accepted interfaces does not itself prove target authorship or context isolation.
 The original 2026-09-11 date, proof findings and source-inspection limits are preserved.
 This maintenance neither performs a new review nor certifies an isolated independent relationship.
 

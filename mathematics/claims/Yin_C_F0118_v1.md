@@ -35,14 +35,14 @@ No all-q holomorphic rational inverse or rational boundedness theorem is asserte
 
 The complete finite calculation and polynomial-kernel proof below were authored on 2026-09-11 by another AI agent.
 The existing [original finite-calculation finding](../audits/reviews/Yin_R_F0106_v1.md#5-independent-finite-calculation-review) actually checked these entire sections, including the q=0 whole-space case and exact nonzero-q limitation.
-The proof accepts [C_F0023's bounded normalized duals](Yin_C_F0023_v1.md#statement), the actual [MS23 q-Fock/Wick conventions](../audits/literature/MS23/Yin_U006.md#ms23-u006), and the relevant C_F0020 degree diagnostic at their disclosed scopes.
+The proof accepts [C_F0023's bounded normalized duals](Yin_C_F0023_v1.md#statement), the actual [MS23 q-Fock/Wick model](../audits/literature/MS23/Yin_U001.md#q-fock-and-wick-model) and [multi-variable word and algebraic-dual conventions](../audits/literature/MS23/Yin_U002.md#statement-domain-and-order-conventions), and the relevant C_F0020 degree diagnostic at their disclosed scopes.
 The [source comparison with Miy26](../ledger/Yin_L_F0022_v1.md#4-what-miy26-actually-uses) remains outside the retained finite-calculation review's certification; it is not an extra input to the theorem below.
 
 ## Argument
 
 ### 1. Inputs and conventions
 
-The inputs inspected before this calculation are [Yin_C_F0023, Equations (2) and (7)](Yin_C_F0023_v1.md#yin_c_f0023), the cubic q-dual calculation [in Yin_C_F0020, Equation (13)](Yin_C_F0020_v1.md), [MS23-U006](../audits/literature/MS23/Yin_U006.md#ms23-u006), and the complete mixed-word argument in [Miy26-U005, Lemma 4.1](../audits/literature/Miy26/Yin_U005.md#miy26-u005).
+The inputs and conventions used below are retained in [Yin_C_F0023, Equations (2) and (7)](Yin_C_F0023_v1.md#yin_c_f0023), the cubic q-dual calculation [in Yin_C_F0020, Equation (13)](Yin_C_F0020_v1.md), [MS23-U001's q-Fock/Wick model](../audits/literature/MS23/Yin_U001.md#q-fock-and-wick-model) with [MS23-U002's multi-variable order conventions](../audits/literature/MS23/Yin_U002.md#statement-domain-and-order-conventions), and the complete mixed-word argument in [Miy26-U005, Lemma 4.1](../audits/literature/Miy26/Yin_U005.md#miy26-u005).
 The intended application is the actual holomorphic-state premise of [the q-rational evaluation interface, Section 3](Yin_C_F0103_v1.md).
 These local inputs suffice for the finite calculations; no additional external result is claimed or required here.
 

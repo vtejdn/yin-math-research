@@ -281,7 +281,9 @@ The reviewer did not edit the proof or any shared index.
 
 ## Actual review arrangement
 
-The reviewer reads the prior projection argument as a dependency and reconstructs the new factor extension. Its requested wording specifies the intended tracial von Neumann closure rather than changing a proof inference or adding a new mathematical hypothesis. The original record does not establish initial isolation from target-author development or prior target-review conclusions; the dependency review alone does not determine that relationship.
+The reviewer reads the prior projection argument as a dependency and reconstructs the new factor extension.
+Its requested wording specifies the intended tracial von Neumann closure rather than changing a proof inference or adding a new mathematical hypothesis.
+The original record does not establish initial isolation from target-author development or prior target-review conclusions; the dependency review alone does not determine that relationship.
 The original 2026-09-11 date and all mathematical and source-inspection limits remain intact.
 This maintenance performs no new review or isolated-context certification.
 

@@ -25,7 +25,7 @@ The reading dates, artifact distinctions, substantive source content and actual 
 <a id="dhh+25-product-support"></a>
 Date: 2026-09-11.
 Reader: the spectral-extension research agent.
-This supplements the existing [Miy26-U008 interface](../Miy26/Yin_U004.md#miy26-u004) and [circular product adaptation](../Miy26/Yin_U006.md#miy26-u006) for a non-circular application.
+This supplements the existing [Miy26-U004 interface](../Miy26/Yin_U004.md#miy26-u004) and [circular product adaptation](../Miy26/Yin_U006.md#miy26-u006) for a non-circular application.
 The sole bibliographic identity is [DHH+25 in references.bib](../../../literature/references.bib).
 
 ## Source and scope
@@ -37,8 +37,7 @@ These pages were read again from extracted primary-PDF text, alongside the [prim
 After an endpoint contradiction was found, the relevant review was deepened to Corollary 5.4 (p. 74), Proposition 5.18 and Corollary 5.19 (p. 82), and Proposition 6.4 through Theorem 6.7 (pp. 84-87), including their cited subordination input.
 Block-freeness remains an accepted external theorem; the Brown-support conclusion now requires the explicitly separated repair below.
 
-A temporary diagnostic copy was downloaded to `tmp/DHH+25-spectral-selection.pdf`: 4,644,920 bytes.
-It is not a new canonical literature file, does not replace the existing intake, and does not establish identity with any separately served revision.
+The inspected diagnostic copy does not establish identity with any separately served revision.
 The initial web-tool PDF access was intermittent; the direct versioned-PDF retrieval and local extraction supplied the final exact page checks.
 
 ## Intended application and the initial source interface
@@ -81,7 +80,7 @@ Its strict support domain is described by
 \frac{k|z-1|^2}{S_k(|z|^{2/k})}<s.
 \]
 
-The strict-to-weak closure conversion, including \(z=0\), \(|z|=1\), and positive real boundary points, is exactly the elementary angular/radial argument already checked in Miy26-U005.
+The strict-to-weak closure conversion, including \(z=0\), \(|z|=1\), and positive real boundary points, is exactly the elementary angular/radial argument already checked in [Miy26-U006](../Miy26/Yin_U006.md#miy26-u006).
 This conversion does not require Theorem 1.28's further global topology assertions.
 The review below distinguishes the source's proved containment from its stronger introductory wording.
 The complete derivation of (2), followed by the ordinary-spectrum equality, is now the project deduction [Yin_C_F0094 proof version 2](../../../claims/Yin_C_F0094_v1.md#yin_c_f0094-proof).

@@ -238,7 +238,9 @@ The general q-Gaussian spectral exclusion and bounded division-closure questions
 
 ## Actual review arrangement
 
-The original reviewer did not author or edit the frozen proof. Its preliminary messages identify regularizer and coefficient-Gram checks; this describes a review checklist, not an established contribution to author development or a proof repair. The account does not establish initial isolation from substantive author discussion or prior target-review conclusions, so the actual relationship is unknown.
+The original reviewer did not author or edit the frozen proof.
+Its preliminary messages identify regularizer and coefficient-Gram checks; this describes a review checklist, not an established contribution to author development or a proof repair.
+The account does not establish initial isolation from substantive author discussion or prior target-review conclusions, so the actual relationship is unknown.
 The original 2026-09-11 date, mathematical findings, source depths and stated limits remain unchanged.
 This maintenance performs no new review or isolated-context certification.
 

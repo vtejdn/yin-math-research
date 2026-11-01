@@ -81,7 +81,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Miy26/Yin_U003](Miy26/Yin_U003.md) | Miy26-U003: Resolvents, the Haar Extension, and Spectral Radius |
 | [Miy26/Yin_U004](Miy26/Yin_U004.md) | Miy26-U004: External Interfaces and Version Boundaries |
 | [NS06/Yin_U001](NS06/Yin_U001.md) | NS06: Haar Products and the Injective Polar Interface |
-| [NS06/Yin_U002](NS06/Yin_U002.md) | NS06-U002: Probability definitions |
+| [NS06/Yin_U002](NS06/Yin_U002.md) | NS06-U002: Probability definitions and scalar-law identities |
 | [PV23/Yin_U001](PV23/Yin_U001.md) | PV23-U001: Matrix Domains and Scalar Inversion |
 | [Par88/Yin_U001](Par88/Yin_U001.md) | Par88-U001: Kronecker's Proof and Its Strategy Interfaces |
 | [Pis12/Yin_U001](Pis12/Yin_U001.md) | Little Grothendieck inequality for marginal lifting |

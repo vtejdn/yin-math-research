@@ -15,7 +15,6 @@ author: Yin
 Date/author: 2026-09-11, another AI agent.
 Record kind: substantive bounded continuation of [Yin_T_F0006](../tasks/Yin_T_F0006_v1.md).
 Assessment: complete candidate deductions below, author checked; independent review pending.
-No Claim ID or Role assigned.
 
 The actual signed charge grading supplies a new rational subcase: whenever the full signed dual tuple has only the vacuum in its joint kernel, a homogeneous holomorphic rational L2 element must be a positive polynomial of that degree.
 Yin_C_F0109 gives an explicit nonzero small-q interval for this hypothesis.

@@ -319,7 +319,6 @@ No numerical computation, proof assistant, external human review, or independent
 The conclusion is a nontrivial proper non-star input case of T_F0007.
 It is not the full permanence statement, does not cover arbitrary proper non-star finite-dimensional input algebras, and says nothing new about diffuse inputs.
 The singular affiliated idempotent e is explicitly unbounded, so it is a checked obstruction to that proposed counterexample, not a refutation of T_F0007.
-The next action is independent review of the complete argument, with particular attention to Sections 4-7 and preservation of the original scalar-inversion algebra.
 
 
 ## Assessment history

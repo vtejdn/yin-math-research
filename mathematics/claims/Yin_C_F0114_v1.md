@@ -14,7 +14,7 @@ author: Yin
 Kind: Claim/proof module.
 Date: 2026-09-16.
 Human record author: Yin.
-Proof developed by Codex research agent another AI agent; separate review by another AI agent identified the explicit common-domain clarification in Section 4.
+Proof developed by a Codex research agent; separate review by another AI agent identified the explicit common-domain clarification in Section 4.
 Consumer: [Yin_T_F0005_v1](../tasks/Yin_T_F0005_v1.md#decision-candidate-0001), Q1.
 The [selected assessment](#decision-candidate-0003) records the mathematical and review assessments.
 The comparison does not establish existence of a good reference dual.

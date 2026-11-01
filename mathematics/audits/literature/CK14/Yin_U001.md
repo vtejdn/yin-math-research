@@ -10,7 +10,8 @@ author: Yin
 
 Source edition: Source identity: [CK14 in the sole bibliography](../../../literature/readme.md), open [arXiv:1211.6037v3](https://arxiv.org/pdf/1211.6037), 53 pages, revised 2013-09-07.
 
-Passages: Inspection: the group-theoretic research agent read equations (1.5)-(1.7), pp.3-4, and the representation in Section 4.2, p.45, while writing the two-projection argument. the polynomial-core research agent independently checked these exact inputs in the [project proof review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account).
+Passages: Inspection: the group-theoretic research agent read equations (1.5)-(1.7), pp.3-4, and the representation in Section 4.2, p.45, while writing the two-projection argument.
+The polynomial-core research agent independently checked these exact inputs in the [project proof review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account).
 
 Inspection: The coordinating agent integrates that evidence here; the full liberation-process proofs and the original S-transform derivation are retained external results, not independently audited by this record.
 

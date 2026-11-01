@@ -95,6 +95,6 @@ This follows by substituting \(\omega_1=ir\) in the source's formula, rather tha
 The two resolvent factors in Lemma 3.8 coincide exactly because \(X_1\) is normal.
 Normality cannot be silently dropped from (B1).
 
-Formula (B1), support containment, and the interior fixed-point facts are the external inputs consumed by the linked C_F0043 proof.
+Formula (B1), support containment, and the interior fixed-point facts are the external inputs consumed by the linked C_F0094 proof.
 The extra positivity argument for normal \(X_1\) is written explicitly in [Yin_C_F0094 proof version 2](../../../claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair); it is a project deduction and is not attributed to Theorem 3.6.
 KPZ26's announced forthcoming stronger perturbation theorem is not consumed.

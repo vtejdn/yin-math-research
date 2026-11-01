@@ -155,7 +155,8 @@ Root owns Claim registration and shared-index integration.
 
 ## Actual review arrangement
 
-The original account establishes a distinct reviewer and full fixed-input reconstruction without correction, but does not establish its initial separation from target-author development or earlier target-review summaries. The Rad92 source-context access failure does not remove the independently reconstructed local group argument or supply context-isolation evidence.
+The original account establishes a distinct reviewer and full fixed-input reconstruction without correction, but does not establish its initial separation from target-author development or earlier target-review summaries.
+The Rad92 source-context access failure does not remove the independently reconstructed local group argument or supply context-isolation evidence.
 The original 2026-09-11 date, mathematical findings, source depths and stated limits remain unchanged.
 This maintenance performs no new review or isolated-context certification.
 
