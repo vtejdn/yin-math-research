@@ -188,7 +188,7 @@ These are obligations for transferring the source attempt to the project, not ne
 The useful content is a proposed reverse passage from finite derivative data to a finite linear representation, with two concrete failures of treating the derivative factors as a complete representation family, and an existential rational-factor condition offered as an intermediate target.
 The general reconstruction and the remaining interfaces to Yin_C_F0001 are unresolved; the exact commutator/finite-factor interface is now supplied by Yin_C_F0002 under its specified derivative convention.
 
-The candidate is registered as [Yin_S_F0001](../../../strategies/Yin_S_F0001.md#s_f0001), with disposition proposed.
+The source-inspired route is registered as [Yin_S_F0001](../../../strategies/Yin_S_F0001.md#route); its responsible Route section owns the current disposition.
 The initial reading task supplied no project theorem or general counterexample and did not constitute a full source audit, formal verification, external human review, or novelty assessment.
 The subsequent user-requested formula audit is a separate project result, Yin_C_F0002.
 

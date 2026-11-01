@@ -13,8 +13,8 @@ This note assigns no additional universal conjecture and makes no novelty claim.
 ## The Main Theorem and the Two Analytic Questions
 
 [Yin_C_F0013](../claims/Yin_C_F0013_v1.md#yin_c_f0013) is the desired affiliated main theorem.
-The paper project presents its complete proof and the bounded-intersection counterexample.
-With \(F_X=\operatorname{Div}_{U(M)}\mathbb C\langle X\rangle\), it identifies finite bounded defects with membership in \(F_X\), and bounded finite commutators with \(F_X\cap M\).
+With \(F_X=\operatorname{Div}_{U(M)}\mathbb C\langle X\rangle\), this theorem identifies finite bounded defects with membership in \(F_X\), and bounded finite commutators with \(F_X\cap M\).
+The bounded-intersection assertion is refuted by [Yin_C_F0012](../claims/Yin_C_F0012_v1.md#yin_c_f0012).
 
 Subsequent update, 2026-09-09: [Yin_C_F0022](../claims/Yin_C_F0022_v1.md#yin_c_f0022) extends the affiliated criterion to selfadjoint tuples with L2 conjugates, using canonical closed duals and defects on all bounded vectors.
 [Yin_C_F0023](../claims/Yin_C_F0023_v1.md#yin_c_f0023) additionally constructs bounded normalized duals for all q in (-1,1), so Yin_C_F0013 itself applies throughout the canonical q-Gaussian family.

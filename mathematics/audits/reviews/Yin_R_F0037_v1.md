@@ -4,7 +4,7 @@ author: Yin
 
 # Independent review: soft Cauchy control from the actual vacuum
 
-Date: 2026-09-28T17:45, Asia/Hong_Kong.
+Date: 2026-09-28T09:45 (UTC).
 Human record author: Yin.
 Reviewer: the separately assigned `counterexample` research subagent.
 Status: complete independent mathematical review of the entire candidate and its free-tuple assembly; no remaining mathematical gap found at that scope.
@@ -170,8 +170,8 @@ No numerical evidence was used, and no proof assistant, external human review, p
 
 ## Preserved original review timing
 
-The initial complete review was recorded at 2026-09-28T17:40 (Asia/Hong_Kong); the permanent binding above was recorded separately at 2026-09-28T17:45.
-These are the original historical observations, with the original inspection scope retained.
+The initial complete review was recorded at 2026-09-28T09:40 (UTC); the permanent binding above was recorded separately at 2026-09-28T09:45 (UTC).
+The timestamps are normalized from the recorded Asia/Hong_Kong timezone and retain their original minute precision and inspection scope.
 This clarification adds no new review.
 
 ## Relationship arrangement
