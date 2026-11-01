@@ -261,7 +261,9 @@ Source evidence: [Wei94-U001](../../audits/literature/Wei94/Yin_U001.md#wei94-u0
 Source evidence: [Voi99-U001](../../audits/literature/Voi99/Yin_U001.md#voi99-u001) checks the published Section 13, pp.160–161, including Definition 13.1 and the bounded selfadjoint commutation conditions.
 The [gradient and adjoint unit](../../audits/literature/Voi99/Yin_U003.md#voi99-u003) checks 5.3--5.5 and Proposition 6.1, including the word-moment extension to von Neumann closures and the sign \(\gamma_i^*(1\otimes1)=-j_i\).
 The [information unit](../../audits/literature/Voi99/Yin_U004.md#voi99-u004) checks Definition 9.1 and its finite-coordinate norm convention.
-The [full-source audit](../../audits/literature/Voi99/readme.md) retains the inspected edition, complete coverage and source corrections.
+The [source edition note](../../audits/literature/Voi99/readme.md#yin-edition) identifies the inspected published edition.
+Source corrections and inspection limits remain in the linked units; [Voi99-U002](../../audits/literature/Voi99/Yin_U002.md#voi99-u002) additionally covers the Introduction and Sections 1–4.
+These retained accounts cover Sections 1–9 and 13; they provide no recorded review coverage for Sections 10–12 and do not establish a complete-source audit.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |

@@ -33,7 +33,8 @@ No bounded inverse or scalar division conclusion is supplied by this lemma.
 | [Actual complete finding](#bounded-probe-finding) | [C_F0010 argument](../../claims/Yin_C_F0010_v1.md#1-a-probe-identity-in-h-then-in-u) | Complete bounded probe identity, unconditional whole-inverse L1 consequence, conditional L2 upgrade, selfadjoint bounded-vacuum sufficient probes, exact interval nonnormalizability and Haar probe boundary. Retains the actual Tao06 primary-text inspection depth; no Lp-to-bounded or scalar elimination conclusion. |
 
 <a id="bounded-probe-finding"></a>
-The reviewer explicitly records having previously discussed the interval normalization obstruction, which is a substantive component of this same complete finding. Its full finding therefore has shared substantive mathematical context; separate reconstruction of Parts 1-3 does not make this whole account independently reviewed under the current rule.
+The reviewer explicitly records having previously discussed the interval normalization obstruction, which is a substantive component of this same complete finding.
+Its full finding therefore has shared substantive mathematical context; separate reconstruction of Parts 1-3 does not make this whole account independently reviewed under the current rule.
 The original inspection date, computations, source limits and independent wording remain historical facts; this declaration maintenance performs no new review and does not infer a relationship from C's retired aggregate field.
 
 ## 1. Hilbert-Space Identity and Affiliated Multiplication Order

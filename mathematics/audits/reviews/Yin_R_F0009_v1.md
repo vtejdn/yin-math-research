@@ -8,7 +8,8 @@ author: Yin
 
 ## Review arrangement
 
-This reviewer independently developed the projective series construction and asked the author to insert it into the proof before reviewing the final revision. That substantive proof contribution makes this finding self-reviewed; the original independent description, source reads and original date are retained.
+This reviewer independently developed the projective series construction and asked the author to insert it into the proof before reviewing the final revision.
+That substantive proof contribution makes this finding self-reviewed; the original independent description, source reads and original date are retained.
 This explicit declaration preserves the actual old mathematical finding, original date precision, source inspection depth and nonconclusions; it is not a newly performed review.
 
 ## Review relationships

@@ -8,7 +8,8 @@ author: Yin
 
 ## Actual review relationship
 
-The reviewer supplied the preliminary bounded-regularization argument reused in the audited ACSY24/target interface and then reviewed the assembled proof. This disclosed mathematical contribution makes the full finding self-reviewed.
+The reviewer supplied the preliminary bounded-regularization argument reused in the audited ACSY24/target interface and then reviewed the assembled proof.
+This disclosed mathematical contribution makes the full finding self-reviewed.
 The original independent descriptions, dates and full checked scope are preserved as historical facts; no isolated arrangement or new review is asserted.
 
 ## Review relationships

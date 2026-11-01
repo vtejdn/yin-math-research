@@ -127,7 +127,9 @@ It does not settle nonradial marginals, correlated tuples, or bounded scalar rat
 
 ## Actual review arrangement
 
-Before freezing, this reviewer sent the author the same-radius calculation and quantile observations. That is substantive target mathematical contribution. The reported separate root check does not establish another isolated finding or erase this relationship; the complete corrected finding is self-reviewed.
+Before freezing, this reviewer sent the author the same-radius calculation and quantile observations.
+That is substantive target mathematical contribution.
+The reported separate root check does not establish another isolated finding or erase this relationship; the complete corrected finding is self-reviewed.
 The original 2026-09-11 date, full mathematical findings, source depths and exact boundaries remain unchanged.
 This maintenance performs no new mathematical review or context-isolation certification.
 

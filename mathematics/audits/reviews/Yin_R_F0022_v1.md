@@ -129,7 +129,9 @@ No unrestricted normal-measure theorem, correlated-tuple all-M statement, or bou
 
 ## Actual review arrangement
 
-The reviewer supplied rotation and graph-approximation prechecks and the positive modification away from support before freezing, alongside the disclosed root transfer proposal. This is substantive target development context; the complete later fixed-artifact check remains self-reviewed. Its independent primary Bernstein statement check retains that narrower source depth.
+The reviewer supplied rotation and graph-approximation prechecks and the positive modification away from support before freezing, alongside the disclosed root transfer proposal.
+This is substantive target development context; the complete later fixed-artifact check remains self-reviewed.
+Its independent primary Bernstein statement check retains that narrower source depth.
 The original 2026-09-11 date, full mathematical findings, source depths and exact boundaries remain unchanged.
 This maintenance performs no new mathematical review or context-isolation certification.
 

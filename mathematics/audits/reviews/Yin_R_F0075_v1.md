@@ -235,7 +235,9 @@ The reviewed target bytes were not changed.
 
 ## Actual review arrangement
 
-The reviewer explicitly did not author or edit the frozen target and reconstructed its full project proof, including the nonzero defect and both original-graph inclusions. Non-authorship and fixed target inspection do not establish initial isolation from author-development discussion or earlier target-review summaries. The recorded arrangement leaves that initial context unknown.
+The reviewer explicitly did not author or edit the frozen target and reconstructed its full project proof, including the nonzero defect and both original-graph inclusions.
+Non-authorship and fixed target inspection do not establish initial isolation from author-development discussion or earlier target-review summaries.
+The recorded arrangement leaves that initial context unknown.
 The original 2026-09-11 date, proof findings and source-inspection limits are preserved.
 This maintenance neither performs a new review nor certifies an isolated independent relationship.
 

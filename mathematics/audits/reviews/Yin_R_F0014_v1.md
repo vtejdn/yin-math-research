@@ -8,7 +8,8 @@ author: Yin
 
 ## Actual review relationship
 
-The reviewer developed the related preliminary weak-commutator argument and C_F0026 construction, and checked the compact refinement in shared development before integration. This disclosed relevant mathematical context and contribution makes the full retained finding self-reviewed.
+The reviewer developed the related preliminary weak-commutator argument and C_F0026 construction, and checked the compact refinement in shared development before integration.
+This disclosed relevant mathematical context and contribution makes the full retained finding self-reviewed.
 The original independent descriptions, dates and full checked scope are preserved as historical facts; no isolated arrangement or new review is asserted.
 
 ## Review relationships

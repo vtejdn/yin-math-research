@@ -8,7 +8,8 @@ author: Yin
 
 ## Actual review relationship
 
-The reviewer proposed the weighted-disk Cauchy--Riemann perturbation mechanism during preliminary mathematical discussion. That substantive contribution to the reviewed construction makes the complete retained finding self-reviewed.
+The reviewer proposed the weighted-disk Cauchy--Riemann perturbation mechanism during preliminary mathematical discussion.
+That substantive contribution to the reviewed construction makes the complete retained finding self-reviewed.
 The original independent descriptions, dates and full checked scope are preserved as historical facts; no isolated arrangement or new review is asserted.
 
 ## Review relationships

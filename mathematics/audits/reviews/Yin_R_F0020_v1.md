@@ -6,7 +6,8 @@ author: Yin
 
 ## Actual review arrangements
 
-The reviewer contributed the preliminary local-window/domain arguments during C_F0029 development and authored C_F0031 in the same extraction batch. These are substantive antecedents of the reviewed extractions, so both exact lemma findings are self-reviewed.
+The reviewer contributed the preliminary local-window/domain arguments during C_F0029 development and authored C_F0031 in the same extraction batch.
+These are substantive antecedents of the reviewed extractions, so both exact lemma findings are self-reviewed.
 The original dates, prior independent descriptions, mathematical findings and source-depth limits remain intact; these declarations perform no new mathematical review.
 
 ## Review relationships

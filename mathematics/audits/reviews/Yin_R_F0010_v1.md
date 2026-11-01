@@ -8,7 +8,8 @@ author: Yin
 
 ## Actual review relationship
 
-The reviewer supplied the preliminary contraction/domain/cutoff route and authored its Dab10-U002 interface, then suggested and checked the displayed domain-corollary material. This substantive contribution to the reviewed proof makes the retained whole finding self-reviewed.
+The reviewer supplied the preliminary contraction/domain/cutoff route and authored its Dab10-U002 interface, then suggested and checked the displayed domain-corollary material.
+This substantive contribution to the reviewed proof makes the retained whole finding self-reviewed.
 The original independent descriptions, dates and full checked scope are preserved as historical facts; no isolated arrangement or new review is asserted.
 
 ## Review relationships

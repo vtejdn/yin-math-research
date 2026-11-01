@@ -8,7 +8,8 @@ author: Yin
 
 ## Review arrangement
 
-Before the written proof this reviewer suggested the decisive qbq test and its non-L2 derivative factors. That substantive contribution to the reviewed construction makes this finding self-reviewed under the current relationship rule; its original historical independent description and date are retained.
+Before the written proof this reviewer suggested the decisive qbq test and its non-L2 derivative factors.
+That substantive contribution to the reviewed construction makes this finding self-reviewed under the current relationship rule; its original historical independent description and date are retained.
 No new mathematical review, changed conclusion or redated finding is created by this explicit relationship and locator declaration.
 
 ## Review relationships

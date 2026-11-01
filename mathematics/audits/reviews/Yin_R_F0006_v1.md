@@ -24,7 +24,8 @@ The root proposed the factoriality diagnostic during discussion; this review sep
 | [Actual complete finding](#scaled-model-finding) | [C_F0011 argument](../../claims/Yin_C_F0011_v1.md#1-recovering-the-center-and-the-whole-tensor-product) | Complete scaled model: relative-commutant/factoriality calculation, center recovery and cutoff generation, fixed-matrix fiberwise affiliated invertibility, bounded contraction observation, continuous-section obstruction to every bounded inverse representation, and absence of bounded duals. No refutation of the original bounded-dual conjecture or Task completion. |
 
 <a id="scaled-model-finding"></a>
-The coordinating reviewer explicitly proposed the factoriality diagnostic during the same proof discussion. This substantive contribution/shared mathematical context makes the whole assembled finding self-reviewed; it does not remove the actual complete proof checks.
+The coordinating reviewer explicitly proposed the factoriality diagnostic during the same proof discussion.
+This substantive contribution/shared mathematical context makes the whole assembled finding self-reviewed; it does not remove the actual complete proof checks.
 The original inspection date, computations, source limits and independent wording remain historical facts; this declaration maintenance performs no new review and does not infer a relationship from C's retired aggregate field.
 
 ## Complete-Chain Checks

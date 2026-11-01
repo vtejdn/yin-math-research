@@ -8,7 +8,8 @@ author: Yin
 
 ## Actual review relationship
 
-The reviewer received the complete new proof before review, then supplied the explicit scalar closure-inclusion chain and division-ring justification in Section 6 and checked that written mathematical passage. The retained final-artifact finding includes that substantive explanatory contribution and is self-reviewed; the original no-prior-contribution statement and review sequence remain intact.
+The reviewer received the complete new proof before review, then supplied the explicit scalar closure-inclusion chain and division-ring justification in Section 6 and checked that written mathematical passage.
+The retained final-artifact finding includes that substantive explanatory contribution and is self-reviewed; the original no-prior-contribution statement and review sequence remain intact.
 The original independent descriptions, dates and full checked scope are preserved as historical facts; no isolated arrangement or new review is asserted.
 
 ## Review relationships

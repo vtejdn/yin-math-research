@@ -79,5 +79,7 @@ The source's bounded commutant definition does not itself prove that passage.
 
 The source uses the tracial standard representation, conditional expectations, the free-product Hilbert-space representations, and the liberation-gradient moment definition from [Voi99-U003](Yin_U003.md#liberation-derivation-and-gradient).
 Those foundational constructions are accepted inputs; their original external proofs were not recursively audited.
-The full source does not state that a square-integrable liberation gradient alone supplies this domain variant with \(M\Omega\) in both domains.
-The complete source-review coverage and remaining issues are recorded in the [source entrance](readme.md).
+The retained source results do not establish that a square-integrable liberation gradient alone supplies this domain variant with \(M\Omega\) in both domains.
+The other retained source inspections are [Voi99-U002](Yin_U002.md#voi99-u002) for the Introduction and Sections 1–4, [Voi99-U003](Yin_U003.md#voi99-u003) for Sections 5–7, and [Voi99-U004](Yin_U004.md#voi99-u004) for Sections 8–9.
+These units and the Section 13 inspection above retain their actual corrections and limitations; they provide no recorded review coverage for Sections 10–12.
+No complete-source audit is claimed here.

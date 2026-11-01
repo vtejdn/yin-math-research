@@ -6,7 +6,8 @@ author: Yin
 
 ## Actual review arrangements
 
-The coordinating reviewer authored C_F0024, contributed to antecedent domain investigations, and selected the proposal after the author supplied a preliminary mathematical message. This known shared development makes the final-artifact finding self-reviewed.
+The coordinating reviewer authored C_F0024, contributed to antecedent domain investigations, and selected the proposal after the author supplied a preliminary mathematical message.
+This known shared development makes the final-artifact finding self-reviewed.
 The original dates, prior independent descriptions, mathematical findings and source-depth limits remain intact; these declarations perform no new mathematical review.
 
 ## Review relationships

@@ -6,7 +6,8 @@ author: Yin
 
 ## Actual review arrangements
 
-The reviewer authored the original complete C_F0029 proof containing these arguments, participated in finite-range cancellation and tensor descent, and authored C_F0032/C_F0033. The complete new-artifact review therefore has known mathematical ancestry/development involvement and is self-reviewed for both lemmas.
+The reviewer authored the original complete C_F0029 proof containing these arguments, participated in finite-range cancellation and tensor descent, and authored C_F0032/C_F0033.
+The complete new-artifact review therefore has known mathematical ancestry/development involvement and is self-reviewed for both lemmas.
 The original dates, prior independent descriptions, mathematical findings and source-depth limits remain intact; these declarations perform no new mathematical review.
 
 ## Review relationships
