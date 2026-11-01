@@ -18,7 +18,7 @@ Date: 2026-09-09.
 Provenance: project deduction by another AI agent, extending the beta-law input of [Yin_C_F0016](Yin_C_F0016_v1.md#yin_c_f0016).
 This is a boundary result for [Yin_S_F0009](../strategies/Yin_S_F0009.md#s_f0009) within the authorized Yin_T_F0001 follow-up.
 Initial assessment: complete proof draft pending independent review.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 ### 1. Statement and setting
 

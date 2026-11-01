@@ -55,6 +55,7 @@ Recorded consumer navigation: Bounded-dual statement use: [Yin_C_F0001](../ledge
 
 Exact definition homes and conventions: [Voi99's bounded selfadjoint algebra-level definition](../audits/literature/Voi99/Yin_U001.md#bounded-liberation-dual-system); [U001's local normal-generator, zero-vacuum adaptation](../audits/literature/Voi99/Yin_U001.md#liberation-dual-system-domain-variant).
 The separate [general domain formulation](../claims/Yin_C_F0079_v4.md#liberation-dual-system) allows arbitrary bounded tuples and imposes no vacuum condition; [sum normalization](../claims/Yin_C_F0082_v1.md#sum-normalized-liberation-dual-system) is distinct from zero vacuum.
+The [general replacement lemma](../claims/Yin_C_F0079_v5.md#sum-normalization) retains sum normalization for arbitrary bounded tuples, and the [four-condition criterion](../claims/Yin_C_F0079_v5.md#statement) adds the full natural-domain fraction-commutator characterization under regularity of every scalar shift.
 
 Recorded consumer navigation: Domain-variant statement/proof uses: [Yin_C_F0079 v4](../claims/Yin_C_F0079_v4.md#statement), [Yin_C_F0082](../claims/Yin_C_F0082_v1.md#statement), [Yin_C_F0083 v2](../claims/Yin_C_F0083_v2.md#definitions-and-conventions); the latter two also use sum normalization.
 Bounded source comparison only: [Yin_C_F0083 v2](../claims/Yin_C_F0083_v2.md#comparison-and-limits).
@@ -72,6 +73,7 @@ Recorded consumer navigation: Statement/proof uses: [Yin_C_F0002](../ledger/Yin_
 Exact definition homes and conventions: [Relative conjugate variables](../audits/literature/Voi98/Yin_U002.md#conjugate-variables), [Fisher information](../audits/literature/Voi98/Yin_U002.md#fisher-information), and [Dab14's simultaneous-gradient Lipschitz condition](../audits/literature/Dab14/Yin_U002.md#lipschitz-conjugate-condition).
 
 Recorded consumer navigation: [Yin_C_F0016's recorded uses](../ledger/Yin_L_F0004_v1.md#yin_c_f0016-definitions) separate statement/proof use from model discussion; [Yin_C_F0022-P1](../ledger/Yin_L_F0004_v1.md#yin_c_f0022-definitions) records its own domain use.
+The separate [bounded canonical-dual deduction](../claims/Yin_C_F0092_v1.md#statement) identifies the precise bounded derivative-contraction hypothesis and its Lipschitz specialization.
 
 <a id="liberation-gradients-and-information"></a>
 ### Liberation derivations, gradients and information
@@ -124,6 +126,30 @@ Exact definition homes and conventions: [Cleared-denominator defect, equation (4
 
 Recorded consumer navigation: Preserved proof uses: [Yin_C_F0013-P1](../ledger/Yin_L_F0004_v1.md#yin_c_f0013-definitions), [Yin_C_F0029-P2](../ledger/Yin_L_F0004_v1.md#yin_c_f0029-definitions); bounded weak-form use: [Yin_C_F0025](../ledger/Yin_L_F0004_v1.md#yin_c_f0025-definitions); the separate L2 target and tests: [Yin_C_F0014](../ledger/Yin_L_F0004_v1.md#yin_c_f0014-definitions).
 
+<a id="modules-and-algebraic-duals"></a>
+### Modules, exact sequences and algebraic duals
+
+Exact definition homes and conventions: Hun74's [module actions, unitary conventions, submodules and direct sums](../audits/literature/Hun74/Yin_U001.md#module-conventions), [exact sequences and splitting](../audits/literature/Hun74/Yin_U001.md#exact-sequences), [free modules and bases](../audits/literature/Hun74/Yin_U002.md#free-module-and-basis), [projective and injective modules](../audits/literature/Hun74/Yin_U003.md#projective-injective-definitions), [Hom groups and bimodule actions](../audits/literature/Hun74/Yin_U004.md#hom-and-bimodules), and [algebraic duals and side conventions](../audits/literature/Hun74/Yin_U004.md#algebraic-dual).
+The algebraic dual is distinct from a Hilbert-space adjoint or an operator dual system.
+
+Recorded consumer navigation: the [C_F0035 source supplement](../claims/Yin_C_F0035_v1.md#yin_c_f0035-hun74-source-supplement) identifies the right-vector-space basis and coordinate-functional inputs actually used in its tensor equalizer proof.
+The source entries retain the broader module definitions without making them additional hypotheses of that proof.
+
+<a id="free-row-balls"></a>
+### Free row balls and coefficient Hardy spaces
+
+Exact definition home and conventions: [JMS21's free row ball and Fock Hardy space](../audits/literature/JMS21/Yin_U001.md#free-row-ball), with its matrix-level and infinite-dimensional-level scopes.
+
+Recorded consumer navigation: the [Kronecker strategy comparison](../ledger/Yin_L_F0010_v1.md#kronecker-strategies) uses the Gramian mechanism as a coefficient-space template, retaining the unresolved interface with an arbitrary tracial L2 expansion.
+
+<a id="spectral-subspaces-and-decomposability"></a>
+### Algebraic spectral subspaces and decomposability
+
+Exact definition home and conventions: [Lau88's algebraic spectral subspaces, divisible subspace, decomposable, well-decomposable and super-decomposable operators](../audits/literature/Lau88/Yin_U001.md#definitions-and-exact-accepted-results).
+The source's algebraic spectral subspaces impose no topological closure; its separate decomposability definitions specify the relevant closed invariant subspaces and operator hypotheses.
+
+Recorded consumer navigation: [C_F0069](../claims/Yin_C_F0069_v1.md) verifies the triangular operator and spectral-subspace hypotheses for the accepted automatic-continuity inputs.
+
 <a id="balanced-tensor-products"></a>
 ### Algebraic balanced tensor products
 
@@ -145,3 +171,14 @@ Exact source and convention homes: [principal ideals and Bezout coefficients](..
 Ring normality in the latter is distinct from normality of an operator; the field exception and original source-inspection limits remain explicit there.
 
 Recorded consumer navigation: [principal-ideal bounded descent](../claims/Yin_C_F0087_v1.md#statement), [one-dimensional normal-domain descent](../claims/Yin_C_F0090_v1.md#statement), and the distinct [regular two-dimensional obstruction](../claims/Yin_C_F0091_v1.md#statement).
+
+### q-Fock energies, finite-factor words and projection models
+
+Exact formulation and convention homes: [raw q-word norms and the q-symmetrizer](../audits/literature/KM26/Yin_U001.md#km26-u001), [one-variable q-Hermite conventions](../audits/literature/MS23/Yin_U006.md#ms23-u006), and [centered finite-factor bases and multiplication constants](../claims/Yin_C_F0106_v1.md#3-selfadjoint-centered-bases-and-the-actual-multiplication-constants).
+Recorded proof uses occur in [recognizable actual q-energy](../claims/Yin_C_F0101_v1.md#statement), [bounded finite-factor reconstruction](../claims/Yin_C_F0106_v1.md#statement), and the [signed charge action and dual covariance](../claims/Yin_C_F0111_v1.md#2-the-actual-charge-action-and-its-dual-covariance).
+
+The [generic two-projection representation and endpoint conventions](../audits/literature/BSS17/Yin_U001.md#bss17-u001) and [free-projection law parameters](../audits/literature/CK14/Yin_U001.md#ck14-u001) retain distinct source roles.
+Their direct model consumer is the [two-projection comparison](../ledger/Yin_L_F0025_v1.md), with the exact positive and negative conclusions in [C_F0099](../claims/Yin_C_F0099_v1.md#statement) and [C_F0100](../claims/Yin_C_F0100_v1.md#statement).
+
+The [finite rectangular matrix normalization](../audits/literature/NS06/Yin_U003.md#exact-finite-matrix-adaptation) and [tracial free-Poisson Wick conventions](../audits/literature/Yan25/Yin_U001.md#yan25-fock-interface) retain their separate rate and trace choices.
+Their recorded proof consumers are the [finite-corner spectral transfer](../claims/Yin_C_F0095_v1.md#statement) and [all-positive-rate spectral result](../claims/Yin_C_F0096_v1.md#statement).

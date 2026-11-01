@@ -1,4 +1,4 @@
-"""Exact finite checks for Miy23 Proposition 4.5; no analytic norm claims.
+"""Exact finite checks for MS23 Proposition 4.5; no analytic norm claims.
 
 Run from the repository root with Python 3.10+; standard library only.
 Polynomial coefficients are integer dictionaries indexed by (output word, q degree).

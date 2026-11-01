@@ -58,7 +58,8 @@ Its positive density is bounded above and below:
 
 `(1-r)/(1+r) <=w_r<=(1+r)/(1-r)`.
 
-The standard name and Fourier identity were checked in [NIST DLMF 1.15.12--1.15.13](https://dlmf.nist.gov/1.15#E12) on 2026-09-29.
+The standard name and Fourier identity were checked in [DLM26, NIST DLMF 1.15.12--1.15.13](https://dlmf.nist.gov/1.15#E12) on 2026-09-29.
+That inspection did not record the online release number; the canonical bibliography identifies the reference and its current release without extending the historical inspection scope.
 This is exact-statement attribution for the elementary calculation given here, not a new mathematical proof dependency or a whole-source audit.
 
 The Haar canonical dual E_m has, on Laurent monomials,

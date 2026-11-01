@@ -9,6 +9,7 @@ author: Yin
 | Task | Scope |
 | --- | --- |
 | [Expanded model contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) | Historical selected model scope: Projective-Jacobian bounded-dual transport and finite-rank obstruction; general rational reconstruction unresolved |
+| [General bounded-closure contract](../tasks/Yin_T_F0003_v1.md#contract) | Bounded scalar reconstruction component for analytic transport; the completed general sufficient-condition round leaves the general model question open and does not cover rational L2 boundedness |
 
 ## Route
 
@@ -22,9 +23,11 @@ The Route section owns the current allocation.
 Dated outcomes, earlier authorizations and superseded allocations below retain their recorded scope.
 
 <a id="s_f0010"></a>
-Goal: the separate R-diagonal and analytic-transport Task, inheriting this branch from the user's [expanded T_F0001 contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract).
+Historical goal allocation: the [2026-09-27 reorganization](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27) names a separate R-diagonal and analytic-transport Task as the destination of this branch from the user's [expanded T_F0001 contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract).
+Its exact separate contract has not been identified in the available local Task materials.
+The verified associations above retain their stated scopes and do not supply current execution authority.
 Coordinating route: [Yin_S_F0007](Yin_S_F0007.md#s_f0007).
-Ownership updated 2026-09-27 under the approved scope reorganization.
+Recorded ownership transfer: 2026-09-27 under the approved scope reorganization.
 Current disposition and priority are owned by the [route selection](#route); the active disposition and existing mechanisms are retained.
 Original Yin_C_F0001 remains refuted.
 
@@ -74,7 +77,7 @@ No broad failure of analytic transport is inferred from the tensor counterexampl
 
 ## Evidence and Changes
 
-- 2026-09-27, Codex recorded for Yin: transfer the model and structural investigation to the R-diagonal and analytic-transport Task with coordinating Yin_S_F0007; disposition active -> active, preserving the two target properties and every stated transport/evaluation boundary.
+- 2026-09-27, Codex recorded for Yin: transfer the model and structural investigation to the R-diagonal and analytic-transport Task named in the [historical allocation](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27), with coordinating Yin_S_F0007; disposition active -> active, preserving the two target properties and every stated transport/evaluation boundary.
   The affiliated criterion remains an T_F0001 input, not a substitute for either model target.
   No Claim assessment or manuscript selection changes.
 - 2026-09-09, another AI agent: created the active analytic-transport subroute under root's coordinated allocation Yin_S_F0010.

@@ -340,7 +340,7 @@ This review was completed before the separately labeled p. 36 supplement was add
 ### Independent Review of the p. 36 Supplement and Its Comparison Input
 
 Date and reviewer: 2026-09-09, the main unit reviewing agent, independent of the supplement's author.
-The reviewed revision before this review paragraph was appended had The supplement passes with the following explicit source interface and checks.
+The supplement passes with the following explicit source interface and checks.
 
 The required primary statement is [AP18, author-hosted draft](https://www.math.ucla.edu/~popa/Books/IIun.pdf), **Proposition 9.1.8, printed p. 142 / PDF p. 148**: in a tracial von Neumann algebra, projections satisfy p subequivalent to q exactly when their normal center-valued traces have that order.
 Proposition 9.1.6 on the same page supplies the faithful normal center-valued trace as the trace-preserving expectation onto the center.

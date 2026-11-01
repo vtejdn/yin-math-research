@@ -26,7 +26,8 @@ The original dates, prior independent descriptions, mathematical findings and so
 <a id="dense-adjoint-module-finding"></a>
 ### Complete dense adjoint-module finding
 
-Whole original C_F0030 P1 and unchanged statement, including its selected Section 6 adjoint-module certificates and non-separation/rigidity boundary. The later P2 assembly has its own finding in R_F0012.
+Whole original C_F0030 P1 and unchanged statement, including its selected Section 6 adjoint-module certificates and non-separation/rigidity boundary.
+The later P2 assembly has its own finding in R_F0012.
 The corresponding complete original checking account and its precise limits follow below.
 
 Date and reviewer: 2026-09-10, the coordinating agent.

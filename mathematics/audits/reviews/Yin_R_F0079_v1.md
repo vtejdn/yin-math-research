@@ -820,7 +820,6 @@ The canonical lifecycle has not been altered by the reviewer, and this artifact 
 | Dependency review | Empty direct mathematical dependency list verified; comparison statements inspected only at their relevant scopes; no cycle or hidden imported rationality theorem found. |
 | Artifact/static checks | Numbered whole-proof read, canonical Claim/Task bindings, selected attachments and v4/v5 diff checked. Repository-wide record/link/submission validation is the coordinator's separate responsibility. |
 | Computation | Exact analytical calculations above; no numerical experiment or computational certificate used. |
-| Compilation/build | Not applicable to this Markdown proof; no manuscript build performed. |
 | Proof-assistant verification | Not performed; no formal-verification claim. |
 | External or personal human review | Not performed or established by this artifact. |
 | Publication/literature priority | Not assessed; no originality or earliest-source claim. |

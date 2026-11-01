@@ -1,101 +1,129 @@
 # Unresolved material maintenance
 
-## Voi99-U002 publication-page span
+## Sentence-oriented layout in restored q-Gaussian reviews
 
-The `source-version` row in [Voi99-U002](audits/literature/Voi99/Yin_U002.md#source-and-inspection) gives the published edition's printed pages as 101–163.
-The [edition note](audits/literature/Voi99/readme.md#yin-edition) and the Voi99 entry in the [canonical bibliography](literature/references.bib) give 101–166.
-These publication-page annotations are inconsistent; the unit separately identifies its inspected passages as the Introduction and Sections 1–4, printed pp.101–114.
-The applicable grounds are [bibliographic and edition responsibilities](../framework/rules/literature-audits.md#organization-and-stable-units) and [truthful inspection scope](../framework/rules/literature-audits.md#coverage-states).
-Repair submitted in Voi99-U002's `source-version` row, which now gives printed pp.101–166.
-Next action: independent acceptance of the corrected publication-page annotation against the responsible edition and bibliographic evidence, preserving the actual inspected passages, date, depth and limitations.
-This discrepancy requires no new whole-source audit and supplies no mathematical-error verdict.
+The Actual review arrangement paragraphs listed below contain two or three complete natural sentences on one physical source line.
 
-## Current-assessment prose links select historical decisions
+- [R_F0113](audits/reviews/Yin_R_F0113_v1.md#actual-review-arrangement), line 218.
+- [R_F0114](audits/reviews/Yin_R_F0114_v1.md#actual-review-arrangement), line 129.
+- [R_F0115](audits/reviews/Yin_R_F0115_v1.md#actual-review-arrangement), line 277.
+- [R_F0116](audits/reviews/Yin_R_F0116_v1.md#actual-review-arrangement), line 284.
+- [R_F0117](audits/reviews/Yin_R_F0117_v1.md#actual-review-arrangement), line 241.
+- [R_F0118](audits/reviews/Yin_R_F0118_v1.md#actual-review-arrangement), line 158.
+- [R_F0119](audits/reviews/Yin_R_F0119_v1.md#actual-review-arrangement), line 130.
+- [R_F0120](audits/reviews/Yin_R_F0120_v1.md#actual-review-arrangement), line 127.
 
-The assessment navigation in [C_F0085](claims/Yin_C_F0085_v1.md), line 67, [C_F0086](claims/Yin_C_F0086_v1.md), line 28, and [C_F0090](claims/Yin_C_F0090_v1.md), line 19, calls its target the selected or current assessment but links the historical `candidate-0002` decision.
-Each material's actual Current selector chooses a later decision.
-This conflicts with [responsible assessment ownership](../framework/rules/records.md#authoritative-files) and [Claim navigation](../framework/rules/claims.md#claim-navigation).
-Next action: independently verify the intended reference and repair the navigation or explicitly describe its historical purpose.
-Acceptance must preserve all selected decisions, dates, proofs and review scopes while making the prose and target agree.
+The [sentence-oriented source layout rule](../framework/rules/organization.md#sentence-oriented-source-layout) applies to these ordinary prose paragraphs.
+Next action: repair only existing sentence breaks in these eight paragraphs, then submit the changes for independent acceptance.
+Preserve words, punctuation, paragraph boundaries, dates, actual review relationships, exact input bindings and inspection limits.
+This layout maintenance needs no new mathematical version or proof review.
 
-## Unresolved formula reference after argument extraction
+## Current-assessment prose selects historical decisions
 
-[L_F0015](ledger/Yin_L_F0015_v1.md), line 63, invokes "by (2) after permutation", but this L no longer contains equation (2).
-Its scalar-pivot interface now points to [C_F0009](claims/Yin_C_F0009_v1.md#proof-of-the-two-state-pivot-criterion), whose equation (2) defines the complementary pivot and whose complete Schur inverse appears in equation (8).
-The [content-retention and consumer-repair rule](../framework/rules/records.md#substantive-material-retention) requires an accurate locator for the actual retained argument.
-Repair submitted in L_F0015's two-pivot recovery paragraph, which now links C_F0009, equation (8), after permutation.
-Next action: independent acceptance of the repaired formula reference without treating the original broken locator as a mathematical counterexample.
-Acceptance must check the actual formula, hypotheses and reference purpose, preserving the mathematical argument.
+The introductory "selected assessment" links in [C_F0093](claims/Yin_C_F0093_v1.md), line 16, [C_F0095](claims/Yin_C_F0095_v1.md), line 20, [C_F0096](claims/Yin_C_F0096_v1.md), line 20, and [C_F0104](claims/Yin_C_F0104_v1.md), line 23, still target `decision-candidate-0002`.
+Each target is explicitly historical, while the material's Current assessment selects a later isolated-review decision.
+The [assessment-ownership rule](../framework/rules/claims.md#record-kinds) requires the current selection and historical prose to remain coherent.
+Next action: correct the navigation or make the historical meaning explicit, then submit for independent acceptance.
+Preserve the actual decisions, dates, proof selections and review relationships; this locator repair creates no new mathematical decision.
 
-## Routine tool and identifier-maintenance prose in strategies
+## Contract and extracted argument references omit their actual homes
 
-[S_F0007](strategies/Yin_S_F0007.md), lines 136–138, retains file/link counts and whitespace/language-check results that supply no continuing mathematical, evidence or execution fact.
-The same issue affects the repeated "No old ID or argument was deleted, and no replacement goal was created" sentence in [S_F0001](strategies/Yin_S_F0001.md), line 100; [S_F0002](strategies/Yin_S_F0002.md), line 95; [S_F0003](strategies/Yin_S_F0003.md), line 60; [S_F0004](strategies/Yin_S_F0004.md), line 73; [S_F0005](strategies/Yin_S_F0005.md), line 124; and [S_F0006](strategies/Yin_S_F0006.md), line 65.
-These are routine process under the [substantive-retention rule](../framework/rules/records.md#substantive-material-retention).
-Repair submitted in S_F0001–S_F0006's resolution paragraphs and the final evidence bullet in S_F0007.
-Next action: independent acceptance of the removal of only the unnecessary process prose.
-Acceptance must retain useful failures, actual lineage and review facts, including the mathematical inspection immediately before S_F0007's tool-check sentences.
+- [T_F0005 v2](tasks/Yin_T_F0005_v2.md), line 181, links its "original contract-obligation comparison" to L_F0005, which discusses the scalar-vacuum route.
+  [L_F0021](ledger/Yin_L_F0021_v1.md) retains the normal-domain companion contract comparison and the Q1/Q2/Q4 boundaries used by this sentence.
+- [L_F0023](ledger/Yin_L_F0023_v1.md), line 62, claims homogeneous equality "by (1)", although no such equation occurs there.
+  The complete homogeneous interface is in [KPZ26-U001](audits/literature/KPZ26/Yin_U001.md), including its spectral equality (3); its equation (1) alone does not supply that equality.
+- [C_F0098](claims/Yin_C_F0098_v1.md), line 109, invokes "(4.3)" for the cumulant bounds without locating [C_F0097](claims/Yin_C_F0097_v1.md), where those bounds occur.
+- [C_F0100](claims/Yin_C_F0100_v1.md), lines 56 and 65, invokes the element in (10) and calculations (11)–(14), whose actual construction is in [C_F0099](claims/Yin_C_F0099_v1.md), Sections 3.1–3.2.
+  Its existing [L_F0025](ledger/Yin_L_F0025_v1.md) link supplies the shared matrix setting but does not locate that construction.
 
-## Routine edited-file lists in fixed reviews
+The [content-retention and consumer rule](../framework/rules/records.md#substantive-material-retention) and [Claim-input rule](../framework/rules/claims.md#dependencies-and-corrections) require these references to identify the actual retained content.
+Next action: verify each intended correspondence and repair its precise locator, then submit for independent acceptance.
+Preserve the original formulas, arguments and review scope, distinguishing extraction provenance from necessary mathematical dependencies.
 
-The "Definition-use documentation findings" in [R_F0055 v2](audits/reviews/Yin_R_F0055_v2.md), line 175; [v3](audits/reviews/Yin_R_F0055_v3.md), line 177; [v4](audits/reviews/Yin_R_F0055_v4.md), line 193; and [v5](audits/reviews/Yin_R_F0055_v5.md), line 200, retain the same "The only pre-existing files edited in this pass are ..." list.
-This is an editing-process list rather than mathematical content, inspected input scope or a checking relationship, under the [substantive-retention rule](../framework/rules/records.md#substantive-material-retention).
-Next action: independently verify and remove the unnecessary list without retiring the review containers.
-Acceptance must preserve the adjacent real definition corrections, inspection dates, inputs, scopes and historical relationships without fabricating a new review.
+## Receiving prose numbers disagree with their actual inputs
 
-## NS06 contents overgeneralizes the inspected edition
+- [BZ22-U001](audits/literature/BZ22/Yin_U001.md), line 98, names C_F0043 while linking the actual C_F0094 consumer.
+- [DHH+25-U001](audits/literature/DHH+25/Yin_U001.md), lines 28 and 84, labels the U004 link as U008 and places the angular/radial argument in U005, although that argument is retained in Miy26-U006.
+- [KPZ26-U001](audits/literature/KPZ26/Yin_U001.md), lines 51 and 116, labels its actual Miy26-U004/U006 targets as U008/U005.
+- [J_F0006](computations/programs/Yin_J_F0006/readme.md), line 46, places the residual formula in Miy26-U004; the formula is in [Miy26-U005](audits/literature/Miy26/Yin_U005.md).
+- [C_F0115](claims/Yin_C_F0115_v1.md), line 18, labels a receiving T_F0007 v1 link as "T_F0007 v4" without distinguishing a source version.
+- [R_F0107](audits/reviews/Yin_R_F0107_v1.md), lines 216 and 239, still calls the shared setting `L_F0047`; its line 14 correctly locates the receiving [L_F0025](ledger/Yin_L_F0025_v1.md), Sections 1–2.
+- [R_F0112](audits/reviews/Yin_R_F0112_v1.md), line 24, names `MSY23 U006` for the Haar terminal-dual sign.
+  The same review's line 181 correctly locates [MSY23-U005](audits/literature/MSY23/Yin_U005.md), Proposition 6.3.
 
-[NS06 contents](literature/contents/NS06.md), line 10, says that the existing source units retain the earlier author's-edition `+13` page correspondence.
-The current [NS06-U001](audits/literature/NS06/Yin_U001.md), lines 13–26, and [NS06-U002](audits/literature/NS06/Yin_U002.md), lines 13 and 22–25, instead identify the 434-page publisher layout and `+17` correspondence, consistent with the [source edition note](audits/literature/NS06/readme.md).
-This conflicts with [contents responsibilities](../framework/rules/literature.md#searchable-contents) and [precise source scope](../framework/rules/literature-audits.md#organization-and-stable-units).
-Next action: distinguish the actual earlier author-edition readings from the two current U records rather than applying one correspondence to all of them.
-Acceptance must preserve real historical locators and the distinction between comparing contents and comparing the full texts, without claiming a new original-source inspection.
+The [receiving-content rule](../framework/rules/records.md#receiving-and-adapting-selected-content) requires necessary prose references to identify the actual corresponding materials.
+Next action: verify the intended objects and align the visible labels, targets and formula descriptions, then submit for independent acceptance.
+Preserve genuine original-version facts and the actual historical inspection behavior; do not infer correspondence from number similarity alone.
 
-## Current manuscript records use outdated lemma numbers
+## Circular Brown-support consumers omit the inspected proof boundary
 
-The [manuscript review](manuscripts/Yin_T_F0001/review.md), line 125, assigns the finite-rank-solution identification to Lemma 5.6, whereas the current identification lemma is 5.3.
-The same review, line 167, and [organization record](manuscripts/Yin_T_F0001/organization.md), line 47, cite "Lemmas 5.1 and 4.1" for Theorem 1.9's closure equivalence; the [current proof](manuscripts/Yin_T_F0001/paper/sections/dual-system-criterion.tex), lines 235–237, uses Lemma 5.1 and the finite-rank-closure Lemma 4.2.
-The [current manuscript review rule](../framework/rules/writing.md#manuscript-review-and-citation-records) requires these records to describe the actual current text.
-Next action: verify the current labels and correct these three references.
-Acceptance must preserve actual review arrangements, findings and limits without presenting numbering maintenance as a new proof review.
+[Miy26-U006](audits/literature/Miy26/Yin_U006.md), line 54 and lines 196–204, and its direct input [Miy26-U004](audits/literature/Miy26/Yin_U004.md), lines 118–132, still adopt the complete DHH support equality without explaining the later inspected proof limit.
+[DHH+25-U001](audits/literature/DHH+25/Yin_U001.md), under "A second issue: the detailed proof only supplies containment", records containment from the checked source chain and a separate local positivity argument for the reverse inclusion.
+The existing [C_F0094 density repair](claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair) covers the standard circular application and its degenerate parameter cases.
+The [source/adaptation distinction](../framework/rules/literature-audits.md#content-and-verification) and [accepted-input rule](../framework/rules/literature-audits.md#accepted-external-inputs) require the concrete source-proof objection and the actual local support to remain coherent at the consumers.
+Next action: align the applicable source boundary and local support at these interfaces, then submit for independent acceptance.
+Preserve the fact that the original theorem asserts equality, the actual depth of source inspection and the distinct local contribution.
+Any genuine change of adopted mathematical support retains its applicable decision and review obligations.
 
-## Computation program comments use a different source key
+## Required source interfaces are absent from the cited units
 
-The module descriptions in [J_F0003 main.py](computations/programs/Yin_J_F0003/main.py), line 1, and [J_F0004 main.py](computations/programs/Yin_J_F0004/main.py), line 1, name "Miy23" for Proposition 4.5 and Proposition 5.1 respectively.
-Their responsible README, U and canonical bibliography identify the work as `MS23`, with no `Miy23` entry.
-The [citation-key rule](../framework/rules/literature.md#3-citations-elsewhere-in-the-repository) applies the same canonical key to code comments.
-Next action: confirm the same-work correspondence and correct these explanatory source keys.
-Acceptance must verify that program behavior, numerical scope and source edition remain unchanged; a comment correction requires no historical rerun.
+[C_F0115](claims/Yin_C_F0115_v1.md), lines 39 and 84, calls [NS06-U002](audits/literature/NS06/Yin_U002.md) the cumulant-additivity and inverse-Cauchy interface, but that unit retains definitions rather than these identities.
+The existing [R_F0099](audits/reviews/Yin_R_F0099_v1.md), "Independence and source-inspection depth", retains the actual publisher-edition reading of Proposition 12.3 and Theorems 12.5/12.7 with precise printed/PDF locators and inspection limits.
+That evidence distinguishes the external formal identities from the locally checked compact-support analytic germ and upper-half-plane continuation.
 
-## Computation index omits finite scope
+[C_F0118](claims/Yin_C_F0118_v1.md), lines 38 and 45, cites one-variable [MS23-U006](audits/literature/MS23/Yin_U006.md) for mixed q-Fock/Wick conventions.
+The existing [MS23-U001 model entry](audits/literature/MS23/Yin_U001.md#q-fock-and-wick-model) and [MS23-U002](audits/literature/MS23/Yin_U002.md) retain the applicable mixed conventions.
 
-The "Title and scope" cells in the [computation index](computations/index.md), lines 8–11, contain only the four slug titles.
-They omit the brief finite or exploratory scope required by the [computation-index rule](../framework/rules/computations.md#computation-index).
-Next action: derive concise navigation scopes from each actual J README.
-Acceptance must preserve exact results, limits and review facts at the responsible J home rather than duplicating them in the index.
+The [source content and applicability rule](../framework/rules/literature-audits.md#content-and-verification) requires the precise supplied interface and its actual inspection scope.
+Next action: retain any missing necessary source interface at an adequate existing home and correct the consuming references, then submit for independent acceptance.
+Reuse the existing primary-inspection evidence and preserve the separate local analytic reasoning and actual review limits.
 
-## Strategy model-contract references awaiting verification
+## R_F0097 independence awaits verification of its initial input
 
-[S_F0007](strategies/Yin_S_F0007.md), lines 30–36, 93 and 118–120; [S_F0008](strategies/Yin_S_F0008.md), lines 30–38; [S_F0009](strategies/Yin_S_F0009.md), lines 25 and 69; and [S_F0010](strategies/Yin_S_F0010.md), lines 25 and 77, describe current model work as belonging to separate R-diagonal, analytic-transport or q-Gaussian Tasks.
-Their formal Task associations locate only the historical T_F0001 v1 expansion, and [T_F0001 v2](tasks/Yin_T_F0001_v2.md), lines 137–139, mentions the transfers without identifying those separate contracts.
-The [Strategy responsibility rule](../framework/rules/strategies.md#identifiers-and-files) calls for actual Task associations and applicable scope.
-Next action: verify whether a current separate contract is intended, locate it when available, or make the historical or unresolved context explicit.
-This is awaiting verification; missing navigation does not establish missing authorization and does not authorize creating, changing or resuming a Task/E.
-Acceptance must check the actual association and its historical/current purpose without inventing execution authority.
+[R_F0097](audits/reviews/Yin_R_F0097_v1.md), lines 25–28, says the reviewer first received the author's proposed core mechanism, returned mathematical checks, and then received the complete fixed proof, while retaining an independent classification.
+The record does not establish whether the initial mechanism was itself the proof candidate under review or additional author explanation/development context.
+Under the [review-arrangement rule](../framework/rules/proof-audits.md#review-arrangements), the former can be a necessary review input, whereas additional substantive author summaries or development context prevent independent classification even without a proof contribution.
+This relationship is awaiting verification.
+Affected summaries are [R_F0103](audits/reviews/Yin_R_F0103_v1.md), line 48 and its [retained C_F0116 applicability finding](audits/reviews/Yin_R_F0103_v1.md#c-f0095-applicability), and [C_F0116](claims/Yin_C_F0116_v1.md), lines 17 and 307.
+Next action: establish the actual initial input's role from available evidence and reconcile the relationship wording and affected summaries with the facts established, then submit for independent disposition.
+Retain unknown input conditions explicitly when evidence is insufficient, and preserve C_F0116's selected self-reviewed R_F0103 applicability and actual mathematical decisions.
 
-## General sum-normalization research home awaiting verification
+## Computation reproduction instructions and new index scopes
 
-The manuscript's [general sum-normalization lemma and fourth equivalent condition](manuscripts/Yin_T_F0001/paper/sections/liberation-dual-system-criterion.tex), lines 7–43 and 187–225, are presented with a local manuscript self-review in the [project source map](manuscripts/Yin_T_F0001/readme.md), line 20, and [review record](manuscripts/Yin_T_F0001/review.md#normalized-liberation-criterion-20261018).
-The linked [C_F0079 v4](claims/Yin_C_F0079_v4.md) retains three equivalent conditions and individual zero-vacuum normalization; [C_F0082](claims/Yin_C_F0082_v1.md) constructs a sum-normalized system under the additional finite-liberation-Fisher-information hypothesis.
-Those statements do not themselves identify a responsible research home for the manuscript's general sum-correction argument and added fourth-condition proof.
-Targeted C/L/R searches and the inspected interfaces have not located a sufficient home, which is a responsibility question under [mathematical content and manuscript review](../framework/rules/writing.md#mathematical-content-and-review), rather than a finding that the proof is wrong.
-Next action: independently verify whether the argument is substantively new and locate adequate existing C content before deciding whether additional responsible retention, assessment and review are needed.
-Acceptance must check the actual general hypotheses, complete necessary argument and applicable evidence, then reconcile the manuscript source map and necessary definition navigation without forcing a new identity or inventing independent review.
+[J_F0007 main.py](computations/programs/Yin_J_F0007/main.py), lines 7–8, instructs installation from nonexistent `mathematics/computations/requirements.txt`.
+Its imports are all standard library, consistent with its [README](computations/programs/Yin_J_F0007/readme.md).
+The J_F0005–J_F0007 rows in the [computation index](computations/index.md) retain only slugs, omitting the short finite/exploratory scope required by the [computation-index rule](../framework/rules/computations.md#computation-index).
+The [reproduction-location rule](../framework/rules/organization.md#machine-local-locators) requires instructions reflecting the actual dependencies.
+Next action: correct the dependency instructions and derive short scopes from the existing J entrances, then submit for independent acceptance.
+Preserve the fixed programs, parameters, historical outcomes and finite limits; these documentation repairs require no historical enumeration rerun.
 
-## Body-level inspection to continue
+## Reusable definitions lack precise concept navigation
 
-Continue C-body inspection outside C_F0079_v4, C_F0082_v1, C_F0083_v2 and C_F0084–0091_v1, including the only partially read C_F0009.
-The remaining T bodies are T_F0001 v1 and v3–v6.
-Continue R bodies outside R_F0055_v5, R_F0081_v1 and R_F0083–0092_v1; the other R_F0055 versions have only been read around the specific process finding.
-The remaining U-body groups are ACSY24, CS05, CS77, Con94, DR97, Dab10, Dab14, GS14, Hun74, JMS21, KS07, Kro81, Lau88, Lin00, MS23, MSY23, Mai15, Miy22, Miy26, PV23, Par88, Shl24, TV06, Tol17, Tre17, Unt20, VV16, Voi98, Voi99, Xia23 and Yin20, including passages beyond their locally inspected interfaces.
-Follow necessary source, definition and review consumers without replaying every proof or expanding this into an inventory of private originals, execution state, outputs or environments.
+The [definition index](definitions/index.md) omits these complete reusable entries:
+
+- [BZ22 Brown-measure convention](audits/literature/BZ22/Yin_U001.md#brown-measure-convention), with its bounded finite-tracial normalization.
+- [KPZ26 additive free infinite divisibility for R-diagonals](audits/literature/KPZ26/Yin_U001.md#definition-and-hypothesis-conversion), distinguished from multiplicative modulus divisibility.
+- [C_F0118's iterated-test subspace](claims/Yin_C_F0118_v1.md#3-iterated-tests-characterize-finite-holomorphic-polynomials), including the zero-length test, also used by [C_F0111](claims/Yin_C_F0111_v1.md).
+
+The [definition-registration rule](../framework/rules/definitions.md#complete-content-and-registration) requires precise navigation to the adequate complete homes.
+Next action: register these exact formulations and their actual forward consumers, then submit for independent acceptance.
+Keep the definitions, source scope, parameters and theorem assertions at their existing homes.
+
+## Process-only residue remains in mathematical materials
+
+- [R_F0107](audits/reviews/Yin_R_F0107_v1.md), lines 21–23, retains registration/navigation-anchor process.
+- [R_F0110](audits/reviews/Yin_R_F0110_v1.md), lines 139–141, retains MiKTeX configuration and temporary-package process.
+- [R_F0113](audits/reviews/Yin_R_F0113_v1.md), lines 209–214, retains registration/header/anchor and edit-count accounting.
+- [C_F0111](claims/Yin_C_F0111_v1.md), line 18, and [C_F0110](claims/Yin_C_F0110_v1.md), line 218, [C_F0112](claims/Yin_C_F0112_v1.md), line 322, and [C_F0115](claims/Yin_C_F0115_v1.md), line 147, retain allocation or obsolete next-action process.
+- [DHH+25-U001](audits/literature/DHH+25/Yin_U001.md), lines 40–42, and [KPZ26-U001](audits/literature/KPZ26/Yin_U001.md), line 41, retain diagnostic paths, byte counts or empty checksum descriptions without a continuing evidentiary purpose.
+
+The [substantive-retention rule](../framework/rules/records.md#substantive-material-retention) requires retaining necessary content rather than routine process history.
+Next action: remove only the process residue, preserving genuine source reading/rendering depth, original review exclusions, mathematical comparisons, contributions and continuing limits, then submit for independent acceptance.
+In particular, preserve the one-mode terminology clarification and the original exclusion of Section 4 where those delimit actual evidence.
+
+## Malformed introductory prose
+
+[CK14-U001](audits/literature/CK14/Yin_U001.md), line 13, joins two sentences without a source newline and begins the second with a lowercase letter.
+[C_F0113](claims/Yin_C_F0113_v1.md) and [C_F0114](claims/Yin_C_F0114_v1.md), line 17, contain the duplicated proof-developer wording "Codex research agent another AI agent".
+The [sentence-oriented source rule](../framework/rules/organization.md#sentence-oriented-source-layout) and [content/adaptation rule](../framework/rules/records.md#receiving-and-adapting-selected-content) require readable prose preserving actual attribution.
+Next action: repair the sentence boundary, capitalization and duplicated wording while retaining the true author/reviewer relationships, then submit for independent acceptance.

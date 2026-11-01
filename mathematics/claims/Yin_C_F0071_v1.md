@@ -208,8 +208,9 @@ The multiple correlated normal-coordinate case remains open in this statement.
 
 ### Bounded source-reuse search
 
-On 2026-10-14, the search checked existing C_F0038 (L1 conjugates under closability), C_F0069 (scalar selfadjoint converse), C_F0070 (normal starred derivation and conditional equivalence), Shl06-U001 (Theorem 1 and Corollary 2), and source-targeted public searches for free difference quotient bounded contractions and conjugate-variable converses.
-The published MS23 Definition 2.4 and Theorem 2.5 retain an explicit vacuum-adjoint premise, as does Shl06.
+On 2026-10-14, the search checked existing C_F0038 (L1 conjugates under closability), C_F0069 (scalar selfadjoint converse), C_F0070 (normal starred derivation and conditional equivalence), and source-targeted public searches for free difference quotient bounded contractions and conjugate-variable converses.
+The published MS23 Definition 2.4 and Theorem 2.5 retain an explicit vacuum-adjoint premise.
+The historical comparison labeled Shl06-U001, Theorem 1 and Corollary 2, has no established work or edition identity in the retained source evidence and supplies no verified comparison here.
 Dab10 supplies the forward finite-Fisher-to-contraction estimate.
 No exact published converse from operator-norm-to-L2 boundedness was verified in this bounded search.
 This is not a priority or novelty claim.

@@ -110,3 +110,18 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Lyn73/Yin_U001](Lyn73/Yin_U001.md) | Lyn73-U001: The finite-index free subgroup of a finite free product |
 | [The26b/Yin_U001](The26b/Yin_U001.md) | The26b-U001: Local normal-domain and valuation interfaces |
 | [Yin20/Yin_U002](Yin20/Yin_U002.md) | Yin20: Evaluation Consistency, Schur Complements, and the Two Closures |
+| [BSS17/Yin_U001](BSS17/Yin_U001.md) | BSS17: The Standard Two-Projection Representation |
+| [BZ22/Yin_U001](BZ22/Yin_U001.md) | BZ22-U001: Brown potential and the normal-source density interface |
+| [CK14/Yin_U001](CK14/Yin_U001.md) | CK14: The Free-Projection Spectral Interface |
+| [DHH+25/Yin_U001](DHH+25/Yin_U001.md) | DHH+25-U001: Block product support, endpoint restriction and positivity boundary |
+| [Hor89/Yin_U001](Hor89/Yin_U001.md) | Hor89: joint continuity of bilinear maps |
+| [KM26/Yin_U001](KM26/Yin_U001.md) | KM26: q-Circular Homogeneous Norm Interface |
+| [KPZ26/Yin_U001](KPZ26/Yin_U001.md) | KPZ26-U001: Freely infinitely divisible R-diagonal homogeneous spectra |
+| [LS23/Yin_U001](LS23/Yin_U001.md) | Conditional expectation through linearization |
+| [Miy26/Yin_U005](Miy26/Yin_U005.md) | Circular Fock spaces and holomorphic resolvents |
+| [Miy26/Yin_U006](Miy26/Yin_U006.md) | Homogeneous polynomials and products of circular increments |
+| [Miy26/Yin_U007](Miy26/Yin_U007.md) | Quadratic circular polynomials and the six-state recurrence |
+| [Miy26/Yin_U008](Miy26/Yin_U008.md) | Observable eigenvalues and the spectral-radius shortcut |
+| [MS23/Yin_U006](MS23/Yin_U006.md) | MS23: The One-Variable Model |
+| [NS06/Yin_U003](NS06/Yin_U003.md) | NS06-U003: Finite circular matrix models |
+| [Yan25/Yin_U001](Yan25/Yin_U001.md) | Yan25-U001: Tracial free-Poisson Wick source specializations |

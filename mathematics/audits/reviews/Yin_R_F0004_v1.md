@@ -84,11 +84,3 @@ Yin_C_F0001 remains **open**, and Yin_T_F0001 is not complete.
 
 - 2026-09-08: final independent review of the canonical candidate, including the added self-contained normal-commutation proof and common-kernel statement.
   No corrective mathematical edit was required.
-- 2026-09-08: source links were redirected to the full MSY23 audit index.
-  The mathematical proof was unchanged, as checked in the canonical revision.
-
-## Link-Only Integration
-
-Root integration, 2026-09-08: the provisional source-unit link in the ledger was replaced by the full MSY23 source-audit index and its label updated.
-No mathematical statement or proof changed.
-The independent mathematical review above remains scoped to its originally inspected candidate.

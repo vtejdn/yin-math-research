@@ -15,7 +15,7 @@ author: Yin
 Date: 2026-10-02, Asia/Hong_Kong.
 Human research author: Yin.
 Construction: `canonical_raw_reverse`, during the user-authorized T_F0001 run.
-Status is owned by the [canonical Claim record](#decision-candidate-0002).
+Status is owned by the [canonical Claim record](#current-assessment).
 This complete proof has a [separate whole-proof and contract review](../audits/reviews/Yin_R_F0079_v1.md#retained-r109-conclusion).
 The canonical records own its accepted assessment and the Task lifecycle.
 

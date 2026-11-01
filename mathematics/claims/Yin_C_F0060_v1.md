@@ -34,7 +34,6 @@ Historical independently reviewed inputs:
 - Scalar soft-inverse support
 Mathematical bodies follow in full; only dependency pointers and section headings are normalized for permanent consolidation.
 Appendix A drops the unused condition k!=i from the historical setup: its proof uses only k and applies without any second coordinate, including d=1.
-Claim allocation and exact permanent review binding are separate administrative actions.
 
 ## 1. Statement and algebraic cancellation
 

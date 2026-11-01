@@ -24,7 +24,7 @@ The ring C(K) is division closed in L-infinity for the full-support measure.
 Any continuous representative would agree pointwise with the quotient off the origin, forcing contradictory limits along the two axes.
 Nondual-system limitation follows Py-yP nonzero on vacuum.
 Official Stacks 0BC1,0AFV,00FM,00OO displayed statements/applicability read; no recursive source-proof audit.
-Last author sentence refers to old F46-only inspection excluding F48, supplies no F48 verdict.
+The last author sentence refers to the preceding [C_F0090](../../claims/Yin_C_F0090_v1.md) inspection excluding [C_F0091](../../claims/Yin_C_F0091_v1.md), and supplies no verdict on C_F0091.
 
 The stated conclusion is supported at this exact scope and with the displayed hypotheses and conditions.
 No substantive mathematical repair was made during this inspection.

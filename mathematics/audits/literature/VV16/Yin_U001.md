@@ -13,21 +13,15 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 | --- | --- |
 | source-version | The [institutional repository](https://eprints.whiterose.ac.uk/id/eprint/106084/) identifies the [author PDF](https://eprints.whiterose.ac.uk/id/eprint/106084/1/tr182a2-copy-for-UoL.pdf) as its accepted version. |
 | source-locator | Directly inspected: equation (5), printed p.4; Theorem 3, printed p.6; Theorem 4 and its notation, printed p.7. |
-| inspection | Registration, 2026-09-11, the coordinating agent: **VV16-U001** is accepted at exact-statement and applicability inspection depth. |
-
-Registration, 2026-09-11, the coordinating agent: **VV16-U001** is accepted at exact-statement and applicability inspection depth.
-This supersedes the initial unallocated-unit note below; it does not promote the original proof to independently audited.
-The source audit before this registration had The inspected mathematical text below is unchanged.
+| inspection | Accepted on 2026-09-11 by the coordinating agent at exact-statement and applicability inspection depth; the original proof is not independently audited. |
 
 Date/reviewer: 2026-09-11, the group-theoretic research agent.
 This is a bounded source audit for Q3.
-No Claim, Role or source-unit identifier is allocated here.
 
 ## Original source and inspection
 
 A. Yu. Veretennikov and E. V. Veretennikova, *On partial derivatives of multivariate Bernstein polynomials*, Siberian Advances in Mathematics 26(4) (2016), 294–305, DOI [10.3103/S1055134416040039](https://doi.org/10.3103/S1055134416040039).
 The Russian original appeared in Matematicheskie Trudy 18(2) (2015), 22–38.
-The suggested canonical key is VV16 for the inspected English version; registration remains with the coordinating agent.
 
 The [institutional repository](https://eprints.whiterose.ac.uk/id/eprint/106084/) identifies the [author PDF](https://eprints.whiterose.ac.uk/id/eprint/106084/1/tr182a2-copy-for-UoL.pdf) as its accepted version.
 The PDF has 20 physical pages, including one repository cover page; the manuscript is dated 2016-10-16 and has 19 numbered pages.

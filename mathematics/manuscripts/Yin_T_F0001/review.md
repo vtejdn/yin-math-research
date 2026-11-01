@@ -53,6 +53,9 @@ This was a scoped authoring-agent check of the retained interfaces and their suf
 <a id="normalized-liberation-criterion-20261018"></a>
 ## Theorem 1.7: Normalized Liberation Criterion
 
+The corresponding fixed research statement and complete added argument are retained in [C_F0079 v5](../../claims/Yin_C_F0079_v5.md#statement), with its [separately arranged mathematical finding](../../audits/reviews/Yin_R_F0093_v1.md#whole-v5-finding).
+That finding concerns the fixed research mathematics; the manuscript-local checks below retain their stated authoring-agent relationships and dates.
+
 On 2026-10-18, the authoring agent checked the sum normalization in Definition 1.6, the accompanying construction in Section 4, the closure identity of `lem:tensor-images-l2` and the four-condition proof of Theorem 1.7 in the current TeX.
 The check also covered the affected normal-conjugate, ordinary-dual and example applications.
 The existing mathematical environments were preserved.
@@ -122,7 +125,7 @@ The current Section 6 separates the gradient-to-dual construction in Lemma 6.2 f
 Proposition 6.3 explicitly assumes normality and nonatomicity, which supply regularity of every scalar shift.
 Lemma 6.6 proves nonatomicity from ordinary conjugate variables, so Corollary 6.7 inherits that regularity; the [2026-10-28 check](#liberation-gradients-reorganization-20261028) records this reorganization.
 The ordinary dual-system criterion and its proof retain their existing hypotheses.
-Lemma 5.6 identifies the finite-rank solutions with the fraction-commutator closures, so the liberation and ordinary-dual criteria remain consistent.
+Lemma 5.3 identifies the finite-rank solutions with the fraction-commutator closures, so the liberation and ordinary-dual criteria remain consistent.
 The normalization argument is now Lemma 4.1 in the manuscript.
 The nonnormal liberation-gradient counterexample remains in [C_F0083 v2](../../claims/Yin_C_F0083_v2.md#statement), outside the manuscript.
 
@@ -164,7 +167,7 @@ The prior fundamental summed identity is retained as a consequence.
 
 For Theorem 1.9, (1) implies (3) uses Theorem 1.7(4), sums with the normalization and then applies Lemma 5.3.
 For (3) implies (1), Lemma 5.2 first propagates finite rank to every fraction pair; Lemma 5.6 then verifies Theorem 1.7(4) for the fixed constructed system.
-Lemmas 5.1 and 4.1 give the equivalence of (2) and (3), and Lemma 5.2 supplies the rank statement.
+Lemmas 5.1 and 4.2 give the equivalence of (2) and (3), and Lemma 5.2 supplies the rank statement.
 The conjugate-variable lemmas are not inputs to this proof.
 Theorem 1.7 only uses Lemma 5.1 from this section, so the reorganized dependency has no cycle.
 No unresolved mathematical correction was found in this checked scope.

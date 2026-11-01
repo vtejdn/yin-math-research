@@ -139,7 +139,7 @@ Hun74 does not state the particular tensor equalizer as a numbered theorem; the 
 The alternate tensor presentation qualified on p. 212 and the basis-induced action in IV.5.12 are not used here.
 
 The preceding candidate-stage “review pending” sentences are historical author-stage metadata.
-The [completed independent review](../audits/reviews/Yin_R_F0021_v1.md#yin_c_f0034-yin_c_f0035-fraction-tensor-review) and [selected assessment](#decision-candidate-0002) already accept Yin_C_F0035-P1.
+The [completed independent review](../audits/reviews/Yin_R_F0021_v1.md#yin_c_f0034-yin_c_f0035-fraction-tensor-review) and [selected assessment](#current-assessment) already accept Yin_C_F0035-P1.
 This source supplement is root's self-review of the new attribution and applicability; it does not extend the earlier review's byte-level artifact scope or claim a new independent review.
 The complete statement and proof text preceding this supplement is preserved.
 

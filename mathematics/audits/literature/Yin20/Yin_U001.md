@@ -171,7 +171,8 @@ The primary book, printed p. 450 / PDF p. 474, confirms that Yin20's four clause
 The book's definition on pp. 411–412 requires `1∈Σ` and closure under the block matrices `[[A,0],[C,B]]` for `A,B∈Σ` and every compatible `C`.
 This audit retains the theorem with its nonzero-ring and full-matrix hypotheses; the primary theorem's proof was read, but its invoked localization and matrix-ideal results are not recursively reproved here.
 Chapter III, particularly Example III.2.4 and its preceding discussion, supplies that the free algebra `P` is a Sylvester domain.
-That chapter is audited in the separate Yin20-U002 unit.
+This unit retains that assertion as a Chapter III source interface, with the accepted free-algebra structural input also recorded in [MSY23-U001](../MSY23/Yin_U001.md#external-algebra-inputs-and-evidence).
+Neither unit supplies a separate complete audit of Yin20 Chapter III.
 Combining those inputs gives an injective map
 
 \[
@@ -403,7 +404,7 @@ The opening of IV.4 on p. 56 explicitly warns that evaluating rational functions
 | Cohn–Reutenauer, *On the construction of the free field*, Int. J. Algebra Comput. 9 (1999), 307–324 [CR99] | Algebraic linear-representation existence | Minimality or a bounded realization at a given operator tuple |
 | Helton–Mai–Speicher, *Applications of realizations (aka linearizations) to free probability*, J. Funct. Anal. 274 (2018), 1–79, §5 [HMS18] | Formal-representation definitions and recursive construction as attributed by Yin20 | Attribution of Yin20's inverse-sign error to the primary paper |
 | Mai, *On the analytic theory of non-commutative distributions in free probability* (2017), Chapter III [Mai17] | Source attribution for the formal-representation proof and fullness connection | An unqualified arbitrary-ambient nondegeneracy-to-fullness assertion |
-| Yin20 Chapter III, especially Example III.2.4 and Definition III.3.2 | Free algebra is Sylvester; “linear” means affine-linear pencil | Replacement of the separate complete Chapter III audit |
+| Yin20 Chapter III, especially Example III.2.4 and Definition III.3.2 | Free algebra is Sylvester; “linear” means affine-linear pencil | A separate complete Chapter III audit in this collection |
 
 The historical polynomial-linearization and realization references mentioned in the p. 55 survey are not independent premises of the reconstructed block proof.
 Hrubeš–Wigderson [HW15] supplies the cited arithmetic-circuit viewpoint rather than a missing analytic boundedness conclusion.

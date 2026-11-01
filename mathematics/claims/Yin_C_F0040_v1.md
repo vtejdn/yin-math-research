@@ -13,7 +13,7 @@ author: Yin
 
 Registration checkpoint, 2026-09-11: Section 3 is now ordinary Claim Yin_C_F0040, proved after [root's independent review](../audits/reviews/Yin_R_F0070_v1.md#original-f0055-account).
 No mathematical Role is assigned.
-The author's original unnumbered/candidate-stage descriptions below are preserved as history; current assessments are recorded in the [selected assessment](#decision-candidate-0002).
+The author's original unnumbered/candidate-stage descriptions below are preserved as history; current assessments are recorded in the [selected assessment](#current-assessment).
 
 Date: 2026-09-11.
 Human author: Yin.

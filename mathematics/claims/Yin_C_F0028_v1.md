@@ -19,7 +19,7 @@ Human author: Yin.
 Proof development: the coordinating agent, following the completed [Yin20 Chapters III-IV audit](../audits/literature/Yin20/readme.md) and the user's request to retry the small-core problem.
 The claim is a project deduction combining the audited domain-preserving inversion mechanism, the spectral argument of [Yin_C_F0004](Yin_C_F0004_v1.md#yin_c_f0004), and the closed-domain calculus of [Yin_C_F0027](Yin_C_F0027_v1.md#yin_c_f0027).
 It does not modify the earlier statements or assert historical novelty.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 ## 1. Setting and Statement
 

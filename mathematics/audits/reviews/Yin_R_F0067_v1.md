@@ -71,7 +71,7 @@ It is L2 and unbounded.
 The t to the power n lower bound on the last interval makes its multiplied norm ratio diverge, so the specified canonical dual is unbounded.
 The phase conversion X=iS and E=-iD has E adjoint=iD adjoint, preserves both all-M domains and gives the required positive dual relation.
 The example asserts a displayed unbounded dual, without excluding another bounded dual.
-The original known contributor findings in R25/R26 remain self-reviewed and are not relabeled by this new inspection.
+The original known contributor findings in [R_F0012](Yin_R_F0012_v1.md) and [R_F0013](Yin_R_F0013_v1.md) remain self-reviewed and are not relabeled by this new inspection.
 
 ## Fresh selected v1
 

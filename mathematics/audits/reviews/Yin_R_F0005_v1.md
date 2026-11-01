@@ -8,7 +8,6 @@ Date: 2026-09-09.
 Reviewer: the reviewing agent.
 Reviewed artifact: [Yin_C_F0010 proof](../../claims/Yin_C_F0010_v1.md#yin_c_f0010).
 
-The final revision changes only the two pending-review statements to reference this completed audit; no mathematical correction was required.
 This reviewer did not author the probe argument or its written artifact.
 The interval normalization obstruction had previously been discussed by this reviewer; its written calculation and exact primary input were checked again here.
 The proof of parts 1-3 was independently reconstructed.

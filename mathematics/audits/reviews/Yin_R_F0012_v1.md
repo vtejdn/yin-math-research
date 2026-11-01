@@ -6,7 +6,8 @@ author: Yin
 
 ## Actual review arrangements
 
-The reviewer authored C_F0034/C_F0035 and the original C_F0030 proof, and had already reviewed C_F0029/C_F0024 in the same mathematical development. Those substantive contributions and shared antecedent proof context make its retained lemma, assembled-proof and own-interface findings self-reviewed.
+The reviewer authored C_F0034/C_F0035 and the original C_F0030 proof, and had already reviewed C_F0029/C_F0024 in the same mathematical development.
+Those substantive contributions and shared antecedent proof context make its retained lemma, assembled-proof and own-interface findings self-reviewed.
 The original dates, prior independent descriptions, mathematical findings and source-depth limits remain intact; these declarations perform no new mathematical review.
 
 ## Review relationships
@@ -41,7 +42,8 @@ The corresponding complete original checking account and its precise limits foll
 <a id="criterion-assembly-finding"></a>
 ### Complete criterion assembly finding
 
-Full C_F0029-P2 criterion and strict example, and C_F0030/C_F0024 P2 specialization interfaces at their unchanged statements. Selected original auxiliary sections retain their separate original findings and are not newly certified by this assembly review.
+Full C_F0029-P2 criterion and strict example, and C_F0030/C_F0024 P2 specialization interfaces at their unchanged statements.
+Selected original auxiliary sections retain their separate original findings and are not newly certified by this assembly review.
 The corresponding complete original checking account and its precise limits follow below.
 
 <a id="authored-fraction-equalizer-interface-finding"></a>

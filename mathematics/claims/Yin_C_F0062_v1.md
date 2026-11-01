@@ -18,7 +18,6 @@ Mathematical contributors: root and counterexample agent, who proposed the same 
 Complete proof promoted after independent review by another AI agent, separate from both contributors.
 
 The mathematical body below is unchanged.
-Permanent review binding and Claim allocation are separate administrative actions.
 
 Exact inputs: [C_F0025_v1 original normal core](Yin_C_F0025_v1.md#yin_c_f0025), [C_F0061_v1 bounded Neumann and finite-phase graph constructions](Yin_C_F0061_v1.md#l2-polynomial-pencil-original-graph), and the [CR94-U001 minimal-state interface](../audits/literature/CR94/Yin_U001.md#cr94-u001).
 Section 5 proves the algebraic first bootstrap without additional analytic assumptions or a full-inverse bootstrap.

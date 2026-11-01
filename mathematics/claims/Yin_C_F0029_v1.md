@@ -22,7 +22,7 @@ The good-window construction and general-left-module refinement were proposed by
 The short projection-extraction and dense-restriction cancellation arguments were supplied by the author and separately checked within the team.
 The strict noncommuting example was proposed by another AI agent and checked by root and the author.
 These preliminary contributions are disclosed separately from the later complete-artifact review.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments; no historical-priority, formal-verification, or external human-review claim is made.
+The [selected assessment](#current-assessment) records the mathematical and review assessments; no historical-priority, formal-verification, or external human-review claim is made.
 
 This theorem proves the full affiliated finite-defect criterion on arbitrary dense left modules.
 It needs neither all bounded vectors in the dual domains nor invariance under bounded right multipliers.

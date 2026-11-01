@@ -30,7 +30,7 @@ The local Yin20 PDF was checked at printed pp. 54--56; the corrected inverse blo
 The local MSY23 published PDF was checked at Theorem 5.6, printed pp. 30--32, and the local ACSY24 published PDF at Section 3.2, pp. 34--36.
 These checks accept the established algebraic representation, minimality, maximal-Delta and affiliated realization interfaces at their exact statements and applications.
 They do not recursively audit the classical free-field, affiliated-algebra, bounded Fuglede, normal spectral-calculus or Kaplansky foundations.
-For the elementary Poisson attribution in C_F0057, [NIST DLMF 1.15.12--1.15.13](https://dlmf.nist.gov/1.15#E12) was opened in this round and its Fourier formula and normalization were checked.
+For the elementary Poisson attribution in C_F0057, [DLM26, NIST DLMF 1.15.12--1.15.13](https://dlmf.nist.gov/1.15#E12) was opened in this round and its Fourier formula and normalization were checked.
 That attribution is not an unproved premise of the local geometric-series calculation.
 No numerical output, acquired program or finite computation is a proof premise in these five arguments.
 No proof-assistant check, novelty determination, manuscript designation or Task-completion assessment is made here.
@@ -222,7 +222,7 @@ They do not disprove a bound involving joint vacuum data, nor any rationality cr
 
 For 0<r<1 the density bounds follow from 1-r<=|1-rz|<=1+r.
 Multiplying the two absolutely convergent geometric series gives Fourier coefficients r^|l| and constant coefficient one.
-I independently opened NIST DLMF 1.15.12--1.15.13 and verified the exact Poisson kernel formula and normalization; these match the artifact's attribution.
+I independently opened DLM26, NIST DLMF 1.15.12--1.15.13, and verified the exact Poisson kernel formula and normalization; these match the artifact's attribution.
 
 The Haar operator takes z^n to z^(n-1) for n>=1 and zero for n<=0, hence is a norm-one Hilbert-space operator.
 The Fourier series for w_r converges with all first derivatives, so termwise application and the divided-difference integral both give E_m w_r=r/(1-rz).

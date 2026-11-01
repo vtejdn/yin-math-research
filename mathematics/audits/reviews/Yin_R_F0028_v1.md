@@ -2,7 +2,7 @@
 author: Yin
 ---
 
-# Independent review: nonnegative bounded densities and original normal cores
+# Review: nonnegative bounded densities and original normal cores
 
 Date/time: 2026-09-16T13:22.
 Human record author: Yin.
@@ -29,8 +29,8 @@ The reviewer did not author this proof or its zero-extension mechanism.
 Earlier work in the coordinated run concerned a different annulus-local module result in the normal-vacuum domain project and a review of the square-zero proof.
 Before this review, the coordinator had supplied the general upper-density transfer idea, later suspended in favor of that square-zero review.
 For the present task the reviewer received the completed candidate, the coordinator's requested checks, and the surrounding C_F0051 scope.
-During the first read-only review, the coordinator suggested deleting the unused radiuswise angular normalization; the reviewer independently checked every displayed inference and confirmed that only total-mass normalization is needed.
-This is an independent, non-blind review, with that preliminary scope discussion disclosed.
+During the first read-only review, the coordinator suggested deleting the unused radiuswise angular normalization; the reviewer checked every displayed inference and confirmed that only total-mass normalization is needed.
+The original account described this as an "independent, non-blind review", with that preliminary scope discussion disclosed; the dated [relationship correction](#review-relationship-correction) below qualifies that historical description.
 No separate-agent label or agreement substitutes for the checks below.
 
 After the initial zero-set candidate, the author supplied the globally normalized candidate without the angular condition.
@@ -50,7 +50,7 @@ Their selected proof files were read at the relevant interfaces:
 | [Yin_C_F0045_v1](../../claims/Yin_C_F0045_v1.md#decision-candidate-0002) | Lifting the intrinsic marginal bound through a free product, actual original dual/adjoint graph recovery, unchanged closure after restriction to M, and canonical free-product examples. |
 | [Yin_C_F0024_v1](../../claims/Yin_C_F0024_v1.md#decision-candidate-0002) | Complete affiliated-fraction and bounded-element criterion after the original all-M hypotheses have been established. |
 
-C_F0051 v2 is a reviewed comparison and not a proof dependency.
+C_F0051 v1 at recorded assessment 2 is a reviewed comparison and not a proof dependency.
 The zero-set result does not rely on its proof or on a provisional variant of it.
 C_F0049 is likewise a scope comparison, not an additional logical premise.
 
@@ -167,3 +167,26 @@ This review changes no canonical record, generated index, Task contract, or proo
 The result allows zeros and removes the unused angular normalization, while retaining the bounded-density and reference-radial midpoint premises.
 It does not prove necessity, allow singular angular laws or unbounded densities, cover correlated tuples, assert bounded scalar rational reconstruction, or complete the unrestricted normal-vacuum domain project.
 Internal mathematical review was performed; numerical experiments, rendered-document validation, proof-assistant verification, external human review, and historical priority assessment were not performed.
+
+## Review relationships
+
+| Review | Relationship |
+| --- | --- |
+| [Review relationship correction](#review-relationship-correction) | self-reviewed |
+
+<a id="review-relationship-correction"></a>
+## 7. Review relationship correction
+
+Date/time: 2026-11-01T06:58.
+Human record author: Yin.
+Reviewer/method: the maintenance repair agent compared the recorded arrangement in Section 1 with the [review-arrangement rule](../../../framework/rules/proof-audits.md#review-arrangements).
+This is a self-reviewed correction of the relationship description, with the original account and conclusions available as inputs, rather than a new mathematical proof review.
+
+The original independent description is unsupported by the disclosed arrangement.
+The reviewer had received the general upper-density transfer idea before this proof review, and the coordinator supplied the mathematical suggestion to remove angular normalization during the initial check.
+These are known substantive development inputs, rather than merely unrecorded historical isolation conditions.
+The separately organized review and the reviewer's non-authorship of the proof and zero-extension mechanism remain recorded facts, but do not establish independence from that development context.
+For present use the disclosed whole-proof check is self-reviewed, and its old independent description remains historical.
+
+The original 2026-09-16T13:22 inspection, mathematical PASS finding, exact proof and dependency scope, performed checks and limitations in Sections 1–6 are preserved.
+This correction supplies no new whole-proof review or retrospective independent evidence for an earlier assessment.

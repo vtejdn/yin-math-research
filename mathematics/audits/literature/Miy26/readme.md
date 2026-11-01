@@ -15,6 +15,10 @@ The following selected units retain their stated editions, passages, inspection 
 - [Yin_U002](Yin_U002.md)
 - [Yin_U003](Yin_U003.md)
 - [Yin_U004](Yin_U004.md)
+- [Yin_U005](Yin_U005.md)
+- [Yin_U006](Yin_U006.md)
+- [Yin_U007](Yin_U007.md)
+- [Yin_U008](Yin_U008.md)
 
 ## Miy26 spectral source audit
 

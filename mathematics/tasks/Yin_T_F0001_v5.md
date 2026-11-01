@@ -237,7 +237,6 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- | --- |
 | contract | [Exact material](#contract) | Exact original contract and success conditions retained in this material. |
 | dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying the unchanged v7 negative-completion alternative: literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
-| dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying the unchanged v7 negative-completion alternative: literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
 | review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r107) | Whole unchanged T_F0001 contract at recorded assessment 7 and successor resolution, complete C_F0065 two-model proof with actual supplied domains and dependencies, exact negative alternative, compact baseline and remaining strengthened/existential-only scopes. |
 
 Recorded mathematical summary: Completed by a rigorous counterexample to the original supplied-domain regular-commutator criterion: for a genuinely unbounded rational element, some/every fraction independence fails even with rank-one compact polynomial starred commutators.
@@ -261,7 +260,6 @@ Historical inspection dates and review limits remain in the cited evidence.
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Exact material](#contract) | Exact original contract and success conditions retained in this material. |
-| dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying the unchanged v7 negative-completion alternative: literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
 | dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying the unchanged v7 negative-completion alternative: literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
 | review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r107) | Whole unchanged T_F0001 contract at recorded assessment 7 and successor resolution, complete C_F0065 two-model proof with actual supplied domains and dependencies, exact negative alternative, compact baseline and remaining strengthened/existential-only scopes. |
 

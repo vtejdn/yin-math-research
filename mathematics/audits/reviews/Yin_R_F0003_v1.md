@@ -78,7 +78,6 @@ No kernel for the original dual, no polynomial graph-core result, no boundedness
 
 ## Artifact Integration
 
-Canonical file Registry headers and evidence links were added without changing the mathematical statement or argument.
 Goal [Yin_T_F0001](../../tasks/Yin_T_F0001_v1.md#yin_t_f0001) remains open; this proof settles only its stated special case.
 No numerical computation, proof assistant, or external human review was performed.
 

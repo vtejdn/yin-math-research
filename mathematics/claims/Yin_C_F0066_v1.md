@@ -15,9 +15,7 @@ Permanent Claim and proof material, 2026-10-01, Asia/Hong_Kong.
 Human record owner: Yin.
 Construction: root; initial separate conversational check: existential_domain_audit.
 Provenance: project deduction in the standard semicircular model, with its checked source interface cited below.
-The user authorized promotion of the working draft into ledger and recording its relationships with existing mathematical materials.
 [Yin_C_F0066](#decision-candidate-0002) owns assessment and selected review.
-No Task lifecycle or manuscript theorem selection is changed by this promotion.
 
 The [complete independent agent review](../audits/reviews/Yin_R_F0038_v1.md#c_f0066-existential-domain-review) covers the fixed proof, source interface and comparison boundaries.
 Its review arrangement and actual inspection limits are stated there.
@@ -178,17 +176,14 @@ The reverse implication from the existence condition to rationality is not decid
 Closed supplied operators, equality with the closed polynomial restriction, and suitable module or adjoint compatibility remain distinct possible strengthened hypotheses.
 None is asserted sufficient by this proof.
 
-## Promotion and review history
+## Construction and initial check
 
 2026-10-01: the user asked whether replacing every fraction pair by some pair could restore equivalence.
 Root constructed the present two-variable obstruction.
 The separate agent existential_domain_audit checked the Fock signs, actual domains and adjoints, compact starred commutators, existence of bounded fractions, the all-pair zero-domain argument, and genuine unboundedness.
 That conversational feedback preceded fixed-material acceptance.
 
-2026-10-01: the user authorized ledger registration and links to related mathematical materials.
-The working draft was promoted to this permanent version, preserving its proof and adding the precise statement and relationship map.
-The resulting Claim is distinct from C_F0065 because its existential conclusion is materially stronger in quantifiers and uses a different witness.
-Review and current assessment is recorded in the canonical Claim record; this history does not independently assign them.
+The result is distinct from C_F0065 because its existential conclusion is materially stronger in quantifiers and uses a different witness.
 
 
 ## Assessment history

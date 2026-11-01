@@ -16,7 +16,7 @@ Date: 2026-09-11.
 Agent contribution: root (the coordinating agent).
 Record kind: Claim/proof module for [Yin_T_F0003](../tasks/Yin_T_F0003_v1.md#yin_t_f0003) and [Yin_S_F0013](../strategies/Yin_S_F0013.md#s_f0013).
 Provenance: project deduction from standard localization.
-Initial assessment: complete proof draft, self-checked, awaiting independent review; the [selected assessment](#decision-candidate-0002) records the current assessment.
+Initial assessment: complete proof draft, self-checked, awaiting independent review; the [selected assessment](#current-assessment) records the current assessment.
 No optional Role or novelty claim is assigned.
 
 ### Statement and conventions

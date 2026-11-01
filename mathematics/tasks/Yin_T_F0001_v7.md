@@ -21,7 +21,7 @@ Canonical lifecycle: [Task record](#decision-candidate-0011).
 ## Resolution of the Fixed Contract
 
 The complete [C_F0067 proof](../claims/Yin_C_F0067_v1.md#canonical-closed-dual-raw-rationality) is selected to resolve (S), (A), and (C) below.
-Its current assessment is owned by the [Claim record](../claims/Yin_C_F0067_v1.md#decision-candidate-0002); the Task lifecycle above owns whether its independent whole-proof and completion review has been accepted.
+Its current assessment is owned by the [Claim record](../claims/Yin_C_F0067_v1.md#current-assessment); the Task lifecycle above owns whether its independent whole-proof and completion review has been accepted.
 This material does not independently change either status.
 The [separate whole-proof and completion audit](../audits/reviews/Yin_R_F0079_v1.md#retained-r109-conclusion) passes the full fixed statement, its exact accepted inputs and every completion obligation.
 

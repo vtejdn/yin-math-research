@@ -63,7 +63,7 @@ The original contributed bh finding remains SELF and its main finding UNKNOWN, w
 ## Original core account retained
 
 Its original relationship and exact Target/Scope rows are retained in the tables above, without a new date or independence upgrade.
-The entire original arrangement, findings, source depths, execution facts, negative findings and locator-maintenance prose follow.
+The entire original arrangement, findings, source depths, execution facts and negative findings follow.
 
 ## Yin_C_F0012: Independent Adversarial Recheck of the Fock and Bounded-Dual Construction
 
@@ -245,20 +245,13 @@ The affiliated interpretation is unnecessary for the reviewed construction and i
 Nonmembership, the optional minimal representations, and final status integration are outside this scoped verdict and are handled by the separate complete-chain review.
 No numerical experiment, proof assistant, external human review, or novelty assessment was performed.
 
-### Final Documentation Revision
-
-2026-09-09, the coordinating agent: the mathematical statements, formulas and proofs are unchanged from the independently reviewed revision identified above.
-Replaced candidate/pending-review prose with completed review links and formatted one spectral-cutoff expression as LaTeX to prevent an unintended Markdown link.
-The coordinating agent checked this restricted edit.
-The original reviewer's exact mathematical inspection scope is preserved above; this supplement does not claim that the reviewer performed an additional mathematical audit of new content.
-
 
 <a id="original-f0013-account"></a>
 <a id="original-f0013-account-retained"></a>
 ## Original main account retained
 
 Its original relationship and exact Target/Scope rows are retained in the tables above, without a new date or independence upgrade.
-The entire original arrangement, findings, source depths, execution facts, negative findings and locator-maintenance prose follow.
+The entire original arrangement, findings, source depths, execution facts and negative findings follow.
 
 ## Yin_C_F0012: Independent Review of the Sandwich Counterexample
 
@@ -469,11 +462,4 @@ No external realization theorem, bounded-dual transfer, rational-series stabilit
 The local links were checked.
 No numerical experiment, software build, proof assistant, external human review, author correspondence, publication review or novelty assessment was performed.
 This is an internal mathematical review, not formal verification.
-Any later substantive change requires a scoped recheck; a final provenance-only revision can be recorded below at its actual scope.
-
-### Final Documentation Revision
-
-2026-09-09, the coordinating agent: the mathematical statements, formulas and proofs are unchanged from the independently reviewed revision identified above.
-Replaced candidate/pending-review prose with completed review links and formatted one spectral-cutoff expression as LaTeX to prevent an unintended Markdown link.
-The coordinating agent checked this restricted edit.
-The original reviewer's exact mathematical inspection scope is preserved above; this supplement does not claim that the reviewer performed an additional mathematical audit of new content.
+Any later substantive change requires a scoped recheck.

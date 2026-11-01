@@ -20,7 +20,6 @@ No general all-M domain or bounded Hilbert-space dual is assumed.
 
 The full original graph-module argument and affine-state proof are included here.
 Historical scratch review inputs were the kernel-denominator proof and amended affine proof.
-Canonical Claim allocation and exact permanent review binding are separate.
 
 Reuse: C_F0025 supplies the actual phase/coarse derivation and normalized weak form.
 The graph projection, row/column damping, finite Gram probes and trace limits are proved below.

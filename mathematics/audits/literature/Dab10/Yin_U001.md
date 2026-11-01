@@ -97,4 +97,4 @@ Search on 2026-09-09 was restricted to the exact arXiv identifier, theorem locat
 The [arXiv record](https://arxiv.org/abs/0804.2906v2) and [publisher record](https://www.sciencedirect.com/science/article/pii/S0022123610000686) identify the published article; the publisher PDF was not compared.
 The versioned PDF URL initially returned a cache miss; the current PDF and explicit v2 HTML were readable.
 There was no whole-paper audit, numerical computation, formal verification, external human review, or priority assessment.
-Sole bibliographic registration remains in `mathematics/literature/readme.md`.
+Bibliographic metadata is maintained in the [canonical bibliography](../../../literature/references.bib).

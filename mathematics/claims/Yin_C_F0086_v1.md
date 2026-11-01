@@ -25,7 +25,7 @@ The complete Yin_C_F0085 artifact is unchanged.
 Mathematical assessment at authorship: proof draft.
 Review assessment at authorship: self-reviewed; independent review pending.
 Current candidate: [yin_c_f0086-p1](#yin_c_f0086-p1).
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 Let \((\mathcal M,\tau)\) be finite tracial with faithful normal probability trace.
 Put \(H=L^2(\mathcal M,\tau)\), \(\Omega=1\), \(P=P_\Omega\), and use an inner product linear in its second variable.

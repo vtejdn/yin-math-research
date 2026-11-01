@@ -141,87 +141,20 @@ It is weaker than boundedness $H\to H$, but suffices for the regular-denominator
 
 ## 4. A Reconstructed Bounded-Dual Consequence of Lipschitz Conjugates
 
-The following proof gives a more direct sufficient condition than separately assuming a bounded second conjugate variable.
-It is a reconstruction of the same adjoint/coassociativity mechanism behind Lemma 10, not a claim that this exact statement is printed as a theorem in Dab10.
-
-Fix one coordinate and suppose, in addition to (1), that
-\[
-\xi_i\in\operatorname{Dom}\overline\partial_i,
-\qquad
-B_i:=(\mathrm{id}\otimes\tau)\overline\partial_i\xi_i\in M.
-\tag{11}
-\]
-In particular, Lipschitz conjugate variables as in MS23 satisfy (11): the partial trace is a contractive normal map on the bounded spatial tensor product.
-
-For $p\in A$, graph approximation of $\xi_i$ by polynomials shows $p\xi_i\in\operatorname{Dom}\overline\partial_i$ and
-\[
-\overline\partial_i(p\xi_i)
-=p\overline\partial_i\xi_i+(\partial_i p)\cdot\xi_i.
-\tag{12}
-\]
-The second term is legitimate even without assuming $\xi_i\in M$: $\partial_i p$ is a finite sum of tensors of bounded elements, and right multiplication of its second factor by the $L^2$ vector $\xi_i$ is continuous for each such factor.
-The same approximants, after applying the bounded partial-trace map on Hilbert tensor products, put $p\xi_i$ in $\operatorname{Dom}D_i$.
-
-If $\partial_i p=\sum_k a_k\otimes b_k$, conjugacy and coassociativity give
-\[
-\begin{aligned}
-D_i(p\xi_i)
-&=pB_i+\sum_k a_k\tau(b_k\xi_i)\\
-&=pB_i+(\mathrm{id}\otimes\tau\otimes\tau)
-       (\mathrm{id}\otimes\partial_i)\partial_i p\\
-&=pB_i+(\mathrm{id}\otimes\tau\otimes\tau)
-       (\partial_i\otimes\mathrm{id})\partial_i p\\
-&=pB_i+D_{i,0}^2p.
-\end{aligned}
-\tag{13}
-\]
-Thus (7) places $E_{i,0}p$ in $\operatorname{Dom}D_i$ and gives $D_iE_{i,0}p=pB_i$.
-The adjoint relation now yields
-\[
-\|E_{i,0}p\|_2^2
-=\langle p,D_iE_{i,0}p\rangle
-=\tau(p^*pB_i)
-\le\|B_i\|\|p\|_2^2.
-\tag{14}
-\]
-The equality also implies $B_i\ge0$, by density and continuity of the bounded right-multiplication quadratic form.
-
-Equation (14) makes $E_{i,0}$ bounded on its dense polynomial domain, hence it has a unique bounded extension $E_i^{\mathrm b}$ to $H$.
-The polynomial adjoint identity gives $D_{i,0}\subseteq(E_i^{\mathrm b})^*$, so its closure is the bounded operator $(E_i^{\mathrm b})^*$ on all of $H$.
-The polynomial dual relation then extends by continuity to
-\[
-\boxed{D_i\in B(H),\qquad[D_i,X_j]=\delta_{ij}P_\Omega,
-\qquad\|D_i\|\le\|B_i\|^{1/2}
-\le\|\overline\partial_i\xi_i\|^{1/2}.}
-\tag{15}
-\]
-The last inequality assumes the bounded spatial-tensor hypothesis of Lipschitz conjugates.
-In fact (13), by bounded extension, gives $D_iD_i^*=\rho(B_i)$ and hence $\|D_i\|^2=\|B_i\|$.
-No smallness of the derivative norm is needed.
-
-This supplies the missing interface from MS23's all-$|q|<1$ Lipschitz conclusion to a simultaneous bounded canonical dual system.
-The earlier MS23 audit correctly observed that its vacuum-functional estimate alone does not bound the whole dual.
-It did not take this additional contraction argument into account, so a blanket statement that the combined literature supplies only small-$q$ bounded duals needs a dated correction.
-This consequence concerns bounded duals and the affiliated rationality criterion; it does not establish multivariable rational $L^2$ boundedness or scalar bounded-division-closure equality.
-
-For comparison with Remark 11, if $\xi_i$ is bounded and its closed derivative is bounded, graph approximation and the standard adjoint formula also give
-\[
-\mathcal J_{2,i}
-=\partial_i^*(1\otimes\xi_i)
-=\xi_i^2-(\tau\otimes\mathrm{id})\overline\partial_i\xi_i\in M.
-\tag{16}
-\]
-The two partial traces in (11) and (16) occupy different tensor legs; (13) fixes the orientation needed for (15).
-Either (15) or the weaker bound (5) suffices for the MS23 application.
+The additional local bounded-dual deduction is retained in [C_F0092](../../../claims/Yin_C_F0092_v1.md#statement), with its complete [argument](../../../claims/Yin_C_F0092_v1.md#argument) and selected mathematical review.
+It assumes that the conjugate variable lies in the closed derivative domain and that its id-tensor-trace derivative contraction is bounded; it gives the bounded canonical dual, positivity, the exact right-multiplier norm identity and the Lipschitz specialization.
+The fixed argument also retains the optional bounded second-conjugate comparison and distinguishes the two tensor legs.
+This is a project deduction from the adjoint/coassociativity mechanism, not a claim that its exact statement is printed as a theorem in Dab10.
+It is separate from C_F0023's degree-weighted q-Gaussian proof and supplies no rational-L2 boundedness or scalar bounded-division-closure equality.
 
 ## 5. Verification Boundaries and Review
 
-The source statement, adjoint identities, constants sufficient for arbitrary complex polynomials, graph-closure extension to all bounded vectors, and the Lipschitz consequence have been reconstructed here.
+The source statement, adjoint identities, constants sufficient for arbitrary complex polynomials and graph-closure extension to all bounded vectors are reconstructed above.
+The additional Lipschitz consequence is retained at the fixed Claim home linked in Section 4.
 Accepted external inputs are the finite-Fisher algebraic-freeness and closability theory, the closed-real-derivation functional calculus used inside Lemma 12, Kaplansky density, and the finite tracial free-product construction for the one-variable reduction.
 No entropy, factoriality, non-Gamma, or property-(T) proof is promoted by this unit.
 
-Independent review, 2026-09-09, the triangular-dual reviewer: read all five sections and independently retrieved the primary arXiv:0804.2906v2 pp. 8-9, including Lemma 10, Remark 11, their displayed proof, and Lemma 12 with its proof.
+Independent review, 2026-09-09, the triangular-dual reviewer: read the original five-section account, including the local deduction now retained in C_F0092, and independently retrieved the primary arXiv:0804.2906v2 pp. 8-9, including Lemma 10, Remark 11, their displayed proof, and Lemma 12 with its proof.
 The reviewer checked the sufficient constants, the retained functional-calculus boundary, both closed-graph extensions to $M$, bounded-set weak continuity, the product graph limits, tensor-leg order, coassociativity, positivity, and the final bounded-extension argument.
 It independently confirmed $D_iE_{i,0}p=pB_i$ and $D_iD_i^*=\rho(B_i)$, and recommended acceptance without a mathematical correction.
 The reviewer had previously developed a separate particle-degree construction of the q-Gaussian bounded dual; that involvement is disclosed, and its argument is not a dependency of this unit.
-This paragraph adds the subsequent review record without changing the inspected mathematical text.

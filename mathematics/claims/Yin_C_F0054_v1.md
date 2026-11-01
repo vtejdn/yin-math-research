@@ -14,7 +14,7 @@ author: Yin
 Kind: Claim/proof module.
 Date: 2026-09-16.
 Human record author: Yin.
-Proof developed by Codex research agent another AI agent and separately reviewed by the reviewing agent.
+A Codex research agent developed the proof, which the reviewing agent separately reviewed.
 Consumer: the separate normal-domain investigation, Q3.
 The [selected assessment](#decision-candidate-0003) records the mathematical and review assessments.
 The result refutes a proposed estimate for the transformed derivation, not the original Task.

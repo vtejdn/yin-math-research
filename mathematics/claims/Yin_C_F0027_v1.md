@@ -20,7 +20,7 @@ Human author: Yin.
 Proof development: another AI agent, at the request of the coordinating agent.
 This module records two ingredients for the developing small-core package; the coordinating agent allocated Yin_C_F0027 after the initial draft.
 It does not modify the hypotheses or recorded proof of [Yin_C_F0024](Yin_C_F0024_v1.md#yin_c_f0024).
-The [complete review](../audits/reviews/Yin_R_F0016_v1.md) records the inspected version and outcome; the [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [complete review](../audits/reviews/Yin_R_F0016_v1.md) records the inspected version and outcome; the [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 ## 1. Setting and the Two Supported Conclusions
 

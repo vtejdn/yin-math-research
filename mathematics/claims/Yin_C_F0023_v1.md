@@ -19,7 +19,7 @@ Context: the user requested a re-examination of the main rationality theorem und
 Provenance: project deduction by another AI agent, using the fully audited MS23 conjugate expansion and a polynomial-degree triangular reconstruction proved here.
 the coordinating agent allocated Yin_C_F0023 for this deduction.
 Initial assessment: complete proof draft and author self-check, awaiting independent review of this written artifact.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments; independent review evidence must be recorded separately.
+The [selected assessment](#current-assessment) records the mathematical and review assessments; independent review evidence must be recorded separately.
 No source priority, historical novelty, formal verification or human-review claim is made.
 
 ## 1. Statement

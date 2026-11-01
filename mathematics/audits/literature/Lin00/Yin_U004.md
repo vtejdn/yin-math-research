@@ -61,7 +61,7 @@ U001 explicitly constructs common left and right denominators using affiliated r
 Thus the inaccessible historical citation is not treated as a completed proof audit.
 AP18's foundational proof remains outside the present inspection.
 
-For Lemma 2.3, the original statement of Linnell's 1991 *Zero divisors and group von Neumann algebras*, Lemma 12, printed pp. 356-357, was directly checked in the [publisher PDF](https://msp.org/pjm/1991/149-2/pjm-v149-n2-p09-p.pdf), PDF pp. 9-10.
+For Lemma 2.3, the original statement of Lin91, Linnell's 1991 *Zero divisors and group von Neumann algebras*, Lemma 12, printed pp. 356-357, was directly checked in the [publisher PDF](https://msp.org/pjm/1991/149-2/pjm-v149-n2-p09-p.pdf), PDF pp. 9-10.
 For projections $e,f\in M_n(W(G))$ with disjoint principal right ideals, it gives $\operatorname{Tr}e+\operatorname{Tr}f=\operatorname{Tr}(e\vee f)$.
 This statement has no amenability assumption.
 Its relation to the trace-dimension argument, not the paper's separate zero-divisor theorem, is the relevant issue here.
@@ -74,7 +74,7 @@ They do not turn every lemma quoted in Berberian, Dieudonne, AP18 or the 1991 ar
 
 ## The division-ring and free-field assertions are separate
 
-Lin00 p. 3 cites Linnell's 1993 *Division Rings and Group von Neumann Algebras*, Theorem 1.3, and p. 573.
+Lin00 p. 3 cites Lin93, Linnell's 1993 *Division Rings and Group von Neumann Algebras*, Theorem 1.3, and p. 573.
 The primary journal pages were directly inspected in the Gottingen digitization: [printed p. 562](https://gdz.sub.uni-goettingen.de/content/PPN481110151_0005/800/0/00000566.jpg) and [printed p. 573](https://gdz.sub.uni-goettingen.de/content/PPN481110151_0005/800/0/00000577.jpg).
 
 Theorem 1.3 gives a division ring between $\mathbb CG$ and $U(G)$ when $G$ is torsion free with a normal free subgroup and elementary amenable quotient.

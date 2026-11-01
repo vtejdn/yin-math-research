@@ -14,7 +14,7 @@ author: Yin
 
 Date: 2026-09-29.
 Human record author: Yin.
-Proof developed by the research agent another AI agent; separate complete mathematical review by `counterexample`.
+A research agent developed the proof; `counterexample` performed a separate complete mathematical review.
 Consumer: [T_F0001 current contract](../tasks/Yin_T_F0001_v2.md).
 This is a new ordinary Claim proof, not a manuscript theorem designation or formal extraction.
 The canonical Claim record owns the mathematical and review assessments.

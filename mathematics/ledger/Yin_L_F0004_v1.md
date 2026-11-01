@@ -322,7 +322,7 @@ All-$M$ domain containment is established through the recorded estimates, not im
 
 Statement/proof: [q-Fock/Wick](#fock), [normalized polynomial dual](#polynomial-dual), and [conjugates](#conjugates).
 Bounded extension of the whole dual is the project conclusion; it is not included in MS23's definition.
-The [separate Lipschitz route](../audits/literature/Dab10/Yin_U002.md#4-a-reconstructed-bounded-dual-consequence-of-lipschitz-conjugates) gives the same conclusion, but is not an input to this degree-weighted proof.
+The [separate Lipschitz route](../claims/Yin_C_F0092_v1.md#statement) gives the same conclusion, but is not an input to this degree-weighted proof.
 
 <a id="yin_c_f0024-definitions"></a>
 ### [Yin_C_F0024](../claims/Yin_C_F0024_v1.md#yin_c_f0024)

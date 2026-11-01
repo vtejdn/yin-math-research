@@ -1,4 +1,4 @@
-"""Finite exact check of Miy23 Proposition 5.1, independent polynomial recurrence."""
+"""Finite exact check of MS23 Proposition 5.1, independent polynomial recurrence."""
 from fractions import Fraction
 from functools import lru_cache
 from itertools import product

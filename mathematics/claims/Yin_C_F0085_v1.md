@@ -64,7 +64,7 @@ The preceding checkpoint is retained as the record of the initial missing bridge
 The following complete candidate supplies the bridge and its source interface.
 Mathematical assessment at authorship: proof draft.
 Review assessment at authorship: self-reviewed; independent review pending.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 Let \((\mathcal M,\tau)\) be a finite von Neumann algebra with faithful normal probability trace, \(H=L^2(\mathcal M,\tau)\), \(\Omega=1\), and \(P=P_\Omega\).
 The inner product is linear in its second variable.

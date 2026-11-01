@@ -14,7 +14,7 @@ author: Yin
 
 Date: 2026-09-29.
 Human record author: Yin.
-Proof developed by the research agent another AI agent, with root contributing the smooth-kernel testing and positive-weight discussion.
+A research agent developed the proof, with root contributing the smooth-kernel testing and positive-weight discussion.
 Consumer: [T_F0001 current contract](../tasks/Yin_T_F0001_v2.md).
 This is an ordinary Claim proof.
 The canonical Claim record owns the mathematical and review assessment.

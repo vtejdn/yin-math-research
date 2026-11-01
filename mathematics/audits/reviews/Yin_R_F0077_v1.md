@@ -164,7 +164,9 @@ The review confirms this restricted implication and its example, with no general
 
 ## Actual review arrangement
 
-The reviewer fully recomputes the fixed radial proof without correction and reads C_F0044 and its [original scalar marginal-domain finding](Yin_R_F0076_v1.md#scalar-marginal-domain-finding) as dependencies. Those dependency reviews do not imply target-proof contribution or initial isolation. Initial separation from target-author development and prior target-review summaries is not established in the original account.
+The reviewer fully recomputes the fixed radial proof without correction and reads C_F0044 and its [original scalar marginal-domain finding](Yin_R_F0076_v1.md#scalar-marginal-domain-finding) as dependencies.
+Those dependency reviews do not imply target-proof contribution or initial isolation.
+Initial separation from target-author development and prior target-review summaries is not established in the original account.
 The original 2026-09-11 date, exact source depths and mathematical limits remain intact.
 This maintenance performs no new review or isolated-context certification.
 

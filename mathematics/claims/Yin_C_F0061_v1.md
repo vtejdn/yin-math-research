@@ -20,7 +20,6 @@ Exact original hypotheses are [C_F0025_v1](Yin_C_F0025_v1.md#yin_c_f0025), plus 
 This is a conditional sufficient criterion for bounded scalar weak forms, not an assertion that every bounded rational scalar supplies that premise.
 
 The proof below has no mathematical dependence on scratch files.
-Exact permanent review binding and Claim allocation are separate actions.
 
 The accepted [CR94-U001 minimality interface](../audits/literature/CR94/Yin_U001.md#cr94-u001) supplies algebraic state independence; no analytic state-integrability hypothesis is imported.
 The actual proof uses C_F0025 normal phases, original polynomial graph closure, bounded Neumann series, and tracial spectral dominated convergence as detailed below.

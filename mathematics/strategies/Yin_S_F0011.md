@@ -215,7 +215,7 @@ Positive weights applied to [TV06-U001](../audits/literature/TV06/Yin_U001.md#tv
 A line-supported power-law example proves curvature alone insufficient but fails the vacuum condition, so it is not a Task counterexample.
 The earlier Tolsa-Verdera source exclusion below remains valid: its geometric premises have not been deduced from the bare vacuum, and polynomial pairing convergence alone does not justify uniform boundedness of Cauchy truncations.
 
-Reviewed nonnegative-density continuation, 2026-09-16: [Yin_C_F0052](../claims/Yin_C_F0052_v1.md#nonnegative-density-normal-core-transfer), with [complete independent review](../audits/reviews/Yin_R_F0028_v1.md), allows the bounded density to vanish and removes angular normalization, requiring only total mass one.
+Reviewed nonnegative-density continuation, 2026-09-16: [Yin_C_F0052](../claims/Yin_C_F0052_v1.md#nonnegative-density-normal-core-transfer), with [complete review](../audits/reviews/Yin_R_F0028_v1.md) now [classified as self-reviewed](../audits/reviews/Yin_R_F0028_v1.md#review-relationship-correction) on its disclosed development inputs, allows the bounded density to vanish and removes angular normalization, requiring only total mass one.
 The radial L2 midpoint condition belongs to the reference measure.
 Zero extension on the density's zero set and uniqueness of the original closed graph recover the intrinsic marginal norm estimate, so both original all-M domains and the original free-tuple criterion follow.
 The half-plane example has a zero-density region of positive reference measure.

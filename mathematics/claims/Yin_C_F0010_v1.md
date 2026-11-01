@@ -18,7 +18,7 @@ Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 Route: [Yin_S_F0005](../strategies/Yin_S_F0005.md#s_f0005).
 Date: 2026-09-09.
 Provenance: project deduction from [Yin_C_F0007](Yin_C_F0007_v1.md#yin_c_f0007), the bounded-dual relation, and finite-tracial noncommutative Holder inequalities.
-Assessment: [selected assessment](#decision-candidate-0002); the [independent audit](../audits/reviews/Yin_R_F0005_v1.md) records the checked artifact and scope.
+Assessment: [selected assessment](#current-assessment); the [independent audit](../audits/reviews/Yin_R_F0005_v1.md) records the checked artifact and scope.
 No novelty is asserted.
 
 The bounded dual acts on the actual L2 states without any word expansion.

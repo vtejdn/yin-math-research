@@ -19,7 +19,7 @@ Date: 2026-09-09.
 Provenance: project deduction completing the scaled-semicircular candidate preserved in the [historical exploration](../ledger/Yin_L_F0002_v1.md).
 Initial candidate: another AI agent; complete proof and center argument: another AI agent.
 No novelty claim.
-Assessment: [selected assessment](#decision-candidate-0002); the [independent full-chain audit](../audits/reviews/Yin_R_F0006_v1.md) records root's completed review.
+Assessment: [selected assessment](#current-assessment); the [independent full-chain audit](../audits/reviews/Yin_R_F0006_v1.md) records root's completed review.
 
 ## Statement and Scope
 

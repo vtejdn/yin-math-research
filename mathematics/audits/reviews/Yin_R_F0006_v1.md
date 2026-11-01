@@ -73,9 +73,3 @@ It refutes the stronger bounded-descent assertion under free-field embedding alo
 It therefore does not refute Yin_C_F0001 and does not, by itself, complete Yin_T_F0001.
 The full-support atomic boundary, support-dependent affiliated products, strong cutoff limits, and universal representation quantifier were checked.
 No numerical experiment, proof assistant, external human review, or literature-priority assessment was performed.
-
-## Post-Review Record Update
-
-2026-09-09, the coordinating agent: replaced only draft/pending-review provenance with links to the completed review.
-The mathematical statements and proofs are unchanged from the independently reviewed candidate above.
-The coordinating agent checked this restricted edit.

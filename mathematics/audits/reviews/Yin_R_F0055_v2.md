@@ -51,7 +51,9 @@ Human record author: Yin.
 The human authorized a scoped rule and evidence comparison; the selected normal-core findings are retained below.
 This was a targeted maintenance recheck after the agent knew the previous diagnosis and conclusions, not a new independent whole-proof review.
 The agent read the original reviews and compared their actual statement coverage, direct-input disclosures and correction passages with the selected mathematical materials.
-The original separately organized mathematical reviews remain the basis of the retained independently reviewed classification, with no blind, human or external review inferred.
+The original applicability account retained an independently reviewed classification based on the earlier separately organized mathematical reviews, with no blind, human or external review inferred.
+For C_F0052, [R_F0028's dated relationship correction](Yin_R_F0028_v1.md#review-relationship-correction) now records self-review because substantive development inputs were disclosed.
+The original PASS and applicability findings retain their dates and mathematical scopes; the relationship correction supplies no new whole-proof review.
 
 ## Per-Claim findings
 
@@ -172,7 +174,6 @@ This review does not authorize a mathematical completion verdict for the new tar
 Date: 2026-09-10.
 The coordinating agent integrated the 20 source supplements into 10 concept groups and attached one definition-use entry to each of Yin_C_F0001-Yin_C_F0035.
 The source records identify primary versions and actual inspection depth.
-The only pre-existing files edited in this pass are the definition index, literature-audit index, ledger index, Claim registry and current-status handoff.
 
 Independent read-only documentation checks were performed within the agent team.
 another AI agent checked the Claim-use map and the four algebra supplements; another AI agent checked the integrated concept index and root's six source supplements; another AI agent checked the five derivation/dual supplements against retained audit interfaces and selected primary pages.

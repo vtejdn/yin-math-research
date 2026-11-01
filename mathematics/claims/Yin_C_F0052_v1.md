@@ -14,14 +14,14 @@ author: Yin
 Kind: Claim / proof module.
 Date: 2026-09-16.
 Human record author: Yin.
-Developed by Codex research agent another AI agent following the coordinator's proposed zero-set continuation and removal of the unused angular normalization.
+A Codex research agent developed the argument following the coordinator's proposed zero-set continuation and removal of the unused angular normalization.
 Consumer: the separate normal-domain investigation, Q3.
 
 <a id="nonnegative-density-normal-core-transfer"></a>
 
-This is a scope extension beyond the strictly positive, independently reviewed [C_F0051 v2](Yin_C_F0051_v1.md#decision-candidate-0002).
+This is a scope extension beyond the strictly positive, independently reviewed result in [C_F0051 v1 at recorded assessment 2](Yin_C_F0051_v1.md#decision-candidate-0002).
 That artifact is unchanged and is cited for comparison, not as a proof premise.
-No necessity or unrestricted the normal-domain investigation completion is asserted.
+No necessity result or unrestricted completion of the normal-domain investigation is asserted.
 ## 1. Statement, source reuse and the changed hypothesis
 
 Let sigma be a probability on (0,R], R finite, and let
@@ -36,7 +36,7 @@ Let b be merely measurable with
  \int b\,d\nu=1,
  \qquad d\mu=b\,d\nu.                            \tag{2}
 \]
-In contrast to C_F0051 v2, b may vanish on a set of positive nu-measure, and its angular mean need not be one at each radius.
+In contrast to C_F0051 v1 at recorded assessment 2, b may vanish on a set of positive nu-measure, and its angular mean need not be one at each radius.
 The measure sigma is the radius law of the reference nu; it need not be the radius law of mu.
 More explicitly the latter is bar b(r) d sigma(r), where bar b(r) is the angular mean of b.
 The global normalization in (2) makes mu a probability, and no comparison with mu's own radial midpoint is asserted.
@@ -82,14 +82,14 @@ This statement never identifies the two Hilbert adjoints.
 
 Knowledge reuse: [C_F0047](Yin_C_F0047_v1.md) gives the actual radial domains, estimate, and bounded-function adjoint identity.
 The transfer calculation of [C_F0048](Yin_C_F0048_v1.md), checked in its [independent review](../audits/reviews/Yin_R_F0022_v1.md), already supplies the density pairing mechanism without division by b.
-C_F0048/C_F0049's written assumptions are uniformly positive; the independently reviewed C_F0051 v2 is strictly positive without a lower bound.
+C_F0048/C_F0049's written assumptions are uniformly positive; the independently reviewed C_F0051 v1 at recorded assessment 2 is strictly positive without a lower bound.
 Those statements also retain angular mean one.
 None states the present zero-set extension with only total-mass normalization.
 The new step is to recover the intrinsic mu sup-norm estimate through zero extension and uniqueness of the original closed graph.
 The angular-mean identity plays no role in the forward pairing, estimates, or graph recovery below; only the probability normalization is needed.
 We reuse [C_F0045](Yin_C_F0045_v1.md), [C_F0025](Yin_C_F0025_v1.md) and [C_F0024](Yin_C_F0024_v1.md) only after that step.
 Their existing source interfaces suffice; no new external theorem or source search is needed.
-C_F0051 v2 is an independently reviewed comparison of scope, not an additional proof premise here.
+C_F0051 v1 at recorded assessment 2 is an independently reviewed comparison of scope, not an additional proof premise here.
 
 ## 2. The represented core and the actual vacuum vector
 
@@ -227,7 +227,7 @@ The radial midpoint satisfies
  \|A\|_{L^2(\sigma)}^2=\frac{\beta}{3\beta-2}<\infty.
 \]
 Hence the constructed vector (5) is the actual vacuum adjoint by (10), and all of (4)-(6),(15) hold.
-This example is outside C_F0051 v2 because the measures do not have the same null sets.
+This example is outside C_F0051 v1 at recorded assessment 2 because the measures do not have the same null sets.
 Its additional angular-mean-one property is specific to this example and is not needed in the statement or proof.
 
 The conclusion remains a sufficient one under the independent reference-radial L2 premise.
@@ -270,6 +270,7 @@ Historical inspection dates and review limits remain in the cited evidence.
 | status | proved |
 
 Recorded review label: independently reviewed.
+This historical label is qualified by R_F0028's [review-relationship correction](../audits/reviews/Yin_R_F0028_v1.md#review-relationship-correction): the disclosed prior development inputs make the original complete mathematical check self-reviewed for present use.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -297,6 +298,7 @@ Historical inspection dates and review limits remain in the cited evidence.
 | status | proved |
 
 Recorded review label: independently reviewed.
+This historical label is qualified by R_F0028's [review-relationship correction](../audits/reviews/Yin_R_F0028_v1.md#review-relationship-correction): the disclosed prior development inputs make the original complete mathematical check self-reviewed for present use.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -307,7 +309,7 @@ Recorded review label: independently reviewed.
 | dependency | [Exact material](Yin_C_F0045_v1.md#decision-candidate-0002) | Intrinsic marginal infinity-to-L2 lifting, original dual and adjoint graph restoration and free-product examples. |
 | dependency | [Exact material](Yin_C_F0047_v1.md#decision-candidate-0002) | Reference radial midpoint sufficient condition, actual radial domains, vacuum formula and quantitative bound. |
 | dependency | [Exact material](Yin_C_F0048_v1.md#decision-candidate-0002) | Density-transfer and vacuum-pairing mechanism, reconstructed here without strict positivity or angular normalization. |
-| review | [Exact material](../audits/reviews/Yin_R_F0055_v1.md#c-f0089-applicability) | Yin_C_F0052 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete independent mathematical review at its unchanged scope. No new whole-proof independent review, proof change, dependency change or Task completion. |
+| review | [Exact material](../audits/reviews/Yin_R_F0055_v1.md#c-f0089-applicability) | Yin_C_F0052 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete mathematical check and exact scope. Its original independent description is historical and is corrected to self-reviewed on the disclosed prior development inputs in R_F0028's [relationship correction](../audits/reviews/Yin_R_F0028_v1.md#review-relationship-correction). No new whole-proof independent review, proof change, dependency change or Task completion. |
 
 Recorded mathematical summary: A probability with any bounded nonnegative density relative to a radial reference satisfying the L2 midpoint condition has both original bounded-function domains; zero-set extension recovers intrinsic estimates and the full original free-tuple criterion.
 
@@ -341,7 +343,8 @@ Review: [Exact material](../audits/reviews/Yin_R_F0028_v1.md).
 
 Material covered by that review: [Exact material](Yin_C_F0052_v1.md).
 
-Yin_C_F0052 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete independent mathematical review at its unchanged scope.
+Yin_C_F0052 (recorded assessment 2): current-rule execution-path and exact review-evidence correspondence; retain the original complete mathematical check and exact scope.
+Its original independent description is historical and is corrected to self-reviewed on the disclosed prior development inputs in R_F0028's [relationship correction](../audits/reviews/Yin_R_F0028_v1.md#review-relationship-correction).
 No new whole-proof independent review, proof change, dependency change or Task completion.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0055_v1.md#c-f0089-applicability).

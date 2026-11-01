@@ -9,6 +9,7 @@ author: Yin
 
 The inspected source is the [24-page published journal version](../../../literature/pdf/Miy22.pdf); printed and PDF pages agree when the opening article page is counted as 1.
 The related 20-page arXiv preprint was not compared line by line and its locators are not substituted.
+The MAR07 comparison in U009 retains its separate [annotated-copy contents and historical parsed-text inspection limits](../MAR07/readme.md#yin-edition).
 
 The following selected units retain their stated editions, passages, inspection dates, and review limits.
 

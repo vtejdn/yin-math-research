@@ -17,7 +17,7 @@ author: Yin
 Date: 2026-09-10.
 Human author: Yin.
 Proof development: another AI agent, following the user's request for an intermediate domain hypothesis in the main criterion.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments; this complete draft is submitted for independent review.
+The [selected assessment](#current-assessment) records the mathematical and review assessments; this complete draft is submitted for independent review.
 This is an incremental extension of [Yin_C_F0024](Yin_C_F0024_v1.md#yin_c_f0024), whose recorded statement is preserved.
 Only its explicitly identified elementary arguments are reused below, not its final theorem with an unmet premise.
 No dependence on the separately drafted Yin_C_F0029 is needed.

@@ -22,7 +22,8 @@ No C edits were made.
 The primary DML-CZ [Lau88 PDF](https://dml.cz/bitstream/handle/10338.dmlcz/102208/CzechMathJ_38-1988-1_11.pdf) was opened at the algebraic spectral-space definition on printed p.158, well/super-decomposability and Proposition 3.7 on p.164, and Theorem 4.1 on p.166.
 It has seventeen PDF pages including the repository cover.
 The source's original predecessor proof chain was not re-audited; these exact published statements are accepted inputs.
-The existing ACSY24-U001 and Shl06-U001 source interfaces were read for the claimed adjoint meaning and the limits of the comparison.
+The existing ACSY24-U001 source interface was read for the claimed adjoint meaning and the limits of the comparison.
+The historical comparison labeled Shl06-U001 has no established work or edition identity in the retained source evidence; no identifiable Shl06 statement or inspection is relied on here.
 No existing project theorem is used to supply an unproved local continuity or vacuum step.
 
 ## Review relationships
@@ -128,7 +129,7 @@ The literature search is correctly described as bounded, with no global absence 
 
 Norm continuity M-to-H is not asserted to be Hilbert-space continuity, closability, or a joint vacuum-adjoint theorem.
 The scalar conclusion and the marginal corollary are kept distinct from the general correlated-normal converse.
-The use of Shl06-U001 is a scope comparison, not an additional proof dependency.
+The unidentified historical Shl06-U001 comparison supplies no verified source comparison or additional proof dependency.
 
 ## Conclusion
 

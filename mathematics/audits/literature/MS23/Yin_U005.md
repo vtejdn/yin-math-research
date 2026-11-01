@@ -70,7 +70,7 @@ The exact conclusion is that a **nonconstant** selfadjoint polynomial p(A) of de
  \alpha=\frac{1}{2^k-1}.
 \]
 
-This follows from the Lipschitz-conjugate part of [BM20, Banna and Mai, arXiv:1809.11153v3](https://arxiv.org/pdf/1809.11153), Theorem 1.1, PDF p. 3 of the inspected 33-page preprint, revised 2019-11-20.
+This follows from the Lipschitz-conjugate part of [BM20, Banna and Mai, arXiv:1809.11153v3](https://arxiv.org/pdf/1809.11153v3), Theorem 1.1, PDF p. 3 of the inspected 33-page preprint, revised 2019-11-20.
 Its statement and hypotheses were directly read and accepted, including an independent primary recheck; its original proof was not audited.
 Its other finite-Fisher exponent is 2/[3(2^k-1)], which is not the exponent claimed here.
 The formal MS23 PDF p. 4 was visually inspected to resolve the superscript in the denominator.

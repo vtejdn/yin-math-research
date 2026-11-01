@@ -9,6 +9,7 @@ author: Yin
 | Task | Scope |
 | --- | --- |
 | [Expanded model contract](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract) | Historical selected model scope: Holomorphic recognizable-series theorem and unrestricted affiliated-L2 inverse obstruction; positive-word evaluation remains a separate test |
+| [General bounded-closure contract](../tasks/Yin_T_F0003_v1.md#contract) | Bounded scalar reconstruction component for holomorphic R-diagonal models; this general sufficient-condition contract does not cover the distinct rational L2 target |
 
 ## Route
 
@@ -22,10 +23,12 @@ The Route section owns the current allocation.
 Dated outcomes, earlier authorizations and superseded allocations below retain their recorded scope.
 
 <a id="s_f0009"></a>
-Goal: the separate R-diagonal and analytic-transport Task, inheriting this branch from the [earlier T_F0001 expansion](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract).
+Historical goal allocation: the [2026-09-27 reorganization](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27) names a separate R-diagonal and analytic-transport Task as the destination of this branch from the [earlier T_F0001 expansion](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract).
+Its exact separate contract has not been identified in the available local Task materials.
+The verified associations above retain their stated scopes and do not supply current execution authority.
 Coordinating route: [Yin_S_F0007](Yin_S_F0007.md#s_f0007).
 Current disposition and priority: owned by the [route selection](#route).
-Ownership updated: 2026-09-27 under the approved scope reorganization.
+Recorded ownership transfer: 2026-09-27 under the approved scope reorganization.
 Disposition and mechanisms remain active and unchanged.
 The mathematical and review scheduling checkpoints below date from 2026-09-09; current Claim assessments belong to their canonical records.
 
@@ -66,7 +69,7 @@ A new source result or a changed spectral/subspace condition is a reason to reop
 
 ## Evidence and changes
 
-- 2026-09-27, Codex recorded for Yin: transfer this route to the R-diagonal and analytic-transport Task with coordinating Yin_S_F0007; disposition active -> active, retaining its model/evaluation boundaries and unfinished multivariable obligation.
+- 2026-09-27, Codex recorded for Yin: transfer this route to the R-diagonal and analytic-transport Task named in the [historical allocation](../tasks/Yin_T_F0001_v2.md#reorganization-authorization-2026-09-27), with coordinating Yin_S_F0007; disposition active -> active, retaining its model/evaluation boundaries and unfinished multivariable obligation.
   Mathematical records, reviews and manuscript choices are unchanged.
 - 2026-09-09, another AI agent: created this active focused route under the user's explicit model selection, as a child of coordinating Yin_S_F0007.
   First discriminating steps yielded Yin_C_F0017 and Yin_C_F0019, subsequently reviewed independently by the coordinating agent, with the source/evaluation boundary preserved.

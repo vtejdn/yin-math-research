@@ -151,7 +151,7 @@ This review does not alter its recorded proof or reinterpret its original scope.
 
 There is also a second independently checked derivation of the all-q conclusion.
 [MS23-U004](../literature/MS23/Yin_U004.md#ms23-u004) supplies Lipschitz conjugates for the same full parameter range.
-[Dab10-U002, Section 4](../literature/Dab10/Yin_U002.md#dab10-u002) proves that, when
+The additional deduction originally recorded in [Dab10-U002, Section 4](../literature/Dab10/Yin_U002.md#4-a-reconstructed-bounded-dual-consequence-of-lipschitz-conjugates) is retained at [C_F0092](../../claims/Yin_C_F0092_v1.md#statement); it proves that, when
 
 \[
 K_i=(\mathrm{id}\otimes\tau)\overline\partial_i\xi_i\in M,

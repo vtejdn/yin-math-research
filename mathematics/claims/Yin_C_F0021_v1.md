@@ -18,7 +18,7 @@ Date: 2026-09-09.
 Provenance: project deduction by another AI agent, using [Yin_C_F0017](Yin_C_F0017_v1.md#yin_c_f0017).
 Authorization: the expanded Yin_T_F0001 boundedness investigation, specifically [Yin_S_F0009](../strategies/Yin_S_F0009.md#s_f0009).
 Initial assessment: complete proof draft pending independent review.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 No novelty claim is made.
 
 ### 1. Statement

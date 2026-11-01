@@ -25,3 +25,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0018](Yin_L_F0018_v1.md) | MSY23 Recheck: Bounded Outputs and Bounded Inverse Pencils | [v1](Yin_L_F0018_v1.md) |
 | [Yin_L_F0019](Yin_L_F0019_v1.md) | Further Reduction of Dual and Adjoint Domains | [v1](Yin_L_F0019_v1.md) |
 | [Yin_L_F0020](Yin_L_F0020_v1.md) | Conditions for Descent from Affiliated to Bounded Division Closure | [v1](Yin_L_F0020_v1.md) |
+| [Yin_L_F0021_v1](Yin_L_F0021_v1.md) | Original normal-domain companion contract comparison | [v1](Yin_L_F0021_v1.md) |
+| [Yin_L_F0022_v1](Yin_L_F0022_v1.md) | Negative duals and holomorphic q-Fock vectors: source comparison | [v1](Yin_L_F0022_v1.md) |
+| [Yin_L_F0023_v1](Yin_L_F0023_v1.md) | Extending Miy26 Spectral Formulas | [v1](Yin_L_F0023_v1.md) |
+| [Yin_L_F0024_v1](Yin_L_F0024_v1.md) | q-Rational Coefficients: Controlled Recursion and Reconstruction | [v1](Yin_L_F0024_v1.md) |
+| [Yin_L_F0025_v1](Yin_L_F0025_v1.md) | Bounded Division Closure for Two Projections | [v1](Yin_L_F0025_v1.md) |

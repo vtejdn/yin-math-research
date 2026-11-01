@@ -85,7 +85,6 @@ It neither changes the original bounded conjecture nor establishes the failure o
 - Internal mathematical review: the reviewer read the complete Yin_C_F0014 artifact and reconstructed every implication and domain manipulation, including both $L^2$ checks.
 - Dependency inspection: relevant Yin_C_F0012 model and dual sections were read; the prior proof-audit records own the entire counterexample construction.
   Existing MSY23 and affiliated-calculus inputs are retained with their stated boundaries.
-- Repository-wide index and link integration are separate root work.
 - New source acquisition or full source proof audit: not performed or needed for this local deduction.
 - Numerical computation, TeX compilation, proof-assistant verification, external human review, and literature-priority assessment: not performed; no such evidence is implied by this review.
 
@@ -101,7 +100,4 @@ The criterion using bounded cleared-denominator defects is unaffected.
 
 - 2026-09-09: initial complete mathematical review of the draft identified above.
   No corrective mathematical edit was required.
-  Subsequent assessment or audit-link updates should be identified as such; substantive proof changes require a new check.
-- 2026-09-09: the same reviewer read the final review-integration passage and checked that its only changes were the added review paragraph and replacement of the previous pending-review sentence.
-  No mathematical statement or proof changed.
-  The full review and outcome therefore also cover the final artifact.
+  Substantive proof changes require a new check.

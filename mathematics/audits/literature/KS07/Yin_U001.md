@@ -14,7 +14,8 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 | source-locator | Definition 1.2 and Theorem 1.3, printed pp. 2-3, concern a free identically distributed family of bounded R-diagonal elements $a_i$ in a tracial C*-probability setting. |
 | inspection | Its original complete proof is not independently audited here. |
 
-For the finite subfamily used in the project and a homogeneous holomorphic polynomial $p$ of positive degree $m$, Section 4.1, printed p. 17, equations (4.1)-(4.3), computes for degree $m$ The R-diagonal cumulant definition was also read in Section 2, printed pp. 7-8.
+For the finite subfamily used in the project, Section 4.1, printed p. 17, equations (4.1)-(4.3), gives the degree-$m$ monomial L2 identity recorded below.
+The R-diagonal cumulant definition was also read in Section 2, printed pp. 7-8.
 
 ## KS07-U001
 

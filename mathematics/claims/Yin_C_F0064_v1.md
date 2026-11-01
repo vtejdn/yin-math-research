@@ -16,8 +16,6 @@ Date: 2026-09-29.
 Human author: Yin.
 Synthesis author: counterexample agent.
 Mathematical contributions: another AI agent (liberation finite-defect derivation and tensor removal), root (intrinsic formulation and compressed state-graph mechanism), and counterexample agent (compressed state graphs and this bounded-companion synthesis).
-Independent review is a separate operation.
-This file assigns no Claim ID or Goal completion status.
 
 The result resolves the bounded weak-form companion of T_F0001 at its exact starting hypotheses.
 It is not a claim of literal arbitrary-fraction domain agreement for the unbounded original duals.

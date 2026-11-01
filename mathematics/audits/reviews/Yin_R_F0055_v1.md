@@ -43,7 +43,9 @@ Human record author: Yin.
 The human authorized a scoped rule and evidence comparison; the selected normal-core findings are retained below.
 This was a targeted maintenance recheck after the agent knew the previous diagnosis and conclusions, not a new independent whole-proof review.
 The agent read the original reviews and compared their actual statement coverage, direct-input disclosures and correction passages with the selected mathematical materials.
-The original separately organized mathematical reviews remain the basis of the retained independently reviewed classification, with no blind, human or external review inferred.
+The original applicability account retained an independently reviewed classification based on the earlier separately organized mathematical reviews, with no blind, human or external review inferred.
+For C_F0052, [R_F0028's dated relationship correction](Yin_R_F0028_v1.md#review-relationship-correction) now records self-review because substantive development inputs were disclosed.
+The original PASS and applicability findings retain their dates and mathematical scopes; the relationship correction supplies no new whole-proof review.
 
 ## Per-Claim findings
 

@@ -16,7 +16,7 @@ Date: 2026-09-09.
 Provenance: project deduction by the coordinating agent and another AI agent, prompted by the user's proposed affiliated and L2 extensions after [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 The original goal remains completed by refutation; this follow-up does not reopen or change its contract, and no successor goal is assigned by this note.
 Initial assessment: complete proof draft awaiting independent review.
-Current assessment: [selected assessment](#decision-candidate-0002); review evidence belongs to the [Yin_C_F0014 audit](../audits/reviews/Yin_R_F0008_v1.md).
+Current assessment: [selected assessment](#current-assessment); review evidence belongs to the [Yin_C_F0014 audit](../audits/reviews/Yin_R_F0008_v1.md).
 No novelty claim is made.
 
 ## Statement
@@ -262,7 +262,7 @@ No new source proof audit, formal verification, numerical verification, or exter
 On 2026-09-09, the mathematical agent whose preliminary suggestion was to test $qbq$ separately reviewed the complete written proof; the [Yin_C_F0014 audit](../audits/reviews/Yin_R_F0008_v1.md) discloses that involvement and the review scope.
 It checked the weak form, both proofs of square integrability, the bounded denominator calculation, and the contradiction, and found no correction necessary.
 This paragraph only integrates that later review evidence; it changes no mathematical statement or argument.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 
 ## Assessment history

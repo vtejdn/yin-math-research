@@ -191,13 +191,6 @@ No correction is required for this revision.
 This contributor self-review supports the proved counterexample assessment for Yin_C_F0012, hence refutation of the exact Yin_C_F0001; prior contributions do not become independent through rereading.
 Later substantive changes require their own review; provenance-only updates preserve the actual mathematical review scope.
 
-## Final Documentation Revision
-
-2026-09-09, the coordinating agent: the mathematical statements, formulas and proofs are unchanged from the independently reviewed revision identified above.
-Replaced candidate/pending-review prose with completed review links and formatted one spectral-cutoff expression as LaTeX to prevent an unintended Markdown link.
-The coordinating agent checked this restricted edit.
-The original reviewer's exact mathematical inspection scope is preserved above; this supplement does not claim that the reviewer performed an additional mathematical audit of new content.
-
 ## Review relationships
 
 | Review | Relationship |

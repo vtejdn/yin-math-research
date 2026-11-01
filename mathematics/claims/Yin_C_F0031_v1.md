@@ -21,7 +21,7 @@ author: Yin
 - Authorization: [approved extraction batch](../ledger/Yin_L_F0014_v1.md#authorization).
 - Proof version: [yin_c_f0031-p1](#yin_c_f0031-p1), candidate complete proof draft.
 - Review: author self-check completed; separate independent review pending.
-  The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+  The [selected assessment](#current-assessment) records the mathematical and review assessments.
 
 ## 1. Statement and Conventions
 

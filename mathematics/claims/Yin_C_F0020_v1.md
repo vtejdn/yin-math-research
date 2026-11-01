@@ -40,7 +40,7 @@ It is not an assertion that MS23's normalized duals have been shown bounded.
 ## Yin_C_F0020: Two Verified q-Gaussian Interfaces
 
 Initial assessment: complete proof draft awaiting independent review.
-The [selected material decision](#decision-candidate-0002) owns the current assessment.
+The [selected material decision](#current-assessment) owns the current assessment.
 No novelty or optimal-parameter claim is made.
 
 Let $-1<q<1$, $d<\infty$, and $X=(X_1,\ldots,X_d)$ be the canonical variance-one selfadjoint q-Gaussian tuple with its faithful vacuum trace on $M=\Gamma_q(\mathbb R^d)$.
@@ -289,7 +289,7 @@ Queries examined q-Gaussian bounded duals, Shlyakhtenko's q-commutator construct
 The productive source chain was MS23 to Dab14; BKS97 supplied the independent marginal test.
 The work stops this source branch after these exact interfaces and coefficient diagnostics, without claiming an exhaustive survey or absence of stronger published results.
 
-Additional primary material inspected but not needed as a new proof dependency: **Shl04**, Shlyakhtenko, *Some estimates for non-microstates free entropy dimension, with applications to q-semicircular families*, [arXiv:math/0308093v1](https://arxiv.org/pdf/math/0308093), Section 3/Lemma 3.1 (pp. 9-10), agrees with the compact-defect commutator quoted in Dab14.
+Additional primary material inspected but not needed as a new proof dependency: **Shl04**, Shlyakhtenko, *Some estimates for non-microstates free entropy dimension, with applications to q-semicircular families*, [arXiv:math/0308093v1](https://arxiv.org/pdf/math/0308093v1), Section 3/Lemma 3.1 (pp. 9-10), agrees with the compact-defect commutator quoted in Dab14.
 **JL26**, Jekel and Landry, *Compact quantum metric spaces from free probability*, [arXiv:2606.19578v1](https://arxiv.org/html/2606.19578v1), introductory discussion, was checked as a current lead; its metric-space conclusions are not used as a bounded-dual or rationality theorem.
 
 Online parsed source pages were inspected without retaining PDFs.

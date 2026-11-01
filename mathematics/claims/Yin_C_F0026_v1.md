@@ -19,7 +19,7 @@ Date: 2026-09-10.
 Authorization: the user requested a smaller polynomial-core version of the full normal-tuple rationality theorem, after the ACSY24 Proposition 3.5 audit.
 Provenance: project counterexample construction by another AI agent, assigned by the coordinating agent.
 the coordinating agent allocated Yin_C_F0026 to this exact obstruction.
-Initial assessment: complete proof draft and author self-check, awaiting review; the [selected assessment](#decision-candidate-0002) records the mathematical and review assessments.
+Initial assessment: complete proof draft and author self-check, awaiting review; the [selected assessment](#current-assessment) records the mathematical and review assessments.
 The construction is inspired by the Cauchy-kernel mechanism in [Yin_C_F0003](Yin_C_F0003_v1.md#yin_c_f0003), but all estimates and domain facts needed here are proved below.
 No historical priority, formal verification or human-review claim is made.
 

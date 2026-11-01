@@ -21,7 +21,7 @@ Proof development: another AI agent, using the normal-coordinate spectral argume
 The compact-commutator refinement was proposed by the coordinating agent and separately checked by another AI agent before integration.
 The argument below proves a small-core sufficient criterion for bounded affiliated rationality.
 It does not claim the full converse of Yin_C_F0024 under smaller-domain assumptions alone.
-The [selected assessment](#decision-candidate-0002) records the mathematical and review assessments; no historical-priority or formal-verification claim is made.
+The [selected assessment](#current-assessment) records the mathematical and review assessments; no historical-priority or formal-verification claim is made.
 
 ## 1. Exact Hypotheses and Conclusion
 
