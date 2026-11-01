@@ -24,3 +24,4 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0017](Yin_L_F0017_v1.md) | Normal polynomial-core progress and retained domain boundaries | [v1](Yin_L_F0017_v1.md) |
 | [Yin_L_F0018](Yin_L_F0018_v1.md) | MSY23 Recheck: Bounded Outputs and Bounded Inverse Pencils | [v1](Yin_L_F0018_v1.md) |
 | [Yin_L_F0019](Yin_L_F0019_v1.md) | Further Reduction of Dual and Adjoint Domains | [v1](Yin_L_F0019_v1.md) |
+| [Yin_L_F0020](Yin_L_F0020_v1.md) | Conditions for Descent from Affiliated to Bounded Division Closure | [v1](Yin_L_F0020_v1.md) |

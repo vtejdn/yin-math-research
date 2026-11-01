@@ -13,6 +13,7 @@ Printed Arabic page equals PDF page minus 10.
 The following selected units retain their stated editions, passages, inspection dates, and review limits.
 
 - [Yin_U001](Yin_U001.md)
+- [Yin_U002: evaluation consistency and the two closures](Yin_U002.md#yin20-u002)
 
 ## Yin20 inner rank source audit
 

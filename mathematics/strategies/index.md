@@ -31,6 +31,13 @@ Each Task entrance includes only that route's explicit Task associations.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Yin_S_F0012](Yin_S_F0012.md) | Density and Automatic Adjoint Test Domains | Yin | completed | Completed research round | [Yin_T_F0002_v1: Weaker dual and adjoint domains](../tasks/Yin_T_F0002_v1.md#yin_t_f0002) | Yin_C_F0084 density obstruction; automatic adjoint modules through Yin_C_F0085/Yin_C_F0086 and complementary normal-phase criteria; broader tests retained | Root |
 
+<a id="task-yin_t_f0003"></a>
+## Yin_T_F0003
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0013](Yin_S_F0013.md) | General Bounded-Closure Conditions | Yin | completed | Completed sufficient-condition round | [Yin_T_F0003_v1: General bounded division-closure conditions](../tasks/Yin_T_F0003_v1.md#yin_t_f0003) | Principal-ideal, finite-index and normal-curve mechanisms; cusp and planar obstructions; older model routes keep their obligations | Root |
+
 ## Feedback and Derived Routes
 
 These are the contributor's stated relationships and scopes.

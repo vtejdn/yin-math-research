@@ -91,3 +91,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0084](Yin_R_F0084_v1.md) | Failure on a proper test module: isolated and original whole-proof reviews | [v1](Yin_R_F0084_v1.md) |
 | [Yin_R_F0085](Yin_R_F0085_v1.md) | Arbitrary dense selfadjoint dual domains yield automatic adjoint modules — isolated current inspection | [v1](Yin_R_F0085_v1.md) |
 | [Yin_R_F0086](Yin_R_F0086_v1.md) | Automatic adjoint modules on dense domains for mixed line/circle normal coordinates — isolated current inspection | [v1](Yin_R_F0086_v1.md) |
+| [Yin_R_F0087](Yin_R_F0087_v1.md) | Contract Review of Yin_T_F0003 | [v1](Yin_R_F0087_v1.md) |
+| [Yin_R_F0088](Yin_R_F0088_v1.md) | Scalar fraction descent and the endpoint cusp: isolated whole-proof review | [v1](Yin_R_F0088_v1.md) |
+| [Yin_R_F0089](Yin_R_F0089_v1.md) | Finite-index transfer: isolated and historical reviews | [v1](Yin_R_F0089_v1.md) |
+| [Yin_R_F0090](Yin_R_F0090_v1.md) | Mutual bounded rational coordinates and transfer of the bounded affiliated intersection | [v1](Yin_R_F0090_v1.md) |
+| [Yin_R_F0091](Yin_R_F0091_v1.md) | Independent Review of Yin_C_F0090 | [v1](Yin_R_F0091_v1.md) |
+| [Yin_R_F0092](Yin_R_F0092_v1.md) | Dimension-two regular polynomial ring fails bounded descent — isolated current inspection | [v1](Yin_R_F0092_v1.md) |

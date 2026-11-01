@@ -107,3 +107,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Xia23/Yin_U001](Xia23/Yin_U001.md) | Xia23-U001: Disk-Cauchy Commutators and the Adjoint Obstruction |
 | [Yin20/Yin_U001](Yin20/Yin_U001.md) | Yin20: rational expressions, the free field and linear representations |
 | [FK86/Yin_U001](FK86/Yin_U001.md) | FK86-U001: The finite-tracial affiliated measure topology |
+| [Lyn73/Yin_U001](Lyn73/Yin_U001.md) | Lyn73-U001: The finite-index free subgroup of a finite free product |
+| [The26b/Yin_U001](The26b/Yin_U001.md) | The26b-U001: Local normal-domain and valuation interfaces |
+| [Yin20/Yin_U002](Yin20/Yin_U002.md) | Yin20: Evaluation Consistency, Schur Complements, and the Two Closures |

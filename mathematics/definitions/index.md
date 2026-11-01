@@ -137,3 +137,11 @@ Recorded consumer navigation: The same-unit division-subring instance and preser
 Exact source interface and conventions: [FK86, Sections 1.2 and 1.4–1.5](../audits/literature/FK86/Yin_U001.md#measure-topology-interface) retains the projection-neighborhood description, complete Hausdorff topological star-algebra interface and accepted-foundation limits.
 
 Recorded consumer navigation: measure-gluing steps in [Yin_C_F0085-P1](../claims/Yin_C_F0085_v1.md#yin_c_f0085-p1) and [Yin_C_F0086-P1](../claims/Yin_C_F0086_v1.md#yin_c_f0086-p1).
+
+<a id="commutative-bounded-descent"></a>
+### Commutative cancellation and local valuation interfaces
+
+Exact source and convention homes: [principal ideals and Bezout coefficients](../audits/literature/Hun74/Yin_U006.md#exact-retained-statement-and-proof-inspection-depth), and [normal-domain local valuation interfaces](../audits/literature/The26b/Yin_U001.md#local-valuation-interface).
+Ring normality in the latter is distinct from normality of an operator; the field exception and original source-inspection limits remain explicit there.
+
+Recorded consumer navigation: [principal-ideal bounded descent](../claims/Yin_C_F0087_v1.md#statement), [one-dimensional normal-domain descent](../claims/Yin_C_F0090_v1.md#statement), and the distinct [regular two-dimensional obstruction](../claims/Yin_C_F0091_v1.md#statement).
