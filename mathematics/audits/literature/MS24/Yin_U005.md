@@ -75,12 +75,10 @@ Any such extension needs a separately stated structural input and proof.
 
 ## Retained analytic proof interfaces
 
-The following complete original hermitization and truncated-log reconstructions were retained at 2026-10-21T01:19 from [L_F0036](../../../ledger/Yin_L_F0036_v1.md#ms24-analytic-dependencies).
+The following complete original hermitization and truncated-log reconstructions come from [L_F0036](../../../ledger/Yin_L_F0036_v1.md#ms24-analytic-dependencies).
 Their reading/check date remains 2026-09-12, including the original rendered MS24 pp. 7,12,14 and the explicitly limited coordinating-agent second check.
 The source's ordinary bounded product foundation is now retained at [FK52-U001](../FK52/Yin_U001.md#fk52-u001).
 The complete semicircular pairing and faithful norm arguments already have a sufficient home in [MS24-U002](Yin_U002.md#pairing-estimates); they are not duplicated here.
-The original U005 source questions and all wider uninspected-proof limits remain unchanged.
-This preparation performs no new source or mathematical review.
 
 ## Hermitization Does Not Need an Inverse
 

@@ -8,7 +8,6 @@ These are the actual older agent findings retained at their responsible formal-r
 The move is not a new review and does not change the original date precision, checked mathematical versions, conclusions or limitations.
 The applicability agent already knew the prior mathematical diagnosis and conclusions, and the contract review was performed by the agent preparing that revision.
 All these relationships are therefore self-reviewed; an original independent description of a separate earlier proof review is not promoted to an isolated-context assertion here.
-The pure allocation/navigation and obsolete preservation-inventory procedures have no mathematical finding and are omitted.
 
 ## Review relationships
 
@@ -67,21 +66,21 @@ The findings concern the inspected historical second assessments and their actua
 
 | Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
 | --- | --- | --- | --- |
-| C_F0051 | Strictly positive upper-bounded density, actual changed-measure vacuum, original closure/adjoint domains, free-tuple and fraction interfaces, unbounded-dual example | C_F0025 v3, C_F0024 v3, C_F0045 v3, C_F0047 v3, C_F0048 v3 | PASS. The reference radial L2 premise and radiuswise normalization remain in the statement. C_F0048 supplies a reconstructed sufficient-direction mechanism, not an unjustified invocation of its stronger-hypothesis theorem. No necessity or arbitrary correlated-tuple claim is added. |
+| C_F0051 | Strictly positive upper-bounded density, actual changed-measure vacuum, original closure/adjoint domains, free-tuple and fraction interfaces, unbounded-dual example | C_F0025 (physical v1, original assessment 3), C_F0024 (physical v1, original assessment 3), C_F0045 (physical v1, original assessment 3), C_F0047 (physical v1, original assessment 3), C_F0048 (physical v1, original assessment 3) | PASS. The reference radial L2 premise and radiuswise normalization remain in the statement. C_F0048 supplies a reconstructed sufficient-direction mechanism, not an unjustified invocation of its stronger-hypothesis theorem. No necessity or arbitrary correlated-tuple claim is added. |
 
 <a id="c-f0089-applicability"></a>
 ### C_F0052
 
 | Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
 | --- | --- | --- | --- |
-| C_F0052 | Represented core, vacuum, zero extension, intrinsic norm recovery, original graphs and free-product consequence | C_F0025 v3, C_F0024 v3, C_F0045 v3, C_F0047 v3, C_F0048 v3 | PASS. Bounded nonnegative density and total-mass normalization allow zeros without identifying measure classes. C_F0051 is comparison only. The five dependencies requested at original review are present in v2. |
+| C_F0052 | Represented core, vacuum, zero extension, intrinsic norm recovery, original graphs and free-product consequence | C_F0025 (physical v1, original assessment 3), C_F0024 (physical v1, original assessment 3), C_F0045 (physical v1, original assessment 3), C_F0047 (physical v1, original assessment 3), C_F0048 (physical v1, original assessment 3) | PASS. Bounded nonnegative density and total-mass normalization allow zeros without identifying measure classes. C_F0051 is comparison only. The five dependencies requested at original review are present in C_F0052 physical v1 at its reviewed second assessment. |
 
 <a id="c-f0091-applicability"></a>
 ### C_F0053
 
 | Claim | Prior review coverage compared with the selected statement | Fixed direct Claim inputs | Finding and retained boundary |
 | --- | --- | --- | --- |
-| C_F0053 | Complete A/B/C conclusions, weighted geometric estimate, actual original graphs, free-tuple criterion and curvature-only obstruction | C_F0025 v3, C_F0024 v3, C_F0044 v3, C_F0045 v3 | PASS. The TV06 interface is included in selected support. Finite curvature AND square-integrable maximal density remain required; the curvature-only example fails the vacuum premise. Indexed primary-text inspection in the old review is not relabelled as a PDF rendering or complete source-proof audit. |
+| C_F0053 | Complete A/B/C conclusions, weighted geometric estimate, actual original graphs, free-tuple criterion and curvature-only obstruction | C_F0025 (physical v1, original assessment 3), C_F0024 (physical v1, original assessment 3), C_F0044 (physical v1, original assessment 3), C_F0045 (physical v1, original assessment 3) | PASS. The TV06 interface is included in selected support. Finite curvature AND square-integrable maximal density remain required; the curvature-only example fails the vacuum premise. Indexed primary-text inspection in the old review is not relabelled as a PDF rendering or complete source-proof audit. |
 
 <a id="c-f0092-applicability"></a>
 ### C_F0054

@@ -150,7 +150,7 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](Yin_C_F0012_v1.md#yin_c_f0012) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](Yin_C_F0002_v1.md#yin_c_f0002) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0054_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0054_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original review classification and limitations: independently reviewed counterexample
 
@@ -173,7 +173,7 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](Yin_C_F0012_v1.md#yin_c_f0012) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](Yin_C_F0002_v1.md#yin_c_f0002) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0054_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0054_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -235,8 +235,6 @@ Recorded review label: independently reviewed.
 Original review classification and limitations: independently reviewed counterexample
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0054_v1.md).
 

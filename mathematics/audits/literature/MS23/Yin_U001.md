@@ -186,13 +186,11 @@ The original contributor review and later isolated proof check are recorded sepa
 
 <a id="ms23-definition-recheck"></a>
 
-It adds the exact definition locators, convention distinctions and actual reading/visual evidence; it does not repeat the earlier proof review.
-Its references to unchanged units and a sidecar record the original checkpoint, while the already sufficient definitions and theorem arguments remain at their exact linked U homes.
-No original source was reopened and no source bytes, acquisition facts, external-proof depth or independent-review status were changed by this retention.
+Scope: exact definition locators, convention distinctions and actual reading/visual evidence, without repeating the earlier proof review.
 
 Date: 2026-09-10.
 Reviewer: the selfadjoint-interface agent.
-This definition-review sidecar supplements the existing [eight-unit audit](readme.md); it allocates no source-unit or claim identifier and changes no original audit.
+This definition review supplements the existing [eight-unit audit](readme.md).
 Primary artifact: [published 36-page PDF](../../../literature/pdf/MS23.pdf).
 Printed and one-based PDF pages agree.
 Section 2, pp. 5-10, and the mixed-setting description in Remark 5.4, pp. 31-33, were freshly checked; pp. 6, 8 and 9 were visually inspected for the defining formulas.

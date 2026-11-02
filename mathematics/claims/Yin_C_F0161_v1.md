@@ -170,7 +170,7 @@ No inference concerning nonexistence of S is drawn; this example has bounded ful
 The mathematical inputs are the translated single-circle Fourier operator from C_F0047 and the polynomial approximation interface already checked in C_F0055.
 The mixture vacuum, cross-circle kernels, exact rational imaginary part and strict polynomial-core violation are new calculations displayed here.
 No assertion of novelty or priority is made.
-The coordinating author checked the signs, series, three-circle weights, adjoint domains, strict gap and approximation passage; a separate fixed-material review is still required before acceptance.
+At authorship, the coordinating author checked the signs, series, three-circle weights, adjoint domains, strict gap and approximation passage; a separate fixed-material review was then required before acceptance.
 
 ## Assessment history
 

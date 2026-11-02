@@ -264,18 +264,12 @@ The reviewer did not edit the target.
 
 ## Coordinated verification-record correction, 2026-09-11
 
-After the mathematical review, root required either preservation of the script underlying the author's reported finite integer checks or removal of those unaccompanied counts.
-The author chose the latter and deleted exactly the single Section 9 paragraph beginning `An additional finite exact integer check in Python`.
-No statement or argument in Sections 1-8 changed, and the remaining Section 9 text is unchanged.
-
-The reviewer checked that the only change was removal of that paragraph and its following blank line.
-The acceptance above applies to this revised artifact.
-This is a correction to the verification record, with no mathematical gap or change in the proved scope.
+The acceptance above applies to the revised verification account and the unchanged statements and arguments in Sections 1–8.
+No numerical certification is supplied.
 
 ## Actual review arrangement
 
 The reviewer reconstructs the fixed projection proof and the disclosed RX06 passages.
-The later exact deletion of the unretained-program integer-check paragraph changes only the verification account.
 No shared target-proof repair is shown, but the original record does not establish initial isolation from the author-development or earlier target-review context.
 The original 2026-09-11 date and all mathematical and source-inspection limits remain intact.
 This maintenance performs no new review or isolated-context certification.

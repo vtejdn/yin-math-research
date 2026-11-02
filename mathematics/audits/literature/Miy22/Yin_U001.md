@@ -115,14 +115,11 @@ No new project theorem or formal verification is asserted.
 
 <a id="definition-recheck"></a>
 
-It adds the exact definition locators, convention distinctions and actual reading/visual evidence; it does not repeat the earlier proof review.
-Its references to unchanged units and a sidecar record the original checkpoint, while the already sufficient definitions and theorem arguments remain at their exact linked U homes.
-No original source was reopened and no source bytes, acquisition facts, external-proof depth or independent-review status were changed by this retention.
+Scope: exact definition locators, convention distinctions and actual reading/visual evidence, without repeating the earlier proof review.
 
 Date: 2026-09-10.
 Reviewer: the unbounded-operator agent, source reading and self-review.
-This is a definition/convention sidecar to the existing Miy22 audit, not a new source unit, claim, proof version or whole-source reassessment.
-The user authorized source-definition rechecking and indexing under the [definition rules](../../../definitions/readme.md).
+This is a definition/convention supplement to the existing Miy22 audit, not a whole-source reassessment.
 
 Source: [Miy22](../../../literature/pdf/Miy22.pdf), the 24-page published journal version.
 This review retains the published edition and its original inspection scope.
@@ -185,4 +182,3 @@ Actual forward uses include [Yin_C_F0011, Inputs and Their Exact Roles](../../..
 Citation purposes: current formulation or notation for the Fock/residual/Hankel conventions, and exposition for their role in semicircular rationality.
 No origin claim is made.
 This sidecar does not change historical proof dependencies, conduct an independent audit of every imported theorem, or perform formal verification.
-The existing source units and PDF were left unchanged.

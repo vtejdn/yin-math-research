@@ -9,11 +9,16 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: Den09, [retained PDF](../../../literature/pdf/Den09.pdf), Christopher Deninger, *Mahler measures and Fuglede--Kadison determinants*, arXiv:0905.0604v1, 5 May 2009, 25 PDF pages. This review belongs to v1, not automatically to the later journal typesetting.
+Source edition: Den09, [retained PDF](../../../literature/pdf/Den09.pdf), Christopher Deninger, *Mahler measures and Fuglede--Kadison determinants*, arXiv:0905.0604v1, 5 May 2009, 25 PDF pages.
+This review belongs to v1, not automatically to the later journal typesetting.
 
-Passages: Section 1, pp.1--2; the complete group-algebra/Fourier interpretation on pp.4--5 in Section 2; normalization checks against pp.10--11,15,18. These are the preprint's own page numbers, equal to PDF page numbers.
+Passages: Section 1, pp.1--2; the complete group-algebra/Fourier interpretation on pp.4--5 in Section 2; normalization checks against pp.10--11,15,18.
+These are the preprint's own page numbers, equal to PDF page numbers.
 
-Inspection: 2026-10-06, human author Yin; prepared by an assigned AI source-review agent, with direct source reading and self-check of this record. The agent read the full 25-page artifact; Sections 2--4 are recorded separately in U002. Rendered pp.1--2 were inspected for the height assertion and determinant definition. No independent human review, formal verification or recursive review of cited foundational proofs is asserted.
+Inspection: 2026-10-06, human author Yin; prepared by an assigned AI source-review agent, with direct source reading and self-check of this record.
+The agent read the full 25-page artifact; Sections 2--4 are recorded separately in U002.
+Rendered pp.1--2 were inspected for the height assertion and determinant definition.
+No independent human review, formal verification or recursive review of cited foundational proofs is asserted.
 
 
 ## Assessment

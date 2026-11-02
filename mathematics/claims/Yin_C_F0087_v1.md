@@ -170,7 +170,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0087-p1-proof) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Same original finding](../audits/reviews/Yin_R_F0088_v1.md#yin_c_f0087-fraction-collapse-and-principal-ideal-cancellation) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Same original finding](../audits/reviews/Yin_R_F0088_v1.md#yin_c_f0087-fraction-collapse-and-principal-ideal-cancellation) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -197,8 +197,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Original C87 finding](../audits/reviews/Yin_R_F0088_v1.md#yin_c_f0087-fraction-collapse-and-principal-ideal-cancellation), [Original C88 finding](../audits/reviews/Yin_R_F0088_v1.md#yin_c_f0088-the-endpoint-cusp-obstruction), [Original C89 finding](../audits/reviews/Yin_R_F0089_v1.md#historical-finite-index-transfer), [Original coordinate observation](../audits/reviews/Yin_R_F0090_v1.md#original-coordinate-paragraph).
 

@@ -60,5 +60,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0053](Yin_L_F0053_v2.md) | Full-source audit comparison for condition A and normal bounded-vector domains | [v1](Yin_L_F0053_v1.md), [v2](Yin_L_F0053_v2.md) |
 | [Yin_L_F0054](Yin_L_F0054_v1.md) | Affine determinant quadratic corrections and their matrix definitions | [v1](Yin_L_F0054_v1.md) |
 | [Yin_L_F0055](Yin_L_F0055_v1.md) | Normal-domain shortcuts: exact failures and remaining possibilities | [v1](Yin_L_F0055_v1.md) |
+| [Yin_L_F0056](Yin_L_F0056_v1.md) | Weighted liberation in the Haar-Poisson model: exact failed counterexample families | [v1](Yin_L_F0056_v1.md) |
 | [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
 | [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |

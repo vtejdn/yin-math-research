@@ -398,7 +398,7 @@ It also makes no claim for arbitrary nonnormal tuples.
 
 The new application uses a finite number of kernel compositions with uniform approximant bounds.
 It does not assume the original curvature kernel is in coarse L2, interchange arbitrary unbounded tensor products, or infer an actual vacuum from a merely formal moment identity.
-All new claims are retained here pending independent review.
+At the original candidate checkpoint, the new claims were retained here pending independent review; the [selected assessment](#current-assessment) records the subsequently adopted finding.
 
 ## Assessment history
 

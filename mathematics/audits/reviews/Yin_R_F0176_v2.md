@@ -11,7 +11,7 @@ It is not an independent audit of every page or external foundation.
 
 ## Retention and actual arrangement
 
-This R home was prepared at 2026-10-21T01:03 from the complete original 2026-09-12 coordinating-agent interface review.
+The original coordinating-agent interface review was performed on 2026-09-12.
 Its original date, primary passages, source inspections, corrections and limited verdicts below remain unchanged.
 The coordinator is explicitly separate from the three assigned source reviewers; the inspected units identify its checks of their corrections.
 The retained account does not establish initial isolation from source-development explanations or earlier review findings.
@@ -172,7 +172,7 @@ Cross-review approval here is limited to the explicit arguments above, with thei
 
 ## Additional retained original MS24 findings
 
-These further actual findings were retained at 2026-10-21T01:21 from the original 2026-09-12 source/dependency accounts.
+These further actual findings come from the original 2026-09-12 source/dependency accounts.
 The records distinguish the coordinator's second check from the original source reader and identify the scaling reviewer's later map pass, but do not establish their initial context-isolation arrangements.
 The coordinator/map authorship distinction is not completely documented either; no current independent certification is inferred.
 All original mathematical checks, actual primary-page limits and wording corrections below retain their original date and scope.

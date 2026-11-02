@@ -269,7 +269,7 @@ This coordinated development is not independent review.
 The stronger exact identities and finite-family conclusion are substantive mathematics, so this version preserves v1 and gives the full argument rather than silently replacing its statement.
 
 The author also checked the actual one-sided adjoint domains, the sign in (Q8), the right-multiplication transport (Q9), the adjoint commutator (Q10), the scalar cancellation in (Q11), the exact equality before the norm estimate in (Q12), and the absence of a freeness premise.
-This complete stronger candidate awaits a separately arranged fresh independent review covering v2.
+At the original candidate checkpoint, this complete stronger argument awaited a separately arranged fresh independent review covering v2; the [selected assessment](#current-assessment) records the subsequently adopted v2 finding.
 No independent-review assessment is carried from its inputs or the earlier candidate to this deduction.
 The auxiliary bounded-H condition remains in [D_F0006](../drafts/Yin_D_F0006.md#the-maps-are-actual-slice-adjoints), and the free-Haar benchmarks and spectral-graph normalization limit remain in [D_F0007](../drafts/Yin_D_F0007.md).
 They are not dependencies of this proof.

@@ -163,13 +163,13 @@ The global projective-inverse shortcut is excluded by the corrected source scope
 Useful weaker graph methods and exact remaining integrability/range obligations stay in D.
 
 The adversarial [D_F0004](../drafts/Yin_D_F0004.md) studies the negative weighted liberation form in an actual Haar/Poisson joint law.
-Two explicit families of mixed unitary words have all-degree lower bounds controlled by the actual square-root vacuum; these remain development findings, not independently adopted Claims.
+[L_F0056](../ledger/Yin_L_F0056_v1.md#uniform-bounds-for-two-mixed-word-families) retains the completed all-degree lower bounds for two explicit mixed-word families, controlled by the actual square-root vacuum; these remain development findings, not independently adopted Claims.
 [J_F0009](../computations/programs/Yin_J_F0009/readme.md) retains exact finite Laurent-kernel controls and a narrow floating diagnostic, without replacing the actual tracial law by finite matrices or asserting a universal bound.
 
 The accepted [C_F0147](../claims/Yin_C_F0147_v1.md#statement), independently reviewed in [R_F0154](../audits/reviews/Yin_R_F0154_v1.md#conclusion), gives a concrete alternative test: three free semicircular reference variables, h=2+s_0 and X=(hS_1,hS_2), in the target algebra N=W*(X).
 It proves Delta_N(X)=2 while excluding each possible bare coordinate dual, using target row-kernel projection columns and the actual range obstruction 1 not in hL2 of the ambient algebra.
 The target star algebra is algebraically free, yet no Hilbert-valued coordinate derivation can extend to the full reference polynomial algebra.
-The accepted [C_F0148](../claims/Yin_C_F0148_v1.md#statement), independently reviewed in [R_F0155](../audits/reviews/Yin_R_F0155_v1.md#conclusion), now excludes each actual target ACSY coordinate witness.
+The accepted [C_F0148](../claims/Yin_C_F0148_v1.md#statement), with its complete self-review in [R_F0155](../audits/reviews/Yin_R_F0155_v1.md#conclusion), now excludes each actual target ACSY coordinate witness.
 It uses original-core approximations to normalized target resolvents and weak convergence of the arbitrary starred-value tensor tests, without extending a derivation to the reference variables.
 Thus this tuple has maximal Delta while A and F both fail; it does not separate A from F.
 More generally, for at least two coordinates, full A forces the inverse of sum_j X_j X_j* to have finite trace and every bounded vector to lie in the actual Hilbert row range.

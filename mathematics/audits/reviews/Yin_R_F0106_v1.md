@@ -42,13 +42,12 @@ No rational inverse holomorphicity, arbitrary affiliated-state tests, nonzero-q 
 ## Original F0124 account retained
 
 This is the complete original finite-calculation account at its original date and scope.
-Its exact original relationship and Target/Scope rows are retained above, without changing the original act or date.
+Its exact original relationship and Target/Scope rows are retained below, without changing the original act or date.
 
 ## Retained project review: Negative Duals and Holomorphic q-Fock Vectors
 
 These are the original review accounts relocated from [the inspected material](../../claims/Yin_C_F0118_v1.md#argument).
 References to the argument, sections or formulas above/below retain their original context in that linked material.
-The recorded authorship, checking relationship, inputs, verdicts and limitations are unchanged; this administrative relocation performs no new mathematical review.
 
 ### Actual review arrangement
 
@@ -75,8 +74,7 @@ At q=0 literal deletion works degreewise for every L2 vector; for nonzero q the 
 
 The adjoint-orbit formula (10) is the standard orthogonal-complement identity for a common kernel of bounded maps and is a valid equivalent remaining question.
 This review does not prove its totality for nonzero q, prove that arbitrary affiliated rational states satisfy the tests, or independently re-audit the Miy26 source comparison in Section 4.
-No new Claim ID or Role is assigned to this bounded route test.
-This appended review leaves all preceding proof text unchanged; the initial self-review-only description records the author's earlier checkpoint.
+The initial self-review-only description records the author's earlier checkpoint.
 
 ## Review relationships
 

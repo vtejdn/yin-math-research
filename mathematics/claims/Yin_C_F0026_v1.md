@@ -18,7 +18,6 @@ author: Yin
 Date: 2026-09-10.
 Authorization: the user requested a smaller polynomial-core version of the full normal-tuple rationality theorem, after the ACSY24 Proposition 3.5 audit.
 Provenance: project counterexample construction by another AI agent, assigned by the coordinating agent.
-the coordinating agent allocated Yin_C_F0026 to this exact obstruction.
 Initial assessment: complete proof draft and author self-check, awaiting review; the [selected assessment](#current-assessment) records the mathematical and review assessments.
 The construction is inspired by the Cauchy-kernel mechanism in [Yin_C_F0003](Yin_C_F0003_v1.md#yin_c_f0003), but all estimates and domain facts needed here are proved below.
 No historical priority, formal verification or human-review claim is made.
@@ -384,7 +383,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-the-probability-space-and-a-bounded-cauchy-dual) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0015_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0015_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -427,8 +426,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0015_v1.md).
 

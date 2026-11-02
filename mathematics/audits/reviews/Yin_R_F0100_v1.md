@@ -21,7 +21,6 @@ None changes the mathematical statement or argument.
 
 The accepted scope includes the exact local joint-kernel identity, the finite-free-product equality under algebraic bicommutant hypotheses, all actual affiliated domain operations consumed in that argument, the adjoint-free bounded reconstruction in the prescribed input algebra, and the UT2 and direct-sum boundaries.
 No mathematical repair was required.
-Registration was performed by the coordinator; this reviewer did not modify canonical assessment metadata.
 
 For a unital complex subalgebra A of M_n(C), put
 
@@ -188,6 +187,3 @@ The condition `A_i=A_i''` is precisely the local common-kernel detection conditi
 UT2 lies outside it.
 The reviewed equality does not settle UT2 free products, all other non-star inputs, diffuse factors or the complete T_F0007 contract.
 No novelty conclusion, numerical proof, new external-source validation or rendered-page check is asserted.
-
-The reviewer wrote only this review file.
-The proof checkpoint, canonical records, indices, immutable versions, source files and Task contracts were not edited by the reviewer.

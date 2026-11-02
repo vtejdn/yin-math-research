@@ -17,7 +17,6 @@ Human author: Yin.
 Proof development: Codex subagent, for root and review.
 Record kind: continuation of [Yin_T_F0007](../tasks/Yin_T_F0007_v1.md#yin_t_f0007) and [Yin_S_F0016](../strategies/Yin_S_F0016.md).
 At this checkpoint the argument is a complete candidate awaiting independent review.
-This file assigns no Claim ID or mathematical Role.
 
 **Result of this continuation.**
 The bounded division-closure equality has a candidate proof for every finite freely independent family of projections, with arbitrary traces.
@@ -506,7 +505,7 @@ Self-review checked the nonnormalized rank-two defect, all terminal-letter restr
 Yin_C_F0034 is used only at its stated general finite-defect scope, with actual full adjoint domains.
 
 
-No proof-assistant validation, external human review, new Role assignment, shared-index change, or Git publication was performed by this subtask.
+No proof-assistant validation or external human review was performed by this subtask.
 The next gate for adoption is an independent mathematical review of Sections 2–7 and the exact source interfaces in Section 1.
 
 
@@ -583,13 +582,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-alternating-words-and-bounded-end-deletion-operators) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0115_v1.md#8-boundary-cases-and-final-acceptance) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0115_v1.md#8-boundary-cases-and-final-acceptance) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0115_v1.md#8-boundary-cases-and-final-acceptance).
 

@@ -24,7 +24,7 @@ Historical prose about earlier reused D addresses is unchanged.
 The original record establishes three separate proof authors, no contribution or repair by this completion reviewer, and actual inspection of the fixed complete accounts against the contract.
 Its own earlier scalar/matrix reviews do not by themselves make this completion finding self-review.
 The matrix author’s scope mapping is legitimate fixed-input information to the extent described, but the additional shared mathematical context consulted before the completion finding is not specified sufficiently to distinguish fixed statements and proofs from author-development context.
-The current relationship therefore remains unknown; this does not turn the preserved mathematical checks into a negative finding or change their original2026-10-13 timestamp.
+The current relationship therefore remains unknown; this does not turn the preserved mathematical checks into a negative finding or change their original 2026-10-13 timestamp.
 The actual scalar, coefficient and matrix domains, source limits, finite-support completion scope and existing Task decision remain as recorded.
 
 ## Review relationships
@@ -38,9 +38,9 @@ The actual scalar, coefficient and matrix domains, source limits, finite-support
 | Review | Target | Scope |
 | --- | --- | --- |
 | [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Original F0010 contract](../../tasks/Yin_T_F0010_v1.md#contract) | Entire original scalar/finite-matrix domain, four assigned objectives, all completion criteria, conventions and source/execution distinctions. |
-| [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Fixed scalar account](../../ledger/Yin_L_F0043_v1.md#fixed-f0002-first-round-account) | Entire preserved14:36 scalar proof, exact finite capacity and dual, prediction hierarchy, every attainment/zero/degree branch, controls and outstanding source-attribution limit. |
-| [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Fixed coefficient account](../../ledger/Yin_L_F0044_v1.md#fixed-f0002-first-round-account) | Entire preserved14:37 coefficient proof, all nine sections/equations1--30, global continuity, exact scalar smooth locus, derivatives, singular controls, matrix transfer and limits. |
-| [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Fixed matrix account](../../ledger/Yin_L_F0045_v1.md#fixed-f0002-first-round-account) | Entire preserved14:37 matrix proof, finite coefficient capacity, field variation, convolution limit, every singular/trace/control/source scope. |
+| [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Fixed scalar account](../../ledger/Yin_L_F0043_v1.md#fixed-f0002-first-round-account) | Entire preserved 14:36 scalar proof, exact finite capacity and dual, prediction hierarchy, every attainment/zero/degree branch, controls and outstanding source-attribution limit. |
+| [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Fixed coefficient account](../../ledger/Yin_L_F0044_v1.md#fixed-f0002-first-round-account) | Entire preserved 14:37 coefficient proof, all nine sections/equations1--30, global continuity, exact scalar smooth locus, derivatives, singular controls, matrix transfer and limits. |
+| [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Fixed matrix account](../../ledger/Yin_L_F0045_v1.md#fixed-f0002-first-round-account) | Entire preserved 14:37 matrix proof, finite coefficient capacity, field variation, convolution limit, every singular/trace/control/source scope. |
 | [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Original coefficient review](Yin_R_F0131_v1.md#coefficient-whole-independent-finding) | Reuse exact complete proof reconstruction and independence/source boundaries, after verifying fixed preservation. |
 | [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Original scalar review](Yin_R_F0132_v1.md#scalar-capacity-whole-independent-finding) | Whole scalar mathematical pass and separately unresolved known-form theorem-body attribution. |
 | [F0010 completion finding](#f0010-fixed-chain-completion-finding) | [Original matrix review](Yin_R_F0132_v1.md#matrix-capacity-whole-independent-finding) | Whole matrix proof, actual DR10 existence use, original-kernel and coefficient-normalization scope. |
@@ -56,7 +56,7 @@ The actual scalar, coefficient and matrix domains, source limits, finite-support
 L_F0043 supplies a finite coefficient SDP maximum and equal finite Toeplitz infimum, with both inequalities proved and exact optimizer/nonattainment boundaries.
 Its convolution quadratic problems specify the dimension, coefficient construction, unique finite optimizer and decreasing limiting value.
 It distinguishes ordinary H2/Hinfinity from a weighted analytic completion.
-L_F0045 supplies the square-matrix positive-field global infimum, its unique bounded optimizer exactly on the circle-invertible domain, finite nonattainment at circle zeros and-infinity on the identically singular locus.
+L_F0045 supplies the square-matrix positive-field global infimum, its unique bounded optimizer exactly on the circle-invertible domain, finite nonattainment at circle zeros and \(-\infty\) on the identically singular locus.
 Thus neither a stationary equation nor the pointwise scalar identity is used as the claimed new task deliverable.
 
 **Capacity objective.**

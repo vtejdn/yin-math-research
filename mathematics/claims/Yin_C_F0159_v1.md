@@ -5,7 +5,8 @@ author: Yin
 
 Task: [T_F0011](../tasks/Yin_T_F0011_v1.md#contract).
 Provenance: project deduction, developed by the scalar-test subagent for Yin on 2026-10-16 and fixed from the continuing exploration.
-This registration retains a complete candidate argument for a fresh independent review; it does not accept the argument as proved.
+The initial registration retained a complete candidate argument for fresh independent review without accepting it as proved.
+The [selected assessment](#current-assessment) records the subsequent adoption.
 The statement sharpens the existing radial operator-norm bounds by proving the paired quadratic estimates and their optimal constants.
 
 ## Current assessment
@@ -403,7 +404,7 @@ Thus Hilbert-space unboundedness does not obstruct the paired quadratic route.
 ## Review boundary
 
 The candidate argument includes the full actual-A criterion, zero-atom exclusion, all radius-atom diagonal coefficients, the cutoff passage at zero, and the sharp constants.
-The positive kernel calculation and its interaction with the actual Fourier blocks require fresh independent review before acceptance.
+At the original candidate checkpoint, the positive kernel calculation and its interaction with the actual Fourier blocks required fresh independent review before acceptance.
 No Task completion, general A-to-S implication, source-priority claim or theorem role is selected.
 
 ## Assessment history

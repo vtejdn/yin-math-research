@@ -12,7 +12,8 @@ Source edition: Retained 11-page scan of the original published Annals article, 
 
 Passages: Definition p. 521; Theorem 1/Lemmas 2-3 pp. 522-524; Lemma 5 and the following positive-sandwich extension pp. 528-529.
 
-Inspection: 2026-09-12 analytic-dependency reader: selected proofs read and reconstructed; pp. 524,528,529 visually inspected. The coordinating second check read p. 529 and the disclosed reconstructed steps, not all primary pages.
+Inspection: 2026-09-12 analytic-dependency reader: selected proofs read and reconstructed; pp. 524,528,529 visually inspected.
+The coordinating second check read p. 529 and the disclosed reconstructed steps, not all primary pages.
 
 
 <a id="fk52-u001"></a>

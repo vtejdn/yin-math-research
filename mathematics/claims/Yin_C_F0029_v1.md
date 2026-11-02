@@ -806,7 +806,7 @@ Recorded review label: independently reviewed.
 | dependency | [Exact material](Yin_C_F0033_v1.md#decision-candidate-0002) | Local module identity under normality, generation and bounded defects. |
 | dependency | [Exact material](Yin_C_F0034_v1.md#decision-candidate-0002) | Fraction/tensor descent with the specified E, V_i, D_i and rank-one/zero generator defects. |
 | dependency | [Exact material](Yin_C_F0035_v1.md#decision-candidate-0002) | Same-unit free-field division subring after maximal Delta. |
-| review | [Exact material](../audits/reviews/Yin_R_F0012_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0012_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -854,8 +854,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0012_v1.md).
 

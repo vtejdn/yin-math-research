@@ -19,7 +19,7 @@ Consumer: the separate normal-domain investigation, Q3.
 
 The registered statement consists of assertions A and B below.
 Assertion C is expressly unresolved.
-Canonical research metadata owns the current mathematical and review assessments.
+The [selected decision](#current-assessment) owns the current mathematical assessment and exact review adoption; each cited finding owns its actual review relationship and scope.
 This continuation changes no Task contract or manuscript designation.
 
 <a id="annulus-local-dual-domains"></a>

@@ -13,7 +13,7 @@ author: Yin
 <a id="yin_c_f0038"></a>
 
 Provenance: project deduction; root proposed the L1-density route, and another AI agent supplied the normalization, normal-functional construction and complete scalar-pairing argument.
-Authorization: the human authorized ordinary density and adjoint-domain research; the root agent allocated this Claim.
+Authorization: the human authorized ordinary density and adjoint-domain research.
 No mathematical Role is assigned.
 Mathematical assessment at authorship: proof draft; complete candidate below.
 Review assessment at authorship: self-reviewed; independent review pending.
@@ -201,7 +201,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0038-p1) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0066_v1.md#yin_c_f0038-l1-density-and-an-actual-adjoint-test-module) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0066_v1.md#yin_c_f0038-l1-density-and-an-actual-adjoint-test-module) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -228,8 +228,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0066_v1.md#yin_c_f0038-l1-density-and-an-actual-adjoint-test-module).
 

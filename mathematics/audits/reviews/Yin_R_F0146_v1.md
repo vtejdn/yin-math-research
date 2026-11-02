@@ -249,7 +249,6 @@ Root reported this after the initial fixed-text read; the reviewer confirms it i
 It does not alter the map I_beta delta, any hypothesis, equation or conclusion.
 The correction can be made in place as meaning-preserving notation maintenance.
 Checking that the actual edit changes only this label suffices; it does not require a new mathematical version or a new whole-proof review.
-This review does not modify the candidate.
 
 ## Conclusion
 

@@ -80,7 +80,9 @@ The [negative-direction exploration](Yin_L_F0030_v1.md) retains the unresolved s
 ## Mathematical Operation and Completion Evidence, 2026-09-13
 
 The parallel exploration produced Yin_C_F0125, the independent general proof Yin_C_F0126 and the attainment interface Yin_C_F0127.
-Each registered conclusion has its own scoped independent review.
+Each registered conclusion has its own scoped review at the finding's actual relationship.
+The original [C_F0125 review](../audits/reviews/Yin_R_F0125_v1.md#positive-covariance-minimax-finding) and [C_F0126 review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) are self-reviewed; their real 2026-09-13 acts and mathematical scopes remain unchanged.
+Those findings and the [completion/interface comparison](../audits/reviews/Yin_R_F0126_v1.md#contract-and-review-relationship) do not supply the subsequent independent complete-Task logical-chain inspection, whose [follow-up scope](../tasks/Yin_T_F0008_v1.md#pending-independent-complete-chain-inspection) is retained at the Task.
 This synthesis records their relationship, preserves the earlier full proofs and attempts, and distinguishes proposal provenance from logical dependence.
 No existing proof is replaced, lemma extracted, or theorem Role assigned.
 The [independent contract comparison](../audits/reviews/Yin_R_F0126_v1.md) checks the original three milestones, Yin_C_F0121 generalization and the user's added independent-exploration direction.

@@ -56,8 +56,6 @@ These distinctions are preserved throughout the ledger artifact.
 - Source inspection: the reviewer did not reopen Xia23 or inspect its original proof.
   The source is contextual attribution through [Xia23-U001](../literature/Xia23/Yin_U001.md#xia23-u001); no theorem from that source is required to complete this counterexample.
   This audit does not certify source priority or reproduce the stronger trace-class assertion.
-- Artifact check: the complete proof was read as UTF-8.
-  Repository-wide link and index checks are integration work, separate from this mathematical review.
 - Numerical computation, compilation, proof-assistant verification, external human review, and publication or novelty assessment: not performed.
   No numerical approximation is used in the proof.
 

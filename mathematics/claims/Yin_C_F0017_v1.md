@@ -305,7 +305,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-orthogonality-and-the-accepted-homogeneous-estimate) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0068_v1.md#historical-holomorphic-realization) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0068_v1.md#historical-holomorphic-realization) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -332,8 +332,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Original review finding, dated 2026-09-09: [retained same historical finding](../audits/reviews/Yin_R_F0068_v1.md#historical-holomorphic-realization).
 Its relocation does not substitute the new 2026-10-22 review into earlier decisions.

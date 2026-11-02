@@ -16,8 +16,7 @@ Date: 2026-09-11.
 Human author: Yin.
 Proof development: another AI agent.
 Consumer: the separate normal-domain investigation.
-Record kind: complete continuation candidate, awaiting independent review.
-No Claim ID or Role is assigned.
+At authorship, this was a complete continuation candidate awaiting independent review.
 
 The coordinating agent proposed removing the C1 assumption from the necessity direction of [Yin_C_F0048](Yin_C_F0048_v1.md#yin_c_f0048), including an investigation of positive radial tests.
 The author supplied the annular localization and rotation argument below.
@@ -341,7 +340,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-canonical-operators-on-a-fixed-annulus) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0024_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0024_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original review classification and limitations: independently reviewed; preliminary collaboration disclosed
 
@@ -363,7 +362,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-canonical-operators-on-a-fixed-annulus) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0024_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0024_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -408,8 +407,6 @@ Recorded review label: independently reviewed.
 Original review classification and limitations: independently reviewed; preliminary collaboration disclosed
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0024_v1.md).
 

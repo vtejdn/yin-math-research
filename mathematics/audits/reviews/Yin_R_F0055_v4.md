@@ -8,7 +8,6 @@ These are the actual older agent findings retained at their responsible formal-r
 The move is not a new review and does not change the original date precision, checked mathematical versions, conclusions or limitations.
 The applicability agent already knew the prior mathematical diagnosis and conclusions, and the contract review was performed by the agent preparing that revision.
 All these relationships are therefore self-reviewed; an original independent description of a separate earlier proof review is not promoted to an isolated-context assertion here.
-The pure allocation/navigation and obsolete preservation-inventory procedures have no mathematical finding and are omitted.
 
 ## Review relationships
 

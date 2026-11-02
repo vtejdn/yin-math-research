@@ -150,6 +150,3 @@ Its author's failed MiKTeX extraction is not evidence of a successful render or 
 The registered proof and attached scalar-law source interface pass at the stated scope.
 All nontrivial mathematical steps from scalar freeness through global analytic continuation to the actual unbounded inverse were checked.
 No general T_F0007 completion, historical novelty, numerical confirmation, formal verification or rendered-PDF validation is asserted.
-
-The reviewer wrote only this audit.
-The proof, source attachment, canonical records, immutable versions, navigation and Task contract were not modified by the reviewer.

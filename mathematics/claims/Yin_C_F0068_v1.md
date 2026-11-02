@@ -10,7 +10,7 @@ Provenance: project deduction assembled from the accepted inputs identified belo
 Authorization: the user requested Claim registration, an independent audit, and verification that the result recovers the dual-system and conjugate-variable cases.
 Initial role: agent-proposed lemma for reuse.
 The user designated the Claim as Theorem on 2026-10-10; the current decision below records that role change.
-Extraction provenance: the exploratory synthesis Yin_D_F0008, dated 2026-10-10, is preserved mathematically in this fixed material; its redundant working copy was removed after acceptance.
+Extraction provenance: the exploratory synthesis Yin_D_F0008, dated 2026-10-10, is preserved mathematically in this fixed material.
 It is not a proof dependency.
 The preceding mathematical discussion and its local checks are not substituted for the independent reviews selected below.
 

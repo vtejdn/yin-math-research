@@ -7,11 +7,15 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: [CN21 arXiv v2](../../../literature/pdf/CN21--arxiv-v2.pdf), arXiv:1902.02379v2, 29 August 2019, 22 pages. Published identity: Journal of Operator Theory 85(1) (2021), 101--133.
+Source edition: [CN21 arXiv v2](../../../literature/pdf/CN21--arxiv-v2.pdf), arXiv:1902.02379v2, 29 August 2019, 22 pages.
+Published identity: Journal of Operator Theory 85(1) (2021), 101--133.
 
-Passages: Section 1.1--1.2, pp.2--4; Theorem 2.10, p.8; Lemma 3.1 and Theorem 3.2, p.9; Proposition 3.4 and its proof, p.10. Printed and PDF page numbers agree.
+Passages: Section 1.1--1.2, pp.2--4; Theorem 2.10, p.8; Lemma 3.1 and Theorem 3.2, p.9; Proposition 3.4 and its proof, p.10.
+Printed and PDF page numbers agree.
 
-Inspection: 2026-10-15: exact definitions and statements read; Lemma 3.1 and Proposition 3.4 proof mechanisms checked for the target-only functional question. The module-dimension foundations and all original dependencies were not independently re-audited. The correction below is necessary for the precise restricted vacuum value.
+Inspection: 2026-10-15: exact definitions and statements read; Lemma 3.1 and Proposition 3.4 proof mechanisms checked for the target-only functional question.
+The module-dimension foundations and all original dependencies were not independently re-audited.
+The correction below is necessary for the precise restricted vacuum value.
 
 
 <a id="cn21-u001"></a>

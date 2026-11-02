@@ -209,8 +209,11 @@ Original external analytic proofs, unrestricted replacement, original plotting r
 
 ## Source and inspection
 
-Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact. Printed page numbers equal PDF page numbers. Other works retain the separate versions and limitations stated in the body.
+Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact.
+Printed page numbers equal PDF page numbers.
+Other works retain the separate versions and limitations stated in the body.
 
 Passages: Remark 1.5 and Figure 1, pp. 3-4; complete Remark 4.7, pp. 19-21.
 
-Inspection: 2026-09-08: the three restricted spectral-radius cases, Schur calculation and singular endpoints reconstructed and independently cross-reviewed, including reproduced exact checks. Figure coefficients and evidence limits were inspected; the general spectral-radius replacement, Brown-support and random-matrix conclusions remain outside the stated result.
+Inspection: 2026-09-08: the three restricted spectral-radius cases, Schur calculation and singular endpoints reconstructed and independently cross-reviewed, including reproduced exact checks.
+Figure coefficients and evidence limits were inspected; the general spectral-radius replacement, Brown-support and random-matrix conclusions remain outside the stated result.

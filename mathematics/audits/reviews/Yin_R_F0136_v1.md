@@ -58,7 +58,7 @@ No reviewer-supplied mathematical repair is recorded for this complete candidate
 
 ## Algebraic preparation and the diffuse element
 
-Put B=Div_M C<X>, with inverses admitted only when boundedly invertible in M.
+Put \(B=\operatorname{Div}_M\mathbb C\langle X\rangle\), with inverses admitted only when boundedly invertible in M.
 The hypothesis X_j* in B makes B a star algebra by induction on rational expressions.
 Inverse closure of a unital C*-subalgebra gives A subset B subset C*(X), with norm closure C*(X).
 Thus B Omega and A Omega are dense in H.
@@ -177,7 +177,7 @@ Vanishing at Omega survives closure.
 The exact statement and complete argument of C_F0129 v1 pass this independently organized review, under the declared accepted source interfaces, with no required mathematical correction.
 This supports a proved / independently reviewed assessment for that fixed claim if adopted by its responsible decision.
 
-In particular, bare full-M duals together with X_j* in Div_M C<X> imply the ACSY24 derivation and actual-vacuum hypothesis for arbitrary bounded generating tuples.
+In particular, bare full-M duals together with \(X_j^*\in\operatorname{Div}_M\mathbb C\langle X\rangle\) imply the ACSY24 derivation and actual-vacuum hypothesis for arbitrary bounded generating tuples.
 The proof gives more: the closures of the normalized supplied maps restricted to the starred polynomial core have M Omega in both their domains and actual adjoint domains.
 
 The reverse implication from ACSY24 plus the same bounded-division-closure assumption has not been proved here.

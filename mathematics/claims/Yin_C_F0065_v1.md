@@ -291,7 +291,6 @@ The independent reviewer should reconstruct those steps without treating this ch
 The only general background inputs are elementary integration, Hilbert-space adjoints and bounded multiplication operators, and density of polynomials for the compactly supported semicircle measure.
 No external rationality theorem is used.
 Record any source-attribution issue separately from the directly proved mathematical assertions.
-Root owns allocation, canonical records, any adopted review, and comparison with T_F0001's completion criteria.
 
 ## Model 2: closed supplied extensions
 

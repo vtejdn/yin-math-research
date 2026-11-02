@@ -11,9 +11,13 @@ author: Yin
 
 Source edition: [LSW24b, arXiv:2301.07235v3](../../../literature/pdf/LSW24b--arxiv-v3.pdf), 30 April 2024.
 
-Passages: Introduction, Theorem 1.1, p.3; Example 1.2, p.4; Theorem 7.6, p.24; Corollary 7.7, p.25. Printed and PDF page numbers coincide.
+Passages: Introduction, Theorem 1.1, p.3; Example 1.2, p.4; Theorem 7.6, p.24; Corollary 7.7, p.25.
+Printed and PDF page numbers coincide.
 
-Inspection: Root directly read these passages on 2026-10-15. The classification is accepted at exact-statement/applicability depth; the example's displayed calculation and the local proof of Theorem 7.6 were read. Its earlier tensor-product machinery and external foundations were not re-audited. No formal verification.
+Inspection: Root directly read these passages on 2026-10-15.
+The classification is accepted at exact-statement/applicability depth; the example's displayed calculation and the local proof of Theorem 7.6 were read.
+Its earlier tensor-product machinery and external foundations were not re-audited.
+No formal verification.
 
 
 ## Accepted statement and correction

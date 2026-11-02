@@ -5,16 +5,16 @@ author: Yin
 
 ## Question and scope
 
-This computation supports the adversarial development in [D_F0004](../../../drafts/Yin_D_F0004.md).
+This computation supports the fixed adversarial tests in [L_F0056](../../../ledger/Yin_L_F0056_v1.md); [D_F0004](../../../drafts/Yin_D_F0004.md) retains the continuing model-specific questions.
 For the realized C_F0057 free U,V model, it computes finite Laurent kernels for unitary mixed words using exact polynomial-in-r free moments.
 Angular scans are numerical diagnostics for a proposed universal lower bound normalized by the actual square-root-vacuum measure sigma_r squared times absolute(z-v) squared.
-The reduction and source scope remain in D_F0004; no finite random matrix model replaces the realized tracial law.
+The reduction and source scope remain in L_F0056; no finite random matrix model replaces the realized tracial law.
 
 ## Files
 
 - [main.py](main.py) computes exact coefficient polynomials by recursive centered-word expansion with freeness and the known Haar/Poisson moments.
 - `../../outputs/Yin_J_F0009/results.json` is the historical output location for the exact coefficients, finite controls and numerical diagnostics; no payload is retained here.
-- [D_F0004](../../../drafts/Yin_D_F0004.md) owns the actual-law reduction, independent hand computations and analytic bounds.
+- [L_F0056](../../../ledger/Yin_L_F0056_v1.md) owns the actual-law reduction, hand computations and analytic bounds.
   The program is development evidence, not independent mathematical review.
 
 ## Reproduction
@@ -37,13 +37,13 @@ A fresh clone can lack output; reading the program does not execute it.
 All 20 known-formula comparisons passed and the six-word scan completed.
 The largest observed normalized negative ratio was approximately 0.2343714237 for (U squared V) to the fourth power at r=1/4 and theta=pi.
 No sampled ratio exceeded one; this establishes no uniform inequality.
-The (UV)^3 ratio near 0.0009765616 agrees with the exact 1/1024 value proved in D_F0004 at r=sqrt(3/4), cos(theta)=-5/6.
-That draft separately checks the ordinary commutator kernel by a six-term derivative/conditional-expectation calculation.
+The (UV)^3 ratio near 0.0009765616 agrees with the exact 1/1024 value proved in [L_F0056](../../../ledger/Yin_L_F0056_v1.md#uniform-bounds-for-two-mixed-word-families) at r=sqrt(3/4), cos(theta)=-5/6.
+That ledger account separately checks the ordinary commutator kernel by a six-term derivative/conditional-expectation calculation.
 These controls test signs, phase and normalization, without supplying a full independent program review.
 
 Exact arithmetic certifies only generated finite coefficient polynomials subject to the stated analytic recurrence.
 Floating scans are diagnostics, not certified inequality or counterexample proofs.
-All-degree bounds for two explicit word families are separately proved in D_F0004.
+All-degree bounds for two explicit word families are separately proved in [L_F0056](../../../ledger/Yin_L_F0056_v1.md#uniform-bounds-for-two-mixed-word-families).
 This scan establishes no result for arbitrary mixed words, analytic functional-calculus unitaries or nonbounded kernels, and creates no Claim or Task-completion assessment.
 
 ## Normal coordinate-change diagnostic

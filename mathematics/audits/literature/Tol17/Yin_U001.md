@@ -20,7 +20,6 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 Date/actor: 2026-09-11, the dual-domain research agent.
 Source type: research monograph; publication state: published; access: public preprint.
 Consumer: [the normal Cauchy-core continuation](../../../claims/Yin_C_F0044_v1.md), Sections 3-5.
-Source key and unit allocated by the coordinating agent.
 This unit records an established theorem interface; it is not a full monograph or original-proof audit.
 
 ### Source identity and inspected version

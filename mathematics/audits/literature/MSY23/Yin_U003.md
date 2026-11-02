@@ -275,7 +275,7 @@ Other later additions to this unit are outside this narrowly scoped review.
 
 <a id="bounded-linearization-recheck"></a>
 
-The actual user-requested 2026-09-10 source recheck was retained from [L_F0018](../../../ledger/Yin_L_F0018_v1.md#bounded-linearization-recheck) at 2026-10-21T01:22.
+The actual user-requested 2026-09-10 source recheck comes from [L_F0018](../../../ledger/Yin_L_F0018_v1.md#bounded-linearization-recheck).
 The free-field algebra agent freshly read the published primary pp.8-9 and21-25, including the proofs of Theorem4.4 and Lemma4.8.
 This additional original source reading is distinct from the earlier Section4 proof reconstruction and the narrower 2026-09-09 Schur review above.
 It confirms the exact existing domain analysis: Rat_M B is equivalent to existence of a linear pencil whose evaluated inverse is in a finite matrix algebra over M; Lemma4.8 begins with that ambient rational-closure membership.
@@ -286,4 +286,3 @@ The earlier deliberately nonminimal semicircular example records the original so
 The subsequent accepted [C_F0012 Sections6-7](../../../claims/Yin_C_F0012_v1.md#6-exclusion-from-the-norm-closed-and-scalar-division-algebras) supply the stronger actual bounded-dual model, C*-distance obstruction and minimal two-state form.
 Matrix C*-inverse closure then excludes every alternative bounded inverse-pencil representation, as explicitly retained in [the comparison](../../../ledger/Yin_L_F0018_v1.md#the-existing-example-also-excludes-minimality-and-alternative-pencils).
 These project deductions are not assertions of MSY23's source theorem, and the recorded fresh checks of those portions belong to the R_F0055 family.
-No original-source opening, mathematical proof change or new source review occurred during this retention.

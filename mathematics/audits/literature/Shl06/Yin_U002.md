@@ -73,4 +73,7 @@ Source edition: Shl06, registered nine-page Abel Symposium preprint.
 
 Passages: Section 2, definitions of H0/H1 and Theorem 3, pp. 4--5.
 
-Inspection: 2026-10-10: statement and full proof read; pp. 4--5 visually checked; spectral-cutoff and C1 approximation repair reconstructed. Audited within the bounded form-commutator convention. The literal polynomial-domain shortcut is insufficient; the weaker-domain interpretation is not verified. No formal or independent review.
+Inspection: 2026-10-10: statement and full proof read; pp. 4--5 visually checked; spectral-cutoff and C1 approximation repair reconstructed.
+Audited within the bounded form-commutator convention.
+The literal polynomial-domain shortcut is insufficient; the weaker-domain interpretation is not verified.
+No formal or independent review.

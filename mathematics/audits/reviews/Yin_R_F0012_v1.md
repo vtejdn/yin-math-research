@@ -228,4 +228,4 @@ Their disclosed reviewer relationships and retained source-foundation limits agr
 Together with this complete Yin_C_F0031 review and the complete assembly/interface review, these records resolve the pending internal mathematical-review obligations for all five lemmas and the selected criterion scopes of Yin_C_F0029-P2, Yin_C_F0030-P2 and Yin_C_F0024-P2.
 No source artifact required a correction, and the four input/assembly artifacts remained unchanged at final verification.
 The batch is mathematically accepted at these exact versions and stated scopes.
-The record owner may now perform the authorized registry promotion and proof-version selection; those administrative actions do not broaden this review to auxiliary original sections, a revised manuscript or a new theorem designation.
+This review does not cover auxiliary original sections, a revised manuscript or a new theorem designation.

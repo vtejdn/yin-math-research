@@ -12,11 +12,13 @@ Reading coverage: Read, with the stated classical interfaces accepted for use; n
 
 [Source and edition notes](readme.md).
 
-Source edition: [Bla06, author revision dated 8 February 2017](../../../literature/pdf/Bla06--author-2017.pdf), 561 pages. This is the retained author revision, not a separately compared 2006 print copy.
+Source edition: [Bla06, author revision dated 8 February 2017](../../../literature/pdf/Bla06--author-2017.pdf), 561 pages.
+This is the retained author revision, not a separately compared 2006 print copy.
 
 Passages: III.5.2.5--9, printed pp.338--339/PDF pp.346--347; III.5.2.14--15, printed p.340/PDF p.348; III.1.1.13, printed pp.238--239/PDF pp.246--247.
 
-Inspection: Direct text reading of the exact statements and short accompanying explanations. The universal-bidual identification, normal quotient and central-ideal descriptions are accepted at their stated scope; predecessor representation and duality theory are not re-audited.
+Inspection: Direct text reading of the exact statements and short accompanying explanations.
+The universal-bidual identification, normal quotient and central-ideal descriptions are accepted at their stated scope; predecessor representation and duality theory are not re-audited.
 
 
 ## Exact source interfaces

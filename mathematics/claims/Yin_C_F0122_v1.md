@@ -335,7 +335,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T02:10 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -354,7 +355,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T04:01 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -378,7 +380,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-28T02:52 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |

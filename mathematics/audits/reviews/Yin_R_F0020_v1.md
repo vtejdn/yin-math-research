@@ -230,7 +230,6 @@ If a target family is empty, its window construction has the usual empty-interse
 
 Both extracted statements and their complete proof versions are accepted at the identified revision.
 No required correction was found, and the target file was not edited.
-Saved mathematical delimiters were checked for balance, and no invalid control characters were found.
 
 This is a complete internal AI mathematical and proof-interface review.
 It is not a new recursive audit of the external analytic foundations, a numerical proof, proof-assistant verification, external human review, a novelty assessment, or an approval to change the selected proof of any parent claim without its assembly review.

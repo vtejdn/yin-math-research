@@ -11,8 +11,6 @@ Record kind: project deduction and strategy exploration.
 Date: 2026-09-13.
 Author: yin_t_f0008-contract agent.
 Goal: [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#yin_t_f0008); route: [Yin_S_F0022](../strategies/Yin_S_F0022.md#s_f0022).
-No Claim ID or mathematical Role is assigned here.
-The coordinating agent owns registration and the current assessment.
 
 The user requested continued independent exploration of a general variational formula, with Yin_C_F0121's matrix-inequality mechanism as a priority.
 The [formula](../claims/Yin_C_F0167_v1.md#statement) was developed from the signed Schur action.

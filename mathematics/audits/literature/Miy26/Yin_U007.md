@@ -179,8 +179,12 @@ No claim of random-matrix convergence, Brown-support equality for general quadra
 
 ## Source and inspection
 
-Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact. Printed page numbers equal PDF page numbers. Other works retain the separate versions and limitations stated in the body.
+Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact.
+Printed page numbers equal PDF page numbers.
+Other works retain the separate versions and limitations stated in the body.
 
 Passages: Theorem 1.4, pp. 2-3; Theorem 4.6 and its complete proof, pp. 17-19.
 
-Inspection: 2026-09-08: all six recurrence blocks and the formal-to-L2 inverse argument reconstructed and independently cross-reviewed, with rendered-formula inspection and reproduced exact finite checks. The criterion concerns decay of the specified orbit; the general all-eigenvalue shortcut is not proved. No formal verification or external human review.
+Inspection: 2026-09-08: all six recurrence blocks and the formal-to-L2 inverse argument reconstructed and independently cross-reviewed, with rendered-formula inspection and reproduced exact finite checks.
+The criterion concerns decay of the specified orbit; the general all-eigenvalue shortcut is not proved.
+No formal verification or external human review.

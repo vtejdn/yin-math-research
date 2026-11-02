@@ -7,7 +7,8 @@ Date: 2026-10-14T13:55.
 Human author Yin.
 The acsy_rationality_check agent developed the adjoint-tuple reduction and reversal-symmetry application under the explicit request to continue comparing full-domain duals with the ACSY24 derivation condition.
 Root checked the proposed conjugation identities before this fixed candidate was prepared.
-This is a complete candidate awaiting fixed-material review, not a claim that the general normal-tuple equivalence has been resolved.
+At authorship, this was a complete candidate awaiting fixed-material review.
+It does not claim that the general normal-tuple equivalence has been resolved.
 
 ## Current assessment
 [Selected decision](#decision-finding-owned-review)

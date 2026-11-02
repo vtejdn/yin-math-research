@@ -383,7 +383,6 @@ Source/locator organization may be appended with its actual later inspection wit
 
 2026-10-13T06:52.
 Root fixes the ENTIRE original account above after [the separate whole independent finding](../audits/reviews/Yin_R_F0132_v1.md#scalar-capacity-whole-independent-finding).
-Only the D_G0001 same-folder links are rebased to their identical target in drafts, and outside newlines normalized.
 Every formula, question, source account, unsuccessful reduction, bound, example, author check and freeze remains.
 Original working-stage and pending-review wording is historical.
 The fixed R owns the actual independent checks and source limits; structural validation and relocation do not add proof evidence.

@@ -10,11 +10,15 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: Christopher D. Sinclair, *The range of multiplicative functions on C[x], R[x] and Z[x]*, arXiv:math/0509591v2, 13 July 2007, 41 pages. The online PDF version strip was checked. The related journal DOI does not establish journal/preprint identity.
+Source edition: Christopher D. Sinclair, *The range of multiplicative functions on C[x], R[x] and Z[x]*, arXiv:math/0509591v2, 13 July 2007, 41 pages.
+The online PDF version strip was checked.
+The related journal DOI does not establish journal/preprint identity.
 
-Passages: Introduction, axioms A1--A4 on p. 1; Mahler example and Theorem 1.1 on p. 2; Jensen equation (1.2) on p. 3; Section 2, pp. 12--14. Printed and PDF page numbering coincide.
+Passages: Introduction, axioms A1--A4 on p. 1; Mahler example and Theorem 1.1 on p. 2; Jensen equation (1.2) on p. 3; Section 2, pp. 12--14.
+Printed and PDF page numbering coincide.
 
-Inspection: 2026-10-13T06:31, human author Yin; the assigned F0010 coefficient-dependence AI read the named statement, example, and Section 2 online. This is attribution and applicability inspection, not an independent audit of the whole source proof.
+Inspection: 2026-10-13T06:31, human author Yin; the assigned F0010 coefficient-dependence AI read the named statement, example, and Section 2 online.
+This is attribution and applicability inspection, not an independent audit of the whole source proof.
 
 
 Access: [versioned arXiv PDF](https://arxiv.org/pdf/math/0509591v2).

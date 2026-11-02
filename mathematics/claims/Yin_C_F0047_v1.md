@@ -16,8 +16,7 @@ Date: 2026-09-11.
 Human author: Yin.
 Proof development: another AI agent.
 Consumer: the separate normal-domain investigation and [Yin_C_F0045](Yin_C_F0045_v1.md#yin_c_f0045).
-Record kind: complete extension candidate; author self-reviewed, awaiting independent review.
-No Claim ID or Role is assigned.
+At authorship, this was a complete extension candidate, author self-reviewed and awaiting independent review.
 
 Contribution and provenance: root proposed the extension to radius atoms, identified the same-circle positive-frequency term, and suggested the midpoint vacuum formula and quantile comparison.
 This contribution is retained explicitly.
@@ -384,7 +383,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#3-an-ordered-quantile-identity) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0025_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0025_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original review classification and limitations: independently reviewed; preliminary contributions disclosed
 
@@ -406,7 +405,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#3-an-ordered-quantile-identity) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0025_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0025_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -451,8 +450,6 @@ Recorded review label: independently reviewed.
 Original review classification and limitations: independently reviewed; preliminary contributions disclosed
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0025_v1.md).
 

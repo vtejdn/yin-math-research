@@ -288,7 +288,6 @@ The remaining bibliography is contextual or belongs to the algebraic/affiliated 
 All assigned text on published pp. 42-50 was read.
 Published pp. 43, 46, 47 and 48 were visually inspected for the equivalence list, the distinct dimension superscripts, the finite-rank trace calculation, and the Haar sign.
 The block products, algebraic-freeness example, trace argument, and reduced-word cases were reconstructed directly.
-Independent cross-review is recorded separately when completed.
 No numerical test, formal verification, author confirmation of the sign correction, or full recursive audit of the cited literature is asserted.
 
 Independent review, 2026-09-08, a separate reviewing agent: compared this unit with published pp. 42-50 and independently viewed pp. 44 and 48.

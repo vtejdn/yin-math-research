@@ -12,7 +12,8 @@ Source edition: Registered arXiv:2005.13533v2, title-page date 2021-02-25, 51 pa
 
 Passages: Theorem 2.5 printed/PDF p.6 and Proposition 2.9 printed/PDF p.8.
 
-Inspection: Original 2026-10-10 title/abstract and selected statement/applicability comparison; these two pages were visually inspected. No original proof, whole-paper, novelty or later-publication audit.
+Inspection: Original 2026-10-10 title/abstract and selected statement/applicability comparison; these two pages were visually inspected.
+No original proof, whole-paper, novelty or later-publication audit.
 
 
 <a id="ak20-u001"></a>

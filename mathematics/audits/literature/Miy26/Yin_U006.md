@@ -245,7 +245,9 @@ No general spectrum/Brown-support conjecture, arbitrary R-diagonal spectral exte
 
 ## Source and inspection
 
-Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact. Printed page numbers equal PDF page numbers. Other works retain the separate versions and limitations stated in the body.
+Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact.
+Printed page numbers equal PDF page numbers.
+Other works retain the separate versions and limitations stated in the body.
 
 Passages: Example 4.3, pp. 14-15; Proposition 4.4, p. 15; Example 4.5, pp. 16-17.
 

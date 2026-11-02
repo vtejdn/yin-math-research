@@ -18,7 +18,7 @@ Date: 2026-09-10.
 Authorization: the user requested that the full main theorem be reconsidered with duals initially defined only on the ACSY24 starred polynomial core.
 Human author: Yin.
 Proof development: another AI agent, at the request of the coordinating agent.
-This module records two ingredients for the developing small-core package; the coordinating agent allocated Yin_C_F0027 after the initial draft.
+This module records two ingredients for the developing small-core package.
 It does not modify the hypotheses or recorded proof of [Yin_C_F0024](Yin_C_F0024_v1.md#yin_c_f0024).
 The [complete review](../audits/reviews/Yin_R_F0016_v1.md) records the inspected version and outcome; the [selected assessment](#current-assessment) records the mathematical and review assessments.
 
@@ -312,7 +312,7 @@ The two proved ingredients above do not settle that remaining step.
 This module is a mathematical deduction rather than a numerical experiment or proof-assistant verification.
 It retains the source foundations and previously recorded inspection limits and makes no historical-priority claim.
 
-Revision, 2026-09-10: the coordinating agent allocated Yin_C_F0027 and clarified that the core-estimate bridge itself does not require the bounded adjoint-generator commutators used by the separate bounded-inversion argument.
+Clarification, 2026-09-10: the core-estimate bridge itself does not require the bounded adjoint-generator commutators used by the separate bounded-inversion argument.
 
 
 ## Assessment history
@@ -334,7 +334,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-closed-domain-commutators-and-selfadjoint-doubling) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0016_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0016_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -377,8 +377,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0016_v1.md).
 

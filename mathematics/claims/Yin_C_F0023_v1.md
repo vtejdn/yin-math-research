@@ -17,7 +17,6 @@ author: Yin
 Date: 2026-09-09.
 Context: the user requested a re-examination of the main rationality theorem under MS23-type polynomial-domain duals or conjugate variables.
 Provenance: project deduction by another AI agent, using the fully audited MS23 conjugate expansion and a polynomial-degree triangular reconstruction proved here.
-the coordinating agent allocated Yin_C_F0023 for this deduction.
 Initial assessment: complete proof draft and author self-check, awaiting independent review of this written artifact.
 The [selected assessment](#current-assessment) records the mathematical and review assessments; independent review evidence must be recorded separately.
 No source priority, historical novelty, formal verification or human-review claim is made.
@@ -430,7 +429,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#2-a-general-polynomial-degree-criterion) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0011_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0011_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -474,8 +473,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0011_v1.md).
 

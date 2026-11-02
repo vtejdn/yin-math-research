@@ -18,11 +18,6 @@ author: Yin
   The valid formula is an infimum on its stated strict domain.
   This does not validate the source's ordinary inverse on its larger nonstrict domain.
 
-Final inspected artifacts after the authors' registration and source-navigation edits:
-
-- Main affine infimum proof
-- Global comparison proof
-
 ## Obligations and Evidence
 
 | Obligation | Decisive evidence checked |

@@ -175,6 +175,4 @@ What remains missing is a good reference or equivalent admissible correction con
 Neither C_F0036 nor the new comparison provides that existence implication.
 This review does not claim a new theorem about arbitrary Cauchy transforms, vacuum estimates, canonical analytic-phase convergence, or the final T_F0005 classification.
 
-Only the temporary and formal review files were written by the reviewer.
-The proof correction and registration were performed by the coordinator.
-The reviewer did not edit the proof, canonical records, immutable versions, indices or Task contracts.
+The Section 4 module correction was supplied by the coordinator.

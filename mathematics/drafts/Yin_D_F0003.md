@@ -656,39 +656,12 @@ This scalar law is diffuse, so no nonzero finite-rank operator commutes with mul
 In fact its finite-dimensional range would be x-invariant and would contain an eigenvector of x, contradicting diffuseness.
 The interface (60) therefore gives Delta(x)=1.
 
-Nevertheless the actual divided-difference vacuum does not exist.
-Write T_n(cos theta)=cos(n theta) for the Chebyshev polynomials and L(p)=integral integral (p(s)-p(t))/(s-t) dmu(s)dmu(t).
-Direct Fourier orthogonality gives ||T_n||2^2=1/2 for n>=1 and orthogonality of distinct T_n.
-To compute L, use, for |z|<1,
-
-\[
- F_z(t)=\sum_{n\ge0}T_n(t)z^n
-      =\frac{1-tz}{1-2tz+z^2},
-\qquad
- \frac{F_z(s)-F_z(t)}{s-t}
-  =\frac{z(1-z^2)}{(1-2sz+z^2)(1-2tz+z^2)}.
- \tag{64}
-\]
-
-The integrated Poisson Fourier series gives integral (1-2tz+z^2)^(-1) dmu(t)=(1-z^2)^(-1).
-Both the generating series and its t derivative converge uniformly for z in any compact subdisk, so termwise application of L is justified.
-Equation (64) gives L(F_z)=z/(1-z^2).
-Hence
-
-\[
- L(T_{2k+1})=1,\quad L(T_{2k})=0,
-\qquad
- p_N=\sum_{k=0}^{N-1}T_{2k+1}:
- \quad L(p_N)=N,\quad\|p_N\|_2=\sqrt{N/2}.
- \tag{65}
-\]
-
-No vector in H represents L.
+The [fixed Chebyshev calculation](../claims/Yin_C_F0080_v1.md#the-original-chebyshev-calculation) proves that no vector in H represents the actual divided-difference vacuum functional.
 The independently reviewed [scalar converse C_F0069](../claims/Yin_C_F0069_v1.md#statement) implies that any bare full-domain dual would supply precisely this actual vacuum.
 Therefore F(x) is false.
 This example refutes Delta=d implying F even for an absolutely continuous scalar law.
 It does not refute A implying F, since A already fails here.
-The calculation is self-contained; the substantive automatic-continuity implication is imported only at C_F0069's stated scope.
+The vacuum calculation has its self-contained fixed home in C_F0080; the substantive automatic-continuity implication is imported only at C_F0069's stated scope.
 
 ## A row-kernel obstruction excluding every bare full-domain witness
 
@@ -697,14 +670,14 @@ For h=2+s_0 and three free semicircular reference coordinates, X=(hS_1,hS_2) gen
 The proof uses bounded columns of the target row-kernel projection and the failure of 1 to belong to hL2 of the ambient reference algebra.
 It also proves star algebraic freeness and excludes every L2-valued derivation lift to the full reference algebra.
 Its selected reviewed decision adopts the complete independent [R_F0154](../audits/reviews/Yin_R_F0154_v1.md#conclusion).
-The subsequent [C_F0148](../claims/Yin_C_F0148_v1.md#statement), with complete independent [R_F0155](../audits/reviews/Yin_R_F0155_v1.md#conclusion), excludes both actual target coordinate vacua as well.
+The subsequent [C_F0148](../claims/Yin_C_F0148_v1.md#statement), with complete self-review [R_F0155](../audits/reviews/Yin_R_F0155_v1.md#conclusion), excludes both actual target coordinate vacua as well.
 Thus this example has maximal Delta while A and F both fail, and the proposed A-to-F separation route is closed.
 These complete proofs are not duplicated.
 
 The fixed reference-lifting obstruction alone could not decide target A because h,S_j were not in any verified target derivation domain.
 C_F0148 resolves it directly through target polynomial Neumann approximations and actual vacuum pairings.
 Parent root and this branch developed C_F0147; neither is its independent reviewer.
-This branch independently reviewed C_F0148, with the exact prior-summary and related-development disclosures in R_F0155.
+This branch checked C_F0148 at the self-reviewed relationship recorded in R_F0155, with its exact prior-summary and related-development disclosures.
 
 ### The natural holomorphic-core dual fails on one starred generator
 
@@ -916,7 +889,7 @@ Its reference coefficients are
 C_F0150 retains the full separated-leg actual-adjoint proof, both reference generator values, the actual whole-star-core vacuum of norm at most sqrt(2), and conditional-expectation compression to the intrinsic target coefficient module.
 None of those proofs is duplicated here.
 In contrast to the two-coordinate row example, the single-column kernel trace is zero, so C_F0148 gives no obstruction.
-The full-N dual and actual forward canonical domain are proved and independently reviewed in [C_F0152](../claims/Yin_C_F0152_v1.md#statement), adopted with [R_F0160](../audits/reviews/Yin_R_F0160_v1.md#conclusion).
+The full-N dual and actual forward canonical domain are proved with the recorded self-review in [C_F0152](../claims/Yin_C_F0152_v1.md#statement), adopted with [R_F0160](../audits/reviews/Yin_R_F0160_v1.md#conclusion).
 Thus this example satisfies both A and F and is no longer a separating candidate.
 
 Root's bounded-selfadjoint-factorization automatic-continuity argument and exact projective-functional formulation are now adopted at [C_F0151 v2](../claims/Yin_C_F0151_v2.md#statement), with its selected review and assessment owned there.
@@ -1138,7 +1111,7 @@ The order of q multiplication is again fixed as in C_F0152 formula (8).
 The complete-block cancellation, centered partial-block bound, exact mean sum and actual closure/compression arguments are fixed in [C_F0152](../claims/Yin_C_F0152_v1.md#argument).
 Together they give ||Ep||2<=(sqrt(2)+1+2||beta||2)||p|| on the full reference core and place every bounded vector in the actual forward canonical closure.
 The proof then constructs the intrinsic dual on N=W*(hS).
-Its selected decision owns the independent-review status; the full proof is not retained twice.
+Its selected decision owns the mathematical assessment and exact review adoption; R_F0160 owns the self-reviewed relationship, and the full proof is not retained twice.
 
 The auxiliary one-sided estimates, weighted right-annihilation argument, and alternate nonreal coefficients above are not used to fill an unproved step in C_F0152.
 They retain separate useful scope.
@@ -1264,7 +1237,7 @@ The stronger uncontracted weighted-domain assertion remains separate.
 
 ### Fixed finite polynomial-relation result
 
-The complete scalar-null block reduction, rectangular finite-rank-cycle and trace argument, actual compressed polar inverse, and bounded polynomial-linearization transfer are proved and independently reviewed at [C_F0155](../claims/Yin_C_F0155_v1.md#statement), adopted with [R_F0163](../audits/reviews/Yin_R_F0163_v1.md#conclusion).
+The complete scalar-null block reduction, rectangular finite-rank-cycle and trace argument, actual compressed polar inverse, and bounded polynomial-linearization transfer are proved with the recorded unknown-relationship review at [C_F0155](../claims/Yin_C_F0155_v1.md#statement), adopted with [R_F0163](../audits/reviews/Yin_R_F0163_v1.md#conclusion).
 For every holomorphic polynomial matrix P and bounded column a with Pa=0, it supplies a Hilbert column z with Pz=-g_i(P,a).
 For fixed P,i this choice is bounded and linear in a.
 The complete proof is not duplicated here.
@@ -1501,7 +1474,7 @@ This establishes the equivalence, including joint feasibility and normalization.
 Estimate (133) is the next exact forcing estimate to seek from actual ACSY data.
 [C_F0155](../claims/Yin_C_F0155_v1.md#statement), using [C_F0154](../claims/Yin_C_F0154_v1.md#statement) on the relevant scalar compression, supplies a Hilbert solution for every fixed affine relation and a bound that can depend on its pencil.
 A fixed solution gives a support estimate with its own coordinate norms, but does not furnish one choice of r_i(a) valid for all pencils and all bounded relation columns.
-Equations (124)--(129) further show why replacing the actual forcing geometry by a uniform weighted inverse-trace bound loses necessary information.
+[L_F0055, equations (124)–(129)](../ledger/Yin_L_F0055_v1.md#weighted-forcing-and-the-uniform-trace-shortcut) further show why replacing the actual forcing geometry by a uniform weighted inverse-trace bound loses necessary information.
 Criterion (133) retains the exact coordinate radii and is equivalent to bare F; it does not impose a global operator-norm estimate, and it has not yet been deduced from A.
 
 ### Why a fixed finite-tensor approximation does not give uniform absorption

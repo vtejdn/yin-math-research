@@ -85,9 +85,10 @@ Thus C is a left-M module map on M, with no all-M adjoint estimate and no claime
 
 ## Fractions, Cancellation and Descent
 
-The spectral-cutoff cancellation in Section 4 is valid for the established bounded-set weak continuity.
+The spectral-cutoff cancellation in [Section 4](../../claims/Yin_C_F0030_v1.md#4-cancellation-and-independence-of-fractions) is valid for the established bounded-set weak continuity.
 The polar partial isometry is unitary because the bounded denominator is regular in the finite affiliated algebra.
-The displayed cutoffs approximate each bounded input uniformly in operator norm and strongly in L2 through the denominator range.
+For every bounded input \(z\), the displayed cutoffs \(p_nz\) lie in the denominator range, satisfy \(\|p_nz\|\le\|z\|\), and converge to \(z\) in L2.
+Bounded-set weak continuity therefore gives \(T(p_nz)\rightharpoonup Tz\), which is the convergence used for finite-rank cancellation.
 Injectivity of the left regular multiplier and weak closedness of the finite-dimensional range prove finite rank of the uncancelled defect.
 Its previously established closability then supplies boundedness.
 

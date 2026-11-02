@@ -392,16 +392,16 @@ The Reich supplement additionally retains matrix regularity of a von Neumann reg
 
 The scalar inverse-sign test is an exact algebra calculation, not a numerical certificate for the full theorem.
 No numerical experiment, proof-assistant verification, external human review, publication or historical-priority claim has been made.
-Separate cross-review of this written source unit is pending at creation; its final evidence belongs in the Yin20 audit index or an explicit review record.
 
-## 9. Independent Complete-Artifact Review
+<a id="9-independent-complete-artifact-review"></a>
+## 9. Complete-Artifact Review and Independence Limits
 
-On 2026-09-10, the rational-expression agent independently read this complete unit and compared it with the supplied Yin20 source.
+On 2026-09-10, the rational-expression agent read this complete unit and compared it with the supplied Yin20 source.
 The review covered every proof, domain qualification and retained input in Sections 1–8, including the complete Reich supplement.
 Source PDF pp. 66–72 / printed pp. 56–62 were read and visually inspected; p. 66 was covered during the same reviewer's immediately preceding U001 reconstruction, and pp. 67–72 were inspected for this cross-review.
 The blank final verso, both printed reciprocal signs and the precise polynomial-rank gap in IV.4.1 were verified in the rendered source.
 
-The independent calculations confirm the following points.
+The recorded calculations confirm the following points.
 
 - The product block of Algorithm IV.3.4(ii) has the stated asymmetric block-column sizes, its inverse exists on the common input domain, and the multiplication order produces `r₁r₂`.
 - The inverse compression for the printed bordered matrix is `−r⁻¹` before correcting the outer sign, and the same correction is required at both source occurrences.
@@ -411,25 +411,30 @@ The independent calculations confirm the following points.
 - The finite-stage division construction is increasing, is inverse closed in the fixed ambient, and has the asserted minimality.
 - The induction in Lemma IV.5.8 uses a nonzero scalar entry in the division coefficient ring as its pivot, and Proposition IV.5.7 follows without an extra inverse-closedness assumption on that division ring.
 
-For Section 6.4, the reviewer independently read the supplied primary-text extractions of Reich's published Proposition 4.9 and following unnumbered remark on printed p. 122 / PDF p. 132, and dissertation Proposition 13.15 and Note 13.16 on printed p. 103 / PDF p. 107.
+For Section 6.4, the reviewer read the supplied primary-text extractions of Reich's published Proposition 4.9 and following unnumbered remark on printed p. 122 / PDF p. 132, and dissertation Proposition 13.15 and Note 13.16 on printed p. 103 / PDF p. 107.
 The dissertation title-page extraction gives Göttingen 1998, while Yin20's bibliography identifies the 2006 chapter, confirming the version-dependent locator mismatch.
 The `a=aba` overring proof is valid on both the scalar and matrix levels, with matrix regularity retained explicitly as the structural input.
 This review does not claim fresh rendered inspection of either Reich source or a proof of that general matrix-regularity theorem.
 
-Contribution disclosure: this reviewer authored U001 and independently checked its overlapping representation rules, and had previously worked on the project's small-core domain issue and bounded-compression example.
-Those preliminary contributions are disclosed rather than counted as independent discovery of the overlapping sign correction.
-The present review independently checks the complete U002 artifact and its additional evaluation, closure and Reich arguments.
+Contribution disclosure: this reviewer authored U001 and checked its overlapping representation rules, and had previously worked on the project's small-core domain issue and bounded-compression example.
+The representation product block and inverse-sign derivation reused in Section 2 overlap that reviewer's own U001 development and therefore count as self-review.
+The recorded additional evaluation, closure and Reich checks retain their actual calculations and 2026-09-10 scope.
+Their initial development-context arrangement is unrecorded, so this account does not certify an independent relationship for those checks or for the complete artifact.
 The general free-field foundations were additionally primary-checked at their selected Cohn locators during U001; their entire original proofs are not recursively certified here.
 
 Outcome: accepted at the stated scope, with the source repairs already present in the reviewed artifact and no additional correction required.
-The mathematical body was preserved; this review record is the only change made by the independent reviewer.
 
 ## Source and inspection
 
 [Source and edition notes](readme.md).
 
-Source edition: Yin20, the supplied 109-page doctoral dissertation with title-page year 2019; its defense date 2020-01-27 and public repository metadata are separate facts. Printed Arabic page = PDF page minus 10. Other source editions retain their separate exact locators.
+Source edition: Yin20, the supplied 109-page doctoral dissertation with title-page year 2019; its defense date 2020-01-27 and public repository metadata are separate facts.
+Printed Arabic page = PDF page minus 10.
+Other source editions retain their separate exact locators.
 
 Passages: Sections IV.4-IV.5, printed pp. 56-61 / PDF pp. 66-71, plus blank PDF p. 72; Algorithm IV.3.4 on p. 56, input conventions on pp. 54-55 and Proposition III.1.6 on p. 39.
 
-Inspection: 2026-09-10: complete local reconstruction and self-check of evaluation consistency, Schur complements and the two closures, followed by the appended independent artifact review. Exact Reich published/dissertation locators and selected Cohn interfaces are distinguished; general matrix regularity and free-field foundations remain structural inputs. Prior overlapping reviewer contributions are disclosed. No fresh rendered Reich check, whole external-source proof audit, formal verification or external human review is claimed.
+Inspection: 2026-09-10: complete local reconstruction and self-check of evaluation consistency, Schur complements and the two closures, followed by the appended complete-artifact check at the disclosed self-review and unestablished-context limits.
+Exact Reich published/dissertation locators and selected Cohn interfaces are distinguished; general matrix regularity and free-field foundations remain structural inputs.
+Prior overlapping reviewer contributions are disclosed.
+No fresh rendered Reich check, whole external-source proof audit, formal verification or external human review is claimed.

@@ -9,15 +9,19 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: Den09, [retained PDF](../../../literature/pdf/Den09.pdf), arXiv:0905.0604v1, 5 May 2009, 25 pages. Only this version's proofs and problem formulations are assessed.
+Source edition: Den09, [retained PDF](../../../literature/pdf/Den09.pdf), arXiv:0905.0604v1, 5 May 2009, 25 pages.
+Only this version's proofs and problem formulations are assessed.
 
-Passages: Sections 2--4 in full, pp.3--23, and references pp.23--25. Complete printed proofs of Lemmas 3/8, Proposition 7/9, Corollaries 10--12/23, Examples 15/16 and Theorems 17/22; all other statements and the stated dependency interfaces in these sections.
+Passages: Sections 2--4 in full, pp.3--23, and references pp.23--25.
+Complete printed proofs of Lemmas 3/8, Proposition 7/9, Corollaries 10--12/23, Examples 15/16 and Theorems 17/22; all other statements and the stated dependency interfaces in these sections.
 
-Inspection: 2026-10-06, human author Yin; assigned AI source-review agent directly read the passages and self-checked the record, with rendered pp.7,10--11,17--20 inspected for formulas, limsup bars and Question 21. No independent human reviewer or formal verification is asserted. Foundational definitions and Section 1 are recorded in U001.
+Inspection: 2026-10-06, human author Yin; assigned AI source-review agent directly read the passages and self-checked the record, with rendered pp.7,10--11,17--20 inspected for formulas, limsup bars and Question 21.
+No independent human reviewer or formal verification is asserted.
+Foundational definitions and Section 1 are recorded in U001.
 
 
-The distinct original2026-10-07 coordinator reading rechecked the Theorem14/Example15 statement on retained printed p12: arbitrary integer specialization vectors, the sup-norm relation parameter and the full polynomial limit including zeros.
-That original statement recheck is separate from the2026-10-06 inspection table and does not audit Lawton’s original proof.
+The distinct original 2026-10-07 coordinator reading rechecked the Theorem14/Example15 statement on retained printed p12: arbitrary integer specialization vectors, the sup-norm relation parameter and the full polynomial limit including zeros.
+That original statement recheck is separate from the 2026-10-06 inspection table and does not audit Lawton’s original proof.
 That reading fact does not imply a new source inspection or receipt of its separate sending-repository arithmetic application.
 
 ## Assessment and reuse boundary

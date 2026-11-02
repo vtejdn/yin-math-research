@@ -52,8 +52,6 @@ Hence this review supplies progress on Yin_T_F0001 and the first interface in Yi
   Separate primary-source inspection by another AI agent is documented through [Voi98-U005](../literature/Voi98/Yin_U005.md#voi98-u005) and [Shl24-U001](../literature/Shl24/Yin_U001.md#shl24-u001).
   Conditional on the stated source convention `[X_j,Y_i]=i delta_ij P`, the normalization `D_i=iY_i` and the conversion of inner-product conventions were independently checked here.
   The broader bounded-generator theorem rests on the written proof, not on attributing that scope to those sources.
-- Artifact checks: the inspected proof was read as UTF-8.
-  Repository-wide link or index checks belong to root integration and are not substituted for mathematical review.
 - Computation, compilation, proof-assistant verification, external human review, and publication or novelty assessment: not performed.
   No such activity is required as an unresolved mathematical input to this elementary argument.
 

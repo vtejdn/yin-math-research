@@ -9,11 +9,17 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: Luc22, [retained PDF](../../../literature/pdf/Luc22.pdf), Wolfgang Lück, *Lehmer's Problem for arbitrary groups*, arXiv:1901.00827v2, 16 September 2020, 25 pages. The publication-year key is Luc22; this inspection concerns the preprint, not a presumed identical journal rendering.
+Source edition: Luc22, [retained PDF](../../../literature/pdf/Luc22.pdf), Wolfgang Lück, *Lehmer's Problem for arbitrary groups*, arXiv:1901.00827v2, 16 September 2020, 25 pages.
+The publication-year key is Luc22; this inspection concerns the preprint, not a presumed identical journal rendering.
 
-Passages: Sections 0--5, pp.1--9; Section 9, p.19; Appendix 14, pp.20--24. Printed and PDF pages coincide.
+Passages: Sections 0--5, pp.1--9; Section 9, p.19; Appendix 14, pp.20--24.
+Printed and PDF pages coincide.
 
-Inspection: 2026-10-06T06:51, human record author Yin. An assigned AI reviewer read the complete mathematical body and checked this unit's definitions, finite-dimensional calculations and transfer arguments. Rendered pp.6,8,22,23 were inspected. This record was self-checked; no independent human review or formal verification is asserted. Original proofs cited from other works were not recursively audited.
+Inspection: 2026-10-06T06:51, human record author Yin.
+An assigned AI reviewer read the complete mathematical body and checked this unit's definitions, finite-dimensional calculations and transfer arguments.
+Rendered pp.6,8,22,23 were inspected.
+This record was self-checked; no independent human review or formal verification is asserted.
+Original proofs cited from other works were not recursively audited.
 
 
 ## Assessment and reuse boundary
@@ -25,7 +31,6 @@ The statements of Lemma 5.1 survive the checks and repairs given here.
 
 This unit supplies the conventions used by [Luc22-U002](Yin_U002.md#luc22-u002).
 The separate conditional-approximation study remains unreceived sending-repository context.
-It allocates no project Claim or Task.
 The source's 2020 statements about the status of soficity, determinant approximation and other conjectures are historical reports, not independently refreshed present-day status claims.
 
 <a id="luc22-von-neumann-dimension"></a>

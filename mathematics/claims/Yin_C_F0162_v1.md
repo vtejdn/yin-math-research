@@ -7,7 +7,8 @@ Task: [T_F0011](../tasks/Yin_T_F0011_v1.md#contract).
 Provenance: project deduction developed on 2026-10-16 for Yin.
 Root proposed the factor-two test after the three-circle obstruction to the vacuum-norm constant; the scalar-test subagent developed the soft-kernel polarization and cancellation argument below.
 The finite-point diagnostics were discovery leads only and are not proof inputs.
-This is a complete candidate fixed for fresh independent review, not an accepted result or a completion of the correlated-normal Task.
+At the original candidate checkpoint, this complete argument was fixed for fresh independent review without accepting it as proved.
+It does not complete the correlated-normal Task.
 
 ## Current assessment
 [Selected decision](#decision-reviewed-quadratic)
@@ -401,7 +402,8 @@ The weak soft-vacuum limit is adequate only after the explicit cancellation (17)
 No strong convergence of the soft vacuum, principal-value theorem, entire-H domain, sharpness of factor two, or correlated normal estimate is asserted.
 The free-product consequence invokes the separate exact lifting result and does not extend that result beyond freely independent scalar normal factors.
 
-The current candidate requires a fresh full review, especially of the coefficients in (8)-(10), the conjugate kernel orientation, actual adjoint identification, weak/strong limit in (17), and the stated direct-input interfaces.
+At that candidate checkpoint, a fresh full review was required, especially of the coefficients in (8)-(10), the conjugate kernel orientation, actual adjoint identification, weak/strong limit in (17), and the stated direct-input interfaces.
+The [selected assessment](#current-assessment) adopts the completed whole [R_F0171 finding](../audits/reviews/Yin_R_F0171_v1.md#conclusion); the additional R_F0170 check retains its separate Part A scope.
 The independent-review and selected-assessment status of C_F0160 remains owned by that material.
 
 ## Assessment history

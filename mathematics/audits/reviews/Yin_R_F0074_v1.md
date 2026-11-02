@@ -233,7 +233,6 @@ It does not identify the two scalar division closures or infer boundedness of a 
 
 Verification comprised complete mathematical reconstruction and exact selected primary-source reading.
 No numerical experiment, proof-assistant verification, external human review, or novelty assessment was performed.
-The target was not modified; registration and dependency-index integration remain with root.
 
 ## Actual review arrangement
 

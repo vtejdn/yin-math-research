@@ -18,9 +18,8 @@ Inspection: 2026-09-12 primary passages read; MS24 p.8 and GGOW20 p.258 visually
 <a id="ms24-u006"></a>
 ## Exact retained source scope
 
-This complete source-interface reconstruction was retained from [L_F0039](../../../ledger/Yin_L_F0039_v1.md#ms24-scaling-dependency-review) at 2026-10-21T01:19.
+This complete source-interface reconstruction comes from [L_F0039](../../../ledger/Yin_L_F0039_v1.md#ms24-scaling-dependency-review).
 The actual original coordinating check is retained in the R_F0176 family; the source reader's reconstruction and that second finding are distinct accounts.
-This maintenance does not reopen the sources or certify any additional original proof, arithmetic algorithm or project Claim.
 
 ## Retained scaling reconstruction
 

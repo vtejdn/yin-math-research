@@ -297,9 +297,6 @@ The original AP18 construction is separately retained in [AP18-U002](../AP18/Yin
   The relevant existing audit sections were reread; primary definition passages on pp. 8, 10–13, 20–25, 29 and 42 were freshly checked, with surrounding statements used only to delimit their meaning.
   Rendered pp. 13, 21, 24, 25, 29 and 42 were inspected.
   This is not a fresh complete proof audit of those sections.
-- Preservation: the existing units and source PDF are unchanged.
-  Their proof assessments, repairs and declared external inputs remain authoritative.
-  This note follows the [definition rules](../../../definitions/readme.md) and [reuse rule](../../../../framework/rules/knowledge-reuse.md#reuse-before-proof).
 
 ## Existing General Definition Homes
 
@@ -419,7 +416,7 @@ In tracial GNS notation this is exactly \(J(x\Omega)=x^*\Omega\).
 The involution property \(J^2=I\) follows on the dense subspace \(M\Omega\) from \((x^*)^*=x\), then on all of \(H\) by continuity.
 MSY23, p. 13, supplies the definition and terminology, with ACSY24 as corroboration.
 This is the tracial conjugation operator; no nontracial modular-domain assertion is imported.
-No new definition or Claim ID is allocated, and no whole-source proof review is claimed.
+No whole-source proof review is claimed.
 
 ### Earlier Citation Disposition
 

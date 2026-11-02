@@ -8,7 +8,6 @@ These are the actual older agent findings retained at their responsible formal-r
 The move is not a new review and does not change the original date precision, checked mathematical versions, conclusions or limitations.
 The applicability agent already knew the prior mathematical diagnosis and conclusions, and the contract review was performed by the agent preparing that revision.
 All these relationships are therefore self-reviewed; an original independent description of a separate earlier proof review is not promoted to an isolated-context assertion here.
-The pure allocation/navigation and obsolete preservation-inventory procedures have no mathematical finding and are omitted.
 
 ## Review relationships
 
@@ -342,7 +341,7 @@ The separate clarification reviewer checked the displayed scope, but whether dev
 The corresponding original dated evidence and limitations above remain unchanged; no new review is performed by retaining it here.
 ## Retained bounded-linearization rechecks
 
-These actual 2026-09-10 findings were retained at 2026-10-21T01:22 from the original L_F0018 account.
+These actual 2026-09-10 findings are from the original L_F0018 account.
 The first reviewer explicitly read the target C_F0012's existing reviews before reconstructing its Sections6-7; that known prior target-review mathematical context makes the actual portion finding self-reviewed.
 It did not author the note, but that fact does not erase the disclosed shared target-review context.
 The complete-note coordinator finding has no established initial author-development context arrangement; prior dependency review alone is not classified as a target-proof contribution.

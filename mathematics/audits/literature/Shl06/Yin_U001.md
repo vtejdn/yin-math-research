@@ -119,6 +119,9 @@ Therefore the existence equivalence with *closable skew-symmetric* implementers 
 
 Source edition: Shl06, nine-page Abel Symposium preprint.
 
-Passages: Sections 1.1--1.2, Theorem 1, Corollary 2; pp. 2--4. MS23 Definition 2.4 and Theorem 2.5 supply the explicit normalized-system name.
+Passages: Sections 1.1--1.2, Theorem 1, Corollary 2; pp. 2--4.
+MS23 Definition 2.4 and Theorem 2.5 supply the explicit normalized-system name.
 
-Inspection: 2026-10-10: complete reading, p. 3 and p. 4 visual checks, both Theorem 1 implications reconstructed in one inner-product convention, adjoint omission tested at q=0, polynomial specialization checked. Core equivalence audited within stated scope; essential skew-adjointness not established. arXiv v1 has the same p. 3 defects; no publisher-version collation, formal verification or independent review.
+Inspection: 2026-10-10: complete reading, p. 3 and p. 4 visual checks, both Theorem 1 implications reconstructed in one inner-product convention, adjoint omission tested at q=0, polynomial specialization checked.
+Core equivalence audited within stated scope; essential skew-adjointness not established.
+arXiv v1 has the same p. 3 defects; no publisher-version collation, formal verification or independent review.

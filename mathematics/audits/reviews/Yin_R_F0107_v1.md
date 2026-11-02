@@ -12,9 +12,8 @@ The new findings below record a later isolated inspection and do not backfill th
 - Date and reviewer: 2026-09-11; the reviewing agent, independently reviewing a proof written by another agent.
   The reviewer did not author or modify the target.
 - Target: two-projection-bounded-closure.md (original material now separated into [Yin_C_F0099_v1](../../claims/Yin_C_F0099_v1.md), [Yin_C_F0100_v1](../../claims/Yin_C_F0100_v1.md), [Yin_L_F0025_v1](../../ledger/Yin_L_F0025_v1.md)), all of Sections 2-4, with Sections 1 and 5 checked for source and conclusion scope.
-- Starting state: two complete unregistered candidates: an arbitrary-pair counterexample and the equality for two freely independent projections of arbitrary traces.
+- Starting state: two complete candidates: an arbitrary-pair counterexample and the equality for two freely independent projections of arbitrary traces.
 - Verdict: **pass for both candidates at the stated scope; no mathematical gap found.**
-  This record assigns no Claim ID, Role, goal completion, or index assessment.
 
 ## 1. Source Interfaces and Notation
 
@@ -194,8 +193,6 @@ The argument gives no conclusion for three free projections, general finite-spec
 
 Verification consisted of complete algebraic and analytic reconstruction of the target, all character substitutions and trace boundary cases, and exact selected primary-source checks.
 There was no numerical test, proof-assistant verification, external human review, or audit of the cited papers in full.
-The target was not modified.
-Source registry integration and any subsequent claim assessment remain with root.
 
 ## Actual review arrangement
 

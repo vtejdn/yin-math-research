@@ -160,8 +160,11 @@ The cited v2 is the exact reviewed version; no complete v1/v2 comparison, author
 
 ## Source and inspection
 
-Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact. Printed page numbers equal PDF page numbers. Other works retain the separate versions and limitations stated in the body.
+Source edition: Miy26, arXiv:2603.19528v2, dated 2026-04-21; the registered 23-page artifact.
+Printed page numbers equal PDF page numbers.
+Other works retain the separate versions and limitations stated in the body.
 
 Passages: Section 4 conventions and Lemma 4.1, pp. 11-13; Corollary 4.2 and proof, pp. 13-14.
 
-Inspection: 2026-09-08: mixed-word commutators, the holomorphic inverse and both spectral inclusions reconstructed and independently cross-reviewed; recorded exact finite checks supplement the proof. No complete v1/v2 comparison, author-confirmed erratum, proof-assistant verification or external human review was claimed.
+Inspection: 2026-09-08: mixed-word commutators, the holomorphic inverse and both spectral inclusions reconstructed and independently cross-reviewed; recorded exact finite checks supplement the proof.
+No complete v1/v2 comparison, author-confirmed erratum, proof-assistant verification or external human review was claimed.

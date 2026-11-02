@@ -129,7 +129,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0123](Yin_R_F0123_v1.md) | Yin_T_F0008: Positive Certificates and the Circular Signed Schur Minimum | [v1](Yin_R_F0123_v1.md) |
 | [Yin_R_F0124](Yin_R_F0124_v1.md) | Yin_T_F0008: Independent Review of the Affine Hilbert--Schmidt Infimum | [v1](Yin_R_F0124_v1.md) |
 | [Yin_R_F0125](Yin_R_F0125_v1.md) | Review of Yin_C_F0125: Ordered Matrix Minimax under Positive Hilbert--Schmidt Covariance | [v1](Yin_R_F0125_v1.md) |
-| [Yin_R_F0126](Yin_R_F0126_v1.md) | Yin_T_F0008: Independent Mathematical Completion Comparison | [v1](Yin_R_F0126_v1.md) |
+| [Yin_R_F0126](Yin_R_F0126_v2.md) | T_F0008 independent complete logical-chain inspection; historical completion/interface comparison retained | [v1](Yin_R_F0126_v1.md), [v2](Yin_R_F0126_v2.md) |
 | [Yin_R_F0127](Yin_R_F0127_v1.md) | Affine Semicircular Determinant: Proof Review | [v1](Yin_R_F0127_v1.md) |
 | [Yin_R_F0128](Yin_R_F0128_v1.md) | Yin_T_F0008: Independent Review of the General Signed Schur Formula | [v1](Yin_R_F0128_v1.md) |
 | [Yin_R_F0129](Yin_R_F0129_v1.md) | Retained project review: MS24: Dependency Audit for the Integer Capacity Bound | [v1](Yin_R_F0129_v1.md) |

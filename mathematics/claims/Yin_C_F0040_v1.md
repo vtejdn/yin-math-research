@@ -11,17 +11,15 @@ author: Yin
 
 <a id="statement"></a>
 
-Registration checkpoint, 2026-09-11: Section 3 is now ordinary Claim Yin_C_F0040, proved after [root's independent review](../audits/reviews/Yin_R_F0070_v1.md#original-f0055-account).
+Adoption, 2026-09-11: Section 3 was assessed as proved after [root's independent review](../audits/reviews/Yin_R_F0070_v1.md#original-f0055-account).
 No mathematical Role is assigned.
-The author's original unnumbered/candidate-stage descriptions below are preserved as history; current assessments are recorded in the [selected assessment](#current-assessment).
+Current assessments are recorded in the [selected assessment](#current-assessment).
 
 Date: 2026-09-11.
 Human author: Yin.
 Proof development: another AI agent.
 Authorization: the user selected the first two groups of research questions and Group III question 7, with polynomial dual domains the first priority; the coordinating agent assigned this bounded first-stage investigation under the normal-domain investigation.
-Record kind: substantive exploration and complete unnumbered proof candidate.
-No Claim ID, Role designation, lemma extraction, or main-theorem designation is made here.
-At that authoring checkpoint, the coordinating agent was responsible for arranging independent review and recording the adoption decision.
+At authorship, this was substantive exploration and a complete proof candidate.
 
 The earlier proofs Yin_C_F0025-Yin_C_F0028 and Yin_C_F0039 remain unchanged.
 This record proposes a new sufficient geometric case for the **bare starred polynomial core**, not a resolution for arbitrary normal spectra.
@@ -425,13 +423,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#31-normalize-and-change-the-derivative-coordinates) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0070_v1.md#original-f0055-account) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0070_v1.md#original-f0055-account) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0070_v1.md#original-f0055-account).
 

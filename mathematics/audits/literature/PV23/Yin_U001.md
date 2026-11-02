@@ -34,9 +34,6 @@ This is an applicability check, not a counterexample to Yin_C_F0001 or a claim t
 
 <a id="pv23-definition-recheck"></a>
 
-Its exact definitions, source version and locators, actual visual pages and unreviewed-proof limits are preserved.
-Already sufficient definitions and theorem arguments remain at their linked U homes.
-The original sidecar and unchanged-file language records that earlier checkpoint; this retention neither opens the source again nor performs a new proof or independent review.
 
 Date and reviewer: 2026-09-10, the coordinating agent.
 Source: [PV23, arXiv v2 PDF](https://arxiv.org/pdf/2009.08527v2), 2022-10-18, 60 pages; bibliographic identity is in [references.bib](../../../literature/references.bib).

@@ -16,8 +16,7 @@ Date: 2026-09-11.
 Human author: Yin.
 Proof development: another AI agent.
 Record kind: substantive research and complete proof candidate for the separate normal-domain investigation, with priority on its bare polynomial-domain question.
-No Claim ID or mathematical Role is assigned.
-Independent review is required before promotion.
+At authorship, promotion awaited independent review.
 The earlier [Yin_C_F0041 graph proof](Yin_C_F0041_v1.md#yin_c_f0041), [Yin_C_F0042 arc proof](Yin_C_F0042_v1.md#yin_c_f0042), and all frozen records remain unchanged.
 
 Current assessment, 2026-09-11: registered as **Yin_C_F0043**, proved and independently reviewed in [the complete audit](../audits/reviews/Yin_R_F0075_v1.md#scope-of-acceptance).
@@ -560,13 +559,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0075_v1.md#scope-of-acceptance) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0075_v1.md#scope-of-acceptance) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0075_v1.md#scope-of-acceptance).
 

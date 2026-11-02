@@ -162,8 +162,10 @@ The optional orthogonal-polynomial comparison retains its stated external identi
 
 ## Source and inspection
 
-Source edition: MS23, the supplied 36-page published article, Advances in Mathematics 413 (2023), 108834; printed and one-based PDF pages agree. The earlier 30-page arXiv reading and external source editions retain their separate recorded scopes.
+Source edition: MS23, the supplied 36-page published article, Advances in Mathematics 413 (2023), 108834; printed and one-based PDF pages agree.
+The earlier 30-page arXiv reading and external source editions retain their separate recorded scopes.
 
 Passages: Section 3, Proposition 3.3, Corollary 3.4 and the supplementary Remark 3.5 comparison, printed/PDF pp. 10-14.
 
-Inspection: 2026-09-09: the main one-variable recursion, closed formula and conjugate series were reconstructed with all-n and endpoint corrections; separate review is recorded in the source home. The optional q-series/Chebyshev comparison remains conditional on its explicitly retained general formula and is not a dependency of Corollary 3.4 or a whole-book audit.
+Inspection: 2026-09-09: the main one-variable recursion, closed formula and conjugate series were reconstructed with all-n and endpoint corrections; separate review is recorded in the source home.
+The optional q-series/Chebyshev comparison remains conditional on its explicitly retained general formula and is not a dependency of Corollary 3.4 or a whole-book audit.

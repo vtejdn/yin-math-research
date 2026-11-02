@@ -17,8 +17,7 @@ The fixed C and the exact source units were read and the calculations below were
 
 During the review, the author repaired two stale extracted equation references and explicitly wrote E_i=-D_i with its operator-first identity.
 That correction was reread against equation (1), as described below.
-The initial timestamp was also corrected to the verified creation minute.
-These repairs changed neither the mathematical claim nor the argument under review.
+These mathematical-reference and notation repairs changed neither the mathematical claim nor the argument under review.
 No earlier C_F0147 review conclusion was supplied or relied on.
 
 ## Review relationships

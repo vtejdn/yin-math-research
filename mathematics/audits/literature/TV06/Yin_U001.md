@@ -92,4 +92,4 @@ This source document does not independently certify them.
 
 The source does not derive `G(mu)<infinity` from convergence of polynomial pairings of Cauchy truncations, nor from the existence of an actual L2 vacuum adjoint.
 It is not used as a T1 theorem on every square and supplies no correlated noncommutative tuple result.
-No source registration, canonical assessment, literature-index edit, whole-paper audit, formal verification or novelty claim is performed by this document.
+This document supplies no whole-paper audit, formal verification or novelty claim.

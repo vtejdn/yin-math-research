@@ -8,11 +8,14 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: Christoph Kehle, Introduction to Functional Analysis, MIT18.102 Spring 2025 notes dated May 2025, the registered 76-page [Keh25.pdf](../../../literature/pdf/Keh25.pdf). No new edition or artifact was acquired.
+Source edition: Christoph Kehle, Introduction to Functional Analysis, MIT18.102 Spring 2025 notes dated May 2025, the registered 76-page [Keh25.pdf](../../../literature/pdf/Keh25.pdf).
+No new edition or artifact was acquired.
 
 Passages: Proposition 1.21, printed/PDF p.7; Theorem 1.22 and proof, p.8; weak topology definitions and Propositions 4.4--4.5, pp.42--43; Theorem 4.12 and proof, p.44.
 
-Inspection: 2026-10-14T21:27: direct local PDF text reading of the statements and the displayed product/FIP and Banach--Alaoglu proofs by the general research branch for Yin. Standard statements and exact applicability accepted. This is not an independent whole-source audit, and Zorn's lemma and prior topological foundations are not re-audited.
+Inspection: 2026-10-14T21:27: direct local PDF text reading of the statements and the displayed product/FIP and Banach--Alaoglu proofs by the general research branch for Yin.
+Standard statements and exact applicability accepted.
+This is not an independent whole-source audit, and Zorn's lemma and prior topological foundations are not re-audited.
 
 
 ## Exact accepted interfaces

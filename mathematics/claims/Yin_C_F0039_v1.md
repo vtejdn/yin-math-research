@@ -14,7 +14,7 @@ author: Yin
 Date: 2026-09-11.
 Human author: Yin.
 Proof development: another AI agent.
-Authorization: the normal-domain investigation autonomous domain reduction; root allocated Yin_C_F0039 and requested the general projective-phase statement with selfadjoint/unitary instances.
+Authorization: the normal-domain investigation's autonomous domain reduction included the general projective-phase statement with selfadjoint/unitary instances.
 Record kind: new Claim/proof module and a continuation checkpoint.
 
 The original [Yin_C_F0038](Yin_C_F0038_v1.md#yin_c_f0038) selfadjoint proof remains unchanged.
@@ -415,13 +415,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0039-p1) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0073_v1.md#general-proof-checks) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0073_v1.md#general-proof-checks) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0073_v1.md#general-proof-checks).
 

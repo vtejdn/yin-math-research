@@ -459,7 +459,6 @@ The Hilbert-transform input is accepted at its primary-checked L2 scope; its com
 Standard elementary Hilbert-space, C*-algebra and finite-tracial foundations retain their declared roles.
 No external realization theorem, bounded-dual transfer, rational-series stability theorem or unproved project conjecture is imported.
 
-The local links were checked.
 No numerical experiment, software build, proof assistant, external human review, author correspondence, publication review or novelty assessment was performed.
 This is an internal mathematical review, not formal verification.
 Any later substantive change requires a scoped recheck.

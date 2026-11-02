@@ -173,4 +173,3 @@ This does not require assuming the general binary permanence statement to prove 
 The earlier positive-support gap for this particular family is resolved by Sections 1--4, and the conditional realization then gives the full bounded-intersection equality for the family.
 General T_F0007, arbitrary proper non-star input algebras and diffuse factors remain outside the theorem.
 No proof-assistant check, numerical experiment, novelty determination, external human review or full Task completion is asserted.
-This review changed only its own audit file, not the proof, canonical records, Task or indexes.

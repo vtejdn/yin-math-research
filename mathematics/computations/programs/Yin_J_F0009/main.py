@@ -1,6 +1,6 @@
 """Exact actual-law free moments; narrow floating-point kernel diagnostics.
 
-The analytic reduction is in D_F0004 (T10)-(T13). No matrix approximation
+The analytic reduction is in L_F0056 v1 (T10)-(T13). No matrix approximation
 to the free law is used. Polynomial tuples store coefficients in r.
 """
 from functools import lru_cache

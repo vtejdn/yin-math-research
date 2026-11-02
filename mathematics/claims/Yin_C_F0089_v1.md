@@ -199,7 +199,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0089-p1-proof) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0089_v1.md#historical-finite-index-transfer) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0089_v1.md#historical-finite-index-transfer) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -226,8 +226,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Original C_F0089 review finding, dated 2026-09-11: [retained same historical finding](../audits/reviews/Yin_R_F0089_v1.md#historical-finite-index-transfer).
 The original mixed R_F0038 account also covered C_F0087, C_F0088 and the intervening coordinate-transfer observation; those are separate findings, not coverage supplied by the retained C_F0089 finding.

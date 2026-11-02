@@ -475,7 +475,6 @@ Original proofs of the contextual Amitsur/KV12 constructions, a recursive Cohn-b
 
 It retains the exact source-definition/convention content, already sufficient linked U homes, actual primary and visual locators, original reader roles and unreviewed-proof limits.
 The earlier unit proof review does not retrospectively cover this later definition-reading event.
-References to unchanged files and a sidecar describe the original checkpoint; this maintenance performs no source reopening, new proof review or stronger historical attribution.
 
 - Date and reviewer: 2026-09-10, the free-field algebra agent.
 - Source: [Yin20.pdf](../../../literature/pdf/Yin20.pdf), the 109-page local dissertation.
@@ -486,7 +485,6 @@ References to unchanged files and a sidecar describe the original checkpoint; th
   No new complete proof audit of Chapters III–IV is claimed.
 - Prior role disclosure: this reviewer authored the existing Chapter III unit and contributed to earlier algebraic interfaces.
   That history is not independent review of the present sidecar.
-  All existing units and the source PDF remain unchanged.
 
 ## General Definition Homes and Primary Locators
 

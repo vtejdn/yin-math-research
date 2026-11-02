@@ -17,8 +17,7 @@ Human author: Yin.
 Proof development: another AI agent.
 Record kind: precise reduction, a sufficient-condition proof draft and a stopped broader branch.
 Consumer: the separate normal-domain investigation.
-No Claim ID or mathematical Role is assigned.
-New deductions await independent review.
+At authorship, the new deductions awaited independent review.
 
 The global curvature route gives a concrete estimate on each single-coordinate algebra, including the whole algebra when there is one normal generator.
 It does not yet give an estimate on mixed noncommutative polynomials.
@@ -442,13 +441,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#4-positive-weights-give-the-exact-global-estimate-needed) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0076_v1.md#scalar-marginal-domain-finding) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0076_v1.md#scalar-marginal-domain-finding) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0076_v1.md#scalar-marginal-domain-finding).
 

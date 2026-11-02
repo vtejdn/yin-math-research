@@ -6,7 +6,7 @@ author: Yin
 Human author: Yin.
 The acsy_to_full_domain agent developed the letter-count adjoint estimate, graph-convergent inverse expansion and both actual target vacua.
 Root identified the unbounded-inverse free nonlinear class as the next test and emphasized that the h-coordinate actual adjoint must be verified separately.
-The developers are not independent reviewers; this complete candidate awaits independent review.
+The developers are not independent reviewers; at the original candidate checkpoint this complete argument awaited independent review.
 
 ## Current assessment
 [Selected decision](#decision-reviewed)

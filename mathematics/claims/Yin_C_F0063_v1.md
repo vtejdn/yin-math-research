@@ -13,9 +13,8 @@ author: Yin
 <a id="liberation-intrinsic-affiliated-criterion"></a>
 
 Permanent proof artifact, 2026-09-29.
-Ordinary substantive Claim candidate; no theorem/lemma extraction role or record assessment is assigned here.
 Authorship: another AI agent; root contributed the dense test-functional realization and criterion formulation.
-The canonical record and independent review own the current assessment.
+The [selected decision](#current-assessment) owns the current assessment; the cited findings own their actual review relationships and scopes.
 This material itself does not close a Goal.
 
 Exact accepted direct dependencies: C_F0025 (recorded assessment 3) (original normal-core derivation, normalization, maximal Delta and free-field embedding); C_F0027 (recorded assessment 3) (actual original-closure recovery from core bounds); C_F0043 (recorded assessment 3) (the real controlled-defect norm calculation, with the complete liberation specialization below); C_F0034 (recorded assessment 3) (general finite-commutator fraction algebra); C_F0035 (recorded assessment 3) (the algebraic balanced-tensor equalizer).
@@ -33,8 +32,7 @@ Literal arbitrary raw-composition-domain agreement is not asserted.
 Date: 2026-09-29.
 Human author: Yin.
 Proof development: another AI agent, with root's contribution of the dense test-functional realization and criterion formulation.
-Complete algebraic candidate; independent review requested.
-No record, status or Goal completion is claimed.
+At authorship, this was a complete algebraic candidate submitted for independent review.
 
 This note proves a finite-rank intrinsic regular-commutator criterion under the exact original C_F0025 hypotheses.
 Its construction uses the actual original liberation closures.

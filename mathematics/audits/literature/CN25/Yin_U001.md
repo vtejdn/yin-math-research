@@ -7,11 +7,16 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: [CN25 arXiv v2](../../../literature/pdf/CN25--arxiv-v2.pdf), arXiv:2201.00062v2, 4 January 2022, 22 pages. Published identity: Indiana University Mathematics Journal 74(4) (2025), 883--918.
+Source edition: [CN25 arXiv v2](../../../literature/pdf/CN25--arxiv-v2.pdf), arXiv:2201.00062v2, 4 January 2022, 22 pages.
+Published identity: Indiana University Mathematics Journal 74(4) (2025), 883--918.
 
-Passages: Sections 1.2--1.3, pp.3--5; Lemma 3.1 and Theorem 3.2, pp.10--11; Theorem 3.6, p.12; Proposition 6.8 and Theorem 6.9, pp.20--22. Printed and PDF page numbers agree.
+Passages: Sections 1.2--1.3, pp.3--5; Lemma 3.1 and Theorem 3.2, pp.10--11; Theorem 3.6, p.12; Proposition 6.8 and Theorem 6.9, pp.20--22.
+Printed and PDF page numbers agree.
 
-Inspection: 2026-10-15: exact statements and displayed proof mechanisms read at these scopes. Approximate-relation pairing and the local module/topology distinction were checked. The Dirichlet-form inputs from DL92, Sau89 and Cip08, and the general dimension foundations, were not independently re-audited. These passages are accepted as established source interfaces with those boundaries.
+Inspection: 2026-10-15: exact statements and displayed proof mechanisms read at these scopes.
+Approximate-relation pairing and the local module/topology distinction were checked.
+The Dirichlet-form inputs from DL92, Sau89 and Cip08, and the general dimension foundations, were not independently re-audited.
+These passages are accepted as established source interfaces with those boundaries.
 
 
 <a id="cn25-u001"></a>

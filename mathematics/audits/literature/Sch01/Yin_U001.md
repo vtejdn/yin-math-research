@@ -41,6 +41,7 @@ We do not import the original broader extension claim.
 ### Conversion used by MS24
 
 For \(T\in M_m(\mathbb ZF_n)\), put \(B=T^*T\).
+Write \(\varphi=\operatorname{tr}_m\otimes\tau\), where \(\operatorname{tr}_m\) is the normalized matrix trace and \(\tau\) is the canonical free-group trace.
 If \(T\) has zero kernel on \(\ell^2(F_n)^m\), its ordinary normalized Fuglede-Kadison determinant satisfies
 \[
 \log\Delta_{\operatorname{tr}_m\otimes\tau}(T)
@@ -53,7 +54,6 @@ Kernel removal cannot be discarded when \(T\) is not injective.
 This supplies the integer Haar-model determinant bound used in [MS24, Section 4](../../../literature/pdf/MS24.pdf), through [MS24-U004](../MS24/Yin_U004.md#ms24-u004).
 The separate free-field realization supplies injectivity of that particular \(T\); neither the determinant theorem nor integrality alone supplies it.
 Residual finiteness of free groups is a retained standard group-theoretic foundation.
-No new project Claim is allocated for this specialization.
 
 ### Evidence and stopping boundary
 

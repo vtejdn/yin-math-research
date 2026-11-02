@@ -16,7 +16,7 @@ Human author: Yin.
 Proof development: another AI agent.
 Goal: [Yin_T_F0002](../tasks/Yin_T_F0002_v1.md); route: [Yin_S_F0012](../strategies/Yin_S_F0012.md).
 
-Root allocated Yin_C_F0086 for the mixed selfadjoint/unitary extension of [Yin_C_F0085](Yin_C_F0085_v1.md#yin_c_f0085), and requested explicit recovery of the original domain after restriction.
+Root requested the mixed selfadjoint/unitary extension of [Yin_C_F0085](Yin_C_F0085_v1.md#yin_c_f0085), with explicit recovery of the original domain after restriction.
 The complete Yin_C_F0085 artifact is unchanged.
 
 <a id="yin_c_f0086"></a>
@@ -385,13 +385,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0086-p1) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0086_v1.md#the-new-domain-arguments) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0086_v1.md#the-new-domain-arguments) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0086_v1.md#the-new-domain-arguments).
 

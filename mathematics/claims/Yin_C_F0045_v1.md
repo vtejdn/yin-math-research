@@ -15,7 +15,6 @@ author: Yin
 Date/actor: 2026-09-11, another AI agent.
 Consumer: the separate normal-domain investigation.
 Record kind: complete conditional proof candidate and geometric application, initially awaiting independent review.
-No Claim ID, Role or shared index is assigned.
 The argument concerns the original starred polynomial domains; the unstarred rational algebra is unchanged.
 
 Current assessment, 2026-09-11: registered as ordinary **Yin_C_F0045** after [complete independent review](../audits/reviews/Yin_R_F0023_v1.md).
@@ -100,7 +99,7 @@ The theorem's short proof on printed p.22 / PDF p.24 was also read in the indepe
 The [PDF endpoint](https://arxiv.org/pdf/1101.4195) supplied an 87-page artifact whose arXiv margin says v3, 2011-06-04, while its title page displays 2024-11-26.
 These are recorded version observations, not an assertion that the supplied bytes are unchanged since 2011.
 The distinct 83-page January 2011 author-site manuscript is not used for these page numbers.
-Published metadata are *Bulletin of the American Mathematical Society* 49 (2012), 237-323, [DOI 10.1090/S0273-0979-2011-01348-9](https://doi.org/10.1090/S0273-0979-2011-01348-9); shared bibliography registration is left to root.
+Published metadata are *Bulletin of the American Mathematical Society* 49 (2012), 237-323, [DOI 10.1090/S0273-0979-2011-01348-9](https://doi.org/10.1090/S0273-0979-2011-01348-9).
 
 This is the commutative theorem for arbitrary bounded complex-linear T; there is no normality or complete-boundedness premise.
 It is not the projective-tensor injectivity statement previously imported from Haa85.
@@ -384,7 +383,7 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0023_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0023_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -427,8 +426,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0023_v1.md).
 

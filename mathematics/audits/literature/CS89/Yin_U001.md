@@ -10,11 +10,15 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: [CS89, published article](../../../literature/pdf/CS89.pdf), Christensen and Sinclair, *On the vanishing of H^n(A,A*) for certain C*-algebras*, Pacific Journal of Mathematics 137(1) (1989), 55--63, DOI 10.2140/pjm.1989.137.55. The article occupies PDF pp.2--10 of the retained publisher PDF;
+Source edition: [CS89, published article](../../../literature/pdf/CS89.pdf), Christensen and Sinclair, *On the vanishing of H^n(A,A*) for certain C*-algebras*, Pacific Journal of Mathematics 137(1) (1989), 55--63, DOI 10.2140/pjm.1989.137.55.
+The article occupies PDF pp.2--10 of the retained publisher PDF;
 
 Passages: Section 2, normal-part construction and Lemma 2.2, printed pp.56--58 / PDF pp.3--5; Lemma 2.3 and its proof, printed p.58 / PDF p.5.
 
-Inspection: Direct text reading on 2026-10-16 by the authoring AI agent for Yin. State: Read. The statements, normal-part interface and substitution below are locally checked and accepted for this scope. Foundational extension and decomposition results are not independently checked; no full-paper audit is claimed.
+Inspection: Direct text reading on 2026-10-16 by the authoring AI agent for Yin.
+State: Read.
+The statements, normal-part interface and substitution below are locally checked and accepted for this scope.
+Foundational extension and decomposition results are not independently checked; no full-paper audit is claimed.
 
 
 ### Source statements and dependencies

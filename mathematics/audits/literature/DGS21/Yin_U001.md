@@ -11,9 +11,12 @@ author: Yin
 
 Source edition: [DGS21, retained published journal PDF](../../../literature/pdf/DGS21--published.pdf), New Zealand Journal of Mathematics 52 (2021), 259--359.
 
-Passages: Section 2.3, printed pp.271--272 / PDF pp.13--14; Appendix B.4, Lemma B.36(2), its proof attribution and formula (51), printed pp.335--337 / PDF pp.77--79. Supporting Dab10 passages: Lemma 10, Remark 11 and Lemma 12, retained arXiv v2 pp.8--9.
+Passages: Section 2.3, printed pp.271--272 / PDF pp.13--14; Appendix B.4, Lemma B.36(2), its proof attribution and formula (51), printed pp.335--337 / PDF pp.77--79.
+Supporting Dab10 passages: Lemma 10, Remark 11 and Lemma 12, retained arXiv v2 pp.8--9.
 
-Inspection: 2026-10-16T04:25, AI source reader for Yin; source state: Read, with the exact hypotheses, both endpoint assertions and the complete printed proof of part (2) rechecked. The standard duality and closed-graph application below was fully reconstructed and self-checked. No independent review, full-paper audit, or new reconstruction of the general amalgamated estimate is claimed.
+Inspection: 2026-10-16T04:25, AI source reader for Yin; source state: Read, with the exact hypotheses, both endpoint assertions and the complete printed proof of part (2) rechecked.
+The standard duality and closed-graph application below was fully reconstructed and self-checked.
+No independent review, full-paper audit, or new reconstruction of the general amalgamated estimate is claimed.
 
 
 The question is whether the two endpoint estimates give both bounded-vector domains of the specified Hilbert-space closure, and whether the source applies to arbitrary normal coordinate derivations.

@@ -6,7 +6,7 @@ author: Yin
 Human author: Yin.
 The acsy_to_full_domain agent developed the represented-relation argument, weighted target-core approximation and canonical-domain restoration.
 Root supplied the pseudoinverse observation eliminating an unnecessary Hilbert-space injectivity premise and requested explicit identification of the h-coordinate canonical core.
-This complete candidate has not yet received independent review.
+At the original candidate checkpoint, this complete argument had not yet received independent review.
 
 ## Current assessment
 [Selected decision](#decision-reviewed)

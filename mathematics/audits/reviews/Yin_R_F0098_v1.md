@@ -20,9 +20,8 @@ It does not complete T_F0007.
 **Documentation findings:** equation (14) initially lacked its closing display delimiter.
 The coordinator inserted the single line `\]` after its `\tag{14}`; the reviewer verified that deleting exactly this one inserted line recovers the originally submitted proof.
 This finding is resolved, and the final reviewed version above includes the correction.
-The initial recorded assessment has an empty direct-dependency list, whereas the proof expressly imports the C_F0087 Bezout mechanism.
-Reviewed publication must carry the fixed input `Yin_C_F0087 (recorded assessment 3)`, which the coordinator has agreed to register.
-The proof file and canonical metadata have not been changed by the reviewer.
+The proof expressly imports the C_F0087 Bezout mechanism.
+The fixed input is `Yin_C_F0087 (recorded assessment 3)`.
 
 ## 1. Arrangement, supplied context, and review procedure
 
@@ -205,5 +204,4 @@ The candidate unbounded idempotent is rejected as a counterexample at this model
 The whole proof and all actually invoked source interfaces have been checked at the scopes above.
 There is no unresolved mathematical dependency.
 The display-delimiter correction has been verified and is included in the final reviewed version.
-The coordinator will register the fixed C_F0087 dependency when publishing this reviewed support; the reviewer has not changed the author artifact, canonical records, generated indexes, or Task contract.
 Later mathematical changes require a scoped recheck where appropriate; routine maintenance preserves this review’s actual scope.

@@ -6,7 +6,7 @@ author: Yin
 Human author: Yin.
 Root developed the finite kernel-tensor energy identity.
 The acsy_to_full_domain agent checked its order, supplied the full nonunitary error and limiting domains, developed the simultaneous spectral approximation, and constructed the Sylvester-coordinate corollary.
-Both are mathematical developers; independent fixed-version review is pending.
+Both are mathematical developers; independent fixed-version review was pending at the original candidate checkpoint.
 
 ## Current assessment
 [Selected decision](#decision-reviewed)

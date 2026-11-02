@@ -14,7 +14,6 @@ author: Yin
 - Starting assessment: complete candidate counterexample awaiting independent reviews.
   Outcome: all checked obligations pass; no mathematical correction is required for this revision.
   The proof supports Yin_C_F0012 as proved within its stated scope and supports refutation of Yin_C_F0001.
-  Promotion, completion records, and final mechanical checks remain root-owned.
 
 ## 1. The Hilbert Space Really Is the Required Tracial Standard Space
 
@@ -185,7 +184,6 @@ The entire exact artifact and the original Yin_C_F0001/Yin_T_F0001 records were 
 The core merge calculation, all complementary interfaces, and the bh strengthening were reconstructed rather than accepted from reviewer agreement.
 The classical Hilbert-transform theorem remains an accepted primary-checked input at the scope of the linked earlier audit.
 No numerical computation, proof-assistant verification, new full-source audit, external human review, or literature-priority assessment was performed.
-Mechanical link/index verification belongs to the root's separate final checks.
 
 No correction is required for this revision.
 This contributor self-review supports the proved counterexample assessment for Yin_C_F0012, hence refutation of the exact Yin_C_F0001; prior contributions do not become independent through rereading.

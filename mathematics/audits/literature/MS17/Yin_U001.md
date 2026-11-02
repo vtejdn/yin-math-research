@@ -10,7 +10,8 @@ The inspected edition and source context are described in the [source notes](rea
 
 Source edition: the retained [MS17 PDF](../../../literature/pdf/MS17.pdf), with canonical bibliographic identity in [references.bib](../../../literature/references.bib).
 
-Source passages: Operator-valued semicircular covariance and Cauchy/R-transform relation ; Chapter 9, Definition 10 and Theorem 11(1),(2),(4), printed p. 239 / PDF p. 248; Proposition 13, printed pp. 241-242 / PDF pp. 250-251 ; Earlier locally checked inputs for Yin_C_F0119; exact proof scope and visual evidence remain in the [analytic supplement](#offline-affine-extension-additional-source-interfaces). Selected definitions: Sections 1.11–1.12, Definitions 11–12, printed pp. 14–16 / PDF pp. 27–29; definition-level reading is separate from the analytic interfaces.
+Source passages: Operator-valued semicircular covariance and Cauchy/R-transform relation ; Chapter 9, Definition 10 and Theorem 11(1),(2),(4), printed p. 239 / PDF p. 248; Proposition 13, printed pp. 241-242 / PDF pp. 250-251 ; Earlier locally checked inputs for Yin_C_F0119; exact proof scope and visual evidence remain in the [analytic supplement](#offline-affine-extension-additional-source-interfaces).
+Selected definitions: Sections 1.11–1.12, Definitions 11–12, printed pp. 14–16 / PDF pp. 27–29; definition-level reading is separate from the analytic interfaces.
 
 Inspection: The Brown construction and probability-measure weak convergence are accepted source inputs, not a claim that their original proofs have been fully independently audited.
 
@@ -66,9 +67,9 @@ The [NS06 definition account](../NS06/Yin_U002.md#free-independence) separately 
 
 ## Semicircular source passages and the offline affine input
 
-This original 2026-09-12 source account was retained from [L_F0036](../../../ledger/Yin_L_F0036_v1.md) at 2026-10-21T01:19, without reopening the book or re-reviewing the project extension.
+This is the original 2026-09-12 source account from [L_F0036](../../../ledger/Yin_L_F0036_v1.md).
 The analytic-dependency reader checked Chapter 9 Definition 7/equation (9.16), p. 236 / PDF 245, Remark 9 pp. 237-238 / PDF 246-247, Definition 10(2) p. 239 / PDF 248, and the norm discussion after equation (9.5), p. 231 / PDF 240.
-Printed pp. 231 and236 were visually inspected.
+Printed pp. 231 and 236 were visually inspected.
 These supply the ordered semicircular pairing convention and faithful-norm interface; the complete consumed pairing induction is already retained in [MS24-U002](../MS24/Yin_U002.md#pairing-estimates).
 The source's wider general cumulant/freeness/subordination foundations remain accepted rather than fully re-proved.
 

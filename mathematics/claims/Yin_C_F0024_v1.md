@@ -473,8 +473,8 @@ Recorded review label: independently reviewed.
 | argument | [Exact material](#yin_c_f0024-p2) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](#7-automatic-corollaries-and-optional-normalization) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0029_v1.md#decision-candidate-0002) | Selected P2 specialization: E=V_i=M. |
-| review | [Exact material](../audits/reviews/Yin_R_F0012_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
-| review | [Exact material](../audits/reviews/Yin_R_F0013_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0012_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0013_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -496,8 +496,8 @@ Role designation: theorem.
 | argument | [Exact material](#yin_c_f0024-p2) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](#7-automatic-corollaries-and-optional-normalization) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | dependency | [Exact material](Yin_C_F0029_v1.md#decision-candidate-0002) | Selected P2 specialization: E=V_i=M. |
-| review | [Exact material](../audits/reviews/Yin_R_F0012_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
-| review | [Exact material](../audits/reviews/Yin_R_F0013_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0012_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0013_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 | review | [Independent selected-proof recheck](../audits/reviews/Yin_R_F0067_v1.md#conclusion) | Fresh independent inspection of the exact statement, selected P2 through C_F0029, and selected Section 7; accepted source and auxiliary-result limits remain explicit. |
 
 ## Historical assessments
@@ -524,8 +524,6 @@ Recorded review label: independently reviewed.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0012_v1.md); [Exact material](../audits/reviews/Yin_R_F0013_v1.md).
 

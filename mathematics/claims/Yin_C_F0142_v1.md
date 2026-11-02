@@ -6,7 +6,7 @@ author: Yin
 Human author: Yin.
 The acsy_to_full_domain agent developed the affiliated resolvent construction, target polynomial relation, uniqueness argument and positive-reference Hilbert--Schmidt range formula.
 Root supplied the precise necessary equation for an arbitrary bare full-domain witness and emphasized that its Hilbert--Schmidt uniqueness is not all-witness uniqueness.
-These are development contributions; this candidate has not received independent review.
+These are development contributions; at the original candidate checkpoint this argument had not received independent review.
 
 ## Current assessment
 [Selected decision](#decision-reviewed)
@@ -343,7 +343,7 @@ Their precise source concerns and useful exploration remain in the continuing D.
 The finite models retained in J_F0008 are diagnostics only, are not premises of this proof, and are not actual finite-Fisher or full-dual counterexamples.
 
 Developer checks covered the two coefficient actions, opposite-factor multiplication, selfadjoint affiliated resolvent, represented target restriction, every factor in (13), the full-linear-pencil interface, actual adjoint equivalence, and the bounded-operator range construction (17)-(19).
-Independent review remains required before independent acceptance.
+At that developer-check checkpoint, independent review remained required before independent acceptance; the [selected assessment](#current-assessment) records the subsequently adopted finding.
 
 ## Assessment history
 

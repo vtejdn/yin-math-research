@@ -16,7 +16,6 @@ This review checks the mathematical chain; no proof-assistant or external human 
 
 ## Review Outcome
 
-Registration added only the dated metadata paragraph, Yin_C_F0040 anchor and numbered section title around the independently reviewed proof; the argument was not changed.
 
 The polynomial spectral-graph conclusion is proved at its stated compact starred-commutator and vacuum-adjoint assumptions.
 In particular it starts on the bare starred polynomial core, requires neither an M-module premise nor freeness, and obtains the actual original dual and adjoint domains on all bounded vectors.
@@ -62,8 +61,6 @@ Proof inputs: Yin_C_F0025, Yin_C_F0027, Yin_C_F0024, the Yin_C_F0039 analytic-ke
 The new result is not extracted from any existing Claim and has no assigned lemma/theorem/corollary Role.
 Source-inspection limits of the accepted dependencies remain unchanged.
 
-Root approved ordinary Claim registration as Yin_C_F0040 after this independent check.
-Navigation/registration metadata may be added around the original author's proof without changing its mathematical argument; the original candidate-stage wording remains historical.
 
 ## Actual review arrangement
 

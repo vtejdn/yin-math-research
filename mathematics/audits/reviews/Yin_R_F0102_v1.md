@@ -36,7 +36,6 @@ The formal header, links and scope wording were checked separately.
 The added Section 1 explanation placing the three-factor test within the binary Task contract is verified below.
 
 The v1 registration snapshot predates the addition of direct dependencies; the exact accepted inputs for this mathematical review are therefore explicitly fixed here and also appear in the current canonical record.
-No canonical record, proof, Task or index was edited by the reviewer in preparing this audit.
 
 ## 2. Fixed accepted inputs and source depth
 

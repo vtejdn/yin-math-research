@@ -196,4 +196,3 @@ The sharp distinction between SOME in the Delta-only certificate and SOME/EVERY 
 The canonical dual operators are defined on the recorded domains containing all bounded vectors; they are not asserted to act boundedly on all H, and no equality with scalar division closure inside M is established.
 
 The work was mathematical reading and reconstruction, without formal verification, numerical evidence or external human peer review.
-No target Claim, other mathematical material, navigation or Git state was changed by this reviewer.

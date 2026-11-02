@@ -9,11 +9,15 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: The existing [33-page author-hosted survey](../../../literature/pdf/DR10--author-survey.pdf), whose exact edition and acquisition boundary are recorded in the DR10. The author file has no verified mathematical revision date; neither its producer date nor related arXiv or published metadata identifies that date. No equivalence with another edition is asserted.
+Source edition: The existing [33-page author-hosted survey](../../../literature/pdf/DR10--author-survey.pdf), whose exact edition and acquisition boundary are recorded in the DR10.
+The author file has no verified mathematical revision date; neither its producer date nor related arXiv or published metadata identifies that date.
+No equivalence with another edition is asserted.
 
 Passages: Theorem 2.1, printed/PDF p.4; analytic Toeplitz and outer conventions, pp.4--5, including Definition 2.2 and displayed (2.4)--(2.5); proof text through p.6 and uniqueness remark on p.7 read for context.
 
-Inspection: 2026-10-13T06:35. Human author Yin; delegated F0010 matrix-extension AI directly text-read the retained primary artifact using pdftotext, matched the statement, adjoint orientation, degree and outer definition, and checked their finite-matrix applicability. Coverage Read and accepted statement; no independent audit of the entire source proof, no visual page inspection, no original Rosenblum/Rosenblatt proof review, and no uniqueness theorem adopted.
+Inspection: 2026-10-13T06:35.
+Human author Yin; delegated F0010 matrix-extension AI directly text-read the retained primary artifact using pdftotext, matched the statement, adjoint orientation, degree and outer definition, and checked their finite-matrix applicability.
+Coverage Read and accepted statement; no independent audit of the entire source proof, no visual page inspection, no original Rosenblum/Rosenblatt proof review, and no uniqueness theorem adopted.
 
 
 ## Exact accepted statement

@@ -12,7 +12,8 @@ Source edition: Registered arXiv:2306.17133v2; published bibliographic identity 
 
 Passages: Definition 2.5 printed/PDF pp.4–5; Theorem 2.9(b) and Definition 2.10 printed/PDF p.6.
 
-Inspection: Original coordinating source read on 2026-10-10: selected definitions/statements text-read and p.6 visually inspected. Source equivalence accepted at statement/applicability depth; no original full equivalence or publisher-full-text audit.
+Inspection: Original coordinating source read on 2026-10-10: selected definitions/statements text-read and p.6 visually inspected.
+Source equivalence accepted at statement/applicability depth; no original full equivalence or publisher-full-text audit.
 
 
 <a id="dg24-u001"></a>

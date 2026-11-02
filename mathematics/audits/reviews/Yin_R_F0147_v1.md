@@ -236,7 +236,6 @@ Root reported during this review that the prose expression involving \([E_T,S](h
 It should be enclosed in mathematical delimiters, for example the complete expression \(v=[E_T,S](h\Omega)\) in inline mathematics.
 This is a presentation correction only: the actual vector and the equation hv=1 are unambiguous in the argument and were checked above.
 It can be corrected in place after verifying that only delimiters change; no new mathematical version or whole-proof recheck is needed.
-This review does not alter the candidate.
 
 All seven direct inputs are matched to their required hypotheses.
 C_F0012 and C_F0100 supply checked model/mechanism provenance, not transfers of their particular theorem statements.

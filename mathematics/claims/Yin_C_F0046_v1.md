@@ -17,8 +17,7 @@ Human author: Yin.
 Proof development: another AI agent.
 Consumer: the separate normal-domain investigation, especially the marginal input of [Yin_C_F0045](Yin_C_F0045_v1.md#yin_c_f0045).
 Record kind: bounded continuation, complete restricted deduction and remaining-interface analysis.
-Assessment: author self-reviewed, awaiting independent review.
-No Claim ID or Role is assigned.
+Assessment at authorship: author self-reviewed, awaiting independent review.
 
 For a rotationally invariant normal spectral law with nonatomic radius distribution, the exact vacuum-adjoint condition implies the required marginal infinity-to-2 bound.
 The proof uses angular Fourier modes and two radial Hardy quantities; it assumes neither linear growth nor finite curvature, and does not replace distributional vacuum information by unproved bounds on Cauchy truncations.
@@ -402,13 +401,11 @@ Recorded review label: independently reviewed.
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#3-angular-coefficients-without-an-unjustified-singular-integral) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0077_v1.md#5-power-density-example-and-limits) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0077_v1.md#5-power-density-example-and-limits) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0077_v1.md#5-power-density-example-and-limits).
 

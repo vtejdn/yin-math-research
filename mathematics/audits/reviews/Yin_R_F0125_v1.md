@@ -117,10 +117,8 @@ The result does not establish an arbitrary-covariance minimax, a minimax interch
 Further negative-direction work is recorded in a separate continuation so the inspected artifact remains stable.
 
 
-## Registration, 2026-09-13
+<a id="registration-2026-09-13"></a>
+## Inspected input boundary
 
-Root updated registration/review labels after the independent review.
-The inspected mathematical statements and arguments are unchanged.
-The opening diagonal derivation remains an unregistered historical draft, while the Yin_C_F0125 continuation has the scoped independent review above.
+The opening diagonal derivation remains a historical draft, while the Yin_C_F0125 continuation has the scoped review above.
 Current assessments belong to the responsible Claim material and its selected decision.
-No mathematical Role is assigned, and these label changes are not a new mathematical review or an altered proof dependency.

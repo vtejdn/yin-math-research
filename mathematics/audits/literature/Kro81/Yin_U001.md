@@ -183,4 +183,3 @@ Baltzer, Jacobi and earlier Kronecker papers cited in the source were not separa
 No analytic convergence theorem is needed.
 No machine proof was performed.
 The source's final Bézout sign issue is downstream of (3)–(4) and is not used by this proof.
-Initial unit issued 2026-10-10; no earlier inspection record is overwritten.

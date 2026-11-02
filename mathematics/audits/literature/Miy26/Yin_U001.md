@@ -137,14 +137,10 @@ The integrated audit records the complete review scope.
 
 <a id="definition-recheck"></a>
 
-Its exact definitions, source version and locators, actual visual pages and unreviewed-proof limits are preserved.
-Already sufficient definitions and theorem arguments remain at their linked U homes.
-The original sidecar and unchanged-file language records that earlier checkpoint; this retention neither opens the source again nor performs a new proof or independent review.
 
 Date: 2026-09-10.
 Reviewer: the unbounded-operator agent, primary-source reading and self-review.
 Scope: definition and notation reuse in the existing Miy26 units.
-This is a sidecar, not a new source unit, claim or replacement audit.
 
 Source: [Miy26](../../../literature/pdf/Miy26.pdf), arXiv:2603.19528v2, 2026-04-21, 23 pages.
 Printed and PDF page numbers agree.
@@ -222,4 +218,3 @@ Yin_C_F0017 has its own general R-diagonal holomorphic setting and does not dire
 Citation purposes are current formulation and notation for the circular normalization and canonical \(L^2\) realization, and exposition for the semicircular/Haar applications.
 No historical priority claim is supported by this check.
 The earlier complete source audit retains its own proof and dependency assessments.
-No old mathematical or source-audit file was modified.

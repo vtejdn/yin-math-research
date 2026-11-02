@@ -65,4 +65,5 @@ Source edition: Bla06, Springer 2006 monograph; author-hosted revision dated 8 F
 
 Passages: Definitions I.7.2.1--I.7.2.2 and Proposition I.7.2.3; printed pp.30--31 / PDF pp.38--39.
 
-Inspection: Direct statement, definition and proof reading; visual check of p.31; criterion and dense-subspace restriction consequence self-reviewed on 2026-10-12. No independent or whole-book audit; no print/revision comparison.
+Inspection: Direct statement, definition and proof reading; visual check of p.31; criterion and dense-subspace restriction consequence self-reviewed on 2026-10-12.
+No independent or whole-book audit; no print/revision comparison.

@@ -18,7 +18,6 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 ## ACSY24-U002: Selected Rank and Group Statements
 
 - Date and reviewer: 2026-09-11; the polynomial-core research agent, following the independent review of the finite-vertex reproduction.
-  Unit identifier reserved by the coordinating agent.
 - Source: ACSY24, the retained 73-page published [PDF](../../../literature/pdf/ACSY24.pdf)
 - Exact coverage: Definition 2.16, p. 19; Lemma 2.20 and proof, p. 21; Theorem 2.31 and Remark 2.32, p. 29; Theorem 4.1 and proof, pp. 39-41; Remark 4.2 and Proposition 4.3 with proof, pp. 41-42; Corollary 4.4 and surrounding finite-group argument, pp. 42-43.
 - Method: the complete selected passages were text-read from the retained published PDF with Calibre `pdftotext`, and the rank normalizations and group/Laurent interfaces were reconstructed.

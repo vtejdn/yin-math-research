@@ -150,7 +150,6 @@ The present estimates establish the two actual vacuum vectors; they do not estab
 The final paragraph of the proof refers to the unbounded-inverse tuple as (50), but the tuple in this fixed candidate is numbered (1).
 This is a stale display-number reference, not a mathematical change.
 Replacing (50) by (1) in that sentence is meaning-preserving locator maintenance and requires no new mathematical version or whole-proof recheck.
-The reviewer has not edited the candidate.
 
 Both direct inputs are matched to their exact scopes.
 The Miy22 word and trace interfaces retain the foundational source boundaries recorded in U001.

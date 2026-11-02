@@ -309,14 +309,15 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-28T02:52 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#a-positive-stability-certificate-on-the-full-hermitization) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](#existing-l2-criterion-and-a-variational-spectrum-test) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0180_v1.md#historical-affine-attainment) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0180_v1.md#historical-affine-attainment) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -332,14 +333,15 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T04:01 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#a-positive-stability-certificate-on-the-full-hermitization) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](#existing-l2-criterion-and-a-variational-spectrum-test) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0180_v1.md#historical-affine-attainment) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0180_v1.md#historical-affine-attainment) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original review classification and limitations: independently reviewed; stationary-equation collaboration disclosed; existing Yin_C_F0095 L2 criterion reused
 
@@ -360,7 +362,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T02:10 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -369,8 +372,6 @@ Historical inspection dates and review limits remain in the cited evidence.
 Original review classification and limitations: independently reviewed; stationary-equation collaboration disclosed; existing Yin_C_F0095 L2 criterion reused
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Original review finding, dated 2026-09-13: [retained same historical finding](../audits/reviews/Yin_R_F0180_v1.md#historical-affine-attainment).
 Its relocation does not substitute the new 2026-10-22 review into earlier decisions.

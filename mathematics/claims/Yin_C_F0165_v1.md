@@ -74,7 +74,9 @@ This is the complete two-positive-matrix reformulation [retained here](#statemen
 It depends on [C_F0124](Yin_C_F0124_v1.md#statement) and the [full positive-cone certificate](Yin_C_F0164_v1.md#statement).
 The centered specialization uses the existing [capacity duality argument](../ledger/Yin_L_F0039_v1.md) at its disclosed audited scope.
 The original R_F0123 expressly excluded the paired-matrix author's own L_F0028 module from certification.
-The present statement therefore awaits its own actual complete internal review, and is not a separate discovery of the global C_F0124 comparison.
+At the original candidate checkpoint, this statement awaited its own actual complete internal review.
+The [selected assessment](#current-assessment) now adopts the performed internal [self-review](../audits/reviews/Yin_R_F0175_v1.md#two-positive-matrices-finding).
+This statement is not a separate discovery of the global C_F0124 comparison.
 
 ## Argument
 

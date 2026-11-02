@@ -14,7 +14,6 @@ author: Yin
 Date/author: 2026-09-11, another AI agent.
 Record kind: substantive research, a complete obstruction proof, and a conditional positive evaluation interface.
 Goal: [Yin_T_F0006](../tasks/Yin_T_F0006_v1.md).
-No Claim ID, Role, or shared-index change is made.
 The candidates await independent review; no novelty assertion is intended.
 
 Current assessment, 2026-09-11: [the independent review](../audits/reviews/Yin_R_F0113_v1.md#5-scope-of-the-conditional-conclusion-and-source-coverage) accepts Sections 2-3.
@@ -300,7 +299,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T02:10 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -317,19 +317,18 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T04:01 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0103) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0113_v1.md#5-scope-of-the-conditional-conclusion-and-source-coverage) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0113_v1.md#5-scope-of-the-conditional-conclusion-and-source-coverage) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0113_v1.md#5-scope-of-the-conditional-conclusion-and-source-coverage).
 

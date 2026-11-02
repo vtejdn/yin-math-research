@@ -67,8 +67,6 @@ The rank-one realization and finite-rank tensor bijection are the already indepe
 Their precise use here was recalculated, including the change from left to right multiplication in the outer commutator.
 
 No numerical approximation, proof-assistant verification, external human review, or novelty assessment was performed.
-The complete proof was read as UTF-8.
-Repository-wide link and index checks are separate integration work.
 
 ## Outcome and Remaining Obligation
 

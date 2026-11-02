@@ -304,7 +304,6 @@ The article is not a mathematical proof dependency of this draft, and this scope
 
 Self-check covered all constants, the two one-sided derivative directions, the domination of radial derivative measures, the rescaling \(Q_\varepsilon=\varepsilon^2R_\varepsilon\), the zero/noise-free cases, and necessity as well as sufficiency in the centered spectral-radius criterion.
 No independent review or convergence rate has been completed.
-No fixed Claim or source registry was modified by this subtask.
 
 ## Assessment history
 

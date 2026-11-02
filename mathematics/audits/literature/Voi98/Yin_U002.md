@@ -227,11 +227,10 @@ No numerical computation, formalization or external human review is claimed.
 
 It retains the exact source-definition/convention content, already sufficient linked U homes, actual primary and visual locators, original reader roles and unreviewed-proof limits.
 The earlier unit proof review does not retrospectively cover this later definition-reading event.
-References to unchanged files and a sidecar describe the original checkpoint; this maintenance performs no source reopening, new proof review or stronger historical attribution.
 
 Date: 2026-09-10.
 Reviewer: the selfadjoint-interface agent.
-This definition-review sidecar supplements the existing [Voi98 audit](readme.md); it allocates no source-unit or claim identifier and changes no original audit.
+This definition review supplements the existing [Voi98 audit](readme.md).
 The source is the registered 39-page [published PDF](../../../literature/pdf/Voi98.pdf).
 Printed page = one-based PDF page + 188.
 The passages identified below were freshly checked against that PDF; decisive displays in Definitions 3.1, 5.1, 5.14, 6.1 and 7.1 were also visually checked.

@@ -118,7 +118,6 @@ None is a missing acceptance condition of the completed original contract.
 No original Yin_T_F0002 acceptance condition or additional-pass review gate remains unsatisfied at this recorded contract finding.
 The recommendation is completion of Yin_T_F0002, with the precise stronger questions above retained in their responsible research records.
 Formal verification, a new whole-manuscript review, external human review and literature-priority certification were not performed.
-The record checker verifies document links and formatting only.
 
 The preceding checkpoint is preserved as a historical assessment.
 The added supplement supplies the new evidence instead of retroactively changing that checkpoint's inspection claims.

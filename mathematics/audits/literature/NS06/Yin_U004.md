@@ -11,7 +11,8 @@ Source edition: Existing registered 434-page publisher-layout [NS06.pdf](../../.
 
 Passages: Equation (14.5), printed p.228/PDF p.245; Notation 14.7 and Remarks 14.8, printed p.229/PDF p.246; Theorem 14.10, printed p.230/PDF p.247, and its proof through printed p.231/PDF p.248.
 
-Inspection: 2026-10-14T19:29, Yin: exact statements, normalizations and surrounding text read by pdftotext. Statement and applicability accepted; the general combinatorial proof and all its dependencies were not independently re-audited.
+Inspection: 2026-10-14T19:29, Yin: exact statements, normalizations and surrounding text read by pdftotext.
+Statement and applicability accepted; the general combinatorial proof and all its dependencies were not independently re-audited.
 
 
 <a id="ns06-u004"></a>

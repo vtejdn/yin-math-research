@@ -813,7 +813,7 @@ The conditional negativity in (P7) alone has not been shown to supply this joint
 
 ## Fixed finite-model triangle bound and all-degree core formula
 
-The complete three-variable positive-semidefinite inequality, its constant-one curvature estimate for first relative Wick vectors, and the exact all-degree core formula are fixed in [C_F0149 v2](../claims/Yin_C_F0149_v2.md#statement), with [complete independent review R_F0157](../audits/reviews/Yin_R_F0157_v1.md#conclusion).
+The complete three-variable positive-semidefinite inequality, its constant-one curvature estimate for first relative Wick vectors, and the exact all-degree core formula are fixed in [C_F0149 v2](../claims/Yin_C_F0149_v2.md#statement), with [complete review R_F0157 at its unknown relationship](../audits/reviews/Yin_R_F0157_v1.md#conclusion).
 The mathematical argument, actual-vacuum construction and source limits are in that fixed file.
 The earlier version's ambiguous vacuum comparison and its correction remain recorded in [the review finding](../audits/reviews/Yin_R_F0157_v1.md#v1-normalization-finding); the displayed Wick action coefficients are unchanged.
 
@@ -1014,7 +1014,7 @@ No integrability or actual limiting-domain assertion for this singular b is bein
 
 ## Gaussian correction and its exact scope
 
-The arbitrary-abelian-base relative-degree lemma, positive correction and finite separated-block actual domain theorem are fixed and independently reviewed in [C_F0153](../claims/Yin_C_F0153_v1.md#decision-reviewed) and [R_F0161](../audits/reviews/Yin_R_F0161_v1.md#conclusion).
+The arbitrary-abelian-base relative-degree lemma, positive correction and finite separated-block actual domain theorem are fixed with the recorded unknown-relationship review in [C_F0153](../claims/Yin_C_F0153_v1.md#decision-reviewed) and [R_F0161](../audits/reviews/Yin_R_F0161_v1.md#conclusion).
 The correction controls all relative Wick degrees jointly, so the earlier penultimate-mass estimate is unnecessary for this Gaussian model.
 The finite atomic calculation remains a diagonal-zero divided-difference diagnostic, not an actual ACSY law.
 

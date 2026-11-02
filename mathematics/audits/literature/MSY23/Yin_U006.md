@@ -222,7 +222,7 @@ The follow-up's repaired proof uses the already audited bounded row `B=(p_1,...,
 Polynomial interpolation on the finite algebraic sum replaces the Vandermonde calculation; both establish the same kernel identity without taking an unbounded-operator limit.
 The polar-decomposition input is now cited directly to **MSY23 Lemma 5.1, p. 28**, applied to a square block amplification of B.
 In the 2026-09-11 standalone presentation, the final trace equality was expanded entry by entry, so no matrix-trace normalization was implicit.
-No new reusable project Claim, lemma Role, theorem designation or mathematical priority claim is introduced.
+No mathematical priority claim is introduced.
 
 Source-search boundary: the existing audit already supplied the repair.
 A bounded external search for the published title, lemma and corrections confirmed the [publisher identity](https://www.sciencedirect.com/science/article/pii/S0022123623001738) and the distinct [1905.08187 preprint record](https://arxiv.org/abs/1905.08187); it supplied no additional repair used here.
@@ -287,7 +287,6 @@ Source references [2], [3], and [21] describe the contextual Dyson/random-matrix
 All assigned text on published pp. 34-42 was read, together with the relevant bibliography on pp. 49-50.
 Published pp. 36, 38 and 39 were visually inspected for the spectral formulas and the two identified proof/notation issues; other selected pages were checked elsewhere in this source audit.
 The polar/Vandermonde repair, inverse example, rank normalization, and implication boundaries were reconstructed directly.
-Independent cross-review is recorded separately when completed.
 No formal verification, numerical certificate, author-confirmed erratum, or full recursive audit of the cited literature is claimed.
 
 Independent review, 2026-09-08, a separate reviewing agent: compared the unit with the published pp. 34-42 and recomputed the decisive steps.

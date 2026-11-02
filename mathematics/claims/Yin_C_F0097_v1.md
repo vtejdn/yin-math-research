@@ -124,7 +124,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T02:10 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -141,19 +142,18 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T04:01 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#yin_c_f0097) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0109_v1.md#outcome-and-boundaries) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0109_v1.md#outcome-and-boundaries) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0109_v1.md#outcome-and-boundaries).
 

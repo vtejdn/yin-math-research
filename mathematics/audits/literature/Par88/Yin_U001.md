@@ -65,9 +65,6 @@ The mathematical comparison is supported by the actual proof and the independent
 
 <a id="definition-recheck"></a>
 
-Its exact definitions, source version and locators, actual visual pages and unreviewed-proof limits are preserved.
-Already sufficient definitions and theorem arguments remain at their linked U homes.
-The original sidecar and unchanged-file language records that earlier checkpoint; this retention neither opens the source again nor performs a new proof or independent review.
 
 Date: 2026-09-10.
 Reviewer: the unbounded-operator agent, selected primary-source reading and self-review.
@@ -167,4 +164,3 @@ This is discussion/strategy use.
 Citation purposes: standard or exposition for Hardy/Hankel definitions, notation for the Fourier indexing.
 No historical origin claim is made.
 This is not a proof audit of Hardy boundary theory, Nehari, Beurling, AAK, the cited original Kronecker paper or the rest of the monograph.
-Original audit and source PDF were preserved.

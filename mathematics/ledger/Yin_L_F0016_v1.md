@@ -7,7 +7,7 @@ author: Yin
 
 Date: 2026-09-29.
 Research-operation and contract-comparison record by root for Yin.
-The original [T_F0001 v2 contract](../tasks/Yin_T_F0001_v2.md#yin_t_f0001) and [canonical v5 snapshot](../tasks/Yin_T_F0001_v2.md#decision-candidate-0005) remain unchanged.
+The original [T_F0001 v2 contract](../tasks/Yin_T_F0001_v2.md#yin_t_f0001) and [original metadata assessment 5 in that physical v2 material](../tasks/Yin_T_F0001_v2.md#decision-candidate-0005) remain unchanged.
 This record describes the achieved construction and its precise comparison with that contract.
 Canonical Claim records own proof assessments; the separate completion audit owns the Task verdict.
 
@@ -34,7 +34,7 @@ No new Task or manuscript main-theorem designation is created by this record.
 ## Evidence and completion disposition
 
 C_F0062 and C_F0063 have complete independent mathematical reviews.
-A fresh reviewer without authorship independently reconstructed the full supporting arguments, inspected the complete C_F0064 bounded assembly and compared the result with every requirement of the original T_F0001_v5/v2 contract.
+A fresh reviewer without authorship independently reconstructed the full supporting arguments, inspected the complete C_F0064 bounded assembly and compared the result with every requirement of the original T_F0001 physical v2 contract at its original metadata assessment 5.
 The completion verdict accepts the intrinsic tensor-test realization as the explicitly stated modified criterion allowed by that contract, and records the bounded companion as solved.
 The literal raw-domain assertions above remain unproved strengthenings; they are not silently included in this verdict.
 

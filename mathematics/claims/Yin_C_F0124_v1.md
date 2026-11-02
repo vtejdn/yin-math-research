@@ -366,7 +366,6 @@ Record kind: project proof module and bounded exploration record.
 Date: 2026-09-13.
 Author: yin_t_f0008-contract agent, with the coordinating agent supplying the determinant-one structure on the support of the real resolvent.
 Goal: [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#yin_t_f0008).
-No Claim ID or mathematical Role is assigned here; registration and current assessment belong to the coordinating agent and the Claim index.
 
 The candidate variational expression was found in Roland Speicher's [9 September 2026 post](https://rolandspeicher.com/2026/09/09/a-story-of-the-determinant-of-operator-valued-semicircular-elements/).
 The post presents an AI-generated proposal and supplies no proof for inspection.
@@ -689,7 +688,7 @@ The recorded review description was `independently reviewed`.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#affine-hs-variation-tests) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](#3-a-physical-approximating-sequence) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0124_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0124_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original review classification and limitations: independently reviewed; candidate attributed to Spe26, comparison proof collaborative
 
@@ -712,7 +711,7 @@ The recorded review description was `independently reviewed`.
 | statement | [Exact material](#statement) | Exact original statement and hypotheses retained in this material. |
 | argument | [Exact material](#affine-hs-variation-tests) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
 | argument | [Exact material](#3-a-physical-approximating-sequence) | Original explicitly selected argument locator; no broader argument or hypothesis is inferred. |
-| review | [Exact material](../audits/reviews/Yin_R_F0124_v1.md) | Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review. |
+| review | [Exact material](../audits/reviews/Yin_R_F0124_v1.md) | Original selected finding; its actual scope and limits remain in the cited review. |
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
 
@@ -764,7 +763,8 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-14T02:10 |
 | status | proved |
-| review-status | independently reviewed |
+
+The recorded review description was `independently reviewed`.
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -773,8 +773,6 @@ Historical inspection dates and review limits remain in the cited evidence.
 Original review classification and limitations: independently reviewed; candidate attributed to Spe26, comparison proof collaborative
 
 ## Recorded review scopes
-
-Previously selected argument and historical assessment carried forward by checked source-commit, navigation and newline correspondence; no new mathematical review.
 
 Review: [Exact material](../audits/reviews/Yin_R_F0124_v1.md).
 
