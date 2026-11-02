@@ -9,7 +9,6 @@ author: Yin
 The complete pointwise argument and examples are retained from [L_F0054](../ledger/Yin_L_F0054_v1.md#quadratic-energy-order), in the selfadjoint coefficient setting of [C_F0124](Yin_C_F0124_v1.md#statement) and [C_F0126](Yin_C_F0126_v1.md#statement).
 The energy-order argument was developed and self-checked by root on 2026-10-10, including the congruence, real Hilbert-space decomposition, inverse-order direction and normalization by 2m.
 This material retains that mathematical scope; no new independent project-proof finding or selected mathematical assessment is claimed.
-The existing manuscript comparison checks concern their actual TeX inputs, separately from this fixed mathematical account.
 
 The finite positive-certificate and bijection argument of [C_F0164](Yin_C_F0164_v1.md#argument) supplies the strict domain, the map \(R\mapsto b_R\) and the normalized bound \(\|\Psi\|_{2\to2}<1\) used below.
 For the general real-linear solve, use [C_F0126's inner positive-form estimate](Yin_C_F0126_v1.md#the-inner-quadratic-form-is-positive-for-every-trial-matrix) at \(\varepsilon=1\) and \(Q=R\): selfadjoint coefficient matrices give \(\rho=\eta\), and its lower bound is \(\operatorname{Tr}(Z^*ZR^{-1})\).
