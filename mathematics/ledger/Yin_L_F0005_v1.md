@@ -7,9 +7,10 @@ author: Yin
 
 Date: 2026-09-29.
 Human record author: Yin; research coordination and this exploration synthesis: root.
-This is an active research record, not a Claim, complete proof of T_F0001, or task counterexample.
-The user authorized the Goal without a usage stopping condition.
-The current contract remains [T_F0001 v2](../tasks/Yin_T_F0001_v2.md#yin_t_f0001).
+**Historical checkpoint:** this record preserves the 2026-09-29 exploration, not a current execution queue, complete Task proof or counterexample.
+The user authorization without a usage stopping condition describes that checkpoint only.
+The contract investigated then was [T_F0001 v2](../tasks/Yin_T_F0001_v2.md#yin_t_f0001).
+The [current Task family record](../tasks/Yin_T_F0001_v7.md#current-decision) owns the later contract, selected lifecycle and separate pending completion-chain inspection.
 
 ## Accepted advances
 

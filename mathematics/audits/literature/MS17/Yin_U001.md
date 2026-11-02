@@ -25,15 +25,15 @@ The user prohibited network searches and downloads during this run.
 | --- | --- | --- |
 | Operator-valued semicircular covariance and Cauchy/R-transform relation | Chapter 9, Definition 10 and Theorem 11(1),(2),(4), printed p. 239 / PDF p. 248; Proposition 13, printed pp. 241-242 / PDF pp. 250-251 | Earlier locally checked inputs for Yin_C_F0119; exact proof scope and visual evidence remain in the [analytic supplement](#offline-affine-extension-additional-source-interfaces). |
 | Brown potential and measure | Chapter 11, Theorem 5 and Definition 6, printed p. 268 / PDF p. 276, equations (11.6)-(11.7) | Accepted source theorem: for a bounded element in a faithful tracial von Neumann algebra, log Delta(T-z) is subharmonic and its distributional Laplacian divided by 2pi is a probability measure supported in the operator spectrum. |
-| Positive regularized Laplacian | Printed p. 269 / PDF p. 277, equation (11.8) | Primary page read and visually checked by the spectral agent and the coordinating agent.
-The source uses a regularizer delta; the project spectral module uses delta = epsilon squared. The local derivative and trace-positivity calculation is independently reproduced in the project proof. |
+| Positive regularized Laplacian | Printed p. 269 / PDF p. 277, equation (11.8) | Primary page read and visually checked by the spectral agent and the coordinating agent. The source uses a regularizer delta; the project spectral module uses delta = epsilon squared. The local derivative and trace-positivity calculation is independently reproduced in the project proof. |
 | Hermitized resolvent block and weak regularization limit | Section 11.9, printed pp. 276-277 / PDF pp. 284-285, equations (11.14)-(11.15) | Accepted source probability-measure weak convergence. PDF p. 285 was visually checked by the spectral agent and the coordinating agent. The density normalization follows the explicit 1/(2pi) Laplacian convention; the informal source parenthesis suppresses that factor. |
 | Normal specialization | Printed p. 270 / PDF p. 278 | Brown measure agrees with the scalar spectral measure for normal operators. This does not assert normality of an arbitrary affine pencil. |
 | Scalar elliptic example | Theorem 9, printed p. 275 / PDF p. 283 | Accepted ellipse and uniform Brown law, including spectrum equality for that specific model. Scalar scaling/rotation and the circular/line degenerations are checked in the consuming module. |
 
 The chapter-specific page offsets above were checked against the retained PDF; a uniform offset from Chapter 9 must not be applied to Chapter 11.
 
-The full consuming derivation and exact formulas are in [Affine Spectral Potentials](../../../claims/Yin_C_F0123_v1.md), with [independent proof review](../../reviews/Yin_R_F0181_v1.md#new-calculations-checked).
+The full consuming derivation and exact formulas are in [Affine Spectral Potentials](../../../claims/Yin_C_F0123_v1.md), with the [original derivative and spectral review](../../reviews/Yin_R_F0181_v1.md#new-calculations-checked).
+That original finding's initial-context relationship remains unknown; its source checks retain their original scope and are distinct from the later isolated derivative and spectral finding.
 The finite Dyson derivative equation, its invertibility at positive regularization and the exact matrix trace factors are project calculations.
 The Brown construction and probability-measure weak convergence are accepted source inputs, not a claim that their original proofs have been fully independently audited.
 

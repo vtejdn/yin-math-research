@@ -25,7 +25,7 @@ Record: 2026-09-09, the affiliated-generalization agent.
 Coverage state: **Read**.
 Exact statements, conventions and applicability are checked and accepted for use.
 The original transport proof is **not fully re-audited**.
-Independent source-interface confirmation by the q-Gaussian mechanism agent is recorded in the [Yin_C_F0018 review](../../reviews/Yin_R_F0064_v1.md#projective-dual-correction-finding).
+Source-interface confirmation by the q-Gaussian mechanism agent is recorded in the [historical Yin_C_F0018 review](../../reviews/Yin_R_F0064_v1.md#projective-dual-correction-finding), whose initial-context relationship remains unknown.
 
 ### Accepted Source Input
 

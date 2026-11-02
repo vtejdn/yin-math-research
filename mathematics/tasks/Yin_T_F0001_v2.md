@@ -144,7 +144,7 @@ None is part of this Task's unbounded completion test.
 
 ## Contract and Lifecycle History
 
-- Earlier authorizations, proof milestones, source-study requests, the original refuted conjecture, lemma-extraction authorization remain in the unchanged [previous material](Yin_T_F0001_v1.md) and [T_F0001 v4 metadata](Yin_T_F0001_v1.md#decision-candidate-0001).
+- Earlier authorizations, proof milestones, source-study requests, the original refuted conjecture, lemma-extraction authorization remain in the unchanged [previous material](Yin_T_F0001_v1.md) and its [recorded decision in material v1](Yin_T_F0001_v1.md#decision-candidate-0001).
 - 2026-09-27: the user corrected the priority to the unbounded polynomial-domain criterion, requested a concrete split/merge proposal, and approved its implementation.
   The [obligation transfer map](#reorganization-authorization-2026-09-27) records every successor.
   This is an explicit approved scope reorganization, not a mathematical completion or a change to a Claim.

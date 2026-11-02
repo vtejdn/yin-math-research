@@ -12,9 +12,8 @@ Status: bounded user-directed exploration; the deductions below have complete lo
 
 Placement maintenance: 2026-10-21T02:26.
 The complete unchanged mathematical argument now has its responsible home in [C_F0171](../claims/Yin_C_F0171_v1.md#statement), with its actual current adoption of the [new complete self-review](../audits/reviews/Yin_R_F0177_v1.md#resolvent-mass-finding).
-The full original development, source account, author/collaborator checks and inputs used by the existing manuscript or R reviews remain below.
+The full original development, source account, author/collaborator checks and review inputs remain below.
 Original dated draft and unadopted-status sentences describe that historical record, rather than the present C assessment.
-This placement changes no mathematical target, Task or manuscript review date.
 
 ## Question and inputs
 

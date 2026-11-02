@@ -6,6 +6,8 @@ author: Yin
 
 <a id="boundedness-model-synthesis"></a>
 Date: 2026-09-09.
+**Historical checkpoint:** this note preserves the assessment and exploratory plan at that date, not a current execution queue.
+The [current Task family record](../tasks/Yin_T_F0001_v7.md#current-decision) owns the later contract, selected lifecycle and separate pending completion-chain inspection.
 Author: the coordinating agent.
 Scope: synthesis and route selection for the user's [expanded Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#expanded-affiliated-and-boundedness-contract), using the exact new claims at their [Claim index](../claims/index.md).
 This note assigns no additional universal conjecture and makes no novelty claim.
@@ -100,5 +102,5 @@ It does not justify announcing a new free-probability regularity criterion befor
    Bare finite Fisher information is already excluded.
    A stronger proposed differential condition must survive the beta and sandwich tests and yield an actual implication toward (L) or (B).
 
-The model statements and their proof reviews are the present mathematical progress.
-These next steps remain exploratory obligations, and Yin_T_F0001 remains active.
+The model statements and their proof reviews record the mathematical progress at this checkpoint.
+These next steps were exploratory obligations under the then-active Task.

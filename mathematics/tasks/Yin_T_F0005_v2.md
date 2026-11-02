@@ -112,7 +112,7 @@ Current local family boundary: `execution/Yin_E_F0005.md`.
 
 ## Contract and Lifecycle History
 
-- The 2026-09-11 authorization, original four questions, earlier results remain in the unchanged [previous contract](Yin_T_F0005_v1.md) and [T_F0005 v4 metadata](Yin_T_F0005_v1.md#decision-candidate-0001).
+- The 2026-09-11 authorization, original four questions, earlier results remain in the unchanged [previous contract](Yin_T_F0005_v1.md) and its [recorded decision in material v1](Yin_T_F0005_v1.md#decision-candidate-0001).
 - 2026-09-27: the user approved retaining this ID for Q1/Q2/Q4 and transferring all of Q3's unbounded and bounded-companion obligations to T_F0001.
   The [transfer map](#reorganization-transfer-2026-09-27) owns this organizational decision.
 - The existing active lifecycle is retained.

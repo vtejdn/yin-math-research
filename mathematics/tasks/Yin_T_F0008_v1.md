@@ -70,7 +70,8 @@ This decision follows the independent general result and its spectral interface,
 - [Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126) proves an infimum over every positive definite matrix at the original coefficient size, with a uniquely solvable real-linear inner equation, for every affine pencil with complex coefficient matrices.
   Its signed Schur minimum/maximum supplies the indefinite extension linking the selfadjoint and arbitrary complex problems.
   The full proof uses coercivity and a positive Stein certificate to select every critical point as physical; it is independent of Spe26/Yin_C_F0124.
-  Its [complete independent review](../audits/reviews/Yin_R_F0128_v1.md) also verifies removal of regularization and all determinant constants.
+  Its [complete original review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) also verifies removal of regularization and all determinant constants.
+  That finding is self-reviewed because of known substantive development-context participation; its original date and full mathematical scope remain intact.
 - At zero constant term the inner solution vanishes for every trial.
   One scaling of the positive matrix gives the original MS24 capacity exactly, including singular covariance outputs, zero capacity and nonattainment.
   The proof does not assume the MS24 determinant conclusion.

@@ -23,7 +23,8 @@ Bibliographic identity: [BSS17](../../../literature/readme.md); formal publicati
 The inspected mathematical version is [arXiv:1705.08937v2](https://arxiv.org/pdf/1705.08937), Section 3, pp.5-6, equations (6)-(9).
 
 The group-theoretic research agent checked the exact representation statement during the two-projection exploration (original material now separated into [Yin_C_F0099_v1](../../../claims/Yin_C_F0099_v1.md), [Yin_C_F0100_v1](../../../claims/Yin_C_F0100_v1.md), [Yin_L_F0025_v1](../../../ledger/Yin_L_F0025_v1.md)).
-The subsequent [independent project review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account) checks the representation's application, alongside [CK14 Section 4.2](../CK14/Yin_U001.md#ck14-u001).
+The subsequent [historical project review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account) checks the representation's application, alongside [CK14 Section 4.2](../CK14/Yin_U001.md#ck14-u001).
+That original finding's initial-context relationship remains unknown; later isolated findings do not change its historical relationship or source-reading depth.
 The coordinating agent records these inspection boundaries; no full proof of the Halmos theorem or of the source's similarity results has been reviewed here.
 
 Two orthogonal projections decompose into the four intersections of their ranges/kernels and a generic two-by-two matrix part over a positive contraction H with neither zero nor one an eigenvalue.

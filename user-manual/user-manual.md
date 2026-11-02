@@ -161,7 +161,7 @@ Under construction.
 
 ### Framework version
 
-The current framework version is 0.9.0.
+The current framework version is 0.9.1.
 
 When automatic checks are enabled and network access is permitted,
 the [agent](#notion-agent) checks the [official ACME framework](https://github.com/vtejdn/acme) for a newer version at the start of work, at most once per UTC day.
@@ -251,6 +251,7 @@ Depending on your tools and setup, you may also see the following directories.
 | <a id="notion-pull"></a>Pull | Retrieving changes from a remote Git repository and incorporating them into your local work. |
 | <a id="notion-merge"></a>Merge | Combining changes from another [branch](#notion-git-branch) into your current Git branch, resolving conflicting edits when necessary. |
 | <a id="notion-intake"></a>Intake | Bringing selected research materials from another public ACME repository into your own, with their authorship, origin and review limitations preserved. |
+| <a id="notion-import"></a>Import | Bringing your own selected research materials, manuscripts or applicable personal settings from another folder or repository into the current workspace, preserving authorship and reusing adequate existing materials. Required materials from other authors are received through [Intake](#notion-intake). |
 | Citation key | A short identifier for a work in the bibliography, used to cite it consistently in research records and manuscripts. |
 
 ### <a id="material-task"></a>Task

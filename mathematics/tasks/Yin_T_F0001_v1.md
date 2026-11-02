@@ -115,12 +115,6 @@ Partial results, numerical evidence, and setup completion alone do not resolve Y
   This supersedes any historical setup-only boundary.
   Keep the session goal active until the full mathematical completion criteria are met; source studies, framework setup and special cases are progress, not completion.
 
-## Setup Verification
-
-On 2026-09-08, the separate AI reviewer `goal_contract_review` inspected this initial goal record, Yin_C_F0001, and the four updated goal, ledger, claim, and status indexes.
-The documentation review found no mismatch in the approved scope, quantifiers, completion criteria, IDs, or setup-only boundary.
-These are documentation checks, not mathematical review, proof evidence, or goal-completion evidence.
-
 ## Resolution and Final Verification
 
 Yin_C_F0012 uses h with law 4t³ dt and a free standard semicircular b.

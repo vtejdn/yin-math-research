@@ -10,7 +10,7 @@ author: Yin
 
 On 2026-10-11 Yin explicitly requested a new F-series Task to find variational and capacity formulas for the determinant of an operator in one Haar unitary variable, and to study the determinant's dependence on its coefficients.
 The preceding discussion identified the classical scalar object as p(U), with all powers belonging to the same commutative algebra W*(U).
-This is a separately assigned analytical Task, not a reopening of the completed [F0008 semicircular Task](Yin_T_F0008_v1.md#contract) or a resumption of the paused `Yin_T_G0001` Lehmer Task.
+This is a separately assigned analytical Task, not a reopening of the completed [F0008 semicircular Task](Yin_T_F0008_v1.md#contract) or a resumption of the separate Lehmer-gap investigation discussed at assignment.
 
 ### Objects and determinant conventions
 
@@ -108,7 +108,8 @@ Completion requires a corresponding Task decision selecting the actual fixed sup
 ### Relationship to Lehmer and execution
 
 Complex coefficient dependence is the primary analytical setting.
-Integer/Laurent coefficient specializations may supply later inputs to the separate `Yin_S_G0003` route, but this Task does not require proving a Lehmer gap and does not inherit G0001's execution authority.
+Integer/Laurent coefficient specializations may supply later inputs to the separate question whether Mahler measures greater than one of integer polynomials have a uniform gap from one.
+That Lehmer-gap question is outside this analytical Task's completion criteria and supplies no execution authority here.
 A connection back to an integer gap must retain the full polynomial, actual trace normalization and every approximation or small-singular-value cost.
 
 The initial decision assigns an active research objective.
@@ -149,7 +150,7 @@ The [derived strategy entrance](../strategies/index.md#task-yin_t_f0010) is navi
 | date | 2026-10-13T07:10 |
 | status | completed |
 | authority | Yin's explicit original assignment of the scalar and finite-matrix analytical Task, followed by the 2026-10-13 instruction to take F0010 as the objective and begin advancing it. This decision records satisfaction of the unchanged assigned contract. |
-| reason | The selected fixed accounts establish exact coefficient-defined scalar and finite-matrix capacities, global variational and convolution representations with all stated degeneration and attainment boundaries, and fixed-support coefficient continuity, valid variations and singular controls. The separate final review compares the actual fixed support with all four original objectives and passes the complete contract. No required mathematical argument remains missing. Completion retains the accepted external-statement interfaces and the nonessential known-Gram original-theorem attribution limitation; it asserts neither original discovery, a complete external-proof audit, numerical implementation, degree/size-uniform estimates nor a Lehmer gap. G0001 remains paused. |
+| reason | The selected fixed accounts establish exact coefficient-defined scalar and finite-matrix capacities, global variational and convolution representations with all stated degeneration and attainment boundaries, and fixed-support coefficient continuity, valid variations and singular controls. The separate final review compares the actual fixed support with all four original objectives and passes the complete contract. No required mathematical argument remains missing. Completion retains the accepted external-statement interfaces and the nonessential known-Gram original-theorem attribution limitation; it asserts neither original discovery, a complete external-proof audit, numerical implementation, degree/size-uniform estimates nor a Lehmer gap. This completion authorizes no execution of the separate Lehmer-gap investigation. |
 
 | Relation | Target | Scope |
 | --- | --- | --- |

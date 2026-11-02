@@ -149,7 +149,7 @@ The reconstruction retains two exact interfaces within GGOW20: [U002](Yin_U002.m
 \operatorname{cap}(T_j)\geq(1-\sqrt{n e_j})^n
 \]
 for a map with one marginal normalized and sufficiently small defect.
-Their independent source checks belong to the other units and the [capacity-interface review](../../reviews/Yin_R_F0176_v1.md#capacity-ggow20-finding).
+Their source checks belong to the other units and the [historical capacity-interface review](../../reviews/Yin_R_F0176_v1.md#capacity-ggow20-finding), whose initial-context relationship remains unknown.
 This section checks their use, not their original proof chains.
 
 For a requested \(0<\varepsilon<1\), one adequate bookkeeping choice is

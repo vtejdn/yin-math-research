@@ -7,7 +7,6 @@ author: Yin
 Context: the strict Hilbert--Schmidt and unrestricted affine determinant formulas of [C_F0124](../claims/Yin_C_F0124_v1.md#statement) and [C_F0126](../claims/Yin_C_F0126_v1.md#statement).
 The energy-order argument was developed and self-checked by root on 2026-10-10, including the congruence, real Hilbert-space decomposition, inverse-order direction and normalization by 2m.
 This account retains that mathematical scope; no new independent project-proof finding is claimed.
-The existing manuscript comparison checks concern their actual TeX inputs, separately from this fixed mathematical account.
 
 ## Matrix geometric mean
 
@@ -39,7 +38,7 @@ For b>0 and a_0=a_0^*, direct multiplication gives
 The first equality uses skew-adjointness of the commutator, and the second uses its square-root homogeneity.
 The difference vanishes exactly when b commutes with a_0.
 This is the covariance-zero comparison; it does not identify a general nonzero-covariance correction with skew information.
-The manuscript's trace-log normalization contributes the additional factor 1/(2m).
+For the normalized trace-log convention \((2m)^{-1}\operatorname{Tr}\), the corresponding correction is the displayed trace difference divided by \(2m\).
 
 ## Common positive coordinates
 

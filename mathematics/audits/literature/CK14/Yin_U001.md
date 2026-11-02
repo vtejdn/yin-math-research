@@ -11,7 +11,7 @@ author: Yin
 Source edition: Source identity: [CK14 in the sole bibliography](../../../literature/readme.md), open [arXiv:1211.6037v3](https://arxiv.org/pdf/1211.6037), 53 pages, revised 2013-09-07.
 
 Passages: Inspection: the group-theoretic research agent read equations (1.5)-(1.7), pp.3-4, and the representation in Section 4.2, p.45, while writing the two-projection argument.
-The polynomial-core research agent independently checked these exact inputs in the [project proof review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account).
+The polynomial-core research agent checked these exact inputs in the [historical project proof review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account), whose initial-context relationship remains unknown.
 
 Inspection: The coordinating agent integrates that evidence here; the full liberation-process proofs and the original S-transform derivation are retained external results, not independently audited by this record.
 
@@ -25,7 +25,7 @@ Formal publication year 2014 and journal pagination were checked against the aut
 The locators below refer to the author version, not the journal pagination.
 
 Inspection: the group-theoretic research agent read equations (1.5)-(1.7), pp.3-4, and the representation in Section 4.2, p.45, while writing the two-projection argument.
-The polynomial-core research agent independently checked these exact inputs in the [project proof review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account).
+The polynomial-core research agent checked these exact inputs in the [historical project proof review](../../reviews/Yin_R_F0107_v1.md#original-f0067-account), whose initial-context relationship remains unknown.
 The coordinating agent integrates that evidence here; the full liberation-process proofs and the original S-transform derivation are retained external results, not independently audited by this record.
 
 For freely independent projections p,q in a faithful tracial W*-probability space with traces alpha,beta strictly between zero and one, the generic parameter t in the standard matrices

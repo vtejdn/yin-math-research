@@ -52,15 +52,17 @@ Failed candidate classes should produce explicit counterexamples or clearly loca
 
 - 2026-09-11: registered and started from the user's instruction.
   Source-formula disambiguation is part of this research, without restricting the user's broad-family objective to an easier special case.
-- 2026-09-11: completed after independent review of Yin_C_F0093-Yin_C_F0095 and the additional all-positive-rate result Yin_C_F0096.
+- 2026-09-11: completed on the recorded reviews of Yin_C_F0093-Yin_C_F0095 and the additional all-positive-rate result Yin_C_F0096.
   The completed deliverables include an actual inverse-L2 spectral criterion with the semicircular/circular baseline and a separate explicit product spectrum formula.
   No unchanged universal creation-model or transfer-matrix formula is claimed.
 
 <a id="reviewed-outcomes-2026-09-11"></a>
 ## Reviewed Outcomes and Continuation Boundary
 
-[Yin_C_F0096](../claims/Yin_C_F0096_v1.md#yin_c_f0096), with its [independent full review](../audits/reviews/Yin_R_F0110_v1.md#original-f0044-account), extends Miy26's rational-L2 result to every finite free family of free-Poisson variables with arbitrary positive real rates and positive jumps, mixed with semicircular variables.
-It proves that every affiliated rational L2 element belongs to the generated C*-algebra.
+[Yin_C_F0096](../claims/Yin_C_F0096_v1.md#yin_c_f0096) extends Miy26's rational-L2 result to every finite free family of free-Poisson variables with arbitrary positive real rates and positive jumps, mixed with semicircular variables.
+Its [original whole-proof review](../audits/reviews/Yin_R_F0110_v1.md#original-f0044-account) retains an unknown initial-context relationship.
+The later [isolated finding](../audits/reviews/Yin_R_F0110_v1.md#current-isolated-finding) independently checks the complete C_F0096 theorem and its stated rational-image consequences at its own source and dependency scope.
+C_F0096 proves that every affiliated rational L2 element belongs to the generated C*-algebra.
 Consequently, for every rational affiliated f, a complex number lambda is outside its ordinary closed-operator spectrum exactly when f-lambda has an existing affiliated inverse in L2.
 Bounded rational images inherit this spectral criterion, including circular families and finite real-jump compound-Poisson constructions.
 The proof uses Yan25's exact Wick formula, a polynomial homogeneous norm bound, Yin_C_F0034's finite-defect algebra and Yin_C_F0015's residual decay; it needs neither a normalized bounded dual nor maximal Delta.
@@ -76,6 +78,13 @@ The [KPZ26 application](../audits/literature/KPZ26/Yin_U001.md#kpz26-selected-au
 The [contract comparison](../audits/reviews/Yin_R_F0096_v1.md#yin_t_f0004-a-spectral-formula-with-the-relevant-source-cases-included) checks the actual spectral conclusion and inclusion of the semicircular/circular baselines.
 These results do not establish arbitrary mixed-degree R-diagonal creation-spectrum equality, general q-Gaussian rational-L2 boundedness, or the bounded scalar division-closure equality of Yin_T_F0003.
 [Yin_S_F0014](../strategies/Yin_S_F0014.md#s_f0014) retains these distinctions and the next discriminating questions.
+
+## Pending independent completion-chain inspection
+
+A separately organized independent inspection of the complete [Task contract](#contract) and its adopted C_F0093-C_F0096 support and dependency chain remains pending.
+The historical [contract comparison](../audits/reviews/Yin_R_F0096_v1.md#yin_t_f0004-a-spectral-formula-with-the-relevant-source-cases-included) and the later isolated C_F0096 proof finding do not establish independent coverage of that whole Task chain.
+The [selected historical completion decision](#decision-candidate-0001), its evidence and the mathematical conclusions are preserved.
+This unfinished inspection supplies no new finding, lifecycle change or execution authority.
 
 
 ## Lifecycle and completion

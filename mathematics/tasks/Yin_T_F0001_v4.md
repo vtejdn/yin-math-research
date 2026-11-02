@@ -173,10 +173,9 @@ Contract revision and Task activation do not themselves create a run, reopen an 
 ## Contract and Lifecycle History
 
 - The original contract and its prior revisions remain in [material v1](Yin_T_F0001_v1.md), [material v2](Yin_T_F0001_v2.md) and [material v3](Yin_T_F0001_v3.md).
-- 2026-09-29, earlier completion: Task v6 accepted C_F0063 (recorded assessment 2) and C_F0064 (recorded assessment 2) at their recorded scopes.
+- 2026-09-29, earlier completion: the [intrinsic completion decision in material v3](Yin_T_F0001_v3.md#decision-candidate-0006) accepted C_F0063 (recorded assessment 2) and C_F0064 (recorded assessment 2) at their recorded scopes.
   That completed contract and its independent review remain valid historical evidence.
 - 2026-09-29, current user-directed revision: retain Task identity T_F0001, replace the completed intrinsic target with the stronger original-operator target (RC)/(T), enlarge the allowed starting domain from exactly the polynomial algebra to any specified domain containing it, and allow weakening or removal of the starred-commutator assumption.
-- Append the authorized completed-to-active lifecycle transition through the publication tool.
   The new contract receives only an organizational self-review; no new mathematical result or independent proof review is asserted.
 
 

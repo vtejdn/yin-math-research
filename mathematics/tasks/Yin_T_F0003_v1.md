@@ -54,7 +54,7 @@ Preserve exact remaining obligations for broader classes.
 
 ## Contract History
 
-- 2026-09-11: completed after independent review of the principal-ideal, finite-index and normal-curve mechanisms and their obstructions (Yin_C_F0087-Yin_C_F0089, Yin_C_F0090, Yin_C_F0091).
+- 2026-09-11: completed on the recorded reviews of the principal-ideal, finite-index and normal-curve mechanisms and their obstructions (Yin_C_F0087-Yin_C_F0089, Yin_C_F0090, Yin_C_F0091).
   The contract comparison linked below accepts the substantial verified families; it does not assert a universal closure theorem or solve every proposed model route.
 
 <a id="reviewed-outcomes-2026-09-11"></a>
@@ -73,9 +73,17 @@ The first research round produced three independently reviewed sufficient mechan
 [Yin_C_F0091](../claims/Yin_C_F0091_v1.md#yin_c_f0091) shows failure for a regular two-dimensional polynomial ring, so ring normality alone does not suffice.
 These results do not require a dual system and do not replace Yin_C_F0012's distinct counterexample under bounded duals.
 
-The [independent contract comparison](../audits/reviews/Yin_R_F0087_v1.md#yin_t_f0003-general-conditions-and-substantial-families) checks the original acceptance criteria and the independent proof evidence.
+The [historical contract comparison](../audits/reviews/Yin_R_F0087_v1.md#yin_t_f0003-general-conditions-and-substantial-families) checks the original acceptance criteria and the cited proof evidence.
+Its original initial-context isolation is unestablished; that completion comparison is distinct from the individual proof findings and their actual relationships.
 Broader diffuse free-product stability, nonuniform atomic families, multivariable q-Gaussians and general analytic transport remain open.
 [Yin_S_F0013](../strategies/Yin_S_F0013.md#s_f0013) records the continuation handoff; the related results of the separate rational-L2 investigation do not settle these bounded scalar reconstruction questions.
+
+## Pending independent completion-chain inspection
+
+A separately organized independent inspection of the complete [Task contract](#contract) and its adopted C_F0087-C_F0091 support and dependency chain remains pending.
+The original R_F0087 completion comparison does not establish that inspection, and later isolated reviews of individual proofs retain only their own checked scopes.
+The [selected historical completion decision](#decision-candidate-0001), its evidence and the mathematical conclusions are preserved.
+This unfinished inspection supplies no new finding, lifecycle change or execution authority.
 
 
 ## Lifecycle and completion

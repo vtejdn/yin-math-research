@@ -34,5 +34,6 @@ In [Yin_C_F0104](../../../claims/Yin_C_F0104_v1.md#yin_c_f0104), the factors are
 The consuming proof also writes the actual closed graphs and a direct finite-seminorm-order Baire argument.
 This source is attribution and corroboration for that standard step; it supplies no unbounded-domain invariance or graph-core conclusion by itself.
 
-The ordinary Frechet closed graph theorem and Baire category theorem remain standard functional-analysis inputs with their concrete applicability checked in the [independent Yin_C_F0104 review](../../reviews/Yin_R_F0114_v1.md#original-f0040-account).
+The ordinary Frechet closed graph theorem and Baire category theorem remain standard functional-analysis inputs with their concrete applicability checked in the [historical Yin_C_F0104 review](../../reviews/Yin_R_F0114_v1.md#original-f0040-account).
+That original finding retains an unknown initial-context relationship, separately from the later isolated finding in the same review home.
 No priority claim, project Claim or Role is assigned to this known continuity theorem.

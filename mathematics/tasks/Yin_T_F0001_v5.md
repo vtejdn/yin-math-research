@@ -208,10 +208,9 @@ Contract revision and Task activation do not themselves create a run, reopen an 
 ## Contract and Lifecycle History
 
 - The original contract and its prior revisions remain in [material v1](Yin_T_F0001_v1.md), [material v2](Yin_T_F0001_v2.md) and [material v3](Yin_T_F0001_v3.md).
-- 2026-09-29, earlier completion: Task v6 accepted C_F0063 (recorded assessment 2) and C_F0064 (recorded assessment 2) at their recorded scopes.
+- 2026-09-29, earlier completion: the [intrinsic completion decision in material v3](Yin_T_F0001_v3.md#decision-candidate-0006) accepted C_F0063 (recorded assessment 2) and C_F0064 (recorded assessment 2) at their recorded scopes.
   That completed contract and its independent review remain valid historical evidence.
 - 2026-09-29, current user-directed revision: retain Task identity T_F0001, replace the completed intrinsic target with the stronger original-operator target (RC)/(T), enlarge the allowed starting domain from exactly the polynomial algebra to any specified domain containing it, and allow weakening or removal of the starred-commutator assumption.
-- Append the authorized completed-to-active lifecycle transition through the publication tool.
   The new contract receives only an organizational self-review; no new mathematical result or independent proof review is asserted.
 
 - 2026-09-30, negative resolution submitted for independent acceptance: two literal supplied-domain counterexamples refute (T), even with rank-one polynomial starred commutators; the closed polynomial-core and existential-only strengthenings remain explicitly undecided.
@@ -230,13 +229,13 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-09-30T08:20 |
 | status | completed |
-| authority | User instruction of 2026-09-30 to use T_F0001 as a Goal and explore the authorized prove-or-counterexample contract; v4 Completion and Review Criteria item 3 and the independent whole-proof/completion audit dated 2026-09-30. |
+| authority | User instruction of 2026-09-30 to use T_F0001 as a Goal and explore the authorized prove-or-counterexample contract; item 3 of [material v4's Completion and Review Criteria](Yin_T_F0001_v4.md#completion-and-review-criteria) and the independent whole-proof/completion audit dated 2026-09-30. |
 | reason | Complete the unchanged original-operator contract by independently reviewed counterexamples to rationality implying the every-fraction condition and to fraction independence; retain explicit stronger-domain boundaries. |
 
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Exact material](#contract) | Exact original contract and success conditions retained in this material. |
-| dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying the unchanged v7 negative-completion alternative: literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
+| dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying item 3 of [this material's Completion and Review Criteria](#completion-and-review-criteria): literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
 | review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r107) | Whole unchanged T_F0001 contract at recorded assessment 7 and successor resolution, complete C_F0065 two-model proof with actual supplied domains and dependencies, exact negative alternative, compact baseline and remaining strengthened/existential-only scopes. |
 
 Recorded mathematical summary: Completed by a rigorous counterexample to the original supplied-domain regular-commutator criterion: for a genuinely unbounded rational element, some/every fraction independence fails even with rank-one compact polynomial starred commutators.
@@ -254,13 +253,13 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- |
 | date | 2026-10-01T14:24 |
 | status | completed |
-| authority | User instruction of 2026-09-30 to use T_F0001 as a Goal and explore the authorized prove-or-counterexample contract; v4 Completion and Review Criteria item 3 and the independent whole-proof/completion audit dated 2026-09-30. |
+| authority | User instruction of 2026-09-30 to use T_F0001 as a Goal and explore the authorized prove-or-counterexample contract; item 3 of [material v4's Completion and Review Criteria](Yin_T_F0001_v4.md#completion-and-review-criteria) and the independent whole-proof/completion audit dated 2026-09-30. |
 | reason | Complete the unchanged original-operator contract by independently reviewed counterexamples to rationality implying the every-fraction condition and to fraction independence; retain explicit stronger-domain boundaries. |
 
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Exact material](#contract) | Exact original contract and success conditions retained in this material. |
-| dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying the unchanged v7 negative-completion alternative: literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
+| dependency | [Exact material](../claims/Yin_C_F0065_v1.md#decision-candidate-0002) | Complete explicit counterexamples satisfying item 3 of [this material's Completion and Review Criteria](#completion-and-review-criteria): literal supplied domains, genuine rational unbounded witness, some/every failure under compact polynomial starred commutators, with closed polynomial-core and existential-only branches explicitly undecided. |
 | review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r107) | Whole unchanged T_F0001 contract at recorded assessment 7 and successor resolution, complete C_F0065 two-model proof with actual supplied domains and dependencies, exact negative alternative, compact baseline and remaining strengthened/existential-only scopes. |
 
 Recorded mathematical summary: Completed on the recorded C_F0065 (recorded assessment 2) counterexamples to the original supplied-domain regular-commutator criterion and fraction independence, including a closed supplied-extension model with dense natural domains but no bounded extension at one pair.

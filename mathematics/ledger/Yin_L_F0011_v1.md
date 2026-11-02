@@ -10,9 +10,11 @@ The full actual mixed-domain proof is also retained in [C_F0076](../claims/Yin_C
 R_F0035/R_F0039 retain their original mixed-domain, conditional-energy and actual-liberation scopes; the general sufficient mixed-defect inequality remains unproved here.
 
 Date: 2026-09-29.
+**Historical checkpoint:** this note preserves the mixed-energy reduction and its unresolved estimate at that date, not a current execution queue.
+The [current Task family record](../tasks/Yin_T_F0001_v7.md#current-decision) owns the later contract, selected lifecycle and separate pending completion-chain inspection.
 Human author: Yin.
 Exploration developed by another AI agent, with scoped independent mathematical review by `counterexample`.
-Consumer: [T_F0001's current contract](../tasks/Yin_T_F0001_v2.md).
+Historical consumer: [the T_F0001 v2 contract](../tasks/Yin_T_F0001_v2.md#contract) investigated at this checkpoint.
 This is a combined exploration module, not a new Claim or a manuscript result designation.
 The positive auxiliary conclusion is the general liberation contraction; the original correlated normal contraction remains conditional on the explicitly stated mixed-defect estimate.
 

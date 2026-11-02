@@ -144,9 +144,9 @@ The original targets retain these boundaries:
 - Q4: Yin_C_F0110 provides compatible individually nondense windows with aggregate density; it does not remove aggregate separation.
 - Q5-Q6: Yin_C_F0107's actual affine L2 inverse reduction and Yin_C_F0111's restricted small-q charge results leave general multivariable rational L2 boundedness and bounded division closure open.
 - Q7: Yin_C_F0106 settles finite-dimensional free factors; the diffuse free-product question remains open.
-- Yin_T_A0001: no result here proves strong Atiyah for every finitely generated torsion-free group.
-- Yin_T_A0002: the recorded real/complex graph results, general-K Theorems 1.6-1.7 and additional-sofic Qbar case remain established at their reviewed scopes.
-  The original general-K graph conclusions retain the coefficient-interface gap.
+- Separate strong-Atiyah question: no result here proves strong Atiyah for every finitely generated torsion-free group.
+- Historical graph-results discussion: the earlier account reported real/complex graph results, general-K Theorems 1.6-1.7 and an additional-sofic Qbar case as established at their reviewed scopes, while retaining a coefficient-interface gap in the original general-K graph conclusions.
+  This Task identifies no exact source or local proof home for those theorem numbers; the report supplies neither a local Task identity nor a selected mathematical input.
 
 A proposed candidate, neither proved nor independently reviewed, is to replace global density bounds by bounds on each fixed annulus.
 The local cutoff argument might supply marginal estimates on bounded functions supported away from zero.
