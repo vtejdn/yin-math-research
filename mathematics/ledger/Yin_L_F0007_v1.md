@@ -225,7 +225,7 @@ The full circular case above is known through semicircular coordinates; that arg
 
 ### Free Meixner and finite-recursion families
 
-[Ans07, *Free Meixner states*](https://arxiv.org/abs/math/0702158) is a discovery lead: its author-provided abstract describes orthogonal-polynomial recursions, resolvent-type generating functions, and tracial examples.
+[Ans07, *Free Meixner states*](https://arxiv.org/abs/math/0702158v1) is a discovery lead: its author-provided abstract describes orthogonal-polynomial recursions, resolvent-type generating functions, and tracial examples.
 Only that abstract and publication metadata were inspected for this note.
 
 A reasonable next test is a selected bounded faithful tracial model with finitely described Jacobi or word-recursion data.
@@ -251,10 +251,10 @@ The explicit coefficient and Chebyshev examples were checked algebraically, with
 No numerical computation or formal verification was used.
 
 One targeted primary search on 2026-09-09 addressed the Meixner recurrence lead.
-The [arXiv record](https://arxiv.org/abs/math/0702158) and [author's publication list](https://people.tamu.edu/~manshel/publications.html) identify Michael Anshelevich, *Free Meixner states*, Communications in Mathematical Physics 276 (2007), 863-899, DOI 10.1007/s00220-007-0322-3.
+The [arXiv v1 record](https://arxiv.org/abs/math/0702158v1) and [author's publication list](https://people.tamu.edu/~manshel/publications.html) identify Michael Anshelevich, *Free Meixner states*, Communications in Mathematical Physics 276 (2007), 863-899, DOI 10.1007/s00220-007-0322-3.
 The arXiv record has v1 submitted 2007-02-06.
 The abstract and metadata were inspected; no PDF or exact theorem proof was read or downloaded.
-The sole bibliography remains [literature/readme.md](../literature/readme.md).
+The sole bibliography remains [references.bib](../literature/references.bib).
 
 Known positive families above are not presented as new results.
 Further work should select one prospective model and discharge its identified input gaps.

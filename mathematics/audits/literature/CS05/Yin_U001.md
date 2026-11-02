@@ -42,7 +42,7 @@ Componentwise adjoint exchanges K_Z and K_{Z*}, and preserves module dimension t
 Thus the numerical dimension identities survive.
 It would be inaccurate to assert C_Z=K_Z^perp for arbitrary Z without this adjustment.
 
-The local general-tuple statement and complete argument use precisely this adjustment.
+The [local general-tuple statement](../../../claims/Yin_C_F0177_v1.md#statement) and [complete argument](../../../claims/Yin_C_F0177_v1.md#argument) use precisely this adjustment.
 The source is credited for the relative definition and the bounded-dual proof mechanism.
 The original theorem remains a self-adjoint-family statement; the local argument is an explicit extension, not a newly discovered mechanism.
 

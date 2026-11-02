@@ -47,6 +47,8 @@ Recorded consumer navigation: Statement/proof uses: [Yin_C_F0007](../ledger/Yin_
 ### Operator rank, matrix ranks and Delta
 
 Exact definition homes and conventions: [Ordinary operator-rank convention](../ledger/Yin_L_F0004_v1.md#claim-definition-uses), [inner rank and fullness](../audits/literature/MSY23/Yin_U001.md#definitions-and-elementary-matrix-arguments), [analytic-rank normalization](../audits/literature/MSY23/Yin_U002.md#analytic-rank-normalization), and [the finite-rank-cycle invariant Delta](../audits/literature/MSY23/Yin_U002.md#delta-finite-rank-cycles).
+The [arbitrary-tuple relative Delta definition](../claims/Yin_C_F0177_v1.md#definitions) keeps the Hilbert--Schmidt closure before intersection with the initial-coordinate submodule.
+Its [bounded-dual theorem](../claims/Yin_C_F0177_v1.md#statement) and [argument](../claims/Yin_C_F0177_v1.md#argument) retain the complete project extension of the [CS05 relative construction](../audits/literature/CS05/Yin_U001.md#exact-source-scope).
 The [central-eigenvalue definition](../audits/literature/MSY23/Yin_U001.md#definitions-and-elementary-matrix-arguments), [affiliated point spectrum](../audits/literature/MSY23/Yin_U006.md#affiliated-point-spectrum) and [strong Atiyah property](../audits/literature/MSY23/Yin_U005.md#setting-and-closure-conventions) keep their distinct algebraic, affiliated and integer-rank meanings.
 Algebraic Hankel rank has its own entry below.
 

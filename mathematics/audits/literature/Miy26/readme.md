@@ -23,3 +23,15 @@ The following selected units retain their stated editions, passages, inspection 
 ## Miy26 spectral source audit
 
 The selected units above retain their stated editions, passages and inspection limits.
+
+<a id="integrability-terminology"></a>
+## Integrability terminology in the opening statements
+
+The selected presentation reading recorded 2026-09-10 covered retained arXiv-v2 printed/PDF pp. 1–2, including Theorem 1.1 and Corollary 1.2.
+The source calls a rational element with finite L2 norm an L2-bounded rational function.
+Its condition is square integrability, distinct from membership in the bounded operator algebra M.
+The [ambient-space account](Yin_U001.md#three-ambient-spaces-and-two-closures) retains the rational subalgebra and affiliated realization, with the L2 vector domain and boundedness distinction explicit.
+Theorem 1.1 assumes free semicircular generators; a bounded dual system alone is not its stated hypothesis.
+Its integrability-to-boundedness assertion and the spectral consequences in Corollary 1.2 are separate results.
+The opening motivates the explicit integrability inclusion separately from the bounded division-closure equality.
+A preferred replacement term in a manuscript requires the applicable writing choice; these observations adopt no new personal rule.

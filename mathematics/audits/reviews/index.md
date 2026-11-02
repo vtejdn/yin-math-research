@@ -185,6 +185,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0179](Yin_R_F0179_v1.md) | Isolated review of the atomic dense-core dual counterexamples | [v1](Yin_R_F0179_v1.md) |
 | [Yin_R_F0180](Yin_R_F0180_v1.md) | Isolated and historical reviews of affine attainment | [v1](Yin_R_F0180_v1.md) |
 | [Yin_R_F0181](Yin_R_F0181_v1.md) | Isolated review of four affine determinant and spectral modules | [v1](Yin_R_F0181_v1.md) |
+| [Yin_R_F0182](Yin_R_F0182_v1.md) | Independent review of arbitrary-tuple relative maximal Delta | [v1](Yin_R_F0182_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
