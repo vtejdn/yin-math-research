@@ -9,7 +9,7 @@ The original search and selected-statement reading took place on 2026-10-10 agai
 Its 29 distinct numbered definitions, theorems, propositions, lemmas, corollaries, remarks and examples are all covered in the original inventory, together with the substantial unnumbered arguments in Sections 2, 3, 5, 6, 7 and Appendix A.
 These historical numbers are not the numbering of the subsequently expanded [current manuscript](../paper/main.tex).
 
-The original numbered statements are those of the 33-page revision recorded in the [result-connection review](../paper/readme.md#direct-result-connections-review).
+The original numbered statements below identify the 33-page revision inspected for this assessment.
 Yin subsequently authorized integration of the entire substantive comparison map, with concise explanations and nearby remarks while preserving the paper's structure.
 The current placements are recorded below.
 Existing source audits retain their actual scope; contextual citations do not create new Claim decisions, automatically expand proof dependencies or establish priority.
@@ -20,7 +20,8 @@ The authorized revision includes the substantive connections across the whole in
 Several original rows share one nearby explanation; elementary steps and searches that found no suitable additional theorem retain their existing proofs without a forced citation.
 The table uses semantic TeX labels so that added remarks do not make this navigation depend on obsolete theorem numbers.
 Source keys are the actual canonical keys in [references.bib](../../../literature/references.bib).
-Integration verification and any build evidence belong to the [contextual-literature integration review](../paper/readme.md#contextual-literature-integration-review).
+The [current manuscript review](../paper/review.md#citation-and-mathematical-comparison-checks) owns integration verification.
+The [document README](../paper/readme.md#receiving-build) owns build evidence.
 
 | Current placement | Semantic labels or nearby passage | Integrated connection and canonical sources |
 | --- | --- | --- |
@@ -159,7 +160,7 @@ At that stage the Alt--Kruger deformed-circular source still needed its artifact
 The current integration above records the subsequent `AK26` and `Bel15` work without retrospectively expanding those original reading scopes.
 The Kronecker-matrix and noncommutative-inner-rank leads remain outside the adopted theorem-level comparisons.
 
-The original bounded independent checks of the three local identifications, including the required rho=0 correction and reviewer relationship, are retained in [R_F0132](../paper/review.md#original-related-literature-bounded-review).
+The original bounded independent checks of the three local identifications, including the required rho=0 correction and reviewer relationship, are retained in the [manuscript-local bounded findings](../paper/review.md#original-related-literature-bounded-review).
 
 The public Speicher proposal remains `Spe26`; historical abbreviations in the detailed notes do not rename canonical keys.
 

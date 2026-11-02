@@ -43,10 +43,12 @@ The same formula appears as equation (3) on printed p. 5 of [Nou04](https://arxi
 Here Nou's nonnegative deformation bound is specialized to absolute q.
 The exact statements and their use were checked; the foundational symmetrizer proofs were not newly audited in full.
 
-This input is used by the new [complete state-energy argument](../../../claims/Yin_C_F0101_v1.md) and its [independent review](../../reviews/Yin_R_F0111_v1.md#original-f0062-account).
+This input is used by the [complete state-energy argument](../../../claims/Yin_C_F0101_v1.md).
+Its [original review account](../../reviews/Yin_R_F0111_v1.md#original-f0062-account) retains an unknown initial-context relationship, while the current Claim decision selects the later [isolated finding](../../reviews/Yin_R_F0111_v1.md#current-isolated-finding) at its actual eight-section scope.
 That argument is a project deduction; neither geometric decay of recognizable state energies nor scalar rational reconstruction is asserted as a theorem of KM26.
 
-The finite-state decay, padding and bounded-inverse conclusions in the consuming ledger are project deductions, independently reviewed in [the proof audit](../../reviews/Yin_R_F0109_v1.md#original-f0059-account); they are not claims made by this source theorem.
+The finite-state decay, padding and bounded-inverse conclusions in the consuming ledger are project deductions, checked in [the original proof account](../../reviews/Yin_R_F0109_v1.md#original-f0059-account) at its unknown initial-context relationship; they are not claims made by this source theorem.
+The later isolated C_F0097 finding in that R has a different target and supplies no new whole-ledger review.
 
 <a id="strong-convergence-comparison"></a>
 ## Miy23: Scope Comparison, Not a Proof Dependency

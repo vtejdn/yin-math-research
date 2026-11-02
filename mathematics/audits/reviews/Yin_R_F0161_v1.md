@@ -24,8 +24,8 @@ The new calculations below were reconstructed from the fixed candidate and its f
 ## Current relationship clarification
 
 The arrangement discloses the intended degree-one mechanism and interfaces in the assignment but does not retain the actual mathematical content sufficiently to distinguish fixed proof/scope information from additional author-development explanation.
-The exact initial relationship of the whole C149 finding is therefore unknown; the mechanism label alone does not establish self-review.
-Earlier work on different tests and earlier review of the fixed C145 dependency are not themselves reasons for self-review.
+The exact initial relationship of the whole C_F0153 finding is therefore unknown; the mechanism label alone does not establish self-review.
+Earlier work on different tests and earlier review of the fixed C_F0149 dependency are not themselves reasons for self-review.
 The harmless G5 display repair, mathematical findings, original date and inspection limits remain unchanged.
 
 ## Review relationships
@@ -42,7 +42,7 @@ The harmless G5 display repair, mathematical findings, original date and inspect
 | [Conclusion](#conclusion) | [C_F0153 argument](../../claims/Yin_C_F0153_v1.md#argument) | All three proof sections and equations G1--G11, including the arbitrary-base adaptation, tensor order, actual adjoints, spectral-projection approximation, full target graph restoration and exact energy transformation. |
 | [Conclusion](#conclusion) | [C_F0149 v2 argument](../../claims/Yin_C_F0149_v2.md#argument) | Exact finite positive symmetric Gaussian substitution, represented liberation and its bounded commutator vacuum, relative Wick path normalization and atomic formal vector. Its first-Wick inequality is not assumed to control all degrees. |
 | [Conclusion](#conclusion) | [C_F0145 argument](../../claims/Yin_C_F0145_v1.md#argument) | Sections 2--3 suffix-cut H-to-L1 estimate, componentwise and flip-star distinctions, actual vacuum and adjoint, reverse bound and original weak graph restoration. The two-semicircular reference is replaced only after the candidate proves G1--G2 for its new base. |
-| [Conclusion](#conclusion) | [NS06-U003](../literature/NS06/Yin_U004.md#ns06-u004) | Standard free semicircular mixed pairing formula and its relative Wick consequence. The source's compression theorem is not used to assert freeness from a projection's own algebra. Source proof inspection remains at the unit's stated boundary. |
+| [Conclusion](#conclusion) | [NS06-U004](../literature/NS06/Yin_U004.md#ns06-u004) | Standard free semicircular mixed pairing formula and its relative Wick consequence. The source's compression theorem is not used to assert freeness from a projection's own algebra. Source proof inspection remains at the unit's stated boundary. |
 | [Conclusion](#conclusion) | [C_F0055 statement](../../claims/Yin_C_F0055_v1.md#statement) | Actual scalar vacuum implies the constant 5+2 sqrt(27), its scalar reverse contraction bound, and Section 3 C1 approximation controlling actual scalar derivative graphs for separated spectral projections. |
 | [Conclusion](#conclusion) | [C_F0045 statement](../../claims/Yin_C_F0045_v1.md#statement) | Normalized free lift on the complete original free-product core with squared complex Grothendieck constant 4/pi; actual marginal and global adjoint interfaces. Its freeness hypothesis is verified for the reference Z,S only. |
 | [Conclusion](#conclusion) | [C_F0072 statement](../../claims/Yin_C_F0072_v1.md#statement) | Exact nonreal core-adjoint identity and weakly closed graphs restoring both original domains once the two contraction estimates have been established. No arbitrary extension or closure-of-sum theorem is substituted. |
@@ -108,7 +108,7 @@ Their Hilbert norms add in squares, but their actual reference adjoints both con
 This proves G7 with the product trace measure and no extra mass factor.
 The coefficient sum is (r inverse-r)/(bar z-bar v).
 The commutator [R,T] has the numerator r inverse-r on the same path.
-Since the liberation vacuum in C145 is -i[R,T], its formal vector i zeta/(bar z-bar v) is exactly v_beta.
+Since the liberation vacuum in C_F0149 is -i[R,T], its formal vector i zeta/(bar z-bar v) is exactly v_beta.
 This checks the phase against the fixed input rather than merely matching norms.
 
 For positive r, both real numerators in G6 have the same sign.
@@ -121,7 +121,7 @@ The proof and statement preserve this defect and never call its formal vector an
 
 For diffuse Z, its normal phase has modulus one off the null diagonal.
 Each separated projection is the restriction of a smooth planar function constant near each component.
-C97 Section 3 supplies uniform approximation of the function and its first derivatives by starred polynomials.
+C_F0055 Section 3 supplies uniform approximation of the function and its first derivatives by starred polynomials.
 The real Lipschitz bound controls all divided differences uniformly, so these are approximants in the original scalar derivative graph, not solely in L2.
 On the compact spectrum they also converge in operator norm.
 
@@ -147,7 +147,7 @@ This proves G9 on the actual target domain and identifies the exact vacuum whose
 
 The scalar input has norm at most (5+2 sqrt(27))||xi_N||.
 Its adjoint-reversed contraction has the same bound: on the commutative marginal it is J e J.
-The reference algebras N and W*(S) are free, so C67's normalized free lift gives sqrt(4/pi) times this bound for each of the two contractions.
+The reference algebras N and W*(S) are free, so C_F0045's normalized free lift gives sqrt(4/pi) times this bound for each of the two contractions.
 The enlarged projection-core values are limits of the original reference values with the same bounds.
 This uses freeness only before the Gaussian correction; it does not apply a free lifting theorem directly to the correlated target Z,T.
 
@@ -171,7 +171,7 @@ All claims of A, S and hence F for this pair follow with these exact domains.
 
 ## 5. Exact mixed energy and the full analytic-unitary bound
 
-C137 Section 6 is used before its growth estimates.
+C_F0078 Section 6 is used before its growth estimates.
 Its actual phase approximants and tensor-leg graph argument require the normal represented derivation and actual vacuum just established here, not an upper-growth estimate for the spectral measure.
 Its mixed defects are actual Hilbert-valued outer derivations.
 Their contraction therefore defines the present C_g even when g itself is not a Hilbert tensor.
@@ -198,9 +198,9 @@ This is a lower-form estimate for every stated analytic unitary and does not ass
 
 The seven fixed inputs were read at the exact scopes bound above.
 The NS06 unit's inspected mixed-moment passages, equation (14.5) and its stated surrounding scope, are reused as accepted free probability foundations; its full combinatorial proof and whole book were not newly audited.
-C97's C1 approximation and scalar estimate, C67's accepted complex Grothendieck interface, C120's actual graph theorem, and C137's prior actual phase-domain input retain their recorded external inspection limits.
+C_F0055's C1 approximation and scalar estimate, C_F0045's accepted complex Grothendieck interface, C_F0072's actual graph theorem, and C_F0078's prior actual phase-domain input retain their recorded external inspection limits.
 The new base adaptation and all present applicability steps were checked here.
-C135 is only a comparison and is not a missing premise.
+The comparison called C135 in the original record is not a premise of the reviewed argument.
 No numerical experiment, formalization, uninspected new external theorem or general measurable inverse theorem is used.
 
 The literal text `quad` appears after each fraction in G5 where `\quad` is intended.

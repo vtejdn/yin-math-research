@@ -31,7 +31,7 @@ The [Task contract](../tasks/Yin_T_F0010_v1.md#contract) fixes normalization, sc
 
 ## Fixed analytical results
 
-The fixed results are [C_F0174 scalar capacities](../claims/Yin_C_F0174_v1.md#argument), [C_F0175 coefficient analysis](../claims/Yin_C_F0175_v1.md#argument) and [C_F0176 matrix capacities](../claims/Yin_C_F0176_v1.md#argument), with distinct actual whole mathematical findings in R127/R128.
+The fixed results are [C_F0174 scalar capacities](../claims/Yin_C_F0174_v1.md#argument), [C_F0175 coefficient analysis](../claims/Yin_C_F0175_v1.md#argument) and [C_F0176 matrix capacities](../claims/Yin_C_F0176_v1.md#argument), with distinct actual whole mathematical findings in [R_F0131](../audits/reviews/Yin_R_F0131_v1.md) and [R_F0132](../audits/reviews/Yin_R_F0132_v1.md).
 Their initial context isolation is unestablished, and their current finding relationships are unknown; dated independent self-descriptions remain historical.
 The finite coefficient-Gram maximum and field/convolution representations retain all circle-zero, ordinary-kernel and trace-normalization cases.
 The coefficient synthesis proves global continuity, exact scalar smoothness boundaries, zero-free variations and matrix transfer, with precise optimizer/regularization controls.

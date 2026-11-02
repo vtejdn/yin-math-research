@@ -43,7 +43,7 @@ These two mechanisms suggest testing positivity and stability of the reduced Hes
 
 ## Established Scope, Failure and Successor
 
-[Yin_C_F0125](../claims/Yin_C_F0125_v1.md#yin_c_f0125) passed [independent complete-proof review](../audits/reviews/Yin_R_F0125_v1.md).
+[Yin_C_F0125](../claims/Yin_C_F0125_v1.md#yin_c_f0125) has a [complete self-reviewed finding](../audits/reviews/Yin_R_F0125_v1.md#positive-covariance-minimax-finding) for its continuation, with the preceding diagonal draft excluded.
 For selfadjoint coefficients, including an arbitrary selfadjoint mean, and a completely positive covariance that is strictly positive as a Hilbert--Schmidt operator, it gives an attained minimum over a Hermitian variable after a maximum over a positive semidefinite variable.
 The proof permits noncommuting drift and noise coefficients.
 This completes the restricted matrix minimum-maximum subproblem; it does not cover arbitrary covariance or every zero-capacity case of MS24.
@@ -54,7 +54,8 @@ The [negative-direction continuation](../ledger/Yin_L_F0030_v1.md) also records 
 That local failure does not by itself refute every reordered signed value formula; the proposed balanced-signature continuation has no general proof.
 
 The general-formula allocation is superseded by [Yin_S_F0022](Yin_S_F0022.md#s_f0022).
-Its independently reviewed [Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126) uses different Schur variables and a positive Stein equation to obtain the full complex coefficient formula and the full MS24 specialization.
+Its [Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126) uses different Schur variables and a positive Stein equation to obtain the full complex coefficient formula and the full MS24 specialization.
+The C_F0126 whole signed-Schur and determinant-presentation findings are self-reviewed at their distinct scopes.
 It does not prove the failed U/V extension or the unproved balanced-signature candidate.
 The latter remains a recorded optional alternative, with global extremum ordering and degenerate-covariance cases unresolved, and is not selected for further work in this route.
 Yin_C_F0125 remains a useful independent restricted formula.

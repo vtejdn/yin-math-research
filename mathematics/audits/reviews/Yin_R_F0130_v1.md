@@ -14,7 +14,9 @@ The recorded authorship, checking relationship, inputs, verdicts and limitations
 Reviewed: 2026-10-10T05:20.
 Human record author: Yin.
 Method: a separately assigned noncontributor agent independently reconstructed the local calculation and checked the cited source interfaces.
-The inspected candidate was `mathematics/drafts/Yin_D_F0004.md`, prepared at 2026-10-10T05:17, before this finding was appended.
+The inspected candidate was the historical circular-example draft prepared at 2026-10-10T05:17, before this finding was appended.
+Its original draft bytes and exact former address are not established by the currently reused D_F0004 address.
+The unchanged fixed statement, proof and application boundary are retained in [C_F0173](../../claims/Yin_C_F0173_v1.md#argument), as specified by the review bindings below.
 This finding covers all of the statement, proof and application-boundary sections above; their mathematical content was not edited during review.
 
 Arrangement and inputs: the reviewer first inspected the circular example and standing definitions, reconstructed the cumulants and directly read DG24 before giving preliminary findings.

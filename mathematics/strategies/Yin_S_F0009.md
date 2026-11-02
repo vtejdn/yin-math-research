@@ -50,7 +50,7 @@ The [research evidence](../ledger/Yin_L_F0008_v1.md#holomorphic-r-diagonal-bound
   KS07 gives the strong Haagerup estimate; Yin_C_F0015 gives sequence-energy decay; minimality and small-power scalar elimination complete reconstruction.
 - [Yin_C_F0019](../claims/Yin_C_F0019_v1.md#yin_c_f0019) provides, at its current material decision, a bounded R-diagonal $a$ whose affiliated inverse is square integrable and unbounded, inside an explicitly verified normal bounded-dual generating model.
 - [Yin_C_F0021](../claims/Yin_C_F0021_v1.md#yin_c_f0021) removes the separate residual hypothesis for one variable under the intrinsic positive-power subspace condition: a regular scalar denominator yields a constant coefficient recurrence.
-  At the initial 2026-09-09 checkpoint its complete draft awaited independent review; consult the [canonical record](../claims/Yin_C_F0021_v1.md#decision-candidate-0002) for its present assessment.
+  At the initial 2026-09-09 checkpoint its complete draft awaited independent review; consult the [canonical record](../claims/Yin_C_F0021_v1.md#decision-isolated-whole-review-2026-10-22) for its present assessment.
 - Regularity at zero of a formal rational expression alone does not identify its operator evaluation with the Taylor expansion, even for a Haar unitary and an already bounded resolvent.
 
 The first analytic coefficient target and the unrestricted affiliated-L2 counterexample passed independent internal review.

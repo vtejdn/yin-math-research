@@ -47,6 +47,7 @@ Recorded consumer navigation: Statement/proof uses: [Yin_C_F0007](../ledger/Yin_
 ### Operator rank, matrix ranks and Delta
 
 Exact definition homes and conventions: [Ordinary operator-rank convention](../ledger/Yin_L_F0004_v1.md#claim-definition-uses), [inner rank and fullness](../audits/literature/MSY23/Yin_U001.md#definitions-and-elementary-matrix-arguments), [analytic-rank normalization](../audits/literature/MSY23/Yin_U002.md#analytic-rank-normalization), and [the finite-rank-cycle invariant Delta](../audits/literature/MSY23/Yin_U002.md#delta-finite-rank-cycles).
+The [central-eigenvalue definition](../audits/literature/MSY23/Yin_U001.md#definitions-and-elementary-matrix-arguments), [affiliated point spectrum](../audits/literature/MSY23/Yin_U006.md#affiliated-point-spectrum) and [strong Atiyah property](../audits/literature/MSY23/Yin_U005.md#setting-and-closure-conventions) keep their distinct algebraic, affiliated and integer-rank meanings.
 Algebraic Hankel rank has its own entry below.
 
 Recorded consumer navigation: Statement/proof uses: [Yin_C_F0007](../ledger/Yin_L_F0004_v1.md#yin_c_f0007-definitions); specified P2 use: [Yin_C_F0029-P2](../ledger/Yin_L_F0004_v1.md#yin_c_f0029-definitions).
@@ -101,9 +102,19 @@ Recorded consumer navigation: Information and gradient hypotheses in [Yin_C_F008
 <a id="fock-and-wick-models"></a>
 ### Fock, Wick and deletion conventions
 
+The [Mai15 Wigner model](../audits/literature/Mai15/Yin_U003.md#wigner-integrals) and [Wick, algebraic-core and finite-chaos conventions](../audits/literature/Mai15/Yin_U003.md#fock-wick-identifications) retain the real Hilbert space, complex kernels and their distinct completion scopes.
+
 Exact definition homes and conventions: [Full Fock space and word basis](../audits/literature/Miy22/Yin_U001.md#mathematical-setting), [q-Fock space and Wick evaluation](../audits/literature/MS23/Yin_U001.md#q-fock-and-wick-model), [free right deletion](../audits/literature/MS23/Yin_U001.md#free-right-deletion), and the distinct [right q-annihilation and defect kernel](../audits/literature/Dab14/Yin_U002.md#q-model-and-defect-kernel).
 
 Recorded consumer navigation: Statement/proof uses: [Yin_C_F0015](../ledger/Yin_L_F0004_v1.md#yin_c_f0015-definitions), [Yin_C_F0020](../ledger/Yin_L_F0004_v1.md#yin_c_f0020-definitions).
+
+<a id="wigner-directional-gradients"></a>
+### Wigner directional gradients and degree contractions
+
+Exact definition homes and conventions: [biprocess time contraction](../audits/literature/Mai15/Yin_U003.md#biprocess-time-contraction), [directional gradient and actual adjoint](../audits/literature/Mai15/Yin_U003.md#directional-gradients), and [projection-direction contraction](../audits/literature/Mai15/Yin_U003.md#degree-reduction).
+The source record distinguishes conjugate-linearity in the direction, real-direction reality, algebraic cores and closed Hilbert space domains.
+
+Recorded comparison consumers: [Yin_L_F0053 v1](../ledger/Yin_L_F0053_v1.md#which-selfadjointness-assumptions-do-actual-work) and [v2](../ledger/Yin_L_F0053_v2.md#which-selfadjointness-assumptions-do-actual-work) use these mechanisms to delimit the general normal-tuple application.
 
 <a id="series-residuals-and-hankel-conventions"></a>
 ### Formal series, residuals and Hankel conventions
@@ -245,3 +256,34 @@ The definition keeps arbitrary inserted base matrices and the two mixed second c
 
 Recorded statement/proof consumer: [the complete matrix-coefficient and amplified-cumulant construction](../claims/Yin_C_F0173_v1.md#circular-example-statement).
 Its [radial-potential consumer](../claims/Yin_C_F0170_v1.md#argument) uses the vanishing pseudo-covariance interface; scalar R-diagonality is a different condition.
+
+### Mahler measure and logarithmic Mahler measure
+
+Exact source home and conventions: [Den09's logarithmic and exponentiated measures](../audits/literature/Den09/Yin_U001.md#mahler-measure), with normalized Haar probability, natural logarithms and the stated zero and integrability cases.
+
+Recorded consumer navigation: [C_G0002's single-Haar formulation](../claims/Yin_C_G0002_v1.md#single-haar-formulation) uses the Den09 Fourier/Jensen interface at its recorded scope.
+
+### Finite trajectories and algebraic entropy
+
+Exact source home and conventions: [DGB16's finite trajectories, local entropy and supremum algebraic entropy](../audits/literature/DGB16/Yin_U001.md#entropy-trajectory) for discrete abelian groups and nonempty finite subsets, including the distinction from the finite-subgroup convention.
+
+Recorded consumer navigation: [C_G0001](../claims/Yin_C_G0001_v1.md#statement) uses the recorded lattice-entropy interface for interpretation; its finite Mahler inequality is proved locally.
+The [retained orbit-flow discussion](../ledger/Yin_L_G0001_v1.md) uses the DGB16 rationalization interface at its stated scope.
+
+### Four group Lehmer constants
+
+Exact source home and conventions: [Luc22's four distinct infima](../audits/literature/Luc22/Yin_U001.md#luc22-four-lehmer-constants), retaining the matrix/scalar and weak-isomorphism restrictions and the strict determinant-greater-than-one condition.
+
+Recorded consumer navigation: [Luc22-U002's abelian comparison](../audits/literature/Luc22/Yin_U002.md#what-theorem-101-proves) uses the four constants at its stated source and comparison scope.
+
+### Matrix geometric mean
+
+Exact adopted home: [positive matrix geometric mean and Riccati characterization](../ledger/Yin_L_F0054_v1.md#matrix-geometric-mean), for strictly positive Hermitian matrices and positive square roots.
+Source scope: [BJL19 Section 2](../audits/literature/BJL19/readme.md), the recorded arXiv v1 definition and selected proof inspection.
+Consumer navigation: the [F0008 imaginary-Hilbert--Schmidt comparison](../manuscripts/Yin_T_F0008/paper/sections/imaginary-hs.tex) identifies its positive-coordinate formula using this mean; the source identity does not replace [C_F0164's strict-domain proof](../claims/Yin_C_F0164_v1.md#argument).
+
+### Wigner-Yanase skew information
+
+Exact adopted home: [density-matrix definition and covariance-zero trace identity](../ledger/Yin_L_F0054_v1.md#wigner-yanase-skew-information), with unnormalized Tr and the separate 1/(2m) objective factor.
+Source scope: [Han08's inspected arXiv v6 definition](../audits/literature/Han08/readme.md); the original Wigner--Yanase proofs were not inspected.
+Consumer navigation: the [F0008 covariance-zero correction comparison](../manuscripts/Yin_T_F0008/paper/sections/imaginary-hs.tex); this does not identify the general nonzero-covariance correction with skew information.

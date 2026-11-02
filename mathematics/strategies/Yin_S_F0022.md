@@ -42,7 +42,7 @@ Keep the domains, inertia or positivity constraints, and physical-branch selecti
 
 ## Achieved Result and Route Lineage
 
-[Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126), which passed independent complete-proof review (original material now separated into [Yin_R_F0128_v1](../audits/reviews/Yin_R_F0128_v1.md), [R_F0174 determinant-presentation finding](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding)), achieves this target for arbitrary complex affine semicircular coefficients.
+[Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126), which has a [complete signed-Schur self-review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) and a separately scoped [determinant-presentation self-review](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding), achieves this target for arbitrary complex affine semicircular coefficients.
 At positive regularization it gives an ordered minimum over two positive Schur variables after a maximum over a free complex off-diagonal variable.
 A positive Stein equation proves that every critical point has the required signs and hence is the physical Dyson solution.
 Rescaling the positive variable removes the regularization parameter and gives a direct infimum over all positive definite matrices.

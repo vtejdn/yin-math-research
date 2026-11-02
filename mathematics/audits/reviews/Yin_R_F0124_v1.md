@@ -156,7 +156,10 @@ Goal completion and theorem designation require separate contract and authorizat
 
 ## Relationship arrangement
 
-The original reviewer supplied the necessary clarification preceding companion equation (9): the commutator terms must first be separated before the inverse products are split. The inspected corrected complete argument includes that mathematical repair and the disclosed covariance-interface discussion with its authors. Its combined finding is self-reviewed, despite the separate reviewer identity and independent reconstruction of other steps. The full original 2026-09-13 reasoning, accepted dependencies and bounds remain unchanged; fresh isolated coverage is still needed for an independent finding on this corrected complete proof.
+The original reviewer supplied the necessary clarification preceding companion equation (9): the commutator terms must first be separated before the inverse products are split.
+The inspected corrected complete argument includes that mathematical repair and the disclosed covariance-interface discussion with its authors.
+Its combined finding is self-reviewed, despite the separate reviewer identity and independent reconstruction of other steps.
+The full original 2026-09-13 reasoning, accepted dependencies and bounds remain unchanged; fresh isolated coverage is still needed for an independent finding on this corrected complete proof.
 
 ## Review relationships
 

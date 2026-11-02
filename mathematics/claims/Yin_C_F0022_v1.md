@@ -405,7 +405,7 @@ No claim about Div_M C<X>, rational L2 boundedness, or a literal all-H commutato
 Original Yin_C_F0013 remains valid and unchanged.
 The separate [Yin_C_F0023](Yin_C_F0023_v1.md#yin_c_f0023) provides a stronger bounded-dual conclusion for the q-Gaussian model by its additional summable conjugate expansion.
 
-The independent artifact review and its actual inspection scope are recorded in the [Yin_C_F0022 proof audit](../audits/reviews/Yin_R_F0010_v1.md).
+The self-reviewed complete finding and its actual inspection scope are recorded in the [Yin_C_F0022 proof audit](../audits/reviews/Yin_R_F0010_v1.md#conjugate-variable-extension-finding).
 Exact source reading belongs to Dab10-U002 and the existing MSY23/MS23 units; no formal proof assistant, numerical test, external human review or novelty claim is asserted.
 
 

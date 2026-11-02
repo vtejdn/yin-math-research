@@ -108,7 +108,7 @@ Its relative S-degree spaces satisfy
  \tag{G1}
 \]
 The map sends a_0 tensor ... tensor a_n to the relative Wick polynomial W(a_0,...,a_n), with highest term a_0 S a_1 ... S a_n.
-The free semicircular pairing formula in [NS06-U003](../audits/literature/NS06/Yin_U004.md#ns06-u004) proves the inner product as the product of the n+1 marginal inner products, after subtracting all internal contractions; distinct degrees are orthogonal.
+The free semicircular pairing formula in [NS06-U004](../audits/literature/NS06/Yin_U004.md#ns06-u004) proves the inner product as the product of the n+1 marginal inner products, after subtracting all internal contractions; distinct degrees are orthogonal.
 Equivalently the recurrence is given by left multiplication in N at a_0, left S creation W(1,a_0,...,a_n), and annihilation tau(a_0)W(a_1,...,a_n) for n>=1.
 At n=0 only creation occurs.
 This gives the same complete relative Wick construction used for projection paths in C_F0149.

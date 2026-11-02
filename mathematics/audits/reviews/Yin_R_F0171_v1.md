@@ -16,7 +16,7 @@ No exploratory draft, finite-point diagnostic, author-development dialogue, info
 The provenance inside the fixed Claim was read as part of that artifact and supplies no correctness evidence.
 
 The reviewer read the complete statement and all six argument sections, independently checked their calculations and domains, and inspected the actual direct-input interfaces before forming this conclusion.
-C_F0076 Part 1 and Mai15-U003 had already been read for a separate review in this session; their applicable text was retained at exactly that scope.
+C_F0076 Part 1 and Mai15-U002 had already been read for a separate review in this session; their applicable text was retained at exactly that scope.
 C_F0055, C_F0160 and C_F0072 were read for the present review.
 C_F0045 Sections 3-5 were additionally inspected to check the free-product dependency boundary and absence of a circular marginal-estimate premise.
 The present review does not rely on the earlier review of C_F0158.
@@ -46,7 +46,7 @@ This finding covers the whole mathematical statement and complete argument, incl
 | [Conclusion](#conclusion) | [C_F0160 Part A](../../claims/Yin_C_F0160_v1.md#statement) | Exact fixed-vector lifting, actual global vacuum lying in the marginal Hilbert space, full-core actual adjoints, and both square orders, with both fixed vectors equal to twice that vacuum. Radial Part B is unused. |
 | [Conclusion](#conclusion) | [C_F0160 argument](../../claims/Yin_C_F0160_v1.md#argument) | Sections 1-4: finite orthogonal module decompositions, completed-tensor cut cancellation, exact direct-sum adjoints and conditional-expectation pairing. |
 | [Conclusion](#conclusion) | [C_F0045 Sections 3-5](../../claims/Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Underlying finite core-module and actual-adjoint mechanism, checked to occur before and independently of the later marginal-bound and little-Grothendieck step. |
-| [Conclusion](#conclusion) | [Mai15-U003](../literature/Mai15/Yin_U002.md#mai15-u002) | Hilbert-valued power iteration of Lemma 4.11 after a proved quadratic inequality and direct power-growth bound; no real coassociative energy identity is imported. |
+| [Conclusion](#conclusion) | [Mai15-U002](../literature/Mai15/Yin_U002.md#mai15-u002) | Hilbert-valued power iteration of Lemma 4.11 after a proved quadratic inequality and direct power-growth bound; no real coassociative energy identity is imported. |
 | [Conclusion](#conclusion) | [C_F0072 Part B](../../claims/Yin_C_F0072_v1.md#statement) | Both original canonical domains from the two operator-norm-to-L2 slice estimates, with the actual core adjoint and weakly closed original graphs. |
 
 ## Scalar hypotheses and actual adjoints
@@ -208,7 +208,7 @@ The complete direct-input interfaces were checked at the scopes in the bindings.
 C_F0055, C_F0076, C_F0160 and C_F0072 are existing accepted inputs at their selected decisions; the project calculations used above were also inspected directly.
 No earlier conclusion of these Claims is used to infer the new quadratic estimate without the present proof.
 
-Mai15-U003 supplies the inspected Hilbert-valued iteration mechanism with its corrected codomain.
+Mai15-U002 supplies the inspected Hilbert-valued iteration mechanism with its corrected codomain.
 Its real coassociative energy identity and stronger vacuum regularity assumptions are unused.
 No primary-source PDF was reopened in this review; the retained source inspections and standard Hilbert-space, trace, conditional-expectation and free-product foundations remain accepted inputs at their recorded scope.
 No missing source-applicability requirement or unresolved mathematical dependency was found.

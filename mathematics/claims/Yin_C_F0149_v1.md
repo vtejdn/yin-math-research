@@ -60,8 +60,8 @@ Thus this result is a finite-model diagnostic and reusable algebraic estimate, n
 ## Reuse and source scope
 
 The finite substitution and actual-vacuum mechanism extend the realized model of C_F0146, with the full formulas for arbitrary n written below.
-The general semicircular mixed-moment input is [NS06-U003](../audits/literature/NS06/Yin_U004.md#ns06-u004); its exact retained source is used only for the free Wick and conditional moment formulas, not a new theorem about liberation.
-The actual tensor-adjoint interface is [ACSY24-U004](../audits/literature/ACSY24/Yin_U003.md#acsy24-u003).
+The general semicircular mixed-moment input is [NS06-U004](../audits/literature/NS06/Yin_U004.md#ns06-u004); its exact retained source is used only for the free Wick and conditional moment formulas, not a new theorem about liberation.
+The actual tensor-adjoint interface is [ACSY24-U003](../audits/literature/ACSY24/Yin_U003.md#acsy24-u003).
 No numerical scan, uninspected stochastic estimate, new source acquisition or novelty claim is used.
 The three-variable matrix inequality is proved directly.
 
@@ -86,7 +86,7 @@ More explicitly, with gamma_0 the free-reference liberation of N against S and p
 \]
 The reference actual vacua gamma_0*1=0 and partial_S*1=S follow by testing reduced centered free words, with the scalar semicircular word-cut formula on the single-factor words.
 All coefficients of Q are bounded reference-core elements.
-The actual algebraic-tensor adjoint formula in [ACSY24-U004, equation (1)](../audits/literature/ACSY24/Yin_U003.md#acsy24-u003) then gives gamma*1=[R,T], hence zeta=-i[R,T].
+The actual algebraic-tensor adjoint formula in [ACSY24-U003, equation (1)](../audits/literature/ACSY24/Yin_U003.md#acsy24-u003) then gives gamma*1=[R,T], hence zeta=-i[R,T].
 This proves an actual vacuum on the entire represented core, not only formal moment equations.
 The symmetric finite marginal adjoint formula also puts every finite marginal tensor used here in the actual beta* domain, where beta=i gamma.
 
@@ -215,7 +215,7 @@ A general proof would need an analogue of the opposite-edge triangle inequality 
 
 The same finite Gaussian model admits an explicit operator calculation beyond its first degree.
 Let W^S_(i0,...,in) be its relative S-Wick path, with leading term p_i0 S p_i1 ... S p_in and all noncrossing contractions subtracted, and let W^S_(i)=p_i.
-The inspected [NS06-U003 mixed-moment formula](../audits/literature/NS06/Yin_U004.md#ns06-u004), equation (14.5), shows that different paths of positive degree n are orthogonal, with squared norm product_(r=0)^n m_ir, and different degrees are orthogonal.
+The inspected [NS06-U004 mixed-moment formula](../audits/literature/NS06/Yin_U004.md#ns06-u004), equation (14.5), shows that different paths of positive degree n are orthogonal, with squared norm product_(r=0)^n m_ir, and different degrees are orthogonal.
 These paths span the algebraic core.
 This also follows inductively from the recurrence
 \[

@@ -36,7 +36,7 @@ It gives a related logarithmic determinant expression evaluated at deterministic
 This is a useful related mechanism, not a cited global minimum theorem for the [matrix formula](../claims/Yin_C_F0167_v1.md#statement).
 No novelty claim is made.
 
-## Remaining general extension and numerical exploration
+## Remaining general extension and review boundary
 
 For an arbitrary complex semicircular pencil, the additional map \(\rho(X)=\sum_ja_jXa_j\) need not vanish.
 Its covariance contributes an additional term in the off-diagonal Schur variable.
@@ -44,9 +44,6 @@ The present proof does not discard that term or identify the resulting law with 
 Extending the Jensen and positive left-right comparison to that coupled quadratic form is a concrete continuation of Yin_S_F0022.
 General indefinite selfadjoint pencils likewise remain outside the independent formula proved here.
 
-Before the comparison proof was found, a floating-point search used NumPy seed 84903, 36 size-two circular coefficient families, one to three Kraus matrices, regularizations in \(\{0.1,0.3,1\}\), and six positive-matrix gradient starts per family.
-No objective value below the physical value was found; the largest downward discrepancy was about \(1.8\times10^{-15}\).
-The search is motivation only.
 The proof rests on the [physical identities and global comparison](../claims/Yin_C_F0167_v1.md#argument), not on numerical minimization or Yin_C_F0124 benchmark values.
 
 An independent agent checked the algebra in the exact [difference and global comparison](../claims/Yin_C_F0167_v1.md#global-comparison-by-operator-jensen-and-a-positive-left-right-operator), including the weighted Jensen step and the commuting positive left/right multiplication operators.

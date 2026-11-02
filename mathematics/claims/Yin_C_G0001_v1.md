@@ -5,7 +5,8 @@ author: Yin
 # Finite orbit Gram certificates, determinant ratios and their exact boundary costs
 
 The complete original local arguments and finite failure boundaries are retained from [L_G0001](../ledger/Yin_L_G0001_v1.md), dated 2026-10-06.
-The original programs and exact outputs have their native home in [J_G0001](../computations/programs/Yin_J_G0001/readme.md).
+The native programs are retained in [J_G0001](../computations/programs/Yin_J_G0001/readme.md); the original exact output bodies remain in the [L_G0001 evidence blocks](../ledger/Yin_L_G0001_v1.md).
+The source-only JSON output addresses do not assert receiving-local result files.
 This is material organization; it supplies no new research run or uniform Mahler-gap conclusion.
 
 ## Statement
@@ -284,7 +285,8 @@ This is an elementary finite-field input, not an empirical irreducibility heuris
 
 ### Named exact evidence and coefficient-domain boundary
 
-The complete three native programs and their original exact outputs are retained in J_G0001.
+The complete three native programs are retained in J_G0001, and the original exact output bodies are retained in L_G0001.
+No receiving-local JSON generation or output transfer is asserted.
 The first output supplies the stated Lehmer discriminant and both Gram values; its integer comparisons distinguish positivity from the stronger fixed threshold.
 The third output supplies the actual trace-polynomial certificate with coefficients [3,4,-5,-5,1,1], its finite-field prime 2 and the exact real bracket [-2,-7/4].
 The preceding trace argument certifies irreducibility, while p(1)=-1 and a positive root above 1 exclude cyclotomy; no numerical root approximation is required.

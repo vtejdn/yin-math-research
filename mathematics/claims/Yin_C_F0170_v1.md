@@ -15,8 +15,8 @@ For centered finite complex semicircular pencils with pseudo-covariance identica
 Positive covariance capacity additionally removes the possible origin atom and gives planar absolute continuity.
 No irreducibility or flatness is assumed.
 No equality of Brown support with the full spectral disk or uniform convergence rate is asserted.
-The complete fixed argument below is retained from [Yin_C_F0170_v1](Yin_C_F0170_v1.md#argument) at 2026-10-21T02:21.
-Its original mathematical development, attribution, review dates and historical status statements remain in that fixed L.
+The complete fixed argument and original mathematical development are [retained below](#argument), including the historical author checks and status statements.
+The complete formal self-review, its actual date and checking limits are retained in [R_F0177](../audits/reviews/Yin_R_F0177_v1.md#radial-mass-finding).
 This placement preserves existing mathematics; it selects no Task, objective change, new theorem role, novelty or publication claim.
 
 Dated candidate, “draft,” author-check and unadopted-status sentences within the retained text describe the original development.

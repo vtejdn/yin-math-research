@@ -17,7 +17,7 @@ author: Yin
 Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001), especially the scalar-elimination interface in [Yin_S_F0002](../strategies/Yin_S_F0002.md#s_f0002) and [Yin_S_F0005](../strategies/Yin_S_F0005.md#s_f0005).
 Date: 2026-09-09.
 Provenance: project deduction by direct positive-pivot elimination; no novelty claim.
-Assessment: [selected assessment](#decision-isolated-review-20261022); the [independent proof audit](../audits/reviews/Yin_R_F0062_v1.md#positive-pivot-finding) records the completed review and its scope.
+Assessment: [selected assessment](#decision-isolated-review-20261022); the [independent proof audit](../audits/reviews/Yin_R_F0062_v1.md#positive-pivots) records the completed review and its scope.
 
 ## Statement and Scope
 
@@ -255,7 +255,8 @@ The conventional rational-closure identification in (11) is the already audited 
 Local source comparison also inspected the [DR97 small-power scalar-elimination proof](../audits/literature/DR97/Yin_U004.md), which supplies a different sufficient condition without the adjoint hypothesis.
 No new public search or source acquisition was needed for this direct positive-pivot proof, and no claim about its historical priority is made.
 
-Prepared by another AI agent and independently reviewed by the coordinating agent in the linked audit.
+The original coordinating audit retains its unknown initial-context relationship.
+The selected decision adopts the later [isolated positive-pivot finding](../audits/reviews/Yin_R_F0062_v1.md#positive-pivots) at its complete declared scope.
 Numerical computation, proof-assistant verification, external human review, and full new source auditing were not performed.
 No goal-completion conclusion follows from this restricted result alone.
 

@@ -12,10 +12,11 @@ author: Yin
 <a id="statement"></a>
 
 <a id="yin_c_f0124"></a>
-Record kind: authoritative statement and proof of [Yin_C_F0124](#decision-candidate-0004), and source-proposal repair for [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#continuation-2026-09-12-yin_c_f0121).
+Record kind: authoritative statement and proof of [Yin_C_F0124](#statement), and source-proposal repair for [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#continuation-2026-09-12-yin_c_f0121).
 Date: 2026-09-13.
 Author: root, with the universal comparison proved in the [companion module](#affine-hs-variation-tests).
-Current mathematical and review assessments are recorded in the [selected assessment](#decision-candidate-0004); the [complete proof review](../audits/reviews/Yin_R_F0124_v1.md) owns verification evidence.
+The [selected assessment](#decision-isolated-whole-review-adoption) owns the current mathematical decision; the [complete isolated finding](../audits/reviews/Yin_R_F0178_v1.md#affine-infimum-whole-proof) supplies its independent proof evidence.
+The original R_F0124 finding retains its self-reviewed relationship and original scope.
 No mathematical Role is assigned.
 
 The displayed candidate was found in Roland Speicher's [2026-09-09 blog post](https://rolandspeicher.com/2026/09/09/a-story-of-the-determinant-of-operator-valued-semicircular-elements/), registered as [Spe26](../audits/literature/Spe26/Yin_U001.md), which attributes it to ChatGPT and supplies no inspectable proof.
@@ -319,7 +320,7 @@ The proof uses the already reviewed finite Dyson primitive Yin_C_F0119, the fini
 It does not use the source proposal as a theorem.
 The capacity reduction above uses finite matrix identities rather than assuming MS24's determinant conclusion.
 Nonattainment is retained in (2), (10) and (16).
-The linked independent review checks this entire chain; the goal record separately owns contract completion.
+The selected [isolated finding](../audits/reviews/Yin_R_F0178_v1.md#affine-infimum-whole-proof) checks this entire chain; the goal record separately owns contract completion.
 
 ## 7. Exact Normalization and Degeneracy Checks
 
@@ -661,11 +662,7 @@ Consequently (2) supplies the required upper bound at every strictly feasible tr
 The reverse inequality, approximation by physical resolvents, full complex-coefficient reduction, and MS24 comparison are separate obligations owned by the coordinating agent's main module.
 They are not inferred solely from this bound.
 
-## Exploratory checks and retained boundary
-
-A preliminary numerical search used NumPy's random generator with seed 12345, 160 size-two Hermitian coefficient families with one to four Kraus matrices, covariance spectral radius scaled into \((0.05,0.999)\), and Hermitian means with varied scale.
-Damped physical Dyson iteration at decreasing positive regularization, ending at \(10^{-4}\), produced no violations of the limiting upper-bound expression; the smallest observed difference between that expression and the regularized determinant was about 0.0290.
-These floating-point checks are motivation only and are not premises of the proof above.
+## Retained strict-domain boundary
 
 The nonstrict candidate from the source has a genuine definition issue when it uses an ordinary inverse: for \(\eta(X)=\sigma_zX\sigma_z\) and \(b=I_2\), \(I-\eta\ge0\) as a Hilbert-Schmidt operator, but \(I+\eta\) annihilates the off-diagonal matrices.
 The strict domain used here avoids that issue.

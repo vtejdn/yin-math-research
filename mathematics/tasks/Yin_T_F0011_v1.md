@@ -105,7 +105,7 @@ A positive special class or an obstruction to an auxiliary method is not a class
 
 ### Scope and established boundary
 
-The [circular example C_F0074](../claims/Yin_C_F0074_v1.md#statement), independently checked in [R_F0047](../audits/reviews/Yin_R_F0047_v1.md#conclusion), satisfies \(\mathsf S\), \(\mathsf F\), and \(\mathsf A\), and has \(\Delta(c)=1\).
+The [circular example C_F0074](../claims/Yin_C_F0074_v1.md#statement), checked in the unknown-relationship [R_F0047 finding](../audits/reviews/Yin_R_F0047_v1.md#conclusion), satisfies \(\mathsf S\), \(\mathsf F\), and \(\mathsf A\), and has \(\Delta(c)=1\).
 Nevertheless \(c^*\) is nonrational in \(c\) while every specified canonical fraction commutator vanishes.
 It therefore rules out the unrestricted nonnormal extension of that fraction-commutator rationality criterion; it does not separate the three hypotheses and is not a counterexample to maximal Delta.
 

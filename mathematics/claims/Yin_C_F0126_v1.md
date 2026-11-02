@@ -12,11 +12,11 @@ author: Yin
 <a id="statement"></a>
 
 <a id="yin_c_f0126"></a>
-Record kind: authoritative statement and complete proof of [Yin_C_F0126](#decision-candidate-0004).
+Record kind: authoritative statement and complete proof of [Yin_C_F0126](#statement).
 Date: 2026-09-13.
 Author: yin_t_f0008-contract agent, in collaboration with root.
 Goal: [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#yin_t_f0008).
-The [selected assessment](#decision-candidate-0004) records the mathematical and review assessments, and the [independent audit](../audits/reviews/Yin_R_F0128_v1.md) records verification.
+The [selected assessment](#decision-finding-owned-review) records the mathematical decision and adopts the [complete signed-Schur self-review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) and the separate [determinant-presentation self-review](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding) at their actual scopes.
 No mathematical Role is assigned.
 
 This is an independent continuation of the signed Schur route.
@@ -462,17 +462,12 @@ and the direct one-variable objective is
 \]
 This recovers the circular case after the same rescaling, with no remaining regularization parameter.
 
-## Scope, historical tests, and review boundary
+## Scope and review boundary
 
 This module supplies a direct infimum over all positive definite matrices for every affine complex-coefficient semicircular pencil, including zero determinant, and a unique minimum for every positive regularization.
 The direct zero-mean simplification is (C)/(25), and bounded invertibility gives the stated unregularized attainment result.
 It does not assert general unregularized attainment or uniqueness, a Brown-support/spectrum equality, or a particular regularization convergence rate.
 Those are separate questions if selected by the goal contract.
-
-Before the positive Stein argument was found, a numerical search used NumPy seed 913006, 60 random size-two full complex coefficient families with one to four coefficients, regularizations in \(\{0.07,0.2,0.7,1.5\}\), and six positive-matrix optimization starts per family.
-Each inner maximizer was computed by an eight-dimensional real-linear solve.
-The candidate value at the physical point matched the Yin_C_F0119 primitive within \(10^{-6}\), and no lower trial value was found; the smallest discrepancy was approximately \(-6.22\times10^{-15}\).
-These calculations are historical motivation and are not used as proof evidence.
 
 The previous circular module retains its Jensen comparison as an independent proof for that restricted case.
 The general proof here instead uses existence of a minimum and the positive Stein equation to identify every critical point.

@@ -114,7 +114,7 @@ No correlated-coordinate lifting is asserted.
 | [C_F0055, Sections 6-7](Yin_C_F0055_v1.md#6-positive-weights-give-the-scalar-core-bound) | Its original polynomial soft difference quotients converge strongly to the actual contraction, and its actual adjoint formula identifies both scalar one-sided adjoints. The strong convergence is also proved directly below. |
 | [C_F0076, Part 1](Yin_C_F0076_v1.md#statement), [selected proof](Yin_C_F0076_v1.md#decision-reviewed) | Actual normal A implies diffuse marginals and the unique phase derivative; this identifies the scope with every scalar normal actual-A law. No iterated-derivative result is used. |
 | [C_F0160, Part A](Yin_C_F0160_v1.md#statement), [selected proof](Yin_C_F0160_v1.md#decision-reviewed-quadratic) | Its fixed-vector free-product lifting with \(g_\ell=g_r=2\xi_j\) gives (S4), including the actual marginal vacuum identification and both square orders. Its radial Part B is not needed. |
-| [Mai15-U003](../audits/literature/Mai15/Yin_U002.md#mai15-u002) | The inspected Hilbert-valued power-iteration mechanism of Lemma 4.11, after the quadratic bound is proved; its real coassociative energy identity is not imported. |
+| [Mai15-U002](../audits/literature/Mai15/Yin_U002.md#mai15-u002) | The inspected Hilbert-valued power-iteration mechanism of Lemma 4.11, after the quadratic bound is proved; its real coassociative energy identity is not imported. |
 | [C_F0072, Part B](Yin_C_F0072_v1.md#statement), [selected proof](Yin_C_F0072_v1.md#decision-reviewed) | Both original canonical domains follow from the two bounded core contractions. |
 
 C_F0160 owns its own exact assessment and review selection; this material does not change them.
@@ -368,7 +368,7 @@ For either one-sided map T, the actual-adjoint formula and Leibniz rule give, fo
 \]
 Hence \(\limsup_m\|T(a^m)\|_2^{1/m}\le\|a\|\).
 With \(C=2\|\xi_j\|_2\), iterate the corresponding inequality (S4) on \(b,b^2,b^4,\ldots\), where \(b=a^*a\) for the left map and \(b=aa^*\) for the right map.
-The Hilbert-valued power iteration in Mai15-U003 yields
+The Hilbert-valued power iteration in Mai15-U002 yields
 \[
  \|T_{j,\ell}(a)\|_2,\ \|T_{j,r}(a)\|_2
  \le2\|\xi_j\|_2\|a\|.

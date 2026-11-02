@@ -42,7 +42,8 @@ Complete positivity of a covariance map must not be mistaken for positivity of i
 [Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126) gives a direct infimum over every positive matrix of the original coefficient size, with a unique inner complex quadratic maximum.
 Its proof retains the full covariance, identifies every regularized critical point as physical, and removes regularization by a positive-cone rescaling.
 At zero mean the inner solution vanishes, and a scalar scaling yields the full MS24 equality, including singular outputs and zero capacity.
-The complete independent review (original material now separated into [Yin_R_F0128_v1](../audits/reviews/Yin_R_F0128_v1.md), [R_F0174 determinant-presentation finding](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding)) checks these obligations.
+The [complete signed-Schur self-review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) checks these obligations.
+The separate [R_F0174 self-review](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding) covers only the determinant-first presentation and zero-determinant equivalence.
 The proof is independent of Spe26 and Yin_C_F0124, meeting the user's additional exploration direction.
 
 The [synthesis](../ledger/Yin_L_F0033_v1.md) preserves the restricted formulas, failed candidate directions and benchmark-derived rewritings with their actual dependencies.

@@ -9,12 +9,12 @@ Human record author: Yin.
 Reviewer/method: the material-construction agent, with the existing proof development and surrounding F-line mathematical context available.
 This is an actual complete internal self-review of the fixed retained arguments, not an isolated independent inspection.
 The four original L drafts were read in full; their substantive reasoning and the actually used C_F0126/C_F0127/C_F0123 interfaces were reconstructed before the retained C arguments were selected.
-The separate historical author and collaborator checks remain in their dated L accounts and are not relabelled as independent whole-proof findings.
+The separate historical author and collaborator checks remain with the retained mathematical accounts in their responsible C/L/R homes and are not relabelled as independent whole-proof findings.
 This review performs no research computation, source download, new source-page or visual inspection, formal verification, manuscript build or Task decision.
 
 ## Inputs and review boundary
 
-The exact mathematical inputs are the new complete retained C arguments bound below and their original L_F0041–C_F0172 developments.
+The exact retained mathematical inputs are [C_F0169](../../claims/Yin_C_F0169_v1.md#argument), [C_F0170](../../claims/Yin_C_F0170_v1.md#argument), [C_F0171](../../claims/Yin_C_F0171_v1.md#argument) and [C_F0172](../../claims/Yin_C_F0172_v1.md#argument), at the four distinct review scopes bound below.
 C_F0126 supplies the proved real-linear positive inner problem, the unrestricted determinant formula and its unique regularized physical optimizer.
 C_F0127 supplies its critical-point, Stein and bounded-inverse equivalences.
 C_F0123 supplies the accepted compactly supported Brown logarithmic potential, normalized Laplacian, weak regularization and fixed-positive-regularizer derivative interface.

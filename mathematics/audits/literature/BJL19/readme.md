@@ -12,8 +12,7 @@ Journal page locators have not been inferred from the preprint.
 Scope and state: on 2026-10-10 the assigned comparison agent read Section 2, equations (8)–(14) on p. 5 and Theorem 2 and its proof on pp. 6–7 of this preprint.
 The selected geometric-mean formula and positive-solution characterization were checked; this is not a whole-paper or optimal-transport proof audit.
 
-Section 2 defines `A#B=A^{1/2}(A^{-1/2}BA^{-1/2})^{1/2}A^{1/2}` and characterizes it as the unique positive solution of `X A^{-1} X=B`.
-In particular, for `b,H_b>0`, the unique positive solution of `c_b b c_b=H_b` is `c_b=b^{-1}#H_b`.
+The adopted definition and its positive Riccati characterization are retained in the [fixed matrix-geometric-mean entry](../../../ledger/Yin_L_F0054_v1.md#matrix-geometric-mean).
 Theorem 2 also characterizes `A^{-1}#B` as the minimizer of `Tr(A X+B X^{-1})`; this is a broader optional comparison.
 
 Boundary: the geometric mean explains the explicit square-root formula and positive Riccati solution.

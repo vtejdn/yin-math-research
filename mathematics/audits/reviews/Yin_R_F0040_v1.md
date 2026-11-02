@@ -193,7 +193,7 @@ The checked argument supports project assessment proved with review status indep
 
 This finding supports an explicit adopting Claim decision; the review itself does not select that decision, change an older Claim's proof, complete a Task or assert novelty.
 The sharp distinction between SOME in the Delta-only certificate and SOME/EVERY under (D) is essential.
-The bounded canonical dual operators are not asserted to act boundedly on all H, and no equality with scalar division closure inside M is established.
+The canonical dual operators are defined on the recorded domains containing all bounded vectors; they are not asserted to act boundedly on all H, and no equality with scalar division closure inside M is established.
 
 The work was mathematical reading and reconstruction, without formal verification, numerical evidence or external human peer review.
 No target Claim, other mathematical material, navigation or Git state was changed by this reviewer.

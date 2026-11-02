@@ -10,8 +10,8 @@ The earlier comparison [v1](Yin_L_F0050_v1.md), positive results [C_F0071 v2](..
 
 ## Exact hypotheses being compared
 
-The complete new fixed proof has been adopted as [proved and independently reviewed](../claims/Yin_C_F0071_v2.md#decision-reviewed).
-[R_F0134](../audits/reviews/Yin_R_F0044_v1.md#conclusion) records the complementary review arrangement; its separate [source finding](../audits/reviews/Yin_R_F0044_v1.md#acsy-no-normality) and [failed-test finding](../audits/reviews/Yin_R_F0134_v1.md#failed-test-conclusion) cover those respective inputs.
+The complete new fixed proof has been adopted as [proved](../claims/Yin_C_F0071_v2.md#decision-reviewed), with the C_F0071 conclusion in R_F0044 declared self-reviewed.
+[R_F0044](../audits/reviews/Yin_R_F0044_v1.md#conclusion) records the complementary review arrangement; its separate [source finding](../audits/reviews/Yin_R_F0044_v1.md#acsy-no-normality) and [failed-test finding](../audits/reviews/Yin_R_F0134_v1.md#failed-test-conclusion) cover those respective inputs.
 The comparison below remains a root synthesis, not a claim that the general implications have been resolved.
 
 Let M=W*(X_1,...,X_d) be finite tracial with faithful normal tracial state, H=L2(M), Omega=1, P=P_Omega, and A=C<X,X*>.

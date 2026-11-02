@@ -132,7 +132,7 @@ They supply no coverage beyond their recorded claims and review limits.
 ## Historical Reviewed Progress at the Initial Checkpoint
 
 This section preserves the 2026-09-12 frontier.
-Its then-open regimes and proposed routes are superseded by the reviewed completion above; current route dispositions belong to the strategy index.
+Its then-open regimes and proposed routes are superseded by the reviewed completion above; the authored strategy records own current route dispositions, and their index supplies navigation.
 
 The selected decisions in [C_F0120](../claims/Yin_C_F0120_v1.md#decision-candidate-0002), [C_F0121](../claims/Yin_C_F0121_v1.md#decision-candidate-0004), [C_F0122](../claims/Yin_C_F0122_v1.md#decision-candidate-0004), [C_F0123](../claims/Yin_C_F0123_v1.md#decision-candidate-0004) record their respective assessments.
 The 2026-09-12 registration correspondence recorded the inspected artifacts; the [round synthesis](../ledger/Yin_L_F0033_v1.md) relates their mechanisms.

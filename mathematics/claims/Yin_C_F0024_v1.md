@@ -486,7 +486,7 @@ Original accompanying material and inspection boundaries are listed under [recor
 | date | 2026-10-09T17:46 |
 | status | proved |
 | authority | Explicit user instruction on 2026-10-10 to designate C_F0024 as Theorem. |
-| reason | The Claim role is set to theorem. The statement, selected P2 proof, dependencies and original Section 7 remain those selected by the preceding decision. R_F0123 records an independent recheck of the statement, P2 proof and Section 7; the earlier reviews retain their original scope. |
+| reason | The Claim role is set to theorem. The statement, selected P2 proof, dependencies and original Section 7 remain those selected by the preceding decision. R_F0067 records an independent recheck of the statement, P2 proof and Section 7; the earlier reviews retain their original scope. |
 
 Role designation: theorem.
 

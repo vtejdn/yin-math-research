@@ -35,9 +35,9 @@ No numerical diagnostic or proof-assistant check is used.
 | --- | --- | --- |
 | [Conclusion](#conclusion) | [C_F0146 statement](../../claims/Yin_C_F0146_v1.md#statement) | Failure of every law-independent numerical lower-bound constant for finite nonnegative symmetric marginal weights, actual bounded liberation vacua and norm-one analytic-core unitaries; exact t-dependent counterexamples and no normal ACSY separation. |
 | [Conclusion](#conclusion) | [C_F0146 argument](../../claims/Yin_C_F0146_v1.md#argument) | All of SC1--SC9: represented algebraic substitution, actual adjoints, projection weight, orthogonal fourth moments, corner restriction and normalization, analytic original graph convergence and divergent ratio. |
-| [Conclusion](#conclusion) | [ACSY24-U004](../literature/ACSY24/Yin_U003.md#acsy24-u003) | Equation (1) of the derivation-adjoint subsection, with inner product linear in the second variable and bounded reference-core tensor coefficients. Only that actual tensor-adjoint formula is used, after checking the reference vacua; other results and recorded uncertainties of the source unit are not imported. |
+| [Conclusion](#conclusion) | [ACSY24-U003](../literature/ACSY24/Yin_U003.md#acsy24-u003) | Equation (1) of the derivation-adjoint subsection, with inner product linear in the second variable and bounded reference-core tensor coefficients. Only that actual tensor-adjoint formula is used, after checking the reference vacua; other results and recorded uncertainties of the source unit are not imported. |
 | [Conclusion](#conclusion) | [C_F0077 marginal adjoint](../../claims/Yin_C_F0077_v1.md#the-marginal-restriction-of-the-actual-liberation-adjoint) | Formula (S1) for the actual finite marginal tensor g. The row/column correction cancels by symmetry. No general marginal restriction equality, composition bootstrap or abstract realization assertion is needed. |
-| [Conclusion](#conclusion) | [NS06-U003](../literature/NS06/Yin_U004.md#ns06-u004) | Equation (14.5), normalized corner trace and Theorem 14.10 at the stated edition/pages; the local mixed-corner adaptation and fourth-moment calculation are checked here. Corollary 14.12 is not applied to p,q. |
+| [Conclusion](#conclusion) | [NS06-U004](../literature/NS06/Yin_U004.md#ns06-u004) | Equation (14.5), normalized corner trace and Theorem 14.10 at the stated edition/pages; the local mixed-corner adaptation and fourth-moment calculation are checked here. Corollary 14.12 is not applied to p,q. |
 
 ## Represented algebra and actual reference operators
 
@@ -116,9 +116,9 @@ Faithfulness then gives norm(V)=2.
 The joint normalized corner law, including the represented two-atom derivative expressions, is independent of t.
 
 For source verification, the reviewer directly read the retained NS06 PDF pages 245--248, printed pages 228--231: formula (14.5), the normalized trace convention, Theorem 14.10 and its proof text, and the hypothesis of Corollary 14.12.
-This confirms the edition/page and applicability match of U003.
+This confirms the edition/page and applicability match of NS06-U004.
 It is not a fresh independent audit of the book's general combinatorial proof and all its dependencies.
-ACSY24-U004 is reused at its recorded exact equation (1) proof scope; no new whole-paper reading is claimed.
+ACSY24-U003 is reused at its recorded exact equation (1) proof scope; no new whole-paper reading is claimed.
 C_F0077 is reused at the finite identity already independently reviewed by this agent, with its present hypotheses explicitly checked above.
 
 ## Negative coefficient, analytic graph and the two trace factors

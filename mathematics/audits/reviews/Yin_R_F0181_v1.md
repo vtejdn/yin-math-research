@@ -18,9 +18,9 @@ C_F0121's selected-assessment navigation link was visible and was not opened at 
 C_F0123's acceptance of Brown foundations and elliptic examples was part of its explicit source boundary.
 The actual binding is to canonical C paths and original anchors below, not disposable reading views.
 
-C_F0073 was also mathematically read in this assignment, but its reading view inadvertently included its old target conclusion of proved after complete independent review before initial findings.
-No new independent finding for C_F0073 is asserted here.
-Its adequate [original C_F0073 account](Yin_R_F0121_v1.md#5-scope-correction-and-final-boundary) is retained at its disclosed unknown relationship; no duplicate self-review is created here.
+C_F0111 was also mathematically read in this assignment, but its reading view inadvertently included its old target conclusion of proved after complete independent review before initial findings.
+No new independent finding for C_F0111 is asserted here.
+Its adequate [original C_F0111 account](Yin_R_F0121_v1.md#5-scope-correction-and-final-boundary) is retained at its disclosed unknown relationship; no duplicate self-review is created here.
 
 ## Fixed inputs and source depth
 

@@ -17,7 +17,7 @@ author: Yin
 Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 Date: 2026-09-08.
 Provenance: project deduction, with examples specialized from [Miy22](../literature/pdf/Miy22.pdf).
-Assessment: [selected assessment](#decision-isolated-review-20261022); [independent audit](../audits/reviews/Yin_R_F0062_v1.md#coordinate-transfer-finding).
+Assessment: [selected assessment](#decision-isolated-review-20261022); [independent audit](../audits/reviews/Yin_R_F0062_v1.md#coordinate-transfers).
 
 Statement: for any tuple satisfying [Yin_C_F0001](Yin_C_F0001_v1.md#yin_c_f0001), the following coordinatewise Mobius maps, polynomial shears, and invertible affine linear changes preserve the truth of Yin_C_F0001, provided the transformed coordinates are normal and each stipulated denominator is boundedly invertible.
 The maps below are bijections on eligible bounded dual systems, preserve the finite-rank class, and preserve the original bounded scalar division closure.

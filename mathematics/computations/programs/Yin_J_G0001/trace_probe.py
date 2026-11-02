@@ -1,10 +1,17 @@
 from pathlib import Path
 from fractions import Fraction
 import itertools,json,sys
-draft=Path('mathematics/ledger/Yin_L_G0001_v1.md')
+REPOSITORY_ROOT = Path(__file__).resolve().parents[4]
+LEDGER_INPUT = REPOSITORY_ROOT / 'mathematics/ledger/Yin_L_G0001_v1.md'
+draft = LEDGER_INPUT
 blocks=draft.read_text(encoding='utf-8').split('```python\n')
 second=blocks[2].split('\n```',1)[0]
-exec(second.split('\nprimes=',1)[0],globals())
+helper_source = second.split('\nprimes=',1)[0]
+retained_binding = "draft=Path('mathematics/ledger/Yin_L_G0001_v1.md')"
+if helper_source.count(retained_binding) != 1:
+    raise RuntimeError('The retained helper input binding changed; check its ledger path before execution.')
+helper_source = helper_source.replace(retained_binding, 'draft=LEDGER_INPUT', 1)
+exec(helper_source,globals())
 primes=[2,3,5,7,11,13,17,19,23,29,31]
 
 def trace_polynomial(p):

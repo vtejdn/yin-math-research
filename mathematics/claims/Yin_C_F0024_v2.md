@@ -187,7 +187,7 @@ This file introduces no new Task, changes no theorem designation and does not cl
 | date | 2026-10-21T00:49 |
 | status | proved |
 | authority | Explicit user instruction on 2026-10-10 to designate C_F0024 as Theorem. |
-| reason | Retain the unchanged proved theorem and explicit user-authorized role, selecting the exact assembly/original Section 7/recheck findings with their actual individual relationships. The R123 context-isolation fact remains unknown; no whole-Claim independent classification or new mathematical review is asserted. |
+| reason | Retain the unchanged proved theorem and explicit user-authorized role, selecting the exact assembly/original Section 7/recheck findings with their actual individual relationships. The R_F0067 context-isolation fact remains unknown; no whole-Claim independent classification or new mathematical review is asserted. |
 
 Role designation: theorem.
 

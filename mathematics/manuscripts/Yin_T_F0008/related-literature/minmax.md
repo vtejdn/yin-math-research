@@ -138,7 +138,7 @@ The [current ordered min--max section](../paper/sections/ordered-minmax.tex) imp
 Sion remains a methodological comparison in this analysis, rather than a manuscript proof reference: the paper retains its concrete non-saddle example and does not invoke minimax interchange.
 The commuting reduction and centered specialization keep their existing direct arguments.
 This implements the substantive connections without assigning an external theorem to every elementary step.
-The [integration review](../paper/readme.md#contextual-literature-integration-review) owns the manuscript verification and build evidence; no such evidence is asserted here.
+The [integration review](../paper/review.md#citation-and-mathematical-comparison-checks) owns manuscript verification, and the [document README](../paper/readme.md#receiving-build) owns build evidence.
 
 <a id="bel15-integration-followup"></a>
 ### Bel15: retained source and exact inner-equation specialization

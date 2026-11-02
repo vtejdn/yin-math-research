@@ -18,7 +18,7 @@ Goal: [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#yin_t_f0008).
 The user authorized local and external literature research and removed usage-based stopping for the resumed run.
 This is a restricted extension of the mechanism in [Yin_C_F0122](Yin_C_F0122_v1.md), relevant to the indefinite extension of [Yin_C_F0121](Yin_C_F0121_v1.md).
 The opening diagonal derivation is retained as an unregistered historical draft.
-The later Yin_C_F0125 continuation has its own [scoped independent review](../audits/reviews/Yin_R_F0125_v1.md); current assessments are recorded in the [selected assessment](#decision-candidate-0004).
+The later Yin_C_F0125 continuation has its own [scoped self-review](../audits/reviews/Yin_R_F0125_v1.md#positive-covariance-minimax-finding); current assessments are recorded in the [selected assessment](#decision-finding-owned-review).
 No mathematical Role is assigned.
 
 ## Source Reuse and Scope
@@ -313,7 +313,7 @@ The next useful test is whether a different inner variable or a different order 
 Added 2026-09-13, after the user explicitly requested continued independent exploration and ruled out treating the discovered source formula as the final version.
 The preceding proof remains a historical restricted derivation.
 The argument below removes the commutative invariant-algebra and inverse-sign assumptions, replacing that mechanism by an auxiliary circular Dyson equation and a completely positive stability comparison.
-Root has allocated [Yin_C_F0125](#decision-candidate-0004) for (22)--(29), together with the exact negative-direction boundary below; current assessment is recorded in the [selected assessment](#decision-candidate-0004), and its [scoped independent review](../audits/reviews/Yin_R_F0125_v1.md) has passed.
+Root has allocated [Yin_C_F0125](#matrix-positive-hs-minimax) for (22)--(29), together with the exact negative-direction boundary below; current assessment is recorded in the [selected assessment](#decision-finding-owned-review), and its [scoped self-review](../audits/reviews/Yin_R_F0125_v1.md#positive-covariance-minimax-finding) has passed.
 No mathematical Role is assigned.
 This result does not complete the ongoing unrestricted-covariance objective.
 Further unrestricted exploration is recorded separately in [the negative-covariance continuation](../ledger/Yin_L_F0030_v1.md).

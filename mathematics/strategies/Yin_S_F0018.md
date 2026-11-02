@@ -45,7 +45,8 @@ Distinguish a valid restricted positive-resolvent domain from an arbitrary real 
 
 [Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126) resolves the structured indefinite Schur action needed to connect this route with arbitrary complex coefficients.
 Its final trial matrices have the original size, while its proof uses hermitization to select the physical branch.
-Its independent review (original material now separated into [Yin_R_F0128_v1](../audits/reviews/Yin_R_F0128_v1.md), [R_F0174 determinant-presentation finding](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding)) covers both the global extremum and full MS24 recovery.
+Its [complete signed-Schur self-review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) covers both the global extremum and full MS24 recovery.
+The [R_F0174 self-review](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding) retains its narrower presentation scope.
 This supplies the required generalization without extending the positive-pencil supersolution argument by assumption.
 
 [Yin_C_F0127](../claims/Yin_C_F0127_v1.md#yin_c_f0127) and its [review](../audits/reviews/Yin_R_F0180_v1.md#current-affine-attainment) identify attainment exactly with bounded invertibility.

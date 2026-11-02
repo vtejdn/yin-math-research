@@ -51,6 +51,17 @@ def probe(n: int, power: float, shift: float, base_seed: int) -> dict:
     }
 
 
+def output_destination(group: Path, output: str) -> Path:
+    filename = Path(output)
+    if filename.anchor or ".." in filename.parts:
+        raise ValueError("Output must be a relative filename within this J's output home.")
+    home = group.resolve()
+    destination = (home / filename).resolve()
+    if destination == home or not destination.is_relative_to(home):
+        raise ValueError("Output must resolve to a file within this J's output home.")
+    return destination
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--sizes", nargs="+", type=int, default=[8, 12, 16, 24, 32])
@@ -66,10 +77,10 @@ def main() -> None:
     program = Path(__file__).resolve().parent
     repository = next(parent for parent in program.parents if (parent / "repository/config.json").is_file())
     group = repository / "mathematics/computations/outputs" / program.name
-    filename = Path(args.output)
-    if filename.is_absolute() or ".." in filename.parts:
-        parser.error("Output must be a relative filename within this J's output home.")
-    destination = group / filename
+    try:
+        destination = output_destination(group, args.output)
+    except ValueError as error:
+        parser.error(str(error))
     destination.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "status": "incomplete",

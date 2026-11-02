@@ -5,7 +5,7 @@ author: Yin
 # Independent scope assessment: T_F0001's intrinsic criterion and bounded companion
 
 Date: 2026-09-29.
-Human reviewer: Yin.
+Human record author: Yin.
 Reviewing agent: another AI agent.
 This is a contract and scope assessment distinct from the complete mathematical proof reviews and from the fresh completion auditor's separate whole-chain assessment.
 It does not itself change a record lifecycle or the platform Goal status.

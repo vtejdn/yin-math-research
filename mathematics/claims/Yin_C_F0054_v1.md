@@ -16,7 +16,7 @@ Date: 2026-09-16.
 Human record author: Yin.
 A Codex research agent developed the proof, which the reviewing agent separately reviewed.
 Consumer: the separate normal-domain investigation, Q3.
-The [selected assessment](#decision-candidate-0003) records the mathematical and review assessments.
+The [selected assessment](#decision-finding-owned-applicability) records the mathematical and review assessments.
 The result refutes a proposed estimate for the transformed derivation, not the original Task.
 
 <a id="normal-phase-realification-obstruction"></a>

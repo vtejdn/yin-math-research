@@ -8,7 +8,7 @@ Date/time: 2026-09-16T13:05.
 Human record author: Yin.
 Reviewer/method: another AI agent, separately organized full mathematical and source-interface review.
 
-Reviewed Claim statement: [Yin_C_F0112_v1](../../claims/Yin_C_F0112_v1.md#decision-candidate-0001), with the identical mathematical conclusion and proof prepared for reviewed publication as version 2 after the formatting correction below.
+Reviewed Claim statement: [Yin_C_F0112_v1](../../claims/Yin_C_F0112_v1.md#decision-candidate-0001), with the identical mathematical conclusion and proof prepared for its second recorded assessment after the formatting correction below; the retained physical proof is v1.
 Consumer contract: [Yin_T_F0007_v1](../../tasks/Yin_T_F0007_v1.md#decision-candidate-0001).
 Selected proof: [Yin_C_F0112_v1.md](../../claims/Yin_C_F0112_v1.md#free-square-zero-bounded-closure), complete Sections 1--8.
 
@@ -18,9 +18,9 @@ No unresolved mathematical gap or counterexample was found.
 It does not complete T_F0007.
 
 **Documentation findings:** equation (14) initially lacked its closing display delimiter.
-The coordinator inserted the single line `\]` after its `\tag{14}`; the reviewer verified that deleting exactly this one inserted line recovers the version-1 proof.
+The coordinator inserted the single line `\]` after its `\tag{14}`; the reviewer verified that deleting exactly this one inserted line recovers the originally submitted proof.
 This finding is resolved, and the final reviewed version above includes the correction.
-The version-1 canonical record has an empty direct-dependency list, whereas the proof expressly imports the C_F0087 Bezout mechanism.
+The initial recorded assessment has an empty direct-dependency list, whereas the proof expressly imports the C_F0087 Bezout mechanism.
 Reviewed publication must carry the fixed input `Yin_C_F0087 (recorded assessment 3)`, which the coordinator has agreed to register.
 The proof file and canonical metadata have not been changed by the reviewer.
 
@@ -58,7 +58,7 @@ The directly used accepted source interfaces are:
   This review checks the substitution and resulting norm/intersection assertions; it does not re-audit the liberation or transform proofs.
 - [MSY23-U004](../literature/MSY23/Yin_U004.md#msy23-u004), Lemmas 5.1--5.5: finite faithful trace makes injectivity equivalent to affiliated invertibility, including corners and finite matrix amplifications.
   The foundational affiliated-algebra convention and matrix identification are retained exactly at that audit's declared scope.
-- [MSY23-U005](../literature/MSY23/Yin_U005.md#msy23-u005), the repaired Lemma 5.19: for finitely many distinct eigenvalues of any affiliated operator, the sum of eigenprojection traces equals the trace of their join and is at most one.
+- [MSY23-U006](../literature/MSY23/Yin_U006.md#lemma-519-domain-repair), the repaired Lemma 5.19: for finitely many distinct eigenvalues of any affiliated operator, the sum of eigenprojection traces equals the trace of their join and is at most one.
   This particular lemma has no maximal-Delta premise.
   The reviewer recomputed the audit's bounded-row/Vandermonde repair; no invalid limit through an unbounded operator or eigenspace orthogonality is used.
 - The existing [Hun74 inspection](../../ledger/Yin_L_F0020_v1.md#reuse-and-source-check), III.3.9 and III.3.11 on printed pp. 139--140, supplies the polynomial Euclidean/Bezout input consumed through C_F0087.

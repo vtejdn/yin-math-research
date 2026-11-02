@@ -1,7 +1,9 @@
 from pathlib import Path
 import itertools, json, sys
 from math import isqrt
-draft=Path('mathematics/ledger/Yin_L_G0001_v1.md')
+REPOSITORY_ROOT = Path(__file__).resolve().parents[4]
+LEDGER_INPUT = REPOSITORY_ROOT / 'mathematics/ledger/Yin_L_G0001_v1.md'
+draft = LEDGER_INPUT
 first=draft.read_text(encoding='utf-8').split('```python\n',1)[1].split('\n```',1)[0]
 exec(first.split('\ninputs=',1)[0],globals())
 

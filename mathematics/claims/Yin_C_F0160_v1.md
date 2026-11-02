@@ -138,7 +138,7 @@ The statement uses normal scalar coordinate factors throughout.
 | [C_F0076 Part 1](Yin_C_F0076_v1.md#statement), [selected proof](Yin_C_F0076_v1.md#decision-reviewed) | Under exactly the stated actual normal A hypotheses, the marginal laws are diffuse and \(\delta_j(X_k^*)=\delta_{jk}k_j\); the full actual tensor-adjoint domain is available. No second-derivative estimate is used. |
 | [C_F0045 Sections 3--5](Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core), [selected proof](Yin_C_F0045_v1.md#decision-candidate-0002) | The finite reduced-polynomial module decomposition, expectation identity, annihilation of earlier cuts for completed Hilbert tensors and the actual direct-sum adjoint mechanism. The applicability and opposite-side version are checked below. |
 | [C_F0159](Yin_C_F0159_v1.md#statement) | Its strengthened radial pairing inequality, with the actual scalar vacuum, supplies Part B. This input is a separate proof draft pending independent review; it is not needed for Part A. |
-| [Mai15-U003](../audits/literature/Mai15/Yin_U002.md#mai15-u002) | The inspected Hilbert-norm power-iteration mechanism of Lemma 4.11. Its real coassociative energy identity is not used. |
+| [Mai15-U002](../audits/literature/Mai15/Yin_U002.md#mai15-u002) | The inspected Hilbert-norm power-iteration mechanism of Lemma 4.11. Its real coassociative energy identity is not used. |
 | [C_F0072 Part B](Yin_C_F0072_v1.md#statement), [selected proof](Yin_C_F0072_v1.md#decision-reviewed) | The two operator-norm-to-L2 slice bounds restore the original canonical closure and its actual adjoint on all bounded vectors. |
 
 The C_F0045 proof uses the pointed free-product Hilbert representation already sourced there through [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) and its stated RX06 interface.
@@ -382,7 +382,7 @@ Use (25), let n tend to infinity, and apply the original quadratic bound once mo
  \|T_\ell(a)\|_2,\ \|T_r(a)\|_2\le\|\xi_j\|_2\|a\|.
  \tag{26}
 \]
-This is the Hilbert-valued power iteration checked in Mai15-U003.
+This is the Hilbert-valued power iteration checked in Mai15-U002.
 
 Taking adjoints in the actual one-sided formulas gives
 \[

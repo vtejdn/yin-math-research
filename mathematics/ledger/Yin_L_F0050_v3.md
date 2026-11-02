@@ -24,7 +24,7 @@ Put A_X^*=C<X,X*> for the represented unital star algebra.
 
 Both conditions imply Delta(X)=d.
 The source condition does not require normality or reality.
-The separate source reconstruction, including its nonnormal regularization, was checked in [R_F0134](../audits/reviews/Yin_R_F0044_v1.md#acsy-no-normality).
+The separate source reconstruction, including its nonnormal regularization, was checked in [R_F0044](../audits/reviews/Yin_R_F0044_v1.md#acsy-no-normality).
 Mutual coverage through the hypotheses means F(X) implies A(X) and A(X) implies F(X); a shared conclusion does not establish either implication.
 
 All assertions below concern existence of systems.
@@ -43,7 +43,8 @@ They do not identify an arbitrary supplied full-domain map with a canonical Hilb
 | Arbitrary correlated normal tuples | Not resolved generally | Not resolved generally | Exact remaining interfaces below |
 | Arbitrary bounded generating tuples | Not resolved generally | Not resolved generally | No separating example established here |
 
-The positive conclusions of C_F0129, C_F0130 and C_F0072 have each been selected as proved / independently reviewed in their responsible decisions.
+The positive conclusions of C_F0129, C_F0130 and C_F0072 remain proved in their responsible decisions.
+Their whole findings have, respectively, unknown, unknown and self-reviewed relationships in R_F0136, R_F0137 and R_F0045.
 Their respective complete reviews are [R_F0136](../audits/reviews/Yin_R_F0136_v1.md#conclusion), [R_F0137](../audits/reviews/Yin_R_F0137_v1.md#conclusion), and [R_F0045](../audits/reviews/Yin_R_F0045_v1.md#conclusion).
 The exact review arrangements, accepted inputs and inspection limits remain in those records.
 
@@ -208,4 +209,4 @@ The Jordan example still has maximal Delta, so maximal Delta alone supplies neit
 These examples must not be reused as a separation of A and F.
 
 No separating counterexample has been established by this continuation.
-The expanded positive classes and the two-contraction criterion are fixed and independently reviewed; the general correlated-normal and arbitrary-bounded-tuple comparison remains unresolved.
+The expanded positive classes and the two-contraction criterion are fixed with the finding-specific review relationships above; the general correlated-normal and arbitrary-bounded-tuple comparison remains unresolved.

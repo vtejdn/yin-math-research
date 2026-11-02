@@ -70,7 +70,7 @@ The proof, circular specialization and complete zero-drift capacity reduction ar
 
 ## Provenance and accepted inputs
 
-This is the complete two-positive-matrix reformulation from [L_F0028 Sections 2-4](Yin_C_F0165_v1.md#statement), developed by another AI agent with root's positive-certificate parametrization.
+This is the complete two-positive-matrix reformulation [retained here](#statement), developed by another AI agent with root's positive-certificate parametrization.
 It depends on [C_F0124](Yin_C_F0124_v1.md#statement) and the [full positive-cone certificate](Yin_C_F0164_v1.md#statement).
 The centered specialization uses the existing [capacity duality argument](../ledger/Yin_L_F0039_v1.md) at its disclosed audited scope.
 The original R_F0123 expressly excluded the paired-matrix author's own L_F0028 module from certification.

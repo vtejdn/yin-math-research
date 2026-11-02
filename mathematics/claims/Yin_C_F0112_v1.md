@@ -61,7 +61,7 @@ The following existing inputs were read before the corresponding proof investmen
   At traces 1/2, every character intersection vanishes and the generic parameter has support [0,1].
   These previously checked formulas are the only free-projection spectral inputs below.
 - [MSY23-U004](../audits/literature/MSY23/Yin_U004.md#msy23-u004), Lemmas 5.1-5.5, gives injectivity iff affiliated invertibility in a finite tracial von Neumann algebra, also in corners and matrix amplifications.
-- [MSY23-U005](../audits/literature/MSY23/Yin_U005.md#msy23-u005), the audited and repaired Lemma 5.19 on published p. 38, gives sum_j tau(p_{ker(T-lambda_j)}) <=1 for distinct eigenvalues of an affiliated T.
+- [MSY23-U006](../audits/literature/MSY23/Yin_U006.md#lemma-519-domain-repair), the audited and repaired Lemma 5.19 on published p. 38, gives sum_j tau(p_{ker(T-lambda_j)}) <=1 for distinct eigenvalues of an affiliated T.
   This lemma itself requires no maximal-Delta hypothesis; the ambient unit's later rational-matrix applications have stronger hypotheses that are not imported here.
 - [DR97-U004](../audits/literature/DR97/Yin_U004.md#dr97-u004), Lemma 11, already gives adjoint-free bounded scalar elimination when a finite state matrix has powers tending to zero.
   Thus the use of B*B in C_F0106 is not an essential new obstruction once a stable original-alphabet realization is known.
@@ -141,7 +141,7 @@ Its unitary conjugation also extends to L^0(M).
 
 For lambda nonzero, let delta=tau(p_{ker(t-lambda)}).
 Equation (5) implies that every point on the circle of radius |lambda| has the same kernel trace delta.
-Choosing arbitrarily many distinct such points and applying the existing MSY23 Lemma 5.19 gives N delta<=1 for every N.
+Choosing arbitrarily many distinct such points and applying the existing [MSY23 Lemma 5.19 repair](../audits/literature/MSY23/Yin_U006.md#lemma-519-domain-repair) gives N delta<=1 for every N.
 Hence delta=0, and faithfulness gives ker(t-lambda)=0.
 For lambda=0, injectivity was already proved in Section 3.
 

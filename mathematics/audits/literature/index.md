@@ -65,8 +65,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [MSY23/Yin_U003](MSY23/Yin_U003.md) | Linear Representations, Evaluation, and Rational Closures |
 | [MSY23/Yin_U004](MSY23/Yin_U004.md) | Affiliated Operators and Free-Field Realization |
 | [MSY23/Yin_U005](MSY23/Yin_U005.md) | MSY23-U005: Strong Atiyah Property and Bounded Dual Systems |
+| [MSY23/Yin_U006](MSY23/Yin_U006.md) | MSY23-U006: Rational Matrices, Atoms, and Central Eigenvalues |
 | [Mai15/Yin_U001](Mai15/Yin_U001.md) | Mai15: The actual adjoint domain of a general derivation |
 | [Mai15/Yin_U002](Mai15/Yin_U002.md) | Mai15: Real coassociative derivations and the norm estimates |
+| [Mai15/Yin_U003](Mai15/Yin_U003.md) | Mai15: Wigner calculus, zero-divisor survival and finite chaos |
 | [Miy22/Yin_U001](Miy22/Yin_U001.md) | Miy22-U001: Fock Model, Word Basis, and Ambient Closures |
 | [Miy22/Yin_U002](Miy22/Yin_U002.md) | Miy22-U002: Rational Series, Finite Residual Spaces, and Decay |
 | [Miy22/Yin_U003](Miy22/Yin_U003.md) | Miy22-U003: Commutators as Residual Operators |

@@ -8,7 +8,8 @@ author: Yin
 
 ## Review arrangement
 
-The coordinating reviewer assigned the mathematical route and received mathematical progress descriptions before reconstruction. That shared development context makes the finding self-reviewed under the current relationship rule; the old independent wording remains an historical description, not isolated-context certification.
+The coordinating reviewer assigned the mathematical route and received mathematical progress descriptions before reconstruction.
+That shared development context makes the finding self-reviewed under the current relationship rule; the old independent wording remains an historical description, not isolated-context certification.
 No new mathematical review, changed conclusion or redated finding is created by this explicit relationship and locator declaration.
 
 ## Review relationships

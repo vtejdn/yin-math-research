@@ -78,146 +78,25 @@ Taking determinants in (2) yields
 \]
 Consequently the determinant/capacity factors coincide exactly, before taking any infimum.
 
-## 2. The two remaining quadratic forms
+## Fixed comparison of the quadratic corrections
 
-Let
-\[
- h_R=(\mathcal C_{b_R}+\eta)^{-1}(a)=h_R^*,\qquad
- Z_R=(Z\mapsto H_RZR^{-1}+\eta(Z^*))^{-1}(a).
-\]
-The first inverse is complex-linear and preserves adjoints; the second is real-linear on all complex matrices.
-Define
-\[
- q_{82}(R)=\operatorname{Tr}(a h_R),\qquad
- q_{84}(R)=\operatorname{Re}\operatorname{Tr}(a Z_R).
-\]
-Both are nonnegative.
-After the bijection (1), the logarithmic objectives are
-\[
- \Phi_{82}(b_R)=\frac{\log\det H_R-\log\det R-m+q_{82}(R)}{2m},
- \quad
- \Phi_{84}(R)=\frac{\log\det H_R-\log\det R-m+q_{84}(R)}{2m}.
- \tag{5}
-\]
-The finite-matrix comparison is
-\[
- q_{82}(R)\le q_{84}(R),\qquad
- \Phi_{82}(b_R)\le\Phi_{84}(R)\quad(R>0).                 \tag{6}
-\]
-The inequality can be strict.
-Its proof follows and does not use either determinant equality.
-
-## 3. Proof of the quadratic-form comparison
-
-Fix \(R\) and abbreviate \(b=b_R\).
-Set
-\[
- P=b^{1/2}Rb^{1/2},\quad
- c=b^{-1/2}ab^{-1/2},\quad
- \Psi=\mathcal C_{b^{-1/2}}\eta\mathcal C_{b^{-1/2}}.
-\]
-The transformed equations, with \(w=b^{1/2}h_Rb^{1/2}\) and \(X=b^{1/2}Z_Rb^{1/2}\), are
-\[
- (I+\Psi)w=c,\qquad PX P^{-1}+\Psi(X^*)=c.                \tag{7}
-\]
-Moreover \(q_{82}=\langle c,w\rangle_{\mathbb R}\) and \(q_{84}=\langle c,X\rangle_{\mathbb R}\), where \(\langle U,V\rangle_{\mathbb R}=\operatorname{Re}\operatorname{Tr}(U^*V)\).
-
-On this real Hilbert space define \(J(X)=X^*\) and \(K(X)=PXP^{-1}\).
-The map \(J\) is an orthogonal selfadjoint involution, \(K\) is positive definite and selfadjoint, and
-\[
- JKJ=K^{-1},\qquad KJK=J.
-\]
-Split the space into the Hermitian and skew-Hermitian eigenspaces of \(J\).
-Since \(\Psi\) commutes with \(J\), write
-\[
- K=\begin{pmatrix}A&B\\B^*&D\end{pmatrix},\qquad
- \Psi=\begin{pmatrix}\Psi_+&0\\0&\Psi_-\end{pmatrix}.
-\]
-Here stars denote real Hilbert-space adjoints.
-The identity \(KJK=J\) gives
-\[
- A^2-BB^*=I,\quad AB=BD,\quad D^2-B^*B=I.
-\]
-In particular \(A,D\ge I\), and
-\[
- B(D+I)^{-1}B^*=A-I.                                    \tag{8}
-\]
-The operator in the second equation (7) is
-\[
- K+\Psi J=
- \begin{pmatrix}A+\Psi_+&B\\B^*&D-\Psi_-\end{pmatrix}>0.  \tag{9}
-\]
-Strict positivity here is also the direct finite Cauchy--Schwarz estimate in C_F0126, applied at this trial: before congruence its quadratic form is at least \(\operatorname{Tr}(Z^*ZR^{-1})>0\).
-Thus its Schur complement
-\[
- F=A+\Psi_+-B(D-\Psi_-)^{-1}B^*
-\]
-is positive definite.
-Since \(\|\Psi\|_{2\to2}<1\),
-\[
- 0<D-\Psi_-<D+I.
-\]
-Taking inverses and using (8) gives
-\[
- 0<F\le A+\Psi_+-B(D+I)^{-1}B^*=I+\Psi_+.
-\]
-The source \(c\) is Hermitian.
-Block inversion of (9) therefore gives
-\[
- q_{84}=\langle c,F^{-1}c\rangle_{\mathbb R}
- \ge\langle c,(I+\Psi_+)^{-1}c\rangle_{\mathbb R}=q_{82}.
-\]
-This proves (6).
-
-A useful sufficient equality condition is \([P,w]=0\).
-Then the second equation of (7) has solution \(X=w\), so both energies coincide.
-This includes the scalar selfadjoint case and the zero-mean case.
-No general commutation of trial matrices with coefficients is assumed.
-
-## 4. An exact strict example and exact coincidence cases
-
-Take zero noise, \(m=2\),
-\[
- a=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
- R=\operatorname{diag}(1,4),\qquad
- b_R=\operatorname{diag}(1,1/2).
-\]
-Then
-\[
- Z_R=aR=\begin{pmatrix}0&4\\1&0\end{pmatrix},\qquad
- h_R=b_R^{-1}ab_R^{-1}=\begin{pmatrix}0&2\\2&0\end{pmatrix},
-\]
-so \(q_{84}=5\), \(q_{82}=4\), and
-\[
- \Phi_{84}(R)-\Phi_{82}(b_R)=\frac14.
-\]
-Thus the domain bijection and identical determinant factors do not make the full objectives identical, even without noise.
-
-If \(a=0\), both energies vanish at every trial.
-C_F0126 and (1)--(4) then directly yield the whole centered C_F0124 formula, including zero capacity.
-
-For scalar selfadjoint data \(\eta(r)=\sigma r\), \(a\in\mathbb R\),
-\[
- b(r)^2=\sigma+r^{-1},\qquad
- Z_r=h_r=\frac{a}{r^{-1}+2\sigma}
-              =\frac{a}{b(r)^2+\sigma}.
-\]
-This is a complete pointwise change of variables for every scalar mean, including \(\sigma=0\).
+The complete [energy-order argument](../ledger/Yin_L_F0054_v1.md#quadratic-energy-order) and its [strict example and coincidence cases](../ledger/Yin_L_F0054_v1.md#strict-example-and-coincidence-cases) are retained at their fixed mathematical home with the original author self-check scope.
+Use q_HS, q_gen, Phi_HS and Phi_gen as defined there; the following remaining implication question uses the same functions.
 
 ## 5. Exactly which implication follows from C_F0126
 
-By bijectivity and (6), C_F0126 alone, together with the finite lemmas proved here, gives
+By bijectivity and the [fixed energy order (6)](../ledger/Yin_L_F0054_v1.md#quadratic-energy-order), C_F0126 alone, together with the finite lemmas proved here, gives
 \[
- \inf_{b\in\mathcal B_\eta}\Phi_{82}(b)
- =\inf_{R>0}\Phi_{82}(b_R)
- \le\inf_{R>0}\Phi_{84}(R)
+ \inf_{b\in\mathcal B_\eta}\Phi_{\rm HS}(b)
+ =\inf_{R>0}\Phi_{\rm HS}(b_R)
+ \le\inf_{R>0}\Phi_{\rm gen}(R)
  =\log\Delta(S).                                        \tag{10}
 \]
 If \(\Delta(S)=0\), (10) forces the left infimum to be \(-\infty\), so the full C_F0124 equality follows in that case as well.
 
 For general nonzero determinant and noncommuting data, the missing direction in this route is
 \[
- \Phi_{82}(b)\ge\log\Delta(S)
+ \Phi_{\rm HS}(b)\ge\log\Delta(S)
        \quad\text{for every }b\in\mathcal B_\eta.          \tag{11}
 \]
 This is precisely C_F0124's universal comparison.
@@ -248,13 +127,7 @@ It does not identify the original size-\(m\) variable of C_F0126 with every vari
 In particular, the formal pair \((I+\eta(R),R^{-1})\) from the earlier comparison need not satisfy its strict Hilbert--Schmidt norm condition.
 The positive balanced matrix (1) is a different construction.
 
-## 7. Verification and remaining scope
-
-The proof above was checked by the authoring agent, including the congruence, the real versus complex Hilbert-space distinction, the order of inverse inequalities, and the normalization by \(2m\).
-An interactive NumPy check with seed 10010 used 24 random selfadjoint coefficient/mean examples in sizes 2 and 3, with two Kraus matrices and positive trials.
-The smallest observed energy difference was 0.0495689789, and the largest residual in (2) was 8.1e-14.
-The exact example gave energies 4 and 5; a scalar control agreed to 4.5e-16.
-These checks are not premises of the proof and are not an independent audit.
+## 7. Remaining scope
 
 No general direct proof of (11) from C_F0126 has been supplied here.
 No geodesic convexity assertion, original-size complex-domain equivalence, or new literature-priority conclusion is made.

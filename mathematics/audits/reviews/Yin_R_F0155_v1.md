@@ -31,8 +31,8 @@ The actual author-supplied prepublication summary disclosed the normalized resol
 This is known substantive development context for this proof, so the selected conclusion has a self relationship under the current context rule.
 Rereading and reconstructing the fixed proof does not undo that exposure.
 The original dated independent wording and all mathematical findings remain historical; no new mathematical inspection is claimed.
-The reviewer’s development of C143 is separately disclosed and is not itself the reason for this classification of C144.
-No reviewer-supplied repair to C144 is recorded.
+The reviewer’s development of C_F0147 is separately disclosed and is not itself the reason for this classification of C_F0148.
+No reviewer-supplied repair to C_F0148 is recorded.
 
 ## Review relationships
 

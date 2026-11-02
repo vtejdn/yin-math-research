@@ -57,7 +57,7 @@ Only Part 1 is used; the later Hilbert-tensor second-derivative conclusions are 
 The real unitary twist, its exact first-order coassociativity defect and energy formula are from [C_F0043 Section 3](Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds), particularly equations (6)--(13).
 The [mixed-coordinate verification in C_F0071 v2](Yin_C_F0071_v2.md#reverse-implication-for-mixed-selfadjointunitary-tuples) already checks that generators with zero derivative do not change these identities.
 C_F0076 supplies the same zero starred-generator property for arbitrary other normal coordinates.
-The selfadjoint case uses precisely the real coassociative energy estimate in [Mai15-U003](../audits/literature/Mai15/Yin_U002.md#mai15-u002), with the actual L2 codomain and right aa* orientation recorded there.
+The selfadjoint case uses precisely the real coassociative energy estimate in [Mai15-U002](../audits/literature/Mai15/Yin_U002.md#mai15-u002), with the actual L2 codomain and right aa* orientation recorded there.
 These adequate local inputs were checked before the deduction; no additional external theorem or priority claim is used.
 
 For any positive b in P, actual adjoint duality gives
@@ -120,7 +120,7 @@ C_F0043 equation (13), expansion of ||q zeta-Bq||2 squared, and reality for q*q 
 \]
 To check the sign of the defect term, equation (13) contributes minus Re<iBq,q>.
 Since Bq=q zeta-T_beta(q), and tau(zeta q*q) is real, Re<i q zeta,q>=0, leaving plus Re<iT_beta(q),q>.
-The nondefect term is the same real energy calculation as Mai15-U003, with all products of zeta taken only with bounded core coefficients.
+The nondefect term is the same real energy calculation as Mai15-U002, with all products of zeta taken only with bounded core coefficients.
 In particular no derivative of zeta or B*(q) is assumed.
 
 The original right contraction E=(id tensor tau)delta satisfies E=-i rho(U*)B on P, where rho(U*) is right multiplication.
@@ -178,7 +178,7 @@ The constants are finite for each fixed tuple and coordinate, and no bounded-H e
 
 For a selfadjoint coordinate of an arbitrary normal tuple satisfying A, C_F0076 Part 1 similarly shows that its prescribed delta vanishes on all other starred generators.
 It is therefore real, algebraic-core-valued and coassociative.
-Mai15-U003 therefore gives the same two inequalities with C_ell=C_r=||xi||2.
+Mai15-U002 therefore gives the same two inequalities with C_ell=C_r=||xi||2.
 Thus the candidate conclusion is the paired estimates at every selfadjoint or unitary coordinate of an arbitrary correlated normal tuple satisfying A.
 In particular both estimates hold at every coordinate of a mixed selfadjoint/unitary tuple.
 This is a proof candidate about the original prescribed derivations, not merely their real twists.
@@ -213,4 +213,4 @@ The recorded review description was `self-reviewed`.
 | argument | [Argument](#argument) | Positive-input pairing, actual real-twist energy calculation, adjoint transport, scalar cancellation, Young absorption, opposite-algebra right estimate and source selfadjoint case. |
 | dependency | [C_F0076 Part 1](Yin_C_F0076_v1.md#statement) | Actual tensor-adjoint domains and zero derivative at every other starred normal generator; Parts 2 and 3 are not used. |
 | dependency | [C_F0043 Section 3](Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Real unitary twist, actual vacuum and polynomial adjoint, exact defect and energy formula (13), with the zero-derivative extension checked here. |
-| dependency | [Mai15-U003](../audits/literature/Mai15/Yin_U002.md#mai15-u002) | Real coassociative quadratic identity and its actual-domain assumptions for the distinguished selfadjoint coordinate, including the right aa* orientation. |
+| dependency | [Mai15-U002](../audits/literature/Mai15/Yin_U002.md#mai15-u002) | Real coassociative quadratic identity and its actual-domain assumptions for the distinguished selfadjoint coordinate, including the right aa* orientation. |

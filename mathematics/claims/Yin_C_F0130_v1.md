@@ -67,7 +67,7 @@ The unitary equivalence A(U) if and only if F(U) is [C_F0071 v2, Part D](Yin_C_F
 The automatic operator-norm-to-L2 boundedness of every bare dual for a normal coordinate is [C_F0069, Part A](Yin_C_F0069_v1.md#statement).
 Both apply without freeness.
 
-The coefficient implementation below reuses [C_F0018, Section 1](Yin_C_F0018_v1.md#1-algebra-norms-and-the-correction-lemma), independently checked in [R_F0019](../audits/reviews/Yin_R_F0064_v1.md#decisive-checks).
+The coefficient implementation below reuses [C_F0018, Section 1](Yin_C_F0018_v1.md#1-algebra-norms-and-the-correction-lemma), independently checked in [R_F0064](../audits/reviews/Yin_R_F0064_v1.md#decisive-checks).
 That argument is stated there for B(H).
 Here its same bounded right-multiplier formulas are applied to B(M,H), where M has its operator norm.
 This change of Banach spaces and all required identities are verified in Section 5.

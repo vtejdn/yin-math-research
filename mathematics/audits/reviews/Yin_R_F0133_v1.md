@@ -5,10 +5,10 @@ author: Yin
 
 Date: 2026-10-13T07:03.
 Human record author Yin.
-Root performs a separately organized final review of the ORIGINAL F0010 contract against the ACTUAL fixed L_F0043, L_F0044 and L_F0045 materials, after the whole original reviews R127/R128 and actual complete-body preservation checks.
+Root performs a separately organized final review of the ORIGINAL F0010 contract against the ACTUAL fixed L_F0043, L_F0044 and L_F0045 materials, after the whole original reviews R_F0131/R_F0132 and actual complete-body preservation checks.
 The mathematical proofs were authored by three separately assigned agents.
 Root coordinated the Task, sources and organization, but supplied none of their proof steps or mathematical repairs.
-Root previously independently whole-reviewed the scalar/matrix originals in R128 and now reads the fixed coefficient account and R127, checking its decisive arguments and every cross-interface against the original contract.
+Root previously independently whole-reviewed the scalar/matrix originals in R_F0132 and now reads the fixed coefficient account and R_F0131, checking its decisive arguments and every cross-interface against the original contract.
 The matrix author supplied a scope-mapping advisory; it is not counted as independent proof or completion evidence.
 Shared context and those earlier findings were consulted; no blindness is claimed.
 
@@ -16,7 +16,7 @@ This final review is distinct from each original-whole finding.
 It explicitly checks the fixed destinations, their retained proofs and the entire contract, including all scalar and finite-matrix requirements.
 No new theorem or unreviewed mathematical wrapper is inserted between the fixed proofs and the Task.
 The review checked that the three fixed accounts retained the reviewed mathematical bodies after the D_G0001 links were rebased.
-An initial input-encoding error in L109 was repaired to restore the original Unicode before the final inspection.
+An initial input-encoding error in L_F0043 was repaired to restore the original Unicode before the final inspection.
 Historical prose about earlier reused D addresses is unchanged.
 
 ## Current relationship arrangement
@@ -53,16 +53,16 @@ The actual scalar, coefficient and matrix domains, source limits, finite-support
 ## Criterion-by-criterion reconciliation
 
 **Variational objective.**
-L109 supplies a finite coefficient SDP maximum and equal finite Toeplitz infimum, with both inequalities proved and exact optimizer/nonattainment boundaries.
+L_F0043 supplies a finite coefficient SDP maximum and equal finite Toeplitz infimum, with both inequalities proved and exact optimizer/nonattainment boundaries.
 Its convolution quadratic problems specify the dimension, coefficient construction, unique finite optimizer and decreasing limiting value.
 It distinguishes ordinary H2/Hinfinity from a weighted analytic completion.
-L111 supplies the square-matrix positive-field global infimum, its unique bounded optimizer exactly on the circle-invertible domain, finite nonattainment at circle zeros and-infinity on the identically singular locus.
+L_F0045 supplies the square-matrix positive-field global infimum, its unique bounded optimizer exactly on the circle-invertible domain, finite nonattainment at circle zeros and-infinity on the identically singular locus.
 Thus neither a stationary equation nor the pointwise scalar identity is used as the claimed new task deliverable.
 
 **Capacity objective.**
 The finite spectrahedra use only coefficient autocorrelation or block-correlation sums, PSD matrices and an explicit leading-entry/block determinant objective.
 They are not definitions that contain the unknown Mahler integral.
-L109 proves maxQ00=D^2; L111 proves maxdetQ00=D_r^(2r), equivalently the1/r-root capacity is D_r^2.
+L_F0043 proves maxQ00=D^2; L_F0045 proves maxdetQ00=D_r^(2r), equivalently the1/r-root capacity is D_r^2.
 Compactness proves finite attainment, including every zero-capacity case.
 Their proof devices use outer factors, but those unknown factors do not occur in the optimization input or constraints.
 Homogeneity, Laurent shifts, zero padding, matrix dimension and direct sums retain exact normalization.
@@ -70,7 +70,7 @@ The covariance-only proposed class fails in explicit same-support examples, and 
 The task is therefore not being completed merely on the basis of a negative example.
 
 **Coefficient objective.**
-Root independently checked L110's homogeneous normalized-factor compactness argument and coefficient bounds, preserving roots at infinity and the zero vector.
+Root independently checked L_F0044's homogeneous normalized-factor compactness argument and coefficient bounds, preserving roots at infinity and the zero vector.
 This proves D continuous everywhere and L extended-continuous, finite off zero.
 Positive-epsilon differentiation gives the precise real Hessian and nonnegative Levi form; decreasing submean limits give plurisubharmonicity.
 Circle-nonvanishing permits a uniformly convergent logarithmic expansion, yielding the stated real-analytic/pluriharmonic domain and both variations, including curve acceleration.
@@ -82,9 +82,9 @@ The explicit diagonal and coupled boundary controls account for that excluded do
 
 **Interaction and controls.**
 The optimizer is the inverse square in the regularized field problem and appears in the exact coefficient sensitivity.
-L110 derives fixed-input multiplicity exponents for inverse-weight mass and value error, compact fixed-support value convergence and the failure of gradient-limit interchange at a simple crossing.
-L109's finite error pays actual spectral-separation parameters; its circle-root control has a slower explicit prediction error.
-L111 gives a genuinely coupled convolution boundary cost and distinguishes exact finite capacity from nonattainment in bounded fields.
+L_F0044 derives fixed-input multiplicity exponents for inverse-weight mass and value error, compact fixed-support value convergence and the failure of gradient-limit interchange at a simple crossing.
+L_F0043's finite error pays actual spectral-separation parameters; its circle-root control has a slower explicit prediction error.
+L_F0045 gives a genuinely coupled convolution boundary cost and distinguishes exact finite capacity from nonattainment in bounded fields.
 Monomials, zero input, simple/repeated circle roots, degree drops, direct sums, coupled matrices and an identically singular polynomial are all handled by exact calculations.
 A numerical solver implementation is not needed to establish these identities, and none is claimed.
 
@@ -96,11 +96,11 @@ Every matrix-capacity exponent matches that convention.
 Scalar and matrix coefficient constructions pad a fixed support interval while permitting actual degree loss.
 The zero polynomial and identically singular determinant are explicitly defined by the ORDINARY determinant; the older source's kernel-removed convention at zero is not imported.
 
-The scalar determinant-polynomial regularization in L110 and the singular-value regularization in L111 are different expressions.
+The scalar determinant-polynomial regularization in L_F0044 and the singular-value regularization in L_F0045 are different expressions.
 They are used for different justified arguments and are not equated at finite epsilon.
 Both have the correct extended limit.
 Positive determinant does not imply bounded invertibility, so finite Gram attainment is compatible with field/analytic nonattainment at circle zeros.
-The block-convolution limit is actually proved in L111, not inferred from scalar source wording.
+The block-convolution limit is actually proved in L_F0045, not inferred from scalar source wording.
 Its lower compression bound and regularized upper limit use the same finite sections and pay every r,N factor.
 Classical Jensen, finite linear algebra and the accepted exact DR10 existence theorem leave no unresolved mathematical premise.
 
@@ -113,7 +113,7 @@ Nothing in this chain resumes or resolves G0001.
 ## Source limitations and scope of completion
 
 The scalar maximum-Gram construction has a complete local proof and is identified as an established spectral-factorization method.
-The exact Dumitrescu/McLean--Woerdeman theorem body was not obtained in the bounded search; that attribution follow-up remains explicitly recorded in L109 and R128.
+The exact Dumitrescu/McLean--Woerdeman theorem body was not obtained in the bounded search; that attribution follow-up remains explicitly recorded in L_F0043 and R_F0132.
 It is NOT used as an unverified theorem premise.
 This limits source-completeness and historical-priority claims, not the proved formulas.
 Sin07 supplies checked classical continuity attribution at its stated online-only scope; its original proof is not needed for the local compact-factor argument.

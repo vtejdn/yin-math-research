@@ -17,10 +17,11 @@ The following selected units retain their stated editions, passages, inspection 
 - [Yin_U003](Yin_U003.md)
 - [Yin_U004](Yin_U004.md)
 - [Yin_U005](Yin_U005.md)
+- [Yin_U006: rational matrices, atoms and the Lemma 5.19 repair](Yin_U006.md#msy23-u006)
 
 ## Accepted inputs
 
-See [Yin_U001](Yin_U001.md), [Yin_U002](Yin_U002.md), [Yin_U003](Yin_U003.md), [Yin_U004](Yin_U004.md).
+See [Yin_U001](Yin_U001.md), [Yin_U002](Yin_U002.md), [Yin_U003](Yin_U003.md), [Yin_U004](Yin_U004.md), [Yin_U005](Yin_U005.md), [Yin_U006](Yin_U006.md).
 This navigation does not enlarge those units' recorded source-inspection or independent-review scopes.
 
 ## Bounded linearization
@@ -30,7 +31,7 @@ This navigation does not enlarge those units' recorded source-inspection or inde
 
 ## Msy23 free field and atiyah source audit
 
-See [Yin_U001](Yin_U001.md), [Yin_U002](Yin_U002.md), [Yin_U003](Yin_U003.md), [Yin_U004](Yin_U004.md).
+See [Yin_U001](Yin_U001.md), [Yin_U002](Yin_U002.md), [Yin_U003](Yin_U003.md), [Yin_U004](Yin_U004.md), [Yin_U005](Yin_U005.md), [Yin_U006](Yin_U006.md).
 This navigation does not enlarge those units' recorded source-inspection or independent-review scopes.
 
 ## Hochschild source check

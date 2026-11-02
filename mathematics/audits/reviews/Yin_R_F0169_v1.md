@@ -44,7 +44,7 @@ No conclusion for correlated coordinate algebras, arbitrary noncommutative facto
 | [Conclusion](#conclusion) | [C_F0045 module mechanism](../../claims/Yin_C_F0045_v1.md#3-an-orthogonal-right-module-decomposition-of-the-full-core) | Sections 3-5 only: the entire polynomial-core module decomposition, conditional-expectation identity, completed-tensor cancellation and exact Hilbert direct-sum adjoint. Their applicability to the actual derivations in C_F0160 and the opposite-side version were rechecked. No little Grothendieck estimate is used. |
 | [Conclusion](#conclusion) | [C_F0159 radial statement](../../claims/Yin_C_F0159_v1.md#statement) | Part B input only: actual radial-A criterion and strengthened scalar pairing estimate with the marginal vacuum as fixed vector, including arbitrary positive-radius atoms and radii accumulating at zero. Its entire exact v1 proof is covered by R_F0166 and its present application is checked below. |
 | [Conclusion](#conclusion) | [C_F0159 radial argument](../../claims/Yin_C_F0159_v1.md#argument) | Reuse of the exact complete argument independently checked in R_F0166, including all atomic coefficients, positive remainder, cutoff removal and sharpness; no later or different radial proof is inferred. |
-| [Conclusion](#conclusion) | [Mai15-U003](../literature/Mai15/Yin_U002.md#mai15-u002) | Corrected Hilbert-valued Lemma 4.11 power-iteration mechanism, after the present quadratic inequalities and separate actual-adjoint power growth are established. The real coassociative energy identity and algebraic-range hypotheses of Theorem 4.9 are not imported. |
+| [Conclusion](#conclusion) | [Mai15-U002](../literature/Mai15/Yin_U002.md#mai15-u002) | Corrected Hilbert-valued Lemma 4.11 power-iteration mechanism, after the present quadratic inequalities and separate actual-adjoint power growth are established. The real coassociative energy identity and algebraic-range hypotheses of Theorem 4.9 are not imported. |
 | [Conclusion](#conclusion) | [C_F0072 statement](../../claims/Yin_C_F0072_v1.md#statement) | Part B only: two finite operator-norm-to-L2 slice bounds on the weakly dense represented star algebra imply the actual canonical closure and adjoint domains on all bounded vectors. The supplied actual vacuum agrees by uniqueness, and the two bounds and commutator passage are checked here. |
 
 ## Exact normal and marginal interfaces
@@ -242,7 +242,7 @@ This separate review rechecks the mechanisms used by C_F0160 and its new assembl
 C_F0076's full actual-A phase and tensor-adjoint facts are accepted inputs at the checked Part 1 scope; no new audit of the original ACSY24 or MSY23 proofs is claimed.
 The radial proof is covered by the same reviewer's separately performed R_F0166, whose exact v1 scope is retained.
 
-Mai15-U003 supplies the inspected source identification and the corrected Hilbert-valued scope for Lemma 4.11.
+Mai15-U002 supplies the inspected source identification and the corrected Hilbert-valued scope for Lemma 4.11.
 Its recorded source inspection is self-review, not a separately commissioned project review.
 The mathematical power-iteration argument and its nonreal power-growth hypothesis were independently checked here, so the application does not rely on treating the source's real energy formula as available in this setting.
 No new source-PDF or whole-source proof audit is claimed.

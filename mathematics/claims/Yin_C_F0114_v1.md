@@ -16,7 +16,7 @@ Date: 2026-09-16.
 Human record author: Yin.
 Proof developed by a Codex research agent; separate review by another AI agent identified the explicit common-domain clarification in Section 4.
 Consumer: [Yin_T_F0005_v1](../tasks/Yin_T_F0005_v1.md#decision-candidate-0001), Q1.
-The [selected assessment](#decision-candidate-0003) records the mathematical and review assessments.
+The [selected assessment](#decision-finding-owned-applicability) records the mathematical and review assessments.
 The comparison does not establish existence of a good reference dual.
 
 <a id="normal-dual-affiliated-comparison"></a>
@@ -175,6 +175,7 @@ The unresolved case is the general noncommuting tuple without these extra interf
 No general Q1 counterexample or proof results from this comparison.
 The scope excludes general reference existence.
 The separately recorded complete proof review covers the comparison and transfer, including the explicit Section 4 common-domain clarification.
+Its [current arrangement account](../audits/reviews/Yin_R_F0101_v1.md#current-relationship-and-repair-review-limitation) retains an unknown relationship and the pending isolated inspection of the repaired interface and affected chain; the proved mathematical assessment is unchanged.
 No proof-assistant verification or external human review is claimed.
 
 

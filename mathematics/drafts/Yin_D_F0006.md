@@ -239,94 +239,9 @@ For selfadjoint a with m=norm(a), the two elements \((m1+a)/2\) and \((m1-a)/2\)
 Their difference is a, so the bound becomes \(\|Ta\|_2\le2C\|a\|\) on selfadjoint tests and \(\|Ta\|_2\le4C\|a\|\) on arbitrary tests.
 Therefore a universal left positive-input quadratic theorem, applied also to the adjoint tuple, would prove both endpoint estimates without assuming a fixed-vector domination or a sharp constant.
 
-The sharp scalar fixed-vacuum domination does not extend even to selfadjoint mixed tests in the existing correlated-unitary model.
-Take the actual C_F0057 model: U Haar, V free from U with Poisson law of parameter \(0<r<1\), and target coordinates \((U,U^*V)\).
-This tuple has bounded duals and actual starred-core conjugate variables.
-For its U-coordinate derivative delta,
-\[
- \delta U=1\otimes1,\qquad
- \delta V=1\otimes U^*V,\qquad
- \delta V^*=-V^*\otimes U^*.
-\]
-Write \(\xi=\delta^*(1\otimes1)\), \(T=\delta^*(\,\cdot\,\otimes1)\), and set
-\[
- w=U^{-2}V^2,\qquad a=w+w^*=a^*,\qquad \|a\|\le2.
-\]
-The complete-square identity in C_F0158 v2, equation (Q13), and the actual adjoint pairing give
-\[
- \operatorname{Re}\langle T(a^2),\xi\rangle-\|Ta\|_2^2
- =-\operatorname{Re}(\tau\otimes\tau)((a\otimes U)\delta a).
- \tag{R2}
-\]
-Indeed the right side is norm(a) in L2 squared minus Re<Ta,aU>, after expanding delta(aU).
-The actual Leibniz calculation is
-\[
- \delta a=-U^{-1}\otimes U^{-2}V^2
- +U^{-2}V\otimes U^{-1}V
- -V^{-1}\otimes U^{-1}V^{-1}U^2
- +V^{-2}U\otimes1.
-\]
-Only its second term survives the trace pairing in (R2).
-Haar gauge invariance kills the other second-leg traces, and \(\tau(aU^{-2}V)=\tau(V^{-1})=r\).
-Consequently
-\[
- \operatorname{Re}\langle T(a^2),\xi\rangle-\|Ta\|_2^2=-r^2<0.
- \tag{R3}
-\]
-An exact-free-moment exploratory calculation located this word at r=1/2; the displayed four-term proof replaces that finite diagnostic as the mathematical evidence.
-The counterexample concerns the stronger fixed-vector bound with vector xi and constant one.
-It neither refutes (R1) with an unspecified finite constant nor either endpoint estimate: these unitary coordinates already have bounded duals.
-It also persists on strictly positive tests.
-Since T1=xi, the defect \(\operatorname{Re}\langle T(a^2),\xi\rangle-\|Ta\|_2^2\) is unchanged under \(a\mapsto a+c1\) for real c, by expansion of both sides.
-Thus \(b=3+w+w^*\ge1\) has exactly the same negative defect \(-r^2\).
-In fact C_F0158 v2 implies the always valid unitary bound
-\[
- \|Ta\|_2^2\le2\operatorname{Re}\langle T(a^*a),\xi\rangle,
-\]
-because adding the nonnegative term norm(a) in L2 squared to its completed-square identity replaces the vector 2xi-U by 2xi.
-
-The same family also tests whether increasing mixed-word degree can make the obstruction diverge for one fixed actual law.
-Let \(w_n=U^{-n}V^n\), \(a_n=w_n+w_n^*\), and \(n\ge1\).
-The normalized U-coordinate vacuum in this model is
-\[
- \xi=h(V)U,\qquad h=1+\mathrm i f_r,\qquad
- \|\xi\|_2^2=1+\frac{2r^2}{(1-r^2)^2},
-\]
-where the actual Poisson score f_r and its moments are retained in D_F0004, equations (T1)--(T3).
-To check the target normalization, let E_U,E_V be the vacuum-normalized bounded canonical contractions of the free reference pair.
-C_F0057's change of coordinates gives
-\[
- E_A=E_U+E_V\rho(U^*V)-\rho(U^*),\qquad
- E_A^*1=\xi_VV^*U=h(V)U.
-\]
-The subtracted right multiplier is necessary because the unnormalized changed dual sends 1 to U*.
-The actual adjoint formula and the same derivative expansion give
-\[
- Ta_n=U^{-n}\left(V^nh(V)+\sum_{j=1}^{n-1}r^jV^{n-j}\right)U
-       +V^{-n}U^nh(V)U.
- \tag{R4}
-\]
-The two displayed terms are orthogonal by Haar gauge invariance.
-Put \(s_n=\sum_{j=1}^{n-1}r^jV^{n-j}\).
-The identities \(\tau(h^*V^{-j})=(1-j)r^j\) and \(\|s_n\|_2^2=\sum_{j=1}^{n-1}(2j-1)r^{2j}\) show
-\[
- \|Ta_n\|_2^2=2\|\xi\|_2^2+\sum_{j=1}^{n-1}r^{2j},
- \qquad
- \operatorname{Re}\langle T(a_n^2),\xi\rangle=2\|\xi\|_2^2.
- \tag{R5}
-\]
-For the second equality, (R2) applies to a_n; its surviving trace terms give the negative of the same geometric sum.
-Also \(\langle Ta_n,\xi\rangle=0\) by gauge invariance.
-Hence the strictly positive \(b_n=3+a_n\ge1\), of norm at most five, has
-\[
- \|Tb_n\|_2^2=11\|\xi\|_2^2+\sum_{j=1}^{n-1}r^{2j},
- \qquad
- \operatorname{Re}\langle T(b_n^2),\xi\rangle=11\|\xi\|_2^2.
- \tag{R6}
-\]
-The sum is bounded by \(r^2/(1-r^2)\) for every fixed r.
-Thus this degree-growth attempt does not furnish an unbounded canonical map for a single actual-A tuple.
-Allowing r to approach one changes the tuple and makes its actual vacuum norm diverge faster than this defect; that family limit cannot be presented as a full-domain counterexample.
+The [fixed sharp-vacuum and degree-growth account](../ledger/Yin_L_F0055_v1.md#sharp-fixed-vacuum-and-degree-growth-failures) retains the complete R2--R6 calculations, including the strictly positive countertest and the bounded geometric-sum limit for a fixed actual law.
+The score and actual normalized vacuum used there are fixed in the same account.
+Those failures concern the sharp vector-xi constant-one inequality; they do not refute (R1) with an unspecified finite constant or either endpoint estimate.
 
 The next bounded-model diagnostic is the normal coordinate change \(X=U+\lambda U^2\), \(Y=U^*V\), with real \(|\lambda|<1/2\).
 Its inverse divided-difference multiplier is

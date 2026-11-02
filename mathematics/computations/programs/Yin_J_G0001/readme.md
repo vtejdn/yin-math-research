@@ -11,7 +11,7 @@ The sender-local JSON output files were not transferred or regenerated.
 Their original executions took place on 2026-10-06; this source retention is not a new execution or a new research allowance.
 The mathematical general inequalities are proved directly in the original fixed material, and the native evidence records its finite examples and bounded sufficient irreducibility tests.
 The later original coordinating reproduction with CPython 3.14.7 is distinct from the author executions with CPython 3.13.15.
-No program has been run during this retention.
+The receiving source-retention round did not execute these mathematical programs.
 
 ## Native files and original input
 
@@ -22,8 +22,9 @@ No program has been run during this retention.
 | [trace_probe.py](trace_probe.py) | `mathematics/computations/programs/Yin_J_G0114/trace_probe.json` (source only) | The same finite pattern range, added trace-polynomial certificates and the exact a/4 sign grid, -8<=a<=8. |
 
 The second program reads the first Python block in the retained L_G0001, and the third reads that material's second block and its preceding helpers.
-These literal original self-read paths and their mathematical source blocks remain actual required inputs; the saved standalone files do not claim to have existed at the original execution date.
-The programs preserve the original calculations; repository-relative source-input paths have been adapted to the receiving locations.
+The native programs resolve this required ledger from their own repository location, independently of the invocation directory.
+The trace program explicitly binds the retained second block's nested helper read to that same absolute ledger path; the historical L code blocks remain unchanged.
+The programs preserve the original calculations, and the saved standalone files do not claim to have existed at the original execution date.
 No receiver-local JSON output is asserted.
 
 ## Reproduction
@@ -47,4 +48,5 @@ Failure to obtain a finite-field or trace certificate is not a reducibility verd
 The original Lehmer example has absolute discriminant 1332031009, G20=79461 and G40=18006972477; the stronger threshold fails at 20 and passes at 40.
 These are finite, fixed-family outcomes, without an optimum, complete irreducibility enumeration, new uniform bound or unrestricted Mahler-gap conclusion.
 The original separate reviewer inspected Sections1–5 and the first output without a native rerun; the later coordinating reproduction and the author's own later probe checks retain their different scopes.
-This maintenance only retains source/evidence and performs static syntax and file/link checks.
+The current path repair checked required-input loading from the repository root, this J directory and a separate temporary directory, including the trace program's nested helper read.
+It preserved the mathematical code after helper loading and the historical L evidence; no full enumeration or receiver-local result was produced.

@@ -13,7 +13,7 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 | Field | Value |
 | --- | --- |
 | source-version | Tobias Mai, *Regularity of distributions of Wigner integrals*, [retained arXiv:1512.07593v2](../../../literature/pdf/Mai15--arxiv-v2.pdf), 44 pages. |
-| source-locator | Definition 4.8, Theorem 4.9, Lemmas 4.10 and 4.11, Corollaries 4.12 and 4.13, and the regular-conjugate-variable observation, printed/PDF pp.26-31. Supporting adjoint identities are in [Mai15-U001 v2](Yin_U001.md#mai15-u001). |
+| source-locator | Definition 4.8, Theorem 4.9, Lemmas 4.10 and 4.11, Corollaries 4.12 and 4.13, and the regular-conjugate-variable observation, printed/PDF pp.26-31. Supporting adjoint identities are in [Mai15-U001](Yin_U001.md#mai15-u001). |
 | inspection | 2026-10-16, AI source reader for Yin: every proof in this scope was read in full, its algebraic and Hilbert space steps checked, and all six original PDF pages visually inspected. The assessment is audited within the corrected scope described below, with standard Hilbert space and tracial inequalities retained as external inputs. This is source reading and self-review, not an independently commissioned project proof review or formal verification. |
 
 ### Exact hypotheses and conclusions

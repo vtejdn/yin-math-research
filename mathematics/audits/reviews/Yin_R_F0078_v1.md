@@ -611,7 +611,7 @@ No mathematical repair is recorded.
 ### Historical C_F0062: Permanent independent review binding: minimal rational states and original graphs
 
 Date: 2026-09-29.
-Human reviewer: Yin.
+Human record author: Yin.
 Independent reviewer: the reviewing agent.
 Mathematical contributors: the coordinating agent and `counterexample`.
 
@@ -750,7 +750,7 @@ The original independent wording stays historical.
 ### Historical C_F0064: Whole independent review: bounded rationality on the original weak core
 
 Date: 2026-09-29.
-Human reviewer: Yin.
+Human record author: Yin.
 Independent reviewing agent: another AI agent.
 Synthesis author: `counterexample`, with prior mathematical contributions disclosed in the proof.
 

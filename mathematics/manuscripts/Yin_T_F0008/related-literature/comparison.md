@@ -291,4 +291,4 @@ SH15's published PDF was discoverable but later extraction requests failed; exac
 The coordinating reader subsequently obtained the UCLA author copy of Boyd--Vandenberghe; the specific passages read are recorded in [the min--max analysis](minmax.md).
 No new artifacts were retained in that pass and no canonical source-registration or proof-review status is claimed.
 
-The original independent checks of the two local identifications, including their normalization and scope limits, are retained in [R_F0132](../paper/review.md#original-related-literature-bounded-review).
+The original independent checks of the two local identifications, including their normalization and scope limits, are retained in [the manuscript-local bounded findings](../paper/review.md#original-related-literature-bounded-review).

@@ -330,7 +330,7 @@ This local presentation check is not a new independent proof review or a review 
 <a id="circular-normality-remark"></a>
 ## Remark 7.1: Circular Counterexample
 
-The authoring agent self-reviewed the abbreviated current presentation of Remark 7.1 against [C_F0074](../../claims/Yin_C_F0074_v1.md#statement) and its independent fixed review [R_F0047](../../audits/reviews/Yin_R_F0047_v1.md#conclusion).
+The authoring agent self-reviewed the abbreviated current presentation of Remark 7.1 against [C_F0074](../../claims/Yin_C_F0074_v1.md#statement) and its fixed review [R_F0047](../../audits/reviews/Yin_R_F0047_v1.md#conclusion), whose initial-context relationship is unknown.
 The check retained the standard free semicircular pair, explicit bounded dual, zero fraction commutators for every pair and the inverse-closed-centralizer argument excluding the adjoint.
 This was a local presentation check, not a new independent proof review.
 

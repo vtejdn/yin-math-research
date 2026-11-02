@@ -17,7 +17,7 @@ Provenance: project deduction; no novelty claim.
 Assessment: [selected assessment](#current-assessment).
 This establishes the full equivalence in [Yin_C_F0001](Yin_C_F0001_v1.md#yin_c_f0001) when d=1, using the reviewed forward implication [Yin_C_F0002](Yin_C_F0002_v1.md#yin_c_f0002).
 
-Independent review: [Yin_C_F0004 audit](../audits/reviews/Yin_R_F0003_v1.md).
+Current independent review: [complete one-generator finding](../audits/reviews/Yin_R_F0061_v1.md#one-normal-generator-finding).
 
 ## Statement
 

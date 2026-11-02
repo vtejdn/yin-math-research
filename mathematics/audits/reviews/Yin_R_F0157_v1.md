@@ -16,9 +16,9 @@ The historical v1 assertion is retained and assessed below.
 
 The normal-branch author developed the triangle inequality and full Wick calculation; root proposed the finite-model diagnostic.
 The reviewer received their assignment summaries but did not develop this construction and did not read its D10 development.
-Earlier reviewer contributions to the different Haar/Poisson tests in D13 and the target resolvent obstruction C144 are development, not independent review of those results.
+Earlier reviewer contributions to the different Haar/Poisson tests in D13 and the target resolvent obstruction C_F0148 are development, not independent review of those results.
 They are not inputs to this finite semicircular triangle theorem.
-C142's unchanged realized-model construction, previously independently reviewed by this agent, is reused only at its exact declared scope.
+C_F0146's unchanged realized-model construction, previously independently reviewed by this agent, is reused only at its exact declared scope.
 
 The normalization issue below was found after reconstructing the formulas.
 The author then clarified that the intended vacuum was that of the gamma contraction, acknowledged the action-coefficient distinction, and issued v2 after root required preservation of v1.
@@ -50,8 +50,8 @@ Original mathematical calculations, negative v1 scope, passing v2 scope and date
 | [Conclusion](#conclusion) | [C_F0149 v2 statement](../../claims/Yin_C_F0149_v2.md#statement) | Actual finite tracial model for every n, positive entrywise symmetric coefficients, complex first-Wick vectors, uniform constant-one curvature estimate, exact full-degree core action, and all stated nonclaims. |
 | [Conclusion](#conclusion) | [C_F0149 v2 argument](../../claims/Yin_C_F0149_v2.md#argument) | Complete substitution/vacuum, D3 positive semidefiniteness, D4--D6 trace factors and operator-norm control, relative Wick normalization, D7--D10 including degrees zero through three, and precise remaining all-unitary limitations. |
 | [Conclusion](#conclusion) | [C_F0146 argument](../../claims/Yin_C_F0146_v1.md#argument) | Actual finite-coefficient reciprocal substitution and bounded-vacuum prototype. The extension to all n and the present coefficients is checked locally rather than imported from its three-block special case. |
-| [Conclusion](#conclusion) | [ACSY24-U004](../literature/ACSY24/Yin_U003.md#acsy24-u003) | Equation (1), actual tensor-adjoint domain for finite bounded core factors, after checking both free-reference vacua. No other assertions or uncertainties of that unit are used. |
-| [Conclusion](#conclusion) | [NS06-U003](../literature/NS06/Yin_U004.md#ns06-u004) | Exact semicircular mixed-moment equation (14.5), conditional second/fourth moments and derivation of the relative Wick recurrence. The local Wick formulas are not represented as a separately printed theorem in the source. |
+| [Conclusion](#conclusion) | [ACSY24-U003](../literature/ACSY24/Yin_U003.md#acsy24-u003) | Equation (1), actual tensor-adjoint domain for finite bounded core factors, after checking both free-reference vacua. No other assertions or uncertainties of that unit are used. |
+| [Conclusion](#conclusion) | [NS06-U004](../literature/NS06/Yin_U004.md#ns06-u004) | Exact semicircular mixed-moment equation (14.5), conditional second/fourth moments and derivation of the relative Wick recurrence. The local Wick formulas are not represented as a separately printed theorem in the source. |
 
 ## V1 normalization finding
 
@@ -172,8 +172,8 @@ For a selfadjoint first-Wick V, centeredness removes the linear scalar term in t
 ## Source limits and conclusion
 
 The three exact inputs were read at their declared scopes.
-The retained NS06 passages had also been directly read during this agent's preceding C142 review; that reading and U003 supply the mixed-moment interface, not a new audit of the complete book proof.
-ACSY's exact tensor-adjoint formula is reused at U004's recorded scope.
+The retained NS06 passages had also been directly read during this agent's preceding C_F0146 review; that reading and NS06-U004 supply the mixed-moment interface, not a new audit of the complete book proof.
+ACSY's exact tensor-adjoint formula is reused at ACSY24-U003's recorded scope.
 No new source acquisition, numerical experiment or formal verification is claimed.
 
 ## Conclusion

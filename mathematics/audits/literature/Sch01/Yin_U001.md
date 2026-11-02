@@ -58,7 +58,7 @@ No new project Claim is allocated for this specialization.
 ### Evidence and stopping boundary
 
 The subsequent MS24-focused audit on 2026-09-12 gives an [explicit finite-quotient proof of the injective free-group specialization](#finite-quotient-determinant-proof), including a direct finite-permutation construction for residual finiteness, possible kernels of the finite matrices, and the order of the logarithmic cutoff limits.
-That exact consumed input is now reconstructed and independently reviewed.
+That exact consumed input is reconstructed; its original R_F0129 finding retains an unknown initial-context relationship.
 This does not upgrade the broader kernel-removed statement or the full Sch01 closure theorem to a full-proof audit.
 The following paragraph retains the original source-access evidence.
 

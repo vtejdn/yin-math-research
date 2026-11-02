@@ -16,7 +16,7 @@ Date: 2026-09-16.
 Human record author: Yin.
 Argument developed by a research subagent following the coordinator's bounded curvature-interface investigation.
 Consumer: the separate normal-domain investigation, Q3.
-The [selected assessment](#decision-candidate-0003) records the mathematical and review assessments.
+The [selected assessment](#decision-finding-owned-applicability) records the mathematical and review assessments.
 No unrestricted normal-vacuum implication or Task completion is asserted.
 
 <a id="maximal-density-cauchy-core-transfer"></a>

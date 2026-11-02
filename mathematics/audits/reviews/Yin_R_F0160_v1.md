@@ -29,7 +29,7 @@ C_F0150's adopted actual-derivation construction is reused at its exact fixed sc
 Before this fixed proof review the reviewer had actually read the same D12 construction’s coupled coefficient expansion and failed termwise summation argument.
 Those are substantive development inputs to the present coefficient/cancellation problem, beyond the later fixed proof and accepted dependencies; the selected whole-proof conclusion therefore has a self relationship.
 Reconstructing the later complete-block and partial-block estimates does not remove that known shared context.
-The reviewer’s separate C144 or scalar work is not itself the reason for this relationship.
+The reviewer’s separate C_F0148 or scalar work is not itself the reason for this relationship.
 All original mathematics, dates, limits and historical independent wording are preserved; no new review is claimed and no reviewer-supplied repair is recorded.
 
 ## Review relationships

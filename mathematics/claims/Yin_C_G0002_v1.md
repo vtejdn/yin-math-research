@@ -4,9 +4,11 @@ author: Yin
 
 # Complete single-Haar bounded-weight variational identity and exact regularization boundary
 
-The complete original mathematical argument is retained from [L432](../ledger/Yin_L_G0002_v1.md#single-haar-formulation).
+The complete original mathematical argument is retained from [L_G0002](../ledger/Yin_L_G0002_v1.md#single-haar-formulation).
 Its original contributions, fixed inputs, useful failures, source inspection and native-execution limits are preserved.
-The original scalar baseline is dated2026-10-11. R256, F127 and F128 retain only their stated coefficient/scalar-functional interfaces and original targets; none is used as whole-account acceptance of this complete baseline. No original source inspection or foreign whole-proof review is repeated here.
+The original scalar baseline is dated2026-10-11.
+R_G0001, R_F0131 and R_F0132 retain only their stated coefficient/scalar-functional interfaces and original targets; none is used as whole-account acceptance of this complete baseline.
+No original source inspection or foreign whole-proof review is repeated here.
 The current constructor has read the original proof and historical reviews; any current whole finding by this constructor is SELF.
 
 ## Statement
@@ -71,7 +73,7 @@ No finite-dimensional free-semicircular formula, matrix-trace division, spectral
 | --- | --- |
 | date | 2026-10-22T19:41 |
 | status | proved |
-| reason | Under current human maintenance authorization, adopt the exact complete current Statement and original Argument after the actual R906 whole constructor SELF inspection. Preserve original dates, source/author/checking/interface limits, open summary predecessor and every unresolved arithmetic/near-one boundary. No new research or producer is selected. |
+| reason | Under current human maintenance authorization, adopt the exact complete current Statement and original Argument after the actual R_G0004 whole constructor SELF inspection. Preserve original dates, source/author/checking/interface limits, open summary predecessor and every unresolved arithmetic/near-one boundary. No new research or producer is selected. |
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -90,7 +92,7 @@ No finite-dimensional free-semicircular formula, matrix-trace division, spectral
 Original formulation: 2026-10-11.
 Human author Yin; the original authoring AI agent formulated and self-checked the elementary identities and their scope.
 This fixed account retains that baseline, its complete proofs, source interfaces and estimate-direction limitations.
-The later [R256 scalar-functional check](../audits/reviews/Yin_R_G0001_v1.md#whole-proof-finding), [F127 coefficient-interface check](../audits/reviews/Yin_R_F0131_v1.md#coefficient-whole-independent-finding) and [F128 scalar-capacity check](../audits/reviews/Yin_R_F0132_v1.md#scalar-capacity-whole-independent-finding) cover only their declared reused interfaces, not a whole-account acceptance or an integer Mahler gap.
+The later [R_G0001 scalar-functional check](../audits/reviews/Yin_R_G0001_v1.md#whole-proof-finding), [R_F0131 coefficient-interface check](../audits/reviews/Yin_R_F0131_v1.md#coefficient-whole-independent-finding) and [R_F0132 scalar-capacity check](../audits/reviews/Yin_R_F0132_v1.md#scalar-capacity-whole-independent-finding) cover only their declared reused interfaces, not a whole-account acceptance or an integer Mahler gap.
 No new proof review, numerical experiment or source inspection is represented by this retention.
 
 <a id="single-haar-formulation"></a>
@@ -205,11 +207,11 @@ The single-Haar functional may be studied for P or for specified F_a, but those 
 An estimate for the circle distribution of P does not automatically control the bundle's normalized signed correlations, nor replace its all-conjugate resultant calculation.
 Any cross-route inequality must retain actual inputs, weights, full resultants and radial expenses.
 
-The [L4 finite Gram/Toeplitz analysis](../ledger/Yin_L_G0001_v1.md#degree-window-tests), with the retained [Den09 finite-section input](../audits/literature/Den09/Yin_U002.md#finite-section-determinant), already supplies fixed-input limiting interpretations and finite certificates with their full degree/boundary costs.
+The [L_G0001 finite Gram/Toeplitz analysis](../ledger/Yin_L_G0001_v1.md#degree-window-tests), with the retained [Den09 finite-section input](../audits/literature/Den09/Yin_U002.md#finite-section-determinant), already supplies fixed-input limiting interpretations and finite certificates with their full degree/boundary costs.
 Its decreasing Schur residuals approach M(p)^2 from above.
 Reproducing that limit, a finite positive residual or qualitative logarithmic integrability does not establish (3).
 
-A correctly directed application of (3) still needs a named arithmetic constraint on the original single-Haar multiplier, or an explicit weighted inequality for the actual L318 auxiliary bundle, with degree dependence and behavior at circle zeros retained.
+A correctly directed application of (3) still needs a named arithmetic constraint on the original single-Haar multiplier, or an explicit weighted inequality for the auxiliary bundle described in the original source-local L318, with degree dependence and behavior at circle zeros retained.
 The relevant controls are cyclotomic inputs with m=0, noncyclotomic unit inputs with circle zeros, and the exact same original polynomial or auxiliary family used in the bound; this account contains no executed control calculation.
 Jensen/Mahler alone, an upper trial value, a fixed-input Toeplitz limit, or spectral separation that excludes the intended Salem scope does not supply (3).
 The continuing integer-Lehmer application is a separate arithmetic question; this scalar identity does not select that programme or change a Task disposition.

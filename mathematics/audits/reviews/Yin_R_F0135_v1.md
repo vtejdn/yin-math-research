@@ -177,7 +177,7 @@ The new example refutes the small-domain-to-full-domain implication and does not
 ## Sources and inspection limits
 
 The reviewer read the relevant fixed C_F0003 calculation and Xia23-U001's normalization and inspection limits, MSY23-U002's finite-cycle interface, ACSY24-U001's stated hypotheses and complete regularization section, Bla06-U001's adjoint criterion, and Shl06-U002's form-domain qualification.
-The comparisons with C_F0036's nondense module and C_F0026's diffuse denominator obstruction were checked against those statements.
+The comparisons with C_F0084's nondense module and C_F0026's diffuse denominator obstruction were checked against those statements.
 These inputs were accepted at their recorded scopes; the original MSY23, ACSY24, Blackadar, Shlyakhtenko, Xia and Shlyakhtenko--Turowska source proofs were not newly audited in full.
 
 The reviewer independently accessed the parsed 98-page [Yger author-hosted notes](https://www.math.u-bordeaux.fr/~ayger/mht836.pdf), checking the title/course identification and Example 2.18, equation (2.21), printed p.31 / PDF p.35.

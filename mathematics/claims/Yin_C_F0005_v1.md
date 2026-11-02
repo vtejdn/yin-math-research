@@ -15,7 +15,7 @@ author: Yin
 Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 Date: 2026-09-08.
 Provenance: project deduction using [MSY23, supplied as MSY23](../literature/pdf/MSY23.pdf) and [Yin_C_F0002](Yin_C_F0002_v1.md#yin_c_f0002).
-Assessment: [selected assessment](#current-assessment); [independent audit](../audits/reviews/Yin_R_F0004_v1.md).
+Assessment: [selected assessment](#current-assessment); [current independent whole-proof finding](../audits/reviews/Yin_R_F0061_v1.md#affiliated-descent-finding).
 The exact [Yin_C_F0001](Yin_C_F0001_v1.md#yin_c_f0001) remains stronger because it asks for bounded scalar division closure.
 
 ## Statement

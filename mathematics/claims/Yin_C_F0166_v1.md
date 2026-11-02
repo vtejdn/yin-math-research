@@ -24,7 +24,7 @@ The latter is a failure of the joint maximum; it asserts no failure of an ordere
 
 ## Provenance and accepted inputs
 
-The complete independent scalar derivation and two explicit failed candidate mechanisms are retained from [L_F0028 Sections 5-7](Yin_C_F0166_v1.md#5-independent-scalar-elliptic-infimum), authored by the parallel exploration agent on 2026-09-13.
+The complete independent scalar derivation and two explicit failed candidate mechanisms are [retained below in Sections 5-7](#5-independent-scalar-elliptic-infimum), authored by the parallel exploration agent on 2026-09-13.
 The scalar proof uses only the [C_F0119 Dyson identity and determinant primitive](Yin_C_F0119_v1.md), with its physical resolvent conventions, and does not use C_F0124 or the derived two-positive-matrix formula.
 No source theorem from the related Hachem--Loubaton--Najim search is imported.
 The phase and similarity counterexamples preserve the exact fixed noise and drift families of that original exploration.

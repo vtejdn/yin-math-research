@@ -15,7 +15,9 @@ It does not reopen a completed Task or claim resolution of either general implic
 
 ## Fixed complete results and their roles
 
-[Relative Delta for arbitrary tuples, C_F0111](../claims/Yin_C_F0111_v1.md) retains the complete general relative definition, both transpose formulas, the adjoint correction, the bounded-dual proof and source attribution.
+The requested complete arbitrary-tuple relative-Delta theorem has no adequate project-proof home identified in the retained public materials.
+The [CS05 source unit](../audits/literature/CS05/Yin_U001.md#cs05-u001) retains the relative cycle definition, the transpose/adjoint correction and the bounded-dual source mechanism at its stated scope.
+That source account does not supply the complete requested project extension; this missing-input limitation is retained separately from the normal-domain deductions below.
 [CS05-U001](../audits/literature/CS05/Yin_U001.md#cs05-u001) owns the bounded literature comparison.
 
 [Automatic norm continuity and scalar converse, C_F0069](../claims/Yin_C_F0069_v1.md) retains the new deductions from this investigation: every bare full-domain normal dual is automatically bounded M -> H; one selfadjoint generator with a bare full-domain dual satisfies the actual ACSY24 vacuum-adjoint condition.

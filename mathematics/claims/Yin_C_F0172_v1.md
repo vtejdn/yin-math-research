@@ -14,8 +14,8 @@ author: Yin
 For arbitrary deterministic complex means and finite complex semicircular coefficients, retain the centered determinant lower bound from the nonnegative real-linear mean correction, monotonicity and concavity under real scaling of a fixed mean, positive-capacity atomlessness for every shift and the coefficient-controlled logarithmic disk-mass bound.
 The zero-capacity case retains only the extended-real lower bound.
 No planar absolute continuity, strict determinant inequality, unique minimizing mean or Brown support/spectrum equality follows.
-The complete fixed argument below is retained from [Yin_C_F0172_v1](Yin_C_F0172_v1.md#argument) at 2026-10-21T02:21.
-Its original mathematical development, attribution, review dates and historical status statements remain in that fixed L.
+The complete fixed argument and original mathematical development are [retained below](#argument), including the historical author and limited collaborator checks and status statements.
+The complete formal self-review, its actual date and checking limits are retained in [R_F0177](../audits/reviews/Yin_R_F0177_v1.md#capacity-atomlessness-finding).
 This placement preserves existing mathematics; it selects no Task, objective change, new theorem role, novelty or publication claim.
 
 Dated candidate, “draft,” author-check and unadopted-status sentences within the retained text describe the original development.

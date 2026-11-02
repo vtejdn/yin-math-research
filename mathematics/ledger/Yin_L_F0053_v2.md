@@ -8,7 +8,7 @@ Yin requested full audits of Mai15 and MSW17, with particular attention to selfa
 Two source readers separately reviewed the retained 44-page Mai15 and 26-page MSW17 artifacts, and root rechecked the central adjoint/energy interfaces and the reported tensor-leg issue.
 The source records disclose the actual reading and proof scope, corrections and retained external inputs.
 This comparison is a synthesis of that work, not a new proof of A implies S or an independent project-theorem acceptance.
-The [Mai15 source assessment](../audits/literature/Mai15/readme.md) and [MSW17 source assessment](../audits/literature/MSW17/readme.md) own the detailed source findings.
+The [Mai15 whole-paper source assessment](../audits/literature/Mai15/Yin_U003.md#whole-paper-inspection-scope) and [MSW17 source assessment](../audits/literature/MSW17/readme.md) own the detailed source findings.
 The previous [literature collection](Yin_L_F0051_v1.md) retains its earlier, shallower reading scope.
 
 ## Revision of the sufficient right-sided target
@@ -39,9 +39,9 @@ Neither merely dense domains nor an arbitrary extension with different values an
 | MSW17 Proposition 2.4: highest-degree reduction of a polynomial relation | Well-defined coordinate derivations on the holomorphic algebra and their Leibniz word formulas | The argument itself needs neither selfadjoint nor normal generators. It concerns C<X>, not algebraic freeness of the generally related list (X,X*). |
 | Mai15 Theorem 4.9: two contraction estimates | A real derivation, algebraic core-tensor range, actual vacuum and zero coassociativity defect | The tested x is arbitrary, not required selfadjoint. General normal A does not automatically supply these structural hypotheses. |
 | MSW17 Lemma 3.4 | Ordinary selfadjoint free difference quotients, hence the preceding real/coassociative structure | Exact constants for arbitrary complex polynomials are supported by the fully checked Mai15 proof; a literal citation of Dab10's selfadjoint/unitary formulation alone is insufficient for that full range. |
-| Mai15 Proposition 4.14 and MSW17's two-sided kernel reduction | Both xu=0 and x*v=0, actual adjoint estimates and bounded approximation | The tested x or polynomial P need not be selfadjoint. Left and right kernel projections must be kept distinct. |
+| [Mai15 Proposition 4.14](../audits/literature/Mai15/Yin_U003.md#zero-divisor-survival) and MSW17's two-sided kernel reduction | Both xu=0 and x*v=0, actual adjoint estimates and bounded approximation | The tested x or polynomial P need not be selfadjoint. Left and right kernel projections must be kept distinct. |
 | MSW17 Proposition 3.9 and the entropy-dimension passage | Selfadjoint tuple, semicircular regularization and the selfadjoint free-Fisher/non-microstates entropy interfaces | The printed argument does not transfer by replacing the tuple by an arbitrary normal one. |
-| Mai15 directional-gradient proof | Real directions supply real coassociative derivations; finite-chaos degree and kernel contractions supply descent | Selfadjointness of the final Wigner element is used to express the final atom conclusion through a real spectral measure. The zero-divisor mechanism has a wider tested-element scope. |
+| [Mai15 directional-gradient proof](../audits/literature/Mai15/Yin_U003.md#directional-gradients) | Real directions supply real coassociative derivations; finite-chaos degree and kernel contractions supply descent | Selfadjointness of the final Wigner element is used to express the final atom conclusion through a real spectral measure. The zero-divisor mechanism has a wider tested-element scope. |
 
 Thus the abstract analytic bottleneck is not the requirement that every element tested in an estimate be selfadjoint.
 It is the combination of reality, actual iterated-domain control and the coassociative energy identity.
@@ -49,7 +49,7 @@ The source proofs explicitly distinguish these roles.
 
 ## Exact analytic interface and the remaining normal obstruction
 
-For a real, algebraic-core-valued coassociative derivation with xi=delta*(1 tensor 1), [Mai15-U003](../audits/literature/Mai15/Yin_U002.md#mai15-u002) checks
+For a real, algebraic-core-valued coassociative derivation with xi=delta*(1 tensor 1), [Mai15-U002](../audits/literature/Mai15/Yin_U002.md#mai15-u002) checks
 \[
  \|\delta^*(a\otimes1)\|_2,\ \|\delta^*(1\otimes a)\|_2
  \le\|\xi\|_2\|a\|,
@@ -120,9 +120,9 @@ The following are the consequential reuse boundaries.
   The proof uses only Hilbert norms, so replacing the codomain by L2 repairs the application without changing the constants.
 - Mai15 Corollary 4.12 omits the actual vacuum-adjoint assumption while using delta*(1 tensor 1) and Theorem 4.9.
   Its usable statement includes that assumption.
-- Mai15's complex-direction notation has conjugation and field/Wick-vector issues; the source units give the corrected conventions.
+- Mai15's complex-direction notation has conjugation and field/Wick-vector issues; the [directional-gradient record](../audits/literature/Mai15/Yin_U003.md#directional-gradients) gives the corrected conventions.
   The real-direction proof needed for the main finite-chaos result survives these corrections.
-  The continuity estimate in Lemma 5.9 also needs its direction norm factor.
+  The [continuity estimate in Lemma 5.9](../audits/literature/Mai15/Yin_U003.md#degree-reduction) also needs its direction norm factor.
 - MSW17 Proposition 3.9's p.17 displayed limit uses the wrong tensor leg after taking P(X^t)*v.
   The correct first-order norm involves (partial P)(X)*(v tensor 1), equivalently (v* tensor 1)(partial P)(X), rather than componentwise star followed by right multiplication on the second leg.
   The reported counterexample checks the displayed identity; it does not by itself refute the entire constant-16 inequality.

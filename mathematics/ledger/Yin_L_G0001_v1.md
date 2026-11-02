@@ -8,7 +8,9 @@ Date: 2026-10-06.
 Owner: assigned trajectory agent for Yin, with the coordinating and separate reviewing agents identified below.
 Scope: preserved exploratory integer orbit-Gram research for Yin.
 This is not a canonical Claim or a solution of Lehmer; execution monitoring belongs to the run record.
-The complete precise finite theorem and limits are now in [C209](../claims/Yin_C_G0001_v1.md#statement), and all three original programs and outputs have their native home in [J114](../computations/programs/Yin_J_G0001/readme.md).
+The complete precise finite theorem and limits are in [C_G0001](../claims/Yin_C_G0001_v1.md#statement).
+The three native programs are retained in [J_G0001](../computations/programs/Yin_J_G0001/readme.md), while their original exact output bodies remain in the ledger blocks below.
+The sender-local JSON output addresses in the J README are source-only; those files were not received or locally generated.
 The original mathematical and native blocks below remain the fixed historical inputs used by their actual earlier reviewers and by the programs' literal self-read paths.
 
 ## First-batch outcome and freeze

@@ -554,7 +554,7 @@ The mathematical statement, complete argument and all historical decisions remai
 | --- | --- |
 | date | 2026-10-22T21:38 |
 | status | proved |
-| reason | Adopt the exact unchanged main construction and optional bh extension with their separate actual independent findings. R186 keeps the main Sections1–7 scope; the new R944 finding supplies the complete Section8 scope. Original UNKNOWN and contributor findings retain their dates, inputs and useful boundaries in their responsible homes, without a new Task completion or research execution. |
+| reason | Adopt the exact unchanged main construction and optional bh extension with their separate actual independent findings. R_F0056 keeps the main Sections1–7 scope; the new R_F0082 finding supplies the complete Section8 scope. Original UNKNOWN and contributor findings retain their dates, inputs and useful boundaries in their responsible homes, without a new Task completion or research execution. |
 
 | Relation | Target | Scope |
 | --- | --- | --- |
@@ -563,7 +563,7 @@ The mathematical statement, complete argument and all historical decisions remai
 | review | [Exact retained input](../audits/reviews/Yin_R_F0056_v1.md#main-counterexample-finding) | Actual new complete independent inspection of the unchanged main statement and Sections 1–7, with exact original-contract and source interfaces; Section 8 is expressly excluded. |
 | review | [Exact retained input](../audits/reviews/Yin_R_F0007_v1.md#verification-facts-and-outcome) | Original complete contributor integration review, self-reviewed with the earlier mathematical checks disclosed. |
 | review | [Exact retained input](../audits/reviews/Yin_R_F0054_v1.md#completion-finding-and-verification-boundaries) | Original complete coordinating contributor audit of the exact counterexample and original-contract interface; no new mathematical inspection date or independent certification. |
-| review | [Actual isolated bh extension finding](../audits/reviews/Yin_R_F0082_v1.md#current-bh-extension) | Complete Section8 bh extension and its actually used Sections1–7 interfaces only, both exact rank-one commutators, adjoint norm exclusion and minimal monic representation; initial independent finding2026-10-22T21:12. Main1–7 remain independently covered by R186 at its actual scope. |
+| review | [Actual isolated bh extension finding](../audits/reviews/Yin_R_F0082_v1.md#current-bh-extension) | Complete Section8 bh extension and its actually used Sections1–7 interfaces only, both exact rank-one commutators, adjoint norm exclusion and minimal monic representation; initial independent finding2026-10-22T21:12. Main1–7 remain independently covered by R_F0056 at its actual scope. |
 
 ## Historical assessments
 

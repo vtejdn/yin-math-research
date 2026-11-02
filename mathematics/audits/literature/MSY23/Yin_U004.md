@@ -11,7 +11,7 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 - Source: [MSY23, user-supplied published MSY23.pdf](../../../literature/pdf/MSY23.pdf), JFA 285 (2023), article 110016; canonical work key MSY23.
 - Locators: Section 5.1, printed/PDF pp. 28-34, through Remark 5.11.
 All pages were read; pp. 29 and 32-34 were also checked as rendered pages.
-Corollary 5.12 and the beginning of Corollary 5.13 on p. 34 were read for the handoff to the next unit.
+Corollary 5.12 and the beginning of Corollary 5.13 on p. 34 were read for the handoff to the [spectral unit U006](Yin_U006.md#msy23-u006).
 - Record: 2026-09-08, the main unit authoring agent; proof audit for [MSY23 free-field and Atiyah source audit](readme.md#msy23-free-field-and-atiyah-source-audit).
 Independent review of the main pp. 28-34 unit by the main unit reviewing agent is recorded below; the later p. 36 supplement has a separate review boundary.
 - Result: Lemmas 5.1-5.5, Theorem 5.6, Lemma 5.9, and Remarks 5.7-5.11 are accepted within the declared affiliated-operator and free-field foundations.
@@ -328,7 +328,7 @@ The main proof uses only the affiliated \(*\)-algebra/polar-decomposition founda
 Lemma 5.9's external citation is replaced here by a local closure-domain proof.
 The p. 36 supplement separately identifies its additional projection-comparison input, needed only for the stronger arbitrary-domain inner-rank statement.
 No normalization or adjoint convention was transferred from a different version.
-Theorem 5.6 is source-independent of \(\Delta\) or dual systems; combining it with Theorem 3.1 requires that earlier unit's audit, and Corollary 5.12 is handed to the subsequent spectral unit.
+Theorem 5.6 is source-independent of \(\Delta\) or dual systems; combining it with Theorem 3.1 requires that earlier unit's audit, and Corollary 5.12 is handed to the [spectral unit U006](Yin_U006.md#msy23-u006).
 No claim of formal verification, exhaustive external-errata search, or bounded-intersection resolution is made.
 Initial unit, 2026-09-08.
 

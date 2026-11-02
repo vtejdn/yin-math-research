@@ -15,8 +15,8 @@ For arbitrary finite complex coefficient matrices, retain the normalized paired 
 The same circular characterization and phase invariance hold for every centered semicircular pencil whose pseudo-covariance vanishes identically, without a paired presentation.
 Zero or singular coefficients are allowed.
 This checks the radial theorem’s hypotheses and does not re-audit its Brown or spectral proof.
-The complete fixed argument below is retained from [Yin_C_F0173_v1](Yin_C_F0173_v1.md#argument) at 2026-10-21T02:21.
-Its original mathematical development, attribution, review dates and historical status statements remain in that fixed L.
+The complete fixed argument and original mathematical development are [retained below](#argument), including their attribution and historical status statements.
+The original formal review, its actual date, arrangement and checking limits are retained in [R_F0130](../audits/reviews/Yin_R_F0130_v1.md#circular-example-independent-review).
 This placement preserves existing mathematics; it selects no Task, objective change, new theorem role, novelty or publication claim.
 
 Dated candidate, “draft,” author-check and unadopted-status sentences within the retained text describe the original development.

@@ -261,15 +261,24 @@ Historical inspection dates and review limits remain in the cited evidence.
 | --- | --- | --- |
 | contract | [Exact material](#contract) | Exact original contract and success conditions retained in this material. |
 | dependency | [Exact material](../claims/Yin_C_F0067_v1.md#decision-candidate-0002) | Complete positive resolution of the unchanged canonical finite-Fisher contract: SOME iff ALL raw finite-rank criterion for every affiliated element and arbitrary bounded fractions, actual equality on every full natural domain, universal density, unique intrinsic representatives and coordinate numerical-rank independence. Exact proof inputs C_F0022 (recorded assessment 3) and C_F0063 (recorded assessment 2) are declared in that Claim. |
-| review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r109-conclusion) | Whole unchanged T_F0001 (recorded assessment 10) contract/material v6 and prepared resolution material v7; complete C_F0067_v1 proof accepted at recorded assessment 2 with C_F0022 (recorded assessment 3)/C_F0063 (recorded assessment 2) interfaces, every S/A/C quantifier, full literal natural domains and extension uniqueness, arbitrary bounded nonrational coefficients, genuinely unbounded rational elements, d=1 and semicircular benchmark. Separate whole-proof and contract AI review passed, with accepted-input/source and context-exposure boundaries disclosed. |
+| review | [Exact material](../audits/reviews/Yin_R_F0079_v1.md#retained-r109-conclusion) | Whole unchanged T_F0001 (recorded assessment 10) contract/material v6 and prepared resolution material v7; complete C_F0067_v1 proof accepted at recorded assessment 2 with C_F0022 (recorded assessment 3)/C_F0063 (recorded assessment 2) interfaces, every S/A/C quantifier, full literal natural domains and extension uniqueness, arbitrary bounded nonrational coefficients, genuinely unbounded rational elements, d=1 and semicircular benchmark. Separate whole-proof and contract AI review passed at the recorded mathematical scope. This retained completion finding has an unknown initial-context relationship; the later isolated C_F0067 proof finding does not itself provide a new independent Task-completion finding. |
 
-Recorded mathematical summary: Completed by the independently reviewed C_F0067 (recorded assessment 2) theorem under the unchanged finite-Fisher canonical-closure contract.
+Recorded mathematical summary: completed by the C_F0067 theorem at recorded assessment 2 under the unchanged finite-Fisher canonical-closure contract.
+The originally adopted review retains its unknown relationship; the later [isolated whole-proof finding](../audits/reviews/Yin_R_F0079_v1.md#fresh-c109-whole) covers C_F0067 at its actual scope, without a new Task-completion finding.
 The raw criterion on the full natural domains is equivalent to rationality for SOME and ALL bounded fraction quadruples, and every bounded finite-rank extension equals C_F0063's unique intrinsic representative.
 C_F0022 already supplies the identical canonical dual and adjoint domains on all bounded vectors; the new adjoint-test bridge establishes agreement on every natural-domain vector.
 Numerical-rank independence also holds.
 Earlier intrinsic and supplied-domain counterexample completions remain preserved.
 
 Original accompanying material and inspection boundaries are listed under [recorded review scopes](#recorded-review-scopes).
+
+## Pending independent completion-chain inspection
+
+The historical completion decision and its mathematical support remain selected at their recorded dates and scope.
+The adopted original R_F0079 completion finding has an unknown initial-context relationship.
+A separately sufficient independent inspection of the complete canonical-closure Task chain is not selected here and remains pending, including the exact S/A/C contract, all natural-domain and fraction quantifiers, C_F0067 and its actual C_F0022/C_F0063 interfaces and accepted source limits.
+The later independent C_F0067 whole-proof finding may be reused only at that proof scope; it does not discharge the complete Task-chain obligation.
+This pending inspection does not reopen or activate execution.
 
 ## Recorded review scopes
 

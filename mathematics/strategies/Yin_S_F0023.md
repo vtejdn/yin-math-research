@@ -49,7 +49,8 @@ Ordinary hermitization then covers arbitrary complex coefficients; no signed-Sch
 
 ## Evidence, Disposition and Reopening
 
-The [complete independent review](../audits/reviews/Yin_R_F0124_v1.md) checks both inequalities, singular limits, the original full MS24 coefficient scope and Yin_C_F0121's positive regime.
+The [original complete finding](../audits/reviews/Yin_R_F0124_v1.md#obligations-and-evidence) is self-reviewed and checks both inequalities, singular limits, the original full MS24 coefficient scope and Yin_C_F0121's positive regime.
+The current C_F0124 decision separately selects the later [isolated whole-proof finding](../audits/reviews/Yin_R_F0178_v1.md#affine-infimum-whole-proof); it does not reclassify the original review.
 The route's stated general variational deliverable is achieved.
 The [goal record](../tasks/Yin_T_F0008_v1.md#yin_t_f0008) separately decides completion of its three milestones.
 

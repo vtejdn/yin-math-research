@@ -40,7 +40,8 @@ Brown support and the whole spectrum remain different targets.
 ## Completed Deliverable and Reopening Conditions
 
 [Yin_C_F0126](../claims/Yin_C_F0126_v1.md#yin_c_f0126), specialized to drift \(-zI\), gives the full shifted logarithmic potential as an unrestricted positive-matrix infimum.
-Its independent review (original material now separated into [Yin_R_F0128_v1](../audits/reviews/Yin_R_F0128_v1.md), [R_F0174 determinant-presentation finding](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding)) includes zero determinant and the justified removal of regularization.
+Its [complete signed-Schur self-review](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) includes zero determinant and the justified removal of regularization.
+The [R_F0174 self-review](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding) covers the determinant-first reordering at its narrower scope.
 [Yin_C_F0123](../claims/Yin_C_F0123_v1.md#yin_c_f0123) retains the finite regularized derivative system, positive Brown density and weak-limit interface, with its [existing review](../audits/reviews/Yin_R_F0181_v1.md#new-calculations-checked).
 These derivatives are not obtained by differentiating an unattained infimum.
 Selfadjoint Stieltjes inversion and [Yin_C_F0122's isotropic density](../claims/Yin_C_F0122_v1.md#spectral-information-and-a-determinant-form) retain their stated scopes.

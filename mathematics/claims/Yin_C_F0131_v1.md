@@ -271,7 +271,7 @@ Apply C_F0072 with these two constants.
 Its quantitative vacuum estimate gives (7), and its exact core-adjoint and original-closure graph argument gives (8).
 No closability of the supplied D_i is used to establish either bound.
 
-Condition (5) includes every projectively summable expansion used in C_F0047.
+Condition (5) includes every projectively summable expansion used in C_F0039.
 Indeed, if sum_n ||c_n||||d_n||<infinity, rescale each nonzero elementary tensor by
 
 \[

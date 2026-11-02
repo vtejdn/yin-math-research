@@ -18,7 +18,7 @@ Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001), route [Yin_S_F0005]
 Date: 2026-09-09.
 Provenance: project deduction using exact Schur algebra and [Yin_C_F0004](Yin_C_F0004_v1.md#yin_c_f0004).
 This is a restricted result for specified representations of elements covered by [Yin_C_F0005](Yin_C_F0005_v1.md#yin_c_f0005); it does not settle the complete two-state or general converse.
-Assessment: [selected assessment](#decision-isolated-review-20261022); the [independent audit](../audits/reviews/Yin_R_F0063_v1.md#scalar-pivot-finding) records the completed review.
+Assessment: [selected assessment](#decision-isolated-review-20261022); the [independent audit](../audits/reviews/Yin_R_F0063_v1.md#scalar-pivots) records the completed review.
 No novelty claim is made.
 
 ## Setting and Statement

@@ -18,7 +18,7 @@ Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 Date: 2026-09-09.
 Provenance: project deduction from [Yin_C_F0002](Yin_C_F0002_v1.md#yin_c_f0002), [Yin_C_F0005](Yin_C_F0005_v1.md#yin_c_f0005), and the audited [MSY23 bounded-dual/maximal-Delta interfaces](../audits/literature/MSY23/readme.md#accepted-inputs).
 Prepared in response to the user's request to use the classical Kronecker proof to advance Yin_C_F0001.
-Current assessment: [selected assessment](#decision-isolated-review-20261022); review evidence remains in the [independent audit](../audits/reviews/Yin_R_F0062_v1.md#rational-state-finding).
+Current assessment: [selected assessment](#decision-isolated-review-20261022); review evidence remains in the [independent audit](../audits/reviews/Yin_R_F0062_v1.md#rational-states).
 No novelty claim is made.
 
 The unrestricted result identifies the actual finite commutators with algebraically differentiated rational expressions and supplies rational L2 factors.
@@ -369,7 +369,7 @@ The present result supplies neither that scalar descent nor the reverse implicat
 It does not assume a bounded dual can be normalized to kill Omega, and it does not extend the commutator formula to arbitrary affiliated inputs as a bounded-operator identity.
 
 The proof uses the already audited maximal-Delta and affiliated-operator foundations, ordinary finite-dimensional linear algebra, and an explicit Schur-test example.
-The [independent mathematical review](../audits/reviews/Yin_R_F0062_v1.md#rational-state-finding) records its checked artifact and scope; the [selected assessment](#decision-isolated-review-20261022) records the assessment.
+The [current independent mathematical review](../audits/reviews/Yin_R_F0062_v1.md#rational-states) records its checked artifact and scope; the [selected assessment](#decision-isolated-review-20261022) records the assessment.
 No numerical computation, formal verification, external human review, or full new source audit is claimed.
 
 

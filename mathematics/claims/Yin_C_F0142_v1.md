@@ -98,7 +98,7 @@ No implication A-to-F, F-to-A or S-to-A is asserted for the tuple (1).
 
 ### 1. Sources, actions and generation
 
-The finite-tracial affiliated algebra is used at the checked [AP18 interface in Miy26-U008](../audits/literature/Miy26/Yin_U004.md#miy26-u004).
+The finite-tracial affiliated algebra is used at the checked [AP18 interface in Miy26-U004](../audits/literature/Miy26/Yin_U004.md#miy26-u004).
 AP18 Theorem 7.2.8, printed pp.105-106, makes the closed densely defined affiliated operators a star algebra with closure of sums and products; Theorem 7.3.2 identifies L2 vectors with square-integrable affiliated operators.
 The registered primary PDF was reread at PDF pp.111-112 for the sum, product and adjoint rules.
 These are accepted source interfaces, not a new audit of the foundational proofs.

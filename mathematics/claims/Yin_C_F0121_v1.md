@@ -13,7 +13,7 @@ author: Yin
 
 <a id="yin_c_f0121"></a>
 The final statement is the [minimum over all matrix supersolutions](#minimum-over-all-matrix-supersolutions); earlier certificate bounds are retained as stages of its proof.
-Current assessments are recorded in the [selected assessment](#decision-candidate-0004); no mathematical Role is assigned.
+Current assessments are recorded in the [selected assessment](#decision-m04-isolated-review); no mathematical Role is assigned.
 
 Record kind: project deduction and bounded exploration.
 Date: 2026-09-12.

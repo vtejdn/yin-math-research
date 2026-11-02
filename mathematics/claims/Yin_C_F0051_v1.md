@@ -16,7 +16,7 @@ Date: 2026-09-16.
 Human record author: Yin.
 A research subagent developed the argument following the coordinator's upper-density proposal.
 Consumer: the separate normal-domain investigation, Q3.
-The [selected assessment](#decision-candidate-0003) records the mathematical and review assessments.
+The [selected assessment](#decision-finding-owned-applicability) records the mathematical and review assessments.
 The original Task quantifiers remain unchanged.
 
 <a id="upper-density-normal-core-transfer"></a>

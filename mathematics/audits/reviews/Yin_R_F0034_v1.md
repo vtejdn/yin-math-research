@@ -5,7 +5,7 @@ author: Yin
 # Permanent whole independent review: intrinsic affiliated criterion
 
 Date: 2026-09-29.
-Human reviewer: Yin.
+Human record author: Yin.
 Independent reviewing agent: another AI agent.
 Authors: another AI agent and the coordinating agent at the explicitly disclosed respective scopes.
 

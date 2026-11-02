@@ -18,7 +18,7 @@ Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
 Route: [Yin_S_F0005](../strategies/Yin_S_F0005.md#s_f0005).
 Date: 2026-09-09.
 Provenance: project deduction from [Yin_C_F0007](Yin_C_F0007_v1.md#yin_c_f0007), the bounded-dual relation, and finite-tracial noncommutative Holder inequalities.
-Assessment: [selected assessment](#current-assessment); the [independent audit](../audits/reviews/Yin_R_F0005_v1.md) records the checked artifact and scope.
+Assessment: [selected assessment](#current-assessment); the [self-reviewed bounded-probe finding](../audits/reviews/Yin_R_F0005_v1.md#bounded-probe-finding) records the checked artifact and scope.
 No novelty is asserted.
 
 The bounded dual acts on the actual L2 states without any word expansion.
@@ -250,7 +250,7 @@ No word-basis orthogonality, free independence, Fock coefficient estimate, or un
 
 The preparer reconstructed (1)-(5), the trace-separation step and both boundary examples.
 Before this file was drafted, the coordinating agent independently checked the H-to-U passage, Holder step, probe surjectivity and conditional polynomial-density argument in discussion.
-The linked independent audit reviews the completed artifact and rechecks the exact Tao06 source interface.
+The linked self-reviewed finding checks the completed artifact and the exact Tao06 source interface at its recorded reading depth.
 No numerical experiment, formal verification or external human review is claimed.
 
 

@@ -19,7 +19,7 @@ Date: 2026-09-09.
 Provenance: project deduction completing the scaled-semicircular candidate preserved in the [historical exploration](../ledger/Yin_L_F0002_v1.md).
 Initial candidate: another AI agent; complete proof and center argument: another AI agent.
 No novelty claim.
-Assessment: [selected assessment](#current-assessment); the [independent full-chain audit](../audits/reviews/Yin_R_F0006_v1.md) records root's completed review.
+Assessment: [selected assessment](#current-assessment); the [self-reviewed full-chain finding](../audits/reviews/Yin_R_F0006_v1.md#scaled-model-finding) records root's completed review.
 
 ## Statement and Scope
 
@@ -384,7 +384,7 @@ Every local step above was reconstructed directly: the bounded convex-hull limit
 The external boundaries remain those declared in the linked MSY23, Miy22, Voi98 and Dab10 units.
 The earlier exploration remains a historical draft and is not silently overwritten by this completed argument.
 
-The linked independent audit covers this assembled proof and its exact scope.
+The linked self-reviewed finding covers this assembled proof at its exact declared scope.
 No numerical computation, proof-assistant verification, external human review, or literature-priority assessment is claimed; those activities were not performed.
 
 

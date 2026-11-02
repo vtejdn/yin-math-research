@@ -11,6 +11,9 @@ The inspected source is the supplied [434-page publisher-layout edition](../../.
 Printed page numbers equal PDF page numbers minus 17.
 This differs from the 430-page author-hosted edition inspected for the earlier Miy26 source interface.
 
+The earlier online author-edition readings retain their historical +13 page correspondence and selected-reading scope, without establishing identity with the newly retained author-hosted bytes.
+The current [U001](Yin_U001.md#ns06-u001) and [U002](Yin_U002.md#ns06-u002) record the 434-page publisher-layout edition and its +17 correspondence.
+
 The following selected units retain their stated editions, passages, inspection dates, and review limits.
 
 - [Yin_U001](Yin_U001.md)

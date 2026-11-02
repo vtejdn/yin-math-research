@@ -17,7 +17,7 @@ The development account inside the Claim was read as part of the artifact and wa
 The v1 proof was not consulted and supplies no evidence for this review.
 
 The reviewer first read the v2 statement and argument, enumerated its obligations, and independently recalculated the identities below.
-The exact interfaces of C_F0076 Part 1, C_F0043 Section 3, Mai15-U003 and the mixed-coordinate passage of C_F0071 v2 were read before the conclusion was formed.
+The exact interfaces of C_F0076 Part 1, C_F0043 Section 3, Mai15-U002 and the mixed-coordinate passage of C_F0071 v2 were read before the conclusion was formed.
 After the initial mathematical checks, the selected C_F0076 decision and the arrangement and first-section evidence of its R_F0049 review were read to confirm the existing accepted-input boundary.
 No earlier review conclusion for C_F0158 was consulted.
 
@@ -42,7 +42,7 @@ No manuscript, Task completion or unrestricted normal-tuple implication from A t
 | [Conclusion](#conclusion) | [C_F0076 Part 1](../../claims/Yin_C_F0076_v1.md#statement) | Full normal ACSY hypotheses imply zero derivative at every other starred generator and elementary-tensor adjoint domains; no Part 2-3 conclusion is imported. |
 | [Conclusion](#conclusion) | [C_F0076 first argument section](../../claims/Yin_C_F0076_v1.md#1-diffuseness-the-phase-and-closability) | Differentiated normality, coarse-space injectivity and actual tensor-adjoint interface at their used scope, with the existing accepted source premises. |
 | [Conclusion](#conclusion) | [C_F0043 Section 3](../../claims/Yin_C_F0043_v1.md#3-a-unitary-polynomial-core-has-the-required-two-bounds) | Equations 6-13: real inner twist, actual vacuum and core adjoint, exact first-order defect and energy; the zero-derivative extension to arbitrary other normal coordinates was independently checked. |
-| [Conclusion](#conclusion) | [Mai15-U003](../literature/Mai15/Yin_U002.md#mai15-u002) | Real, algebraic-range, coassociative actual-vacuum hypotheses and the exact quadratic identity for arbitrary core elements, with corrected L2 codomain and right aa* orientation. |
+| [Conclusion](#conclusion) | [Mai15-U002](../literature/Mai15/Yin_U002.md#mai15-u002) | Real, algebraic-range, coassociative actual-vacuum hypotheses and the exact quadratic identity for arbitrary core elements, with corrected L2 codomain and right aa* orientation. |
 | [Conclusion](#conclusion) | [C_F0071 v2 mixed-coordinate passage](../../claims/Yin_C_F0071_v2.md#reverse-implication-for-mixed-selfadjointunitary-tuples) | Existing zero-derivative mixed-coordinate adjoint and defect calculation, checked as an interface comparison; arbitrary-normal applicability additionally uses C_F0076. |
 
 ## Hypotheses and actual domains
@@ -141,7 +141,7 @@ No reality assumption on the original unitary derivation is used.
 
 For a selfadjoint distinguished coordinate, the generator check gives reality, algebraic tensor range and zero coassociativity defect on the full mixed core.
 The core is weakly dense because the tuple generates M, and the vacuum and elementary adjoint domains are actual.
-These are exactly the Mai15-U003 hypotheses for its arbitrary-element identity with L2-valued adjoint.
+These are exactly the Mai15-U002 hypotheses for its arbitrary-element identity with L2-valued adjoint.
 Changing the source's inner-product convention leaves the real-part identity unchanged.
 The selfadjoint vacuum and T_r(a)=T_ell(a*)* then give the right aa* identity by traciality.
 No theorem for a general nonreal or merely completed-tensor-valued derivation has been substituted.
@@ -170,7 +170,7 @@ This is not a new audit of those external papers or of C_F0076 Parts 2-3.
 C_F0043 equations 6-13 and the corresponding C_F0071 v2 passage were recalculated directly.
 The later analytic approximation, curve transfer and all-M graph arguments in C_F0043 are unused.
 
-The complete Mai15-U003 unit was read, including the algebraic-range requirement, corrected L2 codomain, exact identity, convention and separate stronger vacuum-regularity hypotheses.
+The complete Mai15-U002 unit was read, including the algebraic-range requirement, corrected L2 codomain, exact identity, convention and separate stronger vacuum-regularity hypotheses.
 Its retained source identification and inspection supply the accepted external interface.
 The primary Mai15 PDF was not reopened, and its original proof is not claimed to have received a new independent source audit.
 The project adaptation and hypothesis match were independently checked.

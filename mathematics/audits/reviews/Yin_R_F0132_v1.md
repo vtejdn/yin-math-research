@@ -5,7 +5,9 @@ author: Yin
 
 Date: 2026-10-13T06:42.
 Human record author Yin.
-Root independently reviews the complete scalar author artifact D_F0002 frozen14:36 and matrix author artifact D_F0003 frozen14:37.
+Root's original independent-review account concerns the complete scalar author artifact frozen14:36 and matrix author artifact frozen14:37.
+Their historical draft bytes and exact former addresses are not established by the currently reused D_F0002/D_F0003 addresses.
+The retained complete fixed accounts and author freezes are [L_F0043](../../ledger/Yin_L_F0043_v1.md#scalar-capacity-entire-author-freeze) and [L_F0045](../../ledger/Yin_L_F0045_v1.md#matrix-capacity-entire-author-freeze), with their actual review bindings below.
 The separate scalar and matrix agents developed the formulas and proofs.
 Root assigned scope, coordinated sources and supplied unadopted bibliographic leads, but supplied no Gram, dual, prediction, field, compression or norm derivation and made no target repair.
 Shared author summaries and context were available; no blindness is claimed.

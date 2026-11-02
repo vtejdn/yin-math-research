@@ -7,7 +7,7 @@ Date: 2026-10-14.
 Human author Yin.
 This fixed comparison incorporates the circular obstruction and distinguishes maximal-Delta boundary solvability from finite rank of specified fraction commutators.
 Root checked the comparison against the fixed Claims and source interfaces.
-This synthesis is self-reviewed; the accepted arguments retain their separate independent reviews.
+This synthesis is self-reviewed; the accepted arguments retain their separate findings at the actual relationships stated below.
 The [previous version](Yin_L_F0050_v4.md) retains the left-contraction continuation, [v3](Yin_L_F0050_v3.md) the earlier equivalence classes, and [v2](Yin_L_F0050_v2.md) the dense-domain comparison and its candidates.
 
 ## Maximal Delta and the choice of a boundary solution
@@ -36,7 +36,7 @@ Normality is a sufficient hypothesis for that step; it is not asserted to be nec
 
 ## The circular obstruction persists at maximal Delta
 
-[C_F0074](../claims/Yin_C_F0074_v1.md#statement), independently reviewed in [R_F0047](../audits/reviews/Yin_R_F0047_v1.md#conclusion), gives a bounded circular generator
+[C_F0074](../claims/Yin_C_F0074_v1.md#statement), checked in the unknown-relationship [R_F0047 finding](../audits/reviews/Yin_R_F0047_v1.md#conclusion), gives a bounded circular generator
 \[
  c=(S_1+\mathrm iS_2)/\sqrt2,
  \qquad D=-(r_1^*-\mathrm i r_2^*)/\sqrt2,
@@ -109,7 +109,7 @@ It does not prove the left bound for every normal tuple, and supplies no rank-on
 
 ## Exact algebraic reformulation: adjoint stability
 
-[C_F0073](../claims/Yin_C_F0073_v1.md#statement), independently checked in [R_F0046](../audits/reviews/Yin_R_F0046_v1.md#conclusion), proves under F(X)
+[C_F0073](../claims/Yin_C_F0073_v1.md#statement), checked in the unknown-relationship [R_F0046 finding](../audits/reviews/Yin_R_F0046_v1.md#conclusion), proves under F(X)
 \[
  \boxed{
  \text{all }L_i\text{ are bounded}
@@ -135,7 +135,7 @@ This symmetry of A is not a proof of the corresponding unresolved symmetry of F.
 
 ## Exact analytic reformulation: a specified normal L1 map
 
-[C_F0132](../claims/Yin_C_F0132_v1.md#statement), independently checked in [R_F0138](../audits/reviews/Yin_R_F0138_v1.md#conclusion), supplies a second formulation with an explicit map on all of M.
+[C_F0132](../claims/Yin_C_F0132_v1.md#statement), checked in the unknown-relationship [R_F0138 finding](../audits/reviews/Yin_R_F0138_v1.md#conclusion), supplies a second formulation with an explicit map on all of M.
 
 First one can choose UNIQUE normalized normal bounded maps E_i:M -> H with
 \[
@@ -187,7 +187,7 @@ This observation does not establish L2 membership for those unitary tests.
 
 ## A sufficient phase condition using bounded square sums
 
-[C_F0131 PartA](../claims/Yin_C_F0131_v1.md#statement), independently checked in [R_F0139](../audits/reviews/Yin_R_F0139_v1.md#conclusion), proves a usable general sufficient condition.
+[C_F0131 PartA](../claims/Yin_C_F0131_v1.md#statement), checked in the unknown-relationship [R_F0139 finding](../audits/reviews/Yin_R_F0139_v1.md#conclusion), proves a usable general sufficient condition.
 
 For the normal marginal law mu_i, write k_i(z,w)=(conjugate z-conjugate w)/(z-w).
 Suppose
@@ -283,6 +283,6 @@ Equivalently, a direct construction of full-domain duals for the adjoint tuple w
 Merely conjugating the original maps by J, using a generic bounded phase lift, invoking normality of a general M-to-H map, or invoking a general HS automatic-continuity theorem before proving H-valuedness does not complete it.
 The two negative mechanisms above explain precisely why those shortcuts are insufficient, without disproving the rank-one problem.
 
-The three Claims of the left-contraction continuation are adopted as proved / independently reviewed at their stated scopes.
+The three Claims of the left-contraction continuation remain adopted as proved at their stated scopes; their R_F0046, R_F0138 and R_F0139 findings retain unknown initial-context relationships.
 The broader normal-tuple implication and a genuine separating counterexample remain open in this comparison.
 Prior positive classes and their distinct reverse implications remain as recorded in v3; no stronger reverse implication is inferred from this continuation.

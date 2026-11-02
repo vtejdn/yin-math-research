@@ -18,7 +18,7 @@ The assignment disclosed the intended interfaces.
 This reviewer previously independently reviewed C_F0153 and developed different normal tests in D_F0004 and nonnormal tests in D_F0005; those developments supply no missing premise here.
 The new calculations were reconstructed from the fixed candidate.
 
-During review the author explicitly defined delta_N as the scalar free-reference derivation on C<Z,Z*,S>, zero on S, with actual vacuum xi_N and the already declared C67 free-lift bound.
+During review the author explicitly defined delta_N as the scalar free-reference derivation on C<Z,Z*,S>, zero on S, with actual vacuum xi_N and the already declared C_F0045 free-lift bound.
 This reviewer reread the sentence.
 It makes explicit the reference already used, changing no formula, premise, conclusion or dependency.
 The reviewed text includes it.
@@ -71,7 +71,7 @@ Thus chi is L2 because it is an existing vacuum projection, not because a formal
 
 The two real correction numerators r inverse-1 and 1-r have the same sign.
 Their coarse components are orthogonal, but their actual partial_S adjoints concatenate into the same H2 path.
-C149 therefore gives ||beta||2<=||chi||2 and partial_S*(beta*)=chi.
+C_F0153 therefore gives ||beta||2<=||chi||2 and partial_S*(beta*)=chi.
 The independently constructed reference derivation has vacuum xi_N+chi.
 At this stage those are only orthogonal components of the supplied vacuum; the later target comparison is needed to exclude other components.
 
@@ -79,7 +79,7 @@ At this stage those are only orthogonal components of the supplied vacuum; the l
 
 Antisymmetry gives the polynomial pairing of 2 conjugate(C_epsilon) with p.
 The bounded polynomial divided differences justify dominated convergence.
-The C97 uniform L2 bound and polynomial density then give weak convergence of the whole family to xi_N, without choosing a subsequence or invoking principal values.
+The C_F0055 uniform L2 bound and polynomial density then give weak convergence of the whole family to xi_N, without choosing a subsequence or invoking principal values.
 
 Direct adjoint expansion gives
 
@@ -134,7 +134,7 @@ Uniform boundedness and almost-everywhere convergence of a_n thus give strong co
 Consequently M7 and M8 cancel on every fixed algebraic tensor test.
 
 E' is the original reference contraction closure.
-Its actual vacuum and both contraction bounds give all bounded-vector forward and adjoint domains by C120.
+Its actual vacuum and both contraction bounds give all bounded-vector forward and adjoint domains by C_F0072.
 Uniformly bounded strong polynomial approximation and weakly closed graphs identify bounded-vector values with the sum of the previously constructed contractions; this does not presume a closure-of-sum theorem.
 
 The matrix-element test is correctly u tensor v*: Theta(x tensor y)v=x tau(yv).
@@ -188,7 +188,7 @@ Cauchy--Schwarz therefore gives K squared=K0 squared+8 with the stated norm of x
 The actual adjoint formula adds exactly ||xi||.
 For the T coordinate the degree-zero insertion is isometric onto its vacuum, yielding exactly the constants 2||psi|| and ||psi||.
 
-C137 Section 6 applies its actual normal energy before any growth bound.
+C_F0078 Section 6 applies its actual normal energy before any growth bound.
 The present normal pair, actual target derivations and vacua, and generation satisfy that interface.
 The analytic-unitary limit uses the final identity and first-derivative series, without a new second-iterate domain at the unitary.
 The two vacuum pairings contribute at worst minus 4K||xi|| squared, and the two squared contraction norms at worst minus 2K squared||xi|| squared.

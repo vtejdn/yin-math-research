@@ -64,7 +64,7 @@ For k=absolute(n) and s=r squared, the remaining moment is
 To obtain it, use tau(f squared V^n)=tau(f' V^n)-n squared r^k and sum the two geometric tails in f'=sum over positive j of j r^j(V^j+V^-j).
 All other needed V moments contain at most two factors h or h* and follow by expansion.
 The program uses exact Fraction arithmetic and centered alternating-word recursion; no finite-matrix approximation of the tracial law is used.
-Its controls check tau(h*h), the vacuum pairing tau(h*V^-1)=0, and the exact unitary mixed-test defect -r squared from the hand proof in D_F0006.
+Its controls check tau(h*h), the vacuum pairing tau(h*V^-1)=0, and the exact unitary mixed-test defect -r squared from the [fixed hand proof](../../../ledger/Yin_L_F0055_v1.md#sharp-fixed-vacuum-and-degree-growth-failures).
 The extended controls also compare the exact all-degree formulas at n=1,2,3,4,5, including the scalar-shifted strictly positive tests.
 
 Run from the repository root with Python standard-library arithmetic:
@@ -91,4 +91,4 @@ The commands below were also run, with all 17 exact checks passing at each param
 .venv/Scripts/python.exe mathematics/computations/programs/Yin_J_F0009/normal_change.py --controls-only --r 9/10
 ```
 
-These controls support the retained hand calculation at their finite scope; the proof for all n is the geometric-sum argument in D_F0006.
+These controls support the retained hand calculation at their finite scope; the proof for all n is the [fixed geometric-sum argument](../../../ledger/Yin_L_F0055_v1.md#sharp-fixed-vacuum-and-degree-growth-failures).

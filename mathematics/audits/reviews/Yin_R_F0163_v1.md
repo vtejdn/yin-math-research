@@ -25,8 +25,8 @@ No contribution to C_F0155's new argument was made by this reviewer before the f
 ## Current relationship clarification
 
 The assignment supplied proof-outline information before the fixed candidate, without retaining enough of its actual contents to distinguish a legitimate fixed short proof from additional substantive author-development context.
-The exact initial relationship of this whole C151 finding is therefore unknown, not inferred self from the word outline.
-The reviewer’s authorship of the accepted C144 dependency chain is separately disclosed and is not itself a self relationship to this new theorem.
+The exact initial relationship of this whole C_F0155 finding is therefore unknown, not inferred self from the word outline.
+The reviewer’s authorship of the accepted C_F0148 dependency chain is separately disclosed and is not itself a self relationship to this new theorem.
 All original calculations, mathematical conclusions, dates and finite-versus-global limits remain unchanged; no reviewer repair is recorded.
 
 ## Review relationships
@@ -69,7 +69,7 @@ In particular the original compression is not being declared positive on its nul
 
 Every actual kernel vector of L lies in the range of p, so its first column block is zero.
 Conversely L(0,z)=(0,L_11 z), proving that the right kernel of L_11 is precisely p_1.
-This identification is needed to use the same C_1 in C150, and it holds without any assumption about the other diagonal block L_00.
+This identification is needed to use the same C_1 in C_F0154, and it holds without any assumption about the other diagonal block L_00.
 
 ## 2. Rectangular cycles and the exact trace identity
 
@@ -94,13 +94,13 @@ Traciality and the projection identities give
 
 Consequently the sum is Tr(tau(q) A_i,11 C_1 A_i,11*), exactly (6).
 This confirms the opposite ordering of the two Gram factors and the absence of an extra transpose or conjugate.
-The matrix trace is unnormalized, consistently with C150.
+The matrix trace is unnormalized, consistently with C_F0154.
 
 Maximal Delta makes every T_i zero for i at least one.
 Summing the nonnegative trace expressions gives Tr(tau(q) B_11)=0.
 The matrix tau(q) is positive, and B_11 is at least a positive scalar multiple of the identity on its nonzero row space.
 Hence tau(q)=0; the faithful matrix trace then gives q=0.
-This proves regularity of L_11 L_11*, at the exact scope required by C150.
+This proves regularity of L_11 L_11*, at the exact scope required by C_F0154.
 
 All vectors used here are actual Hilbert columns; the selected columns of p_1 and q are even bounded.
 No derivation or canonical operator is applied to a kernel projection, and no domain theorem for those projections is assumed.
@@ -108,7 +108,7 @@ No derivation or canonical operator is applied to a kernel projection, and no do
 ## 3. The actual affine range and its bounded linear choice
 
 For a surviving nonzero row block, the coefficients A_i,11 are scalar, its right kernel is p_1, its scalar trace compression is C_1, its B is strictly positive, and its LL* is regular.
-Thus every C150 hypothesis is verified.
+Thus every C_F0154 hypothesis is verified.
 Its rectangular polar formula gives a specified linear right inverse on bounded columns using Q_11 inverse square root, with a finite operator-column-norm-to-Hilbert bound.
 It does not use the potentially undefined expression L_11* Q_11 inverse on an arbitrary bounded column.
 
@@ -173,7 +173,7 @@ The final warning about infinite Hilbert coordinate equations correctly illustra
 
 ## Source and verification limits
 
-C150's complete fixed proof was read and its exact compressed applicability checked; its independent R169 supplies the separate review of the matrix theorem.
+C_F0154's complete fixed proof was read and its exact compressed applicability checked; its independent R_F0162 supplies the separate review of the matrix theorem.
 ACSY-U001's small-core-to-maximal-Delta interface and MSY-U002's finite-cycle interface retain their published-source and reconstructed-proof boundaries.
 This review does not newly inspect the entire ACSY or MSY PDFs.
 MSY-U003's polynomial triangular construction is used at its checked bounded algebraic scope; its broader free-field foundations, rational realization questions and original Cohn proofs are not re-audited or needed as new analytic domain assertions.

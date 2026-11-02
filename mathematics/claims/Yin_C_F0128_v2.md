@@ -65,7 +65,7 @@ It applies to bounded \(X\) without selfadjointness.
 Its left/right conversion and finite-rank scope are retained there.
 We use (2.1) only to show nonmaximality, not to calculate the exact value of \(\Delta\).
 
-[C_F0036](Yin_C_F0036_v1.md#yin_c_f0036-p1) has an atomic obstruction on a nondense test module.
+[C_F0084](Yin_C_F0084_v1.md#yin_c_f0084-p1) has an atomic obstruction on a nondense test module.
 The domain in Section 3 below is dense, so that earlier example does not settle this question.
 [C_F0026](Yin_C_F0026_v1.md#small-core-domain-obstruction) is a diffuse weighted-disk example concerning arbitrary bounded denominator domains.
 It has no atomic finite-rank cycle and does not supply Section 4.

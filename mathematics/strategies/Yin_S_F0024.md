@@ -43,7 +43,8 @@ It expresses the determinant as an infimum over all positive definite matrices, 
 The mixed covariance is retained for arbitrary complex coefficients.
 There is no residual regularization parameter or Hilbert--Schmidt feasibility constraint.
 At zero mean the correction vanishes, and positive scaling reduces the remaining determinant ratio directly to ordinary capacity at the full MS24 scope, including zero capacity.
-The complete proof passed independent review (original material now separated into [Yin_R_F0128_v1](../audits/reviews/Yin_R_F0128_v1.md), [R_F0174 determinant-presentation finding](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding)).
+The [complete signed-Schur finding](../audits/reviews/Yin_R_F0128_v1.md#general-signed-schur-finding) is self-reviewed.
+The separate [R_F0174 self-review](../audits/reviews/Yin_R_F0174_v1.md#determinant-presentation-finding) covers its determinant-first presentation, not a second whole-proof inspection.
 
 [Yin_C_F0127](../claims/Yin_C_F0127_v1.md#yin_c_f0127), with [independent attainment review](../audits/reviews/Yin_R_F0180_v1.md#current-affine-attainment), further proves that this infimum has a finite critical point or a minimizer exactly when the pencil is boundedly invertible; that point is unique.
 This provides the exact boundary of attainment rather than assuming an optimizer exists for every pencil.

@@ -113,7 +113,7 @@ A connection back to an integer gap must retain the full polynomial, actual trac
 
 The initial decision assigns an active research objective.
 This registration starts no autonomous run.
-Any further execution follows the [execution rules](../../framework/rules/execution.md) and [Yin's current execution policy](../../profiles/Yin/execution.md).
+Any further execution follows the [execution rules](../../framework/rules/execution.md) and Yin's current execution policy, looked up locally in `profiles/Yin/execution.md`.
 Do not copy another Task's baseline, usage allowance or stopped period.
 
 ## Current decision
@@ -158,7 +158,15 @@ The [derived strategy entrance](../strategies/index.md#task-yin_t_f0010) is navi
 | support | [Coefficient dependence](../ledger/Yin_L_F0044_v1.md#fixed-f0002-first-round-account) | Complete fixed-support continuity and potential theory, exact scalar differentiability boundary, variations and finite-matrix transfer at the stated domains. |
 | support | [Matrix capacities](../ledger/Yin_L_F0045_v1.md#fixed-f0002-first-round-account) | Complete block-Gram maximum, positive-field infimum, convolution-capacity limit, normalization and singular/coupled controls. |
 | dependency | [DR10 matrix factorization](../audits/literature/DR10/Yin_U002.md#dr10-u002) | Exact accepted same-degree outer matrix-factor existence statement and applicability, without a whole original-proof audit. |
-| review | [Final independent contract review](../audits/reviews/Yin_R_F0133_v1.md#f0010-fixed-chain-completion-finding) | Actual complete fixed chain, all four original objectives, source interfaces, prior independent whole reviews and exact completion limitations; PASS. |
+| review | [Final contract review](../audits/reviews/Yin_R_F0133_v1.md#f0010-fixed-chain-completion-finding) | Actual complete fixed chain, all four original objectives, source interfaces, prior whole reviews and exact completion limitations; PASS at the recorded mathematical scope. R_F0133 and its R_F0131/R_F0132 prior findings retain their currently declared unknown initial-context relationships. |
+
+## Pending independent full-chain inspection
+
+The selected 2026-10-13 completion decision records satisfaction of the analytical contract at the stated mathematical scope.
+Its selected R_F0133 finding and the prior R_F0131/R_F0132 findings retain unknown initial-context relationships, as disclosed in their responsible review accounts.
+They do not establish the separately required independent inspection of the complete Task chain, and no separately sufficient full-chain independent finding is selected here.
+That inspection remains pending for the original contract, the complete L_F0043/L_F0044/L_F0045 support, their actual mathematical dependencies and the accepted DR10 statement/applicability interface.
+The pending review obligation preserves the historical completed decision, recorded mathematical findings and source limits; it does not activate execution.
 
 ## Execution boundary
 

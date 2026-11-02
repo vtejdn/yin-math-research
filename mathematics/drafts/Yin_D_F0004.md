@@ -46,26 +46,8 @@ Weighted kernels and their actual vacuum norms must still be computed; this unwe
 ## Exact test in the correlated Haar/Poisson model
 
 The following is a development calculation, checked by its author but not independently reviewed.
-Retain the actual C_F0057 model, write its generators as U,V and target algebras as N=W*(U) and B=alg(U*V,(U*V)*).
-Let m be Haar measure, let 0<r<1, and put
-
-\[
-w_r(e^{i\theta})=\frac{1-r^2}{1-2r\cos\theta+r^2},\qquad
-f_r(e^{i\theta})=-\frac{w_r'(\theta)}{w_r(\theta)}
-=\frac{2r\sin\theta}{1-2r\cos\theta+r^2}.
-\]
-
-Here f_r is a bounded real function for each fixed r, with trace zero.
-Ordinary integration by parts on the circle gives
-
-\[
-\tau(f_r(V)V^l)=i l r^{|l|}\quad(l\in\mathbb Z).
-\tag{T1}
-\]
-
-The actual scalar difference-quotient conjugate vector for V is \(\xi_V=V(1+i f_r(V))\).
-Testing every Laurent monomial with (T1) gives its full scalar vacuum identity; the vector is bounded.
-Its extension to the free reference core is the actual free-product conjugate vector of C_F0057's construction.
+Retain the actual C_F0057 model with U Haar and V free from U, of Poisson parameter 0<r<1, and target algebras N=W*(U), B=alg(U*V,(U*V)*).
+The [fixed Poisson score calculation](../ledger/Yin_L_F0055_v1.md#haar-poisson-score-and-vacuum) supplies w_r, f_r, the moments (T1) and the actual scalar conjugate vector xi_V=V(1+i f_r(V)); use that notation here.
 
 The partial liberation of N against B satisfies
 
@@ -86,20 +68,7 @@ Its vacuum is
 
 In particular this is a realized liberation vacuum, not an independently specified spectral weight.
 
-For completeness its scalar squared norm is
-
-\[
-\sigma_r^2:=\|f_r(V)\|_2^2=\frac{2r^2}{(1-r^2)^2}.
-\tag{T3}
-\]
-
-This can be checked without importing a Fisher-information formula.
-Write D=1-2r cos(theta)+r squared.
-The Poisson Fourier series gives integral D inverse dm=(1-r squared) inverse and integral D to the power -2 dm=(1+r squared)/(1-r squared) cubed.
-Differentiation of the first identity gives integral cos(theta) D to the power -2 dm=2r/(1-r squared) cubed.
-Integration by parts gives integral f_r squared w_r dm=integral f_r' w_r dm.
-Substituting the derivative of 2r sin(theta)/D then gives twice the left side equal to 2r(1-r squared) integral cos(theta) D to the power -2 dm, proving (T3).
-All differentiations and integrations are between bounded smooth functions at fixed r<1.
+Write \(\sigma_r^2=\|f_r(V)\|_2^2=2r^2/(1-r^2)^2\), as proved in the fixed score calculation, equation (T3).
 
 Freeness and the centering of f_r(V) make the map
 
@@ -351,63 +320,6 @@ No C is allocated; this is author-developed, self-checked exploration requiring 
 
 ## Geometry decomposition branch: closed with explicit interface gaps
 
-At root's request, this disjoint route tested whether marginal finite Menger curvature and geometric rectifiability/decomposition could supply the full correlated-normal A-to-S implication.
-The local reuse pass read C_F0078, C_F0143, C_F0057, Tol17-U001 and TV06-U001, then searched the registered bibliography and contents for curvature, rectifiability and Cauchy-transform decomposition.
-The existing sources supplied scalar sufficient conditions, not the needed correlated quadratic estimate.
-
-The primary-source follow-up inspected [Tol17's exact preprint](../literature/pdf/Tol17--arxiv-v2.pdf), Theorems 1.1 and 1.3 on printed/PDF pages 3-5, and [Leg99's published paper](../literature/pdf/Leg99.pdf), Theorem 0.1 on printed page 831 and Proposition 1.2 on printed pages 835-836.
-These are statement/applicability checks, not original-proof audits.
-The same Tol17 v2 was acquired and its supplied contents prepared; Leg99 was registered as a new work.
-Exact inspection boundaries are in the [Tol17](../audits/literature/Tol17/readme.md) and [Leg99](../audits/literature/Leg99/readme.md) source notes.
-No claim rests on secondary search summaries.
-A separate search lead concerning Tolsa's 2007 growth-decomposition paper was not acquired or checked at theorem level and is not used.
-
-The checked source interfaces do not close the proposed route:
-
-1. **David–Léger is not an arbitrary-measure finite-curvature theorem.**
-   Its principal statement uses H1 on a finite-length set.
-   Its quantitative measure proposition keeps normalized mass, uniform linear growth and growth-dependent curvature smallness.
-   Arbitrary actual scalar ACSY laws need not be arc-length measures; the planar scalar example already fixed in C_F0140 has zero one-dimensional density.
-   This is an actual admissible example outside the rectifiability premise, although C_F0078 separately handles its planar growth.
-
-2. **The additional Tolsa hypotheses remain additional.**
-   Theorem 1.1 requires positive upper linear density and a density square-function condition.
-   Theorem 1.3 requires uniform linear growth and uniform tests over all squares.
-   Existing A-to-finite-curvature reasoning does not verify these tests.
-   Tol17-U001's selected curvature identity also keeps linear growth; TV06-U001 retains square-integrability of maximal linear density.
-   None is an implication from the supplied actual vacuum alone to the correlated lower form.
-   This does not assert that every missing scalar hypothesis is false under A; it identifies what the proposed invocation has not proved.
-
-3. **Geometry class and quantitative gluing are distinct.**
-   A rectifiable piece is not automatically an analytic closed curve or a C3 spectral graph at the hypotheses of the accepted correlated geometry results.
-   A zero-linear-density conclusion, if obtained from some further decomposition theorem, would not itself give a power bound with exponent greater than one.
-   No checked theorem upgrades all pieces to C_F0078's precise exponent and no summable estimate for their domain constants has been supplied.
-   In particular, C_F0143 is already an actual countable union of analytic circles with scalar vacua and finite total curvature; its auxiliary absolute contraction norm is unbounded and its fourth curvature power diverges.
-   Merely listing good geometric pieces does not justify an absolute-norm gluing argument.
-
-There is also an independent joint-algebra obstruction even if a satisfactory scalar decomposition were granted.
-A spectral piece e=1_E(Z) belongs to W*(Z), but need not be central in the full correlated algebra.
-Consequently:
-
-- weighting the joint state by a positive bounded marginal density w generally destroys the trace.
-  Indeed tau(wab)-tau(wba)=tau((wa-aw)b); vanishing for every a,b forces w central by faithfulness and the L2 pairing.
-  The scalar positive-measure weighting argument therefore does not create a new tracial joint law for free;
-- passing to eMe keeps a trace, but compression of another normal coordinate need not stay normal, and no theorem here proves inheritance of the original represented ACSY derivatives.
-  The Borel projection e itself need not belong to the original star core or to any required derivative graph;
-- estimates confined to the diagonal pieces epe do not control the off-diagonal pieces epf or the mixed-word derivative terms.
-  The curvature kernel also contains triples with points in distinct scalar pieces, and its actual joint-vacuum measure is not determined by the marginal geometric decomposition.
-
-These are failures of the proposed transfer, not counterexamples to A-to-S.
-For example, the elementary fact that a compression of a normal operator can be nonnormal is only an algebraic warning here, not a claimed finite-dimensional ACSY model.
-A legitimate reconstruction would need actual projection/multiplier graph rules, a trace-compatible treatment of the correlated coordinates, and a summable bound for cross-piece mixed quadratic terms involving the joint vacuum.
-
-Finally, C_F0057 fixes both marginal laws to a single smooth Haar circle while its mixed negative quadratic form becomes arbitrarily negative across the correlated family.
-Thus even the strongest regularity of those fixed marginals cannot supply a lower bound depending only on scalar geometry.
-A possible successful estimate must still use joint data, as the square-root-vacuum question does.
-None of the checked geometric statements supplies that missing joint term.
-
-**Branch stopping conclusion.**
-No usable theorem or completed reduction to full normal A-to-S was obtained from these source interfaces.
-The precise unproved bridge is a joint, actual-domain gluing/lower-form estimate; a scalar rectifiability conclusion alone is insufficient.
-This geometry branch is stopped at that boundary.
-It does not change the accepted growth theorem, the actual scalar obstruction, the mixed-word tests above, or the status of the unrestricted goal.
+The [fixed geometry and joint-gluing account](../ledger/Yin_L_F0055_v1.md#geometry-and-joint-gluing) retains the exact source-applicability failures, trace and normality obstruction, missing cross-piece control and joint-vacuum limitation.
+No usable theorem or completed reduction to the full normal A-to-S implication was obtained from those interfaces.
+This geometry branch remains stopped at that boundary; it does not change the growth theorem, actual scalar obstruction, mixed-word tests above or the unrestricted goal's status.
