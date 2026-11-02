@@ -3,16 +3,16 @@
 Throughout this section let
 \[
  T=a_0+\sum_{j=1}^n a_j\otimes s_j\in M_m(\M),\qquad
- S_z=T-z1_m,\qquad a_z=a_0-z1_m,
+ S_z:=T-z1_m,\qquad a_z:=a_0-z1_m,
 \]
 with arbitrary complex coefficient matrices.
 We keep the maps $\eta$ and $\rho$ from \eqref{eq:coefficient-maps}.
 Applying Theorem~\ref{thm:main} to $S_z$ gives the logarithmic potential of $\mu_T$ and characterizes $\spec(T)$.
 
 \subsection{Shifted potentials and spectral interpretation}
-For $b>0$, write $Z_b(z)=\mathcal T_b^{-1}(a_z)$ and
+For $b>0$, write $Z_b(z):=\mathcal T_b^{-1}(a_z)$ and
 \[
- \mathcal V_z(b)=\log\det H_b-\log\det b-m
+ \mathcal V_z(b):=\log\det H_b-\log\det b-m
                    +\operatorname{Re}\Tr(a_z^*Z_b(z)),
  \qquad H_b=1_m+\eta(b).
 \]
@@ -32,12 +32,12 @@ It also gives
 At a point of the resolvent set, the unique minimizer is $b_z=E_m((S_z^*S_z)^{-1})$.
 The criterion concerns bounded invertibility; finiteness of $u(z)$ alone does not imply it.
 
-We use the Wirtinger derivatives $\partial_z=(\partial_x-i\partial_y)/2$ and $\partial_{\bar z}=(\partial_x+i\partial_y)/2$, where $z=x+iy$.
-\begin{definition}[Brown measure]\label{def:brown}\label{def:brown-measure}
+We use the Wirtinger derivatives $\partial_z:=(\partial_x-i\partial_y)/2$ and $\partial_{\bar z}:=(\partial_x+i\partial_y)/2$, where $z=x+iy$.
+\begin{definition}\label{def:brown}\label{def:brown-measure}
 The Brown measure of $T$ with respect to $\varphi_m$ is the probability measure
 \begin{equation}\label{eq:brown-definition}
- \mu_T=\frac1{2\pi}\nabla_z^2u,\qquad
- \nabla_z^2=4\partial_{\bar z}\partial_z,
+ \mu_T:=\frac1{2\pi}\nabla_z^2u,\qquad
+ \nabla_z^2:=4\partial_{\bar z}\partial_z,
 \end{equation}
 where the Laplacian is taken in the sense of distributions.
 \end{definition}
@@ -51,13 +51,13 @@ We use them to interpret the variational formula; no equality between $\supp\mu_
 
 For $\varepsilon>0$, set
 \begin{equation}\label{eq:spectral-potential}
- u_\varepsilon(z)=\tfrac12\varphi_m
+ u_\varepsilon(z):=\tfrac12\varphi_m
                    \log(S_z^*S_z+\varepsilon^21_m).
 \end{equation}
 The rescaled minimum \eqref{eq:scaled-minimum} reads
 \begin{equation}\label{eq:brown-regularized-minimum}
  u_\varepsilon(z)=\frac1{2m}\min_{b>0}F_\varepsilon(z,b),
- \qquad F_\varepsilon(z,b)=\mathcal V_z(b)+\varepsilon^2\Tr b.
+ \qquad F_\varepsilon(z,b):=\mathcal V_z(b)+\varepsilon^2\Tr b.
 \end{equation}
 Its unique minimizer $b_\varepsilon(z)$ and the matrix $Z_\varepsilon(z)=\mathcal T_{b_\varepsilon(z)}^{-1}(a_z)$ are
 \begin{equation}\label{eq:brown-regularized-optimizer}
@@ -74,16 +74,16 @@ Here \eqref{eq:brown-regularized-minimum} expresses the same regularized potenti
 \subsection{Determinant lower bounds and atoms of the Brown measure}
 \label{subsec:brown-atoms}
 We first prove Corollary~\ref{cor:brown-capacity}, then locate the possible atoms without assuming positive capacity.
-For $a\in M_m(\C)$ and $b>0$, put $q_a(b)=\operatorname{Re}\Tr(a^*\mathcal T_b^{-1}(a))$.
+For $a\in M_m(\C)$ and $b>0$, put $q_a(b):=\operatorname{Re}\Tr(a^*\mathcal T_b^{-1}(a))$.
 
 % Proof inputs: Yin_C_F0126 and Yin_C_F0172.
 \begin{proof}[Proof of Corollary~\ref{cor:brown-capacity}]
-Use the real inner product $\langle X,Y\rangle_{\R}=\operatorname{Re}\Tr(X^*Y)$.
+Use the real inner product $\langle X,Y\rangle_{\R}:=\operatorname{Re}\Tr(X^*Y)$.
 The positivity established in \eqref{eq:quadratic-lower-bound}, at $\varepsilon=1$, implies
 \[
  q_a(b)=\langle a,\mathcal T_b^{-1}(a)\rangle_{\R}\ge0.
 \]
-Put $T_0=\sum_j a_j\otimes s_j$.
+Put $T_0:=\sum_j a_j\otimes s_j$.
 Taking infima in Theorem~\ref{thm:main} gives, for every $a\in M_m(\C)$,
 \begin{equation}\label{eq:brown-capacity-lower-bound}
  \Delta(a+T_0)\ge\Delta(T_0)
@@ -107,12 +107,12 @@ For every $z\in\C$,
 In particular every atom of $\mu_T$ belongs to $\spec(a_0)$.
 \end{proposition}
 \begin{proof}
-Put $T_0=\sum_j a_j\otimes s_j$, and let $u_0$ be the logarithmic potential of $\mu_{T_0}$.
+Put $T_0:=\sum_j a_j\otimes s_j$, and let $u_0$ be the logarithmic potential of $\mu_{T_0}$.
 Applying Theorem~\ref{thm:main} to $T_0-re^{i\theta}1_m$ and using the real-linearity of $\mathcal T_b^{-1}$, we obtain
 \begin{equation}\label{eq:brown-ray-monotonicity}
  u_0(re^{i\theta})=\frac1{2m}\inf_{b>0}
  \{A(b)+r^2q_{-e^{i\theta}1_m}(b)\},\qquad
- A(b)=\log\det H_b-\log\det b-m.
+ A(b):=\log\det H_b-\log\det b-m.
 \end{equation}
 Since $q_{-e^{i\theta}1_m}(b)\ge0$ by \eqref{eq:quadratic-lower-bound}, the potential is nondecreasing in $r\ge0$ for each fixed $\theta$.
 It cannot take the value $-\infty$ at a positive radius.
@@ -120,7 +120,7 @@ Indeed, for any bounded real interval $I$ and any $w\in\C$,
 \[
  \int_I\log^-|re^{i\theta}-w|\dd r
  \le\int_{-1}^1-\log|t|\dd t=2,
- \qquad \log^-t=\max\{-\log t,0\}.
+ \qquad \log^-t:=\max\{-\log t,0\}.
 \]
 The inequality follows from $|re^{i\theta}-w|\ge|r-\operatorname{Re}(e^{-i\theta}w)|$.
 The positive logarithmic part is uniformly bounded when $w$ ranges over a compact set.
@@ -131,10 +131,10 @@ Hence $\Delta(T_0-z1_m)>0$ for $z\ne0$.
 Now suppose $A=a_0-z1_m$ is invertible and write
 \[
  T-z1_m=A(1_m+C),\qquad
- C=\sum_j A^{-1}a_j\otimes s_j.
+ C:=\sum_j A^{-1}a_j\otimes s_j.
 \]
 The centered conclusion applied to $C$ at the shift $-1$ gives $\log\Delta(1_m+C)>-\infty$.
-If $c>0$ is the smallest singular value of $A$, then, with $B=1_m+C$, $(AB)^*(AB)\ge c^2B^*B$.
+If $c>0$ is the smallest singular value of $A$, then, with $B:=1_m+C$, $(AB)^*(AB)\ge c^2B^*B$.
 Add $\varepsilon^21_m$, apply the operator-monotone logarithm and the trace, and let $\varepsilon\downarrow0$.
 The result is
 \[
@@ -167,12 +167,12 @@ Assume in this subsection that $a_0=0$ and $\rho=0$ as a map on $M_m(\C)$.
 \label{ex:brown-circular-coefficients}
 Let $s_1,\ldots,s_{2r}$ be free standard semicircular elements and set
 \[
- c_k=\frac{s_{2k-1}+is_{2k}}{\sqrt2},\qquad 1\le k\le r.
+ c_k:=\frac{s_{2k-1}+is_{2k}}{\sqrt2},\qquad 1\le k\le r.
 \]
 Then $c_1,\ldots,c_r$ are free standard circular elements.
 For matrices $d_1,\ldots,d_r\in M_m(\C)$, the operator
 \[
- T=\sum_{k=1}^r d_k\otimes c_k
+ T:=\sum_{k=1}^r d_k\otimes c_k
 \]
 is a centered semicircular pencil with coefficients
 \[
@@ -216,7 +216,7 @@ The radial distribution $F$ in \eqref{eq:brown-radial-cdf} is locally Lipschitz 
  0\le\beta(z)\le\frac{F(|z|^2)}{\pi|z|^2}
               \le\frac1{\pi|z|^2}\quad\text{a.e. }z\ne0,
 \end{equation}
-where $\alpha=\lim_{s\downarrow0}F(s)$.
+where $\alpha:=\lim_{s\downarrow0}F(s)$.
 For every $s>0$,
 \begin{equation}\label{eq:brown-radial-optimizer}
  F(s)=\frac{s}{m}\lim_{\varepsilon\downarrow0}
@@ -311,7 +311,7 @@ Thus the scalar $S$-transform formula requires an additional hypothesis in the m
 The attainment criterion can be expressed using an invertible matrix and a spectral-radius bound.
 For $g\in M_m(\C)$ invertible, put
 \[
- \Psi_g(x)=g\eta(x)g^*.
+ \Psi_g(x):=g\eta(x)g^*.
 \]
 % Proof input: Yin_L_F0042, Sections 1--3.
 \begin{proposition}\label{prop:brown-stable-resolvent}
@@ -334,7 +334,7 @@ Conjugating by $b^{1/2}$ turns $\Psi_g$ into a completely positive map with valu
 
 Conversely, suppose \eqref{eq:brown-stable-resolvent} holds and define $b$ by the positive series in \eqref{eq:brown-stable-minimizer}.
 Then $b=gH_bg^*$.
-Put $Y=g^*$.
+Put $Y:=g^*$.
 We have
 \[
  H_bYb^{-1}=g^{-1},\qquad
@@ -347,7 +347,7 @@ Theorem~\ref{thm:main} therefore gives $z\notin\spec(T)$, $g=E_m(S_z^{-1})$ and 
 It also proves uniqueness.
 
 The implication from $b-\Psi_g(b)>0$ to $r(\Psi_g)<1$ has already been proved.
-For the reverse implication, $r(\Psi_g)<1$ makes $b=\sum_{k\ge0}\Psi_g^k(1_m)>0$ a solution of $b-\Psi_g(b)=1_m$.
+For the reverse implication, $r(\Psi_g)<1$ makes $b:=\sum_{k\ge0}\Psi_g^k(1_m)>0$ a solution of $b-\Psi_g(b)=1_m$.
 \end{proof}
 
 The equation $a_z=g^{-1}+\rho(g)$ alone need not determine $E_m(S_z^{-1})$.
@@ -399,7 +399,7 @@ The contour hypothesis is part of this statement; it does not give an unconditio
 \begin{remark}[Diagonal variance profiles]
 \label{rem:brown-variance-profile}
 Assume $\rho=0$, $a_0=\operatorname{diag}(\alpha_1,\ldots,\alpha_m)$ and $\eta(x)=\operatorname{diag}(\sum_j s_{ij}x_{jj})$, with $s_{ij}\ge0$.
-Put $\mathsf S=(s_{ij})$ and $D_z=\operatorname{diag}(|\alpha_i-z|^{-2})$ for $z\notin\spec(a_0)$.
+Put $\mathsf S=(s_{ij})$ and $D_z:=\operatorname{diag}(|\alpha_i-z|^{-2})$ for $z\notin\spec(a_0)$.
 The map $x\mapsto a_z^{-1}\eta(x)a_z^{-*}$ vanishes on matrices with zero diagonal and restricts to $D_z\mathsf S$ on diagonal matrices.
 Hence its spectral radius equals $r(D_z\mathsf S)$.
 In this case \eqref{eq:brown-affine-circular-spectrum} reduces to the variance-profile test for a deformed circular element over a commutative base.
@@ -412,7 +412,7 @@ The elementary reduction above requires neither condition and concerns the opera
 \begin{remark}[Spectral subspaces]
 \label{rem:brown-spectral-subspaces}
 When the ambient algebra is a $\mathrm{II}_1$-factor, Haagerup and Schultz associate to every Borel set $B$ an invariant spectral subspace whose projection has trace $\mu_T(B)$ \cite[Theorem~1.1]{HS09}.
-For a region separated by a resolvent contour, the subspace is the range of the Riesz idempotent $e_\Omega=(2\pi i)^{-1}\int_\Gamma(z1_m-T)^{-1}\dd z$; compare \cite[Introduction, (1.3)]{HS09}.
+For a region separated by a resolvent contour, the subspace is the range of the Riesz idempotent $e_\Omega:=(2\pi i)^{-1}\int_\Gamma(z1_m-T)^{-1}\dd z$; compare \cite[Introduction, (1.3)]{HS09}.
 Thus \eqref{eq:brown-contour-mass} computes the mass of this spectral block.
 Under $\rho=0$, the further eigenvalue-count identity follows from the finite-dimensional argument principle.
 \end{remark}
@@ -420,7 +420,7 @@ Under $\rho=0$, the further eigenvalue-count identity follows from the finite-di
 \subsection{Density from the variational optimizer}
 \label{subsec:brown-density}
 To differentiate the minimum value, we first prove that the Hessian at the minimizer is positive definite, using a positive matrix regularizer.
-All gradients and Hessians with respect to $b$ are taken on the real Hilbert space of Hermitian matrices with pairing $\langle k,l\rangle=\Tr(kl)$.
+All gradients and Hessians with respect to $b$ are taken on the real Hilbert space of Hermitian matrices with pairing $\langle k,l\rangle:=\Tr(kl)$.
 
 % Proof input: Yin_L_F0041, including the matrix-regularizer proof.
 \begin{lemma}\label{lem:brown-matrix-regularizer}
@@ -431,7 +431,7 @@ For every $D\in M_m(\C)$ with $D>0$,
  =\frac1{2m}\min_{b>0}\{\mathcal V_a(b)+\Tr(Db)\}.
 \end{equation}
 Its unique minimizer is $b_D=E_m((S^*S+D)^{-1})$.
-The real Hessian $\mathfrak H_D=D_b^2\mathcal V_a(b_D)$ is positive definite, and its inverse is the completely positive map
+The real Hessian $\mathfrak H_D:=D_b^2\mathcal V_a(b_D)$ is positive definite, and its inverse is the completely positive map
 \begin{equation}\label{eq:brown-inverse-hessian}
  \mathfrak H_D^{-1}(k)
  =E_m((S^*S+D)^{-1}k(S^*S+D)^{-1}).
@@ -441,10 +441,10 @@ The real Hessian $\mathfrak H_D=D_b^2\mathcal V_a(b_D)$ is positive definite, an
 Apply \eqref{eq:scaled-minimum}, at $\varepsilon=1$, to $SD^{-1/2}$.
 Its coefficient maps are
 \[
- \eta_D(x)=\eta(D^{-1/2}xD^{-1/2}),\qquad
- \rho_D(x)=\sum_j a_jD^{-1/2}xa_jD^{-1/2}.
+ \eta_D(x):=\eta(D^{-1/2}xD^{-1/2}),\qquad
+ \rho_D(x):=\sum_j a_jD^{-1/2}xa_jD^{-1/2}.
 \]
-Use the trial bijection $b'=D^{1/2}bD^{1/2}$.
+Use the trial bijection $b':=D^{1/2}bD^{1/2}$.
 If $Z=\mathcal T_b^{-1}(a)$, the corresponding solution for $SD^{-1/2}$ is $Z'=ZD^{1/2}$: its equation is the old equation multiplied on the right by $D^{-1/2}$.
 The quadratic correction $\operatorname{Re}\Tr(a^*Z)$ is unchanged, the logarithm of the determinant ratio decreases by $\log\det D$, and the linear term is $\Tr(Db)$.
 The same determinant term appears on the operator side, since
@@ -457,7 +457,7 @@ Cyclicity of the trace makes its derivative $-\tr_m\log D$; integrating from $t=
 This proves \eqref{eq:brown-matrix-regularizer}.
 Transforming the known unique minimizer gives $b_D$ as stated.
 
-Put $Q_D=S^*S+D$.
+Put $Q_D:=S^*S+D$.
 Stationarity and its derivative in a Hermitian direction $k$ give
 \[
  \nabla\mathcal V_a(b_D)+D=0,\qquad
@@ -495,11 +495,11 @@ For each $\varepsilon>0$, the regularized logarithmic potential satisfies
 \end{equation}
 Evaluate all derivatives of $F_\varepsilon$ at $(z,b_\varepsilon(z))$, and set
 \[
- \mathfrak H=D_b^2F_\varepsilon>0,\qquad
- h_x=\partial_x\nabla_bF_\varepsilon,
- \qquad h_y=\partial_y\nabla_bF_\varepsilon.
+ \mathfrak H:=D_b^2F_\varepsilon>0,\qquad
+ h_x:=\partial_x\nabla_bF_\varepsilon,
+ \qquad h_y:=\partial_y\nabla_bF_\varepsilon.
 \]
-Set $\beta_\varepsilon=(2\pi)^{-1}\nabla_z^2u_\varepsilon$.
+Set $\beta_\varepsilon:=(2\pi)^{-1}\nabla_z^2u_\varepsilon$.
 Then
 \begin{equation}\label{eq:brown-hessian-density}
  \begin{split}
@@ -537,7 +537,7 @@ Hence the real Hessian of the optimized value is the Schur complement
 At fixed $b$, $F_\varepsilon(z,b)$ is a real quadratic function of $x,y$, so $F_{xx}=2\langle1_m,\mathcal T_b^{-1}(1_m)\rangle_{\R}$ and $F_{yy}=2\langle i1_m,\mathcal T_b^{-1}(i1_m)\rangle_{\R}$.
 Taking the normalized Laplacian proves \eqref{eq:brown-hessian-density}.
 
-For the sign, put $Q=S_z^*S_z+\varepsilon^21_m$ and $P=S_zS_z^*+\varepsilon^21_m$.
+For the sign, put $Q:=S_z^*S_z+\varepsilon^21_m$ and $P:=S_zS_z^*+\varepsilon^21_m$.
 Direct trace differentiation and $S_zQ^{-1}S_z^*=1_m-\varepsilon^2P^{-1}$ give
 \[
  \partial_{\bar z}\partial_z u_\varepsilon
@@ -567,11 +567,11 @@ Formula~\eqref{eq:brown-hessian-density} uses the positive minimizer, the invers
 It provides another way to compute the same derivatives as the hermitized Dyson equation.
 To make the comparison explicit, set
 \[
- A_z=\begin{pmatrix}0&a_z\\a_z^*&0\end{pmatrix},\qquad
+ A_z:=\begin{pmatrix}0&a_z\\a_z^*&0\end{pmatrix},\qquad
  G^{-1}=i\varepsilon1_{2m}-A_z-\Theta(G),\qquad
  \operatorname{Im}G<0.
 \]
-With $E_{21}=\left(\begin{smallmatrix}0&0\\1_m&0\end{smallmatrix}\right)$, differentiation gives the uniquely solvable equation
+With $E_{21}:=\left(\begin{smallmatrix}0&0\\1_m&0\end{smallmatrix}\right)$, differentiation gives the uniquely solvable equation
 \begin{equation}\label{eq:linearized-dyson}
  X-G\Theta(X)G=-GE_{21}G,
 \end{equation}
@@ -585,7 +585,7 @@ Neither formulation gives a uniform zero-regularizer inverse bound.
 Weak convergence permits atoms and curve-supported mass and does not justify pointwise convergence of the densities for arbitrary coefficients.
 
 \begin{remark}[Linear stability of the Dyson equation]\label{rem:dyson-stability}
-Writing $\mathcal C_G(X)=GXG$, the operator in \eqref{eq:linearized-dyson} is $\id-\mathcal C_G\Theta$.
+Writing $\mathcal C_G(X):=GXG$, the operator in \eqref{eq:linearized-dyson} is $\id-\mathcal C_G\Theta$.
 Under the convention $M=-G$, it is the stability operator studied in \cite[Section 4.2, Proposition 4.4 and Theorem 2.6]{AEK19}.
 Their quantitative estimates use a flatness assumption, and Theorem 2.6 also assumes spatial decay.
 Our block covariance does not satisfy the strictly positive lower bound in the flatness assumption: for $P>0$, \eqref{eq:full-covariance} gives
@@ -600,7 +600,7 @@ At the real parameter used in Section~\ref{sec:main-proof}, the strict inequalit
 \subsection{Recoveries and examples}
 If $a_0,a_j$ are selfadjoint, $T=T^*$ and the smaller matrix Cauchy transform satisfies
 \[
- g(w)=E_m((w1_m-T)^{-1}),\qquad
+ g(w):=E_m((w1_m-T)^{-1}),\qquad
  g(w)^{-1}=w1_m-a_0-\eta(g(w)),\qquad
  \operatorname{Im}g(w)<0\quad(\operatorname{Im}w>0).
 \]

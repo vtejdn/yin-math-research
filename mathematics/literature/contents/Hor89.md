@@ -4,7 +4,7 @@ Source: [exact PDF](../pdf/Hor89.pdf).
 
 Edition and coverage: Lars Hörmander's University of Lund notes, preface dated February 1989.
 Current institutional PDF has 131 pages including two repository cover pages, followed by the notes' own Roman and Arabic pagination.
-Complete supplied contents; old indexed-text reading limits are preserved.
+Complete supplied contents.
 
 Contents location: PDF pages 7–7 (one-based); printed contents-page labels v.
 Destination labels below are the source's printed labels, not PDF positions.

@@ -70,7 +70,7 @@ Keep the directions of the comparison inequalities, the proof dependency chain, 
 Isotropic covariance in dimension greater than one is not a special case of strict Hilbert--Schmidt-positive covariance.
 
 Use the existing lowercase b family for the general positive trial, with a separately defined lowercase c for the strict-domain variable in the comparison section.
-The [fixed quadratic energy-order bridge](../../ledger/Yin_L_F0054_v1.md#quadratic-energy-order) retains its actual author self-check scope.
+The [fixed quadratic energy-order bridge](../../claims/Yin_C_F0182_v1.md#quadratic-energy-order) retains its actual author self-check scope.
 The parameterization now has its complete [C_F0164 proof home](../../claims/Yin_C_F0164_v1.md#argument) and actual [internal self-review](../../audits/reviews/Yin_R_F0175_v1.md#positive-cone-finding); no isolated independent review is asserted.
 The general determinant proof remains independent of the subsequent Speicher comparison.
 Preserve the distinction between the public proposal Spe26 and the private manuscript Spe26b in attribution.

@@ -11,12 +11,12 @@ Consider first any selfadjoint pencil
  K=A\otimes1+\sum_j B_j\otimes s_j\in M_d(\M),
  \qquad A=A^*,\quad B_j=B_j^*\in M_d(\C),
 \]
-Put $\Theta(b)=\sum_jB_jbB_j$ for $b\in M_d(\C)$.
+Put $\Theta(b):=\sum_jB_jbB_j$ for $b\in M_d(\C)$.
 
-\begin{definition}[Matrix Cauchy transform]\label{def:cauchy-transform}
+\begin{definition}\label{def:cauchy-transform}
 The matrix-valued Cauchy transform of $K$ is
 \[
- G(w)=E_d[(w1_d-K)^{-1}],\quad \operatorname{Im}w>0.
+ G(w):=E_d[(w1_d-K)^{-1}],\quad \operatorname{Im}w>0.
 \]
 \end{definition}
 We use the resolvent convention of \cite[Chapter 9, (9.5)]{MS17}.
@@ -24,31 +24,31 @@ The operator-valued semicircular moment rule gives the \emph{Dyson equation}
 \begin{equation}\label{eq:dyson-general}
  G(w)^{-1}=w1_d-A-\Theta(G(w)),\qquad \operatorname{Im}G(w)<0.
 \end{equation}
-Here $\operatorname{Im}G=(G-G^*)/(2i)$, and the inequality is negative definiteness.
+Here $\operatorname{Im}G:=(G-G^*)/(2i)$, and the inequality is negative definiteness.
 The source input is \cite[Chapter 9, Definition 10, Theorem 11 and Proposition 13]{MS17}.
 The moment recursion is
 \[
  Q_0=1_d,\qquad Q_k=AQ_{k-1}
-       +\sum_{r+s=k-2}\Theta(Q_r)Q_s,\quad Q_k=E_d[K^k].
+       +\sum_{r+s=k-2}\Theta(Q_r)Q_s,\quad Q_k:=E_d[K^k].
 \]
 The empty sum is zero.
 Inserting this recursion into the convergent large-$|w|$ resolvent series proves \eqref{eq:dyson-general} there; analytic continuation proves it throughout the upper half-plane.
 
 The imaginary-part condition selects exactly one solution at each $w$.
-With $W=iG$ and $V=-i(w1_d-A)$, the equation takes the positive-real-part form $VW+\Theta(W)W=1_d$ studied in \cite[Theorem 2.1 and Section 3]{HRFS07} by holomorphic contraction.
+With $W:=iG$ and $V:=-i(w1_d-A)$, the equation takes the positive-real-part form $VW+\Theta(W)W=1_d$ studied in \cite[Theorem 2.1 and Section 3]{HRFS07} by holomorphic contraction.
 We include a direct proof because its estimate also gives the invertibility needed when differentiating the Dyson equation.
-Suppose $G_1,G_2$ are solutions and put $V_j=-\operatorname{Im}G_j>0$, $v=\operatorname{Im}w$.
+Suppose $G_1,G_2$ are solutions and put $V_j:=-\operatorname{Im}G_j>0$, $v:=\operatorname{Im}w$.
 Taking imaginary parts of the inverse equation gives
 \begin{equation}\label{eq:imaginary-balance}
  V_j=G_j(v1_d+\Theta(V_j))G_j^*
      =G_j^*(v1_d+\Theta(V_j))G_j.
 \end{equation}
-For $D=G_1-G_2$ we have $D=G_1\Theta(D)G_2$.
+For $D:=G_1-G_2$ we have $D=G_1\Theta(D)G_2$.
 After setting
 \[
- W=V_1^{-1/2}DV_2^{-1/2},\quad
- L_i=V_1^{-1/2}G_1B_iV_1^{1/2},\quad
- R_i=V_2^{1/2}B_iG_2V_2^{-1/2},
+ W:=V_1^{-1/2}DV_2^{-1/2},\quad
+ L_i:=V_1^{-1/2}G_1B_iV_1^{1/2},\quad
+ R_i:=V_2^{1/2}B_iG_2V_2^{-1/2},
 \]
 this becomes $W=\sum_iL_iWR_i$.
 Equation~\eqref{eq:imaginary-balance} implies $\sum_iL_iL_i^*<1_d$ and $\sum_iR_i^*R_i<1_d$.
@@ -61,7 +61,7 @@ The row and column operator norm estimate therefore gives
 unless $W=0$.
 This proves uniqueness.
 We call this selected solution the \emph{resolvent solution}; no choice among real algebraic roots is implicit in the notation.
-Taking $G_1=G_2=G$ in the same estimate shows that $X\mapsto G\Theta(X)G$ is a strict contraction in the norm $\|V^{-1/2}XV^{-1/2}\|$, where $V=-\operatorname{Im}G$.
+Taking $G_1=G_2=G$ in the same estimate shows that $X\mapsto G\Theta(X)G$ is a strict contraction in the norm $\|V^{-1/2}XV^{-1/2}\|$, where $V:=-\operatorname{Im}G$.
 Consequently $X\mapsto X-G\Theta(X)G$ is invertible.
 We use uniqueness to identify the variational critical points in Sections~\ref{sec:main-proof} and~\ref{sec:ordered-minmax}, and this invertibility for the derivatives in Section~\ref{subsec:brown-density}.
 
@@ -70,7 +70,7 @@ The covariance is symmetric for the bilinear trace pairing: $\Tr(\Theta(X)Y)=\Tr
 Choose the analytic logarithm of $\det G(w)$ compatible with $G(w)\sim w^{-1}1_d$ at infinity.
 Then
 \begin{equation}\label{eq:primitive}
- F(w)=-\frac1d\log\det G(w)
+ F(w):=-\frac1d\log\det G(w)
         +\frac1{2d}\Tr(\Theta(G(w))G(w))
       =\varphi_d(\Log(w1_d-K)).
 \end{equation}
@@ -95,17 +95,17 @@ The shared method is integration of the resolvent; the minimization over arbitra
 \subsection{Selfadjoint blocks and regularization}\label{subsec:hermitization}
 For the general pencil $S$ define its hermitization by
 \begin{equation}\label{eq:hermitization}
- \mathscr H=\begin{pmatrix}0&S\\S^*&0\end{pmatrix},\qquad
- A=\begin{pmatrix}0&a_0\\a_0^*&0\end{pmatrix},\qquad
- B_j=\begin{pmatrix}0&a_j\\a_j^*&0\end{pmatrix}.
+ \mathscr H:=\begin{pmatrix}0&S\\S^*&0\end{pmatrix},\qquad
+ A:=\begin{pmatrix}0&a_0\\a_0^*&0\end{pmatrix},\qquad
+ B_j:=\begin{pmatrix}0&a_j\\a_j^*&0\end{pmatrix}.
 \end{equation}
 This is a selfadjoint pencil of size $2m$; see \cite[Section 3]{MS24} and \cite[Chapter 11, Section 9]{MS17} for this block construction.
-Put $\Theta(b)=\sum_jB_jbB_j$ and
+Put $\Theta(b):=\sum_jB_jbB_j$ and
 \[
- \eta^*(b)=\sum_j a_j^*ba_j,\qquad
- \rho^*(b)=\sum_j a_j^*ba_j^*.
+ \eta^*(b):=\sum_j a_j^*ba_j,\qquad
+ \rho^*(b):=\sum_j a_j^*ba_j^*.
 \]
-These are the Hilbert--Schmidt adjoints of $\eta$ and $\rho$ for $\langle b,c\rangle=\Tr(b^*c)$.
+These are the Hilbert--Schmidt adjoints of $\eta$ and $\rho$ for $\langle b,c\rangle:=\Tr(b^*c)$.
 We follow the notation of \cite[Lemma 3.5(ii)]{MS24}.
 Direct multiplication gives
 \begin{equation}\label{eq:full-covariance}
@@ -118,10 +118,10 @@ This displays the role of $\rho$ anticipated in the introduction.
 For $\varepsilon>0$, set
 \begin{equation}\label{eq:regularized-determinant}
  \log\Delta_\varepsilon(S)
-       =\tfrac12\varphi_m\log(S^*S+\varepsilon^21_m).
+       :=\tfrac12\varphi_m\log(S^*S+\varepsilon^21_m).
 \end{equation}
 The operators $S^*S$ and $SS^*$ have the same tracial spectral distribution, including at zero, by polar decomposition and traciality.
-Since $\mathscr H^2=\operatorname{diag}(SS^*,S^*S)$, the resolvent $G_\varepsilon=E_{2m}((i\varepsilon 1_{2m}-\mathscr H)^{-1})$ satisfies
+Since $\mathscr H^2=\operatorname{diag}(SS^*,S^*S)$, the resolvent $G_\varepsilon:=E_{2m}((i\varepsilon 1_{2m}-\mathscr H)^{-1})$ satisfies
 \begin{equation}\label{eq:regularized-primitive}
  \log\Delta_\varepsilon(S)
  =-\frac1{2m}\log|\det G_\varepsilon|
@@ -143,7 +143,7 @@ Its spectral radius is therefore less than one.
 In finite dimension this implies convergence of $(\id-\Psi)^{-1}=\sum_{k\ge0}\Psi^k$, which preserves positivity.
 This is the finite-dimensional positive-map form of the strict Stein criterion; see \cite[Lemma 5.5 and Theorem 5.9]{Pop03} for its relation to similarity to a strict contraction.
 
-Next let $K=K^*\in M_d(\M)$, with scalar spectral measure $\nu_K$, and let $g(w)=E_d((w1_d-K)^{-1})$.
+Next let $K=K^*\in M_d(\M)$, with scalar spectral measure $\nu_K$, and let $g(w):=E_d((w1_d-K)^{-1})$.
 For real $a<b$,
 \begin{align}
  -\lim_{v\downarrow0}\frac1\pi

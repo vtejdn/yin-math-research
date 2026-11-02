@@ -7,7 +7,7 @@ author: Yin
 Date: 2026-10-10.
 Authoring agent: root.
 Status: bounded, user-directed comparison, self-checked; not independently reviewed.
-The finite-matrix comparison below is a new draft deduction, not an adopted Claim or a new independent proof of the full C_F0124 determinant theorem.
+The finite-matrix comparison uses the retained 2026-10-10 deduction, not an adopted Claim or a new independent proof of the full C_F0124 determinant theorem.
 
 ## Question and scope
 
@@ -80,12 +80,12 @@ Consequently the determinant/capacity factors coincide exactly, before taking an
 
 ## Fixed comparison of the quadratic corrections
 
-The complete [energy-order argument](../ledger/Yin_L_F0054_v1.md#quadratic-energy-order) and its [strict example and coincidence cases](../ledger/Yin_L_F0054_v1.md#strict-example-and-coincidence-cases) are retained at their fixed mathematical home with the original author self-check scope.
+The complete [energy-order argument](../claims/Yin_C_F0182_v1.md#quadratic-energy-order) and its [strict example and coincidence cases](../claims/Yin_C_F0182_v1.md#strict-example-and-coincidence-cases) are retained at their fixed mathematical home with the original author self-check scope.
 Use q_HS, q_gen, Phi_HS and Phi_gen as defined there; the following remaining implication question uses the same functions.
 
 ## 5. Exactly which implication follows from C_F0126
 
-By bijectivity and the [fixed energy order (6)](../ledger/Yin_L_F0054_v1.md#quadratic-energy-order), C_F0126 alone, together with the finite lemmas proved here, gives
+By bijectivity and the [fixed energy order (6)](../claims/Yin_C_F0182_v1.md#quadratic-energy-order), C_F0126 alone, together with the finite lemmas proved here, gives
 \[
  \inf_{b\in\mathcal B_\eta}\Phi_{\rm HS}(b)
  =\inf_{R>0}\Phi_{\rm HS}(b_R)

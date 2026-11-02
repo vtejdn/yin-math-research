@@ -3,11 +3,11 @@
 
 We prove Lemma~\ref{lem:hs-global}, retaining a positive regularizer until the last step.
 All traces on finite matrix algebras and their corners are unnormalized.
-Set $K=\id+\Psi$ and
+Set $K:=\id+\Psi$ and
 \[
- \ell_\varepsilon(a)=\tfrac12\varphi_m
+ \ell_\varepsilon(a):=\tfrac12\varphi_m
        \log((a+T_\Psi)^2+\varepsilon^21_m),\qquad
- F_\varepsilon(a)=\ell_\varepsilon(a)
+ F_\varepsilon(a):=\ell_\varepsilon(a)
        -\tfrac1{2m}\Tr(aK^{-1}(a)),\quad a=a^*.
 \]
 We will establish the uniform bound
@@ -20,11 +20,11 @@ We will establish the uniform bound
 \subsection{An inverse comparison}
 If $A=A^*$ has $\|A\|\le\theta<1$ on a finite-dimensional Hilbert space $\mathcal H$ and $J=J^*=J^{-1}$, then
 \begin{equation}\label{eq:hs-involution-inverse}
- L=(J-A)^{-1}\le(\id-A)^{-1},\qquad
+ L:=(J-A)^{-1}\le(\id-A)^{-1},\qquad
  \|L\|\le(1-\theta)^{-1}.
 \end{equation}
 The norm bound follows by factoring $J-A=J(\id-JA)$ and using the Neumann series.
-To prove the order bound, put $D_0=\id-A>0$ and $P=(\id-J)/2$, an orthogonal projection.
+To prove the order bound, put $D_0:=\id-A>0$ and $P:=(\id-J)/2$, an orthogonal projection.
 When $P\ne0$, block elimination, or direct multiplication, gives
 \[
  (D_0-2P)^{-1}=D_0^{-1}+2D_0^{-1}P
@@ -54,7 +54,7 @@ Continuity gives a maximum.
 
 Fix a maximizing $a$, and write
 \[
- R=E_m((a+T_\Psi-i\varepsilon1_m)^{-1})=H+iQ,
+ R:=E_m((a+T_\Psi-i\varepsilon1_m)^{-1})=H+iQ,
  \qquad H=H^*,\quad Q>0.
 \]
 Differentiation under the trace gives $d\ell_\varepsilon(a)[h]=m^{-1}\Tr(Hh)$ for $h=h^*$.
@@ -63,7 +63,7 @@ Stationarity therefore gives $H=K^{-1}(a)$.
 The Dyson equation becomes
 \begin{equation}\label{eq:hs-maximal-dyson}
  R^{-1}=a-\Psi(R)-i\varepsilon1_m=H-iB,
- \qquad B=\Psi(Q)+\varepsilon1_m>0.
+ \qquad B:=\Psi(Q)+\varepsilon1_m>0.
 \end{equation}
 The logarithmic primitive \eqref{eq:selfadjoint-potential} gives
 \[
@@ -86,11 +86,11 @@ Separating the two parts of $H^2+QB+i(QH-HB)=1_m$ gives
 \begin{equation}\label{eq:hs-support-identities}
  QB=BQ=1_m-H^2,\qquad QH=HB,\qquad HQ=BH.
 \end{equation}
-Let $e$ be the orthogonal projection onto the range of $H$, let $f=1_m-e$, and put $d=\operatorname{rank}e$, $r=\operatorname{rank}f$.
+Let $e$ be the orthogonal projection onto the range of $H$, let $f:=1_m-e$, and put $d:=\operatorname{rank}e$, $r:=\operatorname{rank}f$.
 The matrices $Q,B,R$ commute with these projections, since $Q$ and $B$ commute with $H^2$.
 
 On the $e$-corner the matrix $H_e$ is invertible.
-Set $u=\operatorname{sign}(H_e)$, the selfadjoint unitary with eigenvalues the signs of the eigenvalues of $H_e$.
+Set $u:=\operatorname{sign}(H_e)$, the selfadjoint unitary with eigenvalues the signs of the eigenvalues of $H_e$.
 Since $Q_e$ commutes with $|H_e|$, \eqref{eq:hs-support-identities} implies $B_e=uQ_eu$.
 Consequently $R_e^{-1}=uR_e^*u$, so $|\det R_e|=1$.
 On the $f$-corner, $H_f=0$, and the same identities give $R_f=iQ_f$, $B_f=Q_f^{-1}$.
@@ -100,11 +100,11 @@ Therefore
 \end{equation}
 When a corner is absent, its determinant is one and its trace is zero.
 
-For $v,w\in\{e,f\}$ write $\Psi_{vw}(x)=v\Psi(wxw)v$ for the maps between the corner matrix algebras $M_e=eM_m(\C)e$ and $M_f=fM_m(\C)f$.
+For $v,w\in\{e,f\}$ write $\Psi_{vw}(x):=v\Psi(wxw)v$ for the maps between the corner matrix algebras $M_e:=eM_m(\C)e$ and $M_f:=fM_m(\C)f$.
 On their direct sum the compressed map is selfadjoint, has norm at most $\theta$, and has mutually adjoint off-diagonal blocks.
 Each block preserves complete positivity.
 
-Assume first that $e\ne0$, and let $A=\Psi_{ee}$, $J(x)=uxu$, $L=(J-A)^{-1}$.
+Assume first that $e\ne0$, and let $A:=\Psi_{ee}$, $J(x):=uxu$, $L:=(J-A)^{-1}$.
 By \eqref{eq:hs-involution-inverse}--\eqref{eq:hs-inverse-cp}, $L$ is selfadjoint and completely positive, with $\|L\|\le(1-\theta)^{-1}$ and $L\le(\id-A)^{-1}$.
 The $e$-part of $B=\Psi(Q)+\varepsilon1_m$ gives
 \begin{equation}\label{eq:hs-support-elimination}
@@ -112,8 +112,8 @@ The $e$-part of $B=\Psi(Q)+\varepsilon1_m$ gives
 \end{equation}
 On the $f$-corner define
 \begin{equation}\label{eq:hs-effective-data}
- \Phi=\Psi_{ff}+\Psi_{fe}L\Psi_{ef},\qquad
- D=f+\Psi_{fe}(L(e)).
+ \Phi:=\Psi_{ff}+\Psi_{fe}L\Psi_{ef},\qquad
+ D:=f+\Psi_{fe}(L(e)).
 \end{equation}
 Then $\Phi$ is completely positive and Hilbert--Schmidt selfadjoint, and $D\ge f>0$ on this corner.
 Moreover $\id_f-\Phi>0$ as a Hilbert--Schmidt operator.
@@ -132,7 +132,7 @@ The remaining Dyson equation and the trace of \eqref{eq:hs-support-elimination} 
  \Tr Q=\Tr(DQ_f)+\varepsilon\Tr L(e).
 \end{equation}
 The second equality uses selfadjointness of $L$ and $\Psi_{ef}^*=\Psi_{fe}$.
-If $e=0$, take $\Phi=\Psi$, $D=1_m$ and omit all terms containing $L$; the same conclusions hold.
+If $e=0$, take $\Phi:=\Psi$, $D:=1_m$ and omit all terms containing $L$; the same conclusions hold.
 
 \subsection{The positive-cone estimate}
 Suppose $r>0$.

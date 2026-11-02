@@ -15,7 +15,7 @@ No conference-only proof-sketch assessment is transferred to it.
 | [GGOW20-U001: rank and shrunk subspaces](Yin_U001.md#ggow20-u001) | Theorem 1.4 p. 227; Sections 1.1-1.3 pp. 228-233; invariant-theory interfaces pp. 237-240 | Source statements read; elementary block/range translations checked. Free-field and invariant-ring foundations accepted with original-proof boundaries. |
 | [GGOW20-U002: capacity and scaling progress](Yin_U002.md#ggow20-u002) | Section 2 pp. 243-253, especially Theorems 2.12/2.14/2.18/2.20 | Complete local proof chain checked with retained blow-up and finite-grid inputs; [original root finding](../../reviews/Yin_R_F0176_v2.md#capacity-ggow20-finding) on the integral-capacity proof and normalization repairs, with unknown inherited-context relationship. |
 | [GGOW20-U003: near minimizers and tensor products](Yin_U003.md#ggow20-u003) | Section 3 pp. 253-261; dual variational formula p. 242 | Complete local proofs checked with domain, small-error and adjoint conventions; the same original root finding on the precisely bounded near-minimizer chain, with unknown inherited-context relationship. |
-| [GGOW20-U004: numerical precision and approximation](Yin_U004.md#ggow20-u004) | Sections 4-5 pp. 261-279 | Full text read. Rational recurrences and a conservative polynomial-precision reconstruction checked. Literal printed constants and the complete quantitative continuity proof remain questioned at specified steps. |
+| [GGOW20-U004: numerical precision and approximation](Yin_U004.md#ggow20-u004) | Sections 4-5 pp. 261-279 | Rational recurrences and a conservative polynomial-precision reconstruction checked. Literal printed algorithm constants remain uncertified. The complete corrected continuity reconstruction has [isolated mathematical recheck](../../reviews/Yin_R_F0184_v1.md#continuity-reconstruction-finding) at its explicit rational real/imaginary bit-input and positive-capacity scope, for all \(n\geq1\), with enlarged constants. |
 
 The full source's abstract, contents and introductory discussion (pp. 223-243), concluding questions and acknowledgments (pp. 279-281), and bibliography (pp. 287-290) were inspected for scope, version, provenance and dependencies.
 Reading the introduction does not certify every historical comparison or every theorem quoted from another paper.
@@ -56,11 +56,11 @@ The authoritative arguments and their review depths remain in the units:
 
 - **U002 F1-F2:** the complex trace identity in Lemma 2.17 is replaced by a valid Hilbert-Schmidt proof; Theorem 2.20's denominator uses the original marginal before normalization.
 - **U003 F3-F8:** the small-error range is explicit; row-sum terminology is corrected; Lemma 3.6's large-variance case is excluded; Lemma 3.10 requires \(T(C)>0\) and retains \(e^{-\delta}\); tensor multiplicativity uses the correct arbitrary-complex approximate-scaling input.
-- **U004 [quantitative corrections](Yin_U004.md#quantitative-corrections):** singular marginals, iteration growth, reciprocal relative errors and rounded precision require repairs.
+- **U004 [quantitative corrections](Yin_U004.md#quantitative-corrections):** the retained singular-marginal example and exact formula objections distinguish the source's literal constants from the corrected local bounds.
   A conservative asymptotic polynomial-time interface is recorded.
-  Theorem 4.5's full quantitative modulus is still questioned pending consistent adjoint objectives and complete tolerance propagation.
+  The [complete corrected reconstruction of Theorem 4.5](Yin_U004.md#continuity-reconstruction) uses consistent adjoint objectives and complete tolerance propagation, with [isolated mathematical recheck](../../reviews/Yin_R_F0184_v1.md#continuity-reconstruction-finding) at the explicit rational real/imaginary bit-input and positive-capacity scope for all \(n\geq1\), using the enlarged constants.
 The main integral-capacity and near-minimizer interfaces remain usable under their corrected assumptions.
-The unresolved quantitative continuity details are not prerequisites of MS24's main determinant/capacity argument.
+The quantitative continuity reconstruction and literal algorithm constants are not prerequisites of MS24's main determinant/capacity argument.
 No project Claim, theorem designation or goal-completion status is created merely by this source intake.
 
 ## Search and version evidence

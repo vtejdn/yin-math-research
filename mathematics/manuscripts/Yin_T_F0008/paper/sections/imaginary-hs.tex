@@ -13,7 +13,7 @@ The same positive-cone minimization will give a formula for $T-iD$, with $D>0$, 
 \subsection{A positive-cone minimum}
 For $D>0$ and $b>0$, define
 \begin{equation}\label{eq:imaginary-action}
- J_D(b)=-\log\det b+\Tr(Db)+\tfrac12\Tr(b\eta(b)).
+ J_D(b):=-\log\det b+\Tr(Db)+\tfrac12\Tr(b\eta(b)).
 \end{equation}
 All finite traces here are unnormalized.
 
@@ -34,8 +34,8 @@ Indeed, $\Tr(ba_jba_j)=\Tr((b^{1/2}a_jb^{1/2})^2)\ge0$.
 Each scalar summand is bounded below and tends to infinity at both ends of $(0,\infty)$.
 Every sublevel set is therefore contained in a compact subset of the positive definite cone, and a minimum exists.
 
-To see uniqueness, join two positive matrices by $b(t)=b_0^{1/2}e^{tx}b_0^{1/2}$, where $x=x^*$.
-In a basis diagonalizing $x$, write its eigenvalues as $x_k$, and set $d=b_0^{1/2}Db_0^{1/2}>0$, $c_j=b_0^{1/2}a_jb_0^{1/2}=c_j^*$.
+To see uniqueness, join two positive matrices by $b(t):=b_0^{1/2}e^{tx}b_0^{1/2}$, where $x=x^*$.
+In a basis diagonalizing $x$, write its eigenvalues as $x_k$, and set $d:=b_0^{1/2}Db_0^{1/2}>0$, $c_j:=b_0^{1/2}a_jb_0^{1/2}=c_j^*$.
 Then
 \[
  \Tr(Db(t))=\sum_k d_{kk}e^{tx_k},\qquad
@@ -79,7 +79,7 @@ The minimizer is unique and satisfies \eqref{eq:imaginary-critical}.
 \end{proposition}
 \begin{proof}
 First let $D=1_m$.
-The expected resolvent $G=E_m((i1_m-T)^{-1})$ is purely imaginary, because $T$ and $-T$ have the same matrix-valued distribution.
+The expected resolvent $G:=E_m((i1_m-T)^{-1})$ is purely imaginary, because $T$ and $-T$ have the same matrix-valued distribution.
 Its imaginary part is strictly negative, so $G=-ib$ with $b>0$.
 The Dyson equation gives $b^{-1}=1_m+\eta(b)$, and \eqref{eq:selfadjoint-potential} gives
 \[
@@ -89,17 +89,17 @@ The Dyson equation gives $b^{-1}=1_m+\eta(b)$, and \eqref{eq:selfadjoint-potenti
 The trace identity $m=\Tr b+\Tr(b\eta(b))$ identifies this value with $(J_{1_m}(b)-m)/m$.
 Lemma~\ref{lem:imaginary-minimum} identifies $b$ as the unique minimizer.
 
-For general $D$, put $T'=D^{-1/2}TD^{-1/2}$ and $\eta'(x)=\sum_j(D^{-1/2}a_jD^{-1/2})x(D^{-1/2}a_jD^{-1/2})$.
+For general $D$, put $T':=D^{-1/2}TD^{-1/2}$ and $\eta'(x):=\sum_j(D^{-1/2}a_jD^{-1/2})x(D^{-1/2}a_jD^{-1/2})$.
 The congruence $T-iD=D^{1/2}(T'-i1_m)D^{1/2}$ and determinant multiplicativity give
 \[
  \log\Delta(T-iD)=\frac1m\log\det D+\log\Delta(T'-i1_m).
 \]
-The positive-cone bijection $c=D^{1/2}bD^{1/2}$ satisfies $J_{1_m}^{\eta'}(c)=J_D^\eta(b)-\log\det D$.
+The positive-cone bijection $c:=D^{1/2}bD^{1/2}$ satisfies $J_{1_m}^{\eta'}(c)=J_D^\eta(b)-\log\det D$.
 This reduces the assertion to the case already proved.
 \end{proof}
 
 Letting $D=\varepsilon1_m$ tend to zero in Proposition~\ref{prop:imaginary-drift} gives a formula for $T$.
-Put $J_0(b)=-\log\det b+\tfrac12\Tr(b\eta(b))$.
+Put $J_0(b):=-\log\det b+\tfrac12\Tr(b\eta(b))$.
 Then
 \begin{equation}\label{eq:imaginary-zero}
  \Delta(T)=\exp\left(\frac{\inf_{b>0}J_0(b)-m}{m}\right),
@@ -117,7 +117,7 @@ Scaling $b=tc$, with $\det c=1$, also gives
  \Cap(\eta)=\inf_{b>0}
    \frac{\bigl(\Tr(b\eta(b))/m\bigr)^m}{(\det b)^2}.
 \end{equation}
-For $\beta=\Tr(c\eta(c))>0$, the minimum of $-m\log t+t^2\beta/2$ is $m/2+(m/2)\log(\beta/m)$; if $\beta=0$, its infimum is $-\infty$.
+For $\beta:=\Tr(c\eta(c))>0$, the minimum of $-m\log t+t^2\beta/2$ is $m/2+(m/2)\log(\beta/m)$; if $\beta=0$, its infimum is $-\infty$.
 This proves \eqref{eq:imaginary-homogeneous-capacity}.
 
 \begin{remark}[Capacity and common congruences]\label{rem:capacity-congruence}
@@ -126,7 +126,7 @@ For selfadjoint coefficients, \eqref{eq:imaginary-homogeneous-capacity} can be w
  m\Cap(\eta)^{1/m}
  =\inf_{\substack{c>0\\\det c=1}}
        \sum_j\|c^{1/2}a_jc^{1/2}\|_{\rm HS}^2,
- \qquad \|x\|_{\rm HS}^2=\Tr(x^*x).
+ \qquad \|x\|_{\rm HS}^2:=\Tr(x^*x).
 \]
 This expresses capacity through an infimum over common positive congruences of the coefficient matrices.
 It is related to the capacity and norm minimizations in operator scaling \cite{AZGL+18}, where independent left and right changes of basis are allowed.
@@ -150,11 +150,11 @@ To compare the expressions in \eqref{eq:main-determinant} and \eqref{eq:hs-deter
 
 \begin{lemma}[Positive coordinates for the strict domain]
 \label{lem:hs-coordinates}
-For $b>0$, put $H_b=1_m+\eta(b)$ and
+For $b>0$, put $H_b:=1_m+\eta(b)$ and
 \begin{equation}\label{eq:hs-balanced-scale}
- c_b=b^{-1/2}(b^{1/2}H_bb^{1/2})^{1/2}b^{-1/2}.
+ c_b:=b^{-1/2}(b^{1/2}H_bb^{1/2})^{1/2}b^{-1/2}.
 \end{equation}
-Then $b\mapsto c_b$ is a bijection from the positive definite cone onto $\mathcal B_\eta$, with inverse $b_c=(\mathcal C_c-\eta)^{-1}(1_m)$.
+Then $b\mapsto c_b$ is a bijection from the positive definite cone onto $\mathcal B_\eta$, with inverse $b_c:=(\mathcal C_c-\eta)^{-1}(1_m)$.
 Moreover,
 \begin{equation}\label{eq:hs-determinant-factor}
  c_bbc_b=1_m+\eta(b),\qquad
@@ -162,7 +162,7 @@ Moreover,
 \end{equation}
 \end{lemma}
 \begin{proof}
-For $c>0$, set $\Psi=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
+For $c>0$, set $\Psi:=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
 It is completely positive and Hilbert--Schmidt selfadjoint.
 If $c\in\mathcal B_\eta$, congruence gives $\id-\Psi>0$.
 For a Hermitian eigenmatrix $x$ of $\Psi$, positivity gives
@@ -180,7 +180,7 @@ The Neumann series for $(\id-\Psi)^{-1}$ is completely positive, and its zeroth 
 \]
 This also proves the invertibility of $\mathcal C_c+\eta$ claimed in Proposition~\ref{prop:hs-formula}.
 
-Conversely, if $cbc-\eta(b)=1_m$ with $b>0$, then $p=c^{1/2}bc^{1/2}$ satisfies $p-\Psi(p)=c^{-1}>0$.
+Conversely, if $cbc-\eta(b)=1_m$ with $b>0$, then $p:=c^{1/2}bc^{1/2}$ satisfies $p-\Psi(p)=c^{-1}>0$.
 The positive-map estimate of Section~\ref{subsec:gap-tools} gives $r(\Psi)<1$.
 Selfadjointness gives $\id-\Psi>0$, hence $c\in\mathcal B_\eta$.
 Finally, $cbc=H_b$ has the unique positive solution \eqref{eq:hs-balanced-scale}, by uniqueness of the positive square root of $b^{1/2}H_bb^{1/2}$.
@@ -190,18 +190,18 @@ This proves both compositions and the determinant identity.
 The matrix in \eqref{eq:hs-balanced-scale} is the geometric mean $c_b=b^{-1}\#H_b$: for $A,B>0$, $A\#B$ is the unique positive solution of $XA^{-1}X=B$; see \cite[Section 2]{BJL19}.
 This identifies the explicit positive solution, while the positive-map argument above proves the bijection with the strict domain.
 
-Write $h_b=(\mathcal C_{c_b}+\eta)^{-1}(a_0)$ and retain $Z_b=\mathcal T_b^{-1}(a_0)$ from Theorem~\ref{thm:main}; here $\rho=\eta$.
+Write $h_b:=(\mathcal C_{c_b}+\eta)^{-1}(a_0)$ and retain $Z_b=\mathcal T_b^{-1}(a_0)$ from Theorem~\ref{thm:main}; here $\rho=\eta$.
 Define
 \begin{equation}\label{eq:hs-energies}
- q_{\rm HS}(b)=\Tr(a_0h_b),\qquad
- q_{\rm gen}(b)=\operatorname{Re}\Tr(a_0Z_b).
+ q_{\rm HS}(b):=\Tr(a_0h_b),\qquad
+ q_{\rm gen}(b):=\operatorname{Re}\Tr(a_0Z_b).
 \end{equation}
 Define
 \begin{equation}\label{eq:hs-objectives}
  \begin{split}
- \Phi_{\rm HS}(c)&=\frac{2\log\det c-m+
+ \Phi_{\rm HS}(c)&:=\frac{2\log\det c-m+
              \Tr(a_0(\mathcal C_c+\eta)^{-1}(a_0))}{2m},\\
- \Phi_{\rm gen}(b)&=\frac{\mathcal V(b)}{2m}.
+ \Phi_{\rm gen}(b)&:=\frac{\mathcal V(b)}{2m}.
  \end{split}
 \end{equation}
 
@@ -214,14 +214,14 @@ For every $b>0$,
 The inequality can be strict, even when $\eta=0$.
 \end{proposition}
 \begin{proof}
-Fix $b$ and put $c=c_b$, $p=c^{1/2}bc^{1/2}$, $a=c^{-1/2}a_0c^{-1/2}$, $\Psi=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
-The transformed equations for $w=c^{1/2}h_bc^{1/2}$ and $X=c^{1/2}Z_bc^{1/2}$ are
+Fix $b$ and put $c:=c_b$, $p:=c^{1/2}bc^{1/2}$, $a:=c^{-1/2}a_0c^{-1/2}$, $\Psi:=\mathcal C_{c^{-1/2}}\eta\mathcal C_{c^{-1/2}}$.
+The transformed equations for $w:=c^{1/2}h_bc^{1/2}$ and $X:=c^{1/2}Z_bc^{1/2}$ are
 \begin{equation}\label{eq:hs-transformed-equations}
  (\id+\Psi)w=a,\qquad pXp^{-1}+\Psi(X^*)=a.
 \end{equation}
-The quadratic corrections are $\langle a,w\rangle_{\R}$ and $\langle a,X\rangle_{\R}$, for $\langle x,y\rangle_{\R}=\operatorname{Re}\Tr(x^*y)$.
+The quadratic corrections are $\langle a,w\rangle_{\R}$ and $\langle a,X\rangle_{\R}$, for $\langle x,y\rangle_{\R}:=\operatorname{Re}\Tr(x^*y)$.
 
-On this real Hilbert space let $J(x)=x^*$ and $K(x)=pxp^{-1}$.
+On this real Hilbert space let $J(x):=x^*$ and $K(x):=pxp^{-1}$.
 The operator $K$ is positive definite and selfadjoint, $J$ is a selfadjoint involution, and $KJK=J$.
 Splitting into Hermitian and skew-Hermitian matrices gives
 \[
@@ -238,7 +238,7 @@ The operator $K+\Psi J$ is positive definite.
 Indeed it is a congruence of $\mathcal T_b$, whose real quadratic form is bounded below by $\Tr(Y^*Yb^{-1})$ in the proof of Theorem~\ref{thm:main}.
 Its Schur complement is therefore
 \[
- F=A+\Psi_+-B(D-\Psi_-)^{-1}B^*>0.
+ F:=A+\Psi_+-B(D-\Psi_-)^{-1}B^*>0.
 \]
 Since $\|\Psi\|_{2\to2}<1$, we have $0<D-\Psi_-<D+\id$.
 Inverting and using \eqref{eq:hs-block-identity} gives $F\le\id+\Psi_+$.
@@ -255,7 +255,7 @@ The remaining ingredient gives $\log\Delta(S)\le\Phi_{\rm HS}(c)$ for every $c\i
 We state the estimate here; its proof in Appendix~\ref{app:comparison} uses the logarithmic primitive and Lemma~\ref{lem:imaginary-minimum}.
 
 \begin{lemma}[Global comparison]\label{lem:hs-global}
-Let $\Psi$ be completely positive and Hilbert--Schmidt selfadjoint, with $\theta=\|\Psi\|_{2\to2}<1$, and let $T_\Psi$ be a centered selfadjoint matrix-valued semicircular element with covariance $\Psi$.
+Let $\Psi$ be completely positive and Hilbert--Schmidt selfadjoint, with $\theta:=\|\Psi\|_{2\to2}<1$, and let $T_\Psi$ be a centered selfadjoint matrix-valued semicircular element with covariance $\Psi$.
 For every $a=a^*$,
 \begin{equation}\label{eq:hs-global-comparison}
  \log\Delta(a+T_\Psi)
@@ -299,7 +299,7 @@ More generally, when $\eta=0$,
  =\Tr(b)I_{\rm WY}\bigl(b/\Tr(b),a_0\bigr).
  \end{split}
 \]
-Here $I_{\rm WY}(d,a)=-\tfrac12\Tr([d^{1/2},a]^2)$ is the Wigner--Yanase skew information for $d\ge0$, $\Tr d=1$ and $a=a^*$; see \cite{Han08}.
+Here $I_{\rm WY}(d,a):=-\tfrac12\Tr([d^{1/2},a]^2)$ is the Wigner--Yanase skew information for $d\ge0$, $\Tr d=1$ and $a=a^*$; see \cite{Han08}.
 Hence this difference vanishes exactly when $b$ and $a_0$ commute.
 For every $\eta$ in the present setting, $\Phi_{\rm HS}(c_b)$ and $\Phi_{\rm gen}(b)$ coincide pointwise when $a_0=0$.
 For scalar selfadjoint data $\eta(b)=\sigma b$, both $h_b$ and $Z_b$ are $a_0/(b^{-1}+2\sigma)$ and $c_b^2=\sigma+b^{-1}$, so the entire scalar formulas also coincide pointwise.

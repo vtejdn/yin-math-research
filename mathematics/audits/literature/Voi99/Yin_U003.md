@@ -13,7 +13,12 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 | --- | --- |
 | source-version | Published edition of Voi99. |
 | source-locator | Sections 5–7, printed pp.114–128, PDF pp.14–28. |
-| inspection | 2026-10-18, authoring agent for Yin. All statements and proofs in this range were read. Word expansions, conditional-expectation transfers, the freeness induction, weak limits, adjoint signs and the separation estimate were checked. Printed pp.115, 117 and 126–127 were also inspected as images. Corrections and one unresolved remainder estimate are distinguished below. |
+| inspection | 2026-10-18, authoring agent for Yin. All statements and proofs in this range were read. Word expansions, conditional-expectation transfers, the freeness induction, weak limits, adjoint signs and the separation estimate were checked. Printed pp.115, 117 and 126–127 were also inspected as images. Corrections and the remainder issue, unresolved at that inspection, are distinguished below. |
+
+The targeted remainder check below directly reinspected Definitions 5.3–5.5, Proposition 5.6 and Corollary 5.7, printed pp. 115–118, on 2026-11-02, including the displayed corollary on printed p. 117 as an image.
+Those spectral-calculus checks are ordinary source verification by the repairing agent for Yin.
+The counterexample development additionally read published Sections 12.1–12.7, printed pp.155–159; its complete local deduction and subsequent independent whole-proof review are linked at the remainder interface below.
+That review concerns the exact counterexample, without expanding the original Sections 5–7 inspection or independently reviewing this whole source unit.
 
 <a id="liberation-derivation-and-gradient"></a>
 ## Complete definitions and signs
@@ -67,7 +72,7 @@ Neither the gradient nor its adjoint-vacuum representative may be identified wit
 | --- | --- |
 | 5.5 | Uniqueness follows from the trace pairing; restriction to smaller algebras is conditional expectation. The word formula extends to von Neumann closures by bounded Kaplansky approximation against the \(L^1\) vector. Taking adjoints of the word identity gives skewadjointness. |
 | 5.6 | The order-\(\varepsilon\) liberation variation is the displayed cyclic sum of \(\delta\)-pairings. Expansion by Proposition 1.4 gives the same diagonal terms and two copies of the off-diagonal terms after exchanging indices. |
-| 5.7 | The first displayed equality substitutes the gradient moment identity into 5.6 and is justified. The final exponential expression has the additional remainder issue recorded below. |
+| 5.7 | The first displayed equality substitutes the gradient moment identity into 5.6 and is justified. The final L1-only quadratic exponential comparison fails for the actual-gradient counterexample in [C_F0184](../../../claims/Yin_C_F0184_v1.md#statement), with its independently reviewed argument. The valid interfaces below give \(o(\varepsilon)\) under the stated L1 hypothesis and a quadratic comparison under the sufficient extra hypothesis \(j\in L^2\). |
 | 5.8–5.9 | Summing the coordinate derivations gives the derivation for the generated algebra; the total derivation relative to scalars has zero trace pairing. This gives the sum and antisymmetry identities whenever the participating gradients exist. |
 | 5.10–5.12 | For selfadjoint \(X\) with conjugate variable \(\mathcal J(X:B)\), \(j(\mathbb C[X]:B)=[\mathcal J(X:B),X]\). The two difference-quotient expansions cancel their outside terms. Summing gives the multivariable formula and the zero total commutator identity. The statements use selfadjoint generators; no normal-tuple extension is asserted by this source alone. |
 | 5.13–5.16 | Under amalgamated freeness, adding constants leaves the gradient unchanged; for a freely Markovian triple, \(j(A:C)=E_{W^*(A,C)}j(A:B)\). The proof uses the reduced centered-word decomposition in 5.14: after applying the derivation, at least one tensor factor has zero trace. |
@@ -121,19 +126,100 @@ The corrected formula gives \(a\).
 Also, if \(T\) is merely affiliated, the source's \(m_T(a\otimes b)=aTb\) is affiliated-valued; its printed codomain \(M\) is not justified unless those products are bounded.
 
 <a id="exponential-remainder-limit"></a>
-## Unresolved exponential remainder in Corollary 5.7
+## Failure of the L1-only quadratic exponential comparison in Corollary 5.7
 
-The source assumes only existence of \(j(A:B)\in L^1\), then writes the liberated moment as a moment of conjugations by \(\exp(\varepsilon j/2)\) with error \(O(\varepsilon^2)\).
-Skewadjointness makes these exponentials unitary, and \(L^1\) integrability gives the first derivative paired against bounded words.
-It does not by itself supply a quadratic Taylor remainder.
-For example, the generic bound obtained from spectral calculus with only an \(L^1\) generator is \(o(\varepsilon)\), whereas an \(L^2\) generator gives quadratic control in the relevant trace estimates.
-No additional argument establishing the printed \(O(\varepsilon^2)\) estimate under the stated \(L^1\)-only hypothesis was found in the paper.
-The first, linearized equality remains supported by 5.6; the final exponential remainder is not certified by this review.
-This is a proof-sufficiency issue, not a claimed counterexample to the source's specialized assertion.
+The published Corollary 5.7, printed pp. 117–118, assumes the setting of Proposition 5.6 and existence of the gradient as defined in 5.4, hence only \(j:=j(A:B)\in L^1(N,\tau)\), where \(N=W^*(A,B)\).
+Here \((M,\tau)\) is a tracial \(W^*\)-probability space, \(A,B\) are unital \(*\)-subalgebras, and the unitary free Brownian motion \(U(t)\) is free from their jointly generated algebra.
+For fixed \(n\geq1\), \(a_k\in A\) and \(b_k\in B\), put
+\[
+ \begin{aligned}
+ \Lambda(t)&=\tau\bigl(U(t)a_1U(t)^*b_1\cdots U(t)a_nU(t)^*b_n\bigr),\\
+ u_t&=\exp(tj/2),\qquad
+ F(t)=\tau\bigl(u_ta_1u_t^*b_1\cdots u_ta_nu_t^*b_n\bigr),\\
+ D&=\frac12\sum_{k=1}^n
+ \tau\bigl(a_1b_1\cdots a_{k-1}b_{k-1}[j,a_k]b_k\cdots a_nb_n\bigr).
+ \end{aligned}
+\]
+An empty prefix or suffix in this expression is the identity.
+Skewadjointness of the affiliated \(j\) makes \(u_t\) a bounded unitary, and each commutator in \(D\) belongs to \(L^1(N,\tau)\).
+Proposition 5.6 and the gradient word identity prove the first displayed equality of 5.7 in the precise form
+\[
+ \Lambda(t)=F(0)+tD+O(t^2)\qquad(t\downarrow0).
+\]
+The corollary also prints \(\Lambda(t)=F(t)+O(t^2)\).
+Its proof on p. 118 only invokes the combination of 5.6 and the definition of \(j\); neither supplies the required quadratic remainder for \(F\).
+The original inspection retained this as a proof-sufficiency doubt without a specialized counterexample.
+The independently reviewed actual-gradient construction below now disproves that printed quadratic comparison under its original L1-only hypothesis.
+
+### What the stated L1 hypothesis does justify
+
+Spectral calculus and dominated convergence give
+\[
+ \left\|\frac{u_t-1}{t}-\frac j2\right\|_1\longrightarrow0,
+ \qquad
+ \left\|\frac{u_t^*-1}{t}+\frac j2\right\|_1\longrightarrow0.
+\]
+Indeed, for \(j=\mathrm iH\) with \(H=H^*\), the scalar remainder divided by \(|t|\) converges pointwise to zero and is bounded by \(|H|\).
+Left and right multiplication by this unitary group are continuous on \(L^1\), as follows by approximation with \(L^2\) elements and uniform boundedness.
+Telescoping the finite product defining \(F\) therefore gives its derivative at zero by inserting \(j/2\) at each \(u_t\) and \(-j/2\) at each \(u_t^*\).
+Combining the two insertions adjacent to each \(a_k\) gives exactly \(D\).
+Consequently the supported exponential interface under the source's stated hypothesis is
+\[
+ F(t)=F(0)+tD+o(t),\qquad
+ \Lambda(t)=F(t)+o(t)\qquad(t\downarrow0).
+\]
+This calculation uses the actual gradient moment identity to identify the same coefficient \(D\) in the Brownian and exponential moments; a generic generator estimate alone would not identify that coefficient.
+
+### A sufficient extra hypothesis for the quadratic interface
+
+If the actual gradient additionally belongs to \(L^2(N,\tau)\), the printed quadratic comparison follows.
+Here is a direct check, with \(K=\prod_{k=1}^n\|a_k\|\|b_k\|\).
+Let \(j_R=j1_{\{|j|\leq R\}}\), and define \(F_R\) by replacing \(j\) with this bounded skewadjoint spectral truncation.
+The product has \(2n\) exponential factors.
+Twice differentiating gives \((2n)^2\) terms, each with coefficient of absolute value \(1/4\), containing either one \(j_R^2\) or two \(j_R\)'s.
+All other exponential factors are unitary.
+The trace inequality for one \(L^1\) factor, or noncommutative Hölder for two \(L^2\) factors, bounds every such term by \(K\|j_R\|_2^2/4\).
+Thus, for real \(t\),
+\[
+ |F_R''(t)|\leq n^2K\|j_R\|_2^2,
+ \qquad
+ |F_R(t)-F_R(0)-tF_R'(0)|
+ \leq\frac{n^2K}{2}\|j_R\|_2^2t^2.
+\]
+Spectral dominated convergence gives \(e^{tj_R/2}\to u_t\) in \(L^2\), so the bounded finite products converge in trace.
+Also \(j_R\to j\) in \(L^2\) and hence in \(L^1\), giving \(F_R'(0)\to D\).
+Passing to the limit proves
+\[
+ |F(t)-F(0)-tD|\leq\frac{n^2K}{2}\|j\|_2^2t^2.
+\]
+Combining this with the supported linearized equality for \(\Lambda\) proves \(\Lambda(t)=F(t)+O(t^2)\) under this additional hypothesis.
+Square integrability is sufficient here; this check does not claim it is necessary.
+
+### Confirmed failure and consumer boundary
+
+[C_F0184](../../../claims/Yin_C_F0184_v1.md#statement) gives algebraically free projection algebras in \(M_2(L^\infty(\mu))\), with \(d\mu(x)=c(x-1/2)^{-2/5}1_{(1/2,3/4)}(x)\,dx\) and \(c\) the probability normalization.
+Its symmetric-cutoff and whole-word calculations prove existence of the actual gradient \(j(A:B)=-[p,q]g\in L^1\setminus L^2\), where \(g(x)=\operatorname{pv}\int(x-y)^{-1}d\mu(y)\).
+The source's Proposition 12.7 assumes an L3 density and is not applied to this singular density; the required L1-gradient extension is proved directly in the fixed Claim.
+For the fixed word \(a_1=p,b_1=q\) and the original exponential normalization \(e^{tj/2}\), that argument gives positive constants \(c_0,C_0\) such that
+\[
+ F(t)-\Lambda(t)\geq c_0t^{3/2}-C_0t^2
+ \qquad(t\downarrow0).
+\]
+Thus \(\Lambda(t)-F(t)\) is not \(O(t^2)\), even though the actual L1 gradient exists and the two moments have the same supported linear coefficient.
+This is a failure of the original specialized quadratic assertion, not an inference from a generic L1 generator estimate.
+
+The [independent whole-proof finding](../../reviews/Yin_R_F0186_v1.md#whole-candidate-finding), review act 2026-11-02T05:09 UTC, covers C_F0184's exact statement, complete argument and source interfaces and found no mathematical gap.
+The [proved decision](../../../claims/Yin_C_F0184_v1.md#decision-reviewed-adoption) adopts that result.
+The review directly checked the published hypotheses and two-projection passages; free Brownian existence, its stated mean and the free tracial extension remain accepted external inputs without re-auditing their original constructions.
+It does not independently re-review all of Sections 5–7 or the project proofs cited below.
+The L1 \(o(t)\) interface remains valid and is compatible with the fractional-order obstruction; the sufficient L2 quadratic interface also remains valid and does not apply to this non-L2 example.
+Quadratic reliance therefore requires adequate additional hypotheses, such as the proved L2 sufficient condition above, rather than the false L1-only printed comparison.
 The later rigorous information inequalities inspected here use moment identities and conditional expectations, rather than that exponential remainder.
+The retained [C_F0082 argument](../../../claims/Yin_C_F0082_v1.md#represented-derivations-and-actual-vacuum-adjoints) and [C_F0083 v2 conventions](../../../claims/Yin_C_F0083_v2.md#definitions-and-conventions) likewise use the word moments, skewadjointness and signed actual \(L^2\) vacuum from Sections 5.3–5.4 and Proposition 6.1.
+Their selected source inputs do not invoke the exponential comparison, so its failure does not change those inputs or their recorded review scope.
 
 ## External inputs and outcome
 
 The source's accepted external inputs include standard conditional expectations and Kaplansky density, the Part V conjugate-variable rules, and the small-time expansion recorded in [Voi99-U002](Yin_U002.md#voi99-u002).
 The local adjoint checks above do not rely on blindly importing the real-derivation formula from Part V.
-This unit records an audit with the stated corrections and unresolved remainder, rather than an unqualified verification of every printed formula.
+This unit records an audit with the stated corrections and confirmed failure of the L1-only quadratic exponential comparison, rather than an unqualified verification of every printed formula.

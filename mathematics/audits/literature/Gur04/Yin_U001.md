@@ -13,7 +13,7 @@ Passages: Locators: Definitions 2.1, 2.3, 2.5-2.6; Theorem 2.7; Example 2.9; pri
 Inspection: Definitions and the elementary rank/ERP boundary are audited within this scope.
 
 
-The sole bibliography is the Gur04 intake.
+The sole bibliography is [references.bib](../../../literature/references.bib).
 
 Edition: published JCSS article, 37 PDF pages; printed page equals PDF page plus 447.
 Current artifact identity; the original review date and scope below are retained.

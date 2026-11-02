@@ -8,7 +8,7 @@ author: Yin
 
 | Task | Scope |
 | --- | --- |
-| [Yin_T_F0001_v1](../tasks/Yin_T_F0001_v1.md#yin_t_f0001) | Yin_C_F0012 passes independent complete-chain and fresh analytic review and meets every original Yin_T_F0001 refutation requirement. |
+| [Yin_T_F0001_v1](../tasks/Yin_T_F0001_v1.md#yin_t_f0001) | Yin_C_F0012 meets the original refutation contract; its original-contract integration and later isolated proof findings retain their distinct review scopes. |
 
 ## Route
 
@@ -22,8 +22,9 @@ Dated outcomes, earlier authorizations and superseded allocations below retain t
 
 <a id="s_f0006"></a>
 Current outcome, 2026-09-09: **completed**.
-Yin_C_F0012 passes independent complete-chain and fresh analytic review and meets every original Yin_T_F0001 refutation requirement.
-See [Yin_C_F0012](../claims/Yin_C_F0012_v1.md#yin_c_f0012) and the [goal completion audit](../audits/reviews/Yin_R_F0054_v1.md).
+Yin_C_F0012 retains its proved counterexample assessment and the original refutation outcome.
+The [original-contract integration](../audits/reviews/Yin_R_F0054_v1.md#completion-finding-and-verification-boundaries) is self-reviewed, while the later isolated findings cover [the main proof](../audits/reviews/Yin_R_F0056_v1.md#main-counterexample-finding) and [Section 8](../audits/reviews/Yin_R_F0082_v1.md#current-bh-extension) separately.
+The [selected C_F0012 decision](../claims/Yin_C_F0012_v1.md#current-assessment) owns their exact adopted scopes.
 Earlier targets and tests below are retained as the route's research history.
 
 Goal: [Yin_T_F0001](../tasks/Yin_T_F0001_v1.md#yin_t_f0001).
@@ -62,3 +63,4 @@ No new conjecture or modified goal is automatically selected if this counterexam
 2026-09-09, the coordinating agent: changed disposition from `active` to `completed` after independent review of Yin_C_F0012.
 Yin_C_F0012 passes independent complete-chain and fresh analytic review and meets every original Yin_T_F0001 refutation requirement.
 Yin_S_F0006 emerged from Yin_S_F0005; Yin_S_F0002's coordinating bounded-descent target includes that failed universal upgrade.
+The independent-review wording in this dated outcome is historical; the current relationships and distinct proof and contract scopes are identified above.

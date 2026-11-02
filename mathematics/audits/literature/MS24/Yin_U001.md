@@ -15,8 +15,6 @@ Passages: Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), arXiv v1, Defini
 Inspection: Date/reviewer: 2026-09-12, assigned MS24 reviewer.
 
 
-The registered artifact and acquisition record retain both dates.
-
 ## MS24-U001
 
 Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), arXiv v1, Definitions 1.1, 2.1 and 2.5, Remarks 2.2/2.6, Propositions 2.3-2.10, printed/PDF pp. 3-9.

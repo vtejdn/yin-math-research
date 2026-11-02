@@ -13,7 +13,7 @@ Passages: Locators: Definitions 4.2 and 4.4, Lemma 4.5, Theorem 4.6, printed pp.
 Inspection: Record: 2026-09-12, source-audit agent, self-review; audited within the explicitly reconstructed qualitative scope below.
 
 
-The sole bibliography is the Gur04 intake.
+The sole bibliography is [references.bib](../../../literature/references.bib).
 
 Edition: published JCSS article, 37 PDF pages; printed page equals PDF page plus 447.
 Current artifact identity; the original review date and scope below are retained.

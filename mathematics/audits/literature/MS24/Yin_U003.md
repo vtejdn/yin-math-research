@@ -15,8 +15,6 @@ Passages: Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), Theorem 1.2, Rem
 Inspection: Date/reviewer: 2026-09-12, assigned MS24 reviewer.
 
 
-The registered artifact and acquisition record retain both dates.
-
 ## MS24-U003
 
 Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), Theorem 1.2, Remark 3.1, Proposition 3.4 and Sections 3.2-3.4, printed/PDF pp. 3, 9, 11-14.

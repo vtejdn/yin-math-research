@@ -14,8 +14,6 @@ Source passages: The reviewed MS24 version has printed/PDF pp. 1-19; Section 5 i
 
 Inspection: Date/reviewer: 2026-09-12, assigned MS24 reviewer, with the source assignments and the coordinating agent checks identified below.
 
-The registered artifact and acquisition record retain both dates.
-
 ## MS24-U005
 
 Date/reviewer: 2026-09-12, assigned MS24 reviewer, with the source assignments and the coordinating agent checks identified below.

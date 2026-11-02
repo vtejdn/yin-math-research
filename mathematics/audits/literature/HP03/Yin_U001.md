@@ -21,7 +21,7 @@ Neither all equivalences nor the full paper were audited.
 ## HP03-U001: Positive-Interval Matrix Jensen Inequality
 
 Recorded and directly inspected 2026-09-13 by the affine-source reader.
-Bibliographic identity and artifact provenance: HP03 intake.
+Bibliographic identity: [references.bib](../../../literature/references.bib).
 Primary artifact: [arXiv:math/0204049](https://arxiv.org/pdf/math/0204049), visibly v1 dated 3 April 2002, 12 pages.
 Theorem 2.1(ii), printed/PDF p.3, and the proof of (i) implies (ii), pp.6-7, were checked; Lemma 3.1 p.6 and the column construction p.5 were inspected.
 Coverage: audited within the consumed finite-dimensional implication; neither all equivalences nor the full paper were audited.

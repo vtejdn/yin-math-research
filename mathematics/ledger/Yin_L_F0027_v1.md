@@ -191,8 +191,3 @@ A third agent independently checked this note's Kronecker interpretation, finite
 The [Miy22 arXiv abstract](https://arxiv.org/abs/2109.08841) and [Miy26 arXiv abstract](https://arxiv.org/abs/2603.19528) were reopened on 2026-09-09 for source scope; a bounded Kronecker/L2 search added no theorem input.
 The existing source audits supply the precise theorem and proof inputs.
 No new PDF, broad novelty survey, numerical experiment, or formalization was undertaken.
-
-Integration checks, 2026-09-09: the repository record validator passed on 120 Markdown files and 1,333 local links/anchors; the Git whitespace check found no errors.
-The five new proof, review and synthesis files contain English prose.
-These are artifact checks, separate from the mathematical reviews above.
-Existing unrelated manuscript-rule edits were preserved.

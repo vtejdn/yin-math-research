@@ -32,7 +32,9 @@ Thus the reviewer participated in this target's substantive development, and nei
 The unadopted alternative interval sequence is not used as a reason for this classification.
 The v1 finding identified a genuine missing density hypothesis in the supplementary selfadjoint restriction argument; v2 restores the generating scope and the same reviewer checked that repair.
 The two complete counterexamples themselves were unchanged.
-A separately isolated inspection of the repaired Section 5 density/regularization chain is still needed for independent coverage of that repaired comparison; the preparation feedback and this same agent's recheck do not provide it.
+The preparation feedback and this same agent's recheck do not provide isolated independent coverage of the repaired Section 5 density/regularization chain.
+The later [R_F0179 whole-v2 finding](Yin_R_F0179_v1.md#conclusion) supplies that repaired-chain coverage at its stated scope, as selected by [C_F0128 v2](../../claims/Yin_C_F0128_v2.md#decision-isolated-whole-review-adoption).
+The original v1 and v2 findings here retain their dates and self-reviewed relationships.
 No new mathematical error in either counterexample is asserted.
 
 ## Review relationships

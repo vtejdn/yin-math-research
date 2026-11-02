@@ -13,6 +13,8 @@ Inspected edition: [Yin's source notes](readme.md#yin-edition).
 | source-locator | Section 3, pp.30--38; Section 4.1--4.2, pp.38--44; printed page numbers equal PDF page numbers. |
 | inspection | 2026-10-14, AI source-proof self-review under Yin's explicit full-audit request. All stated passages and proofs were read; exact prior audits and accepted external inputs are identified below. No new independent or formal verification is claimed. |
 
+The 2026-11-02 repair reading revisited Theorem 4.7 and its proof, pp.43--44, at the BBL21 interface described below; it supplies no new whole-source or independent review.
+
 ## ACSY24-U003
 
 ### Lemma 3.1 and Proposition 3.2: matrix realizations
@@ -155,17 +157,24 @@ Its star-subalgebra wording does not literally fit the holomorphic algebra C<X> 
 The proved rank property applies to that unital algebra; it need not be star closed.
 Common-denominator Theorem 4.1 proves the least-common-multiple denominator in Corollary 4.6.
 
-Theorem 4.7, for two free selfadjoint coordinates and possibly irrational atomic masses, is **Questioned at its external proof interface**, not refuted.
-Its proof invokes [BBL21](../../../literature/pdf/BBL21--arxiv-v2.pdf), published Corollary 3.3, to handle a linearized matrix.
-The retained preprint v2 instead has Remark 3.3; its relevant Corollary 4.3 requires invertibility of the matrix-valued expectation of the kernel projection.
-Its later compression/doubling argument does not automatically remove this hypothesis with the same arbitrary subgroup Gamma.
-Moreover the pencil in ACSY24's displayed proof is not explicitly selfadjoint.
-[BBL21-U001](../BBL21/Yin_U001.md#bbl21-u001) records the checked statement and actual edition gap.
-The published PDF could not be obtained in the bounded search.
-This unresolved attribution/application is outside the proof of Theorems 1.1 and 1.2.
+Theorem 4.7 asserts the Atiyah property for two free bounded selfadjoint variables whenever every marginal atomic mass belongs to the chosen additive subgroup Gamma containing Z, including irrational atomic masses.
+Its proof invokes published BBL21 Corollary 3.3 for a generally nonselfadjoint linearized matrix.
+The inspected [BBL21 preprint v2](../../../literature/pdf/BBL21--arxiv-v2.pdf) has Remark 3.3 instead; its relevant Corollary 4.3 requires a selfadjoint pencil and an invertible matrix-valued expectation of the kernel projection.
+The final journal mathematical text remains unavailable, so this difference does not establish a misnumbered published citation or a refutation of the theorem.
+The source's stated compression/doubling conclusion by itself only controls twice the nullity, which does not permit division by two in arbitrary Gamma.
+[BBL21-U001](../BBL21/Yin_U001.md#bbl21-u001) retains the precise source identities, hypotheses and actual inspection limits.
+
+The full local repair is [C_F0181](../../../claims/Yin_C_F0181_v1.md#graded-subordination-proof), using the identified v2 Theorem 3.5 and conditional-resolvent identity (3.7).
+It keeps square padding through both support cuts, verifies invertibility of both expected kernel projections and preserves off-diagonal symmetry through the subordination limits.
+This makes the factor of two common to the exact one-variable trace identity, before drawing a subgroup conclusion.
+The proof preserves every hypothesis and conclusion of Theorem 4.7.
+Its [current proved decision](../../../claims/Yin_C_F0181_v1.md#decision-reviewed-adoption) adopts the [independent whole correction finding](../../reviews/Yin_R_F0185_v1.md#whole-candidate-finding), which checks the complete unchanged proof and exact source interfaces.
+The remaining published-corollary identification is a separate source-attribution limit.
+This interface is outside the proofs of Theorems 1.1 and 1.2 and does not affect the Lemma 3.3 tensor-adjoint formula separately used by C_F0146 and C_F0149.
 
 ### Scope of the conclusion
 
 The algebraic model and the normal-target matrix realization are audited with the explicit repairs above and accepted free-field/compression inputs.
-General L3-density and the two-variable irrational-weight Atiyah theorem retain the listed external uncertainties.
-The user's earlier no-normality question for Proposition 3.5 stays resolved; neither uncertainty reinstates a normality premise in that proposition.
+General L3-density retains its listed external uncertainty.
+The full two-variable Atiyah conclusion has the independently checked local proof above, separately from the unavailable journal-corollary attribution and accepted analytic-foundation limits.
+The user's earlier no-normality question for Proposition 3.5 stays resolved; these source and inspection limits do not reinstate a normality premise in that proposition.

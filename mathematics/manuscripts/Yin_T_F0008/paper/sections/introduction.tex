@@ -26,22 +26,22 @@ Each has spectral density $(2\pi)^{-1}\sqrt{4-t^2}$ on $[-2,2]$.
 Freeness means that the trace of a product of centered elements from the generated unital algebras vanishes whenever adjacent factors come from different algebras;
 see \cite[Section 1.11 and Chapter 2, Section 2]{MS17}.
 
-For $m\ge1$, write $\Tr_m$ for the ordinary matrix trace, $\tr_m=\Tr_m/m$, $\varphi_m=\tr_m\otimes\tau$, and $E_m=\id_{M_m(\C)}\otimes\tau$.
+For $m\ge1$, write $\Tr_m$ for the ordinary matrix trace, $\tr_m:=\Tr_m/m$, $\varphi_m:=\tr_m\otimes\tau$, and $E_m:=\id_{M_m(\C)}\otimes\tau$.
 Subscripts on $\Tr$ and $\varphi$ will be omitted when the size is fixed.
 The notation $b>0$ means that the finite matrix $b$ is positive definite, while $b\ge0$ means positive semidefinite.
 The identity matrix of size $m$ is written $1_m$, following \cite[Section 2.2]{MS24}.
 
-\begin{definition}[Determinant and capacity]\label{def:determinant-capacity}
-For $Y\in M_m(\M)$, let $\mu_{|Y|}$ be the spectral probability measure of $|Y|=(Y^*Y)^{1/2}$ under $\varphi_m$.
+\begin{definition}\label{def:determinant-capacity}
+For $Y\in M_m(\M)$, let $\mu_{|Y|}$ be the spectral probability measure of $|Y|:=(Y^*Y)^{1/2}$ under $\varphi_m$.
 We use the Fuglede--Kadison determinant
 \begin{equation}\label{eq:fk-definition}
- \Delta(Y)=\exp\left(\int_{[0,\infty)}\log t\dd\mu_{|Y|}(t)\right),
+ \Delta(Y):=\exp\left(\int_{[0,\infty)}\log t\dd\mu_{|Y|}(t)\right),
  \qquad \log0=-\infty,\quad \exp(-\infty)=0.
 \end{equation}
-For $b\in M_m(\C)$, put $\Delta_m(b)=|\det b|^{1/m}$.
+For $b\in M_m(\C)$, put $\Delta_m(b):=|\det b|^{1/m}$.
 For a completely positive map $\eta:M_m(\C)\to M_m(\C)$, its capacity is
 \begin{equation}\label{eq:capacity-definition}
- \Cap(\eta)=\inf_{b>0}\frac{\det\eta(b)}{\det b}.
+ \Cap(\eta):=\inf_{b>0}\frac{\det\eta(b)}{\det b}.
 \end{equation}
 \end{definition}
 These are the conventions of \cite[Definitions 1.1 and 2.1]{MS24};
@@ -52,17 +52,17 @@ The quotient in \eqref{eq:capacity-definition} is the homogeneous form of the de
 Capacity also connects this determinant problem with operator scaling and noncommutative rank; see \cite[Sections 1.1--1.3]{GGOW20}.
 The homogeneous function $\log\det\eta(b)-\log\det b$ is studied by geodesically convex optimization in \cite[Section 1.1]{AZGL+18}.
 
-\begin{definition}[Affine semicircular pencil]\label{def:affine-pencil}
+\begin{definition}\label{def:affine-pencil}
 For $a_0,a_1,\ldots,a_n\in M_m(\C)$, an affine semicircular pencil is the operator
 \begin{equation}\label{eq:affine-pencil}
- S=a_0+\sum_{j=1}^n a_j\otimes s_j\in M_m(\M).
+ S:=a_0+\sum_{j=1}^n a_j\otimes s_j\in M_m(\M).
 \end{equation}
 Here $a_0$ denotes $a_0\otimes1_{\M}$.
 We use the same convention for other matrices in $M_m(\C)$.
 We associate to the coefficients $a_1,\ldots,a_n$ the complex-linear maps
 \begin{equation}\label{eq:coefficient-maps}
- \eta(b)=\sum_{j=1}^n a_jba_j^*,\qquad
- \rho(b)=\sum_{j=1}^n a_jba_j,
+ \eta(b):=\sum_{j=1}^n a_jba_j^*,\qquad
+ \rho(b):=\sum_{j=1}^n a_jba_j,
  \qquad b\in M_m(\C).
 \end{equation}
 \end{definition}
@@ -89,8 +89,8 @@ Its appearance can also be seen directly in the covariance of the selfadjoint bl
 \subsection{The general formula and attainment}
 For each $b>0$, define
 \begin{equation}\label{eq:inner-map}
- H_b=1_m+\eta(b),\qquad
- \mathcal T_b(Y)=H_bYb^{-1}+\rho(Y^*),\quad Y\in M_m(\C).
+ H_b:=1_m+\eta(b),\qquad
+ \mathcal T_b(Y):=H_bYb^{-1}+\rho(Y^*),\quad Y\in M_m(\C).
 \end{equation}
 This is a real-linear map on the real vector space of complex matrices.
 Its invertibility for every $b>0$ is part of the next theorem.
@@ -99,7 +99,7 @@ Its invertibility for every $b>0$ is part of the next theorem.
 \begin{theorem}\label{thm:main}
 Let $S$ be the pencil in Definition~\ref{def:affine-pencil}, with arbitrary complex coefficient matrices.
 For every $b>0$, the map $\mathcal T_b$ in \eqref{eq:inner-map} is invertible as a real-linear map on $M_m(\C)$.
-Write $Z_b=\mathcal T_b^{-1}(a_0)$.
+Write $Z_b:=\mathcal T_b^{-1}(a_0)$.
 Then
 \begin{equation}\label{eq:main-determinant}
  \Delta(S)=e^{-1/2}\inf_{b>0}
@@ -108,7 +108,7 @@ Then
 \end{equation}
 Define
 \begin{equation}\label{eq:main-action}
- \mathcal V(b)=\log\det H_b-\log\det b-m
+ \mathcal V(b):=\log\det H_b-\log\det b-m
                  +\operatorname{Re}\Tr(a_0^*Z_b).
 \end{equation}
 The following conditions are equivalent:
@@ -118,7 +118,7 @@ The following conditions are equivalent:
 \item $\mathcal V$ has a critical point on the positive definite cone;
 \item $S$ is invertible in the bounded operator algebra $M_m(\M)$.
 \end{enumerate}
-When these conditions hold, let $b_*$ denote the unique minimizer, which is also the unique critical point of $\mathcal V$, and put $Z_{b_*}=\mathcal T_{b_*}^{-1}(a_0)$.
+When these conditions hold, let $b_*$ denote the unique minimizer, which is also the unique critical point of $\mathcal V$, and put $Z_{b_*}:=\mathcal T_{b_*}^{-1}(a_0)$.
 Then
 \begin{equation}\label{eq:main-optimizer}
  b_*=E_m((S^*S)^{-1}),\qquad Z_{b_*}=E_m((S^*)^{-1}).
@@ -150,16 +150,16 @@ The proof of Theorem~\ref{thm:main} uses the semicircular Dyson equation, rather
 \subsection{Other variational descriptions}
 Throughout this subsection assume $a_j=a_j^*$ for $0\le j\le n$.
 We first prove a strict-domain version of the formula proposed in Speicher's public discussion~\cite{Spe26}.
-For $c>0$, put $\mathcal C_c(x)=cxc$ and
+For $c>0$, put $\mathcal C_c(x):=cxc$ and
 \begin{equation}\label{eq:hs-domain}
- \mathcal B_\eta=
+ \mathcal B_\eta:=
  \{c>0:\mathcal C_c-\eta>0\text{ on }M_m(\C)\}.
 \end{equation}
-Here strict positivity is with respect to the Hilbert--Schmidt inner product $\langle x,y\rangle=\Tr(x^*y)$.
+Here strict positivity is with respect to the Hilbert--Schmidt inner product $\langle x,y\rangle:=\Tr(x^*y)$.
 
 \begin{proposition}[Strict Hilbert--Schmidt formula]\label{prop:hs-formula}
 For every $c\in\mathcal B_\eta$, the map $\mathcal C_c+\eta$ is invertible.
-Put $h_c=(\mathcal C_c+\eta)^{-1}(a_0)$.
+Put $h_c:=(\mathcal C_c+\eta)^{-1}(a_0)$.
 Then
 \begin{equation}\label{eq:hs-determinant}
  \Delta(S)=e^{-1/2}\inf_{c\in\mathcal B_\eta}
@@ -169,20 +169,20 @@ Then
 Section~\ref{sec:imaginary-hs} proves this formula and compares its trial domain and quadratic correction with those of Theorem~\ref{thm:main}.
 
 Strictly positive pencils admit a minimum over a linear matrix inequality.
-\begin{definition}[Feasible matrices]\label{def:positive-feasibility}
+\begin{definition}\label{def:positive-feasibility}
 For $b>0$, put
 \begin{equation}\label{eq:positive-lmi}
- L(b)=\begin{pmatrix}a_0-\eta(b)&1_m\\1_m&b\end{pmatrix}.
+ L(b):=\begin{pmatrix}a_0-\eta(b)&1_m\\1_m&b\end{pmatrix}.
 \end{equation}
 The feasible and strictly feasible sets are respectively
 \begin{equation}\label{eq:feasible-set}
- \mathcal B=\{b>0:L(b)\ge0\},\qquad
- \mathcal B_{\rm str}=\{b>0:L(b)>0\}.
+ \mathcal B:=\{b>0:L(b)\ge0\},\qquad
+ \mathcal B_{\rm str}:=\{b>0:L(b)>0\}.
 \end{equation}
 \end{definition}
 Define
 \begin{equation}\label{eq:positive-objective}
- J(b)=-\log\det b+\Tr(a_0b)-\tfrac12\Tr(b\eta(b))-m.
+ J(b):=-\log\det b+\Tr(a_0b)-\tfrac12\Tr(b\eta(b))-m.
 \end{equation}
 
 % Provenance: the final matrix-supersolution formulation of Yin_C_F0121.
@@ -193,7 +193,7 @@ Under this hypothesis,
  \Delta(S)=\exp\left(\frac1m\min_{b\in\mathcal B}J(b)\right)
           =\exp\left(\frac1m\inf_{b\in\mathcal B_{\rm str}}J(b)\right).
 \end{equation}
-The minimum is attained uniquely at $q=E_m(S^{-1})$, which satisfies
+The minimum is attained uniquely at $q:=E_m(S^{-1})$, which satisfies
 \[
  q^{-1}=a_0-\eta(q),\qquad q\le b\quad(b\in\mathcal B).
 \]
@@ -204,8 +204,8 @@ Section~\ref{sec:positive} proves the theorem and relates $q$ to the minimizer $
 Section~\ref{sec:ordered-minmax} gives ordered min--max formulas for scalar pencils, commuting coefficients and isotropic covariance, and a separate matrix formula when $\eta$ is strictly positive as a Hilbert--Schmidt operator.
 
 \subsection{Consequences for Brown measure}
-Let $T=a_0+\sum_j a_j\otimes s_j$.
-The Brown measure $\mu_T$ is the probability measure whose logarithmic potential is $u(z)=\log\Delta(T-z1_m)$; the precise convention is recalled in Section~\ref{sec:spectral}, following \cite[Chapter 11, Section 9]{MS17}.
+Let $T:=a_0+\sum_j a_j\otimes s_j$.
+The Brown measure $\mu_T$ is the probability measure whose logarithmic potential is $u(z):=\log\Delta(T-z1_m)$; the precise convention is recalled in Section~\ref{sec:spectral}, following \cite[Chapter 11, Section 9]{MS17}.
 Spectral shifts in Theorem~\ref{thm:main} therefore give $u$ and the spectral criterion
 \[
  z\notin\spec(T)

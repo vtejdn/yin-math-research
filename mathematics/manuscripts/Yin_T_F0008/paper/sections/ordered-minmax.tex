@@ -11,7 +11,7 @@ Throughout this section $a_j=a_j^*$ for $0\le j\le n$.
 For $\sigma>0$ and $a\in\R$, put
 \begin{equation}\label{eq:minmax-scalar-action}
  \ell_{a,\sigma}(p,q)
- =\frac{(a-p)^2-q^2}{2\sigma}
+ :=\frac{(a-p)^2-q^2}{2\sigma}
       +\frac12\log(p^2+q^2),
  \qquad p\in\R,\quad q\ge0,
 \end{equation}
@@ -35,7 +35,7 @@ The optimizers are
  \end{cases}
  \qquad q_*^2=(\sigma-p_*^2)_+.
 \end{equation}
-Here $r_+=\max\{r,0\}$ for $r\in\R$.
+Here $r_+:=\max\{r,0\}$ for $r\in\R$.
 \end{proposition}
 
 \begin{proof}
@@ -48,7 +48,7 @@ For fixed $p$, differentiation in $r=q^2$ gives
 This derivative decreases strictly wherever the expression is finite.
 The unique maximizing $q(p)$ therefore satisfies $q(p)^2=(\sigma-p^2)_+$, and the maximum as a function of $p$ equals
 \begin{equation}\label{eq:minmax-scalar-reduced}
- f_{a,\sigma}(p)=\frac{(a-p)^2}{2\sigma}
+ f_{a,\sigma}(p):=\frac{(a-p)^2}{2\sigma}
  +\begin{cases}
     \dfrac{p^2}{2\sigma}-\dfrac12+\dfrac12\log\sigma,
           &|p|\le\sqrt\sigma,\\[3pt]
@@ -83,7 +83,7 @@ The convexity used in the proof is the convexity after maximizing over $q$; it d
 
 Suppose next that all the selfadjoint coefficients of $S=a_0+\sum_{j=1}^n a_j\otimes s_j$ commute.
 Simultaneous unitary diagonalization gives real entries $a_{jk}$, $1\le k\le m$.
-Put $a_k=a_{0k}$ and $\sigma_k=\sum_{j=1}^n a_{jk}^2$.
+Put $a_k:=a_{0k}$ and $\sigma_k:=\sum_{j=1}^n a_{jk}^2$.
 The $k$th diagonal entry has a semicircular distribution with mean $a_k$ and variance $\sigma_k$.
 Therefore, if all $\sigma_k>0$,
 \begin{equation}\label{eq:minmax-commuting}
@@ -103,10 +103,10 @@ Assume now that
        =\sigma\tr_m(b)1_m,\qquad \sigma>0,
 \end{equation}
 and let $a_0=a_0^*$ be arbitrary.
-Write $\nu=m^{-1}\sum_{k=1}^m\delta_{\lambda_k}$ for its eigenvalue probability measure, with algebraic multiplicities, and define
+Write $\nu:=m^{-1}\sum_{k=1}^m\delta_{\lambda_k}$ for its eigenvalue probability measure, with algebraic multiplicities, and define
 \[
  \ell_{x,\nu,\sigma}(p,q)
- =\frac{(x-p)^2-q^2}{2\sigma}
+ :=\frac{(x-p)^2-q^2}{2\sigma}
    +\frac12\int_\R\log\bigl((p-t)^2+q^2\bigr)\,\dd\nu(t).
 \]
 The logarithmic term is also $m^{-1}\log|\det((p+iq)1_m-a_0)|$.
@@ -125,13 +125,13 @@ Both successive extrema are attained, and $p\mapsto\max_{q\ge0}\ell_{x,\nu,\sigm
 
 More precisely, set
 \[
- I(p,q)=\int_\R\frac{\dd\nu(t)}{(p-t)^2+q^2},
+ I(p,q):=\int_\R\frac{\dd\nu(t)}{(p-t)^2+q^2},
 \]
 interpreting a pole at $q=0$ as $+\infty$.
 For fixed $p$, the maximizing $q(p)$ is zero if $I(p,0)\le1/\sigma$ and is otherwise the unique positive solution of $I(p,q)=1/\sigma$.
 The function
 \begin{equation}\label{eq:minmax-isotropic-coordinate}
- X(p)=p+\sigma\int_\R
+ X(p):=p+\sigma\int_\R
           \frac{p-t}{(p-t)^2+q(p)^2}\,\dd\nu(t)
 \end{equation}
 is a strictly increasing homeomorphism of $\R$, and the minimizing $p$ is $X^{-1}(x)$.
@@ -150,9 +150,9 @@ Its endpoints solve the rational equation $I(p,0)=1/\sigma$ away from the finite
 
 On an interval with $q=q(p)>0$, let
 \[
- B=\int_\R\frac{\dd\nu(t)}{((p-t)^2+q^2)^2},
+ B:=\int_\R\frac{\dd\nu(t)}{((p-t)^2+q^2)^2},
  \qquad
- C=\int_\R\frac{p-t}{((p-t)^2+q^2)^2}\,\dd\nu(t).
+ C:=\int_\R\frac{p-t}{((p-t)^2+q^2)^2}\,\dd\nu(t).
 \]
 Implicit differentiation gives $q'=-C/(qB)$ and hence
 \begin{equation}\label{eq:minmax-isotropic-monotonicity}
@@ -170,8 +170,8 @@ It remains to identify the value.
 For $z=x+i\varepsilon$, $\varepsilon>0$, the Dyson equation reduces to
 \begin{equation}\label{eq:minmax-isotropic-dyson}
  G(z)=(w(z)1_m-a_0)^{-1},\qquad
- g(z)=\tr_mG(z)=\int_\R\frac{\dd\nu(t)}{w(z)-t},\qquad
- w(z)=z-\sigma g(z).
+ g(z):=\tr_mG(z)=\int_\R\frac{\dd\nu(t)}{w(z)-t},\qquad
+ w(z):=z-\sigma g(z).
 \end{equation}
 Write $w=p+iq$, with $q>0$.
 Imaginary parts give
@@ -203,12 +203,12 @@ Faithfulness identifies its support with the operator spectrum.
 
 \subsection{Strict positivity on Hilbert--Schmidt space}
 
-On $M_m(\C)$ use the Hilbert--Schmidt inner product $\langle x,y\rangle_2=\Tr(x^*y)$.
+On $M_m(\C)$ use the Hilbert--Schmidt inner product $\langle x,y\rangle_2:=\Tr(x^*y)$.
 Assume that the selfadjoint covariance $\eta$ is strictly positive for this inner product:
 \begin{equation}\label{eq:minmax-hs-assumption}
  \Tr(x^*\eta(x))>0\qquad(x\ne0).
 \end{equation}
-Its inverse $K=\eta^{-1}$ is a positive definite selfadjoint operator on Hilbert--Schmidt space.
+Its inverse $K:=\eta^{-1}$ is a positive definite selfadjoint operator on Hilbert--Schmidt space.
 
 \begin{remark}[Isotropic covariance and Hilbert--Schmidt positivity]\label{rem:minmax-domains}
 For $m>1$, the isotropic covariance in \eqref{eq:minmax-isotropy} vanishes on every traceless matrix.
@@ -220,7 +220,7 @@ Order flatness therefore does not imply strict positivity on Hilbert--Schmidt sp
 For $u=u^*$ and $v\ge0$, define
 \begin{equation}\label{eq:minmax-matrix-action}
  \mathcal H_{a_0}(u,v)
- =\frac12\Tr\bigl((a_0-u)K(a_0-u)\bigr)
+ :=\frac12\Tr\bigl((a_0-u)K(a_0-u)\bigr)
   -\frac12\Tr(vK(v))+\log|\det(u+iv)|,
 \end{equation}
 with value $-\infty$ when $u+iv$ is singular.
@@ -238,13 +238,13 @@ The function $u\mapsto\max_{v\ge0}\mathcal H_{a_0}(u,v)$ is convex and tends to 
 
 \begin{proof}
 We first add a positive imaginary regularizer.
-Put $D=\eta(1_m)>0$.
+Put $D:=\eta(1_m)>0$.
 Indeed a vector in the kernel of $\sum_j a_j^2$ would be killed by every $a_j$, so its rank-one projection would be in the kernel of $\eta$, contradicting \eqref{eq:minmax-hs-assumption}.
 For $\varepsilon>0$, set
 \begin{equation}\label{eq:minmax-matrix-regularized}
 \begin{split}
  \mathcal H_{a_0,\varepsilon}(u,v)
- ={}&\frac12\Tr\bigl((a_0-u)K(a_0-u)\bigr)
+ :={}&\frac12\Tr\bigl((a_0-u)K(a_0-u)\bigr)
  +\log|\det(u+iv)|\\
  &-\frac12\Tr\bigl((v-\varepsilon D)K(v-\varepsilon D)\bigr).
 \end{split}
@@ -256,11 +256,11 @@ Upper semicontinuity at singular matrices, together with the finite trial $v=1_m
 Its maximizers are uniformly bounded for $u$ in a compact set and $0\le\varepsilon\le1$.
 
 Every maximizing $v$ is in fact positive definite if $\varepsilon>0$.
-Its determinant is nonzero; write $r=(u+iv)^{-1}=p-iq$, where $p=p^*$ and $q\ge0$.
+Its determinant is nonzero; write $r:=(u+iv)^{-1}=p-iq$, where $p=p^*$ and $q\ge0$.
 The gradient in $v$ is $-K(v)+\varepsilon1_m+q$.
 Testing positive directions and both radial directions at a maximum gives
 \[
- C=K(v)-\varepsilon1_m-q\ge0,
+ C:=K(v)-\varepsilon1_m-q\ge0,
  \qquad \Tr(Cv)=0.
 \]
 Applying the positive map $\eta$ yields $v=\eta(q)+\varepsilon D+\eta(C)\ge\varepsilon D>0$.
@@ -271,10 +271,10 @@ The maximum is therefore interior and satisfies
 
 To prove uniqueness of this maximizer, associate to every interior stationary point the matrices and covariance
 \[
- \mathcal G=\begin{pmatrix}iq&p\\p&iq\end{pmatrix},
+ \mathcal G:=\begin{pmatrix}iq&p\\p&iq\end{pmatrix},
  \qquad
  \Xi\begin{pmatrix}x&y\\z&w\end{pmatrix}
-       =\begin{pmatrix}\eta(w)&0\\0&\eta(x)\end{pmatrix}.
+       :=\begin{pmatrix}\eta(w)&0\\0&\eta(x)\end{pmatrix}.
 \]
 The map $\Xi$ is completely positive and has selfadjoint Kraus matrices: for each $a_j$ use
 \[
@@ -299,9 +299,9 @@ Here $-\operatorname{Im}(u+iv)^{-1}=(v+uv^{-1}u)^{-1}$.
 We next prove convexity after maximizing over $v$.
 At $v=v_\varepsilon(u)$, define operators on the real Hilbert space of Hermitian matrices by
 \[
- \mathcal S_r(x)=\tfrac12(rxr^*+r^*xr),\qquad
- \mathcal A_r(x)=\operatorname{Re}(rxr),\qquad
- \mathcal C_r(x)=\operatorname{Im}(rxr).
+ \mathcal S_r(x):=\tfrac12(rxr^*+r^*xr),\qquad
+ \mathcal A_r(x):=\operatorname{Re}(rxr),\qquad
+ \mathcal C_r(x):=\operatorname{Im}(rxr).
 \]
 Here real and imaginary parts mean Hermitian parts.
 The map $\mathcal S_r$ is completely positive and selfadjoint for the trace pairing, and $r^*vr=rvr^*=q$.
@@ -317,7 +317,7 @@ Since
 \[
  (\mathcal S_r-\mathcal A_r)(x)=2qxq
 \]
-and $x\mapsto qxq$ is positive semidefinite for the trace pairing, $B=K-\mathcal A_r$ is positive definite.
+and $x\mapsto qxq$ is positive semidefinite for the trace pairing, $B:=K-\mathcal A_r$ is positive definite.
 Direct differentiation of \eqref{eq:minmax-matrix-regularized} gives
 \[
  \mathcal H_{uu}=B,\qquad
@@ -354,7 +354,7 @@ This identifies the global ordered extremum, not merely its stationary value.
 Finally, the uniform bounds on the maximizing matrices $v$ and the explicit difference $\mathcal H_{a_0,\varepsilon}-\mathcal H_{a_0}$ give local uniform convergence of $u\mapsto\max_{v\ge0}\mathcal H_{a_0,\varepsilon}(u,v)$ as $\varepsilon\downarrow0$.
 The common coercive lower bound keeps the minimizing matrices $u$ in a compact set.
 The minima therefore converge to a finite, attained minimum of $u\mapsto\max_{v\ge0}\mathcal H_{a_0}(u,v)$.
-On the operator side set $\widetilde S=D^{-1/2}SD^{-1/2}=\widetilde S^*$.
+On the operator side set $\widetilde S:=D^{-1/2}SD^{-1/2}=\widetilde S^*$.
 Then
 \[
  \log\Delta_\varphi(S+i\varepsilon D)
@@ -386,8 +386,8 @@ Here capacity is positive and the equation $\eta(b)=b^{-1}$ has a positive defin
 Complete positivity alone does not suffice for the formula involving $\eta^{-1}$ in \eqref{eq:minmax-matrix}.
 Let
 \[
- Z=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
- X=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
+ Z:=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
+ X:=\begin{pmatrix}0&1\\1&0\end{pmatrix},\qquad
  \eta(b)=ZbZ,\qquad a_0=tX,\quad t>0.
 \]
 This covariance is completely positive, invertible and Hilbert--Schmidt selfadjoint, but $K=\eta$ satisfies $K(X)=-X$.

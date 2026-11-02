@@ -14,8 +14,6 @@ Source passages: [MS24 PDF](../../../literature/pdf/MS24.pdf), Theorems 1.3/4.1 
 
 Inspection: Date/reviewer: 2026-09-12, assigned MS24 reviewer.
 
-The registered artifact and acquisition record retain both dates.
-
 ## MS24-U004
 
 Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), Theorems 1.3/4.1 and Corollary 1.4, printed/PDF pp. 4, 15-16.

@@ -21,7 +21,7 @@ Inspection: The source proof and random-matrix hypotheses were not fully audited
 ## HLN07-U001: Information-Plus-Noise Logarithmic Determinants
 
 Recorded 2026-09-13 by the affine-source reader.
-See the sole bibliographic intake.
+See the sole bibliography, [references.bib](../../../literature/references.bib).
 The [primary arXiv PDF](https://arxiv.org/pdf/math/0507172) visibly identifies v3, 31 July 2007, 57 PDF pages.
 Theorem 4.1 and equation (4.3), internally numbered/PDF p.18, were read with the surrounding definitions.
 Coverage: selected statement reading; the source proof and its random-matrix hypotheses were not fully audited.

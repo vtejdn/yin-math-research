@@ -282,10 +282,10 @@ Recorded consumer navigation: [Luc22-U002's abelian comparison](../audits/litera
 
 Exact adopted home: [positive matrix geometric mean and Riccati characterization](../ledger/Yin_L_F0054_v1.md#matrix-geometric-mean), for strictly positive Hermitian matrices and positive square roots.
 Source scope: [BJL19 Section 2](../audits/literature/BJL19/readme.md), the recorded arXiv v1 definition and selected proof inspection.
-Consumer navigation: the [F0008 imaginary-Hilbert--Schmidt comparison](../manuscripts/Yin_T_F0008/paper/sections/imaginary-hs.tex) identifies its positive-coordinate formula using this mean; the source identity does not replace [C_F0164's strict-domain proof](../claims/Yin_C_F0164_v1.md#argument).
+Consumer navigation:
 
 ### Wigner-Yanase skew information
 
 Exact adopted home: [density-matrix definition and covariance-zero trace identity](../ledger/Yin_L_F0054_v1.md#wigner-yanase-skew-information), with unnormalized Tr and the separate 1/(2m) objective factor.
 Source scope: [Han08's inspected arXiv v6 definition](../audits/literature/Han08/readme.md); the original Wigner--Yanase proofs were not inspected.
-Consumer navigation: the [F0008 covariance-zero correction comparison](../manuscripts/Yin_T_F0008/paper/sections/imaginary-hs.tex); this does not identify the general nonzero-covariance correction with skew information.
+Consumer navigation:

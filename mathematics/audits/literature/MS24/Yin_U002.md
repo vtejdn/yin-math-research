@@ -15,8 +15,6 @@ Passages: Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), Propositions 3.2
 Inspection: Date/reviewer: 2026-09-12, assigned MS24 reviewer.
 
 
-The registered artifact and acquisition record retain both dates.
-
 ## MS24-U002
 
 Source: [MS24 PDF](../../../literature/pdf/MS24.pdf), Propositions 3.2-3.3, Lemma 3.5 and Remark 3.6, printed/PDF pp. 10-12; conventions from [U001](Yin_U001.md#ms24-u001).

@@ -6,7 +6,6 @@ Edition and coverage: David Eisenbud, Graduate Texts in Mathematics 150, officia
 This actual 15-page file prints ©2004 Springer Science+Business Media; its precise printing/correction state is not stated.
 Only front matter is acquired.
 The complete supplied contents are transcribed, including the source's non-monotone destination labels (for example 15.12 at 378 followed by Project 1 at 376, and the appendix/part labels); these are not corrected by guessed offsets.
-Earlier online search-excerpt reading retains its unknown printing and original inspection scope.
 
 Contents location: PDF pages 6–15 (one-based); printed contents-page labels first page unnumbered; continuations viii–xvi.
 Destination labels below are the source's printed labels, not PDF positions.

@@ -11,3 +11,4 @@ The scan's [contents transcription](../../../literature/contents/Eis95.md) retai
 The separate [publisher front matter](../../../literature/pdf/Eis95--frontmatter.pdf) prints ©2004 and is not silently identified with the scan's printing.
 Its [separate contents transcription](../../../literature/contents/Eis95--frontmatter.md) retains that file's page labels.
 The original [cusp comparison](../../../claims/Yin_C_F0088_v1.md#source-attribution-and-self-check-boundary) remains a parsed-excerpt inspection, not a full normalization-theorem or book audit.
+That earlier online parsed-excerpt reading does not establish the printing of the excerpted source.

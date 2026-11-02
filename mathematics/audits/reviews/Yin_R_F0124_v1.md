@@ -159,7 +159,9 @@ Goal completion and theorem designation require separate contract and authorizat
 The original reviewer supplied the necessary clarification preceding companion equation (9): the commutator terms must first be separated before the inverse products are split.
 The inspected corrected complete argument includes that mathematical repair and the disclosed covariance-interface discussion with its authors.
 Its combined finding is self-reviewed, despite the separate reviewer identity and independent reconstruction of other steps.
-The full original 2026-09-13 reasoning, accepted dependencies and bounds remain unchanged; fresh isolated coverage is still needed for an independent finding on this corrected complete proof.
+The full original 2026-09-13 reasoning, accepted dependencies and bounds remain unchanged; this original finding supplies no isolated coverage of the corrected complete proof.
+The later [R_F0178 complete isolated finding](Yin_R_F0178_v1.md#affine-infimum-whole-proof) checks that proof, including the commutator-first repair, at its own exact input and scope, as selected by [C_F0124](../../claims/Yin_C_F0124_v1.md#decision-isolated-whole-review-adoption).
+That later review does not change this original finding's self-reviewed relationship or date.
 
 ## Review relationships
 

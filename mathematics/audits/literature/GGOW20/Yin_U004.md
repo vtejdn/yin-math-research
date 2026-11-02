@@ -20,10 +20,11 @@ The registered key is retained; this unit supersedes no result of a different ve
 - Artifact: [GGOW20.pdf](../../../literature/pdf/GGOW20.pdf), 68 pages.
 Printed page equals PDF page plus 222.
 - Locators: Proposition 4.1, Lemmas 4.2-4.4 and equations (15)-(20), pp. 261-269; Theorem 4.5, pp. 269-274; Lemmas 5.1-5.2, Theorems 5.3-5.4 and Algorithms 3-4, pp. 274-279.
-- Record: 2026-09-12, delegated source-audit agent, self-review.
+- Original inspection: 2026-09-12, delegated source-audit agent, self-review.
 Complete supplied Sections 4-5 were read.
 Rational recurrences, sensitivity mechanism and a conservative polynomial-precision reconstruction are audited within the scope below.
-Literal printed quantitative constants and the complete quantitative continuity proof are **Questioned** where indicated.
+Literal printed quantitative constants are **Questioned** where indicated.
+The corrected continuity reconstruction below includes its inverse preconditions, parity choice and full tolerance propagation, with [isolated mathematical recheck](../../reviews/Yin_R_F0184_v1.md#continuity-reconstruction-finding) of the complete reconstruction and its affected interfaces at the stated limits.
 - Kind: computational theorem interface, proof mechanism, and corrections.
 No algorithm was implemented or run.
 
@@ -179,6 +180,13 @@ Hence
 \]
 implies \(\widehat Q/\operatorname{cap}(T)\in[1-\varepsilon,1+\varepsilon]\).
 This explicitly accounts for the reciprocal when passing from a bound on capacity to a bound on the reported number.
+More precisely, the two retained internal estimates give
+\[
+\frac1{1+\varepsilon/16}
+\leq\frac{\widehat Q}{\operatorname{cap}(T)}
+\leq\frac1{(1-\varepsilon/16)^2},
+\]
+and this interval is contained in \([1-\varepsilon,1+\varepsilon]\) for \(0<\varepsilon<1\).
 
 For example, taking an integer \(P\) larger than
 \[
@@ -200,57 +208,223 @@ The following defects were checked against the primary rendered pages; they do n
   For Kraus matrices \(E_{11},E_{21}\) in \(M_2\), \(T(I)=I\) while \(T^*(I)=2E_{11}\).
   The algorithm's zero-capacity answer remains correct: a kernel vector \(v\) of \(T^*(I)=\sum_iA_i^*A_i\) has \(A_iv=0\) for every \(i\), so \(T(vv^*)=0\).
 - **Iteration constant, p. 277:** the proof uses growth \(\exp(\varepsilon^2/n^3)\), although Lemma 5.2 supplies only \(\exp(\varepsilon^2/(6n^3))\) at that threshold.
+  Theorem 5.3 prints \(t=2n^3\varepsilon^{-2}(1+10n^2\log(Mn))\); its proof then substitutes \(n^3\varepsilon^{-2}(1+10n^2\log(Mn))\).
+  Neither displayed iteration count follows from that progress estimate alone.
   Retain a larger iteration budget as above; the printed exact budget is not justified by the displayed proof.
 - **Error conversion, pp. 277 and 279:** \((1-\varepsilon)\widehat c\leq c\leq\widehat c\) gives \(\widehat c\leq c/(1-\varepsilon)\), not \(\widehat c\leq(1+\varepsilon)c\).
   On p. 279 the bounds with \((1-\varepsilon/2)^2\) have the same reciprocal problem.
   Reserve smaller internal tolerances before promising a symmetric relative error.
 - **Rounded precision, pp. 277-279:** the printed \(P\) grows like \(\varepsilon^{-1}\), whereas the displayed Lemma 4.3 amplification for \(t=O(\varepsilon^{-2})\) has an exponent of order \(t^2\).
+  The exact printed choice is
+  \[
+  P_{\mathrm{print}}:=\varepsilon^{-1}n^{12}\log^4(Mn)\log(n^4/\varepsilon^2).
+  \]
   The claimed implication \(\|U_i-S_i\|\leq2^{-P/2}\) does not follow for all small \(\varepsilon\) from those supplied estimates.
   The generic polynomial \(P\) above repairs the asymptotic interface, but the printed precision choice is not certified.
 - **Threshold arithmetic, p. 279:** from \(\widetilde e_j\leq\varepsilon^2/(4n^3)\) and \(|e_j-\widetilde e_j|<\varepsilon^2/n^4\), the bound needed to infer \(\operatorname{cap}(T_j)\geq1-\varepsilon/2\) does not follow as written.
   Use a stricter defect-error margin rather than dropping the extra term.
+- **Upper determinant factor, p. 279:** the displayed eigenvalue estimates imply \(Q/\widehat Q\leq(1+\varepsilon/(4n))^{2n}\), which is strictly larger than \(1+\varepsilon/2\) when \(\varepsilon>0\).
+  Thus they do not justify the printed assertion \(Q\leq(1+\varepsilon/2)\widehat Q\).
+  The smaller \(\varepsilon/(64n)\) internal errors used above give the stated \(1+\varepsilon/16\) bound, since \((1+\varepsilon/(64n))^{2n}\leq e^{\varepsilon/32}\leq1+\varepsilon/16\).
 
-### Continuity theorem: exact source statement and proof boundary
+<a id="continuity-reconstruction"></a>
+### Continuity theorem: source statement and corrected reconstruction
 
-Theorem 4.5 states a quantitative local continuity result around rational-data Kraus tuples of bounded bit complexity: if \(A_i\) have entry bit complexity \(b\) and \(\|A_i-B_i\|\leq\delta\), then for a polynomial \(P(n,b,\log m)\) and sufficiently small \(\delta\leq e^{-P}\), positive capacity of \(T_A\) implies positive capacity of \(T_B\), and
+Theorem 4.5, printed pp. 269-270, states that if \(A_i\) have entry bit complexity \(b\) and \(\|A_i-B_i\|\leq\delta\), then for a polynomial \(P(n,b,\log m)\) and sufficiently small \(\delta\leq e^{-P}\), positive capacity of \(T_A\) implies positive capacity of \(T_B\), and
 \[
 1-\frac{P(n,b,\log m)}{\log(1/\delta)^{1/3}}
 \leq\frac{\operatorname{cap}(T_A)}{\operatorname{cap}(T_B)}
 \leq1+\frac{P(n,b,\log m)}{\log(1/\delta)^{1/3}}.
 \]
-The ratio is intended in the positive-capacity case.
-This is not a uniform relative guarantee at a zero-capacity map, nor does “bit complexity \(b\)” describe an arbitrary real input without an encoding.
+The ratio is intended in the positive-capacity case and \(0<\delta<1\).
+For the local reconstruction, \(n,m\geq1\), \(b\geq1\), and the real and imaginary parts of each entry of \(A_i\) are rationals \(p/q\) with \(|p|,q\leq2^b\), \(q>0\).
+This includes real rational and integral input; the \(B_i\) may be arbitrary complex matrices subject to the norm bound.
+This is the usual rational bit model made explicit, rather than a guarantee for arbitrary real inputs without an encoding.
+The case \(\delta=0\) is equality.
+No relative guarantee at zero capacity is asserted.
 
-The proof seeks an approximately fixed positive matrix of controlled condition number, transfers its approximate fixed-point property to the perturbed map, and compares determinant objectives.
-The operator-norm perturbation estimates
+The source uses \(T_A(T_A^*(C)^{-1})\) for an odd stopping index but evaluates \(\det T_A(C)/\det C\) in (21).
+Lemma 3.9 must instead be applied to \(T_A^*\), using \(\det T_A^*(C)/\det C\), and likewise to \(T_B^*\) in (34)-(35).
+Capacity duality from [U003](Yin_U003.md#ggow20-u003) then supplies the original capacities.
+An even stopping index uses \(T_A,T_B\) themselves; no parity assumption is needed.
+The following argument carries that choice and all inverse preconditions explicitly.
+
+#### Uniform input bounds
+
+Use natural logarithms and define
 \[
-\|T_A(D)-T_B(D)\|
-\leq\sum_i(\|A_i\|+\|B_i\|)\|A_i-B_i\|\,\|D\|
+h:=100(n+1)^8\bigl(b+\log(2m)+1\bigr),\qquad K:=e^h.
 \]
-and their adjoint analogues were checked.
-Inverse perturbation is valid only after the perturbation is smaller than the controlled minimum eigenvalue; its required dependence on the approximate-fixed-point tolerance must be retained.
+The following deliberately loose bounds hold when \(\operatorname{cap}(T_A)>0\):
+\[
+\begin{gathered}
+K^{-1}I\leq T_A(I),T_A^*(I)\leq KI,\qquad
+\operatorname{cap}((T_A)_R)\geq e^{-h},\\
+\|T_A(D)\|,\ \|T_A^*(D)\|,\ \|T_B(D)\|,\ \|T_B^*(D)\|
+\leq K\|D\|,\\
+\|(T_A-T_B)(D)\|,\ \|(T_A^*-T_B^*)(D)\|
+\leq K\delta\|D\|\qquad(0<\delta\leq1).
+\end{gathered}
+\]
+Here is sufficient arithmetic justification, including the dependence on \(\log m\).
+Choose a basis of the span of the actual \(A_i\), consisting of \(k\leq n^2\) of those matrices.
+Their completely positive map has the same rank-nondecrease property: for each positive semidefinite \(X\), the range of its image is \(\sum_i A_i\operatorname{ran}X\), which depends only on this span.
+Let \(d\) be the product of denominators of the real and imaginary entries in this selected basis.
+Then \(1\leq d\leq2^{2n^4b}\), and the selected matrices multiplied by \(d\) have Gaussian-integer entries.
+The proof of [U002, Theorem 2.18](Yin_U002.md#ggow20-u002) applies unchanged to Gaussian integers: the sole integrality use is that a nonzero blow-up determinant has absolute value at least one.
+Consequently the selected unscaled map has capacity at least \(d^{-2n}n^{-2n}\); positivity and determinant monotonicity give the same lower bound for \(T_A\).
+Also \(\|A_i\|\leq\sqrt2\,n2^b\), so both full marginals are at most \(2mn^2 2^{2b}I\).
+Each selected marginal is positive definite, its determinant is at least \(d^{-2n}\), and its norm is at most \(2n^4 2^{2b}\).
+Its minimum eigenvalue is therefore at least \(d^{-2n}(2n^4 2^{2b})^{-(n-1)}\).
+The full marginals dominate these selected marginals.
+Right normalization divides capacity by \(\det T_A^*(I)\), so its capacity is at least \(d^{-2n}n^{-2n}(2mn^2 2^{2b})^{-n}\).
+All the logarithmic bounds just displayed are dominated by \(h\).
+Finally, the perturbation bounds follow from
+\[
+\|(T_A-T_B)(D)\|
+\leq\sum_i(\|A_i\|+\|B_i\|)\|A_i-B_i\|\|D\|
+\]
+and the identical adjoint estimate, together with \(\|B_i\|\leq\|A_i\|+1\).
+The selected basis is used only for these lower bounds; it does not replace the actual map when evaluating capacity.
 
-There is a material orientation mismatch: Section 3.2 defines the relevant fixed-point map using \(T^*(T(X)^{-1})\), whereas Section 4.3 uses \(T(T^*(X)^{-1})\) and still evaluates \(\det T(C)/\det C\).
-For the latter orientation apply Lemma 3.9 to **\(T^*\)**, and use \(\det T^*(C)/\det C\), together with \(\operatorname{cap}(T)=\operatorname{cap}(T^*)\).
-Both the \(A\) and \(B\) families must be consistently replaced by their adjoints in those objective comparisons.
-This correction was independently confirmed by the coordinating agent reviewer.
+#### A controlled approximate balancing point
 
-Equation (33) on p. 273 also omits a dimension factor for the operator norm: the universally valid estimate is
+Fix \(0<\epsilon\leq1\) and use the exact recurrence above.
+Every normalized iterate has capacity at most one; a step whose defect exceeds \(\epsilon\) increases capacity by more than \(e^{\epsilon/6}\).
+Since the first normalized capacity is at least \(e^{-h}\), some \(1\leq r\leq t\) has \(e_r\leq\epsilon\), where
+\[
+t:=2+\left\lceil\frac{6(h+1)}{\epsilon}\right\rceil
+\leq\frac{15h}{\epsilon}.
+\]
+Indeed, otherwise the steps from \(T_1\) to \(T_t\) would give capacity at least \(\exp((t-1)\epsilon/6-h)>1\).
+The marginal bounds and positivity give \(K^{-(j+1)}I\leq S_j\leq K^{j+1}I\) inductively.
+Set
+\[
+C:=S_{r-2}^{-1},\qquad R:=\exp(16h^2/\epsilon),
+\qquad R^{-1}I\leq C\leq RI,
+\]
+using \(S_{-1}=I\) when \(r=1\).
+Choose \(F_A:=T_A^*\), \(F_B:=T_B^*\) when \(r\) is odd, and \(F_A:=T_A\), \(F_B:=T_B\) when \(r\) is even.
+Then \(S_{r-1}=F_A(C)\), \(S_r=F_A^*(F_A(C)^{-1})\), and
+\[
+E_A:=C^{1/2}F_A^*(F_A(C)^{-1})C^{1/2}-I,\qquad
+\operatorname{Tr}(E_A^2)=e_r\leq\epsilon.
+\]
+The equality is similarity invariance of the trace of the square, rather than a claim that \(CS_r\) is Hermitian.
+
+#### Transfer, inverses and the dimension factor
+
+Put \(U:=F_A(C)\), \(V:=F_B(C)\).
+The input bounds give
+\[
+(KR)^{-1}I\leq U\leq KRI,\qquad
+\|V-U\|\leq K R\delta.
+\]
+Define \(\theta:=K^2R^2\delta\).
+If \(\theta\leq1/2\), then \(V\geq(2KR)^{-1}I\), so both inverses exist and
+\[
+\|U^{-1}\|\leq KR,\quad
+\|V^{-1}\|\leq2KR,\quad
+\|U^{-1}-V^{-1}\|\leq2K^3R^3\delta.
+\]
+This is precisely the smallness condition missing from the source's invocation of (28); a bound on \(\delta\) independent of \(\epsilon\) is insufficient at that intermediate step.
+For
+\[
+E_B:=C^{1/2}F_B^*(F_B(C)^{-1})C^{1/2}-I
+\]
+the difference estimate is
+\[
+\begin{aligned}
+\|E_A-E_B\|
+&\leq R\bigl(K\delta\|U^{-1}\|
+             +K\|U^{-1}-V^{-1}\|\bigr)\\
+&\leq K^2R^2\delta+2K^4R^4\delta
+\leq3K^4R^4\delta=:a.
+\end{aligned}
+\]
+Both residuals are Hermitian.
+If \(a\leq1\), then \(\|E_A\|\leq\sqrt\epsilon\leq1\), \(\|E_B\|\leq1+a\), and
+\[
+\epsilon_B:=\operatorname{Tr}(E_B^2)
+\leq\epsilon+n(2+a)a
+\leq\epsilon+9nK^4R^4\delta.
+\]
+This supplies the full tolerance dependence without applying an unjustified norm estimate to a nonnormal residual.
+
+For comparison, the literal printed (33) is
+\[
+\operatorname{Tr}((D_1-I)^2)-\operatorname{Tr}((D_2-I)^2)
+\leq(\|D_1\|+\|D_2\|+2n)\|D_1-D_2\|.
+\]
+It fails even for \(n=2\), \(D_1=11I\), \(D_2=10I\): its two sides are \(38\) and \(25\).
+For arbitrary \(D_1,D_2\) the valid replacement is
 \[
 \left|\operatorname{Tr}((D_1-I)^2)-\operatorname{Tr}((D_2-I)^2)\right|
 \leq n(\|D_1\|+\|D_2\|+2)\|D_1-D_2\|.
 \]
-These polynomial factors can be absorbed in enlarged \(Q_i,P\), but doing so is part of a complete quantitative reconstruction, not automatic verification of the printed formulas.
-The full modulus with all tolerance dependencies and corrected adjoint objectives is therefore recorded as **primary-statement checked, proof partly inspected and questioned at the identified steps**.
-It is not imported here as a fully independently audited quantitative estimate.
+This follows by trace cyclicity and \(|\operatorname{Tr}(XY)|\leq n\|X\|\|Y\|\).
+The Hermitian-residual estimate above includes this necessary factor.
+
+#### Determinants and a complete parameter choice
+
+If \(\theta\leq1/2\), the eigenvalues of \(U^{-1/2}VU^{-1/2}\) lie in \([1-\theta,1+\theta]\).
+Hence, with \(r_A:=\det F_A(C)/\det C\) and \(r_B:=\det F_B(C)/\det C\),
+\[
+(1+\theta)^{-n}\leq r_A/r_B\leq(1-\theta)^{-n}.
+\]
+This comparison uses positive Hermitian matrices and retains the reciprocal.
+The corrected Lemma 3.9 in [U003](Yin_U003.md#ggow20-u003) applies when \(\epsilon,\epsilon_B\leq1/(n+1)\).
+It proves \(\operatorname{cap}(F_B)>0\) and, by capacity duality in the odd case, gives
+\[
+\frac{(1-\sqrt{n\epsilon})^n}{(1+\theta)^n}
+\leq\frac{\operatorname{cap}(T_A)}{\operatorname{cap}(T_B)}
+\leq\frac1{(1-\sqrt{n\epsilon_B})^n(1-\theta)^n}.
+\]
+
+Define
+\[
+q:=100h^2,\qquad P:=512qn^3,\qquad
+s:=\log(1/\delta),\qquad \epsilon:=2q/s,
+\]
+and assume \(s\geq P\).
+Then \(\epsilon\leq1/(256n^3)\), and
+\[
+\max\{\theta,a,9nK^4R^4\delta\}
+\leq e^{q/\epsilon}\delta=e^{-s/2}=:\zeta
+\leq\epsilon.
+\]
+Indeed \(4h+64h^2+\log(9n)\leq q\), while \(s e^{-s/2}\leq2/e\leq2q\).
+Thus the inverse smallness conditions hold, and \(\epsilon_B\leq2\epsilon\leq1/(n+1)\), as required.
+Write \(\rho:=\operatorname{cap}(T_A)/\operatorname{cap}(T_B)\).
+Taking logarithms in the preceding two-sided ratio bound and using \(-\log(1-x)\leq2x\) for \(0\leq x\leq1/2\) gives
+\[
+|\log\rho|\leq6n^{3/2}\sqrt\epsilon\leq3/8.
+\]
+The lower-ratio side uses \(-\log(1-\sqrt{n\epsilon})+\log(1+\theta)\leq2\sqrt{n\epsilon}+\theta\); the upper side uses \(2\sqrt{2n\epsilon}+2\theta\), and \(\theta\leq\epsilon\).
+Consequently
+\[
+|\rho-1|
+\leq2|\log\rho|
+\leq\frac{12\sqrt{2q}\,n^{3/2}}{\sqrt s}
+\leq\frac{24qn^2}{\sqrt s}
+\leq\frac{P}{s^{1/3}}.
+\]
+This proves the stated Theorem 4.5 modulus with the enlarged polynomial \(P(n,b,\log m)\), including positivity of the perturbed capacity, at the explicit rational bit-input scope above.
+The intermediate square-root logarithmic bound serves the reconstruction; no improvement of the paper's advertised interface or its optimal constants is claimed.
+The proof uses the existing integral-capacity, scaling-progress, duality and small-error near-minimizer inputs at their recorded inspection depths.
+It certifies neither the literal erroneous displayed formulas nor the printed Algorithms 3-4 budgets.
+The [isolated mathematical recheck](../../reviews/Yin_R_F0184_v1.md#continuity-reconstruction-finding) found no gap in this complete corrected reconstruction and its affected interfaces for all \(n\geq1\), at the explicit rational real/imaginary bit-input model, positive-capacity hypothesis and enlarged constants above.
+That finding retains the external foundational inputs at their recorded inspection depths and excludes the literal source algorithm budgets and the separate rounded polynomial-bit procedure.
 
 ### Verification and downstream use
 
 All supplied Section 4 and 5 proof text was read, including the first-step conventions, inverse sensitivity, trace-square calculation, determinant accumulation and error conversion.
-PDF pages 39, 51, 54-57 were rendered and visually inspected; the complete page contexts made the printed constants and operator orientations unambiguous.
+PDF pages 39, 51, 54-57 were rendered and visually inspected in the original audit; the complete page contexts made the printed constants and operator orientations unambiguous.
+The quantitative repair re-read printed pp. 269-279 and visually checked PDF pages 48, 51, 55 and 57, including (21), (33)-(35), the precision formula and the final reciprocal inference.
 Direct arithmetic and the \(E_{11},E_{21}\) example provide analytic checks, not evidence from a tested implementation.
 No further external search was performed for this unit; it uses the downloaded primary published version and the separate source-interface review.
 
 Use the checked conservative polynomial-bit interface when an algorithmic existence input suffices.
 A concrete implementation should specify its exact arithmetic, symmetric rounding, precision, stopping indices and internal relative-error allocation.
-The source's literal constants and complete quantitative continuity bound require the repairs recorded above before such use.
+Use of the corrected continuity reconstruction retains its explicit rational input model, enlarged polynomial and the [isolated finding's precise scope and limits](../../reviews/Yin_R_F0184_v1.md#continuity-reconstruction-finding).
+The source's literal algorithm constants remain uncertified; the existing conservative polynomial-bit interface has not been expanded.

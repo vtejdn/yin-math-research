@@ -6,7 +6,7 @@ We prove Theorem~\ref{thm:positive} and relate its minimizer to the one in Theor
 Throughout this section all $a_j=a_j^*$, including $a_0$, so that $S=S^*$ and $\eta(b)=\sum_j a_jba_j$.
 Recall $L(b)$, $\mathcal B$ and $\mathcal B_{\rm str}$ from Definition~\ref{def:positive-feasibility}, and put
 \begin{equation}\label{eq:residual}
- F(b)=a_0-b^{-1}-\eta(b),\qquad b>0.
+ F(b):=a_0-b^{-1}-\eta(b),\qquad b>0.
 \end{equation}
 Eliminating the lower diagonal block of $L(b)$ gives $L(b)\ge0$ if and only if $F(b)\ge0$, and likewise for strict positivity.
 This is the Schur complement calculation; it follows by multiplying $L(b)$ by invertible triangular block matrices to obtain $\operatorname{diag}(F(b),b)$.
@@ -30,27 +30,27 @@ The determinant minimum and the least feasible matrix are obtained by the argume
 
 The function $J$ in \eqref{eq:positive-objective} is the ordinary log determinant of the positive matrix
 \begin{equation}\label{eq:positive-trial-matrix}
- P(b)=b^{-1/2}\exp\left(
+ P(b):=b^{-1/2}\exp\left(
  b^{1/2}(a_0-\tfrac12\eta(b))b^{1/2}-1_m\right)b^{-1/2}>0.
 \end{equation}
 Indeed, $\log\det P(b)=J(b)$, so $\Delta_m(P(b))=\exp(J(b)/m)$.
 
 \begin{proof}[Proof of Theorem~\ref{thm:positive}]
 \emph{Positivity from coefficients.}
-Use the full Fock space $\mathcal F=\C\Omega\oplus\bigoplus_{k\ge1}(\C^n)^{\otimes k}$.
+Use the full Fock space $\mathcal F:=\C\Omega\oplus\bigoplus_{k\ge1}(\C^n)^{\otimes k}$.
 The left creation operators $\ell_j\in\mathcal B(\mathcal F)$ prepend the $j$th basis vector and satisfy $\ell_i^*\ell_j=\delta_{ij}I$.
 The operators $\ell_j+\ell_j^*$ have the joint semicircular distribution of the $s_j$; see \cite[Section 2.1, pp.~3--5]{Miy22}.
 The vacuum state on their generated von Neumann algebra is faithful and tracial.
 Thus equality of these joint distributions gives the same matrix spectral laws and positivity tests as in $M_m(\M)$.
 
-Given $b>0$, put $d_j=b^{1/2}a_jb^{1/2}$ and $C=\sum_jd_j\otimes\ell_j\in\mathcal B(\C^m\otimes\mathcal F)$.
+Given $b>0$, put $d_j:=b^{1/2}a_jb^{1/2}$ and $C:=\sum_jd_j\otimes\ell_j\in\mathcal B(\C^m\otimes\mathcal F)$.
 Direct multiplication gives the square completion
 \begin{equation}\label{eq:fock-square}
  b^{1/2}Sb^{1/2}=(I+C)^*(I+C)+b^{1/2}F(b)b^{1/2}.
 \end{equation}
 If $F(b)\ge\delta 1_m$ with $\delta>0$, this proves $S\ge\delta 1_m$.
 Conversely, suppose $S\ge\gamma 1_m$.
-For $0\le t<\gamma$ set $q(t)=E_m((S-t1_m)^{-1})>0$.
+For $0\le t<\gamma$ set $q(t):=E_m((S-t1_m)^{-1})>0$.
 The selfadjoint Dyson equation, continued from the upper half-plane through this spectral gap, gives
 \begin{equation}\label{eq:gap-dyson}
  q(t)^{-1}=a_0-t1_m-\eta(q(t)),\qquad F(q(t))=t1_m.
@@ -60,7 +60,7 @@ Hence $q(t)\in\mathcal B_{\rm str}$ for $t>0$ and $q=q(0)$ belongs to $\mathcal 
 \emph{The expectation of $S^{-1}$ is the least feasible matrix.}
 Fix any $b\in\mathcal B$ and start the iteration
 \begin{equation}\label{eq:monotone-iteration}
- q_0=0,\qquad q_{k+1}=(a_0-\eta(q_k))^{-1}.
+ q_0:=0,\qquad q_{k+1}:=(a_0-\eta(q_k))^{-1}.
 \end{equation}
 For $0\le X\le b$, positivity of $\eta$ gives $a_0-\eta(X)\ge a_0-\eta(b)\ge b^{-1}>0$.
 The iteration is therefore defined, order preserving and bounded above by $b$, so $0<q_1\le q_2\le\cdots\le b$.
@@ -82,7 +82,7 @@ The first variation of $J$ is
 \[
  dJ(b)[Y]=\Tr(F(b)Y),\qquad Y=Y^*.
 \]
-For $b\in\mathcal B$ write $Y=b-q\ge0$ and $b_t=q+tY$.
+For $b\in\mathcal B$ write $Y:=b-q\ge0$ and $b_t:=q+tY$.
 The function $F$ is operator concave on positive matrices: its second derivative along this segment is $-2b_t^{-1}Yb_t^{-1}Yb_t^{-1}\le0$.
 Consequently $F(b_t)\ge(1-t)F(q)+tF(b)\ge0$, and
 \begin{equation}\label{eq:objective-order}
@@ -91,12 +91,12 @@ Consequently $F(b_t)\ge(1-t)F(q)+tF(b)\ge0$, and
 This proves $J(b)\ge J(q)$.
 
 For uniqueness it suffices to prove strictness near $q$.
-Let $q'=\left.\frac{d}{dt}q(t)\right|_{t=0}=E_m(S^{-2})>0$.
+Let $q':=\left.\frac{d}{dt}q(t)\right|_{t=0}=E_m(S^{-2})>0$.
 Differentiation of \eqref{eq:gap-dyson} gives $q'=q^2+q\eta(q')q$.
-Set $c_j=q^{1/2}a_jq^{1/2}$ and $\Phi(x)=\sum_jc_jxc_j$.
-With $H=q^{-1/2}q'q^{-1/2}>0$ this reads $H-\Phi(H)=q>0$.
+Set $c_j:=q^{1/2}a_jq^{1/2}$ and $\Phi(x):=\sum_jc_jxc_j$.
+With $H:=q^{-1/2}q'q^{-1/2}>0$ this reads $H-\Phi(H)=q>0$.
 The positive-map estimate in Section~\ref{subsec:gap-tools} shows that the spectral radius of $\Phi$ is less than one.
-The map $\Phi$ is also selfadjoint for the Hilbert-Schmidt inner product $\langle X,Y\rangle=\Tr(X^*Y)$.
+The map $\Phi$ is also selfadjoint for the Hilbert-Schmidt inner product $\langle X,Y\rangle:=\Tr(X^*Y)$.
 It follows that the Hessian of $J$ at $q$, in the direction $Y=q^{1/2}Zq^{1/2}\ne0$, is
 \[
  d^2J(q)[Y,Y]=\Tr(Z^2)-\Tr(Z\Phi(Z))>0.

@@ -344,11 +344,8 @@ Equations (6)-(9) give the direct potential-theoretic consequence.
 Kernel growth and Brown atoms remain distinct, including when minimizers diverge.
 The separate positive-capacity/no-Brown-atoms deduction is being developed by the coordinating agent and is not duplicated here.
 
-## Fixed registration provenance
+<a id="fixed-registration-provenance"></a>
+## Authoring and checking arrangement
 
-2026-10-09T18:00.
-At Yin's explicit instruction to register the application drafts in their appropriate homes, brown_boundaries fixed the complete mathematical content of `mathematics/drafts/Yin_D_F0011.md` as this L material.
-The original authoring arrangement (brown_boundaries) and mathematical dates are preserved.
-Only this registration account and location-relative companion links were added or adjusted.
-The original author self-check and limited brown_envelope algebra check remain exactly at their stated scopes; the coordinating agent proposed the atom-localization argument and brown_boundaries checked and wrote its complete proof.
-Registration adopts no new Claim, records no completed independent review, and does not change the completed Task contract.
+The coordinating agent proposed the atom-localization argument, and brown_boundaries checked and wrote its complete proof.
+The original author self-check and limited brown_envelope algebra check retain their stated scopes.

@@ -404,7 +404,8 @@ These dated programme records retain their original mathematical and authorizati
 Current route allocation belongs to each Strategy Route section.
 
 Current T_F0001 decision, 2026-10-02: S_F0011 is completed for the [unchanged canonical finite-Fisher contract](../tasks/Yin_T_F0001_v7.md#yin_t_f0001).
-[C_F0067_v1](../claims/Yin_C_F0067_v1.md#canonical-closed-dual-raw-rationality), with its [complete independent proof and completion audit](../audits/reviews/Yin_R_F0079_v1.md#retained-r109-conclusion), proves SOME/ALL raw rationality on every full natural domain and exact equality with intrinsic representatives.
+[C_F0067_v1](../claims/Yin_C_F0067_v1.md#canonical-closed-dual-raw-rationality), with its [fresh isolated whole-proof finding](../audits/reviews/Yin_R_F0079_v1.md#fresh-c109-whole), proves SOME/ALL raw rationality on every full natural domain and exact equality with intrinsic representatives.
+The [retained original proof-and-contract finding](../audits/reviews/Yin_R_F0079_v1.md#retained-r109-conclusion) has an unknown initial-context relationship, and [independent completion-chain inspection](../tasks/Yin_T_F0001_v7.md#pending-independent-completion-chain-inspection) remains pending without changing the recorded completed Task disposition.
 The decisive input is the earlier C_F0022 all-M canonical dual/adjoint theorem; the new adjoint bridge supplies whole-domain agreement.
 Earlier completions and counterexamples retain their scopes.
 

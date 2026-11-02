@@ -9,7 +9,7 @@ The project [citation map](../citation.md) records current external citation use
 The current manuscript is the user-approved seven-section expansion of the paper.
 Its artifact is [main.tex](main.tex), with seven section files, one comparison appendix and [references.bib](references.bib).
 Its generated PDF location is `main.pdf`, alongside the source; Git tracks this PDF, as permitted by the document `.gitignore`, while auxiliary products remain ignored.
-The source inputs are `main.tex`, `references.bib` and the eight `sections/*.tex` files.
+The source inputs are `main.tex`, `references.bib`, [yin-amsalpha.bst](yin-amsalpha.bst) and the eight `sections/*.tex` files.
 The [project record](../readme.md) owns selection and mathematical provenance, and the [conventions](../conventions.md#expanded-manuscript-selection) state the current writing choices.
 
 | Section | Function and scope |
@@ -32,6 +32,10 @@ Public attribution is limited to Spe26, Bia97 and AK20; the private Spe26b and K
 Source identity, source-statement inspection, local proof checking and literature priority remain separate.
 
 ## Build convention
+
+The local bibliography style is a renamed derivative of the standard AMS `amsalpha` style, with its copyright and LPPL notice retained.
+It generates alphabetic author–year labels, displays given-name initials and complete family names in every entry, sorts by author family-name list and then year, and supports article identifiers in the `eid` field.
+The typesetting subset uses journal abbreviations verified against the [Mathematical Reviews serials list](https://mathscinet.ams.org/msnhtml/serials.pdf); the [canonical bibliography](../../../literature/references.bib) retains full publication metadata.
 
 Run from this `paper/` directory:
 
@@ -66,9 +70,17 @@ All 36 rendered pages of that revision were inspected for clipping, overlap and 
 The latexmk launcher requires Perl, which was unavailable; the direct commands above completed successfully.
 This receiving typesetting check creates no new mathematical proof review or Claim assessment.
 
-A subsequent bibliography rebuild on 2026-11-01 used pdflatex and BibTeX and produced the current 36-page `main.pdf`.
+A subsequent bibliography rebuild on 2026-11-01 used pdflatex and BibTeX and produced a 36-page `main.pdf`.
 Its final TeX and BibTeX logs had no unresolved references or citations, missing characters or box warnings.
 The bibliography on pages 35--36 was rendered and visually inspected; this narrower check does not repeat the earlier inspection of all 36 pages.
+
+The formatting build completed at 2026-11-02T04:48 UTC with TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d, using the five direct commands above.
+The revised source includes right-hand equation numbers, untitled definition environments and defining equalities written with `:=`.
+The build produced 36 pages, and its final TeX and BibTeX logs had no warnings, unresolved references or citations, missing characters or box diagnostics.
+The generated bibliography was inspected for all 29 cited entries, including labels, author initials and family names, alphabetical author ordering, chronological ordering for the same author list, journal abbreviations and the DG24 article identifier.
+All build inputs remained unchanged during compilation.
+No pages were rendered or visually inspected for this revision, following the author's compilation policy.
+This formatting and build check supplies no new mathematical or citation-applicability review.
 
 ## Manuscript review
 

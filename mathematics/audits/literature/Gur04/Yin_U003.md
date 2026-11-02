@@ -16,7 +16,7 @@ Passages: Locator: Theorem 4.7 and proof, printed pp. 464-465 / PDF pp. 17-18.
 Inspection: Record: 2026-09-12, source-audit agent, self-review; audited within the reconstructed scope, with the source normalizer corrected below.
 
 
-The sole bibliography is the Gur04 intake.
+The sole bibliography is [references.bib](../../../literature/references.bib).
 
 Edition: published JCSS article, 37 PDF pages; printed page equals PDF page plus 447.
 Current artifact identity; the original review date and scope below are retained.

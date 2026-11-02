@@ -2,7 +2,7 @@
 
 Artifact and edition.
 
-[DR10-U001](Yin_U001.md#dr10-u001) reads Section1p.2 of the33-page author-hosted survey for the scalar complex-coefficient factorization statement and reciprocal-conjugate root-pair naming.
+[DR10-U001](Yin_U001.md#dr10-u001) reads Section 1, p. 2 of the 33-page author-hosted survey for the scalar complex-coefficient factorization statement and reciprocal-conjugate root-pair naming.
 No rational descent, prescribed interpolation, operator/multivariable theorem or original-source proof is adopted.
 Author-file revision date and equivalence to arXiv/published editions remain unverified.
 
