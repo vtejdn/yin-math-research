@@ -166,5 +166,4 @@ Dual-system definitions are handled by the other source group and are not duplic
 At 2026-10-21T01:35, the complete definition/convention reading was retained at [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-definition-recheck), reusing the sufficient general U definitions linked there.
 The actual AP18 conjugation construction is retained at [AP18-U002](../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference).
 The original account above remains the fixed historical input used for the tracial-conjugation interface in [R_F0046](../audits/reviews/Yin_R_F0046_v1.md#arrangement-and-inspected-scope), with its source locators, reading dates and depth unchanged.
-The additional review formerly named R_A0019 has no verified local or original-source correspondence in this account; no current review identity or coverage is inferred from that historical name.
 This relocation neither opens the source again nor renews the earlier mathematical reviews.
