@@ -14,7 +14,7 @@ The accepted [C_F0147](../claims/Yin_C_F0147_v1.md#statement), with its complete
 The target algebra is N=W*(X_1,X_2), not an assumed equality with the reference algebra.
 The target star core is algebraically free on x_1,x_2,y_1,y_2 evaluated at X_1,X_2,X_1*,X_2*.
 Maximal Delta and failure of every bare full-domain coordinate dual are proved there.
-The later [C_F0148](../claims/Yin_C_F0148_v1.md#statement), with complete independent [R_F0155](../audits/reviews/Yin_R_F0155_v1.md#conclusion), excludes both actual target coordinate ACSY witnesses.
+The later [C_F0148](../claims/Yin_C_F0148_v1.md#statement), with the complete self-reviewed [R_F0155 finding](../audits/reviews/Yin_R_F0155_v1.md#conclusion), excludes both actual target coordinate ACSY witnesses.
 This candidate no longer leaves a target-A question open and cannot separate A from F.
 
 The D_F0003 investigation available at the original checkpoint was read before development.
@@ -107,7 +107,7 @@ A free Stein/Jacobian source may supply a useful geometric interpretation, but a
 
 ## Fixed resolvent obstruction and source boundary
 
-The complete target resolvent proof and its general row consequence are fixed and adopted at [C_F0148's reviewed decision](../claims/Yin_C_F0148_v1.md#decision-reviewed), supported by the complete independent [R_F0155](../audits/reviews/Yin_R_F0155_v1.md#conclusion).
+The complete target resolvent proof and its general row consequence are fixed and adopted at [C_F0148's reviewed decision](../claims/Yin_C_F0148_v1.md#decision-reviewed), supported by the complete self-reviewed [R_F0155 finding](../audits/reviews/Yin_R_F0155_v1.md#conclusion).
 That proof excludes both target coordinate ACSY witnesses for C_F0147, and more generally shows that a coordinate with positive row-kernel diagonal trace forces finite tau(Q^-1) when Q is regular.
 The full-system consequence includes an actual right inverse on bounded vectors through the row polar decomposition.
 Root contributed checks, the general formulation and the range corollary; these are development contributions.
@@ -134,7 +134,7 @@ Its selected decision adopts the complementary independent scopes of [R_F0158](.
 The argument applies to every hypothetical bare dual for X=hS through X=AB, A=sqrt(h), B=sqrt(h)S, with BA selfadjoint diffuse and B injective.
 It supplies no existence or nonexistence conclusion.
 
-For the actual A-positive tuple of [C_F0150](../claims/Yin_C_F0150_v1.md#statement), the full target F question is now positively resolved by [C_F0152's adopted proof](../claims/Yin_C_F0152_v1.md#decision-reviewed), with complete independent [R_F0160](../audits/reviews/Yin_R_F0160_v1.md#conclusion).
+For the actual A-positive tuple of [C_F0150](../claims/Yin_C_F0150_v1.md#statement), the full target F question is now positively resolved by [C_F0152's adopted proof](../claims/Yin_C_F0152_v1.md#decision-reviewed), with the complete self-reviewed [R_F0160 finding](../audits/reviews/Yin_R_F0160_v1.md#conclusion).
 Its intrinsic canonical forward closure gives a normalized operator-norm-to-L2 map E on all N satisfying [E,X]=P, with norm at most sqrt(2)+1+2||beta||2.
 The functional F_E(a tensor bar(eta))=<eta,Ea> therefore makes C_F0151's prescribed projective functional well-defined and bounded by the same constant.
 This resolves the concrete projective-functional question without asserting a general transfer from the separate actual-A Hilbert graph criterion.

@@ -7,7 +7,7 @@ author: Yin
 - Date and reviewer: 2026-09-10, the free-field algebra agent.
 - Source: [MSY23, published MSY23.pdf](../literature/pdf/MSY23.pdf), JFA 285 (2023), 110016, 50 pages.
   Printed and PDF page numbers agree.
-- Existing units: [U001, rank](../audits/literature/MSY23/Yin_U001.md#msy23-u001), [U002, finite-rank cycles](../audits/literature/MSY23/Yin_U002.md#msy23-u002), [U003, representations and closures](../audits/literature/MSY23/Yin_U003.md#msy23-u003), [U004, affiliated realization](../audits/literature/MSY23/Yin_U004.md#msy23-u004), and [U006, strong Atiyah property](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
+- Existing units: [U001, rank](../audits/literature/MSY23/Yin_U001.md#msy23-u001), [U002, finite-rank cycles](../audits/literature/MSY23/Yin_U002.md#msy23-u002), [U003, representations and closures](../audits/literature/MSY23/Yin_U003.md#msy23-u003), [U004, affiliated realization](../audits/literature/MSY23/Yin_U004.md#msy23-u004), and [U005, strong Atiyah property](../audits/literature/MSY23/Yin_U005.md#msy23-u005).
   Exact existing definition homes are linked below.
 - Scope: a definition and convention sidecar, not a new source unit or project claim.
   The relevant existing audit sections were reread; primary definition passages on pp. 8, 10–13, 20–25, 29 and 42 were freshly checked, with surrounding statements used only to delimit their meaning.
@@ -31,10 +31,10 @@ author: Yin
 | Matrix rational closure and scalar division closure for a general inclusion | [U003, Definitions 4.7 and 4.10](../audits/literature/MSY23/Yin_U003.md#definitions-47-and-410-two-closures-in-one-ambient-algebra) | Definition 4.7, p. 24, and Definition 4.10, p. 25. These are general constructions for a unital subalgebra in a fixed unital ambient algebra. |
 | Complete division closure | [U003, complete division closure](../audits/literature/MSY23/Yin_U003.md#complete-division-closure-and-proposition-411) | Discussion and Proposition 4.11, pp. 26–27. Inverse closure at every matrix size gives the alternative formulation of matrix rational closure retained in U003. The equivalence is an accepted result, not an additional project definition or a request for a new proof. |
 | Analytic rank | [U004, Lemmas 5.1–5.5](../audits/literature/MSY23/Yin_U004.md#lemmas-51-55-finite-trace-invertibility-and-stable-finiteness) | Definition 5.4, p. 29. See the normalization check below. |
-| Strong Atiyah property | [U006, setting and closure conventions](../audits/literature/MSY23/Yin_U005.md#setting-and-closure-conventions) | Definition **5.22**, p. 42: every polynomial matrix evaluated at the tuple has integral analytic rank. Theorem 5.23 is a consequence under maximal \(\Delta\), not the definition's number. |
+| Strong Atiyah property | [U005, setting and closure conventions](../audits/literature/MSY23/Yin_U005.md#setting-and-closure-conventions) | Definition **5.22**, p. 42: every polynomial matrix evaluated at the tuple has integral analytic rank. Theorem 5.23 is a consequence under maximal \(\Delta\), not the definition's number. |
 
 The universal free field discussed in Section 4.1, pp. 20–21, is the universal division ring of fractions of the free polynomial algebra.
-The more explicit general definition is already housed in [Yin20-U003, free fields and localization](../audits/literature/Yin20/Yin_U001.md#3-free-fields-and-the-retained-localization-interface).
+The more explicit general definition is already housed in [Yin20-U001, free fields and localization](../audits/literature/Yin20/Yin_U001.md#3-free-fields-and-the-retained-localization-interface).
 MSY23 Theorem 4.1 supplies the retained fullness and inner-rank-preservation interface.
 Neither that theorem nor an affiliated realization is incorporated into the definition of a linear representation.
 
@@ -165,5 +165,6 @@ Dual-system definitions are handled by the other source group and are not duplic
 
 At 2026-10-21T01:35, the complete definition/convention reading was retained at [MSY23-U002](../audits/literature/MSY23/Yin_U002.md#msy23-definition-recheck), reusing the sufficient general U definitions linked there.
 The actual AP18 conjugation construction is retained at [AP18-U002](../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference).
-The original account above remains the fixed historical input actually consulted by R_A0019 and R_F0046, with its source locators, reading dates and depth unchanged.
+The original account above remains the fixed historical input used for the tracial-conjugation interface in [R_F0046](../audits/reviews/Yin_R_F0046_v1.md#arrangement-and-inspected-scope), with its source locators, reading dates and depth unchanged.
+The additional review formerly named R_A0019 has no verified local or original-source correspondence in this account; no current review identity or coverage is inferred from that historical name.
 This relocation neither opens the source again nor renews the earlier mathematical reviews.

@@ -16,7 +16,7 @@ Let \(P\subset M\) be a weakly dense unital star algebra in a finite tracial von
 \]
 be an outer derivation with actual vacuum \(\xi=\delta^*(1\otimes1)\).
 Inner products are linear in the second variable.
-The actual tensor-adjoint formula in [Mai15-U001 v2](../audits/literature/Mai15/Yin_U001.md#mai15-u001) places \(P\odot P\) in the adjoint domain.
+The actual tensor-adjoint formula in [Mai15-U001](../audits/literature/Mai15/Yin_U001.md#mai15-u001) places \(P\odot P\) in the adjoint domain.
 Set
 \[
  E_0=(\mathrm{id}\otimes\tau)\delta,\quad

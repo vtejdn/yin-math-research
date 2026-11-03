@@ -85,7 +85,7 @@ Any completed scalar result and still-open matrix generalization must be reporte
   These supply methods and comparisons at their actual distributional hypotheses; they do not assert a Haar formula.
 - [Earlier single-Haar formulation](../ledger/Yin_L_G0002_v1.md#single-haar-formulation), including [regularization and estimate direction](../ledger/Yin_L_G0002_v1.md#regularization-and-direction).
   This rolling G draft records self-checked elementary baselines and no independent review; it is not adopted as a new fixed theorem by this Task.
-- [L4 finite-section and Gram analysis](../ledger/Yin_L_G0001_v1.md#degree-window-tests), with the [Den09 finite-section source interface](../audits/literature/Den09/Yin_U002.md#finite-section-determinant).
+- [L_G0001 finite-section and Gram analysis](../ledger/Yin_L_G0001_v1.md#degree-window-tests), with the [Den09 finite-section source interface](../audits/literature/Den09/Yin_U002.md#finite-section-determinant).
   Reuse their exact approximation direction and input-dependent costs.
 
 Perform a bounded local and primary-source reuse check before claiming a new formula or coefficient theorem.

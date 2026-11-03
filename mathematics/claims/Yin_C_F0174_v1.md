@@ -248,7 +248,7 @@ The positive scalar determinant also satisfies the fixed-input finite-section fo
 \]
 since det T_N=product_{j=0}^N kappa_j and the logarithmic Cesaro mean of the positive sequence kappa_j tends to logD².
 For p=0, every displayed positive-size determinant is0, so(16) remains true without logarithmic division.
-Equations(13)--(16) are classical prediction/Szego structure already retained by Den09-U002 and L4; their role here is explicit arbitrary-complex-coefficient and singular-case organization, not a claim of discovery.
+Equations(13)--(16) are classical prediction/Szego structure already retained by Den09-U002 and [L_G0001](../ledger/Yin_L_G0001_v1.md#degree-window-tests); their role here is explicit arbitrary-complex-coefficient and singular-case organization, not a claim of discovery.
 
 For nonzero p, a finite N has kappa_N=D² if and only if p is a monomial.
 Equality in(15) requires gq=D identically.

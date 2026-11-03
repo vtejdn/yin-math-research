@@ -113,7 +113,7 @@ This is a realized liberation example, not an abstract vector measure.
 Its marginal is atomic and its edge weight is not a normal-coordinate curvature kernel.
 The remaining normal route must therefore retain the full three-point phase/curvature coupling.
 D_F0002 records the actual almost-everywhere phase-family graph reduction.
-The accepted [C_F0149 v2](../claims/Yin_C_F0149_v2.md#statement), independently reviewed in [R_F0157](../audits/reviews/Yin_R_F0157_v1.md#conclusion), proves a uniform finite-model bound for every first-Wick vector and an exact operator formula on every relative Wick degree.
+The accepted [C_F0149 v2](../claims/Yin_C_F0149_v2.md#statement), checked in [R_F0157's whole-proof finding](../audits/reviews/Yin_R_F0157_v1.md#conclusion) with an unknown initial-context relationship, proves a uniform finite-model bound for every first-Wick vector and an exact operator formula on every relative Wick degree.
 Its proof retains the full three-point coupling; the operator includes a degree-lowering correction.
 The v1 vacuum-normalization comparison was removed in v2 and its finding remains in R_F0157.
 This does not control arbitrary analytic unitaries or arbitrary correlated normal laws.
@@ -184,7 +184,7 @@ The accepted [C_F0150](../claims/Yin_C_F0150_v1.md#statement), independently rev
 The oriented separated-leg coefficient space is contained isometrically in both actual reference adjoint domains.
 The two coefficients alpha(u,v)=v/(u squared+v squared) and beta(u,v)=u/(u squared+v squared) solve the normalized product equation and have total squared Hilbert norm at most one.
 Their whole-core vacuum, followed by intrinsic tensor and vacuum compression, proves A(N;X), despite h inverse not being L2.
-The accepted [C_F0152](../claims/Yin_C_F0152_v1.md#statement), independently reviewed in [R_F0160](../audits/reviews/Yin_R_F0160_v1.md#conclusion), now constructs an intrinsic bare full-domain dual for this target and places all bounded target vectors in the original canonical forward closure.
+The accepted [C_F0152](../claims/Yin_C_F0152_v1.md#statement), checked in the self-reviewed [R_F0160 finding](../audits/reviews/Yin_R_F0160_v1.md#conclusion), now constructs an intrinsic bare full-domain dual for this target and places all bounded target vectors in the original canonical forward closure.
 Complete-terminal-block cancellation and a partial-block column/concatenation estimate give the explicit bound sqrt(2)+1+2||beta||2.
 No full adjoint domain is asserted; this tuple satisfies A and F and does not separate them.
 [C_F0151 v2](../claims/Yin_C_F0151_v2.md#statement) fixes an automatic-continuity argument for every hypothetical bare dual at this nonnormal factorization, followed by an exact projective-tensor functional criterion.
@@ -195,7 +195,7 @@ The exact projective functional for this example is consequently bounded.
 D_F0003 now returns to arbitrary affine/polynomial matrix relations and their actual weighted range obligations; these are distinct from the settled example.
 D_F0005 retains its separate scalar Cauchy mechanism as a developer-checked diagnostic, with the positive full-domain resolution linked.
 
-The accepted [C_F0153](../claims/Yin_C_F0153_v1.md#statement), independently reviewed in [R_F0161](../audits/reviews/Yin_R_F0161_v1.md#conclusion), proves both original canonical domains for a normal Gaussian pair (Z,T) obtained from a free semicircular by positive symmetric coefficients on finitely many separated spectral blocks of Z.
+The accepted [C_F0153](../claims/Yin_C_F0153_v1.md#statement), checked in [R_F0161's whole-proof finding](../audits/reviews/Yin_R_F0161_v1.md#conclusion) with an unknown initial-context relationship, proves both original canonical domains for a normal Gaussian pair (Z,T) obtained from a free semicircular by positive symmetric coefficients on finitely many separated spectral blocks of Z.
 Its arbitrary-abelian-base relative-degree lemma controls the correction by its actual vacuum uniformly in block sizes, masses and coefficient ratios, and yields the full analytic-unitary lower form.
 The finite atomic formal vacuum remains distinct from an actual normal conjugate vector.
 The accepted [C_F0156](../claims/Yin_C_F0156_v1.md#statement), independently reviewed in [R_F0164](../audits/reviews/Yin_R_F0164_v1.md#conclusion), extends the result to every bounded positive symmetric measurable Gaussian kernel under actual target A.
@@ -211,7 +211,7 @@ The untransposed counterexample is retained only as an inapplicable surrogate.
 Actual multicoordinate moment extraction, generation and original domain passage remain separate obligations.
 
 The accepted [C_F0154](../claims/Yin_C_F0154_v1.md#statement), independently reviewed in [R_F0162](../audits/reviews/Yin_R_F0162_v1.md#conclusion), proves inverse-trace integrability and an actual Hilbert right inverse on bounded columns for an affine matrix pencil with regular LL* and strictly positive scalar kernel compression.
-The accepted [C_F0155](../claims/Yin_C_F0155_v1.md#statement), independently reviewed in [R_F0163](../audits/reviews/Yin_R_F0163_v1.md#conclusion), removes the scalar-null blocks relevant to a relation, proves regularity of the surviving block through rectangular finite-rank cycles, and transfers through a bounded polynomial linearization.
+The accepted [C_F0155](../claims/Yin_C_F0155_v1.md#statement), checked in [R_F0163's whole-proof finding](../audits/reviews/Yin_R_F0163_v1.md#conclusion) with an unknown initial-context relationship, removes the scalar-null blocks relevant to a relation, proves regularity of the surviving block through rectangular finite-rank cycles, and transfers through a bounded polynomial linearization.
 Consequently every bounded relation Pa=0 for a holomorphic polynomial matrix has a Hilbert solution Pz=-(id tensor tau)((delta_i P) dot a), with a bounded linear choice for each fixed P,i.
 This removes all such finite range obstructions.
 Choices and bounds still depend on P; constructing one coherent dual on all M remains open.

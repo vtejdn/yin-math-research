@@ -120,7 +120,7 @@ The proof neither extends that formula to arbitrary q-Gaussian/transported tuple
 ## Complete retained algebra and Haar interfaces
 
 The following original 2026-09-12 interface reconstruction comes from [L_F0037](../../../ledger/Yin_L_F0037_v1.md#integer-dependency-audit).
-The finite-quotient determinant proof now has its sufficient source home in [Sch01-U001 v2](../Sch01/Yin_U001.md#finite-quotient-determinant-proof).
+The finite-quotient determinant proof now has its sufficient source home in [Sch01-U001](../Sch01/Yin_U001.md#finite-quotient-determinant-proof).
 The original R_F0129 check includes the terminal dual sign, finite-rank cycle argument and capacity normalization, while explicitly retaining the prior MSY23 kernel/Cohn foundations rather than claiming their fresh full reconstruction.
 
 ## Rank Non-Decrease to a Full Homogeneous Pencil

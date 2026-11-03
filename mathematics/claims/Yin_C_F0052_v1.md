@@ -81,7 +81,7 @@ The notation |_mu means the continuous restriction map L2(nu)->L2(mu).
 This statement never identifies the two Hilbert adjoints.
 
 Knowledge reuse: [C_F0047](Yin_C_F0047_v1.md) gives the actual radial domains, estimate, and bounded-function adjoint identity.
-The transfer calculation of [C_F0048](Yin_C_F0048_v1.md), checked in its [independent review](../audits/reviews/Yin_R_F0022_v1.md), already supplies the density pairing mechanism without division by b.
+The transfer calculation of [C_F0048](Yin_C_F0048_v1.md), checked in its [original self-reviewed finding](../audits/reviews/Yin_R_F0022_v1.md#5-original-domains-and-the-nonradial-example), already supplies the density pairing mechanism without division by b.
 C_F0048/C_F0049's written assumptions are uniformly positive; the independently reviewed C_F0051 v1 at recorded assessment 2 is strictly positive without a lower bound.
 Those statements also retain angular mean one.
 None states the present zero-set extension with only total-mass normalization.

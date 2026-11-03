@@ -15,7 +15,7 @@ This record checks rank non-decrease to Haar-model injectivity, then the ordinar
 The final normalization argument from the Haar model to capacity is included to expose the complete dependency chain.
 The semicircular determinant formula is a separate input to the resulting Corollary 1.4.
 
-Current complete proof homes, 2026-10-21: [Sch01-U001 v2](../audits/literature/Sch01/Yin_U001.md#finite-quotient-determinant-proof) retains the complete injective free-group determinant proof, and [MS24-U004 v2](../audits/literature/MS24/Yin_U004.md#complete-retained-algebra-and-haar-interfaces) retains the exact smaller rank/Haar interfaces alongside the sufficient existing capacity proof.
+Current complete proof homes, 2026-10-21: [Sch01-U001](../audits/literature/Sch01/Yin_U001.md#finite-quotient-determinant-proof) retains the complete injective free-group determinant proof, and [MS24-U004](../audits/literature/MS24/Yin_U004.md#complete-retained-algebra-and-haar-interfaces) retains the exact smaller rank/Haar interfaces alongside the sufficient existing capacity proof.
 The original text remains the exact R_F0129 review input, with all fixed source and arithmetic limits preserved.
 
 ## Exact Chain and Conclusion

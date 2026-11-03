@@ -28,8 +28,10 @@ The [selected assessment](#decision-isolated-review-20261022) records the mathem
 The result establishes bounded duals under an explicit inverse-Jacobian condition, together with a precise obstruction to transporting finite rank by the same argument.
 It does not establish a general rational boundedness theorem for analytic transports.
 
-Review integration, 2026-09-09: the [independent complete review](../audits/reviews/Yin_R_F0064_v1.md#projective-dual-correction-finding) by another AI agent passed Sections 1-6, including the exact GS14 applicability interface, without mathematical corrections.
+Historical review integration, 2026-09-09: the [independent complete review](../audits/reviews/Yin_R_F0064_v1.md#projective-dual-correction-finding) by another AI agent passed Sections 1-6, including the exact GS14 applicability interface, without mathematical corrections.
 The initial assessment above is historical; the [selected assessment](#decision-isolated-review-20261022) records the mathematical and review assessments.
+The original review description retains its date and wording; that historical finding's initial-context relationship is unknown.
+The later [isolated projective-correction finding](../audits/reviews/Yin_R_F0064_v1.md#projective-correction), formed on 2026-10-22, supplies the complete independent scope adopted by the selected assessment, separately from the earlier reuse and source-inspection acts.
 
 ### 1. Algebra, norms, and the correction lemma
 

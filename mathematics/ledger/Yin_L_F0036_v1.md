@@ -18,7 +18,7 @@ In particular, the proof uses the ordinary Fuglede-Kadison determinant of bounde
 It does not require an unbounded multiplicativity theorem, a kernel-omitting determinant, or a general theorem on continuity of operator-valued semicircular distributions.
 Functional calculus, finite polar decomposition, the scalar free semicircular moment rule and polynomial approximation on a compact interval remain ordinary foundational inputs; this is not a re-audit of their original constructions.
 
-Current complete source-proof homes, 2026-10-21: [FK52-U001](../audits/literature/FK52/Yin_U001.md#fk52-u001), [MS24-U005 v2](../audits/literature/MS24/Yin_U005.md#retained-analytic-proof-interfaces), the sufficient existing [MS24-U002 pairing proof](../audits/literature/MS24/Yin_U002.md#pairing-estimates), and [MS17-U001 v2](../audits/literature/MS17/Yin_U001.md#semicircular-source-passages-and-the-offline-affine-input).
+Current complete source-proof homes, 2026-10-21: [FK52-U001](../audits/literature/FK52/Yin_U001.md#fk52-u001), [MS24-U005](../audits/literature/MS24/Yin_U005.md#retained-analytic-proof-interfaces), the sufficient existing [MS24-U002 pairing proof](../audits/literature/MS24/Yin_U002.md#pairing-estimates), and [MS17-U001](../audits/literature/MS17/Yin_U001.md#semicircular-source-passages-and-the-offline-affine-input).
 The original text remains the exact fixed input of older R_F0074/R_F0127/R_F0128; its offline extension scope and source limits are unchanged.
 
 ## Evidence and Minimal Interfaces

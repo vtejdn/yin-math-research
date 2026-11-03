@@ -19,7 +19,7 @@ The review was not blind: the general comparison context, the summary and root's
 The selected statements of C_F0070 and C_F0072 were reused at their accepted scopes.
 The reviewer had developed C_F0072, but did not develop the present coefficient argument or obstruction; its use here is explicitly a checked application of an independently reviewed earlier result.
 Pis12-U001 was read for the exact commutative finite-family inequality.
-The earlier C_F0047 mechanism and its original closability and projective-summation scope were inspected for the claimed comparison.
+The earlier [C_F0039 mechanism](../../claims/Yin_C_F0039_v1.md#yin_c_f0039-p1) and its original closability and projective-summation scope were inspected for the claimed comparison.
 The direct Fourier proof below does not depend on the original proof of Montgomery-Vaughan's inequality.
 No new whole-PDF audit of Pis12, AP16 or Montgomery-Vaughan was performed.
 
@@ -102,7 +102,7 @@ The normalization costs at most another copy of \(\|Q\|\), yielding \(4CAB/\sqrt
 
 The right contraction bound \(C\) and this left bound meet C_F0072 exactly.
 Its formula gives the stated vacuum constant and its actual core-adjoint/closed-graph result gives both canonical domains.
-No earlier closability of the supplied full-domain map is being imported from C_F0047.
+No earlier closability of the supplied full-domain map is being imported from C_F0039.
 The elementary rescaling of an absolutely projectively summable expansion gives the two asserted square-sum bounds, so the inclusion of that earlier coefficient condition is correct.
 
 ## Fourier sign, input norm and trace normalization

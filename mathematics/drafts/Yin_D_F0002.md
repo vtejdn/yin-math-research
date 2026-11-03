@@ -9,7 +9,9 @@ The root agent owns its single execution document; this branch creates no separa
 
 ## Exact target and accepted inputs
 
-The [condition-A literature comparison](../ledger/Yin_L_F0051_v1.md) records the exact general/selfadjoint source boundaries, selected domain and Stein interfaces, concrete model literature and the remaining Voi99 access gap.
+The [condition-A literature comparison](../ledger/Yin_L_F0051_v1.md) records the exact general/selfadjoint source boundaries, selected domain and Stein interfaces and concrete model literature.
+The [Voi99-U004 unitary-adjoint account](../audits/literature/Voi99/Yin_U004.md#unitary-derivation-and-fisher-information) supplies the L3-density interface and its adjoint-vector sign correction for \(d(U)=1\otimes U\).
+The general L3 application to the twisted derivation \(\partial(U)=1\otimes1\) retains the conditional receiving scope of [ACSY24-U003](../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression); adopting that application requires matching the twist, actual vacuum-adjoint domain and hypotheses, rather than identifying the two derivations.
 The [full Mai15 and MSW17 audit comparison](../ledger/Yin_L_F0053_v2.md) records the source corrections and the exact real-coassociative estimate that motivates the final power-iteration section below.
 
 Let \(X\) be arbitrary correlated bounded normal generators of a finite tracial \(M\), let \(A=\mathbb C\langle X,X^*\rangle\), and assume the complete actual-vacuum derivation condition \(\mathsf A(X)\).
@@ -624,8 +626,6 @@ Thus no universal arbitrary-weight estimate can depend only on the squared squar
 The counterexample is not a normal ACSY example and does not have a normal coordinate's curvature weight.
 The exact model, coefficient orders, corner normalizations and all actual-domain calculations are retained in the fixed Claim, equations (SC1)-(SC9).
 
-The source access boundary also remains relevant: Voi99's primary full text was unavailable.
-No theorem from that unavailable text is imported into the remaining lower-form argument.
 The accepted finite adjoint and free-product inputs of C_F0146 have their separate exact inspected sources.
 
 ## Actual unitary-phase families retain the curvature coupling
@@ -1170,7 +1170,7 @@ No new Claim, unrestricted-normal implication or A/S separating example is asser
 
 The directed source audit of 2026-10-16 separates the power-growth part of Mai15 Lemma 4.11 from the real/coassociative identity used in Theorem 4.9.
 This is a continuing sufficient-condition calculation, checked by root, not an adopted proof of A implies S.
-Its inputs are the general actual-adjoint formulas in [Mai15-U001 v2](../audits/literature/Mai15/Yin_U001.md#mai15-u001), the [audited scalar power-iteration argument](../audits/literature/Mai15/Yin_U002.md#mai15-u002) of Mai15 Lemma 4.11 and the two-contraction graph mechanism in [C_F0072](../claims/Yin_C_F0072_v1.md#statement).
+Its inputs are the general actual-adjoint formulas in [Mai15-U001](../audits/literature/Mai15/Yin_U001.md#mai15-u001), the [audited scalar power-iteration argument](../audits/literature/Mai15/Yin_U002.md#mai15-u002) of Mai15 Lemma 4.11 and the two-contraction graph mechanism in [C_F0072](../claims/Yin_C_F0072_v1.md#statement).
 The Hilbert-valued interpretation of the power-iteration lemma is essential: its proof uses only Hilbert norms of the outputs, although the source writes its target as M.
 
 Let P be a weakly dense unital star subalgebra of a finite tracial M and let delta:P -> H tensor_2 H be an outer derivation with actual xi=delta*(1 tensor 1) in H.

@@ -22,7 +22,7 @@ Source evidence: [ACSY24-U001](../../audits/literature/ACSY24/Yin_U001.md#acsy24
 ## `AP18`
 
 Source evidence: [AP18-U001](../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
-The [AP18-U003, affiliation and domains](../../audits/literature/AP18/Yin_U003.md#affiliation-interface), [square-integrable affiliated-operator interface](../../audits/literature/Miy26/Yin_U004.md#miy26-u004), and [AP18-U002 v2, canonical-conjugation reading](../../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
+The [AP18-U003, affiliation and domains](../../audits/literature/AP18/Yin_U003.md#affiliation-interface), [square-integrable affiliated-operator interface](../../audits/literature/Miy26/Yin_U004.md#miy26-u004), and [AP18-U002, canonical-conjugation reading](../../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
 The inspected artifact is the undated 338-page author draft; 2018 is not a verified draft date.
 
 | TeX use | Citation locator | Application and boundary |
@@ -192,7 +192,7 @@ The general tracial-algebra dimension construction has its separately cited CS05
 
 ## `Mai15`
 
-Source evidence: [Mai15-U001 v2](../../audits/literature/Mai15/Yin_U001.md#mai15-u001) checks the actual adjoint-domain multiplication and real adjoint identities in the retained arXiv version.
+Source evidence: [Mai15-U001](../../audits/literature/Mai15/Yin_U001.md#mai15-u001) checks the actual adjoint-domain multiplication and real adjoint identities in the retained arXiv version.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |

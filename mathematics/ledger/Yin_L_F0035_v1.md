@@ -23,7 +23,7 @@ It also states the equivalent formulation using commutation with every bounded e
 Theorem 7.2.8(i) states that the adjoint of a closed densely defined affiliated operator remains affiliated, in the finite-tracial setting used here.
 Their statements and applicability are accepted; the book's underlying unbounded spectral theory and original proofs were not re-audited.
 
-In [Yin_C_F0037](../claims/Yin_C_F0037_v1.md#yin_c_f0037), the represented algebra is the **right commutant** \(\lambda(\mathcal M)'\).
+In [Yin_C_F0036](../claims/Yin_C_F0036_v1.md#yin_c_f0036), the represented algebra is the **right commutant** \(\lambda(\mathcal M)'\).
 The proof first establishes commutation of a specified closed operator with all of \(\lambda(\mathcal M)\), including domain invariance.
 The bicommutant identity then supplies exactly the definition's hypothesis.
 The adjoint-domain consequence is also checked directly by Hilbert-space pairing in that project proof.
@@ -33,13 +33,13 @@ The right-multiplication interpretation follows from the standard tracial commut
 No square-integrability of the resulting right-affiliated multiplier, or membership of the vacuum in its domain, is asserted.
 
 <a id="l1-predual-interface"></a>
-## Additional L1 Interface for Yin_C_F0045
+## Additional L1 Interface for Yin_C_F0038
 
 The same primary draft was subsequently inspected as parsed text at Theorem 7.4.5, printed pp. 114-115 / PDF pp. 120-121, and its Radon-Nikodym restatement Theorem 7.4.9, printed p. 116 / PDF p. 122.
 Theorem 7.4.5 identifies \(a\in L^1(\mathcal M,\tau)\) with the normal functional \(x\mapsto\tau(ax)\), gives equality of its functional norm and \(\|a\|_1\), and states completeness of this L1 space.
 Theorem 7.4.9 records uniqueness of that density for every normal functional.
 The surrounding convention is the same general finite-tracial standard representation, with no factoriality assumption.
 
-[Yin_C_F0045](../claims/Yin_C_F0045_v1.md#yin_c_f0045) applies the norm identity and completeness to an explicit Cauchy sequence of L2 densities.
+[Yin_C_F0038](../claims/Yin_C_F0038_v1.md#yin_c_f0038) applies the norm identity and completeness to an explicit Cauchy sequence of L2 densities.
 Thus normality is obtained by constructing the L1 limit; it is not inferred from an unverified topology characterization.
 Only these established statements and their applicability were checked, without a new audit of the original Lp construction or theorem proofs.

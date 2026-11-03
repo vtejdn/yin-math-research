@@ -564,7 +564,8 @@ The final proof removes those requirements by extracting projections from any de
 Its adjoint test modules likewise have no right-invariance requirement or operator-norm estimates.
 This history does not alter the statement being proved.
 
-The [complete-artifact review record](../audits/reviews/Yin_R_F0018_v1.md) owns the inspected scope and independent assessment.
+The [original P1 review finding](../audits/reviews/Yin_R_F0018_v1.md#scope-and-independence) owns its P1 inspection scope and retains an unknown initial-context relationship.
+It does not review the P2 assembly selected by the [current assessment](#decision-finding-owned-review).
 The new architecture and strict example are mathematical deductions, not numerical experiments or proof-assistant verification.
 
 

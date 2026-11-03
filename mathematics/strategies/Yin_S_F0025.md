@@ -46,7 +46,7 @@ Existing external-proof limits and absence of a numerical implementation remain 
 
 - [Luc22 scalar convention](../audits/literature/Luc22/Yin_U001.md#luc22-kernel-removed-determinant) and [abelian matrix reduction](../audits/literature/Luc22/Yin_U002.md#luc22-abelian-matrix-approximation) give the single-Haar/Mahler identification and trace bookkeeping.
 - [Earlier single-Haar baseline](../ledger/Yin_L_G0002_v1.md#single-haar-formulation) retains a self-checked elementary weight identity and regularization baseline.
-  The [L4 finite-section work](../ledger/Yin_L_G0001_v1.md#degree-window-tests) retains existing Toeplitz limits and upper Schur residuals; no degree-uniform estimate is inherited.
+  The [L_G0001 finite-section work](../ledger/Yin_L_G0001_v1.md#degree-window-tests) retains existing Toeplitz limits and upper Schur residuals; no degree-uniform estimate is inherited.
 - [F0008 general formula](../claims/Yin_C_F0126_v1.md#statement), [its attainment result](../claims/Yin_C_F0127_v1.md#yin_c_f0127) and [regularized proof](../claims/Yin_C_F0126_v1.md#regularized-minimum-used-in-the-proof) supply methodological comparisons, not a theorem for Haar inputs.
 
 Specify a proposed capacity's variables, coefficient construction, normalization, scaling and degeneration.
