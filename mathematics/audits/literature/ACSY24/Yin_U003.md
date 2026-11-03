@@ -78,9 +78,20 @@ The existing reconstruction supplies that argument without assuming affiliation 
 
 Lemma 3.6 obtains a unitary derivation with partial(U)=1 tensor 1 by twisting the unitary difference quotient d(U)=1 tensor U.
 Equation (1) justifies the twist and its vacuum adjoint.
-The general L3-density premise is attributed to reference [44], Proposition 8.7, **via ACSY24**.
-A bounded search of the author's publication page, DOI and exact-title sources did not yield the primary proposition; that external interface remains Questioned in this audit, rather than being declared independently checked.
-The related bounded-density assertion for unitary free Brownian motion uses the same uninspected source, Proposition 1.6.
+The initial inspection left the general L3-density and free-Brownian-density source interfaces unverified.
+The receiving applicability check now reuses the direct primary readings in [Voi99-U004](../Voi99/Yin_U004.md#unitary-derivation-and-fisher-information) and [Voi99-U002](../Voi99/Yin_U002.md#unitary-free-brownian-motion), without expanding that original dated inspection or any old R finding.
+For a unitary U with law p d lambda, p in L3 of normalized Haar measure, put h=d*(1 tensor 1)=-i(Hp)(U), using U004's corrected sign and Hilbert-transform convention.
+The represented core is the Laurent-polynomial algebra in U; the absolutely continuous law has infinite spectrum, so no nonzero Laurent-polynomial relation obstructs the derivation.
+For an additional unital star algebra B, the extension uses the stated freeness of B and the U algebra and the corresponding free-product core, as in Voi99 Proposition 8.4.
+On the outer Hilbert tensor bimodule define the unitary bimodule map W(a tensor b)=a tensor U*b.
+Then partial=W d has partial(U)=1 tensor 1 and partial(U*)=-U* tensor U*, so it is not the original d.
+Since W*(1 tensor 1)=1 tensor U belongs to the algebraic adjoint test core, equation (1) gives the actual vacuum
+\[
+ \partial^*(1\otimes1)=d^*(1\otimes U)=hU+U
+ =U\bigl(1-\mathrm i(Hp)(U)\bigr)\in L^2(M).
+\]
+The L2 assertion follows from the source's Hp in L2(p d lambda) and bounded multiplication by U; no reality hypothesis for partial is added.
+Voi99 Proposition 1.6 supplies bounded density, hence L3 density, for free unitary Brownian motion at strictly positive time; its point-mass law at time zero is excluded.
 
 The Haar case actually needed for Theorem 4.1 has a direct check.
 On Laurent polynomials,
@@ -89,7 +100,7 @@ On Laurent polynomials,
  \partial U^{-m}=-\sum_{j=1}^{m}U^{-j}\otimes U^{-(m+1-j)}.
 \]
 The vacuum functional is the coefficient of U in the polynomial, so partial*(1 tensor 1)=U.
-This proves the needed Haar premise without relying on the unavailable L3 theorem.
+This proves the needed Haar premise directly, separately from the general L3 source interface above.
 
 For Theorem 3.7 extend each derivation by zero on the freely adjoined M_n(C).
 For a reduced alternating centered word involving the new factor, the vacuum trace of its derivative vanishes: every differentiated summand has a centered new-factor word on at least one side.
@@ -107,7 +118,7 @@ When necessary interpret the vector as its E_11 corner compression.
 This proves the finite-d joint version simultaneously, not merely independent d=1 statements.
 Proposition 3.5 gives Delta=d n^2.
 
-Corollary 3.8 is consequently verified for Haar U, and conditionally for general L3-density U pending the exact external interface.
+Corollary 3.8 consequently has the required unitary-vacuum input for Haar U and for the stated general L3-density law, with the Laurent/free-product core and freeness hypotheses above retained.
 The finite-family compression conventions were checked against [NS06](../../../literature/pdf/NS06.pdf), Theorems 14.18 and 14.20, printed pp.234--235/PDF pp.251--252.
 The scalar cyclic-cumulant criterion identifies the amplified compressed Haar matrix as free from M_n(C).
 Vanishing mixed cumulants also applies to the joint compressed families; it does not assert that individual entries of a unitary matrix are mutually free.
@@ -175,6 +186,6 @@ This interface is outside the proofs of Theorems 1.1 and 1.2 and does not affect
 ### Scope of the conclusion
 
 The algebraic model and the normal-target matrix realization are audited with the explicit repairs above and accepted free-field/compression inputs.
-General L3-density retains its listed external uncertainty.
+The general L3-density receiving interface uses the explicit twist, actual adjoint vector and source/core hypotheses above; it does not identify the two derivations or assert an arbitrary-core extension.
 The full two-variable Atiyah conclusion has the independently checked local proof above, separately from the unavailable journal-corollary attribution and accepted analytic-foundation limits.
 The user's earlier no-normality question for Proposition 3.5 stays resolved; these source and inspection limits do not reinstate a normality premise in that proposition.

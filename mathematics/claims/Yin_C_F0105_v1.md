@@ -74,7 +74,6 @@ The input search proceeded from existing project proofs to local literature and 
 
 Primary searches included finite-rank rationality for reduced free products, Duchamp–Reutenauer free-product extensions, Hecke rational closures, and free-product Khintchine inequalities.
 No exact previously established permanence theorem for the stated arbitrary trace parameters was located in that bounded search; this is not a novelty or priority assertion.
-The inspected Ricard–Xu input should receive a source-registry entry through the root's normal intake process if this proof is adopted.
 
 ## 2. Alternating words and bounded end-deletion operators
 

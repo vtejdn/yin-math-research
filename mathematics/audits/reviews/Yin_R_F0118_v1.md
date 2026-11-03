@@ -151,7 +151,6 @@ The author's page inspection remains attributed to the author.
 This source-context limit is separate from the complete local proof checked above.
 
 No numerical experiment, formalization, manuscript build, external human review or literature-priority assessment was performed.
-Root owns Claim registration and shared-index integration.
 
 ## Actual review arrangement
 

@@ -80,7 +80,8 @@ No novelty or exhaustive literature claim follows.
 
 The selected primary [Ricard–Xu version arXiv:math/0505302v2](https://arxiv.org/pdf/math/0505302), 2016-02-27, 25 pages, was revisited at Section 1, PDF pp. 2–3, and the upper-bound proof of Theorem 2.5, PDF pp. 6–7.
 These passages give the general reduced free-product Hilbert representation and the decomposition into creation, annihilation and a single diagonal action; finite-dimensional commutativity is not a premise there.
-Publication metadata and the retained inspection boundary are in the [literature registry](../literature/readme.md) under RX06 and the [projection source table](Yin_C_F0105_v1.md#1-precise-statement-and-reuse-boundary).
+Publication metadata are in the [canonical bibliography](../literature/references.bib) under RX06.
+The [RX06 edition note](../audits/literature/RX06/readme.md#yin) identifies the selected original, and the [projection source table](Yin_C_F0105_v1.md#1-precise-statement-and-reuse-boundary) retains its inspected passages and limits.
 No new acquisition or whole-source audit is claimed.
 The exact scalar constant and complex coefficient identity needed here are proved directly below.
 

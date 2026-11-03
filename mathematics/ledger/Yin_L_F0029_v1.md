@@ -158,7 +158,7 @@ Values arbitrarily close to zero determinants can make this numerical comparison
 
 ## A Scalar Free-Convolution Variational Theorem
 
-The exact statement, conventions and inspection depth are owned by [BCG25-U001](../audits/literature/BCG25/Yin_U001.md#bcg25-u001); the BCG25 intake records the inspected v1 and author-order discrepancy.
+The exact statement, conventions and inspection depth are owned by [BCG25-U001](../audits/literature/BCG25/Yin_U001.md#bcg25-u001); its [edition note](../audits/literature/BCG25/readme.md#yin) identifies the inspected v1 and the title-page/arXiv author-order difference.
 The source minimizes a scalar free-convolution action only below the left support edge, on a domain restricted by both positivity of the logarithm's argument and (0<g<g_*).
 Its warning that unrestricted minimization can fail is directly relevant to the present branch-selection problem.
 
@@ -178,10 +178,9 @@ This search did not import a theorem from that paper or locate a global determin
 Its source and scope warrant a later focused spectral audit if a proposed variational formula needs a deformed circular benchmark.
 No full-paper absence claim is made from text search.
 
-A later lead was Oskari H. Ajanki, Laszlo Erdos and Torben Krueger, [*Quadratic vector equations on complex upper half-plane*](https://arxiv.org/abs/1506.05095), *Memoirs of the American Mathematical Society* 261 (2019), no.1261, arXiv v6 revised 2020-06-09.
-Its v6 HTML contents identify Section 11.5 on discretization and Appendix A.4 on variational bounds at purely imaginary spectral parameter.
-Follow-up browser access failed; a direct public HTML read completed but did not locate the intended section.
-No variational statement was accepted from this lead, and no PDF or HTML artifact was retained.
+The Ajanki--Erdos--Krueger lead is now located in the [identified arXiv v6](../audits/literature/AEK19qve/readme.md#yin).
+The [C_F0125 source comparison](../claims/Yin_C_F0125_v1.md#source-reuse-and-scope) distinguishes the scaling equation (11.8) from the purely imaginary, zero-drift minimization in Lemma 6.8 and (6.28), with its actual hypotheses.
+That narrower comparison supplies no accepted proof input for the ordered covariance formula and no general-real-drift or noncommuting-matrix extension.
 
 ## Consequences for the Research Plan
 

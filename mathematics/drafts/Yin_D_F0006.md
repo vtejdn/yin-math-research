@@ -139,7 +139,7 @@ A left estimate for one fixed delta alone does not imply the right estimate for 
 
 ## What a fixed positive-functional proof would require
 
-For a complex-linear \(T:P\to H\), consider the following stronger finite-family condition with one constant C:
+For a complex-linear \(T:P\to H\), consider the following stronger finite-family condition with one nonnegative constant C:
 \[
  \sum_{j=1}^n\|T(a_j)\|_2^2
  \le C\left\|T\left(\sum_{j=1}^n a_j^*a_j\right)\right\|_2
@@ -187,7 +187,12 @@ This proves (8) without invoking an uninspected infinite-dimensional separation 
 No normal phase positivity is assumed.
 
 This is a self-contained domination calculation for the present route, not a claim of novelty.
-Primary-source attribution for the abstract finite-family domination equivalence has not been checked and remains outstanding before any fixed reusable Claim publication.
+Its standard finite-convex minimax interface is [Simons, Theorem 2.4, printed p.634](../audits/literature/Sim03/readme.md#yin), checked in the author-hosted published text.
+That theorem states that for real convex functions f_1,...,f_n on a nonempty convex set A, some nonnegative weights summing to one satisfy inf_A max_j f_j=inf_A sum_j lambda_j f_j.
+For the present use, A is the radius-C ball in the real Hilbert space and f_j(g)=q_j-Re<g,h_j>.
+Condition (7), applied to sqrt(lambda_j)a_j, makes the infimum of every such weighted sum nonpositive; weak compactness of the ball and the finite-intersection property give one g for all constraints, using the [checked Hilbert-ball and FIP interfaces](../audits/literature/Keh25/Yin_U001.md#exact-accepted-interfaces).
+This identifies the abstract domination mechanism and its exact hypotheses, rather than attributing the specific algebraic formulas (7)--(8) verbatim to Simons.
+The direct finite-dimensional and least-norm argument above remains the self-contained proof used here; no new Claim or independently reviewed finding is created by this source comparison.
 The existing Mai15 and C_F0073 source interfaces are used only at the specific adjoint and power-growth steps identified above; they are not cited as sources of (7)--(8).
 
 The associated hermitian linear functional is

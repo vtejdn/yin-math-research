@@ -133,14 +133,8 @@ Nothing in(4) asserts a rational optimizer, exact numerical recovery by an SDP s
 Its dimension is precisely s+1.
 
 **Known-form attribution.**
-A bounded primary search after the local inventory identifies this as the established maximum-first-Gram-entry spectral factorization construction, not a new SDP theorem.
-The primary publisher record for Bogdan Dumitrescu, *Positive Trigonometric Polynomials and Signal Processing Applications*,2nd edition, chapter 2 (2017), confirms the Gram-matrix chapter and its spectral factorization content; indexed book text identifies Theorem 2.15 as the maximum q_00 rank-one/minimum-phase assertion.
-The publisher full-text endpoint returned a subscription preview, so that indexed theorem locator is currently an attribution lead rather than an accepted inspected original theorem.
-A second primary publisher record confirms J.W.McLean and H.J.Woerdeman, *Spectral Factorizations and Sums of Squares Representations via Semidefinite Programming*, SIAM J.Matrix Anal.Appl.23(3),646--655, DOI10.1137/S0895479800371177, with January2002 issue identity; its full PDF returned403.
-The author's Drexel full-text link was located but could not be fetched (web timeout/local DNS11001).
-No claim to have inspected either complete proof is made.
-The self-contained argument(1)--(7) proves the exact local scalar result independently of those unchecked theorem bodies.
-Further source-location verification is explicitly outstanding before final source organization.
+The established maximum-first-Gram-entry construction is identified with McLean--Woerdeman Proposition 2.3 and Algorithm 1 at the [responsible source comparison](../claims/Yin_C_F0174_v1.md#known-form-attribution), including the exact author-copy edition and inspection limits.
+That comparison distinguishes the rank-one maximizing construction from the local proof of the exact value and uniqueness in (1)--(7), and does not use the uninspected Dumitrescu book locator as a proof input.
 
 <a id="scalar-capacity-dual"></a>
 ## 3. Finite Toeplitz dual, exact equality and its attainment boundary

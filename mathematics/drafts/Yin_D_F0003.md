@@ -211,8 +211,12 @@ Polynomial density provides beta_n in C[h] tensor C[h] such that
 \]
 
 For each finite beta_n, C_F0139 supplies operators T_n and T_n* on all M with uniform bounds 4||v_n|| and 5||v_n|| from operator norm to H.
-The closed unit ball of B(M,H) is compact for pointwise weak convergence of the H values: identify B(M,H) with (M projective tensor H*)*, using reflexivity of H.
-Take a simultaneous subnet of the pairs (T_n|M,T_n*|M) converging pointwise weakly to maps (T,U).
+Use the checked [Keh25 product and weak Hilbert-ball interfaces](../audits/literature/Keh25/Yin_U001.md#exact-accepted-interfaces) directly for the bounded maps from M, with its operator norm, to H.
+For a fixed bound K, place each coordinate T(a) in the weakly compact closed H-ball of radius K||a||, indexed by every a in M.
+The product is compact, and the equations T(alpha a+beta b)=alpha T(a)+beta T(b) are weakly closed finite-coordinate conditions.
+Their closed intersection is exactly the set of complex-linear maps with ||T(a)||_2<=K||a|| for every a; no reflexivity of M or of a tensor product is assumed.
+Apply this construction to both bounds 4 sup_n||v_n|| and 5 sup_n||v_n|| and take the product of the two compact sets.
+It gives one simultaneous subnet of the pairs (T_n|M,T_n*|M) converging pointwise weakly to maps (T,U), without a sequential compactness or separability assumption.
 
 The uniform bounds pass to the limits.
 For a,q in M, pass to the limit in
@@ -231,7 +235,8 @@ Therefore B_h-Q_C(T), together with T and the generator-first negation, gives S(
 
 This is an existence construction through uniformly controlled maps, rather than a claim that beta defines a Hilbert-valued derivation on the original A_0.
 It can remain meaningful when beta is not in the coarse L2 space.
-A source check is still needed for the standard projective-dual compactness formulation before fixed use; the same compactness is obtained directly from Banach--Alaoglu and the scalar pairings.
+The compactness used here is precisely the source-checked product of weak Hilbert balls and its closed linearity constraints; the candidate requires no projective-tensor dual identification.
+The weighted-graph construction remains a working candidate at the scope stated above, distinct from the accepted target-core theorem below.
 
 ## Fixed target-core linear-coordinate theorem
 

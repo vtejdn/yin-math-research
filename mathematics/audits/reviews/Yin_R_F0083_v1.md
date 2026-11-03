@@ -58,7 +58,6 @@ If the intended deliverable were changed to a successful nondense criterion or t
 
 This assessment judges the goal contract against the reviewed mathematical results.
 It makes no state changes.
-Root should attach the appropriate proof reviews and this contract comparison before changing the goal state, while preserving the remaining questions at their responsible strategy or broader goal records.
 
 Once the original goal's written acceptance conditions are met, the existence of stronger open questions does not automatically expand that goal.
 Conversely, a run ending for usage would not meet a missing proof or independent-review condition.

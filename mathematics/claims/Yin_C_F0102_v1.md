@@ -249,7 +249,7 @@ Finite rational approximants do not resolve that domain question merely because 
 
 Current outcome: the conditional criterion (2) is proved by explicit adaptation of the reviewed local argument, and the universal representation-continuity shortcut is refuted by (6)–(9).
 The automatic derivation of (2), or an intrinsic alternative for the canonical analytic kernel, remains open in this record.
-Independent review of these new deductions has not yet been performed; no Claim assessment or goal completion is requested here.
+At the original candidate stage, these deductions awaited independent review.
 
 
 ## Assessment history

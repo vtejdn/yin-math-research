@@ -120,15 +120,16 @@ The maximum matrix itself need not share the original coefficient field (spectra
 Nothing in(4) asserts a rational optimizer, exact numerical recovery by an SDP solver, or a size bound independent of the coefficient support.
 Its dimension is precisely s+1.
 
+<a id="known-form-attribution"></a>
 **Known-form attribution.**
-A bounded primary search after the local inventory identifies this as the established maximum-first-Gram-entry spectral factorization construction, not a new SDP theorem.
-The primary publisher record for Bogdan Dumitrescu, *Positive Trigonometric Polynomials and Signal Processing Applications*,2nd edition, chapter 2 (2017), confirms the Gram-matrix chapter and its spectral factorization content; indexed book text identifies Theorem 2.15 as the maximum q_00 rank-one/minimum-phase assertion.
-The publisher full-text endpoint returned a subscription preview, so that indexed theorem locator is currently an attribution lead rather than an accepted inspected original theorem.
-A second primary publisher record confirms J.W.McLean and H.J.Woerdeman, *Spectral Factorizations and Sums of Squares Representations via Semidefinite Programming*, SIAM J.Matrix Anal.Appl.23(3),646--655, DOI10.1137/S0895479800371177, with January2002 issue identity; its full PDF returned403.
-The author's Drexel full-text link was located but could not be fetched (web timeout/local DNS11001).
-No claim to have inspected either complete proof is made.
-The self-contained argument(1)--(7) proves the exact local scalar result independently of those unchecked theorem bodies.
-Further source-location verification is explicitly outstanding before final source organization.
+This is the established maximum-first-Gram-entry spectral factorization construction, not a new SDP theorem.
+The exact original result is McLean--Woerdeman, Proposition 2.3 and the following Algorithm 1, in the [identified author-uploaded preprint](../audits/literature/MW02/readme.md#yin) of *Spectral Factorizations and Sums of Squares Representations via Semidefinite Programming*.
+For one-variable Hermitian matrix Laurent data Q_k, the proposition considers the nonempty set of PSD block Gram matrices F whose diagonal sums give those coefficients.
+Maximizing Tr F_00 gives rank F=rank F_00<=rank Q_0; Algorithm 1 uses that maximizer to recover a spectral factor.
+For nonzero scalar data this gives precisely a rank-one Gram maximizer of the first entry, with the coefficient-conjugation convention in (5) retained.
+The statement, hypotheses, named locator and following algorithm were checked in the author's public full-text view, not by relying only on the publisher abstract; the original complete proof and identity with the final journal typesetting were not audited.
+The local argument (1)--(7) remains the self-contained proof of the exact value and uniqueness, rather than importing an unstated uniqueness conclusion from Proposition 2.3.
+The second-edition Dumitrescu Theorem 2.15 remains an uninspected book locator behind a subscription preview; it is not needed as an additional proof or attribution input for this identified construction.
 
 <a id="scalar-capacity-dual"></a>
 ## 3. Finite Toeplitz dual, exact equality and its attainment boundary

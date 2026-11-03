@@ -27,10 +27,14 @@ The direct inputs are the operator-valued semicircular Dyson equation and determ
 The latter includes bounded determinant multiplicativity when a factor is singular, through its [FK52 dependency audit](../ledger/Yin_L_F0036_v1.md).
 The new finite-dimensional argument is written below rather than assumed from stationarity.
 
-A search of the local literature audits for variance profiles and quadratic vector equations found no matching variational input.
-External primary-source search identified Ajanki, Erdos and Kruger, [Quadratic vector equations on complex upper half-plane](https://arxiv.org/abs/1506.05095), as a relevant attribution lead.
-A search result points to a variational formulation numbered (11.8) in the monograph, but the primary PDF/HTML could not be fetched in this pass.
-That lead is not an accepted proof dependency or a verified identification of the formula below.
+Ajanki, Erdos and Kruger, [Quadratic vector equations on complex upper half-plane](../audits/literature/AEK19qve/readme.md#yin), were checked in arXiv:1506.05095v6, dated 9 June 2020, at printed pp.6--7, 50--51, 111--112 and 122--124 (PDF pp.9--10, 53--54, 114--115 and 125--127).
+Equation (11.8), in Section 11.3, is the zero-parameter scaling equation \(v_x(Sv)_x=1\), rather than the ordered variational formula below.
+The relevant actual minimization is Lemma 6.8 and (6.28), in the zero-drift setting of Section 6.2: for \(\eta>0\), \(\operatorname{Im}m(\mathrm i\eta)\) is the unique minimizer of \(J_\eta(w)=\langle w,Sw\rangle-2\langle\log w\rangle+2\eta\langle w\rangle\) over almost-everywhere positive \(w\in L^1(X,\pi)\).
+Here \(\pi\) is a probability measure; S is nonzero and bounded, A1 requires symmetry and positivity preservation, and A2 requires a symmetric nonnegative measurable kernel defining a bounded map from L2 to bounded functions.
+The source normalizes the bounded-function operator norm of S to one by scaling, as in Remark 2.2.
+This is a centered, purely imaginary-parameter comparison, with no arbitrary real diagonal drift or noncommuting matrix extension asserted by that lemma.
+The statement, notation and applicability were checked, not the complete original proof in Appendix A.4.
+Neither this comparison nor the earlier (11.8) lead is an accepted proof dependency or a source of the ordered covariance theorem below.
 Their [matrix Dyson paper](https://link.springer.com/article/10.1007/s00440-018-0835-z) discusses the diagonal variance-profile reduction, which is background rather than an imported extremum theorem.
 No novelty claim is made.
 

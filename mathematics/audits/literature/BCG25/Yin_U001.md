@@ -8,7 +8,7 @@ author: Yin
 
 [Source and edition notes](readme.md).
 
-Source edition: Exact artifact: arXiv:2506.19064v1, 25 pages; title-page and arXiv author-order discrepancy recorded in the sole bibliographic.
+Source edition: arXiv:2506.19064v1, 25 pages; the title-page and arXiv author orders are distinguished in the [edition note](readme.md#yin).
 
 Passages: Inspected locators: Theorem 1.1 and equations (1.12)-(1.15), printed/PDF pp.2-3; equation (1.6), p.1; Section 1.8.1, p.6; Lemmas 4.1-4.2 and the surrounding discussion, pp.17-18.
 
@@ -20,7 +20,7 @@ Inspection: Coverage state: Read, with the selected derivative computation check
 
 Recorded 2026-09-13 after primary-source access on 2026-09-12.
 Reader: research agent the affine-source reader.
-Exact artifact: arXiv:2506.19064v1, 25 pages; title-page and arXiv author-order discrepancy recorded in the sole bibliographic.
+Exact artifact: arXiv:2506.19064v1, 25 pages; the [edition note](readme.md#yin) distinguishes the title-page and arXiv author orders.
 Coverage state: Read, with the selected derivative computation checked.
 The following exterior theorem is accepted as a source comparison; its original full proof was not audited.
 It is not a proof premise of Yin_C_F0119-Yin_C_F0123 or the new [general matrix argument](../../../claims/Yin_C_F0124_v1.md).

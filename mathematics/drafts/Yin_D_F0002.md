@@ -11,7 +11,8 @@ The root agent owns its single execution document; this branch creates no separa
 
 The [condition-A literature comparison](../ledger/Yin_L_F0051_v1.md) records the exact general/selfadjoint source boundaries, selected domain and Stein interfaces and concrete model literature.
 The [Voi99-U004 unitary-adjoint account](../audits/literature/Voi99/Yin_U004.md#unitary-derivation-and-fisher-information) supplies the L3-density interface and its adjoint-vector sign correction for \(d(U)=1\otimes U\).
-The general L3 application to the twisted derivation \(\partial(U)=1\otimes1\) retains the conditional receiving scope of [ACSY24-U003](../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression); adopting that application requires matching the twist, actual vacuum-adjoint domain and hypotheses, rather than identifying the two derivations.
+The [ACSY24-U003 receiving check](../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression) explicitly matches the general L3 application to the twisted derivation \(\partial(U)=1\otimes1\), with actual vacuum \(U(1-\mathrm i(Hp)(U))\), the Laurent/free-product core and the required freeness hypotheses.
+That checked source interface does not identify partial with d or supply the unresolved arbitrary-normal-tuple estimate below.
 The [full Mai15 and MSW17 audit comparison](../ledger/Yin_L_F0053_v2.md) records the source corrections and the exact real-coassociative estimate that motivates the final power-iteration section below.
 
 Let \(X\) be arbitrary correlated bounded normal generators of a finite tracial \(M\), let \(A=\mathbb C\langle X,X^*\rangle\), and assume the complete actual-vacuum derivation condition \(\mathsf A(X)\).

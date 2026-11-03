@@ -86,7 +86,8 @@ Those findings and the [completion/interface comparison](../audits/reviews/Yin_R
 This synthesis records their relationship, preserves the earlier full proofs and attempts, and distinguishes proposal provenance from logical dependence.
 No existing proof is replaced, lemma extracted, or theorem Role assigned.
 The [independent contract comparison](../audits/reviews/Yin_R_F0126_v1.md) checks the original three milestones, Yin_C_F0121 generalization and the user's added independent-exploration direction.
-Goal completion belongs to [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#completion-and-evidence); route dispositions belong to the [strategy index](../strategies/index.md).
+Goal completion belongs to [Yin_T_F0008](../tasks/Yin_T_F0008_v1.md#completion-and-evidence).
+Route dispositions belong to the responsible S materials; the [strategy index](../strategies/index.md#yin_t_f0008) supplies navigation.
 
 An unrestricted version of the unsuccessful U/V minimax, convergence rates, efficient certified optimization, Brown-support equality and literature priority remain separate possible questions.
 They are not claimed consequences of the present results.
@@ -95,7 +96,7 @@ Local source inspection and selected external searches are recorded in the [sour
 ## Historical Frontier, 2026-09-12
 
 The following sections describe the initial offline checkpoint before Yin_C_F0124.
-Their open-problem descriptions and route priorities are historical; current dispositions belong to the strategy index.
+Their open-problem descriptions and route priorities are historical; current dispositions belong to the [positive-cone](../strategies/Yin_S_F0020.md#route), [ordered-minimax](../strategies/Yin_S_F0021.md#route) and [signed-Schur](../strategies/Yin_S_F0022.md#route) strategies.
 
 ## Established Mechanisms to Combine
 
