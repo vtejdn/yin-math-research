@@ -1,6 +1,6 @@
 # YMR: Yin's Math Research
 
-To human authors: the [user manual](user-manual/user-manual.md) ([用户手册](user-manual/用户手册.md), [Manuel d’utilisation](<user-manual/Manuel d’utilisation.md>), [Benutzerhandbuch](user-manual/Benutzerhandbuch.md), [ユーザーマニュアル](user-manual/ユーザーマニュアル.md) or [Manual de usuario](<user-manual/Manual de usuario.md>)) is all you need.
+To human readers: [Publication page](user-manual/publication.md) is all you need to read.
 
 This mathematical research repository uses ACME, Autonomous and Collaborative Mathematical Exploration.
 This entrance orients agents working in the existing checkout under the actual human instruction.
