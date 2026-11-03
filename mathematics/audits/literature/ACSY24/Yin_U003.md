@@ -171,7 +171,7 @@ Common-denominator Theorem 4.1 proves the least-common-multiple denominator in C
 Theorem 4.7 asserts the Atiyah property for two free bounded selfadjoint variables whenever every marginal atomic mass belongs to the chosen additive subgroup Gamma containing Z, including irrational atomic masses.
 Its proof invokes published BBL21 Corollary 3.3 for a generally nonselfadjoint linearized matrix.
 The inspected [BBL21 preprint v2](../../../literature/pdf/BBL21--arxiv-v2.pdf) has Remark 3.3 instead; its relevant Corollary 4.3 requires a selfadjoint pencil and an invertible matrix-valued expectation of the kernel projection.
-The final journal mathematical text remains unavailable, so this difference does not establish a misnumbered published citation or a refutation of the theorem.
+The current local interface uses that arXiv v2 under [Yin's source selection](../BBL21/readme.md#yin-edition); the uninspected journal text is not identified with v2, and the numbering difference establishes neither a misnumbered published citation nor a refutation of the theorem.
 The source's stated compression/doubling conclusion by itself only controls twice the nullity, which does not permit division by two in arbitrary Gamma.
 [BBL21-U001](../BBL21/Yin_U001.md#bbl21-u001) retains the precise source identities, hypotheses and actual inspection limits.
 
@@ -187,5 +187,5 @@ This interface is outside the proofs of Theorems 1.1 and 1.2 and does not affect
 
 The algebraic model and the normal-target matrix realization are audited with the explicit repairs above and accepted free-field/compression inputs.
 The general L3-density receiving interface uses the explicit twist, actual adjoint vector and source/core hypotheses above; it does not identify the two derivations or assert an arbitrary-core extension.
-The full two-variable Atiyah conclusion has the independently checked local proof above, separately from the unavailable journal-corollary attribution and accepted analytic-foundation limits.
+The full two-variable Atiyah conclusion has the independently checked local proof above with the selected v2 inputs and accepted analytic-foundation limits; final-journal-corollary identification is outside this use.
 The user's earlier no-normality question for Proposition 3.5 stays resolved; these source and inspection limits do not reinstate a normality premise in that proposition.
