@@ -44,8 +44,7 @@ A counterexample must specify fixed \(d,P,\varphi\), a tolerance \(\eta>0\) and 
 Completion requires review of the proof or counterexample against this exact contract.
 
 ## Current decision
-
-[Selected decision](#decision-initial)
+[Selected decision](#decision-full-polynomial-proof)
 
 ## Lifecycle and completion
 
@@ -61,3 +60,19 @@ Completion requires review of the proof or counterexample against this exact con
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Contract](#contract) | The unperturbed GUE model, weak convergence in probability on the plane and the stated proof or counterexample criteria. |
+
+### Decision full-polynomial-proof
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-04T17:35 |
+| status | completed |
+| authority | Yin authorized continued research along F0028 and parallel investigation of the matrix-coefficient determinant formulas; the existing exact contract permits completion by a full proof with review. |
+| reason | C_F0186 proves the assertion for every fixed scalar polynomial in the stated unperturbed GUE ensemble. R_F0190 independently reviews the entire argument and its exact applicability to this contract, finding no unresolved substantive gap. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [Original contract](#contract) | Every fixed scalar polynomial, including nonnormal evaluations, with weak convergence in probability against every bounded continuous real test function. |
+| support | [General result](../claims/Yin_C_F0186_v1.md#statement) | The complete general monic-pencil bound and scalar-polynomial Brown-measure conclusion. |
+| support | [Complete proof](../claims/Yin_C_F0186_v1.md#argument) | The local geometric estimate, exact linearization and logarithmic-potential passage establishing this contract. |
+| review | [Independent whole-chain finding](../audits/reviews/Yin_R_F0190_v1.md#whole-chain-finding) | Explicitly binds this contract and both selected supports, including external-source applicability and the stated inspection limits. |

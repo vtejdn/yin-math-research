@@ -105,6 +105,16 @@ Each Task entrance includes only that route's explicit Task associations.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Yin_S_F0026](Yin_S_F0026.md) | From ACSY vacua to full bounded-vector duals | Yin | active | Follow the authorized paired-quadratic route for A plus normality, with a*a on the left and aa* on the right. The remaining normal scope is arbitrary correlated coordinates. The general A-to-F comparison remains unresolved. | [Yin_T_F0011_v1: Full-domain duals and ACSY conjugate variables: rationality and maximal Delta](../tasks/Yin_T_F0011_v1.md#contract) | Compare the normal analytic hypotheses S and A, and the general maximal-Delta hypotheses F and A, including actual canonical domains and existential quantifiers. | Root |
 
+<a id="task-yin_t_f0012"></a>
+## Yin_T_F0012
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_F0027](Yin_S_F0027.md) | Conditional Gaussian anti-concentration after diagonalizing one GUE input | Yin | superseded | The subclass convergence deliverable is absorbed by the completed general route S_F0030; the direct conditional mechanism remains retained as development evidence. | [Yin_T_F0012_v1: Brown measure convergence for general polynomials in independent GUE matrices](../tasks/Yin_T_F0012_v1.md#contract) | A concrete nonnormal subclass of the unperturbed GUE problem; success is partial progress, not completion of the all-polynomial contract. | Root |
+| [Yin_S_F0028](Yin_S_F0028.md) | Normalized Schur-complement anti-concentration for GUE linearizations | Yin | superseded | Its general monic-pencil deliverable is achieved by successor S_F0030 using finite-dimensional geometric repair; the universal conditional Schur estimate remains unproved. | [Yin_T_F0012_v1: Brown measure convergence for general polynomials in independent GUE matrices](../tasks/Yin_T_F0012_v1.md#contract) | The full fixed-degree scalar-polynomial class through a least-singular-value estimate for its GUE linearizations. | Root |
+| [Yin_S_F0029](Yin_S_F0029.md) | Planar logarithmic defects through structured GUE smoothing | Yin | superseded | The F0012 convergence obligation is absorbed by completed route S_F0030; structured-refresh overlap estimates remain unproved and are no longer required for this Task. | [Yin_T_F0012_v1: Brown measure convergence for general polynomials in independent GUE matrices](../tasks/Yin_T_F0012_v1.md#contract) | An alternative full-class sufficient condition based on planar logarithmic tails rather than a pointwise minimum singular value. | Root |
+| [Yin_S_F0030](Yin_S_F0030.md) | Finite witness compression and real algebraic Gaussian tubes | Yin | completed | The general monic-pencil estimate and exact F0012 application are proved and adopted with independent whole-chain review. | [Yin_T_F0012_v1: Brown measure convergence for general polynomials in independent GUE matrices](../tasks/Yin_T_F0012_v1.md#contract) | All fixed scalar polynomials in independent normalized GUE matrices, including nonnormal evaluations. | Root |
+
 ## Feedback and Derived Routes
 
 These are the contributor's stated relationships and scopes.

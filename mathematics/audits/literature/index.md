@@ -204,3 +204,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Tho08 source notes](Tho08/readme.md) | Tho08: derivation extensions and the closability topology |
 | [Yan24 source notes](Yan24/readme.md) | Yan24: Twisted Araki--Woods conjugate systems |
 | [Zho26 source notes](Zho26/readme.md) | Zho26: circular-addition density formulas |
+| [CGP22 source notes](CGP22/readme.md) | Quantitative GUE resolvent comparison, inspected preprint edition |
+| [KSS16 source notes](KSS16/readme.md) | Real polynomial distance inequalities and the correction boundary |
+| [Lot15 source notes](Lot15/readme.md) | Degree-controlled algebraic tube theorem, inspected preprint edition |
+| [Kar26 source notes](Kar26/readme.md) | Shifted determinant variational formulas and the finite-random-matrix boundary |
