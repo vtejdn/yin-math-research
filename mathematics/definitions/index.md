@@ -11,6 +11,7 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 ### Probability spaces and free-probability models
 
 Exact definition homes and conventions: NS06: [probability space and operator terminology](../audits/literature/NS06/Yin_U002.md#probability-space), [free independence](../audits/literature/NS06/Yin_U002.md#free-independence), [Haar unitary](../audits/literature/NS06/Yin_U002.md#haar-unitary), [semicircular normalization](../audits/literature/NS06/Yin_U002.md#semicircular), and [R-diagonal cumulants](../audits/literature/NS06/Yin_U002.md#r-diagonal).
+Han26's [normalized complex Ginibre matrix](../audits/literature/Han26/Yin_U001.md#statements) and the [GUE-pair realization](../audits/literature/Han26/Yin_U001.md#gue-boundary) specify the variances used in the [F0012 question](../tasks/Yin_T_F0012_v1.md#contract).
 
 Recorded consumer navigation: Statement/proof uses of the specified models: [Yin_C_F0017](../ledger/Yin_L_F0004_v1.md#yin_c_f0017-definitions), [Yin_C_F0019](../ledger/Yin_L_F0004_v1.md#yin_c_f0019-definitions).
 
@@ -20,6 +21,10 @@ Exact definition home and convention: [BZ22's bounded finite-tracial logarithmic
 
 Recorded consumer navigation: Brown measure in [Yin_C_F0094's product-spectrum statement](../claims/Yin_C_F0094_v1.md#statement) and [proof version 2's normal-source density argument](../claims/Yin_C_F0094_v1.md#yin_c_f0094-density-repair).
 The same normalization is used by the [affine spectral-potential argument](../claims/Yin_C_F0123_v1.md#brown-measure-and-the-local-source-boundary); its [MS17 source interface](../audits/literature/MS17/Yin_U001.md#ms17-u001) supplies the separately inspected regularization and weak-limit conventions.
+
+### Active images and regular profiles
+
+Han26 defines the [active image, near-intersection and regular profile](../audits/literature/Han26/Yin_U001.md#active-image) for the [punctured column operator](../audits/literature/Han26/Yin_U001.md#dual-operator) in the least-singular-value proof.
 
 <a id="r-diagonal-additive-free-infinite-divisibility"></a>
 ### Additive free infinite divisibility for R-diagonal elements

@@ -31,7 +31,7 @@ For \(P=P^*\), convergence of normalized trace moments gives the known self-adjo
 
 Pairing independent GUE matrices as \(G_j=(H_{2j-1}^{(N)}+iH_{2j}^{(N)})/\sqrt{2}\) gives independent complex Ginibre matrices.
 [Han26, arXiv v1, Theorem 1.2](https://arxiv.org/html/2606.01664v1#S1) proves weak convergence in probability for polynomials in the \(G_j\) alone, with free circular variables in the limit.
-Expressing an arbitrary \(P\) in these coordinates generally introduces \(G_j^*\), the extension identified in Han26, Question 1.8.
+Expressing an arbitrary \(P\) in these coordinates generally introduces \(G_j^*\), the extension identified in [Han26, Question 1.8](../audits/literature/Han26/Yin_U001.md#gue-boundary).
 
 For almost every \(z\in\mathbb C\), the logarithmic potential of \(\mu_N\) is \(N^{-1}\sum_{j=1}^N\log\sigma_j(A_N-zI_N)\), where \(\sigma_j\) are the singular values.
 An argument by hermitization must control the logarithmic contribution of small singular values when removing the regularizer after \(N\to\infty\).
