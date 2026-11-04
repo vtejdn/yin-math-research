@@ -1,0 +1,78 @@
+\section{Distance to singular pencils}\label{sec:distance}
+
+\begin{proposition}\label{prop:distance}
+Fix $R_1,\ldots,R_d\in M_m(\mathbb C)$ and $M>0$.
+For a tuple $H=(H_1,\ldots,H_d)$ of Hermitian $N\times N$ matrices, use the pencil $T_N(H)$ from \eqref{eq:pencil}.
+There exist $C,\alpha,\varepsilon_0>0$ such that, for every $N$ and every such $H$ with $\max_j\|H_j\|\le M$, the following holds.
+If $s_{\min}(T_N(H))\le\varepsilon\le\varepsilon_0$ with $\varepsilon>0$, there are Hermitian $N\times N$ matrices $\Delta H_1,\ldots,\Delta H_d$ such that $T_N(H+\Delta H)$ is singular and
+\begin{equation}\label{eq:perturbation-bound}
+ \left(\sum_{j=1}^d\|\Delta H_j\|_{\mathrm{HS}}^2\right)^{1/2}
+ \le C\varepsilon^\alpha.
+\end{equation}
+Here $\|X\|_{\mathrm{HS}}:=(\Tr(X^*X))^{1/2}$ is the Hilbert--Schmidt norm, with the unnormalized trace on the appropriate matrix size.
+\end{proposition}
+
+\begin{proof}
+Choose a unit vector $v=(v_1,\ldots,v_m)\in\mathbb C^m\otimes\mathbb C^N$ with $\|T_N(H)v\|\le\varepsilon$.
+Let $W:=\operatorname{span}\{v_1,\ldots,v_m\}$, and let $W_1:=\sum_{j=1}^d P_{W^\perp}H_jW$, where $P_{W^\perp}$ is the orthogonal projection onto $W^\perp$.
+Writing $k:=\dim W$ and $\ell:=\dim W_1$, we have $1\le k\le m$ and $0\le\ell\le dk$.
+Choose isometries $U:\mathbb C^k\to\mathbb C^N$ and $V:\mathbb C^\ell\to\mathbb C^N$ onto $W$ and $W_1$, respectively, with $\mathbb C^0=\{0\}$.
+For each $j$ put $A_j:=U^*H_jU$ and $B_j:=V^*H_jU$, so that $A_j$ is Hermitian and $B_j\in M_{\ell,k}(\mathbb C)$.
+By the definition of $W_1$,
+\begin{equation}\label{eq:columns-in-span}
+ H_jU=UA_j+VB_j.
+\end{equation}
+Write $w:=(U^*v_1,\ldots,U^*v_m)\in\mathbb C^m\otimes\mathbb C^k$.
+The two coordinate vectors of $T_N(H)v$ in the orthogonal summands $\mathbb C^m\otimes W$ and $\mathbb C^m\otimes W_1$ are
+\begin{equation}\label{eq:compressed-residual}
+ w+\sum_{j=1}^d(R_j\otimes A_j)w
+ \quad\text{and}\quad
+ \sum_{j=1}^d(R_j\otimes B_j)w.
+\end{equation}
+Equation~\eqref{eq:columns-in-span} gives no component outside these summands, so the sum of the squared norms in \eqref{eq:compressed-residual} is $\|T_N(H)v\|^2$.
+
+Use Hilbert--Schmidt orthonormal real coordinates for each $A_j$, and split the entries of each $B_j$ and of $w$ into real and imaginary parts.
+For each $(k,\ell)$ in the indicated ranges, these choices give $p_{k,\ell}:=dk^2+2d\ell k+2mk$ real coordinates for $x:=(A,B,w)$.
+Let $F_{k,\ell}:\mathbb R^{p_{k,\ell}}\to\mathbb R^{2m(k+\ell)+1}$ be the polynomial map whose coordinates are the real and imaginary parts of \eqref{eq:compressed-residual} and the scalar $\|w\|^2-1$.
+The map is quadratic and depends only on the coefficients $R_j$ and the pair $(k,\ell)$.
+Since $\|w\|=1$ and $\|A_j\|_{\mathrm{HS}},\|B_j\|_{\mathrm{HS}}\le\sqrt{k}M$, the Euclidean norms of $x$ and its image satisfy
+\begin{equation}\label{eq:compressed-input-bounds}
+ |x|^2\le 2dkM^2+1,
+ \qquad
+ |F_{k,\ell}(x)|\le\varepsilon.
+\end{equation}
+
+The real polynomial distance inequality of Kurdyka and Spodzieja, as stated in \cite[p.~2, \textup{(KS2)}]{KSS16}, gives the following bound for a polynomial map $F:\mathbb R^p\to\mathbb R^q$ of degree $D\ge1$ with a nonempty zero set.
+For some $c_F>0$ and every $y\in\mathbb R^p$,
+\[
+ |F(y)|\ge c_F
+ \left(\frac{\operatorname{dist}(y,F^{-1}(0))}{1+|y|^2}\right)^{D(6D-3)^{p-1}}.
+\]
+When $F_{k,\ell}$ has a zero, its zero set is closed, so the distance from $x$ is attained at some $x':=(A',B',w')$.
+Using $D=2$ and \eqref{eq:compressed-input-bounds} gives
+\begin{equation}\label{eq:compressed-repair}
+ |x'-x|\le C_{k,\ell}\varepsilon^{\alpha_{k,\ell}},
+ \qquad
+ \alpha_{k,\ell}:=(2\cdot 9^{p_{k,\ell}-1})^{-1},
+\end{equation}
+where $C_{k,\ell}$ depends only on the map and $M$.
+If the zero set is empty, then $|F_{k,\ell}|$ has a positive minimum on the closed ball $|x|^2\le 2dkM^2+1$.
+There are only finitely many pairs $(k,\ell)$, so we can choose $\varepsilon_0\le1$ below these positive minima, and choose a common exponent $\alpha>0$ and a constant $C_1$ in \eqref{eq:compressed-repair}.
+
+With the original $U$ and $V$, define
+\[
+ \Delta H_j:=U(A'_j-A_j)U^*+V(B'_j-B_j)U^*+U(B'_j-B_j)^*V^*.
+\]
+This matrix is Hermitian and satisfies $(H_j+\Delta H_j)U=UA'_j+VB'_j$ by \eqref{eq:columns-in-span} and $V^*U=0$.
+The coordinates of $T_N(H+\Delta H)(I_m\otimes U)w'$ are therefore the expressions in \eqref{eq:compressed-residual} with $A_j,B_j,w$ replaced by $A'_j,B'_j,w'$.
+Both expressions vanish because $F_{k,\ell}(x')=0$, and its normalization coordinate gives $\|(I_m\otimes U)w'\|=1$.
+This produces a kernel vector even if its components span a proper subspace of $W$.
+The three blocks in $\Delta H_j$ are pairwise Hilbert--Schmidt orthogonal, so
+\[
+ \sum_{j=1}^d\|\Delta H_j\|_{\mathrm{HS}}^2
+ =\sum_{j=1}^d\big(\|A'_j-A_j\|_{\mathrm{HS}}^2
+                  +2\|B'_j-B_j\|_{\mathrm{HS}}^2\big)
+ \le 2|x'-x|^2.
+\]
+This proves \eqref{eq:perturbation-bound} with $C=\sqrt{2}C_1$.
+\end{proof}

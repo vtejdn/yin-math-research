@@ -1,0 +1,89 @@
+\section{Gaussian tubes and the least singular value}
+\label{sec:gaussian-tubes}
+
+Proposition~\ref{prop:distance} reduces the small singular value event to proximity to a real polynomial zero set.
+We first bound the Gaussian measure of the points within a given distance of such a set.
+
+\begin{lemma}
+\label{lem:gaussian-tube}
+Let \(q\) be a nonzero, nonnegative real polynomial on \(\mathbb R^n\) of degree at most \(D\), where \(D\ge 1\), and suppose \(Z:=q^{-1}(0)\) is nonempty.
+If \(g\) is a standard Gaussian vector in \(\mathbb R^n\), then for every \(\rho>0\),
+\[
+  \mathbb P\bigl\{\operatorname{dist}(g,Z)\le \rho\bigr\}
+  \le C D\sqrt n\,\rho\,
+      \exp\bigl(C(D+1)\sqrt n\,\rho\bigr)+e^{-cn}
+\]
+for universal constants \(C,c>0\).
+\end{lemma}
+
+\begin{proof}
+Let \(X\) be uniform in the ball of radius \(\sigma>0\) centered at the origin in \(\mathbb R^n\).
+For a smooth hypersurface \(Y\) given by a regular level of a polynomial of degree at most \(D\), the codimension-one case of Lotz's tube estimate \cite[Theorem~1.1]{Lot15} gives
+\[
+  \mathbb P\bigl\{\operatorname{dist}(X,Y)\le\rho\bigr\}
+  \le 4\sum_{r=1}^n \binom nr
+       (2D\rho/\sigma)^r(1+\rho/\sigma)^{n-r}.
+\]
+Set \(u:=\rho/\sigma\), so the right side is \(4((1+(2D+1)u)^n-(1+u)^n)\).
+By the mean value theorem, this expression is bounded by
+\begin{equation}
+  \frac{8nD\rho}{\sigma}\exp\!\left(\frac{n(2D+1)\rho}{\sigma}\right).
+  \label{eq:uniform-tube}
+\end{equation}
+
+To apply this bound to \(Z\), fix \(\eta>0\) and consider the zeros of \(q\) in the closed ball of radius \(\sigma+\rho\).
+Since \(Z\) is closed, every point of the tube in the ball of radius \(\sigma\) has a nearest zero in this larger ball.
+If there are no such zeros, the tube event in the ball of radius \(\sigma\) is empty.
+Otherwise, near each such zero \(y\) there is a point \(p_y\) with \(|p_y-y|<\eta/2\) and \(q(p_y)>0\), since a nonzero nonnegative polynomial cannot vanish on an open ball.
+By compactness, finitely many open balls of radius \(\eta/2\) centered at these zeros cover the relevant zero set.
+Choose a positive regular value \(\delta\) of \(q\) less than all the values \(q(p_y)\) for the chosen centers, using Sard's theorem.
+For each relevant zero \(y'\), the segment from \(y'\) to the positive point associated with a covering ball lies within distance \(\eta\) of \(y'\) and meets \(q^{-1}(\delta)\).
+Every point in the ball of radius \(\sigma\) within distance \(\rho\) of \(Z\) is therefore within distance \(\rho+\eta\) of \(q^{-1}(\delta)\).
+The latter is a smooth hypersurface defined by a polynomial of degree at most \(D\).
+Applying \eqref{eq:uniform-tube} with \(\rho+\eta\) and letting \(\eta\) decrease to zero gives \eqref{eq:uniform-tube} for \(Z\).
+
+For the Gaussian estimate, first sample \(S>0\) with the chi distribution with \(n+2\) degrees of freedom and then sample a point uniformly in the ball of radius \(S\).
+With \(\omega_n\) the volume of the unit ball in \(\mathbb R^n\), the resulting density at \(x\in\mathbb R^n\) is
+\[
+  \int_{|x|}^\infty
+    \frac{1}{\omega_n s^n}
+    \frac{s^{n+1}e^{-s^2/2}}{2^{n/2}\Gamma(n/2+1)}\,ds
+  = (2\pi)^{-n/2}e^{-|x|^2/2}.
+\]
+Since \(S^2\) is the sum of \(n+2\) independent squared standard normal variables, the exponential Markov bound gives
+\(\mathbb P\{S<\sqrt n/2\}\le e^{n/8}2^{-(n+2)/2}\le e^{-cn}\) for a universal \(c>0\).
+On \(S\ge\sqrt n/2\), the bound \eqref{eq:uniform-tube} for \(Z\) has prefactor at most \(16D\sqrt n\,\rho\) and exponent at most \(2(2D+1)\sqrt n\,\rho\).
+Together these estimates give the claim.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:pencil}]
+Write each component of \(H^{(N)}\) in a real Hilbert--Schmidt orthonormal basis of Hermitian matrices.
+Its law in these coordinates is that of \(N^{-1/2}g\), where \(g\) is standard Gaussian in \(\mathbb R^n\) and \(n:=dN^2\).
+Indeed, \(\Tr(H_j^2)\) is the squared Euclidean norm of the coordinate vector.
+Using the same coordinates to evaluate the pencil, define
+\[
+  q_N(x):=\bigl|\det T_N(N^{-1/2}x)\bigr|^2,
+  \qquad Z_N:=q_N^{-1}(0).
+\]
+The determinant has degree at most \(mN\), so \(q_N\) is a nonnegative real polynomial of degree at most \(2mN\), with \(q_N(0)=1\).
+
+Fix \(M>0\) and let \(C_0,\alpha,\varepsilon_0>0\) be the constants of Proposition~\ref{prop:distance}.
+If \(Z_N\) is empty, the proposition excludes \(s_{\min}(T_N(H^{(N)}))\le\varepsilon\) on \(\max_j\|H_j^{(N)}\|\le M\) for \(0<\varepsilon\le\varepsilon_0\).
+Otherwise, on the same event the proposition gives
+\[
+  s_{\min}(T_N(H^{(N)}))\le\varepsilon
+  \quad\Longrightarrow\quad
+  \operatorname{dist}(g,Z_N)\le C_0\sqrt N\,\varepsilon^\alpha.
+\]
+The factor \(\sqrt N\) converts the Hilbert--Schmidt distance in the original matrix coordinates to distance in the standard Gaussian coordinates.
+Apply Lemma~\ref{lem:gaussian-tube} with \(D:=2mN\) and \(\rho:=C_0\sqrt N\,\varepsilon^\alpha\).
+Since \(\sqrt n=\sqrt d\,N\), the resulting probability bound is
+\[
+  \mathbb P\bigl\{s_{\min}(T_N(H^{(N)}))\le\varepsilon,\
+                 \max_j\|H_j^{(N)}\|\le M\bigr\}
+  \le C N^{5/2}\varepsilon^\alpha
+      \exp\bigl(CN^{5/2}\varepsilon^\alpha\bigr)+e^{-cN^2}.
+\]
+Take \(M>2\), so that the norm event has probability tending to one, and choose \(A>0\) with \(A\alpha>5/2\).
+The right side tends to zero for \(\varepsilon=N^{-A}\), proving \eqref{eq:pencil-floor}.
+\end{proof}

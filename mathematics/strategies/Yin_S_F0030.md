@@ -47,3 +47,7 @@ The [independent whole-chain finding](../audits/reviews/Yin_R_F0190_v1.md#whole-
 The separate [geometry review](../audits/reviews/Yin_R_F0188_v1.md#geometry-finding) checks the central deterministic and Gaussian estimates.
 No further proof obligation remains for this route's stated deliverable under its accepted external inputs.
 The exponent can be extremely small; no optimal rate, uniformity over growing coefficient dimension, or non-Gaussian extension is claimed.
+
+The [affine determinant extension](../claims/Yin_C_F0186_v2.md#statement) also treats arbitrary constant matrices, including singular ones, and the zero-determinant limit.
+Its [separate whole-proof review](../audits/reviews/Yin_R_F0190_v2.md#independent-affine-proof) covers the additional rank argument and matrix-valued logarithmic passage.
+The original F0012 completion continues to select v1 and its applicable original review.

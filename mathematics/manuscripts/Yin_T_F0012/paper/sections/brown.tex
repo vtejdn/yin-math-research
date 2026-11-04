@@ -1,0 +1,148 @@
+\section{From the pencil estimate to Brown measure}\label{sec:brown}
+
+\subsection{Linearization}\label{subsec:linearization}
+
+We prove Theorem~\ref{thm:brown}.
+For constant $P$, both measures in the theorem are the same point mass.
+Assume henceforth that $P$ is nonconstant, and set $A_N:=P(H^{(N)})$ and $a:=P(s)$.
+
+Fix $z\ne P(0)$.
+We represent $P-z$ as a Schur complement of an affine pencil, using one block for each word of length at least two (compare \cite[Section~2.2]{Han26}).
+For a term $c_w w$ with $w=x_{i_1}\cdots x_{i_k}$ and $k\ge 2$, let $V_w$ be the $(k-1)\times(k-1)$ matrix with entries $(V_w)_{r,r+1}:=x_{i_{r+1}}$ for $1\le r\le k-2$ and zeros elsewhere.
+Set
+\[
+ Q_w:=I_{k-1}-V_w,\qquad
+ B_w:=(c_w x_{i_1},0,\ldots,0),\qquad
+ C_w:=(0,\ldots,0,-x_{i_k})^{\mathsf T}.
+\]
+The polynomial inverse $Q_w^{-1}=I_{k-1}+V_w+\cdots+V_w^{k-2}$ gives $-B_wQ_w^{-1}C_w=c_ww$.
+Let $Q$ be the block diagonal matrix with blocks $Q_w$, and assemble the $B_w$ as a block row $B$ and the $C_w$ as a block column $C$ in the same order.
+With $a_z$ the affine part of $P-z$, the pencil
+\[
+ L_z(x):=\begin{pmatrix}a_z&B\\ C&Q\end{pmatrix}
+\]
+has Schur complement $a_z-BQ^{-1}C=P-z$.
+If $P$ is affine we simply take $L_z:=P-z$.
+
+Write $q$ for the size of $L_z$ and let $D_z:=L_z(0)=\operatorname{diag}(P(0)-z,1,\ldots,1)$.
+Left multiplication by $D_z^{-1}\otimes I_N$ gives a monic pencil
+\[
+ \widetilde T_N(z):=(D_z^{-1}\otimes I_N)L_z(H^{(N)})
+    =I_q\otimes I_N+\sum_{j=1}^d\widetilde R_j(z)\otimes H_j^{(N)}.
+\]
+The upper left $N\times N$ block of its inverse, when it exists, is $(P(0)-z)(A_N-zI_N)^{-1}$.
+Taking operator norms yields
+\begin{equation}\label{eq:linearization-lsv}
+ s_{\min}(A_N-zI_N)\ge |P(0)-z|\,s_{\min}(\widetilde T_N(z)).
+\end{equation}
+This also holds in the singular case because $\widetilde T_N(z)$ is invertible exactly when $A_N-zI_N$ is invertible.
+For the fixed shift $z$, Theorem~\ref{thm:pencil} and \eqref{eq:linearization-lsv} give a $B_z>0$ such that
+\begin{equation}\label{eq:polynomial-floor}
+ \mathbb P\{s_{\min}(A_N-zI_N)<N^{-B_z}\}\longrightarrow 0 .
+\end{equation}
+For each $N$, $|\det(A_N-zI_N)|^2$ is a real polynomial in the Gaussian coordinates and is nonzero at the zero input tuple.
+Its zero set has Lebesgue measure zero, and thus probability zero.
+
+\subsection{The logarithmic tail}\label{subsec:log-tail}
+
+For each fixed $z\ne P(0)$, set $Q_z:=(P-z)^*(P-z)$.
+Let $\nu_N^z$ be the empirical law of the squared singular values of $A_N-zI_N$, and let $\nu^z$ be the spectral distribution of $Q_z(s)$ with respect to $\tau$.
+Write
+\[
+ G_N(w):=\int\frac{1}{w-x}\,d\nu_N^z(x),\qquad
+ G(w):=\int\frac{1}{w-x}\,d\nu^z(x).
+\]
+The scalar polynomial $Q_z$ is self-adjoint and nonconstant.
+Indeed, if $P_k$ is the top homogeneous part of $P$, then the top homogeneous part of $Q_z$ is $P_k^*P_k$.
+For words $u,v$ of length $k$, each word $u^*v$ determines both $u$ and $v$, so a word $u$ with nonzero coefficient in $P_k$ contributes a nonzero coefficient to $u^*u$.
+
+The resolvent comparison of \cite[Corollary~1.3 of arXiv v1]{CGP22}, applied to $Q_z$ with scalar coefficients, gives
+\begin{equation}\label{eq:resolvent}
+ \big|\mathbb E G_N(w)-G(w)\big|
+ \le C_z N^{-2}\big((\Im w)^{-5}+(\Im w)^{-2}\big),
+ \qquad \Im w>0 .
+\end{equation}
+By \cite[Theorem~1.1(5)--(6) and Corollary~1.2]{SS15}, $G$ has a convergent expansion in fractional powers at zero and $\nu^z$ has no atoms.
+The bound $|G(\mathrm{i}t)|\le t^{-1}$ excludes powers below $-1$ along the positive imaginary axis.
+Also,
+\[
+ \mathrm{i}tG(\mathrm{i}t)=\int\frac{\mathrm{i}t}{\mathrm{i}t-x}\,d\nu^z(x)
+   \longrightarrow \nu^z(\{0\})=0 .
+\]
+Thus the expansion has no term of order $-1$ either, and for some $0<\beta_z\le 1$,
+\[
+ t|\Im G(\mathrm{i}t)|\le C_z t^{\beta_z},\qquad 0<t\le 1 .
+\]
+Using $\mathbf 1_{[0,t]}(x)\le 2t^2/(x^2+t^2)$ for $x\ge 0$ and \eqref{eq:resolvent}, we obtain
+\[
+ \mathbb E\nu_N^z([0,t])
+ \le C_z(t^{\beta_z}+N^{-2}t^{-4}),\qquad 0<t\le 1.
+\]
+Choose $0<\gamma_z<2/(4+\beta_z)$ and write $t_N:=N^{-\gamma_z}$.
+The resolvent error can then be absorbed into the first term for $t\ge t_N$, giving
+\begin{equation}\label{eq:singular-count}
+ \mathbb E\nu_N^z([0,t])\le C_z t^{\beta_z},
+ \qquad t_N\le t\le 1 .
+\end{equation}
+The same kernel inequality gives $\nu^z([0,t])\le C_z t^{\beta_z}$ for all $0<t\le 1$.
+
+On the event $s_{\min}(A_N-zI_N)\ge N^{-B_z}$, the contribution to the negative logarithm from $0<x\le t_N$ is at most $2B_z(\log N)\nu_N^z([0,t_N])$.
+The expectation of this bound tends to zero by \eqref{eq:singular-count}.
+For $t_N<x<\varepsilon<1$, write $-\log x=|\log\varepsilon|+\int_x^\varepsilon dt/t$.
+Taking expectations and applying \eqref{eq:singular-count} gives
+\[
+ \mathbb E\int_{(t_N,\varepsilon)}|\log x|\,d\nu_N^z(x)
+ \le C_z\varepsilon^{\beta_z}|\log\varepsilon|
+     +C_z\int_{t_N}^{\varepsilon} t^{\beta_z-1}\,dt
+ \le C'_z\varepsilon^{\beta_z}(1+|\log\varepsilon|)
+\]
+for all sufficiently large $N$ at each fixed $\varepsilon$.
+Markov's inequality and \eqref{eq:polynomial-floor} now give, for every $\delta>0$,
+\begin{equation}\label{eq:log-tail}
+ \lim_{\varepsilon\downarrow 0}\limsup_{N\to\infty}
+ \mathbb P\!\left\{\int_{(0,\varepsilon)}|\log x|\,d\nu_N^z(x)>\delta\right\}=0 .
+\end{equation}
+The bound on $\nu^z([0,t])$ gives a vanishing logarithmic tail for $\nu^z$ by the same integration formula.
+
+\subsection{Convergence of potentials}\label{subsec:potentials}
+
+The GUE moment convergence and norm bounds from \cite[pp.~1--2 of arXiv v1]{CGP22} give weak convergence of $\nu_N^z$ to $\nu^z$ in probability.
+In fact, normalized trace moments converge, and both measures are supported in a common fixed compact interval with probability tending to one.
+Polynomial approximation on that interval gives convergence against bounded continuous functions.
+Consequently we may first truncate the logarithm to a bounded continuous function, with a fixed upper cutoff above that interval.
+Then \eqref{eq:log-tail} and the limiting tail bound let us send the lower cutoff to zero.
+We conclude that, for every fixed $z\ne P(0)$,
+\begin{equation}\label{eq:potential-pointwise}
+ u_N(z):=\frac1N\log|\det(A_N-zI_N)|
+         =\frac12\int\log x\,d\nu_N^z(x)
+ \ \xrightarrow{\mathbb P}\ 
+ u_a(z)=\tau(\log|a-z1_{\mathcal M}|).
+\end{equation}
+
+To take the distributional Laplacian, we show local $L^1$ convergence in probability.
+Choose $M>\|a\|$ so that $\mathbb P\{\|A_N\|\le M\}\to 1$, and let $K\subset\mathbb C$ be compact.
+On this norm event, the eigenvalues of $A_N$ belong to the closed disk of radius $M$.
+The functions $z\mapsto\log|z-w|$ have uniformly bounded $L^2(K)$ norm for $|w|\le M$, since the translated sets $K-w$ lie in one bounded disk and $\log|\cdot|$ is locally square integrable.
+Using the determinant formula $u_N(z)=N^{-1}\sum_{k=1}^N\log|z-\lambda_k(A_N)|$ and Jensen's inequality gives $\|u_N\|_{L^2(K)}\le C_{M,K}$ on the norm event.
+The potential representation of the Brown measure gives $\|u_a\|_{L^2(K)}\le C_{M,K}$ as well.
+
+For $\delta>0$, let $E_{N,\delta}:=\{z\in K: |u_N(z)-u_a(z)|>\delta\}$, taking the potentials up to changes on planar null sets.
+Fubini's theorem, \eqref{eq:potential-pointwise} and dominated convergence give $\mathbb E|E_{N,\delta}|\to 0$, where $|\cdot|$ denotes planar Lebesgue measure.
+On the norm event, Cauchy--Schwarz yields
+\[
+ \|u_N-u_a\|_{L^1(K)}
+ \le \delta |K|+2C_{M,K}|E_{N,\delta}|^{1/2}.
+\]
+Since the norm event has probability tending to one and $\delta$ is arbitrary, this proves $u_N\to u_a$ locally in $L^1$ in probability.
+
+For $\varphi\in C_c^\infty(\mathbb C)$, the distributional identity $\Delta\log|z|=2\pi\delta_0$ and Definition~\ref{def:brown-measure} give
+\[
+ \int\varphi\,d\mu_{A_N}
+ =\frac{1}{2\pi}\int_{\mathbb C}u_N\Delta\varphi\,d^2z
+ \ \xrightarrow{\mathbb P}\
+ \frac{1}{2\pi}\int_{\mathbb C}u_a\Delta\varphi\,d^2z
+ =\int\varphi\,d\mu_a^{\mathrm{Br}}.
+\]
+On the norm event both probability measures are supported in the disk of radius $M$.
+Smooth compactly supported functions approximate any bounded continuous test function uniformly on this disk.
+This gives the convergence in Theorem~\ref{thm:brown}.

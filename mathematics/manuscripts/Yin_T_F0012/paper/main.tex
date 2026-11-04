@@ -1,0 +1,40 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\numberwithin{equation}{section}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\tr}{tr}
+
+\title[Eigenvalue convergence for GUE polynomials]{Eigenvalue convergence for polynomials in independent GUE matrices}
+\author{Sheng Yin}
+\address{Institute for Advanced Study in Mathematics, Harbin Institute of Technology}
+\email{sheng.yin@hit.edu.cn}
+\date{}
+
+\begin{document}
+\begin{abstract}
+We prove that the empirical eigenvalue distribution of any fixed scalar polynomial in independent normalized GUE matrices converges weakly in probability to the Brown measure of the same polynomial in free semicircular elements.
+The proof uses a polynomial lower bound, with probability tending to one, for the least singular value of a fixed monic matrix pencil in the GUE inputs.
+\end{abstract}
+\maketitle
+
+\input{sections/introduction}
+\input{sections/geometry}
+\input{sections/probability}
+\input{sections/brown}
+
+\bibliographystyle{yin-amsalpha}
+\bibliography{references}
+\end{document}
