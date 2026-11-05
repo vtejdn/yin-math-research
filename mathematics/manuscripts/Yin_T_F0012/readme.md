@@ -3,7 +3,7 @@
 Responsible author: Yin (Sheng Yin).
 This manuscript presents the proof selected for [Task F0012 v2](../../tasks/Yin_T_F0012_v2.md#decision-almost-sure-completed).
 It establishes almost-sure weak convergence to Brown measure for every fixed scalar polynomial in independent normalized GUE matrices, with arbitrary coupling across sizes.
-It also presents the associated almost-sure and mean convergence results for affine determinants.
+It also presents almost-sure convergence of affine logarithmic determinants, convergence in \(L^1\) for finite limiting logarithms, and convergence in every finite \(L^p\) for the normalized determinants.
 
 - [Paper sources and build instructions](paper/readme.md)
 - [Organization](organization.md) and [writing conventions](conventions.md)

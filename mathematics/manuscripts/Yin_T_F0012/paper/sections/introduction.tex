@@ -9,8 +9,8 @@ Freeness means that the trace of a product of centered elements from the unital 
 
 For each scalar polynomial $Q$ in the input variables, $\tr_N(Q(H^{(N)}))$ converges in probability to $\tau(Q(s))$.
 The maximum of the input operator norms converges in probability to $2$, the right endpoint of the variance-one semicircle law \cite[pp.~1--2 of arXiv v1]{CGP22}.
-For a self-adjoint scalar polynomial $P$, this gives convergence of the empirical eigenvalue distribution of $P(H^{(N)})$ to the spectral distribution of $P(s)$.
-For a general polynomial, the eigenvalues can lie in the complex plane, and the corresponding limit is given by the Brown measure.
+For a self-adjoint scalar polynomial $P$, this gives weak convergence in probability of the empirical eigenvalue distribution of $P(H^{(N)})$ to the spectral distribution of $P(s)$.
+For a general scalar polynomial, the eigenvalues can lie in the complex plane, and the question is whether their empirical distribution converges to the Brown measure of $P(s)$.
 
 We use the Brown measure convention of \cite[Chapter~11, Theorem~5, Definition~6 and pp.~268--270]{MS17}.
 
@@ -31,7 +31,7 @@ Belinschi, Śniady and Speicher \cite[Section~7]{BSS18} formulate the eigenvalue
 Han \cite[Theorem~1.2]{Han26} proves weak convergence in probability for polynomials in independent complex Ginibre matrices using only the unstarred variables, with the corresponding free circular limit.
 Two independent GUE inputs can be combined as $(H_1^{(N)}+\mathrm{i}H_2^{(N)})/\sqrt{2}$ to produce a normalized complex Ginibre matrix, whose real and imaginary entry coordinates are independent centered Gaussians of variance $1/(2N)$.
 Writing a general GUE polynomial in these variables introduces their adjoints, a case discussed in \cite[Question~1.8]{Han26}.
-We prove almost-sure weak convergence for the full class of GUE polynomials.
+We prove almost-sure weak convergence for every fixed scalar polynomial in independent GUE matrices.
 
 \begin{theorem}\label{thm:brown}
 Let $d\ge 1$ and fix $P\in\mathbb C\langle x_1,\ldots,x_d\rangle$, where $x_1,\ldots,x_d$ are self-adjoint indeterminates.
@@ -45,14 +45,23 @@ The eigenvalues are counted with algebraic multiplicity.
 For each fixed $P$ and each coupling, the convergence holds on one event of probability one against every bounded continuous real-valued test function on $\mathbb C$.
 \end{theorem}
 
-We first state the estimate for a matrix pencil with identity constant term.
-For a Hermitian tuple $H=(H_1,\ldots,H_d)$ of size $N$, let
-\begin{equation}\label{eq:pencil}
- T_N(H):=I_m\otimes I_N+\sum_{j=1}^d R_j\otimes H_j,
-\end{equation}
-where the coefficient matrices $R_1,\ldots,R_d\in M_m(\mathbb C)$ are fixed.
-We call such a pencil monic.
 For a square matrix $B$, write $s_{\min}(B):=\min_{\|v\|=1}\|Bv\|$.
+Our proofs use the following pencil convention.
+
+\begin{definition}\label{def:pencil}
+Fix $m\ge1$ and $A_0,\ldots,A_d\in M_m(\mathbb C)$.
+For a Hermitian tuple $H=(H_1,\ldots,H_d)$ of size $N$, the affine pencil with these coefficients and its semicircular evaluation are
+\begin{equation}\label{eq:affine-pencil}
+ L_N(H):=A_0\otimes I_N+\sum_{j=1}^d A_j\otimes H_j,\qquad
+ L:=A_0\otimes 1_{\mathcal M}+\sum_{j=1}^d A_j\otimes s_j .
+\end{equation}
+We write $L_N:=L_N(H^{(N)})$ for the random evaluation.
+The pencil is called monic when $A_0=I_m$.
+In that case, writing $R_j:=A_j$ for $1\le j\le d$, we also use
+\begin{equation}\label{eq:pencil}
+ T_N(H):=I_m\otimes I_N+\sum_{j=1}^d R_j\otimes H_j.
+\end{equation}
+\end{definition}
 
 \begin{theorem}\label{thm:pencil}
 Let $d,m\ge 1$, and let $R_1,\ldots,R_d\in M_m(\mathbb C)$ be arbitrary fixed matrices.
@@ -71,12 +80,7 @@ For each $M>0$ there exist $C,\alpha,\varepsilon_0>0$, independent of $N$, such 
 \end{equation}
 \end{theorem}
 
-For arbitrary fixed $A_0,\ldots,A_d\in M_m(\mathbb C)$, write
-\begin{equation}\label{eq:affine-pencil}
- L_N(H):=A_0\otimes I_N+\sum_{j=1}^d A_j\otimes H_j,\qquad
- L:=A_0\otimes 1_{\mathcal M}+\sum_{j=1}^d A_j\otimes s_j .
-\end{equation}
-We use $L_N:=L_N(H^{(N)})$ for the random evaluation and $\tau_m:=\tr_m\otimes\tau$ for the normalized trace on $M_m(\mathcal M)$.
+We use $\tau_m:=\tr_m\otimes\tau$ for the normalized trace on $M_m(\mathcal M)$.
 
 \begin{definition}\label{def:fk-determinant}
 For $b\in M_m(\mathcal M)$ the Fuglede--Kadison determinant is $\Delta_{\tau_m}(b):=\exp(\tau_m(\log|b|))$, with $\log 0=-\infty$ and $\exp(-\infty)=0$ \cite[Definition~2.1(ii) and Remark~2.2(i)]{MS24}.

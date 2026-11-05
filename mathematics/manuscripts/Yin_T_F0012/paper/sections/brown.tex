@@ -126,9 +126,19 @@ We conclude that, for every fixed $z\ne P(0)$,
 
 \subsection{Almost-sure weak convergence}\label{subsec:brown-as}
 
-For each fixed $z\ne P(0)$, apply Theorem~\ref{thm:affine} to the unnormalized pencil $L_z$ of size $q$.
+For each fixed $z\ne P(0)$, the limiting logarithmic-tail bound in Section~\ref{subsec:log-tail} makes $u_a(z)$ finite.
+Apply Theorem~\ref{thm:affine} to the affine pencil $L_z$ of size $q$.
 Equation~\eqref{eq:linearization-det} identifies its normalized logarithmic determinant with $u_N(z)/q$.
-The theorem gives the almost-sure limit of this quantity, which by uniqueness of probability limits and \eqref{eq:potential-pointwise} equals $u_a(z)/q$.
+The theorem therefore gives
+\[
+ \frac{u_N(z)}q\longrightarrow
+ (\tr_q\otimes\tau)(\log|L_z(s)|)
+ \qquad\text{almost surely}.
+\]
+Comparison with \eqref{eq:potential-pointwise} and uniqueness of probability limits identify
+\[
+ (\tr_q\otimes\tau)(\log|L_z(s)|)=\frac{u_a(z)}q.
+\]
 In particular,
 \[
  u_N(z)\longrightarrow u_a(z)\quad\text{almost surely for each fixed }z\ne P(0).

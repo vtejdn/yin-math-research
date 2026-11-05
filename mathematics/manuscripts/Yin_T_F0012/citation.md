@@ -33,7 +33,8 @@ See the [scalar application](../../claims/Yin_C_F0186_v1.md#polynomial-applicati
 
 In `paper/sections/probability.tex`, `eq:gaussian-concentration` uses Proposition 4.4, p. 30, with the independent real standard Gaussian coordinates described on p. 31.
 The manuscript applies the one-sided bound to both signs to get the two-sided form for normalized singular-value averages.
-Proposition 2.11, p. 10, supplies the uniform bound on the first moment of the operator norm by integration of its one-matrix tail.
+Proposition 2.11, p. 10, supplies a one-matrix tail with constants independent of \(N\ge1\).
+Integration gives the displayed uniform first-moment bound \(M_0=C_{\mathrm{op}}+c_{\mathrm{op}}^{-1}\).
 The stronger quadratic norm tail in `eq:norm-tail` follows from the concentration inequality and the \(N^{-1/2}\) coordinate scaling.
 See the [norm and concentration inputs](../../claims/Yin_C_F0186_v3.md#inputs) and the [independent source check](../../audits/reviews/Yin_R_F0190_v3.md#source-inspection-and-acceptance-boundary).
 

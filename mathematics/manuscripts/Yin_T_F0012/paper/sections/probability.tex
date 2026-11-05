@@ -71,7 +71,16 @@ If \(F\) is \(K\)-Lipschitz in standard Gaussian coordinates, then
 \end{equation}
 Applying this to both \(F\) and \(-F\) gives a two-sided estimate.
 
-The bound \(\mathbb P\{\|H_j^{(N)}\|\ge D+t\}\le e^{-cNt}\) for \(t>0\), from \cite[Proposition~2.11 of arXiv v1]{CGP22}, gives a uniform bound \(M_0\) on \(\mathbb E\|H_j^{(N)}\|\) by integration.
+By \cite[Proposition~2.11 of arXiv v1]{CGP22}, there are constants \(C_{\mathrm{op}},c_{\mathrm{op}}>0\), independent of \(N\), such that
+\[
+ \mathbb P\{\|H_j^{(N)}\|\ge C_{\mathrm{op}}+t\}
+ \le e^{-c_{\mathrm{op}}Nt},\qquad N\ge1,\quad t>0.
+\]
+Integrating this tail gives
+\[
+ \mathbb E\|H_j^{(N)}\|\le C_{\mathrm{op}}+(c_{\mathrm{op}}N)^{-1}
+ \le M_0:=C_{\mathrm{op}}+c_{\mathrm{op}}^{-1},\qquad N\ge1.
+\]
 The map \(g\mapsto\|H_j^{(N)}\|\) is \(N^{-1/2}\)-Lipschitz because the operator norm is bounded by the Hilbert--Schmidt norm.
 Using \eqref{eq:gaussian-concentration} and a union bound, we obtain
 \begin{equation}\label{eq:norm-tail}

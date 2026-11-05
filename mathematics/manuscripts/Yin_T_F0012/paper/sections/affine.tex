@@ -51,10 +51,15 @@ The polynomial distance inequality used in Proposition~\ref{prop:distance}, appl
 \]
 Let $E_*$ be the largest of these exponents, or $1$ if all the zero sets are nonempty.
 Choose $0<\theta\le\min(a/2,1/(2E_*))$ and take $M:=\varepsilon^{-\theta/2}$.
-For an empty zero type the residual would be at least $c'_F\varepsilon^{\theta E_F}\ge c'_F\varepsilon^{1/2}$, which exceeds $\varepsilon$ for all sufficiently small $\varepsilon$.
-Every remaining type gives a Hermitian perturbation of size at most $C\varepsilon^b$ for $b:=a-\theta>0$.
+For a map with empty zero set, the residual would be at least $c'_F\varepsilon^{\theta E_F}\ge c'_F\varepsilon^{1/2}$, which exceeds $\varepsilon$ for all sufficiently small $\varepsilon$.
+Every map with a nonempty zero set gives a Hermitian perturbation of size at most $C\varepsilon^b$ for $b:=a-\theta>0$.
 
-In standard Gaussian coordinates let $Z_N$ be the zero set of $|\det L_N(N^{-1/2}g)|^2$, a nonzero polynomial of degree at most $2mN$ by the preceding rank argument.
+For all sufficiently large $N$, define the deterministic set
+\[
+ Z_N:=\{x\in\mathbb R^{dN^2}:\det L_N(N^{-1/2}x)=0\},
+\]
+where $N^{-1/2}x$ represents the Hermitian tuple with those coordinates.
+By the preceding rank argument, the real polynomial $x\mapsto|\det L_N(N^{-1/2}x)|^2$ is nonzero and has degree at most $2mN$.
 On $\max_j\|H_j^{(N)}\|\le M$, a least singular value at most $\varepsilon$ puts $g$ within $C\sqrt N\,\varepsilon^b$ of $Z_N$.
 If $Z_N$ is empty, that event is empty by the construction of the perturbation.
 With $n=dN^2$, Lemma~\ref{lem:gaussian-tube} and \eqref{eq:norm-tail} give
