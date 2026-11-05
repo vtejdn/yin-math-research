@@ -17,4 +17,6 @@ The linear theorem supplies a proper symmetric generalized arithmetic progressio
 The quadratic theorem permits arbitrary vector-valued linear terms and supplies integer row combinations with concentration for the symmetrized scalar law.
 These statements and their applicability were inspected directly; their original proofs are accepted external inputs and are not fully re-audited here.
 Only the arXiv v1 statements are used mathematically; inspection of journal metadata and initial definitions establishes no full edition equivalence.
-The local complex-symmetric invertibility deduction is retained separately in [C_F0188_v1](../../../claims/Yin_C_F0188_v1.md#argument).
+The local complex-symmetric invertibility deduction is retained separately in [C_F0188_v2](../../../claims/Yin_C_F0188_v2.md#argument).
+
+The complete reusable [progression and concentration conventions](Yin_U001.md) retain the source definitions and the local nonproper-box distinction.

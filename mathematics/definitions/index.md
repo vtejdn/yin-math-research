@@ -295,3 +295,17 @@ Consumer navigation:
 Exact adopted home: [density-matrix definition and covariance-zero trace identity](../ledger/Yin_L_F0054_v1.md#wigner-yanase-skew-information), with unnormalized Tr and the separate 1/(2m) objective factor.
 Source scope: [Han08's inspected arXiv v6 definition](../audits/literature/Han08/readme.md); the original Wigner--Yanase proofs were not inspected.
 Consumer navigation:
+
+
+### Additive structure and small-ball concentration
+
+| Concept and exact home | Source and adopted convention | Recorded consumer navigation |
+| --- | --- | --- |
+| [Generalized arithmetic progression, properness and symmetry](../audits/literature/Ngu12a/Yin_U001.md#progression-conventions) | [Ngu12a arXiv v1](../audits/literature/Ngu12a/readme.md), PDF pp. 1--2; distinguish size from displayed-box volume and the local nonproper-box use. | [Complex symmetric counting proof](../claims/Yin_C_F0188_v2.md#argument). |
+| [Linear and quadratic concentration functions](../audits/literature/Ngu12a/Yin_U001.md#concentration-conventions) | [Ngu12a arXiv v1](../audits/literature/Ngu12a/readme.md), PDF pp. 1--3; real scalar randomness, Euclidean vector coefficients, and a supremum over linear terms only in the quadratic convention. | [Structured-vector and profile proof](../claims/Yin_C_F0188_v2.md#argument). |
+
+### Word reversal without coefficient conjugation
+
+Exact adopted home: [the formal reversal definition](../claims/Yin_C_F0186_v6.md#word-reversal), used for scalar complex noncommutative polynomials in selfadjoint indeterminates.
+This is the ordinary reversal of word order, distinct from the conjugate-linear star involution.
+Consumer navigation: [conditional complex symmetric polynomial classes](../claims/Yin_C_F0186_v6.md#statement).

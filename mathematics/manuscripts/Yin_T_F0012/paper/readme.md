@@ -23,7 +23,7 @@ Auxiliary outputs are ignored.
 
 ## Latest build
 
-On 2026-11-05, the commands above built the Task v2 revision of `main.tex`, all five included sections and the local bibliography inputs using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
+On 2026-11-05, the commands above built the Task v2 manuscript under its Brown measure title from `main.tex`, all five included sections and the local bibliography inputs using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
 The output has twelve pages.
 The final logs report no unresolved citations or cross-references, missing characters or box diagnostics.
 The generated bibliography contains the eleven cited works with alphabetic author–year labels, initialed given names, full family names and alphabetical author order.

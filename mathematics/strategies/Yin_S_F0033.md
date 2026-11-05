@@ -2,7 +2,7 @@
 author: Yin
 ---
 
-# Complex-symmetric conditional shifts for the two-Wigner product
+# Conditional complex symmetric shifts for finite-variance Wigner polynomials
 
 ## Task associations
 
@@ -14,8 +14,8 @@ author: Yin
 
 | Field | Value |
 | --- | --- |
-| disposition | active |
-| priority | Complete and independently check the finite-variance complex-symmetric least-singular-value input before asserting an unconditional product theorem. |
+| disposition | completed |
+| priority | The repaired small-value input and the complete polynomial applications have independent review and adopted proved assessments. |
 | parent | [Planar defect route](Yin_S_F0032.md#route) |
 
 ## Mechanism
@@ -25,18 +25,17 @@ Condition on \(W_2\) in
  W_1W_2-zI=(W_1-zW_2^{-1})W_2.
 \]
 For real symmetric \(W_2\), the conditional shift is complex symmetric.
-A summable polynomial least-singular-value floor for this class, together with the [reviewed intermediate estimate](../claims/Yin_C_F0187_v2.md#statement), would control the bottom singular values and their negative logarithmic sum.
+A summable polynomial least-singular-value floor for this class, together with the [reviewed intermediate estimate](../claims/Yin_C_F0187_v2.md#statement), controls the bottom singular values and their negative logarithmic sum.
 The [reviewed spectral and planar controls](../claims/Yin_C_F0186_v4.md#statement) supply the remaining convergence interfaces.
 
-## Precise gap and current work
+## Accepted conclusion and exact remaining boundary
 
-The desired shift theorem must use only a fixed centered unit-variance real off-diagonal law, allow independent diagonal laws or conditioned deterministic diagonals, and have arbitrarily high polynomial failure exponents for polynomially bounded complex symmetric shifts.
-The inspected ORSV15 theorem carries \(2+\tau\) and iid diagonal assumptions; its attribution to a personal communication supplies no bare-second-moment theorem.
-The [source boundary](../ledger/Yin_L_F0061_v1.md#source-frontier) distinguishes it from Nguyen's published real-symmetric-shift result.
-The [fixed complex adaptation](../claims/Yin_C_F0188_v2.md#argument) includes the inverse Littlewood--Offord structure and full probability-profile count.
-Its initial version had an order-dependent lower-bound gap after reservoir permutation; the revised candidate reclassifies low-product vectors after each permutation and awaits a fresh independent review.
-The [two-factor deduction](../claims/Yin_C_F0186_v5.md#argument) remains a candidate conditional on that exact input.
-Its argument is not yet adopted as a proved input.
+The [complex symmetric shift theorem](../claims/Yin_C_F0188_v2.md#decision-complex-shift-reviewed) proves the required polynomial floor with arbitrarily summable failure under fixed real second moments and independent finite-variance diagonals.
+Its initial profile-order gap and the fresh independent review of the repair remain recorded at that Claim's exact versions and reviews.
+The [accepted application](../claims/Yin_C_F0186_v6.md#decision-conditional-shift-classes-reviewed) proves the two-factor pilot and extends it to the displayed polynomial conditional shifts, their single-factor class and polynomial images.
+It permits dependence between the two displayed factors while preserving the required independence of the exposed Wigner input.
+The original [source boundary](../ledger/Yin_L_F0061_v1.md#source-frontier) is unchanged: the project supplies the complex finite-variance adaptation rather than citing ORSV15 outside its hypotheses.
+No proof obligation remains for this route's displayed accepted subclasses.
 
 ## Relation to the full target
 

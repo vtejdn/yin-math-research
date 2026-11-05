@@ -210,3 +210,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [KSS16 source notes](KSS16/readme.md) | Real polynomial distance inequalities and the correction boundary |
 | [Lot15 source notes](Lot15/readme.md) | Degree-controlled algebraic tube theorem, inspected preprint edition |
 | [Kar26 source notes](Kar26/readme.md) | Shifted determinant variational formulas and the finite-random-matrix boundary |
+| [Gui12 source notes](Gui12/readme.md) | Bounded-entry colored Wigner moment input |
+| [War16 source notes](War16/readme.md) | Ordinary independent-block bounded differences |
+| [GNT14 source notes](GNT14/readme.md) | Bounded-product convex concentration and the selected preprint |
+| [BC17 source notes](BC17/readme.md) | Global moment assumptions and Proposition 2.2 scope |
+| [ORSV15 source notes](ORSV15/readme.md) | Two-Wigner product benchmark and inherited moment assumptions |
+| [NO15 source notes](NO15/readme.md) | Finite-variance elliptic covariance and coupling scope |
+| [Ngu12 source notes](Ngu12/readme.md) | Published real-symmetric smallest-value statement and theorem numbering |
+| [CO22 source notes](CO22/readme.md) | Paired-entry small-value estimate and correlation restriction |
+| [Ngu12a source notes](Ngu12a/readme.md) | Vector-valued inverse concentration: exact arXiv edition and source limits |
+| [Ngu12a/Yin_U001](Ngu12a/Yin_U001.md) | Complete progression and linear/quadratic concentration definitions |

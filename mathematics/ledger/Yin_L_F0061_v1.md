@@ -350,11 +350,11 @@ Countable intersection over integer \(K\) gives almost-sure unbounded normalized
 ## Consequence for the active route
 
 The general question should be attacked through the [planar logarithmic defect](../claims/Yin_C_F0186_v4.md#remaining-defect), not by extending an all-fixed-shift Gaussian determinant statement to real or atomic entries.
-The selfadjoint, Hermitized, positive-tail, regularized and planar tightness interfaces now have a complete candidate argument at exact second moments.
+The selfadjoint, Hermitized, positive-tail, regularized and planar tightness interfaces have their complete argument and accepted assessment in [C_F0186_v4](../claims/Yin_C_F0186_v4.md#decision-finite-variance-reviewed).
 The intermediate singular-value estimate controls all but the bottom order \(N^{3/4}\) singular values for a single real Wigner matrix with an independent arbitrary complex shift.
-For the two-factor pilot \(W_1W_2-z\), the remaining proposed input is a summable polynomial least-singular-value bound for real Wigner plus a polynomially bounded complex symmetric shift.
+For the two-factor pilot \(W_1W_2-z\), the necessary complex symmetric polynomial floor is now supplied by the [accepted repaired theorem](../claims/Yin_C_F0188_v2.md#decision-complex-shift-reviewed).
 The [original CS development](../claims/Yin_C_F0188_v1.md#argument) is preserved as a fixed candidate.
-Its [revised profile argument](../claims/Yin_C_F0188_v2.md#argument) and the [two-factor deduction](../claims/Yin_C_F0186_v5.md#argument) have their own explicit assessments.
+Its [revised profile argument](../claims/Yin_C_F0188_v2.md#argument) and the [broadened polynomial application](../claims/Yin_C_F0186_v6.md#argument) have their own explicit accepted assessments.
 The general fixed matrix-coefficient pencil requires additional treatment of coefficient-space degeneracy beyond this scalar shift pilot.
 
 ## Source preparation and inspection boundary

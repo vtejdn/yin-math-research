@@ -53,6 +53,13 @@ A counterexample must identify fixed entry laws, a fixed polynomial, an allowed 
 A self-adjoint special case, Gaussian-smoothed model, convergence only in probability, or a result with extra moment/density assumptions is partial progress rather than completion.
 Completion requires review of the complete proof or counterexample against this contract.
 
+## Separate determinant objectives
+
+The separately authorized [matrix-valued affine-pencil Task F0013](Yin_T_F0013_v1.md#contract) and [scalar-valued polynomial Task F0014](Yin_T_F0014_v1.md#contract) study normalized determinant upper-limit equalities under the same fixed-law finite-variance model.
+The matrix question is sufficient for the scalar question through exact linearization.
+Neither upper-limit conclusion alone completes this Task's full-sequence almost-sure weak convergence, as the [retained separation example](../ledger/Yin_L_F0061_v2.md#brown-nonimplication) explains.
+This organization leaves the present contract and selected lifecycle decision unchanged.
+
 ## Current decision
 
 [Selected decision](#decision-finite-variance-reopened)

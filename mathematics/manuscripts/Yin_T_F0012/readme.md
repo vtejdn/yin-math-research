@@ -1,4 +1,4 @@
-# Eigenvalue Convergence for Polynomials in Independent GUE Matrices
+# Brown Measure Convergence for Polynomials in Independent GUE Matrices
 
 Responsible author: Yin (Sheng Yin).
 This manuscript presents the proof selected for [Task F0012 v2](../../tasks/Yin_T_F0012_v2.md#decision-almost-sure-completed).

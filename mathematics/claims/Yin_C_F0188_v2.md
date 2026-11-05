@@ -28,12 +28,15 @@ This statement does not cover general fixed matrix-coefficient linear pencils or
 This version repairs the order-dependent high-product passage in [the initial candidate](Yin_C_F0188_v1.md#argument).
 The proof now separates the low-product case again after each reservoir permutation before starting the multiscale profile argument.
 The theorem statement and external inputs are unchanged; the original proof remains fixed for its actual review findings.
+The [initial independent whole-proof objection](../audits/reviews/Yin_R_F0192_v1.md#finding-whole-proof) and [key-step finding](../audits/reviews/Yin_R_F0193_v1.md) preserve the failed order-transfer implication and its counterexample.
+The selected assessment below relies on the fresh independent review of this repaired version, not on the earlier conditional profile checks.
 
 This is a project adaptation of the inverse-concentration and probability-profile method, with the precise two external vector-valued inverse Littlewood--Offord inputs inspected in [Ngu12a](../audits/literature/Ngu12a/readme.md).
 The selected mathematical edition is arXiv:1105.5733v1: Condition 1 and Theorem 1.3 on PDF pp. 2--3, and the quadratic concentration definition and Theorem 1.8 on pp. 3 and 5.
 The original proofs of those theorems are accepted external inputs rather than independently re-audited here.
 Their coefficient dimension is two, identifying complex coefficients with vectors in \(\mathbb R^2\), while the random scalar variables remain real.
 Their anti-concentration constants, exceptional-set bounds, progression sizes, relative rational generators and arbitrary quadratic linear terms are used explicitly below.
+The [source progression and concentration conventions](../audits/literature/Ngu12a/Yin_U001.md) specify the complete definitions used here.
 The [Ngu12 published real-shift theorem](../audits/literature/Ngu12/readme.md) motivates the cofactor mechanism, but no unproved complex-shift extension or ORSV15 personal-communication assertion is invoked as a theorem.
 The exact new complex profile count, deterministic-diagonal adjustment and rank-removal argument are supplied here.
 No claim of novelty, priority, or general [F0012 completion](../tasks/Yin_T_F0012_v3.md#contract) is made.
@@ -322,8 +325,7 @@ Replacing \(X_n\) by \(W_n=X_n/\sqrt n\) only increases the deterministic-shift 
 Thus the theorem applies to the normalized real-Wigner conditional shifts in the two-factor product route.
 
 ## Current assessment
-
-[Selected decision](#decision-profile-repaired-candidate)
+[Selected decision](#decision-complex-shift-reviewed)
 
 ## Assessment history
 
@@ -338,3 +340,18 @@ Thus the theorem applies to the normalized real-Wigner conditional shifts in the
 | Relation | Target | Scope |
 | --- | --- | --- |
 | statement | [Unchanged complex-symmetric theorem](#statement) | The original finite-variance shift assertion, with the same diagonal and normalization scope. |
+
+### Decision complex-shift-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T01:12 |
+| status | proved |
+| reason | A fresh isolated independent whole-proof inspection checked the repaired post-permutation classification and every affected interface, with no remaining gap under the two explicitly accepted inverse-concentration inputs. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact complex-symmetric shift theorem](#statement) | Arbitrary polynomial failure exponents at fixed real second moments, with the stated diagonal, normalization, independent-shift and almost-sure extensions. |
+| argument | [Complete repaired argument](#argument) | Both structural branches, all counting regimes, parameter order, cofactor reduction and rank removal. |
+| review | [Fresh independent whole-proof finding](../audits/reviews/Yin_R_F0192_v2.md#finding) | Exact v2 statement and complete argument, including the repair, with original inverse-theorem proof limits disclosed. |
+
