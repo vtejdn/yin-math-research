@@ -57,3 +57,38 @@ Calling the coefficients random obscures the deterministic case being separated.
 
 **Basis:** [Precise object names](../../../../framework/rules/writing.md#precise-object-names).
 Priority: P3.
+
+## R13. Identify and normalize the Laplacian at first use
+
+**Location:** [introduction.tex](sections/introduction.tex), lines 21–24, Definition `def:brown-measure` (currently Definition 1.1).
+
+**Finding:** The symbol \(\Delta\) is used to define Brown measure, but the following sentence only says that it acts in the sense of distributions on \(\mathbb C\).
+It does not identify the operator as the planar Laplacian or fix its sign and normalization.
+The later identity \(\Delta\log|z|=2\pi\delta_0\) in [brown.tex](sections/brown.tex), line 166, makes the intended convention inferable after its first use.
+
+**Revision:** At the first definition write that, for \(z=x+\mathrm i y\), \(\Delta:=\partial_x^2+\partial_y^2\) is the planar Laplacian, interpreted distributionally.
+The distributional convention is \(\langle\Delta u,\varphi\rangle:=\langle u,\Delta\varphi\rangle\) for \(\varphi\in C_c^\infty(\mathbb C)\).
+A concise local explanation suffices for this elementary operator.
+
+**Basis:** [Contextual notation](../../../../framework/rules/writing.md#notation-in-context) and [unambiguous definitions](../../../../framework/rules/writing.md#definition-statements).
+Priority: P2.
+
+## R14. State the consequence of introducing the Ginibre adjoints
+
+**Location:** [introduction.tex](sections/introduction.tex), lines 31–34, especially the sentence beginning “Writing a general GUE polynomial”.
+
+**Finding:** The paragraph explains the GUE-to-Ginibre pairing and notes that rewriting a general GUE polynomial introduces adjoints, then cites Han26 Question 1.8.
+Its intended consequence is that Han26 Theorem 1.2, which treats polynomials without adjoint variables, does not directly establish the general GUE conclusion.
+The text leaves that consequence implicit, and “a case discussed” does not state the mathematical role of the cited question.
+The [retained source inspection](../../../audits/literature/Han26/Yin_U001.md#gue-boundary) supports this applicability distinction.
+
+**Revision:** Name the paired Ginibre matrices explicitly, state why the appearance of their adjoints prevents direct application of Han's theorem, and identify Question 1.8 as raising that extension.
+A suitable replacement is:
+
+```tex
+A general polynomial in the GUE inputs involves both the paired Ginibre matrices and their adjoints, so Han's theorem does not directly apply.
+The extension to polynomials involving adjoints is raised in \cite[Question~1.8]{Han26}.
+```
+
+**Basis:** [Explicit relationships between results](../../../../framework/rules/writing.md#direct-result-connections), [precise mathematical comparisons](../../../../framework/rules/writing.md#mathematical-comparisons), and Yin's [introduction policy](../../../../profiles/Yin/writing/readme.md#default-policy).
+Priority: P2.

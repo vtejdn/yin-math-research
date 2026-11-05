@@ -33,7 +33,18 @@ No unresolved or duplicate semantic cross-reference label was found.
 
 ## Outstanding writing requests
 
-The current recommendation is minor revision for [R9–R12](revisions.md).
+The current recommendation is minor revision for [R9–R14](revisions.md).
 The manuscript sources were not changed by this review.
 The organization record and citation map still describe the current TeX.
 Compilation and PDF layout were not repeated in this source review; current build facts remain in the [document README](readme.md#latest-build).
+
+## Targeted follow-up findings
+
+On 2026-11-05T14:33 UTC, following the author's question, the current agent rechecked `def:brown-measure` and all uses of `\Delta` in the current TeX.
+The initial definition check overlooked that the text only says that `\Delta` acts in the sense of distributions, without naming the Laplacian or specifying its sign and normalization.
+The later identity in `brown.tex`, line 166, determines the intended convention, but the first definition still needs its local explanation.
+This omission qualifies the earlier definition-coverage account and is retained as [R13](revisions.md#r13-identify-and-normalize-the-laplacian-at-first-use).
+
+On 2026-11-05T14:43 UTC, the current agent rechecked the Han26 comparison in `introduction.tex`, lines 31–34, against the retained source account and the author's question about the sentence's purpose.
+The earlier exposition check overlooked that the adjoint observation does not state its intended consequence for the applicability of Han26 Theorem 1.2.
+The source attribution remains supported, while [R14](revisions.md#r14-state-the-consequence-of-introducing-the-ginibre-adjoints) requires that consequence and the role of Question 1.8 to be explicit.

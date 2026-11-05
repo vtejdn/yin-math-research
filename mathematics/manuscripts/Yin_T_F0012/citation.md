@@ -50,6 +50,7 @@ See the [edition and inspection note](../../audits/literature/DM17/readme.md) an
 In `paper/sections/introduction.tex`, the Ginibre comparison cites Theorem 1.2, arXiv:2606.01664v1, pp. 2–3, for weak convergence in probability for fixed scalar polynomials in independent complex Ginibre matrices, with free circular limits.
 Question 1.8 on p. 6 addresses the use of adjoints that occurs when a general GUE polynomial is expressed in paired Ginibre coordinates.
 Both citations delimit the earlier result's input class and give context for the GUE theorem.
+The intended applicability distinction is implicit in the current prose; [R14](paper/revisions.md#r14-state-the-consequence-of-introducing-the-ginibre-adjoints) asks for an explicit statement that the adjoint variables prevent direct application of Theorem 1.2.
 See the [source theorem and normalization](../../audits/literature/Han26/Yin_U001.md#statements) and the [GUE interface](../../audits/literature/Han26/Yin_U001.md#gue-boundary).
 
 In the proof outline in `paper/sections/introduction.tex`, Section 5, pp. 32–34, supplies the hermitization and logarithmic truncation scheme, including the squared-singular-value normalization in (5.1).
