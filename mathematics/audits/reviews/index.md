@@ -191,7 +191,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0186](Yin_R_F0186_v1.md) | Actual L1 liberation gradient: independent review of the nonquadratic remainder | [v1](Yin_R_F0186_v1.md) |
 | [Yin_R_F0187](Yin_R_F0187_v1.md) | Separate whole-chain review of the fixed GUE-pencil candidate; self-reviewed relationship | [v1](Yin_R_F0187_v1.md) |
 | [Yin_R_F0188](Yin_R_F0188_v2.md) | Gaussian tubes and integrable determinant tails | [v1](Yin_R_F0188_v1.md), [v2](Yin_R_F0188_v2.md) |
-| [Yin_R_F0190](Yin_R_F0190_v3.md) | Almost-sure and mean determinant convergence: independent whole-proof review | [v1](Yin_R_F0190_v1.md), [v2](Yin_R_F0190_v2.md), [v3](Yin_R_F0190_v3.md) |
+| [Yin_R_F0190](Yin_R_F0190_v5.md) | Wigner polynomial controls and conditional independent review of affine two-factor Brown limits. | [v1](Yin_R_F0190_v1.md), [v2](Yin_R_F0190_v2.md), [v3](Yin_R_F0190_v3.md), [v4](Yin_R_F0190_v4.md), [v5](Yin_R_F0190_v5.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

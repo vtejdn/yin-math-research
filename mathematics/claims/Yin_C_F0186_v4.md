@@ -2,12 +2,44 @@
 author: Yin
 ---
 
-# Finite-variance Wigner spectral controls and the remaining logarithmic defect
+# Finite-variance Wigner spectral controls, cyclic subclasses and the exact logarithmic defect
 
-This is proof-development material for the [active finite-variance Wigner contract](../tasks/Yin_T_F0012_v3.md#contract).
-It establishes the self-adjoint and Hermitized weak limits, positive logarithmic tail controls, almost-sure regularized potentials and a noncompact-spectrum planar interface under the contract's finite second moments.
-It does not prove the required negative logarithmic-tail estimate or the full nonnormal Brown-measure conclusion.
-No independence across matrix sizes is used.
+This version addresses the broadened [finite-variance Task](../tasks/Yin_T_F0012_v3.md#contract).
+It preserves the separate [completed GUE theorem](Yin_C_F0186_v3.md#statement) without asserting its affine fixed-shift logarithmic conclusion for arbitrary entry laws.
+
+<a id="statement"></a>
+## Exact partial and conditional conclusions
+
+Assume the fixed-law centered finite-second-moment Wigner model of the Task, including complex or real off-diagonal entries, a separate finite-variance diagonal law, and arbitrary dependence across matrix sizes.
+For each fixed scalar noncommutative polynomial \(P\), use the potentials defined in [the model](#model).
+The following assertions hold.
+
+1. Every fixed self-adjoint matrix polynomial has almost-sure weak spectral convergence to its free semicircular law, and its expected spectral measures converge weakly.
+   This includes every fixed Hermitization \((P-z)^*(P-z)\).
+2. Polynomial singular-value measures have the expected power-tail bound (Tail), and all fixed powers of their positive logarithm are uniformly integrable in expectation and have the pathwise tail control (Pos-AS).
+   For degree \(D\ge1\), normalized singular \(p\)-moments converge almost surely for \(0<p<1/(5D)\).
+3. For every fixed \(\delta>0\), \(u_{N,\delta}\to u_\delta\) locally uniformly in the planar variable almost surely, and at each fixed planar parameter in every finite \(L^p\), \(p\ge1\).
+   Some sufficiently slow deterministic \(\delta_N\downarrow0\) gives \(u_{N,\delta_N}\to u\) in local planar \(L^1\) almost surely.
+4. The eigenvalue measures of \(P(W^{(N)})\) are almost surely tight, have an eventual pathwise uniform positive logarithmic second moment, and their logarithmic potentials have eventual uniform local planar \(L^2\) bounds.
+5. On the probability-one control event, the exact almost-sure weak Brown-measure conclusion for \(P\) is equivalent to [the planar defect condition (Defect)](#remaining-defect).
+   The defect condition is not established for arbitrary \(P\).
+6. The full almost-sure weak Brown-measure conclusion does hold for every \(P=g(A C^*C)\), where \(A=A^*\) and \(C\) are fixed scalar noncommutative polynomials and \(g\) is any one-variable complex polynomial.
+   This includes genuinely nonnormal examples such as \(xy^2\).
+
+The almost-sure assertions use one event for each fixed model and polynomial, intersecting the stated countable parameter or test families where necessary.
+No independence between sizes, moment above two, density, or almost-sure operator-norm bound is used.
+No assertion about convergence of all untruncated trace moments, or expectation convergence of an unregularized logarithmic determinant, is included.
+The general nonnormal Task remains open.
+
+## Inputs and provenance
+
+The argument is a project deduction with explicit external concentration inputs and bounded FK multiplicativity.
+The selected source editions and reading limits are [Gui12](../audits/literature/Gui12/readme.md), [War16](../audits/literature/War16/readme.md), and the [bounded finite-tracial FK input](../audits/literature/FK52/Yin_U001.md#bounded-multiplicativity-and-the-finite-tracial-adaptation).
+The Brown logarithmic-potential convention is the one used in [the prior polynomial application](Yin_C_F0186_v1.md#polynomial-application).
+This is not a novelty or priority claim.
+
+<a id="argument"></a>
+## Proof of the stated controls and reductions
 
 ## Source scope
 
@@ -497,10 +529,96 @@ Choosing an extremely small regularizer separately at each finite \(N\) to appro
 The [nilpotent-shift tests](../ledger/Yin_L_F0058_v1.md#failed-shortcuts) already show why weak Hermitized limits and bounded norms alone cannot remove this logarithmic defect.
 They are obstructions to the shortcut, not counterexamples within the present Wigner contract.
 
-## Current limits
+<a id="cyclic-selfadjoint-reduction"></a>
+## An exact nonselfadjoint subclass reduces to the selfadjoint problem
 
-All conclusions above use only the exact fixed-law finite-second-moment Wigner model and are compatible with arbitrary dependence across sizes.
-The full nonnormal negative-logarithmic-tail estimate remains unproved here.
-The Gaussian tube and Gaussian concentration mechanisms from C_F0186 are not being claimed for arbitrary entry distributions.
-These developed controls require the ordinary fixed-material assessment and independent review before adoption as project results.
+Let \(A=A^*\) be a scalar noncommutative polynomial and let \(C\) be any scalar noncommutative polynomial.
+Set
+\[
+ P=A C^*C,\qquad Q=CAC^*.
+ \tag{C1}
+\]
+The polynomial \(Q\) is selfadjoint, whereas \(P\) need not be normal.
+For every finite tuple of Hermitian matrices, put \(U=A(W)C(W)^*\) and \(V=C(W)\).
+Then \(P(W)=UV\), \(Q(W)=VU\), and the determinant identity
+\[
+ \det(zI-UV)=\det(zI-VU)
+ \tag{C2}
+\]
+holds for every \(z\in\mathbb C\), including multiplicities.
+For \(z\ne0\), (C2) follows by taking the two Schur complements of \(\begin{pmatrix}zI&U\\V&I\end{pmatrix}\); polynomial continuity gives \(z=0\).
+Thus the eigenvalue measures of \(P(W)\) and \(Q(W)\) agree exactly for every \(N\), with no inversion or least-singular-value assumption on \(C(W)\).
+
+The free counterpart follows from the same block matrix and bounded FK multiplicativity.
+For bounded \(u,v\) in a finite tracial algebra and \(z\ne0\),
+\[
+ \Delta_{\operatorname{tr}_2\otimes\tau}
+ \left(\begin{pmatrix}z&u\\v&1\end{pmatrix}\right)^{2}
+ =\Delta_\tau(z-uv)
+ =|z|\,\Delta_\tau(1-vu/z)
+ =\Delta_\tau(z-vu).
+ \tag{C3}
+\]
+The triangular factors used in the two Schur decompositions have determinant one.
+For completeness, an elementary upper unitriangular factor \(E(a)\) is similar through \(\operatorname{diag}(t,1)\) to \(E(ta)\), and its determinant is unchanged by this invertible similarity.
+As \(t\downarrow0\), norm continuity of the determinant on invertible elements gives \(\Delta(E(a))=1\); the lower-triangular case is identical.
+Block-diagonal normalization gives the square and the factor \( |z| \) in (C3).
+The potentials in (C3) agree off one point and hence have identical distributional Laplacians, so the Brown measures of \(uv\) and \(vu\) coincide.
+In (C1), this common Brown measure is the spectral measure of the selfadjoint \(Q(s)\).
+
+Consequently (Weak-AS) proves the Task's conclusion for (C1), under the exact finite-variance model and arbitrary cross-size couplings.
+For example \(P(x,y)=xy^2\) reduces to \(Q(x,y)=yxy\).
+This transfer does not require almost-sure operator-norm bounds or moments of order \(2+\varepsilon\).
+The selfadjoint input is supplied by the finite-variance proof above, at exactly the same model and cross-size coupling quantifiers.
+
+The same reduction extends to \(g(P)\) for any one-variable complex polynomial \(g\).
+At finite size its eigenvalue measure is \(g_*\mu_{P(W)}\), by the ordinary spectral mapping identity with algebraic multiplicity.
+For a nonconstant \(g\), write \(g(t)-z=b\prod_{j=1}^r(t-\lambda_j)\), with roots counted with multiplicity.
+For any bounded element \(a\), FK multiplicativity and the Brown logarithmic potential formula give
+\[
+ \log\Delta(g(a)-z)
+ =\log|b|+\sum_{j=1}^r\int\log|w-\lambda_j|\,d\mu_a^{\mathrm{Br}}(w)
+ =\int\log|g(w)-z|\,d\mu_a^{\mathrm{Br}}(w).
+\]
+The equality is valid in the extended real sense, since the positive parts are bounded on the compact Brown support.
+Taking distributional Laplacians proves \(\mu_{g(a)}^{\mathrm{Br}}=g_*\mu_a^{\mathrm{Br}}\); constant \(g\) gives the same identity directly.
+Weak convergence is preserved under this continuous pushforward, because a bounded continuous test function composed with \(g\) is still bounded and continuous.
+
+## Retention and scope
+
+The proof retains the finite-variance spectral and potential arguments developed for the reactivated Task, together with the exact cyclic reduction.
+Their common core is polynomial spectral convergence; an additional Claim identity is unnecessary for these variants.
+The intermediate singular-value method is separately reusable and has its own [Claim](Yin_C_F0187_v1.md#statement).
+No Gaussian small-ball estimate is transferred to arbitrary product measures here.
+
+## Current assessment
+[Selected decision](#decision-finite-variance-reviewed)
+
+## Assessment history
+
+### Decision finite-variance-candidate
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T00:39 |
+| status | open |
+| reason | The complete partial theorem and exact defect equivalence are retained for independent mathematical review; the general nonnormal defect is explicitly outside the asserted unconditional conclusions. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Partial theorem and equivalence](#statement) | Finite-variance spectral controls, regularized potentials, exact remaining defect, and the cyclic nonnormal subclass. |
+
+### Decision finite-variance-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T00:46 |
+| status | proved |
+| reason | Independent whole-proof inspection found no gap in the six stated assertions under their accepted external inputs. The general nonnormal planar defect is explicitly not asserted and the Task remains active. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact statement](#statement) | All six exact partial and conditional conclusions, including the unconditional cyclic nonnormal subclass. |
+| argument | [Complete argument](#argument) | The complete finite-variance spectral, logarithmic, planar and cyclic argument. |
+| review | [Independent whole-proof finding](../audits/reviews/Yin_R_F0190_v4.md#finite-variance-controls) | Exact statement and complete argument, with explicit source and scope limits. |
 
