@@ -136,3 +136,5 @@ The large fibers above show why a generic finite-to-one parametrization of the R
 They do not exclude a count using the independent Wigner entries or the original product-inverse shift structure.
 No such low-matching estimate, full nonsymmetric-shift floor, or propagation to general matrix-coefficient pencils is established in this comparison.
 The responsible route may test that concrete complement without treating it as necessary for every possible proof of the original Tasks.
+The subsequent [reviewed nonsymmetric-shift argument](../claims/Yin_C_F0194_v5.md#in-probability-floor) controls the low-matching event on its tiny-full-determinant intersection through internal-row exposure and a second-smallest floor.
+It does not prove that the unrestricted low-matching mean vanishes, and the large-fiber counterexample above remains a valid obstruction to the proposed finite-to-one argument.

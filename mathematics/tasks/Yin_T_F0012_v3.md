@@ -52,6 +52,8 @@ The [reviewed many-index and finite-radius reduction](../claims/Yin_C_F0194_v3.m
 Its polynomial-shift bound retains the mean probability of low-matching actual minors, which has not been controlled for the original product-inverse shift.
 The [reviewed unary refinement](../claims/Yin_C_F0194_v4.md#decision-unary-reviewed) controls an additional low-matching branch with many effective unary coefficients, including the precise distinction between two-point and larger-support laws.
 The remaining joint event is explicit, and this restricted estimate supplies no completion of the present full-sequence Brown contract.
+The [reviewed nonsymmetric-shift probability floor](../claims/Yin_C_F0194_v5.md#decision-nonsymmetric-floor-reviewed) now controls that tiny-ratio low-matching intersection for real Wigner inputs, using an arbitrary-power second-smallest floor and internal-row exposure.
+Its least-value failure probability tends to zero but is not summable as stated; complex input laws, general polynomial propagation and the present full-sequence almost-sure conclusion remain outside this result.
 
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) proves this full Brown-measure conclusion for every scalar polynomial when the entries have the exact normalized real Gaussian laws.
 It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.

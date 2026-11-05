@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Review the nonsymmetric-shift probability-floor candidate and test its carrier determinant consequences. |
+| priority | Test the reviewed nonsymmetric-shift probability floor's carrier determinant consequences and the remaining complex-input and almost-sure convergence gaps. |
 
 ## Mechanism and accepted controls
 
@@ -35,10 +35,13 @@ The [reviewed cofactor mechanism](../claims/Yin_C_F0194_v1.md#decision-isolated-
 The [reviewed corank-tail theorem](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed) now excludes full corank at least two with any prescribed polynomial failure rate, including the original three-factor product at each fixed nonzero parameter.
 The remaining full three-factor assembly still needs the corank-one, well-conditioned and clustered-minor bottom branches.
 The [reviewed many-index theorem](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) supplies a new probability reduction for those branches using independent rectangular blocks, coarse right-vector spread and finite-radius quadratic matching.
-Its [exact polynomial-shift inequality](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) retains the mean low-matching probability as the next unproved input.
+Its [exact polynomial-shift inequality](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) retains a mean low-matching probability; the subsequent floor proof controls its tiny-ratio intersection instead of requiring that whole mean to vanish.
 The [reviewed unary refinement](../claims/Yin_C_F0194_v4.md#decision-unary-reviewed) additionally controls many effective diagonal or linear terms, while retaining the joint tiny-ratio, low-matching and low-unary-count event.
 Its two-point-law cancellation and conditional Rademacher obstruction are explicit.
 The [method comparison and counterexamples](../ledger/Yin_L_F0066_v1.md) explain why neither a deterministic symmetric-part floor nor generic finite-to-one Riccati inversion can replace that random input.
+The [reviewed nonsymmetric-shift floor](../claims/Yin_C_F0194_v5.md#decision-nonsymmetric-floor-reviewed) now gives a polynomial least-singular-value floor in probability for one real Wigner matrix plus an arbitrary independent polynomially bounded complex shift.
+Its arbitrary-power second-smallest floor, internal-row cofactor estimate and isolated-minor assembly control the previously uncovered low-matching intersection.
+The remaining main error is not summable, so this result supplies no full-sequence almost-sure Brown conclusion.
 
 ## Relationship to the Gaussian routes
 
@@ -63,9 +66,8 @@ The [source frontier and counterexamples](../ledger/Yin_L_F0061_v1.md) prevent u
 No counterexample to the exact general Task has been established.
 The [bounded alternative-mechanism comparison](../ledger/Yin_L_F0063_v1.md) found no supported replacement in its inspected scope.
 It records why sharp positive exponential moments, smoothing without spectral stability, and coefficient products without new independent noise do not close the current gap.
-The [continuing internal-row argument](../drafts/Yin_D_F0025.md#in-probability-floor) now contains a complete candidate probability floor for arbitrary polynomially bounded nonsymmetric shifts.
-It combines uncovered-diagonal exclusion, a one-row-deleted kernel estimate, a second-smallest singular-value floor and the accepted isolated-minor bound.
-That new chain has not received independent review or a fixed proved assessment; the next step is to review its exact interfaces before adopting its probability conclusion.
+The [fixed internal-row and probability-floor argument](../claims/Yin_C_F0194_v5.md#in-probability-floor) has complete independent review and an adopted assessment.
+The next assembly uses its probability conclusion for real-input carrier determinants, while complex input laws, general matrix coefficients and full-sequence Brown convergence retain their distinct obligations.
 The [three-factor conditional assembly](../drafts/Yin_D_F0011.md#conditional-three-factor-limsup) distinguishes the determinant upper-limit consequence from the stronger full-sequence almost-sure Brown obligation.
 The same Draft retains the separate [fresh-border cofactor method](../drafts/Yin_D_F0011.md#fresh-two-border-rewrite), its uniform polynomial-pencil bulk estimate and the remaining relative-normalization gaps.
 The [reviewed complete GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) closes the real-Gaussian Brown submodel and proves arbitrary-coefficient affine upper limits, all-even logarithmic limits and the exact odd-witness classification.

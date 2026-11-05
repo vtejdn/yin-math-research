@@ -2,14 +2,42 @@
 author: Yin
 ---
 
-# Low-matching symmetrized cofactors of actual nonsymmetric Wigner minors
+# Polynomial second-value floors and in-probability invertibility for real Wigner shifts
 
-This continuing investigation addresses the mean low-matching probability left explicit in [the reviewed cofactor averaging theorem](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence).
-The first target is a normalized real Wigner matrix plus an independent polynomially bounded complex nonsymmetric shift; the original three-factor product-inverse shift is a more structured possible specialization.
-The threshold exponent must be chosen after the shift scale, as the actual-minor examples in [D_F0011](Yin_D_F0011.md#matching-threshold-tests) demonstrate.
-The [retained low-matching structure and large Riccati fibers](../ledger/Yin_L_F0066_v1.md#low-matching-structure) rule out treating the cofactor map as uniformly finite-to-one.
-The probability and approximation deductions below are proof development without independent review.
-They use actual independent-coordinate constraints to exclude a large uncovered cofactor diagonal and isolate the remaining few-row-and-column concentration.
+This version combines internal-row cofactor exposure, an omitted-row kernel estimate, and the existing many-index matching argument for a real Wigner matrix plus an arbitrary complex nonsymmetric shift.
+The earlier fixed versions retain their complete mathematics and actual review scopes.
+The unary estimates of C_F0194_v4 are not proof inputs here.
+The result is a project deduction without a novelty or priority claim.
+Its [independent whole-proof review](../audits/reviews/Yin_R_F0200_v5.md#finding) covers the complete new argument and its declared input interfaces.
+
+<a id="statement"></a>
+## Exact main statement and subsidiary assertions
+
+Fix real laws xi,zeta with E xi=0, E xi^2=1, and E|zeta|^2 finite.
+For every N, let X_N be real symmetric, with independent strict upper entries having law xi, independent diagonal entries having law zeta, these two families independent, and mirrored lower entries.
+Put W_N=X_N/sqrt(N).
+For every gamma,B>0 there are fixed A,C_B,C,N_0, depending only on the laws,gamma,B, such that
+\[
+ \sup_{\max_{ij}|F_{ij}|\le N^\gamma}
+ \mathbb P\{s_{\min}(W_N+F)\le N^{-A}\}
+ \le C_BN^{-B}+C\sqrt{\log(2+N)}\,N^{-1/18},
+ \qquad N\ge N_0.
+ \tag{Candidate-floor}
+\]
+The supremum is over deterministic complex shifts with no symmetry condition, and the shift may vary with N.
+For an independent random F_N the same bound holds on its polynomial entry guard; the probability of the complementary guard is added for the unguarded event.
+The estimate requires neither a density nor a moment above two.
+Its displayed high-matching term tends to zero and is not claimed summable over all sizes.
+No independence between physical sizes is needed for this marginal estimate.
+
+This statement also includes the following subsidiary assertions at their full displayed hypotheses and normalizations.
+
+- The [uncovered-diagonal exclusion](#bulk-diagonal-statement) for actual minors with m in [N/2,N], a cover of size less than 2r_N with r_N log(N)=o(N), and a fine threshold selected after the shift, norm and symmetric-floor exponents.
+- The [hub and adjugate approximation](#few-hub-consequence) and [small minor determinant ratio and singular value](#small-determinant-minor), with their explicit symmetric-part and norm guards.
+- The [one-omitted-row kernel anti-concentration](#one-row-kernel-ac), followed by [raw and normalized polynomial second-smallest floors](#second-smallest-floor) outside arbitrary polynomial failure probabilities.
+- The [complete parameter-ordered assembly](#in-probability-floor) of the main bound from the fixed isolated-minor and matching inputs.
+
+No almost-sure full-sequence least-value floor, summability of the displayed main error, general matrix-coefficient pencil theorem or Brown-measure conclusion is part of this statement.
 
 <a id="bulk-diagonal-statement"></a>
 ## Actual-minor exclusion of a large uncovered diagonal
@@ -53,21 +81,22 @@ Consequently, except with the displayed probability, low matching at the fine th
 This is an actual random-minor statement and applies to Rademacher laws as well as laws with three or more support points.
 It does not rely on oscillation of the exposed full-matrix row's unary diagonal terms.
 
-## Exact fixed inputs and development scope
+<a id="argument"></a>
+## Complete nonsymmetric-shift argument and exact fixed inputs
 
-The [reviewed C_F0188_v2 symmetric-shift floor](../claims/Yin_C_F0188_v2.md#statement) is applied only to sym B, where B is an internal principal minor of D.
+The [reviewed C_F0188_v2 symmetric-shift floor](Yin_C_F0188_v2.md#statement) is applied only to sym B, where B is an internal principal minor of D.
 The random part of sym B is still the real Wigner input, and its deterministic shift is genuinely complex symmetric.
 It is not used as a floor for B or D with a nonsymmetric shift.
 The raw-to-normalized exponents and union over actual internal minors are checked below.
 
-The [fixed linear-codimension distance proof](../claims/Yin_C_F0194_v3.md#linear-codimension) supplies an exp(-cp) bound for independent real coordinates near any fixed complex affine subspace with complex codimension at least p/2.
+The [fixed linear-codimension distance proof](Yin_C_F0194_v3.md#linear-codimension) supplies an exp(-cp) bound for independent real coordinates near any fixed complex affine subspace with complex codimension at least p/2.
 Its constants are uniform over the subspace and center and require only the fixed centered variance-one law xi.
 This is the exact accepted input used after internal-row exposure.
 The algebraic row identities and singular-value deletion argument are supplied below.
 No independence of adaptive covers, randomly selected coefficient vectors, or different minor events is assumed.
 
-This is proof development for Yin, with ordinary direct checking and without independent review of the new probability or matrix approximation assertions.
-The original contracts remain unresolved, and no unconditional high-matching assertion is made.
+The new probability, matrix approximation and second-value arguments are supplied completely below and covered by the independent review.
+No unconditional high-matching assertion is used.
 
 <a id="symmetric-floor-guard"></a>
 ## A simultaneous symmetric-part guard for internal minors
@@ -241,7 +270,7 @@ For an exponent L_0 selected from xi,zeta,gamma and the desired failure exponent
 \[
  s_{\min}(\operatorname{sym}D)\ge N^{-L_0}.
 \]
-The exact [cofactor identity](../claims/Yin_C_F0194_v1.md#cofactor-identity)
+The exact [cofactor identity](Yin_C_F0194_v1.md#cofactor-identity)
 \[
  D^TQ=(\operatorname{sym}D)A
 \]
@@ -266,7 +295,7 @@ The implication does not turn a structured row of Q into a near-kernel vector of
 <a id="small-determinant-minor"></a>
 ## The same event forces a very small minor singular value
 
-The main agent identified a further exact consequence of the same hub approximation.
+There is a further exact consequence of the same hub approximation.
 The algebraic identity
 \[
  DQD^T=(\det D)\operatorname{sym}D
@@ -308,7 +337,7 @@ The remaining spectral alternative is a cluster of small directions, rather than
 <a id="one-row-kernel-ac"></a>
 ## Anti-concentration for a kernel with one omitted row
 
-The [fixed counting class](../claims/Yin_C_F0194_v1.md#counting-class) and [complete profile count](../claims/Yin_C_F0194_v1.md#structured-vector-counting) explicitly allow at least m-C_0 prescribed row constraints.
+The [fixed counting class](Yin_C_F0194_v1.md#counting-class) and [complete profile count](Yin_C_F0194_v1.md#structured-vector-counting) explicitly allow at least m-C_0 prescribed row constraints.
 The omitted set need not be consecutive, and its polynomial number of choices is included in the count.
 In particular, equation (26) there loses at most the polynomial factor m^(D_0(C_0+1)) when those constraints are omitted, before the high-product profile cancellation.
 This is a proof-scope fact from that fixed module, rather than an assertion that the statement of C_F0194_v2 already includes the rectangular conclusion below.
@@ -331,7 +360,7 @@ Outside a measurable event of probability at most C exp(-cm), the following hold
 The independent copies in this small-ball probability have the law xi_N and are separate from D.
 
 Here is the complete reduction to the exact fixed counting class.
-If a unit u violating (One-row-kernel-AC) exists, the accepted dimension-two linear inverse theorem and the [fixed rounding interface](../claims/Yin_C_F0194_v1.md#inverse-rounding) give a rational progression candidate w with norm between one half and two and coordinate errors at most C m^(-a).
+If a unit u violating (One-row-kernel-AC) exists, the accepted dimension-two linear inverse theorem and the [fixed rounding interface](Yin_C_F0194_v1.md#inverse-rounding) give a rational progression candidate w with norm between one half and two and coordinate errors at most C m^(-a).
 The progression rank, its polynomial-size bound, its exceptional O(m^epsilon) coordinates and the leading entropy constant depend on b,K and the uniform (AC) constants, but not on a.
 Enlarge the fixed structural constant C_0 to exceed K+2 and one, and absorb the harmless fixed multiplier in the precision bound.
 For every j except l,
@@ -349,7 +378,7 @@ Conditioning on diagonal values is legitimate because that fixed count is unifor
 <a id="second-smallest-floor"></a>
 ## A polynomial second-smallest floor from one rectangular row deletion
 
-The preceding one-row kernel statement gives the following complete candidate deduction.
+The preceding one-row kernel statement gives the following deduction.
 Let X_N be a raw real symmetric Wigner matrix with fixed centered variance-one off-diagonal law xi and fixed real finite-second-moment diagonal law zeta.
 For every gamma,B>0 there are fixed A_2,C,N_0 such that, uniformly over deterministic complex F with max|F_ab|<=N^gamma,
 \[
@@ -435,7 +464,7 @@ For an independent random F the uniform deterministic bound may be integrated on
 <a id="cluster-assembly"></a>
 ## Consequence for the remaining cluster branch
 
-If the candidate second-floor deduction is confirmed, apply it simultaneously to the actual size-(N-1) principal minors, with polynomial failure exponent enlarged to absorb their union.
+Apply the second-floor deduction simultaneously to the actual size-(N-1) principal minors, with polynomial failure exponent enlarged to absorb their union.
 The original normalization remains sqrt(N); multiplying a principal minor by sqrt(N) gives a raw size-(N-1) matrix and only a fixed exponent slack in its shift bound.
 It then supplies a polynomial lower bound for every t_2(D_i) outside arbitrarily small polynomial failures.
 The low-matching implication (Small-minor-singular-value), at a sufficiently fine fixed threshold, makes t_1(D_i) as polynomially small as desired.
@@ -443,27 +472,12 @@ For A_i nonzero and D_i singular, it has exactly corank one and is already an is
 For invertible D_i, choosing that smallness after the t_2-floor exponent gives both absolute and relative hypotheses of the reviewed C_F0194_v1 isolated-minor estimate.
 Thus a low-matching actual minor can be treated on its tiny-full-determinant intersection using that fixed estimate, rather than by counting the entire Riccati fiber.
 
-This assembly is not yet a fixed reviewed statement.
-It still needs a complete parameter-ordered original-shift probability calculation, including the high-matching term and the precise G_i radius, before any least-singular-value consequence is adopted.
+The complete parameter-ordered probability calculation follows.
 The high-matching MNV term tends to zero at a polynomially growing matching size, but is not summable merely from the source exponent.
-Consequently the immediate possible outcome is an in-probability floor for the original single-Wigner nonsymmetric-shift pilot, not an arbitrary-power full floor or the full original Brown-measure theorem.
+The resulting main floor is an in-probability assertion at the displayed single-Wigner nonsymmetric-shift scope.
 
 <a id="in-probability-floor"></a>
-## Complete candidate in-probability floor assembly
-
-Assuming the new arguments in this Draft pass their required review, they yield the following explicit candidate statement.
-For the normalized real Wigner model W_N=X_N/sqrt(N) with the fixed laws xi,zeta above, every gamma,B>0 admits fixed A,C,N_0 such that
-\[
- \sup_{\max_{ij}|F_{ij}|\le N^\gamma}
- \mathbb P\{s_{\min}(W_N+F)\le N^{-A}\}
- \le C_BN^{-B}+C\sqrt{\log(2+N)}\,N^{-1/18},
- \qquad N\ge N_0.
- \tag{Candidate-floor}
-\]
-The supremum is over deterministic complex shifts with no symmetry condition.
-For an independent random F_N, the same bound holds on its polynomial entry guard, and its guard-failure probability is added for the unguarded event.
-The estimate is uniform in the shift and requires neither a density nor a moment above two.
-Its displayed high-matching term tends to zero and is not claimed summable over all sizes.
+## Complete in-probability floor assembly
 
 Here is the full parameter order and probability calculation.
 Fix the laws, gamma and requested B, and first work with deterministic F in its entry bound.
@@ -473,7 +487,7 @@ The finite-second-moment raw-entry cutoff and the bound ||F||<=N^(gamma+1) give 
  \qquad M=W_N+F.
 \]
 Choose the cutoff exponent larger than (B+4)/2 and then K larger than that exponent plus one half and gamma+1; this is exactly the elementary norm calculation in C_F0194_v3.
-The [reviewed C_F0194_v2 corank tail](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed), after multiplying M by sqrt(N), also bounds P(rank M<=N-2) by C_B N^(-B-2).
+The [reviewed C_F0194_v2 corank tail](Yin_C_F0194_v2.md#decision-corank-tail-reviewed), after multiplying M by sqrt(N), also bounds P(rank M<=N-2) by C_B N^(-B-2).
 Thus the accepted many-index estimate applies to the remaining event.
 
 Use (Normalized-second-floor) with a failure exponent large enough to sum over all N actual principal minors D_i.
@@ -485,7 +499,7 @@ Consequently there is a fixed L_2>0 and an exceptional probability C_B N^(-B-1) 
 \]
 This is a use of the new complete second-floor proof above, not an expansion of the older intermediate-singular-value statement.
 
-Apply the fixed [raw isolated-minor theorem](../claims/Yin_C_F0194_v1.md#statement) to the full raw matrix sqrt(N)M, with shift entry exponent gamma+1 and failure exponent B+2.
+Apply the fixed [raw isolated-minor theorem](Yin_C_F0194_v1.md#statement) to the full raw matrix sqrt(N)M, with shift entry exponent gamma+1 and failure exponent B+2.
 Denote its fixed determinant-ratio exponent by A_0 and its absolute and relative isolation exponent by L_iso.
 These are selected before the fine low-matching thresholds.
 
@@ -555,8 +569,62 @@ The definition of psi in C_F0194_v3 gives the displayed rate in (Candidate-floor
 
 For an independent random F_N, condition on F_N within this dimension, integrate the uniform estimate on max|F_ab|<=N^gamma, and add the complementary guard probability.
 No complete cross-dimensional shift sequence is conditioned on and no independence between physical sizes is needed.
-This completes the candidate assembly at its explicitly stated single-Wigner nonsymmetric-shift scope.
+This completes the assembly at its explicitly stated single-Wigner nonsymmetric-shift scope.
 
-The second-floor and uncovered-diagonal arguments and their assembly remain proof development until an applicable fresh mathematical review is completed.
-They are not an assertion that all original matrix coefficients can be reduced to one independent Wigner plus a shift.
-The full original Task contracts retain that separate propagation problem.
+The new second-floor, uncovered-diagonal and in-probability floor arguments have independent review at this exact fixed version.
+No reduction of arbitrary matrix-coefficient pencils to one independent Wigner plus a shift is used or asserted.
+
+
+## Current assessment
+[Selected decision](#decision-nonsymmetric-floor-reviewed)
+
+## Assessment history
+
+### Decision nonsymmetric-floor-candidate
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T11:11 |
+| status | open |
+| reason | Complete candidate proofs are fixed for fresh review of actual-minor uncovered-diagonal exclusion, hub and small-minor consequences, one-omitted-row kernel anti-concentration, arbitrary-power second-smallest floors and the uniform in-probability least-singular-value bound. The main error is not asserted summable and no Brown or general matrix-pencil completion is claimed. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact main and subsidiary assertions](#statement) | Real fixed finite-second-moment Wigner laws, arbitrary polynomially bounded deterministic complex nonsymmetric shifts, independent random-shift guards, actual-minor dimensions and normalization, full second-smallest and in-probability floor scope. |
+| argument | [Complete candidate argument](#argument) | Internal-row exposure and cover union, hub rank and minor-ratio consequences, one-omitted-row inverse-concentration counting, measurable rectangular normals, negative-second-moment floor, and full norm/rank/threshold assembly with exact raw scaling. |
+| dependency | [Symmetric-part floors](Yin_C_F0188_v2.md#statement) | Only floors for genuinely complex symmetric shifts of real Wigner matrices, applied to sym D and sym B after the displayed raw-to-normalized substitutions and simultaneous-minor unions. |
+| dependency | [Exact structured class](Yin_C_F0194_v1.md#counting-class) | Rational progression candidates and at least m-C_0 prescribed row constraints, allowing the new one-row-omitted consequence without expanding the older theorem statement. |
+| dependency | [Complete nonsymmetric-offset count](Yin_C_F0194_v1.md#structured-vector-counting) | The fixed profile count, uniform deterministic diagonals, polynomial entry guards, omitted-row choices, and uniform anti-concentration constants of the independently truncated real laws. |
+| dependency | [Linear inverse and rounding interface](Yin_C_F0194_v1.md#inverse-rounding) | Exact dimension-two linear inverse-theorem output and rational rounding, at fixed structural constants before the fine precision; the new omitted-row residual check is supplied here. |
+| dependency | [Accepted linear source conventions](../audits/literature/Ngu12a/Yin_U001.md#ngu12a-u001) | Only arXiv:1105.5733v1 Condition 1 and Theorem 1.3 for real scalar laws and dimension-two coefficients, at its recorded original-proof inspection limits. |
+| dependency | [Isolated-minor probability theorem](Yin_C_F0194_v1.md#statement) | The raw determinant-ratio estimate on exactly corank-one or quantitatively isolated principal minors, invoked only after the new absolute and relative gap hypotheses have been established. |
+| dependency | [Fixed linear-codimension distance](Yin_C_F0194_v3.md#linear-codimension) | The exp(-cp) bound uniform over complex affine subspaces of codimension at least p/2 and all centers, applied after internal-row and cover-coordinate conditioning. |
+| dependency | [Accepted many-index averaging](Yin_C_F0194_v3.md#spread-and-average) | Only its pointwise many-index implication and probability average under the stated norm and rank guards, without a union loss over omitted indices. |
+| dependency | [Accepted finite-radius matching](Yin_C_F0194_v3.md#two-copy-matching) | Only the normalized real-law cofactor matching bound with psi(r), complete two-copy adaptation and the coefficient scale h/N; no unary result of v4 is used. |
+| dependency | [Polynomial norm calculation](Yin_C_F0194_v3.md#polynomial-shift-proof) | Only the finite-second-moment raw-entry union bound and normalized polynomial norm guard. |
+| dependency | [Reviewed corank guard](Yin_C_F0194_v2.md#decision-corank-tail-reviewed) | Only the full corank-at-least-two tail used in the main assembly after multiplying the normalized matrix by sqrt(N); the new second-value argument is supplied independently here. |
+
+### Decision nonsymmetric-floor-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T11:17 |
+| status | proved |
+| reason | Fresh independent whole-proof review verifies the complete actual-minor, omitted-row and rectangular-normal deductions and their parameter-ordered assembly against every declared input. This establishes the uniform in-probability least-singular-value bound and the stated arbitrary-power second-smallest floors for real Wigner inputs with arbitrary complex nonsymmetric polynomial shifts, without summability or a broader Task conclusion. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact main and subsidiary assertions](#statement) | Real fixed finite-second-moment Wigner laws, arbitrary polynomially bounded deterministic complex nonsymmetric shifts, independent random-shift guards, actual-minor dimensions and normalization, full second-smallest and in-probability floor scope. |
+| argument | [Complete candidate argument](#argument) | Internal-row exposure and cover union, hub rank and minor-ratio consequences, one-omitted-row inverse-concentration counting, measurable rectangular normals, negative-second-moment floor, and full norm/rank/threshold assembly with exact raw scaling. |
+| dependency | [Symmetric-part floors](Yin_C_F0188_v2.md#statement) | Only floors for genuinely complex symmetric shifts of real Wigner matrices, applied to sym D and sym B after the displayed raw-to-normalized substitutions and simultaneous-minor unions. |
+| dependency | [Exact structured class](Yin_C_F0194_v1.md#counting-class) | Rational progression candidates and at least m-C_0 prescribed row constraints, allowing the new one-row-omitted consequence without expanding the older theorem statement. |
+| dependency | [Complete nonsymmetric-offset count](Yin_C_F0194_v1.md#structured-vector-counting) | The fixed profile count, uniform deterministic diagonals, polynomial entry guards, omitted-row choices, and uniform anti-concentration constants of the independently truncated real laws. |
+| dependency | [Linear inverse and rounding interface](Yin_C_F0194_v1.md#inverse-rounding) | Exact dimension-two linear inverse-theorem output and rational rounding, at fixed structural constants before the fine precision; the new omitted-row residual check is supplied here. |
+| dependency | [Accepted linear source conventions](../audits/literature/Ngu12a/Yin_U001.md#ngu12a-u001) | Only arXiv:1105.5733v1 Condition 1 and Theorem 1.3 for real scalar laws and dimension-two coefficients, at its recorded original-proof inspection limits. |
+| dependency | [Isolated-minor probability theorem](Yin_C_F0194_v1.md#statement) | The raw determinant-ratio estimate on exactly corank-one or quantitatively isolated principal minors, invoked only after the new absolute and relative gap hypotheses have been established. |
+| dependency | [Fixed linear-codimension distance](Yin_C_F0194_v3.md#linear-codimension) | The exp(-cp) bound uniform over complex affine subspaces of codimension at least p/2 and all centers, applied after internal-row and cover-coordinate conditioning. |
+| dependency | [Accepted many-index averaging](Yin_C_F0194_v3.md#spread-and-average) | Only its pointwise many-index implication and probability average under the stated norm and rank guards, without a union loss over omitted indices. |
+| dependency | [Accepted finite-radius matching](Yin_C_F0194_v3.md#two-copy-matching) | Only the normalized real-law cofactor matching bound with psi(r), complete two-copy adaptation and the coefficient scale h/N; no unary result of v4 is used. |
+| dependency | [Polynomial norm calculation](Yin_C_F0194_v3.md#polynomial-shift-proof) | Only the finite-second-moment raw-entry union bound and normalized polynomial norm guard. |
+| dependency | [Reviewed corank guard](Yin_C_F0194_v2.md#decision-corank-tail-reviewed) | Only the full corank-at-least-two tail used in the main assembly after multiplying the normalized matrix by sqrt(N); the new second-value argument is supplied independently here. |
+| review | [Independent complete nonsymmetric-floor review](../audits/reviews/Yin_R_F0200_v5.md#finding) | Main and every subsidiary assertion, entire new argument, all eleven declared dependency interfaces, normalizations, measurable conditioning, parameter order and limitations; no unresolved mathematical or source-applicability gap in this exact scope. |
