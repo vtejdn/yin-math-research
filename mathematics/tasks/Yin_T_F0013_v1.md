@@ -54,6 +54,13 @@ They may be studied as strengthenings only with explicit admissible hypotheses: 
 This Task concerns determinant approximation, separately from the [F0012 full-sequence Brown-measure contract](Yin_T_F0012_v3.md#contract).
 The [exact linearization transfer](../ledger/Yin_L_F0061_v2.md#linearization-transfer) explains its sufficient relationship to the [separate scalar determinant question](Yin_T_F0014_v1.md#contract).
 
+## Public literature boundary
+
+The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.
+It does not certify that this precise finite-variance, fixed-parameter, arbitrary-coupling limsup formulation has already been explicitly named as a public open problem.
+The distinction between public source status and the repository's internal results is preserved there.
+The contract and selected lifecycle decision are unchanged by this literature assessment.
+
 ## Current decision
 
 [Selected decision](#decision-separated-determinant-objective)

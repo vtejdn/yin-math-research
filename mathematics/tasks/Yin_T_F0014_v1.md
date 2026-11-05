@@ -50,6 +50,13 @@ The [finite-variance controls and cyclic spectral subclasses](../claims/Yin_C_F0
 The [conditional complex symmetric polynomial classes](../claims/Yin_C_F0186_v6.md#statement) give stronger fixed-parameter logarithmic convergence for their underlying displayed polynomials; their arbitrary outer polynomial images are asserted there only at the Brown-measure level.
 No broader determinant conclusion is imported from those spectral results.
 
+## Public literature boundary
+
+The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.
+It does not certify that this precise finite-variance, fixed-parameter, arbitrary-coupling limsup formulation has already been explicitly named as a public open problem.
+The distinction between public source status and the repository's internal results is preserved there.
+The contract and selected lifecycle decision are unchanged by this literature assessment.
+
 ## Current decision
 
 [Selected decision](#decision-separated-determinant-objective)

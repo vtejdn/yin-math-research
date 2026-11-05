@@ -11,7 +11,7 @@ This is a direct reading of Yi Han's [arXiv v1](readme.md#yin-v1), including Sec
 The Gaussian argument for Theorem 1.2 closes for every fixed holomorphic polynomial of arbitrary degree.
 The non-Gaussian argument for Theorem 1.4 closes under its stated bounded-density and all-moments hypotheses using the fixed-shift form of Lemma 6.11.
 The proof also contains a restricted-space adjoint identity and probability displays that need the qualifications below.
-These qualifications leave a separate least-singular-value problem for general GUE polynomials.
+The general GUE application requires a separate least-singular-value estimate.
 The inspection on 2026-11-04T08:28 UTC checked the paper's mathematics and the applicability of the named external results.
 It did not independently review the proofs of all cited works.
 
@@ -168,12 +168,22 @@ The auxiliary identity blocks contribute none at small thresholds, and the measu
 Use \(\sqrt{x}\) in the comparison when \(x\) is a squared-singular-value cutoff.
 The bad norm event contributes its probability when counts are averaged.
 
-After truncation and recentering, each normalized entry contributes \(O_{p,z}(N^{-1/10})\) in operator norm and the variance parameter is bounded.
-Brailovskaya–van Handel, Theorem 2.10, compares resolvents with a Gaussian having the same full second-order law of the entries.
+Write \(B_{\ell ab}=\left(\begin{smallmatrix}0&H_\ell(z)\otimes E_{ab}\\0&0\end{smallmatrix}\right)\) and let \(\xi_{\ell ab}\) be the centered, standardized truncated entries before division by \(\sqrt N\).
+The Hermitian summand \(Z_{\ell ab}=N^{-1/2}(\xi_{\ell ab} B_{\ell ab}+\overline{\xi_{\ell ab}}B_{\ell ab}^*)\) has norm \(O_{p,z}(N^{-1/10})\).
+Since \(B_{\ell ab}^2=0\), its expected square is \(N^{-1}(B_{\ell ab}B_{\ell ab}^*+B_{\ell ab}^*B_{\ell ab})\).
+Summing over \(a,b\) cancels \(1/N\) in both diagonal blocks, so the variance parameter \(\|\sum_{\ell,a,b}\mathbb E Z_{\ell ab}^2\|\) is bounded at fixed \(z\).
+Brailovskaya–van Handel's resolvent comparison then gives an error \(O_{p,z}(N^{-1/10}(\Im w)^{-4})\) with the full entry covariance matched. [Brailovskaya–van Handel, arXiv v3, Theorem 2.10](https://arxiv.org/pdf/2201.05142v3#page=12).
 If truncation changes the pseudovariance, one can use the actual \(\rho_N\) of the standardized truncated law in Lemma 6.11, since \(|\rho_N|\le1\).
 Comparison with a circular Gaussian is then justified at each fixed \(z\) by the covariance-map calculation below.
-Choosing the mesoscopic cutoff sufficiently slowly absorbs both the truncation error and the factors \((\Im w)^{-4}\) and \((\Im w)^{-3}\).
-This yields (6.4), which combines with Theorem 6.4 and the preceding logarithmic argument to give Theorem 1.4. [Brailovskaya–van Handel, Theorem 2.10 and Lemma 8.3](https://arxiv.org/abs/2201.05142).
+For \(0<b<\min(c_4,1/40,1/3)\) the two comparison errors \(O_{p,z}(N^{-1/10}\eta^{-4}+N^{-1}\eta^{-3})\) are bounded for \(N^{-b}\le\eta\le1\).
+The truncation coupling contributes \(O_{p,z,\xi}(N^{-100}(\eta^{-2}+\eta^{-1}))\), using the resolvent identity on the coupling event and the resolvent norm on its complement.
+Thus (6.9) gives \(|\Im m_{\xi,N}^z(i\eta)|\le C_{p,z,\xi}\eta^{-q}\) in this range, with \(0<q<1\).
+The corrected interval-mass inequality below gives \(O_{p,z,\xi}(t^{1-q})\) for \(N^{-b}\le t\le1\).
+In (6.7), take the singular-value threshold \(\sqrt{x}\), so the Hermitization interval has radius \(C_1\sqrt{x}\).
+For \(0<b'<b\) and \(N^{-2b'}\le x\le x_0(p,z,\xi)\) this radius lies in \([N^{-b},1]\) for all sufficiently large \(N\).
+The transferred expected mass is bounded by a constant times \(x^{(1-q)/2}\), plus the bad norm event probability, which is absorbed by taking its polynomial decay exponent larger than \(b'(1-q)\).
+This gives (6.4) on the required range.
+This bound, Theorem 6.4 and the logarithmic cutoff argument give Theorem 1.4 at its stated hypotheses.
 
 <a id="local-corrections"></a>
 ## Local corrections to the printed argument
@@ -182,19 +192,33 @@ This yields (6.4), which combines with Theorem 6.4 and the preceding logarithmic
   If \(\mathcal H\) is only invariant under \(L_T:A\mapsto TA\), its adjoint in \(\mathcal H\) is \(A\mapsto P_{\mathcal H}(T^*A)\).
   Take \(T=E_{12}\) in \(M_2(\mathbb C)\) and \(\mathcal H=\operatorname{span}(E_{11})\).
   Then \(L_T|_{\mathcal H}=0\), whereas \(T^*E_{11}=E_{21}\).
-  Equations (4.17) and (4.23) apply on the full Hilbert–Schmidt space \(\operatorname{End}(Z)\), where the printed formula does hold.
+  In (4.17) and (4.23) take the full Hilbert–Schmidt space \(\operatorname{End}(Z)\) for the covariance operators.
+  For \(L_i=L_{R_i^*}\) the operator \(\sum_i L_i P_E L_i^*\) on that space is \(\Psi_E\Psi_E^*\), giving the stated lower bound on \(Y_\sigma(E)\).
 - **Conjugation and exceptional events, pp. 18, 20–21.**
   With the p. 7 convention \(\langle A,B\rangle=\operatorname{Tr}(AB^*)\), the expansion of \(\langle A,D_a(\xi)\rangle\) in Section 3.5 has \(\overline{\xi_i^\ell}\) in the second slot.
   Its centered variance is the sum of squared coefficient magnitudes used in (3.9).
-  Equation (3.17) is derived on good events but is printed as an unrestricted probability bound.
-  Bound the intersection, or add the probabilities of the complements before stating the unrestricted inequality, as the passage to (3.18) does.
+  Let \(\Omega_{-a}\) be the good event of Corollary 3.7 for the other columns and \(\Omega_{\rm norm}=\{\max_\ell\|X_\ell^N\|\le8\}\).
+  The valid form of (3.17) from this argument is
+  \[
+    \mathbb P\bigl(\{s_{\min}(D_a)\le\varepsilon\}\cap\Omega_{-a}\cap\Omega_{\rm norm}\bigr)
+    \le C_ZN^{C_Z'}\varepsilon^{c_Z}.
+  \]
+  On \(\Omega_{\rm norm}\) the singular-value event implies the determinant event at a constant multiple of \(\varepsilon\).
+  Apply (3.16) to that determinant event conditional on the other columns on \(\Omega_{-a}\).
+  The union over \(a\) and the exponentially small probabilities of the exceptional events give (3.18), since a factor \(N\) is absorbed in the exponential remainder.
 - **Expected mass, p. 40, after (6.9).**
-  With \(m_{\xi,N}^z\) defined as an expected normalized trace, the left side of the interval-mass inequality must be \(\mathbb E\mu_{\mathcal H_{\xi,N}^z}([-t,t])\).
-  The pointwise kernel bound \(1_{[-t,t]}(u)\le2t^2/(u^2+t^2)\) gives exactly that inequality after expectation.
-  Lemma 6.10 uses the expected mass.
+  The pointwise kernel bound \(1_{[-t,t]}(u)\le2t^2/(u^2+t^2)\) gives the inequality used in Lemma 6.10 after taking expectation.
+  \[
+    \mathbb E\mu_{\mathcal H_{\xi,N}^z}([-t,t])\le 2t\,|\Im m_{\xi,N}^z(it)|.
+  \]
 - **Gaussian matching, p. 40, footnote 2.**
   Matching only the matrix means and \(\mathbb E[XX^*]\) does not specify the Gaussian comparator in Brailovskaya–van Handel, Theorem 2.10.
-  The matched law of the real and imaginary parts of each independent summand, including \(\rho\), supplies the required covariance here.
+  For a centered variance-one entry with pseudovariance \(\rho\), the covariance of its real and imaginary parts is
+  \[
+    \tfrac12\begin{pmatrix}1+\Re\rho&\Im\rho\\\Im\rho&1-\Re\rho\end{pmatrix}.
+  \]
+  Use independent Gaussian pairs with that covariance for the actual standardized entry law.
+  Each Hermitian summand depends real linearly on its pair, so this matches the full covariance of the Hermitized matrix. [Brailovskaya–van Handel, arXiv v3, §2.1.2](https://arxiv.org/pdf/2201.05142v3#page=8).
 
 <a id="shift-dependence"></a>
 ## The shift in Lemma 6.11
@@ -206,8 +230,9 @@ The identity \(\sum_{a,b}E_{ab}ME_{ab}=M^{\mathsf T}\) on a single block therefo
  \|\mathcal C_\rho-\mathcal C_0\|_{\infty\to\infty}
  \le \frac{4m|\rho|}{N}\sum_\ell\|H_\ell(z)\|^2.
 \]
-The means agree, so Brailovskaya–van Handel's Lemma 8.3 gives the stated resolvent power with \(C_{p,z}\), or with \(C_p\) on the disk in (2.5).
-Both versions suffice for the use in Lemma 6.10.
+The means agree, so the same bound divided by \((\Im w)^3\) applies to the difference of expected resolvents for all \(N\ge1\), \(|\rho|\le1\) and \(\Im w>0\). [Brailovskaya–van Handel, arXiv v3, Lemma 8.3](https://arxiv.org/pdf/2201.05142v3#page=64).
+The coefficient sum gives a fixed-shift constant \(C_{p,z}\) for (2.2)–(2.3), and (2.5) bounds it uniformly on the specified disk.
+Lemma 6.10 uses the fixed-shift form.
 For a shift outside the high-probability spectral norm disk, \(s_{\min}(P_N-zI)\ge |z|-\|P_N\|\) also controls the small-singular-value count.
 
 The distinction can be tested within the paper's own linearization.
@@ -248,5 +273,7 @@ A general polynomial uses both \(G\) and \(G^*\).
 Sections 3–4 rely on fresh independent entries in one omitted block column and on independence in the product estimate (4.24).
 If a pencil contains both \(G\) and \(G^*\), other columns can contain conjugates of entries in the omitted column, so freezing the former no longer gives the exposed-column law used in (3.13)–(3.16).
 This identifies the failed transfer at a specific step.
-Section 5's logarithmic criterion remains relevant to a GUE proof once appropriate small-singular-value estimates are supplied.
 Han explicitly places polynomials with adjoints in Question 1.8 (p. 6).
+
+The local proof of the full GUE result supplies its own small-singular-value and logarithmic-tail estimates for the logarithmic criterion in Section 5.
+The independent whole-chain review checks that use of Han26. [C_F0186 v1](../../../claims/Yin_C_F0186_v1.md#argument), [R_F0190 v1](../../reviews/Yin_R_F0190_v1.md#whole-chain-finding).

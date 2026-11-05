@@ -220,3 +220,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [CO22 source notes](CO22/readme.md) | Paired-entry small-value estimate and correlation restriction |
 | [Ngu12a source notes](Ngu12a/readme.md) | Vector-valued inverse concentration: exact arXiv edition and source limits |
 | [Ngu12a/Yin_U001](Ngu12a/Yin_U001.md) | Complete progression and linear/quadratic concentration definitions |
+| [CM14 source notes](CM14/readme.md) | Matrix-coefficient strong asymptotic freeness |
+| [Sni02 source notes](Sni02/readme.md) | Logarithmic upper semicontinuity and regularization scope |
+| [RV14 source notes](RV14/readme.md) | Full-dimensional Haar perturbation invertibility |
+| [BD13 source notes](BD13/readme.md) | Haar sums and almost-every-parameter logarithmic limits |
+| [JR26 source notes](JR26/readme.md) | Averaged random unitary pencil determinants |
+| [JvRR26 source notes](JvRR26/readme.md) | Free strong Szego limits and strict stability domains |
+| [BHNY08 source notes](BHNY08/readme.md) | Fixed-point CUE logarithm moments |
+| [HKOS00 source notes](HKOS00/readme.md) | Permutation characteristic-polynomial finite-type CLT |
+| [Zei13 source notes](Zei13/readme.md) | Cycle products and finite-type angle convention |
+| [Kam26 source notes](Kam26/readme.md) | Heisenberg finite-quotient determinant counterexample |

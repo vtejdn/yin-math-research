@@ -13,7 +13,7 @@ This is strategy development and self-checking, not independent proof review, a 
 ## Sources and search boundary
 
 The search on 2026-11-05 in Asia/Shanghai covered GUE and Hermitian polynomial Brown-measure convergence, least singular values, quadratic models, elliptic products, Gaussian anti-concentration and pseudospectral regularization.
-It reused the [Han26 audit](../audits/literature/Han26/Yin_U001.md#gue-boundary), [BSS18 inspection](../audits/literature/BSS18/readme.md) and current [Han26 corrections](../erratum.md).
+It reused the existing source inspections and the recorded corrections to Han26. [Han26](../audits/literature/Han26/Yin_U001.md#gue-boundary), [BSS18](../audits/literature/BSS18/readme.md), [formula corrections](../audits/literature/Han26/Yin_U001.md#local-corrections), [shift dependence](../audits/literature/Han26/Yin_U001.md#shift-dependence).
 Precise searches for \(H_1H_2+2H_2H_1\) and polynomials linear in one of two GUE inputs did not locate an existing theorem for the subclass below.
 No general solution of F0012 was found.
 These bounded searches establish neither nonexistence nor novelty.
