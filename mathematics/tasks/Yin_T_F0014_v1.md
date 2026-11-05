@@ -59,6 +59,11 @@ It proves fixed-parameter logarithmic convergence in probability and the require
 In particular, arbitrary finite ordered products of distinct independent real Wigner inputs are covered at every fixed parameter, including zero.
 Arbitrary scalar polynomials and the full complex-input model remain outside that theorem.
 
+The [reviewed complex affine and carrier theorem](../claims/Yin_C_F0186_v11.md#decision-complex-affine-carrier-reviewed) now proves the required upper-limit equality for every scalar affine polynomial under the full complex finite-variance model, including its exact purely imaginary parity branch.
+It also proves the equality for every polynomial in one Hermitian variable or the specified real linear combination, and extends the carrier certificate to arbitrary complex backgrounds when every actually exposed input is not purely imaginary.
+The two-sided, outer-polynomial and zero-shift ordered-product conclusions retain their exact scopes there.
+Arbitrary noncommutative polynomials and carriers requiring an unrestricted purely imaginary inverse shift remain unresolved by this theorem.
+
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) now proves this upper-limit equality for every fixed scalar polynomial and parameter in the real Gaussian submodel, including \(z=P(0)\).
 The logarithms converge along all even dimensions, and the theorem's odd-witness criterion identifies exactly when the finite-target limit holds through every dimension.
 This Gaussian submodel does not resolve the arbitrary finite-variance contract.
