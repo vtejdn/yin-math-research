@@ -37,165 +37,12 @@ It does not discharge this three-factor finite-variance interface.
 The focused new search and its actual source-inspection limits are recorded below.
 No claim that this exact interface is a publicly named open problem is made.
 
-<a id="symmetrized-adjugate"></a>
-## A quantitative cofactor noncancellation identity
+## Fixed cofactor controls
 
-For an arbitrary complex square matrix \(D\), put
-\[
- S=\frac{D+D^T}{2},\qquad A=\operatorname{adj}D,\qquad
- Q=\frac{A+A^T}{2}.
-\]
-The adjugate identities imply, even when \(D\) is singular,
-\[
- D^TQ=SA.
- \tag{Sym-adj}
-\]
-Indeed, \(D^TA^T=(AD)^T=(\det D)I\), while \(DA=(\det D)I\); expanding both sides proves the equality.
-Thus, if \(D\ne0\),
-\[
- \|Q\|_F\ge\frac{s_{\min}(S)}{\|D\|}\|A\|_F.
- \tag{Sym-adj-norm}
-\]
-Here multiplication on the left by \(S\) controls Frobenius norm by \(s_{\min}(S)\), and multiplication by \(D^T\) costs at most \(\|D\|\).
-The same statement is vacuous when \(A=0\).
-
-For \(D=W+F\), where \(W\) is a real Wigner matrix and \(F\) is an independent polynomially bounded complex matrix without a symmetry assumption, the symmetric part is
-\[
- S=W+\frac{F+F^T}{2}.
-\]
-Conditional on \(F\), C_F0188_v2 applies to \(S\), while the second-moment polynomial norm event bounds \(D\).
-Consequently, outside an arbitrarily summable polynomial failure probability, (Sym-adj-norm) gives
-\[
- \|\operatorname{sym}\operatorname{adj}D\|_F
- \ge N^{-C}\|\operatorname{adj}D\|_F
-\]
-for an appropriate fixed exponent \(C\).
-This also applies to each actual principal minor after the harmless normalization change from \(N\) to \(N-1\).
-Thus skew cancellation cannot erase the entire quadratic cofactor scale in the arbitrary-shift problem.
-It does not itself supply a near-kernel vector: a row of \(Q\) need not be a row of \(A\), and (Sym-adj) is not the relation \(DQ\approx0\).
-
-For example, take
-\[
- D=\begin{pmatrix}1&1\\-1&-1\end{pmatrix},\qquad
- S=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\qquad
- A=\begin{pmatrix}-1&-1\\1&1\end{pmatrix},\qquad
- Q=\begin{pmatrix}-1&0\\0&1\end{pmatrix}.
-\]
-The symmetric part is well conditioned and the adjugate has exact rank one, but either coordinate row of \(Q\) has residual of norm \(\sqrt2\) under both \(D\) and \(D^T\).
-Thus a structured row of the symmetric quadratic coefficient is not automatically a near-kernel vector, even in exact rank one.
-This finite deterministic example refutes that particular inference, not invertibility of random Wigner perturbations or the possibility of recovering another structured kernel vector.
-
-<a id="isolated-minor-factorization"></a>
-## An isolated tiny minor reduces the bottom event to two linear forms
-
-The following deterministic estimate bypasses recovery of a kernel vector from a single symmetrized cofactor vector.
-For the following row and entropy calculations use raw Wigner scaling, so the exposed coordinates are copies of the fixed law rather than its \(1/\sqrt N\) scaling.
-Multiplication of the original conditional matrix by \(\sqrt N\) changes only fixed polynomial exponents and is absorbed before this calculation.
-Write a row-exposed matrix as
-\[
- M=\begin{pmatrix}a&(x+f)^T\\x+g&D\end{pmatrix},
- \qquad
- \det M=a\det D-(x+f)^T(\operatorname{adj}D)(x+g).
- \tag{Exposed-det}
-\]
-The two deterministic shifts \(f,g\) can differ, while \(x\) has independent real coordinates and is independent of \(D\).
-Suppose \(A=\operatorname{adj}D\ne0\), and write
-\[
- \frac A{\|A\|_F}=\alpha uv^T+E,
- \qquad \|u\|=\|v\|=1,\qquad |\alpha|\ge\tfrac12.
-\]
-On an event where
-\[
- |a|,\ \|x+f\|,\ \|x+g\|\le n^K,
- \quad
- \frac{|\det D|}{\|A\|_F}\le n^{-L},
- \quad \|E\|\le n^{-L},
- \tag{Isolated-input}
-\]
-(Exposed-det) differs from
-\[
- -\alpha\,[u^T(x+f)]\,[v^T(x+g)]
-\]
-after division by \(\|A\|_F\) by at most \(2n^{2K-L}\).
-Choose \(L\ge2a_0+2K+2\).
-Then
-\[
- \left\{\frac{|\det M|}{\|A\|_F}\le n^{-2a_0}\right\}
- \cap\{\text{the bounds in (Isolated-input)}\}
- \subset
- \{|u^T(x+f)|\le2n^{-a_0}\}
- \cup
- \{|v^T(x+g)|\le2n^{-a_0}\}.
- \tag{Product-small-ball}
-\]
-In particular its conditional probability is bounded by the sum of the two linear concentration functions at radius \(2n^{-a_0}\), plus the probability of failure of the row norm bounds.
-The two linear forms are not assumed independent.
-The set inclusion, rather than a multiplication of their probabilities, is the required argument.
-
-Let \(t_1\le t_2\le\cdots\) be the singular values of \(D\).
-If \(D\) is invertible, its singular-value decomposition supplies unit vectors \(u,v\) with
-\[
- \|Du\|=\|D^Tv\|=t_1,
- \qquad
- \frac{|\det D|}{\|A\|_F}\le t_1,
- \qquad
- \|E\|_F\le\sqrt n\,t_1/t_2.
- \tag{Rank-one-data}
-\]
-The amplitude is
-\[
- |\alpha|=
- \left(1+\sum_{j\ge2}(t_1/t_j)^2\right)^{-1/2}.
-\]
-Thus \(t_1\le n^{-L}\) and \(t_1/t_2\le n^{-L-1}\) imply (Isolated-input) and \(|\alpha|\ge1/2\) eventually.
-For an exactly rank-\((n-1)\) minor, \(\det D=0\) and the adjugate has exact rank one; take \(E=0\), \(|\alpha|=1\), and both near-kernel residuals zero.
-The rank-\((n-2)\)-or-smaller branch has \(A=0\) and is not covered by this particular estimate.
-
-Under the polynomial norm bound \(t_2\le\|D\|\le n^K\), a sufficiently strong relative gap already forces the absolute smallness used above:
-\[
- t_1/t_2\le n^{-L-K-1}\quad\Longrightarrow\quad t_1\le n^{-L-1}.
-\]
-Therefore a sufficiently accurate rank-one approximation of the normalized adjugate cannot coexist with a well-conditioned minor in this bounded-norm setting.
-The genuinely nonzero-centered cofactor branch is part of the regime without the required rank-one dominance, rather than an extra rank-one case settled by the same product union.
-
-## Entropy and conditioning for the isolated-minor branch
-
-The vector-valued linear inverse Littlewood--Offord input already adopted in C_F0188_v2 applies separately to each unit coefficient vector \(u\) or \(v\).
-If either concentration in (Product-small-ball) exceeds \(n^{-b}\), it supplies a polynomial-size bounded-rank progression for all but \(O(n^\varepsilon)\) coordinates, at radius \(O(n^{-a_0})\), with the accepted rational-generator description.
-Round the exceptional coordinates on the same rational complex lattice and the other coordinates to their progression representatives.
-The resulting vector \(w\) has norm between \(1/2\) and two and approximates the corresponding singular vector coordinatewise within \(O(n^{-a_0})\).
-Because the entries of \(D\) are at most \(n^K\), (Rank-one-data) gives
-\[
- \|Dw\|_\infty\le t_1+O(n^{-a_0+K+1})
- \quad\text{or}\quad
- \|D^Tw\|_\infty\le t_1+O(n^{-a_0+K+1}),
- \tag{Structured-kernel}
-\]
-respectively.
-Choose the structural constant larger than \(K+1\), as in the accepted counting setup.
-The candidate set has the same form as C_F0188_v2's structured-vector counting class, with its leading \(n\log n\) entropy coefficient independent of \(a_0\).
-The exceptional-coordinate and generator precision costs remain \(\exp(o(n))\) for each fixed chosen \(a_0\).
-
-The counting argument in C_F0188_v2 extends to these near-kernel events for \(D=W+F\) with nonsymmetric deterministic \(F\).
-As in that proof, first truncate by conditioning every independent raw entry on its polynomial bound, paying its second-moment union-bound tail; this retains independent upper entries with the uniform anti-concentration constants used there.
-Condition on the independent diagonal values before the row count.
-This is a proof-level adaptation, not an invocation of its symmetric-shift theorem at a larger scope.
-Its row exposure uses only independent upper off-diagonal variables and the equality of the random lower variable with its upper partner.
-The deterministic entry \(F_{ij}\) enters only as an arbitrary center in a linear small-ball probability; it is never replaced by \(F_{ji}\).
-Each simultaneous row-and-column permutation preserves independence of the random upper family, the deterministic polynomial entry bound, and the same arbitrary-center row estimate.
-The coarse count, low-product split, reservoir reorder, second low-product split, profile bins and cancellation of concentration factors therefore remain unchanged.
-Apply the same argument to \(D^T=W+F^T\) for the transpose-kernel branch.
-No unobserved independent witness is inserted: the union bound runs over the deterministic rational candidate set, and each rounded vector's profile witness is chosen before its random row event, exactly as in the repaired accepted count.
-For \(a_0\) large after fixing \(b,K,\varepsilon\), the probability that either vector in (Structured-kernel) exists is consequently \(O(e^{-cn})\).
-
-It follows that the determinant small-ball event restricted to (Isolated-input) has probability at most
-\[
- 2n^{-b}+O(e^{-cn})
-\]
-plus the discarded polynomial row-norm tail, when its minor has the displayed isolated tiny singular value.
-A finite union over deleted row indices costs at most a factor \(n\).
-This is a candidate restricted bottom-range estimate with an explicit argument; it has not undergone a separate mathematical review.
-It rules out that isolated-minor mechanism at arbitrarily summable failure probability, but does not assert that every small singular value of the full matrix supplies such a minor.
+The [reviewed cofactor theorem](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) owns the complete symmetrized-adjugate identity, its exact failed row-to-kernel inference example, and the isolated-minor probability bound.
+Its [fixed proof](../claims/Yin_C_F0194_v1.md#argument) supplies the rank-one factorization, complete nonsymmetric-offset profile adaptation, parameter order and summable arbitrary-coupling conclusion.
+The theorem controls only its explicitly isolated or exactly corank-one principal-minor branches.
+The argument below retains the actual full-product assembly and its uncovered cases, rather than duplicating the fixed proof.
 
 ## Full three-factor assembly and the first remaining unsupported step
 
@@ -206,92 +53,217 @@ Apply the raw-scaled minor tests to \(\sqrt N M\), absorbing that factor into th
 When \(M\) is invertible, cofactor-row expansion for this arbitrary matrix still gives an index \(i\) and a nonzero \(\operatorname{adj}D_i\) for which \(|\det M|/\|\operatorname{adj}D_i\|_F\) is polynomially small, as in the accepted cofactor reduction with the same polynomial entry losses.
 That elementary expansion does not require equality of the deterministic off-diagonal shifts.
 For full \(M\) of corank one, choose an omitted row whose removal preserves its rank; deleting the matching column then leaves a principal minor of corank at most one, so its adjugate is nonzero and the determinant ratio is zero.
-The lower-rank full-matrix branch needs its own reduction and is not silently included in the invertible cofactor argument.
+The separate [candidate lower-rank reduction](#corank-one-candidate) below addresses full corank at least two by a leading-principal rank chain; it is not part of the isolated-minor theorem or a proof of nonsingularity.
 
-If this selected minor satisfies (Isolated-input), the preceding bottom-range estimate excludes the event at the desired summable scale.
+If this selected minor satisfies the exact hypotheses of the reviewed C_F0194_v1 isolated-minor theorem, that bound excludes the event at the desired summable scale.
 The first unsupported step in a complete argument is coverage of the complementary minors: their least singular value can be too large to suppress the \(a\det D\) term, or more than one small singular direction can contribute substantially to the normalized adjugate.
-In the former branch the rank-one product is centered at a potentially nonzero value, so the zero-product union in (Product-small-ball) is unavailable.
+In the former branch the scalar diagonal term need not be negligible, so the reviewed zero-product union is unavailable.
 In the latter branch the cofactor quadratic form need not factor into two linear forms.
 Neither branch is resolved merely by the symmetrized-adjugate norm bound or by the accepted intermediate estimate.
 A continuation must establish an arithmetic recovery statement for those actual quadratic forms or a separate bottom-logarithm mechanism.
 
-<a id="prepared-fixed-statement"></a>
-## Precisely quantified statement prepared for a separate cofactor mechanism
+<a id="corank-one-candidate"></a>
+## A separate high-probability reduction to full corank at most one
 
-The following is prepared mathematical content for a fixed candidate, not a new assessment or a reservation of a material number.
-The deterministic assertion is exactly (Sym-adj)--(Sym-adj-norm).
-The probabilistic assertion below is restricted to the actual isolated-minor branch and awaits independent review of the counting adaptation.
+The following candidate addresses only the lower-rank full-matrix branch.
+It uses the complete nonsymmetric-offset counting module already proved inside [C_F0194_v1](../claims/Yin_C_F0194_v1.md#structured-vector-counting), without assuming an isolated singular value or a determinant-ratio event.
+It is ordinary proof development and has not received an independent review.
 
-Fix a real off-diagonal law \(\xi\) with \(\mathbb E\xi=0\) and \(\mathbb E\xi^2=1\), and a real diagonal law \(\zeta\) with finite second moment.
-For each \(n\), let \(X_n\) be raw real symmetric Wigner: its strict upper entries are independent copies of \(\xi\), its diagonal entries are independent copies of \(\zeta\), and these families are independent.
-Let \(F_n\in M_n(\mathbb C)\) be deterministic, with
+Let \(X_n\) have exactly the raw real symmetric Wigner laws in [C_F0194_v1's statement](../claims/Yin_C_F0194_v1.md#statement), and let \(F_n\) be deterministic complex matrices with \(\max_{i,j}|(F_n)_{ij}|\le n^\gamma\).
+The proposed conclusion is that for every fixed \(\gamma,B>0\),
 \[
- \max_{i,j}|(F_n)_{ij}|\le n^\gamma,
- \qquad \gamma>0,
- \qquad M_n=X_n+F_n.
+ \mathbb P\{\operatorname{rank}(X_n+F_n)\le n-2\}\le Cn^{-B}
+ \tag{Rank-tail}
 \]
-No symmetry condition on \(F_n\) is imposed.
-For \(1\le i\le n\), write \(D_i\) for the principal minor obtained by deleting row and column \(i\), and let \(t_1(D_i)\le t_2(D_i)\) be its two smallest singular values when \(n\ge3\).
+for all sufficiently large \(n\), uniformly over these shifts.
+It neither excludes corank exactly one nor estimates a positive smallest singular value.
 
-Candidate isolated-minor assertion.
-For every \(\gamma,B>0\), there exist constants \(A,L,C,n_0>0\), depending only on the fixed laws, \(\gamma,B\), such that for all \(n\ge n_0\), uniformly over the displayed deterministic shifts,
+### Universal kernel anti-concentration from the existing counting module
+
+Fix an arbitrary exponent \(b>0\) and a polynomial entry exponent \(K\).
+Work first in the independently truncated model used by the fixed proof: its real scalar off-diagonal law \(\xi_n\) has the uniform symmetrized anti-concentration property (AC), and every matrix entry is bounded by \(m^K\) at the size \(m\) under consideration.
+Diagonal entries can be conditioned on because the counting bound is uniform over all deterministic diagonal values in this range.
+For a unit complex vector \(u\in\mathbb C^m\), define
 \[
- \mathbb P\!\left\{\exists i:\ \operatorname{adj}D_i\ne0,\quad
- \frac{|\det M_n|}{\|\operatorname{adj}D_i\|_F}\le n^{-A},\quad
- \mathcal I_i(L)\right\}
- \le Cn^{-B},
- \tag{Isolated-minor-bound}
+ \rho_{m^{-a},\xi_n}(u)
+ :=\sup_{z\in\mathbb C}\mathbb P\left\{
+       \left|\sum_{j=1}^m u_j\xi_{n,j}-z\right|\le m^{-a}\right\},
 \]
-where \(\mathcal I_i(L)\) is the disjunction
+where the \(\xi_{n,j}\) are independent copies of the truncated real law.
+There is a fixed sufficiently large precision exponent \(a\), selected after \(b,K\), for which a measurable exceptional event \(\mathcal R_m\) has probability at most \(Ce^{-cm}\) and, on its complement,
 \[
- \operatorname{rank}D_i=n-2
+ \begin{split}
+ Du=0,\quad\|u\|_2=1
+ &\quad\Longrightarrow\quad \rho_{m^{-a},\xi_n}(u)\le m^{-b},\\
+ D^Tv=0,\quad\|v\|_2=1
+ &\quad\Longrightarrow\quad \rho_{m^{-a},\xi_n}(v)\le m^{-b}.
+ \end{split}
+ \tag{Kernel-AC}
 \]
-or
+Here \(D\) is a random size-\(m\) principal block with an arbitrary nonsymmetric deterministic offset in the polynomial bound.
+The quantifier in (Kernel-AC) is over all unit kernel vectors, not only an adjugate or singular-vector choice.
+
+To check this consequence, suppose that a unit right-kernel vector \(u\) has concentration greater than \(m^{-b}\) at radius \(m^{-a}\).
+Apply the same dimension-two linear inverse theorem and [rational rounding interface](../claims/Yin_C_F0194_v1.md#inverse-rounding) used in the fixed proof, identifying complex coefficients with two-dimensional real vectors while the scalar randomness stays real.
+Its structural rank, progression size and exceptional-count constants depend on \(b\), the chosen fixed exception exponent, and the uniform (AC) constants, rather than on the eventual fine precision \(a\).
+It gives a vector \(w\) of norm between \(1/2\) and two, with \(\|w-u\|_\infty\le C m^{-a}\), in the rational progression class of [C_F0194_v1](../claims/Yin_C_F0194_v1.md#counting-class).
+For all rows,
 \[
- D_i\text{ is invertible},\qquad
- t_1(D_i)\le n^{-L},\qquad
- t_1(D_i)/t_2(D_i)\le n^{-L}.
+ \|Dw\|_\infty
+ =\|D(w-u)\|_\infty\le C m^{K+1-a}.
+ \tag{Kernel-rounding}
 \]
-The first branch has exact rank-one adjugate, and the second has the quantitatively isolated smallest singular value specified above.
-No estimate for the complement of these branches is included.
-In particular (Isolated-minor-bound) is not a bound for \(s_{\min}(M_n)\) without its explicit minor conditions.
+Enlarge its fixed structural constant to exceed \(K+2\), absorbing the fixed factor \(C\).
+Then (Kernel-rounding) is within the row tolerance of that counting class.
+The complete profile count excludes existence of such a \(w\) with probability at most \(Ce^{-cm}\).
+The same argument for \(D^T\) gives the second line of (Kernel-AC).
+There is no rank-one approximation in this deduction: the residual is zero because \(u\) is an actual kernel vector.
+Take \(\mathcal R_m\) to be the union of those two finite structured-candidate existence events.
+This makes it measurable and covers every possible high-concentration unit kernel vector without a measurability assumption on a supremum over kernels.
+The noncircular parameter choice is precisely the one in the fixed counting module: structural constants first, then the sufficiently fine \(a\), with all later exceptional-coordinate costs subexponential.
 
-The same bound is uniform conditionally on an independent random \(F_n\) whenever its displayed entry bound holds.
-Without imposing that entry bound surely, its failure probability is added to the right side after conditioning.
-For \(B>1\), the restricted bad event therefore occurs only finitely often almost surely under every cross-size coupling for which those extra failures are summable.
+### Bordered rank and its measurable kernel choices
 
-### Parameter order and complete proof interfaces
-
-Choose an integer raw-entry cutoff exponent \(\kappa\) large enough that the second-moment union-bound error from \(|\xi|>n^\kappa\) or \(|\zeta|>n^\kappa\) is \(O(n^{-B-2})\).
-Conditional on all these independent cutoffs, the strict upper entries remain iid with the conditional law \(\xi_n\), whose accepted anti-concentration constants are uniform for large \(n\).
-Choose an integer \(K\) after \(\gamma,\kappa\) so all exposed row norms and diagonal magnitudes are at most \(n^K\), and every minor entry has the same polynomial bound.
-Condition on the independent diagonal values in applying the counting argument.
-Choose \(b>B+3\), then its linear inverse-theorem structural constants and the profile-counting constants, and finally choose \(a_0\) sufficiently large for that fixed counting setup.
-Set
+For any singular complex \(m\)-by-\(m\) matrix \(D\), choose unit vectors \(u(D)\in\ker D\), \(v(D)\in\ker D^T\) measurably.
+One explicit choice is to stratify by rank, take the lexicographically first nonzero maximal minor with row set \(I\) and column set \(J\), and take the first \(j_0\notin J\).
+Set the \(j_0\)-th free coordinate to one, the other free coordinates to zero, and solve
 \[
- A=2a_0,\qquad L\ge2a_0+2K+3.
+ u_J=-D_{I,J}^{-1}D_{I,j_0}.
 \]
-The extra unit in \(L\), compared with (Isolated-input), absorbs the factor \(\sqrt n\) in (Rank-one-data).
+The rows indexed by \(I\) span the row space, so this vector lies in the full kernel; normalize it by its positive Euclidean norm.
+For rank zero use \(e_1\).
+The rank strata and maximal-minor choices are Borel, and the displayed coordinate functions are rational on each such stratum, giving the required measurable choice.
+Apply the same construction to \(D^T\) for \(v\).
 
-For each fixed \(i\), condition on its minor \(D_i\).
-The remaining strict off-diagonal row coordinates are independent copies of \(\xi_n\), independent of that minor, and the different deterministic row and column shifts are fixed.
-If \(\mathcal I_i(L)\) holds, (Rank-one-data) or the exact singular branch gives the required rank-one decomposition.
-Equations (Exposed-det)--(Product-small-ball) bound the conditional determinant event by the sum of two linear concentrations.
-If both are below \(n^{-b}\), this costs at most \(2n^{-b}\).
-If either is at least \(n^{-b}\), the linear inverse theorem and rounding supply a vector in (Structured-kernel), for \(D_i\) or \(D_i^T\), respectively.
-The preceding entropy and row-exposure adaptation bounds the probability of either existence event by \(O(e^{-cn})\), uniformly over the nonsymmetric deterministic shift.
-Those are unions over deterministic candidate vectors; conditioning on a random near-kernel vector is never substituted for the candidate-set union bound.
-Thus each \(i\) contributes at most \(2n^{-b}+O(e^{-cn})\) in the truncated model.
-The union over its at most \(n\) indices and the discarded raw-entry tail give (Isolated-minor-bound).
-The order of constants keeps the inverse and counting structural constants fixed before the fine precision \(a_0\) is chosen, as in the repaired accepted profile argument.
+Consider the bordered matrix
+\[
+ M=\begin{pmatrix}D&c\\r^T&a\end{pmatrix}.
+\]
+If \(r^Tu\ne0\), then \(r^T\) is outside the row space of \(D\).
+If \(v^Tc\ne0\), then \(c\) is outside the column space of \(D\).
+When both hold,
+\[
+ \operatorname{rank}M=\operatorname{rank}D+2,
+ \tag{Border-rank}
+\]
+regardless of \(a\).
+Indeed choose invertible row and column transformations carrying \(D\) to \(\operatorname{diag}(I_q,0)\), eliminate the identity block, and inspect the remaining block
+\[
+ \begin{pmatrix}0_{(m-q)\times(m-q)}&c_0\\r_0^T&a'\end{pmatrix}.
+\]
+The two nonzero vectors \(c_0,r_0\) make its rank exactly two.
+This calculation is over \(\mathbb C\); the transpose rather than adjoint in the left-kernel condition is intentional.
 
-### Exact input and review boundary for the prepared assertion
+For a Wigner border, write \(r=x+f\), \(c=x+g\), where the coordinates of \(x\) have law \(\xi_n\) and are independent of \(D\); the shifts \(f,g\) can differ.
+On the complement of \(\mathcal R_m\), the failure of (Border-rank) is contained in
+\[
+ \{u(D)^T(x+f)=0\}\ \cup\ \{v(D)^T(x+g)=0\}.
+\]
+Conditional on \(D\), its probability is at most \(2m^{-b}\) by (Kernel-AC).
+The two linear forms use the same \(x\); only a union bound is used, not an independence assertion.
+Including the exceptional guard gives
+\[
+ \mathbb P\{D\text{ singular and }
+        \operatorname{rank}M<\operatorname{rank}D+2\}
+ \le 2m^{-b}+Ce^{-cm}.
+ \tag{Border-failure}
+\]
+The diagonal border variable plays no role in this bound.
 
-The only external theorem used in its entropy step is the vector-valued linear inverse Littlewood--Offord input already accepted at [Ngu12a's recorded statement and applicability scope](../audits/literature/Ngu12a/readme.md).
-The existing [C_F0188_v2 argument](../claims/Yin_C_F0188_v2.md#argument) supplies its rational-grid formulation and the complete repaired counting proof.
-The adaptation to nonsymmetric deterministic offsets is justified above by its actual arbitrary-center row uses, both matrix orientations, and its unchanged post-permutation low-product split.
-Its old independent review is not relabeled as review of this extension.
-The final candidate requires independent inspection of the exact quantified assertion and these proof interfaces before it is selected as proved.
+### One leading-principal chain gives the full rank tail
+
+Choose a raw cutoff exponent \(\kappa\) so the probability that any full size-\(n\) raw Wigner variable exceeds \(n^\kappa\) is at most \(Cn^{-B-2}\), by the finite-second-moment union bound.
+Condition on all those independent cutoffs simultaneously.
+The upper off-diagonal variables remain independent with the single law \(\xi_n\), while all diagonal values can be conditioned on.
+Set \(k_0=\lfloor n/3\rfloor\), and let \(M_k\) be the leading size-\(k\) principal block of \(X_n+F_n\), for \(k_0\le k\le n\).
+These blocks are taken within this one matrix; no consistency between different physical sizes is assumed.
+For all large \(n\), \(n/k\le4\) on the chain.
+Thus \(n^\gamma\le k^{\gamma+1}\), \(n^\kappa\le k^{\kappa+1}\), and one fixed entry exponent \(K\) works for every block and exposed border on the chain.
+The (AC) constants of \(\xi_n\) are uniform in \(n\).
+The counting proof and inverse theorem use only those constants and the polynomial entry bound, so the same \(a,b,K\) and exponential-count constants work for all these blocks, even though the cutoff is indexed by \(n\) rather than \(k\).
+In particular the two offsets in each border are deterministic and polynomially bounded, and the remaining border randomness is independent of the current principal block.
+
+Choose \(b>B+4\) and apply (Border-failure) to every step from \(k\) to \(k+1\).
+A union bound makes their total failure probability at most \(Cn^{1-b}+Ce^{-c'n}\).
+On the complementary event, write \(d_k=k-\operatorname{rank}M_k\).
+If \(d_k>0\), then (Border-rank) gives \(d_{k+1}=d_k-1\).
+If \(d_k=0\), rank monotonicity gives \(d_{k+1}\in\{0,1\}\).
+Once the deficiency is at most one, it therefore stays at most one.
+Starting from \(d_{k_0}\le k_0\), it reaches that region within at most \(k_0\) steps, and \(n-k_0\ge k_0\).
+Consequently \(d_n\le1\).
+Adding the discarded full raw-entry tail proves (Rank-tail), with room in the requested exponent.
+The argument is uniform over \(F_n\); no symmetry of that deterministic offset was used.
+
+<a id="product-corank-reduction"></a>
+### Consequence for the original three-factor object
+
+An independent random \(F_n\) is treated by conditioning on its dimensionwise realization on the polynomial-bound event and adding that event's failure probability.
+For the original fixed nonzero \(z\), set
+\[
+ M_N=W_1^{(N)}-z(W_2^{(N)}W_3^{(N)})^{-1}.
+\]
+The accepted one-factor norm and inverse bounds make the shift polynomially bounded outside arbitrarily summable failures, and it is independent of \(W_1^{(N)}\) within each dimension.
+Apply (Rank-tail) after multiplying by \(\sqrt N\), which affects only its fixed polynomial exponent.
+Right multiplication by the invertible \(W_2^{(N)}W_3^{(N)}\) preserves rank, so the same tail controls
+\[
+ \operatorname{corank}(W_1^{(N)}W_2^{(N)}W_3^{(N)}-zI_N)\ge2.
+\]
+For an exponent \(B>1\), first Borel--Cantelli would give eventual corank at most one under every allowed cross-dimensional coupling.
+This completes the proposed lower-rank reduction, conditional only on the already accepted counting interface used explicitly above, and awaits fresh scrutiny as a new deduction.
+It leaves the full corank-one and the well-conditioned or clustered-minor floor branches unresolved.
+
+<a id="rank-growth-attribution"></a>
+### Actual known mechanism and this adaptation's boundary
+
+The rank-growth mechanism is already present in Costello--Tao--Vu, *Random symmetric matrices are almost surely non-singular*, arXiv:math/0505156v1, Section 2, equation (1), Lemma 2.4 on PDF p. 3, and its proof on pp. 11--12.
+The selected original is retained as [CTV06--arxiv-v1.pdf](../literature/pdf/CTV06--arxiv-v1.pdf), with its [edition and source note](../audits/literature/CTV06/readme.md).
+Their singular-border argument concerns symmetric matrices and Bernoulli borders, and its proof explicitly uses symmetry to infer a rank increase of two from a rank-increasing column.
+The nonsymmetric deterministic-offset argument here separately controls both a right-kernel and a transpose-left-kernel linear form by the reviewed C_F0194 counting module.
+The source's full nonsingularity proof also needs the separate invertible-border quadratic step, which is not imported here.
+The source's phrase almost surely means probability tending to one in that paper, whereas the arbitrary-cross-size almost-sure consequence above uses its own summable bounds and first Borel--Cantelli.
+Only this mechanism attribution and the stated passages were checked; no novelty claim or whole-paper proof audit is made.
+
+## A paired-cofactor identity for the complementary branch
+
+This is a continuing algebraic lead, without an adopted small-value conclusion.
+For an actual minor D put S=(D+D^T)/2 and K=(D-D^T)/2, and assume S is invertible.
+With Q=sym adj D as in the fixed theorem, direct multiplication gives
+\[
+ T=D S^{-1}D^T=S-KS^{-1}K,\qquad TQ=(\det D)I.
+\]
+Indeed the fixed identity D^T Q=S adj D implies the second equality after multiplying by D S^{-1} on the left.
+Expanding (S+K)S^{-1}(S-K) proves the first equality.
+There is also an exact complex-symmetric block realization:
+\[
+ \mathcal B=\begin{pmatrix}S&-K\\K&-S\end{pmatrix},
+ \qquad \mathcal B^T=\mathcal B.
+\]
+Its Schur complement about \(-S\) is \(S-KS^{-1}K=T\).
+Writing \(y=S^{-1}Kq\), the equation \(Tq=(\det D)a\) becomes the coupled system
+\[
+ S q-Ky=(\det D)a,\qquad Kq-Sy=0.
+\]
+For \(D=X+F\), the random part of this block pencil is \(\operatorname{diag}(X,-X)\).
+It consists of two coupled copies of the same Wigner matrix, so complex symmetry alone does not make it an iid Wigner matrix of size \(2N\) to which the scalar symmetric-shift floor applies.
+Treating \(Ky\) as a free center when \(K\) has full rank retains a full-dimensional precision cost.
+In the actual product-inverse setting the coefficients \(S,K\) also depend on the independent second and third Wigner inputs; exploiting that randomness would require a justified joint count rather than conditioning it away and then assuming a bounded-dimensional correction.
+No such joint count is asserted here.
+Thus, if a future inverse-concentration step supplies a structured vector q=Q a with a supported on a bounded set J, then
+\[
+ S q=K S^{-1}Kq+(\det D)a.
+\]
+Outside J, its right side lies in the fixed range of K.
+The symmetric-part floor and polynomial norm events control the magnitude of this correction by a fixed power of dimension times the norm of q.
+For bounded rank K, this suggests a finite-dimensional center parameter in a structured-vector row count.
+The corresponding count and its exact inverse-theorem interface have not been supplied here.
+For the actual product-inverse shift, K can have rank proportional to dimension, so the bounded-rank observation does not close that original case.
+Indeed, for invertible real symmetric B,C and nonzero z, the skew part of F=-z(BC)^{-1} has the same rank as CB-BC, by multiplication with the invertible factors of \((BC)^{-T}((BC)^T-BC)(BC)^{-1}\).
+Take B diagonal with distinct nonzero entries and C invertible real symmetric tridiagonal with every adjacent off-diagonal entry nonzero.
+Their commutator is skew tridiagonal with nonzero adjacent entries, so it has rank N for even N and N-1 for odd N, as seen by its even-dimensional principal determinants.
+The resulting polynomial nonidentity gives these ranks almost surely for two independent GOE inputs, with their own almost-sure invertibility.
+Thus bounded skew rank fails even within an allowed Gaussian model of the original product.
+A parameter grid for a full-dimensional correction can introduce leading entropy depending on the fine precision, which the current profile argument does not absorb.
+The useful next test is whether the original product-inverse structure constrains this correction more strongly than its ambient rank suggests.
 
 ## Bounded primary-source search and actual inspection limits
 

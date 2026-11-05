@@ -44,6 +44,12 @@ The exact linearization remains algebraic, but any new small-singular-value, tru
 
 The [reviewed symmetric-carrier extension](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now gives full almost-sure Brown and fixed-parameter determinant limits for its stated real-input class, including nonlinear single-carrier polynomials and noncommuting palindromes.
 It does not cover a general nonsymmetric carrier or arbitrary auxiliary matrix coefficients, and therefore supplies partial progress for this unchanged contract.
+The [reviewed isolated-minor theorem](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) now controls its precisely specified bottom event for real Wigner matrices with arbitrary polynomially bounded nonsymmetric shifts.
+The complementary principal-minor branches and their use for a complete nonnormal polynomial remain unresolved.
+
+The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) proves this full Brown-measure conclusion for every scalar polynomial when the entries have the exact normalized real Gaussian laws.
+It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.
+This completes the GOE submodel, while the present arbitrary finite-variance contract remains active.
 
 The fixed-law assumption excludes an arbitrary variance-one triangular array whose entry law changes with size without a Lindeberg condition.
 No expectation-convergence assertion for unregularized logarithmic determinants is part of this contract.

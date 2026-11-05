@@ -12,6 +12,8 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 Exact definition homes and conventions: NS06: [probability space and operator terminology](../audits/literature/NS06/Yin_U002.md#probability-space), [free independence](../audits/literature/NS06/Yin_U002.md#free-independence), [Haar unitary](../audits/literature/NS06/Yin_U002.md#haar-unitary), [semicircular normalization](../audits/literature/NS06/Yin_U002.md#semicircular), and [R-diagonal cumulants](../audits/literature/NS06/Yin_U002.md#r-diagonal).
 Han26's [normalized complex Ginibre matrix](../audits/literature/Han26/Yin_U001.md#statements) and the [GUE-pair realization](../audits/literature/Han26/Yin_U001.md#gue-boundary) specify the variances used in the [F0012 question](../tasks/Yin_T_F0012_v1.md#contract).
+Sch05's [real Ginibre and GOE normalizations](../audits/literature/Sch05/Yin_U001.md#gaussian-and-free-normalizations) distinguish independent real entries from symmetric GOE entries and state the corresponding free circular normalization, at arXiv:math/0308192v1 PDF pp. 2 and 9.
+The [GOE theorem's model](../claims/Yin_C_F0186_v8.md#statement) and its [affine Hermitization match](../claims/Yin_C_F0186_v8.md#goe-affine-input) use these exact variances.
 
 Recorded consumer navigation: Statement/proof uses of the specified models: [Yin_C_F0017](../ledger/Yin_L_F0004_v1.md#yin_c_f0017-definitions), [Yin_C_F0019](../ledger/Yin_L_F0004_v1.md#yin_c_f0019-definitions).
 
@@ -321,3 +323,26 @@ Consumer navigation: [the conditional positive permutation cases](../ledger/Yin_
 Exact definition home and convention: [the scalar critical-point, critical-value and regular-value conventions](../audits/literature/Sar42/Yin_U001.md#scalar-regular-values), for \(C^1\) maps from \(\mathbb R^k\) to \(\mathbb R\), including regular values with empty preimage.
 The same unit records the [journal source and scalar Sard specialization](../audits/literature/Sar42/Yin_U001.md#sar42-u001).
 Recorded consumer navigation: the regular-level step in the [Gaussian tube argument](../claims/Yin_C_F0186_v1.md#tubes).
+
+### Regular bulk of free additive convolution
+
+Exact source home: [the regular-bulk definition](../audits/literature/HZ25/Yin_U001.md#regular-bulk-definition), with the finite positive density and no-atom convention.
+Source scope: [HZ25 arXiv v4](../audits/literature/HZ25/readme.md), Definition 2.7, PDF p. 12.
+Recorded consumer navigation: the [conditional Haar-additive hypothesis](../claims/Yin_C_F0193_v1.md#conditional-haar-additive-statement).
+
+### Stochastic domination
+
+Exact source home: [the quantified stochastic-domination convention](../audits/literature/HZ25/Yin_U001.md#stochastic-domination-definition), including uniformity of the dimension threshold over parameters.
+Source scope: [HZ25 arXiv v4](../audits/literature/HZ25/readme.md), Definition 2.6, PDF p. 12.
+Recorded consumer navigation: the [conditional local-law proof](../claims/Yin_C_F0193_v1.md#conditional-haar-additive-argument) and its finite-grid probability bounds.
+
+### Real-symmetric nonidentity dimensions
+
+Exact project home: the [nonidentity-dimension set of a fixed affine pencil](../claims/Yin_C_F0186_v9.md#real-symmetric-nonidentity-dimensions), with existence of an invertible real-symmetric evaluation as its defining condition.
+Recorded consumer navigation: the [GOE good-dimension and parity theorem](../claims/Yin_C_F0186_v9.md#statement).
+
+### Cayley transform on Hermitian matrices
+
+Exact construction and inverse: the [Cayley coordinate formulas](../claims/Yin_C_F0192_v2.md#haar-tube-argument), mapping Hermitian matrices to unitaries whose spectrum excludes minus one.
+The domain, inverse and Hilbert--Schmidt coordinate estimates are stated at that home.
+Recorded consumer navigation: the [random-center Haar tube argument](../claims/Yin_C_F0192_v2.md#haar-tube-statement).

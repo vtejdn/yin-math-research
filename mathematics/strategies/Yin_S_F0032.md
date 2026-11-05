@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Reviewed symmetric-carrier limits are available; test a nonsymmetric three-factor carrier and actual-minor block estimates against the original planar defect. |
+| priority | Investigate complementary nonsymmetric Wigner minors after the reviewed GOE resolution, using the isolated-minor control. |
 
 ## Mechanism and accepted controls
 
@@ -31,6 +31,8 @@ For a general matrix-valued linearization, block-row correlations and coefficien
 The [reviewed finite-product extension](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now treats every displayed reversal-symmetric carrier with conditional-shift factor certificates, its arbitrary outer polynomials at each fixed parameter, and zero-shift ordered products.
 The [continuing nonsymmetric test](../drafts/Yin_D_F0011.md) isolates the actual inverse shift for a three-factor product, where the accepted complex symmetric floor theorem no longer applies.
 This is a concrete boundary of the current method, rather than a counterexample to convergence.
+The [reviewed cofactor mechanism](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) excludes its exact isolated-minor bottom event with arbitrary polynomially bounded nonsymmetric offsets.
+The remaining full three-factor assembly still needs the well-conditioned and clustered-minor branches and the stated lower-rank reduction.
 
 ## Relationship to the Gaussian routes
 
@@ -56,3 +58,6 @@ No counterexample to the exact general Task has been established.
 The [bounded alternative-mechanism comparison](../ledger/Yin_L_F0063_v1.md) found no supported replacement in its inspected scope.
 It records why sharp positive exponential moments, smoothing without spectral stability, and coefficient products without new independent noise do not close the current gap.
 The retained allocation therefore continues the actual nonsymmetric-shift and block-minor tests.
+The [reviewed complete GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) closes the real-Gaussian Brown submodel and proves arbitrary-coefficient affine upper limits, all-even logarithmic limits and the exact odd-witness classification.
+Its quantitative comparison uses the actual Schultz affine Hermitization source, while the [optional direct GOE--GUE comparison](../drafts/Yin_D_F0024.md#optional-direct-comparison) remains a separate continuing proof variant.
+The general fixed-law finite-variance contract still requires the nonsymmetric-minor or planar-defect estimate above.

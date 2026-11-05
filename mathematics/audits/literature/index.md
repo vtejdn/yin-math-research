@@ -234,3 +234,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Tao08 source notes](Tao08/readme.md) | Simultaneous torus returns with bounded gaps |
 | [Ken11 source notes](Ken11/readme.md) | Graph connections, gauge equivalence and cycle monodromy |
 | [HZ25/Yin_U001](HZ25/Yin_U001.md) | Regular-bulk Haar additive local laws, conditional input boundaries and ultra-small logarithms |
+| [Sch05/Yin_U001](Sch05/Yin_U001.md) | Exact real-Ginibre affine resolvent estimate and its matrix-coefficient GOE Hermitization specialization |
+| [Par22/Yin_U001](Par22/Yin_U001.md) | Matrix-coefficient Haar resolvent comparison and concentration at its conditional special-unitary center |
+| [SS15/Yin_U001](SS15/Yin_U001.md) | Free Haar and semicircular matrix-polynomial algebraicity, Puiseux expansions and atom boundaries |
+| [FGZ26 source notes](FGZ26/readme.md) | Published unitary-Haar polynomial anti-concentration, exact degree exponent and positive-normalization boundary |

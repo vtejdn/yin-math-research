@@ -59,7 +59,7 @@ Merely asking for a block small-value estimate would repeat the existing obligat
 
 ## Counterexample filter and limits of the source search
 
-The real-symmetric witness argument remains in [the continuing matrix-pencil investigation](../drafts/Yin_D_F0012.md#real-symmetric-witness-subsequence).
+The real-symmetric witness argument is fixed in [the all-large-even construction](../claims/Yin_C_F0186_v9.md#all-even-witness).
 A [common-phase zero-diagonal extension](../drafts/Yin_D_F0018.md#a-common-phase-zero-diagonal-witness-filter) is retained as a continuing algebraic counterexample-search filter.
 It supplies no quantitative determinant bound and is not used as proved support for any Task or Claim here.
 

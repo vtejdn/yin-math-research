@@ -256,3 +256,6 @@ For uniform permutations, the unrestricted ordinary determinant assertion is fal
 The [Haar-pencil approximation Task](../tasks/Yin_T_F0015_v1.md#contract) and [reduced permutation determinant Task](../tasks/Yin_T_F0016_v1.md#contract) use this comparison as starting evidence.
 Their contracts separately ask for full almost-sure limits and upper-limit equalities under arbitrary cross-dimensional couplings and under independence across dimensions.
 The later [internal permutation classification](../claims/Yin_C_F0189_v1.md#decision-classification-reviewed) resolves that separate Task at its recorded proof and independent-review scope; it is not a public theorem located by this earlier bounded survey.
+The later [internal complete Haar theorem](../claims/Yin_C_F0192_v2.md#decision-full-haar-reviewed) resolves F0015 under its original coefficient and coupling quantifiers, using the separately inspected Par22 and SS15 interfaces together with new geometric and logarithmic arguments.
+The [internal GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) resolves the Gaussian submodels of F0012--F0014, including arbitrary affine upper limits and the precise parity alternative; the general finite-variance Wigner contracts remain open.
+These project results do not enlarge the public-source findings or coverage of the earlier bounded survey.

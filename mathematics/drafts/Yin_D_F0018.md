@@ -11,7 +11,7 @@ Its distinct content is the common-phase zero-diagonal extension, reusing the re
 
 ## A common-phase zero-diagonal witness filter
 
-The real-symmetric witness argument already belongs to [D_F0012](Yin_D_F0012.md#real-symmetric-witness-subsequence) and is reused rather than repeated.
+The real-symmetric witness argument is fixed in the [reviewed all-large-even construction](../claims/Yin_C_F0186_v9.md#all-even-witness) and is reused here.
 Here is a limited extension to a different input support.
 Fix a common phase \(\theta\in\mathbb R\) for every input variable, and suppose \(\Delta(L(s))>0\).
 There is a positive integer \(q\) such that the affine determinant is a nonzero polynomial on the real-symmetric tuple space of dimension \(q\), by that existing argument.
@@ -44,5 +44,5 @@ Thus a counterexample based only on a persistent transpose parity identity shoul
 ## Continuation boundary
 
 The displayed candidate still needs fixed mathematical organization and suitable review before use as established support.
-The real-symmetric input witness is currently developed in D_F0012; its complete necessary algebraic argument must be fixed or invoked through adequate fixed inputs if this extension is promoted.
+The real-symmetric input witness is supplied by that exact fixed construction, while the common-phase extension here retains its own unresolved review and adoption scope.
 Arbitrary diagonal laws, different coordinate phases and quantitative determinant bounds remain outside the present argument.

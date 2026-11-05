@@ -82,15 +82,26 @@ The [reviewed Haar structural theorem](../claims/Yin_C_F0192_v1.md#decision-haar
 It includes an irreducible four-entry example with positive determinant and an unbounded free inverse.
 For the unrestricted coefficient tuple it proves eventual almost-sure invertibility whenever the free kernel is zero, without controlling the small positive singular values.
 The [reviewed coupling criteria](../claims/Yin_C_F0190_v1.md#decision-coupling-criteria-reviewed) show that full almost-sure convergence under independent dimensions would already imply it under arbitrary coupling, while their upper-limit criteria remain different.
-The general positive-determinant logarithmic-tail obligation is still unresolved.
+Those structural arguments alone leave the general positive-determinant logarithmic-tail obligation unresolved.
+
+The [reviewed conditional Haar-additive and Schur theorem](../claims/Yin_C_F0193_v1.md#decision-conditional-schur-reviewed) proves full logarithmic limits for its strict-bulk rank-one coefficient class with the displayed bounded background and compression inverses.
+Its direct scalar corollary includes \(1+U+V\) and every three-term scalar tuple in the stated strict squared-triangle region.
+These classes have positive free determinant and an unbounded free inverse; their proofs do not cover arbitrary higher-rank coefficients or the excluded bulk regimes.
+The [reviewed complementary-corner extension](../claims/Yin_C_F0193_v2.md#decision-complementary-corner-reviewed) removes the full-background inverse assumption in its exact rank-one class.
 
 This random-matrix approximation objective is distinct from the [single-Haar variational and coefficient-analysis Task](Yin_T_F0010_v1.md#contract) and the [Wigner-pencil Task](Yin_T_F0013_v1.md#contract).
 Their completion decisions do not complete this Task.
 The [permutation Laurent-polynomial Task](Yin_T_F0016_v1.md#contract) instead uses uniform permutation inputs and a kernel-removed finite determinant.
 
-## Current decision
+## Resolution and independent full-chain follow-up
 
-[Selected decision](#decision-initial)
+The [proved complete affine Haar theorem](../claims/Yin_C_F0192_v2.md#decision-full-haar-reviewed) resolves all four original assertions affirmatively.
+It proves the full almost-sure ordinary logarithmic determinant limit for every fixed matrix coefficient tuple under every allowed cross-dimensional coupling, including singular constant terms and a zero free determinant.
+The [independent whole-contract finding](../audits/reviews/Yin_R_F0197_v2.md#independent-full-haar-proof) checked its complete proof, exact inputs and comparison with this unchanged contract.
+The [independent post-completion audit](../audits/reviews/Yin_R_F0197_v2.md#post-completion-full-haar-chain) checked the actual selected contract, proved support and complete necessary input chain and found no remaining mathematical obligation.
+
+## Current decision
+[Selected decision](#decision-completed-full-haar-limit)
 
 ## Lifecycle and completion
 
@@ -106,3 +117,18 @@ The [permutation Laurent-polynomial Task](Yin_T_F0016_v1.md#contract) instead us
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Haar-pencil determinant contract](#contract) | Ordinary normalized logarithmic determinant limit and upper-limit assertions for all fixed affine matrix coefficients, separately under arbitrary coupling and independence across dimensions. |
+
+### Decision completed-full-haar-limit
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T09:34 |
+| status | completed |
+| authority | Yin authorized parallel exploration and advancement of F0012 through F0016 within their unchanged contracts and completion criteria. |
+| reason | The independently reviewed full affine Haar theorem proves the ordinary logarithmic determinant limit for all fixed coefficients and every allowed coupling, including singular constant terms and zero free determinant; this resolves both assertions under both original coupling requirements. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [Original complete Haar contract](#contract) | Full limit and upper-limit equality under arbitrary coupling and independent dimensions, through every dimension, with all coefficient and ordinary-determinant conventions unchanged. |
+| support | [Complete affine Haar theorem](../claims/Yin_C_F0192_v2.md#statement) | Full extended-real ordinary normalized logarithmic limit for all fixed matrix coefficients and arbitrary cross-dimensional coupling, hence all four original assertions. |
+| review | [Independent whole-contract finding](../audits/reviews/Yin_R_F0197_v2.md#independent-full-haar-proof) | Original contract, complete selected theorem and its full proof and direct-input interfaces, with all coupling, coefficient and zero-target cases. |

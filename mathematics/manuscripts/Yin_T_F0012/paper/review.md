@@ -14,3 +14,9 @@ The retained scalar probability argument was checked against [v1](../../../claim
 The [citation map](../citation.md) records source applicability for the current TeX, including the distinct scalar and matrix-valued uses of algebraicity and the normalized determinant conventions.
 The manuscript review is the revising agent's check of the current TeX.
 The independent review and the limits of external theorem-proof inspection are recorded for the fixed mathematical argument in R_F0190 v3.
+
+## Current exposition findings
+
+On 2026-11-05, the current agent directly checked the abstract's logarithmic convergence claim against Theorem `thm:affine` and its finite and minus-infinite branches, and the comparison of limits in `subsec:brown-as`.
+The abstract needs to distinguish convergence in \(L^1\) from convergence of extended expectations, and the Brown-measure proof should display the free-pencil limit being identified.
+The [revision requests](revisions.md) retain these findings, the other writing and bibliography findings, their source locations and governing rules, and the exact scope and limits of the whole-manuscript writing review.

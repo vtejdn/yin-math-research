@@ -58,6 +58,10 @@ For a finite free logarithm, the [reviewed marginal criterion](../claims/Yin_C_F
 It is enough to approach the target in probability along a suitable deterministic dimensional subsequence.
 This exact reduction supplies no such estimate for the general coefficient tuple; the original equality remains unresolved.
 
+The [reviewed GOE affine theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) establishes the upper-limit equality for every fixed coefficient tuple in the exact real Gaussian submodel, including singular constant matrices.
+It proves the full logarithmic limit along all even dimensions and classifies full-sequence convergence at a finite target by existence of one odd-dimensional real-symmetric invertible witness.
+Arbitrary fixed-law finite-variance entries remain outside that Gaussian result.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

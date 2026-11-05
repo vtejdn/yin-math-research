@@ -4,7 +4,7 @@ author: Yin
 
 # Symmetrized adjugates and isolated-minor determinant bounds
 
-This is a complete candidate argument for a separate cofactor mechanism arising in the real finite-variance part of [F0012](../tasks/Yin_T_F0012_v3.md#contract).
+This [independently reviewed argument](../audits/reviews/Yin_R_F0200_v1.md#finding) gives a separate cofactor mechanism in the real finite-variance part of [F0012](../tasks/Yin_T_F0012_v3.md#contract).
 The probability theorem concerns specifically isolated principal minors and does not assert an arbitrary-nonsymmetric-shift least-singular-value bound.
 The [accepted C_F0188_v2 theorem](../claims/Yin_C_F0188_v2.md#decision-complex-shift-reviewed) retains its exact statement and assessment.
 Its repaired counting proof is adapted below only at the deterministic-offset interface its actual row exposure uses.
@@ -483,8 +483,7 @@ Well-conditioned or clustered-bottom minors and a separate lower-rank full-matri
 Thus the actual three-factor shift \(F=-z(W_2W_3)^{-1}\) receives only this restricted estimate on its polynomial norm events, without a full nonzero-shift determinant or Brown theorem.
 
 ## Current assessment
-
-[Selected decision](#decision-isolated-minor-candidate)
+[Selected decision](#decision-isolated-minor-reviewed)
 
 ## Assessment history
 
@@ -503,3 +502,20 @@ Thus the actual three-factor shift \(F=-z(W_2W_3)^{-1}\) receives only this rest
 | dependency | [Linear inverse concentration](../audits/literature/Ngu12a/Yin_U001.md#ngu12a-u001) | Dimension-two linear inverse Littlewood--Offord input at the exact arXiv v1 statement/applicability scope recorded in its source notes; original proof accepted externally. |
 | dependency | [Retained repaired mechanism](../claims/Yin_C_F0188_v2.md#argument) | Rational-grid formulation and repaired profile-counting proof, with deterministic-offset adaptation supplied in this argument; no larger-scope use of its final symmetric-shift theorem. |
 | dependency | [Exact symmetric-part input](../claims/Yin_C_F0188_v2.md#decision-complex-shift-reviewed) | Only the optional cofactor-noncancellation consequence for W plus an independent symmetric polynomially bounded shift; the main isolated-minor proof does not use a nonsymmetric extension of this theorem. |
+
+### Decision isolated-minor-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T08:25 |
+| status | proved |
+| reason | Independent review checked the deterministic assertions and complete restricted minor estimate, including nonsymmetric offsets, linear inverse concentration, the repaired profile count, exponent slack and all conditional probability interfaces. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact cofactor and restricted minor assertions](#statement) | Deterministic identity/inequality, isolated-principal-minor probability theorem, independent random-shift extension and its summable arbitrary-coupling consequence. |
+| argument | [Complete restricted proof](#argument) | The failed-inference example, truncation, rank-one reduction, full profile count, inverse-theorem rounding and final restricted-event assembly; no claim for complementary minors. |
+| dependency | [Vector-valued source interface](../audits/literature/Ngu12a/Yin_U001.md#ngu12a-u001) | Progression and concentration conventions for complex coefficients, with the linear Condition 1/Theorem 1.3 input accepted at the directly inspected arXiv v1 scope specified in the argument and source notes. |
+| dependency | [Repaired profile mechanism](Yin_C_F0188_v2.md#argument) | Rational-grid and repaired counting modules; the nonsymmetric deterministic-offset adaptation is proved in the present argument rather than imported as a larger theorem. |
+| dependency | [Exact symmetric-part consequence](Yin_C_F0188_v2.md#decision-complex-shift-reviewed) | Only the optional probabilistic cofactor-noncancellation conclusion for the genuinely symmetric shift W plus sym F. |
+| review | [Independent restricted cofactor review](../audits/reviews/Yin_R_F0200_v1.md#finding) | All exact deterministic and probability assertions, source applicability, full profile count, normalization and harmless exponent bookkeeping; no full least-singular-value or F0012 conclusion. |

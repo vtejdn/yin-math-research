@@ -158,4 +158,7 @@ The conditional uniformity, summable joint guard-and-failure events, fixed weak-
 They do not follow merely by citing an in-probability eigenvalue theorem.
 Conditioning on the complete sequence of background matrices is not justified under arbitrary cross-dimensional coupling.
 For \(D_N=R(U_N)\), pole-freeness gives the norm bound, its singular empirical measure is \(|R|_*\mu_{U_N}\), and the assumed single-Haar empirical theorem supplies the eventual guard.
+If the fixed rational \(R\) is nonzero, pole-free on the circle and has nonconstant modulus there, its circle zero set is finite and has Haar measure zero.
+The two strict conditions \(\int|R|^2\,dm>1\) and \(\int|R|^{-2}\,dm>1\), with the second integral allowed to be infinite, therefore place zero in \(D(v,R(u))\) by the recorded Theorem 2.3 interface.
+They verify the regular-bulk hypothesis and the more-than-two-point symmetrized support needed by the conditional argument.
 The rational normal example and more general background-compression hypotheses must be checked in the actual consuming Claim.

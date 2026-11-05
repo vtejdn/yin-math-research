@@ -7,13 +7,13 @@ author: Yin
 This candidate was developed on 2026-11-05 for the [Haar affine determinant Task F0015](../tasks/Yin_T_F0015_v1.md#contract).
 It gives a full logarithmic limit in a positive-FK, unbounded-free-inverse coefficient class, using a physical-size Haar perturbation after an exact rank-one Schur reduction.
 The conditional Haar-additive argument and source preparation were developed collaboratively by the assigned proof-development agents for Yin.
-This is a proof candidate awaiting a separately organized review, with no claim of novelty or unrestricted Task completion.
+The [independent complete review](../audits/reviews/Yin_R_F0198_v1.md#independent-conditional-schur-proof) supports its exact restricted scope, with no claim of novelty or unrestricted Task completion.
 
 <a id="statement"></a>
 ## Exact statements
 
 <a id="conditional-haar-additive-statement"></a>
-## Conditional Haar-additive statement
+## Conditional Haar-additive logarithmic theorem
 
 Let \(\mathcal F_N\) be a background sigma algebra, let \(D_N\in M_N(\mathbb C)\) be \(\mathcal F_N\)-measurable, and assume that the conditional law of \(V_N\) given \(\mathcal F_N\) is Haar probability on \(U(N)\).
 No relation between the sigma algebras or matrices at distinct dimensions is assumed.
@@ -394,8 +394,7 @@ The regular bulk gives a finite logarithmic integral and excludes a spectral gap
 This proves the stated full almost-sure limit and hence both upper-limit assertions as well.
 
 ## Current assessment
-
-[Selected decision](#decision-conditional-schur-candidate)
+[Selected decision](#decision-conditional-schur-reviewed)
 
 ## Assessment history
 
@@ -416,3 +415,22 @@ This proves the stated full almost-sure limit and hence both upper-limit asserti
 | dependency | [Bounded ordinary FK products](../audits/literature/FK52/Yin_U001.md#fk52-u001) | Only bounded multiplicativity, including zero values, used in the rectangular determinant and Schur factorizations. |
 | dependency | [Identity-diagonal triangular factors](../audits/literature/Luc22/Yin_U001.md#luc22-u001) | Only Theorem 14.18 for unipotent bounded block factors with identity diagonal maps; all required dense-range and injectivity hypotheses hold. |
 | dependency | [Coefficient-position symmetry](Yin_C_F0192_v1.md#coefficient-gauge) | Only the proved Haar transformation used for the optional initial coefficient permutation, without supplying the new Schur or bulk hypotheses. |
+
+### Decision conditional-schur-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T08:25 |
+| status | proved |
+| reason | Independent review checked the complete restricted conditional theorem, original affine application, amplitude and matrix examples, and scalar strict-triangle corollary with the exact source and coupling interfaces. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact conditional and affine assertions](#statement) | All displayed conditional Haar-additive, rank-one affine, amplitude/example and scalar strict-triangle conclusions, under their original background and bulk hypotheses. |
+| argument | [Complete conditional and Schur proof](#argument) | Guarded uniform local laws, free-convolution neighborhood, dyadic and ultra-small integrals, bounded rational guards, finite/free Schur reduction and all stated examples. |
+| dependency | [HZ25 source interface](../audits/literature/HZ25/Yin_U001.md#hz25-u001) | Only the accepted model, Definitions 2.6/2.7, Propositions 2.1/2.2, Theorems 2.3/2.8/3.2 and Lemma 4.4 at their inspected v4 scope and the actual applicability verified here. |
+| dependency | [Strong Haar background convergence](../ledger/Yin_L_F0062_v1.md#haar-pencils) | Fixed-coefficient strong convergence under the stated coupling quantifier and its bounded-inverse polynomial approximation consequences. |
+| dependency | [Ordinary bounded FK products](../audits/literature/FK52/Yin_U001.md#fk52-u001) | Bounded multiplicativity in finite tracial algebras, including zero determinant, for the displayed Schur and rectangular factors. |
+| dependency | [Unipotent triangular factors](../audits/literature/Luc22/Yin_U001.md#luc22-u001) | Only the identity-diagonal bounded triangular factors in Theorem 14.18, with their injectivity, dense range and trace normalization. |
+| dependency | [Coefficient-position symmetry](Yin_C_F0192_v1.md#coefficient-gauge) | Only the proved transformation for the optional initial coefficient permutation; it grants no new inverse or bulk hypotheses. |
+| review | [Independent complete restricted review](../audits/reviews/Yin_R_F0198_v1.md#independent-conditional-schur-proof) | Complete exact statement, argument, all declared dependencies, actual original coefficient applications and source-proof limits; no unrestricted Task completion. |
