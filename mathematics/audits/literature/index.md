@@ -240,3 +240,4 @@ Mathematical content, source inspections, finite computation limits and review r
 | [FGZ26 source notes](FGZ26/readme.md) | Published unitary-Haar polynomial anti-concentration, exact degree exponent and positive-normalization boundary |
 | [CTV06 source notes](CTV06/readme.md) | Singular-border rank growth, its symmetric Bernoulli scope and the source probability convention |
 | [MNV16/Yin_U001](MNV16/Yin_U001.md) | Finite-interval anti-concentration for multilinear polynomials and its disjoint-monomial rank |
+| [TV08/Yin_U001](TV08/Yin_U001.md) | Controlled complex second moments and finite nets for concentrated unit vectors |

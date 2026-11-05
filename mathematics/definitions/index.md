@@ -305,6 +305,8 @@ Consumer navigation:
 | --- | --- | --- |
 | [Generalized arithmetic progression, properness and symmetry](../audits/literature/Ngu12a/Yin_U001.md#progression-conventions) | [Ngu12a arXiv v1](../audits/literature/Ngu12a/readme.md), PDF pp. 1--2; distinguish size from displayed-box volume and the local nonproper-box use. | [Complex symmetric counting proof](../claims/Yin_C_F0188_v2.md#argument). |
 | [Linear and quadratic concentration functions](../audits/literature/Ngu12a/Yin_U001.md#concentration-conventions) | [Ngu12a arXiv v1](../audits/literature/Ngu12a/readme.md), PDF pp. 1--3; real scalar randomness, Euclidean vector coefficients, and a supremum over linear terms only in the quadratic convention. | [Structured-vector and profile proof](../claims/Yin_C_F0188_v2.md#argument). |
+| [Controlled complex second moment](../audits/literature/TV08/Yin_U001.md#controlled-second-moment) | TV08 arXiv v5, Definition 2.2, PDF pp. 6--7; the truncated lower bound uses \((\operatorname{Re}z)^2\) and allows singular real covariance. | [Generic truncated-law interface](../drafts/Yin_D_F0030.md#generic-uniform-truncation). |
+| [Complex concentration and infinity-norm covering](../audits/literature/TV08/Yin_U001.md#concentration-convention) | TV08 arXiv v5, Definition 3.1 and Theorem 3.2, PDF pp. 10--11; iid complex scalars, closed disks, Euclidean unit coefficients and coordinatewise approximation. | [Generic finite-net counting proof](../drafts/Yin_D_F0030.md#generic-finite-family-count). |
 
 ### Word reversal without coefficient conjugation
 

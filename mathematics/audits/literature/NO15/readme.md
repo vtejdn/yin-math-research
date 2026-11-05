@@ -17,14 +17,16 @@ No supplied contents list was identified in the front matter and text inspection
 The same 57-page arXiv:1208.5883v4 original is the edition selected for Theorem 3.1 on PDF p. 10, Corollary 3.3 on p. 11, the rational-coordinate applications on pp. 17 and 23, and the concluding lattice construction in Appendix A on pp. 49--52.
 The title, authors, version and 9 September 2014 date were verified in the selected original.
 The theorem pages were read as text and visually checked; the cited appendix passages were read selectively, without a whole-proof audit.
-The bounded search and exact applicability limits are retained in [D_F0030](../../../drafts/Yin_D_F0030.md#no15-interface).
+The printed linear theorem, complex-scalar corollary and exact applicability limits are retained in [Yin_U001](Yin_U001.md#printed-linear-interface).
 
 The [author-hosted elliptic-v5.pdf](https://people.math.osu.edu/nguyen.1261/cikk/elliptic-v5.pdf) is a different 45-page layout with placeholder 2009 journal metadata.
 Its corresponding theorem and corollary are on p. 8, and its placeholder header is not the publication identity of NO15.
 That remote layout was inspected while locating the statements; no whole-edition equivalence with arXiv v4 is asserted or needed.
-The continuing mathematical input above refers to the retained arXiv v4 instead.
+The mathematical passages retained in this section refer to the selected arXiv v4 instead.
 
 The literal generator wording in Theorem 3.1(ii) writes an integer numerator for a complex generator, whereas the subsequent applications and Appendix A use two real coordinates.
 Corollary 3.4 also prints numerator and denominator bounds of order beta rather than an inverse precision scale.
-These source-wording issues and the resulting limit on adopting an exact rational-generator interface are recorded at [the inspected interface](../../../drafts/Yin_D_F0030.md#arithmetic-wording).
+The [imaginary-coefficient counterexample](Yin_U001.md#literal-generator-obstruction) and [small-beta denominator conflict](Yin_U001.md#literal-denominator-obstruction) retain the precise consequences of that wording.
+The [selected application and appendix passages](Yin_U001.md#coordinate-passages) and [fixed-phase conversion](Yin_U001.md#fixed-phase-conversion) preserve the useful coordinate evidence and its unproved arithmetic boundary.
 No repaired source theorem is adopted by these edition notes.
+The generic complex proof uses TV08 finite nets instead, so the [retained NO15 limitations](Yin_U001.md#inspection-and-current-use) are not pending source inputs to that proof.
