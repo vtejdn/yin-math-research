@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Investigate complementary nonsymmetric Wigner minors after the reviewed GOE resolution, using the isolated-minor control. |
+| priority | Review the nonsymmetric-shift probability-floor candidate and test its carrier determinant consequences. |
 
 ## Mechanism and accepted controls
 
@@ -32,7 +32,13 @@ The [reviewed finite-product extension](../claims/Yin_C_F0186_v7.md#decision-sym
 The [continuing nonsymmetric test](../drafts/Yin_D_F0011.md) isolates the actual inverse shift for a three-factor product, where the accepted complex symmetric floor theorem no longer applies.
 This is a concrete boundary of the current method, rather than a counterexample to convergence.
 The [reviewed cofactor mechanism](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) excludes its exact isolated-minor bottom event with arbitrary polynomially bounded nonsymmetric offsets.
-The remaining full three-factor assembly still needs the well-conditioned and clustered-minor branches and the stated lower-rank reduction.
+The [reviewed corank-tail theorem](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed) now excludes full corank at least two with any prescribed polynomial failure rate, including the original three-factor product at each fixed nonzero parameter.
+The remaining full three-factor assembly still needs the corank-one, well-conditioned and clustered-minor bottom branches.
+The [reviewed many-index theorem](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) supplies a new probability reduction for those branches using independent rectangular blocks, coarse right-vector spread and finite-radius quadratic matching.
+Its [exact polynomial-shift inequality](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) retains the mean low-matching probability as the next unproved input.
+The [reviewed unary refinement](../claims/Yin_C_F0194_v4.md#decision-unary-reviewed) additionally controls many effective diagonal or linear terms, while retaining the joint tiny-ratio, low-matching and low-unary-count event.
+Its two-point-law cancellation and conditional Rademacher obstruction are explicit.
+The [method comparison and counterexamples](../ledger/Yin_L_F0066_v1.md) explain why neither a deterministic symmetric-part floor nor generic finite-to-one Riccati inversion can replace that random input.
 
 ## Relationship to the Gaussian routes
 
@@ -57,7 +63,12 @@ The [source frontier and counterexamples](../ledger/Yin_L_F0061_v1.md) prevent u
 No counterexample to the exact general Task has been established.
 The [bounded alternative-mechanism comparison](../ledger/Yin_L_F0063_v1.md) found no supported replacement in its inspected scope.
 It records why sharp positive exponential moments, smoothing without spectral stability, and coefficient products without new independent noise do not close the current gap.
-The retained allocation therefore continues the actual nonsymmetric-shift and block-minor tests.
+The [continuing internal-row argument](../drafts/Yin_D_F0025.md#in-probability-floor) now contains a complete candidate probability floor for arbitrary polynomially bounded nonsymmetric shifts.
+It combines uncovered-diagonal exclusion, a one-row-deleted kernel estimate, a second-smallest singular-value floor and the accepted isolated-minor bound.
+That new chain has not received independent review or a fixed proved assessment; the next step is to review its exact interfaces before adopting its probability conclusion.
+The [three-factor conditional assembly](../drafts/Yin_D_F0011.md#conditional-three-factor-limsup) distinguishes the determinant upper-limit consequence from the stronger full-sequence almost-sure Brown obligation.
+The same Draft retains the separate [fresh-border cofactor method](../drafts/Yin_D_F0011.md#fresh-two-border-rewrite), its uniform polynomial-pencil bulk estimate and the remaining relative-normalization gaps.
 The [reviewed complete GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) closes the real-Gaussian Brown submodel and proves arbitrary-coefficient affine upper limits, all-even logarithmic limits and the exact odd-witness classification.
 Its quantitative comparison uses the actual Schultz affine Hermitization source, while the [optional direct GOE--GUE comparison](../drafts/Yin_D_F0024.md#optional-direct-comparison) remains a separate continuing proof variant.
 The general fixed-law finite-variance contract still requires the nonsymmetric-minor or planar-defect estimate above.
+The [exact truncation and scalar-smoothing comparison](../ledger/Yin_L_F0065_v1.md) specifies safe eventual input equality, sharp finite-variance cutoff thresholds, and why harmless scalar spectral smoothing does not bound the singular regularization defect.

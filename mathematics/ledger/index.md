@@ -68,5 +68,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0062](Yin_L_F0062_v1.md) | Public literature boundaries for Wigner, Haar and permutation determinant limits | [v1](Yin_L_F0062_v1.md) |
 | [Yin_L_F0063](Yin_L_F0063_v1.md) | Coupling-sensitive rejection tests for Wigner determinant strategies | [v1](Yin_L_F0063_v1.md) |
 | [Yin_L_F0064](Yin_L_F0064_v1.md) | Alternative Schur pivots and phase anti-concentration boundaries for Haar pencils | [v1](Yin_L_F0064_v1.md) |
+| [Yin_L_F0065](Yin_L_F0065_v1.md) | Exact-input truncation thresholds and scalar planar smoothing boundaries | [v1](Yin_L_F0065_v1.md) |
+| [Yin_L_F0066](Yin_L_F0066_v1.md) | Finite-radius cofactor matching and large Riccati-fiber obstructions | [v1](Yin_L_F0066_v1.md) |
 | [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
 | [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |

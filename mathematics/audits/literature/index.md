@@ -238,3 +238,5 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Par22/Yin_U001](Par22/Yin_U001.md) | Matrix-coefficient Haar resolvent comparison and concentration at its conditional special-unitary center |
 | [SS15/Yin_U001](SS15/Yin_U001.md) | Free Haar and semicircular matrix-polynomial algebraicity, Puiseux expansions and atom boundaries |
 | [FGZ26 source notes](FGZ26/readme.md) | Published unitary-Haar polynomial anti-concentration, exact degree exponent and positive-normalization boundary |
+| [CTV06 source notes](CTV06/readme.md) | Singular-border rank growth, its symmetric Bernoulli scope and the source probability convention |
+| [MNV16/Yin_U001](MNV16/Yin_U001.md) | Finite-interval anti-concentration for multilinear polynomials and its disjoint-monomial rank |

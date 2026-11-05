@@ -46,6 +46,12 @@ The [reviewed symmetric-carrier extension](../claims/Yin_C_F0186_v7.md#decision-
 It does not cover a general nonsymmetric carrier or arbitrary auxiliary matrix coefficients, and therefore supplies partial progress for this unchanged contract.
 The [reviewed isolated-minor theorem](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) now controls its precisely specified bottom event for real Wigner matrices with arbitrary polynomially bounded nonsymmetric shifts.
 The complementary principal-minor branches and their use for a complete nonnormal polynomial remain unresolved.
+The [reviewed corank-tail reduction](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed) now excludes full corank at least two for arbitrary polynomially bounded independent nonsymmetric complex shifts and for the original three-real-Wigner product at each fixed nonzero parameter.
+This closes that lower-rank branch, while corank one and the positive small-singular-value estimates remain outside the new theorem.
+The [reviewed many-index and finite-radius reduction](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) then replaces the union over possible principal indices by an average for real Wigner matrices with independent nonsymmetric complex shifts.
+Its polynomial-shift bound retains the mean probability of low-matching actual minors, which has not been controlled for the original product-inverse shift.
+The [reviewed unary refinement](../claims/Yin_C_F0194_v4.md#decision-unary-reviewed) controls an additional low-matching branch with many effective unary coefficients, including the precise distinction between two-point and larger-support laws.
+The remaining joint event is explicit, and this restricted estimate supplies no completion of the present full-sequence Brown contract.
 
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) proves this full Brown-measure conclusion for every scalar polynomial when the entries have the exact normalized real Gaussian laws.
 It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.

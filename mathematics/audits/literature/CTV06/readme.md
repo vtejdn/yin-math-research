@@ -20,6 +20,6 @@ The proof on p. 12 explicitly invokes symmetry to pass from a column rank increa
 The source's complete nonsingularity argument also uses a separate quadratic estimate for borders of invertible matrices.
 Its full proof and other generalizations were not independently audited here.
 
-[The continuing nonsymmetric-offset deduction](../../../drafts/Yin_D_F0011.md#rank-growth-attribution) uses this as attribution for the recognized rank-growth mechanism, not as a theorem with the present shift, law or summable-probability hypotheses.
+[The fixed nonsymmetric-offset deduction](../../../claims/Yin_C_F0194_v2.md#rank-growth-attribution) uses this as attribution for the recognized rank-growth mechanism, not as a theorem with the present shift, law or summable-probability hypotheses.
 That deduction supplies its own complex row/column-space calculation and separately controls right-kernel and transpose-left-kernel linear forms through the already reviewed nonsymmetric-offset counting module.
 No direct transfer of the symmetric source's one-form argument, full nonsingularity conclusion or coupling convention is asserted.

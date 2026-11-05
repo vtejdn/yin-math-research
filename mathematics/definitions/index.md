@@ -346,3 +346,9 @@ Recorded consumer navigation: the [GOE good-dimension and parity theorem](../cla
 Exact construction and inverse: the [Cayley coordinate formulas](../claims/Yin_C_F0192_v2.md#haar-tube-argument), mapping Hermitian matrices to unitaries whose spectrum excludes minus one.
 The domain, inverse and Hilbert--Schmidt coordinate estimates are stated at that home.
 Recorded consumer navigation: the [random-center Haar tube argument](../claims/Yin_C_F0192_v2.md#haar-tube-statement).
+
+### Disjoint-monomial matching rank
+
+Exact source home: [MNV16's coefficient-threshold rank](../audits/literature/MNV16/Yin_U001.md#matching-rank), for a real multilinear polynomial, with pairwise disjoint highest-degree monomials and coefficient threshold one.
+Source scope: the 2016 Theory of Computing edition, Definition 1.5 and Theorem 1.6, PDF p. 3.
+Recorded consumer navigation: the [principal-cofactor threshold graph](../claims/Yin_C_F0194_v3.md#statement) and its [two-copy real-law adaptation](../claims/Yin_C_F0194_v3.md#two-copy-matching), with the factor two and normalized Wigner factor \(1/n\) retained.

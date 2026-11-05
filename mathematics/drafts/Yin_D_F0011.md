@@ -41,8 +41,11 @@ No claim that this exact interface is a publicly named open problem is made.
 
 The [reviewed cofactor theorem](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) owns the complete symmetrized-adjugate identity, its exact failed row-to-kernel inference example, and the isolated-minor probability bound.
 Its [fixed proof](../claims/Yin_C_F0194_v1.md#argument) supplies the rank-one factorization, complete nonsymmetric-offset profile adaptation, parameter order and summable arbitrary-coupling conclusion.
-The theorem controls only its explicitly isolated or exactly corank-one principal-minor branches.
-The argument below retains the actual full-product assembly and its uncovered cases, rather than duplicating the fixed proof.
+The first version controls only its explicitly isolated or exactly corank-one principal-minor branches.
+The [reviewed second version](../claims/Yin_C_F0194_v2.md#statement) separately controls full corank at least two for arbitrary polynomially bounded complex offsets and [independent random shifts](../claims/Yin_C_F0194_v2.md#random-shift-statement).
+Its [universal kernel anti-concentration](../claims/Yin_C_F0194_v2.md#kernel-anticoncentration), [measurable choices and shared-border calculation](../claims/Yin_C_F0194_v2.md#border-rank), [uniform truncated-law rank chain](../claims/Yin_C_F0194_v2.md#rank-chain), and [product reduction](../claims/Yin_C_F0194_v2.md#product-corank-reduction) are fully retained in that fixed argument.
+The [rank-growth source attribution and inspection limits](../claims/Yin_C_F0194_v2.md#rank-growth-attribution) also remain there.
+The argument below retains the actual full-product assembly and its uncovered cases, rather than duplicating either fixed proof.
 
 ## Full three-factor assembly and the first remaining unsupported step
 
@@ -53,175 +56,20 @@ Apply the raw-scaled minor tests to \(\sqrt N M\), absorbing that factor into th
 When \(M\) is invertible, cofactor-row expansion for this arbitrary matrix still gives an index \(i\) and a nonzero \(\operatorname{adj}D_i\) for which \(|\det M|/\|\operatorname{adj}D_i\|_F\) is polynomially small, as in the accepted cofactor reduction with the same polynomial entry losses.
 That elementary expansion does not require equality of the deterministic off-diagonal shifts.
 For full \(M\) of corank one, choose an omitted row whose removal preserves its rank; deleting the matching column then leaves a principal minor of corank at most one, so its adjugate is nonzero and the determinant ratio is zero.
-The separate [candidate lower-rank reduction](#corank-one-candidate) below addresses full corank at least two by a leading-principal rank chain; it is not part of the isolated-minor theorem or a proof of nonsingularity.
+The [reviewed corank-tail theorem](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed), with its [exact original-product consequence](../claims/Yin_C_F0194_v2.md#product-statement), excludes full corank at least two outside arbitrarily summable polynomial failures.
+This closes the lower-rank full-matrix branch while leaving possible full corank one; it supplies no positive least-singular-value floor.
 
 If this selected minor satisfies the exact hypotheses of the reviewed C_F0194_v1 isolated-minor theorem, that bound excludes the event at the desired summable scale.
-The first unsupported step in a complete argument is coverage of the complementary minors: their least singular value can be too large to suppress the \(a\det D\) term, or more than one small singular direction can contribute substantially to the normalized adjugate.
+In that isolated-minor route, the first unsupported step is coverage of the complementary minors: their least singular value can be too large to suppress the \(a\det D\) term, or more than one small singular direction can contribute substantially to the normalized adjugate.
 In the former branch the scalar diagonal term need not be negligible, so the reviewed zero-product union is unavailable.
 In the latter branch the cofactor quadratic form need not factor into two linear forms.
 Neither branch is resolved merely by the symmetrized-adjugate norm bound or by the accepted intermediate estimate.
 A continuation must establish an arithmetic recovery statement for those actual quadratic forms or a separate bottom-logarithm mechanism.
 
-<a id="corank-one-candidate"></a>
-## A separate high-probability reduction to full corank at most one
-
-The following candidate addresses only the lower-rank full-matrix branch.
-It uses the complete nonsymmetric-offset counting module already proved inside [C_F0194_v1](../claims/Yin_C_F0194_v1.md#structured-vector-counting), without assuming an isolated singular value or a determinant-ratio event.
-It is ordinary proof development and has not received an independent review.
-
-Let \(X_n\) have exactly the raw real symmetric Wigner laws in [C_F0194_v1's statement](../claims/Yin_C_F0194_v1.md#statement), and let \(F_n\) be deterministic complex matrices with \(\max_{i,j}|(F_n)_{ij}|\le n^\gamma\).
-The proposed conclusion is that for every fixed \(\gamma,B>0\),
-\[
- \mathbb P\{\operatorname{rank}(X_n+F_n)\le n-2\}\le Cn^{-B}
- \tag{Rank-tail}
-\]
-for all sufficiently large \(n\), uniformly over these shifts.
-It neither excludes corank exactly one nor estimates a positive smallest singular value.
-
-### Universal kernel anti-concentration from the existing counting module
-
-Fix an arbitrary exponent \(b>0\) and a polynomial entry exponent \(K\).
-Work first in the independently truncated model used by the fixed proof: its real scalar off-diagonal law \(\xi_n\) has the uniform symmetrized anti-concentration property (AC), and every matrix entry is bounded by \(m^K\) at the size \(m\) under consideration.
-Diagonal entries can be conditioned on because the counting bound is uniform over all deterministic diagonal values in this range.
-For a unit complex vector \(u\in\mathbb C^m\), define
-\[
- \rho_{m^{-a},\xi_n}(u)
- :=\sup_{z\in\mathbb C}\mathbb P\left\{
-       \left|\sum_{j=1}^m u_j\xi_{n,j}-z\right|\le m^{-a}\right\},
-\]
-where the \(\xi_{n,j}\) are independent copies of the truncated real law.
-There is a fixed sufficiently large precision exponent \(a\), selected after \(b,K\), for which a measurable exceptional event \(\mathcal R_m\) has probability at most \(Ce^{-cm}\) and, on its complement,
-\[
- \begin{split}
- Du=0,\quad\|u\|_2=1
- &\quad\Longrightarrow\quad \rho_{m^{-a},\xi_n}(u)\le m^{-b},\\
- D^Tv=0,\quad\|v\|_2=1
- &\quad\Longrightarrow\quad \rho_{m^{-a},\xi_n}(v)\le m^{-b}.
- \end{split}
- \tag{Kernel-AC}
-\]
-Here \(D\) is a random size-\(m\) principal block with an arbitrary nonsymmetric deterministic offset in the polynomial bound.
-The quantifier in (Kernel-AC) is over all unit kernel vectors, not only an adjugate or singular-vector choice.
-
-To check this consequence, suppose that a unit right-kernel vector \(u\) has concentration greater than \(m^{-b}\) at radius \(m^{-a}\).
-Apply the same dimension-two linear inverse theorem and [rational rounding interface](../claims/Yin_C_F0194_v1.md#inverse-rounding) used in the fixed proof, identifying complex coefficients with two-dimensional real vectors while the scalar randomness stays real.
-Its structural rank, progression size and exceptional-count constants depend on \(b\), the chosen fixed exception exponent, and the uniform (AC) constants, rather than on the eventual fine precision \(a\).
-It gives a vector \(w\) of norm between \(1/2\) and two, with \(\|w-u\|_\infty\le C m^{-a}\), in the rational progression class of [C_F0194_v1](../claims/Yin_C_F0194_v1.md#counting-class).
-For all rows,
-\[
- \|Dw\|_\infty
- =\|D(w-u)\|_\infty\le C m^{K+1-a}.
- \tag{Kernel-rounding}
-\]
-Enlarge its fixed structural constant to exceed \(K+2\), absorbing the fixed factor \(C\).
-Then (Kernel-rounding) is within the row tolerance of that counting class.
-The complete profile count excludes existence of such a \(w\) with probability at most \(Ce^{-cm}\).
-The same argument for \(D^T\) gives the second line of (Kernel-AC).
-There is no rank-one approximation in this deduction: the residual is zero because \(u\) is an actual kernel vector.
-Take \(\mathcal R_m\) to be the union of those two finite structured-candidate existence events.
-This makes it measurable and covers every possible high-concentration unit kernel vector without a measurability assumption on a supremum over kernels.
-The noncircular parameter choice is precisely the one in the fixed counting module: structural constants first, then the sufficiently fine \(a\), with all later exceptional-coordinate costs subexponential.
-
-### Bordered rank and its measurable kernel choices
-
-For any singular complex \(m\)-by-\(m\) matrix \(D\), choose unit vectors \(u(D)\in\ker D\), \(v(D)\in\ker D^T\) measurably.
-One explicit choice is to stratify by rank, take the lexicographically first nonzero maximal minor with row set \(I\) and column set \(J\), and take the first \(j_0\notin J\).
-Set the \(j_0\)-th free coordinate to one, the other free coordinates to zero, and solve
-\[
- u_J=-D_{I,J}^{-1}D_{I,j_0}.
-\]
-The rows indexed by \(I\) span the row space, so this vector lies in the full kernel; normalize it by its positive Euclidean norm.
-For rank zero use \(e_1\).
-The rank strata and maximal-minor choices are Borel, and the displayed coordinate functions are rational on each such stratum, giving the required measurable choice.
-Apply the same construction to \(D^T\) for \(v\).
-
-Consider the bordered matrix
-\[
- M=\begin{pmatrix}D&c\\r^T&a\end{pmatrix}.
-\]
-If \(r^Tu\ne0\), then \(r^T\) is outside the row space of \(D\).
-If \(v^Tc\ne0\), then \(c\) is outside the column space of \(D\).
-When both hold,
-\[
- \operatorname{rank}M=\operatorname{rank}D+2,
- \tag{Border-rank}
-\]
-regardless of \(a\).
-Indeed choose invertible row and column transformations carrying \(D\) to \(\operatorname{diag}(I_q,0)\), eliminate the identity block, and inspect the remaining block
-\[
- \begin{pmatrix}0_{(m-q)\times(m-q)}&c_0\\r_0^T&a'\end{pmatrix}.
-\]
-The two nonzero vectors \(c_0,r_0\) make its rank exactly two.
-This calculation is over \(\mathbb C\); the transpose rather than adjoint in the left-kernel condition is intentional.
-
-For a Wigner border, write \(r=x+f\), \(c=x+g\), where the coordinates of \(x\) have law \(\xi_n\) and are independent of \(D\); the shifts \(f,g\) can differ.
-On the complement of \(\mathcal R_m\), the failure of (Border-rank) is contained in
-\[
- \{u(D)^T(x+f)=0\}\ \cup\ \{v(D)^T(x+g)=0\}.
-\]
-Conditional on \(D\), its probability is at most \(2m^{-b}\) by (Kernel-AC).
-The two linear forms use the same \(x\); only a union bound is used, not an independence assertion.
-Including the exceptional guard gives
-\[
- \mathbb P\{D\text{ singular and }
-        \operatorname{rank}M<\operatorname{rank}D+2\}
- \le 2m^{-b}+Ce^{-cm}.
- \tag{Border-failure}
-\]
-The diagonal border variable plays no role in this bound.
-
-### One leading-principal chain gives the full rank tail
-
-Choose a raw cutoff exponent \(\kappa\) so the probability that any full size-\(n\) raw Wigner variable exceeds \(n^\kappa\) is at most \(Cn^{-B-2}\), by the finite-second-moment union bound.
-Condition on all those independent cutoffs simultaneously.
-The upper off-diagonal variables remain independent with the single law \(\xi_n\), while all diagonal values can be conditioned on.
-Set \(k_0=\lfloor n/3\rfloor\), and let \(M_k\) be the leading size-\(k\) principal block of \(X_n+F_n\), for \(k_0\le k\le n\).
-These blocks are taken within this one matrix; no consistency between different physical sizes is assumed.
-For all large \(n\), \(n/k\le4\) on the chain.
-Thus \(n^\gamma\le k^{\gamma+1}\), \(n^\kappa\le k^{\kappa+1}\), and one fixed entry exponent \(K\) works for every block and exposed border on the chain.
-The (AC) constants of \(\xi_n\) are uniform in \(n\).
-The counting proof and inverse theorem use only those constants and the polynomial entry bound, so the same \(a,b,K\) and exponential-count constants work for all these blocks, even though the cutoff is indexed by \(n\) rather than \(k\).
-In particular the two offsets in each border are deterministic and polynomially bounded, and the remaining border randomness is independent of the current principal block.
-
-Choose \(b>B+4\) and apply (Border-failure) to every step from \(k\) to \(k+1\).
-A union bound makes their total failure probability at most \(Cn^{1-b}+Ce^{-c'n}\).
-On the complementary event, write \(d_k=k-\operatorname{rank}M_k\).
-If \(d_k>0\), then (Border-rank) gives \(d_{k+1}=d_k-1\).
-If \(d_k=0\), rank monotonicity gives \(d_{k+1}\in\{0,1\}\).
-Once the deficiency is at most one, it therefore stays at most one.
-Starting from \(d_{k_0}\le k_0\), it reaches that region within at most \(k_0\) steps, and \(n-k_0\ge k_0\).
-Consequently \(d_n\le1\).
-Adding the discarded full raw-entry tail proves (Rank-tail), with room in the requested exponent.
-The argument is uniform over \(F_n\); no symmetry of that deterministic offset was used.
-
-<a id="product-corank-reduction"></a>
-### Consequence for the original three-factor object
-
-An independent random \(F_n\) is treated by conditioning on its dimensionwise realization on the polynomial-bound event and adding that event's failure probability.
-For the original fixed nonzero \(z\), set
-\[
- M_N=W_1^{(N)}-z(W_2^{(N)}W_3^{(N)})^{-1}.
-\]
-The accepted one-factor norm and inverse bounds make the shift polynomially bounded outside arbitrarily summable failures, and it is independent of \(W_1^{(N)}\) within each dimension.
-Apply (Rank-tail) after multiplying by \(\sqrt N\), which affects only its fixed polynomial exponent.
-Right multiplication by the invertible \(W_2^{(N)}W_3^{(N)}\) preserves rank, so the same tail controls
-\[
- \operatorname{corank}(W_1^{(N)}W_2^{(N)}W_3^{(N)}-zI_N)\ge2.
-\]
-For an exponent \(B>1\), first Borel--Cantelli would give eventual corank at most one under every allowed cross-dimensional coupling.
-This completes the proposed lower-rank reduction, conditional only on the already accepted counting interface used explicitly above, and awaits fresh scrutiny as a new deduction.
-It leaves the full corank-one and the well-conditioned or clustered-minor floor branches unresolved.
-
-<a id="rank-growth-attribution"></a>
-### Actual known mechanism and this adaptation's boundary
-
-The rank-growth mechanism is already present in Costello--Tao--Vu, *Random symmetric matrices are almost surely non-singular*, arXiv:math/0505156v1, Section 2, equation (1), Lemma 2.4 on PDF p. 3, and its proof on pp. 11--12.
-The selected original is retained as [CTV06--arxiv-v1.pdf](../literature/pdf/CTV06--arxiv-v1.pdf), with its [edition and source note](../audits/literature/CTV06/readme.md).
-Their singular-border argument concerns symmetric matrices and Bernoulli borders, and its proof explicitly uses symmetry to infer a rank increase of two from a rank-increasing column.
-The nonsymmetric deterministic-offset argument here separately controls both a right-kernel and a transpose-left-kernel linear form by the reviewed C_F0194 counting module.
-The source's full nonsingularity proof also needs the separate invertible-border quadratic step, which is not imported here.
-The source's phrase almost surely means probability tending to one in that paper, whereas the arbitrary-cross-size almost-sure consequence above uses its own summable bounds and first Borel--Cantelli.
-Only this mechanism attribution and the stated passages were checked; no novelty claim or whole-paper proof audit is made.
+The [reviewed many-index and matching reduction](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) now supplies a different treatment when the actual quadratic cofactor graphs have growing finite-scale matchings.
+Its [complete polynomial-shift bound](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) closes the index-union loss and separately absorbs the corank and norm exceptions, while keeping the mean low-matching probability explicit.
+The next test is to bound that remaining probability for the actual product-inverse shift, at a polynomial threshold chosen after its shift scale.
+The [fixed comparison](../ledger/Yin_L_F0066_v1.md#low-matching-structure) gives the diagonal-plus-few-rows-and-columns complement and the large-fiber obstruction to a naive Riccati parametrization.
 
 ## A paired-cofactor identity for the complementary branch
 
@@ -264,6 +112,484 @@ The resulting polynomial nonidentity gives these ranks almost surely for two ind
 Thus bounded skew rank fails even within an allowed Gaussian model of the original product.
 A parameter grid for a full-dimensional correction can introduce leading entropy depending on the fine precision, which the current profile argument does not absorb.
 The useful next test is whether the original product-inverse structure constrains this correction more strongly than its ambient rank suggests.
+
+<a id="conditional-three-factor-limsup"></a>
+## What a vanishing mean low-matching probability would prove for the original product
+
+This calculation checks the whole conditional route at a fixed nonzero \(z\), rather than assuming that the new matching premise already resolves a determinant question.
+Write \(P_N=W_1W_2W_3-zI\), and define \(F_N=-z(W_2W_3)^{-1}\) on the one-factor invertibility event, setting \(F_N=0\) otherwise.
+This measurable extension remains independent of \(W_1\).
+The [accepted one-factor floor](../claims/Yin_C_F0188_v2.md#statement), used only with zero shift, gives an event \(J_N\) with arbitrarily prescribed polynomially small complement on which
+\[
+ s_{\min}(W_2),s_{\min}(W_3)\ge N^{-b},
+ \qquad \|F_N\|\le |z|N^{2b}.
+\]
+Thus a fixed exponent \(\gamma>2b\) provides the entry guard \(\Gamma_N\) in the [reviewed matching reduction](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence), with \(\mathbb P(\Gamma_N^c)\to0\).
+Suppose that for this actual shift there exist a fixed \(H\) and deterministic \(r_N\to\infty\), with \(2\le r_N\le\lfloor(N-1)/2\rfloor\), such that
+\[
+ \frac1N\sum_{i=1}^N
+ \mathbb P\{H_i(N^{-H},r_N)^c\cap\Gamma_N\}\longrightarrow0.
+ \tag{Unproved-matching-premise}
+\]
+Here \(H_i\) is exactly the nonzero-adjugate matching event of that fixed theorem for \(W_1+F_N\), not a graph of an independently substituted minor.
+The theorem gives a fixed \(A\) such that
+\[
+ \mathbb P\{s_{\min}(W_1+F_N)<N^{-A}\}\longrightarrow0.
+\]
+On \(J_N\), the exact factorization and the elementary least-singular-value product inequality consequently give
+\[
+ \mathbb P\{s_{\min}(P_N)<N^{-A-2b}\}\longrightarrow0.
+ \tag{Conditional-product-floor}
+\]
+
+The middle singular values require no additional matching premise.
+Apply [C_F0187_v2](../claims/Yin_C_F0187_v2.md#statement) to \(W_2,W_3\) with zero shift and conditionally to \(W_1+F_N\).
+Using the [accepted product inequality](../claims/Yin_C_F0186_v6.md#argument) twice, for increasing singular values \(a_k\), yields constants \(c,C>0\) and \(k_N\le C N^{3/4}\) such that
+\[
+ a_k(P_N)\ge c(k/N)^3,\qquad k_N\le k\le N,
+ \tag{Three-factor-middle}
+\]
+outside a summable exceptional event.
+For example, select three indices whose sum is \(k+2\) and which differ by at most one; when \(k\ge 3\lceil N^{3/4}\rceil+6\), each lies in the applicable intermediate range.
+The inverse-factor guard contributes only its separately summable exception.
+This argument allows the first factor \(W_1+F_N\) to depend on the other two factors; the product inequality is deterministic.
+
+By the [accepted Hermitized weak convergence](../claims/Yin_C_F0186_v4.md#statement), the empirical singular law of \(P_N\) converges almost surely to that of \(s_1s_2s_3-z\).
+The middle bound implies that this limiting law assigns mass at most \(C t^{1/3}\) to \([0,t]\) for all sufficiently small positive \(t\).
+Indeed the finite-dimensional count is at most \(k_N+C N t^{1/3}\); weak convergence applied at a slightly larger continuity point and then its decrease to \(t\) gives the stated bound.
+Consequently its negative logarithm is integrable by \(\int_0^1 C t^{1/3}\,dt/t<\infty\), and the bounded free operator controls its positive logarithm.
+Write its finite logarithmic integral as \(c_z=\log\Delta(s_1s_2s_3-z)\).
+
+On the good event in (Conditional-product-floor) and (Three-factor-middle), the bottom \(k_N\) values contribute at most
+\[
+ (A+2b)\,k_N\log N/N=o(1)
+\]
+to the normalized negative logarithm.
+For the remaining values below a cutoff \(t\), the same middle bound and the elementary integral comparison for \(\log(N/k)\) give a bound
+\[
+ C t^{1/3}(1+|\log t|)+o(1).
+\]
+The good event has probability tending to one, so these two bounds give negative-logarithmic uniform integrability in probability.
+Together with Hermitized weak convergence and the [accepted positive-logarithmic tail control](../claims/Yin_C_F0186_v4.md#positive-tail), this proves the conditional conclusion
+\[
+ \frac1N\log|\det P_N|\longrightarrow c_z
+ \quad\hbox{in probability}.
+ \tag{Conditional-log-probability}
+\]
+Truncating the logarithm at fixed upper and lower cutoffs, passing to the weak limit, and then removing the two tails gives this implication without convergence of expected unregularized logarithms.
+
+For every allowed cross-size coupling, the [fixed-regularizer upper bound](../claims/Yin_C_F0186_v4.md#regularized-potentials) already gives \(\limsup_N N^{-1}\log|\det P_N|\le c_z\) almost surely.
+Therefore (Conditional-log-probability) and the [reviewed marginal criterion](../claims/Yin_C_F0190_v1.md#statement) imply equality of that upper limit almost surely under every such coupling.
+Equivalently, choose a deterministic dimensional subsequence on which the lower-deviation probabilities are summable and apply the first Borel--Cantelli argument there, together with the full-sequence upper bound.
+No independence across dimensions is needed.
+This would settle the fixed-\(z\) three-real-factor instance of F0014, while the unproved premise remains exactly (Unproved-matching-premise).
+Its probability decay need not be summable for that upper-limit conclusion.
+It supplies neither a full-sequence almost-sure logarithmic limit nor the one-event almost-sure Brown convergence required by F0012; those stronger conclusions still need their own full-sequence control.
+
+<a id="fresh-two-border-rewrite"></a>
+## Keeping the second and third borders gives an exact rank-two update
+
+The [reviewed many-index reduction](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) leaves a mean low-matching probability for actual principal minors of \(W_1-z(W_2W_3)^{-1}\).
+The next calculation keeps random coordinates from the second and third factors instead of conditioning on both full factors.
+It is a direct block calculation for the actual product order, not an assumption that the skew part has small rank.
+No new probability or matching typicality assertion is made.
+
+Fix an omitted index and place it first.
+Write the second and third real symmetric factors as
+\[
+ B=W_2=\begin{pmatrix}b&x^T\\x&B_0\end{pmatrix},
+ \qquad
+ C=W_3=\begin{pmatrix}c&y^T\\y&C_0\end{pmatrix},
+ \qquad m=N-1.
+\]
+Condition on \(B_0,C_0\), the first-factor principal block \(A_0=(W_1)_{\widehat i,\widehat i}\), and optionally the independent diagonal variables \(b,c\).
+The vectors \(x,y\) remain independent, have independent coordinates with their respective fixed off-diagonal laws scaled by \(N^{-1/2}\), and are independent of all those conditioned blocks.
+On the event that \(B_0,C_0\) are invertible put
+\[
+ E=B_0^{-1},\quad G=C_0^{-1},\quad
+ u=Ex,\quad v=Gy,\quad
+ s_B=b-x^TEx,\quad s_C=c-y^TGy.
+\]
+The transpose here is intentional: the factors and their inverses are real symmetric.
+The full factors are invertible exactly when \(s_B,s_C\ne0\) on this event.
+Set \(\beta=s_B^{-1}\), \(\alpha=s_C^{-1}\), and \(\ell=1+v^Tu\).
+The inverse formulas, checked by direct block multiplication, are
+\[
+ B^{-1}=\begin{pmatrix}\beta&-\beta u^T\\-\beta u&E+\beta uu^T\end{pmatrix},
+ \qquad
+ C^{-1}=\begin{pmatrix}\alpha&-\alpha v^T\\-\alpha v&G+\alpha vv^T\end{pmatrix}.
+\]
+Therefore the actual principal block of the inverse product, in its correct order, is
+\[
+ (C^{-1}B^{-1})_{\widehat i,\widehat i}
+ =GE+\beta Guu^T+\alpha vv^TE
+       +\alpha\beta\ell\,vu^T.
+ \tag{Fresh-product-block}
+\]
+The correction to \(GE=C_0^{-1}B_0^{-1}\) has rank at most two, since its columns lie in \(\operatorname{span}\{Gu,v\}\).
+This is true even when the skew part of the full inverse product has rank proportional to dimension.
+
+Define
+\[
+ D_0=A_0-zGE,\qquad
+ U=\begin{pmatrix}Gu&v\end{pmatrix},\qquad
+ V=\begin{pmatrix}u&Ev\end{pmatrix},\qquad
+ R=\begin{pmatrix}\beta&0\\\alpha\beta\ell&\alpha\end{pmatrix}.
+\]
+Then the actual minor and the inverse two-by-two matrix satisfy
+\[
+ D_i=D_0-zURV^T,
+ \qquad R^{-1}=\begin{pmatrix}s_B&0\\-\ell&s_C\end{pmatrix}.
+ \tag{Fresh-rank-two}
+\]
+No inverse of \(D_0\) is used in this identity.
+One-factor zero-shift floors apply to \(B,C,B_0,C_0\), with the harmless \(N\)-versus-\(N-1\) scaling adjustment, so their inverse-norm guards can have arbitrarily small polynomial failure probability.
+These guards do not supply a lower bound for \(s_{\min}(D_0)\), which is another instance of the unresolved nonzero-shift product-inverse problem.
+They do make all displayed background inverse coefficients polynomially bounded.
+On those same guards, \(|\alpha|\le\|C^{-1}\|\) and \(|\beta|\le\|B^{-1}\|\), because these scalars are diagonal entries of the full inverses.
+The guards involving the full factors depend on \(x,y\); they are retained as events rather than conditioning that would incorrectly preserve their independent border laws.
+
+<a id="fresh-quartic-cofactors"></a>
+## A denominator-free quartic matrix represents the actual matching graph
+
+Form the augmented pencil
+\[
+ \mathcal K(x,y)=
+ \begin{pmatrix}
+ D_0&zU\\ V^T&R^{-1}
+ \end{pmatrix}.
+ \tag{Fresh-augmented}
+\]
+Its lower corner is invertible when \(s_Bs_C\ne0\), and taking that corner's Schur complement gives
+\[
+ \det\mathcal K=s_Bs_C\det D_i.
+ \tag{Fresh-det}
+\]
+This formula does not require \(D_0\) or \(D_i\) to be invertible.
+For \(1\le j,k\le m\), delete top-block row \(k\) and top-block column \(j\) from \(\mathcal K\), leaving both augmented rows and columns, and define
+\[
+ \mathcal A_{jk}(x,y)
+ =(-1)^{j+k}\det\mathcal K^{(k\mid j)}(x,y).
+\]
+The same Schur-complement calculation gives, entrywise,
+\[
+ \mathcal A=s_Bs_C\operatorname{adj}D_i,
+ \qquad \mathcal Q:=\operatorname{sym}\mathcal A
+       =s_Bs_C\operatorname{sym}\operatorname{adj}D_i.
+ \tag{Fresh-adj}
+\]
+It remains valid when the actual minor has corank one or its adjugate vanishes; an inverse formula for that minor is not invoked.
+
+After the indicated principal blocks and \(b,c\) are fixed, every entry of \(\mathcal K\) is a polynomial in the \(2m\) real coordinates of \(x,y\).
+The top-left entries have degree zero, the two top-right columns and two bottom-left rows have degree at most one, and the two-by-two lower corner has degree at most two.
+For each determinant term, suppose that \(k\in\{0,1,2\}\) top rows select augmented columns.
+Exactly \(k\) augmented rows must then select top-block columns; the remaining \(2-k\) augmented rows select augmented columns.
+The total degree of that term is at most \(k+k+2(2-k)=4\).
+The identical count applies to each \(\mathcal K^{(k\mid j)}\).
+Thus \(\det\mathcal K\), all entries of \(\mathcal A\), and all entries of \(\mathcal Q\) have total border degree at most four, independently of \(N\).
+No Gaussian substitution or changing-with-size entry law has been made; the normalization of the original fixed laws is incorporated in these polynomial coefficients.
+
+On the actual invertibility guards, the scalar \(s_Bs_C\) is nonzero and cancels exactly from every normalized cofactor ratio:
+\[
+ \frac{|(\operatorname{sym}\operatorname{adj}D_i)_{jk}|}
+      {\|\operatorname{adj}D_i\|_F}
+ =\frac{|\mathcal Q_{jk}(x,y)|}{\|\mathcal A(x,y)\|_F},
+ \qquad \operatorname{adj}D_i\ne0.
+ \tag{Fresh-graph}
+\]
+Also \(\mathcal A=0\) if and only if the original adjugate is zero there.
+Consequently the actual remaining guard can be restated exactly as a low-matching event for this quartic matrix in two still independent Wigner borders, together with the already explicit inverse and norm guards.
+A small value of \(s_Bs_C\) creates no loss in (Fresh-graph), because it is a common scalar, rather than an entrywise comparison factor.
+
+### Exact remaining obstruction after this change of exposure
+
+The rank-two update alone does not transfer a matching from a background matrix to the actual adjugate.
+Even for inverse matrices, a rank-one change can cancel every off-diagonal entry: for \(q\ge2\), let \(T_0=I_q+\mathbf1\mathbf1^T\) and \(T_1=I_q\).
+Both are symmetric and invertible, \(T_1-T_0\) has rank one, and the complete nonzero off-diagonal graph of \(T_0\) disappears in \(T_1\).
+Taking the inverses also yields a rank-one perturbation by direct multiplication of \((I_q+\mathbf1\mathbf1^T)^{-1}=I_q-\mathbf1\mathbf1^T/(q+1)\).
+This is an obstruction to deterministic matching inheritance under low-rank updates, not an actual random-factor counterexample.
+
+Likewise a nonzero quartic coefficient or generic nonzero edge is not a finite-radius typicality bound for atomic borders.
+For example, the polynomial \(x_1^2-a^2\) vanishes at both points of a two-point law supported on \(\{-a,a\}\), despite being a nonzero polynomial.
+No transfer from algebraic generic position to the law of \(x,y\) is justified by the bounded degree alone.
+The specific coefficient relations in (Fresh-augmented), rather than an arbitrary quartic polynomial class, would have to give a quantitative random matching estimate.
+No such estimate has been established in this calculation.
+The concrete new interface is a uniform conditional bound on the low-matching event in (Fresh-graph), with the background blocks distributed as the actual independent principal Wigner blocks and with no inverse assumption on \(D_0\).
+It retains two independent border vectors that are lost when conditioning on the full \(W_2,W_3\), while leaving their arithmetic and cofactor cancellations visible.
+
+<a id="fresh-cubic-slopes"></a>
+## The actual first-border linear coefficient is a cubic vector
+
+The preceding construction also retains the linear part of the determinant in the exposed first-factor border.
+Write \(W_1=\begin{pmatrix}a_1&w^T\\w&A_0\end{pmatrix}\), with the original normalized border \(w\in\mathbb R^m\).
+The full inverse product has the rank-two representation
+\[
+ C^{-1}B^{-1}=\operatorname{diag}(0,GE)+U_*RV_*^T,
+ \quad
+ U_*=\begin{pmatrix}0&-1\\Gu&v\end{pmatrix},
+ \quad
+ V_*=\begin{pmatrix}-1&0\\u&Ev\end{pmatrix}.
+\]
+Accordingly the augmented full determinant is the determinant of
+\[
+ \mathcal L=
+ \begin{pmatrix}
+ a_1&w^T&0&-z\\
+ w&D_0&zGu&zv\\
+ -1&u^T&s_B&0\\
+ 0&v^TE&-\ell&s_C
+ \end{pmatrix},
+ \qquad \det\mathcal L=s_Bs_C\det M,
+ \tag{Fresh-full-augmented}
+\]
+where \(M=W_1-zC^{-1}B^{-1}\).
+Its principal minor deleting the first row and column is exactly \(\mathcal K\) from (Fresh-augmented).
+Let \(T=\{1,\ldots,m\}\) index that minor's top block and let \(a,b\) index its two augmented positions, in this order.
+These indices \(a,b\) are labels, distinct from the scalar diagonal values \(a_1,b,c\).
+Cofactor expansion in the first row and column gives
+\[
+ \det\mathcal L
+ =a_1\det\mathcal K-w^T\mathcal A w+\mathcal B^T w
+                   -z(\operatorname{adj}\mathcal K)_{b,a},
+\]
+\[
+ \mathcal B=(\operatorname{adj}\mathcal K)_{T,a}
+          +z\bigl((\operatorname{adj}\mathcal K)_{b,T}\bigr)^T.
+ \tag{Fresh-linear-coefficient}
+\]
+The sign and transpose orientation follow from expanding
+\([w^T,0,-z](\operatorname{adj}\mathcal K)[w^T,-1,0]^T\).
+Each entry of \(\mathcal B\) has total degree at most three in \(x,y\).
+Indeed its first cofactor removes one augmented row, and its second removes one augmented column; the remaining determinant terms have degrees at most \(1+2=3\) or \(2+1=3\) by the same augmented-row-and-column count.
+The final constant cofactor in the preceding display has degree at most two.
+These degree bounds require no inverse of \(D_0\) or \(D_i\).
+
+For comparison with the original exposed shifts, write \(M=\begin{pmatrix}a_1+F_{ii}&(w+f)^T\\w+g&D_i\end{pmatrix}\).
+Direct multiplication of the inverse blocks gives
+\[
+ F_{ii}=-z\alpha\beta\ell,
+ \qquad f=z(\alpha Ev+\alpha\beta\ell u),
+ \qquad g=z(\beta Gu+\alpha\beta\ell v).
+\]
+Thus the original determinant's linear coefficient is \(-[\operatorname{adj}D_i\,g+(\operatorname{adj}D_i)^T f]\), and the exact normalization is
+\[
+ \mathcal B=-s_Bs_C
+       [\operatorname{adj}D_i\,g+(\operatorname{adj}D_i)^T f].
+ \tag{Fresh-linear-normalization}
+\]
+All three borders \(w,x,y\) still have their original within-dimension independence after conditioning only on the three principal blocks and diagonal entries.
+The full-factor inverse guards remain events depending on \(x,y\), not conditioning that preserves their iid laws.
+
+For a normalized Rademacher first border \(w_j=\varepsilon_j/\sqrt N\), its diagonal quadratic terms are constant and its unary coefficients before hub conditioning are \(\mathcal B_j/\sqrt N\).
+After conditioning on a vertex cover \(I\) of the large off-diagonal edges, the exact unary coefficient for \(j\notin I\) is
+\[
+ \frac1{\sqrt N}
+     \left(\mathcal B_j-2\sum_{k\in I}\mathcal Q_{jk}w_k\right).
+ \tag{Fresh-covered-slope}
+\]
+For a general two-point first law supported on \(\{a_-,a_+\}\), put \(c_*=(a_-+a_+)/(2\sqrt N)\), \(d_*=(a_+-a_-)/(2\sqrt N)\), and write \(w_j=c_*+d_*\varepsilon_j\) with the original, possibly biased, independent signs.
+With \(J=\{1,\ldots,m\}\setminus I\), the corresponding exact coefficient is
+\[
+ d_*\left(\mathcal B_j-2c_*\sum_{k\in J}\mathcal Q_{jk}
+                  -2\sum_{k\in I}\mathcal Q_{jk}w_k\right).
+\]
+This is a coefficient identity, not an application of a fair-sign theorem to biased signs.
+In particular even the Rademacher covered slope contains quartic hub corrections; the uncovered cubic vector alone is not the remaining unary guard.
+
+<a id="projected-slope-pencil"></a>
+## A one-parameter pencil occurs after removing two fixed directions
+
+For this calculation only, assume \(D_0\) is invertible and write \(R_0=D_0^{-1}\).
+No polynomial bound on this inverse is assumed.
+Put
+\[
+ p=R_0Gu,\quad q=R_0v,\quad r=R_0^Tu,\quad s=R_0^TEv,
+\]
+\[
+ c_y=s_C-zv^TER_0v,\qquad
+ t_x=1+v^Tu+zv^TER_0Gu.
+\]
+A two-by-two Schur cofactor expansion of (Fresh-linear-coefficient) gives
+\[
+ \mathcal B=-z\det D_0
+   \left[c_y p+t_x(q+r)
+       +s\bigl(s_B-zu^TR_0Gu\bigr)\right].
+ \tag{Fresh-cubic-factorization}
+\]
+For example, it follows by using the adjugate of
+\[
+ R^{-1}-zV^TR_0U
+ =\begin{pmatrix}
+ s_B-zu^TR_0Gu&-zu^TR_0v\\
+ -\ell-zv^TER_0Gu&s_C-zv^TER_0v
+ \end{pmatrix};
+\]
+the equality is a cofactor identity and does not assume invertibility of that two-by-two matrix or of \(D_i\).
+Fix the background and \(y\), so \(q,s,c_y\) are fixed while \(t_x\) is an affine scalar function of the independent border \(x\).
+Let \(\Pi\) be the complex orthogonal projection annihilating \(\operatorname{span}\{q,s\}\).
+Then
+\[
+ \Pi\mathcal B=-z\det D_0\,
+       \Pi(c_yR_0G+t_xR_0^T)E x.
+ \tag{Fresh-projected-pencil}
+\]
+The loss of dimension in this projection is at most two.
+This identifies a special one-scalar-parameter linear constraint behind small uncovered Rademacher slopes, rather than treating \(\mathcal B\) as a generic cubic vector.
+The covered-slope correction in (Fresh-covered-slope) must still be retained in any application.
+
+<a id="uniform-polynomial-pencil-bulk"></a>
+## Uniform bulk for the polynomial pencil needs no inverse of the shifted background
+
+The following development was obtained jointly by the responsible main agent and the assigned determinant agent.
+It uses the accepted [finite-variance selfadjoint and Hermitized weak laws](../claims/Yin_C_F0186_v4.md#statement) and [polynomial rank-stability estimates](../claims/Yin_C_F0186_v4.md#rank-stability), rather than a new injectivity theorem for free rational functions.
+For deterministic complex \(c,t\), direct multiplication gives
+\[
+ D_0(cR_0G+tR_0^T)D_0^T
+       =(cG+tI)A_0-zGE(cG+tI).
+\]
+Multiplying further on the left by \(B_0C_0\) and on the right by \(C_0\) clears the unshifted inverses:
+\[
+ \begin{split}
+ P_{c,t}(A_0,B_0,C_0)
+ &:=B_0(cI+tC_0)A_0C_0-z(cI+tC_0)\\
+ &=B_0C_0D_0(cR_0G+tR_0^T)D_0^TC_0.
+ \end{split}
+ \tag{Fresh-polynomial-pencil}
+\]
+The polynomial on the first line is defined even when \(D_0\) is singular.
+The second identity is used only on the branch where \(R_0\) exists.
+
+Let \(a,b,c_0\) be free variance-one semicircular elements corresponding to the independent principal blocks, and set
+\[
+ P_1=bac_0-zI,\qquad P_2=bc_0ac_0-zc_0.
+\]
+Their exact tracial Gram matrix is
+\[
+ \tau(P_1^*P_1)=\tau(P_2^*P_2)=1+|z|^2,
+ \qquad \tau(P_1^*P_2)=0.
+ \tag{Fresh-free-Gram}
+\]
+For the second norm, freeness first replaces the single \(b^2\) block in \(c_0ac_0b^2c_0ac_0\) by its trace one, and then
+\(\tau(ac_0^2ac_0^2)=\tau(a^2)\tau(c_0^2)^2=1\).
+The first norm is the analogous shorter calculation, and all terms linear in the single centered \(b\) have trace zero.
+The remaining main cross term has odd total degree in \(c_0\) and changes sign under \(c_0\mapsto-c_0\), while the joint free law is unchanged, proving its zero trace.
+Thus for every \(|c|^2+|t|^2=1\),
+\[
+ \|cP_1+tP_2\|_2^2=1+|z|^2=:g_z>0,
+ \qquad \|cP_1+tP_2\|\le K_z
+\]
+with a fixed finite \(K_z\), since the semicircular norms equal two.
+Taking \(\varepsilon_z=\sqrt{g_z/2}\) shows that the free singular law puts at least \(\delta_z=g_z/(2K_z^2)>0\) mass at singular values at least \(\varepsilon_z\), uniformly over that unit coefficient sphere.
+
+This uniform positive fraction transfers to the finite principal blocks without higher entry moments or a growing precision net.
+Fix an input spectral cutoff \(M>2\), and clip each of \(A_0,B_0,C_0\) spectrally to \([-M,M]\).
+Their semicircular weak laws imply that each clipping changes rank by \(o(m)\) almost surely under every allowed cross-dimensional coupling.
+The accepted polynomial rank bound makes the resulting change in \(P_{c,t}\) have rank \(o(m)\), uniformly in the unit coefficient pair, because the same finite list of words is used for all pairs.
+On the clipped inputs, the polynomial pencil is operator-norm Lipschitz in \((c,t)\) with a fixed constant depending only on \(M,z\).
+Choose one fixed finite net of the unit coefficient sphere whose mesh is small compared with \(\varepsilon_z\) divided by that constant.
+At each point of this finite net, the accepted Hermitized weak convergence and the free bulk bound give at least \(\delta_zm/2\) singular values above \(\varepsilon_z/2\), eventually almost surely.
+The rank comparison gives the same bound with a slightly smaller fraction for the clipped pencil, and the fixed Lipschitz estimate extends it to every unit pair, with threshold reduced again by a fixed factor.
+Undoing the clipping loses only \(o(m)\) further singular values.
+Hence fixed \(\delta'_z,\varepsilon'_z>0\) give
+\[
+ \inf_{|c|^2+|t|^2=1}
+ \#\{j:s_j(P_{c,t}(A_0,B_0,C_0))\ge\varepsilon'_z\}
+ \ge\delta'_z m
+ \tag{Fresh-uniform-bulk}
+\]
+eventually almost surely, in particular outside a probability tending to zero.
+The \(N^{-1/2}\) rather than \(m^{-1/2}\) normalization of these principal blocks differs by a scalar tending to one; after clipping its contribution is a vanishing uniform operator-norm perturbation and does not change this conclusion.
+This proof uses singular-value counts and rank perturbations, not nonnormal eigenvalue stability.
+
+On polynomial norm guards for \(A_0,B_0,C_0,E,G\), both multipliers \(B_0C_0D_0\) and \(D_0^TC_0\) in (Fresh-polynomial-pencil) have polynomial operator norm, whether or not \(R_0\) is well conditioned.
+Singular-value product inequalities therefore transfer (Fresh-uniform-bulk) to a fixed positive fraction of singular values of \(cR_0G+tR_0^T\) bounded below by a fixed inverse power of \(N\), uniformly over unit \((c,t)\), on the branch \(D_0\) is invertible.
+Right multiplication by \(E\) costs only the polynomial factor \(\|B_0\|\), and left multiplication by \(\Pi\) discards at most two singular directions.
+Thus the projected coefficient pencil in (Fresh-projected-pencil) has a positive-dimensional singular bulk at polynomial scale after normalizing its scalar pair.
+A generic bulk-degeneracy hypothesis for this actual pencil is not an additional missing premise.
+
+### The relative normalization and covered slopes remain unresolved
+
+Small unary slopes are measured relative to \(\|\mathcal A\|_F\), whereas (Fresh-projected-pencil) divides by \(z\det D_0\).
+The displayed bulk result does not bound
+\[
+ \frac{\|\mathcal A\|_F}
+      {|\det D_0|\sqrt{|c_y|^2+|t_x|^2}}
+\]
+by a fixed polynomial, nor exclude \((c_y,t_x)\) being simultaneously too small on the relevant event.
+No inverse guard for \(D_0\) was proved or assumed to make that ratio harmless.
+The exact singular \(D_0\) branch still has the denominator-free quartic and cubic cofactor identities, but the \(R_0\)-based projected-pencil argument is not formulated on that branch.
+Furthermore the low-matching cover contributes \(2\mathcal Q_{J,I}w_I\), so a bound for the uncovered cubic vector alone is insufficient.
+The scalar parameter \(t_x\) depends on \(x\); applying a fixed-parameter independent-coordinate distance bound would require a justified uniform argument, rather than conditioning on that parameter and retaining the iid law of \(x\).
+These are genuine remaining interfaces after the uniform coefficient-bulk step, not counterexamples to the original determinant limits.
+
+<a id="matching-threshold-tests"></a>
+## A large polynomial shift delays the matching threshold but does not defeat every fine threshold
+
+The [fixed finite-radius reduction](../claims/Yin_C_F0194_v3.md#statement) uses the off-diagonal graph with an edge \(ij\) when \(|Q_{ij}|\ge n^{-H}\|A\|_F\), where \(A=\operatorname{adj}D\ne0\), \(Q=(A+A^T)/2\), and \(i\ne j\).
+Its [polynomial-shift consequence](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) retains the mean probability of actual low-matching minors, rather than invoking continuous-model generic position.
+A simple allowed atomic input tests the order in which its threshold exponent can be chosen.
+The calculation below shows that a threshold exponent independent of the allowed polynomial shift size is impossible, but supplies no counterexample to a sufficiently fine exponent chosen after that size.
+It is an elementary model calculation, not a proof of a general probabilistic matching guard.
+
+Take an even \(n\), a real symmetric Rademacher matrix \(X_n\) with zero diagonal and independent strict upper entries in \(\{-1,1\}\), and the normalized matrix \(W_n=X_n/\sqrt n\).
+All off-diagonal laws and the zero diagonal law are fixed and satisfy the original finite-second-moment and atomic permissions.
+Deterministically \(\|W_n\|_F=\sqrt{n-1}\le\sqrt n\) and \(\|W_n\|\le\sqrt n\).
+Let \(t=n^\gamma\) with fixed \(\gamma>2\), and first set \(D=tI_n+W_n\).
+It is invertible for all sufficiently large \(n\), for every realization of the signs.
+The resolvent expansion gives
+\[
+ D^{-1}=t^{-1}I_n-t^{-2}W_n+R_n,
+ \qquad \|R_n\|\le\frac{\|W_n\|^2}{t^3(1-\|W_n\|/t)}
+ \le\frac{2n}{t^3}.
+\]
+Moreover,
+\[
+ \|D^{-1}\|_F=\frac{\sqrt n}{t}
+       \bigl(1+O(\sqrt n/t)\bigr).
+\]
+Since \(D=D^T\), one has \(Q=A=(\det D)D^{-1}\).
+For every \(i\ne j\), the leading entry of \(D^{-1}\) has magnitude \(1/(t^2\sqrt n)\), and its error relative to that leading magnitude is at most \(2n^{3/2}/t=o(1)\), uniformly over all indices and all sign realizations.
+The determinant cancels from the normalized cofactor ratio, yielding
+\[
+ \frac{|Q_{ij}|}{\|A\|_F}
+ =\frac{1+o(1)}{tn}
+ =n^{-\gamma-1}(1+o(1)),\qquad i\ne j,
+ \tag{Diagonal-shift-threshold}
+\]
+with a uniform error.
+Consequently the graph is empty for every fixed \(H<\gamma+1\), and complete for every fixed \(H>\gamma+1\), for all sufficiently large \(n\) and every realization.
+In the latter regime its matching has size \(n/2\).
+No conclusion at the equality \(H=\gamma+1\) is needed for this test.
+For a size-\((N-1)\) principal minor of \(tI_N+W_N\), the same proof uses entries of magnitude \(N^{-1/2}\), inverse Frobenius norm \((1+o(1))\sqrt{N-1}/t\), and gives the same threshold transition in the original size \(N\).
+Thus this is an actual-minor test, rather than a separately scaled model substituted into the cofactor question.
+
+The same threshold delay occurs for a genuinely nonsymmetric offset.
+Let \(J_n\) be the block diagonal matrix with blocks \(\begin{pmatrix}0&1\\-1&0\end{pmatrix}\), and put \(D=tJ_n+W_n\).
+Then \(J_n^T=-J_n\), \(J_n^{-1}=-J_n\), and \(J_n\) is orthogonal.
+Expanding about \(tJ_n\) gives
+\[
+ D^{-1}=-t^{-1}J_n-t^{-2}J_nW_nJ_n+\widetilde R_n,
+ \qquad \|\widetilde R_n\|\le2n/t^3.
+\]
+The first term is skew, the second is symmetric, and \(J_nW_nJ_n\) is a signed permutation of the entries of \(W_n\).
+For distinct indices its entries therefore still have magnitude \(n^{-1/2}\).
+Also \(\|D^{-1}\|_F=(1+O(\sqrt n/t))\sqrt n/t\).
+The identity \(Q=(\det D)\operatorname{sym}D^{-1}\) now gives exactly the same uniform asymptotic (Diagonal-shift-threshold), hence the same empty-versus-complete matching test.
+This calculation keeps the actual symmetric Wigner dependence intact and does not use a Gaussian or continuous model.
+
+For the raw convention \(D=tI_n+X_n\), or \(D=tJ_n+X_n\), use \(\|X_n\|\le n\) and error \(2n^2/t^3\) instead.
+With \(\gamma>2\), the relative entry error still tends to zero and the ratio becomes
+\[
+ \frac{|Q_{ij}|}{\|A\|_F}
+ =\frac{1+o(1)}{t\sqrt n}
+ =n^{-\gamma-1/2}(1+o(1)),\qquad i\ne j.
+ \tag{Raw-shift-threshold}
+\]
+The raw transition is therefore \(H=\gamma+1/2\).
+Both tests are consistent with choosing a fine fixed \(H\) after the shift exponent \(\gamma\).
+They rule out choosing a useful universal \(H\) independently of \(\gamma\), and show why polynomial cofactor noncancellation alone cannot specify that threshold.
+No allowed shift causing low matching at every sufficiently fine fixed threshold has been constructed here.
+Whether the actual product-inverse minors have growing matching at some appropriately chosen polynomial threshold remains unresolved.
 
 ## Bounded primary-source search and actual inspection limits
 

@@ -2,229 +2,561 @@
 author: Yin
 ---
 
-# Planar smoothing identities and sharp exact-input truncation thresholds
+# Low-matching symmetrized cofactors of actual nonsymmetric Wigner minors
 
-This Preparation concerns the original [finite-variance F0012 contract](../tasks/Yin_T_F0012_v3.md#contract), with arbitrary fixed real or complex entry laws and arbitrary cross-size couplings.
-The [accepted spectral and planar controls](../claims/Yin_C_F0186_v4.md#argument) leave the first unsupported step at the [singular regularization defect](../claims/Yin_C_F0186_v4.md#remaining-defect).
-The [determinant upper-limit separation](../ledger/Yin_L_F0061_v2.md#brown-nonimplication) and [negative logarithm example](Yin_D_F0010.md#negative-logarithmic-gap) remain actual constraints on this investigation.
-The present material is ordinary proof development by an assigned agent for Yin, without independent-review or adoption status.
-Only this new Draft is maintained by this assignment.
+This continuing investigation addresses the mean low-matching probability left explicit in [the reviewed cofactor averaging theorem](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence).
+The first target is a normalized real Wigner matrix plus an independent polynomially bounded complex nonsymmetric shift; the original three-factor product-inverse shift is a more structured possible specialization.
+The threshold exponent must be chosen after the shift scale, as the actual-minor examples in [D_F0011](Yin_D_F0011.md#matching-threshold-tests) demonstrate.
+The [retained low-matching structure and large Riccati fibers](../ledger/Yin_L_F0066_v1.md#low-matching-structure) rule out treating the cofactor map as uniformly finite-to-one.
+The probability and approximation deductions below are proof development without independent review.
+They use actual independent-coordinate constraints to exclude a large uncovered cofactor diagonal and isolate the remaining few-row-and-column concentration.
 
-## Starting scope
+<a id="bulk-diagonal-statement"></a>
+## Actual-minor exclusion of a large uncovered diagonal
 
-The main probe asks whether planar averaging removes a bottom-logarithmic obligation by itself.
-A second probe determines the precise raw-entry cutoff needed for an exact-input comparison under the original coupling quantifier.
-Neither probe changes the Task, assumes density or a moment above two, or transfers eigenvalue convergence through a low-rank or small-norm perturbation.
-The existing [nilpotent-shift failures](../ledger/Yin_L_F0058_v1.md#failed-shortcuts) already rule out those general stability shortcuts and are reused rather than asserted as a new finding.
-
-<a id="original-argument"></a>
-## Reconstruction of the original argument and its first missing step
-
-Fix the laws, polynomial and common probability space exactly as in the Task.
-The accepted [finite-variance controls](../claims/Yin_C_F0186_v4.md#finite-variance-weak) first use centered fixed raw-entry truncations, bounded colored moments and rank estimates only for Hermitian polynomial outputs to establish expected Hermitized weak limits.
-The [independent-row-block argument](../claims/Yin_C_F0186_v4.md#row-concentration) makes those weak limits almost sure with summable marginal errors, and therefore respects every cross-size coupling.
-The [positive logarithmic tails](../claims/Yin_C_F0186_v4.md#log-statistics) and [fixed-regularizer convergence](../claims/Yin_C_F0186_v4.md#regularized-potentials) then give locally uniform convergence of the regularized potentials on a common countable-parameter event.
-The [eigenvalue logarithmic moment and local planar bounds](../claims/Yin_C_F0186_v4.md#noncompact-planar) supply tightness and local planar uniform integrability for the unregularized eigenvalue potentials.
-
-None of these conclusions relates the two potentials in the remaining lower direction.
-The exact first missing implication is that the nonnegative area integral of their difference tends to zero after taking the dimension upper limit and then removing the regularizer.
-The slow diagonal regularizer controls the regularized sequence only; the [D10 counterexample](Yin_D_F0010.md#negative-logarithmic-gap) prevents combining a polynomial floor with qualitative weak convergence as a substitute.
-The [L61 separation](../ledger/Yin_L_F0061_v2.md#brown-nonimplication) likewise prevents substituting a correct pointwise determinant upper limit for full-sequence planar convergence.
-The two calculations below test genuine averaging and exact-input comparison interfaces without asserting either missing implication.
-
-<a id="scalar-planar-smoothing"></a>
-## A universal planar bound for scalar spectral smoothing
-
-Let \(A\in M_N(\mathbb C)\) be arbitrary, with eigenvalues \(\lambda_1,\ldots,\lambda_N\) counted algebraically, and write
+Fix a centered variance-one real off-diagonal law xi and a real diagonal law zeta with finite second moment.
+For every original size N, let m be an integer in [N/2,N] and let D be an m-by-m real Wigner matrix normalized by sqrt(N), plus a deterministic complex shift F.
+The raw upper off-diagonal entries have the fixed law xi, the raw diagonal entries have the fixed law zeta, all upper entries are independent, and lower off-diagonal entries mirror the upper ones.
+Assume max|F_ab|<=N^gamma for a fixed gamma>0, without any symmetry condition on F.
+Write
 \[
- u_A(z)=\frac1N\sum_{i=1}^N\log|z-\lambda_i|,
+ A=\operatorname{adj}D,\qquad Q=\operatorname{sym}A,
+ \qquad \operatorname{sym}Z=(Z+Z^T)/2.
+\]
+The larger size N is retained in every normalization and power threshold.
+Thus the statement applies directly to an actual principal minor of size N-1 and to its internal minors of size N-2, without changing its input law.
+
+Fix B>0 and K>=0.
+There is a finite exponent L>0, depending only on xi,zeta,gamma,B, such that the following assertion holds for every fixed J>=0 and every fixed
+\[
+ H>J+L+2K+1.
+ \tag{Fine-threshold}
+\]
+Let r_N>=2 be a deterministic integer sequence with r_N log(N)=o(N).
+For all sufficiently large N, the probability is at most C_B N^(-B)+C exp(-cN) that there exist a set I subset of [m] with |I|<2r_N and an index j outside I satisfying all of
+\[
+ \begin{split}
+ &A\ne0,\qquad \|D\|\le N^K,\\
+ &|Q_{ab}|<N^{-H}\|A\|_F
+       \quad(a\ne b,\ a,b\notin I),\\
+ &|Q_{jj}|\ge N^{-J}\|A\|_F.
+ \end{split}
+ \tag{Large-uncovered-diagonal}
+\]
+The constants and the sufficiently large N are uniform over m in [N/2,N] and over deterministic shifts in the displayed bound.
+The sufficiently large N may depend on J,H,K and on the deterministic sequence r_N.
+In particular r_N can tend to infinity as slowly as desired, for example logarithmically.
+The exponent L is selected before J,H, so this does not require a threshold H chosen independently of the allowed shift scale.
+
+For every low-matching graph, the endpoints of a maximal matching form such a cover I.
+Consequently, except with the displayed probability, low matching at the fine threshold forces every diagonal outside any such cover to be smaller than N^(-J)||A||_F.
+This is an actual random-minor statement and applies to Rademacher laws as well as laws with three or more support points.
+It does not rely on oscillation of the exposed full-matrix row's unary diagonal terms.
+
+## Exact fixed inputs and development scope
+
+The [reviewed C_F0188_v2 symmetric-shift floor](../claims/Yin_C_F0188_v2.md#statement) is applied only to sym B, where B is an internal principal minor of D.
+The random part of sym B is still the real Wigner input, and its deterministic shift is genuinely complex symmetric.
+It is not used as a floor for B or D with a nonsymmetric shift.
+The raw-to-normalized exponents and union over actual internal minors are checked below.
+
+The [fixed linear-codimension distance proof](../claims/Yin_C_F0194_v3.md#linear-codimension) supplies an exp(-cp) bound for independent real coordinates near any fixed complex affine subspace with complex codimension at least p/2.
+Its constants are uniform over the subspace and center and require only the fixed centered variance-one law xi.
+This is the exact accepted input used after internal-row exposure.
+The algebraic row identities and singular-value deletion argument are supplied below.
+No independence of adaptive covers, randomly selected coefficient vectors, or different minor events is assumed.
+
+This is proof development for Yin, with ordinary direct checking and without independent review of the new probability or matrix approximation assertions.
+The original contracts remain unresolved, and no unconditional high-matching assertion is made.
+
+<a id="symmetric-floor-guard"></a>
+## A simultaneous symmetric-part guard for internal minors
+
+For each j let B_j be D with row and column j deleted, of dimension d=m-1.
+For N sufficiently large, d lies between N/3 and N.
+The raw matrix sqrt(N) sym B_j is a raw real Wigner matrix with off-diagonal law xi, diagonal law zeta, and deterministic complex symmetric shift sqrt(N) sym F_j.
+Every shift entry has modulus at most N^(gamma+1/2), which is at most d^(gamma+2) for all sufficiently large N uniformly over these dimensions.
+Apply C_F0188_v2 with shift exponent gamma+2 and failure exponent B+3.
+For some fixed a_s>0 it gives
+\[
+ \mathbb P\{s_{\min}(\operatorname{sym}B_j)
+          \le d^{-a_s}/\sqrt N\}
+ \le C d^{-B-3}.
+\]
+Since d<=N, one has d^(-a_s)/sqrt(N)>=N^(-a_s-1/2).
+Choose L>a_s+1/2, for example L=a_s+1.
+A union over the at most N choices of j gives a measurable event Omega_s with
+\[
+ \mathbb P(\Omega_s^c)\le C_BN^{-B-2},
  \qquad
- v_{A,\delta}(z)=\frac1{2\pi}\int_0^{2\pi}u_A(z+\delta e^{it})\,dt.
+ s_{\min}(\operatorname{sym}B_j)\ge N^{-L}
+       \quad\text{for every }j\text{ on }\Omega_s.
+ \tag{Internal-symmetric-floor}
 \]
-The scalar Jensen formula retained at [Den09-U001, Mahler conventions](../audits/literature/Den09/Yin_U001.md#mahler-measure), specialized to a degree-one polynomial and rescaled by \(\delta\), gives
-\[
- v_{A,\delta}(z)=\frac1N\sum_i\log\max\{|z-\lambda_i|,\delta\}.
- \tag{S1}
-\]
-Unit-circle zeros are allowed by that exact retained source interface.
-Consequently \(v_{A,\delta}-u_A\ge0\) almost everywhere and, by Tonelli and translation invariance,
-\[
- \int_{\mathbb C}(v_{A,\delta}-u_A)\,d^2z
- =2\pi\int_0^\delta r\log(\delta/r)\,dr
- =\frac\pi2\delta^2.
- \tag{S2}
-\]
-The equality is independent of \(A\) and \(N\), and requires no norm, moment, singular-value or eigenvector estimate.
-In particular an arbitrary moving scalar circular smoothing can be removed in local planar \(L^1\) whenever its radius tends to zero.
-An isotropic scalar noise with random radius \(R\) gives the same calculation with right side \(\pi\mathbb E R^2/2\), when that second moment is finite.
+The extra margin in the probability exponent permits an additional union over N outer principal minors if a simultaneous statement in one full N-by-N Wigner matrix is desired.
+For the present one-minor statement only the displayed internal union is used.
+No norm or inverse bound for the nonsymmetric B_j was invoked.
 
-This does not estimate the singular regularization used by the Task.
-Put
+<a id="internal-row-identity"></a>
+## An internal adjugate row supplies an invertible coefficient map
+
+Fix a deterministic candidate cover I with k=|I|<2r_N and a deterministic j outside I.
+Place j first and write
 \[
- w_{A,\delta}(z)=\frac1{2N}\sum_i\log(|z-\lambda_i|^2+\delta^2),
+ D=\begin{pmatrix}a&b\\c&B\end{pmatrix},
  \qquad
- u_{A,\delta}(z)=\frac1{2N}\log\det((A-z)^*(A-z)+\delta^2I).
+ b=x^T/\sqrt N+f^T,
+ \qquad c=x/\sqrt N+g,
 \]
-The [Cauchy--Binet inequality already proved for the actual matrices](../claims/Yin_C_F0186_v4.md#noncompact-planar), applied to \(A-z\), gives
+where B=B_j, the real coordinates of x have law xi and are independent of B, and f,g are the fixed, possibly different, complex offsets.
+The diagonal a plays no role in the following calculation.
+Polynomial cofactor expansion gives
 \[
- u_{A,\delta}\ge w_{A,\delta}\ge v_{A,\delta}\ge u_A.
- \tag{S3}
+ Q_{jj}=\det B,
+ \qquad
+ Q_{j,[m]\setminus\{j\}}
+    =-\frac12\left(b\operatorname{adj}B
+                    +c^T(\operatorname{adj}B)^T\right).
+ \tag{Internal-row}
 \]
-Thus the comparison needed to bound the singular defect by scalar smoothing has the wrong direction.
-The scalar output perturbation in (S1) translates every eigenvalue exactly and supplies no independent matrix-entry regularity.
-Its harmless removal cannot be substituted for removing entrywise Gaussian noise or singular regularization.
+The formula holds for every B by polynomial continuity from the invertible Schur-complement case.
 
-There is also a dimension-free local bound on the soft eigenvalue smoothing.
-For every disk \(K\) of radius \(R>0\),
-\[
- 0\le\int_K(w_{A,\delta}-u_A)\,d^2z
- \le\frac\pi2\left[
-  (R^2+\delta^2)\log(R^2+\delta^2)
-  -R^2\log R^2-\delta^2\log\delta^2\right].
- \tag{S4}
-\]
-Indeed, the radial function \(f(r)=\tfrac12\log(1+\delta^2/r^2)\) is nonnegative and decreasing.
-For any measurable set of area \(\pi R^2\), layer-cake integration bounds its translated integral by the centered radius-\(R\) disk integral: at each height the intersection area is at most the smaller of the two areas.
-That centered integral is
-\[
- \pi\int_0^R r\log(1+\delta^2/r^2)\,dr
- =\frac\pi2\int_0^{R^2}\log(1+\delta^2/t)\,dt,
-\]
-which evaluates to the right side of (S4).
-Apply this separately at each \(\lambda_i\) and average.
-For fixed \(R\), the bound tends to zero at order \(\delta^2(1+|\log\delta|)\).
-
-The only part not bounded to vanish by this computation is \(u_{A,\delta}-w_{A,\delta}\), the multiplicative eigenvalue--singular-value gap in Cauchy--Binet.
-Saying that this gap vanishes is another formulation of the unresolved planar condition, not a new estimate or a solution.
-The useful conclusion of this probe is the exact safe scalar-smoothing bound and the demonstrated direction of the comparison; it gives no new bound for the original nonnormal defect.
-
-<a id="sharp-exact-truncation"></a>
-## Sharp universal raw-entry thresholds for exact-input transfer
-
-The following comparison does apply to the original Wigner input, without invoking spectral stability.
-For each size \(N\), replace every raw off-diagonal variable \(\xi_j\) by \(\xi_j1_{\{|\xi_j|\le N^{3/2}\}}\), and every raw diagonal variable \(\zeta_j\) by \(\zeta_j1_{\{|\zeta_j|\le N\}}\).
-Use the original variables to couple the truncated and original matrices, retain the factor \(N^{-1/2}\), and do not recenter or rescale the truncated laws.
-Then the original tuple and this raw-truncated tuple agree for every sufficiently large size, almost surely, under every cross-size coupling allowed by the Task.
-Every fixed nonnormal polynomial and its eigenvalue measure therefore also agree eventually, as an identity of actual matrices.
-
-Here is the complete tail-sum argument.
-For any random variable \(X\) with finite second moment and integers \(b\ge0\),
-\[
- \sum_{N\ge1}N^b\mathbb P\{|X|>N^{(b+1)/2}\}
- =\mathbb E\sum_{N<|X|^{2/(b+1)}}N^b
- \le C_b\mathbb E|X|^2.
- \tag{T1}
-\]
-The last bound follows by comparing the finite power sum with its elementary integral; the sum is zero when \(|X|\le1\).
-There are at most \(N^2/2\) off-diagonal variables for each input and \(N\) diagonal variables.
-A union bound and (T1), with \(b=2\) and \(b=1\), show that the disagreement probabilities are summable.
-First Borel--Cantelli uses no independence across sizes and proves eventual exact equality.
-This strengthens the raw \(N^2\) cutoff used for the [previous polynomial-norm bound](../claims/Yin_C_F0186_v4.md#log-statistics), but supplies no estimate for the smaller entries or their bottom logarithms.
-The raw off-diagonal cutoff here corresponds to a normalized matrix-entry cutoff \(N\), so it is much larger than a fixed or polylogarithmic normalized cutoff.
-
-For comparison, raw off-diagonal cutoff \(N\) and diagonal cutoff \(\sqrt N\) suffice for exact matching in probability.
-Finite second moments imply \(t^2\mathbb P\{|X|>t\}\to0\), because that expression is bounded by \(\mathbb E[|X|^21_{\{|X|>t\}}]\).
-Multiplying the respective tail probabilities by the respective coordinate counts proves the in-probability claim.
-It does not give a summable marginal error and therefore cannot justify arbitrary-coupling almost-sure transfer.
-
-Centering or variance-normalizing the cutoff variables can destroy this eventual identity even on an outcome with no discarded entries.
-Their comparison with the original nonnormal output needs a separate argument.
-The present lemma deliberately makes no such inference from the small deterministic mean, small norm or low rank of a resulting perturbation.
-
-<a id="atomic-cutoff-obstruction"></a>
-## An atomic original-model obstruction to smaller exact-match cutoffs
-
-A single fixed real atomic variance-one law shows that the preceding exponents are sharp among power cutoffs for universal exact-input transfer.
+On (Large-uncovered-diagonal), det B is nonzero because A is nonzero and N^(-J)>0.
 Set
 \[
- c=\left(\sum_{k\ge1}k^{-2}\right)^{-1},
- \qquad
- \mathbb P\{X=2^k\}=\mathbb P\{X=-2^k\}
- =\frac{c}{2\,4^kk^2}\quad(k\ge1),
+ U=\operatorname{sym}(B^{-1}).
 \]
-and put the remaining probability at zero.
-The displayed masses sum to less than one, symmetry gives mean zero, and
+The exact factorization
 \[
- \mathbb E X^2=c\sum_{k\ge1}k^{-2}=1,
- \qquad
- \mathbb E|X|^{2+\varepsilon}
- =c\sum_{k\ge1}\frac{2^{\varepsilon k}}{k^2}=\infty
- \quad(\varepsilon>0).
+ U=B^{-T}(\operatorname{sym}B)B^{-1}
 \]
-For \(t\ge2\), comparison of the geometric tail after \(\lfloor\log_2t\rfloor\) gives positive constants \(a_1,a_2\) such that
+and the norm guard ||B||<=||D||<=N^K imply, on Omega_s,
 \[
- \frac{a_1}{t^2(1+\log t)^2}
- \le p(t):=\mathbb P\{|X|>t\}
- \le\frac{a_2}{t^2(1+\log t)^2}.
- \tag{T2}
+ s_{\min}(U)\ge N^{-L-2K}=:\kappa_N.
+ \tag{Coefficient-floor}
 \]
-The lower bound keeps only the first allowed dyadic atom, and the upper bound sums the remaining geometric series with denominators bounded below by the first index squared.
-Use this law for the off-diagonal entries of one real Wigner input and, when needed, for its diagonals.
-It satisfies the exact fixed-law Task assumptions.
+Transpose does not change singular values, so the same lower bound applies to B^(-T) as to B^(-1) in this product estimate.
+This calculation uses only the norm of B and the floor for its symmetric part, and no upper bound for B^(-1).
 
-For \(m_N\) independent coordinates, raw cutoff \(R_N\) changes at least one coordinate with probability
+Divide (Internal-row) by the nonzero det B and use adj B=(det B)B^(-1).
+Since U is symmetric, the resulting row, transposed into a column, has the form
 \[
- q_N=1-(1-p(R_N))^{m_N}.
- \tag{T3}
+ -Q_{[m]\setminus\{j\},j}/\det B
+            =Ux/\sqrt N+d_B,
+ \tag{Row-linear-map}
 \]
-This is also exactly the total-variation distance between the original product law and its raw-truncated product law, using the convention that total variation is the supremum of event-probability differences.
-The event that some coordinate exceeds the cutoff gives the lower bound \(q_N\), since its truncated probability is zero.
-The actual coordinatewise truncation coupling gives the matching upper bound, since the two vectors differ with probability \(q_N\).
-Consequently another coupling of those two product laws cannot improve the exact-match probability beyond \(1-q_N\).
+where d_B is deterministic after conditioning on B.
+The constant includes both offsets f,g; its precise value is not restricted.
+This equation retains the full nonsymmetric offset and uses ordinary transpose rather than Hermitian adjoint in the cofactor identities.
 
-For \(0\le p\le1\),
+<a id="deleted-coefficient-map"></a>
+## Deleting the cover loses only k singular directions
+
+Let T=[m] minus (I union {j}) and p=|T|=m-k-1.
+Identify U with its coordinates on [m] minus {j}, so its indices are I union T.
+The p-by-p principal block U_TT has at least p-k singular values at least kappa_N.
+To prove this directly, consider the subspace
 \[
- 1-e^{-m_Np}\le q_N\le\min\{1,m_Np\}.
+ V_0=\ker U_{I,T}\subseteq\mathbb C^T.
 \]
-Hence \(q_N\) is bounded below by a positive constant times \(\min\{1,m_Np(R_N)\}\).
-For off-diagonal \(m_N=N(N-1)/2\) and cutoff \(R_N=N^\alpha\), (T2) yields a nonsummable sequence \(q_N\) for every \(0<\alpha<3/2\).
-For diagonal \(m_N=N\), it is nonsummable for every \(0<\alpha<1\).
-Nonpositive exponents have disagreement probability tending to one and are excluded even more directly.
-Choose the matrices independently across dimensions, an allowed coupling.
-The disagreement events are then independent, and second Borel--Cantelli gives infinitely many disagreements almost surely.
-Thus no smaller exponent has a universal eventual exact-input matching theorem under the Task's quantifiers.
-This does not show failure of the Brown-measure conclusion: disagreement of input matrices is a different event.
-The same example has \(q_N\to1\) for every off-diagonal exponent \(\alpha<1\), or diagonal exponent \(\alpha<1/2\), so the earlier universal in-probability thresholds are sharp as well.
-
-A stronger obstruction concerns the commonly desired raw cutoff
+Its codimension in C^T is at most k.
+For every z in V_0, the extension by zero on I satisfies
 \[
- R_N=\sqrt N\,(\log N)^B,\qquad B\ge0\text{ fixed}.
- \tag{T4}
+ \|U_{TT}z\|
+ =\|U_{[m]\setminus\{j\},T}z\|
+ \ge\kappa_N\|z\|.
 \]
-For off-diagonal entries, the number \(M_N\) of discarded independent coordinates is binomial with mean
+The singular-value min-max principle therefore proves the claimed count.
+Since k<2r_N=o(N/log N) and m>=N/2, one has p-k>=p/2 and p>=N/3 for all sufficiently large N.
+
+Condition now on B and on the internal row coordinates x_I.
+The remaining coordinates x_T are independent with the original real law xi.
+The condition that I be a graph cover is not imposed in this conditional law.
+Instead, for a fixed deterministic I,j, the event (Large-uncovered-diagonal) is contained in a small-value event for the fixed affine map below.
+The ratio |det B|>=N^(-J)||A||_F in (Large-uncovered-diagonal) and its small off-diagonal row give
 \[
- \lambda_N=m_Np(R_N)
- \asymp\frac{N}{(\log N)^{2B+2}}.
+ \|U_{TT}x_T/\sqrt N+z_{B,x_I}\|
+ \le\sqrt p\,N^{J-H}.
+ \tag{Small-row-map}
 \]
-The probability of no discarded coordinate is at most \(e^{-\lambda_N}\), and these probabilities are summable.
-Therefore every allowed cross-size coupling has at least one discarded coordinate at every sufficiently large size, almost surely.
-In particular this cutoff fails exact-input matching even in probability.
-Its original and truncated product laws have total-variation distance tending to one, so this obstruction applies to every exact-match or total-variation transfer of those laws.
+Here z_{B,x_I} absorbs d_B and U_TI x_I/sqrt(N), and is fixed under the displayed conditioning.
+The row-dependent adjugate norm has disappeared by the deterministic ratio inequality; it has not been treated as an independent or conditioned coefficient.
 
-Nevertheless the same coupling has only a vanishing rank fraction of discarded entries almost surely.
-To see this without an unrecorded concentration input, use independence within each size to write
+Choose a singular-value decomposition of U_TT and retain its right singular subspace V_1 corresponding to singular values at least kappa_N.
+It has complex dimension at least p-k>=p/2.
+Applying the corresponding left projection and the inverse of those retained singular values to (Small-row-map), there is a fixed z_1 in V_1 for which
 \[
- \mathbb E e^{\theta M_N}
- =(1-p+p e^\theta)^{m_N}
- \le\exp(\lambda_N(e^\theta-1)).
+ \|P_{V_1}x_T+z_1\|
+ \le\kappa_N^{-1}\sqrt{Np}\,N^{J-H}
+ \le N^{L+2K+1+J-H}.
+ \tag{Affine-projection}
 \]
-Markov's inequality at \(\theta=\log2\) gives
+The left side is exactly dist(x_T+z_1,V_1^perp).
+Its subspace and shift depend only on the conditioned B,x_I.
+One may choose the retained spectral projection measurably by functional calculus for U_TT*U_TT; a measurable pseudoinverse on that spectral subspace supplies z_1, including repeated singular values.
+
+By (Fine-threshold), the final radius in (Affine-projection) tends to zero, and in particular is at most the accepted distance input's c sqrt(p) for large N.
+That input bounds its conditional probability by C exp(-cp)<=C exp(-c'N), uniformly in B,x_I and the offsets.
+The same conclusion holds on the B-measurable guards det B nonzero, ||B||<=N^K and s_min(sym B)>=N^(-L).
+Integrating over B,x_I proves, for every deterministic I,j, an exp(-cN) bound on the required row event under those guards.
+All global hypotheses in (Large-uncovered-diagonal) imply these guards or (Small-row-map), so no conditioning on a row-dependent good event is needed.
+
+<a id="cover-union"></a>
+## Cover union and uniformity
+
+There are at most
 \[
- \mathbb P\{M_N>2\lambda_N\}
- \le\exp(-(2\log2-1)\lambda_N).
+ N\sum_{k<2r_N}\binom mk
+ \le N^{2r_N+2}
+ =\exp(o(N))
 \]
-This sequence is summable, so \(M_N=O(N/(\log N)^{2B+2})=o(N)\) almost surely under every coupling.
-Replacing one off-diagonal coordinate changes a Hermitian input by rank at most two, so the discarded off-diagonal matrix has rank \(o(N)\).
-An arbitrary finite-variance diagonal law can be left untruncated in this example; taking it identically zero isolates the off-diagonal assertion exactly.
+choices of deterministic I,j for all sufficiently large N.
+The union of the conditional row bounds therefore still has probability at most C exp(-cN), after decreasing c.
+Add Omega_s^c from (Internal-symmetric-floor).
+This proves the claimed probability bound in (Large-uncovered-diagonal), with room in the requested N^(-B) exponent.
+In particular it applies to the endpoints of a greedy maximal matching, even though that cover was originally defined from the full random Q.
+The union over deterministic candidate covers, rather than conditioning on the random cover, is what preserves the row independence used above.
 
-Thus the original model itself can force the following simultaneous facts: a polylogarithmic normalized entry cutoff changes the input at every sufficiently large dimension, while the normalized rank of the change tends to zero.
-Exact matching cannot remove that cutoff, and the established Hermitian rank comparison alone supplies no nonnormal eigenvalue transfer.
-This is a new precise threshold obstruction to an exact-matching proof route, not a Wigner-polynomial spectral counterexample or a new general impossibility theorem for truncation.
+For an independent random F, condition on its realization within this dimension and integrate the uniform bound over the event max|F_ab|<=N^gamma.
+Add the probability of the complementary shift guard when an unconditional result is desired.
+The proof requires no independence between different sizes.
 
-## Remaining scope and source limits
+<a id="few-hub-consequence"></a>
+## What remains after the uncovered diagonals are removed
 
-The planar probe uses the exact Jensen formula already retained at the cited Den09 source unit and the proved finite-dimensional Cauchy--Binet inequality already retained in C186v4.
-Its remaining integrations, product-coordinate probabilities, tail sums and exponential-moment calculation are given in full here.
-The atomic cutoff law and its obstruction require no external random-matrix theorem or source acquisition.
-No new literature follow-up is needed for these exact limited conclusions.
-The missing nonnormal planar gap still needs a genuinely random estimate for the original polynomial or its actual linearization; neither scalar smoothing nor the exact extreme-entry cutoff establishes it.
+Let Q_I be the matrix obtained from Q by retaining its entries that meet I in a row or column and setting every T-by-T entry, where T=[m] minus I, to zero.
+It has rank at most 2|I|<4r_N, since it is the sum of a matrix supported on I rows and one supported on I columns.
+Outside the exceptional event just proved, a low-matching graph with this cover satisfies
+\[
+ \frac{\|Q-Q_I\|_F}{\|A\|_F}
+ \le\sqrt N\,N^{-J}+N\,N^{-H}
+ =:e_N.
+ \tag{Hub-approximation}
+\]
+The first term counts the at most N uncovered diagonal entries and the second the at most N^2 small off-diagonal entries.
+This conclusion includes every law permitted in the statement, including Rademacher.
+
+One may additionally apply the same accepted symmetric-shift floor to sym D itself.
+For an exponent L_0 selected from xi,zeta,gamma and the desired failure exponent, its extra exceptional probability is O_B(N^(-B)) and
+\[
+ s_{\min}(\operatorname{sym}D)\ge N^{-L_0}.
+\]
+The exact [cofactor identity](../claims/Yin_C_F0194_v1.md#cofactor-identity)
+\[
+ D^TQ=(\operatorname{sym}D)A
+\]
+then gives a rank-at-most-2|I| matrix
+\[
+ A_I=(\operatorname{sym}D)^{-1}D^TQ_I
+\]
+with
+\[
+ \|A-A_I\|_F\le N^{L_0+K}e_N\|A\|_F.
+ \tag{Adjugate-low-rank}
+\]
+For any desired fixed precision exponent P>0, choose J>L_0+K+P+1 and then H satisfying (Fine-threshold), enlarged if necessary so H>L_0+K+P+1.
+The relative error in (Adjugate-low-rank) is then at most 2N^(-P) for large N.
+These choices are made after the shift, norm and symmetric-floor exponents; no uniform threshold independent of those exponents is claimed.
+
+This is an approximation consequence, not a contradiction.
+If D is invertible, it says that the inverse singular directions outside the first 2|I| contribute negligibly to the inverse Frobenius norm at that chosen precision.
+For exactly corank-one D the adjugate is already rank one, and the earlier isolated-minor theorem retains its separate tiny-determinant estimate.
+The implication does not turn a structured row of Q into a near-kernel vector of D and does not bypass the failed inference recorded in the existing cofactor comparison.
+
+<a id="small-determinant-minor"></a>
+## The same event forces a very small minor singular value
+
+The main agent identified a further exact consequence of the same hub approximation.
+The algebraic identity
+\[
+ DQD^T=(\det D)\operatorname{sym}D
+\]
+holds for every D, including singular D, by the adjugate identities on the two summands of Q.
+The matrix DQ_I D^T has rank at most q=2|I|<4r_N, which is less than m for large N.
+By the singular-value min-max bound for a rank-q approximation and the symmetric-part floor,
+\[
+ |\det D|N^{-L_0}
+ \le s_{q+1}((\det D)\operatorname{sym}D)
+ \le\|D(Q-Q_I)D^T\|
+ \le N^{2K}e_N\|A\|_F,
+\]
+where singular values are ordered decreasingly.
+Therefore
+\[
+ \frac{|\det D|}{\|A\|_F}
+             \le N^{2K+L_0}e_N.
+ \tag{Small-minor-ratio}
+\]
+For invertible D this ratio is 1/||D^(-1)||_F, and ||D^(-1)||_F<=sqrt(m)/s_min(D) gives
+\[
+ s_{\min}(D)\le\sqrt m\,|\det D|/\|A\|_F
+       \le N^{2K+L_0+1/2}e_N.
+ \tag{Small-minor-singular-value}
+\]
+If D is singular, A nonzero means exactly corank one and s_min(D)=0, so the same final bound is immediate.
+
+For any fixed desired exponent T_0>0, first choose
+\[
+ J>2K+L_0+T_0+1,
+\]
+and then enlarge H to satisfy (Fine-threshold) and H>2K+L_0+T_0+3/2.
+The right side of (Small-minor-singular-value) is then at most 2N^(-T_0) for large N.
+Thus, at a threshold chosen after the shift, norm, symmetric-floor and desired precision exponents, low matching forces an arbitrarily fine polynomial small-singular-value event in the actual minor, outside the displayed exceptional probabilities.
+It does not yet force that smallest direction to be isolated from the second one.
+The remaining spectral alternative is a cluster of small directions, rather than a well-conditioned minor.
+
+<a id="one-row-kernel-ac"></a>
+## Anti-concentration for a kernel with one omitted row
+
+The [fixed counting class](../claims/Yin_C_F0194_v1.md#counting-class) and [complete profile count](../claims/Yin_C_F0194_v1.md#structured-vector-counting) explicitly allow at least m-C_0 prescribed row constraints.
+The omitted set need not be consecutive, and its polynomial number of choices is included in the count.
+In particular, equation (26) there loses at most the polynomial factor m^(D_0(C_0+1)) when those constraints are omitted, before the high-product profile cancellation.
+This is a proof-scope fact from that fixed module, rather than an assertion that the statement of C_F0194_v2 already includes the rectangular conclusion below.
+
+Work first under independent raw cutoffs at original size N, so the real scalar law is xi_N=(xi conditioned on |xi|<=N^kappa), with uniform (AC) constants for all sufficiently large N.
+Take a square size-m principal block D=X+F with m in [N/2,N], all entries bounded by m^K for some fixed K, and deterministic diagonal values.
+The off-diagonal family in D is independent with the one law xi_N, not a separately truncated law at size m.
+The fixed count depends only on those uniform (AC) constants, its polynomial entry bound and its fixed structural exponents, so it applies uniformly to this size-comparable family.
+
+Fix b>0 and choose the fine exponent a sufficiently large after b,K and the fixed structural constants of the accepted linear inverse theorem.
+Outside a measurable event of probability at most C exp(-cm), the following holds simultaneously for every row index l and every unit u in C^m:
+\[
+ (Du)_j=0\quad(j\ne l)
+ \quad\Longrightarrow\quad
+ \sup_{z\in\mathbb C}\mathbb P\left\{
+       \left|\sum_{j=1}^m u_j\xi_{N,j}-z\right|\le m^{-a}\right\}
+       \le m^{-b}.
+ \tag{One-row-kernel-AC}
+\]
+The independent copies in this small-ball probability have the law xi_N and are separate from D.
+
+Here is the complete reduction to the exact fixed counting class.
+If a unit u violating (One-row-kernel-AC) exists, the accepted dimension-two linear inverse theorem and the [fixed rounding interface](../claims/Yin_C_F0194_v1.md#inverse-rounding) give a rational progression candidate w with norm between one half and two and coordinate errors at most C m^(-a).
+The progression rank, its polynomial-size bound, its exceptional O(m^epsilon) coordinates and the leading entropy constant depend on b,K and the uniform (AC) constants, but not on a.
+Enlarge the fixed structural constant C_0 to exceed K+2 and one, and absorb the harmless fixed multiplier in the precision bound.
+For every j except l,
+\[
+ |(Dw)_j|=|(D(w-u))_j|\le C m^{K+1-a}\le m^{-a+C_0}
+\]
+for all sufficiently large m.
+Thus w lies in precisely the fixed rational candidate class and satisfies at least m-C_0 of its prescribed row constraints.
+The fixed full count bounds existence of any such candidate by C exp(-cm).
+Define the exceptional event to be that finite structured-candidate existence event, including the already allowed omitted-row choices.
+This both proves its measurability and covers the universal quantifier over kernel vectors and omitted indices.
+The original inverse-theorem and noncircular fine-precision choices are the same as in the accepted module; no new uniformity in arbitrary real coefficient arrays is assumed.
+Conditioning on diagonal values is legitimate because that fixed count is uniform over deterministic diagonals in the entry bound.
+
+<a id="second-smallest-floor"></a>
+## A polynomial second-smallest floor from one rectangular row deletion
+
+The preceding one-row kernel statement gives the following complete candidate deduction.
+Let X_N be a raw real symmetric Wigner matrix with fixed centered variance-one off-diagonal law xi and fixed real finite-second-moment diagonal law zeta.
+For every gamma,B>0 there are fixed A_2,C,N_0 such that, uniformly over deterministic complex F with max|F_ab|<=N^gamma,
+\[
+ \mathbb P\{s_{N-1}(X_N+F)\le N^{-A_2}\}
+                       \le C N^{-B},\qquad N\ge N_0.
+ \tag{Raw-second-floor}
+\]
+Singular values here are ordered decreasingly, so s_(N-1) is the second-smallest singular value.
+For W_N=X_N/sqrt(N) and max|F_ab|<=N^gamma, the same assertion holds with a changed exponent A_2 in
+\[
+ \mathbb P\{s_{N-1}(W_N+F)\le N^{-A_2}\}
+                       \le C N^{-B}.
+ \tag{Normalized-second-floor}
+\]
+No symmetric-offset assumption, least-singular-value floor or independence between physical sizes is asserted in this deduction.
+
+Choose a raw cutoff exponent kappa>(B+4)/2.
+A finite-second-moment union bound makes the probability any raw matrix variable exceeds N^kappa at most C N^(2-2kappa), which is at most C N^(-B-2).
+Condition on all these independent cutoffs.
+The off-diagonal coordinates remain independent with the common law xi_N above and uniform (AC) constants.
+The diagonal values can now be fixed by conditioning, without affecting those coordinates.
+Choose an entry exponent K large enough that all entries of every size-(N-1) principal block of X_N+F are bounded by (N-1)^K.
+This K depends only on gamma,kappa; the change from N to N-1 costs a fixed exponent slack, rather than any dimension-dependent parameter.
+Select b>B+4 and then a as in (One-row-kernel-AC).
+
+Let M=X_N+F in this raw truncated model and retain its first N-1 rows as an (N-1)-by-N matrix B_0.
+For a retained row i, project its row vector and the span H_i of the other N-2 retained rows by deleting coordinate i.
+Call the projected row z_i and the projected span H_i'.
+Projection is a contraction, hence
+\[
+ \operatorname{dist}((B_0)_i,H_i)
+                   \ge\operatorname{dist}(z_i,H_i').
+ \tag{Row-projection-distance}
+\]
+The matrix of projected other rows is the principal block D_i=M[[N] minus {i}] with the row corresponding to original index N omitted.
+It has m=N-1 columns and m-1 rows.
+Every bilinear unit normal u_i to those rows therefore satisfies (D_i u_i)_j=0 except possibly at that one omitted row.
+There is always at least one such unit normal because there are more columns than rows.
+
+Choose u_i measurably from that rectangular kernel using rank strata and a lexicographically first maximal nonzero minor.
+Take the first free column, set its free coordinate to one and the other free coordinates to zero, solve on the pivot columns and normalize by its positive Euclidean norm.
+At rank zero use the first coordinate vector.
+This is the same finite rank-stratified rational construction as the square measurable kernel choice in C_F0194_v2, applied to the displayed rectangular matrix.
+It depends only on D_i, and its coordinate functions are Borel on each stratum.
+
+All coordinates of z_i are raw off-diagonal variables with law xi_N plus their deterministic offsets.
+They are independent of D_i because their mirrored partners lie exactly in the deleted coordinate i.
+The diagonal variable at i is also deleted and is not used.
+On the complement of the D_i-measurable exceptional event in (One-row-kernel-AC), conditioning on D_i therefore gives
+\[
+ \mathbb P\left\{\left|\sum_j(z_i)_j(u_i)_j\right|
+                    \le N^{-a}\ \middle|\ D_i\right\}
+ \le (N-1)^{-b}.
+\]
+The threshold N^(-a) is no larger than (N-1)^(-a), so the displayed small-ball radius is allowed.
+The arbitrary deterministic offset is absorbed into the supremum over the center in (One-row-kernel-AC).
+Since u_i is a bilinear unit normal, Cauchy--Schwarz gives dist(z_i,H_i')>=|sum_j(z_i)_j(u_i)_j|.
+Equivalently its complex Hilbert-space normal is the conjugate of u_i; no unproved real-versus-complex identification is made.
+Thus
+\[
+ \mathbb P\{\operatorname{dist}((B_0)_i,H_i)\le N^{-a}\}
+ \le (N-1)^{-b}+C e^{-c(N-1)}.
+\]
+A union over the N-1 retained rows makes every such row distance greater than N^(-a), outside probability C N^(1-b)+C exp(-c'N).
+The rectangular matrix B_0 then has full row rank.
+The accepted elementary Gram-inverse identity gives
+\[
+ \sum_{j=1}^{N-1}s_j(B_0)^{-2}
+ =\sum_{i=1}^{N-1}\operatorname{dist}((B_0)_i,H_i)^{-2}
+ \le N^{2a+1}.
+\]
+Therefore s_(N-1)(B_0)>=N^(-a-1/2).
+Adding the last row is a positive semidefinite Gram perturbation, so s_(N-1)(M)>=s_(N-1)(B_0).
+Choose A_2>a+1/2, and restore the discarded raw-entry event.
+The choices b>B+4 and kappa>(B+4)/2 prove (Raw-second-floor), with room in the requested failure exponent.
+
+For (Normalized-second-floor), multiply W_N+F by sqrt(N).
+Its raw shift has entries bounded by N^(gamma+1/2), to which the raw statement applies with exponent gamma+1.
+Divide the resulting second singular value by sqrt(N) and enlarge A_2 by one.
+This proves the normalized assertion.
+For an independent random F the uniform deterministic bound may be integrated on its polynomial entry guard, adding the guard-failure probability.
+
+<a id="cluster-assembly"></a>
+## Consequence for the remaining cluster branch
+
+If the candidate second-floor deduction is confirmed, apply it simultaneously to the actual size-(N-1) principal minors, with polynomial failure exponent enlarged to absorb their union.
+The original normalization remains sqrt(N); multiplying a principal minor by sqrt(N) gives a raw size-(N-1) matrix and only a fixed exponent slack in its shift bound.
+It then supplies a polynomial lower bound for every t_2(D_i) outside arbitrarily small polynomial failures.
+The low-matching implication (Small-minor-singular-value), at a sufficiently fine fixed threshold, makes t_1(D_i) as polynomially small as desired.
+For A_i nonzero and D_i singular, it has exactly corank one and is already an isolated-minor branch.
+For invertible D_i, choosing that smallness after the t_2-floor exponent gives both absolute and relative hypotheses of the reviewed C_F0194_v1 isolated-minor estimate.
+Thus a low-matching actual minor can be treated on its tiny-full-determinant intersection using that fixed estimate, rather than by counting the entire Riccati fiber.
+
+This assembly is not yet a fixed reviewed statement.
+It still needs a complete parameter-ordered original-shift probability calculation, including the high-matching term and the precise G_i radius, before any least-singular-value consequence is adopted.
+The high-matching MNV term tends to zero at a polynomially growing matching size, but is not summable merely from the source exponent.
+Consequently the immediate possible outcome is an in-probability floor for the original single-Wigner nonsymmetric-shift pilot, not an arbitrary-power full floor or the full original Brown-measure theorem.
+
+<a id="in-probability-floor"></a>
+## Complete candidate in-probability floor assembly
+
+Assuming the new arguments in this Draft pass their required review, they yield the following explicit candidate statement.
+For the normalized real Wigner model W_N=X_N/sqrt(N) with the fixed laws xi,zeta above, every gamma,B>0 admits fixed A,C,N_0 such that
+\[
+ \sup_{\max_{ij}|F_{ij}|\le N^\gamma}
+ \mathbb P\{s_{\min}(W_N+F)\le N^{-A}\}
+ \le C_BN^{-B}+C\sqrt{\log(2+N)}\,N^{-1/18},
+ \qquad N\ge N_0.
+ \tag{Candidate-floor}
+\]
+The supremum is over deterministic complex shifts with no symmetry condition.
+For an independent random F_N, the same bound holds on its polynomial entry guard, and its guard-failure probability is added for the unguarded event.
+The estimate is uniform in the shift and requires neither a density nor a moment above two.
+Its displayed high-matching term tends to zero and is not claimed summable over all sizes.
+
+Here is the full parameter order and probability calculation.
+Fix the laws, gamma and requested B, and first work with deterministic F in its entry bound.
+The finite-second-moment raw-entry cutoff and the bound ||F||<=N^(gamma+1) give an exponent K>=0 with
+\[
+ \mathbb P\{\|M\|>N^K\}\le C_BN^{-B-2},
+ \qquad M=W_N+F.
+\]
+Choose the cutoff exponent larger than (B+4)/2 and then K larger than that exponent plus one half and gamma+1; this is exactly the elementary norm calculation in C_F0194_v3.
+The [reviewed C_F0194_v2 corank tail](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed), after multiplying M by sqrt(N), also bounds P(rank M<=N-2) by C_B N^(-B-2).
+Thus the accepted many-index estimate applies to the remaining event.
+
+Use (Normalized-second-floor) with a failure exponent large enough to sum over all N actual principal minors D_i.
+Their raw matrices have size N-1, their normalizing scale is sqrt(N), and their raw shifts have entries bounded by N^(gamma+1/2), at most (N-1)^(gamma+2) for large N.
+Consequently there is a fixed L_2>0 and an exceptional probability C_B N^(-B-1) outside which
+\[
+ t_2(D_i)\ge N^{-L_2}\quad\text{for every }i.
+ \tag{All-principal-second-floor}
+\]
+This is a use of the new complete second-floor proof above, not an expansion of the older intermediate-singular-value statement.
+
+Apply the fixed [raw isolated-minor theorem](../claims/Yin_C_F0194_v1.md#statement) to the full raw matrix sqrt(N)M, with shift entry exponent gamma+1 and failure exponent B+2.
+Denote its fixed determinant-ratio exponent by A_0 and its absolute and relative isolation exponent by L_iso.
+These are selected before the fine low-matching thresholds.
+
+Choose L,L_0 in the internal symmetric-part and full-minor symmetric-part guards above, with failure exponents enlarged to cover all actual D_i and all their internal row deletions, at most N^2 choices in total.
+The probability of the union of these symmetric-part failures is then at most C_B N^(-B-1).
+All shift bounds stay polynomial after raw scaling, and these exponents are fixed once the laws,gamma,B are fixed.
+Choose
+\[
+ T_0>L_{\rm iso}+L_2+2,
+ \qquad J>2K+L_0+T_0+1,
+\]
+and then
+\[
+ H>\max\{J+L+2K+1,\ 2K+L_0+T_0+3/2\}.
+\]
+Put h_N=N^(-H) and r_N=floor(sqrt(N)).
+Then r_N log(N)=o(N), so the uncovered-diagonal result and (Small-minor-singular-value) apply.
+After increasing their requested failure exponents to allow the outer union, the probability of any actual D_i violating that conclusion is at most C_B N^(-B-1)+C exp(-cN).
+In particular, on all these guards, a nonzero-adjugate low-matching minor satisfies
+\[
+ t_1(D_i)\le2N^{-T_0}.
+ \tag{Low-matching-small-minor}
+\]
+
+For a singular D_i with nonzero adjugate, rank D_i=N-2, exactly the singular isolated-minor branch.
+For an invertible such D_i, raw scaling gives
+\[
+ \begin{split}
+ t_1(\sqrt N D_i)&\le2N^{-T_0+1/2}\le N^{-L_{\rm iso}},\\
+ \frac{t_1(\sqrt N D_i)}{t_2(\sqrt N D_i)}
+   &=\frac{t_1(D_i)}{t_2(D_i)}
+     \le2N^{-T_0+L_2}\le N^{-L_{\rm iso}}
+ \end{split}
+\]
+for large N, by the choice of T_0.
+Thus every nonzero-adjugate low-matching actual minor is in the exact isolated-minor class on the retained guards.
+
+Finally choose the full least-singular-value exponent A so large that
+\[
+ A>H+2K+2,
+ \qquad A>A_0+2K+2,
+ \qquad A>1.
+\]
+For epsilon=N^(-A), the accepted C_F0194_v3 event G_i has normalized determinant ratio at most C_1N^(2K+1-A).
+Its matching-radius condition C_1N^(2K+1-A)<=c_* h_N/N therefore holds eventually.
+For the raw isolated-minor comparison, the exact rescaling is
+\[
+ \frac{|\det(\sqrt N M)|}
+      {\|\operatorname{adj}(\sqrt N D_i)\|_F}
+   =N\frac{|\det M|}{\|\operatorname{adj}D_i\|_F}.
+ \tag{Ratio-normalization}
+\]
+The raw numerator has N rows, whereas the adjugate of D_i has homogeneous degree N-2, explaining the factor N rather than sqrt(N).
+Thus G_i implies a raw ratio at most C_1N^(2K+2-A)<=N^(-A_0) eventually.
+
+Split the accepted many-index average into G_i intersect H_i(h_N,r_N) and G_i intersect its complement.
+The matching half is bounded by C psi(r_N) using the accepted conditional matching theorem; averaging does not introduce a factor N.
+For the low-matching half, outside the new guard failures, every G_i forces an event of the reviewed raw isolated-minor theorem with its exact absolute, relative and determinant-ratio thresholds.
+The probability of the union of those raw isolated-minor events is at most C_B N^(-B-2).
+The mean of their indicator probabilities is no larger than the probability of their union, so this same bound controls the low-matching contribution to the average.
+Adding all norm, corank, symmetric-part, uncovered-diagonal and second-floor failures proves
+\[
+ \mathbb P\{s_{\min}(M)\le N^{-A}\}
+                     \le C_BN^{-B}+C\psi(\lfloor\sqrt N\rfloor).
+\]
+The definition of psi in C_F0194_v3 gives the displayed rate in (Candidate-floor), after absorbing its exponential term and fixed constants.
+
+For an independent random F_N, condition on F_N within this dimension, integrate the uniform estimate on max|F_ab|<=N^gamma, and add the complementary guard probability.
+No complete cross-dimensional shift sequence is conditioned on and no independence between physical sizes is needed.
+This completes the candidate assembly at its explicitly stated single-Wigner nonsymmetric-shift scope.
+
+The second-floor and uncovered-diagonal arguments and their assembly remain proof development until an applicable fresh mathematical review is completed.
+They are not an assertion that all original matrix coefficients can be reduced to one independent Wigner plus a shift.
+The full original Task contracts retain that separate propagation problem.

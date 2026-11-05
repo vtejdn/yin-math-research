@@ -2,158 +2,191 @@
 author: Yin
 ---
 
-# DoS: finite-radius matching tests and large Riccati fibers for actual Wigner cofactors
+# Conditional nonsymmetric carrier determinant limits in probability
 
-This continuing strategic investigation concerns the original arbitrary-law [matrix-limsup](../tasks/Yin_T_F0013_v1.md#contract), [scalar-limsup](../tasks/Yin_T_F0014_v1.md#contract), and [Brown convergence](../tasks/Yin_T_F0012_v3.md#contract) questions.
-It develops one possible refinement of the actual nonsymmetric-shift test in [D_F0011](Yin_D_F0011.md#the-actual-nonsymmetric-shift), not a solution of those contracts or a replacement of their original hypotheses.
-The algebraic deductions below are development by the assigned agent-S for Yin, with ordinary direct checking and without independent review.
-The bounded source comparisons were performed on 2026-11-05.
+<a id="scope"></a>
+## Scope and unresolved input
 
-## What the new continuous-model results transfer
+This continuing deduction concerns the original finite-variance real Wigner subclass of F0014 and does not claim a full almost-sure Brown theorem.
+It is conditional on the arbitrary nonsymmetric shift floor in [D_F0025](Yin_D_F0025.md#in-probability-floor), whose new candidate proof is not treated as adopted here.
+The carrier certificate and root-factorization interfaces come from [C_F0186_v7](../claims/Yin_C_F0186_v7.md#statement), but the whole-carrier reversal-symmetry condition is removed below.
+The [three-factor conditional assembly](Yin_D_F0011.md#conditional-three-factor-limsup) supplies the preceding special-case argument, with a general fixed number of certified factors replacing its three factors.
+This is coordinated project development for Yin, not independent review or a proof of the floor premise.
 
-The [complete Haar theorem](../claims/Yin_C_F0192_v2.md#argument) and [complete GOE theorem](../claims/Yin_C_F0186_v9.md#argument) combine finite-dimensional backward repair, continuous-measure tube bounds, quantitative Hermitization comparison, and logarithmic cutoff removal.
-For the current discrete question, their common transferable content is algebraic structure and the real-symmetric eventual-even nonidentity statement.
-Neither their tube probabilities nor their quantitative resolvent inputs are a theorem for arbitrary atomic finite-second-moment entries.
-The [existing atomic tube counterexample](../ledger/Yin_L_F0061_v1.md#atomic-tube-obstruction) already rules out a degree-only product-measure replacement.
-Thus further Gaussian or Haar subclasses provide no propagation to the original missing lower recurrence without new information about the actual discrete determinant.
+<a id="floor-premise"></a>
+## Exact conditional floor premise
 
-For a finite free logarithm c, [the exact marginal criterion](../claims/Yin_C_F0190_v1.md#coupling-criterion) requires the lower-deviation probabilities to have lower limit zero.
-A fixed positive probability of a good determinant remains insufficient under arbitrary coupling.
-The present matching proposal aims at actual lower-tail probabilities, rather than positive determinant moments or an independent-dimensions recurrence criterion.
-
-## A finite-radius input and the actual matching quantity
-
-Let M have real independent Wigner off-diagonal randomness and an independent polynomially bounded arbitrary complex shift, as in the [reviewed cofactor theorem](../claims/Yin_C_F0194_v1.md#statement).
-Condition on one actual principal minor D and the exposed diagonal a.
-Put A=adj D and Q=(A+A^T)/2, and assume A is nonzero.
-The exposed determinant is a quadratic polynomial in the remaining independent real coordinates x:
+Use normalized real symmetric Wigner inputs with fixed centered variance-one off-diagonal laws and independent fixed finite-second-moment diagonal laws, allowing atoms and arbitrary coupling across dimensions.
+For each gamma,B>0, assume that there are A,C,N_0 such that
 \[
- \det M=a\det D-(x+f)^T A(x+g).
+ \sup_{\max_{ij}|F_{ij}|\le N^\gamma}
+ \mathbb P\{s_{\min}(W_N+F)\le N^{-A}\}
+ \le C_BN^{-B}+C\sqrt{\log(2+N)}N^{-1/18},
+ \qquad N\ge N_0.
+ \tag{Floor-premise}
 \]
-Its quadratic part is -x^T Qx, while all linear and constant terms are allowed.
-For a threshold h>0, make a graph on the exposed coordinates with an edge ij, i different from j, when
+The supremum is over deterministic complex matrices without symmetry assumptions, and constants may depend on the fixed laws, gamma and B.
+For an independent random shift the estimate applies conditionally on its polynomial entry guard, whose failure probability is added.
+Only convergence to zero of this bound is used, and the displayed second term is not summable.
+This is the exact proposed [candidate interface](Yin_D_F0025.md#in-probability-floor), not an extension of the accepted symmetric-shift theorem by fiat.
+
+<a id="statement"></a>
+## Enlarged carrier class and conditional conclusions
+
+Let W_1,...,W_d be independent real Wigner inputs within each dimension, in the exact fixed-law finite-second-moment model of [C_F0186_v7](../claims/Yin_C_F0186_v7.md#statement).
+Use word reversal without coefficient conjugation under the [accepted convention](../claims/Yin_C_F0186_v6.md#word-reversal).
+Fix rev Q=Q for a polynomial Q(x_2,...,x_d), a scalar c in C\{0}, K>=0, and
 \[
- |Q_{ij}|\ge h\|A\|_F.
- \tag{Matching-threshold}
+ T_\nu=x_{j_\nu}+Q_\nu((x_j)_{j\ne1,j_\nu}),
+ \qquad 2\le j_\nu\le d,\qquad
+ \operatorname{rev}Q_\nu=Q_\nu,\qquad 1\le\nu\le K.
 \]
-The relevant rank is the size of a matching in this graph, not spectral rank of Q.
-For example, a high-rank diagonal Q gives a constant quadratic form on Rademacher inputs.
-
-Meka, Oanh Nguyen and Van Vu, [Anti-concentration for Polynomials of Independent Random Variables](https://theoryofcomputing.org/articles/v012a011/v012a011.pdf), Theory of Computing 12(11), 2016, Definition 1.5 and Theorem 1.6 on PDF p. 3, directly give a finite-interval estimate for real multilinear polynomials.
-For degree two, r disjoint quadratic monomials whose coefficients have modulus at least one give a bound C sqrt(log r) r^(-1/9) for every interval of length one.
-This is a checked source statement and not an audit of its proof.
-Theorem 1.8 on PDF p. 4 has a separate general-distribution interface, but the following exact conditioning instead reuses the Rademacher theorem.
-No statement from this source has yet been adopted as support for a completed project theorem.
-
-## Exact two-copy conditioning for a real finite-variance law
-
-For each exposed coordinate, sample independent copies xi_i^(0), xi_i^(1) of its original real law and an independent fair sign epsilon_i.
-Set
+Define
 \[
- c_i=(\xi_i^{(0)}+\xi_i^{(1)})/2,
- \qquad b_i=(\xi_i^{(0)}-\xi_i^{(1)})/2,
- \qquad x_i=c_i+b_i\varepsilon_i.
+ H=cT_1\cdots T_K,\qquad R=(x_1+Q)H.
+ \tag{Carrier}
 \]
-Unconditionally x has exactly its original independent-coordinate law.
-Nondegeneracy gives fixed b_0,p_0>0 with P(|b_i|>=b_0)>=p_0.
-For a fixed matching of r edges, these edge-survival events use disjoint pairs of coordinates and are independent.
-A direct binomial concentration bound therefore retains a fixed positive fraction of those edges, except with probability exp(-c r).
-
-First retain at least half of the original matching for which one common projection, either real part or imaginary part, of Q_ij has modulus at least |Q_ij|/sqrt(2).
-Condition on all the two-copy variables.
-Each diagonal term x_i^2 becomes affine in epsilon_i because epsilon_i^2=1.
-Each surviving projected off-diagonal coefficient has modulus at least sqrt(2) h b_0^2 ||A||_F.
-After division by this scale the source theorem applies, with all lower-degree coefficients and the center unrestricted.
-Consequently, for a law-dependent constant c_0>0 and sufficiently large r, the conditional cofactor event on (Matching-threshold) satisfies the development bound
+Take H=c when K=0.
+Indices may repeat and factors may share inputs and be dependent, and no reversal symmetry is assumed for H.
+Under (Floor-premise), every fixed z in C satisfies
 \[
- \mathbb P\{|\det M|\le c_0 h\|A\|_F\mid D,a\}
- \le e^{-c r}+C\sqrt{\log r}\,r^{-1/9}.
- \tag{Matching-small-ball}
+ N^{-1}\log|\det(R(W)-zI)|
+ \longrightarrow c_z=\log\Delta_\tau(R(s)-z)
+ \quad\hbox{in probability},\qquad c_z\in\mathbb R,
+ \tag{Log-probability}
 \]
-The probability here includes the exact two-copy representation; the final bound concerns the original exposed row law.
-The diagonal and deterministic linear terms cause no extra loss, and a det D need not be discarded.
-This is currently a real-entry-law statement with arbitrary complex cofactor coefficients.
-For genuinely complex off-diagonal laws, Hermitian conjugation changes the conditioned quadratic coefficients; the displayed graph based on sym adj D is not silently asserted to cover that case.
+and its limsup equals c_z almost surely under every allowed cross-size coupling.
+The conclusions include z=0 and extend to every fixed g(R)-z with g a one-variable polynomial.
+The target is finite when g(t)-z is a nonzero polynomial, while an identically zero g(t)-z makes both sides -infinity identically.
+No simultaneous event over an uncountable parameter family is asserted.
 
-## The two missing bridges and the first tests
+For every finite ordered product S=prod_(h=1)^q g_h(R_h), where each carrier may use a different relabeling of the same independent inputs, the same probability and every-coupling limsup conclusions hold at zero shift.
+The factors may share variables, be dependent and fail to commute.
+Its free logarithm is finite when every g_h is a nonzero polynomial.
+A zero polynomial factor makes both sides -infinity identically, and the empty product has target zero.
+This product assertion alone gives no conclusion for S-z at nonzero z.
 
-Even if r is proportional to n, (Matching-small-ball) is too weak for the existing union over n possible omitted indices.
-The [current assembly](Yin_D_F0011.md#full-three-factor-assembly-and-the-first-remaining-unsupported-step) supplies existence of an index, rather than a positive proportion of usable indices.
-Multiplying the source bound by n destroys its decay.
-For the weaker determinant limsup objective, a useful first investigation is therefore a quantitative many-index or weighted-cofactor reduction for an excessively small singular value of the actual product-inverse shift.
-It must justify choosing a random omitted index with nonvanishing probability of reaching the normalized determinant event; citing a near-kernel vector or incompressibility without that precise cofactor implication is insufficient.
-Failure of such a reduction would leave this direct bound as a conditional minor estimate only.
+<a id="argument"></a>
+## Conditional proof
 
-There is also a structural complement that differs from the earlier structured-row-to-kernel inference.
-If the threshold graph has no matching of size r, endpoints of a maximal matching form a vertex cover I with |I|<2r.
-Hence Q has an approximation Q_0 consisting of its diagonal and the rows or columns meeting I, with
+<a id="carrier-guard"></a>
+### Certified carrier and arbitrary conditional shift
+
+Fix B>2.
+The [accepted polynomial norm guard](../claims/Yin_C_F0186_v6.md#argument) gives polynomial norm bounds for the fixed polynomials used here, with failure O(N^(-B)).
+For T_nu, condition on all inputs except W_(j_nu).
+The shift Q_nu is independent of that input, complex symmetric and polynomially bounded on its norm guard.
+The [accepted symmetric-shift floor](../claims/Yin_C_F0188_v2.md#statement) gives an exponent b_nu with P{s_min(T_nu(W))<N^(-b_nu)}=O(N^(-B)).
+A finite union and s_min(AB)>=s_min(A)s_min(B) give an event J_N and exponent b_H such that
 \[
- \|Q-Q_0\|_F\le n h\|A\|_F.
+ \mathbb P(J_N^c)=O(N^{-B}),\qquad
+ s_{\min}(H(W))\ge N^{-b_H},\qquad \|Q(W)\|\le N^{b_H}
+ \quad\hbox{on }J_N.
 \]
-For fixed r, this describes O(rn) complex coordinates rather than an arbitrary n-by-n matrix of structured entries.
-The approximation's diagonal remains an essential unrestricted part.
-The second discriminating investigation is whether the actual identities
+The fixed scalar is absorbed by increasing the exponent, and K=0 has a deterministic inverse bound.
+No independence between the factors is required.
+
+Fix z and define F_N=Q(W)-zH(W)^(-1) on J_N, and F_N=0 otherwise.
+This measurable shift is independent of W_1 and has a deterministic polynomial norm bound, after increasing its exponent to absorb |z|.
+It is generally nonsymmetric.
+The floor premise, conditioned on this shift, gives A_z with P{s_min(W_1+F_N)<N^(-A_z)}->0.
+On J_N,
 \[
- D^TQ=S\operatorname{adj}D,
- \qquad DQD^T=(\det D)S,
- \qquad S=(D+D^T)/2
+ P_N=R(W)-zI=(W_1+F_N)H(W).
+ \tag{Factorization}
 \]
-exclude this diagonal-plus-few-rows-and-columns class with a sufficiently small probability.
-No count or entropy gain for the actual Wigner minor is proved here.
-A fine grid on O(rn) unconstrained coordinates combined with only exp(-cn) row probabilities would still fail at arbitrarily fine precision.
-One must obtain additional independent constraints, a controlled inverse description, or another genuine gain.
-
-## A large-fiber obstruction to a naive Riccati inversion
-
-The suggestion to keep the whole Q leads, when S is invertible, to
+Thus for some fixed a_z,
 \[
- T=DS^{-1}D^T=S-KS^{-1}K,
- \qquad K=(D-D^T)/2,
- \qquad TQ=(\det D)I.
+ \mathbb P\{s_{\min}(P_N)<N^{-a_z}\}\longrightarrow0.
+ \tag{Output-floor}
 \]
-A uniform finite-to-one assertion for S to T, or even for S to Q at fixed K, is false despite fixed norm and invertibility bounds.
-Here is a direct family showing this.
-Let n=2q, let J=[[0,1],[-1,0]], and fix K=diag(J,...,J).
-Fix alpha>1, put beta=alpha^(-1), and let t=alpha+beta.
-For any real orthogonal projection P commuting with K and having fixed rank 2r, with 0<r<q, put
+This estimate is not used as a summable bound.
+
+<a id="middle-and-free-log"></a>
+### Polynomial middle range derives the finite free target
+
+Put L=K+1 and q_N=ceil(N^(3/4)).
+The [uniform complex-shift intermediate theorem](../claims/Yin_C_F0187_v2.md#statement) applies conditionally to W_1+F_N and separately to each T_nu.
+Each failure probability is at most C N^2 exp(-c N^(1/4)), with no norm condition on the shift.
+For increasing singular values a_r, the [accepted deterministic product inequality](../claims/Yin_C_F0186_v6.md#argument) is
 \[
- S=\alpha P+\beta(I-P),\qquad D=S+K.
+ a_{r_1+\cdots+r_L-(L-1)}(M_1\cdots M_L)
+ \ge\prod_{\nu=1}^La_{r_\nu}(M_\nu)
 \]
-Since K^2=-I and S commutes with K,
+when the index on the left is at most N.
+Distribute k+L-1 among L positive indices differing by at most one.
+For k>=2L(q_N+1), each index is in the intermediate range and its predecessor is at least k/(2L).
+The factorization gives constants c_0>0 and k_N=2L(q_N+1)=O(N^(3/4)) with
 \[
- KS^{-1}K=-S^{-1},\qquad T=S+S^{-1}=tI.
+ a_k(P_N)\ge c_0(k/N)^L,\qquad k_N\le k\le N,
+ \tag{Output-middle}
 \]
-The matrix S has its least singular value beta, and D is invertible because its Hermitian part S is positive definite.
-A real orthonormal basis respecting the K-complex structure gives
+outside a summable exception, including J_N^c.
+For K=0 use the single-factor inequality with L=1.
+This finite union and product argument does not require factor independence.
+
+First Borel--Cantelli makes (Output-middle) eventual almost surely under every allowed coupling.
+The [accepted Hermitized weak law](../claims/Yin_C_F0186_v4.md#statement) applies to the original fixed polynomial R-z.
+Its limiting singular law nu_z obeys
 \[
- \det D=(\alpha^2+1)^r(\beta^2+1)^{q-r},
- \qquad Q=(\det D/t)I.
+ \nu_z([0,t])\le C t^{1/L}
+ \quad\hbox{for all sufficiently small }t>0.
+ \tag{Free-small-mass}
 \]
-Thus the whole Q is also constant on this fixed-rank family.
-The allowed P form the complex Grassmannian of r-dimensional subspaces of C^q, with real dimension 2r(q-r), which is of order n^2 for proportional r.
-This dimension statement follows from the local graph chart, an arbitrary complex (q-r)-by-r matrix.
-All displayed norm and inverse bounds depend only on alpha, and not on n.
+Indeed the finite count is at most k_N+C N t^(1/L), and weak convergence at slightly larger continuity points followed by their decrease to t gives this bound.
+It excludes a zero atom and gives finite negative logarithm by integrating nu_z([0,t])/t on (0,1).
+The bounded free operator R(s)-z has finite positive logarithm as well.
+Consequently c_z is finite before any unregularized logarithmic convergence is used.
+No bounded free inverse or general free full-rank theorem is assumed.
 
-This example rejects the proposed general small-fiber premise, rather than the actual Wigner probability problem.
-Its fiber still has a large codimension inside the full real-symmetric space.
-It therefore leaves open a count using independent Wigner coordinates or special structure of the original product-inverse K.
-The raw Riccati identity alone supplies neither that count nor an entropy reduction.
+<a id="logarithmic-passage"></a>
+### Tails in probability and arbitrary-coupling limsup
 
-## Source comparisons that prevent false propagation
+On the event of (Output-floor) and (Output-middle), the bottom k_N singular values contribute at most a_z k_N log N/N=o(1) to the normalized negative logarithm.
+The other values below fixed small t have total contribution at most
+\[
+ C t^{1/L}(1+|\log t|)+o(1).
+\]
+Their indices are at most C N t^(1/L), and summing -log c_0+L log(N/k) up to this bound proves the display by the elementary integral estimate for the logarithm.
+The good event has probability tending to one, so these tails vanish uniformly in probability as t decreases to zero.
+The [accepted positive logarithmic tails](../claims/Yin_C_F0186_v4.md#positive-tail) apply to the fixed polynomial P_N.
+For fixed upper and lower cutoffs the clipped continuous logarithm converges by weak convergence.
+Removing the cutoffs proves (Log-probability), without convergence of expected unregularized logarithms.
 
-Alt, Erdos, Kruger and Nemish, [arXiv:1706.08343v3](https://arxiv.org/pdf/1706.08343), were read beyond the earlier abstract-only comparison.
-Definition 2.1 on PDF p. 4 includes the fixed-matrix-coefficient Wigner setting, and Assumptions 2.3, equations (2.9)--(2.12), on pp. 5--6 require bounded moments of every order.
-Theorem 2.4 on p. 6 and Theorem 4.7 on p. 21 give spectral exclusion away from the self-consistent spectrum.
-This degeneracy-tolerant exterior result does not supply the interior negative-logarithmic lower bound.
-The statements and assumptions were inspected, not their full proofs; no theorem from the paper is adopted here.
+The [accepted regularized upper bound](../claims/Yin_C_F0186_v4.md#regularized-potentials) gives limsup N^(-1)log|det P_N|<=c_z almost surely under every allowed coupling.
+Convergence in probability makes P{N^(-1)log|det P_N|<c_z-eta}->0 at each eta>0.
+The [arbitrary-coupling marginal criterion](../claims/Yin_C_F0190_v1.md#coupling-criterion) gives equality of this limsup under every coupling.
+Equivalently one selects a deterministic subsequence with summable lower deviations and applies first Borel--Cantelli there.
+No independence across dimensions or full-sequence summability of (Output-floor) is needed.
 
-The author-hosted 2023 [Kwan--Sauermann quadratic paper](https://mkwn.github.io/RQLOP.pdf), Remark 2.2 on PDF p. 10, explicitly identifies the small-ball adaptation of robust-rank inheritance as a difficulty.
-Grebennikov and Kwan, [arXiv:2505.24699v1](https://arxiv.org/html/2505.24699v1), Theorems 1.1--1.2 and the concluding small-ball discussion, give bounded-Chow-rank point bounds and explicitly leave difficulties with the finite-radius analogue.
-Jin, Kwan, Sauermann and Wang, [arXiv:2505.23335v1](https://arxiv.org/html/2505.23335v1), Theorem 1.11 and the introductory rank discussion, were inspected only as a point-concentration comparison.
-Their point bounds are not substituted for (Matching-small-ball).
-The Meka--Nguyen--Vu interval theorem is the actual new finite-radius source input in this exploration.
+<a id="outer-and-product"></a>
+### Outer polynomial and ordered-product closures
 
-Compared with [L_F0063](../ledger/Yin_L_F0063_v1.md), the substantive proposed change is to exploit disjoint finite-scale off-diagonal coefficients of the actual quadratic polynomial, then preserve the entire low-matching matrix structure.
-It is neither another moment bound, Gaussian smoothing, nor coefficient products treated as new independent noise.
-The many-index loss and the remaining structured-minor count are unresolved, so this is an exploratory lead rather than a supported replacement for the full original routes.
-The large Riccati fibers give a useful new rejection test for one possible implementation of that lead.
+For nonzero nonconstant g(t)-z, factor it as b prod_(j=1)^r(t-lambda_j), with b nonzero and repeated roots retained.
+Finite determinant multiplicativity gives
+\[
+ N^{-1}\log|\det(g(R(W))-zI)|
+ =\log|b|+\sum_{j=1}^{r}N^{-1}\log|\det(R(W)-\lambda_jI)|.
+\]
+All summands converge in probability to already finite free logarithms, and a finite union bound handles dependence.
+The [accepted bounded FK multiplicativity](../audits/literature/FK52/Yin_U001.md#bounded-multiplicativity-and-the-finite-tracial-adaptation) identifies the sum of targets with log Delta(g(R(s))-z).
+A nonzero constant g(t)-z has deterministic logarithm log|b|, and an identically zero polynomial gives the zero matrix at every dimension and at the free limit.
+Apply the universal upper bound to the fixed polynomial g(R)-z and then C_F0190_v1 to obtain its limsup conclusion.
+One must use probability convergence here, rather than infer a limsup of a sum from the individual limsups.
+
+For S=prod_h g_h(R_h), apply the probability conclusion to each factor at zero shift.
+A finite union gives convergence in probability of the sum of log determinants when all targets are finite.
+Finite and bounded free determinant multiplicativity identify the finite and limiting sums with the ordered products.
+The universal upper bound for the fixed polynomial S and the same marginal criterion give its every-coupling limsup.
+The zero-factor and empty-product cases follow directly.
+
+<a id="examples-and-limits"></a>
+## Actual enlargement and remaining boundary
+
+Taking Q=0 and H=x_2...x_d includes every fixed ordered product x_1...x_d of distinct independent real Wigner inputs, including three or more factors, at every fixed z.
+The factor indices j_nu may repeat within H, which remains independent of W_1 by the exact certificate.
+This removes the precise rev H=H restriction identified in [C_F0186_v7](../claims/Yin_C_F0186_v7.md#remaining-boundary).
+At zero shift the certified base carrier also has a stronger almost-sure log limit directly from the accepted factorwise floors and intermediate bounds.
+The nonsummable vanishing candidate error does not prove full-sequence almost-sure fixed-parameter log convergence at general nonzero z.
+No full almost-sure Brown theorem, general matrix-coefficient pencil theorem, or completion of the full F0014 contract is claimed.
+The only new probabilistic premise is (Floor-premise), not an additional unproved low-matching hypothesis.
