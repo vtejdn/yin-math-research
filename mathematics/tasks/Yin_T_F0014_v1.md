@@ -50,6 +50,10 @@ The [finite-variance controls and cyclic spectral subclasses](../claims/Yin_C_F0
 The [conditional complex symmetric polynomial classes](../claims/Yin_C_F0186_v6.md#statement) give stronger fixed-parameter logarithmic convergence for their underlying displayed polynomials; their arbitrary outer polynomial images are asserted there only at the Brown-measure level.
 No broader determinant conclusion is imported from those spectral results.
 
+The [reviewed symmetric-carrier and polynomial-closure theorem](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now proves fixed-parameter full logarithmic limits for its wider real-input carrier class and every fixed outer polynomial.
+It also treats finite ordered products of those outputs at zero, allowing dependence and noncommutation between factors.
+The [reviewed marginal criterion](../claims/Yin_C_F0190_v1.md#decision-coupling-criteria-reviewed) identifies the exact remaining probability obligation for this Task's arbitrary-coupling upper limit; it does not establish that obligation for general polynomials.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

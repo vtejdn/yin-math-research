@@ -231,3 +231,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [HKOS00 source notes](HKOS00/readme.md) | Permutation characteristic-polynomial finite-type CLT |
 | [Zei13 source notes](Zei13/readme.md) | Cycle products and finite-type angle convention |
 | [Kam26 source notes](Kam26/readme.md) | Heisenberg finite-quotient determinant counterexample |
+| [Tao08 source notes](Tao08/readme.md) | Simultaneous torus returns with bounded gaps |
+| [Ken11 source notes](Ken11/readme.md) | Graph connections, gauge equivalence and cycle monodromy |
+| [HZ25/Yin_U001](HZ25/Yin_U001.md) | Regular-bulk Haar additive local laws, conditional input boundaries and ultra-small logarithms |

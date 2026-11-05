@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Preliminary controls and the scalar conditional-shift pilot are reviewed and proved; focus on actual-minor block estimates for general matrix-coefficient linearizations. |
+| priority | Reviewed symmetric-carrier limits are available; test a nonsymmetric three-factor carrier and actual-minor block estimates against the original planar defect. |
 
 ## Mechanism and accepted controls
 
@@ -27,6 +27,10 @@ The exact cyclic subclass \(g(AC^*C)\), \(A=A^*\), is already covered by that re
 The [reviewed intermediate bound](../claims/Yin_C_F0187_v2.md#decision-complex-intermediate-reviewed) gives \(s_{N-j}(W+F)\ge c j/N\) for \(j\ge N^{3/4}\), uniformly for independent complex shifts, outside summable failures.
 The [completed scalar conditional-shift route](Yin_S_F0033.md#route) now proves the [displayed nonnormal polynomial classes](../claims/Yin_C_F0186_v6.md#statement), including affine two-factor products and polynomial symmetric conditional shifts.
 For a general matrix-valued linearization, block-row correlations and coefficient-space degeneracy still need their own estimates; the scalar-shift result does not automatically tensorize.
+
+The [reviewed finite-product extension](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now treats every displayed reversal-symmetric carrier with conditional-shift factor certificates, its arbitrary outer polynomials at each fixed parameter, and zero-shift ordered products.
+The [continuing nonsymmetric test](../drafts/Yin_D_F0011.md) isolates the actual inverse shift for a three-factor product, where the accepted complex symmetric floor theorem no longer applies.
+This is a concrete boundary of the current method, rather than a counterexample to convergence.
 
 ## Relationship to the Gaussian routes
 
@@ -40,6 +44,7 @@ Irreducibility with \(\chi_R=0\) cannot justify a conditional estimate uniform o
 [Matrix-pencil F0013](../tasks/Yin_T_F0013_v1.md#contract) and [scalar-polynomial F0014](../tasks/Yin_T_F0014_v1.md#contract) have separate dimension-limsup determinant completion criteria.
 Their [linearization and logical boundaries](../ledger/Yin_L_F0061_v2.md) permit independent progress tracking while this route retains the full F0012 planar-defect objective.
 Completion of either determinant Task does not by itself complete this route or F0012.
+Their [exact marginal criteria](../claims/Yin_C_F0190_v1.md#statement) permit a favorable deterministic subsequence for the upper-limit problem, while the present route still owes the full-sequence planar assertion.
 
 ## Next discriminating work and limits
 
@@ -48,3 +53,6 @@ The [continuing block-pencil investigation](../drafts/Yin_D_F0010.md#negative-lo
 The next discriminating estimate must control the intermediate and bottom logarithmic ranges for actual minors, or directly establish the planar defect bound.
 The [source frontier and counterexamples](../ledger/Yin_L_F0061_v1.md) prevent using higher-moment theorems or expectation-log assertions outside their hypotheses.
 No counterexample to the exact general Task has been established.
+The [bounded alternative-mechanism comparison](../ledger/Yin_L_F0063_v1.md) found no supported replacement in its inspected scope.
+It records why sharp positive exponential moments, smoothing without spectral stability, and coefficient products without new independent noise do not close the current gap.
+The retained allocation therefore continues the actual nonsymmetric-shift and block-minor tests.

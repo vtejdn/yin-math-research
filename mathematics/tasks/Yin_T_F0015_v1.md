@@ -78,6 +78,12 @@ The [single-Haar reduction](../ledger/Yin_L_F0062_v1.md#single-haar) provides th
 Those findings retain their actual source and review scope; positive determinant moments alone supply no negative-logarithm uniform integrability.
 The main general gap identified by that survey is positive free determinant without a bounded inverse.
 
+The [reviewed Haar structural theorem](../claims/Yin_C_F0192_v1.md#decision-haar-structural-reviewed) now proves full limits for at most two effective coefficient positions, sparse support components with at most one cycle, and the stated simultaneous triangular extensions.
+It includes an irreducible four-entry example with positive determinant and an unbounded free inverse.
+For the unrestricted coefficient tuple it proves eventual almost-sure invertibility whenever the free kernel is zero, without controlling the small positive singular values.
+The [reviewed coupling criteria](../claims/Yin_C_F0190_v1.md#decision-coupling-criteria-reviewed) show that full almost-sure convergence under independent dimensions would already imply it under arbitrary coupling, while their upper-limit criteria remain different.
+The general positive-determinant logarithmic-tail obligation is still unresolved.
+
 This random-matrix approximation objective is distinct from the [single-Haar variational and coefficient-analysis Task](Yin_T_F0010_v1.md#contract) and the [Wigner-pencil Task](Yin_T_F0013_v1.md#contract).
 Their completion decisions do not complete this Task.
 The [permutation Laurent-polynomial Task](Yin_T_F0016_v1.md#contract) instead uses uniform permutation inputs and a kernel-removed finite determinant.

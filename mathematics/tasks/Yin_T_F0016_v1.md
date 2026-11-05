@@ -96,12 +96,12 @@ The ordinary-determinant examples \(p=z-1\) and \(p=z+1\) do not refute the redu
 An upper bound alone, convergence in probability alone or a subsequential result without the stated full upper-limit conclusion is insufficient.
 Expectation convergence, several independent permutation generators, and classification of every individual coupling are outside this Task's completion requirements.
 
-## Starting evidence and outstanding scope
+## Starting evidence and resolved arithmetic gap
 
 The [cycle-product comparison](../ledger/Yin_L_F0062_v1.md#permutation-positive-cases) supplies the cycle-count bound and the role of polynomial lower bounds for unit-circle roots.
 The [reduced-determinant analysis](../ledger/Yin_L_F0062_v1.md#reduced-determinants) gives the \(p=z-1\) reduced limit and explains the positive cases with roots of unity and suitable separation for the other unit-circle roots.
-Those are existing deductions at their stated evidence and review scope, not a completed resolution for arbitrary complex coefficients.
-The remaining scope includes irrational unit-circle roots with no polynomial separation bound.
+Those arithmetic starting cases retain their original evidence and review scope.
+The [complete classification](../claims/Yin_C_F0189_v1.md#statement) now handles the previously missing irrational roots without a polynomial separation bound, with distinct answers for full limits and upper limits under the two couplings.
 
 The [ordinary-determinant coupling example](../ledger/Yin_L_F0062_v1.md#permutation-coupling) motivates explicit coupling quantifiers without transferring its conclusion to reduced determinants.
 The [finite-quotient discussion](../ledger/Yin_L_F0062_v1.md#finite-quotient-counterexample) distinguishes group quotient chains from uniform permutations.
@@ -110,7 +110,7 @@ This Task is also distinct from the [Haar matrix-pencil approximation Task](Yin_
 
 ## Current decision
 
-[Selected decision](#decision-initial)
+[Selected decision](#decision-completed-coupling-classification)
 
 ## Lifecycle and completion
 
@@ -126,3 +126,26 @@ This Task is also distinct from the [Haar matrix-pencil approximation Task](Yin_
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Reduced permutation determinant contract](#contract) | Reduced logarithmic determinant limit and upper-limit assertions for every fixed nonzero complex Laurent polynomial, separately under arbitrary coupling and independence across dimensions, with original-dimension normalization. |
+
+### Decision completed-coupling-classification
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T07:29 |
+| status | completed |
+| authority | Yin authorized parallel exploration and advancement of F0012 through F0016, within the unchanged completion criteria. |
+| reason | The reviewed classification proves the independent-dimension upper-limit equality for every fixed nonzero Laurent polynomial, refutes full convergence by a fixed independent model, and refutes arbitrary-coupling upper-limit equality by a second fixed polynomial and a lawful coupling. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [Original reduced determinant contract](#contract) | Both assertions in both coupling regimes, with exact-zero deletion and original-dimension normalization unchanged. |
+| support | [Complete coupling classification](../claims/Yin_C_F0189_v1.md#statement) | Independent upper-limit equality holds universally; full-limit assertions in both regimes and the arbitrary-coupling upper-limit assertion are false by the specified fixed counterexamples. |
+| review | [Independent whole-contract finding](../audits/reviews/Yin_R_F0194_v1.md#finding-whole-contract) | Whole original contract and complete classification argument, including source conventions, all quantifiers, probability-one events and exact marginal laws. |
+
+## Resolution and independent full-chain follow-up
+
+The [proved classification](../claims/Yin_C_F0189_v1.md#decision-classification-reviewed) resolves all four original assertions.
+Under independent dimensions the upper-limit equality is true for every fixed nonzero Laurent polynomial.
+The full limit is false even with independent dimensions, and the upper-limit equality is false under arbitrary coupling.
+Both counterexamples keep every finite matrix invertible, so removing exact zeros does not remove their obstruction.
+The [independent post-completion audit](../audits/reviews/Yin_R_F0194_v1.md#finding-post-completion-chain) checked this actual selected contract, proved support and complete necessary dependency chain and found no unresolved gap.

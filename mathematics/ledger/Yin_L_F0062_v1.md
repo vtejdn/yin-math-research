@@ -255,3 +255,4 @@ For a single Haar variable, the determinant problem reduces to classical Laurent
 For uniform permutations, the unrestricted ordinary determinant assertion is false; useful replacements must specify root restrictions, reduced determinant convention and any cross-size coupling quantifier.
 The [Haar-pencil approximation Task](../tasks/Yin_T_F0015_v1.md#contract) and [reduced permutation determinant Task](../tasks/Yin_T_F0016_v1.md#contract) use this comparison as starting evidence.
 Their contracts separately ask for full almost-sure limits and upper-limit equalities under arbitrary cross-dimensional couplings and under independence across dimensions.
+The later [internal permutation classification](../claims/Yin_C_F0189_v1.md#decision-classification-reviewed) resolves that separate Task at its recorded proof and independent-review scope; it is not a public theorem located by this earlier bounded survey.

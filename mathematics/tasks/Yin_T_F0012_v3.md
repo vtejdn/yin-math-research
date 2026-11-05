@@ -42,6 +42,9 @@ Its Gaussian concentration and Gaussian tube probabilities do not automatically 
 Finite-variance self-adjoint spectral convergence and Hermitized spectral convergence are controls for this question; they alone do not settle the nonnormal eigenvalue problem.
 The exact linearization remains algebraic, but any new small-singular-value, truncation or logarithmic-potential interface must be justified for this model.
 
+The [reviewed symmetric-carrier extension](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now gives full almost-sure Brown and fixed-parameter determinant limits for its stated real-input class, including nonlinear single-carrier polynomials and noncommuting palindromes.
+It does not cover a general nonsymmetric carrier or arbitrary auxiliary matrix coefficients, and therefore supplies partial progress for this unchanged contract.
+
 The fixed-law assumption excludes an arbitrary variance-one triangular array whose entry law changes with size without a Lindeberg condition.
 No expectation-convergence assertion for unregularized logarithmic determinants is part of this contract.
 A failure of such an auxiliary assertion for discrete laws is not a counterexample to the stated weak almost-sure conclusion.

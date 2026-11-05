@@ -54,6 +54,10 @@ They may be studied as strengthenings only with explicit admissible hypotheses: 
 This Task concerns determinant approximation, separately from the [F0012 full-sequence Brown-measure contract](Yin_T_F0012_v3.md#contract).
 The [exact linearization transfer](../ledger/Yin_L_F0061_v2.md#linearization-transfer) explains its sufficient relationship to the [separate scalar determinant question](Yin_T_F0014_v1.md#contract).
 
+For a finite free logarithm, the [reviewed marginal criterion](../claims/Yin_C_F0190_v1.md#decision-coupling-criteria-reviewed) shows that the lower bound under every allowed coupling is equivalent to a vanishing lower limit of each fixed lower-deviation probability.
+It is enough to approach the target in probability along a suitable deterministic dimensional subsequence.
+This exact reduction supplies no such estimate for the general coefficient tuple; the original equality remains unresolved.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.
