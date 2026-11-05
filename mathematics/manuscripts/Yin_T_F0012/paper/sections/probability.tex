@@ -11,9 +11,9 @@ If \(g\) is a standard Gaussian vector in \(\mathbb R^n\), then for every \(\rho
 \[
   \mathbb P\bigl\{\operatorname{dist}(g,Z)\le \rho\bigr\}
   \le C D\sqrt n\,\rho\,
-      \exp\bigl(C(D+1)\sqrt n\,\rho\bigr)+e^{-cn}
+      \exp\bigl(C(D+1)\sqrt n\,\rho\bigr)
 \]
-for universal constants \(C,c>0\).
+for a universal constant \(C>0\).
 \end{lemma}
 
 \begin{proof}
@@ -24,10 +24,10 @@ For a smooth hypersurface \(Y\) given by a regular level of a polynomial of degr
   \le 4\sum_{r=1}^n \binom nr
        (2D\rho/\sigma)^r(1+\rho/\sigma)^{n-r}.
 \]
-Set \(u:=\rho/\sigma\), so the right side is \(4((1+(2D+1)u)^n-(1+u)^n)\).
-By the mean value theorem, this expression is bounded by
+The binomial formula rewrites the bound as
 \begin{equation}
-  \frac{8nD\rho}{\sigma}\exp\!\left(\frac{n(2D+1)\rho}{\sigma}\right).
+  4\left[\left(1+\frac{(2D+1)\rho}{\sigma}\right)^n
+         -\left(1+\frac{\rho}{\sigma}\right)^n\right].
   \label{eq:uniform-tube}
 \end{equation}
 
@@ -50,24 +50,45 @@ With \(\omega_n\) the volume of the unit ball in \(\mathbb R^n\), the resulting 
     \frac{s^{n+1}e^{-s^2/2}}{2^{n/2}\Gamma(n/2+1)}\,ds
   = (2\pi)^{-n/2}e^{-|x|^2/2}.
 \]
-Since \(S^2\) is the sum of \(n+2\) independent squared standard normal variables, the exponential Markov bound gives
-\(\mathbb P\{S<\sqrt n/2\}\le e^{n/8}2^{-(n+2)/2}\le e^{-cn}\) for a universal \(c>0\).
-On \(S\ge\sqrt n/2\), the bound \eqref{eq:uniform-tube} for \(Z\) has prefactor at most \(16D\sqrt n\,\rho\) and exponent at most \(2(2D+1)\sqrt n\,\rho\).
-Together these estimates give the claim.
+The density of \(S\) gives \(\mathbb E S^{-n}=2^{-n/2}/\Gamma(n/2+1)\).
+For \(x>0\), integrating the gamma integral over \([x,x+1]\) gives \(\Gamma(x+1)\ge x^x e^{-(x+1)}\).
+Monotonicity of \(L^p\) norms therefore gives
+\[
+ \mathbb E S^{-k}\le (C_0/\sqrt n)^k,\qquad
+ 1\le k\le n,\qquad C_0:=e^{3/2}.
+\]
+All coefficients in \eqref{eq:uniform-tube}, viewed as a polynomial in \(\sigma^{-1}\), are nonnegative.
+We may thus average term by term at \(\sigma=S\) and replace each inverse moment of \(S\) by the corresponding power of \(C_0/\sqrt n\).
+The mean value theorem now bounds the resulting difference of powers by \(8C_0D\sqrt n\,\rho\exp(C_0(2D+1)\sqrt n\,\rho)\).
 \end{proof}
 
+In Hilbert--Schmidt orthonormal coordinates on the real space of Hermitian tuples, the GUE tuple has the law of \(N^{-1/2}g\) for a standard Gaussian \(g\in\mathbb R^{dN^2}\).
+Indeed, \(\Tr(H_j^2)\) is the squared Euclidean norm of the coordinate vector of \(H_j\).
+We use Gaussian concentration in the following form \cite[Proposition~4.4 of arXiv v1]{CGP22}.
+If \(F\) is \(K\)-Lipschitz in standard Gaussian coordinates, then
+\begin{equation}\label{eq:gaussian-concentration}
+ \mathbb P\{F-\mathbb EF\ge t\}\le \exp(-t^2/(2K^2)),\qquad t>0.
+\end{equation}
+Applying this to both \(F\) and \(-F\) gives a two-sided estimate.
+
+The bound \(\mathbb P\{\|H_j^{(N)}\|\ge D+t\}\le e^{-cNt}\) for \(t>0\), from \cite[Proposition~2.11 of arXiv v1]{CGP22}, gives a uniform bound \(M_0\) on \(\mathbb E\|H_j^{(N)}\|\) by integration.
+The map \(g\mapsto\|H_j^{(N)}\|\) is \(N^{-1/2}\)-Lipschitz because the operator norm is bounded by the Hilbert--Schmidt norm.
+Using \eqref{eq:gaussian-concentration} and a union bound, we obtain
+\begin{equation}\label{eq:norm-tail}
+ \mathbb P\{\max_j\|H_j^{(N)}\|>M\}\le d e^{-NM^2/8},
+ \qquad M\ge 2M_0 .
+\end{equation}
+In particular the maximum has bounded moments of every fixed positive order, uniformly in \(N\).
+
 \begin{proof}[Proof of Theorem~\ref{thm:pencil}]
-Write each component of \(H^{(N)}\) in a real Hilbert--Schmidt orthonormal basis of Hermitian matrices.
-Its law in these coordinates is that of \(N^{-1/2}g\), where \(g\) is standard Gaussian in \(\mathbb R^n\) and \(n:=dN^2\).
-Indeed, \(\Tr(H_j^2)\) is the squared Euclidean norm of the coordinate vector.
-Using the same coordinates to evaluate the pencil, define
+In the same coordinates, define
 \[
   q_N(x):=\bigl|\det T_N(N^{-1/2}x)\bigr|^2,
   \qquad Z_N:=q_N^{-1}(0).
 \]
 The determinant has degree at most \(mN\), so \(q_N\) is a nonnegative real polynomial of degree at most \(2mN\), with \(q_N(0)=1\).
 
-Fix \(M>0\) and let \(C_0,\alpha,\varepsilon_0>0\) be the constants of Proposition~\ref{prop:distance}.
+Fix \(M>0\) and let \(C_0,\alpha,\varepsilon_0>0\) be the constants of Proposition~\ref{prop:distance} with \(A_0=I_m\) and \(A_j=R_j\).
 If \(Z_N\) is empty, the proposition excludes \(s_{\min}(T_N(H^{(N)}))\le\varepsilon\) on \(\max_j\|H_j^{(N)}\|\le M\) for \(0<\varepsilon\le\varepsilon_0\).
 Otherwise, on the same event the proposition gives
 \[
@@ -82,8 +103,9 @@ Since \(\sqrt n=\sqrt d\,N\), the resulting probability bound is
   \mathbb P\bigl\{s_{\min}(T_N(H^{(N)}))\le\varepsilon,\
                  \max_j\|H_j^{(N)}\|\le M\bigr\}
   \le C N^{5/2}\varepsilon^\alpha
-      \exp\bigl(CN^{5/2}\varepsilon^\alpha\bigr)+e^{-cN^2}.
+      \exp\bigl(CN^{5/2}\varepsilon^\alpha\bigr).
 \]
-Take \(M>2\), so that the norm event has probability tending to one, and choose \(A>0\) with \(A\alpha>5/2\).
-The right side tends to zero for \(\varepsilon=N^{-A}\), proving \eqref{eq:pencil-floor}.
+Take \(M\ge 2M_0\) and choose \(A>0\) with \(A\alpha>7/2\).
+The right side is summable at \(\varepsilon=N^{-A}\), as is the complementary norm event by \eqref{eq:norm-tail}.
+This proves \eqref{eq:pencil-floor}.
 \end{proof}

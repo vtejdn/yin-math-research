@@ -1,0 +1,186 @@
+\section{Normalized determinants of affine pencils}\label{sec:affine}
+
+We prove Theorem~\ref{thm:affine}.
+Write $\nu_N$ for the empirical spectral distribution of $L_N^*L_N$, with mass $1/(mN)$ per eigenvalue, and $\nu$ for the distribution of $L^*L$ under $\tau_m$.
+Thus $u=\frac12\int\log x\,d\nu(x)$.
+If all the random coefficients vanish, then $U_N=u$ and $\Delta_{mN}(L_N)=e^u$ identically, and \eqref{eq:global-floor} in the finite case follows by choosing $\varepsilon_0<s_{\min}(A_0)$.
+We assume below that some $A_j$ with $j\ge1$ is nonzero.
+
+The normalized trace moments of $L_N^*L_N$ converge in probability to those of $L^*L$.
+Indeed, expansion of each matrix-valued moment gives a finite linear combination of scalar trace moments with fixed coefficients.
+Since $\|L_N\|\le C_A(1+\max_j\|H_j^{(N)}\|)$ for a fixed constant $C_A$, the measures are supported in a common compact interval with probability tending to one by \eqref{eq:norm-tail}.
+Polynomial approximation gives $\nu_N\Rightarrow\nu$ in probability.
+The expected measures $\mathbb E\nu_N$ also converge weakly to $\nu$, because bounded test integrals converging in probability converge in mean.
+
+\subsection{Generic invertibility}\label{subsec:generic-invertibility}
+
+Assume $u>-\infty$, so $\nu(\{0\})=0$.
+Let $\mathcal X:=\operatorname{span}_{\mathbb C}\{A_0,\ldots,A_d\}$.
+The square tensor blow-up of $\mathcal X$ of size $N$ is $\mathcal X\otimes M_N(\mathbb C)$, viewed as a subspace of $M_{mN}(\mathbb C)$.
+The maximum rank of a matrix in this space is a multiple of $N$, by the rank regularity lemma of Ivanyos, Qiao and Subrahmanyam in \cite[Definitions~2.1--2.2 and Proposition~2.3]{DM17}.
+This maximum equals the maximum $r_N$ of $\operatorname{rank}(A_0\otimes I_N+\sum_j A_j\otimes X_j)$ over complex matrices $X_1,\ldots,X_d$ of size $N$.
+Indeed, a tuple maximizing the rank of $\sum_{j=0}^d A_j\otimes X_j$ can be chosen with $X_0$ invertible, since these two nonempty Zariski open conditions intersect.
+Right multiplication by $I_m\otimes X_0^{-1}$ preserves rank and yields an affine tuple.
+The reverse inequality follows by setting $X_0=I_N$.
+
+A real basis of the Hermitian matrices is also a complex basis of $M_N(\mathbb C)$.
+Consequently, a nonzero polynomial in the complex matrix entries remains a nonzero polynomial on the real Hermitian coordinates, by the polynomial identity principle.
+If $r_N>0$, an $r_N$-minor that is a nonzero polynomial therefore vanishes with probability zero on the Gaussian tuple, so $L_N$ has rank $r_N$ almost surely.
+The same rank assertion is immediate for $r_N=0$.
+Whenever $r_N<mN$, divisibility by $N$ gives $\mathbb E\nu_N(\{0\})\ge 1/m$.
+If this occurred along an infinite subsequence, the closed-set bound for weak convergence of $\mathbb E\nu_N$ would give $\nu(\{0\})\ge1/m$.
+Thus $r_N=mN$ for all sufficiently large $N$, and the determinant polynomial on Hermitian inputs is then nonzero.
+
+\subsection{A norm cutoff depending on the singular value}\label{subsec:global-floor}
+
+We continue to assume $u>-\infty$.
+The maps $F_{k,\ell}$ from the proof of Proposition~\ref{prop:distance} form a fixed finite family.
+By \eqref{eq:compressed-input-bounds}, a residual at most $\varepsilon$ on $\max_j\|H_j\|\le M$ gives $|x|^2\le C(1+M^2)$ and $|F_{k,\ell}(x)|\le\varepsilon$.
+For the maps with nonempty zero set, the distance inequality and the Hermitian lift in that proof give a perturbation of size at most $C(1+M^2)\varepsilon^a$, where $a>0$ is the minimum of their distance exponents.
+If there are no such maps, take $a:=1$.
+
+For a map $F$ on $\mathbb R^p$ with empty zero set, the map
+\[
+ (x,y)\longmapsto \bigl(yF(x),y(y-1)\bigr)
+\]
+has zero set $\mathbb R^p\times\{0\}$.
+It has degree at most three, and its value at $(x,1)$ has norm $|F(x)|$.
+The polynomial distance inequality used in Proposition~\ref{prop:distance}, applied at distance one from this zero set, gives
+\[
+ |F(x)|\ge c_F(2+|x|^2)^{-E_F},\qquad E_F:=3\cdot15^p.
+\]
+Let $E_*$ be the largest of these exponents, or $1$ if all the zero sets are nonempty.
+Choose $0<\theta\le\min(a/2,1/(2E_*))$ and take $M:=\varepsilon^{-\theta/2}$.
+For an empty zero type the residual would be at least $c'_F\varepsilon^{\theta E_F}\ge c'_F\varepsilon^{1/2}$, which exceeds $\varepsilon$ for all sufficiently small $\varepsilon$.
+Every remaining type gives a Hermitian perturbation of size at most $C\varepsilon^b$ for $b:=a-\theta>0$.
+
+In standard Gaussian coordinates let $Z_N$ be the zero set of $|\det L_N(N^{-1/2}g)|^2$, a nonzero polynomial of degree at most $2mN$ by the preceding rank argument.
+On $\max_j\|H_j^{(N)}\|\le M$, a least singular value at most $\varepsilon$ puts $g$ within $C\sqrt N\,\varepsilon^b$ of $Z_N$.
+If $Z_N$ is empty, that event is empty by the construction of the perturbation.
+With $n=dN^2$, Lemma~\ref{lem:gaussian-tube} and \eqref{eq:norm-tail} give
+\[
+ \mathbb P\{s_{\min}(L_N)\le\varepsilon\}
+ \le C N^{5/2}\varepsilon^b e^{C N^{5/2}\varepsilon^b}
+     +d\exp(-N\varepsilon^{-\theta}/8)
+\]
+for all sufficiently large $N$ and sufficiently small $\varepsilon$.
+The second term is bounded by a constant times $\varepsilon^b$, and the first exponential factor is bounded when $N^{5/2}\varepsilon^b\le 1$.
+This proves \eqref{eq:global-floor}.
+Taking $B$ with $Bb>7/2$ and applying the first Borel--Cantelli lemma gives $s_{\min}(L_N)\ge N^{-B}$ eventually almost surely.
+
+\subsection{Singular-value averages}\label{subsec:affine-counting}
+
+For finite $u$, we first bound the expected mass of small squared singular values.
+Write $G_N$ and $G$ for the Cauchy transforms of $\nu_N$ and $\nu$, respectively, with kernel $(w-x)^{-1}$.
+The matrix-valued resolvent comparison of \cite[Corollary~1.3 of arXiv v1]{CGP22} applies to $L_N^*L_N$ with fixed amplification size $m$ and deterministic matrices $A_0,\ldots,A_d$ and their adjoints.
+Interchanging the two tensor factors identifies the limiting transform with $G$ under the normalized trace $\tau_m$.
+For $\Im w>0$ it gives
+\[
+ |\mathbb E G_N(w)-G(w)|\le C N^{-2}\bigl((\Im w)^{-5}+(\Im w)^{-2}\bigr).
+\]
+By \cite[Theorem~1.1(5)--(6)]{SS15}, $G$ has a convergent expansion in fractional powers at zero.
+The bounds $|G(\mathrm{i}t)|\le 1/t$ and $\mathrm{i}tG(\mathrm{i}t)\to\nu(\{0\})=0$ exclude all powers at most $-1$ on the positive imaginary axis.
+Thus $t|\Im G(\mathrm{i}t)|\le Ct^\beta$ for some $0<\beta\le1$ and $0<t\le1$.
+The inequality $\mathbf 1_{[0,t]}(x)\le 2t^2/(x^2+t^2)$ for $x\ge0$ yields
+\begin{equation}\label{eq:affine-count}
+ \mathbb E\nu_N([0,t])\le 2\mathbb E C_N(t)
+ \le C t^\beta,\qquad
+ t_N:=N^{-\gamma}\le t\le1,\quad 0<\gamma<\frac{2}{4+\beta},
+\end{equation}
+where
+\[
+ C_N(t):=\frac1{mN}\sum_i\frac{t^2}{s_i(L_N)^4+t^2}
+        =-t\Im G_N(\mathrm{i}t).
+\]
+Here the comparison error $CN^{-2}t^{-4}$ is absorbed into $Ct^\beta$ for $t\ge t_N$.
+
+For the almost-sure estimates, let $f:[0,\infty)\to\mathbb R$ be Lipschitz and put
+\[
+ \Phi_{N,f}(g):=\frac1{mN}\sum_i f(s_i(L_N(g))),
+\]
+where $L_N(g)$ denotes evaluation at the tuple with coordinates $N^{-1/2}g$.
+For matrices $X,Y$ of the same size, with singular values ordered decreasingly, the Frobenius singular-value inequality is
+\[
+ \sum_i\bigl(s_i(X)-s_i(Y)\bigr)^2\le \|X-Y\|_{\mathrm{HS}}^2
+ \qquad\text{\cite[Corollary~4.39]{Mec19}}.
+\]
+Together with Cauchy--Schwarz, it bounds the change of the normalized average by $\operatorname{Lip}(f)\|X-Y\|_{\mathrm{HS}}/\sqrt{mN}$.
+Writing $\kappa_A:=(\sum_{j=1}^d\|A_j\|_{\mathrm{HS}}^2)^{1/2}$, the tensor Hilbert--Schmidt identity gives
+\[
+ \|L_N(g)-L_N(g')\|_{\mathrm{HS}}\le \kappa_A N^{-1/2}|g-g'|.
+\]
+Consequently \eqref{eq:gaussian-concentration} gives, for every $r>0$,
+\begin{equation}\label{eq:affine-concentration}
+ \mathbb P\{|\Phi_{N,f}-\mathbb E\Phi_{N,f}|>r\}
+ \le 2\exp\!\left(-\frac{mN^2r^2}{2\kappa_A^2\operatorname{Lip}(f)^2}\right)
+\end{equation}
+when $f$ is nonconstant.
+
+\subsection{Almost-sure convergence}\label{subsec:affine-as}
+
+First suppose $u=-\infty$.
+For fixed $\delta>0$, the regularization
+\[
+ U_{N,\delta}:=\frac12\int\log(x+\delta^2)\,d\nu_N(x)
+\]
+has a fixed lower bound $\log\delta$ and a uniformly integrable positive part by the norm moments from \eqref{eq:norm-tail}.
+Weak convergence in probability and truncation therefore give convergence in $L^1$ to $u_\delta:=\frac12\int\log(x+\delta^2)\,d\nu(x)$.
+The function $s\mapsto\frac12\log(s^2+\delta^2)$ is $(2\delta)^{-1}$-Lipschitz.
+Hence \eqref{eq:affine-concentration} is summable over $N$ for each fixed deviation, and Borel--Cantelli for deviations $1/k$, $k\ge1$, gives $U_{N,\delta}\to u_\delta$ almost surely.
+Intersect the resulting events over a sequence $\delta\downarrow0$.
+Since $U_N\le U_{N,\delta}$ and $u_\delta\downarrow-\infty$, this gives $U_N\to-\infty$ almost surely.
+
+Suppose now that $u>-\infty$ and use $t_N=N^{-\gamma}$ from \eqref{eq:affine-count}.
+The function $s\mapsto t^2/(s^4+t^2)$ is $4t^{-1/2}$-Lipschitz, as is seen by rescaling $s=\sqrt t\,y$.
+At $t=t_N$, \eqref{eq:affine-concentration} bounds the probability of a deviation larger than $N^{-\gamma\beta}$ for $C_N(t_N)$ by
+\[
+ 2\exp\bigl(-cN^{2-\gamma(1+2\beta)}\bigr).
+\]
+The exponent is positive because $\beta\le1$ and $\gamma(4+\beta)<2$.
+By Borel--Cantelli and \eqref{eq:affine-count}, $\nu_N([0,t_N])\le C N^{-\gamma\beta}$ eventually almost surely.
+
+Put $V_N(t):=\frac12\int\log\max(x,t)\,d\nu_N(x)$.
+The function $s\mapsto\log\max(s,\sqrt t)$ is $t^{-1/2}$-Lipschitz, so \eqref{eq:affine-concentration} and Borel--Cantelli also give $V_N(t_N)-\mathbb E V_N(t_N)\to0$ almost surely.
+For fixed $0<\eta<1$, weak convergence and the uniform norm moments give
+\[
+ \mathbb E V_N(\eta)\longrightarrow
+ v(\eta):=\frac12\int\log\max(x,\eta)\,d\nu(x).
+\]
+By layer integration and \eqref{eq:affine-count}, for $t_N<\eta$,
+\[
+ 0\le \mathbb E V_N(\eta)-\mathbb E V_N(t_N)
+ \le \frac12\int_{t_N}^{\eta}\mathbb E\nu_N([0,t])\,\frac{dt}{t}
+ \le C\eta^\beta.
+\]
+Since $v(\eta)\downarrow u$, this proves $\mathbb E V_N(t_N)\to u$.
+On the eventual singular-value floor from \eqref{eq:global-floor},
+\[
+ 0\le V_N(t_N)-U_N\le B(\log N)\nu_N([0,t_N])\longrightarrow 0
+ \qquad\text{almost surely}.
+\]
+This proves $U_N\to u$ almost surely in the finite case as well.
+All Borel--Cantelli arguments used summable probabilities of individual events, so they apply to every coupling across sizes.
+
+\subsection{Convergence of expectations}\label{subsec:affine-mean}
+
+For finite $u$, choose $B$ with $Bb>5/2$ and $2B>\gamma$, and put $a_N:=N^{-2B}$.
+For $0<t\le a_N$, \eqref{eq:global-floor} gives $\mathbb E\nu_N([0,t])\le CN^{5/2}t^{b/2}$, since positive mass requires a singular value at most $\sqrt t$.
+Integrating with respect to $dt/t$ up to $a_N$ gives a bound $CN^{5/2-Bb}$.
+Between $a_N$ and $t_N$, monotonicity and \eqref{eq:affine-count} give a bound $C(\log N)N^{-\gamma\beta}$.
+On $[t_N,\eta]$, \eqref{eq:affine-count} bounds the integral by $C\eta^\beta$ for fixed $0<\eta<1$ and all large $N$.
+Together with the endpoint term $|\log\eta|\mathbb E\nu_N([0,\eta])$, the layer integral bounds the expected negative logarithmic tail by
+\[
+ \mathbb E\int_{(0,\eta)}|\log x|\,d\nu_N(x)
+ \le C\eta^\beta(1+|\log\eta|)+C(\log N)N^{-\gamma\beta}+CN^{5/2-Bb}.
+\]
+Generic invertibility holds at all sufficiently large sizes, so the finite bound also gives integrability of the negative logarithm at these sizes.
+The norm moments from \eqref{eq:norm-tail} control the positive tail uniformly, since its integral above $R>1$ is bounded by $2\log^+\|L_N\|\mathbf 1_{\{\|L_N\|>\sqrt R\}}$.
+The integrals of the logarithm with fixed upper and lower cutoffs converge in $L^1$ by boundedness and weak convergence in probability.
+Removing the cutoffs using the two tail estimates and the integrability of $\log x$ under $\nu$ proves $\mathbb E|U_N-u|\to0$.
+
+If $u=-\infty$, then $U_N^+\le\log^+\|L_N\|$ has uniformly bounded expectation.
+For each $\delta>0$, the $L^1$ convergence of the regularized logarithm gives $\limsup_N\mathbb E U_N\le u_\delta$.
+Letting $\delta\downarrow0$ yields $\mathbb E U_N\to-\infty$.
+
+Finally $\Delta_{mN}(L_N)=e^{U_N}$ converges almost surely to $e^u$ in both cases.
+Since $\Delta_{mN}(L_N)\le\|L_N\|$, the uniform norm moments of order greater than any given $p>0$ imply $\mathbb E|\Delta_{mN}(L_N)-e^u|^p\to0$.

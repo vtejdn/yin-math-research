@@ -187,6 +187,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Die26 source notes](Die26/readme.md) | Die26: Almost-coassociativity and the normal-tuple domain question |
 | [Dou66 source notes](Dou66/readme.md) | Dou66: bounded majorization and factorization |
 | [DM17 source notes](DM17/readme.md) | Matrix-space rank regularity over the complex numbers, inspected published edition |
+| [Mec19 source notes](Mec19/readme.md) | Singular-value perturbation and normalized Lipschitz averages, inspected lecture-note edition |
 | [FN17 source notes](FN17/readme.md) | FN17: Free Stein Kernels and the Identity Kernel |
 | [HL00 source notes](HL00/readme.md) | HL00: scalar R-diagonal comparison |
 | [HRFS07 source notes](HRFS07/readme.md) | HRFS07: half-plane uniqueness for the operator-valued quadratic equation |

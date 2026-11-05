@@ -51,3 +51,4 @@ The exponent can be extremely small; no optimal rate, uniformity over growing co
 The [affine determinant extension](../claims/Yin_C_F0186_v2.md#statement) also treats arbitrary constant matrices, including singular ones, and the zero-determinant limit.
 Its [separate whole-proof review](../audits/reviews/Yin_R_F0190_v2.md#independent-affine-proof) covers the additional rank argument and matrix-valued logarithmic passage.
 The original F0012 completion continues to select v1 and its applicable original review.
+The stronger almost-sure and mean targets were pursued by [S_F0031](Yin_S_F0031.md#route) and established in [C_F0186_v3](../claims/Yin_C_F0186_v3.md#statement), with their own review and strengthened Task completion.

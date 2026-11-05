@@ -23,6 +23,11 @@ With $a_z$ the affine part of $P-z$, the pencil
 \]
 has Schur complement $a_z-BQ^{-1}C=P-z$.
 If $P$ is affine we simply take $L_z:=P-z$.
+When present, the auxiliary block $Q$ evaluates to a unit upper triangular matrix with determinant one.
+In either case we obtain
+\begin{equation}\label{eq:linearization-det}
+ \det L_z(H^{(N)})=\det(A_N-zI_N).
+\end{equation}
 
 Write $q$ for the size of $L_z$ and let $D_z:=L_z(0)=\operatorname{diag}(P(0)-z,1,\ldots,1)$.
 Left multiplication by $D_z^{-1}\otimes I_N$ gives a monic pencil
@@ -115,34 +120,48 @@ We conclude that, for every fixed $z\ne P(0)$,
 \begin{equation}\label{eq:potential-pointwise}
  u_N(z):=\frac1N\log|\det(A_N-zI_N)|
          =\frac12\int\log x\,d\nu_N^z(x)
- \ \xrightarrow{\mathbb P}\ 
+ \ \xrightarrow{\mathbb P}\
  u_a(z)=\tau(\log|a-z1_{\mathcal M}|).
 \end{equation}
 
-To take the distributional Laplacian, we show local $L^1$ convergence in probability.
-Choose $M>\|a\|$ so that $\mathbb P\{\|A_N\|\le M\}\to 1$, and let $K\subset\mathbb C$ be compact.
-On this norm event, the eigenvalues of $A_N$ belong to the closed disk of radius $M$.
+\subsection{Almost-sure weak convergence}\label{subsec:brown-as}
+
+For each fixed $z\ne P(0)$, apply Theorem~\ref{thm:affine} to the unnormalized pencil $L_z$ of size $q$.
+Equation~\eqref{eq:linearization-det} identifies its normalized logarithmic determinant with $u_N(z)/q$.
+The theorem gives the almost-sure limit of this quantity, which by uniqueness of probability limits and \eqref{eq:potential-pointwise} equals $u_a(z)/q$.
+In particular,
+\[
+ u_N(z)\longrightarrow u_a(z)\quad\text{almost surely for each fixed }z\ne P(0).
+\]
+
+The potentials $u_N(\omega,z)$ are jointly measurable, since they are logarithms of absolute values of determinants with measurable matrix entries and continuous dependence on $z$.
+Fubini's theorem on disks of integer radii gives one event of probability one on which $u_N(z)\to u_a(z)$ for planar almost every $z$.
+By \eqref{eq:norm-tail} and the first Borel--Cantelli lemma, the input norms are eventually bounded by a fixed constant on another event of probability one.
+On the intersection of these two events, the norm bound on the inputs implies that all sufficiently large $N$ have $\|A_N\|\le M$ for a fixed deterministic $M$ which we take larger than $\|a\|$.
+
+Fix a sample point in this intersection and a compact $K\subset\mathbb C$.
 The functions $z\mapsto\log|z-w|$ have uniformly bounded $L^2(K)$ norm for $|w|\le M$, since the translated sets $K-w$ lie in one bounded disk and $\log|\cdot|$ is locally square integrable.
-Using the determinant formula $u_N(z)=N^{-1}\sum_{k=1}^N\log|z-\lambda_k(A_N)|$ and Jensen's inequality gives $\|u_N\|_{L^2(K)}\le C_{M,K}$ on the norm event.
+Using the determinant formula $u_N(z)=N^{-1}\sum_{k=1}^N\log|z-\lambda_k(A_N)|$ and Jensen's inequality gives $\|u_N\|_{L^2(K)}\le C_{M,K}$ for all sufficiently large $N$.
 The potential representation of the Brown measure gives $\|u_a\|_{L^2(K)}\le C_{M,K}$ as well.
 
 For $\delta>0$, let $E_{N,\delta}:=\{z\in K: |u_N(z)-u_a(z)|>\delta\}$, taking the potentials up to changes on planar null sets.
-Fubini's theorem, \eqref{eq:potential-pointwise} and dominated convergence give $\mathbb E|E_{N,\delta}|\to 0$, where $|\cdot|$ denotes planar Lebesgue measure.
-On the norm event, Cauchy--Schwarz yields
+Dominated convergence of indicators gives $|E_{N,\delta}|\to0$, where $|\cdot|$ denotes planar Lebesgue measure.
+For all sufficiently large $N$, Cauchy--Schwarz yields
 \[
  \|u_N-u_a\|_{L^1(K)}
  \le \delta |K|+2C_{M,K}|E_{N,\delta}|^{1/2}.
 \]
-Since the norm event has probability tending to one and $\delta$ is arbitrary, this proves $u_N\to u_a$ locally in $L^1$ in probability.
+Letting $N\to\infty$ and then $\delta\downarrow0$ proves $u_N\to u_a$ in local $L^1$ at this sample point.
 
 For $\varphi\in C_c^\infty(\mathbb C)$, the distributional identity $\Delta\log|z|=2\pi\delta_0$ and Definition~\ref{def:brown-measure} give
 \[
  \int\varphi\,d\mu_{A_N}
  =\frac{1}{2\pi}\int_{\mathbb C}u_N\Delta\varphi\,d^2z
- \ \xrightarrow{\mathbb P}\
+ \ \longrightarrow\
  \frac{1}{2\pi}\int_{\mathbb C}u_a\Delta\varphi\,d^2z
  =\int\varphi\,d\mu_a^{\mathrm{Br}}.
 \]
-On the norm event both probability measures are supported in the disk of radius $M$.
+Both probability measures are supported in the disk of radius $M$ for all sufficiently large $N$.
 Smooth compactly supported functions approximate any bounded continuous test function uniformly on this disk.
-This gives the convergence in Theorem~\ref{thm:brown}.
+The local $L^1$ conclusion holds on the same event for every compact set, so the resulting weak convergence holds against all bounded continuous real-valued test functions on that event.
+This proves Theorem~\ref{thm:brown}.

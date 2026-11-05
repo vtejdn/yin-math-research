@@ -12,10 +12,12 @@ For [F0012](../tasks/Yin_T_F0012_v1.md#contract), the local affine formulas iden
 An asymptotically sharp lower bound for that expectation would suffice, without a separate concentration theorem for the unregularized determinant.
 The finite-dimensional versions of both the capacity lower bound and the monotonicity in the deterministic mean fail in explicit examples below.
 These failures concern proposed comparison mechanisms, not F0012 or an eventual large-N comparison.
-Within the expectation-comparison approach, the remaining candidate is a sharp fractional inverse-determinant estimate, rather than the expectation of a positive determinant power.
+Within the expectation-comparison approach, a sharp fractional inverse-determinant estimate remains a separate quantitative target, rather than the expectation of a positive determinant power.
 This is retained development and source comparison by Yin's agents, not a formal proof review or a claim of general finite-GUE convergence.
 The general probability limit is established separately in [C_F0186_v2](../claims/Yin_C_F0186_v2.md#statement), including arbitrary constant matrices and a zero limiting determinant.
 That proof does not assert convergence of logarithmic expectations or establish the proposed fractional inverse-determinant bound; the finite-dimensional counterexamples below remain valid.
+The later [C_F0186_v3 strengthening](../claims/Yin_C_F0186_v3.md#statement) proves almost-sure logarithmic convergence and, for finite free logarithm, convergence in \(L^1\) and of expectations, by a global integrable singular-value tail.
+It therefore supplies the finite-limit mean premise (5) below, while the proposed sharp fractional inverse-determinant bound remains unproved and unnecessary for these convergence conclusions.
 
 ## Exact reused formulas and their limits
 
