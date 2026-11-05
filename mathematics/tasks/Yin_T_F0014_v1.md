@@ -54,6 +54,11 @@ The [reviewed symmetric-carrier and polynomial-closure theorem](../claims/Yin_C_
 It also treats finite ordered products of those outputs at zero, allowing dependence and noncommutation between factors.
 The [reviewed marginal criterion](../claims/Yin_C_F0190_v1.md#decision-coupling-criteria-reviewed) identifies the exact remaining probability obligation for this Task's arbitrary-coupling upper limit; it does not establish that obligation for general polynomials.
 
+The [reviewed nonsymmetric-carrier theorem](../claims/Yin_C_F0186_v10.md#decision-nonsymmetric-carrier-reviewed) removes every reversal-symmetry restriction from its real-input conditional-factor certificate.
+It proves fixed-parameter logarithmic convergence in probability and the required almost-sure upper-limit equality for that class, its two-sided forms, outer polynomials and zero-shift ordered products.
+In particular, arbitrary finite ordered products of distinct independent real Wigner inputs are covered at every fixed parameter, including zero.
+Arbitrary scalar polynomials and the full complex-input model remain outside that theorem.
+
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) now proves this upper-limit equality for every fixed scalar polynomial and parameter in the real Gaussian submodel, including \(z=P(0)\).
 The logarithms converge along all even dimensions, and the theorem's odd-witness criterion identifies exactly when the finite-target limit holds through every dimension.
 This Gaussian submodel does not resolve the arbitrary finite-variance contract.

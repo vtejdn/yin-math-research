@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test the reviewed nonsymmetric-shift probability floor's carrier determinant consequences and the remaining complex-input and almost-sure convergence gaps. |
+| priority | Extend the exposed-input probability floor to complex laws and test full-sequence logarithmic or planar controls beyond the reviewed real carrier class. |
 
 ## Mechanism and accepted controls
 
@@ -29,11 +29,11 @@ The [completed scalar conditional-shift route](Yin_S_F0033.md#route) now proves 
 For a general matrix-valued linearization, block-row correlations and coefficient-space degeneracy still need their own estimates; the scalar-shift result does not automatically tensorize.
 
 The [reviewed finite-product extension](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now treats every displayed reversal-symmetric carrier with conditional-shift factor certificates, its arbitrary outer polynomials at each fixed parameter, and zero-shift ordered products.
-The [continuing nonsymmetric test](../drafts/Yin_D_F0011.md) isolates the actual inverse shift for a three-factor product, where the accepted complex symmetric floor theorem no longer applies.
-This is a concrete boundary of the current method, rather than a counterexample to convergence.
+The [continuing nonsymmetric test](../drafts/Yin_D_F0011.md) now concerns stronger almost-sure controls for the actual inverse shift of a three-factor product.
+The nonsymmetric probability floor below does not by itself give the summability or planar control needed there.
 The [reviewed cofactor mechanism](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) excludes its exact isolated-minor bottom event with arbitrary polynomially bounded nonsymmetric offsets.
 The [reviewed corank-tail theorem](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed) now excludes full corank at least two with any prescribed polynomial failure rate, including the original three-factor product at each fixed nonzero parameter.
-The remaining full three-factor assembly still needs the corank-one, well-conditioned and clustered-minor bottom branches.
+That rank result alone left corank-one, well-conditioned and clustered-minor bottom branches, subsequently treated in probability by the floor theorem below.
 The [reviewed many-index theorem](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) supplies a new probability reduction for those branches using independent rectangular blocks, coarse right-vector spread and finite-radius quadratic matching.
 Its [exact polynomial-shift inequality](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) retains a mean low-matching probability; the subsequent floor proof controls its tiny-ratio intersection instead of requiring that whole mean to vanish.
 The [reviewed unary refinement](../claims/Yin_C_F0194_v4.md#decision-unary-reviewed) additionally controls many effective diagonal or linear terms, while retaining the joint tiny-ratio, low-matching and low-unary-count event.
@@ -42,6 +42,8 @@ The [method comparison and counterexamples](../ledger/Yin_L_F0066_v1.md) explain
 The [reviewed nonsymmetric-shift floor](../claims/Yin_C_F0194_v5.md#decision-nonsymmetric-floor-reviewed) now gives a polynomial least-singular-value floor in probability for one real Wigner matrix plus an arbitrary independent polynomially bounded complex shift.
 Its arbitrary-power second-smallest floor, internal-row cofactor estimate and isolated-minor assembly control the previously uncovered low-matching intersection.
 The remaining main error is not summable, so this result supplies no full-sequence almost-sure Brown conclusion.
+The [reviewed phase-line theorem](../claims/Yin_C_F0194_v6.md#decision-phase-line-floor-reviewed) now supplies the corresponding probability floor for \(\xi=c\eta\), \(|c|=1\), \(\operatorname{Re}c\ne0\), with a complete weighted-graph and finite-phase counting argument.
+Its every-phase auxiliary second-value estimate leaves the pure-imaginary odd-size obstruction intact.
 
 ## Relationship to the Gaussian routes
 
@@ -67,10 +69,12 @@ No counterexample to the exact general Task has been established.
 The [bounded alternative-mechanism comparison](../ledger/Yin_L_F0063_v1.md) found no supported replacement in its inspected scope.
 It records why sharp positive exponential moments, smoothing without spectral stability, and coefficient products without new independent noise do not close the current gap.
 The [fixed internal-row and probability-floor argument](../claims/Yin_C_F0194_v5.md#in-probability-floor) has complete independent review and an adopted assessment.
-The next assembly uses its probability conclusion for real-input carrier determinants, while complex input laws, general matrix coefficients and full-sequence Brown convergence retain their distinct obligations.
-The [three-factor conditional assembly](../drafts/Yin_D_F0011.md#conditional-three-factor-limsup) distinguishes the determinant upper-limit consequence from the stronger full-sequence almost-sure Brown obligation.
-The same Draft retains the separate [fresh-border cofactor method](../drafts/Yin_D_F0011.md#fresh-two-border-rewrite), its uniform polynomial-pencil bulk estimate and the remaining relative-normalization gaps.
+The [reviewed nonsymmetric-carrier assembly](../claims/Yin_C_F0186_v10.md#decision-nonsymmetric-carrier-reviewed) now proves logarithmic convergence in probability and arbitrary-coupling upper-limit equality for its real-input class, including the original three-factor test at every fixed parameter.
+Complex input laws, general matrix coefficients and full-sequence Brown convergence retain their distinct obligations.
+The [continuing complex-law investigation](../drafts/Yin_D_F0027.md) tests the remaining non-line distributions and the correct quadratic coefficient, while the [independent-real-component reduction](../drafts/Yin_D_F0028.md) retains a separate mixed-input carrier deduction awaiting its own fixed review.
+The [pure-imaginary even-dimensional investigation](../drafts/Yin_D_F0029.md) tests the paired singular values and the remaining shift hypotheses without asserting a false all-size floor.
+The [continuing three-factor investigation](../drafts/Yin_D_F0011.md) retains the separate [fresh-border cofactor method](../drafts/Yin_D_F0011.md#fresh-two-border-rewrite), its uniform polynomial-pencil bulk estimate and the remaining relative-normalization gaps for stronger estimates.
 The [reviewed complete GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) closes the real-Gaussian Brown submodel and proves arbitrary-coefficient affine upper limits, all-even logarithmic limits and the exact odd-witness classification.
 Its quantitative comparison uses the actual Schultz affine Hermitization source, while the [optional direct GOE--GUE comparison](../drafts/Yin_D_F0024.md#optional-direct-comparison) remains a separate continuing proof variant.
-The general fixed-law finite-variance contract still requires the nonsymmetric-minor or planar-defect estimate above.
+The general fixed-law finite-variance contract still requires full-sequence bottom-logarithm or planar-defect control, including the missing complex-input and matrix-coefficient interfaces.
 The [exact truncation and scalar-smoothing comparison](../ledger/Yin_L_F0065_v1.md) specifies safe eventual input equality, sharp finite-variance cutoff thresholds, and why harmless scalar spectral smoothing does not bound the singular regularization defect.

@@ -45,15 +45,19 @@ The exact linearization remains algebraic, but any new small-singular-value, tru
 The [reviewed symmetric-carrier extension](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed) now gives full almost-sure Brown and fixed-parameter determinant limits for its stated real-input class, including nonlinear single-carrier polynomials and noncommuting palindromes.
 It does not cover a general nonsymmetric carrier or arbitrary auxiliary matrix coefficients, and therefore supplies partial progress for this unchanged contract.
 The [reviewed isolated-minor theorem](../claims/Yin_C_F0194_v1.md#decision-isolated-minor-reviewed) now controls its precisely specified bottom event for real Wigner matrices with arbitrary polynomially bounded nonsymmetric shifts.
-The complementary principal-minor branches and their use for a complete nonnormal polynomial remain unresolved.
+That restricted version alone leaves complementary principal-minor branches; the probability-level treatment below still does not supply this Task's full-sequence conclusion.
 The [reviewed corank-tail reduction](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed) now excludes full corank at least two for arbitrary polynomially bounded independent nonsymmetric complex shifts and for the original three-real-Wigner product at each fixed nonzero parameter.
-This closes that lower-rank branch, while corank one and the positive small-singular-value estimates remain outside the new theorem.
+This closes that lower-rank branch, while corank one and positive small-singular-value estimates remain outside the rank theorem itself.
 The [reviewed many-index and finite-radius reduction](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) then replaces the union over possible principal indices by an average for real Wigner matrices with independent nonsymmetric complex shifts.
 Its polynomial-shift bound retains the mean probability of low-matching actual minors, which has not been controlled for the original product-inverse shift.
 The [reviewed unary refinement](../claims/Yin_C_F0194_v4.md#decision-unary-reviewed) controls an additional low-matching branch with many effective unary coefficients, including the precise distinction between two-point and larger-support laws.
 The remaining joint event is explicit, and this restricted estimate supplies no completion of the present full-sequence Brown contract.
 The [reviewed nonsymmetric-shift probability floor](../claims/Yin_C_F0194_v5.md#decision-nonsymmetric-floor-reviewed) now controls that tiny-ratio low-matching intersection for real Wigner inputs, using an arbitrary-power second-smallest floor and internal-row exposure.
 Its least-value failure probability tends to zero but is not summable as stated; complex input laws, general polynomial propagation and the present full-sequence almost-sure conclusion remain outside this result.
+The [reviewed nonsymmetric-carrier assembly](../claims/Yin_C_F0186_v10.md#decision-nonsymmetric-carrier-reviewed) propagates this probability estimate to its real-input carriers and every fixed spectral parameter, with logarithmic convergence in probability and arbitrary-coupling upper-limit equality.
+These determinant conclusions do not complete the full-sequence almost-sure Brown contract.
+The [reviewed phase-line floor](../claims/Yin_C_F0194_v6.md#decision-phase-line-floor-reviewed) extends the probability estimate to complex off-diagonal laws \(\xi=c\eta\) with fixed unit phase \(\operatorname{Re}c\ne0\) and real centered variance-one \(\eta\).
+Its broader auxiliary second-value and rank estimates include every phase, but the pure-imaginary odd-size example excludes an all-size least-value theorem at that boundary; no full Brown conclusion is inferred.
 
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) proves this full Brown-measure conclusion for every scalar polynomial when the entries have the exact normalized real Gaussian laws.
 It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.

@@ -2,20 +2,22 @@
 author: Yin
 ---
 
-# The remaining nonsymmetric product-inverse shift for three Wigner factors
+# Remaining almost-sure controls for three Wigner factors
 
 This continuing investigation concerns the real-input part of [F0012](../tasks/Yin_T_F0012_v3.md#contract).
 The complete symmetric-carrier extension and its outer-polynomial and ordered-product deductions are now fixed in [the reviewed C_F0186_v7 theorem](../claims/Yin_C_F0186_v7.md#decision-symmetric-carrier-reviewed), with its [full argument](../claims/Yin_C_F0186_v7.md#argument).
-The fixed material owns its proved assessment and independent review, while this Draft retains only the continuing nonsymmetric question.
+The [reviewed nonsymmetric-carrier theorem](../claims/Yin_C_F0186_v10.md#decision-nonsymmetric-carrier-reviewed) now proves the three-real-factor logarithmic limit in probability and arbitrary-coupling upper-limit equality at every fixed parameter.
+This Draft retains the stronger full-sequence almost-sure logarithmic and Brown questions, together with useful algebraic approaches to them.
 The [complex symmetric shift theorem](../claims/Yin_C_F0188_v2.md#statement) and [arbitrary-complex-shift intermediate theorem](../claims/Yin_C_F0187_v2.md#statement) retain their exact accepted scopes.
 
 <a id="candidate"></a>
 ## Fixed carrier finding and remaining question
 
-The fixed theorem covers \(R=(x_1+Q)H\) when the entire carrier is reversal symmetric and has the displayed finite conditional-shift product certificate.
+The earlier symmetric-carrier theorem covers \(R=(x_1+Q)H\) when the entire carrier is reversal symmetric and has its displayed finite conditional-shift product certificate.
 Examples include \(x_1x_2x_3x_2\) and \((x_1+Q)h(x_2+Q_2)\).
 Its root-factorization argument also covers the zero-shift logarithmic determinant of any finite ordered product of the displayed classes.
-Consequently the zero-shift determinant of \(R=x_1x_2x_3\) is covered by that deduction; its nonzero shifts and Brown-measure convergence are the present unresolved test.
+Consequently the zero-shift determinant of \(R=x_1x_2x_3\) has the stronger almost-sure limit from that deduction.
+The later nonsymmetric-carrier theorem covers its nonzero-shift logarithms in probability and their almost-sure upper limits; full-sequence almost-sure logarithmic and Brown convergence remain unresolved here.
 
 ## The actual nonsymmetric shift
 
@@ -45,31 +47,18 @@ The first version controls only its explicitly isolated or exactly corank-one pr
 The [reviewed second version](../claims/Yin_C_F0194_v2.md#statement) separately controls full corank at least two for arbitrary polynomially bounded complex offsets and [independent random shifts](../claims/Yin_C_F0194_v2.md#random-shift-statement).
 Its [universal kernel anti-concentration](../claims/Yin_C_F0194_v2.md#kernel-anticoncentration), [measurable choices and shared-border calculation](../claims/Yin_C_F0194_v2.md#border-rank), [uniform truncated-law rank chain](../claims/Yin_C_F0194_v2.md#rank-chain), and [product reduction](../claims/Yin_C_F0194_v2.md#product-corank-reduction) are fully retained in that fixed argument.
 The [rank-growth source attribution and inspection limits](../claims/Yin_C_F0194_v2.md#rank-growth-attribution) also remain there.
-The argument below retains the actual full-product assembly and its uncovered cases, rather than duplicating either fixed proof.
+The identities below retain separate approaches to stronger full-product estimates without duplicating these fixed proofs.
 
-## Full three-factor assembly and the first remaining unsupported step
+## What the reviewed assembly leaves for the three-factor problem
 
-For the original product, condition on the polynomial norm and invertibility events for \(W_2,W_3\), and set \(F=-z(W_2W_3)^{-1}\).
-The accepted one-factor floors make the complements of these events arbitrarily summable, and \(F\) has a fixed polynomial norm bound.
-If \(W_1W_2W_3-zI\) has an excessively small singular value, the factorization above and the lower singular bound for \(W_2W_3\) force an excessively small singular value of \(M=W_1+F\).
-Apply the raw-scaled minor tests to \(\sqrt N M\), absorbing that factor into the polynomial exponents.
-When \(M\) is invertible, cofactor-row expansion for this arbitrary matrix still gives an index \(i\) and a nonzero \(\operatorname{adj}D_i\) for which \(|\det M|/\|\operatorname{adj}D_i\|_F\) is polynomially small, as in the accepted cofactor reduction with the same polynomial entry losses.
-That elementary expansion does not require equality of the deterministic off-diagonal shifts.
-For full \(M\) of corank one, choose an omitted row whose removal preserves its rank; deleting the matching column then leaves a principal minor of corank at most one, so its adjugate is nonzero and the determinant ratio is zero.
-The [reviewed corank-tail theorem](../claims/Yin_C_F0194_v2.md#decision-corank-tail-reviewed), with its [exact original-product consequence](../claims/Yin_C_F0194_v2.md#product-statement), excludes full corank at least two outside arbitrarily summable polynomial failures.
-This closes the lower-rank full-matrix branch while leaving possible full corank one; it supplies no positive least-singular-value floor.
-
-If this selected minor satisfies the exact hypotheses of the reviewed C_F0194_v1 isolated-minor theorem, that bound excludes the event at the desired summable scale.
-In that isolated-minor route, the first unsupported step is coverage of the complementary minors: their least singular value can be too large to suppress the \(a\det D\) term, or more than one small singular direction can contribute substantially to the normalized adjugate.
-In the former branch the scalar diagonal term need not be negligible, so the reviewed zero-product union is unavailable.
-In the latter branch the cofactor quadratic form need not factor into two linear forms.
-Neither branch is resolved merely by the symmetrized-adjugate norm bound or by the accepted intermediate estimate.
-A continuation must establish an arithmetic recovery statement for those actual quadratic forms or a separate bottom-logarithm mechanism.
-
-The [reviewed many-index and matching reduction](../claims/Yin_C_F0194_v3.md#decision-many-index-reviewed) now supplies a different treatment when the actual quadratic cofactor graphs have growing finite-scale matchings.
-Its [complete polynomial-shift bound](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) closes the index-union loss and separately absorbs the corank and norm exceptions, while keeping the mean low-matching probability explicit.
-The next test is to bound that remaining probability for the actual product-inverse shift, at a polynomial threshold chosen after its shift scale.
-The [fixed comparison](../ledger/Yin_L_F0066_v1.md#low-matching-structure) gives the diagonal-plus-few-rows-and-columns complement and the large-fiber obstruction to a naive Riccati parametrization.
+For the original product, set F=-z(W_2W_3)^(-1) on the accepted polynomial norm and invertibility events for W_2,W_3, and set F=0 otherwise.
+These events have arbitrarily prescribed polynomially small complements, and the extension stays independent of W_1.
+The [reviewed arbitrary nonsymmetric-shift floor](../claims/Yin_C_F0194_v5.md#decision-nonsymmetric-floor-reviewed) applies to W_1+F and treats the actual low-matching tiny-ratio intersection through its internal-row and second-smallest estimates.
+Its high-matching contribution is only O(sqrt(log(2+N)) N^(-1/18)), which is not summable as stated.
+The complete propagation to the three-factor logarithmic probability limit and arbitrary-coupling limsup is retained in [the fixed carrier argument](../claims/Yin_C_F0186_v10.md#argument), with Q=0 and H=x_2x_3.
+No vanishing mean probability of the unrestricted low-matching event is needed for that conclusion.
+The continuing mechanisms below seek stronger estimates for the full-sequence almost-sure or planar question; a merely vanishing failure probability would reproduce an already resolved determinant subcase.
+The [fixed method comparison](../ledger/Yin_L_F0066_v1.md#low-matching-structure) retains the diagonal-plus-hubs complement and the large-fiber obstruction to naive Riccati parametrization.
 
 ## A paired-cofactor identity for the complementary branch
 
@@ -113,83 +102,28 @@ Thus bounded skew rank fails even within an allowed Gaussian model of the origin
 A parameter grid for a full-dimensional correction can introduce leading entropy depending on the fine precision, which the current profile argument does not absorb.
 The useful next test is whether the original product-inverse structure constrains this correction more strongly than its ambient rank suggests.
 
-<a id="conditional-three-factor-limsup"></a>
-## What a vanishing mean low-matching probability would prove for the original product
+<a id="three-factor-middle"></a>
+## The original three-factor middle range still has summable failures
 
-This calculation checks the whole conditional route at a fixed nonzero \(z\), rather than assuming that the new matching premise already resolves a determinant question.
-Write \(P_N=W_1W_2W_3-zI\), and define \(F_N=-z(W_2W_3)^{-1}\) on the one-factor invertibility event, setting \(F_N=0\) otherwise.
-This measurable extension remains independent of \(W_1\).
-The [accepted one-factor floor](../claims/Yin_C_F0188_v2.md#statement), used only with zero shift, gives an event \(J_N\) with arbitrarily prescribed polynomially small complement on which
+For P_N=W_1W_2W_3-zI, use the independent shift F_N=-z(W_2W_3)^(-1) on the one-factor invertibility event and zero otherwise.
+The [accepted one-factor floors](../claims/Yin_C_F0188_v2.md#statement), applied with zero shift and a probability exponent greater than two, make the inverse-event failures summable.
+Apply [C_F0187_v2](../claims/Yin_C_F0187_v2.md#statement) to W_2,W_3 with zero shift and conditionally to W_1+F_N.
+Its intermediate failures are summable as well.
+On these events the exact factorization and [deterministic product inequality](../claims/Yin_C_F0186_v6.md#argument) give
 \[
- s_{\min}(W_2),s_{\min}(W_3)\ge N^{-b},
- \qquad \|F_N\|\le |z|N^{2b}.
+ a_k(P_N)\ge c(k/N)^3,\qquad C N^{3/4}\le k\le N,
 \]
-Thus a fixed exponent \(\gamma>2b\) provides the entry guard \(\Gamma_N\) in the [reviewed matching reduction](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence), with \(\mathbb P(\Gamma_N^c)\to0\).
-Suppose that for this actual shift there exist a fixed \(H\) and deterministic \(r_N\to\infty\), with \(2\le r_N\le\lfloor(N-1)/2\rfloor\), such that
-\[
- \frac1N\sum_{i=1}^N
- \mathbb P\{H_i(N^{-H},r_N)^c\cap\Gamma_N\}\longrightarrow0.
- \tag{Unproved-matching-premise}
-\]
-Here \(H_i\) is exactly the nonzero-adjugate matching event of that fixed theorem for \(W_1+F_N\), not a graph of an independently substituted minor.
-The theorem gives a fixed \(A\) such that
-\[
- \mathbb P\{s_{\min}(W_1+F_N)<N^{-A}\}\longrightarrow0.
-\]
-On \(J_N\), the exact factorization and the elementary least-singular-value product inequality consequently give
-\[
- \mathbb P\{s_{\min}(P_N)<N^{-A-2b}\}\longrightarrow0.
- \tag{Conditional-product-floor}
-\]
-
-The middle singular values require no additional matching premise.
-Apply [C_F0187_v2](../claims/Yin_C_F0187_v2.md#statement) to \(W_2,W_3\) with zero shift and conditionally to \(W_1+F_N\).
-Using the [accepted product inequality](../claims/Yin_C_F0186_v6.md#argument) twice, for increasing singular values \(a_k\), yields constants \(c,C>0\) and \(k_N\le C N^{3/4}\) such that
-\[
- a_k(P_N)\ge c(k/N)^3,\qquad k_N\le k\le N,
- \tag{Three-factor-middle}
-\]
-outside a summable exceptional event.
-For example, select three indices whose sum is \(k+2\) and which differ by at most one; when \(k\ge 3\lceil N^{3/4}\rceil+6\), each lies in the applicable intermediate range.
-The inverse-factor guard contributes only its separately summable exception.
-This argument allows the first factor \(W_1+F_N\) to depend on the other two factors; the product inequality is deterministic.
-
-By the [accepted Hermitized weak convergence](../claims/Yin_C_F0186_v4.md#statement), the empirical singular law of \(P_N\) converges almost surely to that of \(s_1s_2s_3-z\).
-The middle bound implies that this limiting law assigns mass at most \(C t^{1/3}\) to \([0,t]\) for all sufficiently small positive \(t\).
-Indeed the finite-dimensional count is at most \(k_N+C N t^{1/3}\); weak convergence applied at a slightly larger continuity point and then its decrease to \(t\) gives the stated bound.
-Consequently its negative logarithm is integrable by \(\int_0^1 C t^{1/3}\,dt/t<\infty\), and the bounded free operator controls its positive logarithm.
-Write its finite logarithmic integral as \(c_z=\log\Delta(s_1s_2s_3-z)\).
-
-On the good event in (Conditional-product-floor) and (Three-factor-middle), the bottom \(k_N\) values contribute at most
-\[
- (A+2b)\,k_N\log N/N=o(1)
-\]
-to the normalized negative logarithm.
-For the remaining values below a cutoff \(t\), the same middle bound and the elementary integral comparison for \(\log(N/k)\) give a bound
-\[
- C t^{1/3}(1+|\log t|)+o(1).
-\]
-The good event has probability tending to one, so these two bounds give negative-logarithmic uniform integrability in probability.
-Together with Hermitized weak convergence and the [accepted positive-logarithmic tail control](../claims/Yin_C_F0186_v4.md#positive-tail), this proves the conditional conclusion
-\[
- \frac1N\log|\det P_N|\longrightarrow c_z
- \quad\hbox{in probability}.
- \tag{Conditional-log-probability}
-\]
-Truncating the logarithm at fixed upper and lower cutoffs, passing to the weak limit, and then removing the two tails gives this implication without convergence of expected unregularized logarithms.
-
-For every allowed cross-size coupling, the [fixed-regularizer upper bound](../claims/Yin_C_F0186_v4.md#regularized-potentials) already gives \(\limsup_N N^{-1}\log|\det P_N|\le c_z\) almost surely.
-Therefore (Conditional-log-probability) and the [reviewed marginal criterion](../claims/Yin_C_F0190_v1.md#statement) imply equality of that upper limit almost surely under every such coupling.
-Equivalently, choose a deterministic dimensional subsequence on which the lower-deviation probabilities are summable and apply the first Borel--Cantelli argument there, together with the full-sequence upper bound.
-No independence across dimensions is needed.
-This would settle the fixed-\(z\) three-real-factor instance of F0014, while the unproved premise remains exactly (Unproved-matching-premise).
-Its probability decay need not be summable for that upper-limit conclusion.
-It supplies neither a full-sequence almost-sure logarithmic limit nor the one-event almost-sure Brown convergence required by F0012; those stronger conclusions still need their own full-sequence control.
+where a_k are increasing singular values and C is fixed.
+To obtain this bound, distribute k+2 among three positive indices differing by at most one; for k>=6(ceil(N^(3/4))+1), each predecessor is at least k/6 and is in the intermediate range.
+The product inequality is deterministic and does not require the three factors to be independent.
+Thus this original three-factor middle bound is eventual almost surely under every coupling, even though the new least-value floor has only a vanishing main failure probability.
+The complete finite-target and logarithmic passage is retained in [C_F0186_v10](../claims/Yin_C_F0186_v10.md#middle-and-free-log); this summable middle-range observation isolates the remaining bottom or planar obligation without duplicating that proof.
 
 <a id="fresh-two-border-rewrite"></a>
 ## Keeping the second and third borders gives an exact rank-two update
 
-The [reviewed many-index reduction](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) leaves a mean low-matching probability for actual principal minors of \(W_1-z(W_2W_3)^{-1}\).
+The [reviewed many-index reduction](../claims/Yin_C_F0194_v3.md#polynomial-shift-consequence) identifies actual principal-minor cofactor events for \(W_1-z(W_2W_3)^{-1}\).
+The subsequent probability floor already controls the needed low-matching intersection; the calculation here keeps additional randomness for possible stronger estimates.
 The next calculation keeps random coordinates from the second and third factors instead of conditioning on both full factors.
 It is a direct block calculation for the actual product order, not an assumption that the skew part has small rank.
 No new probability or matching typicality assertion is made.
