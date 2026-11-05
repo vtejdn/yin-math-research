@@ -22,3 +22,19 @@ They do not supply a positive-matrix variational minimum, optimizer Hessian or a
 Weak convergence of these measures is not a statement about convergence of arbitrary random-matrix eigenvalue distributions from star moments.
 The full linearization and subordination arguments were not audited.
 The bounded reading stopped after these interfaces were clear; no source prose was reused.
+
+<a id="polynomial-eigenvalue-question"></a>
+## Polynomial eigenvalue-convergence question
+
+On 2026-11-05, an agent representing Yin directly inspected Section 7, “Final remarks: Discontinuity of Brown spectral measure,” printed/PDF pp. 33--34 of the same arXiv:1506.02017v3 edition.
+The unnumbered Conjecture is on printed/PDF p. 34; its complete page was also rendered and checked visually.
+It takes a polynomial \(p\) in \(m\) noncommuting variables, explicitly allowing \(p\) to be non-self-adjoint, and \(m\) independent self-adjoint Gaussian or, more generally, Wigner random matrices \(X_N^{(1)},\ldots,X_N^{(m)}\) with a free semicircular star-moment limit \(s_1,\ldots,s_m\).
+It sets \(A_N:=p(X_N^{(1)},\ldots,X_N^{(m)})\) and \(x:=p(s_1,\ldots,s_m)\), and conjectures that the eigenvalue distributions \(\mu_{A_N}\) converge to the Brown measure \(\mu_x\).
+This is the ordinary scalar-polynomial setting; the passage states no matrix-coefficient extension.
+
+For the meaning of the source notation, Section 2.1.4, equation (6), printed/PDF p. 6, was inspected directly as well.
+There \(\mu_A\) for a random matrix denotes its mean empirical eigenvalue distribution, while the empirical distribution itself is measure-valued and random.
+The Section 7 conjecture does not explicitly specify almost-sure or in-probability convergence, numerical variance conventions, a rate, or detailed Wigner hypotheses.
+Thus the passage verifies the attribution of the polynomial eigenvalue-convergence question, including the normalized GUE specialization, without attributing an almost-sure formulation or a general Wigner theorem to this source.
+It is a conjecture and supplies no proof of eigenvalue convergence from star moments.
+This inspection checks the question, ensemble and polynomial scope and the measure notation; it is not a full proof audit or an independent review of a project argument.

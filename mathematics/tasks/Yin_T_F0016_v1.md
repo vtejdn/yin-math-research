@@ -106,7 +106,7 @@ The remaining scope includes irrational unit-circle roots with no polynomial sep
 The [ordinary-determinant coupling example](../ledger/Yin_L_F0062_v1.md#permutation-coupling) motivates explicit coupling quantifiers without transferring its conclusion to reduced determinants.
 The [finite-quotient discussion](../ledger/Yin_L_F0062_v1.md#finite-quotient-counterexample) distinguishes group quotient chains from uniform permutations.
 The [single-Haar analytic Task](Yin_T_F0010_v1.md#contract) identifies and studies the free target; it does not settle this random approximation objective.
-This Task is also distinct from the [Haar matrix-pencil approximation Task](Yin_T_A0001_v1.md#contract), whose finite inputs are Haar matrices and whose determinant is ordinary.
+This Task is also distinct from the [Haar matrix-pencil approximation Task](Yin_T_F0015_v1.md#contract), whose finite inputs are Haar matrices and whose determinant is ordinary.
 
 ## Current decision
 

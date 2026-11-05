@@ -80,7 +80,7 @@ The main general gap identified by that survey is positive free determinant with
 
 This random-matrix approximation objective is distinct from the [single-Haar variational and coefficient-analysis Task](Yin_T_F0010_v1.md#contract) and the [Wigner-pencil Task](Yin_T_F0013_v1.md#contract).
 Their completion decisions do not complete this Task.
-The [permutation Laurent-polynomial Task](Yin_T_A0002_v1.md#contract) instead uses uniform permutation inputs and a kernel-removed finite determinant.
+The [permutation Laurent-polynomial Task](Yin_T_F0016_v1.md#contract) instead uses uniform permutation inputs and a kernel-removed finite determinant.
 
 ## Current decision
 

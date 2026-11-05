@@ -74,6 +74,7 @@
     "U/PV23/Yin": 2,
     "U/Par88/Yin": 2,
     "U/Pis12/Yin": 2,
+    "U/Sar42/Yin": 2,
     "U/Sch01/Yin": 2,
     "U/Shl06/Yin": 3,
     "U/Shl24/Yin": 2,
@@ -101,7 +102,7 @@
     "Yin_R_G": 6,
     "Yin_S_F": 34,
     "Yin_T_A": 3,
-    "Yin_T_F": 15
+    "Yin_T_F": 17
   },
   "repository": "yin-math-research",
   "repository_abbr": "YMR",

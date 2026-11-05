@@ -253,5 +253,5 @@ The source search supplies no completed or refuted decision and no categorical c
 For several Haar variables, record the available upper bound, zero-determinant and bounded-inverse cases, the newer strictly stable moment theorems, and the unresolved search boundary for arbitrary coefficients separately.
 For a single Haar variable, the determinant problem reduces to classical Laurent-polynomial/CUE theory.
 For uniform permutations, the unrestricted ordinary determinant assertion is false; useful replacements must specify root restrictions, reduced determinant convention and any cross-size coupling quantifier.
-The [Haar-pencil approximation Task](../tasks/Yin_T_A0001_v1.md#contract) and [reduced permutation determinant Task](../tasks/Yin_T_A0002_v1.md#contract) use this comparison as starting evidence.
+The [Haar-pencil approximation Task](../tasks/Yin_T_F0015_v1.md#contract) and [reduced permutation determinant Task](../tasks/Yin_T_F0016_v1.md#contract) use this comparison as starting evidence.
 Their contracts separately ask for full almost-sure limits and upper-limit equalities under arbitrary cross-dimensional couplings and under independence across dimensions.

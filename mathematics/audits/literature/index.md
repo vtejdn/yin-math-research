@@ -167,6 +167,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [MS24/Yin_U006](MS24/Yin_U006.md) | MS24-U006: Complete finite-dimensional scaling interfaces for the determinant proof |
 | [MSW17/Yin_U001](MSW17/Yin_U001.md) | MSW17-U001: Selfadjoint Conjugate Variables and Contraction Estimates |
 | [NS06/Yin_U004](NS06/Yin_U004.md) | NS06-U004: semicircular mixed moments and normalized free compression |
+| [Sar42/Yin_U001](Sar42/Yin_U001.md) | Sar42-U001: regular values for real polynomial maps |
 | [Sch01/Yin_U001](Sch01/Yin_U001.md) | Sch01: Integer Group-Ring Determinant Input |
 | [Shl06/Yin_U001](Shl06/Yin_U001.md) | Shl06: Unbounded Dual Systems and the Conjugate Interface |
 | [Shl06/Yin_U002](Shl06/Yin_U002.md) | Shl06: Spectral Truncation of Hilbert--Schmidt Commutators |

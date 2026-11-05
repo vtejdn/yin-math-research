@@ -191,7 +191,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0186](Yin_R_F0186_v1.md) | Actual L1 liberation gradient: independent review of the nonquadratic remainder | [v1](Yin_R_F0186_v1.md) |
 | [Yin_R_F0187](Yin_R_F0187_v1.md) | Separate whole-chain review of the fixed GUE-pencil candidate; self-reviewed relationship | [v1](Yin_R_F0187_v1.md) |
 | [Yin_R_F0188](Yin_R_F0188_v2.md) | Gaussian tubes and integrable determinant tails | [v1](Yin_R_F0188_v1.md), [v2](Yin_R_F0188_v2.md) |
-| [Yin_R_F0190](Yin_R_F0190_v6.md) | Independent convergence reviews, including finite-variance conditional-shift polynomial classes | [v1](Yin_R_F0190_v1.md), [v2](Yin_R_F0190_v2.md), [v3](Yin_R_F0190_v3.md), [v4](Yin_R_F0190_v4.md), [v5](Yin_R_F0190_v5.md), [v6](Yin_R_F0190_v6.md) |
+| [Yin_R_F0190](Yin_R_F0190_v7.md) | Independent GUE full-chain and finite-variance convergence reviews | [v1](Yin_R_F0190_v1.md), [v2](Yin_R_F0190_v2.md), [v3](Yin_R_F0190_v3.md), [v4](Yin_R_F0190_v4.md), [v5](Yin_R_F0190_v5.md), [v6](Yin_R_F0190_v6.md), [v7](Yin_R_F0190_v7.md) |
 | [Yin_R_F0191](Yin_R_F0191_v2.md) | Independent real and complex Hermitian intermediate singular-value reviews | [v1](Yin_R_F0191_v1.md), [v2](Yin_R_F0191_v2.md) |
 | [Yin_R_F0192](Yin_R_F0192_v2.md) | Initial profile-order gap and fresh independent review of the repaired complex symmetric shift theorem | [v1](Yin_R_F0192_v1.md), [v2](Yin_R_F0192_v2.md) |
 | [Yin_R_F0193](Yin_R_F0193_v1.md) | Source and structural-vector review; exact v1 profile-order obstruction | [v1](Yin_R_F0193_v1.md) |

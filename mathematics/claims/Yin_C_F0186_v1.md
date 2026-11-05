@@ -250,7 +250,7 @@ Choose, near each zero, such a positive point and a smaller neighborhood of zero
 For every zero in this smaller neighborhood, the segment to the chosen positive point lies within its \(\eta\)-ball.
 Continuity on that segment supplies a point of \(q_N^{-1}(\delta)\) for every positive \(\delta\) below the value at the positive endpoint.
 A finite cover gives one positive upper bound on \(\delta\) valid for all relevant zeros.
-Choose a regular value below that bound, using Sard's theorem.
+Choose a regular value below that bound, using [Sard's theorem](../audits/literature/Sar42/Yin_U001.md#sar42-u001).
 Then every relevant zero lies within \(\eta\) of the smooth hypersurface \(q_N^{-1}(\delta)\), so
 \[
  \{x\in B_\sigma:\operatorname{dist}(x,q_N^{-1}(0))\le\rho\}
