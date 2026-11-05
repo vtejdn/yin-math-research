@@ -59,6 +59,12 @@ These determinant conclusions do not complete the full-sequence almost-sure Brow
 The [reviewed phase-line floor](../claims/Yin_C_F0194_v6.md#decision-phase-line-floor-reviewed) extends the probability estimate to complex off-diagonal laws \(\xi=c\eta\) with fixed unit phase \(\operatorname{Re}c\ne0\) and real centered variance-one \(\eta\).
 Its broader auxiliary second-value and rank estimates include every phase, but the pure-imaginary odd-size example excludes an all-size least-value theorem at that boundary; no full Brown conclusion is inferred.
 
+The [reviewed complex-law floor package](../claims/Yin_C_F0194_v7.md#decision-complex-floor-reviewed) extends the probability estimate to all non-line complex laws and gives a symmetric-quantile guarded estimate for purely imaginary inputs, together with an arbitrary-power even-dimensional skew floor.
+The [reviewed random-diagonal quantile theorem](../claims/Yin_C_F0194_v8.md#decision-random-diagonal-reviewed) discharges that guard uniformly for every independent nonconstant real diagonal law of finite second moment and hence supplies the all-dimension arbitrary-complex-shift probability floor in that case.
+Its remaining matching error is still not summable; the centered constant-diagonal boundary is exactly the zero law.
+The [reviewed determinant assembly](../claims/Yin_C_F0186_v11.md#decision-complex-affine-carrier-reviewed) establishes arbitrary-coupling determinant upper limits for every scalar affine tuple, one-variable matrix polynomials and its eligible-exposure complex carrier class.
+Its probability limits and dimension upper limits still do not provide this Task's full-sequence almost-sure planar control.
+
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) proves this full Brown-measure conclusion for every scalar polynomial when the entries have the exact normalized real Gaussian laws.
 It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.
 This completes the GOE submodel, while the present arbitrary finite-variance contract remains active.

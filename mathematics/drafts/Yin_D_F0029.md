@@ -561,3 +561,401 @@ For example the block diagonal symmetric matrix with two-by-two blocks \(\begin{
 The present theorem avoids a full-compression least-value requirement by using only the \(k_N\)-th singular values of the actual \(S_i\).
 In this example the compression loses only one singular direction and its relevant quantile is still one; it is not a counterexample to the quantile guard.
 No matrix-polynomial transfer or general noncommutative-polynomial conclusion is included here.
+
+<a id="pure-imaginary-carrier-scope"></a>
+## Conditional carriers when every input is purely imaginary with zero diagonal
+
+This further development addresses a restricted scalar noncommutative-polynomial class, beyond the preceding arbitrary-shift boundary.
+It preserves the earlier even-dimensional almost-sure zero-shift conclusion and does not strengthen the arbitrary-shift floor without a new argument.
+The following complete argument is research development by Yin's contributing agent, not an independent review or an adopted extension of a fixed Claim.
+The relevant adopted inputs are [C_F0194_v7](../claims/Yin_C_F0194_v7.md#decision-complex-floor-reviewed), [C_F0187_v2](../claims/Yin_C_F0187_v2.md#statement), and [C_F0186_v4](../claims/Yin_C_F0186_v4.md#statement).
+The [now adopted C_F0186_v11 carrier theorem](../claims/Yin_C_F0186_v11.md#decision-complex-affine-carrier-reviewed) treats eligible exposed laws instead; its probability-level logarithmic and cyclic arguments are applicable at the interfaces checked below, but its carrier theorem itself does not supply the new pure-imaginary floors.
+
+Fix a finite tuple of independent Hermitian Wigner matrices within each dimension, with strict upper entries
+\[
+ W_{j,ab}^{(N)}=i\eta_{j,ab}/\sqrt N\quad(a<b),\qquad
+ W_{j,ba}^{(N)}=-i\eta_{j,ab}/\sqrt N,\qquad
+ W_{j,aa}^{(N)}=0.
+ \tag{Imaginary-tuple}
+\]
+For each \(j\), the real amplitudes are independent copies of a fixed law with mean zero and variance one.
+The laws may differ with \(j\), and no higher moment, density or cross-size independence is imposed.
+Write \(s_1,\ldots,s_d\) for a free standard semicircular tuple in a finite von Neumann algebra with faithful normal tracial state \(\tau\).
+Every finite realization has \((W_j^{(N)})^T=-W_j^{(N)}\).
+
+Choose an exposed index and label it \(1\).
+For arbitrary scalar complex polynomials in their indicated variables, take
+\[
+ \begin{split}
+ T_\nu&=x_{j_\nu}+Q_\nu((x_j)_{j\ne1,j_\nu}),
+       \qquad j_\nu\in\{2,\ldots,d\},\quad 1\le\nu\le K,\\
+ H&=cT_1\cdots T_K,\qquad c\in\mathbb C\setminus\{0\},\\
+ R&=(x_1+Q(x_2,\ldots,x_d))H.
+ \end{split}
+ \tag{Imaginary-carrier}
+\]
+The certificate is finite and fixed as \(N\) varies; set \(H=c\) when \(K=0\).
+Indices may repeat, and all factors may share background variables and be dependent.
+There is no reversal or transpose-symmetry restriction on \(Q\), \(Q_\nu\), or \(H\).
+The requirement that \(Q_\nu\) omit both \(x_1\) and \(x_{j_\nu}\) is substantive: it gives the conditional independence used for its floor, while keeping \(H\) independent of the final exposed input.
+
+For every fixed \(\lambda\in\mathbb C\), the proposed conclusion, proved below, is
+\[
+ \frac1N\log|\det(R(W^{(N)})-\lambda I)|
+   \longrightarrow \tau\log|R(s)-\lambda|\in\mathbb R
+       \quad\text{in probability as even }N\to\infty,
+ \tag{Imaginary-carrier-even-log}
+\]
+and
+\[
+ \limsup_{N\to\infty}\frac1N\log|\det(R(W^{(N)})-\lambda I)|
+   =\tau\log|R(s)-\lambda|\quad\text{almost surely}
+ \tag{Imaginary-carrier-limsup}
+\]
+under every allowed coupling across dimensions.
+The assertion includes \(\lambda=0\), with a finite target.
+The [two-sided, polynomial and finite-product conclusions](#imaginary-carrier-closures) have the same even-probability and full-sequence-limsup scope.
+No full-sequence probability limit or even-dimensional almost-sure limit is asserted for this general class.
+
+<a id="transpose-polynomial-dichotomy"></a>
+### The transpose operation and nonvanishing after semicircular substitution
+
+On \(\mathbb C\langle x_1,\ldots,x_d\rangle\), define the complex-linear involutive anti-automorphism \(\#\) by
+\[
+ c^\#=c,\qquad x_j^\#=-x_j,\qquad
+ (UV)^\#=V^\#U^\#.
+\]
+It reverses words and multiplies a word of length \(r\) by \((-1)^r\), without conjugating its coefficient.
+Thus \(P(W)^T=P^\#(W)\) exactly, and
+\[
+ \mathfrak S(P):=\frac{P+P^\#}{2},\qquad
+ \operatorname{sym}P(W)=\mathfrak S(P)(W).
+ \tag{Transpose-polynomial}
+\]
+Here \(\operatorname{sym}A=(A+A^T)/2\) is unrelated to the Hermitian part \((A+A^*)/2\).
+The operation \(\#\) is formal; no transpose operation on the ambient free von Neumann algebra is assumed.
+
+A nonzero scalar free polynomial \(P\) cannot vanish at the free standard semicircular tuple.
+Here is an explicit proof at the precise algebraic scope needed.
+Let \(\mathcal F=\mathbb C\Omega\oplus\bigoplus_{r\ge1}(\mathbb C^d)^{\otimes r}\), let \(\ell_j\) prepend the basis vector \(e_j\), and put \(S_j=\ell_j+\ell_j^*\).
+Expanding a vacuum word shows that its nonzero terms are exactly the color-respecting noncrossing creation-annihilation pairings: an annihilation must remove the current leftmost tensor of the same color, and the word must end at the vacuum.
+Each such term has value one.
+These are exactly the joint moments of a free standard semicircular tuple, the same colored-pairing convention used in [C_F0186_v4's bounded moment argument](../claims/Yin_C_F0186_v4.md#bounded-moments).
+Consequently \(\tau(P(s)^*P(s))=\|P(S)\Omega\|^2\).
+If the largest degree in \(P\) is \(r\), the grade-\(r\) component of \(P(S)\Omega\) is
+\[
+ \sum_{i_1,\ldots,i_r}
+    p_{i_1\cdots i_r}\,e_{i_1}\otimes\cdots\otimes e_{i_r},
+\]
+where the coefficients are those of its degree-\(r\) words after equal words have been combined.
+Only the all-creation term of each such word reaches that grade, so this vector is nonzero.
+The degree-zero case is immediate.
+This proves \(\tau(P(s)^*P(s))>0\), hence \(P(s)\ne0\), without an algebraic-freeness theorem being imported without proof.
+
+It follows that if \(P\) is formally nonzero, there are fixed \(a>0\) and \(\delta>0\) such that, with probability tending to one,
+\[
+ s_{\lfloor\delta N\rfloor}(P(W))\ge a.
+ \tag{Polynomial-bulk}
+\]
+Indeed the nonzero positive operator \(|P(s)|\) has positive spectral mass above some positive threshold, by faithfulness of \(\tau\).
+Choose a smaller threshold at a continuity point of its law, and then a smaller positive \(\delta\).
+The fixed-polynomial Hermitized weak law in [C_F0186_v4](../claims/Yin_C_F0186_v4.md#row-concentration) makes the number of singular values above that threshold at least \(\delta N\), eventually almost surely under every allowed coupling.
+This proves the displayed probability statement as well; no quantitative convergence rate or inverse of \(P(s)\) is required.
+The same reasoning applies to a polynomial in any subtuple of the background variables.
+
+Two elementary singular-value facts will be used.
+For the principal compression \(A_i\) obtained by deleting one coordinate from an \(N\)-by-\(N\) matrix \(A\),
+\[
+ s_k(A_i)\ge s_{k+2}(A)\qquad(1\le k\le N-2).
+ \tag{Compression-quantile}
+\]
+To verify this, let \(P_i\) be the coordinate projection and embed \(A_i\) as \(P_iAP_i\), with one extra zero singular value.
+The difference \(A-P_iAP_i=(I-P_i)A+P_iA(I-P_i)\) has rank at most two.
+Intersecting the singular-value min-max subspace with its kernel proves the displayed rank-two inequality.
+Also
+\[
+ s_k(BAC)\le\|B\|\,\|C\|\,s_k(A),
+ \tag{Bounded-multipliers}
+\]
+by applying \(B\) and \(C\) to a best rank-\((k-1)\) singular-value truncation of \(A\).
+These statements require neither normality nor symmetry.
+
+For every fixed polynomial \(P\) of degree \(D\ge1\), [C_F0186_v4's power tail](../claims/Yin_C_F0186_v4.md#positive-tail) gives
+\[
+ \mathbb P\{\|P(W)\|>N^M\}\le C_PN^{1-2M/D}.
+ \tag{Carrier-norm}
+\]
+Choose \(M\) sufficiently large to make any prescribed polynomial failure bound; constant polynomials are immediate.
+All degrees and the finite lists of polynomials below are fixed.
+
+<a id="imaginary-factor-floors"></a>
+### Every certified factor has a floor along even dimensions
+
+Fix a factor \(T_\nu\), and condition only on the input matrices other than \(W_{j_\nu}\).
+Its shift \(Q_\nu(W)\) is independent of \(W_{j_\nu}\), and (Carrier-norm) supplies a polynomial entry guard with probability tending to one.
+Put \(S_\nu=\mathfrak S(Q_\nu)\).
+If \(S_\nu\) is the zero polynomial, \(Q_\nu(W)\) is exactly complex transpose-skew in every dimension.
+The adopted [C_F0194_v7 even skew floor](../claims/Yin_C_F0194_v7.md#even-floor), integrated over the independent shift on its entry guard, gives a fixed exponent \(b_\nu>0\) such that
+\[
+ \mathbb P\{s_{\min}(T_\nu(W))<N^{-b_\nu}\}\longrightarrow0
+       \quad\text{through even }N.
+ \tag{Factor-even-floor}
+\]
+In this branch the error can in fact be any prescribed inverse power after increasing the exponent.
+
+If \(S_\nu\) is formally nonzero, (Polynomial-bulk) gives at least \(\delta_\nu N\) singular values of \(\operatorname{sym}Q_\nu(W)\) above a fixed \(a_\nu>0\), with probability tending to one.
+For \(k_N=4\lfloor\sqrt N\rfloor+1\), eventually \(k_N+2\le\lfloor\delta_\nu N\rfloor\).
+Because the exposed matrix has zero diagonal and is transpose-skew, the symmetric part of every actual principal minor of \(T_\nu(W)\) is exactly the corresponding compression of \(\operatorname{sym}Q_\nu(W)\).
+By (Compression-quantile), all those minors simultaneously have their \(k_N\)-th singular value at least \(a_\nu\ge N^{-1}\), eventually on the bulk event.
+Apply the adopted [C_F0194_v7 quantile floor](../claims/Yin_C_F0194_v7.md#quantile-guard-floor) with \(L_0=1\), then add the entry-guard and bulk-event failure probabilities.
+This proves (Factor-even-floor), in this branch actually through all dimensions.
+This application conditions on the independent shift alone, not on the intersection of the norm or spectral guards.
+Equivalently the uniformly bounded conditional probability of the least-value failure intersected with the guards is integrated, and their unconditional failure probabilities are then added.
+
+There are only finitely many factors, so a union bound and
+\(s_{\min}(UV)\ge s_{\min}(U)s_{\min}(V)\) give a fixed \(b_H>0\) with
+\[
+ \mathbb P\{H(W)\text{ is invertible and }
+          \|H(W)^{-1}\|\le N^{b_H}\}\longrightarrow1
+       \quad\text{through even }N.
+ \tag{H-even-inverse}
+\]
+The fixed nonzero factor \(c\) is absorbed by increasing \(b_H\); \(K=0\) is direct.
+No independence between the factors, or conditional floor after conditioning on their common good event, is used.
+
+<a id="imaginary-carrier-floor"></a>
+### The inverse shift reduces to one fixed polynomial
+
+Fix \(\lambda\in\mathbb C\).
+Choose a fixed \(M>0\) so that \(\|H(W)\|,\|Q(W)\|\le N^M\) outside a probability tending to zero, and let
+\[
+ J_N=\{H(W)\text{ invertible},\ \|H(W)^{-1}\|\le N^{b_H},
+                 \ \|H(W)\|,\|Q(W)\|\le N^M\}.
+\]
+This event depends only on the background inputs \(W_2,\ldots,W_d\), and \(\mathbb P(J_N^c)\to0\) through even dimensions by (H-even-inverse) and (Carrier-norm).
+Define a background-measurable shift in every dimension and on the whole probability space by
+\[
+ F_N=
+ \begin{cases}
+ Q(W)-\lambda H(W)^{-1},&J_N,\\
+ 0,&J_N^c.
+ \end{cases}
+ \tag{Background-shift}
+\]
+It is independent of the whole exposed matrix \(W_1\), and for a sufficiently large fixed \(\gamma\), \(\|F_N\|\le N^\gamma\) deterministically for all sufficiently large \(N\).
+The finite-dimensional inverse on the open set of invertible matrices is continuous, so this extension is measurable.
+On \(J_N\),
+\[
+ R(W)-\lambda I=(W_1+F_N)H(W).
+ \tag{Carrier-factorization}
+\]
+
+Introduce the fixed background polynomial
+\[
+ K_\lambda=H^\#\mathfrak S(Q)H-\lambda\mathfrak S(H).
+ \tag{Carrier-transpose-polynomial}
+\]
+For every invertible finite matrix \(H=H(W)\), the exact identity on \(J_N\) is
+\[
+ \begin{split}
+ H^T\operatorname{sym}(F_N)H
+ &=H^T\operatorname{sym}(Q(W))H
+   -\frac\lambda2 H^T(H^{-1}+H^{-T})H\\
+ &=H^T\operatorname{sym}(Q(W))H
+   -\frac\lambda2(H^T+H)
+ =K_\lambda(W).
+ \end{split}
+ \tag{Inverse-transpose-identity}
+\]
+The scalar is \(\lambda\), not \(\bar\lambda\), because ordinary transpose is complex-linear.
+This identity does not use or assert an inverse of \(H(s)\).
+
+If \(K_\lambda\) is formally zero, invertibility of \(H(W)\) makes \(\operatorname{sym}F_N=0\) on \(J_N\); the extension is also skew on \(J_N^c\).
+The even skew floor therefore supplies a polynomial least-value floor for \(W_1+F_N\) through even dimensions.
+It applies to its globally defined independent shift with the deterministic polynomial entry bound just verified.
+
+If \(K_\lambda\) is formally nonzero, (Polynomial-bulk) supplies fixed \(a,\delta>0\) and an event \(B_N\), with \(\mathbb P(B_N^c)\to0\), on which
+\(s_{\lfloor\delta N\rfloor}(K_\lambda(W))\ge a\).
+On \(J_N\cap B_N\), (Inverse-transpose-identity), (Bounded-multipliers), and \(\|H^T\|=\|H\|\) give
+\[
+ s_{\lfloor\delta N\rfloor}(\operatorname{sym}F_N)
+       \ge aN^{-2M}.
+\]
+Choose the fixed exponent \(L_0=2M+1\).
+By (Compression-quantile) and \(k_N+2\le\lfloor\delta N\rfloor\) eventually, the symmetric part of every actual principal minor of \(W_1+F_N\) has its \(k_N\)-th singular value at least \(N^{-L_0}\) on \(J_N\cap B_N\).
+Here the symmetric part of \(W_1\) is exactly zero, including its diagonal.
+The quantile floor yields the desired least-value probability bound intersected with this guard.
+Adding \(\mathbb P(J_N^c)+\mathbb P(B_N^c)\), which tend to zero along even dimensions, gives a fixed \(A_\lambda>0\) such that
+\[
+ \mathbb P\{s_{\min}(W_1+F_N)<N^{-A_\lambda}\}\longrightarrow0
+        \quad\text{through even }N.
+ \tag{Inverse-shift-even-floor}
+\]
+This does not condition on \(J_N\), \(B_N\), or their intersection with the quantile guard; the random-shift theorem is applied by conditioning only on the complete background-measurable \(F_N\).
+Its constants are uniform in that shift, and the guard failure is bounded by the displayed background failure probabilities.
+
+The formal-zero and formal-nonzero alternatives exhaust all \(K_\lambda\), since the Fock argument excludes a formally nonzero polynomial with zero semicircular evaluation.
+Combining (Carrier-factorization), (H-even-inverse), and (Inverse-shift-even-floor) gives a fixed \(b_\lambda>0\) with
+\[
+ \mathbb P\{s_{\min}(R(W)-\lambda I)<N^{-b_\lambda}\}
+       \longrightarrow0\quad\text{through even }N.
+ \tag{Carrier-even-floor}
+\]
+This works for every certificate (Imaginary-carrier), including repeated exposed background indices, \(K=0\), and \(\lambda=0\).
+It requires no dichotomy or nonvanishing test on the random finite matrix \(K_\lambda(W)\) itself.
+
+<a id="imaginary-carrier-log"></a>
+### Intermediate values and the logarithmic conclusion
+
+Set \(q_N=\lceil N^{3/4}\rceil\), write singular values increasingly as \(a_r\), and put \(L=K+1\).
+Apply the accepted [C_F0187_v2 intermediate theorem](../claims/Yin_C_F0187_v2.md#statement) to each \(T_\nu(W)\), conditioned only on all inputs other than its exposed \(W_{j_\nu}\), and to \(W_1+F_N\), conditioned only on the background.
+The law of each exposed matrix is its original fixed purely imaginary law with zero diagonal.
+The theorem permits an arbitrary independent complex shift without any norm guard.
+Its constants are uniform in each realization of that shift.
+For the finite list of factors, a union bound gives, outside a summable probability \(CN^2e^{-cN^{1/4}}\),
+\[
+ a_r(T_\nu(W)),\ a_r(W_1+F_N)
+       \ge c(r-1)/N\qquad(q_N+1\le r\le N),
+ \tag{Carrier-factor-middle}
+\]
+where \(c>0\) may be decreased to accommodate the finitely many fixed laws.
+The summability here does not make \(J_N^c\) or the quantile-floor errors summable.
+
+For square matrices, the singular-value min-max inequality
+\[
+ a_{r+s-1}(UV)\ge a_r(U)a_s(V),\qquad r+s-1\le N,
+\]
+is proved at its singular-matrix scope in [C_F0186_v6](../claims/Yin_C_F0186_v6.md#argument).
+Iterating it for the \(L\) factors, and taking \(r=\lfloor k/L\rfloor\), gives on \(J_N\) and (Carrier-factor-middle)
+\[
+ a_k(R(W)-\lambda I)\ge c_1(k/N)^L
+       \qquad(2L(q_N+1)\le k\le N)
+ \tag{Carrier-middle}
+\]
+for a fixed \(c_1>0\), absorbing \(|c|\).
+Indeed the iterated index is \(L(r-1)+1\le k\), while \(r-1\ge k/(2L)\) throughout this range for all sufficiently large \(N\).
+This is a product singular-value statement and does not require independent factors.
+Together with (Carrier-even-floor), it supplies both bounds on an event of probability tending to one along even dimensions.
+
+For completeness, these bounds justify the finite free logarithm rather than assuming it.
+Let \(\mu_N\) be the singular law of the fixed polynomial \(P(W)=R(W)-\lambda I\), and let \(\mu\) be that of \(|R(s)-\lambda|\).
+The fixed-polynomial weak law in C_F0186_v4 gives \(\mu_N\Rightarrow\mu\) in probability, including along even dimensions.
+On the middle event,
+\[
+ \mu_N([0,t])\le\frac{2L(q_N+1)}N+C t^{1/L},\qquad t>0,
+\]
+after harmless enlargement of the fixed constant.
+At each continuity point the empirical count converges in probability to its deterministic limiting count, while the displayed upper bound holds with probability tending to one.
+Passing first at those points and then downwards through continuity points yields \(\mu([0,t])\le C t^{1/L}\).
+Thus \(\mu(\{0\})=0\) and \(\int_0^1|\log t|\,d\mu(t)<\infty\).
+The free operator is bounded, so its positive logarithm is also integrable.
+
+On the floor-and-middle event the bottom \(2L(q_N+1)\) normalized negative logarithms are at most \(O(N^{-1/4}\log N)\).
+The remaining values below \(t<1\) contribute at most \(C't^{1/L}(1+|\log t|)+o(1)\), by summing \(-\log[c_1(k/N)^L]\) over \(k\le C Nt^{1/L}+O(N^{3/4})\).
+Equivalently, fix a small index fraction first and then a smaller singular cutoff; the integral comparison \(N^{-1}\sum_{k\le\varepsilon N}\log(N/k)\le\varepsilon(1-\log\varepsilon)+o(1)\) gives the same vanishing bound.
+Negative logarithmic tails therefore vanish in probability as the cutoff tends to zero along even dimensions.
+The [positive-tail control in C_F0186_v4](../claims/Yin_C_F0186_v4.md#positive-tail) handles the upper cutoff.
+Convergence for the continuous logarithm clipped at two fixed positive cutoffs, followed by removal of both tails, proves (Imaginary-carrier-even-log).
+This is also an instance of the exact [probability-level transfer in C_F0186_v11](../claims/Yin_C_F0186_v11.md#norm-and-log-transfer), now with its two singular-value hypotheses supplied at the new pure-imaginary scope.
+
+For every fixed positive regularizer, the accepted regularized logarithmic convergence in C_F0186_v4 holds almost surely under every cross-size coupling.
+Since \(\log t\le\frac12\log(t^2+\varepsilon^2)\), intersecting a countable sequence \(\varepsilon\downarrow0\) gives the full-sequence almost-sure upper bound by \(\tau\log|R(s)-\lambda|\).
+Select a deterministic subsequence of even dimensions along which the probability of deviation by more than \(1/m\) in (Imaginary-carrier-even-log) is at most \(2^{-m}\).
+First Borel--Cantelli gives convergence to the same finite target along that subsequence under every allowed coupling.
+Together these prove (Imaginary-carrier-limsup), equivalently the applicable [C_F0190_v1 lower-deviation criterion](../claims/Yin_C_F0190_v1.md#coupling-criterion).
+No summability of the quantile-floor error, and no independence across sizes, is used.
+
+<a id="imaginary-carrier-closures"></a>
+### Two-sided carriers, polynomial images and finite ordered products
+
+Let \(H_{\mathrm L},H_{\mathrm R}\) be fixed scalar polynomials omitting \(x_1\), and suppose \(H_{\mathrm R}H_{\mathrm L}\) has certificate (Imaginary-carrier) for \(H\).
+Set
+\[
+ \widetilde R=H_{\mathrm L}(x_1+Q)H_{\mathrm R},\qquad
+ R=(x_1+Q)H_{\mathrm R}H_{\mathrm L}.
+\]
+For \(U=H_{\mathrm L}(W)\), \(V=(W_1+Q(W))H_{\mathrm R}(W)\), the identity \(\det(UV-\lambda I)=\det(VU-\lambda I)\) holds for every \(\lambda\), including zero.
+At the free level, [the bounded cyclic determinant identity in C_F0186_v4](../claims/Yin_C_F0186_v4.md#cyclic-selfadjoint-reduction) gives \(\Delta(uv-\lambda)=\Delta(vu-\lambda)\) for \(\lambda\ne0\).
+At zero it follows from [bounded FK multiplicativity](../audits/literature/FK52/Yin_U001.md#bounded-multiplicativity-and-the-finite-tracial-adaptation), including zero determinant values.
+Thus both logarithmic conclusions for \(\widetilde R\) follow from those for \(R\), with the same finite target.
+No independent factor certificate, finite-dimensional inverse, or free inverse for \(H_{\mathrm L}\) or \(H_{\mathrm R}\) is required.
+
+For either carrier form and any fixed scalar polynomial \(g\), if \(g(t)-\lambda\) is nonconstant, factor it over \(\mathbb C\) as
+\[
+ g(t)-\lambda=b\prod_{h=1}^r(t-\alpha_h),\qquad b\ne0,
+\]
+with roots counted with multiplicity.
+Finite determinants and bounded FK multiplicativity give the corresponding sums of logarithms, with constant \(\log|b|\), in finite dimensions and at the free limit.
+Every root parameter \(\alpha_h\) has the even-dimensional probability conclusion above, so a finite union bound proves that conclusion for \(g(R)-\lambda\), with a finite target.
+The full-sequence upper bound applies to this new fixed polynomial itself, and the deterministic even subsequence argument gives its full-sequence almost-sure limsup equality.
+One does not add separate limsup equalities.
+If \(g(t)-\lambda\) is a nonzero constant, both logarithms equal its scalar logarithmic modulus identically.
+If it is identically zero, both are identically \(-\infty\).
+
+Finally let \(S=\prod_{h=1}^q g_h(R_h)\) be any fixed finite ordered product of these one-sided or two-sided carriers, allowing different exposed indices, shared inputs and noncommuting factors.
+If all \(g_h\) are nonzero polynomials, determinant multiplicativity expresses the normalized finite logarithm at zero as a finite sum converging in probability along the same even dimensions.
+Bounded FK multiplicativity identifies its finite target with \(\tau\log|S(s)|\).
+Apply the full-sequence upper regularizer bound to the fixed polynomial \(S\) and the same deterministic subsequence argument to obtain its full-sequence limsup equality.
+A zero polynomial factor makes \(S=0\) and both logarithms \(-\infty\); the empty product is the identity and has logarithm zero.
+No nonzero-shift conclusion for a general ordered product is obtained by this zero-shift factorization.
+
+All conclusions are for each fixed tuple of laws, certificate, polynomial and scalar parameter; simultaneous finitely many uses follow by finite intersection.
+No event simultaneous over an uncountable parameter family is asserted.
+The all-negative formal transpose evaluation used above depends on the zero-diagonal and purely imaginary assumptions on every background input; it does not silently transfer to arbitrary diagonals or mixed background laws.
+Nor does the certificate condition cover an arbitrary scalar noncommutative polynomial or a matrix-coefficient polynomial.
+Odd dimensions cannot in general be added to the probability conclusion: the allowed carrier \(R=x_1\) at \(\lambda=0\) is singular in every odd dimension, while its free logarithm is finite.
+This obstruction is consistent with, and does not prevent, the full-sequence limsup conclusion.
+
+<a id="signed-transpose-carriers"></a>
+### Extension to inputs with fixed transpose signs
+
+There is a further exact extension within the original centered finite-second-moment model, for which every step of the preceding argument can be checked.
+Assign a deterministic sign \(\sigma_j\in\{+1,-1\}\) to each input.
+For \(\sigma_j=+1\), let \(W_j\) be a real symmetric Wigner input with centered variance-one real strict upper law and any fixed centered real finite-second-moment diagonal law, independent of its upper entries.
+For \(\sigma_j=-1\), let \(W_j\) have the purely imaginary strict upper law and identically zero diagonal in (Imaginary-tuple).
+The complete entry families and inputs remain independent within each dimension, with arbitrary coupling across dimensions.
+Thus every realization satisfies \(W_j^T=\sigma_jW_j\).
+The diagonal freedom in the positive-sign class is within the original model; no noncentered diagonal extension is being added here.
+
+Take precisely the finite carrier certificate (Imaginary-carrier), now permitting either sign at the active and factor-exposure indices and at every background index.
+Every \(Q_\nu\) still omits both the active input and its own exposed input.
+All even-dimensional probability, finite-target, full-sequence almost-sure limsup, two-sided, polynomial-image, finite ordered zero-shift product, and constant-case conclusions above hold unchanged.
+The proof requires the following explicit substitutions, not a claim that a purely imaginary least-value floor holds for every shift.
+
+Define the complex-linear involutive anti-automorphism \(\#_\sigma\) by
+\[
+ c^{\#_\sigma}=c,\qquad x_j^{\#_\sigma}=\sigma_jx_j,
+ \qquad(UV)^{\#_\sigma}=V^{\#_\sigma}U^{\#_\sigma},
+ \qquad\mathfrak S_\sigma(P)=\frac{P+P^{\#_\sigma}}2.
+\]
+Multiplication of a reversed word by the product of its input signs gives \(P(W)^T=P^{\#_\sigma}(W)\) exactly.
+The free limit is still a free standard semicircular tuple by C_F0186_v4, so the Fock nonvanishing proof and (Polynomial-bulk) are unchanged for every formally nonzero scalar polynomial produced by this operation.
+The rank-two compression bound and polynomial norm guards also do not depend on the signs.
+
+At a factor-exposure index \(j_\nu\) with \(\sigma_{j_\nu}=+1\), the original real upper law is eligible in C_F0186_v11: its variance one implies \(\mathbb P(\operatorname{Re}\xi_{j_\nu}\ne0)>0\).
+Use its accepted [eligible floor interface](../claims/Yin_C_F0186_v11.md#floor-interfaces) for the independent polynomially bounded complex shift \(Q_\nu(W)\).
+This supplies a polynomial floor in probability through all dimensions, in particular through even ones, without any symmetry restriction on that shift or vanishing-diagonal hypothesis on the exposed real input.
+At an index with \(\sigma_{j_\nu}=-1\), put \(S_\nu=\mathfrak S_\sigma(Q_\nu)\) and repeat the exact two branches at [the factor floors](#imaginary-factor-floors): formal zero gives a skew shift and the even floor; formal nonzero gives a positive bulk and the quantile floor because this exposed input has zero symmetric part.
+The presence of positive-sign background inputs does not enter that last equality, since it only uses the exposed input's negative sign and the identity \(\operatorname{sym}Q_\nu(W)=S_\nu(W)\).
+The same finite union bound therefore supplies (H-even-inverse) and the same background event \(J_N\).
+
+At the active index, use the globally defined independent shift (Background-shift) and its polynomial bound.
+If \(\sigma_1=+1\), the eligible floor interface directly yields (Inverse-shift-even-floor), actually through every dimension where \(J_N\) has probability tending to one; only its even-dimensional probability is needed and established in general.
+If \(\sigma_1=-1\), define
+\[
+ K_{\lambda,\sigma}
+   =H^{\#_\sigma}\mathfrak S_\sigma(Q)H
+           -\lambda\mathfrak S_\sigma(H).
+\]
+The matrix calculation (Inverse-transpose-identity) gives exactly \(H(W)^T\operatorname{sym}(F_N)H(W)=K_{\lambda,\sigma}(W)\) on \(J_N\).
+Its formal-zero case gives a skew shift, and its formal-nonzero case supplies the same positive bulk and principal-minor quantile guard by the Fock, weak-law, norm and rank-two arguments already proved.
+The exposed input's zero diagonal and negative transpose sign ensure that no additional symmetric noise term appears in these minors.
+This proves (Inverse-shift-even-floor) and hence (Carrier-even-floor) at either active sign, without conditioning on a spectral or joint factor guard.
+
+The original complex intermediate theorem allows both real and purely imaginary laws and their prescribed real diagonals.
+Thus the same within-dimension conditioning on each independent shift proves (Carrier-factor-middle), and the deterministic product inequality proves (Carrier-middle).
+The fixed-polynomial weak, positive-log and regularized controls have exactly the centered finite-second-moment hypotheses of this signed model.
+Consequently [the complete logarithmic passage](#imaginary-carrier-log) applies unchanged, as do the algebraic determinant and bounded FK identities in [the closure argument](#imaginary-carrier-closures).
+This completes the sign-class extension as proof development.
+It still allows the all-negative carrier \(R=x_1\), so the odd-dimensional obstruction remains.
+An arbitrary complex Hermitian background input generally has neither fixed transpose sign, and is not covered by this formal \(\#_\sigma\) argument.

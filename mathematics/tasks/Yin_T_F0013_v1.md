@@ -62,6 +62,15 @@ The [reviewed GOE affine theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parit
 It proves the full logarithmic limit along all even dimensions and classifies full-sequence convergence at a finite target by existence of one odd-dimensional real-symmetric invertible witness.
 Arbitrary fixed-law finite-variance entries remain outside that Gaussian result.
 
+The [reviewed complex affine and matrix-fiber theorem](../claims/Yin_C_F0186_v11.md#decision-complex-affine-carrier-reviewed) resolves this contract for every scalar coefficient tuple, that is, for all m=1, under the full stated complex finite-variance model.
+It also resolves every fixed matrix polynomial in one Hermitian input and the specified real-linear-combination reductions, including arbitrary singular constant matrices.
+The finite-target logarithms converge in probability along all even dimensions, with the theorem's exact pure-imaginary zero-diagonal obstruction to a full-sequence probability limit.
+Several unrelated matrix coefficient directions remain outside that result, so the original arbitrary-m contract stays active.
+
+The [reviewed positive-frame block theorem](../claims/Yin_C_F0187_v3.md#decision-block-intermediate-reviewed) proves a summable intermediate singular-value bound for fixed matrix coefficients satisfying its additional condition \(\chi_A>0\), with arbitrary constant coefficient \(A_0\).
+It also derives a finite free logarithm and controls the intermediate negative-logarithmic range, while leaving the bottom contribution unresolved.
+Its actual projected-block and elimination examples show why neither free invertibility nor the ordinary polynomial linearization supplies that frame condition in general.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

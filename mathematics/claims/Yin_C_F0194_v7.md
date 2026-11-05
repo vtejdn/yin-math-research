@@ -4,7 +4,7 @@ author: Yin
 
 # Complex Hermitian Wigner least-value floors with law and quantile guards
 
-This version combines a generic complex finite-net count, a non-line full-adjugate matching argument and a purely imaginary symmetric-quantile argument as a new open candidate for fresh independent review.
+This version combines a generic complex finite-net count, a non-line full-adjugate matching argument and a purely imaginary symmetric-quantile argument, adopted after independent whole-proof review at the [current decision](#decision-complex-floor-reviewed).
 The earlier physical versions retain their mathematics and actual assessments.
 The non-purely-imaginary phase-line main theorem is reused from its reviewed sixth version and is not reproved.
 This is a project deduction with no novelty or priority claim.
@@ -76,7 +76,7 @@ This statement also includes the following auxiliary assertions at their full di
 - The [self-contained skew pairing proof](#singular-pairing), [pure-imaginary internal skew directions](#internal-many-directions), [uncovered-diagonal exclusion](#pure-imaginary-uncovered-diagonal), and [quantile low-matching consequence](#low-matching-quantile), with all fixed thresholds selected in the stated order.
 
 The displayed matching errors tend to zero and are not claimed summable.
-No logarithmic determinant limit, scalar-affine synthesis, matrix-polynomial transfer, Brown-measure assertion or completion of an original determinant Task is part of this candidate.
+No logarithmic determinant limit, scalar-affine synthesis, matrix-polynomial transfer, Brown-measure assertion or completion of an original determinant Task is part of this statement.
 
 <a id="argument"></a>
 ## Complete proof and exact fixed inputs
@@ -1322,7 +1322,7 @@ For the random-shift form, condition only on \(F_N\) within this dimension, use 
 No cross-size independence is used.
 
 ## Current assessment
-[Selected decision](#decision-complex-floor-candidate)
+[Selected decision](#decision-complex-floor-reviewed)
 
 ## Assessment history
 
@@ -1352,3 +1352,31 @@ No cross-size independence is used.
 | dependency | [Every-phase second-value auxiliary](Yin_C_F0194_v6.md#phase-line-second-floor) | Only the accepted c=i raw/normalized second-smallest floor for actual minors and internal skew blocks, and the even skew-floor consequence after singular pairing. |
 | dependency | [Every-phase isolated-minor auxiliary](Yin_C_F0194_v6.md#phase-line-isolated-minor) | Only the accepted c=i raw restricted probability theorem after both absolute and relative minor thresholds and the full raw ratio are verified. |
 | dependency | [Reviewed non-pure-imaginary phase floor](Yin_C_F0194_v6.md#statement) | Direct reuse only for xi=c eta with c of modulus one and Re c nonzero, arbitrary complex polynomial shifts and its independent random-shift form; no c=i main-floor extension. |
+
+### Decision complex-floor-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-05T13:24 |
+| status | proved |
+| reason | Independent whole-proof review supports every stated generic auxiliary, the non-line floor, the exact reused phase-line branch, the purely imaginary symmetric-quantile guard and the skew pairing/even floor. All fourteen direct interfaces are resolved at their displayed scopes. The main matching error is not claimed summable, arbitrary pure-imaginary shift guards remain hypotheses, and the original determinant and Brown Tasks remain unresolved. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Exact law branches and auxiliary assertions](#statement) | The generic finite-variance linear and rank/second/isolated interfaces, non-line and reused non-pure-imaginary phase floors, exact purely imaginary quantile guard/random-shift failure, and zero-diagonal skew even/odd boundary. |
+| argument | [Complete complex-law proof](#argument) | Complete orientation-envelope net proof and uniform truncation, full-adjugate high/low matching and generic assembly, direct accepted phase-line reuse, self-contained skew pairing, and the full quantile-guard probability argument. |
+| dependency | [Complex inverse-net source](../audits/literature/TV08/Yin_U001.md#tv08-u001) | Only the inspected arXiv v5 controlled-moment definition, fixed-phase lemma and complex finite-net theorem, with common-control and polynomial-range uniformity and the stated source-proof limits; every matrix/profile adaptation is proved here. |
+| dependency | [Fair-sign matching source](../audits/literature/MNV16/Yin_U001.md#mnv16-u001) | Only Definition 1.5 and Theorem 1.6 of the 2016 edition, at degrees one and two and arbitrary length-one interval center; exact complex two-copy applications are proved here. |
+| dependency | [Deterministic bordered rank](Yin_C_F0194_v2.md#border-rank) | Borel kernel selection and rank increase two when both kernel forms are nonzero; no old real-law corank probability theorem is imported for generic entries. |
+| dependency | [Deterministic adjugate rows](Yin_C_F0194_v3.md#row-adjugate) | All-complex matrix row-adjugate inequality and invertible or exactly-corank-one usable-index deduction. |
+| dependency | [Rectangular support mechanism](Yin_C_F0194_v3.md#rectangles) | Conditional column distances, Gram inverse and support entropy after the complex-coordinate distance hypotheses have been checked. |
+| dependency | [Pointwise spread and average](Yin_C_F0194_v3.md#spread-and-average) | Only deterministic right-vector spread and the cofactor average under explicit norm and rank guards, with no factor N on the matching contribution. |
+| dependency | [Exact real-border matching](Yin_C_F0194_v3.md#two-copy-matching) | Only the complete finite-radius real-law estimate after the c=i unitary gauge, including coefficient normalization h/N and arbitrary conditional centers. |
+| dependency | [Complex fixed-cutoff distance](Yin_C_F0194_v6.md#complex-distance) | Uniform exponential distance estimate for centered variance-one complex coordinates with arbitrary conjugate orientations, including the real-amplitude specialization. |
+| dependency | [Every-phase cyclic gauge](Yin_C_F0194_v6.md#phase-line-gauge) | Exact unitary similarity and cyclic ordering at c=i, preserving determinants, singular values, adjugate norm and the transformed phase-line model. |
+| dependency | [Internal complex cofactor identity](Yin_C_F0194_v6.md#complex-internal-row) | Exact sym-adjugate row formula with z and conjugate z and arbitrary distinct shift offsets; the skew coefficient map and its quantitative guards are proved here. |
+| dependency | [Every-phase corank auxiliary](Yin_C_F0194_v6.md#phase-line-rank-tail) | Only the accepted c=i corank-at-least-two tail used in the pure-imaginary guarded assembly after raw scaling. |
+| dependency | [Every-phase second-value auxiliary](Yin_C_F0194_v6.md#phase-line-second-floor) | Only the accepted c=i raw/normalized second-smallest floor for actual minors and internal skew blocks, and the even skew-floor consequence after singular pairing. |
+| dependency | [Every-phase isolated-minor auxiliary](Yin_C_F0194_v6.md#phase-line-isolated-minor) | Only the accepted c=i raw restricted probability theorem after both absolute and relative minor thresholds and the full raw ratio are verified. |
+| dependency | [Reviewed non-pure-imaginary phase floor](Yin_C_F0194_v6.md#statement) | Direct reuse only for xi=c eta with c of modulus one and Re c nonzero, arbitrary complex polynomial shifts and its independent random-shift form; no c=i main-floor extension. |
+| review | [Independent whole-proof complex-floor finding](../audits/reviews/Yin_R_F0200_v7.md#complex-floor-whole-proof) | Entire exact statement and argument, all generic and purely imaginary auxiliary assertions, and every declared direct input interface; source-proof inspection limits, conditional independence, parameter order, normalization and parity boundaries remain as recorded. |
