@@ -65,6 +65,25 @@ Its remaining matching error is still not summable; the centered constant-diagon
 The [reviewed determinant assembly](../claims/Yin_C_F0186_v11.md#decision-complex-affine-carrier-reviewed) establishes arbitrary-coupling determinant upper limits for every scalar affine tuple, one-variable matrix polynomials and its eligible-exposure complex carrier class.
 Its probability limits and dimension upper limits still do not provide this Task's full-sequence almost-sure planar control.
 
+The [reviewed positive-covariance additive theorem](../claims/Yin_C_F0186_v15.md#decision-positive-covariance-additive-reviewed) gives full-sequence Brown limits for an exposed combination satisfying its weighted second-moment criterion, with an arbitrary independent polynomial background and fixed outer polynomials.
+Its [independent whole-chain review](../audits/reviews/Yin_R_F0190_v14.md#positive-covariance-additive-whole-proof) checks the [positive mirror-pair floor](../claims/Yin_C_F0194_v11.md#decision-positive-pair-reviewed) and the complete deduction.
+One exposed off-diagonal law with \(|E\xi^2|<1\) suffices, while a common phase-line exposed family lies outside this sufficient condition.
+The earlier elliptic and conditional versions retain their exact scopes; this larger subclass still does not complete the present arbitrary-polynomial contract.
+
+The [reviewed recursive-carrier theorem](../claims/Yin_C_F0186_v16.md#decision-recursive-carrier-reviewed) extends this full-sequence Brown conclusion to finite certified two-sided carriers with independent polynomial backgrounds and eligible real symmetric seeds.
+Its induction supplies arbitrary-power least-value floors and a quantitative intermediate exponent for every node, including the stated outer-polynomial closure.
+The certificate requires each newly exposed input to be absent from the whole background; arbitrary repeated-variable polynomials still lie outside this sufficient class.
+
+The [reviewed three-real-product theorem](../claims/Yin_C_F0186_v23.md#decision-three-real-product-reviewed) now proves full-sequence almost-sure Brown convergence for three independent real finite-second-moment Wigner factors under every allowed cross-size coupling.
+Its [independent whole-chain review](../audits/reviews/Yin_R_F0190_v22.md#three-real-product-whole-proof) covers the actual structured-companion count application, complete conditional numerator, exhaustive minor branches, arbitrary-power floor and planar passage.
+The same theorem gives almost-sure logarithmic limits at each fixed nonreal parameter and at zero, without asserting such a limit at nonzero real parameters.
+This resolves that product subclass beyond the earlier probability estimate, while arbitrary polynomials and general complex input laws retain the full present contract.
+
+The [adopted two-class theorem C186v24](../claims/Yin_C_F0186_v24.md#decision-two-real-classes-reviewed) now treats every fresh real additive input plus an arbitrary independent scalar polynomial and every fixed ordered product of independent real Wigner inputs.
+It gives arbitrary-power least-value floors, finite-target full-sequence almost-sure logarithms at every fixed complex parameter and one-event Brown convergence under arbitrary cross-size coupling.
+Its [independent whole-proof and correction finding](../audits/reviews/Yin_R_F0190_v23.md#two-real-classes-repaired-whole-proof) covers the complete chain, including the explicit additional low-matching exceptional event.
+These real-input subclasses do not resolve the general contract; the earlier all-parameter ordered-product limsup conclusion is strengthened rather than newly obtained.
+
 The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-reviewed) proves this full Brown-measure conclusion for every scalar polynomial when the entries have the exact normalized real Gaussian laws.
 It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.
 This completes the GOE submodel, while the present arbitrary finite-variance contract remains active.

@@ -14,11 +14,15 @@ Mathematical content, source inspections, finite computation limits and review r
 | [AP18/Yin_U003](AP18/Yin_U003.md) | AP18-U003: Affiliation, adjoint domains and tracial L1 functionals |
 | [Ans04/Yin_U001](Ans04/Yin_U001.md) | Ans04: Selected free Appell recurrence and orthogonality boundary |
 | [BBL21/Yin_U001](BBL21/Yin_U001.md) | BBL21: exact available atom formula and the ACSY24 citation gap |
+| [BBLM05/Yin_U001](BBLM05/Yin_U001.md#bblm05-u001) | Independent-block resampling proxies and Theorem 2 at fourth moments; statement and application interface |
 | [BD78/Yin_U001](BD78/Yin_U001.md) | Derivation Extension to a Universal Localization |
 | [BKS97/Yin_U001](BKS97/Yin_U001.md) | BKS97-U001: The Scalar q-Hermite Spectral Law |
 | [BR10/Yin_U001](BR10/Yin_U001.md) | BR10-U001: Finite Stable Spaces and Rational Series |
 | [BR10/Yin_U002](BR10/Yin_U002.md) | BR10-U002: Series definitions, proper star, residuals and formal Hankel rank |
 | [CR94/Yin_U001](CR94/Yin_U001.md) | Minimal affine state families |
+| [Chi21/Yin_U001](Chi21/Yin_U001.md#chi21-u001) | Lindeberg triangular arrays and inspected Gaussian swapping mechanism; scalar input and project adaptation boundary |
+| [KM15/Yin_U001](KM15/Yin_U001.md#km15-u001) | Isotropic iid-row lower singular values under a uniform L2/L1 bound; exact normalization and pencil-cut interface |
+| [JSS20/Yin_U001](JSS20/Yin_U001.md#jss20-u001) | Symmetric finite-variance norm regularization and the unmodified large principal block; exact Theorem 1.3 scope |
 | [CS05/Yin_U001](CS05/Yin_U001.md) | CS05 relative Delta and bounded dual systems |
 | [CS05/Yin_U002](CS05/Yin_U002.md) | CS05 Hilbert–Schmidt tensor identification |
 | [CS77/Yin_U001](CS77/Yin_U001.md) | Fuglede Commutation for Bounded Maps from M to H |
@@ -26,6 +30,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Coh71/Yin_U001](Coh71/Yin_U001.md) | An Early Use of Rational Closure |
 | [Coh85/Yin_U001](Coh85/Yin_U001.md) | Cohn's Definition of Division Closure |
 | [Con94/Yin_U001](Con94/Yin_U001.md) | Con94-U001: The Free-Group Tree Module and the Rationality Conjecture |
+| [DMR08/Yin_U001](DMR08/Yin_U001.md) | Finite-dimensional transitivity and Proposition 5.1 |
 | [DR97/Yin_U001](DR97/Yin_U001.md) | DR97-U001: Formal Series and Minimal Representations |
 | [DR97/Yin_U002](DR97/Yin_U002.md) | DR97-U002: Cayley-Tree Defects and Finite Residual Spaces |
 | [DR97/Yin_U003](DR97/Yin_U003.md) | DR97-U003: All Matrix Inverse Closures Equal the Finite-Rank Algebra |
@@ -220,7 +225,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Ngu12 source notes](Ngu12/readme.md) | Published real-symmetric smallest-value statement and theorem numbering |
 | [CO22 source notes](CO22/readme.md) | Paired-entry small-value estimate and correlation restriction |
 | [Ngu12a source notes](Ngu12a/readme.md) | Vector-valued inverse concentration: exact arXiv edition and source limits |
-| [Ngu12a/Yin_U001](Ngu12a/Yin_U001.md) | Complete progression and linear/quadratic concentration definitions |
+| [Ngu12a/Yin_U001](Ngu12a/Yin_U001.md) | Progression and concentration conventions, real-scalar geometric inverse and symmetric properization |
 | [CM14 source notes](CM14/readme.md) | Matrix-coefficient strong asymptotic freeness |
 | [Sni02 source notes](Sni02/readme.md) | Logarithmic upper semicontinuity and regularization scope |
 | [RV14 source notes](RV14/readme.md) | Full-dimensional Haar perturbation invertibility |
@@ -241,4 +246,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [CTV06 source notes](CTV06/readme.md) | Singular-border rank growth, its symmetric Bernoulli scope and the source probability convention |
 | [MNV16/Yin_U001](MNV16/Yin_U001.md) | Finite-interval anti-concentration for multilinear polynomials and its disjoint-monomial rank |
 | [TV08/Yin_U001](TV08/Yin_U001.md) | Controlled complex second moments and finite nets for concentrated unit vectors |
+| [TV08b source notes](TV08b/readme.md) | Proper containing progressions for symmetric GAPs: inspected arXiv v2 and source limits |
 | [NO15/Yin_U001](NO15/Yin_U001.md) | Printed complex inverse-concentration interface, arithmetic obstructions and inspected coordinate passages |
+| [NO15/Yin_U002](NO15/Yin_U002.md) | Exact elliptic pair and least-value interface, with unresolved source-profile counting obligations |
+| [You61/Yin_U001](You61/Yin_U001.md) | Complex symmetric and skew unitary congruence, with exact first-page source scope |

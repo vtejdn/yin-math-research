@@ -15,7 +15,19 @@ Han26's [normalized complex Ginibre matrix](../audits/literature/Han26/Yin_U001.
 Sch05's [real Ginibre and GOE normalizations](../audits/literature/Sch05/Yin_U001.md#gaussian-and-free-normalizations) distinguish independent real entries from symmetric GOE entries and state the corresponding free circular normalization, at arXiv:math/0308192v1 PDF pp. 2 and 9.
 The [GOE theorem's model](../claims/Yin_C_F0186_v8.md#statement) and its [affine Hermitization match](../claims/Yin_C_F0186_v8.md#goe-affine-input) use these exact variances.
 
+The [second-moment isotropy and linear-form L2/L1 convention](../audits/literature/KM15/Yin_U001.md#isotropic-row-lower-bound) and the [centered triangular-array Lindeberg condition](../audits/literature/Chi21/Yin_U001.md#lindeberg-array) retain their exact source normalizations.
+They are used in the [constant-cut and diffuse single-pole theorem](../claims/Yin_C_F0194_v23.md#inputs); that consumer owns the whitening, vector adaptation and actual conditional hypotheses.
+
 Recorded consumer navigation: Statement/proof uses of the specified models: [Yin_C_F0017](../ledger/Yin_L_F0004_v1.md#yin_c_f0017-definitions), [Yin_C_F0019](../ledger/Yin_L_F0004_v1.md#yin_c_f0019-definitions).
+
+The [independent mirror-pair model](../audits/literature/NO15/Yin_U002.md#pair-model) and [complete elliptic covariance pattern](../audits/literature/NO15/Yin_U002.md#elliptic-pair) retain NO15 Definitions 1.3 and 1.6, including diagonal laws and strict correlation endpoints.
+The [additive Brown candidate](../claims/Yin_C_F0186_v13.md#statement) uses that exact certificate; its source-input acceptance remains unresolved at the responsible Claim and source unit.
+
+<a id="independent-block-resampling"></a>
+### Independent-block resampling and variance proxies
+
+Exact definition home and conventions: [BBLM05's independent replacements and one-sided variance proxies](../audits/literature/BBLM05/Yin_U001.md#independent-block-resampling).
+The same entry distinguishes the conditional sum of squared replacement influences from the source's leave-one-coordinate-out quantity.
 
 ### Brown measure
 
@@ -60,6 +72,12 @@ The [central-eigenvalue definition](../audits/literature/MSY23/Yin_U001.md#defin
 Algebraic Hankel rank has its own entry below.
 
 Recorded consumer navigation: Statement/proof uses: [Yin_C_F0007](../ledger/Yin_L_F0004_v1.md#yin_c_f0007-definitions); specified P2 use: [Yin_C_F0029-P2](../ledger/Yin_L_F0004_v1.md#yin_c_f0029-definitions).
+
+<a id="transitive-operator-spaces"></a>
+### Transitive operator spaces
+
+Exact definition home and source convention: [DMR08's finite-dimensional complex transitivity](../audits/literature/DMR08/Yin_U001.md#transitive-operator-space).
+A real-field adaptation belongs to its consuming project argument.
 
 <a id="affiliated-operators-and-fractions"></a>
 ### Affiliation, tracial representation and regular fractions

@@ -20,3 +20,6 @@ Only the arXiv v1 statements are used mathematically; inspection of journal meta
 The local complex-symmetric invertibility deduction is retained separately in [C_F0188_v2](../../../claims/Yin_C_F0188_v2.md#argument).
 
 The complete reusable [progression and concentration conventions](Yin_U001.md) retain the source definitions and the local nonproper-box distinction.
+
+The same selected edition supplies the [real-scalar geometric inverse interface](Yin_U001.md#real-scalar-geometric-inverse), including its fixed compound-Poisson law specialization.
+The [symmetric properization and rank-reduction interfaces](Yin_U001.md#symmetric-properization) use Lemma 2.2 and Theorem 2.1 on printed/PDF pp. 6--7 and identify the separate TV08b primary confirmation.

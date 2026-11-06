@@ -359,6 +359,11 @@ The general fixed matrix-coefficient pencil requires additional treatment of coe
 
 ## Source preparation and inspection boundary
 
+The elliptic least-value interface has a [local replacement proof](../claims/Yin_C_F0194_v10.md#argument) with an [independent whole-proof finding](../audits/reviews/Yin_R_F0200_v10.md#elliptic-floor-whole-proof).
+It replaces the source's arithmetic-dependent geometry and profile construction with a mixed Fourier reduction to a real scalar inverse theorem, proper integer-coordinate models and compatible two-marginal profile estimates.
+The [retained conditional additive version](../claims/Yin_C_F0186_v13.md#statement) and its original source qualification precede the [reviewed unconditional version](../claims/Yin_C_F0186_v14.md#decision-corrected-elliptic-reviewed), which invokes this local floor and preserves the exact covariance and exposure hypotheses.
+The source's false printed statements remain documented at NO15's responsible units; neither this replacement nor the subclass conclusion completes the unrestricted finite-variance Task.
+
 The selected source notes are [BC17](../audits/literature/BC17/readme.md), [ORSV15](../audits/literature/ORSV15/readme.md), [Ngu12](../audits/literature/Ngu12/readme.md), [NO15](../audits/literature/NO15/readme.md), [CO22](../audits/literature/CO22/readme.md), and [GNT14](../audits/literature/GNT14/readme.md).
 They distinguish the actual arXiv or journal editions, metadata, theorem numbers and external-proof limits.
 The retained [Han26 inspection](../audits/literature/Han26/Yin_U001.md) remains the responsible home for that source's detailed input boundary.

@@ -30,3 +30,14 @@ The [imaginary-coefficient counterexample](Yin_U001.md#literal-generator-obstruc
 The [selected application and appendix passages](Yin_U001.md#coordinate-passages) and [fixed-phase conversion](Yin_U001.md#fixed-phase-conversion) preserve the useful coordinate evidence and its unproved arithmetic boundary.
 No repaired source theorem is adopted by these edition notes.
 The generic complex proof uses TV08 finite nets instead, so the [retained NO15 limitations](Yin_U001.md#inspection-and-current-use) are not pending source inputs to that proof.
+
+## Yin: final elliptic least-value interface
+
+[Yin_U002](Yin_U002.md#no15-u002) retains Definitions 1.3 and 1.6 and Theorem 1.9 from PDF pp. 2--5 of the same selected arXiv v4 original.
+It gives the exact complex mirror covariance, permitted diagonal laws, arbitrary polynomially bounded complex shifts, and marginal/conditional interpretation used by the additive-polynomial candidate.
+The final theorem statement and applicability were checked; its whole proof was not re-audited.
+The [source-proof boundary](Yin_U002.md#source-proof-boundary) explicitly retains U001's relevant internal arithmetic issues and their occurrence in the least-value proof chain, without treating them as either a verified repair or a refutation of the final theorem.
+The [local replacement](../../../claims/Yin_C_F0194_v10.md#argument) supplies the precise least-value interface through separately reviewed mixed geometry and joint profile counting.
+It does not correct the literal source statements or establish whole-edition proof equivalence.
+The [Claim A.2 inspection](Yin_U002.md#separation-obstruction) additionally retains explicit allowed atomic counterexamples to its separated-ratio conclusion, including a symmetrized-law example from the actual Appendix A application.
+The final theorem remains unrefuted, with the affected geometric and counting inputs unresolved.
