@@ -1,9 +1,7 @@
 # YMR: Yin's Math Research
 
-To human readers: [Publication page](user-manual/publication.md) is all you need to read.
+To human readers: a summary can be found at [publication page](user-manual/publication.md).
 
-For first installation, use a local project root and any target project remote that are empty apart from Git setup, under the [installation action](framework/agent-actions.md#install-the-framework).
-Confirm these conditions before obtaining the selected version's files from the [official repository](https://github.com/vtejdn/acme) or writing to the target; if either side has project work, preserve it, stop and report it to the human author.
 An existing ACME installation uses the [upgrade action](framework/agent-actions.md#upgrade-installed-framework) at its current root when an upgrade is requested, without an empty-target requirement.
 
 This mathematical research repository uses ACME, Autonomous and Collaborative Mathematical Exploration.
