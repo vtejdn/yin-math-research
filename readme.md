@@ -4,7 +4,7 @@ To human readers: a summary can be found at [publication page](user-manual/publi
 
 An existing ACME installation uses the [upgrade action](framework/agent-actions.md#upgrade-installed-framework) at its current root when an upgrade is requested, without an empty-target requirement.
 
-This mathematical research repository uses ACME, Autonomous and Collaborative Mathematical Exploration.
+This mathematical research repository uses the framework [ACME](https://github.com/vtejdn/acme), Autonomous and Collaborative Mathematical Exploration.
 This entrance orients agents working in the existing checkout under the actual human instruction.
 At each work-round start, follow the [local-rule reading and daily official check](framework/agent-actions.md#start-a-work-round) and the [current-rule duty](framework/rules/workflow.md#proportionate-execution), independently of public-query availability.
 A newer-version reminder leaves the current assignment and upgrade authorization separate.

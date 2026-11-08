@@ -242,6 +242,7 @@ The [single-input sign coefficients](../drafts/Yin_D_F0033.md#all-sign-layers) a
 Their [linearization and logical boundaries](../ledger/Yin_L_F0061_v2.md) permit independent progress tracking while this route retains the full F0012 planar-defect objective.
 Completion of either determinant Task does not by itself complete this route or F0012.
 Their [exact marginal criteria](../claims/Yin_C_F0190_v1.md#statement) permit a favorable deterministic subsequence for the upper-limit problem, while the present route still owes the full-sequence planar assertion.
+The [fourth-moment comparison](../ledger/Yin_L_F0061_v3.md#gap) explains how an invertible free pencil yields the determinant limsup with only second moments on the diagonal, and [why the argument stops](../ledger/Yin_L_F0061_v3.md#no-gap) when a positive free determinant has no singular-value gap.
 
 ## Next discriminating work and limits
 
