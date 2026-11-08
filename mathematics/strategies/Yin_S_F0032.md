@@ -191,6 +191,9 @@ Its [exact defect equivalence](../claims/Yin_C_F0186_v4.md#remaining-defect) red
 This isolates a necessary and sufficient missing assertion rather than asserting a new full theorem.
 The exact cyclic subclass \(g(AC^*C)\), \(A=A^*\), is already covered by that reviewed result.
 
+The [working disk-average argument](../drafts/Yin_D_F0009.md#disk-moment) reduces the general lower bound to one truncated second eigenvalue moment and derives [local convergence outside the filled Brown support](../drafts/Yin_D_F0009.md#thin-support).
+For filled supports of positive area, the [lower-deviation estimate for the original Wigner laws](../drafts/Yin_D_F0009.md#wigner-lower-bound) remains open in general.
+
 The [reviewed intermediate bound](../claims/Yin_C_F0187_v2.md#decision-complex-intermediate-reviewed) gives \(s_{N-j}(W+F)\ge c j/N\) for \(j\ge N^{3/4}\), uniformly for independent complex shifts, outside summable failures.
 The [completed scalar conditional-shift route](Yin_S_F0033.md#route) now proves the [displayed nonnormal polynomial classes](../claims/Yin_C_F0186_v6.md#statement), including affine two-factor products and polynomial symmetric conditional shifts.
 For a general matrix-valued linearization, block-row correlations and coefficient-space degeneracy still need their own estimates; the scalar-shift result does not automatically tensorize.
