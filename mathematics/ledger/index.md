@@ -70,6 +70,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0064](Yin_L_F0064_v1.md) | Alternative Schur pivots and phase anti-concentration boundaries for Haar pencils | [v1](Yin_L_F0064_v1.md) |
 | [Yin_L_F0065](Yin_L_F0065_v1.md) | Exact-input truncation thresholds and scalar planar smoothing boundaries | [v1](Yin_L_F0065_v1.md) |
 | [Yin_L_F0066](Yin_L_F0066_v19.md) | Cofactor and block-geometry obstructions | [v1](Yin_L_F0066_v1.md), [v2](Yin_L_F0066_v2.md), [v3](Yin_L_F0066_v3.md), [v4](Yin_L_F0066_v4.md), [v5](Yin_L_F0066_v5.md), [v6](Yin_L_F0066_v6.md), [v7](Yin_L_F0066_v7.md), [v8](Yin_L_F0066_v8.md), [v9](Yin_L_F0066_v9.md), [v10](Yin_L_F0066_v10.md), [v11](Yin_L_F0066_v11.md), [v12](Yin_L_F0066_v12.md), [v13](Yin_L_F0066_v13.md), [v14](Yin_L_F0066_v14.md), [v15](Yin_L_F0066_v15.md), [v16](Yin_L_F0066_v16.md), [v17](Yin_L_F0066_v17.md), [v18](Yin_L_F0066_v18.md), [v19](Yin_L_F0066_v19.md) |
-| [Yin_L_F0067](Yin_L_F0067_v1.md) | Independent row replacements and the truncated second eigenvalue moment | [v1](Yin_L_F0067_v1.md) |
+| [Yin_L_F0067](Yin_L_F0067_v2.md) | Independent row replacements and paired border growth | [v1](Yin_L_F0067_v1.md), [v2](Yin_L_F0067_v2.md) |
 | [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
 | [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |

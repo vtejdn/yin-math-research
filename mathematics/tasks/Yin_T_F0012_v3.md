@@ -88,6 +88,12 @@ The [reviewed GOE theorem](../claims/Yin_C_F0186_v9.md#decision-goe-parity-revie
 It allows arbitrary cross-size coupling and gives one event for every bounded continuous test function.
 This completes the GOE submodel, while the present arbitrary finite-variance contract remains active.
 
+The [reviewed planar support theorem C186v25](../claims/Yin_C_F0186_v25.md#decision-free-semidefinite-reviewed) gives full almost-sure Brown convergence whenever the filled limiting Brown support has planar area zero, under all original complex-input finite-variance laws and arbitrary cross-size couplings.
+Its product application covers \(g(AB)\) for arbitrary self-adjoint polynomial factors \(A,B\) with shared variables, provided only that \(B(s)\) is semidefinite at the free tuple.
+The [independent whole-proof finding](../audits/reviews/Yin_R_F0190_v24.md#free-semidefinite-whole-proof) covers the complete planar proof, singular factors, outer polynomials and the repeated-variable example \((xy+yx)(5-x^2)\), whose truncated second eigenvalue moment tends almost surely to 24.
+Finite-dimensional factors may be eventually indefinite under the exhibited fixed heavy-tailed law.
+The general positive-area filled-support case retains its missing lower-defect estimate.
+
 The fixed-law assumption excludes an arbitrary variance-one triangular array whose entry law changes with size without a Lindeberg condition.
 No expectation-convergence assertion for unregularized logarithmic determinants is part of this contract.
 A failure of such an auxiliary assertion for discrete laws is not a counterexample to the stated weak almost-sure conclusion.

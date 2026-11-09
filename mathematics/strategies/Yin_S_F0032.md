@@ -17,7 +17,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Extend beyond the adopted real symmetric size-three positive-frame class through verified new geometry; test actual-background rank and complete quartic concentration for xy+2yx. |
+| priority | Advance the general planar logarithmic lower bound through paired border growth and exact affine block linearization, using the adopted thin-support and free-semidefinite subclasses as resolved cases; retain the actual-background quartic route for xy+2yx. |
 
 ## Current allocation and discriminating tests
 
@@ -191,7 +191,12 @@ Its [exact defect equivalence](../claims/Yin_C_F0186_v4.md#remaining-defect) red
 This isolates a necessary and sufficient missing assertion rather than asserting a new full theorem.
 The exact cyclic subclass \(g(AC^*C)\), \(A=A^*\), is already covered by that reviewed result.
 
-The [working disk-average argument](../drafts/Yin_D_F0009.md#disk-moment) reduces the general lower bound to one truncated second eigenvalue moment and derives [local convergence outside the filled Brown support](../drafts/Yin_D_F0009.md#thin-support).
+The [working disk-average argument](../drafts/Yin_D_F0009.md#disk-moment) reduces the general lower bound to one truncated second eigenvalue moment.
+The [adopted planar theorem C186v25](../claims/Yin_C_F0186_v25.md#decision-free-semidefinite-reviewed) now proves local convergence outside the filled Brown support and full Brown convergence when that filled support has zero area.
+It also covers \(g(AB)\) with arbitrary repeated-variable self-adjoint factors and semidefiniteness only of \(B(s)\), including finite factors that are eventually indefinite.
+The [paired-border exploration](../ledger/Yin_L_F0067_v2.md#paired-border-growth) gives a deterministic singular-product increase without independent row and column half-steps, with its terminal cancellation and planar example retained at the same fixed record.
+The [auxiliary-block calculation](../drafts/Yin_D_F0009.md#auxiliary-block-interface) now reduces one sufficient block-growth estimate to a multiplicative projection-volume inequality, still unresolved even for auxiliary size two.
+That precise inequality is the next discriminating test before actual original-law projection estimates and the terminal Schur integral.
 For filled supports of positive area, the [lower-deviation estimate for the original Wigner laws](../drafts/Yin_D_F0009.md#wigner-lower-bound) remains open in general.
 
 The [reviewed intermediate bound](../claims/Yin_C_F0187_v2.md#decision-complex-intermediate-reviewed) gives \(s_{N-j}(W+F)\ge c j/N\) for \(j\ge N^{3/4}\), uniformly for independent complex shifts, outside summable failures.
