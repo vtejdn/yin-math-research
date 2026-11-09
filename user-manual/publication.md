@@ -1,10 +1,15 @@
 # Publication
 
 ## Work in progress
+
+My current focus is on understanding the mathematics behind the projects listed below.
+
 - [Rationality criteria](../mathematics/manuscripts/Yin_T_F0001/paper/main.pdf)\
   See also [Task F0001](../mathematics/tasks/Yin_T_F0001_v7.md)
 
 ## Raw math-mining output
+
+If you find any of the material below useful for your own research, feel free to use, adapt, or build on it. A brief acknowledgment of the source is sufficient.
 
 - [A variational formula for affine semicircular determinants](../mathematics/manuscripts/Yin_T_F0008/paper/main.pdf)\
   See also [Task F0008](../mathematics/tasks/Yin_T_F0008_v1.md)
