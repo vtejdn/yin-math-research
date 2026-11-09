@@ -1,4 +1,4 @@
-# Publication
+# Publications
 
 ## Work in progress
 
