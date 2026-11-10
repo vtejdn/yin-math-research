@@ -5,6 +5,8 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope | Retained versions |
 | --- | --- | --- |
+| [Yin_R_A0002](Yin_R_A0002_v1.md#whole-argument-finding) | Independent whole-argument review of amenable finite-support kernel extraction and scalar Schur complements | [v1](Yin_R_A0002_v1.md) |
+| [Yin_R_A0003](Yin_R_A0003_v1.md#whole-argument-finding) | Independent whole-argument review of the JZ19 spectral-chain tensor completion, domains, dimension limit and centralizer consequence | [v1](Yin_R_A0003_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

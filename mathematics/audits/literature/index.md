@@ -5,6 +5,16 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [Ele03/Yin_U001](Ele03/Yin_U001.md#ele03-u001) | Complete four-page proof audit; finite propagation, local dimension, Følner error and the rational-operator transfer boundary |
+| [JZ19/Yin_U001](JZ19/Yin_U001.md#jz19-u001) | Complete published-edition audit; coefficient change, ranked regular envelopes, arithmetic repairs and the separately reviewed Lemma 9.10(2) completion |
+| [JZLA20/Yin_U001](JZLA20/Yin_U001.md#jzla20-u001) | Complete arXiv v4 audit; Hughes freeness, rational tree complexity, local indicability and actual analytic division rings |
+| [Lin93/Yin_U001](Lin93/Yin_U001.md#lin93-u001) | Complete article audit; free-tree rank mechanism, elementary amenable extensions and distinct universal-field dependencies |
+| [Lin06/Yin_U001](Lin06/Yin_U001.md#lin06-u001) | Selected two-edition audit of localization definitions, Proposition 2.2, Theorem 2.6 and the matrix-localization interface |
+| [Bar19/Yin_U001](Bar19/Yin_U001.md#bar19-u001) | Complete Kielak appendix and necessary Section 2 proof; corrected conventions, nonamenable module injection and Ore flatness |
+| [DHS04 source notes](DHS04/readme.md) | Retained author manuscript and the selected Hughes uniqueness, tree-order and source-subgroup interfaces |
+| [JZ19b source notes](JZ19b/readme.md) | Retained survey manuscript; selected rational approximation, marked-group and amenable-extension interfaces |
+| [RS13 source notes](RS13/readme.md) | Retained arXiv v1; tensor-domain Lemma 1.1 inspected within JZ19's dependency audit |
+| [Vir19 source notes](Vir19/readme.md) | Retained arXiv v2 and contents; Theorem B inspected at statement and applicability depth |
 | [ACSY24/Yin_U001](ACSY24/Yin_U001.md) | ACSY24: Small-Core Derivations and Maximal Delta |
 | [ACSY24/Yin_U002](ACSY24/Yin_U002.md) | ACSY24: Matrix Models and Group Atiyah Interfaces |
 | [ACSY24/Yin_U003](ACSY24/Yin_U003.md) | ACSY24: matrix realizations, derivations, compression and Atiyah interfaces |

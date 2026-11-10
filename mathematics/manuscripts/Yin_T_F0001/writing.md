@@ -8,6 +8,7 @@ author: Yin
 
 The paper addresses readers in free probability and operator algebras.
 The explicit manuscript choices below apply together with the current repository's mathematical writing rules.
+Omit the manuscript byline and author contact details.
 
 ## Style and Terminology Sources
 

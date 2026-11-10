@@ -5,6 +5,8 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope | Retained versions |
 | --- | --- | --- |
+| [Yin_L_A0001](Yin_L_A0001_v1.md) | Complex-coefficient Atiyah conjecture: known results and route boundaries | [v1](Yin_L_A0001_v1.md) |
+| [Yin_L_A0002](Yin_L_A0002_v1.md) | Torsion-freeness and actual rational inverses: first mechanism tests | [v1](Yin_L_A0002_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

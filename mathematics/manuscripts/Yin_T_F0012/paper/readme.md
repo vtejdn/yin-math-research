@@ -8,6 +8,12 @@ The [project record](../readme.md) identifies the underlying arguments, and the 
 ## Local build
 
 Run from this `paper/` directory with pdfLaTeX and BibTeX.
+Use this command with TeX Live and latexmk.
+
+```powershell
+latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
+```
+
 The tested MiKTeX commands use installed packages, disable automatic package installation and keep output alongside `main.tex`.
 
 ```powershell
@@ -23,9 +29,9 @@ Auxiliary outputs are ignored.
 
 ## Latest build
 
-On 2026-11-05, the commands above built the Task v2 manuscript with revision requests R1–R8 addressed, using the current `main.tex`, all five included sections and the local bibliography inputs with MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
-The output has twelve pages.
+On 2026-11-10 the TeX Live command above compiled the current Task v2 source after removal of the byline and author contact details.
+TeX Live 2026 with pdfTeX 1.40.29, BibTeX 0.99e and latexmk 4.88 produced a twelve-page `main.pdf`.
 The final logs report no unresolved citations or cross-references, missing characters or box diagnostics.
 The generated bibliography contains the twelve cited works with alphabetic author–year labels, initialed given names, full family names and alphabetical author order.
 Both occurrences of `Hermitian` in the BSS18 title retain their capitalization in the generated bibliography.
-Page rendering and visual inspection were outside the build check under [Yin's compilation policy](../../../../profiles/Yin/writing/readme.md#compilation-and-layout-checks).
+Checks of the extracted PDF text and metadata confirmed that the byline, running author name and contact details are absent and the PDF author field is empty.

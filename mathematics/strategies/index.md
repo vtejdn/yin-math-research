@@ -7,6 +7,16 @@ Navigation does not authorize execution, select evidence or reopen a Task.
 Hierarchy and reverse child listings include only the supplied routes; omitted children are not asserted absent.
 Each Task entrance includes only that route's explicit Task associations.
 
+<a id="task-yin_t_a0001"></a>
+## Yin_T_A0001
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_A0001](Yin_S_A0001.md) | Finite extensions through analytic crossed products | Yin | proposed | Preferred concrete companion to route four; test the index-two rational obstruction after checking actual realization and existing coverage. | [Yin_T_A0001_v1: The complex-coefficient Atiyah conjecture for torsion-free groups](../tasks/Yin_T_A0001_v1.md#contract) | Transfer the complex-coefficient conjecture from a normal finite-index subgroup to its torsion-free overgroup under explicit sufficient hypotheses. | Root |
+| [Yin_S_A0002](Yin_S_A0002.md) | Infinite cyclic amalgamation through universal localization | Yin | proposed | Reserve candidate; select a concrete infinite cyclic edge and a mechanism for its Tor or rank obstruction before allocating a parallel investigation. | [Yin_T_A0001_v1: The complex-coefficient Atiyah conjecture for torsion-free groups](../tasks/Yin_T_A0001_v1.md#contract) | Seek a controlled infinite-edge extension of known graph-of-groups permanence for complex group rings. | Root |
+| [Yin_S_A0003](Yin_S_A0003.md) | Integer-rank approximation with control near zero | Yin | proposed | Conditional; choose an actual target family before investing in a new spectral estimate. | [Yin_T_A0001_v1: The complex-coefficient Atiyah conjecture for torsion-free groups](../tasks/Yin_T_A0001_v1.md#contract) | Transfer integer kernel dimensions along specified marked-group approximations, separating existing convergence theorems from genuinely missing inputs. | Root |
+| [Yin_S_A0004](Yin_S_A0004.md) | Relations-compatible analytic and algebraic ranks | Yin | active | Current priority selected by Yin; seek group-specific control of actual rational kernels, using the index-two extension probe as the preferred structured test. | [Yin_T_A0001_v1: The complex-coefficient Atiyah conjecture for torsion-free groups](../tasks/Yin_T_A0001_v1.md#contract) | Prove that the actual affiliated rational closure of a complex group ring is a division ring, using the MSY23 equivalence with integer matrix rank. | Root |
+
 <a id="task-yin_t_f0001"></a>
 ## Yin_T_F0001
 

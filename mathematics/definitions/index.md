@@ -52,6 +52,7 @@ Recorded consumer navigation: Sufficient-class use in [Yin_C_F0094's statement](
 ### Scalar division closure and matrix rational closure
 
 Exact definition homes and conventions: [The two fixed-ambient operations](../audits/literature/MSY23/Yin_U003.md#definitions-47-and-410-two-closures-in-one-ambient-algebra), [source terminology conversion](../audits/literature/MSY23/Yin_U002.md#fixed-ambient-closure-conventions), and the separate [matrix-domain Property I](../audits/literature/PV23/Yin_U001.md#matrix-domain-property-i).
+The [Lin06 comparison](../audits/literature/Lin06/Yin_U001.md#matrix-localization-and-fixed-ambient-closures) states the universal property of matrix localization and distinguishes its universal map from the image in a fixed ambient rational closure.
 
 Recorded consumer navigation: [Yin_C_F0008's recorded uses](../ledger/Yin_L_F0004_v1.md#yin_c_f0008-definitions) distinguish closure operations in its statement/proof from the Property I terminology comparison.
 
@@ -72,6 +73,45 @@ The [central-eigenvalue definition](../audits/literature/MSY23/Yin_U001.md#defin
 Algebraic Hankel rank has its own entry below.
 
 Recorded consumer navigation: Statement/proof uses: [Yin_C_F0007](../ledger/Yin_L_F0004_v1.md#yin_c_f0007-definitions); specified P2 use: [Yin_C_F0029-P2](../ledger/Yin_L_F0004_v1.md#yin_c_f0029-definitions).
+
+### Følner boundaries, propagation and local projection dimension
+
+Exact source homes and conventions: [Ele03's right-invariant word metric, inner boundary, Følner exhaustion and convolution width](../audits/literature/Ele03/Yin_U001.md#folner-and-propagation), and [finite-set projection dimension](../audits/literature/Ele03/Yin_U001.md#local-dimension).
+Local projection dimension uses the projection onto the closure and normalization by the cardinality of the finite set.
+The matrix extension uses the unnormalized matrix trace, so the error factor is the number of input components.
+
+Recorded consumer navigation: [matrix kernel estimate](../claims/Yin_C_A0001_v1.md#matrix-boundary-estimate) and [amenable Schur-complement extraction](../claims/Yin_C_A0001_v1.md#schur-complement-extraction).
+
+### Regular rings, relative inverses and ranked envelopes
+
+| Concept and exact home | Source convention and use |
+| --- | --- |
+| [Regularity, proper and positive definite involutions, relative inverses, regular closure and rank completion](../audits/literature/JZ19/Yin_U001.md#regular-closure-definitions) | Keep relative inverses distinct from ordinary inverses; JZ19's regular closure is not the general matrix rational closure. |
+| [Epic homomorphisms, Sylvester ranks and regular ranked envelopes](../audits/literature/JZ19/Yin_U001.md#epic-rank-linearization) | All matrix sizes enter the faithful-rank uniqueness interface; [JZLA20's conventions](../audits/literature/JZLA20/Yin_U001.md#rank-and-closures) specify the corresponding crossed-product application. |
+| [Natural algebraic and transcendental rank extensions](../audits/literature/JZ19/Yin_U001.md#natural-rank-extensions) | [JZLA20's skew-extension convention](../audits/literature/JZLA20/Yin_U001.md#natural-extensions) retains the automorphism and finite-module length hypotheses. |
+| [Affiliated Hilbert–Schmidt centralizer](../audits/literature/JZ19/Yin_U001.md#hilbert-schmidt-mechanism) | The definition uses denominator-cleared affiliated commutation; [generalized-kernel layers and the completed tensor map](../claims/Yin_C_A0002_v1.md#statement) retain their exact closed-power, trace and domain conventions. |
+
+Recorded consumer navigation: [JZ19's coefficient-change argument](../audits/literature/JZ19/Yin_U001.md#base-change-proof), [JZLA20's actual-closure comparison](../audits/literature/JZLA20/Yin_U001.md#general-torsion-free-boundary), and [the fourth route](../strategies/Yin_S_A0004.md#source-audit-findings).
+
+### Group approximation, Hughes freeness and rational complexity
+
+| Concept and exact home | Source convention and use |
+| --- | --- |
+| [Sofic and general finite-set approximation](../audits/literature/JZ19/Yin_U001.md#rank-and-approximation-definitions) | The group, marked finite sets and matrix-rank normalization remain explicit. |
+| [Marked-group convergence](../audits/literature/JZLA20/Yin_U001.md#approximation-proof) | The source's fixed free-group and normal-subgroup description supplies its approximation setting. |
+| [Local indicability and Hughes-free rank](../audits/literature/JZLA20/Yin_U001.md#hughes-free) | Independence over the subgroup division closure and the infinite cyclic quotient are part of the hypotheses. |
+| [Rational semirings, finite source and tree complexity](../audits/literature/JZLA20/Yin_U001.md#rational-complexity) | Complexity is minimized over representations in the stated rooted-tree well-order. |
+| [Universal epic division rings and maximal integer-valued ranks](../audits/literature/JZLA20/Yin_U001.md#universality) | Universal and maximal are separate conditions; the source does not identify the rank with inner rank in general. |
+| [Elementary amenable groups and Linnell's class](../audits/literature/Lin93/Yin_U001.md#group-class-and-exact-theorems) | The closure operations defining the classes are retained, rather than replacing them by torsion-freeness. |
+
+Recorded consumer navigation: the source proofs at these homes and [their limitations for the fourth route](../strategies/Yin_S_A0004.md#source-audit-findings).
+
+### Crossed products and Ore localization
+
+Exact definition home: [Lin06's crossed-product multiplication, regular elements, left and right Ore conditions and classical fractions](../audits/literature/Lin06/Yin_U001.md#crossed-product-and-ore-conventions).
+The [finite-set Følner criterion for arbitrary groups](../audits/literature/Bar19/Yin_U001.md#amenability-and-finite-support-conventions) complements Ele03's finitely generated metric convention.
+
+Recorded consumer navigation: [the free-subgroup obstruction](../audits/literature/Lin06/Yin_U001.md#free-subgroup-obstruction), [amenable-domain localization](../audits/literature/Lin06/Yin_U001.md#amenable-domain-localization), and [Kielak's flatness argument](../audits/literature/Bar19/Yin_U001.md#ore-converse-and-flatness).
 
 <a id="transitive-operator-spaces"></a>
 ### Transitive operator spaces

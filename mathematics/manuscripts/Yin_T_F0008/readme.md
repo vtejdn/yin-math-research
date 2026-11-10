@@ -36,7 +36,6 @@ The [comparison record](../../ledger/Yin_L_F0033_v1.md) retains the broader rese
 The selection is a manuscript organization authorized by the user.
 No reusable lemmas have been extracted, and the project Claim Role fields and original proof versions have not changed.
 Manuscript work does not reopen the completed research goal.
-The publication byline and contact details in the TeX were explicitly requested by Yin.
 No literature-priority determination is claimed.
 
 ## Manuscript Section Plan

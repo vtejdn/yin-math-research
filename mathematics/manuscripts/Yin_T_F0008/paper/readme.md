@@ -1,7 +1,7 @@
 # A Variational Formula for Affine Semicircular Determinants
 
 Responsible manuscript author: Yin.
-The publication author is Sheng Yin, Institute for Advanced Study in Mathematics, Harbin Institute of Technology; email: sheng.yin@hit.edu.cn.
+Omit the manuscript byline and author contact details.
 The project [citation map](../citation.md) records current external citation uses and links to their source evidence.
 
 ## Current manuscript
@@ -81,6 +81,13 @@ The generated bibliography was inspected for all 29 cited entries, including lab
 All build inputs remained unchanged during compilation.
 No pages were rendered or visually inspected for this revision, following the author's compilation policy.
 This formatting and build check supplies no new mathematical or citation-applicability review.
+
+## Latest build
+
+On 2026-11-10 the in-directory `latexmk` command above compiled the current source after removal of the byline and author contact details.
+TeX Live 2026 with pdfTeX 1.40.29, BibTeX 0.99e and latexmk 4.88 produced a 36-page `main.pdf`.
+The final logs show resolved citations and cross-references and report no missing characters or box diagnostics.
+Checks of the extracted PDF text and metadata confirmed that the byline, running author name and contact details are absent and the PDF author field is empty.
 
 ## Manuscript review
 
