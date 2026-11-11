@@ -13,6 +13,7 @@ When the row labels lie in one component over an independently known division co
 A finite-tracial comparison isolates why individual Haar laws and an abstract torsion-free generated group do not replace the joint regular trace.
 These are explicit refinements and applications of known energy, Schur, cyclic and spectral mechanisms, with no historical-novelty claim or new positive Atiyah group class.
 All products are closed products in the actual finite affiliated algebra, and all matrix ranks use unnormalized matrix traces.
+The [independent whole-artifact finding](../audits/reviews/Yin_R_A0013_v1.md#whole-artifact-finding) covers the complete investigation, including the conditional normalized-coefficient induction, with the exact source and foundational limits retained in that review.
 
 ## A pair of conditions preserved by scalar elimination
 

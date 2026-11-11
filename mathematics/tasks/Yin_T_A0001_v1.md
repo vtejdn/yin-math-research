@@ -36,7 +36,7 @@ Free groups give a known case over \(\mathbb C\). [Linnell's free-group case](..
 ## Research preparation
 
 The [known-results synthesis](../ledger/Yin_L_A0001_v1.md) distinguishes published cases, the inspected 2026 preprint, source-reading limits and the remaining bridges.
-The [research strategies](../strategies/index.md#task-yin_t_a0001) give four mechanisms and their current discriminating steps.
+The [research strategies](../strategies/index.md#task-yin_t_a0001) give the current mechanisms and their discriminating steps.
 The [first investigation of route four](../ledger/Yin_L_A0002_v1.md) records direct torsion-free invertibility tests and the remaining rational-kernel obstruction.
 
 ## Current decision

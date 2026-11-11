@@ -15,7 +15,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0008](Yin_L_A0008_v1.md) | Exact degree-one stabilization, extreme-coefficient rank bounds, coefficient obstructions and the indicable-support extension of the worked families | [v1](Yin_L_A0008_v1.md) |
 | [Yin_L_A0009](Yin_L_A0009_v1.md) | Scalar dimension induction with torsion-free transport pivots, affine-preserving factorizations and accretive Schur closure | [v1](Yin_L_A0009_v1.md) |
 | [Yin_L_A0010](Yin_L_A0010_v1.md) | Three-term rows, preserved cyclic coefficient fields, explicit Promislow pivots and equivalence with the unrestricted matrix problem | [v1](Yin_L_A0010_v1.md) |
-| [Yin_L_A0011](Yin_L_A0011_v1.md) | Noncyclic path sums: preserved degenerate energy, inverse-difference pivots, rational conjugate collisions and relative-trace limits | [v1](Yin_L_A0011_v1.md) |
+| [Yin_L_A0011](Yin_L_A0011_v1.md) | Noncyclic path sums: preserved energy and normalized coefficient components, rational conjugate collisions and relative-trace limits | [v1](Yin_L_A0011_v1.md) |
+| [Yin_L_A0012](Yin_L_A0012_v1.md) | Atomic probability formulations: matrix mass quantization, selfadjoint affine tests and bounded scalar rational laws | [v1](Yin_L_A0012_v1.md) |
+| [Yin_L_A0013](Yin_L_A0013_v1.md) | Probabilistic strategy: amalgamated atom transport, expected-kernel degeneration and diffuse-base coefficient obstacles | [v1](Yin_L_A0013_v1.md) |
+| [Yin_L_A0014](Yin_L_A0014_v1.md) | First amalgamated-atom tests: ineffective support cuts, affiliated repair, affine realization and nonrational expected kernels with zero boundary shifts | [v1](Yin_L_A0014_v1.md) |
+| [Yin_L_A0015](Yin_L_A0015_v1.md) | Cauchy boundary residues, reciprocal slopes, free heat, entropy, return-word determinants and geometric index strategies | [v1](Yin_L_A0015_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |
@@ -82,5 +86,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0065](Yin_L_F0065_v1.md) | Exact-input truncation thresholds and scalar planar smoothing boundaries | [v1](Yin_L_F0065_v1.md) |
 | [Yin_L_F0066](Yin_L_F0066_v19.md) | Cofactor and block-geometry obstructions | [v1](Yin_L_F0066_v1.md), [v2](Yin_L_F0066_v2.md), [v3](Yin_L_F0066_v3.md), [v4](Yin_L_F0066_v4.md), [v5](Yin_L_F0066_v5.md), [v6](Yin_L_F0066_v6.md), [v7](Yin_L_F0066_v7.md), [v8](Yin_L_F0066_v8.md), [v9](Yin_L_F0066_v9.md), [v10](Yin_L_F0066_v10.md), [v11](Yin_L_F0066_v11.md), [v12](Yin_L_F0066_v12.md), [v13](Yin_L_F0066_v13.md), [v14](Yin_L_F0066_v14.md), [v15](Yin_L_F0066_v15.md), [v16](Yin_L_F0066_v16.md), [v17](Yin_L_F0066_v17.md), [v18](Yin_L_F0066_v18.md), [v19](Yin_L_F0066_v19.md) |
 | [Yin_L_F0067](Yin_L_F0067_v2.md) | Independent row replacements and paired border growth | [v1](Yin_L_F0067_v1.md), [v2](Yin_L_F0067_v2.md) |
+| [Yin_L_F0068](Yin_L_F0068_v1.md) | Gaussian rotation and the fourth-moment Wigner disk lower bound | [v1](Yin_L_F0068_v1.md) |
 | [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
 | [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |

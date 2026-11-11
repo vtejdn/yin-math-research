@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [CKMYZ26/Yin_U001](CKMYZ26/Yin_U001.md#ckmyz26-u001) | Second-moment criterion, disk error, Gaussian rotation and comparison with the repository's disk criterion and adopted GUE proof |
 | [Ele03/Yin_U001](Ele03/Yin_U001.md#ele03-u001) | Complete four-page proof audit; finite propagation, local dimension, Følner error and the rational-operator transfer boundary |
 | [JZ19/Yin_U001](JZ19/Yin_U001.md#jz19-u001) | Complete published-edition audit; coefficient change, ranked regular envelopes, arithmetic repairs and the separately reviewed Lemma 9.10(2) completion |
 | [JZLA20/Yin_U001](JZLA20/Yin_U001.md#jzla20-u001) | Complete arXiv v4 audit; Hughes freeness, rational tree complexity, local indicability and actual analytic division rings |

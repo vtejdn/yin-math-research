@@ -136,6 +136,9 @@ This scoped search establishes a sufficient reference for the bounded criterion,
 For the fixed-law finite-variance F0012 contract, the common operator-norm bound is an extra hypothesis.
 The cutoff criterion here instead uses the [one-disk positive-part control](#one-disk-criterion), and the lower bound on \(m_{N,R}\) for arbitrary \(P\) remains the separate input identified below.
 
+The [CKMYZ26 comparison](../audits/literature/CKMYZ26/Yin_U001.md#repository-disk-comparison) identifies an expectation version of the second-moment criterion in Theorem 3.1 and Remark 3.2 of arXiv:2611.12785v1.
+Its finite-size disk identity agrees with the one here after expanding its tail correction, and its completion for GUE uses complex Gaussian rotation and convexity as described in the [proof comparison](../audits/literature/CKMYZ26/Yin_U001.md#repository-gue-comparison).
+
 <a id="thin-support"></a>
 ## Convergence on the unbounded component and a sufficient support condition
 
@@ -162,6 +165,14 @@ It is necessary for an every-coupling conclusion because independent matrices ac
 No such marginal bound for arbitrary \(P\) follows from (1) or the Hermitized weak limits.
 For independent row-block replacements, the [fourth-moment bound and mean condition](../ledger/Yin_L_F0067_v1.md#mean-and-influences) give one sufficient route to this summability.
 The [single-entry construction for bounded Wigner inputs](../ledger/Yin_L_F0067_v1.md#single-entry-oscillation) rules out a uniform \(o(1)\) influence bound, leaving the size of typical changes open.
+
+<a id="gaussian-rotation-test"></a>
+### Gaussian rotation under fourth moments
+
+The [fixed rotation investigation](../ledger/Yin_L_F0068_v1.md) checks whether CKMYZ26 closes this lower bound for finite-fourth-moment Wigner inputs.
+It gives an exact bounded-law failure of finite-size convexity, an integrability obstruction for the untruncated expectation, and a conditional application of the source's structured-mean Ginibre estimate at fixed positive noise.
+The [remaining boundary target](../ledger/Yin_L_F0068_v1.md#zero-noise-target) is dimension-uniform one-sided stability of the expected cutoff moment when the noise is removed, together with the separate fixed-noise singular-value count needed before that transfer.
+These findings do not establish the general lower bound or the summable deviations required above.
 
 <a id="paired-border-growth"></a>
 ## Continuing paired-border test

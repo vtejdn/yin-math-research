@@ -46,6 +46,29 @@ where the conditional expectation is trace preserving.
 Theorem 3.5(vii) then gives \(\tau(p_{Y_1-b_1})+\tau(p_{Y_2-b_2})=1+\tau(p_{Y-b})\), for the ambient tracial state.
 These exact analytic statements are accepted external inputs at their stated hypotheses; reading their displayed identities and use in the source proof does not amount to an independent audit of their analytic foundations.
 
+### General base algebra and the A0001 strategy interface
+
+On 2026-11-11, the main agent read the introduction and Theorem 3.5 in the [matching arXiv v2 HTML](https://arxiv.org/html/1903.09002v2) for the A0001 strategy discussion.
+The theorem itself allows a general von Neumann subalgebra \(B\); the finite-dimensional matrix base in the preceding reconstruction is its selected application, not a restriction of the source theorem.
+The hypothesis \(E_B(p)>0\) means positive with a bounded inverse.
+Under this hypothesis, the theorem supplies selfadjoint \(b_1,b_2\in B\), with \(b_1+b_2=b\), and the exact kernel-trace identity stated above.
+The introduction and the closed-range discussion in Section 2 identify why a finite-dimensional base makes support restriction effective; full support alone in a diffuse base gives no bounded inverse.
+This is a statement and applicability check, not an additional audit of the analytic proof or the journal edition.
+
+For a proposed cyclic amalgamation, the intended base is \(M_n(\mathcal N(\mathbb Z))\).
+The theorem's existence of boundary values in this base does not put those values in the group ring or its actual rational closure.
+Nor does it make the trace of an arbitrary base support projection an integer under the unnormalized matrix trace.
+The [A0001 feasibility record](../../../ledger/Yin_L_A0013_v1.md) retains these separate restrictions and an actual group-ring example where the expected kernel has full support and nonclosed range.
+
+### Cauchy boundary recovery
+
+On 2026-11-11 a development helper checked Lemmas 2.1 and 2.3 in the matching arXiv v2 primary text for the Cauchy-transform exploration in [L_A0015](../../../ledger/Yin_L_A0015_v1.md#boundary-residues-and-reciprocal-slopes).
+Lemma 2.1 recovers the kernel projection as the non-tangential sigma-strong limit of the scaled resolvent, and its conditional expectation as the corresponding scaled operator-valued Cauchy limit.
+Its mixed-moment statement retains more information than the scalar trace of the projection.
+Lemma 2.3 recovers the inverse expected kernel from the scaled reciprocal transform when the expected kernel is positive with a bounded inverse.
+This is a statement and applicability check, with the analytic foundations accepted rather than independently re-audited.
+The scalar residue and reciprocal-ratio arguments in L_A0015 are also proved there directly.
+
 ### Limits of the source's stated doubling conclusion
 
 Lemma 4.7 cuts a kernel by scalar-matrix support projections to make its expected kernel invertible, with an integer change in the unnormalized nullity.

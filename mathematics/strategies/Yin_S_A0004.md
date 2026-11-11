@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Use the preserved degenerate-energy certificate where available, and isolate zero-or-unit tests for rationally conjugated row separations in inverse-difference elimination. |
+| priority | Use the preserved degenerate-energy and normalized-coefficient-component certificates, and seek independent separation tests beyond those controlled classes. |
 
 ## Mechanism and obstruction
 
@@ -31,7 +31,10 @@ Its [concrete next pivot](../ledger/Yin_L_A0011_v1.md#a-noncyclic-positive-ratio
 The Promislow calibration [excludes every original constant positive weight and phase with an injective positive real part](../ledger/Yin_L_A0011_v1.md#a-screen-excluding-every-direct-full-rank-constant-weight-real-part), so this extends the previous original-pencil sufficient condition while retaining known energy and group-class coverage.
 An [inverse-difference Schur identity](../ledger/Yin_L_A0011_v1.md#one-inverse-difference-schur-step) separately factors a two-path sum into six already controlled differences, with no commutation assumption.
 For central column parameters, the [preserved shape](../ledger/Yin_L_A0011_v1.md#a-shape-invariant-with-central-column-parameters) leaves the exact three-square defect in one difference of two rationally conjugated row parameters; original pairwise binomial invertibility does not certify that new difference.
+When the row parameters lie in one component over an independently known division coefficient ring normalized by a known unit, the [complete conditional induction](../ledger/Yin_L_A0011_v1.md#a-complete-conditional-invariant-in-one-normalized-coefficient-component) preserves zero-or-unit separation, permits exact row mergers and computes integer rank for rectangular arrays.
+Its coefficient division, normalizing structure, central column parameters and initial difference-unit certificates are additional hypotheses, not consequences of torsion-freeness alone.
 The [Klein bottle collision](../ledger/Yin_L_A0011_v1.md#an-actual-torsion-free-collision-after-one-step) has rank two and shows why an induction must allow exact mergers, while the [relative-path trace comparison](../ledger/Yin_L_A0011_v1.md#individual-diffuse-path-laws-do-not-suffice) excludes individual Haar laws and abstract torsion-freeness as substitutes for joint regular-trace control.
+The [independent whole-artifact review](../audits/reviews/Yin_R_A0013_v1.md#whole-artifact-finding) covers both preserved classes, all explicit pivots, rank identities, collisions and exclusions at their stated foundational and source scope.
 
 The [three-term investigation](../ledger/Yin_L_A0010_v1.md#group-and-selected-pencil) selects a Promislow pencil whose identity-pivot reduction leaves \(1+a+b\), outside the specified direct cyclic, constant-weight energy and supporting-subgroup integer-grading tests.
 Its [actual four-coset model](../ledger/Yin_L_A0010_v1.md#actual-finite-index-matrix-model) has a complete independently certified scalar pivot chain in the translation subgroup's rational function field, so it supplies an explicit calibration within known virtually abelian coverage.
@@ -157,6 +160,7 @@ Then test the [explicit cyclic row and column factors](../ledger/Yin_L_A0010_v1.
 For a semidefinite real part with explicit zero coordinates, test the [preserved imaginary-compression condition](../ledger/Yin_L_A0011_v1.md#a-pair-of-conditions-preserved-by-scalar-elimination) before treating a noncyclic next pivot as unresolved.
 The energy branch still needs a separate certificate when that compression has uncontrolled kernel or loses the specified positivity.
 For inverse-difference arrays with central column parameters, target the exact [transformed row separation](../ledger/Yin_L_A0011_v1.md#a-shape-invariant-with-central-column-parameters), distinguishing a certified merger from a nonzero separation whose actual rank remains unknown.
+First test the [known normalized coefficient component](../ledger/Yin_L_A0011_v1.md#a-complete-conditional-invariant-in-one-normalized-coefficient-component), whose preserved coefficient formula closes the induction with mergers; outside it, seek an independent zero-or-unit certificate rather than assuming the unknown full rational closure is a division ring.
 Any relative-path spectral alternative must certify the relative operator's joint trace information, not merely individual diffuseness or an abstract torsion-free presentation.
 The [three-term equivalence](../ledger/Yin_L_A0010_v1.md#an-elementary-row-splitting-step) rules out treating row sparsity alone as a weaker intermediate conjecture; it does not rule out a successful structural induction.
 Keep matrix size, word length, additive term count and rational inverse domain distinct; a decrease in one does not establish a decrease or a certificate for the others.
