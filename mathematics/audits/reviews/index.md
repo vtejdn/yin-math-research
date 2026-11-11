@@ -7,6 +7,14 @@ Mathematical content, source inspections, finite computation limits and review r
 | --- | --- | --- |
 | [Yin_R_A0002](Yin_R_A0002_v1.md#whole-argument-finding) | Independent whole-argument review of amenable finite-support kernel extraction and scalar Schur complements | [v1](Yin_R_A0002_v1.md) |
 | [Yin_R_A0003](Yin_R_A0003_v1.md#whole-argument-finding) | Independent whole-argument review of the JZ19 spectral-chain tensor completion, domains, dimension limit and centralizer consequence | [v1](Yin_R_A0003_v1.md) |
+| [Yin_R_A0005](Yin_R_A0005_v1.md#whole-argument-finding) | Independent whole-argument review of the actual index-two crossed product, norm criterion, half-rank witness and rational residue calibration | [v1](Yin_R_A0005_v1.md) |
+| [Yin_R_A0006](Yin_R_A0006_v1.md#whole-argument-finding) | Independent whole-argument review of the general Atiyah linear-pencil equivalences and formal and group-ring fullness obstructions | [v1](Yin_R_A0006_v1.md) |
+| [Yin_R_A0007](Yin_R_A0007_v1.md#claim-finding) | Independent whole-argument reviews of positive energy and regular-transport rank certificates and the complete bordered-rank boundary investigation | [v1](Yin_R_A0007_v1.md) |
+| [Yin_R_A0008](Yin_R_A0008_v1.md#whole-artifact-finding) | Independent complete review of kernel-preserving Schur-complement normalizations, parameter boundaries and known-coverage limits | [v1](Yin_R_A0008_v1.md) |
+| [Yin_R_A0009](Yin_R_A0009_v1.md#whole-artifact-finding) | Independent complete review of complementary-block screening, character-orbit and graded companion certificates, actual multipliers and known cyclic-extension coverage | [v1](Yin_R_A0009_v1.md) |
+| [Yin_R_A0010](Yin_R_A0010_v1.md#whole-artifact-finding) | Independent complete review of terminating degree-one reduction, extreme-coefficient rank bounds, coefficient obstructions and all indicable-support parameter cases | [v1](Yin_R_A0010_v1.md) |
+| [Yin_R_A0011](Yin_R_A0011_v1.md#combined-outcome) | Independent reviews covering the complete scalar-dimension induction artifact and its original-border application, with actual unit premises, singular endpoints and domain-safe rank accounting | [v1](Yin_R_A0011_v1.md) |
+| [Yin_R_A0012](Yin_R_A0012_v1.md#whole-artifact-finding) | Independent whole-artifact review of three-term rows, actual pivot certificates, preserved cyclic gauges, original-border ranks and the full-matrix row-splitting obstruction | [v1](Yin_R_A0012_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

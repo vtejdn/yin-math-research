@@ -13,27 +13,36 @@ author: Yin
 
 | Field | Value |
 | --- | --- |
-| disposition | proposed |
-| priority | Preferred concrete companion to route four; test the index-two rational obstruction after checking actual realization and existing coverage. |
+| disposition | active |
+| priority | Concrete companion to route four; the actual index-two reduction is established, and the next mechanism must exceed the demonstrated cyclic-quotient descent or known finite-extension coverage. |
 
 ## Mechanism and missing bridge
 
 Assume \(H\triangleleft G\), \(G/H\) finite, \(G\) torsion-free and the conjecture known for \(H\).
 Set \(D=D_{\mathbb C}(H)\subseteq\mathcal U(H)\).
-The intended bridge is to identify the induced crossed product \(D*(G/H)\) with the relevant analytic closure and establish its division property.
-The [survey's finite-extension probe](../ledger/Yin_L_A0001_v1.md#finite-extension-probe) records the exact conditional setup and a self-checked index-two obstruction.
+The [completed index-two investigation](../ledger/Yin_L_A0003_v1.md#division-and-rational-closure-comparison) proves the actual crossed-product embedding and its equality with both division and rational closures, by specializing Lin93's Artinian finite-extension argument.
+Its [complete criterion](../ledger/Yin_L_A0003_v1.md#complete-norm-criterion-and-the-half-rank-witness) identifies division precisely with absence of a solution to \(\alpha(b)b=h\) in \(D\), and gives a finite group-ring matrix with kernel dimension \(1/2\) from any actual solution.
+The [earlier survey probe](../ledger/Yin_L_A0001_v1.md#finite-extension-probe) retains the initial conditional formulation; its embedding and complete-criterion obligations are now resolved at the new fixed home.
 The known transfer theorem with finite-classifying-space, cohomological-completeness and torsion-free-quotient assumptions is the comparison benchmark, as recorded in the [permanence discussion](../ledger/Yin_L_A0001_v1.md#coefficients-and-permanence).
 The [route-four reassessment](Yin_S_A0004.md#strategic-reassessment) selects this probe because its explicit extension relations may constrain rational elements, whereas the completed general finite-tracial lemmas supply no such constraint.
 This is cross-route reuse of the same finite-extension mechanism, not a claim that the general torsion-free problem has reduced to index two.
 
+## Current test and coverage boundary
+
+The [selected extension](../ledger/Yin_L_A0003_v1.md#concrete-group-and-existing-coverage) is \(G=\langle x,y,z\mid x^2y^2z^2=1\rangle\), with \(H\) the kernel sending each generator to \(1\in C_2\).
+Its orientation character cannot lift to \(\mathbb Z\), excluding the simple invariant odd-valuation obstruction.
+The [leading-coefficient calculation](../ledger/Yin_L_A0003_v1.md#a-leading-coefficient-constraint-on-every-rational-solution) uses a different cyclic quotient and forces any rational norm solution to give a solution in a free subgroup's actual division ring, where it is impossible.
+This treats every rational element, but both \(G\) and \(H\) already belong to Linnell's class \(\mathcal C\).
+Because that class is closed under elementary amenable quotients, every torsion-free finite extension of an \(H\in\mathcal C\) is already covered.
+The 11 November 2026 investigation therefore completes this calibration without establishing a new permanence theorem.
+The [independent whole-argument review](../audits/reviews/Yin_R_A0005_v1.md#whole-argument-finding) found no remaining mathematical or source-applicability gap in the stated scope.
+
 ## First discriminating step
 
-For an explicit torsion-free index-two extension, verify the crossed-product embedding and the complete factorization criterion.
-Check the analytic closure comparison as well; the retained factorization identity alone is not yet a proved complete division criterion.
-Then test whether the equation \(\alpha(b)b=h\), with \(b\in D\), can have a rational solution even though it has no solution in \(H\).
-Begin with a controlled class of rational expressions and identify an invariant that distinguishes group-level torsion from rational factorization.
-Screen the chosen group against existing positive classes before claiming new coverage.
-If the first investigation only restates the absence of rational norm solutions as a conditional criterion, retain that formulation but defer broader investment until a way to constrain rational \(b\) is available.
+For a new-coverage attempt, first identify a concrete \(H\) and extension not already covered by applicable finite-extension theorems; the bounded screening has not yet established such a pair.
+For a distinct mechanism test, the retained [Promislow pair](../ledger/Yin_L_A0003_v1.md#retained-candidate-beyond-the-ambient-cyclic-quotient-test) has no nonzero ambient homomorphism to \(\mathbb Z\), so the successful cyclic reduction cannot be repeated directly.
+Its torsion-free virtually abelian status is already known; investigating its rational norm equation would test an additional invariant, not new group coverage.
+Do not repeat the completed crossed-product comparison or expand more cyclic examples unless a concrete new use requires them.
 
 ## Decision conditions and contribution
 

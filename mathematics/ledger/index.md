@@ -7,6 +7,15 @@ Mathematical content, source inspections, finite computation limits and review r
 | --- | --- | --- |
 | [Yin_L_A0001](Yin_L_A0001_v1.md) | Complex-coefficient Atiyah conjecture: known results and route boundaries | [v1](Yin_L_A0001_v1.md) |
 | [Yin_L_A0002](Yin_L_A0002_v1.md) | Torsion-freeness and actual rational inverses: first mechanism tests | [v1](Yin_L_A0002_v1.md) |
+| [Yin_L_A0003](Yin_L_A0003_v1.md) | Actual index-two closure, complete rational norm criterion, half-rank witness and free-kernel residue calibration | [v1](Yin_L_A0003_v1.md) |
+| [Yin_L_A0004](Yin_L_A0004_v1.md) | General Atiyah linear-pencil equivalences, restricted bordered rank test and Laurent group-ring fullness obstruction | [v1](Yin_L_A0004_v1.md) |
+| [Yin_L_A0005](Yin_L_A0005_v1.md) | Independent energy rank certificates, scalar reductions, exact bordered finite-support obstruction and compression limits | [v1](Yin_L_A0005_v1.md) |
+| [Yin_L_A0006](Yin_L_A0006_v1.md) | Kernel-preserving normalizations of unmatched rational Schur complements, exact-value obstruction and existing-coverage limits | [v1](Yin_L_A0006_v1.md) |
+| [Yin_L_A0007](Yin_L_A0007_v1.md) | Complementary-block screening, character-orbit and graded companion certificates, complex parameter transfers and known cyclic-extension coverage | [v1](Yin_L_A0007_v1.md) |
+| [Yin_L_A0008](Yin_L_A0008_v1.md) | Exact degree-one stabilization, extreme-coefficient rank bounds, coefficient obstructions and the indicable-support extension of the worked families | [v1](Yin_L_A0008_v1.md) |
+| [Yin_L_A0009](Yin_L_A0009_v1.md) | Scalar dimension induction with torsion-free transport pivots, affine-preserving factorizations and accretive Schur closure | [v1](Yin_L_A0009_v1.md) |
+| [Yin_L_A0010](Yin_L_A0010_v1.md) | Three-term rows, preserved cyclic coefficient fields, explicit Promislow pivots and equivalence with the unrestricted matrix problem | [v1](Yin_L_A0010_v1.md) |
+| [Yin_L_A0011](Yin_L_A0011_v1.md) | Noncyclic path sums: preserved degenerate energy, inverse-difference pivots, rational conjugate collisions and relative-trace limits | [v1](Yin_L_A0011_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

@@ -15,6 +15,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [JZ19b source notes](JZ19b/readme.md) | Retained survey manuscript; selected rational approximation, marked-group and amenable-extension interfaces |
 | [RS13 source notes](RS13/readme.md) | Retained arXiv v1; tensor-domain Lemma 1.1 inspected within JZ19's dependency audit |
 | [Vir19 source notes](Vir19/readme.md) | Retained arXiv v2 and contents; Theorem B inspected at statement and applicability depth |
+| [Gar21 selected group structure](../../ledger/Yin_L_A0003_v1.md#retained-candidate-beyond-the-ambient-cyclic-quotient-test) | Retained arXiv v4; Section 3.1 Promislow group, normal abelian subgroup and action used for candidate screening |
 | [ACSY24/Yin_U001](ACSY24/Yin_U001.md) | ACSY24: Small-Core Derivations and Maximal Delta |
 | [ACSY24/Yin_U002](ACSY24/Yin_U002.md) | ACSY24: Matrix Models and Group Atiyah Interfaces |
 | [ACSY24/Yin_U003](ACSY24/Yin_U003.md) | ACSY24: matrix realizations, derivations, compression and Atiyah interfaces |
@@ -30,6 +31,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [BR10/Yin_U001](BR10/Yin_U001.md) | BR10-U001: Finite Stable Spaces and Rational Series |
 | [BR10/Yin_U002](BR10/Yin_U002.md) | BR10-U002: Series definitions, proper star, residuals and formal Hankel rank |
 | [CR94/Yin_U001](CR94/Yin_U001.md) | Minimal affine state families |
+| [Coh06/Yin_U002](Coh06/Yin_U002.md#coh06-u002) | Selected Section 5.8 Higman linearization; independently invertible elementary factors and the relations-compatible evaluation boundary |
 | [Chi21/Yin_U001](Chi21/Yin_U001.md#chi21-u001) | Lindeberg triangular arrays and inspected Gaussian swapping mechanism; scalar input and project adaptation boundary |
 | [KM15/Yin_U001](KM15/Yin_U001.md#km15-u001) | Isotropic iid-row lower singular values under a uniform L2/L1 bound; exact normalization and pencil-cut interface |
 | [JSS20/Yin_U001](JSS20/Yin_U001.md#jss20-u001) | Symmetric finite-variance norm regularization and the unmodified large principal block; exact Theorem 1.3 scope |
