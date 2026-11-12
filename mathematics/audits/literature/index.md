@@ -13,6 +13,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Lin93/Yin_U001](Lin93/Yin_U001.md#lin93-u001) | Complete article audit; free-tree rank mechanism, elementary amenable extensions and distinct universal-field dependencies |
 | [Lin06/Yin_U001](Lin06/Yin_U001.md#lin06-u001) | Selected two-edition audit of localization definitions, Proposition 2.2, Theorem 2.6 and the matrix-localization interface |
 | [Bar19/Yin_U001](Bar19/Yin_U001.md#bar19-u001) | Complete Kielak appendix and necessary Section 2 proof; corrected conventions, nonamenable module injection and Ore flatness |
+| [BCM04/Yin_U001](BCM04/Yin_U001.md#amenable-projective-trace) | Established amenable Bass theorem and integral projective-trace consequence; exact statement, hypothesis and selected trace-interface checks |
+| [JL21/Yin_U001](JL21/Yin_U001.md#amenable-rank-comparison) | Amenable finite-rank limit and analytic trace-rank comparison; the remaining scalar full-rank limitation |
+| [Bac26/Yin_U001](Bac26/Yin_U001.md#domain-hypothesis) | arXiv v3 linear sofic representation uniqueness and its explicit no-zero-divisor hypothesis |
+| [JZL25 source notes](JZL25/readme.md#global-dimension-background) | Accepted-manuscript Proposition 2.2 as classical global-dimension background; absolute versus coefficient-field cohomological dimension |
+| [Mat16 source notes](Mat16/readme.md#flatness-scope) | Journal Theorems 2.5 and 6.4; ordinary flatness under the actual group hypotheses |
 | [DHS04 source notes](DHS04/readme.md) | Retained author manuscript and the selected Hughes uniqueness, tree-order and source-subgroup interfaces |
 | [JZ19b source notes](JZ19b/readme.md) | Retained survey manuscript; selected rational approximation, marked-group and amenable-extension interfaces |
 | [RS13 source notes](RS13/readme.md) | Retained arXiv v1; tensor-domain Lemma 1.1 inspected within JZ19's dependency audit |

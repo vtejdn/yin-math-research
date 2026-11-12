@@ -14,7 +14,24 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Control the nonzero cubic tensor residual or the twenty-eight remaining negative ten-cycle classes forced at kernel trace at least 2/9; exact power-matrix reduction supplies new restricted pivots but no arbitrary-matrix encoding or zero-kernel theorem. |
+| priority | Establish an independent algebraic constraint on principal annihilators for torsion-free amenable groups that makes the known projective integer trace apply to their individual Hilbert kernels; the known Atiyah/domain equivalence and new rational-kernel localization are interfaces, not a resolution of that constraint. |
+
+## Current structural investigation
+
+On 12 November 2026, Yin directed the work toward the full problem or its amenable case through essential algebraic and analytic structure, without exploratory tests of concrete examples.
+This supersedes the earlier immediate priority on particular trinomials, cycle classes and trial pencils; their proved mathematics remains retained below.
+The [structural reassessment](../ledger/Yin_L_A0030_v1.md) starts from the known amenable Atiyah/domain equivalence and distinguishes the completed analytic localization from the unresolved scalar algebra.
+Its [two-term index calculation](../ledger/Yin_L_A0030_v1.md#why-the-existing-finite-free-complex-has-no-usable-index) shows why the free complex defined by a scalar multiplier only cancels equal unknown kernel and cokernel masses.
+The [projective-trace comparison](../ledger/Yin_L_A0030_v1.md#what-the-known-trace-theorem-sees) locates the missing input in the principal annihilator, since the integer trace of finitely generated projectives is already established for this group class.
+The [finite projective resolution interface](../claims/Yin_C_A0001_v2.md#the-finite-projective-resolution-interface) gives an exact sufficient homological certificate, but its existence is not derived from the two group hypotheses.
+The [rank comparison and representation-uniqueness checks](../ledger/Yin_L_A0030_v1.md#why-the-available-rank-comparison-does-not-close-the-problem) rule out using the selected sources to supply that missing premise without additional work.
+
+The next useful step must establish a group-specific implication toward such a certificate or a direct exclusion of finite multiplicative cancellation.
+The [bounded homological test](../ledger/Yin_L_A0030_v1.md#finite-cohomological-dimension-does-not-supply-finite-generation) separates a finite bound \(d=\operatorname{cd}_{\mathbb C}G\) from the \(FP_{d-2}\) property of the particular annihilator when \(d\ge2\).
+The [syzygy tail recurrence](../ledger/Yin_L_A0030_v1.md#an-infinite-coherent-resolution-can-preserve-the-fractional-tail) shows that an infinite resolution by finite projectives can keep the same fractional mass indefinitely; one needs termination, vanishing tail dimensions, or another independent certificate.
+The [projective-part test](../ledger/Yin_L_A0030_v1.md#a-nonzero-projective-part-would-already-suffice) offers the alternative of constructing a single nonzero finite projective submodule, whose existence remains unproved.
+Another formulation of the same zero-divisor condition, normalized finite-rank convergence alone, or an arbitrary kernel encoding does not count as that step.
+No general amenable solution or new group class is claimed.
 
 ## Mechanism and obstruction
 
@@ -145,7 +162,10 @@ A useful continuation must exploit additional information about actual rational 
 The [JZLA20 reduction](../audits/literature/JZLA20/Yin_U001.md#general-torsion-free-boundary) illustrates the distinction: the cyclic quotient of the finite source subgroup and its compatible rank extension make rational-complexity induction work.
 Torsion-freeness alone does not supply that reduction, and relabeling the expression complexity does not replace it.
 
-## Next discriminating step
+## Retained earlier mechanism tests
+
+The following tests record the earlier mechanism choices and their mathematical limitations.
+The current structural investigation above governs immediate work; these retained tests do not authorize a return to example probing under the present instruction.
 
 Seek an independent constraint excluding
 \[

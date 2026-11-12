@@ -1,0 +1,53 @@
+---
+author: Yin
+---
+
+# BCM04: the projective-trace consequence for amenable groups
+
+<a id="bcm04-u001"></a>
+## Source and inspection
+
+The inspected source is the [public author-hosted edition](readme.md#author-edition).
+On 2026-11-12 the source statements and hypotheses in Theorems 1.3 and 1.4, Lemma 1.5 and Section 2 were checked, together with the trace comparison in the proof of Proposition 6.1.
+The corresponding one-based PDF pages are 2, 3, 4–6 and 19.
+The trace comparison was read directly in the original PDF text layer; the proofs of the assembly results and of Theorem 1.4 were not audited.
+This is a source-statement and applicability check, not an independent project-proof review.
+
+<a id="amenable-projective-trace"></a>
+## Exact usable consequence
+
+For every torsion-free amenable discrete group \(G\) and every idempotent \(e\in M_n(\mathbb CG)\), the canonical unnormalized matrix trace satisfies
+
+\[
+\tau_n(e)=\sum_{i=1}^n(e_{ii})_1
+ =\operatorname{Tr}_{\mathbb C}(\varepsilon_n(e))
+ =\operatorname{rank}_{\mathbb C}(\varepsilon_n(e))\in\mathbb Z,
+\]
+
+where \((e_{ii})_1\) is the coefficient of the identity and \(\varepsilon:\mathbb CG\to\mathbb C\) is augmentation.
+Equivalently, the canonical trace of every finitely generated projective \(\mathbb CG\)-module is an integer, with \(\tau_n\) unnormalized and \(\tau(1)=1\).
+This is the projective-trace consequence of the source results, rather than merely its scalar idempotent conclusion.
+
+The exact source chain is as follows.
+Theorem 1.3 on PDF p. 2 states that the Bost assembly map is an isomorphism for countable discrete groups with the Haagerup property and explicitly includes countable amenable groups.
+Theorem 1.4 on the same page assumes only rational surjectivity of that map in degree zero and concludes the \(\ell^1\)-Bass conjecture stated as Conjecture 2.2.
+Lemma 1.5(a) on PDF p. 3 passes this conclusion from all countable subgroups to an arbitrary group; part (b) passes it to the complex group-ring Bass statement.
+Thus no countability restriction remains for the consequence above.
+
+Section 2 on PDF pp. 4–6 identifies the Kaplansky trace \(\kappa\), augmentation and Hattori–Stallings trace on algebraic \(K_0\).
+The complex Bass statement restricts the Hattori–Stallings support to conjugacy classes of finite-order elements.
+For a torsion-free group only the identity class remains, so the sum of all class coefficients, which is augmentation, equals the identity coefficient, which is \(\kappa\).
+The first paragraph of the proof of Proposition 6.1 on PDF p. 19 explicitly establishes this equality on all of \(K_0(\ell^1(G))\) and its integral range, before specializing to scalar idempotents.
+Restriction along \(\mathbb CG\subset\ell^1(G)\) gives the displayed matrix formula.
+Augmentation of an idempotent matrix is an idempotent complex matrix, so its ordinary trace equals its rank.
+The same coefficient formula applies to either left or right projective-module conventions.
+
+These published source statements and their stated hypotheses supply an established external theorem at this exact scope.
+The original proof of Theorem 1.4 and its foundational assembly inputs have not been independently reviewed here.
+
+<a id="kernel-projection-limit"></a>
+## Application boundary
+
+The result concerns finitely generated projective modules, represented by algebraic idempotent matrices.
+It does not assert that an arbitrary algebraic kernel is finitely generated or projective, or that its Hilbert-space kernel projection belongs to the image of algebraic \(K_0(\mathbb CG)\).
+Passing from a principal annihilator to a finite projective resolution would be an additional algebraic input; amenability and the trace result do not supply that resolution in the inspected statements.

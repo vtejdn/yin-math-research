@@ -14,7 +14,16 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test a genuinely noncentral kernel representation that escapes the proved central-fiber gap obstruction, or supply independent trace arithmetic for an already gapped actual projection; finite central constructions preserving the singular fiber cannot create the required gap. |
+| priority | Identify an independently justified geometric or homological class for the actual kernel projection; in the amenable branch use the established projective integer trace and isolate the missing annihilator structure, without further concrete-model probing or assuming a spectral gap. |
+
+## Current structural boundary
+
+Yin's 12 November 2026 instruction prioritizes structural derivation toward the full or amenable target over trial examples.
+The [amenable reassessment](../ledger/Yin_L_A0030_v1.md) explains why complete finite-support kernel localization still does not place a nonlocal kernel projection in algebraic \(K_0(\mathbb CG)\).
+The [finite projective resolution calculation](../claims/Yin_C_A0001_v2.md#proof-of-the-homological-interface) supplies a precise interface to integer trace if that additional algebraic structure is independently obtained.
+The [two-term index cancellation](../ledger/Yin_L_A0030_v1.md#why-the-existing-finite-free-complex-has-no-usable-index) shows why the scalar multiplier's existing finite free complex cannot itself isolate the atom residue.
+The actual unresolved work is to produce a group-specific geometric or homological certificate for the single kernel, rather than a model retaining the unknown kernel or an index subtracting an equal unknown cokernel.
+The earlier investigations below retain their conclusions and scope without constituting the present immediate test program.
 
 ## Mechanism
 

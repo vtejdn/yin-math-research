@@ -5,7 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope | Retained versions |
 | --- | --- | --- |
-| [Yin_R_A0002](Yin_R_A0002_v1.md#whole-argument-finding) | Independent whole-argument review of amenable finite-support kernel extraction and scalar Schur complements | [v1](Yin_R_A0002_v1.md) |
+| [Yin_R_A0002](Yin_R_A0002_v2.md#whole-argument-finding) | Independent review of complete amenable kernel localization, scalar descent and the remaining structural obstruction | [v1](Yin_R_A0002_v1.md), [v2](Yin_R_A0002_v2.md) |
 | [Yin_R_A0003](Yin_R_A0003_v1.md#whole-argument-finding) | Independent whole-argument review of the JZ19 spectral-chain tensor completion, domains, dimension limit and centralizer consequence | [v1](Yin_R_A0003_v1.md) |
 | [Yin_R_A0005](Yin_R_A0005_v1.md#whole-argument-finding) | Independent whole-argument review of the actual index-two crossed product, norm criterion, half-rank witness and rational residue calibration | [v1](Yin_R_A0005_v1.md) |
 | [Yin_R_A0006](Yin_R_A0006_v1.md#whole-argument-finding) | Independent whole-argument review of the general Atiyah linear-pencil equivalences and formal and group-ring fullness obstructions | [v1](Yin_R_A0006_v1.md) |
@@ -39,6 +39,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0037](Yin_R_A0037_v5.md#whole-artifact-finding) | Independent reviews of Promislow descent, mixed norms, local certificate obstructions and the global division certificate | [v1](Yin_R_A0037_v1.md), [v2](Yin_R_A0037_v2.md), [v3](Yin_R_A0037_v3.md), [v4](Yin_R_A0037_v4.md), [v5](Yin_R_A0037_v5.md) |
 | [Yin_R_A0038](Yin_R_A0038_v5.md#whole-artifact-finding) | Independent reviews of generic rank, singular defects, transverse contours and the quantitative central-gap obstruction | [v1](Yin_R_A0038_v1.md), [v2](Yin_R_A0038_v2.md), [v3](Yin_R_A0038_v3.md), [v4](Yin_R_A0038_v4.md), [v5](Yin_R_A0038_v5.md) |
 | [Yin_R_A0039](Yin_R_A0039_v1.md#whole-artifact-finding) | Independent review of the central-finite obstruction, actual noncommutative cocycle and closure comparisons | [v1](Yin_R_A0039_v1.md) |
+| [Yin_R_A0040](Yin_R_A0040_v1.md#whole-section-finding) | Independent review of principal-annihilator projective parts, finite-stage homological certificates and persistent syzygy tails | [v1](Yin_R_A0040_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
