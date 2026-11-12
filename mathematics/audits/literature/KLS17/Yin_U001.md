@@ -16,7 +16,8 @@ It is not a new independent review of any project Claim.
 
 The principal usable result is the equivalence between the center-valued conjecture, the specified semisimple Artinian division closure, and finite-subgroup generation of its projective K-theory with that Artinian hypothesis retained.
 The argument for these three conditions is reconstructed below without the problematic separate G-theory passage or the density detour.
-Theorem 3.7(3) alone is not accepted here as a verified substitute: its printed implication to (4) leaves a stable-isomorphism and scalar-extension justification unresolved.
+Theorem 3.7(3) alone leaves the general implication to (4) unresolved.
+The [amenable case](../../../claims/Yin_C_A0015_v1.md#amenable-induction) has a separate argument through dimension-flat induction.
 Several displayed arithmetic and dimension formulas require the explicit corrections below.
 No counterexample to the theorem or to the Atiyah conjecture is asserted.
 
@@ -210,15 +211,65 @@ The source prints the same divisibility twice and also prints an lcm equal to on
 
 ### Why condition (3) has not been cleared
 
-The printed argument on p. 671 treats a class equality in G_0(D) as a stable module isomorphism.
-Short-exact-sequence relations in G_0 do not by themselves split, and semisimplicity is absent from condition (3).
-A signed coefficient is also a formal Grothendieck-group operation, not a direct sum with a negative number of summands.
-Further tensoring with U requires a justification that the relevant exact-sequence relations preserve dimension, such as a suitable exactness or dimension-flatness theorem.
-Existence and additivity of dimension on U-modules alone do not establish this property for induction from D.
-Neither such a justification nor a replacement stable-isomorphism argument was obtained from the inspected passages.
-This is a specific unresolved proof interface in the printed (3)-to-(4) implication, not a demonstrated counterexample to the condition or the theorem.
-The separate implication (2) to (3) is valid once D is semisimple, when K_0(D)=G_0(D).
-No use below drops the Artinian hypothesis by appealing to (3).
+Journal p. 671 and [arXiv v2, Theorem 3.9, p. 15](https://arxiv.org/pdf/1605.09069v2#page=15) both pass directly from (3) to a stable module isomorphism.
+Condition (3) expresses the class of the induced cokernel as a finite signed sum in the quotient by all finitely generated short-exact-sequence relations.
+An equality in the group completion for direct sums would allow a common stabilizing summand after moving negative terms across the equality.
+The additional exact-sequence relations in \(G_0(D)\) need not yield any such isomorphism.
+Semisimplicity of each finite-subgroup algebra makes induction *from that algebra* exact but gives no exactness for induction *from \(D\)*.
+Condition (2) separately implies (3) because the target in (2) is semisimple Artinian.
+
+For right modules let \(F=-\otimes_D U\) and \(0\to X'\xrightarrow{i}X\to X''\to0\) be a short exact sequence witnessing a class relation.
+The left-hand defect is
+\[
+ E_i=\ker F(i)=\operatorname{im}\bigl(\operatorname{Tor}_1^D(X'',U)\longrightarrow F(X')\bigr).
+\]
+It can be smaller than the entire first Tor since the connecting map can have a kernel.
+The [central-cut dimension calculation](../../../claims/Yin_C_A0015_v1.md#applying-an-exact-sequence-class-relation) shows exactly how this image contributes to the defect of additivity.
+All modules in a witness are finitely generated, but only the initial matrix cokernel and the induced finite projectives are known to be finitely presented.
+More precisely, let \(C=\operatorname{coker} A_D\) and \(P_j^D\) be the finite-subgroup projectives induced to \(D\).
+In the free abelian group on isomorphism classes a witness for (3) has the form
+\[
+ [C]-\sum_j a_j[P_j^D]
+    =\sum_s m_s\bigl([X_s]-[X'_s]-[X''_s]\bigr).
+\]
+For each constituent sequence there is a bounded positive central element \(e_s\) determined by \(\tau(ze_s)=\dim_U(E_{i_s}z)\) for all central projections \(z\).
+Indeed, these cuts form a finitely additive measure bounded by \(k_s\tau(z)\) when \(X'_s\) has \(k_s\) generators, so normality and a bounded Radon–Nikodym density follow on the abelian center.
+Applying the cut calculation to the displayed witness gives
+\[
+ \dim_G^u F(C)-\sum_j a_j\dim_G^u F(P_j^D)=-\sum_s m_s e_s.
+\]
+For this matrix it is therefore necessary and sufficient that the signed defect sum lie in \(L_K(G)\), since the finite-projective contributions and the rectangular rank correction already lie there.
+A stronger sufficient hypothesis is zero scalar dimension of each such image.
+Requiring this for every finitely generated short exact sequence is equivalent to the [matrix test](../../../claims/Yin_C_A0015_v1.md#matrix-test-for-the-left-hand-defect) that the \(U\)-span of the \(D\)-kernel of every finite \(D\)-matrix exhausts its \(U\)-kernel up to dimension zero.
+Conversely, [the separate argument from (4) to (1)](#recovering-the-specified-blocks-without-the-density-detour) gives a semisimple Artinian \(D\), over which \(U\) is flat, so (4) implies the matrix test.
+Hence, on groups satisfying (3), the matrix test and (4) are equivalent.
+The missing general implication can be stated precisely as the assertion that (3) forces this test in the regular representation.
+
+For amenable \(G\), the [conditional repair](../../../claims/Yin_C_A0015_v1.md#statement) obtains this zero defect by restricting modules to \(K[G]\), applying Lück's dimension-flatness theorem and checking the extra \(D\)-balancing relations after extension to \(U\).
+It gives (3) implying (4) for every conjugation-closed coefficient field in the theorem when \(G\) is amenable.
+Separately, if the actual \(D\) is known to be von Neumann regular, every left \(D\)-module is flat and the same dimension argument applies.
+Using the \(*\)-regular closure would require a comparison with (3), which concerns \(G_0(D)\).
+For example, [SP25, Definition 2.9 and the following paragraph](https://doi.org/10.1007/s00039-025-00710-4) uses \(K_0\) of the \(*\)-regular closure and projectivity of finitely presented modules over that ring.
+The general case with only the hypotheses printed in (3) remains unresolved in this audit.
+
+#### A faithful representation detecting both failed formal steps
+
+Take \(G=\mathbb Z\), \(R=\mathbb C[t,t^{-1}]\), and represent \(t\) as the coordinate function on the unit circle with measure \(\mu=(m+\delta_1)/2\), where \(m\) is Haar probability measure.
+This gives a faithful algebra embedding and the finite tracial algebra it generates has affiliated ring \(W=L^0(\mathbb T,\mu)\).
+A nonzero Laurent polynomial is invertible in \(W\) exactly when its value at the atom \(1\) is nonzero, since its Haar zero set is finite.
+The actual scalar division closure for this embedding is the discrete valuation ring \(D'=R_{(t-1)}\), since every such fraction is obtained using an ambient unit and a fraction in this ring is an ambient unit exactly when its numerator is nonzero at \(1\).
+Put \(\pi=t-1\) and \(k=D'/\pi D'\).
+The exact sequence \(0\to D'\xrightarrow{\pi}D'\to k\to0\) gives \([k]=0\).
+All finitely generated modules over this principal ideal domain are sums of a free module and cyclic torsion modules, and the same exact sequence with \(\pi^j\) kills each torsion class.
+The fraction-field rank detects the remaining free class, so \(G_0(\mathbb C)\to G_0(D')\cong\mathbb Z\) is an isomorphism.
+Yet \(k\oplus X\cong X\) is impossible for a finitely generated \(X\), as reduction modulo \(\pi\) would give two finite-dimensional vector spaces whose dimensions differ by one.
+After tensoring with \(W\), both the kernel and cokernel of multiplication by \(\pi\) are \(1_{\{1\}}W\), of scalar dimension \(1/2\).
+Thus the zero class can have an induced cokernel of positive nonintegral dimension even for an inverse-closed domain and a one-entry matrix.
+The regular representation of \(\mathbb Z\) has Haar spectral measure, under which \(t-1\) is invertible in the affiliated ring.
+This verifies the failure of the formal inference and leaves the KLS17 assertion for regular representations open at the indicated scope.
+In the actual group setting the same diagnostic has a precise conditional form.
+If multiplication by \(a\in D\) is injective on \(D\), then the exact sequence of \(D\)-modules already gives \([D/aD]=0\), independently of (3).
+Whether its induced scalar kernel vanishes is precisely the extra analytic question for that sequence.
 
 ### Density, quantization and the coefficient-field boundary
 
@@ -245,7 +296,8 @@ Proposition 4.3 assumes that **every** inverse image of a finite subgroup of the
 It uses transfinite reduction, a virtually abelian crossed product and Moody's induction theorem.
 Moody's original Theorem 1 has a Noetherian graded-ring setting, virtually polycyclic grading group and units in every degree; its first-page statement was inspected, not its fourteen-page proof.
 The ring and localization interfaces are substantive hypotheses, not induction available for an arbitrary torsion-free group.
-As printed, Proposition 4.3 concludes through Theorem 3.7(3), so that proof retains the G-theory interface just identified unless Artinianness of the target closure is separately supplied.
+As printed, Proposition 4.3 concludes through Theorem 3.7(3), so that proof needs the G-theory interface just identified for its actual target group.
+The amenable repair applies if the total group is amenable, while the elementary amenability of the quotient alone does not establish its dimension-flatness premise.
 In the already Artinian Lin93 class-C setting, one can instead use the projective formulation (2); this does not rely on the unresolved general G_0 shortcut.
 Theorem 4.5 follows the cited class-C hierarchy at that retained scope; no new group class is inferred here.
 For a finite quotient, the finite subgroup equal to the whole quotient occurs among the hypotheses of Proposition 4.3, whose inverse image is G itself.
@@ -324,6 +376,6 @@ The publisher original has pp. 313--327; KLS17 reference [20] gives year 2007 an
 Kne11's exact published page range 161--179 follows its journal record; a complete journal/preprint proof comparison was not performed.
 No author confirmation, exhaustive erratum search, associated code audit or formal proof verification is claimed.
 
-The unresolved necessary source-proof interface is the G_0-only implication and its use in unrestricted elementary amenable inheritance without a separately established Artinian target.
+The general G_0-only implication and its use in unrestricted elementary amenable inheritance remain unresolved outside the verified sufficient hypotheses above.
 It is retained for focused follow-up; neither its printed assertion nor a metadata match is treated as sufficient evidence for that shortcut.
 The verified three-condition projective criterion, finite trace formulas, rank-group invariance, conditional D=E argument and corrected coefficient-approximation passage remain usable at the scopes stated above.
