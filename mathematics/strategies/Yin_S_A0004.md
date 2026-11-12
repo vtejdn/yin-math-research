@@ -36,7 +36,9 @@ No general amenable solution or new group class is claimed.
 The [analytic alternative](../claims/Yin_C_A0014_v2.md#bounded-coefficient-mass-suffices-without-norm-convergence) asks for a bounded coefficient-mass subsequence of explicit approximants instead of a finite algebraic resolution.
 Its Fatou argument reaches an \(\ell^1(G)\) idempotent without assuming a spectral gap.
 The [bounded rational output calculation](../ledger/Yin_L_A0031_v1.md#bounded-rational-output-versus-bounded-inverse-gates) shows why a finite kernel generator alone still leaves an unbounded inverse gate and does not supply this certificate.
-Neither analytic criterion is asserted to follow from the group hypotheses.
+The [global-filter obstruction](../claims/Yin_C_A0014_v3.md#global-filter-boundedness-on-invertible-inputs) now proves that the prescribed heat/Euler family cannot supply a universal amenable certificate.
+The [principal Banach annihilator calculation](../ledger/Yin_L_A0031_v2.md#principal-annihilators-and-local-projection-constants) shows that a hypothetical nonzero kernel forces an uncomplemented principal annihilator and divergent local projection constants.
+This is a necessary geometric pathology, not a proof that complementability follows from the group hypotheses.
 
 ## Mechanism and obstruction
 

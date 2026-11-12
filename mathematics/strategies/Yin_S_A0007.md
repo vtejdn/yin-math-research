@@ -19,7 +19,8 @@ author: Yin
 ## Mechanism and actual input
 
 For the current amenable investigation, [optimal polynomial minima](../claims/Yin_C_A0014_v2.md#definition-christoffel-minima-at-the-target-point) convert the same finite return-word moments into an exact \(L^2\) projection approximation.
-The [bounded coefficient-mass target](../claims/Yin_C_A0014_v2.md#bounded-coefficient-mass-suffices-without-norm-convergence) retains all word endpoints and complex cancellations, beyond the scalar return moments alone.
+The [finite-kernel correlation target](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) groups the local kernel projection by actual group displacements before taking absolute values.
+It retains tied-coefficient cancellation while avoiding the proved extra spectral requirement of global heat/Euler boundedness.
 The [graph and gauge obstruction](../ledger/Yin_L_A0031_v1.md#randomization-retains-or-changes-the-decisive-correlations) prevents replacing these tied coefficients by independent edge weights while retaining the original atom.
 This is an additional structural direction, not a proved all-input coefficient bound.
 

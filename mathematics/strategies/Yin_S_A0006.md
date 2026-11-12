@@ -14,13 +14,17 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | In the amenable branch seek bounded coefficient mass for specified polynomial or heat approximants, or an independent geometric or homological certificate for the kernel; preserve tied group-word coefficients and allow continuous spectrum at zero, without concrete-model probing. |
+| priority | Control finite-kernel correlations with tied coefficients, or obtain an independent annihilator certificate; consider near-zero resolvents only with actual Banach inverses. Global heat/Euler boundedness is rejected as a universal amenable target. |
 
 ## Current structural boundary
 
-The analytic refinement of 12 November 2026, 13:16 UTC is the [bounded-coefficient-mass criterion](../claims/Yin_C_A0014_v2.md#bounded-coefficient-mass-suffices-without-norm-convergence).
-A bounded subsequence of total variations for an actual \(L^2\) approximation puts the kernel projection in \(\ell^1(G)\), where the established scalar-idempotent theorem excludes it.
-This leaves an explicit coefficient estimate to prove; it is not supplied by amenability or a generic random-coefficient argument.
+The structural refinement of 12 November 2026, 14:00 UTC rejects global heat/Euler boundedness as a universal target.
+The [exact obstruction](../claims/Yin_C_A0014_v3.md#global-filter-boundedness-on-invertible-inputs) shows that imposing it even on already-invertible inputs is equivalent to quasi-Hermitianity, which fails for the stated elementary amenable exponential-growth class.
+[Positive random time averaging](../claims/Yin_C_A0014_v3.md#positive-time-averaging-does-not-remove-a-negative-banach-spectral-point) cannot cure the negative Banach-spectral obstruction.
+The [finite-kernel correlation construction](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) instead retains the actual tied coefficients and passes every injective input, including continuous-spectrum endpoints.
+Its boundedness criterion is explicitly equivalent to zero kernel; no sufficient uniform correlation estimate has yet been derived from the group hypotheses.
+The [local Abel and annihilator alternatives](../ledger/Yin_L_A0031_v2.md) separate actual near-zero inverse bounds, local projection constants and norm locality from the automatic Følner approximations that do not suffice.
+The original [bounded-coefficient-mass implication](../claims/Yin_C_A0014_v2.md#bounded-coefficient-mass-suffices-without-norm-convergence) remains valid without making any of these missing bounds automatic.
 The [summable Christoffel-increment condition](../claims/Yin_C_A0014_v2.md#a-moment-increment-criterion-with-no-unknown-atom-in-its-hypothesis) is stronger: its norm convergence also excludes zero from the entire spectrum.
 It should not replace the weaker atom-only target when continuous spectrum accumulates at zero.
 The [positive-spectrum filter inequality](../claims/Yin_C_A0014_v2.md#a-positive-spectrum-lower-bound-at-every-polynomial-scale) supplies an additional necessary quantitative bound but does not itself rule out an atom.

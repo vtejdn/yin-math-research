@@ -9,6 +9,12 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 ### Return operators, graph atoms and group-word compatibility
 
+The [SW20 spectral definitions](../audits/literature/SW20/Yin_U001.md#spectral-definitions) distinguish Hermitian, quasi-Hermitian and quasi-symmetric group algebras and their exact support quantifiers; C_A0014_v3 uses the quasi-Hermitian condition in its global-filter obstruction.
+The [finite-window kernel correlations](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) define the displacement-grouped and absolute-matrix coefficient sums, with their scalar trace normalization.
+The [local kernel projection constant](../ledger/Yin_L_A0031_v2.md#definition-local-kernel-projection-constant) uses arbitrary Banach-space projections in the inherited finite \(\ell^1\) norm, rather than fixing the orthogonal projection.
+The [uniform Roe convention](../audits/literature/KU14/Yin_U001.md#uniform-roe-algebra) and [ITAP](../audits/literature/KU14/Yin_U001.md#itap) specify right-invariant propagation, position-dependent coefficients and invariant translation approximation, used in L_A0031_v2's distance comparison.
+The [Følner coefficient cutoff](../ledger/Yin_L_A0031_v2.md#følner-smoothing-gives-norm-small-residuals-but-not-norm-small-projection-defects) gives the positive-definite function, Fourier multiplier and Stinespring convention used for its norm-residual calculation.
+
 The [Christoffel minimum](../claims/Yin_C_A0014_v2.md#definition-christoffel-minima-at-the-target-point) uses degree at most \(n\), hence an \((n+1)\)-dimensional moment matrix.
 Its [Sim08 source inspection](../audits/literature/Sim08/Yin_U001.md#sim08-u001) specifies the classical variational convention, the nonsingular inverse formula and the finite-support limitation; C_A0014 uses it for polynomial localization and atom tests.
 The [uniquely restricted matching convention](../ledger/Yin_L_A0031_v1.md#definition-uniquely-restricted-matching) specifies the induced saturated subgraph and its unique perfect matching.
