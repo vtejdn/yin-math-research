@@ -242,7 +242,11 @@ For this matrix it is therefore necessary and sufficient that the signed defect 
 For the fixed finite-subgroup expression the sum is already independent of its exact-sequence witness.
 The [regular-representation calculation](../../../claims/Yin_C_A0016_v1.md#character-twists-and-central-cuts) gives an additional constraint on each defect term by testing its central cuts along integer character twists.
 The [finite-index restriction](../../../claims/Yin_C_A0016_v1.md#restricting-the-same-short-exact-sequences) transfers the same witness to cyclic covers and recovers its signed defect from two coprime multiples when the cover dimensions can be independently certified.
-These deductions leave the scalar coefficient uncontrolled for an arbitrary torsion-free ICC group.
+For a torsion-free ICC group, the [compression and positive Schur argument](../../../claims/Yin_C_A0017_v1.md#from-one-matrix-to-small-positive-kernels) bounds the smallest attainable positive scalar nullities in the actual division closure in terms of any one matrix rank.
+A uniform positive lower bound on those nullities gives a common rank denominator, whence LS12 gives semisimplicity and the signed defect of the given class relation vanishes.
+Under (3), failure of (4) would force actual positive group-ring matrix nullities dense in the nonnegative reals.
+The [two zero-class models](../../../ledger/Yin_L_A0032_v1.md) separately test the regular trace with a larger coefficient ring and a faithful representation of an ICC group ring with a different trace.
+The scalar defect for the canonical trace and actual division closure together remains uncontrolled in the absence of the lower bound.
 A stronger sufficient hypothesis is zero scalar dimension of each such image.
 Requiring this for every finitely generated short exact sequence is equivalent to the [matrix test](../../../claims/Yin_C_A0015_v1.md#matrix-test-for-the-left-hand-defect) that the \(U\)-span of the \(D\)-kernel of every finite \(D\)-matrix exhausts its \(U\)-kernel up to dimension zero.
 Conversely, [the separate argument from (4) to (1)](#recovering-the-specified-blocks-without-the-density-detour) gives a semisimple Artinian \(D\), over which \(U\) is flat, so (4) implies the matrix test.
