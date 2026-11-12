@@ -23,6 +23,7 @@ The [finite-kernel correlation target](../claims/Yin_C_A0014_v3.md#finite-window
 It retains tied-coefficient cancellation while avoiding the proved extra spectral requirement of global heat/Euler boundedness.
 The [solid-norm obstruction](../claims/Yin_C_A0014_v4.md#no-weaker-solid-convolution-norm) shows that a phase-blind convolution norm with continuous coefficient evaluation cannot weaken this mass requirement on the selfadjoint kernel averages.
 The [finite cut-energy identities](../claims/Yin_C_A0014_v4.md#finite-cut-energy-and-its-nonlocal-lower-bound) retain an alternative signed-matrix target, whose operator-norm upper bound remains unresolved even though mean energies are small.
+The [finite commutator polynomial](../claims/Yin_C_A0014_v5.md#a-finite-phase-sensitive-commutator-polynomial) combines all contributions with the same actual product before taking its norm, but its transfer to the full cut operator still loses control near zero; relative domination by the original positive operator forces a spectral gap.
 The [graph and gauge obstruction](../ledger/Yin_L_A0031_v1.md#randomization-retains-or-changes-the-decisive-correlations) prevents replacing these tied coefficients by independent edge weights while retaining the original atom.
 This is an additional structural direction, not a proved all-input coefficient bound.
 

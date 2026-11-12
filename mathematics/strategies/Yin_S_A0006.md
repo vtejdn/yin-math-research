@@ -14,9 +14,17 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Seek phase-sensitive control of tied finite-kernel correlations or an independent upper bound below one half for finite cut energy; boundary rank densities and weaker solid convolution norms do not supply either bound. |
+| priority | Control exceptional cut directions through actual boundary maps and phase-sensitive forms; seek a bound below one half or on coefficient mass, while excluding relative commutator domination and local-gap coercivity as universal atom-only criteria. |
 
 ## Current structural boundary
+
+The [localized-direction refinement](../claims/Yin_C_A0014_v5.md#statement) removes the convolution condition-number factor from the fixed-support cut bound and gives a two-scale upper bound on the dimension of exceptional kernel-side directions.
+Its [actual boundary factorization](../claims/Yin_C_A0014_v5.md#the-actual-boundary-space-behind-the-compression-defect) identifies the finite boundary map and Gram inverse through which the local compression defect propagates.
+The [phase-sensitive commutator polynomial](../claims/Yin_C_A0014_v5.md#a-finite-phase-sensitive-commutator-polynomial) retains equal-label cancellations and bounds the original-input energy form; the complementary exceptional directions are forced toward the small positive spectrum.
+Neither dimension control nor this fixed-input form estimate bounds the largest cut energy.
+The [two coercive-upgrade obstructions](../claims/Yin_C_A0014_v5.md#two-coercive-upgrades-force-a-gap) prove that a local positive-gap comparison and even an arbitrarily large finite relative commutator bound force a genuine spectral gap.
+They are therefore excluded as universal atom-only repairs when continuous spectrum is allowed at zero.
+No independent general bound below one half or uniform coefficient-mass bound has been obtained.
 
 The [finite-window compatibility theorem](../claims/Yin_C_A0014_v4.md#statement) gives exact translation and gluing identities, coefficient errors controlled by the boundary proportion, and operator-norm convergence on each fixed finite algebraic kernel witness.
 Its correlation-mass estimates retain the square root of the absolute boundary or unmatched rank, so Følner density alone does not make the correlation sums uniformly bounded.
