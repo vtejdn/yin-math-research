@@ -40,6 +40,12 @@ The [global-filter obstruction](../claims/Yin_C_A0014_v3.md#global-filter-bounde
 The [principal Banach annihilator calculation](../ledger/Yin_L_A0031_v2.md#principal-annihilators-and-local-projection-constants) shows that a hypothetical nonzero kernel forces an uncomplemented principal annihilator and divergent local projection constants.
 This is a necessary geometric pathology, not a proof that complementability follows from the group hypotheses.
 
+The [complete KLS17 audit](../audits/literature/KLS17/Yin_U001.md#exact-torsion-free-use-and-remaining-research-obligations) distinguishes the existing group-ring projective trace theorem from generation of K_0 of the actual affiliated division closure.
+Its projective criterion requires both semisimple Artinian structure and surjectivity from finite-subgroup projectives; torsion-freeness specializes the latter source to the coefficient field but establishes neither missing property.
+The paper's G_0-only implication has an [unresolved stable-isomorphism and induction step](../audits/literature/KLS17/Yin_U001.md#why-condition-3-has-not-been-cleared), so it is not adopted as a shortcut from finite generation of a principal annihilator.
+The structural priority remains to produce a finite projective part or resolution for the individual kernel, or another independent certificate of its dimension, rather than restating the equivalent whole-closure criterion.
+Adjoining arbitrary relative inverses or kernel projections to a larger regular ring does not prove the required generation or identify that ring with the actual division closure.
+
 ## Mechanism and obstruction
 
 Use [MSY23, Theorem 5.25](../audits/literature/MSY23/Yin_U005.md#theorem-525-the-complete-equivalence): integer analytic rank for all polynomial matrices in a bounded tuple is equivalent to its actual rational closure, or equivalently its division closure, in the affiliated algebra being a division ring.

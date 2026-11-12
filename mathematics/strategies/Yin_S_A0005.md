@@ -35,6 +35,10 @@ The [Cauchy-transform synthesis](../ledger/Yin_L_A0015_v1.md) supplies exact bou
 
 ## Inputs and unresolved bridges
 
+The [KLS17 projective-generation interface](../audits/literature/KLS17/Yin_U001.md#the-projective-formulation-with-its-full-hypothesis) applies to the actual algebraic projective module over a separately semisimple closure.
+An expected kernel's full support or a conditional-expectation trace does not supply such a module or its finite-subgroup generation.
+It therefore sharpens the kind of algebraic object needed at the support bridge without resolving the retained arbitrary-rank correction.
+
 Reuse [C_F0181](../claims/Yin_C_F0181_v1.md#graded-subordination-proof) for its proved scalar-free mechanism and precise finite-matrix support bookkeeping.
 Its finite-dimensional base is a real restriction of that application.
 The diffuse cyclic base requires separate control of expected-kernel degeneration, total support-cut trace corrections, and the algebraic scope of the actual subordination boundary values.

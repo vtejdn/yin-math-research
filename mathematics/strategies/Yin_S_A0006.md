@@ -51,6 +51,11 @@ The [amenable reassessment](../ledger/Yin_L_A0030_v1.md) explains why complete f
 The [finite projective resolution calculation](../claims/Yin_C_A0001_v2.md#proof-of-the-homological-interface) supplies a precise interface to integer trace if that additional algebraic structure is independently obtained.
 The [two-term index cancellation](../ledger/Yin_L_A0030_v1.md#why-the-existing-finite-free-complex-has-no-usable-index) shows why the scalar multiplier's existing finite free complex cannot itself isolate the atom residue.
 The actual unresolved work is to produce a group-specific geometric or homological certificate for the single kernel, rather than a model retaining the unknown kernel or an index subtracting an equal unknown cokernel.
+
+The [KLS17 density mechanism](../audits/literature/KLS17/Yin_U001.md#density-quantization-and-the-coefficient-field-boundary) uses an independently known discrete rank lattice to turn a small approximating defect into an exact unit and direct-sum decomposition.
+Its strong-convergence kernel estimate needs no spectral gap, but the subsequent exactness step already assumes quantization.
+Neither the vanishing normalized boundary defect in the present finite windows nor the current phase-sensitive energy estimate supplies that fixed positive quantum.
+A useful adaptation would have to derive a kernel-specific structural lower bound or a projective extraction independently of the desired Atiyah conclusion; applying KLS17 after assuming integer rank would be circular.
 The earlier investigations below retain their conclusions and scope without constituting the present immediate test program.
 
 ## Mechanism

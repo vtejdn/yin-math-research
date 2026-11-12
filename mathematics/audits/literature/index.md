@@ -5,6 +5,8 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [KLS17/Yin_U001](KLS17/Yin_U001.md#kls17-u001) | Complete journal-edition audit, corrected finite trace lattice, projective Artinian criterion, unresolved G-theory implication and precise quotient approximation |
+| [LS12 source notes](LS12/readme.md) | Selected primary Artinian and rank-density inputs for KLS17, with journal/preprint numbering correspondence |
 | [Nic08/Yin_U001](Nic08/Yin_U001.md#nic08-u001) | Unconditional completions, relative spectral equivalence and the amenable obstruction in Proposition 8.7; final arXiv v2 |
 | [SW20/Yin_U001](SW20/Yin_U001.md#sw20-u001) | Quasi-Hermitian finite-support spectral invariance, free-semigroup obstruction and elementary amenable growth boundary |
 | [KU14/Yin_U001](KU14/Yin_U001.md#ku14-u001) | Finite propagation, uniform Roe algebra and ITAP; exact first-page amenable interface |

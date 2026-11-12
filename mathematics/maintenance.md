@@ -1,3 +1,7 @@
+Yin: Check a justified replacement for KLS17 Theorem 3.7(3) implying (4), including the passage from a G_0 class relation to stable module information and the effect of induction from the actual division closure to the affiliated algebra.
+The [complete journal-edition audit](audits/literature/KLS17/Yin_U001.md#why-condition-3-has-not-been-cleared) isolates the missing interface and the separate valid projective criterion with its semisimple Artinian hypothesis.
+Its use in Proposition 4.3 also needs that interface or a separately established Artinian target; no source-author confirmation or counterexample is asserted.
+
 Yin: Obtain the original [Hug70](https://doi.org/10.1002/cpa.3160230205) and Lew74 proof passages used in the [Lin93 universal-field interface](audits/literature/Lin93/Yin_U001.md#hughes-lewin-and-universality).
 The Wiley PDF and the AMS Lew74 PDF requests returned HTTP 403; the originals remain unavailable locally.
 Use an authorized library copy or an author-hosted public original to check Hughes's p. 182 uniqueness argument and Lewin's Proposition 6.

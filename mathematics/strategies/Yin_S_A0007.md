@@ -136,6 +136,12 @@ An auxiliary finite-dimensional invariant without a faithful group-algebra embed
 Siv10 has no supplied extension to arbitrary infinite-dimensional coefficient division algebras.
 Continuation therefore requires either such an auxiliary back-transfer or a genuinely infinite-dimensional valuation or rank invariant, rather than another faithful central-finite realization.
 
+The [KLS17 Artinian formulation](../audits/literature/KLS17/Yin_U001.md#atiyah-expected-artinian-structure) is compatible with coefficient skew fields of infinite central dimension, so it lies outside the faithful central-finite obstruction.
+It replaces the global division target by two separate obligations: an independently established Artinian actual closure and finite-subgroup generation of its projective K-theory.
+The primitive-return series and its scalar Taylor coefficients do not establish either obligation.
+For torsion-free groups the finite-subgroup lattice is just the integer multiples of the central identity; enriching the output to a center-valued trace supplies no additional lattice generators or automatic quantization.
+Further work must retain actual multiplication, cocycle and projective-module structure if it is to use this criterion beyond the known cases.
+
 Identify an explicit compatibility property of the full group identity language or joint unitary distribution that is absent from the constructed counterexample and can supply an independent boundary estimate.
 Require a concrete matrix or noncentral relation family whose kernel gains a constraint beyond the existing cyclic, graded, energy and known division-coefficient tests.
 Check that its proposed use does more than restate the original group-ring rank problem.

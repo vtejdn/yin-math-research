@@ -109,8 +109,17 @@ Recorded consumer navigation: Sufficient-class use in [Yin_C_F0094's statement](
 
 Exact definition homes and conventions: [The two fixed-ambient operations](../audits/literature/MSY23/Yin_U003.md#definitions-47-and-410-two-closures-in-one-ambient-algebra), [source terminology conversion](../audits/literature/MSY23/Yin_U002.md#fixed-ambient-closure-conventions), and the separate [matrix-domain Property I](../audits/literature/PV23/Yin_U001.md#matrix-domain-property-i).
 The [Lin06 comparison](../audits/literature/Lin06/Yin_U001.md#matrix-localization-and-fixed-ambient-closures) states the universal property of matrix localization and distinguishes its universal map from the image in a fixed ambient rational closure.
+The [central-idempotent division extension](../audits/literature/KLS17/Yin_U001.md#actual-division-closure-and-central-idempotent-extension), KLS17 Definition 2.2, is a different transfinite construction and does not adjoin arbitrary noncentral kernel projections.
 
 Recorded consumer navigation: [Yin_C_F0008's recorded uses](../ledger/Yin_L_F0004_v1.md#yin_c_f0008-definitions) distinguish closure operations in its statement/proof from the Property I terminology comparison.
+
+### Center-valued dimensions and finite-subgroup trace lattices
+
+Exact source homes: [center-valued trace and unnormalized matrix dimension](../audits/literature/KLS17/Yin_U001.md#center-valued-trace-and-dimension), [finite conjugacy center and maximal finite normal subgroup](../audits/literature/KLS17/Yin_U001.md#finite-conjugacy-center-and-finite-normal-subgroup), and [the trace lattice and center-valued Atiyah conjecture](../audits/literature/KLS17/Yin_U001.md#the-permitted-trace-lattice-and-the-conjecture).
+Source convention: KLS17's journal Definitions 1.2, 1.9 and 2.1, with the finite-subgroup order bound and conjugation-closed coefficient field retained.
+The [Atiyah-expected Artinian definition](../audits/literature/KLS17/Yin_U001.md#atiyah-expected-artinian-structure) specifies primitive central blocks and their matrix sizes without assuming finite central dimension of the skew fields.
+The [K_0 and G_0 distinction](../audits/literature/KLS17/Yin_U001.md#theorem-37-three-verified-formulations-and-the-unresolved-g-theory-branch) preserves their different module and relation conventions.
+Recorded consumer navigation: structural and comparison use in [finite crossed products](../strategies/Yin_S_A0001.md#mechanism-and-missing-bridge), [the algebraic closure route](../strategies/Yin_S_A0004.md#current-structural-investigation), and [the density boundary](../strategies/Yin_S_A0006.md#current-structural-boundary).
 
 <a id="free-fields-and-representations"></a>
 ### Free fields, expressions and representations

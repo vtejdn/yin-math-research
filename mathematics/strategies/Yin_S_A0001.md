@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Concrete companion to route four; the actual index-two reduction is established, and the next mechanism must exceed the demonstrated cyclic-quotient descent or known finite-extension coverage. |
+| priority | Structural companion to route four: seek an independent projective-generation constraint for an actual finite crossed product beyond known coverage, retaining the distinction between Artinianness and division. |
 
 ## Mechanism and missing bridge
 
@@ -26,6 +26,13 @@ The [earlier survey probe](../ledger/Yin_L_A0001_v1.md#finite-extension-probe) r
 The known transfer theorem with finite-classifying-space, cohomological-completeness and torsion-free-quotient assumptions is the comparison benchmark, as recorded in the [permanence discussion](../ledger/Yin_L_A0001_v1.md#coefficients-and-permanence).
 The [route-four reassessment](Yin_S_A0004.md#strategic-reassessment) selects this probe because its explicit extension relations may constrain rational elements, whereas the completed general finite-tracial lemmas supply no such constraint.
 This is cross-route reuse of the same finite-extension mechanism, not a claim that the general torsion-free problem has reduced to index two.
+
+The [KLS17 projective criterion](../audits/literature/KLS17/Yin_U001.md#the-projective-formulation-with-its-full-hypothesis) supplies a precise alternative interface: for an actual semisimple Artinian closure, finite-subgroup K_0 generation controls the sizes and number of its simple blocks.
+In a torsion-free group the required source is only K_0 of the coefficient field, so the missing surjectivity forces the crossed product to have a single division block.
+The criterion does not require its coefficient skew field to be finite-dimensional over its center, but it does require independent generation in the actual crossed product.
+Projectives associated with a finite quotient are not automatically induced from finite subgroups of the torsion-free overgroup; their relation to the actual action and cocycle must be proved.
+KLS17 Proposition 4.3 does not establish arbitrary finite-extension permanence: its hypothesis for the whole finite quotient already assumes the conclusion for G.
+The [audit's unresolved G-theory interface](../audits/literature/KLS17/Yin_U001.md#why-condition-3-has-not-been-cleared) is not used to remove these obligations.
 
 ## Current test and coverage boundary
 

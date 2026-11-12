@@ -24,6 +24,9 @@ The published finite-edge theorem supplies a baseline; in a torsion-free graph o
 The [current main-route reassessment](Yin_S_A0004.md#strategic-reassessment) gives the index-two relation test priority because this route still lacks a selected edge condition addressing its Tor obstruction and subsequent analytic-closure comparison.
 The available source audits do not close either obligation, so merely reformulating the Tor conjecture is not a reason to run this route in parallel.
 
+The [KLS17 audit](../audits/literature/KLS17/Yin_U001.md#why-condition-3-has-not-been-cleared) reinforces the need to verify this exactness interface: an equality in G_0 is not an available stable module isomorphism, and induction to the affiliated algebra needs its own justification on the relevant exact sequences.
+Finite-subgroup projective generation with a separately known semisimple target is usable, but supplies no replacement for the infinite-edge Tor or dimension-flatness argument.
+
 ## First discriminating step
 
 Start with \(C\cong\mathbb Z\) and concrete embeddings into the vertex groups.

@@ -28,6 +28,11 @@ The sofic \(\overline{\mathbb Q}\)-to-\(\mathbb C\) coefficient upgrade is alrea
 The [completed JZ19 tensor step](../claims/Yin_C_A0002_v1.md#statement) supplies its centralizer lower bound, not integer-rank approximants or the algebraic-coefficient Atiyah premise.
 Accordingly the [current strategy reassessment](Yin_S_A0004.md#strategic-reassessment) retains this route's conditional priority and places construction of the required approximants before additional general spectral estimates.
 
+The [KLS17 quotient approximation](../audits/literature/KLS17/Yin_U001.md#precise-coefficient-approximation-and-finite-subgroup-lifting) uses a descending normal chain, determinant bounds, algebraic coefficients and isomorphic lifts of every finite quotient subgroup.
+For a torsion-free target its lifting condition forces the quotients to be torsion free, so finite quotients with growing denominators do not enter this theorem.
+The finite normal core and a fixed trace lattice then control the limiting coefficients.
+An application to A0001 still needs an independently supplied quotient family and, when applicable, an explicitly justified coefficient upgrade to all complex numbers.
+
 ## First discriminating step
 
 Choose a specific torsion-free target family and establish that the proposed marked approximants exist.
