@@ -174,6 +174,31 @@ It gives an exact bounded-law failure of finite-size convexity, an integrability
 The [remaining boundary target](../ledger/Yin_L_F0068_v1.md#zero-noise-target) is dimension-uniform one-sided stability of the expected cutoff moment when the noise is removed, together with the separate fixed-noise singular-value count needed before that transfer.
 These findings do not establish the general lower bound or the summable deviations required above.
 
+<a id="direct-hermitization-route"></a>
+### Direct Hermitization as an alternative proof route
+
+The [direct GUE-route comparison](../ledger/Yin_L_F0061_v4.md) identifies the deterministic and finite-variance components that can be retained without using the disk-moment lower bound as an input.
+Its [conditional assembly](../ledger/Yin_L_F0061_v4.md#non-gaussian-concentration) replaces Gaussian concentration by the existing Wigner row-block inequality and closes the almost-sure planar passage once an original-law summable least-value floor and a quantitative expected small-value count are available.
+The [independently reviewed shrinking-count theorem](../claims/Yin_C_F0195_v1.md#decision-count-reviewed) now supplies the count premise for arbitrary fixed scalar polynomials under third off-diagonal and second diagonal moments, including the fourth-moment case.
+The original-law least-value floor remains unresolved in general.
+For real symmetric inputs in the first two-sided test \(AB+2BA-z\), the [independently reviewed all-profile theorem](../claims/Yin_C_F0194_v30.md#decision-all-profile-distance-reviewed) now proves the averaged physical-distance estimate at \(c_{K,z}N^{-6}\) and the original-parent probability floor at \(N^{-7}\), for almost every fixed \(z\).
+It assumes fourth off-diagonal and second diagonal moments and allows arbitrary cross-size coupling.
+The [adopted complete assembly C186v26](../claims/Yin_C_F0186_v26.md#decision-real-two-sided-brown-probability-reviewed), with its [independent whole-proof finding](../audits/reviews/Yin_R_F0190_v25.md#real-two-sided-brown-probability-whole-proof), now proves Brown convergence in probability and expected local planar L1 convergence without using the disk-moment lower bound as an input.
+For this real two-sided product and every fixed radius enclosing the free Brown support, its bounded continuous test conclusion also gives \(m_{N,R}\to m\) in probability and in L1 of the underlying probability space, since the cutoff moment is bounded by \(R^2\).
+Thus the probability version of the moment lower bound follows as a consequence of the direct proof.
+The [current strategy](../strategies/Yin_S_F0032.md#current-allocation-and-discriminating-tests) prioritizes the real-input full-sequence almost-sure upgrade and retains the complex-input coefficient extension separately.
+The [adopted deep-clipping theorem C186v27](../claims/Yin_C_F0186_v27.md#decision-global-clipping-defect-reviewed) further proves almost-sure local L1 convergence of the singular-value potential clipped at \(e^{-L_N}\), for the global height \(L_N=\exp\sqrt{\log(N+1)}\).
+Its [extreme planar defect](../claims/Yin_C_F0186_v27.md#extreme-planar-defect) is nonnegative and has vanishing planar expectation in this real fourth-moment model.
+Summability of each fixed positive deviation of that planar integral is necessary and sufficient for almost-sure Brown convergence under every allowed cross-size coupling, and would therefore close the lower bound here.
+A summable least-value floor at the same cutoff for almost every fixed parameter is a stronger sufficient target; it is not necessary to rule out every extremely small singular value if its normalized total logarithmic loss can be controlled instead.
+Neither required summability statement is supplied by the adopted probability floor.
+The [adopted log-concave theorem C186v28](../claims/Yin_C_F0186_v28.md#decision-log-concave-planar-brown-reviewed) now supplies the planar-defect summability and every-coupling almost-sure Brown conclusion when all random input laws, including the random diagonal laws, are log-concave.
+Its proof directly concentrates the integrated unregularized potential and compares it with the deeply clipped potential, without using the eigenvalue-moment lower bound as a premise.
+For arbitrary finite-fourth-moment laws, the [adopted truncation theorem C198v1](../claims/Yin_C_F0198_v1.md#decision-truncation-stability-reviewed) supplies summable fixed-norm exceptions and complete clipped transfer, while retaining the unproved unregularized transfer and an exact actual-polynomial obstruction to a deterministic norm-and-rank shortcut.
+The general fourth-moment summability target remains open at the scope fixed above.
+The [adopted common-complement reconstruction C194v31](../claims/Yin_C_F0194_v31.md#decision-original-reconstruction-reviewed) now gives exponentially small guarded identification failures and legal original-row exclusions for the stated finite root families.
+The exhaustive high-concentration family and its joint two-color count remain the missing arithmetic inputs; these conditional family results do not establish the required planar summability.
+
 <a id="paired-border-growth"></a>
 ## Continuing paired-border test
 

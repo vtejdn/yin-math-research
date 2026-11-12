@@ -49,12 +49,10 @@ If \(T\) has finite rank, then \(\overline T\in\F(H)\), with the same range and 
 
 \begin{lemma}\label{lem:tensor-l2-recovery}
 Let $x\in\M$ and suppose that $x-\lambda$ is regular for every $\lambda\in\C$.
-The map $\Psi_x$ of Definition~\ref{def:psi} is injective.
-If $k\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfies
+The map $\Psi_x$ of Definition~\ref{def:psi} is injective and satisfies
 \[
- \Psi_x(k)\in H\otimes_{\C}H,
+ \Psi_x^{-1}(H\otimes_{\C}H)=H\otimes_{\C}H.
 \]
-then $k\in H\otimes_{\C}H$.
 \end{lemma}
 \begin{proof}
 If $T\in\F(H)$ satisfies $[T,x]=0$, then $\operatorname{ran}T$ is a finite-dimensional invariant subspace for $x$.
@@ -73,6 +71,7 @@ To prove the remaining assertion, put $U:=L^0(\M)$ and define the right multipli
 Thus $\Psi_x=R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$.
 Neither right multiplication map has a nonzero finite-dimensional invariant subspace: such a subspace would contain an eigenvector, contradicting regularity of $x-\lambda$.
 Since $x\in\M$, both maps preserve $H$, and their restrictions to $H$ have the same property.
+In particular, $\Psi_x$ preserves $H\otimes_{\C}H$.
 
 For linear maps $A:V\to V$ and $B:W\to W$ on complex vector spaces, $A\otimes I-I\otimes B$ is injective on $V\otimes_{\C}W$ if $B$ has no nonzero finite-dimensional invariant subspace.
 Indeed, write a nonzero kernel vector as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal, so both families are linearly independent.
@@ -88,6 +87,7 @@ The induced linear maps on the quotient spaces are
  \widetilde R_{x^{\mathrm{op}}}(v^{\mathrm{op}}+H)&:=(xv)^{\mathrm{op}}+H.
  \end{aligned}
 \]
+Now let $k\in U\otimes_{\C}U^{\mathrm{op}}$ satisfy $\Psi_x(k)\in H\otimes_{\C}H$.
 Projecting the first factor of $k$ modulo $H$ gives a vector in the kernel of
 \[
  \widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}

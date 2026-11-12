@@ -26,13 +26,14 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The in-directory build succeeded on 2026-10-30 with `latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex`.
-It used TeX Live 2025, pdfLaTeX 1.40.27 and latexmk 4.86a, producing a 23-page PDF of 478987 bytes.
+The in-directory build succeeded on 2026-11-11 with `latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex`.
+It used TeX Live 2026, pdfLaTeX 1.40.29, BibTeX 0.99e and latexmk 4.88, producing a 23-page PDF of 476898 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
-Lemma 4.3 uses this definition and explicitly gives both factor right multiplication maps and their induced maps on the vector-space quotients.
+Lemma 4.3 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
+Its proof explicitly records preservation of the algebraic L2 tensor product, introduces k for the reverse inclusion and gives both factor right multiplication maps and their induced maps on the vector-space quotients.
 Its injectivity conclusion now follows from maximal Delta for the one-element tuple and Lemma 3.2; the quotient-space proof of the L2 assertion is retained.
-The manuscript conventions and organization are synchronized, and the scoped reviews record the [right multiplication maps](../review.md#psi-generalization-20261029) and the [revised injectivity argument](../review.md#scalar-injectivity-via-lemma32-20261029).
+The manuscript conventions and organization are synchronized, and the scoped reviews record the [right multiplication maps](../review.md#psi-generalization-20261029), the [revised injectivity argument](../review.md#scalar-injectivity-via-lemma32-20261029) and the [compact formulation and range obstruction](../review.md#tensor-recovery-range).
 
 Section 6 is titled Applications to liberation gradients and conjugate variables.
 Definition 6.1 and Lemma 6.2 establish the full-domain gradient-to-dual construction, followed by the criterion in Proposition 6.3.
@@ -40,10 +41,8 @@ Definition 6.4, Lemmas 6.5-6.6 and Corollary 6.7 give the ordinary conjugate-var
 All pre-existing semantic labels are retained, including `prop:normal-conjugates` for the authorized change to a corollary.
 The introduction, [citation map](../citation.md), [organization record](../organization.md), conventions and current review boundary use these locations and numbering.
 
-Source checks found no duplicate labels, unresolved references or missing citation keys.
 The final log contains no compilation errors, undefined citations or references, duplicate-label warnings, or overfull or underfull boxes.
 The build command reported the locale fallback, and the final log retains a font-expansion warning.
-All 23 pages were rendered with Poppler and visually inspected.
-No clipped text, overlapping content or page-layout defect was found.
+The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed for this build.
 
 Manuscript review evidence and its limits are recorded in the project [review.md](../review.md).

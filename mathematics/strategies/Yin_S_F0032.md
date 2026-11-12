@@ -17,9 +17,60 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Advance the general planar logarithmic lower bound through paired border growth and exact affine block linearization, using the adopted thin-support and free-semidefinite subclasses as resolved cases; retain the actual-background quartic route for xy+2yx. |
+| priority | With real fourth-moment xy+2yx Brown convergence in probability established, first seek full-sequence almost-sure convergence through the remaining planar negative-logarithmic defect. The complex original-law coefficient extension remains a separate obligation. |
 
 ## Current allocation and discriminating tests
+
+The [reviewed Wigner count theorem](../claims/Yin_C_F0195_v1.md#decision-count-reviewed) now supplies the quantitative small-singular-value count for every fixed affine pencil with finite free logarithm, and for every fixed nonconstant scalar polynomial at each \(z\ne P(0)\).
+It requires only third absolute off-diagonal moments and second diagonal moments, allows arbitrary complex entry covariance, and uses no norm guard.
+For the scalar polynomial this closes the Count premise in the [direct Hermitization assembly](../ledger/Yin_L_F0061_v4.md#conditional-small-values); the original-law floor remains open for general polynomials and laws.
+For the first concrete test \(AB+2BA-z\), the [adopted all-profile distance theorem](../claims/Yin_C_F0194_v30.md#decision-all-profile-distance-reviewed) now proves, for real symmetric fixed-law Wigner inputs with fourth off-diagonal and second diagonal moments, every fixed \(z\) in its deterministic full-area set and every fixed norm guard,
+\[
+ \frac1N\sum_{i=1}^N
+ \mathbb P\{\Omega_{N,K},\ d_i(z)\le c_{K,z}N^{-6}\}\longrightarrow0,
+ \qquad \Omega_{N,K}=\{\|A_N\|,\|B_N\|\le K\}.
+\]
+The same theorem removes the guard and gives \(\mathbb P\{s_{\min}(A_NB_N+2B_NA_N-zI)\le N^{-7}\}\to0\), without an exceptional inverse-profile term.
+Its [independent whole-proof finding](../audits/reviews/Yin_R_F0200_v33.md#all-profile-distance-whole-proof) covers the actual physical coefficients, complete same-row graph, original-law matching, spectral and exterior branches, diagonal perturbation and parent reduction.
+The exterior branch uses the [inspected Anderson input](../audits/literature/And13/Yin_U001.md#and13-u001) and yields a positive constant floor outside the ordinary free operator spectrum.
+
+The [adopted raw theorem](../claims/Yin_C_F0187_v31.md#decision-all-profile-outer-reviewed) covers all six inverse singular-value profiles using mixed high-rank estimates, exact two-sided kernel noncancellation and real word-Gram compactness.
+Each profile has a common scale for its complete coefficient lower bound, physical collision error and full graph area.
+The [adopted actual-inverse spread theorem](../claims/Yin_C_F0197_v2.md#decision-hermitized-physical-spread-reviewed) supplies root residual energy, row/column and physical-diagonal spread at each residual's own scale, and head graph delocalization.
+It uses the [erased-coordinate joint gap](../claims/Yin_C_F0187_v29.md#decision-erased-gap-reviewed) and the [free inverse-energy theorem](../claims/Yin_C_F0197_v1.md#decision-reservoir-reviewed).
+The [physical incompressibility theorem](../claims/Yin_C_F0196_v1.md#decision-incompressibility-reviewed) then converts the distance average into the parent floor.
+These geometric inputs allow general complex Hermitian laws, but the complete raw and physical coefficient arguments currently require real symmetric inputs.
+The complex original-law extension remains unresolved and does not follow from the complex geometric statements alone; the current first allocation is the real-input almost-sure upgrade.
+At exceptional parameters the [conditional quartic quotient and rank branch](../ledger/Yin_L_F0066_v19.md#two-sided-quartic-first-obligation) retain their original scope; the adopted floor needs only almost-everywhere parameters.
+For the real quadratic subclass, the [adopted complete assembly C186v26](../claims/Yin_C_F0186_v26.md#decision-real-two-sided-brown-probability-reviewed) proves Brown convergence in probability and expectation convergence in the bounded-Lipschitz metric, together with expected local planar L1 convergence of the unregularized potentials.
+Its [independent whole-proof finding](../audits/reviews/Yin_R_F0190_v25.md#real-two-sided-brown-probability-whole-proof) covers the complete floor/count assembly, product-space planar passage and exact subsequence quantifiers.
+No D9 eigenvalue-moment lower bound is used as an input.
+Every prescribed deterministic subsequence admits a further deterministic subsequence with almost-sure local L1 and weak Brown convergence on one event.
+Full-sequence almost-sure convergence remains unresolved; the probability floor asserts no rate or summability.
+The [adopted deep-clipping theorem C186v27](../claims/Yin_C_F0186_v27.md#decision-global-clipping-defect-reviewed) now proves an almost-sure local L1 limit after clipping singular values at \(e^{-L_N}\), with one global choice \(L_N=\exp\sqrt{\log(N+1)}\).
+This clipping conclusion already holds for general complex Hermitian inputs under third off-diagonal and second diagonal moments, without a least-value floor or norm guard.
+Its [exact remaining defect](../claims/Yin_C_F0186_v27.md#extreme-planar-defect) is the normalized excess logarithm below that cutoff, whose planar integral tends to zero in expectation for real fourth-moment AB+2BA by C186v26.
+For every-coupling almost-sure Brown convergence, fixed positive deviations of these planar integrals must have summable probabilities, and this condition is also sufficient.
+The [independent whole-proof finding](../audits/reviews/Yin_R_F0190_v26.md#global-clipping-defect-whole-proof) covers the clipping, both defect equivalences, summable guarded geometry and paired row-norm exceptions, and the qualified arithmetic and norm-guard obstructions.
+The [adopted log-concave theorem C186v28](../claims/Yin_C_F0186_v28.md#decision-log-concave-planar-brown-reviewed) now closes this planar-loss estimate when both off-diagonal laws and every nondeterministic diagonal law are log-concave.
+Its [independent whole-proof review](../audits/reviews/Yin_R_F0190_v27.md#log-concave-planar-brown-whole-proof) covers the original row-block determinant degree, the accepted Carbery--Wright input, conditional logarithmic moments, elementary martingale concentration and both cap-removal steps.
+For each fixed disk and positive threshold, the actual defect probability is bounded eventually by a sum of \(O(N^{-3})\), \(2\exp[-cN/(L_N+\log N)^2]\) and \(2e^{-cN}\).
+This proves full-sequence almost-sure Brown convergence under every cross-size coupling for that stronger subclass; arbitrary finite-fourth-moment laws, including atomic laws, remain unresolved.
+The coefficient-uniform conditional logarithmic estimate fails even for a fixed Rademacher law, so the original-law continuation must exploit the actual random background or another planar mechanism.
+
+For the original fourth-moment model, the [adopted sparse-truncation theorem C198v1](../claims/Yin_C_F0198_v1.md#decision-truncation-stability-reviewed), with [independent whole-proof review](../audits/reviews/Yin_R_F0206_v1.md#truncation-stability-whole-proof), supplies a triangular array with summable fixed-norm exceptions and complete convergence of the clipped-potential comparison.
+The truncation is uncentered and its laws vary with the dimension; no fixed-law floor theorem is applied to it without a new applicability argument.
+Its [actual bounded-real-law AB+2BA construction](../claims/Yin_C_F0198_v1.md#actual-polynomial-bounded-support-obstruction) shows why bounded norms, sparse changes and clipped comparison alone cannot supply the unregularized planar transfer.
+The construction restricts deterministic perturbation methods, not typical probabilistic influences or the Brown-convergence target.
+The [adopted original-law reconstruction theorem C194v31](../claims/Yin_C_F0194_v31.md#decision-original-reconstruction-reviewed), with [independent whole-proof review](../audits/reviews/Yin_R_F0200_v34.md#original-reconstruction-whole-proof), supplies exponential guarded identification bounds from a common complement and exact recovery of the graph images before exposing the testing rectangles.
+It proves low-concentration exclusions for deterministic root families and, after conditioning one color, for families measurable in that color, provided their leading entropy is independent of final precision.
+Its [exact root triad](../claims/Yin_C_F0194_v31.md#original-root-triad) retains \(Ah=q\), \(Bh=g\), and \(Ag+2Bq-zh=r\), with a lawful ordered product of the same two-color row concentrations.
+The next arithmetic target is an exhaustive covering of these actual feasible triples whose entropy is paid by that joint row product, using their image equations and outside compatibility rather than treating the two colors as independently countable profiles.
+The [precise remaining boundary](../claims/Yin_C_F0194_v31.md#remaining-entropy-obstruction) retains both the missing structural extraction and the quantitative deficit of the direct inside-block cover.
+The [fixed coincident-law test](../ledger/Yin_L_F0066_v20.md#shared-root-progression-obstruction), checked in ordinary exploration, shows that concatenating equal-law colors does not by itself reduce the candidate count to one progression factor.
+Its explicit proper progression retains quadratically many assignments per nonzero shared root value, even for flat bounded vectors with two nondegenerate real-imaginary root directions; it does not realize the original image equations or refute a probabilistic count using them.
+The current allocation remains the actual planar loss under the original laws: the existing matching majorant is not summable, and finite fourth moments do not make a fixed norm guard eventual under every cross-size coupling.
+The finite-fourth-moment focus does not weaken or complete the original finite-second-moment Task contract.
 
 For F0013 and F0014, the [three-channel path pencil and its repeated-variable cubic at zero](../claims/Yin_C_F0186_v21.md#decision-finite-variance-three-channel-reviewed) now have an adopted determinant theorem.
 Its exact finite and free determinant reductions cover this fixed tuple and the exceptional scalar parameter; the next allocation tests whether the mechanism propagates to unresolved coefficient geometries in the original contracts.

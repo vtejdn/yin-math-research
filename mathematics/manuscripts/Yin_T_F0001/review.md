@@ -358,3 +358,16 @@ The argument uses neither Proposition 4.4 nor any liberation dual system, so the
 The abstract difference-map observation and the two quotient steps are retained for the L2 assertion.
 All existing environments, semantic labels, hypotheses and conclusions are preserved.
 This is a scoped manuscript self-review, not a new independent review or fixed Claim assessment.
+
+
+<a id="tensor-recovery-range"></a>
+## Lemma 4.3: Range of the Restriction
+
+A scoped agent check of the current Definition 1.3 and Lemma 4.3 excludes replacing the conclusion by bijectivity of Psi_x from the algebraic tensor product H tensor H onto itself.
+Put $U:=L^0(\mathcal M)$, $V:=U\otimes_{\mathbb C}U^{\mathrm{op}}$ and $W:=H\otimes_{\mathbb C}H$.
+The linear multiplication map $m:V\to U$, defined by $m(u\otimes v^{\mathrm{op}}):=uv$, satisfies $m\Psi_x(u\otimes v^{\mathrm{op}})=uxv-u(xv)=0$.
+Since $m(1\otimes1)=1$, the tensor $1\otimes1\in W$ is outside $\Psi_x(V)$, so the restriction to W is not surjective onto W.
+Under the lemma's hypotheses, its actual conclusions are injectivity on V and $\Psi_x^{-1}(W)=W$; the reverse inclusion in this equality uses $x\in\mathcal M$.
+The statement now uses this compact form, and the proof explicitly records preservation of W and introduces the tensor k for the other inclusion.
+Consequently, the restriction is a bijection $\Psi_x|_W:W\to\Psi_x(V)\cap W$, rather than a bijection onto W.
+This check verifies only the range obstruction, the reformulation of the stated conclusions and the affected proof transitions; it is not an independent review of the lemma's proof.

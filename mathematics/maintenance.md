@@ -8,6 +8,7 @@ The publisher request led to subscription access, so the completed audit uses re
 
 Yin: Obtain JZ99, cited as JAI99 in JZ19, and check Lemma 2.15 against the scalar-extension use in Theorem 10.7.
 The [publisher record](https://doi.org/10.1006/jabr.1998.7733) identifies the article; the [source audit](audits/literature/JZ19/Yin_U001.md#external-foundations) records the exact uninspected interface.
+The publisher PDF request returned HTTP 403; no readable public original was obtained.
 Locate an authorized journal or author text, retaining the almost-simple-ring hypotheses.
 
 Yin: Locate the exact Vir17 preprint, Crawley-Boewey's extension of invariants in the non-discrete case, or a documented later version, and verify the extension theorem cited in JZ19 Proposition 5.6.

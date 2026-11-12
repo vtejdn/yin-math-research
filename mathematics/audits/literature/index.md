@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [And13/Yin_U001](And13/Yin_U001.md#and13-u001) | Finite-fourth-moment spectral inclusion and norm convergence for real Wigner inputs; exact complex independence and diagonal-moment limits |
 | [CKMYZ26/Yin_U001](CKMYZ26/Yin_U001.md#ckmyz26-u001) | Second-moment criterion, disk error, Gaussian rotation and comparison with the repository's disk criterion and adopted GUE proof |
 | [Ele03/Yin_U001](Ele03/Yin_U001.md#ele03-u001) | Complete four-page proof audit; finite propagation, local dimension, Følner error and the rational-operator transfer boundary |
 | [JZ19/Yin_U001](JZ19/Yin_U001.md#jz19-u001) | Complete published-edition audit; coefficient change, ranked regular envelopes, arithmetic repairs and the separately reviewed Lemma 9.10(2) completion |
@@ -264,3 +265,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [NO15/Yin_U001](NO15/Yin_U001.md) | Printed complex inverse-concentration interface, arithmetic obstructions and inspected coordinate passages |
 | [NO15/Yin_U002](NO15/Yin_U002.md) | Exact elliptic pair and least-value interface, with unresolved source-profile counting obligations |
 | [You61/Yin_U001](You61/Yin_U001.md) | Complex symmetric and skew unitary congruence, with exact first-page source scope |
+| [Erd49/Yin_U001](Erd49/Yin_U001.md) | Hsu--Robbins finite-variance complete convergence, inspected sufficiency and squared-entry paired-row specialization |
+| [CW01/Yin_U001](CW01/Yin_U001.md#cw01-u001) | Banach-valued polynomial sublevel bound at q equals one for affine-support log-concave laws; exact logarithmic normalization and scope |
+| [Lat05/Yin_U001](Lat05/Yin_U001.md#lat05-u001) | Expected operator norm of an independent centered real matrix from row and column variance sums and total fourth moments; triangular-array and symmetric-part applicability |

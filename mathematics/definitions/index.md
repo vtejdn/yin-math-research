@@ -450,3 +450,27 @@ Recorded consumer navigation: the [random-center Haar tube argument](../claims/Y
 Exact source home: [MNV16's coefficient-threshold rank](../audits/literature/MNV16/Yin_U001.md#matching-rank), for a real multilinear polynomial, with pairwise disjoint highest-degree monomials and coefficient threshold one.
 Source scope: the 2016 Theory of Computing edition, Definition 1.5 and Theorem 1.6, PDF p. 3.
 Recorded consumer navigation: the [principal-cofactor threshold graph](../claims/Yin_C_F0194_v3.md#statement) and its [two-copy real-law adaptation](../claims/Yin_C_F0194_v3.md#two-copy-matching), with the factor two and normalized Wigner factor \(1/n\) retained.
+
+### Complete convergence of random variables
+
+Exact source home: [the complete-convergence convention](../audits/literature/Erd49/Yin_U001.md#complete-convergence-definition), requiring summable fixed-deviation probabilities without independence between sizes.
+Source scope: [Erd49's inspected primary sufficiency passage](../audits/literature/Erd49/readme.md#renyi-bundle), printed pp. 286--288, with the original Hsu--Robbins attribution retained.
+Recorded consumer navigation: the [paired-row norm summability argument](../claims/Yin_C_F0186_v27.md#paired-norm-complete-convergence) and [every-coupling guarded geometry deduction](../claims/Yin_C_F0186_v27.md#complete-convergence-geometry), at the theorem's selected assessment.
+
+### Bounded-Lipschitz metric on planar probability measures
+
+Exact convention: [the bounded-Lipschitz definition](../claims/Yin_C_F0186_v26.md#bounded-lipschitz-definition), using the Euclidean distance, real test functions bounded by one and Lipschitz constant at most one.
+Recorded consumer navigation: [real fourth-moment Brown convergence in probability](../claims/Yin_C_F0186_v26.md#statement) and its [metric passage](../claims/Yin_C_F0186_v26.md#bounded-lipschitz-proof).
+
+### Clipped singular-value potentials and excess logarithmic loss
+
+Exact project formulation: [the clipped potential and loss](../claims/Yin_C_F0186_v27.md#clipping-definition), retaining the squared-singular normalization, deterministic clipping height and planar-null eigenvalue convention.
+Recorded consumer navigation: the [global clipping theorem](../claims/Yin_C_F0186_v27.md#stretched-clipped-potential) and [remaining almost-sure Brown defect](../claims/Yin_C_F0186_v27.md#extreme-planar-defect).
+Further consumers: [log-concave planar deviations](../claims/Yin_C_F0186_v28.md#clipped-planar-defect) and [sparse fourth-moment truncation](../claims/Yin_C_F0198_v1.md#complete-clipped-transfer), each at its own selected assessment and distributional scope.
+
+### Log-concave probability law on an affine support
+
+Exact source home: [the Carbery--Wright convention](../audits/literature/CW01/Yin_U001.md#log-concavity-definition), including product laws, affine supports and deterministic coordinates.
+Source scope: the inspected author version, printed/PDF p. 13, immediately after Theorem 8.
+Recorded application: [the dimension-free polynomial sublevel bound](../audits/literature/CW01/Yin_U001.md#theorem-eight-q-one), used at \(q=1\) with a real or complex Banach target.
+Recorded consumer navigation: the [conditional logarithmic argument](../claims/Yin_C_F0186_v28.md#source-input) and [original independent row law](../claims/Yin_C_F0186_v28.md#original-row-degree), with log-concavity required for all random diagonal and off-diagonal coordinates.
