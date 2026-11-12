@@ -16,6 +16,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [JZ19b source notes](JZ19b/readme.md) | Retained survey manuscript; selected rational approximation, marked-group and amenable-extension interfaces |
 | [RS13 source notes](RS13/readme.md) | Retained arXiv v1; tensor-domain Lemma 1.1 inspected within JZ19's dependency audit |
 | [Vir19 source notes](Vir19/readme.md) | Retained arXiv v2 and contents; Theorem B inspected at statement and applicability depth |
+| [LNW08 source notes](LNW08/readme.md) | Extended arXiv v2 HTML and supplied contents; finite-cluster projections and arbitrary-parameter lamp construction used in the commuting-path atom comparison |
 | [Gar21 selected group structure](../../ledger/Yin_L_A0003_v1.md#retained-candidate-beyond-the-ambient-cyclic-quotient-test) | Retained arXiv v4; Section 3.1 Promislow group, normal abelian subgroup and action used for candidate screening |
 | [ACSY24/Yin_U001](ACSY24/Yin_U001.md) | ACSY24: Small-Core Derivations and Maximal Delta |
 | [ACSY24/Yin_U002](ACSY24/Yin_U002.md) | ACSY24: Matrix Models and Group Atiyah Interfaces |

@@ -7,6 +7,7 @@ author: Yin
 Source: Serban Teodor Belinschi, *Some Geometric Properties of the Subordination Function Associated to an Operator-Valued Free Convolution Semigroup*, arXiv:1503.06390v2, 3 March 2016; original submission 2015.
 Bibliographic and artifact facts are in the [canonical bibliography](../../../literature/references.bib).
 Retained primary text: [Bel15.pdf](../../../literature/pdf/Bel15.pdf).
+The distinct Julia–Wolff–Carathéodory paper, arXiv:1510.05377v2, is registered as [Bel15b](../Bel15b/readme.md).
 
 ## Selected reading and application
 

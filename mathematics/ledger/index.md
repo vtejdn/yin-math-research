@@ -15,11 +15,25 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0008](Yin_L_A0008_v1.md) | Exact degree-one stabilization, extreme-coefficient rank bounds, coefficient obstructions and the indicable-support extension of the worked families | [v1](Yin_L_A0008_v1.md) |
 | [Yin_L_A0009](Yin_L_A0009_v1.md) | Scalar dimension induction with torsion-free transport pivots, affine-preserving factorizations and accretive Schur closure | [v1](Yin_L_A0009_v1.md) |
 | [Yin_L_A0010](Yin_L_A0010_v1.md) | Three-term rows, preserved cyclic coefficient fields, explicit Promislow pivots and equivalence with the unrestricted matrix problem | [v1](Yin_L_A0010_v1.md) |
-| [Yin_L_A0011](Yin_L_A0011_v1.md) | Noncyclic path sums: preserved energy and normalized coefficient components, rational conjugate collisions and relative-trace limits | [v1](Yin_L_A0011_v1.md) |
+| [Yin_L_A0011](Yin_L_A0011_v3.md) | Common-power reciprocal arrays, equal-power pivots, exact rectangular power matrices and a nonzero tensor residual | [v1](Yin_L_A0011_v1.md), [v2](Yin_L_A0011_v2.md), [v3](Yin_L_A0011_v3.md) |
 | [Yin_L_A0012](Yin_L_A0012_v1.md) | Atomic probability formulations: matrix mass quantization, selfadjoint affine tests and bounded scalar rational laws | [v1](Yin_L_A0012_v1.md) |
 | [Yin_L_A0013](Yin_L_A0013_v1.md) | Probabilistic strategy: amalgamated atom transport, expected-kernel degeneration and diffuse-base coefficient obstacles | [v1](Yin_L_A0013_v1.md) |
 | [Yin_L_A0014](Yin_L_A0014_v1.md) | First amalgamated-atom tests: ineffective support cuts, affiliated repair, affine realization and nonrational expected kernels with zero boundary shifts | [v1](Yin_L_A0014_v1.md) |
 | [Yin_L_A0015](Yin_L_A0015_v1.md) | Cauchy boundary residues, reciprocal slopes, free heat, entropy, return-word determinants and geometric index strategies | [v1](Yin_L_A0015_v1.md) |
+| [Yin_L_A0016](Yin_L_A0016_v1.md) | Commutation corrections: nonbacktracking determinants, primitive return growth and residue obstructions | [v1](Yin_L_A0016_v1.md) |
+| [Yin_L_A0017](Yin_L_A0017_v1.md) | Literature tools for atomic corrections: first-return operators, mass transport, finite-support resolutions, word compatibility and regularity obstructions | [v1](Yin_L_A0017_v1.md) |
+| [Yin_L_A0018](Yin_L_A0018_v1.md) | Comparative assessment of all seven Atiyah routes, actual-input constraints, proof and counterexample boundaries, and recommended discriminating tests | [v1](Yin_L_A0018_v1.md) |
+| [Yin_L_A0019](Yin_L_A0019_v1.md) | Exact central-winding trace and atom disintegration, scalar free-atom exclusion, disappearing torsion-quotient atoms and known height coverage | [v1](Yin_L_A0019_v1.md) |
+| [Yin_L_A0020](Yin_L_A0020_v1.md) | Original four-label power-column Schur reduction, exact scalar trinomial kernel preservation, degenerate cases and known indicable/Promislow coverage | [v1](Yin_L_A0020_v1.md) |
+| [Yin_L_A0021](Yin_L_A0021_v1.md) | Ordered-quotient trinomial certificate and exact normality barriers, with actual Schur transfer and known scalar coverage | [v1](Yin_L_A0021_v1.md) |
+| [Yin_L_A0022](Yin_L_A0022_v1.md) | Actual rational kernel-projection specialization, index-two parity and the finite-winding analytic obstruction | [v1](Yin_L_A0022_v1.md) |
+| [Yin_L_A0023](Yin_L_A0023_v3.md) | Noncentral support obstructions, local-rotation repair and exact support-compression corrections | [v1](Yin_L_A0023_v1.md), [v2](Yin_L_A0023_v2.md), [v3](Yin_L_A0023_v3.md) |
+| [Yin_L_A0024](Yin_L_A0024_v1.md) | Actual Promislow cocycles, rational projection specialization and rank-two counterexamples to descended divisibility | [v1](Yin_L_A0024_v1.md) |
+| [Yin_L_A0025](Yin_L_A0025_v1.md) | Explicit three-term kernel with all pairwise Haar laws and a forbidden regular joint-word trace | [v1](Yin_L_A0025_v1.md) |
+| [Yin_L_A0026](Yin_L_A0026_v1.md) | Two-variable expected-Gram obstruction surviving every finite identity-witness stabilization | [v1](Yin_L_A0026_v1.md) |
+| [Yin_L_A0027](Yin_L_A0027_v1.md) | Actual diagonal tensor kernels, exact overlaps, normalized limits and the unchanged trace--norm bound | [v1](Yin_L_A0027_v1.md) |
+| [Yin_L_A0028](Yin_L_A0028_v4.md) | Formal Promislow lifts, global norm descent, explicit Albert form and square-root obstructions to valued-extension certificates | [v1](Yin_L_A0028_v1.md), [v2](Yin_L_A0028_v2.md), [v3](Yin_L_A0028_v3.md), [v4](Yin_L_A0028_v4.md) |
+| [Yin_L_A0029](Yin_L_A0029_v1.md) | Central-finite obstruction, actual noncommutative four-coset closure and the failed commutative norm extension | [v1](Yin_L_A0029_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |
