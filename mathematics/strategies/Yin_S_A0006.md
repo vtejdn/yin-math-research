@@ -14,11 +14,19 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Control finite-kernel correlations with tied coefficients, or obtain an independent annihilator certificate; consider near-zero resolvents only with actual Banach inverses. Global heat/Euler boundedness is rejected as a universal amenable target. |
+| priority | Seek phase-sensitive control of tied finite-kernel correlations or an independent upper bound below one half for finite cut energy; boundary rank densities and weaker solid convolution norms do not supply either bound. |
 
 ## Current structural boundary
 
-The structural refinement of 12 November 2026, 14:00 UTC rejects global heat/Euler boundedness as a universal target.
+The [finite-window compatibility theorem](../claims/Yin_C_A0014_v4.md#statement) gives exact translation and gluing identities, coefficient errors controlled by the boundary proportion, and operator-norm convergence on each fixed finite algebraic kernel witness.
+Its correlation-mass estimates retain the square root of the absolute boundary or unmatched rank, so Følner density alone does not make the correlation sums uniformly bounded.
+The [cut-energy obstruction](../claims/Yin_C_A0014_v4.md#finite-cut-energy-and-its-nonlocal-lower-bound) shows that a hypothetical atom forces operator norm at least one half at every fixed averaging scale, even while the normalized mean energy tends to zero as that scale grows.
+An independently proved upper bound below this threshold would exclude the atom without a spectral gap; no such upper bound has been obtained.
+The [solid-norm obstruction](../claims/Yin_C_A0014_v4.md#no-weaker-solid-convolution-norm) rules out weakening coefficient mass through a solid convolution norm with continuous coefficient evaluation.
+The remaining estimate must use phase-sensitive tied-label cancellations, a genuinely kernel-specific norm outside those hypotheses, or control of the exceptional large-energy directions.
+These quantitative restrictions and the new conditional target do not establish a general amenable solution, and equivalent atom criteria are not counted as a proof advance.
+
+Global heat/Euler boundedness remains excluded as a universal target.
 The [exact obstruction](../claims/Yin_C_A0014_v3.md#global-filter-boundedness-on-invertible-inputs) shows that imposing it even on already-invertible inputs is equivalent to quasi-Hermitianity, which fails for the stated elementary amenable exponential-growth class.
 [Positive random time averaging](../claims/Yin_C_A0014_v3.md#positive-time-averaging-does-not-remove-a-negative-banach-spectral-point) cannot cure the negative Banach-spectral obstruction.
 The [finite-kernel correlation construction](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) instead retains the actual tied coefficients and passes every injective input, including continuous-spectrum endpoints.

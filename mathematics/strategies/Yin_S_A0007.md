@@ -21,6 +21,8 @@ author: Yin
 For the current amenable investigation, [optimal polynomial minima](../claims/Yin_C_A0014_v2.md#definition-christoffel-minima-at-the-target-point) convert the same finite return-word moments into an exact \(L^2\) projection approximation.
 The [finite-kernel correlation target](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) groups the local kernel projection by actual group displacements before taking absolute values.
 It retains tied-coefficient cancellation while avoiding the proved extra spectral requirement of global heat/Euler boundedness.
+The [solid-norm obstruction](../claims/Yin_C_A0014_v4.md#no-weaker-solid-convolution-norm) shows that a phase-blind convolution norm with continuous coefficient evaluation cannot weaken this mass requirement on the selfadjoint kernel averages.
+The [finite cut-energy identities](../claims/Yin_C_A0014_v4.md#finite-cut-energy-and-its-nonlocal-lower-bound) retain an alternative signed-matrix target, whose operator-norm upper bound remains unresolved even though mean energies are small.
 The [graph and gauge obstruction](../ledger/Yin_L_A0031_v1.md#randomization-retains-or-changes-the-decisive-correlations) prevents replacing these tied coefficients by independent edge weights while retaining the original atom.
 This is an additional structural direction, not a proved all-input coefficient bound.
 

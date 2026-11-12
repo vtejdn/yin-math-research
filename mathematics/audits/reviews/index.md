@@ -44,6 +44,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0043](Yin_R_A0043_v1.md#whole-content-finding) | Independent review of Cauchy topologies, inverse gates, tied-weight graph obstructions and randomization limits | [v1](Yin_R_A0043_v1.md) |
 | [Yin_R_A0044](Yin_R_A0044_v1.md#whole-argument) | Independent review of global filter overstrength, positive-time averaging and finite-kernel correlation criteria | [v1](Yin_R_A0044_v1.md) |
 | [Yin_R_A0045](Yin_R_A0045_v1.md#whole-content) | Independent review of local Abel inverses, annihilator projection constants, Roe locality and Følner norm-defect barriers | [v1](Yin_R_A0045_v1.md) |
+| [Yin_R_A0047](Yin_R_A0047_v1.md#whole-argument) | Independent whole-proof review of finite-window compatibility, fixed-kernel norm convergence, the half-unit cut-energy obstruction and solid convolution norm bounds | [v1](Yin_R_A0047_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

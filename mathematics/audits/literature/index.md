@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [Nic08/Yin_U001](Nic08/Yin_U001.md#nic08-u001) | Unconditional completions, relative spectral equivalence and the amenable obstruction in Proposition 8.7; final arXiv v2 |
 | [SW20/Yin_U001](SW20/Yin_U001.md#sw20-u001) | Quasi-Hermitian finite-support spectral invariance, free-semigroup obstruction and elementary amenable growth boundary |
 | [KU14/Yin_U001](KU14/Yin_U001.md#ku14-u001) | Finite propagation, uniform Roe algebra and ITAP; exact first-page amenable interface |
 | [GHL01/Yin_U001](GHL01/Yin_U001.md#ghl01-u001) | Uniquely restricted matching definition from the institutional abstract; no full-paper algorithm or rank theorem adopted |
