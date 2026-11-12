@@ -239,6 +239,10 @@ Applying the cut calculation to the displayed witness gives
  \dim_G^u F(C)-\sum_j a_j\dim_G^u F(P_j^D)=-\sum_s m_s e_s.
 \]
 For this matrix it is therefore necessary and sufficient that the signed defect sum lie in \(L_K(G)\), since the finite-projective contributions and the rectangular rank correction already lie there.
+For the fixed finite-subgroup expression the sum is already independent of its exact-sequence witness.
+The [regular-representation calculation](../../../claims/Yin_C_A0016_v1.md#character-twists-and-central-cuts) gives an additional constraint on each defect term by testing its central cuts along integer character twists.
+The [finite-index restriction](../../../claims/Yin_C_A0016_v1.md#restricting-the-same-short-exact-sequences) transfers the same witness to cyclic covers and recovers its signed defect from two coprime multiples when the cover dimensions can be independently certified.
+These deductions leave the scalar coefficient uncontrolled for an arbitrary torsion-free ICC group.
 A stronger sufficient hypothesis is zero scalar dimension of each such image.
 Requiring this for every finitely generated short exact sequence is equivalent to the [matrix test](../../../claims/Yin_C_A0015_v1.md#matrix-test-for-the-left-hand-defect) that the \(U\)-span of the \(D\)-kernel of every finite \(D\)-matrix exhausts its \(U\)-kernel up to dimension zero.
 Conversely, [the separate argument from (4) to (1)](#recovering-the-specified-blocks-without-the-density-detour) gives a semisimple Artinian \(D\), over which \(U\) is flat, so (4) implies the matrix test.
