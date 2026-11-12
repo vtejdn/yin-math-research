@@ -14,3 +14,5 @@ The inspected copy does not display those final page numbers, so locators here u
 
 [Yin_U001](Yin_U001.md#amenable-projective-trace) records the selected theorem, hypothesis and trace-interface checks.
 No complete proof audit or comparison against a separately acquired publisher PDF was performed.
+
+The separate [assembly-trace interface](Yin_U001.md#assembly-trace) records Definition 3.5 and Theorem 6.3 for the reduced C*-algebra, together with the exact role of the HK97 surjectivity input.

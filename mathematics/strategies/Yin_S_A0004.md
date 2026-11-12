@@ -33,6 +33,11 @@ The [projective-part test](../ledger/Yin_L_A0030_v1.md#a-nonzero-projective-part
 Another formulation of the same zero-divisor condition, normalized finite-rank convergence alone, or an arbitrary kernel encoding does not count as that step.
 No general amenable solution or new group class is claimed.
 
+The [analytic alternative](../claims/Yin_C_A0014_v2.md#bounded-coefficient-mass-suffices-without-norm-convergence) asks for a bounded coefficient-mass subsequence of explicit approximants instead of a finite algebraic resolution.
+Its Fatou argument reaches an \(\ell^1(G)\) idempotent without assuming a spectral gap.
+The [bounded rational output calculation](../ledger/Yin_L_A0031_v1.md#bounded-rational-output-versus-bounded-inverse-gates) shows why a finite kernel generator alone still leaves an unbounded inverse gate and does not supply this certificate.
+Neither analytic criterion is asserted to follow from the group hypotheses.
+
 ## Mechanism and obstruction
 
 Use [MSY23, Theorem 5.25](../audits/literature/MSY23/Yin_U005.md#theorem-525-the-complete-equivalence): integer analytic rank for all polynomial matrices in a bounded tuple is equivalent to its actual rational closure, or equivalently its division closure, in the affiliated algebra being a division ring.

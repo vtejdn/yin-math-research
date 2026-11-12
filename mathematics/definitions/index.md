@@ -9,6 +9,12 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 ### Return operators, graph atoms and group-word compatibility
 
+The [Christoffel minimum](../claims/Yin_C_A0014_v2.md#definition-christoffel-minima-at-the-target-point) uses degree at most \(n\), hence an \((n+1)\)-dimensional moment matrix.
+Its [Sim08 source inspection](../audits/literature/Sim08/Yin_U001.md#sim08-u001) specifies the classical variational convention, the nonsingular inverse formula and the finite-support limitation; C_A0014 uses it for polynomial localization and atom tests.
+The [uniquely restricted matching convention](../ledger/Yin_L_A0031_v1.md#definition-uniquely-restricted-matching) specifies the induced saturated subgraph and its unique perfect matching.
+The [GHL01 source definition](../audits/literature/GHL01/Yin_U001.md#uniquely-restricted-matching) records the standard terminology at the exact inspected abstract scope.
+Its use in L_A0031 is a uniform-over-edge-weights rank certificate and its exact non-unique-product obstruction, not a claim about all tied group-ring weights.
+
 The [bounded first-return function](../ledger/Yin_L_A0017_v1.md#first-return-functions) retains GV17's operator and projection conventions.
 The [spectral-parameter form and selected projections](../claims/Yin_C_A0004_v1.md#complete-first-return) specify its use for the complete cell matrix and the different full-layer compressions in the embedded-decoration calculation.
 The [regular-transport incidence and flatness convention](../claims/Yin_C_A0003_v1.md#finite-graph-certificate) is used in the [geometric atom certificate](../claims/Yin_C_A0004_v1.md#geometric-integer-certificate).

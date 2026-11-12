@@ -35,6 +35,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0028](Yin_L_A0028_v4.md) | Formal Promislow lifts, global norm descent, explicit Albert form and square-root obstructions to valued-extension certificates | [v1](Yin_L_A0028_v1.md), [v2](Yin_L_A0028_v2.md), [v3](Yin_L_A0028_v3.md), [v4](Yin_L_A0028_v4.md) |
 | [Yin_L_A0029](Yin_L_A0029_v1.md) | Central-finite obstruction, actual noncommutative four-coset closure and the failed commutative norm extension | [v1](Yin_L_A0029_v1.md) |
 | [Yin_L_A0030](Yin_L_A0030_v1.md) | The remaining amenable obstruction after kernel localization | [v1](Yin_L_A0030_v1.md) |
+| [Yin_L_A0031](Yin_L_A0031_v1.md) | Analytic and graph obstructions around the amenable atom problem | [v1](Yin_L_A0031_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

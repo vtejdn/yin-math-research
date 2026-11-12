@@ -14,9 +14,17 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Identify an independently justified geometric or homological class for the actual kernel projection; in the amenable branch use the established projective integer trace and isolate the missing annihilator structure, without further concrete-model probing or assuming a spectral gap. |
+| priority | In the amenable branch seek bounded coefficient mass for specified polynomial or heat approximants, or an independent geometric or homological certificate for the kernel; preserve tied group-word coefficients and allow continuous spectrum at zero, without concrete-model probing. |
 
 ## Current structural boundary
+
+The analytic refinement of 12 November 2026, 13:16 UTC is the [bounded-coefficient-mass criterion](../claims/Yin_C_A0014_v2.md#bounded-coefficient-mass-suffices-without-norm-convergence).
+A bounded subsequence of total variations for an actual \(L^2\) approximation puts the kernel projection in \(\ell^1(G)\), where the established scalar-idempotent theorem excludes it.
+This leaves an explicit coefficient estimate to prove; it is not supplied by amenability or a generic random-coefficient argument.
+The [summable Christoffel-increment condition](../claims/Yin_C_A0014_v2.md#a-moment-increment-criterion-with-no-unknown-atom-in-its-hypothesis) is stronger: its norm convergence also excludes zero from the entire spectrum.
+It should not replace the weaker atom-only target when continuous spectrum accumulates at zero.
+The [positive-spectrum filter inequality](../claims/Yin_C_A0014_v2.md#a-positive-spectrum-lower-bound-at-every-polynomial-scale) supplies an additional necessary quantitative bound but does not itself rule out an atom.
+The [analytic and graph comparison](../ledger/Yin_L_A0031_v1.md) identifies the unbounded inverse gate, the rank/norm barriers, and the tied-weight cancellations that subsequent geometric tools must address.
 
 Yin's 12 November 2026 instruction prioritizes structural derivation toward the full or amenable target over trial examples.
 The [amenable reassessment](../ledger/Yin_L_A0030_v1.md) explains why complete finite-support kernel localization still does not place a nonlocal kernel projection in algebraic \(K_0(\mathbb CG)\).

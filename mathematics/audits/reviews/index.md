@@ -40,6 +40,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0038](Yin_R_A0038_v5.md#whole-artifact-finding) | Independent reviews of generic rank, singular defects, transverse contours and the quantitative central-gap obstruction | [v1](Yin_R_A0038_v1.md), [v2](Yin_R_A0038_v2.md), [v3](Yin_R_A0038_v3.md), [v4](Yin_R_A0038_v4.md), [v5](Yin_R_A0038_v5.md) |
 | [Yin_R_A0039](Yin_R_A0039_v1.md#whole-artifact-finding) | Independent review of the central-finite obstruction, actual noncommutative cocycle and closure comparisons | [v1](Yin_R_A0039_v1.md) |
 | [Yin_R_A0040](Yin_R_A0040_v1.md#whole-section-finding) | Independent review of principal-annihilator projective parts, finite-stage homological certificates and persistent syzygy tails | [v1](Yin_R_A0040_v1.md) |
+| [Yin_R_A0041](Yin_R_A0041_v2.md#whole-argument) | Independent reviews of bounded coefficient mass, polynomial localization and positive-spectrum bounds | [v1](Yin_R_A0041_v1.md), [v2](Yin_R_A0041_v2.md) |
+| [Yin_R_A0043](Yin_R_A0043_v1.md#whole-content-finding) | Independent review of Cauchy topologies, inverse gates, tied-weight graph obstructions and randomization limits | [v1](Yin_R_A0043_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

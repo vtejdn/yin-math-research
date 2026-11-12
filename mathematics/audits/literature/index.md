@@ -5,6 +5,9 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [GHL01/Yin_U001](GHL01/Yin_U001.md#ghl01-u001) | Uniquely restricted matching definition from the institutional abstract; no full-paper algorithm or rank theorem adopted |
+| [HK97/Yin_U001](HK97/Yin_U001.md#hk97-u001) | Complete publisher TeX original, countable amenable assembly surjectivity and its exact scalar projection interface with BCM04 |
+| [Sim08/Yin_U001](Sim08/Yin_U001.md#sim08-u001) | Christoffel minima, inverse moment matrices and compact-support atom limits; arXiv v1 convention and selected proof checks |
 | [And13/Yin_U001](And13/Yin_U001.md#and13-u001) | Finite-fourth-moment spectral inclusion and norm convergence for real Wigner inputs; exact complex independence and diagonal-moment limits |
 | [CKMYZ26/Yin_U001](CKMYZ26/Yin_U001.md#ckmyz26-u001) | Second-moment criterion, disk error, Gaussian rotation and comparison with the repository's disk criterion and adopted GUE proof |
 | [Ele03/Yin_U001](Ele03/Yin_U001.md#ele03-u001) | Complete four-page proof audit; finite propagation, local dimension, Følner error and the rational-operator transfer boundary |
