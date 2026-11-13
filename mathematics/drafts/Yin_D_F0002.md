@@ -1450,3 +1450,51 @@ Fubini applies even without a cost bound, since its absolute majorant integrates
 Thus actual scalar \(\mathsf A\) allows curvature kernels with no exact positive mixture of measurable projection blocks.
 The actual scalar contraction still has the nonnegative jump form \(\tfrac12\iint g(z,v)|u(z)-u(v)|^2\,d\mu^2\) on core tests, by symmetry and inner scalar liberation.
 The signed coefficients in (P14) and the lower-bound question for correlated tuples remain open.
+
+<a id="canonical-column-moment-limits"></a>
+## Selecting tests that survive a normal moment limit
+
+The [common column normalization](../claims/Yin_C_F0227_v1.md#normalizing-columns-in-every-representation) and [limit criteria](../claims/Yin_C_F0227_v1.md#fixed-tests-along-limits) reduce the search to fixed rational polynomial columns of universal norm at most one.
+At each target level a strict margin must hold along a common subsequence while all coordinate vacuum norms stay bounded.
+It remains to produce a concrete sequence with these simultaneous margins.
+
+<a id="coarse-test-intertwining-gap"></a>
+## Localizing a shift outside the omitted algebra
+
+For the shift \(X_i-b\) with \(b\in N=W^*(X_j:j\ne i)\), [the one-corner and summed estimates](../claims/Yin_C_F0227_v1.md#intertwining-and-small-omitted-algebra-corners) rule out a diverging packing test using projections in \(N\) itself.
+The spectral projections of \(|X_i-b|\) can lie outside \(N\); estimates on those projections or on their conditional expectations are still needed.
+The same section excludes a sequence approximating Haar intertwining equations or the span of normalizing unitaries with vanishing Hilbert error and uniformly bounded vacuum norms.
+
+<a id="conditional-matrix-variance-vacuum"></a>
+### The remaining shift-distribution question
+
+The [conditional matrix covariance inequality](../claims/Yin_C_F0227_v1.md#conditional-matrix-covariance) bounds the integrable inverse of the conditional second moment \(\mathbb E_N((X_i-b)^*(X_i-b))\), including noncentral shifts \(b\).
+Relating this quantity to the distribution of \(|X_i-b|\) near zero would require control before taking \(\mathbb E_N\).
+
+<a id="polar-defect-and-four-point-arcs"></a>
+## Line directions on corners of small polar phase loss
+
+The [fixed four-point theorem](../claims/Yin_C_F0230_v1.md#statement) gives a straight-line carrier in every subsequential compactness limit of weighted laws with phase loss tending to zero, a positive lower trace, and bounded omitted shifts.
+The following additional observations track the corresponding component of the omitted shifts themselves.
+
+Use the notation of the [positive-trace argument](../claims/Yin_C_F0230_v1.md#weights-with-a-common-positive-lower-trace-bound) and a subsequence on which the two weighted laws converge.
+Write their common limiting line as \(\ell=c+d\mathbb R\), \(|d|=1\).
+Since \(k(z,w)=\bar d^{\,2}\) for distinct points on \(\ell\), the weighted product \(L^2\)-distance of \(k\) from this constant tends to zero by diffuseness and weak convergence, using the same diagonal cutoff as in the fixed proof.
+Thus \(1-d(e_n)=\operatorname{Re}(\bar d^{\,2}\tau(e_n U_n)^2/t_n^2)+o(1)\).
+Since \(d(e_n)\to0\), the numbers \(\bar d\,\tau(e_nU_n)/t_n\) of modulus at most one approach the set \(\{1,-1\}\).
+After passing to a subsequence and taking its sign \(\sigma=\pm1\), we get
+\[
+   t_n^{-1}\|(U_n-\sigma d)e_n^{1/2}\|_2^2
+     =2-2\sigma\operatorname{Re}\!\left(\bar d\,\tau(e_nU_n)/t_n\right)\longrightarrow0.
+\]
+Consequently \((U_n^*-\sigma\bar d)e_n^{1/2}\to0\) in \(L^2\), by left multiplying the preceding difference by \(U_n^*\) and a scalar of modulus one.
+The normalized squared norm of \(\operatorname{Im}(\bar d(X-c))e_n^{1/2}\) is the \(\nu_{e_n}\)-integral of the squared distance to \(\ell\), so this norm tends to zero.
+Writing \(X-b_n=U_nP_n\), the difference \((\bar d U_nP_n-dP_n U_n^*)e_n^{1/2}\) also tends to zero in \(L^2\), since \(P_n\) commutes with \(e_n\) and is uniformly bounded.
+It follows by subtraction that
+\[
+       \|\operatorname{Im}(\bar d(b_n-c))e_n^{1/2}\|_2\longrightarrow0 .
+\]
+For a single positive \(e=g(P)\) with exact phase loss zero, use its constant sequence after normalizing \(\|e\|\) to one.
+The support of \(e\) is then bounded by both \(1_\ell(X)\) and \(1_{\{0\}}(\operatorname{Im}(\bar d(b-c)))\).
+This tracks a direction for each fixed positive lower trace.
+For the shrinking spectral projections \(e_n=1_{[0,r_n]}(P_n)\) with \(r_n\downarrow0\), the [uniform shift estimate](../claims/Yin_C_F0229_v1.md#statement) forces \(\tau(e_n)\to0\), so this compactness argument supplies no law-independent line for such projections.

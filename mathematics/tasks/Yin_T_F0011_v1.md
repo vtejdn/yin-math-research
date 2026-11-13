@@ -143,6 +143,9 @@ Here \(\mathsf S\Rightarrow\mathsf A\) and the [canonical fraction-operator comp
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
 The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed) controls one projection of the required column bound on all starred words.
+For any shift of a coordinate by the algebra of the remaining coordinates, the [singular-value estimate](../claims/Yin_C_F0229_v1.md#decision-reviewed) bounds the trace of the singular projection at radius \(r\) by \((\pi r\|\xi_i\|_2)^{1/2}\).
+The [four-point theorem](../claims/Yin_C_F0230_v1.md#decision-reviewed) excludes vanishing polar phase loss on corners of uniformly positive trace for bounded shifts when no line carries the required marginal mass.
+The [column packing condition](../claims/Yin_C_F0211_v1.md#statement) also tests families of projections whose traces tend to zero.
 The nonnormal separating example does not settle this implication.
 
 ## Starting evidence

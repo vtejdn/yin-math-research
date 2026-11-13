@@ -1867,3 +1867,100 @@ Thus each uniformly bounded choice of vacua forces its starred-generator derivat
 This feature is compatible with the assembly theorem's hypothesis and explains why simultaneous uniform bounds on the two kinds of data would miss these blocks.
 For every such \(X\), \(X^*X\) and \(XX^*\) have different small spectral projections \(p\) and \(upu^*\), since \(s\) and \(usu^{-1}\) are distinct reduced group words.
 At a normal ACSY coordinate the [marginal phase formula](../claims/Yin_C_F0076_v1.md#statement) instead gives a starred value of Hilbert norm one.
+
+## Measurable functions of a normal coordinate and two-sided omitted-algebra twists
+
+The [fixed theorem and proof](../claims/Yin_C_F0226_v1.md#statement) retain the one-sided corner test for bounded Borel functions, asymptotic scalarity and the two-sided unitary changes at the distinguished coordinate.
+Its [transport argument](../claims/Yin_C_F0226_v1.md#transport-at-the-distinguished-coordinate) includes measurable coefficients, the adjoint vacuum, normal bounded-dual witnesses, original-core column estimates and singular projections.
+
+## Sharp scalar limits of radial vacuum tests at an omitted shift
+
+The [singular-mass theorem](../claims/Yin_C_F0229_v1.md#statement) gives exponent \(1/2\) for \(T=X_i-b\) under the actual normal-tuple hypothesis.
+The question here concerns which information survives in the scalar radial tests of that theorem.
+For a law \(\mu\) of \(P=|T|\) and real constant compressed phase \(m=\rho\in[-1,1]\), write the scalar derivative pairing of a radial test \(U\phi(P)\) as
+\[
+ \mathcal L_{\mu,\rho}(\phi)=\tfrac12\iint
+ \left((1+\rho)\frac{\phi(v)-\phi(w)}{v-w}
+       +(1-\rho)\frac{\phi(v)+\phi(w)}{v+w}\right)d\mu(v)d\mu(w).
+ \tag{R1}
+\]
+Use the derivative at \(v=w\) in the difference term.
+For \(\phi(v)=v g(v^2)\) the two coefficients follow by differentiating \(Tg(T^*T)\) first for a polynomial \(g\).
+After tracing, the unstarred derivative coefficient is \((v\phi(v)-w\phi(w))/(v^2-w^2)\), and the coefficient paired with the phase is \((w\phi(v)-v\phi(w))/(v^2-w^2)\).
+These are half the sum and half the difference of the two kernels in (R1), respectively.
+The scalar vacuum bound on these tests asks for a representing vector \(\zeta\in L^2(\mu)\) such that \(\mathcal L_{\mu,\rho}(\phi)=\int\phi\bar\zeta\,d\mu\).
+The following abstract laws satisfy this identity for the indicated full classes of test functions, while their small-radius masses violate every proposed universal exponent above \(1/2\).
+
+### An endpoint law for cutoffs vanishing at zero
+
+Take \(\rho=1\), \(\zeta=1\), and \(d\mu(v)=(2\pi)^{-1}\sqrt{(4-v)/v}\,1_{(0,4)}(v)\,dv\).
+Then for every complex \(C^1\) function on \([0,4]\),
+\[
+ \mathcal L_{\mu,1}(\phi)=\int\phi\,d\mu-\phi(0).
+ \tag{R2}
+\]
+Indeed, setting \(v=4\sin^2 u\) reduces the \(n\)-th moment to \(4^{n+1}\pi^{-1}\int_0^{\pi/2}\sin^{2n}u\cos^2u\,du=(n+1)^{-1}\binom{2n}{n}\).
+The generating series of these coefficients is \(C(z)=(1-\sqrt{1-4z})/(2z)\), so \(C=1+z C^2\).
+On the monomial \(v^n\) for \(n\ge1\), the integrated difference quotient is the convolution of the moments at total degree \(n-1\), equal to the \(n\)-th moment by this recurrence.
+Constants account for the term \(-\phi(0)\).
+Uniform polynomial approximation of \(\phi'\) followed by integration gives convergence in \(C^1\), which controls both the difference quotient and the endpoint values.
+Thus every \(C^1\) cutoff vanishing at zero satisfies the exact scalar vacuum test with norm one, however slowly it decays away from the cutoff scale.
+Yet \(\mu([0,r])\sim(2/\pi)\sqrt r\), so the upper exponent of C_F0229 is attained in this scalar data.
+The polar limit in that theorem is consistent with (R2) because \((2/\pi)\arctan(v/r)\) vanishes at zero for each \(r>0\) and tends to one in \(L^2(\mu)\).
+
+### Examples with a strictly positive uniform phase defect
+
+For \(1/2<\alpha<1\), take \(d\mu(v)=\alpha v^{\alpha-1}1_{(0,1)}(v)\,dv\).
+Put
+\[
+ B_\alpha=\int_0^\infty \frac{u^{\alpha-1}}{1+u}\,du,\qquad
+ A_\alpha=\int_0^1\frac{u^{-\alpha}-u^{\alpha-1}}{1-u}\,du,\qquad
+ \rho=\frac{B_\alpha-A_\alpha}{B_\alpha+A_\alpha}.
+\]
+Both integrals are finite.
+The numerator of the \(A_\alpha\) integrand is positive on \((0,1)\), since \(-\alpha<\alpha-1\).
+Substitution \(u\mapsto1/u\) above one gives \(B_\alpha=\int_0^1(u^{\alpha-1}+u^{-\alpha})/(1+u)\,du\).
+Hence \(B_\alpha-A_\alpha=\int_0^1 2(u^{\alpha-1}-u^{1-\alpha})/(1-u^2)\,du>0\) and \(0<\rho<1\).
+On the positive half-line, inversion above one also gives
+\[
+ \lim_{\epsilon\downarrow0}
+ \int_{\{u<1/(1+\epsilon)\ \mathrm{or}\ u>1+\epsilon\}}
+              \frac{u^{\alpha-1}}{1-u}\,du=-A_\alpha.
+\]
+These integrals cancel in the combination \(-(1+\rho)A_\alpha+(1-\rho)B_\alpha=0\).
+Define the real-valued function for \(0<v<1\)
+\[
+ \zeta(v)=-\alpha\int_1^\infty w^{\alpha-1}
+       \left(\frac{1+\rho}{v-w}+\frac{1-\rho}{v+w}\right)dw .
+ \tag{R3}
+\]
+The integral at infinity converges since \(\alpha<1\).
+On \(0<v\le1/2\) it is bounded uniformly, and as \(v\uparrow1\) it is \(O(1+|\log(1-v)|)\) by splitting at \(w=2\).
+Thus \(\zeta\in L^2(\mu)\).
+For every complex \(C^1\) function on \([0,1]\), including those taking nonzero values at zero, one has
+\[
+                    \mathcal L_{\mu,\rho}(\phi)=\int\phi\zeta\,d\mu .
+ \tag{R4}
+\]
+To verify this, restrict the difference term of (R1) to the symmetric region \(w/v\notin[(1+\epsilon)^{-1},1+\epsilon]\).
+The restricted difference term converges to the original by its bounded pointwise divided difference and diffuseness.
+At each \(\epsilon>0\) both terms may be symmetrized separately, because \(\iint(v+w)^{-1}\,d\mu^2<\infty\) by \(2\alpha>1\), and on the restricted region \(|v-w|^{-1}\le (2+\epsilon)\epsilon^{-1}(v+w)^{-1}\).
+This gives \(\int\phi(v)G_\epsilon(v)d\mu(v)\) with
+\[
+ G_\epsilon(v)=\alpha\int_0^1 w^{\alpha-1}
+ \left(\frac{(1+\rho)1_{\{w/v\notin[(1+\epsilon)^{-1},1+\epsilon]\}}}{v-w}
+                          +\frac{1-\rho}{v+w}\right)dw .
+\]
+Extend the integration in \(w\) to infinity, subtracting the corresponding tail.
+By scaling \(w=vu\), the full half-line integral equals \(\alpha v^{\alpha-1}\) times a scalar converging to zero by the preceding cancellation.
+The full integrals are dominated in \(L^1(\mu)\) by a constant times \(v^{\alpha-1}\) since \(2\alpha>1\).
+The tails over \(w>1\) have an absolute majorant \(C(1+|\log(1-v)|)\) independent of \(\epsilon\), and converge pointwise to \(-\zeta(v)\).
+Thus \(G_\epsilon\to\zeta\) in \(L^1(\mu)\), proving (R4).
+In particular \(\phi=1\) is admissible, so the model also meets the polar endpoint pairing.
+For the arctangent cutoffs the positive defect contribution tends to \((1-\rho)\iint(v+w)^{-1}\,d\mu^2\), and the remaining arctangent derivative term tends to zero by (R4) and dominated convergence of the sum kernel.
+
+These laws have \(\mu([0,r])=r^\alpha\) for \(0<r<1\).
+Taking \(\alpha\) strictly between \(1/2\) and \(2/3\) keeps the radial vacuum finite and the compressed phase bounded strictly below one, while \(\mu([0,r])^{3/2}/r\) diverges.
+Thus the signed radial identities, even when tested on every \(C^1\) profile and paired with its exact \(L^2(\mu)\) norm, cannot prove the single-projection exponent \(2/3\).
+The examples specify scalar singular laws, phase contractions and restricted vacuum functionals.
+Whether such data arise from the actual marginal phase and an omitted shift in a normal ACSY tuple remains a separate realization question.

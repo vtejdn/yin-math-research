@@ -515,3 +515,185 @@ Applying \((G^{-1})^*G^{-1}\le(1-\|t\|)^{-2}I_2\) between each coefficient colum
 Since both projected vacua have norm at most \(\|\xi\|_2\), the same triangle and projection argument gives the joint projected column bound with constant \(\big(1+2\sqrt2/(1-\|t\|)\big)\|\xi\|_2\), including the orthogonal \(L^2(N)\)-summand.
 This estimate controls the right slice on every original starred polynomial after projection to \(L^2(N)\oplus H_{x,x^*}\).
 The phase gap is an additional assumption, and the estimate allows divergence of its constant as \(\|t\|\uparrow1\).
+
+<a id="weighted-phase-and-a-gapless-normal-factor"></a>
+## A vacuum-weighted phase condition and a normal factor with no phase gap
+
+The [weighted phase theorem](../claims/Yin_C_F0228_v1.md#decision-reviewed) fixes the joint projected estimate for an abelian omitted algebra and the example with an unbounded inverse phase weight.
+It remains open whether the weighted norm of the projected vacua is finite on all normal pairs, or whether the joint projected cost can remain finite even when it is infinite.
+For a nonabelian omitted algebra the endpoint system contains \(V_p-tU_p=C_p+[U_p,t]\), with \(C_p=\mathbb E_A((p\otimes1)(k-t))\) and phase defects \(1-tt^*\) and \(1-t^*t\) on different sides.
+The proof in the fixed claim uses commutativity precisely to remove this extra term.
+
+<a id="radial-phase-factorization-and-adjoint-orientation"></a>
+## The two orientations of the shifted radial phase
+
+Use the [shifted singular-law identity](../claims/Yin_C_F0229_v1.md#statement) for \(T=X_i-b=UP,\ b\in N\).
+Write \(\nu,\mu\) for the spectral laws of \(X_i,P\) respectively, and \(k,m\) for the marginal and shifted radial phases of that identity.
+Define \(A:L^2(\mu)\to L^2(\nu)\) by \(Af=\mathbb E_{W^*(X_i)}(U f(P))\) in spectral coordinates.
+It is a contraction because \(U\) is unitary and conditional expectation is an orthogonal projection.
+For bounded scalar functions \(f,g\) one has the bilinear identity
+\[
+ \iint f(v)g(w)m(v,w)\,d\mu(v)d\mu(w)
+  =\iint (Af)(z)(Ag)(y)k(z,y)\,d\nu(z)d\nu(y).
+ \tag{RF}
+\]
+Indeed for a product symbol \(k=\alpha(X_i)\otimes\beta(X_i)^{\rm op}\), the trace against \(f(P)\otimes g(P)^{\rm op}\) after the two polar multiplications is
+\(\tau(f(P)\alpha(X_i)U)\tau(\beta(X_i)Ug(P))\).
+Moving the first \(U\) by cyclicity gives exactly the two indicated conditional expectations, with the same \(U\) on both inputs.
+Rectangular simple symbols approximate \(k\) in \(L^2(\nu^2)\), and multiplication by the polar tensor unitaries and bounded test functions is continuous there into the ambient \(L^2\) space.
+The identity extends to \(f,g\in L^2(\mu)\) by the Hilbert–Schmidt kernel bound and contractivity of \(A\).
+In particular \(m\) is symmetric almost everywhere because \(k\) is.
+
+If \(K_k,K_m\) denote the integral operators with these kernels and \(J_\mu,J_\nu\) scalar conjugations, (RF) says \(K_m=(J_\nu A J_\mu)^*K_k A\).
+In particular \(s_j(K_m)\le s_j(K_k)\) for every singular-value index, by composing rank-\(<j\) approximants with the two contractions.
+The actual vacuum tested on \(U f(P)\) has radial representative \(\mathbb E_{W^*(P)}(U^*\xi)\), directly by the Hilbert pairing.
+For \(e=1_B(P)\), (RF) uses \(a_e=\mathbb E_{W^*(X_i)}(Ue)\) on both legs.
+The pointwise bound
+\[
+ |a_e|^2\le\mathbb E_{W^*(X_i)}(UeU^*)\mathbb E_{W^*(X_i)}(e)
+\]
+follows by applying the matrix-amplified expectation to the positive Gram block of the column \((Ue,e)^{\mathsf T}\) times its adjoint.
+Integration and Cauchy–Schwarz give \(\|a_e\|_1\le\tau(e)\).
+
+For the actual adjoint orientation take \(T^*=U^*P'\) with \(P'=UPU^*\) and conjugate derivation \(\epsilon(a)=(\delta_i(a^*))^\dagger\).
+Its vacuum is \(\xi^*\), and its marginal phase is \(k^*\), since the flip-star of the symmetric symbol \(k\) is its conjugate. [Normal phase and conjugate derivation](../claims/Yin_C_F0076_v1.md#statement)
+Put \(V=U\otimes(U^*)^{\rm op}\).
+Conjugation by \(V\) transports the product spectral algebra of \(P\) to that of \(P'\) and intertwines their trace-preserving expectations.
+Reversed multiplication on the opposite leg gives the exact identity
+\[
+ V^*(1\otimes(U^*)^{\rm op})\,k^*(U^*\otimes1)V
+    = (U^*\otimes1)\,k^*(1\otimes(U^*)^{\rm op})
+    = \big((1\otimes U^{\rm op})k(U\otimes1)\big)^* .
+\]
+Thus in the common radial variable the opposite compression is \(\overline{m(v,w)}\), including at atoms of the positive singular law.
+The opposite radial vacuum, transported by \(U^*(\cdot)U\), is likewise \(\mathbb E_{W^*(P)}(\xi^*U)=\mathbb E_{W^*(P)}(U^*\xi)^*\).
+Both orientations give exactly the same real defect on every radial rectangle.
+These identities constrain the full compressed kernel but give no exponent improvement for a general omitted shift.
+
+<a id="nonpositive-compressed-phase"></a>
+## A two-thirds exponent at shifts with nonpositive radial phase pairing
+
+In the setting and notation of the [uniform omitted-shift theorem](../claims/Yin_C_F0229_v1.md#statement), write \(T=X_i-b=UP\), with \(P=|T|\) and \(b\in N=W^*(X_j:j\ne i)\).
+Use \(\xi=\delta_i^*(1\otimes1)\), \(\mu\) the law of \(P\), the actual phase \(k=\Phi(\delta_i X_i^*)\), and \(m\) the conditional expectation of \((1\otimes U^{\rm op})k(U\otimes1)\) onto the abelian two-leg algebra generated by \(P\).
+For \(r>0\) define
+\[
+ V_r=rT(P^2+r^2)^{-1},\qquad h_r(v)=\frac{r^2}{r^2+v^2},\qquad
+ A_r=\tau(h_r(P)),\qquad a_r(v)=\frac{rv}{r^2+v^2}.
+\]
+Suppose that for this shift and radius
+\[
+             \iint a_r(v)a_r(w){\rm Re}\,m(v,w)\,d\mu^2\le0 .        \tag{1}
+\]
+Then \(e=1_{[0,r]}(P)\) satisfies
+\[
+              \tau(e)^3\le8r^2\|\xi\|_2^2.                            \tag{2}
+\]
+In particular the pointwise sign \({\rm Re}\,m\le0\) suffices at every radius.
+
+For a finite family of such shifts and radii denote their quantities by \(A_j,V_j,e_j\).
+Define
+\[
+ B=\sup_{\|z\|_2=1}\sum_j
+              |\langle z,V_j/\sqrt{A_j}\rangle|^2.
+\]
+If (1) holds for each test then
+\[
+             \sum_j\frac{\tau(e_j)^3}{r_j^2}\le 8B\|\xi\|_2^2.        \tag{3}
+\]
+Pairwise orthogonality of the regularized test vectors gives \(B\le1\), since their normalized norms are at most one.
+The tests in (3) need no pairwise orthogonality.
+To apply this estimate to the [general packing obstruction](../claims/Yin_C_F0211_v1.md#statement) requires sign and overlap control on the particular family.
+
+### Resolvent pairing and overlap weights
+
+The [closed resolvent formula](../claims/Yin_C_F0229_v1.md#argument) and its [polar trace calculation](../claims/Yin_C_F0229_v1.md#the-integrated-phase-defect) give the exact equality
+\[
+     A_r^2
+      =r\,{\rm Re}\langle\xi,V_r\rangle
+                +\iint a_r(v)a_r(w){\rm Re}\,m(v,w)\,d\mu^2 .
+\]
+Indeed multiply the differentiated formula at \(s=r^2\) by \(r^2\) before tracing.
+The leading term is \(r^4\tau((P^2+r^2)^{-1})^2=A_r^2\).
+The phase term uses \(V_r=Ua_r(P)\).
+Since \(a_r^2=h_r(1-h_r)\le h_r\), one has \(\|V_r\|_2\le\sqrt{A_r}\).
+By (1), \(A_r^{3/2}\le r\|\xi\|_2\).
+The scalar bound \(1_{[0,r]}\le2h_r\) gives (2).
+For a family retain the pairing with \(V_j/\sqrt{A_j}\) and square, giving
+\(A_j^3/r_j^2\le|\langle\xi,V_j/\sqrt{A_j}\rangle|^2\).
+The definition of \(B\) now proves (3).
+
+A separate overlap bound is available for positive invertible weights \(w_j=w_j(P_j)\).
+For \(z\in H\), traciality gives
+\[
+  |\langle V_j,z\rangle|
+       \le \|V_jw_j^{-1/2}\|_2\,\|z w_j^{1/2}\|_2 .
+\]
+Thus \(B\le\sup_j[\tau(a_{r_j}(P_j)^2/w_j)/A_j]\,\|\sum_j w_j\|\).
+The bound also holds with left weights in \(W^*(|T_j^*|)\) by the corresponding left factorization.
+Pairwise orthogonality of the sharp small-value projections alone gives neither the orthogonality of the regularized vectors nor the displayed weighted bound.
+In particular \(w_j=h_{r_j}(P_j)\) gives the quotient \((1-A_j)/A_j\); this can grow when the small-mass test is most sensitive.
+For the [strict positive compressed phase countermodel](Yin_D_F0003.md#sharp-scalar-limits-of-radial-vacuum-tests-at-an-omitted-shift), the integral in (1) has the opposite sign, so its failure of exponent \(2/3\) is compatible with this calculation.
+
+<a id="shifted-modulus-graph-and-phase-mismatch"></a>
+## The two actual graph derivatives at the singular modulus
+
+Let \(T=X_i-b=UP\) as in [C_F0229](../claims/Yin_C_F0229_v1.md#statement), let \(\delta=\delta_i\), and use \(G=L^2(M)\otimes_2L^2(M)\) with outer actions.
+The unitary \(U\) need not belong to the domain of \(\bar\delta\).
+In \(G\) write \(v,w\) for the commuting outer spectral coordinates given by \(P\) on the left and on the right.
+Put \(L=U^*(1\otimes1)\), \(R=(\bar\delta T^*)U\), where the multipliers indicated outside the parentheses are outer.
+Both vectors have norm one, since \(\Phi(\bar\delta T^*)=k\) is unitary and \(U\) is unitary.
+Then
+\[
+      P\in\operatorname{Dom}\bar\delta,\qquad
+      \bar\delta P=\frac{v}{v+w}L+\frac{w}{v+w}R .
+\]
+Indeed the polynomial product rule gives \(\bar\delta(P^2)=vL+wR\) using the bounded graph approximants to \(T,T^*\) from C_F0229.
+For \(\eta>0\), approximate \(s\mapsto\sqrt{s+\eta}\) in \(C^1\) by polynomials on a fixed compact interval containing the spectrum of \(P^2\).
+The derivatives converge by the joint spectral calculus for divided differences on \(G\).
+The divided difference acting on \(vL+wR\) is \(1/(\sqrt{v^2+\eta}+\sqrt{w^2+\eta})\).
+The resulting two scalar coefficients are bounded by one, so converge strongly on their respective vectors as \(\eta\downarrow0\).
+The inputs converge in operator norm to \(P\); the zero spectral projection of \(P\) vanishes by C_F0229.
+This proves the formula and the bound \(\|\bar\delta P\|_2\le2\).
+
+There is a sharper constraint on the difference of the two data:
+\[
+ \big\|(v+w)^{-1/2}(L-R)\big\|_2^2
+      =2\iint\frac{1-{\rm Re}\,m(v,w)}{v+w}\,d\mu(v)d\mu(w)
+      \le 2\|\xi_i\|_2 .
+\]
+Here \(m\) is exactly the conditional expectation in C_F0229.
+In the opposite tensor convention \(\Phi(L)=U^*\otimes1\), \(\Phi(R)=(1\otimes U^{\rm op})k\), both unitaries.
+For each bounded nonnegative spectral multiplier \(g(v,w)\), taking the trace and cycling gives
+\(\|g^{1/2}(L-R)\|_2^2=2\iint g(1-{\rm Re}\,m)\,d\mu^2\), with the order \(m=\mathbb E((1\otimes U^{\rm op})k(U\otimes1))\).
+Monotone convergence of spectral truncations and the integrated phase identity prove the assertion for the unbounded multiplier.
+In particular \((v+w)^{-1/2}(\bar\delta P-L)\) and \((v+w)^{-1/2}(\bar\delta P-R)\) both have norm at most \(\sqrt{2\|\xi_i\|_2}\).
+An analogous statement for the reversed coordinate follows by applying the argument to the adjoint tuple and the shift \(b^*\).
+One may also control the polar factor in the following weighted sense on the original Hilbert space.
+Put \(U_\eta=T(P^2+\eta)^{-1/2}\).
+These are contractions in the closed graph by the same \(C^1\) argument and converge to \(U\) strongly-star as \(\eta\downarrow0\).
+For \(s_v=\sqrt{v^2+\eta}\), differentiating and multiplying by \(U^*\) on the outer left gives
+\[
+ U^*\bar\delta U_\eta=
+ \frac{s_v s_w+\eta}{s_v s_w(s_v+s_w)}\,L
+ -\frac{vw}{s_v s_w(s_v+s_w)}\,R .
+\]
+Indeed the derivative of \(T f(P^2)\), with \(f(a)=(a+\eta)^{-1/2}\), gives \(s_w^{-1}L+v f^{[1]}(v^2,w^2)(vL+wR)\), and \(f^{[1]}=-1/(s_vs_w(s_v+s_w))\).
+Multiplication by \((v+w)^{1/2}\) gives actual weak Hilbert convergence to \((v+w)^{-1/2}(L-R)\), with a bound independent of \(b,\eta\).
+To see uniform boundedness write \(t=\sqrt\eta\), \(h_t(v)=t^2/(v^2+t^2)\), and split the formula as \(c_\eta(L-R)+d_\eta L\), where \(c_\eta=vw/(s_vs_w(s_v+s_w))\).
+The first coefficient is at most \(1/(v+w)\).
+For the second one use \(1-vw/(s_vs_w)\le h_t(v)+h_t(w)\) and \(t^2/(s_vs_w)\le(h_t(v)+h_t(w))/2\).
+Since \(s_v+s_w\ge(v+w+t)/2\), it follows that \(0\le d_\eta\le3(h_t(v)+h_t(w))/(v+w+t)\).
+The scalar joint spectral law on the vector \(L\) is \(\mu\otimes\mu\) by traciality and unitarity of \(\Phi(L)\).
+Consequently the squared norm of \((v+w)^{1/2}d_\eta L\) is at most
+\[
+ 36\left(\int h_t(v)\,d\mu(v)\right)
+    \left(\int\frac{d\mu(w)}{w+t}\right).
+\]
+Both factors can be bounded using \(\mu([0,r])\le C\sqrt r\), \(C=\sqrt{\pi\|\xi_i\|_2}\).
+Indeed \(h_t(v)\le 2t/(t+v)\) and Tonelli gives
+\(\int (w+t)^{-1}d\mu(w)=\int_0^\infty\mu([0,r])(r+t)^{-2}dr\le(\pi/2)C/\sqrt t\).
+Their product is at most \(\pi^2 C^2/2\).
+The weighted defect estimate controls the first term, so the entire weighted derivative is uniformly bounded.
+On each spectral region \(v+w\ge c>0\), bounded convergence of the multipliers gives strong convergence of the projected vectors.
+The union of those projected test spaces is dense because \(P\) has zero kernel, which proves weak convergence on the full coarse space.
+Controlling the unweighted polar gradient would involve the second inverse power of \(v+w\).
