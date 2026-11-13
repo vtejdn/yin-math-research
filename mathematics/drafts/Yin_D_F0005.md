@@ -374,3 +374,34 @@ For bounded ambient a the inside is an actual L2 vector; Psi is trace preserving
 Conditional Cauchy--Schwarz gives only |Psi(a)|^2<=||a||^2 E_Y(h^-1)E_Y(h), which does not supply the bounded scalar input used in (P9).
 No extension estimate for that potentially singular scalar input is claimed.
 It is unnecessary for the now-resolved candidate, since C_F0152 constructs the full target map by another route; failure of this particular transport would not contradict that construction.
+
+## A mixed coassociativity obstruction to matrix realification
+
+A possible way to obtain the selfadjoint contraction estimate would be to realize a given complex word-cut derivation as a constant matrix coefficient of a single real coassociative derivation in an amplification.
+The following algebraic obstruction already applies to one Haar unitary, for which the ACSY and full-domain conditions both hold.
+
+Let \(B\) be a unital star algebra and let \(D:M_n(B)\to M_n(B)\otimes_{\rm alg} M_n(B)\) be an outer derivation vanishing on the constant matrix units \(e_{ab}\).
+There are unique outer derivations \(d_{kl}:B\to B\otimes_{\rm alg}B\) such that
+\[
+ D(e_{ab}x)=\sum_{k,l}(e_{ak}\otimes e_{lb})d_{kl}(x).
+\]
+Here \((e_{ak}\otimes e_{lb})(u\otimes v)\) denotes \(e_{ak}u\otimes e_{lb}v\).
+Indeed \(D(e_{11}x)\) has outer supports \(e_{11}\) on both sides, the matrix unit identities transport its coefficients to every \(a,b\), and the product rule on \(e_{11}B\) gives the product rule for each coefficient.
+For \(d^\#(x)=d(x^*)^\dagger\), where \((u\otimes v)^\dagger=v^*\otimes u^*\), reality of \(D\) gives \(d_{kl}^\#=d_{lk}\).
+Comparing the coefficients of \(e_{ai}\otimes e_{jk}\otimes e_{lb}\) in the two iterates of a coassociative \(D\) gives
+\[
+ (d_{ij}\otimes{\rm id})d_{kl}=({\rm id}\otimes d_{kl})d_{ij}.
+\]
+This identity is bilinear in the ordered pair of coefficient derivations, so every constant linear combination \(\delta\) of them must satisfy \((\delta\otimes{\rm id})\delta^\#=({\rm id}\otimes\delta^\#)\delta\).
+The standard joint coassociativity identity for multivariable generalized difference quotient rings appears in [Mai and Speicher, Definition 3.1(i), equation (3.1)](https://arxiv.org/pdf/1910.07570).
+Here its necessity follows directly from the three matrix coefficients.
+
+On the Laurent algebra of a Haar unitary \(U\), the unique normalized derivation has \(\delta U=1\otimes1\), \(\delta U^*=-U^*\otimes U^*\), and hence \(\delta^\#U=-U\otimes U\).
+The two required mixed iterates at \(U\) are \(-1\otimes1\otimes U\) and zero.
+The word cuts of \(U^m\) have total product trace \(1\) for \(m=1\) and zero otherwise, giving the actual vacuum \(U\) on the Laurent core.
+The unitary equivalence in [C_F0071 v2, Part D](../claims/Yin_C_F0071_v2.md#statement) gives the full-domain dual.
+Thus even in this example no finite matrix size allows such a constant-coefficient realization.
+For the ordinary Hermitian block \(Y=e_{12}X+e_{21}X^*\), a scalar-coordinate prescription \(DY=1\otimes1\) fails already at first order if \(D\) annihilates \(G=e_{11}-e_{22}\).
+Differentiating \(GY+YG=0\) would give \(G\otimes1+1\otimes G=0\), contradicted in the \(e_{11}\otimes e_{11}\) corner.
+These obstructions concern the fixed matrix-unit construction.
+Coefficients depending on the tuple or a larger algebra with different domain and compression data require separate arguments.
