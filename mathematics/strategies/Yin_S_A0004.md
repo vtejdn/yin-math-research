@@ -47,6 +47,12 @@ Finite generation of an annihilator alone supplies no such relation, and the [ge
 The structural priority remains to produce a finite projective part or resolution for the individual kernel, or another independent certificate of its dimension, rather than restating the equivalent whole-closure criterion.
 Adjoining arbitrary relative inverses or kernel projections to a larger regular ring does not prove the required generation or identify that ring with the actual division closure.
 
+For the universal task, [exact powers in a torsion-free wreath product](../claims/Yin_C_A0017_v2.md#exact-scalar-powers) give a way to use the regular trace without first obtaining cyclic generation of \(G_0(D)\).
+A singular actual pivot of nullity \(0<\alpha<1\) would give positive finite group-ring matrices of nullity exactly \(\alpha^n\) in one finitely generated torsion-free ICC group.
+Consequently even a group-dependent lower bound for positive nullities on this test family would suffice, provided it is uniform over the inputs in each group.
+In the amenable scalar group-ring case, [minimum annihilator support](../claims/Yin_C_A0017_v2.md#minimum-support-of-an-annihilator) grows as \(s^n\) along the same construction, so the finite-support existence theorem alone gives no subexponential support bound.
+An independent structural estimate on these explicit kernels or a finite projective extraction for the original principal annihilator remains the missing input.
+
 ## Mechanism and obstruction
 
 Use [MSY23, Theorem 5.25](../audits/literature/MSY23/Yin_U005.md#theorem-525-the-complete-equivalence): integer analytic rank for all polynomial matrices in a bounded tuple is equivalent to its actual rational closure, or equivalently its division closure, in the affiliated algebra being a division ring.
