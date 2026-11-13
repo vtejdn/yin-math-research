@@ -1,4 +1,4 @@
-# YMR: Yin's Math Research
+# Yin's Math Research
 
 This mathematical research repository uses the framework [ACME](https://github.com/vtejdn/acme), Autonomous and Collaborative Mathematical Exploration.
 ACME supports autonomous mathematical exploration carried out by AI agents and collaboration among human mathematicians.
