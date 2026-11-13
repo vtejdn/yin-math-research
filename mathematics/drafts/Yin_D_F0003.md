@@ -1552,6 +1552,56 @@ As \(\|p(X)\|_M=1\) and \(\|h\|_2=1\), the two terms involving \(T\) each have a
 The remaining pairing is \(\sqrt m\), proving the claimed lower bound for the infimum with unrestricted \(T(1)\).
 Thus this law fails both uniform tests even though all of its countably generated modules have algebraic solutions.
 
+## Exponential word obstructions in a mixture of two factor laws
+
+Take two standard free semicirculars \(S_1,S_2\) and use equal weights on the laws of \((S_1,S_2-5)\) and \((S_1,S_2+5)\).
+Each law has conjugate variables and full duals by translation of the semicircular system (the conjugate variables for the translated law are the corresponding centered coordinates).
+In their direct sum let \(X,Y\) be the two resulting generators, and \(e\) the second summand projection.
+The spectrum of \(Y\) lies in \([-7,-3]\cup[3,7]\), and \(e=1_{[3,7]}(Y)\) is central with \(\tau(e)=1/2\).
+This example gives quantitative degree bounds for the two tests in [C_F0201 v1](../claims/Yin_C_F0201_v1.md#statement).
+
+Put \(v=1/2+Y/14\).
+On the first component \(0\le v\le 2/7\), and on the second \(1-v\) obeys the same bound.
+For an odd positive integer \(m\), write
+\[
+ q=q_m(v)=\sum_{k>m/2}\binom mk v^k(1-v)^{m-k},
+ \qquad \epsilon_m=(2\sqrt{10}/7)^m.
+\]
+On \(0\le s\le2/7\), each term before the binomial coefficient is at most \([s(1-s)]^{m/2}\), by \(s/(1-s)\le1\).
+The binomial sum and \(q_m(1-s)=1-q_m(s)\) give \(0\le q\le1\) and \(\|q-e\|\le\epsilon_m\).
+Let \(b=[q,X]\), so \(\|b\|\le2\|X\|\epsilon_m=4\epsilon_m\).
+Write \(\sigma_q=\|q-\tau(q)1\|_2\).
+Since centering is an orthogonal projection in \(L^2\), \(\sigma_q\ge1/2-\epsilon_m\).
+
+Use the formal holomorphic test \(p=q[q,X]\) of degree at most \(2m+1\).
+The distinguished coordinate cut at \(X\) has vacuum pairing \(\tau(q^2)-\tau(q)^2=\sigma_q^2\).
+All starred cuts vanish, and \(\|p\|_2\le4\epsilon_m\).
+Thus, when \(\epsilon_m<1/2\),
+\[
+      \alpha_{X,\,2m+1}\ge(1/2-\epsilon_m)^2/(4\epsilon_m).
+\]
+
+For the bounded dual test, fix a feasible \(T\) at level \(n=2m+2\) and take \(h=(q-\tau(q)1)/\sigma_q\).
+Iterating its weak coordinate equations (2) of v1 with input \(1\) gives
+\[
+ \langle h,T(b)\rangle-\langle b^*h,T(1)\rangle
+     =\langle h,q-\tau(q)1\rangle=\sigma_q .
+\]
+Indeed on the word \(Y^kX\) the only forcing \(P_\Omega\) comes from the final \(X\), and its value after moving the other letters to the test vector is \(Y^k\Omega\).
+On \(XY^k\) the forcing is \(\tau(Y^k)\Omega\).
+Linearity gives the displayed formula for \(q\), including its constant term.
+All intermediate test degrees are at most \(2m+1\), and all input suffixes have degree at most \(m+1\).
+Both terms on the left are at most \(\|T\|\|b\|\) in absolute value.
+Taking the infimum yields
+\[
+       \beta_{X,\,2m+2}\ge(1/2-\epsilon_m)/(8\epsilon_m).
+\]
+Thus the first coordinate alone causes both optimal tests to diverge at least exponentially in this mixed law.
+The calculation permits any value of \(T(1)\).
+At any fixed cap, the strict obstruction in the holomorphic vacuum test persists in a finite-moment neighborhood of this law, by continuity of its two polynomial expressions.
+For bounded duals the [continuous tests of v2](../claims/Yin_C_F0201_v2.md#statement) give a finite-moment neighborhood at each cap; the finite-level rate displayed above is for the represented input norm of v1.
+The mixed law is therefore unsuitable as the limit of normal laws whose first conjugate vector stays bounded.
+
 ### Why a fixed finite-tensor approximation does not give uniform absorption
 
 Root proposed approximating the fixed starred derivative tensors K_ij=delta_i X_j* by finite sums of bounded elementary tensors.

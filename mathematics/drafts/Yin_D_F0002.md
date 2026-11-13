@@ -1380,3 +1380,73 @@ whenever \(\zeta=-\mathrm i[Z^*,\xi]\).
 Positivity follows by factoring each real matrix as a Gram matrix, and the last bound follows by summing the orthogonal blocks of \(\xi\).
 The test applies to any actual finite-marginal partial liberation with the analytic-unitary identities above and the stated commutator solution.
 Existence of coefficients with a configuration-independent \(C\) is open, as is passage from finite marginals to the original diffuse ACSY domains.
+
+## Positive mixtures of spectral projection blocks
+
+Fix a normal coordinate \(Z\) in a tuple satisfying \(\mathsf A\), and retain its marginal spectral law \(\mu\) on \(K\), curvature kernel \(g\), actual vacuum \(\xi\), and liberation vacuum \(\zeta=-\mathrm i[Z^*,\xi]\).
+Let \((T,\pi)\) be a positive sigma-finite measure space and let \(U\subseteq T\times K\) be product measurable, with sections \(U_s\) of mass \(t_s=\mu(U_s)>0\) almost everywhere.
+Write \(e_s=1_{U_s}(Z)\) and assume the exact representation and finite cost
+\[
+ g(z,v)=\int_T 1_{U_s}(z)1_{U_s}(v)\,d\pi(s)
+ \quad (\mu^2\text{-almost everywhere}),\qquad
+ L=\int_T\frac{\|e_s\zeta e_s\|_2^2}{t_s}\,d\pi(s)<\infty.
+ \tag{P16}
+\]
+Then every analytic unitary \(u=a+\mathrm i\sqrt{1-a^2}\) from a selfadjoint original core element \(a\) of norm less than one satisfies \(Q_g(u)\ge-L\).
+Consequently the mixed-energy identity (E1) gives a uniform bound on both contractions on these unitaries.
+Indeed, putting \(V^2=\|Eu\|_2^2+\|Fu\|_2^2\) in (E1) gives \(V^2\le 2\sqrt2\|\xi\|_2 V+L\).
+Taking the average of the two analytic unitaries obtained by changing the sign of the square root recovers the same bounds on selfadjoint strict contractions, since the other sign is also obtained by negating the unitary for \(-a\).
+Scaling and splitting a general core element into real and imaginary parts give the two bounds required by [C_F0072, Part B](../claims/Yin_C_F0072_v1.md#statement) for the original bounded-vector domains at this coordinate.
+
+For the integral passage put \(b_s=1_{U_s}\otimes1_{U_s}\) and \(h_s(z,v)=(z-v)b_s(z,v)\).
+The section map \(s\mapsto h_s\) is strongly measurable in the separable space \(L^2(\mu^2)\), since its countably many coordinates in an orthonormal basis are measurable by Fubini and its finite basis expansions converge there.
+It has norm at most \(\operatorname{diam}K\).
+For each fixed word the right contraction of the weighted liberation is a bounded linear function of the generator tensor \(h_s\), by the finite outer Leibniz expansion with \(h_s\) and \(k h_s\) at \(Z\) and \(Z^*\), respectively, where \(|k|=1\) almost everywhere.
+Fix one polynomial expression for \(a\).
+The first-derivative series for \(u\) still defines a bounded linear function of that tensor, since the derivative of \(a^j\) has norm at most \(j\|a\|^{j-1}\) times the derivative norm at \(a\) and the square-root series has radius one.
+For the actual generator values it agrees with the analytic-unitary evaluation used in (B7), by its convergent polynomial series.
+Thus integration over a set \(T_n\subseteq T\) of finite measure commutes with this evaluation.
+For \(g_n=\int_{T_n}b_s\,d\pi(s)\) the Bochner integral of \(h_s\) is \((z-v)g_n\), and integrating (B8) gives the corresponding form at \(u\) a lower bound of \(-L\).
+Choose \(T_n\uparrow T\).
+Monotone convergence of \(g_n\) to \(g\) and (E2) give \((z-v)g_n\to(z-v)g\) in \(L^2(\mu^2)\) by domination.
+The bounded linear evaluation now gives the asserted lower bound on the actual mixed form, using its generator identification in (E2) and analytic power-series passage as in [C_F0078, Section 6](../claims/Yin_C_F0078_v1.md#6-the-actual-normal-mixed-energy-and-both-canonical-domains).
+
+A sufficient scalar cost bound uses \(W(z,v)=\int_T b_s(z,v)t_s^{-1}\,d\pi(s)\).
+For the left and right spectral measures \(\nu_\zeta,\nu_\xi\) one has \(L=\int W\,d\nu_\zeta\) by Tonelli and \(d\nu_\zeta=|z-v|^2d\nu_\xi\) by the commutator identity.
+Suppose \(|z-v|^2W(z,v)\le C\) off the diagonal \(\mu^2\)-almost everywhere.
+The [actual spectral absolute continuity](../claims/Yin_C_F0077_v1.md#the-marginal-restriction-of-the-actual-liberation-adjoint) gives \(\nu_\zeta\ll\mu^2\), hence \(\nu_\xi\ll\mu^2\) off the diagonal by the strictly positive gap there.
+The diagonal is \(\nu_\zeta\)-null, so \(L\le C\|\xi\|_2^2\) even for \(\xi\) with diagonal spectral mass.
+For a finite marginal this construction gives the coefficients of (P14) by taking \(\alpha_{ij}=\int_{i,j\in U_s}t_s^{-1}\,d\pi(s)\) and \(\lambda_{ijk}=\int_{i,j,k\in U_s}t_s^{-1}\,d\pi(s)\) whenever the off-diagonal gap bound holds.
+Indeed summing the masses of all vertices of a section gives \(t_s\), and \(K_i\) is the integral of the positive rank-one matrix of the section indicator on vertices other than \(i\), with weight \(1_{U_s}(i)/t_s\).
+
+### An exact obstruction on three concentric circles
+
+The representation in (P16) can already fail for a bounded curvature kernel of a scalar normal coordinate with actual bounded vacuum.
+Write \(\sigma_r\) for normalized Haar measure on the circle of radius \(r\), set \(\varepsilon=1/1000\), and use the marginal
+\[
+ \mu=(1-\varepsilon)\sigma_\rho+
+ \tfrac{\varepsilon}2(\sigma_{1/2}+\sigma_1).
+ \tag{P17}
+\]
+For every fixed \(0<\rho<1/4\) this law has an actual bounded vacuum by [C_F0047, Section 6](../claims/Yin_C_F0047_v1.md#6-actual-operators-and-mixtures-of-circles).
+Its three-point curvature is bounded, since a triple on one circle has curvature the reciprocal radius almost everywhere, and a triple meeting distinct circles has an edge at least \(1/4\) long.
+On each outer circle put \(b(r e^{\mathrm i\theta})=2r e^{2\mathrm i\theta}/\varepsilon\) for \(r\in\{1/2,1\}\) and let \(b\) vanish on the inner circle.
+For the function \(H(w)\) in (P13) the two weighted endpoint measures \(b\,d\mu\) and \(\bar b\,d\mu\) are independent of \(\rho\) and \(\varepsilon\).
+Equations (P11) and (P12) give \(H(0)=-2(1/2)(1-1/4)=-3/4\).
+For \(|w|<1/4\) both outer endpoints are at distance at least \(1/4\) from \(w\), giving an integrable bound independent of \(w\) and continuity of \(H\) at zero as in (P13).
+Choose \(0<\rho<1/4\) small enough that \(H(w)\le-1/2\) on the circle of radius \(\rho\).
+For \(w\) on either outer circle and endpoints on those two circles the curvature squared is at most 16, since a mixed-radius triangle has an edge at least \(1/2\) long and a same-circle triangle has curvature at most two.
+As \(\int|b|\,d\mu=3/2\), this gives \(|H(w)|\le36\) on the two outer circles.
+Fubini now gives the strictly negative quadratic form of the integrated scalar curvature kernel,
+\[
+ \iint g(z,v)\overline{b(z)}b(v)\,d\mu(z)d\mu(v)
+ =\int H(w)\,d\mu(w)
+ \le-\tfrac12(1-\varepsilon)+36\varepsilon<0.
+ \tag{P18}
+\]
+The left side is real by symmetry.
+Any representation by the positive mixture in (P16) would give \(\int_T|\int_{U_s} b\,d\mu|^2\,d\pi(s)\ge0\) for that same left side.
+Fubini applies even without a cost bound, since its absolute majorant integrates to \(\iint g(z,v)|b(z)b(v)|\,d\mu^2<\infty\).
+Thus actual scalar \(\mathsf A\) allows curvature kernels with no exact positive mixture of measurable projection blocks.
+The actual scalar contraction still has the nonnegative jump form \(\tfrac12\iint g(z,v)|u(z)-u(v)|^2\,d\mu^2\) on core tests, by symmetry and inner scalar liberation.
+The signed coefficients in (P14) and the lower-bound question for correlated tuples remain open.

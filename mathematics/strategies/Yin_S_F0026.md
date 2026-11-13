@@ -79,6 +79,7 @@ The remaining estimate must control all unit test vectors on both legs for a fix
 On the signed-curvature route, the [angular calculation](../drafts/Yin_D_F0002.md#angular-modes-of-the-three-point-curvature-form) gives negative directions at a set of third points of positive measure even for an actual scalar conjugate variable.
 The test on arbitrary endpoint vectors omits constraints satisfied by the three vertices of an actual mixed unitary.
 Equations (P14) and (P15) retain those constraints and give a finite positive-semidefinite sufficient condition whose uniform validity remains open.
+The [positive-mixture estimate and three-circle example](../drafts/Yin_D_F0002.md#positive-mixtures-of-spectral-projection-blocks) extend the projection-block bound to an integral of such blocks and exhibit a scalar ACSY curvature kernel that has no exact representation of that kind.
 
 ## Work branches and decision conditions
 
@@ -243,6 +244,12 @@ The second converges to the least operator-norm-to-H norm of a full-domain witne
 For arbitrary correlated normal tuples, the remaining comparison is whether finite limits in the first test bound the second test in degree for the tuple and its adjoint.
 For tuples with a nonconstant normal affine combination, boundedness of the second test already characterizes bare F.
 Outside classes with automatic continuity, unboundedness of the second test alone cannot exclude every algebraic full-domain witness.
+
+The [continuous tests in C_F0201 v2](../claims/Yin_C_F0201_v2.md#decision-reviewed) characterize a separating moment limit of bounded normal tuples with uniformly bounded conjugate vectors.
+For each proposed dual norm cap, a fixed finite-word test must retain a strictly positive discrepancy along a common subsequence, in a single coordinate and direction.
+The [pair-relative commutant theorem](../claims/Yin_C_F0202_v1.md#decision-reviewed) excludes nontrivial mixtures of distinct laws from both classes when there are at least two normal coordinates.
+Thus a limit retaining ACSY must generate a factor even when its proposed approximants have identical one-coordinate marginal laws.
+The [two translated semicircular systems](../drafts/Yin_D_F0003.md#exponential-word-obstructions-in-a-mixture-of-two-factor-laws) give explicit exponential growth of both represented word tests on a mixture.
 
 These branches share the A-to-F question but have different structural inputs.
 A proof for arbitrary tuples would settle the normal applicability comparison as well.
