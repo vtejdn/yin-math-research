@@ -277,7 +277,7 @@ Keep as the basic exposition reference; the research sources below add connectio
 
 Johannes Alt and Torben Kruger, *Inhomogeneous Circular Law for Correlated Matrices* (public preprint 2020; inspected v2, 2021), [arXiv v2](https://arxiv.org/abs/2005.13533v2).
 Already in the manuscript and registry.
-The existing [source note](../../../audits/literature/AK20/readme.md) was read, and the primary arXiv description was checked.
+The existing [source note](../../../../audits/literature/AK20/readme.md) was read, and the primary arXiv description was checked.
 Theorem 2.5 and Proposition 2.9 relate matrix-coefficient free circular combinations to a radial Brown density.
 Their two-sided flatness condition yields much stronger regularity and support information.
 This search did not repeat the earlier statement/render inspection or audit their proofs.
@@ -287,7 +287,7 @@ High-value existing citation, appropriately retained after Proposition 7.4.
 
 Ken Dykema and John Griffin, *On operator valued Haar unitaries and bipolar decompositions of R-diagonal elements* (2024), [DOI](https://doi.org/10.1007/s00020-024-02760-z), [inspected preprint](https://arxiv.org/abs/2306.17133v2).
 Already in the manuscript and registry.
-The existing [source note](../../../audits/literature/DG24/readme.md) was read.
+The existing [source note](../../../../audits/literature/DG24/readme.md) was read.
 Theorem 2.9(b) is the alternating-cumulant characterization; Definition 2.10 specializes to circular elements.
 Current use is already exact.
 No full bipolar-decomposition proof or new source statement was reviewed in this search.

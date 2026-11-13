@@ -70,10 +70,10 @@ The example in Section 7.3 writes c_k=(s_(2k-1)+i s_(2k))/sqrt(2), pairs the sem
 The cumulant calculation permits arbitrary complex, zero and singular matrix coefficients.
 The two surviving matrix-valued second cumulants and vanishing higher cumulants provide the stated rotation invariance.
 DG24 Theorem 2.9(b) identifies the pattern as matrix-valued R-diagonality; Definition 2.10, together with the higher-cumulant vanishing, identifies circularity.
-The source terminology is checked at the [inspected DG24 scope](../../../audits/literature/DG24/readme.md).
+The source terminology is checked at the [inspected DG24 scope](../../../../audits/literature/DG24/readme.md).
 The transition applies the main theorem to T-z1_m and matches the hypotheses of `prop:brown-radial` and `prop:brown-radial-details`.
 
-This scoped exposition and citation check reuses the complete fixed [C_F0173 coefficient/cumulant argument](../../../claims/Yin_C_F0173_v1.md#circular-example-statement) and its [R_F0130 independent finding](../../../audits/reviews/Yin_R_F0130_v1.md#circular-example-independent-review).
+This scoped exposition and citation check reuses the complete fixed [C_F0173 coefficient/cumulant argument](../../../../claims/Yin_C_F0173_v1.md#circular-example-statement) and its [R_F0130 independent finding](../../../../audits/reviews/Yin_R_F0130_v1.md#circular-example-independent-review).
 That finding owns the complete local proof, degenerate cases, direct DG24/MS17 source checks and the exact radial-hypothesis interface.
 Its scope excludes a renewed inspection of the Brown/spectral proof or the whole manuscript.
 The manuscript-local check does not expand that fixed finding's scope or create a new independent whole-manuscript review.
@@ -92,7 +92,7 @@ These are bounded independent agent checks of this manuscript, not formal verifi
 | manuscript_comparison_review: imaginary-hs, comparison-appendix, ordered-minmax | Reconstructed positive imaginary drift, the domain bijection and Schur-complement energy order, both infimum directions, complete support/kernel corner elimination and uniform epsilon bound; checked every scalar/commuting/isotropic/matrix min--max proof, branch, reduced Hessian, limiting argument and counterexample. The phrase “The integral” was corrected to “The logarithmic term” to remove a factor-two ambiguity; explicit Biane attribution was added for the classical spectral coordinate/density and both changes were rechecked. No unresolved mathematical defect remained. |
 | manuscript_brown_review: spectral, all six subsections | Reconstructed the capacity bound, atom location proof, radial CDF/absolute-continuity and spectral-disk statements, stable resolvent equivalence and contour normalization, matrix regularization, inverse Hessian and density formula; checked interfaces with the main theorem and the four arguments now retained in C_F0169, C_F0170, C_F0171 and C_F0172. Re-read MS17 Brown-definition/regularization passages and AK20 v2 pp.6--8. The missing backslash in the spacing command after the radial density bound was corrected; the density formula and normalization were checked. No mathematical statement or proof structure required revision. |
 
-The [fixed quadratic energy-order account](../../../claims/Yin_C_F0182_v1.md#quadratic-energy-order) retains the original developer-checked argument used by the comparison proof.
+The [fixed quadratic energy-order account](../../../../claims/Yin_C_F0182_v1.md#quadratic-energy-order) retains the original developer-checked argument used by the comparison proof.
 The manuscript comparison finding above inspects the actual TeX; it does not constitute a separate formal project review of that fixed mathematical argument.
 The comparison reviewer used the already established main theorem as an input; the core reviewer separately checked that theorem.
 The Brown reviewer checked the consumer interfaces as well as the complete application proofs.
@@ -111,8 +111,8 @@ The current source list below identifies the TeX and bibliography to which these
 | Brown applications | Distributional Laplacian, normalization at infinity, Wirtinger derivatives, spectral radius, radial cumulative measure, planar density, contour orientation, matrix regularizer and optimizer Hessian are explicit. MS17 supplies Brown foundations and weak regularization convergence. AK20 is only a stronger-flatness comparison. Atomlessness is distinguished from planar absolute continuity, and kernel dimension from an atom. |
 | Appendix and bibliography | Acting corner spaces, support projections, effective CP covariance and uniform error are explicit. The 29 bibliography entries match the canonical work identities, editions and source types; no style-only work is cited as a mathematical input. No general Brown-support/spectrum equality, pointwise density limit or literature-priority assertion is made. |
 
-The [AK20 scoped reading](../../../audits/literature/AK20/readme.md) records statement inspection and the stronger flatness hypothesis.
-The [Bia97 scoped reading](../../../audits/literature/Bia97/readme.md) records the exact published coordinate/density formulas.
+The [AK20 scoped reading](../../../../audits/literature/AK20/readme.md) records statement inspection and the stronger flatness hypothesis.
+The [Bia97 scoped reading](../../../../audits/literature/Bia97/readme.md) records the exact published coordinate/density formulas.
 Neither is a newly imported premise for the locally supplied proofs.
 The typesetting subset normalizes author-name order, capitalization and page-range dashes and omits redundant descriptive notes; FK52's complete 520--530 page range is taken from the canonical note.
 The final synchronization also adopted the canonical MS24 preprint entry type and the full MS17 publisher name.

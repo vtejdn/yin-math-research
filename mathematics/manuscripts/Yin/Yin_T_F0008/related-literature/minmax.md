@@ -16,7 +16,7 @@ It also gives the optimizer inside and outside the semicircular support.
 
 **Direct comparison: BCG25.**
 David Belius, Francesco Concetti and Giuseppe Genovese, *Variational formula for the logarithmic potential of free additive convolutions*, arXiv:2506.19064v1 (2025), [primary PDF](https://arxiv.org/pdf/2506.19064), equation (1.6), Theorem 1.1 and Section 1.3.
-This work was already registered and [locally read](../../../audits/literature/BCG25/Yin_U001.md), but was absent from the manuscript's then nine-entry bibliography.
+This work was already registered and [locally read](../../../../audits/literature/BCG25/Yin_U001.md), but was absent from the manuscript's then nine-entry bibliography.
 Its semicircle specialization supplies a branch-restricted scalar infimum for real points below the lower spectral edge.
 Theorem 1.1 treats more general compactly supported scalar free convolutions; Section 1.3 explains why the branch restriction matters.
 
@@ -47,7 +47,7 @@ Its role in the article is to identify a transparent matrix class and to prepare
 **Direct identification, already cited: Bia97.**
 Philippe Biane, *On the free convolution with a semi-circular distribution*, Indiana University Mathematics Journal 46 (1997), 705--718, [journal page](https://www.iumj.indiana.edu/IUMJ/FULLTEXT/1997/46/1467).
 Section 3, Lemma 4, Proposition 2 and Corollary 3 identify the boundary coordinate and density.
-The retained published PDF, printed pp.708--711, was reread alongside the [existing source note](../../../audits/literature/Bia97/readme.md).
+The retained published PDF, printed pp.708--711, was reread alongside the [existing source note](../../../../audits/literature/Bia97/readme.md).
 The correspondence is t=sigma, the input measure equal to the empirical eigenvalue measure nu, the boundary height v_t(p)=q(p), and psi_t(p)=X(p).
 This is an exact identification of those parts of the proposition.
 The source does not state the manuscript's ordered determinant optimization.
@@ -143,8 +143,8 @@ The [integration review](../paper/review.md#citation-and-mathematical-comparison
 <a id="bel15-integration-followup"></a>
 ### Bel15: retained source and exact inner-equation specialization
 
-The subsequent source acquisition retained [Bel15.pdf](../../../literature/pdf/Bel15.pdf), arXiv:1503.06390v2.
-The [scoped source record](../../../audits/literature/Bel15/readme.md) records direct reading of Proposition 3.1 and its setup (printed/PDF pp. 6–7), and Remark 3.2 (pp. 11–12).
+The subsequent source acquisition retained [Bel15.pdf](../../../../literature/pdf/Bel15.pdf), arXiv:1503.06390v2.
+The [scoped source record](../../../../audits/literature/Bel15/readme.md) records direct reading of Proposition 3.1 and its setup (printed/PDF pp. 6–7), and Remark 3.2 (pp. 11–12).
 These passages were also checked against the TeX by the bounded integration reviewer.
 This later reading resolves the original access limitation for the stated comparison; the complete analytic proof and unrelated boundary results are not claimed as audited.
 

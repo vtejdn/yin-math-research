@@ -53,7 +53,7 @@ This was a scoped authoring-agent check of the retained interfaces and their suf
 <a id="normalized-liberation-criterion-20261018"></a>
 ## Theorem 1.7: Normalized Liberation Criterion
 
-The corresponding fixed research statement and complete added argument are retained in [C_F0079 v5](../../claims/Yin_C_F0079_v5.md#statement), with its [separately arranged mathematical finding](../../audits/reviews/Yin_R_F0093_v1.md#whole-v5-finding).
+The corresponding fixed research statement and complete added argument are retained in [C_F0079 v5](../../../claims/Yin_C_F0079_v5.md#statement), with its [separately arranged mathematical finding](../../../audits/reviews/Yin_R_F0093_v1.md#whole-v5-finding).
 That finding concerns the fixed research mathematics; the manuscript-local checks below retain their stated authoring-agent relationships and dates.
 
 On 2026-10-18, the authoring agent checked the sum normalization in Definition 1.6, the accompanying construction in Section 4, the closure identity of `lem:tensor-images-l2` and the four-condition proof of Theorem 1.7 in the current TeX.
@@ -88,8 +88,8 @@ Lemma 5.1 is independent of this theorem, so its forward reference introduces no
 The individual finite-rank preimages in (4) are the same tuple as in (2), by the existing certificate uniqueness.
 
 The name normalized is an explicitly defined manuscript convention.
-The inspected Voi99 Definition 13.1 and Remarks 13.2, printed pp.160-161, impose neither a sum condition nor zero vacuum; [Voi99-U001](../../audits/literature/Voi99/Yin_U001.md#bounded-liberation-dual-system) retains that source interface.
-MS23 Definition 2.4 uses normalized for ordinary duals with \(D_i\Omega=0\), as retained in [MS23-U001](../../audits/literature/MS23/Yin_U001.md#ms23-u001) and checked against [the available preprint, p.7](https://arxiv.org/pdf/2203.00547).
+The inspected Voi99 Definition 13.1 and Remarks 13.2, printed pp.160-161, impose neither a sum condition nor zero vacuum; [Voi99-U001](../../../audits/literature/Voi99/Yin_U001.md#bounded-liberation-dual-system) retains that source interface.
+MS23 Definition 2.4 uses normalized for ordinary duals with \(D_i\Omega=0\), as retained in [MS23-U001](../../../audits/literature/MS23/Yin_U001.md#ms23-u001) and checked against [the available preprint, p.7](https://arxiv.org/pdf/2203.00547).
 The targeted literature search found no relevant use establishing canonical or normalized as a standard name for the present sum condition; no priority claim follows from that limited search.
 The local convention is written explicitly and is not attributed to either source.
 
@@ -108,7 +108,7 @@ This is a scoped authoring-agent check of the explanation, domain passage and di
 ## Liberation Dual Systems: Regular Scalar Shifts
 
 On 2026-10-18, the authoring agent checked `prop:liberation-delta`, `lem:tensor-images-l2` and Theorem 1.7 with \(X_i-\lambda\) regular for every index \(i\) and every complex lambda.
-The exact mathematical statement and argument are [C_F0079 v4](../../claims/Yin_C_F0079_v4.md#statement), with the fixed [R_F0058 v4 self-review](../../audits/reviews/Yin_R_F0058_v4.md#finding).
+The exact mathematical statement and argument are [C_F0079 v4](../../../claims/Yin_C_F0079_v4.md#statement), with the fixed [R_F0058 v4 self-review](../../../audits/reviews/Yin_R_F0058_v4.md#finding).
 The manuscript check covered the three statements, their proofs and applications, and the matching abstract, introduction, conventions and organization record.
 The checked theorem retains the universal fraction-pair quantifier and uniqueness for each fixed pair; the normalization and fourth equivalent condition are covered by the preceding review entry.
 
@@ -127,7 +127,7 @@ Lemma 6.6 proves nonatomicity from ordinary conjugate variables, so Corollary 6.
 The ordinary dual-system criterion and its proof retain their existing hypotheses.
 Lemma 5.3 identifies the finite-rank solutions with the fraction-commutator closures, so the liberation and ordinary-dual criteria remain consistent.
 The normalization argument is now Lemma 4.1 in the manuscript.
-The nonnormal liberation-gradient counterexample remains in [C_F0083 v2](../../claims/Yin_C_F0083_v2.md#statement), outside the manuscript.
+The nonnormal liberation-gradient counterexample remains in [C_F0083 v2](../../../claims/Yin_C_F0083_v2.md#statement), outside the manuscript.
 
 No unresolved correction was found in this scope.
 This is authoring-agent self-review with access to the developing proof and fixed inputs, not an independent full-paper or source audit.
@@ -176,7 +176,7 @@ No unresolved mathematical correction was found in this checked scope.
 ## Section 6: Liberation Gradients Before Ordinary Conjugate Variables
 
 On 2026-10-28, the authoring agent self-reviewed the rewritten Section 6, its introductory references, citation uses and corresponding manuscript records.
-The retained inputs are [C_F0082](../../claims/Yin_C_F0082_v1.md#decision-self-reviewed), [C_F0063 Appendix A](../../claims/Yin_C_F0063_v1.md#appendix-a-automatic-actual-liberation-contractions), the individual-algebra formulation in [C_F0083 v2](../../claims/Yin_C_F0083_v2.md#statement), and the exact source interfaces mapped in [citation.md](citation.md).
+The retained inputs are [C_F0082](../../../claims/Yin_C_F0082_v1.md#decision-self-reviewed), [C_F0063 Appendix A](../../../claims/Yin_C_F0063_v1.md#appendix-a-automatic-actual-liberation-contractions), the individual-algebra formulation in [C_F0083 v2](../../../claims/Yin_C_F0083_v2.md#statement), and the exact source interfaces mapped in [citation.md](citation.md).
 Their fixed assessments and earlier review relationships are unchanged.
 This is a scoped authoring-agent self-review, not an independent review, a new source-proof audit or a whole-paper certification.
 
@@ -285,7 +285,7 @@ No new source audit or independent proof review is claimed.
 
 The direct nonatomicity proof checked on 2026-10-18 is retained as the first part of Lemma 6.6.
 On 2026-10-28, the authoring agent checked its preservation under the reorganization and its use of the ordinary Definition 6.4.
-The actual adjoint condition, through [ACSY24-U003](../../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression), gives a dense tensor-adjoint domain and hence closability of each \(\partial_i\).
+The actual adjoint condition, through [ACSY24-U003](../../../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression), gives a dense tensor-adjoint domain and hence closability of each \(\partial_i\).
 For \(y=X_i-\lambda\), the Neumann series for \(r_\varepsilon=(y^*y+\varepsilon^2)^{-1}\) converges in operator norm and its derivatives converge in the Hilbert tensor product.
 Multiplying its partial sums by \(\varepsilon^2y\) also puts \(f_\varepsilon=\varepsilon^2yr_\varepsilon\) in the actual closure domain.
 The inverse derivative formula and normality give the displayed derivative limit \(e\otimes e\), where \(e\) is the spectral projection at \(\lambda\).
@@ -313,8 +313,8 @@ This is a scoped authoring-agent check of the presentation and direct deduction,
 ## Remark 6.8: Arcsine Example
 
 The arcsine example added on 2026-10-18 is retained as Remark 6.8, with the same semantic label and complete monomial proof.
-The fixed result and both its monomial and original Chebyshev arguments remain in [C_F0080](../../claims/Yin_C_F0080_v1.md#argument).
-Its selected assessment adopts [R_F0053](../../audits/reviews/Yin_R_F0053_v1.md#whole-proof-finding), whose actual self-review relationship is retained.
+The fixed result and both its monomial and original Chebyshev arguments remain in [C_F0080](../../../claims/Yin_C_F0080_v1.md#argument).
+Its selected assessment adopts [R_F0053](../../../audits/reviews/Yin_R_F0053_v1.md#whole-proof-finding), whose actual self-review relationship is retained.
 The earlier separately assigned agent also inspected the manuscript remark without developing either proof; this does not enlarge the fixed review's recorded relationship or scope.
 
 On 2026-10-28, the authoring agent checked the retained remark and the added connection to Proposition 6.3.
@@ -330,7 +330,7 @@ This local presentation check is not a new independent proof review or a review 
 <a id="circular-normality-remark"></a>
 ## Remark 7.1: Circular Counterexample
 
-The authoring agent self-reviewed the abbreviated current presentation of Remark 7.1 against [C_F0074](../../claims/Yin_C_F0074_v1.md#statement) and its fixed review [R_F0047](../../audits/reviews/Yin_R_F0047_v1.md#conclusion), whose initial-context relationship is unknown.
+The authoring agent self-reviewed the abbreviated current presentation of Remark 7.1 against [C_F0074](../../../claims/Yin_C_F0074_v1.md#statement) and its fixed review [R_F0047](../../../audits/reviews/Yin_R_F0047_v1.md#conclusion), whose initial-context relationship is unknown.
 The check retained the standard free semicircular pair, explicit bounded dual, zero fraction commutators for every pair and the inverse-closed-centralizer argument excluding the adjoint.
 This was a local presentation check, not a new independent proof review.
 

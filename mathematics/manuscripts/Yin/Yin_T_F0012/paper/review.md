@@ -1,7 +1,7 @@
 # Review of the F0012 Manuscript
 
 On 2026-11-05T14:18 UTC, the current agent acting for Yin reviewed the complete working-tree `main.tex`, all five included sections, the document bibliography and generated bibliography text, and the project and document prose.
-The review followed a complete reading of the [general writing rules](../../../../framework/rules/writing.md), Yin's [author-wide policy](../../../../profiles/Yin/writing/readme.md), the [free-probability policy](../../../../profiles/Yin/writing/free_probability.md), the [manuscript conventions](../conventions.md) and the [bibliography guidance](../../bibliography-guidelines.md).
+The review followed a complete reading of the [general writing rules](../../../../../framework/rules/writing.md), Yin's [author-wide policy](../../../../../profiles/Yin/writing/readme.md), the [free-probability policy](../../../../../profiles/Yin/writing/free_probability.md), the [manuscript conventions](../conventions.md) and the [bibliography guidance](../../../bibliography-guidelines.md).
 The agent had the earlier revision discussion, acceptance conclusions and manuscript review in context; the review relationship is `self-reviewed`.
 The reading checked the written deductions and their source interfaces, using the [project provenance map](../readme.md#mathematical-provenance), [citation map](../citation.md) and the retained source inspections at their recorded depth.
 
@@ -15,7 +15,7 @@ The reading checked the written deductions and their source interfaces, using th
 | [Brown-measure proof](sections/brown.tex), `subsec:linearization` through `subsec:brown-as` | Checked the determinant and inverse identities, the finite fixed-shift probability limit and the factor of the pencil size. Uniqueness of probability limits identifies the almost-sure limit after the affine result is proved. Joint measurability, Fubini on a countable exhaustion and local \(L^1\) convergence give weak convergence on one event. |
 
 No additional error invalidating a main statement was found in the written deductions checked here.
-The [independent fixed-proof review](../../../audits/reviews/Yin_R_F0190_v3.md#independent-strong-proof) retains its own inputs and scope.
+The [independent fixed-proof review](../../../../audits/reviews/Yin_R_F0190_v3.md#independent-strong-proof) retains its own inputs and scope.
 This manuscript reading does not repeat the proofs of the external source theorems or establish a new independent full-chain review.
 
 ## Definition and citation coverage

@@ -4,10 +4,10 @@ Author: Yin.
 
 ## Purpose and Inputs
 
-This is the principal paper for [Yin_T_F0001](../../../tasks/Yin_T_F0001_v7.md#yin_t_f0001).
+This is the principal paper for [Yin_T_F0001](../../../../tasks/Yin_T_F0001_v7.md#yin_t_f0001).
 The entry file is [main.tex](main.tex).
 It inputs the seven active files in `sections/` and the local BibTeX subset `references.bib`.
-Complete bibliographic data remains in the [canonical bibliography](../../../literature/references.bib).
+Complete bibliographic data remains in the [canonical bibliography](../../../../literature/references.bib).
 No figures or network inputs are required.
 Current manuscript citation applications and their source-evidence links are in the project [citation map](../citation.md).
 

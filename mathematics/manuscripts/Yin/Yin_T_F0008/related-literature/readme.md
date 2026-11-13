@@ -19,7 +19,7 @@ Existing source audits retain their actual scope; contextual citations do not cr
 The authorized revision includes the substantive connections across the whole inventory.
 Several original rows share one nearby explanation; elementary steps and searches that found no suitable additional theorem retain their existing proofs without a forced citation.
 The table uses semantic TeX labels so that added remarks do not make this navigation depend on obsolete theorem numbers.
-Source keys are the actual canonical keys in [references.bib](../../../literature/references.bib).
+Source keys are the actual canonical keys in [references.bib](../../../../literature/references.bib).
 The [current manuscript review](../paper/review.md#citation-and-mathematical-comparison-checks) owns integration verification.
 The [document README](../paper/readme.md#receiving-build) owns build evidence.
 

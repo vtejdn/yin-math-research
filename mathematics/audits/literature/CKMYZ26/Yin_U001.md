@@ -76,7 +76,7 @@ Its [remaining lower bound](../../../drafts/Yin_D_F0009.md#wigner-lower-bound) i
 <a id="repository-gue-comparison"></a>
 ## Comparison with the adopted GUE argument
 
-The repository's completed GUE proof is [C186v1](../../../claims/Yin_C_F0186_v1.md#argument), strengthened in [C186v3](../../../claims/Yin_C_F0186_v3.md#argument) and presented in the [F0012 paper](../../../manuscripts/Yin_T_F0012/readme.md).
+The repository's completed GUE proof is [C186v1](../../../claims/Yin_C_F0186_v1.md#argument), strengthened in [C186v3](../../../claims/Yin_C_F0186_v3.md#argument) and presented in the [F0012 paper](../../../manuscripts/Yin/Yin_T_F0012/readme.md).
 Both that proof and CKMYZ26 use a fixed word-chain Schur linearization, Hermitization, a polynomial least-singular-value floor and control of the number of small singular values.
 The signs in the root row and column of their word-chain constructions differ by a scalar block conjugation, giving the same Schur complement and auxiliary block structure.
 

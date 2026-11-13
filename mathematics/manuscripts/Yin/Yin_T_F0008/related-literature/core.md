@@ -40,21 +40,21 @@ New readings are identified below; they are not whole-paper audits or novelty se
 **Tobias Mai and Roland Speicher, _Fuglede–Kadison determinants of matrix-valued semicircular elements and capacity estimates_ (2024), [arXiv:2406.15922v1](https://arxiv.org/abs/2406.15922v1).**
 Already in the manuscript as MS24.
 Theorem 1.2 is the exact centered determinant identity; Lemma 3.5(ii) provides the block covariance.
-This analysis reused the [existing MS24 audit](../../../audits/literature/MS24/readme.md), checked the current manuscript's specialization and opened the public abstract.
+This analysis reused the [existing MS24 audit](../../../../audits/literature/MS24/readme.md), checked the current manuscript's specialization and opened the public abstract.
 It did not rerun the source proof audit.
 Retain the existing citation; use it to explain the precise recovery rather than adding a second broad historical paragraph.
 
 **Leonid Gurvits, _Classical complexity and quantum entanglement_ (2004), [publisher DOI](https://doi.org/10.1016/j.jcss.2004.06.003).**
 Already in the manuscript as Gur04.
 Definitions 4.2/4.4 and Theorems 4.6/4.7 relate capacity to approximate and exact scaling.
-Reused the [source audit](../../../audits/literature/Gur04/readme.md), and read its [exact-scaling unit](../../../audits/literature/Gur04/Yin_U003.md), including the recorded normalizer and scalar-zero qualifications.
+Reused the [source audit](../../../../audits/literature/Gur04/readme.md), and read its [exact-scaling unit](../../../../audits/literature/Gur04/Yin_U003.md), including the recorded normalizer and scalar-zero qualifications.
 No new whole-source review occurred.
 Its main optional value is explaining what homogeneous capacity attainment means, before contrasting it with bounded invertibility in Theorem 1.3.
 
 **Ankit Garg, Leonid Gurvits, Rafael Oliveira and Avi Wigderson, _Operator Scaling: Theory and Applications_ (2020), [published author PDF](https://www.math.ias.edu/~avi/PUBLICATIONS/GargGOW20.pdf).**
 Canonical repository key GGOW20 and cited in the current manuscript.
 Theorem 1.4 and Sections 1.1–1.3 give the noncommutative-rank context.
-Reused the [full-version source audit](../../../audits/literature/GGOW20/readme.md), including its distinction between exact scaling, approximate scaling and analytic invertibility.
+Reused the [full-version source audit](../../../../audits/literature/GGOW20/readme.md), including its distinction between exact scaling, approximate scaling and analytic invertibility.
 No new source-proof review occurred.
 This is a strong optional introduction reference; detailed algorithmic claims would need the precise encoding and precision assumptions.
 
@@ -89,7 +89,7 @@ The stability proof in Section 4 and the random-matrix proofs were not audited.
 ### Logarithmic determinants and deterministic equivalents
 
 **Walid Hachem, Philippe Loubaton and Jamal Najim, _Deterministic equivalents for certain functionals of large random matrices_ (2007), Annals of Applied Probability 17, 875–930, [published author-hosted PDF](https://ligm.univ-eiffel.fr/~whachem/AAP0223.pdf), [DOI](https://doi.org/10.1214/105051606000000925).**
-Canonical key HLN07 and an [existing selected audit](../../../audits/literature/HLN07/Yin_U001.md); cited in the current manuscript.
+Canonical key HLN07 and an [existing selected audit](../../../../audits/literature/HLN07/Yin_U001.md); cited in the current manuscript.
 This is an existing candidate worth restoring.
 The present reading additionally checked the published-layout title page, assumptions A1–A3 on pp. 879–880, and Section 4, Theorem 4.1/(4.3), pp. 891–892.
 These assume real iid centered entries with unit variance and a finite \(4+\epsilon\) moment, bounded variance profile, uniformly bounded row/column Euclidean norms of the deterministic shift, and an aspect-ratio limit.

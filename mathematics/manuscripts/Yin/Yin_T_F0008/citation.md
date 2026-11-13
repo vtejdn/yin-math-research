@@ -11,7 +11,7 @@ This map records only current citation applications, not consulted or uncited wo
 
 ## `ACSY24`
 
-Source evidence: [ACSY24-U004](../../audits/literature/ACSY24/Yin_U004.md#acsy24-u004) checks the Section 2.1 point-spectrum/Brown-atom interface and distinguishes it from other source findings.
+Source evidence: [ACSY24-U004](../../../audits/literature/ACSY24/Yin_U004.md#acsy24-u004) checks the Section 2.1 point-spectrum/Brown-atom interface and distinguishes it from other source findings.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Source evidence: [ACSY24-U004](../../audits/literature/ACSY24/Yin_U004.md#acsy24
 
 ## `AEK19`
 
-Source evidence: [AEK19 source record](../../audits/literature/AEK19/readme.md) records arXiv v5, the published-version comparison, Assumptions A1–A2, Theorem 2.6 and Proposition 4.4, with their extra hypotheses and proof limits.
+Source evidence: [AEK19 source record](../../../audits/literature/AEK19/readme.md) records arXiv v5, the published-version comparison, Assumptions A1–A2, Theorem 2.6 and Proposition 4.4, with their extra hypotheses and proof limits.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Source evidence: [AEK19 source record](../../audits/literature/AEK19/readme.md) 
 
 ## `AK20`
 
-Source evidence: [AK20 source record](../../audits/literature/AK20/readme.md) records arXiv v2 and the exact flatness hypotheses and inspected statements.
+Source evidence: [AK20 source record](../../../audits/literature/AK20/readme.md) records arXiv v2 and the exact flatness hypotheses and inspected statements.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Source evidence: [AK20 source record](../../audits/literature/AK20/readme.md) re
 
 ## `AK26`
 
-Source evidence: [AK26 source record](../../audits/literature/AK26/readme.md) records the checked arXiv v3 edition, assumptions A1–A2 and the exact theorem/proposition scopes.
+Source evidence: [AK26 source record](../../../audits/literature/AK26/readme.md) records the checked arXiv v3 edition, assumptions A1–A2 and the exact theorem/proposition scopes.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Source evidence: [AK26 source record](../../audits/literature/AK26/readme.md) re
 
 ## `AZGL+18`
 
-Source evidence: [AZGL+18 source record](../../audits/literature/AZGL+18/readme.md) records the full arXiv v1 text, the published-article identity and the limits of its capacity/scaling comparison.
+Source evidence: [AZGL+18 source record](../../../audits/literature/AZGL+18/readme.md) records the full arXiv v1 text, the published-article identity and the limits of its capacity/scaling comparison.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Source evidence: [AZGL+18 source record](../../audits/literature/AZGL+18/readme.
 
 ## `BCG25`
 
-Source evidence: [BCG25-U001](../../audits/literature/BCG25/Yin_U001.md#bcg25-u001) records the exact semicircle specialization and branch restriction in the cited preprint.
+Source evidence: [BCG25-U001](../../../audits/literature/BCG25/Yin_U001.md#bcg25-u001) records the exact semicircle specialization and branch restriction in the cited preprint.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ Source evidence: [BCG25-U001](../../audits/literature/BCG25/Yin_U001.md#bcg25-u0
 
 ## `Bel15`
 
-Source evidence: [Bel15 source record](../../audits/literature/Bel15/readme.md) records the retained arXiv v2, Proposition 3.1, Remark 3.2 and the local \(X=0,\ q=\varepsilon D\) specialization.
+Source evidence: [Bel15 source record](../../../audits/literature/Bel15/readme.md) records the retained arXiv v2, Proposition 3.1, Remark 3.2 and the local \(X=0,\ q=\varepsilon D\) specialization.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ Source evidence: [Bel15 source record](../../audits/literature/Bel15/readme.md) 
 
 ## `Bia97`
 
-Source evidence: [Bia97 source record](../../audits/literature/Bia97/readme.md) records the published article, the finite-atomic specialization, exact Section 3 locators and inspection limits.
+Source evidence: [Bia97 source record](../../../audits/literature/Bia97/readme.md) records the published article, the finite-atomic specialization, exact Section 3 locators and inspection limits.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ Source evidence: [Bia97 source record](../../audits/literature/Bia97/readme.md) 
 
 ## `BJL19`
 
-Source evidence: [BJL19 source record](../../audits/literature/BJL19/readme.md) records arXiv v1, Section 2 and Theorem 2, including the positive-solution characterization.
+Source evidence: [BJL19 source record](../../../audits/literature/BJL19/readme.md) records arXiv v1, Section 2 and Theorem 2, including the positive-solution characterization.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ Source evidence: [BJL19 source record](../../audits/literature/BJL19/readme.md) 
 
 ## `BSS18`
 
-Source evidence: [BSS18 source record](../../audits/literature/BSS18/readme.md) records arXiv v3, the exact regularization/hermitization passages and the absence of a full proof audit.
+Source evidence: [BSS18 source record](../../../audits/literature/BSS18/readme.md) records arXiv v3, the exact regularization/hermitization passages and the absence of a full proof audit.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -94,7 +94,7 @@ Source evidence: [BSS18 source record](../../audits/literature/BSS18/readme.md) 
 
 ## `BV04`
 
-Source evidence: [BV04 source record](../../audits/literature/BV04/readme.md) records the retained seventh printing with corrections and the exact Example 3.22 and Appendix A.5.5 passages.
+Source evidence: [BV04 source record](../../../audits/literature/BV04/readme.md) records the retained seventh printing with corrections and the exact Example 3.22 and Appendix A.5.5 passages.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -103,7 +103,7 @@ Source evidence: [BV04 source record](../../audits/literature/BV04/readme.md) re
 
 ## `BYZ24`
 
-Source evidence: [BYZ24 source record](../../audits/literature/BYZ24/readme.md) records arXiv v3, the scalar-free circular hypotheses and the inspected density-bound passages.
+Source evidence: [BYZ24 source record](../../../audits/literature/BYZ24/readme.md) records arXiv v3, the scalar-free circular hypotheses and the inspected density-bound passages.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ Source evidence: [BYZ24 source record](../../audits/literature/BYZ24/readme.md) 
 
 ## `DG24`
 
-Source evidence: [DG24 source record](../../audits/literature/DG24/readme.md) records the retained arXiv v2 definitions, theorem and their matrix-valued cumulant scope.
+Source evidence: [DG24 source record](../../../audits/literature/DG24/readme.md) records the retained arXiv v2 definitions, theorem and their matrix-valued cumulant scope.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ Source evidence: [DG24 source record](../../audits/literature/DG24/readme.md) re
 
 ## `FK52`
 
-Source evidence: [MS24-U001](../../audits/literature/MS24/Yin_U001.md#ms24-u001) records the Fuglede–Kadison determinant convention, and [Yin_L_F0036](../../ledger/Yin_L_F0036_v1.md) checks the original FK52 bounded multiplicativity input and its analytic extension.
+Source evidence: [MS24-U001](../../../audits/literature/MS24/Yin_U001.md#ms24-u001) records the Fuglede–Kadison determinant convention, and [Yin_L_F0036](../../../ledger/Yin_L_F0036_v1.md) checks the original FK52 bounded multiplicativity input and its analytic extension.
 FK52 is the published 1952 determinant paper; this citation does not attribute the matrix capacity definition to it.
 
 | TeX use | Citation locator | Application and boundary |
@@ -129,7 +129,7 @@ FK52 is the published 1952 determinant paper; this citation does not attribute t
 
 ## `GGOW20`
 
-Source evidence: [GGOW20-U001](../../audits/literature/GGOW20/Yin_U001.md#ggow20-u001) records the published full article's rank and operator-scaling statements in Sections 1.1–1.3.
+Source evidence: [GGOW20-U001](../../../audits/literature/GGOW20/Yin_U001.md#ggow20-u001) records the published full article's rank and operator-scaling statements in Sections 1.1–1.3.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ Source evidence: [GGOW20-U001](../../audits/literature/GGOW20/Yin_U001.md#ggow20
 
 ## `Gur04`
 
-Source evidence: [Gur04-U002](../../audits/literature/Gur04/Yin_U002.md#gur04-u002) checks capacity and approximate scaling, and [Gur04-U003](../../audits/literature/Gur04/Yin_U003.md#gur04-u003) reconstructs exact scaling and attainment in its stated scope.
+Source evidence: [Gur04-U002](../../../audits/literature/Gur04/Yin_U002.md#gur04-u002) checks capacity and approximate scaling, and [Gur04-U003](../../../audits/literature/Gur04/Yin_U003.md#gur04-u003) reconstructs exact scaling and attainment in its stated scope.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -146,7 +146,7 @@ Source evidence: [Gur04-U002](../../audits/literature/Gur04/Yin_U002.md#gur04-u0
 
 ## `Han08`
 
-Source evidence: [Han08 source record](../../audits/literature/Han08/readme.md) records the retained arXiv v6 definition, homogeneity and local trace identity.
+Source evidence: [Han08 source record](../../../audits/literature/Han08/readme.md) records the retained arXiv v6 definition, homogeneity and local trace identity.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -154,7 +154,7 @@ Source evidence: [Han08 source record](../../audits/literature/Han08/readme.md) 
 
 ## `HL00`
 
-Source evidence: [HL00 source record](../../audits/literature/HL00/readme.md) records the retained author preprint, Theorem 4.4 and its scalar \(R\)-diagonal scope.
+Source evidence: [HL00 source record](../../../audits/literature/HL00/readme.md) records the retained author preprint, Theorem 4.4 and its scalar \(R\)-diagonal scope.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -162,7 +162,7 @@ Source evidence: [HL00 source record](../../audits/literature/HL00/readme.md) re
 
 ## `HLN07`
 
-Source evidence: [HLN07-U001](../../audits/literature/HLN07/Yin_U001.md#hln07-u001) records the cited deterministic-equivalent theorem at statement/applicability depth.
+Source evidence: [HLN07-U001](../../../audits/literature/HLN07/Yin_U001.md#hln07-u001) records the cited deterministic-equivalent theorem at statement/applicability depth.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -170,7 +170,7 @@ Source evidence: [HLN07-U001](../../audits/literature/HLN07/Yin_U001.md#hln07-u0
 
 ## `HRFS07`
 
-Source evidence: [HRFS07 source record](../../audits/literature/HRFS07/readme.md) records the published article, the half-plane uniqueness theorem and the Section 3 contraction argument.
+Source evidence: [HRFS07 source record](../../../audits/literature/HRFS07/readme.md) records the published article, the half-plane uniqueness theorem and the Section 3 contraction argument.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -179,7 +179,7 @@ Source evidence: [HRFS07 source record](../../audits/literature/HRFS07/readme.md
 
 ## `HS09`
 
-Source evidence: [HS09 source record](../../audits/literature/HS09/readme.md) records the published statement passages, II\(_1\)-factor hypothesis and exact contour/block limits.
+Source evidence: [HS09 source record](../../../audits/literature/HS09/readme.md) records the published statement passages, II\(_1\)-factor hypothesis and exact contour/block limits.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -189,7 +189,7 @@ Source evidence: [HS09 source record](../../audits/literature/HS09/readme.md) re
 
 ## `Kun26`
 
-Source evidence: [Kun26 source record](../../audits/literature/Kun26/readme.md) records the retained arXiv v1, Theorem 1.9, Section 4.1 and the local Schur-complement specialization.
+Source evidence: [Kun26 source record](../../../audits/literature/Kun26/readme.md) records the retained arXiv v1, Theorem 1.9, Section 4.1 and the local Schur-complement specialization.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -197,7 +197,7 @@ Source evidence: [Kun26 source record](../../audits/literature/Kun26/readme.md) 
 
 ## `Miy22`
 
-Source evidence: [Miy22-U001](../../audits/literature/Miy22/Yin_U001.md#miy22-u001) records the published Section 2.1 Fock model and its normalization.
+Source evidence: [Miy22-U001](../../../audits/literature/Miy22/Yin_U001.md#miy22-u001) records the published Section 2.1 Fock model and its normalization.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -205,7 +205,7 @@ Source evidence: [Miy22-U001](../../audits/literature/Miy22/Yin_U001.md#miy22-u0
 
 ## `MS17`
 
-Source evidence: [MS17-U001](../../audits/literature/MS17/Yin_U001.md#ms17-u001) records the selected affine, Brown-measure and weak-regularization interfaces and their proof boundaries.
+Source evidence: [MS17-U001](../../../audits/literature/MS17/Yin_U001.md#ms17-u001) records the selected affine, Brown-measure and weak-regularization interfaces and their proof boundaries.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -220,7 +220,7 @@ Source evidence: [MS17-U001](../../audits/literature/MS17/Yin_U001.md#ms17-u001)
 
 ## `MS24`
 
-Source evidence: [MS24-U001](../../audits/literature/MS24/Yin_U001.md#ms24-u001), [MS24-U002](../../audits/literature/MS24/Yin_U002.md#ms24-u002), and [MS24-U003](../../audits/literature/MS24/Yin_U003.md#ms24-u003) record the retained arXiv v1 determinant, capacity, covariance and centered-identity interfaces.
+Source evidence: [MS24-U001](../../../audits/literature/MS24/Yin_U001.md#ms24-u001), [MS24-U002](../../../audits/literature/MS24/Yin_U002.md#ms24-u002), and [MS24-U003](../../../audits/literature/MS24/Yin_U003.md#ms24-u003) record the retained arXiv v1 determinant, capacity, covariance and centered-identity interfaces.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -237,7 +237,7 @@ Source evidence: [MS24-U001](../../audits/literature/MS24/Yin_U001.md#ms24-u001)
 
 ## `Pop03`
 
-Source evidence: [Pop03 source record](../../audits/literature/Pop03/readme.md) records arXiv v1, the strict-defect criterion and the finite-dimensional applicability used here.
+Source evidence: [Pop03 source record](../../../audits/literature/Pop03/readme.md) records arXiv v1, the strict-defect criterion and the finite-dimensional applicability used here.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -245,7 +245,7 @@ Source evidence: [Pop03 source record](../../audits/literature/Pop03/readme.md) 
 
 ## `SH15`
 
-Source evidence: [SH15 source record](../../audits/literature/SH15/readme.md) records the published SIAM edition, Section 2, Definitions 2.1–2.2 and equation (2.2).
+Source evidence: [SH15 source record](../../../audits/literature/SH15/readme.md) records the published SIAM edition, Section 2, Definitions 2.1–2.2 and equation (2.2).
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -253,7 +253,7 @@ Source evidence: [SH15 source record](../../audits/literature/SH15/readme.md) re
 
 ## `Spe26`
 
-Source evidence: [Spe26-U001](../../audits/literature/Spe26/Yin_U001.md#spe26-u001) records the public discussion and its exact candidate-expression limits; no proof is attributed to that post.
+Source evidence: [Spe26-U001](../../../audits/literature/Spe26/Yin_U001.md#spe26-u001) records the public discussion and its exact candidate-expression limits; no proof is attributed to that post.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -264,7 +264,7 @@ Source evidence: [Spe26-U001](../../audits/literature/Spe26/Yin_U001.md#spe26-u0
 
 ## `Zho26`
 
-Source evidence: [Zho26 source record](../../audits/literature/Zho26/readme.md) records the retained arXiv version, Theorem 4.2 and its circular-addition hypotheses.
+Source evidence: [Zho26 source record](../../../audits/literature/Zho26/readme.md) records the retained arXiv version, Theorem 4.2 and its circular-addition hypotheses.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |

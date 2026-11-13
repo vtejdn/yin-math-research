@@ -35,7 +35,7 @@ Source identity, source-statement inspection, local proof checking and literatur
 
 The local bibliography style is a renamed derivative of the standard AMS `amsalpha` style, with its copyright and LPPL notice retained.
 It generates alphabetic author–year labels, displays given-name initials and complete family names in every entry, sorts by author family-name list and then year, and supports article identifiers in the `eid` field.
-The typesetting subset uses journal abbreviations verified against the [Mathematical Reviews serials list](https://mathscinet.ams.org/msnhtml/serials.pdf); the [canonical bibliography](../../../literature/references.bib) retains full publication metadata.
+The typesetting subset uses journal abbreviations verified against the [Mathematical Reviews serials list](https://mathscinet.ams.org/msnhtml/serials.pdf); the [canonical bibliography](../../../../literature/references.bib) retains full publication metadata.
 
 Run from this `paper/` directory:
 
@@ -119,4 +119,4 @@ latexmk -pdf -outdir=build -interaction=nonstopmode -halt-on-error main.tex
 ```
 
 This is a historical command, not the current build instruction.
-The MS24 notation source finding remains at its [responsible source note](../../../audits/literature/MS24/readme.md#notation-recheck), and the adopted notation choice remains in the [manuscript conventions](../conventions.md#yin_t_f0008-covariance-argument).
+The MS24 notation source finding remains at its [responsible source note](../../../../audits/literature/MS24/readme.md#notation-recheck), and the adopted notation choice remains in the [manuscript conventions](../conventions.md#yin_t_f0008-covariance-argument).

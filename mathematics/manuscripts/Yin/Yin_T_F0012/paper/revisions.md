@@ -13,7 +13,7 @@ The local statement leaves that hypothesis implicit and reads more generally tha
 
 **Revision:** Introduce \(F\) explicitly as one of the quadratic maps \(F_{k,\ell}:\mathbb R^p\to\mathbb R^r\) with empty zero set, then retain the displayed construction and exponent.
 
-**Basis:** Necessary hypotheses and [precise object names](../../../../framework/rules/writing.md#precise-object-names).
+**Basis:** Necessary hypotheses and [precise object names](../../../../../framework/rules/writing.md#precise-object-names).
 Priority: P2.
 
 ## R10. Cite the pencil formulation at its first substantive introduction
@@ -25,10 +25,10 @@ The complete formula resolves its meaning while leaving Yin's first-use citation
 The later Han26 citation accompanies the linearization construction.
 
 **Revision:** Add a precise applicable reference at Definition `def:pencil`.
-The retained [Han26 inspection](../../../audits/literature/Han26/Yin_U001.md#linearization) covers the affine form in Section 2 and the identity-constant form of Theorem 1.5.
+The retained [Han26 inspection](../../../../audits/literature/Han26/Yin_U001.md#linearization) covers the affine form in Section 2 and the identity-constant form of Theorem 1.5.
 Its use can support those formulations while the paper explicitly adopts its Hermitian-input restriction and the convention that \(A_0=I_m\) is called monic.
 
-**Basis:** Yin's [first-use citation rule for specialized definitions](../../../../profiles/Yin/writing/readme.md#definition-citations).
+**Basis:** Yin's [first-use citation rule for specialized definitions](../../../../../profiles/Yin/writing/readme.md#definition-citations).
 Priority: P2.
 
 ## R11. Give the core input conventions a labelled definition
@@ -43,7 +43,7 @@ The audience exemption concerns the term von Neumann algebra and does not overri
 Keep the arbitrary coupling across sizes explicit in the standing setup.
 The proof-local measures, norms and coordinate maps can retain their current local presentation.
 
-**Basis:** Yin's [definition-environment criteria](../../../../profiles/Yin/writing/readme.md#definition-environments) and [definition-writing standards](../../../../profiles/Yin/writing/readme.md#definition-statements).
+**Basis:** Yin's [definition-environment criteria](../../../../../profiles/Yin/writing/readme.md#definition-environments) and [definition-writing standards](../../../../../profiles/Yin/writing/readme.md#definition-statements).
 Priority: P2.
 
 ## R12. Name the fixed coefficients directly
@@ -55,7 +55,7 @@ Calling the coefficients random obscures the deterministic case being separated.
 
 **Revision:** Replace the condition with “If \(A_1=\cdots=A_d=0\)”, retaining the conclusions and the following nonzero-coefficient assumption.
 
-**Basis:** [Precise object names](../../../../framework/rules/writing.md#precise-object-names).
+**Basis:** [Precise object names](../../../../../framework/rules/writing.md#precise-object-names).
 Priority: P3.
 
 ## R13. Identify and normalize the Laplacian at first use
@@ -70,7 +70,7 @@ The later identity \(\Delta\log|z|=2\pi\delta_0\) in [brown.tex](sections/brown.
 The distributional convention is \(\langle\Delta u,\varphi\rangle:=\langle u,\Delta\varphi\rangle\) for \(\varphi\in C_c^\infty(\mathbb C)\).
 A concise local explanation suffices for this elementary operator.
 
-**Basis:** [Contextual notation](../../../../framework/rules/writing.md#notation-in-context) and [unambiguous definitions](../../../../framework/rules/writing.md#definition-statements).
+**Basis:** [Contextual notation](../../../../../framework/rules/writing.md#notation-in-context) and [unambiguous definitions](../../../../../framework/rules/writing.md#definition-statements).
 Priority: P2.
 
 ## R14. State the consequence of introducing the Ginibre adjoints
@@ -80,7 +80,7 @@ Priority: P2.
 **Finding:** The paragraph explains the GUE-to-Ginibre pairing and notes that rewriting a general GUE polynomial introduces adjoints, then cites Han26 Question 1.8.
 Its intended consequence is that Han26 Theorem 1.2, which treats polynomials without adjoint variables, does not directly establish the general GUE conclusion.
 The text leaves that consequence implicit, and “a case discussed” does not state the mathematical role of the cited question.
-The [retained source inspection](../../../audits/literature/Han26/Yin_U001.md#gue-boundary) supports this applicability distinction.
+The [retained source inspection](../../../../audits/literature/Han26/Yin_U001.md#gue-boundary) supports this applicability distinction.
 
 **Revision:** Name the paired Ginibre matrices explicitly, state why the appearance of their adjoints prevents direct application of Han's theorem, and identify Question 1.8 as raising that extension.
 A suitable replacement is:
@@ -90,5 +90,5 @@ A general polynomial in the GUE inputs involves both the paired Ginibre matrices
 The extension to polynomials involving adjoints is raised in \cite[Question~1.8]{Han26}.
 ```
 
-**Basis:** [Explicit relationships between results](../../../../framework/rules/writing.md#direct-result-connections), [precise mathematical comparisons](../../../../framework/rules/writing.md#mathematical-comparisons), and Yin's [introduction policy](../../../../profiles/Yin/writing/readme.md#default-policy).
+**Basis:** [Explicit relationships between results](../../../../../framework/rules/writing.md#direct-result-connections), [precise mathematical comparisons](../../../../../framework/rules/writing.md#mathematical-comparisons), and Yin's [introduction policy](../../../../../profiles/Yin/writing/readme.md#default-policy).
 Priority: P2.
