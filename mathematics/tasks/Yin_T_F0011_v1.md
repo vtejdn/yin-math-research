@@ -146,6 +146,8 @@ The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed)
 For any shift of a coordinate by the algebra of the remaining coordinates, the [singular-value estimate](../claims/Yin_C_F0229_v1.md#decision-reviewed) bounds the trace of the singular projection at radius \(r\) by \((\pi r\|\xi_i\|_2)^{1/2}\).
 The [four-point theorem](../claims/Yin_C_F0230_v1.md#decision-reviewed) excludes vanishing polar phase loss on corners of uniformly positive trace for bounded shifts when no line carries the required marginal mass.
 The [column packing condition](../claims/Yin_C_F0211_v1.md#statement) also tests families of projections whose traces tend to zero.
+At shifts admitting a [supporting half-plane](../claims/Yin_C_F0231_v1.md#decision-reviewed) up to order \(r\) after omitted unitary multiplication, the singular mass is uniformly \(o(r^{2/3})\).
+The [packing estimate for local finite-spectrum approximations](../claims/Yin_C_F0233_v1.md#decision-reviewed) controls entire orthogonal families when the effective number of spectral values and the relative errors satisfy its bounds.
 The nonnormal separating example does not settle this implication.
 
 ## Starting evidence

@@ -278,6 +278,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0237](Yin_R_F0237_v1.md#whole-proof-finding) | Vacuum-weighted phase estimate and a normal factor with no uniform gap | [v1](Yin_R_F0237_v1.md) |
 | [Yin_R_F0238](Yin_R_F0238_v1.md#whole-proof-finding) | Singular-value mass of all omitted shifts and the integrated polar phase identity | [v1](Yin_R_F0238_v1.md) |
 | [Yin_R_F0239](Yin_R_F0239_v1.md#whole-proof-finding) | Four-point phase loss, line carriers on positive-trace corners and equality for bounded shifts | [v1](Yin_R_F0239_v1.md) |
+| [Yin_R_F0240](Yin_R_F0240_v1.md#whole-proof-finding) | Singular mass at a supporting half-plane and higher integrability of the vacuum | [v1](Yin_R_F0240_v1.md) |
+| [Yin_R_F0241](Yin_R_F0241_v1.md#whole-proof-finding) | Derivation rank of the two-point modulus algebra and normal encoding limits | [v1](Yin_R_F0241_v1.md) |
+| [Yin_R_F0242](Yin_R_F0242_v1.md#whole-proof-finding) | Positive-weight marginal compression and packing with local finite-spectrum approximations | [v1](Yin_R_F0242_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

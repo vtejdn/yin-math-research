@@ -1498,3 +1498,23 @@ For a single positive \(e=g(P)\) with exact phase loss zero, use its constant se
 The support of \(e\) is then bounded by both \(1_\ell(X)\) and \(1_{\{0\}}(\operatorname{Im}(\bar d(b-c)))\).
 This tracks a direction for each fixed positive lower trace.
 For the shrinking spectral projections \(e_n=1_{[0,r_n]}(P_n)\) with \(r_n\downarrow0\), the [uniform shift estimate](../claims/Yin_C_F0229_v1.md#statement) forces \(\tau(e_n)\to0\), so this compactness argument supplies no law-independent line for such projections.
+
+<a id="holomorphic-resolvent-near-a-supporting-half-plane"></a>
+## Singular mass near a supporting half-plane of the numerical range
+
+The [omitted-unitary supporting-half-plane theorem](../claims/Yin_C_F0231_v1.md#statement) gives the small-radius estimate and its \(L^p\) improvement.
+Its one-sided formulation already has the full scope of its two-unitary formulation.
+Indeed if \(V,W\in N\) and \(D=V^*(X-b)W\), then \(WDW^*=WV^*(X-b)\).
+Writing \(v=VW^*\), the one-unitary condition is \(\operatorname{Re}(v^*(X-b))\ge-\kappa r\,1\).
+The associated normalized test also reduces to one factor, since \(v(v^*(X-b)+s)^{-1}=V(D+s)^{-1}W^*\).
+
+For each shift \(b\) define the supporting tolerance
+\[
+   a_b=\inf_{v\in\mathcal U(N)}
+      \|(\operatorname{Re}(v^*(X-b)))_-\|.
+\]
+The fixed little-order estimate applies uniformly to families \(a_b\le Kr\) with fixed \(K\), since for \(r>0\) one may take an approximating unitary with tolerance \((K+1)r\).
+The infimum need not be presumed attained.
+For the single-coordinate uniform mass problem, this reduces any sequence with \(t^3/r^2\) bounded away from zero as \(r\to0\) to \(a_b/r\to\infty\): every bounded-ratio subsequence would contradict the [uniform estimate](../claims/Yin_C_F0231_v1.md#statement).
+For the [orthogonal packing problem](../claims/Yin_C_F0211_v1.md#statement), even a sequence for which all individual ratios tend to zero can have unbounded partial sums.
+A bound for that sum still requires control of the normalized test vectors or another estimate using the orthogonality of the input projections.

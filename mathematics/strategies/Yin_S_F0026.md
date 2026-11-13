@@ -297,6 +297,12 @@ For a family of such tests a Hilbert-space overlap bound on the normalized resol
 The [scalar radial examples](../drafts/Yin_D_F0003.md#sharp-scalar-limits-of-radial-vacuum-tests-at-an-omitted-shift) show that the radial vacuum identity with a strictly positive compressed phase allows exponents between \(1/2\) and \(2/3\) in abstract scalar data.
 Realizing those data for an actual coordinate and omitted shift requires the phase to come from the marginal normal operator.
 The packing obstruction still concerns sums of cubed masses divided by squared radii over orthogonal projections, including projections outside the omitted algebra.
+The [supporting-half-plane estimate](../claims/Yin_C_F0231_v1.md#decision-reviewed) shows that \(t^3/r^2\to0\) uniformly when an omitted unitary can put the real part of \(X_i-b\) above \(-\kappa r\) for fixed \(\kappa\), where \(t\) is its singular mass up to \(r\).
+At these shifts a divergent sum still requires an unbounded Gram norm for the normalized inverse tests.
+The [marginal density and spectral partition estimate](../claims/Yin_C_F0233_v1.md#decision-reviewed) bounds the original sum itself when each shift has a local finite-spectrum approximation with uniformly bounded effective number of spectral values and approximation and commutator errors of order \(r_j\sqrt{t_j}\).
+It applies to singular projections outside the omitted algebra and permits different spectral partitions for different shifts.
+The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
+For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 
 On the general branch, the [noisy Jordan family](../claims/Yin_C_F0213_v1.md#decision-reviewed) forces a bounded-dual cost of order inverse noise at fixed matrix size.
 At size two a separating sequence exists along this route exactly when the noise level times the norm of the projection of the canonical vacuum onto the kernel of the closed starred cut tends to zero on a subsequence.
