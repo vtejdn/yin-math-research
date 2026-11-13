@@ -257,6 +257,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0216](Yin_R_F0216_v1.md#finding) | One-sided polynomial columns and the optimal cost of duals after two free Haar unitaries are adjoined | [v1](Yin_R_F0216_v1.md) |
 | [Yin_R_F0217](Yin_R_F0217_v1.md#conclusion) | Intrinsic vacuum and dual-domain criterion for multichannel Gaussian coordinates over a diffuse normal base | [v1](Yin_R_F0217_v1.md) |
 | [Yin_R_F0218](Yin_R_F0218_v1.md#whole-proof-finding) | Quantitative one-generator necessity and weighted assembly of counterexamples to bare duality | [v1](Yin_R_F0218_v1.md) |
+| [Yin_R_F0219](Yin_R_F0219_v1.md#whole-proof-finding) | Optimal normal densities, weighted rank-one commutators and mixed small-singular-value projections | [v1](Yin_R_F0219_v1.md) |
+| [Yin_R_F0220](Yin_R_F0220_v1.md#whole-proof-finding) | Hilbert–Schmidt criterion for a bounded drift of a free semicircular coordinate and its exact vacuum cost | [v1](Yin_R_F0220_v1.md) |
+| [Yin_R_F0221](Yin_R_F0221_v1.md#whole-proof-finding) | Bounded-dual cost and attainable conjugate vectors for a Jordan block with free circular noise | [v1](Yin_R_F0221_v1.md) |
+| [Yin_R_F0222](Yin_R_F0222_v1.md#whole-proof-finding) | Ordered finite word tests for the least vacuum norm and their separation on radial normal laws | [v1](Yin_R_F0222_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

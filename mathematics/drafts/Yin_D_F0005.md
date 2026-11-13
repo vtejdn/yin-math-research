@@ -405,3 +405,108 @@ For the ordinary Hermitian block \(Y=e_{12}X+e_{21}X^*\), a scalar-coordinate pr
 Differentiating \(GY+YG=0\) would give \(G\otimes1+1\otimes G=0\), contradicted in the \(e_{11}\otimes e_{11}\) corner.
 These obstructions concern the fixed matrix-unit construction.
 Coefficients depending on the tuple or a larger algebra with different domain and compression data require separate arguments.
+
+<a id="noisy-jordan-finite-matrix-correction"></a>
+## Finite matrix corrections to the noisy Jordan witnesses
+
+For \(B=M_k(\mathbb C)\) with normalized trace, \(J=\sum_{i=1}^{k-1}e_{i,i+1}\), a free standard circular element \(c\), and \(Z=J+\varepsilon c\), let \(d_k(\varepsilon)\) be the infimum of the actual ACSY vacuum norm on \(N=W^*(Z)\).
+The [fixed noisy Jordan result](../claims/Yin_C_F0213_v1.md#statement) gives the closed-kernel formula for this infimum and the order \(\varepsilon^{-1}\) of the bounded-dual cost \(\beta(Z)\) at fixed \(k\).
+The following development lies outside that result's [independent review](../audits/reviews/Yin_R_F0221_v1.md#whole-proof-finding).
+Writing \(H_k=\sum_{m=1}^k m^{-1}\), the estimates obtained here are
+\[
+   \limsup_{\varepsilon\downarrow0}\varepsilon d_k(\varepsilon)
+       \le k^{-1/2},\qquad
+   \limsup_{\varepsilon\downarrow0}\varepsilon\beta(Z)
+       \le (H_k/k)^{1/2}.
+\]
+
+Put \(H_B=L^2(B)\) and \(G_B=H_B\otimes_2H_B\).
+Use the outer actions on \(G_B\), the commutator sign \([E,L_Z]=P_\Omega\), and the map \(\Theta(a\otimes b)h=a\tau(bh)\) onto Hilbert--Schmidt operators.
+Set \(A\eta=J\eta-\eta J\), \(v=P_{\ker A^*}(1\otimes1)\), and choose \(\eta\in G_B\) with \(A\eta=1\otimes1-v\), which exists in finite dimension.
+At fixed inner indices \(i,j\), identify \(e_{ai}\otimes e_{jt}\) with the endpoint matrix unit \(e_{at}\).
+Each tensor basis vector has norm \(1/k\), and on this copy \(A\) is \(m\mapsto Jm-mJ\).
+Its adjoint kernel is the commutant of \(J^*\), spanned by the orthogonal matrices \((J^*)^l=\sum_{a=1}^{k-l}e_{a+l,a}\), \(0\le l<k\), as follows by equating adjacent matrix entries in the commutation equation.
+The component of \(1\otimes1\) at inner indices \(i,j\) corresponds to \(e_{ij}\).
+Its projection is zero for \(i<j\), and otherwise is \((J^*)^{i-j}/(k-i+j)\).
+Consequently
+\[
+ v=\sum_{l=0}^{k-1}\frac1{k-l}
+         \sum_{a,j=1}^{k-l} e_{a+l,j+l}\otimes e_{ja},
+ \qquad
+ \|v\|_2^2=\frac1{k^2}\sum_{l=0}^{k-1}
+                       \frac{(k-l)^2}{(k-l)^2}=\frac1k .
+\]
+
+Work on \(\widehat H=L^2(B*W^*(c))\), writing \(\rho(b)h=hb\) for actual right multiplication.
+For \(S=-\Theta\eta\) on \(H_B\), take its right-factor lift \(\widehat S\) in the [pointed free product](../audits/literature/Voi98/Yin_U005.md#voi98-u005).
+The opposite-end commutator identity gives \([\widehat S,L_b]=\Theta(b\eta-\eta b)\) for \(b\in B\), where \(\Theta\) now acts on \(\widehat H\) with the same matrix tensor, supported on \(H_B\).
+Indeed \([-\Theta\eta,L_b]=L_b\Theta\eta-\Theta\eta L_b\) on \(H_B\), and the same-factor commutator is zero on its orthogonal complement.
+Also \([\widehat S,L_c]=[\widehat S,L_{c^*}]=0\), \(\widehat S\Omega=S\Omega\), \(\widehat S^*\Omega=S^*\Omega\), and \(\|\widehat S\|=\|S\|\).
+
+Let \(R\) be the norm-one right circular deletion lifted from [the circular Fock construction](../claims/Yin_C_F0213_v1.md#argument), so \([R,L_c]=P_\Omega\), \([R,L_{c^*}]=0\), and \(R\) commutes with left \(B\).
+For \(w=\sum_s a_s\otimes b_s\in G_B\) put \(D_w=\sum_s\rho(a_s)R\rho(b_s)\).
+Right multiplication commutes with every left multiplier, giving
+\[
+   [D_w,L_c]=\sum_s \rho(a_s)P_\Omega\rho(b_s)=\Theta w,\qquad
+   [D_w,L_{c^*}]=[D_w,L_b]=0\quad(b\in B).
+\]
+In particular \(\widehat E=\widehat S+\varepsilon^{-1}D_v\) has \([\widehat E,L_Z]=\Theta(A\eta+v)=P_\Omega\) and \([\widehat E,L_{Z^*}]=\Theta(J^*\eta-\eta J^*)\).
+
+To compute the vacuum and norm of \(D_v\), decompose \(\widehat H\) into levels
+\[
+       H_B\otimes(\mathbb C^2\otimes H_B)^{\otimes n},\qquad n\ge0 .
+\]
+Splitting every \(B\) slot as \(\mathbb C1\oplus H_B^\circ\) recovers the pointed free-product decomposition by grouping consecutive circular Fock letters separated by scalar slots.
+Write \(u,u'\) for the orthonormal circular letters, so \(c=\ell(u)+\ell(u')^*\) in the circular factor.
+The lifted \(R\) kills level zero.
+On a level with at least one letter, \(R\) removes the last letter \(\chi\) and the last \(B\) slot \(r\), multiplying the remaining word by \(\langle u,\chi\rangle\tau(r)\).
+Indeed a centered final \(B\) syllable ends the word in the matrix factor, where the lift acting on a trailing circular vacuum is zero, while a scalar final slot exposes the last circular Fock letter.
+Right multiplication by \(b\in B\) multiplies the last \(B\) slot on the right at every level, including level zero.
+Thus \(D_w\) kills \(H_B\) and acts at positive levels as the identity on the preceding slots followed by the contraction
+\[
+       F_w(q\otimes\chi\otimes r)
+          =\langle u,\chi\rangle\sum_s q a_s\tau(r b_s).
+\]
+The respective output levels are orthogonal and the one-letter restriction realizes \(F_w\), so \(\|D_w\|=\|F_w\|\).
+In particular \(D_w^*\Omega=\sum_s a_s^*\otimes u\otimes b_s^*\) in level one, of norm \(\|w\|_2\).
+This checks both the base-only input and all higher levels.
+
+Let \(Q:\widehat H\to L^2(N)\) be the tracial projection.
+As in [the compression argument for \(Z\)](../claims/Yin_C_F0213_v1.md#argument), \(E=Q\widehat E|_{L^2(N)}\) has the exact prescribed commutator on \(Z\) and a Hilbert--Schmidt commutator on \(Z^*\).
+The resulting actual derivation on the full represented core is \(\delta p=\Theta^{-1}[E,L_p]\), with starred value \((Q\otimes Q)(J^*\eta-\eta J^*)\).
+Here \(Q\) preserves adjoints and the unit, so compressing an ambient rank-one tensor acts by \(Q\) on both legs.
+Its actual vacuum vector is
+\[
+   \xi=E^*\Omega-(E\Omega)^*
+      =Q\big(S^*\Omega-(S\Omega)^*+\varepsilon^{-1}D_v^*\Omega\big).
+\]
+The sign follows from \(\tau(pE\Omega)=\langle(E\Omega)^*,p\rangle\) in the vacuum pairing of \([E,L_p]\), with inner products linear in the second argument.
+The first two terms are in the base and the last is in level one.
+Since \(\|S\|\le\|\eta\|_2\), this yields
+\[
+                 d_k(\varepsilon)^2
+                    \le4\|\eta\|_2^2+\frac1{k\varepsilon^2}.
+\]
+
+For the full-Hilbert norm of the same bounded witness, set
+\[
+     M_{ja}=\sum_{0\le l\le k-\max(a,j)}
+                      \frac{e_{a+l,j+l}}{k-l}.
+\]
+On the \(u\) letter, \(F_v(q\otimes u\otimes r)=\sum_{j,a}q M_{ja}\tau(r e_{ja})\), and the \(u'\) letter is killed.
+At \(r=\sqrt{k}\,e_{aj}\) the map on \(q\) is right multiplication by \(M_{ja}/\sqrt{k}\).
+These last-slot vectors are an orthonormal basis, so \(F_vF_v^*\) is right multiplication by \(k^{-1}\sum_{j,a}M_{ja}^*M_{ja}\).
+Different \(l\)'s in each product have different row indices, which gives
+\[
+      \frac1k\sum_{j,a}M_{ja}^*M_{ja}
+          =\frac1k\sum_{b=1}^k
+                     \left(\sum_{l=0}^{b-1}\frac1{k-l}\right)e_{bb}.
+\]
+The largest diagonal entry is \(H_k/k\), and hence \(\|D_v\|=(H_k/k)^{1/2}\).
+Restricting the compressed operator to \(N\) gives
+\[
+                 \beta(Z)\le\|S\|+\varepsilon^{-1}(H_k/k)^{1/2}.
+\]
+Both asymptotic bounds follow with the fixed matrix solution \(\eta\) chosen above.
+The full-Hilbert norm calculation concerns this particular deletion, and does not identify the optimal bounded dual or the optimal actual vacuum.
+At \(k=2\) the vacuum estimate leaves the zero lower-limit condition in the [fixed result](../claims/Yin_C_F0213_v1.md#statement) unresolved.
