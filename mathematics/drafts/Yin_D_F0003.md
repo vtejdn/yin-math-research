@@ -1711,3 +1711,159 @@ For centered S and power 1.2, the normalized weighted U norm changed from approx
 This supports testing the unweighting separately from the weighted range, but proves neither an infinite-size divergence nor any free-limit transfer.
 The finite matrix inputs have atoms and are not admissible actual free-difference-quotient or full-domain-dual examples.
 In particular a large finite inverse norm does not show failure of C_F0142's target vacuum tests, whose generator values remain bounded by the exact resolvent identity.
+
+## The tracial input topology for commutator lifting
+
+Already for a single selfadjoint generator, a bounded lift on any tracial \(L^p\) with finite \(p\) costs more regularity than actual ACSY supplies.
+The following developer-checked calculation quantifies this for every admissible witness, including those with arbitrary value at the vacuum.
+The [projective tensor criterion](../claims/Yin_C_F0151_v2.md#a-precise-bounded-dual-functional-test) and [word test](../claims/Yin_C_F0201_v1.md#the-hilbert-values-and-the-represented-norm) use the operator norm of the bounded input.
+The distinction persists even with a commutative generated von Neumann algebra.
+
+Let \(X(x)=x\) have compactly supported probability law \(\mu\) on \(\mathbb R\), let \(P f=(\int f\,d\mu)1\), and let \(2\le p\le\infty\).
+Define \(B_p\) as the least bound \(\|Ef\|_{L^2(\mu)}\le C\|f\|_{L^p(\mu)}\) for a linear map on all bounded \(f\) satisfying \([E,X]f=Pf\), taking the infimum with value \(+\infty\) if necessary.
+For finite \(p\) any such map extends boundedly to \(L^p(\mu)\) by density.
+Put \(1/r=1/2-1/p\), \(a=r+1\), with \(a=\infty\) when \(p=2\), and \(t=2/(1-1/a)\).
+Then \(B_p\) is finite exactly when \(d\mu=\rho\,dx\) with \(\rho\in L^a(dx)\).
+More precisely, writing \(\mathcal H\) for the ordinary normalized real-line Hilbert transform, one has
+\[
+ \|\rho\|_a^{\,3/2-1/p}
+ \ \le\ B_p\ \le\
+ \pi\|\mathcal H\|_{L^t(dx)\to L^t(dx)}\|\rho\|_a^{\,3/2-1/p}.
+ \tag{T1}
+\]
+In particular \(a=(3p-2)/(p-2)\) for \(2<p<\infty\), and \(a=3\) at \(p=\infty\).
+
+To prove necessity, fix a witness of bound \(C\) and partition an interval containing the support into finitely many equal subintervals \(I\) of length \(h\), using a disjoint endpoint convention.
+Write \(e_I=1_I\) and \(m_I=\mu(I)\).
+Independently average all sign conjugates of \(E\) by multipliers \(\sum_I\varepsilon_I e_I\).
+The average \(S=\sum_I e_I E e_I\) still has bound \(C\), and its blocks \(S_I\) satisfy \([S_I,X|_I]=e_I P e_I\).
+The latter rank-one map has norm \(m_I^{3/2-1/p}\) from \(L^p(I,\mu)\) to \(L^2(I,\mu)\).
+Subtracting the midpoint of \(I\) from \(X|_I\) in both terms bounds its commutator norm by \(h\|S_I\|\).
+All block input norms here may be tested on bounded functions.
+For \(r<\infty\) the norm of the direct sum of these blocks is \((\sum_I\|S_I\|^r)^{1/r}\).
+Indeed independently approximate each block norm, scale its input by a coefficient, and use the norm of the scalar diagonal map from \(\ell^p\) to \(\ell^2\), given by Hölder with equality at its norming coefficients.
+For \(p=\infty\) use coefficients one, and for \(p=2\) the diagonal norm is the maximum block norm.
+Consequently, when \(r<\infty\) the step density \(\rho_h=\sum_I(m_I/h)e_I\), now regarded as a function for Lebesgue measure, satisfies
+\[
+ \int \rho_h^{\,a}\,dx
+ =\sum_I h^{-r}m_I^{r+1}\le C^r,
+ \qquad
+ r(3/2-1/p)=r+1=a .
+\]
+At \(p=2\) the corresponding bound is \(\|\rho_h\|_\infty\le C\).
+The measures \(\rho_h dx\) converge weakly to \(\mu\), as testing a continuous function gives an error at most its modulus of continuity at \(h\).
+Weak compactness of bounded \(L^a\) balls for \(1<a<\infty\), or weak-star compactness at \(a=\infty\), gives the asserted density and the lower bound in (T1).
+
+For sufficiency use \(Ef=-\pi\mathcal H(f\rho)\) restricted to \(L^2(\mu)\).
+Hölder first gives \(\|g\|_{L^2(\mu)}\le\|\rho\|_a^{1/2}\|g\|_{L^t(dx)}\).
+Apply Hölder also to \((f\rho^{1/p})\rho^{1-1/p}\) using \(1/t=1/p+(1-1/p)/a\).
+This bounds \(\|f\rho\|_{L^t(dx)}\) by \(\|f\|_{L^p(\mu)}\|\rho\|_a^{1-1/p}\), including both endpoints.
+The stated Hilbert transform estimate for \(2\le t\le3\) gives the upper bound.
+For smooth compactly supported \(g\), cancellation in the integral gives \(\mathcal H(xg)-x\mathcal H(g)=-\pi^{-1}\int g\,dx\).
+Approximate \(g=f\rho\) in \(L^t(dx)\) by smooth functions supported in a common bounded neighborhood of the support of \(\mu\).
+These approximations converge in \(L^1(dx)\) as well, and multiplying by \(x\) preserves convergence on that fixed neighborhood.
+On the bounded support interval the identity passes to the limit in \(L^t(dx)\), then in \(L^2(\mu)\) by the same Hölder bound.
+This proves the required positive commutator on all bounded inputs.
+The normalized transform and its \(L^t\) theorem with source locator are recorded at [Voi98-U002](../audits/literature/Voi98/Yin_U002.md#proposition-35-scalar-hilbert-transform-realization).
+
+For an explicit single law take \(\rho(x)=c\,1_{(0,1)}(x)x^{-1/3}/\log(e/x)\), with \(c\) normalizing the mass.
+Substitution \(u=\log(e/x)\) shows \(\rho\in L^3\) and \(\rho\notin L^{3+\varepsilon}\) for every \(\varepsilon>0\).
+Voiculescu's [scalar conjugate formula](../audits/literature/Voi98/Yin_U002.md#proposition-35-scalar-hilbert-transform-realization) gives actual ACSY and the [selfadjoint full-domain theorem](../claims/Yin_C_F0022_v1.md#3-the-entire-bounded-algebra-lies-in-both-domains) gives both operator and adjoint domains on \(M\).
+Nevertheless \(B_p=\infty\) for every finite \(p\ge2\), and the probability-norm inclusion excludes \(1\le p<2\) as well.
+Thus even scalar actual ACSY does not give a commutator implementation bounded on the ambient tracial Hilbert space or an improvement to some finite tracial exponent depending on the law.
+
+The obstruction extends to any *prescribed* rearrangement-invariant Banach function norm \(Y\) on a nonatomic probability space whose indicator norm \(\varphi(t)=\|1_A\|_Y\) for \(\mu(A)=t\) tends to zero at zero.
+For each such input norm there exists a compactly supported scalar ACSY law for which no coordinate dual on bounded functions is continuous from \(Y(\mu)\) to \(L^2(\mu)\).
+Indeed a spectral interval of length \(h\) and mass \(m>0\) gives the necessary bound
+\[
+ m^{3/2}\le C h\varphi(m).
+ \tag{T2}
+\]
+To see this, compress the commutator to that interval and evaluate it at its indicator.
+The output is \(m1_I\), and subtracting the midpoint from the two copies of \(X\) gives the upper bound by the ideal property of the input norm and the output contraction.
+Choose \(0<m_n\le 2^{-2n-2}\) with \(\varphi(m_n)\le2^{-2n}\).
+Place disjoint intervals of lengths \(h_n=2^n m_n^{3/2}\) in a bounded real interval, which is possible since \(\sum_n h_n<\infty\).
+Use constant density \(m_n/h_n\) on the \(n\)-th interval and spread the remaining probability mass uniformly over a separate unit interval.
+The contribution of the spikes to \(\int\rho^3\,dx\) is \(\sum_n m_n^3/h_n^2=\sum_n 4^{-n}\), ensuring actual ACSY and both bounded-vector domains as above.
+But (T2) forces \(C\ge 2^{-n}/\varphi(m_n)\ge 2^n\).
+The choice of this law depends on \(Y\).
+These results exclude a universal extension theorem that would give any such predetermined input topology, while the operator-norm endpoint required by the [unrestricted reduction](../claims/Yin_C_F0205_v1.md#statement) remains open for general tuples.
+
+### A direct packing test for the nonnormal operator-norm endpoint
+
+The block argument also gives a necessary condition on the original bounded-dual cost \(\beta_i(X)\) for an arbitrary finite tuple \(X\).
+Let \(\mathcal A_{\ne i}\) be the ultraweak closure in \(M\) of the unital holomorphic polynomial algebra of the other coordinates.
+Take a finite family \(b_k\in\mathcal A_{\ne i}\), complex shifts included, and \(r_k>0\).
+For \(T_k=X_i-b_k\) put
+\[
+ e_k=1_{[0,r_k]}(|T_k|),\qquad
+ f_k=1_{[0,r_k]}(|T_k^*|),\qquad m_k=\tau(e_k)=\tau(f_k).
+\]
+The trace identity follows from equivalence of the two complementary spectral projections under the polar partial isometry.
+Assume that the \(e_k\) are pairwise orthogonal, and set \(K=\|\sum_k f_k\|\).
+Then
+\[
+ \sum_k\frac{m_k^3}{r_k^2}\ \le\ (1+\sqrt K)^2\beta_i(X)^2
+ \qquad\text{if }\beta_i(X)<\infty .
+ \tag{T3}
+\]
+For pairwise orthogonal final cutoffs \(K\le1\), and bounded overlap also suffices along a sequence of finite tests.
+Thus unbounded sums with bounded \(K\) force \(\beta_i(X)=\infty\).
+For an actual ACSY tuple with this property the [free semicircular enlargement](../claims/Yin_C_F0205_v1.md#statement) would exclude even bare full-domain duals.
+The [normal column packing estimate](../claims/Yin_C_F0211_v1.md#statement) omits the final-overlap factor under its different hypotheses and controls the column cost \(c_i(X)\).
+
+If \(\beta_i(X)<\infty\), take its [ultraweak-to-weak continuous minimizer](../claims/Yin_C_F0201_v1.md#the-hilbert-values-and-the-represented-norm) with sign \([E,X_i]=P\).
+It commutes on \(M\) with left multiplication by every \(b\in\mathcal A_{\ne i}\).
+Indeed commutation holds by the product rule on holomorphic polynomials, and for fixed \(v\in M\) both maps \(b\mapsto E(bv)\) and \(b\mapsto b E(v)\) are ultraweak-to-weak continuous by separate normality and the normal left representation.
+Consequently \(E(T_k e_k)-T_k E(e_k)=m_k1\).
+Multiply by \(f_k\) on the left, divide by \(r_k\), and take the Hilbert direct-sum norm of these identities over \(k\).
+The left side after rearrangement is bounded by
+\[
+ \left(\sum_k\|E(T_ke_k/r_k)\|_2^2\right)^{1/2}
+ +\left(\sum_k\|E(e_k)\|_2^2\right)^{1/2},
+\]
+since \(\|f_kT_k\|\le r_k\).
+For \(A_k=T_ke_k/r_k\), one has \(A_k=f_k A_k e_k\) and \(\|A_k\|\le1\), by polar decomposition.
+Thus \((\sum_k\varepsilon_k A_k)(\sum_k\varepsilon_k A_k)^*=\sum_k A_kA_k^*\le\sum_k f_k\) for every choice of signs, by orthogonality of the initial projections.
+Also \(\|\sum_k\varepsilon_ke_k\|\le1\).
+Taking expectations of the squared Hilbert norms of the two signed sums after application of \(E\) bounds the two displayed terms by \(\sqrt K\beta_i(X)\) and \(\beta_i(X)\), respectively.
+The direct-sum norm of \((m_k f_k/r_k)_k\) is \((\sum_k m_k^3/r_k^2)^{1/2}\), proving (T3).
+This test needs no derivation-domain membership of the singular projections and no adjoint-domain hypothesis for \(E\).
+No actual ACSY tuple violating (T3) has been obtained here.
+
+The single-cutoff test now supplies a diverging cost along a sequence of actual ACSY laws.
+The [two-point modulus construction](../claims/Yin_C_F0225_v1.md#argument) retains the group-ring derivation, the cancellation of the large tensor in the actual vacuum, and the assembly step producing a two-coordinate separation.
+
+### Duals and the starred derivative on each two-point block
+
+For one block \(X=u(\varepsilon p+q)\) as in C_F0225, there is also a bounded dual on all of \(H\), with norm at most \(\varepsilon^{-1}\).
+On the Haar factor \(L^2(W^*(u))\) put \(D_0(u^n)=\mathbf1_{\{n\ge1\}}u^{n-1}\) for \(n\in\mathbb Z\).
+It has norm one, kills the unit and satisfies \([D_0,L_u]=P_\Omega\) on the Fourier basis.
+Its [right free-product lift](../claims/Yin_C_F0213_v1.md#compression-of-the-circular-right-deletion) \(D\) commutes with left multiplication by \(h=\varepsilon p+q\), has the same commutator with \(u\), and has norm one.
+Indeed the opposite-end commutator with left \(u\) is supported on the Haar-factor Hilbert space, and the whole-space extension of its vacuum projection is \(P_\Omega\).
+Let \(E=D\rho(h^{-1})\), where \(\rho(a)v=va\).
+It commutes with \(L_h\), and \([E,L_X]v=P_\Omega\rho(h^{-1})L_h v=\tau(hvh^{-1})1=P_\Omega v\).
+Consequently the optimal whole-Hilbert-space cost and the optimal \(M\)-to-\(H\) cost on these blocks are both of order \(\varepsilon^{-1}\), using the projection lower bound in C_F0225.
+This exhibits the individual full domains before the assembly and enlargement steps.
+
+For an arbitrary actual derivation on a block let \(\xi=\delta^*(1\otimes1)\), \(K=\delta X^*\), \(a=\varepsilon^2\), \(b=1\), \(p_a=p,\ p_b=q,\ q_j=up_j u^*\).
+Take a real cubic Hermite interpolant \(F\) with \(F(a)=1,\ F(b)=0,\ F'(a)=F'(b)=0\).
+The word polynomial \(W=XF(X^*X)\) evaluates to \(Xp\).
+For \(j,l\in\{a,b\}\), the product rule and finite spectral formula for polynomial divided differences give
+\[
+ \delta W=1\otimes p+
+ \sum_{j,l} F^{[1]}(j,l)\big((Xp_j)K(Xp_l)+j\,q_j\otimes p_l\big).
+\]
+The derivative enters the sum only off the diagonal and \(F^{[1]}(a,b)=F^{[1]}(b,a)=-(1-\varepsilon^2)^{-1}\).
+The terms apart from \(K\) have double trace \((1-3\varepsilon^2)/(4(1-\varepsilon^2))\).
+The trace pairing against \(K\) has representing tensor of norm \(\varepsilon/(\sqrt2(1-\varepsilon^2))\): the two off-diagonal tensor pairs of adjoints of \(Xp_j,Xp_l\) are orthogonal and \(\|Xp_j\|_2^2=j/2\).
+Using \(\|W\|_2=\varepsilon/\sqrt2\) in the actual vacuum identity yields
+\[
+ \frac{|1-3\varepsilon^2|}{4(1-\varepsilon^2)}
+ \ \le\ \frac{\varepsilon}{\sqrt2}\|\xi\|_2+
+          \frac{\varepsilon}{\sqrt2(1-\varepsilon^2)}\|K\|_2 .
+\]
+Thus each uniformly bounded choice of vacua forces its starred-generator derivatives to grow at least on the order of \(\varepsilon^{-1}\) as \(\varepsilon\downarrow0\).
+This feature is compatible with the assembly theorem's hypothesis and explains why simultaneous uniform bounds on the two kinds of data would miss these blocks.
+For every such \(X\), \(X^*X\) and \(XX^*\) have different small spectral projections \(p\) and \(upu^*\), since \(s\) and \(usu^{-1}\) are distinct reduced group words.
+At a normal ACSY coordinate the [marginal phase formula](../claims/Yin_C_F0076_v1.md#statement) instead gives a starred value of Hilbert norm one.

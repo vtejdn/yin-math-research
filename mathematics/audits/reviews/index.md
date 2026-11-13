@@ -269,6 +269,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0228](Yin_R_F0228_v1.md#whole-proof-finding) | Brown-measure cross energy, commuting projections in the closed derivation domain and exclusion of cyclic matrix generators | [v1](Yin_R_F0228_v1.md) |
 | [Yin_R_F0229](Yin_R_F0229_v1.md#whole-proof-finding) | Sharp conjugate-vector infimum for bounded circular shears and growing bounded-dual costs for quadratic drifts | [v1](Yin_R_F0229_v1.md) |
 | [Yin_R_F0230](Yin_R_F0230_v1.md#whole-proof-finding) | Normal common-commutant elements in two derivation domains and the obstruction to separated multivariable sums | [v1](Yin_R_F0230_v1.md) |
+| [Yin_R_F0231](Yin_R_F0231_v1.md#whole-proof-finding) | Projected columns for normal tuples and the full slice on two-occurrence inputs | [v1](Yin_R_F0231_v1.md) |
+| [Yin_R_F0232](Yin_R_F0232_v1.md#whole-proof-finding) | Self-review of radial costs, Grunsky compression and the Koebe Hilbert and bounded-input estimates | [v1](Yin_R_F0232_v1.md) |
+| [Yin_R_F0233](Yin_R_F0233_v1.md#whole-proof-finding) | Two-point modulus, actual vacuum and a tuple with no algebraic full-domain dual system | [v1](Yin_R_F0233_v1.md) |
+| [Yin_R_F0234](Yin_R_F0234_v1.md#whole-proof-finding) | Independent review of the radial univalent cost theorem and Koebe estimates | [v1](Yin_R_F0234_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

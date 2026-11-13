@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Follow the authorized paired-quadratic route for A plus normality, with a*a on the left and aa* on the right. The remaining normal scope is arbitrary correlated coordinates. The general A-to-F comparison remains unresolved. |
+| priority | Resolve the converse for arbitrary correlated normal coordinates. Control the two canonical slices on unrestricted words, or build a normal separating tuple. The arbitrary-tuple maximal-Delta comparison is settled. |
 
 Updated: 2026-11-13.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
@@ -30,9 +30,13 @@ Since A is adjoint stable, the two universal normal implications A implies S and
 A normal separating example for A versus S yields an A-but-not-F example at X or X*.
 This does not assert the pointwise implication A(X) and F(X) implies S(X).
 
-For arbitrary tuples [C_F0133](../claims/Yin_C_F0133_v1.md#statement) now excludes both S implies A and F implies A, even with bounded full-H duals.
-The opposite implication A implies F is still unresolved.
-Therefore the general comparison is not yet classified as a strict implication or incomparability.
+For arbitrary tuples the applicability classes of the two maximal-Delta criteria are incomparable.
+The [two-point modulus](../claims/Yin_C_F0225_v1.md#decision-reviewed) has a uniformly bounded actual vacuum as its small singular value tends to zero, while the corresponding left and right singular projections force the bounded-dual cost to diverge.
+Countable assembly and free semicircular enlargement give a single two-coordinate example with actual ACSY and no algebraic full-domain dual system.
+In the opposite direction the [similarity example](../claims/Yin_C_F0133_v1.md#statement) and the [weighted ergodic factor](../claims/Yin_C_F0219_v1.md#decision-reviewed) have whole-Hilbert-space duals and fail actual ACSY.
+Thus A and S are also incomparable at this generality.
+On the A-only example the [ACSY criterion](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) gives maximal Delta, and on the F-only example the [bare-dual criterion](../claims/Yin_C_F0024_v1.md#3-maximal-delta-from-dual-identities-on-all-bounded-vectors) gives it.
+The [common-factor example](../claims/Yin_C_F0148_v1.md#statement) also permits maximal Delta when both hypotheses fail.
 
 The accepted [arcsine consequences](../claims/Yin_C_F0163_v1.md#statement), self-reviewed in [R_F0172](../audits/reviews/Yin_R_F0172_v1.md#whole-proof-finding), exclude ordinary duals and the proposed finite-rank liberation test in that example.
 Both A and S fail there, so it does not separate the two normal hypotheses.
@@ -163,7 +167,7 @@ Actual Riesz adjoint tests and the reverse-core identity then give both original
 Applied to that inverse series and the finite h correction, it proves A, S and F for this genuinely nonlinear singular example.
 It does not require a projective inverse coefficient or settle arbitrary reference tuples.
 
-The continuing [D_F0003](../drafts/Yin_D_F0003.md) owns the general actual-adjoint and all-bare-witness questions.
+The [general-branch draft](../drafts/Yin_D_F0003.md) retains other model-specific actual-adjoint and all-witness tests.
 It also retains a bounded invertible coefficient with actual vacuum tests but an unbounded contraction, together with the proof that this bad coefficient cannot be an actual inverse Jacobian in the reference free algebra.
 Thus a free choice of a bad coefficient does not supply an ACSY separating tuple.
 [J_F0008](../computations/programs/Yin_J_F0008/readme.md) retains reproducible finite inverse diagnostics; its atomic matrix inputs are not actual ACSY examples.
@@ -181,7 +185,7 @@ The accepted [C_F0148](../claims/Yin_C_F0148_v1.md#statement), with its complete
 It uses original-core approximations to normalized target resolvents and weak convergence of the arbitrary starred-value tensor tests, without extending a derivation to the reference variables.
 Thus this tuple has maximal Delta while A and F both fail; it does not separate A from F.
 More generally, for at least two coordinates, full A forces the inverse of sum_j X_j X_j* to have finite trace and every bounded vector to lie in the actual Hilbert row range.
-The remaining general problem must therefore go beyond this finite-row nonrange obstruction.
+The two-point-modulus construction uses a singular-value lower bound along a sequence of laws.
 
 D_F0003 also retains the exact algebraic Ext-one splitting formulation and the simpler arcsine falsification of Delta implying F.
 A free-algebra resolution of length one does not force Ext-one to vanish, and algebraic-dual-valued extensions do not provide Hilbert-valued maps.
@@ -198,7 +202,7 @@ No full adjoint domain is asserted; this tuple satisfies A and F and does not se
 [C_F0151 v2](../claims/Yin_C_F0151_v2.md#statement) fixes an automatic-continuity argument for every hypothetical bare dual at this nonnormal factorization, followed by an exact projective-tensor functional criterion.
 The general theorem and criterion are independently checked in [R_F0158](../audits/reviews/Yin_R_F0158_v1.md#independent-conclusion), and the repaired application is independently checked in [R_F0159](../audits/reviews/Yin_R_F0159_v1.md#application-conclusion).
 Its selected decision adopts their complementary scopes.
-The full A-to-F comparison itself remains unresolved.
+The general counterexample above uses a different family.
 The exact projective functional for this example is consequently bounded.
 D_F0003 now returns to arbitrary affine/polynomial matrix relations and their actual weighted range obligations; these are distinct from the settled example.
 D_F0005 retains its separate scalar Cauchy mechanism as a developer-checked diagnostic, with the positive full-domain resolution linked.
@@ -274,7 +278,9 @@ For old tuples with finite column costs in both orientations, the [bounded semic
 Each old canonical commutator with that element must be Hilbert–Schmidt, and its squared norm is the exact increment in squared vacuum norm.
 For the original coordinate slice, the [omitted-algebra estimate](../claims/Yin_C_F0217_v1.md#decision-reviewed) controls every column after projecting its outputs to the algebra generated by the other coordinates.
 It controls the entire output on linear combinations of words with one unstarred occurrence of the distinguished coordinate and arbitrary bounded omitted factors.
-The remaining estimate concerns the perpendicular output on unrestricted words.
+The [first output layer](../claims/Yin_C_F0223_v1.md#decision-reviewed) also satisfies a column estimate for every original starred polynomial, with constant at most twice the vacuum norm.
+It controls the full slice on words with up to two unstarred occurrences of the distinguished centered coordinate and arbitrary omitted-coordinate coefficients.
+For unrestricted inputs the remaining estimate concerns the output perpendicular to both the omitted algebra and the cyclic bimodule generated by the centered coordinate.
 
 On the general branch, the [noisy Jordan family](../claims/Yin_C_F0213_v1.md#decision-reviewed) forces a bounded-dual cost of order inverse noise at fixed matrix size.
 At size two a separating sequence exists along this route exactly when the noise level times the norm of the projection of the canonical vacuum onto the kernel of the closed starred cut tends to zero on a subsequence.
@@ -299,14 +305,15 @@ The [pair-relative commutant theorem](../claims/Yin_C_F0202_v1.md#decision-revie
 Thus a limit retaining ACSY must generate a factor even when its proposed approximants have identical one-coordinate marginal laws.
 The [two translated semicircular systems](../drafts/Yin_D_F0003.md#exponential-word-obstructions-in-a-mixture-of-two-factor-laws) give explicit exponential growth of both represented word tests on a mixture.
 
-These branches share the A-to-F question but have different structural inputs.
-A proof for arbitrary tuples would settle the normal applicability comparison as well.
-A nonnormal counterexample would settle only the general classification; the normal branch would remain necessary.
+The arbitrary-tuple counterexample uses nonnormal coordinates.
+In its single-generator building blocks the projections onto the small singular spaces of \(X\) and \(X^*\) differ.
+Normality identifies these projections and determines the starred derivative by the marginal phase, removing the freedom used in the group-ring vacuum construction.
 
 ## Evidence and decisions
 
 On 2026-10-15 the bounded-similarity construction was fixed in C_F0133 and independently reviewed in [R_F0140](../audits/reviews/Yin_R_F0140_v1.md#conclusion).
-This resolves the general F-to-A direction negatively and focuses further comparison on the reverse direction.
+It resolves the general F-to-A direction negatively.
+The independent [review of the two-point-modulus example](../audits/reviews/Yin_R_F0233_v1.md#whole-proof-finding) verifies the reverse nonimplication.
 The complete normal adjoint-tuple reduction and canonical compatibility were fixed in C_F0075 and independently reviewed in [R_F0048](../audits/reviews/Yin_R_F0048_v1.md#conclusion).
 Both were adopted by their responsible Claim decisions.
 
@@ -322,12 +329,12 @@ C_F0150 gives an actual A-positive single hidden-factor candidate, while C_F0151
 C_F0152 constructs the required bare dual and original canonical forward domain for that candidate.
 C_F0153 proves the finite normal Gaussian correction theorem; C_F0154-C_F0155 give actual matrix inverse estimates and every finite polynomial relation compatibility.
 C_F0156-C_F0157 restore the original domains for measurable Gaussian kernels and give the exact Hermitian class criterion.
-The unrestricted implication remains open.
+The unrestricted normal implication remains open.
 Their selected Claim decisions own acceptance.
 The continuing D materials retain the further constructions and useful failures at their stated development scope; none of these results supplies a completion decision for this Task.
 
 The Task remains active.
-Completion requires a full-scope theorem or an existential separating example in each outstanding direction, plus the exact comparison of applicability and operator realizations; progress on a method does not satisfy that contract.
+Completion still requires the normal A-to-S direction and its consequences for the two fraction criteria at that scope, followed by review of the full contract.
 
 The explicit normal-endpoint continuation is retained in [D_F0006](../drafts/Yin_D_F0006.md#selfadjoint-tests-and-the-correlated-unitary-obstruction).
 It reduces a sufficient universal quadratic theorem to positive core inputs and excludes the sharp scalar fixed-vacuum domination even on a strictly positive mixed test in an actual correlated-unitary model.

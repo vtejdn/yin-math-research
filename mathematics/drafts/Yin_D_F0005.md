@@ -676,26 +676,11 @@ In particular all target analytic polynomials for the palindrome belong to that 
 This bound controls the analytic restrictions while leaving the mixed starred tests and existence of a witness on the full algebra open.
 
 <a id="koebe-forced-commutator"></a>
-## The forced commutator for dilations of the Koebe function
+## Boundary estimates for single circular univalent changes
 
-For \(0<t<1\), set \(f_t(z)=z/(1-tz)^2\) and \(Z_t=f_t(c)\) for a standard circular \(c\).
-The numerator of \(f_t(z)-f_t(w)\) over the common denominator factors as \((z-w)(1-t^2zw)\), proving univalence on \(|z|<1/t\).
-For \(1<r<1/t\) the image of the closed \(r\)-disk is a filled Jordan domain, and the inverse is holomorphic on its neighborhood given by the image of the open \(1/t\)-disk.
-The [polynomial form of Runge's theorem](../claims/Yin_C_F0042_v1.md#2-additional-accepted-approximation-input) therefore verifies the inverse approximation in [C_F0218](../claims/Yin_C_F0218_v1.md#statement).
-That claim gives attained least vacuum norm one because \(f_t'(0)=1\).
-Its forced commutator \([E,L_c]=\Theta U_{g_t}\) has kernel and coefficient matrix
-\[
-     g_t(z,w)=\frac{(1-tz)^2(1-tw)^2}{1-t^2zw},\qquad
-     A_t=\big([z^mw^n]g_t\big)_{m,n\ge0}=(I-tS)^2D_t(I-tS^*)^2 ,
-\]
-where \(S e_k=e_{k+1}\) on \(\ell^2(\mathbb N_0)\) and \(D_t e_k=t^{2k}e_k\).
-Indeed the geometric series supplies the diagonal and the two quadratic factors shift the row and column exponents respectively.
-With inner products linear in the second entry, the isometries \(J_+e_m=c^m\Omega\) and \(J_-e_n=(c^*)^n\Omega\) give \((J_-^*h)_n=\tau(c^n h)\) on bounded inputs and \(\Theta U_{g_t}=J_+A_tJ_-^*\) on the whole Hilbert space.
-Thus \(\|\Theta U_{g_t}\|_{H\to H}=\|A_t\|\le(1+t)^4\le16\), which also bounds its \(M\to H\) restriction.
-In fact \(D_t\to I\) strongly as \(t\uparrow1\), so \(A_t\to(I-S)^2(I-S^*)^2\) strongly and \(\|A_t\|\to16\).
-Here \(\|I-S\|\le 2\), and the unit vectors \(x_N=N^{-1/2}\sum_{k=0}^{N-1}(-1)^ke_k\) satisfy \(\|(I+S)x_N\|=\sqrt{2/N}\), giving \(\|(I-S)^2\|=4\).
-Hence this particular commutator yields uniformly bounded necessary tests as \(t\uparrow1\).
-The behavior of the least full-domain dual cost \(\beta(Z_t)\) would require a further estimate.
+For \(f_t(z)=z/(1-tz)^2\), the [Koebe coefficient matrix](../claims/Yin_C_F0224_v1.md#koebe-powers-and-the-hilbert-lower-bound) is \(A_{f_t}=(I-tS)^2D_t(I-tS^*)^2\), with \(D_te_j=t^{2j}e_j\).
+Its norm tends to 16 as \(t\uparrow1\) by strong convergence to the extremal matrix and the matching uniform bound.
+The remaining cost question is whether solutions on the full bounded algebra stay uniformly bounded.
 
 There is also a fixed-row bound for every normalized univalent \(f\) on the unit disk.
 Write \(g(z,w)=(z-w)/(f(z)-f(w))=\sum_{m,n}g_{mn}z^m w^n\), extending across the diagonal.
@@ -704,4 +689,36 @@ The classical growth lower bound for this normalized function gives \(|f(w)-f(z)
 Using \(|w-z|=(1-r^2)|s|/|1+\bar zs|\) yields \(|g(z,w)|\le4(1+r)^3/(1-r)^2\) throughout the \(w\)-disk, including \(w=z\) by continuity.
 Cauchy's coefficient formula on the \(z\)-circle with \(r=1/2\) gives \(\sup_{|w|<1}|[z^m]g(z,w)|\le54\,2^m\).
 Parseval on circles in \(w\) followed by increasing the radius to one gives \(\big(\sum_n|g_{mn}|^2\big)^{1/2}\le54\,2^m\), also for fixed columns by symmetry.
-The fixed-index constants allow growth with the index and leave the full coefficient-matrix norm for the general schlicht class open here.
+The [Grunsky proof](../claims/Yin_C_F0224_v1.md#the-grunsky-contraction-and-the-first-forced-commutator) gives the stronger uniform \(\ell^2\) bound 16 for every column and the whole matrix, while the circle estimate above also bounds each fixed row as a function in \(H^\infty\).
+
+<a id="radial-univalent-endpoint"></a>
+### Remaining bounded-dual endpoint
+
+The [radial limit](../claims/Yin_C_F0224_v1.md#monotonicity-and-the-radial-endpoint) identifies \(\sup_{t<1}\beta(f_t(c))\) with the optimal operator-norm cost on \(C^*(1,c)\) for the endpoint commutator.
+A normalized univalent map with unsolvable endpoint would meet the [single-generator ratio criterion](../claims/Yin_C_F0210_v1.md#statement), since the radial least actual vacua all have norm one.
+
+For Koebe the lower bound on \(\beta_H\) uses \(J_-x_N\) with alternating coefficient vector \(x_N=N^{-1/2}\sum_{j=0}^{N-1}(-1)^je_j\).
+For the same element in the Banach domain \(M\), the [one-circular coefficient inequality](../claims/Yin_C_F0221_v1.md#statement), applied with generator \(c^*\), gives
+\[
+ \|J_-x_N\|_\infty^2\ge N^{-1}\sum_{j=0}^{N-1}(j+1)=(N+1)/2.
+\]
+Its bounded-input normalization thus costs order \(\sqrt N\).
+
+<a id="koebe-all-bounded-power-tests"></a>
+### Simultaneous bounded inputs
+
+By the [analytic commutator inequality](../claims/Yin_C_F0224_v1.md#analytic-polynomial-commutators-on-bounded-inputs), every single test \([E,p(c)]a\) normalized by \(2\|p(c)\|_\infty\|a\|_\infty\) is uniformly bounded for Koebe.
+A remaining problem is the compatibility of these identities across different pairs \((p_j,a_j)\) for one linear solution \(E:C^*(1,c)\to H\).
+
+<a id="grunsky-univalent-forced-kernel"></a>
+### The first commutator over all normalized univalent maps
+
+The [sharp Grunsky bound](../claims/Yin_C_F0224_v1.md#the-grunsky-contraction-and-the-first-forced-commutator) controls \([E,L_c]\) on Hilbert space with absolute constant 16.
+For other normalized maps, estimates for \([E,p(c)]\) with high-degree \(p\) on bounded inputs remain a possible source of lower bounds.
+
+<a id="koebe-hilbert-cost-order"></a>
+### Endpoint boundedness of the explicit right-word solution
+
+The [right-word solution](../claims/Yin_C_F0224_v1.md#the-explicit-hilbert-dual) attains the optimal growth order \((1-t)^{-1/2}\) in the Hilbert operator norm.
+A uniform bound on its restrictions \(B_t:M\to H\) would give a finite Koebe endpoint cost by the radial limit.
+Divergence of these particular restriction norms would still leave the infimum over other bounded solutions undetermined.

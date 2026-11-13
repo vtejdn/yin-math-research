@@ -130,6 +130,21 @@ The completed [T_F0001](Yin_T_F0001_v7.md#contract) retains its existing complet
 If a general implication remains open, preserve its exact remaining obligation and any established reductions without marking this Task complete.
 Partial or special-case progress does not change these criteria.
 
+## Current results under the original contract
+
+Objective 2 is resolved for arbitrary finite tuples.
+The [two-point-modulus construction](../claims/Yin_C_F0225_v1.md#decision-reviewed) yields, after countable assembly and free semicircular enlargement, a two-coordinate tuple satisfying \(\mathsf A\) with no algebraic full-domain dual system.
+The [bounded-similarity construction](../claims/Yin_C_F0133_v1.md#statement) and the [weighted ergodic shift](../claims/Yin_C_F0219_v1.md#decision-reviewed) supply the opposite separation, even with duals bounded on the whole Hilbert space.
+Consequently the two hypotheses for maximal Delta are incomparable, and the stronger \(\mathsf S\) and \(\mathsf A\) are likewise incomparable on arbitrary tuples.
+The [review of the new separation](../audits/reviews/Yin_R_F0233_v1.md#whole-proof-finding) checks the actual vacuum and the passage from divergent bounded costs to exclusion of all algebraic systems on the enlarged tuple.
+
+Objective 1 remains open for arbitrary correlated normal coordinates.
+Here \(\mathsf S\Rightarrow\mathsf A\) and the [canonical fraction-operator comparison under \(\mathsf S\)](../claims/Yin_C_F0075_v1.md#statement) are established.
+Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
+Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
+The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed) controls one projection of the required column bound on all starred words.
+The nonnormal separating example does not settle this implication.
+
 ## Starting evidence
 
 The current synthesis is [L_F0050 v5](../ledger/Yin_L_F0050_v5.md), including the distinction between boundary solvability and specified fraction commutators.
