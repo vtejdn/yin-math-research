@@ -87,6 +87,15 @@ For a prescribed \(B\)-measurable family of at most \(N^{C_*N}\) roots, it also 
 Unrestricted low-product witnesses may depend on the tested interior.
 The [fixed-color support construction](../ledger/Yin_L_F0066_v22.md#fixed-color-low-product) needs at least \(N^{(2a-o(1))N}\) centers at radius \(O(N^{-a})\) when feasible low-product roots for one \(B\) are pooled over all \(A\) in the entry support.
 The [conditional determinant](../drafts/Yin_D_F0042.md#repeated-interior) expresses their remaining equations using two identical copies of \(A_{II}\) and a specified exterior matrix, with a skew Gram constraint on actual targets.
+The [one-row logarithmic estimates](../claims/Yin_C_F0186_v31.md#argument) control both channels of the actual interior simultaneously.
+If all nondeterministic raw coordinate laws have the [second logarithmic concentration moment](../claims/Yin_C_F0186_v32.md#statement), the whole planar loss has summable deviations and Brown convergence holds almost surely under every cross-size coupling.
+When just one strict upper law contains a [regular component](../claims/Yin_C_F0194_v36.md#statement), a matching gives an absolute negative-log tail at scale \(k\log N+O(k)\) for the actual repeated determinant.
+Under the [weaker logarithmic component condition](../claims/Yin_C_F0186_v33.md#statement), the lower disk deviation reduces at mesoscopic block sizes to that of a compression of the independent square minor.
+For atomic laws the [top coefficient tests](../ledger/Yin_L_F0066_v24.md#atomic-interior-coefficients) give a lower probability of leaving a small disk that may decay exponentially in the block size.
+The [fixed exterior example](../ledger/Yin_L_F0066_v23.md#exterior-chain) has positive planar loss on the unstructured low-product branch despite a well-conditioned interior factor.
+Under the original finite fourth moments the [independent border estimate](../claims/Yin_C_F0196_v5.md#statement) excludes inherited small directions before projection on all but a set of summably negligible loss for a prescribed macroscopic block.
+The [normalized resolvent compression](../drafts/Yin_D_F0042.md#resolvent-angle) gives the remaining angle explicitly at that block size.
+Extending control to the full model requires estimates for this further projection and for the interior at the relevant scale with arbitrary atomic laws.
 The finite-fourth-moment focus does not weaken or complete the original finite-second-moment Task contract.
 
 For F0013 and F0014, the [three-channel path pencil and its repeated-variable cubic at zero](../claims/Yin_C_F0186_v21.md#decision-finite-variance-three-channel-reviewed) now have an adopted determinant theorem.

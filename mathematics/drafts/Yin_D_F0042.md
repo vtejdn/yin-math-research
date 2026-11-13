@@ -213,33 +213,13 @@ The unrestricted low-product planar loss still requires control of interior-depe
 <a id="repeated-interior"></a>
 ## The conditional interior determinant in the two observation coordinates
 
-Use the [square exterior map](../claims/Yin_C_F0196_v4.md#argument) for a prescribed \(I\) of size \(k\), and let \(P:\mathbb C^N\to\mathbb C^k\) be coordinate restriction.
-Assume \(V=B_{JI}\) has full column rank and \(z\notin\sigma(C_H)\), where \(H=\ker X\), \(\Pi=\Pi_H\), \(C_H=\Pi(AB+2BA)|_H\), and \(Xh=(Ph,PBh)\).
-Write \(D^e=A^eB+2BA^e-zI\), where the \(I\times I\) entries of \(A^e\) vanish and all other entries agree with \(A\).
-For the actual real symmetric interior \(U=A_{II}\), put \(\mathcal U=\operatorname{diag}(U,U)\) and \(Z=(2BP^*,P^*)\).
-Then \(D=M-zI=D^e+Z\mathcal U X\).
-The map \(Z\) has image \(H^\perp\), since the two column spaces are the two rows of \(X\) under adjoint and the first has simply been scaled by two.
-It is an isomorphism from \(\mathbb C^{2k}\) to \(H^\perp\).
-All the following targets are determined before sampling the interior.
-Define
+The [fixed exterior factorization and its proof](../claims/Yin_C_F0194_v36.md#fixed-interior-factorization) give
 \[
- T h=(\Pi D h,Xh),\qquad
- W(z)=-Z^{-1}(1-\Pi)D^e T^{-1}(0,\,\cdot\,).
+ |\det(M-zI)|=2^k\det(V^*V)|\det(C_H-zI_H)|
+       |\det(\mathcal U-W(z))|
 \]
-The inverse \(Z^{-1}\) here acts only on \(H^\perp\).
-In orthonormal bases adapted to \(H\oplus H^\perp\), \(D T^{-1}\) has first output component equal to its first input component and lower-right block \(Z(\mathcal U-W(z))\).
-Consequently
-\[
- |\det D(z)|
- =2^k\,\det(V^*V)\,|\det(C_H-zI_H)|\,
-       |\det(\mathcal U-W(z))|.
- \tag{Repeated-interior-determinant}
-\]
-Indeed the [exterior determinant identity](../claims/Yin_C_F0196_v4.md#argument) gives \(|\det T|=|\det(C_H-zI_H)|\det(V^*V)^{1/2}\).
-The Gram matrix \(Z^*Z\) has blocks \(4P B^2P^*,2B_{II},2B_{II},I_k\).
-Its Schur complement over \(I_k\) is \(4V^*V\).
-Multiplying the two absolute Jacobians and the lower-right determinant proves the formula.
-The stated identity applies off the finite pole set.
+away from the finite poles, when \(V=B_{JI}\) has full column rank.
+Here \(U=A_{II}\), \(\mathcal U=\operatorname{diag}(U,U)\), \(Xh=(h_I,(Bh)_I)\) and both \(C_H\) and \(W\) are determined before revealing \(U\).
 
 One arithmetic constraint on an exact interior target follows directly.
 If \(a=Xh=(y,w)\) and \(W(z)a=(t_1,t_2)\), the exact equation \(\mathcal U a=W(z)a\) requires both \(Uy=t_1\) and \(Uw=t_2\).
@@ -248,3 +228,54 @@ If \(\|\mathcal U a-W(z)a\|\le \varepsilon\), the Frobenius norm of the skew par
 These compatibility relations are polynomial conditions on the exterior target.
 Using the determinant identity to control the remaining low-concentration profiles would require bounds on the negative logarithm of \(\det(\mathcal U-W(z))\) at the actual meromorphic \(W(z)\), or small-ball estimates on its dependent candidate directions.
 The two copies of \(U\) have identical entries in every realization.
+
+<a id="resolvent-angle"></a>
+## A normalized resolvent on the independent border
+
+For the [independently bordered compression](../claims/Yin_C_F0196_v5.md#statement), write \(D=A_{JJ}B_{JJ}+2B_{JJ}A_{JJ}-zI_m\), \(K=\ker V^*\), and take an orthonormal frame \(Y\) of \(K\).
+Assume full column rank of \(V\) and exclude the finite spectrum of the square-block polynomial so that \(D\) is invertible.
+Define \(V_0=V(V^*V)^{-1/2}\) and write \(DY=Q R\) with \(R=(Y^*D^*DY)^{1/2}\) positive and \(Q^*Q=1\).
+The singular values of \(R\) are those of \(D|_K\), for which the preprojection lower bound applies at a macroscopic block size.
+An orthonormal frame for the complementary output space \((D K)^\perp\) is
+\[
+ Z=D^{-*}V\,(V^*D^{-1}D^{-*}V)^{-1/2}.
+\]
+Indeed \(D^*Z\) lies in \(\operatorname{ran}V\) and \(Z^*Z=1\).
+The compression is the product \(Y^*D Y=(Y^*Q)R\).
+In the unitary transition matrix \([Y,V_0]^*[Q,Z]\) the two diagonal blocks \(Y^*Q\) and \(V_0^*Z\) have the same singular values strictly below one, with multiplicity.
+To see this use \((Y^*Q)(Y^*Q)^*=1-(Y^*Z)(Y^*Z)^*\) and \((V_0^*Z)^*(V_0^*Z)=1-(Y^*Z)^*(Y^*Z)\).
+When \(m\ge2k\), the larger block has \(m-2k\) additional unit singular values.
+Thus the entire further loss of angle after normalizing \(DY\) is measured by the \(k\)-by-\(k\) matrix
+\[
+ Z^*V_0=(V^*D^{-1}D^{-*}V)^{-1/2} V^*D^{-1}V(V^*V)^{-1/2}.
+\]
+The same \(V\) enters both normalizations and the numerator.
+This formula identifies a remaining random object even on parameters where both preprojection bounds in C196v5 hold.
+
+For the original matrix, a two-factor Schur estimate keeps track of the losses hidden by taking the conditional determinant alone.
+For an invertible square \(S\) set \(e_a(S)=\sum_j(\log s_j(S)^{-1}-a)_+\), without a dimension normalization.
+The formula \(e_a(S)=\max_{0\le q\le \dim S}(\log\|\bigwedge^q S^{-1}\|-qa)\) gives \(e_{a+b}(ST)\le e_a(S)+e_b(T)\).
+In orthogonal blocks \(H\oplus H^\perp\) of the original space let \(C=C_H-zI\), and denote the two off-diagonal blocks of \(M-zI\) by \(E,G\) in upper-right and lower-left order.
+They depend only on the exterior because the repeated interior update factors as \(Z_{\rm in}\mathcal U X\) with range \(H^\perp\) and kernel containing \(H\), where \(Z_{\rm in}=(2BP^*,P^*)\) as in the [determinant calculation](#repeated-interior).
+Off both finite spectral sets the factorization is
+\[
+ M-zI=
+ \begin{pmatrix}1&0\\GC^{-1}&1\end{pmatrix}
+ \begin{pmatrix}C&0\\0&Q_{\rm in}\end{pmatrix}
+ \begin{pmatrix}1&C^{-1}E\\0&1\end{pmatrix},
+ \qquad Q_{\rm in}=Z_{\rm in}(\mathcal U-W(z))X|_{H^\perp}.
+\]
+This lower diagonal block follows by writing the exterior lifting of a prescribed observation \(a\) as \((-C^{-1}E v,v)\) with \(v=(X|_{H^\perp})^{-1}a\).
+For \(a,b\ge0\), if \(\|E\|,\|G\|\le e^b\), each triangular factor has \(e_{a+b+\log2}\) at most \(e_a(C)\).
+In fact each descending singular value of its inverse is at most one plus the corresponding descending singular value of its off-diagonal block, padded with zeros, by the min-max formula for a sum with the identity.
+The latter singular values are bounded by \(e^b s_j^\downarrow(C^{-1})\) up to the available rank.
+Applying the product inequality twice gives
+\[
+ e_{3a+2b+2\log2}(M-zI)\le 3e_a(C)+e_a(Q_{\rm in}).
+\]
+On the polynomial norm and cross-block floor from [C196v4](../claims/Yin_C_F0196_v4.md#argument), \(b=O_R(\log N)\) works on the whole disk.
+Moreover both \((X|_{H^\perp})^{-1}\) and \(Z_{\rm in}^{-1}\) have polynomially bounded norms there.
+Indeed solving \(Xh=(y,w)\) with \(h_I=y,\ h_J=(V^*)^\dagger(w-B_{II}y)\) bounds the minimal right inverse, and \(Z_{\rm in}\) is \(X^*\) composed with a swap and a fixed scaling.
+Taking \(b'\ge0\) bounding both log inverse norms gives \(e_{a+2b'}(Q_{\rm in})\le e_a(\mathcal U-W)\).
+The inequality distinguishes the extreme singular loss of the compression from that of the realized repeated block.
+The [fixed exterior chain](../ledger/Yin_L_F0066_v23.md#exterior-chain) can have an exponentially small singular value in the first factor while the conditional determinant is uniformly bounded below on the disk at exponential scale in \(k\).
