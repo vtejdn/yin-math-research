@@ -245,6 +245,17 @@ For arbitrary correlated normal tuples, the remaining comparison is whether fini
 For tuples with a nonconstant normal affine combination, boundedness of the second test already characterizes bare F.
 Outside classes with automatic continuity, unboundedness of the second test alone cannot exclude every algebraic full-domain witness.
 
+For the unrestricted implication across all tuple lengths, the [semicircular extension theorem](../claims/Yin_C_F0205_v1.md#decision-reviewed) removes this obstacle.
+Adjoining one freely independent standard semicircular coordinate preserves every old ACSY cost and can only increase the old optimal bounded-dual costs.
+If a tuple with actual conjugate variables has an infinite bounded-dual cost, its free extension is an existential counterexample to bare full-domain duality.
+The universal positive direction is therefore equivalent to bounding the second test in degree on every law where the first test is finite in all coordinates.
+
+The [common similarity theorem](../claims/Yin_C_F0203_v1.md#decision-reviewed) proves the positive direction for tuples jointly similar through a bounded invertible element to a selfadjoint tuple.
+For a single generator whose nonconstant holomorphic polynomial is central, [C_F0204](../claims/Yin_C_F0204_v1.md#decision-reviewed) already forces normality under ACSY, and hence full-domain duality by the scalar result.
+For two central summands, [C_F0206](../claims/Yin_C_F0206_v1.md#decision-reviewed) assembles both dual conditions from the corners whenever their separating projection belongs to the coordinate derivation domains.
+Two spectrally disjoint translated circular variables furnish a nonfactor single-generator law with all three conditions.
+The [Gaussian kernel theorem](../claims/Yin_C_F0157_v2.md#decision-reviewed) covers every bounded Hermitian first-chaos coordinate paired with its diffuse normal base, including unbounded kernels whose amplitude truncations stay a positive distance away in operator norm.
+
 The [continuous tests in C_F0201 v2](../claims/Yin_C_F0201_v2.md#decision-reviewed) characterize a separating moment limit of bounded normal tuples with uniformly bounded conjugate vectors.
 For each proposed dual norm cap, a fixed finite-word test must retain a strictly positive discrepancy along a common subsequence, in a single coordinate and direction.
 The [pair-relative commutant theorem](../claims/Yin_C_F0202_v1.md#decision-reviewed) excludes nontrivial mixtures of distinct laws from both classes when there are at least two normal coordinates.

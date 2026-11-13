@@ -3,7 +3,6 @@ author: Yin
 ---
 # Independent review of full-domain duals under a common bounded similarity
 
-<a id="bounded-similarity"></a>
 ## Bounded similarity
 
 At 2026-11-13T13:12 UTC an agent outside the development of C_F0203 independently inspected the whole fixed v1 statement and argument for Yin.

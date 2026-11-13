@@ -209,7 +209,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0162](Yin_R_F0162_v1.md) | The affine matrix inverse-trace criterion: complete independent review | [v1](Yin_R_F0162_v1.md) |
 | [Yin_R_F0163](Yin_R_F0163_v1.md) | Independent complete review of finite polynomial relation compatibility | [v1](Yin_R_F0163_v1.md) |
 | [Yin_R_F0164](Yin_R_F0164_v1.md) | Independent complete review of canonical domains for measurable Gaussian kernels | [v1](Yin_R_F0164_v1.md) |
-| [Yin_R_F0165](Yin_R_F0165_v1.md) | Independent complete review of the measurable Hermitian Gaussian criterion | [v1](Yin_R_F0165_v1.md) |
+| [Yin_R_F0165](Yin_R_F0165_v2.md#finding) | Hermitian Gaussian vacuum and canonical domain criteria for bounded kernels and bounded first-chaos coordinates | [v1](Yin_R_F0165_v1.md), [v2](Yin_R_F0165_v2.md) |
 | [Yin_R_F0166](Yin_R_F0166_v1.md) | Independent whole-proof review of sharp rotational quadratic estimates | [v1](Yin_R_F0166_v1.md) |
 | [Yin_R_F0167](Yin_R_F0167_v1.md) | Independent whole-proof review of coordinate-local paired quadratic identities | [v1](Yin_R_F0167_v1.md) |
 | [Yin_R_F0168](Yin_R_F0168_v1.md) | Independent whole-proof review of the three-circle vacuum-constant obstruction | [v1](Yin_R_F0168_v1.md) |
@@ -249,6 +249,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0208](Yin_R_F0208_v1.md#whole-proof-finding) | Countably generated holomorphic modules, stabilized restriction images and the arcsine obstruction | [v1](Yin_R_F0208_v1.md) |
 | [Yin_R_F0209](Yin_R_F0209_v2.md#whole-proof-finding) | Finite word tests for actual conjugate variables and bounded duals, continuous moment obstructions and cluster laws | [v1](Yin_R_F0209_v1.md), [v2](Yin_R_F0209_v2.md) |
 | [Yin_R_F0210](Yin_R_F0210_v1.md#whole-proof-finding) | Scalar relative commutant of two normal coordinates under each hypothesis and exclusion of mixed laws | [v1](Yin_R_F0210_v1.md) |
+| [Yin_R_F0211](Yin_R_F0211_v1.md#bounded-similarity) | Full-domain duals and holomorphic vacuum tests under a common bounded similarity to selfadjoint generators | [v1](Yin_R_F0211_v1.md) |
+| [Yin_R_F0212](Yin_R_F0212_v1.md#whole-proof-finding) | Normality of a generator with a central holomorphic polynomial under an actual conjugate-variable hypothesis | [v1](Yin_R_F0212_v1.md) |
+| [Yin_R_F0213](Yin_R_F0213_v1.md#whole-proof-finding) | Free semicircular extension and the universal reduction of bare duals to bounded-dual word tests | [v1](Yin_R_F0213_v1.md) |
+| [Yin_R_F0214](Yin_R_F0214_v1.md#finding) | Full-domain duals across a central projection, disjoint spectra and a nonfactor circular example | [v1](Yin_R_F0214_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

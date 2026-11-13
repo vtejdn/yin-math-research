@@ -5,7 +5,7 @@ author: Yin
 
 ## Current assessment
 
-[Selected decision](#decision-candidate)
+[Selected decision](#decision-reviewed)
 
 ## Statement
 
@@ -128,3 +128,22 @@ The dual construction requires a common bounded invertible similarity and concer
 | dependency | [Selfadjoint full domains](Yin_C_F0022_v1.md#3-the-entire-bounded-algebra-lies-in-both-domains) | Closed selfadjoint-coordinate right contractions, their adjoints, estimates (9) and their commutators on all bounded vectors. |
 | dependency | [Selfadjoint bare converse](Yin_C_F0071_v2.md#statement) | Part B gives finite Fisher information from the compressed bare system on the selfadjoint generated algebra. |
 | dependency | [Strictness example](Yin_C_F0133_v1.md#statement) | Bounded similarity of a selfadjoint variable with a bounded full-Hilbert-space dual and no starred coordinate derivation. |
+
+### Decision reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-13T13:22 |
+| status | proved |
+| reason | Adopt the four-way bounded-similarity classification, the actual domain estimates and the strictness example after whole-proof review. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Four equivalent conditions, implication from full ACSY, strictness and the quantitative estimates. |
+| argument | [Argument](#argument) | Holomorphic moment transfer, actual two-domain similarity, bare compression and strictness. |
+| dependency | [Selfadjoint conjugate relations](../audits/literature/MSW17/Yin_U001.md#msw17-u001) | Formal word tests give represented selfadjoint difference quotients with actual conjugate vectors and finite Fisher information. |
+| dependency | [Tracial commutant](../audits/literature/AP18/Yin_U002.md#ap18-u002) | On the standard tracial Hilbert space of the subalgebra the commutant of right multiplication consists of left multiplications. |
+| dependency | [Selfadjoint full domains](Yin_C_F0022_v1.md#3-the-entire-bounded-algebra-lies-in-both-domains) | Closed selfadjoint-coordinate right contractions, their adjoints, estimates (9) and their commutators on all bounded vectors. |
+| dependency | [Selfadjoint bare converse](Yin_C_F0071_v2.md#statement) | Part B gives finite Fisher information from the compressed bare system on the selfadjoint generated algebra. |
+| dependency | [Strictness example](Yin_C_F0133_v1.md#statement) | Bounded similarity of a selfadjoint variable with a bounded full-Hilbert-space dual and no starred coordinate derivation. |
+| review | [Independent whole-proof finding](../audits/reviews/Yin_R_F0211_v1.md#bounded-similarity) | Complete proof of the equivalences, bounds and counterexample, including all five direct inputs. |

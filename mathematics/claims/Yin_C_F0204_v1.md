@@ -5,7 +5,7 @@ author: Yin
 
 ## Current assessment
 
-[Selected decision](#decision-candidate)
+[Selected decision](#decision-reviewed)
 
 ## Statement
 
@@ -130,3 +130,20 @@ The theorem leaves open the implication from ACSY to full-domain duals when the 
 | dependency | [ACSY maximality](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | The actual starred derivation and vacuum give maximal Delta. |
 | dependency | [Affiliated free field](../audits/literature/MSY23/Yin_U001.md#msy23-u001) | Maximal Delta makes each nonzero univariate polynomial regular and thus removes critical atoms of the central law. |
 | dependency | [Scalar normal case](Yin_C_F0071_v2.md#statement) | Part C turns the actual ACSY hypothesis for the resulting single normal generator into a bare full-domain dual. |
+
+### Decision reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-13T13:22 |
+| status | proved |
+| reason | Adopt the single-generator central-polynomial theorem and its full-domain consequence after whole-proof review of the corrected scalar citation. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Normality under a central nonconstant holomorphic polynomial, the weaker Hilbert-derivation variant with no critical mass, and the ACSY full-domain consequence. |
+| argument | [Argument](#argument) | Moment fibers, differentiated central identities, critical planar energy, simple-root idempotents and scalar application. |
+| dependency | [ACSY maximality](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | The actual starred derivation and vacuum give maximal Delta. |
+| dependency | [Affiliated free field](../audits/literature/MSY23/Yin_U001.md#msy23-u001) | Maximal Delta makes each nonzero univariate polynomial regular and thus removes critical atoms of the central law. |
+| dependency | [Scalar normal case](Yin_C_F0071_v2.md#statement) | Part C turns the actual ACSY hypothesis for the resulting single normal generator into a bare full-domain dual. |
+| review | [Independent whole-proof finding](../audits/reviews/Yin_R_F0212_v1.md#whole-proof-finding) | Both hypotheses, the fiber argument and the bare-dual conclusion, including all three direct inputs. |

@@ -5,7 +5,7 @@ author: Yin
 
 ## Current assessment
 
-[Selected decision](#decision-candidate)
+[Selected decision](#decision-reviewed)
 
 ## Statement
 
@@ -120,3 +120,21 @@ Composition with the continuous finite-moment discrepancies of C_F0201 v2 now pr
 | dependency | [Semicircular moments](../audits/literature/NS06/Yin_U004.md#ns06-u004) | Pairing formula for the standard semicircular law to identify its actual vacuum. |
 | dependency | [Optimal word tests](Yin_C_F0201_v1.md#statement) | Actual ACSY and bounded-dual costs, optimal normal representatives, and bare-to-bounded equivalence in the presence of a normal affine coordinate. |
 | dependency | [Continuous finite tests](Yin_C_F0201_v2.md#statement) | Finite-moment characterization of the bounded norm sublevels for each coordinate. |
+
+### Decision reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-13T13:22 |
+| status | proved |
+| reason | Adopt the universal equivalence, the semicircular extension with unchanged old conjugate costs and the finite-moment counterexample criterion after whole-proof review. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Optimal conjugate costs, compressed dual bounds, three universal assertions and the finite-moment counterexample test. |
+| argument | [Argument](#argument) | Actual centered-word adjoint pairing, compression, semicircular shift dual, automatic continuity and finite-moment transfer. |
+| dependency | [Pointed free product](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | Reduced Hilbert word decomposition and the commutation of left and right factor actions with the exact rank-one corner. |
+| dependency | [Semicircular moments](../audits/literature/NS06/Yin_U004.md#ns06-u004) | Pairing formula for the standard semicircular law to identify its actual vacuum. |
+| dependency | [Optimal word tests](Yin_C_F0201_v1.md#statement) | Actual ACSY and bounded-dual costs, optimal normal representatives, and bare-to-bounded equivalence in the presence of a normal affine coordinate. |
+| dependency | [Continuous finite tests](Yin_C_F0201_v2.md#statement) | Finite-moment characterization of the bounded norm sublevels for each coordinate. |
+| review | [Independent whole-proof finding](../audits/reviews/Yin_R_F0213_v1.md#whole-proof-finding) | Entire statement, proof and all four direct inputs, including the distinction between pointwise and universal boundedness. |

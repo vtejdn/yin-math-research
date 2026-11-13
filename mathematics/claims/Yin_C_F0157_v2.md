@@ -5,7 +5,7 @@ author: Yin
 
 ## Current assessment
 
-[Selected decision](#decision-bounded-gaussian-candidate)
+[Selected decision](#decision-reviewed)
 
 ## Statement
 
@@ -206,3 +206,26 @@ It leaves the converse from bare \(\mathsf F\) and the implication \(\mathsf A\R
 | dependency | [Compactness](../audits/literature/Keh25/Yin_U001.md#keh25-u001) | Products of weakly compact Hilbert balls for the common-algebra pointwise weak limits. |
 | dependency | [Normal mixed energy](Yin_C_F0078_v1.md#6-the-actual-normal-mixed-energy-and-both-canonical-domains) | Actual normal ACSY energy identity for analytic unitaries before any additional growth estimate. |
 | dependency | [Canonical domain comparison](Yin_C_F0075_v1.md#statement) | Part 4 gives the full original canonical and actual adjoint domains under the normal strong condition. |
+
+### Decision reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-13T13:22 |
+| status | proved |
+| reason | Adopt the equivalence for every bounded Hermitian first-chaos coordinate and the quantitative canonical domain and vacuum formulas after whole-proof review. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Bounded-coordinate characterization, intrinsic equivalence, vacua, full canonical domains, quantitative constants and spectral-block example. |
+| argument | [Argument](#argument) | Wick norm, phase and generation, intrinsic moment tests, clipped moment limits, identification of canonical restrictions and domain estimates. |
+| dependency | [Bounded Hermitian kernels](Yin_C_F0157_v1.md#statement) | All equivalences, explicit vacua and estimates on the clipped coordinates, and the measurable phase unitary with its transport action. |
+| dependency | [Relative Wick representation](Yin_C_F0153_v1.md#relative-degree-with-an-arbitrary-abelian-base) | Relative path Hilbert spaces and creation and annihilation for a standard semicircular free from the abelian base. |
+| dependency | [Actual moment tests](Yin_C_F0156_v1.md#actual-target-moment-tests) | Forced marginals, smooth separated endpoint graph tests and the two endpoint Leibniz terms, with row integrability verified here. |
+| dependency | [Canonical estimates](Yin_C_F0156_v1.md#quantitative-bounds-and-curvature-form) | Clipped contraction constants, actual adjoint formula and the analytic-unitary curvature identity and test scope. |
+| dependency | [Closed norm sublevels](Yin_C_F0201_v2.md#statement) | Uniform bounds at common cutoff give both finite dual optima at the limit, equivalent to the normal strong condition. |
+| dependency | [Actual derivations from strong duals](Yin_C_F0070_v1.md#statement) | Part C for a normal generating tuple in its intrinsic algebra. |
+| dependency | [Compactness](../audits/literature/Keh25/Yin_U001.md#keh25-u001) | Products of weakly compact Hilbert balls for the common-algebra pointwise weak limits. |
+| dependency | [Normal mixed energy](Yin_C_F0078_v1.md#6-the-actual-normal-mixed-energy-and-both-canonical-domains) | Actual normal ACSY energy identity for analytic unitaries before any additional growth estimate. |
+| dependency | [Canonical domain comparison](Yin_C_F0075_v1.md#statement) | Part 4 gives the full original canonical and actual adjoint domains under the normal strong condition. |
+| review | [Independent whole-proof finding](../audits/reviews/Yin_R_F0165_v2.md#finding) | The row characterization, complete proof, nine declared inputs and infinite-block example. |
