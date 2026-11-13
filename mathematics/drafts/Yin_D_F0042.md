@@ -9,7 +9,7 @@ An inverse theorem turns that exclusion into simultaneous concentration bounds f
 The [independent review of the three profile and lattice sections](../audits/reviews/Yin_R_F0200_v37.md#macroscopic-profiles-and-lattice) covers the guarded statements at their fixed fresh-row scope.
 The [unguarded partial-alphabet theorem](../claims/Yin_C_F0196_v3.md#decision-tail-compensation-reviewed) supplies the same deterministic no-alphabet condition for all actual near-modes at the fixed nonreal shift outside an original-law event of probability at most \(Ce^{-cN^{1/8}}\).
 Substitution into the Fourier proof below gives the same fresh-row exponents at that unconditional rate, since its other inputs are unit norm and the two fixed entry laws.
-The final [exterior subspace calculation](#conditional-subspace) has been checked in development.
+The [exterior subspace calculation](#conditional-subspace) and the [conditional determinant with a repeated interior block](#repeated-interior) have been checked in development.
 
 <a id="macroscopic-row-profiles"></a>
 ## Concentration on every macroscopic reservoir
@@ -206,4 +206,45 @@ For a macroscopic \(k\), a root approximation at \(N^{-1/2}\) only supplies this
 One possible further reduction uses the exterior-measurable map \(Xh=(h_I,(Bh)_I)\) into \(\mathbb C^{2k}\).
 To parametrize the remaining roots by those very coefficients at precision \(r\), one needs an estimate on the small singular subspace of \(X|_{E_t}\), including the scale of the inverse on its orthogonal complement and the covering cost in the discarded directions.
 The rank bound above only gives the dimension of \(E_t\).
-The required position of \(E_t\) relative to \(\ker X\), the conditional probability at the coupled reconstructed target, and the resulting summable planar bound remain open.
+The [integrated position estimate](../claims/Yin_C_F0196_v4.md#statement) controls the small singular directions of \(X|_{E_t}\) outside an exceptional parameter set of summably negligible loss.
+The [two-target estimate](../claims/Yin_C_F0194_v34.md#statement) controls actual row hits for eligible exterior-measurable candidates.
+The unrestricted low-product planar loss still requires control of interior-dependent roots.
+
+<a id="repeated-interior"></a>
+## The conditional interior determinant in the two observation coordinates
+
+Use the [square exterior map](../claims/Yin_C_F0196_v4.md#argument) for a prescribed \(I\) of size \(k\), and let \(P:\mathbb C^N\to\mathbb C^k\) be coordinate restriction.
+Assume \(V=B_{JI}\) has full column rank and \(z\notin\sigma(C_H)\), where \(H=\ker X\), \(\Pi=\Pi_H\), \(C_H=\Pi(AB+2BA)|_H\), and \(Xh=(Ph,PBh)\).
+Write \(D^e=A^eB+2BA^e-zI\), where the \(I\times I\) entries of \(A^e\) vanish and all other entries agree with \(A\).
+For the actual real symmetric interior \(U=A_{II}\), put \(\mathcal U=\operatorname{diag}(U,U)\) and \(Z=(2BP^*,P^*)\).
+Then \(D=M-zI=D^e+Z\mathcal U X\).
+The map \(Z\) has image \(H^\perp\), since the two column spaces are the two rows of \(X\) under adjoint and the first has simply been scaled by two.
+It is an isomorphism from \(\mathbb C^{2k}\) to \(H^\perp\).
+All the following targets are determined before sampling the interior.
+Define
+\[
+ T h=(\Pi D h,Xh),\qquad
+ W(z)=-Z^{-1}(1-\Pi)D^e T^{-1}(0,\,\cdot\,).
+\]
+The inverse \(Z^{-1}\) here acts only on \(H^\perp\).
+In orthonormal bases adapted to \(H\oplus H^\perp\), \(D T^{-1}\) has first output component equal to its first input component and lower-right block \(Z(\mathcal U-W(z))\).
+Consequently
+\[
+ |\det D(z)|
+ =2^k\,\det(V^*V)\,|\det(C_H-zI_H)|\,
+       |\det(\mathcal U-W(z))|.
+ \tag{Repeated-interior-determinant}
+\]
+Indeed the [exterior determinant identity](../claims/Yin_C_F0196_v4.md#argument) gives \(|\det T|=|\det(C_H-zI_H)|\det(V^*V)^{1/2}\).
+The Gram matrix \(Z^*Z\) has blocks \(4P B^2P^*,2B_{II},2B_{II},I_k\).
+Its Schur complement over \(I_k\) is \(4V^*V\).
+Multiplying the two absolute Jacobians and the lower-right determinant proves the formula.
+The stated identity applies off the finite pole set.
+
+One arithmetic constraint on an exact interior target follows directly.
+If \(a=Xh=(y,w)\) and \(W(z)a=(t_1,t_2)\), the exact equation \(\mathcal U a=W(z)a\) requires both \(Uy=t_1\) and \(Uw=t_2\).
+Writing \(C\) for the real \(k\)-by-4 matrix of real and imaginary input columns and \(Y\) for the corresponding real target columns, symmetry forces \(C^TY=Y^TC\).
+If \(\|\mathcal U a-W(z)a\|\le \varepsilon\), the Frobenius norm of the skew part \(C^TY-Y^TC\) is at most \(2\|C\|\,\varepsilon\), by inserting \(UC\) and using \(\|Y-UC\|_{\rm HS}\le\varepsilon\).
+These compatibility relations are polynomial conditions on the exterior target.
+Using the determinant identity to control the remaining low-concentration profiles would require bounds on the negative logarithm of \(\det(\mathcal U-W(z))\) at the actual meromorphic \(W(z)\), or small-ball estimates on its dependent candidate directions.
+The two copies of \(U\) have identical entries in every realization.

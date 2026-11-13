@@ -77,7 +77,16 @@ The two image components use independent fresh colors.
 The original residual at its reconstructed target requires a count that retains its dependence on those same images.
 The [exact support-wide construction](../ledger/Yin_L_F0066_v21.md#feasible-shared-root-count) realizes two leading progression factors across different matrix pairs even after imposing both image equations and all complement range constraints.
 The [exterior-measurable subspace](../drafts/Yin_D_F0042.md#conditional-subspace) has at most \(2|I|+o(N)\) complex dimensions at the indicated polynomial cutoff with a summable exception.
-A remaining direction is to control \(h\mapsto(h_I,(Bh)_I)\) within this subspace at the precision of the inside tests and pay the cover with probabilities at their actual targets.
+The [exterior square determinant](../claims/Yin_C_F0196_v4.md#argument) now gives an \(O_R(N)\) planar integral of the sum of its negative singular logarithms.
+At macroscopic block size this controls the small singular directions of \(h\mapsto(h_I,(Bh)_I)\) at polynomial precision outside a parameter set of summably negligible loss.
+The [graph-projection theorem](../claims/Yin_C_F0186_v30.md#statement) extends the summable loss to parameters supporting a structured real projection or complex combination of \(h,Bh\).
+The [coupled interior test](../claims/Yin_C_F0194_v34.md#statement) tests two reconstructed complex targets against the same fresh real entry, giving the conditional exponent \(4-\nu\) per block coordinate for eligible exterior candidates at residual \(b/N\).
+The [large-product count](../claims/Yin_C_F0194_v35.md#statement) covers the full observation fiber by exterior ellipsoids and pays its cost with the same ordered row concentrations used in the inverse-theorem count.
+Its summable planar conclusion covers all high-product witnesses for the ordered block.
+For a prescribed \(B\)-measurable family of at most \(N^{C_*N}\) roots, it also covers every profile at an approximation scale chosen after \(C_*\).
+Unrestricted low-product witnesses may depend on the tested interior.
+The [fixed-color support construction](../ledger/Yin_L_F0066_v22.md#fixed-color-low-product) needs at least \(N^{(2a-o(1))N}\) centers at radius \(O(N^{-a})\) when feasible low-product roots for one \(B\) are pooled over all \(A\) in the entry support.
+The [conditional determinant](../drafts/Yin_D_F0042.md#repeated-interior) expresses their remaining equations using two identical copies of \(A_{II}\) and a specified exterior matrix, with a skew Gram constraint on actual targets.
 The finite-fourth-moment focus does not weaken or complete the original finite-second-moment Task contract.
 
 For F0013 and F0014, the [three-channel path pencil and its repeated-variable cubic at zero](../claims/Yin_C_F0186_v21.md#decision-finite-variance-three-channel-reviewed) now have an adopted determinant theorem.
