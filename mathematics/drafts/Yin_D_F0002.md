@@ -1301,3 +1301,82 @@ The universal single-endpoint reduction in [C_F0075, assertion 3](../claims/Yin_
 The accepted [arcsine consequences](../claims/Yin_C_F0163_v1.md#statement) have neither A nor S and do not separate those two hypotheses.
 They exclude replacing an ordinary dual by a liberation dual in the finite-rank rationality test.
 The unrestricted, nonnormal equivalence is already false by [C_F0133](../claims/Yin_C_F0133_v1.md#statement); that bounded-dual example is outside the normal target of this draft.
+
+## Angular modes of the three-point curvature form
+
+Fix a vertex \(z_i\) of a finite set of distinct complex locations and write \(z_j-z_i=r_j e^{\mathrm i\theta_j}\) for \(j\ne i\).
+The shifted block identity (U4) groups the actual form by unordered triples, with one cross Gram at each of the three vertices.
+At the fixed vertex its contribution summed over unordered endpoint pairs is \(\sum_{j\ne k} \mathfrak c(z_i,z_j,z_k)^2\operatorname{Re}\langle B_{ij},B_{ik}\rangle\), where both endpoints differ from \(i\).
+To examine positivity at this vertex alone, allow arbitrary Hilbert vectors \(B_{ij}\) and normalize them by \(\beta_j=B_{ij}/r_j\).
+For distinct endpoints, the area formula gives the coefficient of their normalized Gram as
+\[
+ F_{r,s}(\theta)=rs\,\mathfrak c(0,r,s e^{\mathrm i\theta})^2
+ =\frac{4rs\sin^2\theta}{r^2+s^2-2rs\cos\theta}.
+ \tag{P11}
+\]
+For \(r=s\) this equals \(2+2\cos\theta\) away from the repeated point, with continuous diagonal value four.
+The actual convention in (U4) omits the diagonal.
+For \(r\ne s\), put \(q=\min(r,s)/\max(r,s)\) and use the Fourier series with coefficients multiplying \(e^{\mathrm i n\theta}\).
+Multiplying \(\sum_{n\in\mathbb Z}q^{|n|}e^{\mathrm i n\theta}=(1-q^2)/(1-2q\cos\theta+q^2)\) by \(4q\sin^2\theta/(1-q^2)\) gives
+\[
+ \widehat F(0)=2q,\qquad
+ \widehat F(\pm1)=q^2,\qquad
+ \widehat F(\pm n)=-(1-q^2)q^{n-1}\quad(n\ge2).
+ \tag{P12}
+\]
+Thus a common second angular mode on distinct radii can produce a negative cross Gram even for genuine three-point curvature.
+
+For an explicit count, put equally spaced \(N\)-gons at each of two fixed radii about \(z_i=0\), with the same angles and \(N\ge4\) divisible by four.
+Take \(\beta_j=e^{2\mathrm i\theta_j}v\) with a fixed unit vector \(v\) on both polygons.
+The completed kernel on each individual ring has zero quadratic form on this mode, by discrete orthogonality to the harmonics \(0,\pm1\).
+In each direction between rings the sum is \(N^2\sum_{n\equiv2\, (\mathrm{mod}\,N)}\widehat F(n)\), by absolute convergence and the finite geometric sum over angles.
+Every coefficient in that sum is negative and the \(n=2\) term equals \(-q(1-q^2)\).
+The off-diagonal form at the fixed vertex is consequently at most \(-2N^2q(1-q^2)-8N\), after removing \(2N\) diagonal values of four.
+Since \(\sum_{j\ne i}\|B_{ij}\|^2/r_j^2=2N\), even the completed anchored form admits no lower bound by minus a universal constant times this sum for arbitrary block vectors.
+These are counting sums, exactly as in (U4) where the actual block vectors already include their trace normalization.
+
+The sign also occurs with probability measures on the fixed scalar actual-vacuum law \(\mu=\sum_{l\ge1}p_l\sigma_l\) of [C_F0143](../claims/Yin_C_F0143_v1.md#argument), where \(\sigma_l\) is normalized Haar measure on the circle of radius \(r_l=2^{-l}\).
+Take the bounded field \(b(r_l e^{\mathrm i\theta})=r_l e^{2\mathrm i\theta}/p_l\) on \(l=1,2\) and zero elsewhere.
+For \(z\) near zero define
+\[
+ H(z)=\iint \mathfrak c(z,v,w)^2\operatorname{Re}(\overline{b(v)}b(w))\,d\mu(v)d\mu(w).
+ \tag{P13}
+\]
+The masses cancel in each selected pair in \(H(0)\).
+The same-ring integrals vanish and the two ordered cross-ring integrals give \(H(0)=-2q(1-q^2)\) with \(q=r_2/r_1\).
+For \(|z|<r_2/2\) the distance from \(z\) to each selected endpoint exceeds \(r_2/2\), and the circumradius bound gives \(\mathfrak c^2\le16/r_2^2\).
+For distinct selected endpoints the area formula is continuous in \(z\) there, and pairs with equal endpoints are null for \(\mu^2\).
+Dominated convergence gives \(H<0\) in a neighborhood of zero, whose \(\mu\)-measure is positive because \(r_l\to0\).
+This disproves pointwise anchored positivity on arbitrary bounded endpoint fields even under the marginal actual-vacuum assumption.
+The actual scalar contraction for this law has positive quadratic form by C_F0143.
+
+For the finite polygons the other vertices give zero off-diagonal Grams if all outgoing legs there vanish except possibly the reciprocal leg pointing to the center.
+This extension across all vertices still fails the actual triangle identities.
+Indeed put \(x_{jk}=q_{jk}/(m_jm_k)\) in the notation of (U4) and take all leaf masses equal.
+Any three leaves give \(x_{jk}+x_{kl}+x_{lj}=0\).
+With at least five leaves, differences of two such equations imply \(d_a+d_b=0\) for distinct \(a,b\notin\{k,l\}\), where \(d_a=x_{ak}-x_{al}\).
+At least three choices of \(a\) remain, forcing each \(d_a=0\), and symmetry and a triangle equation then force every leaf edge value to vanish.
+The equations for the center and two leaves would therefore require \(2r_jr_k\cos(2(\theta_j-\theta_k))/(m_im_jm_k)\) to be additive in the two leaf indices.
+On either ring the pair values at angles \((0,\pi/2),(\pi,3\pi/2)\) have negative sum, while the pairs \((0,\pi),(\pi/2,3\pi/2)\) have positive sum, contradicting additivity.
+Neither this family of formal legs nor the field in (P13) supplies an actual unitary violating the signed mixed estimate.
+
+The identities (U4) and (U5) give a sufficient test that retains the constraints between vertices.
+Let \(g_{ij}=\sum_{k\ne i,j}m_k\mathfrak c_{ijk}^2\) in the finite marginal model of (U1) and suppose real symmetric edge coefficients \(\alpha_{ij}\ge0\) and real fully symmetric coefficients \(\lambda_{ijk}\) on distinct triples satisfy
+\[
+ g_{ij}=(m_i+m_j)\alpha_{ij}+\sum_{k\ne i,j}m_k\lambda_{ijk},
+ \qquad \alpha_{ij}|z_i-z_j|^2\le C.
+ \tag{P14}
+\]
+For every \(i\) form the real symmetric matrix \(K_i\) indexed by \(j\ne i\) with diagonal \(\alpha_{ij}\) and off-diagonal entries \((K_i)_{jk}=\lambda_{ijk}\).
+If every \(K_i\) is positive semidefinite, summing (U4) with weights \(\lambda_{ijk}\) over unordered triples and (U5) with weights \(\alpha_{ij}\) over unordered pairs gives
+\[
+ Q_g(u)=
+ \sum_i\sum_{j,k\ne i}(K_i)_{jk}\operatorname{Re}\langle B_{ij},B_{ik}\rangle
+ -\sum_{i\ne j}\alpha_{ij}\|p_j\zeta p_i\|_2^2
+ \ \ge\ -C\|\xi\|_2^2
+ \tag{P15}
+\]
+whenever \(\zeta=-\mathrm i[Z^*,\xi]\).
+Positivity follows by factoring each real matrix as a Gram matrix, and the last bound follows by summing the orthogonal blocks of \(\xi\).
+The test applies to any actual finite-marginal partial liberation with the analytic-unitary identities above and the stated commutator solution.
+Existence of coefficients with a configuration-independent \(C\) is open, as is passage from finite marginals to the original diffuse ACSY domains.
