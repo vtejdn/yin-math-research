@@ -18,7 +18,8 @@ Measure account-wide use, including concurrent sessions; do not infer it from th
 Prefer an authenticated current quota interface, identifying the weekly window by duration rather than a fixed bucket name.
 See the [official interface](https://developers.openai.com/codex/app-server#6-rate-limits-chatgpt).
 If a reliable current reading cannot be obtained, suspend autonomous advancement and report the monitoring limitation.
-If the applicable weekly window resets, the account/bucket changes or readings unexpectedly decrease, stop pending a verified continuation decision rather than inferring allowance across windows.
+When the authenticated account changes, verify its current weekly reading and continue an authorized running Task under the existing threshold, including when the new account has a different bucket, reset date or usage percentage.
+For the same account, if the applicable weekly window resets, the bucket changes or readings unexpectedly decrease, stop pending a verified continuation decision rather than inferring allowance across windows.
 Existing account limits may stop work earlier.
 
 Resume a stopped boundary only on explicit user direction under the current Task decision and applicable conditions.

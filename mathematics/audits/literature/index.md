@@ -80,6 +80,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Hun74/Yin_U006](Hun74/Yin_U006.md) | Hun74-U006: Principal ideals, polynomial Euclidean division and Bezout coefficients |
 | [JMS21/Yin_U001](JMS21/Yin_U001.md) | JMS21: Rational Fock Series and Finite-State Stability |
 | [KS07/Yin_U001](KS07/Yin_U001.md) | KS07: Selected Holomorphic Word Inputs |
+| [KS26/Yin_U001](KS26/Yin_U001.md#ks26-u001) | Vector small-ball estimate of Proposition 2.4 with short deterministic columns and independent real multipliers |
+| [Erd45 source notes](Erd45/readme.md#interval-theorem) | The signed interval concentration theorem on printed page 898 and its antichain proof |
 | [KV12/Yin_U001](KV12/Yin_U001.md) | Rational Difference-Differential Operators |
 | [Kat95/Yin_U001](Kat95/Yin_U001.md) | Closable Finite-Rank Operators |
 | [Kro81/Yin_U001](Kro81/Yin_U001.md) | Kro81-U001: Rational Laurent Series, Recurrences and Hankel Rank |

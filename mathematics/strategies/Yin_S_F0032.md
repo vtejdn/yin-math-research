@@ -65,11 +65,19 @@ The construction restricts deterministic perturbation methods, not typical proba
 The [adopted original-law reconstruction theorem C194v31](../claims/Yin_C_F0194_v31.md#decision-original-reconstruction-reviewed), with [independent whole-proof review](../audits/reviews/Yin_R_F0200_v34.md#original-reconstruction-whole-proof), supplies exponential guarded identification bounds from a common complement and exact recovery of the graph images before exposing the testing rectangles.
 It proves low-concentration exclusions for deterministic root families and, after conditioning one color, for families measurable in that color, provided their leading entropy is independent of final precision.
 Its [exact root triad](../claims/Yin_C_F0194_v31.md#original-root-triad) retains \(Ah=q\), \(Bh=g\), and \(Ag+2Bq-zh=r\), with a lawful ordered product of the same two-color row concentrations.
-The next arithmetic target is an exhaustive covering of these actual feasible triples whose entropy is paid by that joint row product, using their image equations and outside compatibility rather than treating the two colors as independently countable profiles.
-The [precise remaining boundary](../claims/Yin_C_F0194_v31.md#remaining-entropy-obstruction) retains both the missing structural extraction and the quantitative deficit of the direct inside-block cover.
-The [fixed coincident-law test](../ledger/Yin_L_F0066_v20.md#shared-root-progression-obstruction), checked in ordinary exploration, shows that concatenating equal-law colors does not by itself reduce the candidate count to one progression factor.
-Its explicit proper progression retains quadratically many assignments per nonzero shared root value, even for flat bounded vectors with two nondegenerate real-imaginary root directions; it does not realize the original image equations or refute a probabilistic count using them.
-The current allocation remains the actual planar loss under the original laws: the existing matching majorant is not summable, and finite fourth moments do not make a fixed norm guard eventual under every cross-size coupling.
+The [conditional row estimate](../claims/Yin_C_F0194_v32.md#decision-conditional-rows-few-values-reviewed) averages the concentration of a second row sum given the first and uses disjoint swaps for equal root coordinates.
+Under finite second moments it excludes visible roots within \(N^{-9}\) of at most \(N^\alpha\) distinct coordinate values for \(\alpha<1/10\), simultaneously on bounded parameter disks.
+The [exterior covariance theorem](../claims/Yin_C_F0194_v33.md#decision-exterior-reviewed) tests the true one-color image of a prescribed root at residual scale \(N^{-1/2}\) while leaving the inside submatrix available.
+The [deleted-phase theorem](../claims/Yin_C_F0196_v2.md#decision-phase-spread-reviewed) supplies the second real direction at nonreal parameters.
+The [original-law tail compensation](../claims/Yin_C_F0196_v3.md#decision-tail-compensation-reviewed) removes the fixed input norm restriction for the dictionary and partial-alphabet exclusions at a fixed nonreal shift.
+It bounds the actual action of all discarded entries on a near-mode by three bounded coefficient vectors on the marked endpoints.
+The [partial planar theorem](../claims/Yin_C_F0186_v29.md#statement) proves summable deviations for the entire loss on parameters admitting a root approximable by \(N^\alpha\) values on a positive fraction of its coordinates, for each \(\alpha<1\).
+The [Fourier calculation](../drafts/Yin_D_F0042.md#fourier-profile) bounds fresh six-real-coordinate row concentrations by \(N^{-4+\eta}\) on every macroscopic reservoir at raw radius \(a/N\).
+The two image components use independent fresh colors.
+The original residual at its reconstructed target requires a count that retains its dependence on those same images.
+The [exact support-wide construction](../ledger/Yin_L_F0066_v21.md#feasible-shared-root-count) realizes two leading progression factors across different matrix pairs even after imposing both image equations and all complement range constraints.
+The [exterior-measurable subspace](../drafts/Yin_D_F0042.md#conditional-subspace) has at most \(2|I|+o(N)\) complex dimensions at the indicated polynomial cutoff with a summable exception.
+A remaining direction is to control \(h\mapsto(h_I,(Bh)_I)\) within this subspace at the precision of the inside tests and pay the cover with probabilities at their actual targets.
 The finite-fourth-moment focus does not weaken or complete the original finite-second-moment Task contract.
 
 For F0013 and F0014, the [three-channel path pencil and its repeated-variable cubic at zero](../claims/Yin_C_F0186_v21.md#decision-finite-variance-three-channel-reviewed) now have an adopted determinant theorem.
