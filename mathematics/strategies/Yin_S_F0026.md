@@ -256,6 +256,12 @@ The [resolvent and word tests](../drafts/Yin_D_F0003.md#resolvent-tests-for-the-
 
 The [common similarity theorem](../claims/Yin_C_F0203_v1.md#decision-reviewed) proves the positive direction for tuples jointly similar through a bounded invertible element to a selfadjoint tuple.
 For a single generator whose nonconstant holomorphic polynomial is central, [C_F0204](../claims/Yin_C_F0204_v1.md#decision-reviewed) already forces normality under ACSY, and hence full-domain duality by the scalar result.
+The [type I summand theorem](../claims/Yin_C_F0216_v1.md#decision-reviewed) gives the single-generator implication from ACSY to strong duality in every finite type I algebra.
+Its proof forces the type I central part to be diffuse abelian even when a type II part is present.
+Together with the [two-by-two similarity counterexample](../claims/Yin_C_F0133_v1.md#decision-reviewed), this gives strict implication from ACSY to bare duality within the class of single generators in finite type I algebras.
+The [size-two pole calculation](../claims/Yin_C_F0215_v1.md#decision-reviewed) also forces normality from just a represented normalized derivation and injectivity of every scalar shift, and gives a third-order lower bound on the Jordan fibers.
+For two or more coordinates C_F0216 excludes every type I central summand under ACSY.
+Bare full-domain duals also exclude such a summand at these lengths: their [maximal Delta](../claims/Yin_C_F0024_v1.md#3-maximal-delta-from-dual-identities-on-all-bounded-vectors) makes every nonzero holomorphic polynomial [affiliated-invertible](../audits/literature/MSY23/Yin_U001.md#msy23-u001), whereas the nonzero polynomial constructed in [the multi-coordinate argument](../claims/Yin_C_F0216_v1.md#two-or-more-coordinates) vanishes on a positive homogeneous matrix summand.
 For two central summands, [C_F0206](../claims/Yin_C_F0206_v1.md#decision-reviewed) assembles both dual conditions from the corners whenever their separating projection belongs to the coordinate derivation domains.
 Two spectrally disjoint translated circular variables furnish a nonfactor single-generator law with all three conditions.
 The [Gaussian kernel theorem](../claims/Yin_C_F0157_v2.md#decision-reviewed) covers every bounded Hermitian first-chaos coordinate paired with its diffuse normal base, including unbounded kernels whose amplitude truncations stay a positive distance away in operator norm.

@@ -261,6 +261,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0220](Yin_R_F0220_v1.md#whole-proof-finding) | Hilbert–Schmidt criterion for a bounded drift of a free semicircular coordinate and its exact vacuum cost | [v1](Yin_R_F0220_v1.md) |
 | [Yin_R_F0221](Yin_R_F0221_v1.md#whole-proof-finding) | Bounded-dual cost and attainable conjugate vectors for a Jordan block with free circular noise | [v1](Yin_R_F0221_v1.md) |
 | [Yin_R_F0222](Yin_R_F0222_v1.md#whole-proof-finding) | Ordered finite word tests for the least vacuum norm and their separation on radial normal laws | [v1](Yin_R_F0222_v1.md) |
+| [Yin_R_F0223](Yin_R_F0223_v1.md#whole-proof-finding) | Simple-eigenvalue and Jordan pole obstructions to conjugate variables for nonnormal fields of two-by-two matrices | [v1](Yin_R_F0223_v1.md) |
+| [Yin_R_F0224](Yin_R_F0224_v1.md#whole-proof-finding) | Type I central summands under closable coordinate derivations and full domains for a single type I ACSY generator | [v1](Yin_R_F0224_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
