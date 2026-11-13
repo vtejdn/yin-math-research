@@ -249,12 +249,19 @@ For the unrestricted implication across all tuple lengths, the [semicircular ext
 Adjoining one freely independent standard semicircular coordinate preserves every old ACSY cost and can only increase the old optimal bounded-dual costs.
 If a tuple with actual conjugate variables has an infinite bounded-dual cost, its free extension is an existential counterexample to bare full-domain duality.
 The universal positive direction is therefore equivalent to bounding the second test in degree on every law where the first test is finite in all coordinates.
+The [countable assembly theorem](../claims/Yin_C_F0210_v1.md#decision-reviewed) reduces a sufficient counterexample search to a sequence of single generators: an unbounded ratio of optimal dual cost to actual conjugate-vector norm gives a single ACSY generator with infinite cost, and then an actual two-coordinate separator.
+This criterion works at arbitrary finite cutoffs without a uniform bound on the derivative of the adjoint generator.
+The [mixed circular blocks](../claims/Yin_C_F0207_v1.md#decision-reviewed) show why the squared Hilbert–Schmidt norms of individual forced blocks cannot replace dual costs in this search.
+The [resolvent and word tests](../drafts/Yin_D_F0003.md#resolvent-tests-for-the-one-generator-norm-ratio) give lower bounds to compare with the norm of a particular actual vacuum.
 
 The [common similarity theorem](../claims/Yin_C_F0203_v1.md#decision-reviewed) proves the positive direction for tuples jointly similar through a bounded invertible element to a selfadjoint tuple.
 For a single generator whose nonconstant holomorphic polynomial is central, [C_F0204](../claims/Yin_C_F0204_v1.md#decision-reviewed) already forces normality under ACSY, and hence full-domain duality by the scalar result.
 For two central summands, [C_F0206](../claims/Yin_C_F0206_v1.md#decision-reviewed) assembles both dual conditions from the corners whenever their separating projection belongs to the coordinate derivation domains.
 Two spectrally disjoint translated circular variables furnish a nonfactor single-generator law with all three conditions.
 The [Gaussian kernel theorem](../claims/Yin_C_F0157_v2.md#decision-reviewed) covers every bounded Hermitian first-chaos coordinate paired with its diffuse normal base, including unbounded kernels whose amplitude truncations stay a positive distance away in operator norm.
+The [matrix criterion](../claims/Yin_C_F0209_v1.md#decision-reviewed) gives the corresponding intrinsic equivalence for finitely many bounded selfadjoint Gaussian fields with measurable rectangular coefficients over that base.
+For the unrestricted normal question the [two-Haar extension](../claims/Yin_C_F0208_v1.md#decision-reviewed) makes the universal implication equivalent to a single-state estimate on polynomial columns at each coordinate.
+An unbounded column cost on one fixed normal ACSY tuple would yield a normal separating tuple after adjoining the two unitaries.
 
 The [continuous tests in C_F0201 v2](../claims/Yin_C_F0201_v2.md#decision-reviewed) characterize a separating moment limit of bounded normal tuples with uniformly bounded conjugate vectors.
 For each proposed dual norm cap, a fixed finite-word test must retain a strictly positive discrepancy along a common subsequence, in a single coordinate and direction.

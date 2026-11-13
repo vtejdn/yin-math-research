@@ -253,6 +253,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0212](Yin_R_F0212_v1.md#whole-proof-finding) | Normality of a generator with a central holomorphic polynomial under an actual conjugate-variable hypothesis | [v1](Yin_R_F0212_v1.md) |
 | [Yin_R_F0213](Yin_R_F0213_v1.md#whole-proof-finding) | Free semicircular extension and the universal reduction of bare duals to bounded-dual word tests | [v1](Yin_R_F0213_v1.md) |
 | [Yin_R_F0214](Yin_R_F0214_v1.md#finding) | Full-domain duals across a central projection, disjoint spectra and a nonfactor circular example | [v1](Yin_R_F0214_v1.md) |
+| [Yin_R_F0215](Yin_R_F0215_v1.md#finding) | Bounded circular dual with forced mixed blocks of infinite total Hilbert–Schmidt energy | [v1](Yin_R_F0215_v1.md) |
+| [Yin_R_F0216](Yin_R_F0216_v1.md#finding) | One-sided polynomial columns and the optimal cost of duals after two free Haar unitaries are adjoined | [v1](Yin_R_F0216_v1.md) |
+| [Yin_R_F0217](Yin_R_F0217_v1.md#conclusion) | Intrinsic vacuum and dual-domain criterion for multichannel Gaussian coordinates over a diffuse normal base | [v1](Yin_R_F0217_v1.md) |
+| [Yin_R_F0218](Yin_R_F0218_v1.md#whole-proof-finding) | Quantitative one-generator necessity and weighted assembly of counterexamples to bare duality | [v1](Yin_R_F0218_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

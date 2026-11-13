@@ -1671,6 +1671,37 @@ Hilbert-space closability of an ACSY derivation does not immediately verify this
 Thus the source does not currently extend an arbitrary ACSY witness through h^{-1}, and no theorem from it is used.
 The target polynomial relation in C_F0142 resolves uniqueness here without that extension.
 
+## Resolvent tests for the one-generator norm ratio
+
+For a single actual ACSY generator \(T\), the [countable assembly criterion](../claims/Yin_C_F0210_v1.md#statement) makes the ratio of the bounded-dual cost to the actual conjugate-vector norm a target across separate laws.
+Fix \(z\notin\sigma(T)\), \(R=(z-T)^{-1}\) and any bounded witness \(E:M\to L^2(M)\) with \([E,T]=P_1\).
+Left multiplication by \(R\) is bounded on both the input and output spaces and inverts left multiplication by \(z-T\).
+Thus \([E,R]=R P_1 R\) and, as a map from the operator-norm unit ball into \(L^2\), this rank-one map has norm \(\|R\|_2\|R\|_1\).
+Indeed its value at \(a\) is \(R\tau(Ra)\), and the norm of the trace functional on \(M\) is \(\tau(|R|)\), attained using the adjoint of its polar unitary.
+As \(\|[E,R]\|_{M\to L^2}\le2\|E\|\|R\|\), this gives
+\[
+               2\beta(T)\ \ge\ \|R\|_2\|R\|_1/\|R\| .          \tag{R1}
+\]
+The test allows every vacuum value \(E(1)\).
+
+The nonnormal elliptical model gives a uniform upper bound on the ratio.
+Let \(T=(S_1+\mathrm i\varepsilon S_2)/2\) for free standard semicirculars and \(0<\varepsilon\le1\).
+The standard difference quotient in \(S_1\), multiplied by two, gives an actual coordinate witness on the full generated star algebra.
+For the dual in the sign \([E,T]=P_1\), twice the right deletion in color one works on the whole Hilbert space by the [Fock commutators](../claims/Yin_C_F0074_v1.md#1-standard-free-fock-model-and-the-bounded-dual).
+In particular \(\beta(T)\le2\) uniformly and every conjugate vacuum has norm at least \(1/\|T\|_2=2/\sqrt{1+\varepsilon^2}\) by the test at \(T\).
+Hence this degeneration cannot make the ratio diverge.
+For real or complex affine changes of a single generator the positive rescaling and phase factors in the two optimal norms cancel, so a spectral rescaling alone cannot change the ratio.
+
+Another possible test family has rotationally invariant joint star law, meaning \(e^{\mathrm i\theta}T\) has the law of \(T\) for every \(\theta\).
+The evaluated holomorphic monomials of different degrees are orthogonal.
+The induced free word derivative obeys \((\mathrm{id}\otimes\tau)\delta(T^k)=T^{k-1}\) for \(k\ge1\), since the traces of all positive powers vanish.
+For any normalized bounded dual the same forced polynomial values follow from the commutator recursion.
+After subtracting \(aE(1)\), which costs at most \(\|E\|\), this gives the lower tests \(2\beta(T)\ge \|T^{k-1}\|_2/\|T^k\|\).
+The scalar vacuum tested on holomorphic words alone only pairs with the degree-one word and therefore has the lower norm bound \(1/\|T\|_2\).
+Controlling an actual ACSY vacuum still requires all starred words and the starred-generator value.
+For later use, [Nica, Shlyakhtenko and Speicher](https://doi.org/10.1006/aima.1998.1780) study the different two-variable Fisher minimization for a prescribed singular-value distribution.
+No upper bound on the unrestricted ACSY vacuum or lower bound on the dual cost of a specific new law is supplied by that comparison.
+
 ## Finite inverse probe and its limits
 
 [Computation J_F0008](../computations/programs/Yin_J_F0008/readme.md) retains the complete seeded complex128 probe, native program and output for 30 finite coefficient-algebra cases, with n=8,12,16,24,32, h quantile powers 0.8,1,1.2, and S a centered or +3 shifted GUE sample.
