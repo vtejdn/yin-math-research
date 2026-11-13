@@ -263,6 +263,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0222](Yin_R_F0222_v1.md#whole-proof-finding) | Ordered finite word tests for the least vacuum norm and their separation on radial normal laws | [v1](Yin_R_F0222_v1.md) |
 | [Yin_R_F0223](Yin_R_F0223_v1.md#whole-proof-finding) | Simple-eigenvalue and Jordan pole obstructions to conjugate variables for nonnormal fields of two-by-two matrices | [v1](Yin_R_F0223_v1.md) |
 | [Yin_R_F0224](Yin_R_F0224_v1.md#whole-proof-finding) | Type I central summands under closable coordinate derivations and full domains for a single type I ACSY generator | [v1](Yin_R_F0224_v1.md) |
+| [Yin_R_F0225](Yin_R_F0225_v1.md#whole-proof-finding) | Projected columns on arbitrary words, first-layer columns and the pointed coarse summand over the omitted-coordinate algebra | [v1](Yin_R_F0225_v1.md) |
+| [Yin_R_F0226](Yin_R_F0226_v1.md#whole-proof-finding) | Exact attained vacuum and forced bounded-input commutators for univalent changes of a circular variable | [v1](Yin_R_F0226_v1.md) |
+| [Yin_R_F0227](Yin_R_F0227_v1.md#whole-proof-finding) | Classification of ergodic weighted shifts and a single-generator factor with strong duality and no normalized derivation | [v1](Yin_R_F0227_v1.md) |
+| [Yin_R_F0228](Yin_R_F0228_v1.md#whole-proof-finding) | Brown-measure cross energy, commuting projections in the closed derivation domain and exclusion of cyclic matrix generators | [v1](Yin_R_F0228_v1.md) |
+| [Yin_R_F0229](Yin_R_F0229_v1.md#whole-proof-finding) | Sharp conjugate-vector infimum for bounded circular shears and growing bounded-dual costs for quadratic drifts | [v1](Yin_R_F0229_v1.md) |
+| [Yin_R_F0230](Yin_R_F0230_v1.md#whole-proof-finding) | Normal common-commutant elements in two derivation domains and the obstruction to separated multivariable sums | [v1](Yin_R_F0230_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

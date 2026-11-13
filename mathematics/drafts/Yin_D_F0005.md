@@ -510,3 +510,198 @@ Restricting the compressed operator to \(N\) gives
 Both asymptotic bounds follow with the fixed matrix solution \(\eta\) chosen above.
 The full-Hilbert norm calculation concerns this particular deletion, and does not identify the optimal bounded dual or the optimal actual vacuum.
 At \(k=2\) the vacuum estimate leaves the zero lower-limit condition in the [fixed result](../claims/Yin_C_F0213_v1.md#statement) unresolved.
+
+<a id="two-circular-palindrome-drift"></a>
+## A bounded two-circular palindrome series outside both holomorphic cut domains
+
+The [one-circular coefficient bound](../claims/Yin_C_F0221_v1.md#statement) puts every bounded Hilbert-holomorphic function of one circular generator in its holomorphic cut domain.
+With two free standard circular generators \(c_1,c_2\), one can construct an operator-norm convergent holomorphic series outside both such domains.
+For a word \(w=w_1\cdots w_n\) in \(\{1,2\}\), write \(c_w=c_{w_1}\cdots c_{w_n}\) and let \(w^{\rm rev}\) denote its reversal.
+Set
+\[
+ F_n=2^{-n/2}\sum_{|w|=n}c_wc_{w^{\rm rev}},\qquad
+ n_j=4^j,\qquad B_J=\sum_{j=1}^J 2^{-j}F_{n_j}.
+\]
+Distinct analytic words give orthogonal unit Fock vectors, so \(\|F_n\|_2=1\).
+
+Use circular letters \(c_i=\ell(u_i)+\ell(v_i)^*\) with \(u_1,u_2,v_1,v_2\) orthonormal.
+For an analytic word, a deletion followed to its right by a creation is zero.
+Thus the Wick expansion of \(F_n\) has one summand for each split \(0\le k\le2n\) between a creation prefix of length \(k\) and a deletion suffix of length \(2n-k\).
+Its operator norm is exactly the scalar matrix norm of the coefficient array \(A_k\) with prefix rows and suffix columns, allowing reversal of the column word for the deletion adjoint.
+Indeed the summand factors as the matrix \(A_k\) tensored with the identity on the remaining Fock word, between the row isometries for distinct equal-length prefix creation words and reversed suffix creation words.
+For \(k\le n\), different nonzero rows have disjoint column supports because the final \(k\) letters determine the first \(k\) by reflection.
+Each row has \(2^{n-k}\) entries of magnitude \(2^{-n/2}\), so \(\|A_k\|=2^{-k/2}\).
+Reflection interchanges rows and columns, giving the exact split estimate at every \(k\) and hence
+\[
+   \|A_k\|=2^{-\min(k,2n-k)/2},\qquad
+   \|F_n\|\le2\sum_{k=0}^{n-1}2^{-k/2}+2^{-n/2}
+               \le C:=\frac{2}{1-2^{-1/2}} .
+\]
+In particular \(B_J\to B\in C^*(c_1,c_2)\) in operator norm, with \(\|B-B_J\|\le C2^{-J}\).
+The orthogonality of different degrees gives \(\|B\|_2^2=\sum_{j\ge1}4^{-j}=1/3\).
+
+Let \(\partial_i\) be the circular source word cut at \(c_i\), killing the two adjoints and the other generator.
+In an analytic polynomial, every cut pair \((A,C)\) for \(\partial_i\) reconstructs the word \(AiC\) and the cut position.
+Thus \(\|\partial_i F_n\|_2^2=2^{-n}\sum_{|w|=n}2\#_i(w)=n\).
+Different \(n\)'s here also have orthogonal output degree.
+Consequently \(\|\partial_i B_J\|_2^2=\sum_{j=1}^J4^{-j}n_j=J\) for each \(i=1,2\).
+The closed source cut has squared graph seminorm \(\sum_w\#_{u_i}(w)|h_w|^2\) in the full circular Wick coefficients, by the [marked-letter cut calculation](../claims/Yin_C_F0218_v1.md#the-circular-starred-cut-and-attainment) with the distinguished creation letter \(u_i\).
+Hence \(B\notin\operatorname{Dom}\overline{\partial_i}\).
+This last conclusion uses the actual closed graph, including approximation by arbitrary source star polynomials.
+
+For the bounded Fock right deletion \(R_i=r(u_i)^*\), \([R_i,L_{B_J}]=\Theta\partial_i B_J\), and these commutators converge in operator norm to \([R_i,L_B]\).
+The limit has operator norm at most \(2\|B\|\) and is compact as a norm limit of finite-rank operators.
+It is not Hilbert--Schmidt.
+Indeed for any cut pair \(A,C\) of analytic words, its matrix coefficient from \(c_C^*\Omega\) to \(c_A\Omega\) is the coefficient of \(AiC\) in \(B\), as follows by taking the limit on these fixed vectors.
+The input family \(\{c_C^*\Omega\}\) and the output family \(\{c_A\Omega\}\) are each orthonormal, and the sum of squared matrix coefficients is \(\sum_{j\ge1}4^{-j}n_j=\infty\).
+
+A proposed tuple is \(Y=(c_1,c_2,z+B)\) with an additional free standard circular \(z\).
+If a bounded old-coordinate witness \(E:M\to L^2(M)\) exists, its normalized commutators at \(c_1,c_2\) force \([E,L_{B_J}]=[R_i,L_{B_J}]\) on all bounded inputs by the polynomial rule.
+The norm approximation of \(B\) therefore forces \([E,L_z]=-[R_i,L_B]\) on those inputs.
+This right side is already bounded on the full Hilbert space, so its infinite Hilbert--Schmidt norm alone gives no divergent bound on \(E:M\to L^2(M)\).
+On the actual target star algebra \(z=Y_3-B\) need only be an operator-norm limit of polynomial elements.
+The divergence for the zero-star source cut does not exclude an actual target derivation with different starred-generator values, and the finite-shear correction does not give such an actual derivation without a bound on its target starred values.
+The actual old-coordinate witnesses and bounded old-coordinate costs for this infinite shear remain unresolved here.
+
+For the specific equal-weight correction used in the [finite shear argument](../claims/Yin_C_F0221_v1.md#correcting-the-old-vacuum-through-starred-coordinates), one can decide what happens to all three target starred values.
+Fix \(i\in\{1,2\}\), let \(Y^{(J)}=(c_1,c_2,z+B_J)\), and use the actual polynomial reference derivation in the source variables which takes \(c_i\) to \(1\otimes1\), \(z\) to \(-\partial_i B_J\), and every other source letter to zero.
+Its old target holomorphic values are normalized and all its target starred values are zero.
+For a cut of an analytic word \(P i S\) in \(B_J\), write \(b_{PiS}>0\) for its scalar coefficient and \(P^\star,S^\star\) for the reversed words in the conjugate letters \(v_1,v_2\).
+The corresponding term of its actual vacuum is \(-b_{PiS}W(P^\star d S^\star)\), where \(d\) is the \(z\) creation letter, as follows by inserting the adjoint tensor at the \(z\) cut in the Wick vacuum pairing.
+The other term of this vacuum is \(c_i\).
+For every such word of original degree \(2n\), spread its required positive correction uniformly over the \(2n-1\) starred old letters in \(P^\star d S^\star\).
+For a split \(P^\star d S^\star=A v_h C\), add \(b_{PiS}W(A)\otimes W(C)/(2n-1)\) to \(L_{h,J}\), \(h=1,2\).
+Distinct corrected vacuum words are distinguished by their single \(d\), so each split reconstructs the cut and its position.
+The two circular marked-letter adjoints concatenate at their marked letters, yielding exactly the desired correction to vacuum \(c_i\), with
+\[
+       \sum_{h=1}^2\|L_{h,J}\|_2^2
+              =\sum_{j=1}^J4^{-j}\frac{n_j}{2n_j-1}.
+\]
+By the polynomial shear chain rule the old target starred values are \(L_{h,J}^\sharp\), and the adjoint, componentwise on both legs, of the third target starred value is
+\[
+             V_J=\sum_{h=1}^2\sum_{A,C}
+                    l^{(h,J)}_{A,C}\,W(A)\operatorname{flip}(\partial_h B_J)W(C),
+ \qquad L_{h,J}=\sum_{A,C}l^{(h,J)}_{A,C}W(A)\otimes W(C).
+\]
+Here the product with the flipped cut uses the outer actions.
+Indeed a cut with analytic prefix \(P\) and suffix \(S\) contributes \(c_S^*\otimes c_P^*\) to the corresponding starred cut of \(B_J^*\).
+Transposing its insertion by traciality gives the componentwise adjoints in the same order, hence \(c_S\otimes c_P\) on the two legs.
+
+All Wick coefficients of \(V_J\) are nonnegative.
+Indeed the coefficients \(b_{PiS}\) and \(l^{(h,J)}_{A,C}\) are nonnegative, and a product of two Wick words is the sum of words obtained by contracting a suffix of the first word against the reversed conjugate prefix of the second.
+This follows from the creation-deletion Wick normal form, and each elementary contraction of the chosen letters has coefficient zero or one.
+The uncontracted concatenation always occurs with coefficient one.
+Choose any nonzero term \(l\,W(A_0)\otimes W(C_0)\) in some \(L_{h,1}\), with \(l>0\).
+It continues to occur in \(L_{h,J}\) with coefficient at least \(l\).
+For distinct analytic pairs \(S,P\) in the flipped \(\partial_h B_J\), the uncontracted outputs \(W(A_0S)\otimes W(PC_0)\) are distinct orthonormal basis pairs, since the fixed end words may be removed.
+Their coefficients in \(V_J\) dominate \(l\) times the respective original cut coefficients, by positivity of every additional term.
+It follows that \(\|V_J\|_2^2\ge l^2\|\partial_h B_J\|_2^2=l^2J\).
+Thus the equal-weight construction has two uniformly bounded target starred values and an unbounded third one, despite its exact unit vacuum at every finite truncation.
+This failure leaves open signed choices depending on the target law, other vacuum representatives, and the unrestricted existence questions above.
+
+<a id="circular-shear-analytic-columns"></a>
+### The forced action on analytic words and columns
+
+Let \(c_1,\ldots,c_d,z\) be freely independent standard circulars, \(M=W^*(c_1,\ldots,c_d,z)\), and fix \(1\le i\le d\).
+Write \(u_j,v_j\) for the creation letters of \(c_j,c_j^*\) and \(u_z,v_z\) for the corresponding letters of \(z,z^*\).
+An analytic word uses only the source generators \(c_1,\ldots,c_d,z\), and its vacuum vector is the tensor word in their \(u\) letters in the same order.
+The closed span of these vectors, including the vacuum, is denoted by \(H_+\).
+Assume \(B\in W^*(c_1,\ldots,c_d)\) is bounded and \(B\Omega=\sum_w a_w c_w\Omega\), where \(w\) ranges over old analytic words including the empty word.
+For \(Y=(c_1,\ldots,c_d,z+B)\), suppose \(E:M\to L^2(M)\) is bounded, \([E,L_{c_j}]=\delta_{ij}P_\Omega\), and \([E,L_{z+B}]=0\) on \(M\).
+Normalize by setting \(E_0(p)=E(p)-pE(1)\), which preserves the commutators and gives \(E_0(1)=0\).
+For \(B\) in the operator-norm closure of the old analytic polynomials, including the palindrome above, the following formula applies to every such \(E\).
+For general \(B\) as just specified, it applies to every ultraweak-to-weak continuous such \(E\).
+Whenever a bounded witness exists one can choose one with this continuity by the [bounded word-test theorem](../claims/Yin_C_F0201_v2.md#statement).
+
+There is \(g_i\in W^*(c_1,\ldots,c_d)\) with
+\[
+       g_i\Omega=\sum_P a_{Pi}c_P\Omega,\qquad \|g_i\|\le 2\|B\|.
+\]
+To prove this first take a polynomial \(B=F(c)\) and let \(F_i\) denote its polynomial with the displayed last-letter coefficients.
+The creation-deletion expansion of \(c_w\) contains one term per split, with its deletion suffix in the original letter order.
+Multiplying on the right by \(\ell(v_i)\), the pure creation term yields \(\ell(u_w)\ell(v_i)\).
+Every split with a nonempty deletion suffix vanishes unless the last letter of \(w\) is \(i\), in which case the last deletion cancels \(\ell(v_i)\) with coefficient one and the surviving terms sum to \(c_P\) for \(w=Pi\).
+Consequently
+\[
+          F_i(c)=\big(F(c)-F(\ell(u_1),\ldots,\ell(u_d))\big)\ell(v_i).
+\]
+The norm of \(F(\ell(u))\) on the full Fock space equals its norm on the old \(u\)-letter Fock subspace.
+Indeed, splitting off the maximal initial string of old \(u\)'s decomposes the full space into copies of that subspace, one for the empty tail and one for each remaining tensor word starting with a different letter.
+On the old \(u\)-letter subspace \(F(c)\) acts exactly as \(F(\ell(u))\), giving \(\|F_i(c)\|\le2\|F(c)\|\).
+
+For arbitrary \(B\) as above, use the simultaneous gauge rotations \(c_j\mapsto e^{it}c_j\), implemented by opposite phases on \(u_j,v_j\) and the identity on the noise letters.
+The Fejér averages
+\[
+        F_N(c)=\sum_{|w|\le N}\left(1-\frac{|w|}{N+1}\right)a_wc_w
+\]
+have norm at most \(\|B\|\), since they are averages of these rotations by probability kernels.
+The coefficient formula follows by evaluating the average on the separating vacuum.
+They converge in \(L^2\) by the coefficient expansion and strongly on the representation by the uniform bound and density of bounded right multiples of the vacuum.
+Their last-letter polynomials also converge in \(L^2\) by the displayed coefficient prescription, with norms uniformly bounded by \(2\|B\|\), so the same argument gives a bounded strong limit \(g_i\) in the old algebra.
+If \(B\) belongs to the analytic polynomial norm closure, its gauge orbit is norm continuous by polynomial approximation, and the Fejér averages converge in operator norm as well.
+
+Let \(R_i=r(u_i)^*\) be full Fock right deletion, with \([R_i,L_{c_j}]=\delta_{ij}P_\Omega\).
+For each \(N\), the polynomial rule gives \([E_0,L_{F_N(c)}]=[R_i,L_{F_N(c)}]\) on \(M\).
+For a fixed \(h\in M\), the two sides evaluated at \(h\) pass to the limit by norm convergence of \(F_N(c)\) in the norm-closure case.
+In the general case bounded strong convergence gives ultraweak convergence of \(F_N(c)h\), and the assumed continuity gives weak convergence of \(E_0(F_N(c)h)\).
+Here \(p\mapsto pE(1)\) is also ultraweak-to-weak continuous by normality of the left action.
+The other terms pass by strong convergence on their Hilbert vectors.
+Thus \([E_0,L_z]=-[R_i,L_B]\) on bounded inputs in each case.
+For an analytic source polynomial \(h\), every nonempty analytic word has trace zero.
+Either the polynomial rule or right deletion on the concatenated analytic words then gives
+\[
+            [R_i,L_B](h\Omega)=\tau(h)g_i\Omega .
+\]
+In fact a nonempty word \(h\) keeps its last letter when any old analytic word is prepended, and the only remaining term, for \(h=1\), is \(R_i(B\Omega)=g_i\Omega\).
+
+Write \(S_j\) and \(S_z\) for right deletion of the indicated \(u\)-letter on \(H_+\), killing the vacuum and words ending in other letters.
+For every analytic source polynomial \(p\) the exact normalized action is
+\[
+              E_0(p)=S_i(p\Omega)-\big(S_z(p\Omega)\big)g_i .
+\]
+The final product is right multiplication by the bounded old-algebra element \(g_i\).
+Indeed the identities on a suffix \(h\) are \(E_0(c_jh)=c_jE_0(h)+\delta_{ij}\tau(h)1\) and \(E_0(zh)=zE_0(h)-\tau(h)g_i\).
+Iterating from \(E_0(1)=0\) proves the formula, since only an empty suffix has nonzero trace in a monomial.
+The two deletion maps have orthogonal initial subspaces, giving \(\|S_i x\|_2^2+\|S_z x\|_2^2\le\|x\|_2^2\).
+Right multiplication by \(g_i\) has Hilbert operator norm at most \(\|g_i\|\), so the displayed action extends continuously from analytic polynomials to all of \(H_+\) with norm at most \(\sqrt{1+4\|B\|^2}\).
+For finite analytic source columns this gives
+\[
+       \sum_k\|E_0(p_k)\|_2^2
+          \le (1+4\|B\|^2)\sum_k\|p_k\|_2^2
+          \le (1+4\|B\|^2)\left\|\sum_k p_k^*p_k\right\|.
+\]
+The Hilbert extension computes the actual restriction at every bounded \(p\) with \(p\Omega\in H_+\) when \(E\) is ultraweak-to-weak continuous, by Fejér approximation rotating all source circulars as above.
+For arbitrary bounded \(E\) in the norm-closure case it computes the restriction on the analytic polynomial norm closure by norm continuity.
+In particular all target analytic polynomials for the palindrome belong to that closure by substitution, and the estimate holds uniformly in their number of free noise letters and in the column length.
+This bound controls the analytic restrictions while leaving the mixed starred tests and existence of a witness on the full algebra open.
+
+<a id="koebe-forced-commutator"></a>
+## The forced commutator for dilations of the Koebe function
+
+For \(0<t<1\), set \(f_t(z)=z/(1-tz)^2\) and \(Z_t=f_t(c)\) for a standard circular \(c\).
+The numerator of \(f_t(z)-f_t(w)\) over the common denominator factors as \((z-w)(1-t^2zw)\), proving univalence on \(|z|<1/t\).
+For \(1<r<1/t\) the image of the closed \(r\)-disk is a filled Jordan domain, and the inverse is holomorphic on its neighborhood given by the image of the open \(1/t\)-disk.
+The [polynomial form of Runge's theorem](../claims/Yin_C_F0042_v1.md#2-additional-accepted-approximation-input) therefore verifies the inverse approximation in [C_F0218](../claims/Yin_C_F0218_v1.md#statement).
+That claim gives attained least vacuum norm one because \(f_t'(0)=1\).
+Its forced commutator \([E,L_c]=\Theta U_{g_t}\) has kernel and coefficient matrix
+\[
+     g_t(z,w)=\frac{(1-tz)^2(1-tw)^2}{1-t^2zw},\qquad
+     A_t=\big([z^mw^n]g_t\big)_{m,n\ge0}=(I-tS)^2D_t(I-tS^*)^2 ,
+\]
+where \(S e_k=e_{k+1}\) on \(\ell^2(\mathbb N_0)\) and \(D_t e_k=t^{2k}e_k\).
+Indeed the geometric series supplies the diagonal and the two quadratic factors shift the row and column exponents respectively.
+With inner products linear in the second entry, the isometries \(J_+e_m=c^m\Omega\) and \(J_-e_n=(c^*)^n\Omega\) give \((J_-^*h)_n=\tau(c^n h)\) on bounded inputs and \(\Theta U_{g_t}=J_+A_tJ_-^*\) on the whole Hilbert space.
+Thus \(\|\Theta U_{g_t}\|_{H\to H}=\|A_t\|\le(1+t)^4\le16\), which also bounds its \(M\to H\) restriction.
+In fact \(D_t\to I\) strongly as \(t\uparrow1\), so \(A_t\to(I-S)^2(I-S^*)^2\) strongly and \(\|A_t\|\to16\).
+Here \(\|I-S\|\le 2\), and the unit vectors \(x_N=N^{-1/2}\sum_{k=0}^{N-1}(-1)^ke_k\) satisfy \(\|(I+S)x_N\|=\sqrt{2/N}\), giving \(\|(I-S)^2\|=4\).
+Hence this particular commutator yields uniformly bounded necessary tests as \(t\uparrow1\).
+The behavior of the least full-domain dual cost \(\beta(Z_t)\) would require a further estimate.
+
+There is also a fixed-row bound for every normalized univalent \(f\) on the unit disk.
+Write \(g(z,w)=(z-w)/(f(z)-f(w))=\sum_{m,n}g_{mn}z^m w^n\), extending across the diagonal.
+For \(|z|=r<1\), let \(\phi_z(s)=(z+s)/(1+\bar z s)\), \(s=\phi_z^{-1}(w)\), and normalize \(f\circ\phi_z\) by subtracting \(f(z)\) and dividing by \((1-r^2)f'(z)\).
+The classical growth lower bound for this normalized function gives \(|f(w)-f(z)|\ge(1-r^2)|f'(z)|\,|s|/(1+|s|)^2\), and the distortion lower bound gives \(|f'(z)|\ge(1-r)/(1+r)^3\). [Ma and Minda, MM99, introduction, (1) and (2)](https://doi.org/10.1016/S0377-0427(99)00021-7)
+Using \(|w-z|=(1-r^2)|s|/|1+\bar zs|\) yields \(|g(z,w)|\le4(1+r)^3/(1-r)^2\) throughout the \(w\)-disk, including \(w=z\) by continuity.
+Cauchy's coefficient formula on the \(z\)-circle with \(r=1/2\) gives \(\sup_{|w|<1}|[z^m]g(z,w)|\le54\,2^m\).
+Parseval on circles in \(w\) followed by increasing the radius to one gives \(\big(\sum_n|g_{mn}|^2\big)^{1/2}\le54\,2^m\), also for fixed columns by symmetry.
+The fixed-index constants allow growth with the index and leave the full coefficient-matrix norm for the general schlicht class open here.
