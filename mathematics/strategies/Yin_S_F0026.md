@@ -301,6 +301,14 @@ The [supporting-half-plane estimate](../claims/Yin_C_F0231_v1.md#decision-review
 At these shifts a divergent sum still requires an unbounded Gram norm for the normalized inverse tests.
 The [marginal density and spectral partition estimate](../claims/Yin_C_F0233_v1.md#decision-reviewed) bounds the original sum itself when each shift has a local finite-spectrum approximation with uniformly bounded effective number of spectral values and approximation and commutator errors of order \(r_j\sqrt{t_j}\).
 It applies to singular projections outside the omitted algebra and permits different spectral partitions for different shifts.
+The [four-value shift](../claims/Yin_C_F0235_v1.md#decision-reviewed) in a free Haar pair violates both the half-plane and finite-spectrum approximation hypotheses along every sufficiently small exact singular cutoff, even though the pair has strong duals.
+For this model the commutator error divided by \(r\sqrt{t_r}\) diverges even when the four-value shift itself is used as the approximant.
+Thus a proof from these projection tests must allow large off-diagonal components on small corners even for independent coordinates.
+There is a separate positive result for correlated coordinates whose marginal spectra admit smooth parametrizations.
+The [finite disjoint arc theorem](../claims/Yin_C_F0234_v1.md#decision-reviewed) gives the original column cost and both canonical domains at a specified coordinate with such a carrier, without any spectral assumption on the other coordinates.
+The [closed curve theorem](../claims/Yin_C_F0236_v1.md#decision-reviewed) allows a full regular loop with weighted summable Fourier coefficients, including every regular \(C^3\) embedded loop.
+The full comparison holds when each coordinate admits one of these two carrier types.
+For more general carriers with separated components, the [localization calculation](../drafts/Yin_D_F0002.md#localization-between-separated-spectral-components) controls all cuts between distinct components and leaves the within-component cuts on the original mixed core.
 The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
 For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 

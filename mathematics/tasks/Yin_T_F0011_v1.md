@@ -149,6 +149,8 @@ The [column packing condition](../claims/Yin_C_F0211_v1.md#statement) also tests
 At shifts admitting a [supporting half-plane](../claims/Yin_C_F0231_v1.md#decision-reviewed) up to order \(r\) after omitted unitary multiplication, the singular mass is uniformly \(o(r^{2/3})\).
 The [packing estimate for local finite-spectrum approximations](../claims/Yin_C_F0233_v1.md#decision-reviewed) controls entire orthogonal families when the effective number of spectral values and the relative errors satisfy its bounds.
 The nonnormal separating example does not settle this implication.
+For correlated tuples in which each coordinate has either a [finite disjoint regular arc cover](../claims/Yin_C_F0234_v1.md#decision-reviewed) or a [regular closed carrier with weighted summable Fourier coefficients](../claims/Yin_C_F0236_v1.md#decision-reviewed), the actual conjugate-variable, bare and strong dual conditions are equivalent.
+When only one coordinate has such a carrier, its own original canonical operator already has both full bounded-vector domains under the actual conjugate-variable hypothesis.
 
 ## Starting evidence
 

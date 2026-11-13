@@ -281,6 +281,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0240](Yin_R_F0240_v1.md#whole-proof-finding) | Singular mass at a supporting half-plane and higher integrability of the vacuum | [v1](Yin_R_F0240_v1.md) |
 | [Yin_R_F0241](Yin_R_F0241_v1.md#whole-proof-finding) | Derivation rank of the two-point modulus algebra and normal encoding limits | [v1](Yin_R_F0241_v1.md) |
 | [Yin_R_F0242](Yin_R_F0242_v1.md#whole-proof-finding) | Positive-weight marginal compression and packing with local finite-spectrum approximations | [v1](Yin_R_F0242_v1.md) |
+| [Yin_R_F0243](Yin_R_F0243_v1.md#whole-proof-finding) | Disjoint smooth arc carriers and full-domain transfer through selfadjoint coordinates | [v1](Yin_R_F0243_v1.md) |
+| [Yin_R_F0244](Yin_R_F0244_v1.md#whole-proof-finding) | Simultaneous failure of two sufficient tests at a four-value shift in a free Haar pair | [v1](Yin_R_F0244_v1.md) |
+| [Yin_R_F0245](Yin_R_F0245_v1.md#whole-proof-finding) | Weighted Fourier loop parameters, canonical domains and the comparison with mixed arc coordinates | [v1](Yin_R_F0245_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

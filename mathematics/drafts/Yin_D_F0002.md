@@ -1518,3 +1518,50 @@ The infimum need not be presumed attained.
 For the single-coordinate uniform mass problem, this reduces any sequence with \(t^3/r^2\) bounded away from zero as \(r\to0\) to \(a_b/r\to\infty\): every bounded-ratio subsequence would contradict the [uniform estimate](../claims/Yin_C_F0231_v1.md#statement).
 For the [orthogonal packing problem](../claims/Yin_C_F0211_v1.md#statement), even a sequence for which all individual ratios tend to zero can have unbounded partial sums.
 A bound for that sum still requires control of the normalized test vectors or another estimate using the orthogonality of the input projections.
+
+<a id="localization-between-separated-spectral-components"></a>
+## Reducing the column problem to same-component cuts
+
+Let \(X=X_i\) be a distinguished normal ACSY coordinate and suppose its spectrum is the union of finitely many pairwise disjoint compact subsets \(K_a\).
+Put \(e_a=1_{K_a}(X)\).
+For the closed derivation \(\delta=\delta_i\) write \(I_{v\otimes w}(u\otimes t)=uv\otimes wt\) for the inner action commuting with all outer actions.
+On the original starred polynomial core decompose the right slice as the finite sum of the maps
+\[
+          E_{ab}=(\mathrm{id}\otimes\tau) I_{e_a\otimes e_b}\delta .
+\]
+All terms with \(a\ne b\) have finite column cost.
+Indeed the [liberation contraction](../claims/Yin_C_F0063_v1.md#appendix-a-automatic-actual-liberation-contractions) for \(\mathcal L=I_{X\otimes1-1\otimes X}\delta\) has an operator-norm-to-\(L^2\) bound.
+Its proof applies under the actual vacuum as described in the [mixed energy discussion](#established-actual-mixed-energy-interface).
+The same is true after adjoining two free Haar unitaries by [C_F0208](../claims/Yin_C_F0208_v1.md#statement) and applying the liberation calculation there.
+The enlarged \(\mathcal L\) kills both new coordinates and their adjoints.
+For old inputs \(p_k\), take \(y=\sum u_kp_k\) in the enlargement with the free conjugate Haar words \(u_k\) from the [column encoding](../claims/Yin_C_F0208_v1.md#argument).
+That proof gives \(\|y\|\le2\|\sum p_k^*p_k\|^{1/2}\); its normalized right slice for this derivation is \(\sum u_k(\mathrm{id}\otimes\tau)\mathcal L p_k\).
+These vectors are orthogonal across \(k\), since the slices on old words have their values in the old algebra's Hilbert space.
+Thus the original liberation right slice \(L\) has finite column cost.
+
+One must still justify an inner multiplier on that slice, since it acts before the right trace.
+For marginal coefficients \(v,w\) admitting bounded graph approximations, the product rule gives
+\[
+ (\mathrm{id}\otimes\tau)I_{v\otimes w}\mathcal L(p)
+                  =L(pw)v-pL(w)v .
+\]
+For a finite column in \(p\), the first term has a column bound by \(c(L)\|w\|\|v\|\) and the second by \(\|L(w)\|_2\|v\|\), using \(\sum_k\|p_k h\|_2^2\le\|\sum p_k^*p_k\|\|h\|_2^2\).
+The first bound extends from core coefficients \(w\) by using the same bounded marginal approximant for all inputs and passing to the limits of their graph products.
+Here \(\mathcal L(w)=w\otimes1-1\otimes w\) for marginal polynomials, and then for uniform limits of these polynomials, by graph convergence for \(\mathcal L\).
+In particular all continuous marginal coefficients qualify and \(\|L(w)\|_2\le2\|w\|\).
+The formula and bound hold for any absolutely projectively summable series of such coefficients, by continuity of inner multiplication on the coarse space.
+
+For \(a\ne b\), choose compactly supported smooth scalar cutoffs \(\chi_a,\chi_b\) on the plane equal to the corresponding indicators on the spectrum and with supports separated by a positive distance.
+The kernel \(\chi_a(z)\chi_b(w)/(z-w)\), extended by zero at the diagonal, has a smooth compactly supported extension on the product of the planes.
+Periodize on a rectangle containing the support in its interior.
+Repeated integration by parts gives absolutely summable Fourier coefficients in the four real variables, for instance by applying the third power of one minus the Laplacian and summing \((1+|n|^2)^{-3}\) over \(\mathbb Z^4\).
+Every Fourier character separates into two continuous marginal unitaries.
+Applying this series to \(\mathcal L\) on the original core gives \(I_{e_a\otimes e_b}\delta\), because the inner multipliers are all in the abelian marginal algebra and the symbol \(z-w\) cancels on the indicated rectangle.
+This proves the mixed-component column bound.
+
+The same-component sum is therefore the remaining estimate for each fixed separated partition.
+To work with an individual component one can further localize \(E\) by the same product formula if the full \(E\) is bounded on columns: the indicators \(e_b\) have bounded graph approximants for \(\delta\) by smooth cutoffs and marginal divided differences as in [C_F0234](../claims/Yin_C_F0234_v1.md#transporting-the-actual-derivation-to-a-selfadjoint-coordinate).
+This yields equivalence of finite full column cost with finiteness of every same-component column.
+For a component that is a complete circle, a unitary parameter on that component extended by constants on the other components introduces extra spectral projections in the mixed core.
+The circle generator on its component corner is a partial unitary in the whole algebra, and its cut at the generator is \(e_a\otimes e_a\).
+A bound for its contraction on all mixed words containing these extra projections would be needed to pass from one complete circle to a union of complete circles.
