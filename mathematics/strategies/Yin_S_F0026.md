@@ -16,7 +16,7 @@ author: Yin
 | disposition | active |
 | priority | Follow the authorized paired-quadratic route for A plus normality, with a*a on the left and aa* on the right. The remaining normal scope is arbitrary correlated coordinates. The general A-to-F comparison remains unresolved. |
 
-Updated: 2026-10-18.
+Updated: 2026-11-13.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
 
 ## Current question and exact reduction
@@ -73,8 +73,9 @@ Together with C_F0162, that example has an optimal constant strictly larger than
 
 The unresolved target is the paired quadratic estimate for arbitrary correlated normal tuples with general normal coordinates.
 Neither scalar real-imaginary decomposition nor the free-product direct-sum identity applies at that scope.
-[D_F0002](../drafts/Yin_D_F0002.md#paired-quadratic-route-current-boundary) retains the mathematical continuation, and the Task's execution document owns its operational pause.
-No Task completion follows from this round.
+[D_F0002](../drafts/Yin_D_F0002.md#paired-quadratic-route-current-boundary) retains the paired quadratic route.
+The [spectral cut criterion](../drafts/Yin_D_F0006.md#spectral-cuts-for-the-two-contraction-bounds) identifies the optimal positive-core bound on each leg with a supremum of spectral cut pairings.
+The remaining estimate must control all unit test vectors on both legs for a fixed correlated tuple.
 
 ## Work branches and decision conditions
 
@@ -98,9 +99,12 @@ This is not an absolute-continuity claim for every joint vector measure.
 
 The accepted [C_F0078](../claims/Yin_C_F0078_v1.md#statement), reviewed in [R_F0051](../audits/reviews/Yin_R_F0051_v1.md#conclusion), now proves A iff S, and hence A implies F, for arbitrary correlated normal tuples whose marginals obey a uniform upper-growth bound of some exponent strictly greater than one.
 Bounded planar densities are included.
-A finite number of curvature-kernel compositions reaches the row-L2 theorem, and descending finite energy inequalities restores both original canonical domains even when the original curvature kernel is not coarse L2.
-Its exact whole-domain and one-common/every-fraction comparison is included.
-The growth hypothesis remains substantive; no bare-F converse is claimed.
+Version 1 bounds both original canonical domains by a finite descent from the row-L2 estimate and specifies the whole-domain and one-common/every-fraction comparison.
+
+A weaker marginal criterion now follows from [C_F0078 v2](../claims/Yin_C_F0078_v2.md#decision-reviewed), independently checked in [R_F0207](../audits/reviews/Yin_R_F0207_v1.md#curvature-row-criterion).
+Bounding the row integral of the curvature kernel and the product of that kernel with the endpoint distance suffices, even when no finite composition has a known uniform square-integrable row.
+The dyadic square sum of the maximal marginal ball densities implies both bounds and includes logarithmic decay with exponent greater than one half.
+A [correlated shrinking-circle example](../drafts/Yin_D_F0006.md#a-sharp-threshold-on-a-fixed-singular-marginal) tests the spectral cut bounds beyond the uniform curvature-row class by computing the exact second-chaos correction in the measurable Gaussian criterion.
 
 D_F0002 retains the failed complex cross-energy identity: the Haar test excludes coercivity from it alone.
 The accepted actual scalar-law obstruction [C_F0143](../claims/Yin_C_F0143_v1.md#statement), independently reviewed in [R_F0150](../audits/reviews/Yin_R_F0150_v1.md#conclusion), has finite curvature with divergent fourth kernel composition and a positive auxiliary contraction unbounded from the operator norm to L2, while the original normal canonical domains hold.
@@ -216,7 +220,10 @@ Consequently every bounded relation Pa=0 for a holomorphic polynomial matrix has
 This removes all such finite range obstructions.
 Choices and bounds still depend on P; constructing one coherent dual on all M remains open.
 D_F0003 owns the remaining finite-to-global interface.
-It constructs a finite-rank Hilbert operator satisfying every prescribed finite collection of commutator tests exactly.
+Its [finite-module construction](../drafts/Yin_D_F0003.md#simultaneous-solutions-on-finitely-generated-holomorphic-modules) now chooses one normalized dual on each finitely generated holomorphic module of bounded inputs containing the unit.
+Its [stabilization argument](../drafts/Yin_D_F0003.md#stabilization-of-the-closed-restriction-images-on-a-fixed-finite-column) bounds the minimum norm on each fixed finite list uniformly over finite extensions.
+The diffuse arcsine example satisfies this local property and has no global dual, so a global proof needs a simultaneous choice of bounds across varying input lists using the actual ACSY vacuum.
+D_F0003 also constructs a finite-rank Hilbert operator satisfying every prescribed finite collection of commutator tests exactly.
 Its developer-checked [pointwise-radius criterion](../drafts/Yin_D_F0003.md#an-exact-pointwise-radius-criterion-for-bare-full-domain-duals) now identifies the exact additional requirement for bare F: choose finite radii for each input before the finite sets are selected, with one feasible family satisfying all their radius constraints simultaneously.
 A product of weak compact Hilbert balls then supplies a coherent global map; conversely any bare dual supplies those radii.
 A uniform operator-norm-to-H bound is only a stronger sufficient specialization.

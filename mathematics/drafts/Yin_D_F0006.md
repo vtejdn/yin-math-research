@@ -285,3 +285,116 @@ The infinite-series tail was not combined with a quantitative least-eigenvalue e
 The endpoint problem remains unresolved in this round.
 The specific new negative result is the strictly positive mixed-test obstruction to the sharp scalar fixed-vacuum identity.
 The weaker positive-input estimate (R1) with an unspecified finite constant, or a full-domain counterexample for one fixed actual-A normal tuple, remains the mathematical continuation.
+
+## Spectral cuts for the two contraction bounds
+
+Fix one coordinate derivation \(\delta\) on the mixed starred core \(P\), and retain the actual vacuum and adjoint-domain hypotheses above.
+Put \(G_0=E_0\) or \(F_0\), and set \(v_h=h\otimes1\) or \(1\otimes h\), respectively, for \(h\in H\).
+The best constant on positive contractions is \(K_G^+=\sup_{a\in P,\,0\le a\le1}\|G_0a\|_2\), possibly infinite.
+Since \(G_0(1)=0\), writing a selfadjoint contraction as \(2b-1\) and then taking real and imaginary parts gives \(\|G_0a\|_2\le4K_G^+\|a\|\) on the full core whenever \(K_G^+<\infty\).
+
+For a positive contraction \(a\in P\), write \(e_a\) for its spectral measure.
+Let \(Q_a\) be the joint spectral measure of left multiplication by \(a\) on the first coarse leg and right multiplication by \(a\) on the second.
+For each \(h\), define a finite complex measure on \([0,1]^2\) by
+\[
+ \nu_{a,h}(B)=\langle v_h,Q_a(B)\delta a\rangle .
+\]
+Orthogonality for disjoint spectral sets and Cauchy--Schwarz give \(\|\nu_{a,h}\|_{\rm TV}\le\|h\|_2\|\delta a\|_2\).
+The Leibniz rule gives \(\delta f(a)=f^{[1]}(Q_a)\delta a\) for each scalar polynomial, where the divided difference on the diagonal is \(f'\).
+
+Here \(Q_a(\{s=t\})\delta a=0\), including when \(a\) has spectral atoms.
+Indeed, faithfulness of the trace implies that the spectral measures of left and right multiplication on individual leg vectors are absolutely continuous with respect to \(\mu_a=\tau\circ e_a\).
+On simple tensors the joint measures are products, so \(Q_a\) vanishes on the nonatomic part of the diagonal by density of their linear span.
+For each atom \(c\) choose \(R>1\) and the polynomials \(p_n(t)=(t-c)(1-(t-c)^2/R^2)^n\).
+They converge uniformly to zero on \([0,1]\), their derivatives are uniformly bounded there, \(p'_n(c)=1\), and \(p'_n(t)\to0\) elsewhere.
+For the derivative bound use \(n u(1-u)^{n-1}\le1\) for \(0\le u\le1\), by the binomial expansion.
+Consequently \(p_n^{[1]}\) are uniformly bounded and converge pointwise to the indicator of \((c,c)\).
+The spectral theorem now gives \(\delta p_n(a)\to Q_a(\{(c,c)\})\delta a\) in the coarse Hilbert space.
+The dense tensor-adjoint domain stated above makes \(\delta\) closable, so this limit vanishes.
+Summation over the at most countably many atoms proves the assertion.
+
+Define the scalar function for almost every \(0<x<1\) by
+\[
+ k_{a,h}(x)=\int_{s\ne t}
+ \frac{{\bf1}_{\{\min(s,t)<x<\max(s,t)\}}}{|s-t|}\,d\nu_{a,h}(s,t).
+ \tag{C1}
+\]
+The kernel has \(x\)-integral one off the diagonal, so \(\|k_{a,h}\|_{L^1(dx)}\le\|\nu_{a,h}\|_{\rm TV}\).
+Integrating \(f'\) on the interval between \(s\) and \(t\) and applying Fubini against this total-variation bound gives
+\[
+ \langle h,G_0f(a)\rangle=\int_0^1 f'(x) k_{a,h}(x)\,dx .
+ \tag{C2}
+\]
+Each endpoint admits the exact test
+\[
+ K_G^+=\sup_{\substack{a\in P,\ 0\le a\le1\\ \|h\|_2\le1}}
+                \|k_{a,h}\|_{L^\infty(0,1)} .
+ \tag{C3}
+\]
+Taking \(f(t)=t\) in (C2) proves that the left side is bounded by the right.
+For the reverse bound, take \(\phi\ge0\) smooth with compact support in \((0,1)\) and integral one, and put \(f(t)=\int_0^t\phi(x)\,dx\).
+Its real Bernstein polynomials \(f_n\) take values in \([0,1]\) there because their coefficients \(f(j/n)\) lie in \([0,1]\) and the Bernstein basis is a positive partition of unity.
+Apply the [checked tensor Bernstein derivative approximation](../audits/literature/VV16/Yin_U001.md#vv16-u001) to \((s,t)\mapsto f(s)\) on the unit square.
+Its polynomial is \(f_n(s)\), since the basis in \(t\) sums to one, so \(f_n'\to f'\) uniformly.
+Thus \(f_n(a)\) are positive contractions in \(P\), and (C2) gives \(|\int\phi k_{a,h}|\le K_G^+\|h\|_2\).
+Taking a nonnegative smooth approximate identity at Lebesgue points proves the asserted essential bound also for these complex-valued profiles.
+This argument tests only core polynomials and never evaluates \(\delta\) at a discontinuous spectral projection.
+
+For \(h\in\operatorname{Dom}G_0^*\), the actual adjoint gives a more explicit form,
+\[
+ k_{a,h}(x)=\langle G_0^*h,e_a((x,1])\Omega\rangle
+ \quad\text{for almost every }x\in(0,1).
+ \tag{C4}
+\]
+In fact the spectral theorem writes \(f(a)=f(0)1+\int_0^1 f'(x)e_a((x,1])\,dx\) weakly, and the constant term pairs to zero since \(G_0(1)=0\).
+Comparing with (C2) for all polynomial derivatives identifies the two integrable functions, by uniform polynomial density in \(C[0,1]\).
+In particular both legs have \(G_0^*\Omega=\xi\), hence \(|k_{a,\Omega}(x)|\le\|\xi\|_2\sqrt{\tau(e_a((x,1]))}\).
+Both adjoint domains contain the dense starred core, so (C3) can be tested using only unit vectors \(h\in P\).
+Indeed, a uniform bound on those vectors implies \(|\langle h,G_0a\rangle|\le K\|h\|_2\) by (C2), which then extends to all \(h\in H\) by density.
+Thus a sufficient and necessary bound on one leg is uniform control of the pairings in (C4) by \(K\|h\|_2\) for core \(h\), all mixed positive core contractions \(a\), and almost every threshold \(x\).
+
+The [Haar absolute-phase computation](../claims/Yin_C_F0054_v1.md#4-exact-haar-circle-failure-of-the-transformed-contraction-estimate) tests the loss of information in using the vacuum direction alone.
+For that transformed derivation \(G_0=(\mathrm{id}\otimes\tau)\delta_0\) satisfies \(G_0z^{\pm n}=\mathrm i\lambda_n z^{\pm n}\), \(\lambda_n\to\infty\), and \(\xi=0\).
+Take \(a_n=(1+\operatorname{Re}z^n)/2\) and \(h_n=\sqrt{2}\operatorname{Re}z^n\).
+These are a positive core contraction and a unit core vector, with \(|\langle h_n,G_0a_n\rangle|=\lambda_n/(2\sqrt{2})\).
+Equations (C2) and (C4) give \(\|k_{a_n,h_n}\|_\infty\ge\lambda_n/(2\sqrt{2})\) while every vacuum profile vanishes.
+The prescribed coordinate identity \(\delta X=1\otimes1\) fails for this transformed derivation.
+For an actual normal coordinate, the outstanding estimate is (C3) uniformly in the two mixed tests for a fixed tuple on each leg.
+Finiteness for both legs restores the two canonical domains by [C_F0072, Part B](../claims/Yin_C_F0072_v1.md#statement).
+
+### A sharp threshold on a fixed singular marginal
+
+Use the [shrinking-circle law of C_F0143](../claims/Yin_C_F0143_v1.md#argument) for \(Z\), with radii \(r_n=2^{-n}\), weights \(p_n=(1-s)s^{n-1}\), \(s=2^{-b}\), \(b=3/4\), and normalized Haar measure on each circle.
+This fixed law \(\mu\) has a scalar actual vacuum \(\xi_N\in L^2(N)\) for \(N=W^*(Z)\), even though the fourth composition of the marginal curvature kernel is infinite on a set of positive product measure.
+Let \(S_0\) be standard semicircular and free from \(N\).
+For \(\gamma>0,\ \beta\ge0\), set \(d_n=r_n^\gamma n^{-\beta}\), let \(h(z)=1+d_n\) on the \(n\)-th circle, and take \(Y=h(Z)S_0h(Z)\).
+The normal pair \((Z,Y)\) generates \(M=W^*(N,S_0)\), since \(1\le h\le2\) gives \(S_0=h(Z)^{-1}Yh(Z)^{-1}\).
+For \(B\in N\) the reference free law gives \(E_N(S_0 B S_0)=\tau(B)1\) by testing against \(N\) and centering the two \(N\) factors.
+Hence \(E_N(Y^2)=\tau(h^2)h^2\) is nonconstant, so \(Y\) and \(N\) are dependent even in this second-moment test.
+
+The kernel \(u(z,w)=h(z)h(w)\) in the [measurable Gaussian criterion C_F0157](../claims/Yin_C_F0157_v1.md#statement) is positive, bounded and has bounded reciprocal.
+The ratio \(u(w,v)/u(z,w)=h(v)/h(z)\) eliminates the middle variable in its second integral.
+That criterion gives \(\mathsf A(Z,Y)\Longleftrightarrow\mathsf S(Z,Y)\Longleftrightarrow I<\infty\), where
+\[
+ I=\iint\frac{|h(v)/h(z)-h(z)/h(v)|^2}{|z-v|^2}\,d\mu(z)\,d\mu(v).
+ \tag{C5}
+\]
+The numerator vanishes for points on the same circle.
+For \(z\) on circle \(n\) and \(v\) on circle \(m>n\), the separation satisfies \(r_n/2\le |z-v|\le3r_n/2\).
+Moreover \(d_m/d_n\le2^{-\gamma}\) and the numerator before squaring equals \((d_n-d_m)(1/h(z)+1/h(v))\) in absolute value.
+It thus lies between \((1-2^{-\gamma})d_n\) and \(2d_n\).
+Summing the two orders of the circles and using \(\sum_{m>n}p_m=s^n\) gives two-sided comparison, with constants depending only on \(b,\gamma\),
+\[
+ I\asymp\sum_{n\ge1}p_n s^n\,d_n^2/r_n^2
+ \asymp\sum_{n\ge1}2^{-2n(b+\gamma-1)}n^{-2\beta}.
+ \tag{C6}
+\]
+Consequently both target hypotheses hold for \(\gamma>1/4\) and both fail for \(0<\gamma<1/4\).
+At the critical exponent \(\gamma=1/4\), both hold exactly when \(\beta>1/2\).
+
+In the finite regime \(I\) is the squared norm of the degree-two correction \(\chi\) to the marginal vacuum in the original target \(Z\) coordinate.
+The [two reference-to-target contraction estimates of C_F0156](../claims/Yin_C_F0156_v1.md#quantitative-bounds-and-curvature-form) bound the right slice \(E_0\) and its adjoint-reversed slice \(p\mapsto(F_0(p^*))^*\) by \(K_0\|\xi_N\|_2+2\sqrt{2I}\), with \(K_0=\sqrt{4/\pi}(5+2\sqrt{27})\).
+The involutions preserve both norms, so (C3) gives this bound on each \(Z\) leg for all mixed target tests despite the marginal curvature divergence.
+Along \(\gamma=1/4\) the squared correction norm grows comparably to \((2\beta-1)^{-1}\) as \(\beta\downarrow1/2\), by (C6) and integral comparison.
+This calculation determines the growth of the vacuum correction and supplies an upper bound on the cut norm.
+Below the integrability threshold the pair fails the required antecedent \(\mathsf A\), so the unrestricted normal converse remains open.
