@@ -16,7 +16,7 @@ author: Yin
 | disposition | active |
 | priority | Resolve the converse for arbitrary correlated normal coordinates. Control the two canonical slices on unrestricted words, or build a normal separating tuple. The arbitrary-tuple maximal-Delta comparison is settled. |
 
-Updated: 2026-11-13.
+Updated: 2026-11-14.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
 
 ## Current question and exact reduction
@@ -308,7 +308,15 @@ There is a separate positive result for correlated coordinates whose marginal sp
 The [finite disjoint arc theorem](../claims/Yin_C_F0234_v1.md#decision-reviewed) gives the original column cost and both canonical domains at a specified coordinate with such a carrier, without any spectral assumption on the other coordinates.
 The [closed curve theorem](../claims/Yin_C_F0236_v1.md#decision-reviewed) allows a full regular loop with weighted summable Fourier coefficients, including every regular \(C^3\) embedded loop.
 The full comparison holds when each coordinate admits one of these two carrier types.
-For more general carriers with separated components, the [localization calculation](../drafts/Yin_D_F0002.md#localization-between-separated-spectral-components) controls all cuts between distinct components and leaves the within-component cuts on the original mixed core.
+The [separated component theorem](../claims/Yin_C_F0237_v1.md#decision-reviewed) also controls mixed words within each regularly parametrized component, even when a single coordinate carries both arcs and complete loops.
+For arbitrary diffuse marginals, the [inverse spectral gap criterion](../claims/Yin_C_F0238_v1.md#decision-reviewed) separates the marginal and off-diagonal contributions to the actual vacuum and recovers the original column cost by testing uniform boundedness of its regularizations.
+Any separating example must have finite inverse-gap energy of the liberation vector and fail a uniform regularized column bound, possibly after taking the adjoint tuple and adjoining two free Haar unitaries.
+The [two-block criterion](../claims/Yin_C_F0239_v1.md#decision-reviewed) excludes the pair consisting of a diffuse normal coordinate and its conjugate by an independent free unitary of nonzero trace.
+The [singular disk coupling](../claims/Yin_C_F0240_v1.md#decision-reviewed) nevertheless supports bounded tests in both two-block directions even with positive diagonal mass.
+In its commuting realization a degree-three zero relation detects the failure of the full vacuum.
+In its noncommuting realization the uniform planar marginal laws meet the [upper-growth condition](../claims/Yin_C_F0078_v1.md#statement), so even a proof of full ACSY for that realization would give strong duals.
+In the [two-segment Gaussian example](../claims/Yin_C_F0241_v1.md#decision-reviewed), an inverse divided difference with logarithmically divergent Schur multiplier norms still permits finite original columns in both orientations.
+Thus failure of the Fourier multiplier bound for a change of variables leaves the actual mixed-word endpoint to be tested.
 The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
 For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 

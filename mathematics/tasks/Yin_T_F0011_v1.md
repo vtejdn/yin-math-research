@@ -151,6 +151,9 @@ The [packing estimate for local finite-spectrum approximations](../claims/Yin_C_
 The nonnormal separating example does not settle this implication.
 For correlated tuples in which each coordinate has either a [finite disjoint regular arc cover](../claims/Yin_C_F0234_v1.md#decision-reviewed) or a [regular closed carrier with weighted summable Fourier coefficients](../claims/Yin_C_F0236_v1.md#decision-reviewed), the actual conjugate-variable, bare and strong dual conditions are equivalent.
 When only one coordinate has such a carrier, its own original canonical operator already has both full bounded-vector domains under the actual conjugate-variable hypothesis.
+The same coordinate can carry [finitely many separated regular curves](../claims/Yin_C_F0237_v1.md#decision-reviewed), including both arcs and complete loops.
+For general diffuse marginals the [inverse spectral gap criterion](../claims/Yin_C_F0238_v1.md#decision-reviewed) computes the squared norm of the full conjugate vector as the squared marginal norm plus the inverse squared gap integral of its liberation gradient.
+The remaining universal implication is equivalent to boundedness, for each such tuple and coordinate, of the regularized column costs as the cutoff tends to zero.
 
 ## Starting evidence
 
