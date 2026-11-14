@@ -127,6 +127,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [PV23/Yin_U001](PV23/Yin_U001.md) | PV23-U001: Matrix Domains and Scalar Inversion |
 | [Par88/Yin_U001](Par88/Yin_U001.md) | Par88-U001: Kronecker's Proof and Its Strategy Interfaces |
 | [Pis12/Yin_U001](Pis12/Yin_U001.md) | Little Grothendieck inequality for marginal lifting |
+| [Pis12/Yin_U002](Pis12/Yin_U002.md) | Two-state domination of a bounded Hilbert-valued map on a C*-algebra |
 | [Shl24/Yin_U001](Shl24/Yin_U001.md) | Shl24-U001: Explicit Dual-System Difference-Quotient Formula |
 | [TV06/Yin_U001](TV06/Yin_U001.md) | TV06-U001: Cauchy-transform norms with square-integrable maximal density |
 | [Tol17/Yin_U001](Tol17/Yin_U001.md) | Tol17: A selected global Cauchy-curvature interface |

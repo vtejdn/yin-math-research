@@ -13,3 +13,4 @@ Those two date facts are not conflated; the unit records its actual inspected pa
 The following selected units retain their stated editions, passages, inspection dates, and review limits.
 
 - [Yin_U001](Yin_U001.md)
+- [Yin_U002](Yin_U002.md)

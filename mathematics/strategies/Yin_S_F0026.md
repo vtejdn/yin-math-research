@@ -288,6 +288,19 @@ Its compression to the distinguished marginal equals the conditional variance of
 For a single real generator, domination of that last scalar weight characterizes all densities that work on the entire core.
 For a [general normal coordinate](../claims/Yin_C_F0271_v1.md#decision-reviewed), two marginal tests detect whether such an exact isometric density exists on the mixed core: their defects vanish together exactly for affine-line support.
 The marginal projection of every mixed output has a column estimate, and two-sided comparability of the two-block law extends the estimate to the closed span of products of an omitted coefficient followed by a marginal one.
+The [fixed-tuple single-input estimate](../claims/Yin_C_F0276_v1.md#decision-reviewed) gives \(a_i\le c_i\le\sqrt2\,a_i\) for three or more coordinates, where \(a_i\) measures the slice on individual contractions and \(c_i\) measures all finite columns.
+In this dimension a divergent column or cubic concentration integral rules out bare full-domain duals on the original tuple.
+At every dimension the [fixed-trace cutoff test](../claims/Yin_C_F0282_v1.md#decision-reviewed) reduces forward domain inclusion to pointwise boundedness on a nonmeagre family of projections of one prescribed trace, for example \(1/2\), using any sequence of cutoff radii tending to zero.
+Failure omits a dense \(G_\delta\) of the same projections from the original domain and makes their regularized outputs unbounded along that sequence.
+For two coordinates a bounded slice is an operator-norm limit of finite-column maps supported away from progressively smaller left projections.
+The [alternating conditional-expectation estimate](../claims/Yin_C_F0280_v1.md#decision-reviewed) gives the entire column bound from \(a_i<\infty\) if a finite iterate makes the row density bounded.
+When both marginals are maximal abelian, this condition can be tested on their conditional spectral densities, uniformly over input word length.
+For all dimensions [one freely adjoined scalar normal coordinate](../claims/Yin_C_F0278_v1.md#decision-reviewed) with a scalar conjugate variable suffices to detect an infinite original column cost.
+The [ordered product density](../claims/Yin_C_F0279_v1.md#decision-reviewed) also yields an exact weighted norm test for two-block outputs without a uniform lower Gram bound.
+Its [conditional divergences](../claims/Yin_C_F0281_v1.md#decision-reviewed) quantify how much mass must leave increasingly rare spectral pairs and constrain nearly perfectly correlated tests.
+Symmetric ordered couplings with finite reverse product divergence can still have maximal centered correlation one, leaving the other mixed-word tests essential.
+For [a measurable location and scale of a free selfadjoint noise](../claims/Yin_C_F0277_v1.md#decision-reviewed), two explicit weighted differences together with an inverse-scale and marginal vacuum condition characterize both regularity hypotheses.
+On the area disk, simultaneous location \(|Z|^\beta\) and scale \(|Z|^\alpha\) have both properties precisely for \(\alpha<1\) and \(\beta>2\alpha-1\), for positive exponents.
 For old tuples with finite column costs in both orientations, the [bounded semicircular drift theorem](../claims/Yin_C_F0212_v1.md#decision-reviewed) decides both conditions for the tuple obtained by adjoining a free semicircular plus an arbitrary bounded selfadjoint old-algebra element.
 With [arbitrary free selfadjoint noise having a scalar vacuum](../claims/Yin_C_F0268_v1.md#decision-reviewed), the two conditions hold exactly when the commutator of each old canonical slice with the drift is Hilbert–Schmidt.
 The squared norm of each old vacuum increases by the squared Hilbert–Schmidt norm of its commutator times the squared norm of the noise vacuum.

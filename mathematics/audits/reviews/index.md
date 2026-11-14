@@ -323,6 +323,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0282](Yin_R_F0282_v1.md#finding) | Quantitative angular spread at a common singular concentration point | [v1](Yin_R_F0282_v1.md) |
 | [Yin_R_F0283](Yin_R_F0283_v1.md#finding) | Secant spread and the singular-mass exponent for regularly varying fixed shifts | [v1](Yin_R_F0283_v1.md) |
 | [Yin_R_F0284](Yin_R_F0284_v1.md#finding) | Common character on a correlated disk pair and a nonnormal residual with quadratic singular mass | [v1](Yin_R_F0284_v1.md) |
+| [Yin_R_F0285](Yin_R_F0285_v1.md#finding) | Single-input bounds, omitted-unitary averaging and column costs on the original tuple | [v1](Yin_R_F0285_v1.md) |
+| [Yin_R_F0286](Yin_R_F0286_v1.md#finding) | Measurable location and scale of a free selfadjoint noise and the critical radial exponents | [v1](Yin_R_F0286_v1.md) |
+| [Yin_R_F0287](Yin_R_F0287_v1.md#finding) | Detection of column costs by one freely adjoined normal coordinate | [v1](Yin_R_F0287_v1.md) |
+| [Yin_R_F0288](Yin_R_F0288_v1.md#finding) | Product density, optimal weighted test and nonuniform two-block Gram estimate | [v1](Yin_R_F0288_v1.md) |
+| [Yin_R_F0289](Yin_R_F0289_v1.md#finding) | Full mixed columns under an iterated conditional-expectation bound | [v1](Yin_R_F0289_v1.md) |
+| [Yin_R_F0290](Yin_R_F0290_v1.md#finding) | Conditional product divergences, leakage limits and concentration of highly correlated tests | [v1](Yin_R_F0290_v1.md) |
+| [Yin_R_F0291](Yin_R_F0291_v1.md#finding) | Full domains and generic cutoff divergence on each fixed trace layer | [v1](Yin_R_F0291_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
