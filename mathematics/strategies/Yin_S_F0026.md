@@ -327,6 +327,9 @@ For [graph slopes of bounded variation](../claims/Yin_C_F0246_v1.md#decision-rev
 The column bound depends on the total slope variation and the original real conjugate-variable norm, allowing infinitely many jumps of summable magnitude.
 Around one accumulation point, [the localized shell bound](../claims/Yin_C_F0247_v1.md#decision-reviewed) uses only the largest slope variation on a single one-sided shell.
 It proves both domains for the dyadically repeated triangular graph even though its slope has infinite total variation and its sampled inverse secants have unbounded Schur norms on interval-supported marginals.
+On [finite arc networks](../claims/Yin_C_F0248_v1.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
+The finite sum of their estimates controls the original mixed words, including for networks with crossings, branches and cycles.
+At a common outgoing tangent the signed parameters on the two sides can separate faster than their images in the plane, as for the branches \(x\pm i x^2\).
 The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
 For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 

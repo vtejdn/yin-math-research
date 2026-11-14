@@ -159,6 +159,8 @@ For arbitrarily correlated selfadjoint coordinates, passing to [real Lipschitz g
 At any such graph coordinate a measurable Schur bound for its inverse secant yields both original canonical domains.
 If the [graph slope has bounded variation](../claims/Yin_C_F0246_v1.md#decision-reviewed), both domains hold with an absolute multiple of \((1+\operatorname{Var}(g_i'))\|\xi_{S_i}\|_2\) as the column bound, including at corners with a non-Schur inverse secant.
 [Uniform slope variation on each one-sided dyadic shell](../claims/Yin_C_F0247_v1.md#decision-reviewed) about a point also suffices, even for a polygon with infinite total slope variation and unbounded inverse-secant Schur norm.
+The [finite planar network theorem](../claims/Yin_C_F0248_v1.md#decision-reviewed) gives both domains on any finite union of line segments and on finite networks of regular \(C^2\) arcs whose incident outgoing tangents are distinct.
+Other coordinates may have arbitrary spectra and correlations.
 
 ## Starting evidence
 
