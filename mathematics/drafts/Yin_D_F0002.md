@@ -1737,3 +1737,118 @@ This works for the liberation slice and for the original slice whenever its colu
 In the latter case a finite-column application to \(v=e_a,w=e_b\) bounds each individual cut by twice the full cost, since the spectral projections belong to the continuous marginal algebra.
 Together with the theorem's off-diagonal bounds and finite recombination, this gives equivalence between finite full cost and finite cost for every same-component cut of any fixed separated partition.
 The [cutoff column criterion](../claims/Yin_C_F0238_v1.md#removing-the-cutoff-in-the-column-norm) gives a corresponding test without a separation hypothesis, using smooth functions of spectral distance.
+
+<a id="cauchy-measure-with-cubic-density"></a>
+## Planar marginal vacua as cubic densities over Cauchy-bounded measures
+
+For a compactly supported planar probability \(\mu\), the scalar actual starred vacuum exists if and only if
+\[
+     \mu=\rho\,\nu,\qquad \rho\ge0,\quad \rho\in L^3(\nu),
+     \qquad \sup_{\varepsilon>0}\|C_{\nu,\varepsilon}\|_{L^2(\nu)\to L^2(\nu)}<\infty,       \tag{1}
+\]
+where \(\nu\) is a finite compactly supported nonatomic positive Borel measure with linear growth \(\nu(B(z,r))\le A r\).
+Here \(C_{\nu,\varepsilon}f(z)=\int_{|z-w|>\varepsilon}f(w)/(z-w)\,d\nu(w)\).
+The forward construction gives \(\rho\ge1\) and mutually absolutely continuous \(\mu,\nu\).
+This criterion gives another proof that any coordinatewise bi-Lipschitz homeomorphisms of the whole plane preserve actual ACSY in both directions on arbitrary correlated normal tuples.
+It also identifies an integrable weight and a bounded Cauchy operator before any change of coordinates.
+
+### An antisymmetric bilinear form and its two weighted estimates
+
+Suppose \(\mu\) has scalar vacuum \(\zeta\).
+Write \(P=\mathbb C[Z,Z^*]\), \(H=L^2(\mu)\), \(E p(z)=\int(p(z)-p(w))/(z-w)\,d\mu(w)\).
+The [one-coordinate column estimate](../claims/Yin_C_F0233_v1.md#a-scalar-commutator-and-positive-weights-in-the-ambient-algebra) and the [attained density bound](../claims/Yin_C_F0211_v1.md#statement) give \(c\le12\|\zeta\|_2\) and a probability density \(d_0\) satisfying \(\|Ep\|_2^2\le c^2\int |p|^2d_0\,d\mu\).
+Put \(b=\bar\zeta/2\), \(W=1+|b|^2+c^2 d_0\) and \(Kp=bp-Ep\).
+Thus \(1\le W<\infty\) almost everywhere, \(W\in L^1(\mu)\), and
+\[
+                  \|Kp\|_2\le\sqrt2\,\|p\|_{L^2(W\mu)}.                     \tag{2}
+\]
+Extend \(K\) by continuity to all of \(L^2(W\mu)\), using the density of starred polynomials for this finite compact measure.
+Write the complex bilinear form \(B(f,g)=\int g Kf\,d\mu\).
+For \(f,g\in P\), expand the double difference of \(fg\) and interchange its two integration variables in the second Leibniz term.
+This gives \(\int g E f+ f E g\,d\mu=\int\bar\zeta fg\,d\mu\), hence \(B(f,g)=-B(g,f)\).
+Equivalently \(K\) is the weak Cauchy operator on this core: the [uniform soft vacuum bound](../claims/Yin_C_F0055_v1.md#5-vacuum-control-of-all-soft-cauchy-transforms) and antisymmetric pairing give \(C_t\mu\rightharpoonup b\), while \(E_t f\to Ef\) in \(H\) by dominated convergence at every fixed \(f\in P\).
+The relation \(C_t(f\mu)=fC_t\mu-E_t f\) then gives \(C_t(f\mu)\rightharpoonup Kf\) on \(P\).
+Here \(k_t(u)=\bar u/(|u|^2+t)\).
+
+The form is antisymmetric on all of \(L^2(W\mu)\times L^2(W\mu)\) by approximation, since \(W\ge1\).
+There we have both estimates
+\[
+       |B(f,g)|\le\sqrt2\,\|f\|_{L^2(W\mu)}\|g\|_H,\qquad
+       |B(f,g)|\le\sqrt2\,\|f\|_H\|g\|_{L^2(W\mu)}.                      \tag{3}
+\]
+On the strip \(0\le\operatorname{Re}s\le1\) take bounded \(f,g\) supported on \(\{W\le n\}\), and set
+\[
+             F(s)=B\big(W^{-s/2}f,\ W^{-(1-s)/2}g\big).
+\]
+On these supports \(\log W\) is bounded, so both vector arguments are holomorphic with values in \(L^2(W\mu)\), and \(F\) is bounded on the closed strip.
+At \(\operatorname{Re}s=0\) use the **second** estimate of (3), where the absolute factors in the two slots are \(1,W^{-1/2}\).
+At \(\operatorname{Re}s=1\) use the **first** estimate, where they are \(W^{-1/2},1\).
+Both vertical boundaries therefore have the same bound \(K_0=\sqrt2\|f\|_H\|g\|_H\).
+For \(\varepsilon>0\) multiply \(F(s)\) by \(\exp(\varepsilon(s-1/2)^2)\) and apply the maximum principle on rectangles of height tending to infinity.
+The horizontal boundary bounds tend to zero by boundedness of \(F\), while the vertical bounds are at most \(e^{\varepsilon/4}K_0\).
+At the midpoint let \(\varepsilon\downarrow0\) to obtain
+\[
+       |B(W^{-1/4}f,W^{-1/4}g)|\le\sqrt2\,\|f\|_H\|g\|_H .              \tag{4}
+\]
+Put \(\rho=W^{1/2}\), \(\nu=\rho^{-1}\mu\), so \(\int\rho^3\,d\nu=\int W\,d\mu\).
+For bounded \(u,v\) supported on \(\{W\le n\}\), take \(f=W^{-1/4}u,\ g=W^{-1/4}v\) in (4).
+This bounds \(B(u/\rho,v/\rho)\) by \(\sqrt2\|u\|_{L^2(\nu)}\|v\|_{L^2(\nu)}\).
+The truncated test spaces have dense union in \(L^2(\nu)\), since \(W\) is finite almost everywhere.
+The form thus defines a bounded \(S\) there by \(\int v Su\,d\nu=B(u/\rho,v/\rho)\).
+For each input in the dense union its value is \(K(u/\rho)\) in \(L^2(\nu)\), since \(\nu\le\mu\) and the equality holds against the dense tests.
+
+### From the rank-one commutator to the hard Cauchy operators
+
+On \(P\) the difference-quotient identity \([E,Z]p=(\int p\,d\mu)1\) gives \([K,Z]p=-(\int p\,d\mu)1\).
+Multiplication by \(Z\) is bounded in both weighted spaces in (2), so the latter identity extends to \(L^2(W\mu)\).
+Apply it to \(u/\rho\) on the dense truncated test spaces, which are stable under \(Z\).
+Then on all \(L^2(\nu)\) we get \([S,Z]u=-(\int u\,d\nu)1\).
+Compression to a ball \(B(z,r)\) and subtraction of \(z\) from \(Z\) give \(\nu(B(z,r))\le2\|S\|r\), by taking the norm of the compressed rank-one operator.
+
+For separated compact subsets \(F,G\) of the support let \(P_F,P_G\) be the multiplication projections.
+The operator \(P_FS P_G:L^2(\nu|_G)\to L^2(\nu|_F)\) and the Hilbert–Schmidt integral operator with kernel \(1/(z-w)\) on \(F\times G\) satisfy the same equation \(T Z_G-Z_F T=-|1_F\rangle\langle 1_G|\).
+The difference \(U\) intertwines \(Z_G,Z_F\), whose spectra lie in \(G,F\), respectively.
+For completeness, make a finite union of small grid squares with \(G\) in its interior and with closure disjoint from \(F\), by including all squares within a sufficiently small positive distance of \(G\).
+Its oriented boundary avoids both compact sets, with winding number one on \(G\) and zero on \(F\).
+The resolvent intertwining \(U(\lambda-Z_G)^{-1}=(\lambda-Z_F)^{-1}U\) integrated on that boundary gives \(U=0\) by the scalar Cauchy formula for these two multiplication operators.
+For general \(u\in L^2(\nu)\), use \(G=\operatorname{supp}(u\nu)\), where the support means the essential closed support of \(u\) for \(\nu\).
+The compact sets \(F_k=\{z\in\operatorname{supp}\nu:\operatorname{dist}(z,G)\ge 1/k\}\) exhaust the complement of \(G\) in the support.
+The block calculation gives the Cauchy integral formula for \(Su\) almost everywhere outside \(G\).
+
+Thus \(S\) meets the off-support operator definition in §1 of Nazarov–Treil–Volberg on the separable plane with linear growth and the dimension-one Cauchy kernel.
+The size condition follows from \(1/|z-w|\); the difference of the two reciprocals gives the Hölder bounds in each variable for any exponent in \((0,1)\).
+Theorem 1.1(3) there gives boundedness of the maximal hard truncation on \(L^p(\nu)\), including \(p=2\).
+For a growth constant other than one, divide the measure and its integral operator by the same positive constant before applying the theorem and then restore the initial scaling.
+In particular (1) holds for the constructed \(\nu\).
+The cited numbering and pp. 3–5 are those of Treil's author-hosted earlier edition. [NTV98 edition note](../audits/literature/NTV98/readme.md)
+
+### Recovery from an \(L^3\) density and change of planar coordinates
+
+Conversely start with a representation in (1).
+The bounded family \(C_{\nu,1/n}\) has a weak-operator cluster point on \(L^2(\nu)\).
+Every block with positively separated compact supports already equals the ordinary Cauchy integral on that block for all sufficiently large \(n\).
+The compact exhaustion above therefore identifies the cluster point with the required off-support bounded Cauchy realization.
+The same maximal theorem now applies at \(p=3\).
+For every \(\varepsilon>0\), Hölder gives
+\[
+     \|C_{\mu,\varepsilon}1\|_{L^2(\mu)}^2
+      =\int |C_{\nu,\varepsilon}\rho|^2\rho\,d\nu
+      \le\|C_{\nu,\varepsilon}\rho\|_{L^3(\nu)}^2\|\rho\|_{L^3(\nu)}
+      \le \|C^\#_\nu\|_{3\to3}^2\,\|\rho\|_{L^3(\nu)}^3 .                \tag{5}
+\]
+For each target starred polynomial \(p\) the antisymmetric identity is
+\[
+      2\int p C_{\mu,\varepsilon}1\,d\mu
+           =\iint_{|z-w|>\varepsilon}\frac{p(z)-p(w)}{z-w}\,d\mu(z)d\mu(w).
+\]
+The compact-support Lipschitz bound for \(p\) and diffuseness imply convergence of the right side to the original double trace.
+Equation (5) makes this trace functional \(L^2(\mu)\)-bounded, placing \(1\otimes1\) in the Hilbert adjoint domain of the represented divided-difference derivation.
+
+For a bi-Lipschitz homeomorphism \(h:\mathbb C\to\mathbb C\), Tolsa's Theorem 1.4 transfers the uniform hard \(L^2\) bound to \(h_*\nu\).
+The published definition on p. 1245 uses \(1/(w-z)\), changing all these operators by a common minus sign.
+The theorem on p. 1247 concerns the uniform hard truncation norm. [Tol05 source inspection](../audits/literature/Tol05/Yin_U001.md#tol05-u001)
+Linear growth passes to \(h_*\nu\) with factor \(\operatorname{Lip}(h^{-1})\), and \(h_*\mu=(\rho\circ h^{-1})h_*\nu\) with unchanged cubic integral.
+The scalar converse just proved gives the actual vacuum for the image.
+For each coordinate of an actual correlated normal tuple, the [Borel relabelling criterion](../claims/Yin_C_F0244_v1.md#statement), item 1, preserves the liberation vacuum and bounds the target inverse-gap integral by \(\operatorname{Lip}(h^{-1})^2\) times the original one.
+Hence actual ACSY transfers on the represented mixed starred polynomial algebra, and the inverse maps give the reverse implication.
+This argument concerns the actual tensor vacua; estimates of the mixed slice on arbitrary columns require additional information.

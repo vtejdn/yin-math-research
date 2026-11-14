@@ -310,6 +310,10 @@ The [closed curve theorem](../claims/Yin_C_F0236_v1.md#decision-reviewed) allows
 The full comparison holds when each coordinate admits one of these two carrier types.
 The [separated component theorem](../claims/Yin_C_F0237_v1.md#decision-reviewed) also controls mixed words within each regularly parametrized component, even when a single coordinate carries both arcs and complete loops.
 For arbitrary diffuse marginals, the [inverse spectral gap criterion](../claims/Yin_C_F0238_v1.md#decision-reviewed) separates the marginal and off-diagonal contributions to the actual vacuum and recovers the original column cost by testing uniform boundedness of its regularizations.
+The [scalar vacuum norm squared](../claims/Yin_C_F0255_v1.md#decision-reviewed) is comparable to the sum of the total squared Menger curvature and the integral of the squared maximal linear density.
+For [square-Dini changes of planar coordinates](../claims/Yin_C_F0254_v1.md#decision-reviewed), a direct comparison of the three-point soft Cauchy kernels gives an explicit upper bound for the new vacuum norm.
+For [all global bilipschitz homeomorphisms of the plane](../claims/Yin_C_F0256_v1.md#decision-reviewed), the geometric energy and the mixed vacuum norm squared are comparable in both directions with constants depending only on distortion.
+The [density factorization argument](../drafts/Yin_D_F0002.md#cauchy-measure-with-cubic-density) also considers representations of a scalar law as an \(L^3\) density over a measure with uniformly bounded hard Cauchy truncations on \(L^2\).
 Any separating example must have finite inverse-gap energy of the liberation vector and fail a uniform regularized column bound, possibly after taking the adjoint tuple and adjoining two free Haar unitaries.
 The [dyadic column estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) gives at most logarithmic growth as the cutoff is removed, with square-root logarithmic growth for the off-diagonal vacuum contribution.
 Its shell bounds are summable under the stated logarithmic improvements in the marginal ball masses and the inverse-gap energy.

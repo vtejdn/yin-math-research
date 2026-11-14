@@ -130,6 +130,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Shl24/Yin_U001](Shl24/Yin_U001.md) | Shl24-U001: Explicit Dual-System Difference-Quotient Formula |
 | [TV06/Yin_U001](TV06/Yin_U001.md) | TV06-U001: Cauchy-transform norms with square-integrable maximal density |
 | [Tol17/Yin_U001](Tol17/Yin_U001.md) | Tol17: A selected global Cauchy-curvature interface |
+| [Tol05/Yin_U001](Tol05/Yin_U001.md#tol05-u001) | Good-set overlap and image packing in the bilipschitz curvature theorem, and invariance of the hard Cauchy bound |
+| [NTV98 source notes](NTV98/readme.md) | Author edition for the off-support Cauchy operator and its maximal hard truncations |
 | [Tre17/Yin_U001](Tre17/Yin_U001.md) | Tre17: Analytic Chebyshev Coefficients |
 | [Unt20/Yin_U001](Unt20/Yin_U001.md) | Unt20-U001: Reading Map of the Attempted Rationality Proof |
 | [VV16/Yin_U001](VV16/Yin_U001.md) | VV16: First Derivatives of Tensor Bernstein Approximants |
