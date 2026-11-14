@@ -927,6 +927,100 @@ Since \(t_j/r_j^{2/3}=\sum_{k\ge j}2^{-2(k-j)/3}w_k/r_k^{2/3}\), geometric convo
 Both constants are uniform in the center and the starting radius.
 The localization uses disjoint shell tests of the actual packing inequality and requires no Lebesgue density on a real parameter line.
 
+### Spectral phases in (R1) and collinear annular outputs in a correlated Haar pair
+
+For any actual normal tuple, let \(G_{kl}=C I_{k\otimes l}\gamma\) for marginal spectral projections \(k,l\), and put \(m_l=\tau(l)\).
+Let \(w\) be a marginal unitary that equals the scalars \(\lambda_k,\lambda_l\) on \(k,l\), respectively.
+For every mixed-core input \(v\), trace cyclicity, \(\gamma w=w\otimes1-1\otimes w\) and the outer product rule give
+\[
+\begin{split}
+ G_{kl}(vw)&=\lambda_l G_{kl}(v)+(\lambda_k-\lambda_l)m_l v k,\\
+ G_{kl}(wv)&=wG_{kl}(v)+(\lambda_k-\lambda_l)k\,\tau(lv).
+\end{split}
+\]
+Both formulas use the bounded marginal extension of the liberation graph, so they also apply when \(w\) is a step function of the spectral variable. [Bounded marginal words](../claims/Yin_C_F0244_v1.md#the-invariant-liberation-derivation)
+In particular \(G_{kl}(vw)-m_l(vw)k=\lambda_l(G_{kl}(v)-m_l vk)\).
+For \(k=l\), \(G_{kk}(v)=G_{kk}(v)k\).
+Consequently \(\operatorname{Re}\langle w_L v w_R,G_{kk}(w_L v w_R)\rangle=\operatorname{Re}\langle v,G_{kk}(v)\rangle\) whenever both marginal unitaries are scalar on \(k\), with possibly different phases.
+Taking this condition on each of \(e,f\) preserves the signed remainder \(-s q_e-t q_f\) of (R1) for each realization of the phases.
+Thus averaging such left and right partition phases leaves this remainder exactly as large as before.
+
+Now use the [correlated Haar pair and its liberation vacuum](../claims/Yin_C_F0251_v1.md#the-liberation-vacuum-in-free-coordinates), with \(U\) Haar, \(V\) free from \(U\) with Poisson law \(w_r\,dm\), \(0<r<1\), and generators \((U,U^*V)\).
+Let \(b(V)\) range over the Laurent polynomials in \(V\), which are mixed words of the original two generators.
+In the free coordinates put \(D_r b=C L(b(V))\), where \(L(V)=1\otimes V\), \(L(V^*)=-V^*\otimes1\) and \(L\) kills \(U,U^*\).
+The reference liberation kills these \(b(V)\), so \(\gamma b(V)=(I_{U\otimes U^*}-1)L(b(V))\).
+If \(L(b(V))=\sum_i a_i(V)\otimes d_i(V)\), a separated \(U\)-symbol in the right trace replaces the second factors by \(\tau(d_i(V))\) times the corresponding Haar integrals, by freeness.
+In particular, for any bounded Borel \(U\)-symbol \(h(z,w)\),
+\[
+       C I_h\gamma b(V)=(D_r b)(V)\,a_h(U),\qquad
+       a_h(z)=\int h(z,w)(z\bar w-1)\,dm(w).
+\]
+For the extension from separated functions, approximate \(h\) by uniformly bounded rectangle step functions converging product-almost everywhere.
+Product-law domination gives strong convergence on the fixed coarse input, and the integral formula converges in \(L^2(m)\) by domination. [Coarse spectral measure class](../claims/Yin_C_F0238_v1.md#recovering-the-divided-difference-on-the-represented-core)
+
+**All Laurent inputs in the diagonal remainder.**
+For \(t=\tau(e),s=\tau(f),\lambda_k=\tau(kU)\), rectangle insertion gives
+\[
+  G_{ef} b(V)=(D_r b)(V)e(U\overline{\lambda_f}-s),\qquad
+  q_k(b)=-(\tau(k)^2-|\lambda_k|^2)\operatorname{Re}\langle b,D_r b\rangle .
+\]
+The second identity follows by freeness in the scalar pairing and extends the [power-word formula](../claims/Yin_C_F0251_v1.md#the-signed-diagonal-contribution).
+For \(n>0\), the free product rule and the moments \(r^{|n|}\) give
+\[
+   D_r z^n=\sum_{\ell=1}^n r^\ell z^{n-\ell},\qquad
+   D_r z^{-n}=-\sum_{\ell=0}^{n-1} r^\ell z^{-n+\ell},\qquad D_r1=0.
+\]
+On \(L^2(m)\) these two one-sided sums on the positive and negative frequencies are bounded by geometric series of compressed shifts.
+For fixed \(r\), \(w_r\) is bounded above and bounded away from zero, so \(D_r\) extends to \(L^2(w_r\,dm)\).
+Its operator norm is \(1/(1-r)\) and the supremum of its real quadratic form on the Hilbert unit sphere is \(r/(1-r)\).
+Indeed set \(W=(V-r)/(1-rV)\), a Haar variable, and \(u_k=W^k\) for \(k\in\mathbb Z\).
+On polynomials \(b(z)=a(z)\) and \(b(z)=a(\bar z)\), respectively, the two sums give \(r(a(z)-a(r))/(z-r)\) and \(-\bar z(a(\bar z)-a(r))/(\bar z-r)\).
+The same formulas hold for the rational functions \(u_k\) by uniform polynomial approximation of their convergent power series on the closed disk and the boundedness just established.
+It follows for \(A=(1-r^2)D_r\) that
+\[
+ A u_k=
+ \begin{cases}
+ r u_{k-1}+r^2 u_k,&k>0,\\
+ 0,&k=0,\\
+ -u_k-r u_{k+1},&k<0 .
+ \end{cases}
+\]
+Every absolute row and column sum is at most \(1+r\), including \(2r\) in the middle row.
+Unit vectors with equal positive coefficients on \(n\) consecutive negative frequencies attain \(\|A u\|_2\to1+r\).
+The real part \((A+A^*)/2\) has diagonal bounded above by \(r^2\) and absolute neighboring coefficients \(r/2\).
+The inequality \(2|ab|\le |a|^2+|b|^2\) gives its upper form bound \(r^2+r\), approached by the same normalized constant coefficients on a long positive-frequency interval.
+This proves both sharp Hilbert-space constants.
+
+Set \(J_{ef}=\int_{e\times f}|z-w|^2\,dm(z)dm(w)\).
+The mean-value calculation in the [signed remainder estimate](../claims/Yin_C_F0251_v1.md#the-signed-diagonal-contribution) gives \(s(t^2-|\lambda_e|^2)+t(s^2-|\lambda_f|^2)\le(s+t)J_{ef}\).
+The vacuum formula gives \(\|e\eta f\|_2^2=2r^2J_{ef}/(1-r^2)^2\).
+Combining these identities with the upper form bound yields
+\[
+   -s q_e(b)-t q_f(b)
+   \le (s+t)\frac{(1-r)(1+r)^2}{2r}\,
+            \|e\eta f\|_2^2\,\|b\|_2^2 .
+\]
+The sign of \(\operatorname{Re}\langle b,D_rb\rangle\) may vary for Laurent inputs.
+The estimate sums over every finite Laurent column, since \(\sum_i\|b_i\|_2^2=\tau(\sum_i b_i^*b_i)\le\|\sum_i b_i^*b_i\|\).
+The right sides of the slice formulas extend continuously to this one-factor Hilbert space by boundedness of \(D_r\) and freeness.
+These inputs account for only the subalgebra generated by \(V=X_1X_2\) in the original mixed core.
+
+**The actual dyadic shells on the same inputs.**
+Use the [radial annular cutoffs](../claims/Yin_C_F0242_v1.md#annular-multipliers-on-a-square-grid) \(\psi(v)=\phi(v)-\phi(2v)\), \(\rho_j=2^{1-j}\) for the unit circle of diameter two, and \(T_j=C I_{\psi((z-w)/\rho_j)/(z-w)}\gamma\).
+Since \(z\bar w-1=(z-w)\bar w\) on the circle, Haar rotation \(w=z a\) gives the exact output
+\[
+  T_j b(V)=c_j(D_r b)(V)U^*,\qquad
+  c_j=\int_{\mathbb T}\bar a\,\psi((1-a)/\rho_j)\,dm(a).
+\]
+Conjugation symmetry makes \(c_j\) real, and radial monotonicity makes \(\psi\ge0\).
+Since \(\sum_j\psi((1-a)/\rho_j)=1\) off the null point \(a=1\), one has \(\sum_j|c_j|\le1\) and \(\sum_j c_j=\int\bar a\,dm(a)=0\).
+For all sufficiently large \(j\), \(\operatorname{Re}a>0\) on the support because \(|1-a|\le2\rho_j\), and the cutoff is positive on a subarc of positive Haar mass, so \(c_j>0\).
+For example \(D_r(V)=r\), and every pair of sufficiently small shells on this input has normalized Hilbert inner product one.
+For each \(b(V)\) the shell series converges absolutely in \(L^2\) and its sum is zero.
+Whenever \(D_r b\ne0\), the fine-scale outputs are all positive multiples of the same nonzero vector.
+This excludes an inputwise orthogonality argument or a uniform bound below one on the normalized correlations of separated scales in this model.
+It leaves open square-function bounds with the actual scale magnitudes or other cancellations, and the estimate for the full correlated mixed core.
+
 ## Fixed finite-model triangle bound and all-degree core formula
 
 The complete three-variable positive-semidefinite inequality, its constant-one curvature estimate for first relative Wick vectors, and the exact all-degree core formula are fixed in [C_F0149 v2](../claims/Yin_C_F0149_v2.md#statement), with [complete review R_F0157 at its unknown relationship](../audits/reviews/Yin_R_F0157_v1.md#conclusion).

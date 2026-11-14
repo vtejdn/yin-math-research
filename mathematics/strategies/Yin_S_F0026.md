@@ -314,6 +314,9 @@ Any separating example must have finite inverse-gap energy of the liberation vec
 The [dyadic column estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) gives at most logarithmic growth as the cutoff is removed, with square-root logarithmic growth for the off-diagonal vacuum contribution.
 Its shell bounds are summable under the stated logarithmic improvements in the marginal ball masses and the inverse-gap energy.
 For general marginals the remaining issue is cancellation across shells.
+On a [fixed correlated pair with rectangular spectral support](../claims/Yin_C_F0253_v1.md#decision-reviewed), the full soft cutoff has a uniform column bound, while a single half-plane cutoff costs at least a constant times \((\log(1/r))^{1/4}\).
+At each radius one mixed polynomial also gives this lower bound for the angular root mean square, so the estimate requires cancellation between opposite directions before taking norms.
+In the [Poisson Haar pair](../drafts/Yin_D_F0002.md#spectral-phases-in-r1-and-collinear-annular-outputs-in-a-correlated-haar-pair), the fine radial shells on powers of the generator product give positive multiples of the same vector, while the full shell series on its Laurent polynomials sums to zero.
 Even for correlated Haar generators with bounded duals, the [fixed-cutoff counterexample](../claims/Yin_C_F0245_v1.md#decision-reviewed) shows that evaluating the free model's sliced words at the correlated generators gives an unbounded map on the correlated operator-norm unit ball.
 The [two-block criterion](../claims/Yin_C_F0239_v1.md#decision-reviewed) excludes the pair consisting of a diffuse normal coordinate and its conjugate by an independent free unitary of nonzero trace.
 The [singular disk coupling](../claims/Yin_C_F0240_v1.md#decision-reviewed) nevertheless supports bounded tests in both two-block directions even with positive diagonal mass.
