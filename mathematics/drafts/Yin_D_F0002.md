@@ -812,6 +812,121 @@ This calculation identifies the next obligation more narrowly: a successful use 
 Discarding every square before summation loses the needed uniformity.
 The conditional negativity in (P7) alone has not been shown to supply this joint control; it is not adopted as a replacement for the full three-point phase structure.
 
+### A rectangular liberation block and the remaining diagonal terms
+
+Fix orthogonal marginal projections \(e,f\) in an actual normal tuple, and let \(t=\tau(e)>0,\ s=\tau(f)>0\).
+Write \(G_{kl}=(\mathrm{id}\otimes\tau)I_{k\otimes l}\gamma\) for \(k,l\in\{e,f\}\), \(\zeta=(i\gamma)^*(1\otimes1)=-i\eta\), and \(B=e\zeta f+f\zeta e\).
+For an analytic-core unitary \(v\) as in the [finite-kernel energy calculation](../claims/Yin_C_F0077_v1.md#uniform-row-l2-bounds-close-the-kernel-composition-hierarchy), put \(A=G_{ef}v,\ D=G_{fe}v\), \(z^2=\|A\|_2^2+\|D\|_2^2\), and \(q_k=\operatorname{Re}\langle v,G_{kk}v\rangle\).
+For \(b=e\otimes f+f\otimes e\), the row is \(se+tf\), the kernel composition square is \(s e\otimes e+t f\otimes f\), and the vacuum of \(i I_b\gamma\) is \(B\).
+Since \(A=Ae,\ D=Df\), the two outputs are orthogonal.
+Substitution in (B0c) and (B0e) of that calculation gives
+\[
+ z^2-2\operatorname{Re}\langle i(A+D),v B\rangle
+ =2\operatorname{Re}\big(s\langle v,A\rangle+t\langle v,D\rangle\big)
+       -s q_e-t q_f.                                                   \tag{R1}
+\]
+This identity uses diffuse spectral projections on the actual core, for which same-projection cuts can be nonzero.
+
+Put \(h_k=\|k\eta k\|_2\), \(m_k=\tau(k)\), and
+\[
+ L_k=\min\big\{h_k^2/m_k,\ 2\sqrt{m_k}\,h_k+m_k^2\big\}.
+\]
+The [single-projection identity](../claims/Yin_C_F0242_v1.md#the-cost-of-a-measurable-spectral-block), equation (4), gives
+\[
+ m_k q_k=\|iG_{kk}v-v k\zeta k\|_2^2-h_k^2\ge-h_k^2 .
+\]
+It also gives \(\|G_{kk}v\|_2\le 2h_k+m_k^{3/2}\).
+Since the output ends in \(k\), \(|q_k|\le\sqrt{m_k}\|G_{kk}v\|_2\).
+These two bounds prove \(q_k\ge-L_k\).
+Put
+\[
+ D_0=\|B\|_2+\sqrt{s^2t+t^2s},\qquad R_0=sL_e+tL_f .
+\]
+Cauchy–Schwarz on the two outputs in (R1) gives
+\[
+ z^2\le 2D_0z+R_0,\qquad z\le D_0+\sqrt{D_0^2+R_0}.                 \tag{R2}
+\]
+Here \(\|B\|_2^2=\|e\eta f\|_2^2+\|f\eta e\|_2^2\).
+Apply (R2) in the two-free-Haar enlargement where the old liberation vacuum and all displayed compressions are unchanged.
+Averaging the two analytic unitaries of a strict selfadjoint contraction, splitting an arbitrary contraction into its real and imaginary parts, and then using the [free Haar column encoding](../claims/Yin_C_F0208_v1.md#encoding-finite-columns-by-two-haar-unitaries) gives the column bound \(4(D_0+\sqrt{D_0^2+R_0})\) for each of \(G_{ef}\) and \(G_{fe}\).
+The localized derivative kills the Haar letters, so the encoded output has squared norm equal to the sum of the old output squares.
+In particular \(\sqrt{R_0}\le\sqrt{sL_e}+\sqrt{tL_f}\), with \(L_f\le2\sqrt{s}\,h_f+s^2\); even a large \(h_f\) thus enters with an explicit \(\sqrt t\) factor when the first projection is small.
+For \(h_e=h_f=0\), (R2) gives a bound in terms of the two cross compressions and \(s\sqrt t+t\sqrt s\) alone.
+For an arbitrary correlated pair, the term \(-s q_e-t q_f\) in (R1) still requires a lower estimate if both diagonal compressions are to be removed.
+
+In a free pair of diffuse selfadjoint semicircular generators the old liberation vacuum at the first coordinate is zero.
+This follows by applying the double trace of liberation to centered reduced words; on one marginal it is the double trace of the inner difference, and on a longer reduced word the other factors leave a centered reduced trace on at least one side.
+In this example (R2) gives the asserted cross-only order.
+In fact the bounded marginal unitary \(v=1-2f\) has \(G_{ef}v=2se\).
+The marginal formula is \(G_{ef}b=e(sb-\tau(fb))\) for \(b\) in the distinguished marginal, and bounded marginal graph approximants of norm at most \(1+o(1)\) transfer this lower test to the original core.
+Thus \(2s\sqrt t\le c(G_{ef})\), showing the mass order when \(t\le s\).
+This example does not decide the effect of the two residual terms for arbitrary correlated tuples.
+
+For the actual finite-channel Gaussian tuples of the [matrix covariance theorem](../claims/Yin_C_F0209_v1.md#statement), one can remove the two diagonal terms by working with the Gaussian correction in its reduced square positive matrix representation.
+At the normal base coordinate \(Z\) of any such tuple,
+\[
+        c(G_{ef})\le C\big(\|e\eta f\|_2+s\sqrt t+t\sqrt s\big).         \tag{R2G}
+\]
+The absolute constant is independent of the matrix dimension.
+Here the operator-valued covariance is represented by the positive amplitude \(G(z,w)\); its edge reversal is entrywise conjugation.
+The [reference correction arrays](../claims/Yin_C_F0209_v1.md#reference-corrections-for-bounded-positive-matrices) for the derivative at \(Z\) become arrays for \(I_{e\otimes f}\gamma\) upon multiplying the first array by \((z-w)e(z)f(w)\) and the second by \((w-v)e(w)f(v)\).
+In particular the denominators cancel in both arrays.
+Their new numerators, in the same degree-zero/one and one/zero orders as that calculation, are
+\[
+ \begin{split}
+ & e(z)f(w)\,[G(z,v)^{-1}G(w,v)-I],\\
+ & e(w)f(v)\,[I-G(z,v)^{-1}G(z,w)]^{t}.
+ \end{split}
+\]
+Reversing the right one-edge word in the first array and the left one-edge word in the second changes both masks to \(e(z)f(v)\).
+Their two squared Hilbert norms then sum to the integral with this mask of
+\(\|P^{-1}Q-I\|_{\rm HS}^2+\|I-PQ^{-1}\|_{\rm HS}^2\), where \(P=G(z,w)\) and \(Q=\overline{G(w,v)}\).
+The cross term is nonnegative by the trace calculation for (4) in that source.
+Consequently their squared norms sum to at most \(\int e(z)f(v)\|P^{-1}Q-PQ^{-1}\|_{\rm HS}^2\,d\mu^3=\|e\eta f\|_2^2\), using the actual two-edge vacuum and \(\eta=[Z^*,\xi]\).
+The [single color insertion estimate](../claims/Yin_C_F0209_v1.md#contractions-with-a-single-inserted-color) therefore controls the one-input correction and its adjoint by absolute multiples of \(\|e\eta f\|_2\).
+The unchanged reference term is the marked free liberation with zero unmarked vacuum, and (R2) bounds it on bounded inputs by an absolute multiple of \(s\sqrt t+t\sqrt s\).
+Its reverse has the same estimate with the masks exchanged.
+The marked reference vacuum has norm at most \(s\sqrt t+t\sqrt s\) by the [marginal adjoint formula](../claims/Yin_C_F0077_v1.md#the-marginal-restriction-of-the-actual-liberation-adjoint), whose only terms for the free reference are the row and column of \(e\otimes f\).
+The polynomial tensor adjoint formula and bounded Kaplansky approximation thus put all bounded vectors in the domains of the closed reference slice and its adjoint, as for the degree-one correction.
+Their sum has a bounded restriction to \(M\Omega\) and has adjoint there; on bounded strongly-star convergent nets its values converge weakly, by uniqueness of the weak graph limit for each summand.
+
+To identify this sum on the actual Gaussian polynomial core, functional calculus first allows bounded \(G\).
+Approximate its entries by uniformly bounded separated polynomial coefficients preserving reversal and converging product-almost everywhere, as in the matrix theorem.
+On a reference field approximant, the two marked reference liberation arrays are simply the differences \(G^{(n)}(z,v)-G^{(n)}(w,v)\) and \(G^{(n)}(z,w)-G^{(n)}(z,v)\), with their respective adjacent masks.
+They converge strongly as path tensors by dominated convergence, without singular divided differences.
+In the limit the corresponding corrections multiply the two displayed masked numerators on the channel index by \(G(z,v)\) and cancel both differences.
+The reference slice commutator with a bounded coefficient on the left is its tensor derivative paired with the input vector on the right.
+Test this identity on reference polynomial vectors and move the slice to its actual adjoint on the left test to pass to the bounded strong-star limit of the fields.
+The resulting commutator vanishes for every target field there and on bounded inputs by the weak continuity just established.
+On base starred letters the correction commutes and the reference commutator is exactly their marked liberation commutator.
+Both slices vanish at \(1\), so induction gives equality with \(G_{ef}\) on all target starred words.
+The same comparison works for unbounded row-bounded \(G\) without a column-norm limit for the amplitudes.
+Take \(G_m\) to be the positive eigenvalue clipping in [the amplitude cutoff](../claims/Yin_C_F0209_v1.md#removing-the-matrix-amplitude-cutoff).
+The marked reference arrays for its fields converge to the differences for \(G\) itself in \(L^2\) by the fixed \(L^2(\mu^2)\) matrix bound.
+Keep the two correction arrays for \(G\) fixed in this comparison.
+Writing \(D_m=G_m(z,v)G(z,v)^{-1}\), one has \(\|D_m\|\le1\) pointwise.
+The corrected first array for the field with amplitude \(G_m\) sums to \(e(z)f(w)[D_mG(w,v)-G_m(w,v)]\); the second sums to \(e(w)f(v)[G_m(z,w)-D_mG(z,w)]\).
+Both converge to zero in \(L^2(\mu^3)\) by domination by twice the corresponding \(L^2\) matrix amplitude.
+For each \(m\), polynomial approximation of the bounded \(G_m\) permits the same commutator test with the fixed \(L^2\) correction tensors.
+The clipped fields converge boundedly strongly-star to the original fields, which now gives the same commutator identification in the limit.
+
+Finally add two free standard semicircular channels via \(\operatorname{diag}(G,I_2)\), as in the [Gaussian column encoding](../claims/Yin_C_F0241_v1.md#two-gaussian-channels-supply-the-column-test-inside-the-model).
+The two-edge vacuum integrand acquires a zero block and the old base law is unchanged.
+The marked slice annihilates the two added fields and commutes with their left multipliers on bounded inputs, hence also with continuous marginal Haar functions by uniform approximation.
+The norm-two Haar encoding and orthogonality produce (R2G) on finite old columns.
+This Gaussian calculation uses the degree-one correction and the positive-matrix ratio identity of that model; (R1) alone still gives only (R2) for a general actual system.
+
+For later summation, the scalar masses of nested balls have square-summable critical-size ratios at every fixed point \(a\in\mathbb C\) of an arbitrary planar normal marginal with scalar vacuum \(\xi_N\).
+Take \(r_j=2^{-j}R,\ j\ge0\), let \(w_k=\mu\{r_{k+1}<|z-a|\le r_k\}\), and \(t_j=\mu(\overline B(a,r_j))\).
+The [positive-weight packing inequality](../claims/Yin_C_F0233_v1.md#statement), item 1, applied simultaneously to the disjoint shell projections with common center \(a\), yields \(\sum_k w_k^3/r_k^2\le C\|\xi_N\|_2^2\).
+The possible singleton at \(a\) is null.
+Since \(t_j/r_j^{2/3}=\sum_{k\ge j}2^{-2(k-j)/3}w_k/r_k^{2/3}\), geometric convolution on \(\ell^3\) gives
+\[
+                \sum_{j\ge0}\frac{t_j^3}{r_j^2}\le C'\|\xi_N\|_2^2 .       \tag{R3}
+\]
+Both constants are uniform in the center and the starting radius.
+The localization uses disjoint shell tests of the actual packing inequality and requires no Lebesgue density on a real parameter line.
+
 ## Fixed finite-model triangle bound and all-degree core formula
 
 The complete three-variable positive-semidefinite inequality, its constant-one curvature estimate for first relative Wick vectors, and the exact all-degree core formula are fixed in [C_F0149 v2](../claims/Yin_C_F0149_v2.md#statement), with [complete review R_F0157 at its unknown relationship](../audits/reviews/Yin_R_F0157_v1.md#conclusion).

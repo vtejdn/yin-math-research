@@ -330,6 +330,10 @@ It proves both domains for the dyadically repeated triangular graph even though 
 On [finite arc networks](../claims/Yin_C_F0248_v1.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
 The finite sum of their estimates controls the original mixed words, including for networks with crossings, branches and cycles.
 At a common outgoing tangent the signed parameters on the two sides can separate faster than their images in the plane, as for the branches \(x\pm i x^2\).
+For arbitrary planar marginals, the [rectangular liberation calculation](../drafts/Yin_D_F0002.md#a-rectangular-liberation-block-and-the-remaining-diagonal-terms) retains the two diagonal quadratic forms omitted by a cross-only estimate.
+The fixed-center mass series in (R3) there is bounded uniformly by scalar packing.
+For a Lipschitz graph the [weak trace-class estimate](../audits/literature/CSZ18/Yin_U001.md#csz18-u001) applies to the exact inverse-secant symbol, and the [heat-semigroup BMO estimate](../audits/literature/CJSZ20/Yin_U001.md#cjsz20-u001) acts on its finite spectral blocks.
+Using either estimate on arbitrary mixed columns still requires control of the test inputs in the corresponding operator space before the right trace.
 The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
 For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 

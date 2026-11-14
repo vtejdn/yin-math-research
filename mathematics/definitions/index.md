@@ -11,6 +11,7 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 The [Schur multiplier for two measure spaces](../audits/literature/AP25/Yin_U001.md#measurable-schur-factorization) is defined by its action on trace-class integral kernels, with the corresponding norm and measurable factorization.
 The [graph Cauchy singular integral](../audits/literature/Mus14/Yin_U001.md#cauchy-integral-on-a-lipschitz-graph) uses a real graph parameter, Lebesgue measure and Muscalu's kernel normalization.
+For double operator integrals, the [left and right spectral measures](../audits/literature/CSZ18/Yin_U001.md#weak-endpoint-for-the-planar-symbol) fix the action of a symbol, while the [graph heat semigroup and its column BMO norm](../audits/literature/CJSZ20/Yin_U001.md#graph-heat-semigroup-and-bmo) specify the variance norm of an output.
 
 ### Return operators, graph atoms and group-word compatibility
 
