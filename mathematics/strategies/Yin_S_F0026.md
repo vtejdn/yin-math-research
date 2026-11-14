@@ -330,6 +330,8 @@ It proves both domains for the dyadically repeated triangular graph even though 
 On [finite arc networks](../claims/Yin_C_F0248_v2.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
 At a common tangent, encoding intervals of length comparable to the actual branch separation and grouping by height gives the mixed-column bound even at infinite-order contact.
 The finite sum of the pair estimates controls the original mixed words on networks with crossings, branches and cycles.
+For [two graphs with equal slopes on their closed contact set](../claims/Yin_C_F0252_v1.md#decision-reviewed), assigning each common point a single real label retains its full spectral mass.
+The square-root height estimate sums the interaction of this set with all positive height bands, including when infinitely many complementary intervals meet the set.
 For [power-order contact](../claims/Yin_C_F0250_v1.md#decision-reviewed), interleaving the two branches in real intervals of the size of their separation gives a forward Lipschitz decoder and a cross-branch Schur estimate, including for \(x\pm i x^2\).
 For arbitrary planar marginals, the [rectangular liberation calculation](../drafts/Yin_D_F0002.md#a-rectangular-liberation-block-and-the-remaining-diagonal-terms) retains the two diagonal quadratic forms omitted by a cross-only estimate.
 The fixed-center mass series in (R3) there is bounded uniformly by scalar packing.

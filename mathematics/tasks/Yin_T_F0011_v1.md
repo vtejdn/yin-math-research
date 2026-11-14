@@ -161,6 +161,7 @@ If the [graph slope has bounded variation](../claims/Yin_C_F0246_v1.md#decision-
 [Uniform slope variation on each one-sided dyadic shell](../claims/Yin_C_F0247_v1.md#decision-reviewed) about a point also suffices, even for a polygon with infinite total slope variation and unbounded inverse-secant Schur norm.
 The [finite planar network theorem](../claims/Yin_C_F0248_v2.md#decision-reviewed) gives both domains on any finite network of regular \(C^2\) arcs meeting only at vertices after subdivision, including crossings and tangencies of arbitrary order.
 Other coordinates may have arbitrary spectra and correlations.
+For two \(C^{1,1}\) graphs with equal slopes at every common point, the [closed contact set theorem](../claims/Yin_C_F0252_v1.md#decision-reviewed) gives both domains even if the graphs meet on a set of positive spectral mass with infinitely many complementary intervals.
 
 ## Starting evidence
 
