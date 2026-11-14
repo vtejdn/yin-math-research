@@ -43,6 +43,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [AP18/Yin_U001](AP18/Yin_U001.md) | AP18-U001: Kaplansky Density |
 | [AP18/Yin_U002](AP18/Yin_U002.md) | AP18-U002: Standard Representation and Commutant Traces |
 | [AP18/Yin_U003](AP18/Yin_U003.md) | AP18-U003: Affiliation, adjoint domains and tracial L1 functionals |
+| [AP18/Yin_U004](AP18/Yin_U004.md) | Comparison of projections in a finite factor |
 | [Ans04/Yin_U001](Ans04/Yin_U001.md) | Ans04: Selected free Appell recurrence and orthogonality boundary |
 | [BBL21/Yin_U001](BBL21/Yin_U001.md) | BBL21: exact available atom formula and the ACSY24 citation gap |
 | [BBLM05/Yin_U001](BBLM05/Yin_U001.md#bblm05-u001) | Independent-block resampling proxies and Theorem 2 at fourth moments; statement and application interface |

@@ -13,7 +13,7 @@ author: Yin
 
 | Field | Value |
 | --- | --- |
-| disposition | active |
+| disposition | paused |
 | priority | Resolve the converse for arbitrary correlated normal coordinates. Control the two canonical slices on unrestricted words, or build a normal separating tuple. The arbitrary-tuple maximal-Delta comparison is settled. |
 
 Updated: 2026-11-14.
@@ -292,6 +292,9 @@ The [fixed-tuple single-input estimate](../claims/Yin_C_F0276_v1.md#decision-rev
 In this dimension a divergent column or cubic concentration integral rules out bare full-domain duals on the original tuple.
 At every dimension the [fixed-trace cutoff test](../claims/Yin_C_F0282_v1.md#decision-reviewed) reduces forward domain inclusion to pointwise boundedness on a nonmeagre family of projections of one prescribed trace, for example \(1/2\), using any sequence of cutoff radii tending to zero.
 Failure omits a dense \(G_\delta\) of the same projections from the original domain and makes their regularized outputs unbounded along that sequence.
+On an original tuple of at least two coordinates, [negative spectral projections of polynomial congruences](../claims/Yin_C_F0288_v1.md#decision-reviewed) give a countable dense family of any prescribed trace on which both limiting slice values exist.
+Uniform boundedness on this family suffices, although the unsliced derivatives are unbounded in every open patch.
+After freely adjoining a Haar unitary, the [unitary orbit of one fixed projection](../claims/Yin_C_F0289_v1.md#decision-reviewed) gives the exact original single-input norm up to the factor \(\sqrt{t(1-t)}\), where \(t\) is the projection trace.
 For a fixed selfadjoint mixed polynomial, its [spectral projections](../claims/Yin_C_F0285_v1.md#decision-reviewed) belong to both canonical domains and their cutoffs converge in norm outside a set of thresholds of Hausdorff dimension at most \(2/3\).
 The exceptional dimension is sharp for the sufficient integral estimate, and the good thresholds need not cut a prescribed trace.
 Finite sums of [alternating matrix products](../claims/Yin_C_F0284_v1.md#decision-reviewed) admit column estimates in terms of their factor norms and the number of distinguished marginal factors.
@@ -307,6 +310,8 @@ For [a measurable location and scale of a free selfadjoint noise](../claims/Yin_
 On the area disk, simultaneous location \(|Z|^\beta\) and scale \(|Z|^\alpha\) have both properties precisely for \(\alpha<1\) and \(\beta>2\alpha-1\), for positive exponents.
 For a [commuting drift](../claims/Yin_C_F0283_v1.md#decision-reviewed) added to freely independent noise, the joint conditions are equivalent and force the drift to be a measurable function of the observed normal coordinate with square-integrable divided difference.
 In a correlated semicircular pair, folding the first coordinate by absolute value preserves the generated algebra and both marginal conjugate variables but destroys the first joint conjugate variable.
+For a [disk-valued Möbius transform of a free Haar unitary](../claims/Yin_C_F0290_v1.md#decision-reviewed), the marginal vacuum, an inverse-defect integral and a weighted divided-difference integral characterize both joint conditions, including when the disk parameter approaches the unit circle.
+For normalized disk area and parameter \(1-|z|^\alpha\), both conditions hold exactly for \(0<\alpha<2\).
 For old tuples with finite column costs in both orientations, the [bounded semicircular drift theorem](../claims/Yin_C_F0212_v1.md#decision-reviewed) decides both conditions for the tuple obtained by adjoining a free semicircular plus an arbitrary bounded selfadjoint old-algebra element.
 With [arbitrary free selfadjoint noise having a scalar vacuum](../claims/Yin_C_F0268_v1.md#decision-reviewed), the two conditions hold exactly when the commutator of each old canonical slice with the drift is Hilbert–Schmidt.
 The squared norm of each old vacuum increases by the squared Hilbert–Schmidt norm of its commutator times the squared norm of the noise vacuum.
@@ -393,6 +398,7 @@ The column bound depends on the total slope variation and the original real conj
 Around one accumulation point, [the localized shell bound](../claims/Yin_C_F0247_v1.md#decision-reviewed) uses only the largest slope variation on a single one-sided shell.
 It proves both domains for the dyadically repeated triangular graph even though its slope has infinite total variation and its sampled inverse secants have unbounded Schur norms on interval-supported marginals.
 The [local slope oscillation estimate](../claims/Yin_C_F0286_v1.md#decision-reviewed) gives both domains when the squared slope oscillations weighted by local linear density sum uniformly over scales.
+The [four-point curvature bound](../claims/Yin_C_F0291_v1.md#decision-reviewed) makes the uniform row estimate alone sufficient and permits certain unbounded rows when a Schur weight also controls the off-diagonal spectral measure of the joint vacuum.
 On the graph of distance to the middle-thirds Cantor set, the weighted example in that result has uniformly bounded curvature rows exactly for logarithmic decay exponent \(\beta>1/2\).
 On [finite arc networks](../claims/Yin_C_F0248_v2.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
 At a common tangent, encoding intervals of length comparable to the actual branch separation and grouping by height gives the mixed-column bound even at infinite-order contact.

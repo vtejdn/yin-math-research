@@ -335,6 +335,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0294](Yin_R_F0294_v1.md#finding) | Mixed spectral projections in both canonical domains and the exceptional dimension | [v1](Yin_R_F0294_v1.md) |
 | [Yin_R_F0295](Yin_R_F0295_v1.md#finding) | Local slope oscillation and curvature rows of weighted Cantor graphs | [v1](Yin_R_F0295_v1.md) |
 | [Yin_R_F0296](Yin_R_F0296_v1.md#finding) | Cubic singular concentration and both domains for polar factors and mixed spectral cuts | [v1](Yin_R_F0296_v1.md) |
+| [Yin_R_F0297](Yin_R_F0297_v1.md#finding) | Dense polynomial cuts of prescribed trace and local divergence of coarse derivatives | [v1](Yin_R_F0297_v1.md) |
+| [Yin_R_F0298](Yin_R_F0298_v1.md#finding) | Original slice and adjoint domains on the orbit of one free projection | [v1](Yin_R_F0298_v1.md) |
+| [Yin_R_F0299](Yin_R_F0299_v1.md#finding) | Exact vacuum and dual-domain criteria for the disk-valued Möbius coupling | [v1](Yin_R_F0299_v1.md) |
+| [Yin_R_F0300](Yin_R_F0300_v1.md#finding) | Weighted curvature-row criterion and the limits of three-site certificates | [v1](Yin_R_F0300_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

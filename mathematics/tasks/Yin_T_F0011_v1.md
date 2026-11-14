@@ -142,6 +142,9 @@ Objective 1 remains open for arbitrary correlated normal coordinates.
 Here \(\mathsf S\Rightarrow\mathsf A\) and the [canonical fraction-operator comparison under \(\mathsf S\)](../claims/Yin_C_F0075_v1.md#statement) are established.
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
+For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.
+Both oriented slices have limiting values on every one of those projections.
+The outstanding estimate is a uniform bound for these values at each coordinate of an arbitrary actual normal tuple, or an example on which the bound fails.
 The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed) controls one projection of the required column bound on all starred words.
 For any shift of a coordinate by the algebra of the remaining coordinates, the [singular-value estimate](../claims/Yin_C_F0229_v1.md#decision-reviewed) bounds the trace of the singular projection at radius \(r\) by \((\pi r\|\xi_i\|_2)^{1/2}\).
 The [four-point theorem](../claims/Yin_C_F0230_v1.md#decision-reviewed) excludes vanishing polar phase loss on corners of uniformly positive trace for bounded shifts when no line carries the required marginal mass.
@@ -194,7 +197,7 @@ Ordinary manuscript editing and Git delivery are not part of this contract.
 
 ## Current decision
 
-[Selected decision](#decision-initial)
+[Selected decision](#decision-pause-after-round)
 
 ## Lifecycle and completion
 
@@ -210,3 +213,16 @@ Ordinary manuscript editing and Git delivery are not part of this contract.
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Contract](#contract) | Both comparison objectives, the three distinct hypotheses, full quantifiers, scope boundaries and all completion criteria above. |
+
+### Decision pause-after-round
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-14T16:06 |
+| status | paused |
+| authority | Yin directed the main agent to finish the current exploration round and then pause the Task. |
+| reason | The arbitrary-tuple comparison is resolved. The converse for arbitrary correlated normal tuples remains open at the uniform projection estimate above. Resume research only on Yin's explicit instruction. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [Contract](#contract) | Both original comparison objectives, their operator domains and the independent review required for completion. |
