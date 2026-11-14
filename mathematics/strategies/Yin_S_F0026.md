@@ -292,6 +292,10 @@ The [fixed-tuple single-input estimate](../claims/Yin_C_F0276_v1.md#decision-rev
 In this dimension a divergent column or cubic concentration integral rules out bare full-domain duals on the original tuple.
 At every dimension the [fixed-trace cutoff test](../claims/Yin_C_F0282_v1.md#decision-reviewed) reduces forward domain inclusion to pointwise boundedness on a nonmeagre family of projections of one prescribed trace, for example \(1/2\), using any sequence of cutoff radii tending to zero.
 Failure omits a dense \(G_\delta\) of the same projections from the original domain and makes their regularized outputs unbounded along that sequence.
+For a fixed selfadjoint mixed polynomial, its [spectral projections](../claims/Yin_C_F0285_v1.md#decision-reviewed) belong to both canonical domains and their cutoffs converge in norm outside a set of thresholds of Hausdorff dimension at most \(2/3\).
+The exceptional dimension is sharp for the sufficient integral estimate, and the good thresholds need not cut a prescribed trace.
+Finite sums of [alternating matrix products](../claims/Yin_C_F0284_v1.md#decision-reviewed) admit column estimates in terms of their factor norms and the number of distinguished marginal factors.
+Even for a free Haar pair the half-circle projection of the product of its generators admits no bounded strong-star approximation of uniformly bounded cost of this form.
 For two coordinates a bounded slice is an operator-norm limit of finite-column maps supported away from progressively smaller left projections.
 The [alternating conditional-expectation estimate](../claims/Yin_C_F0280_v1.md#decision-reviewed) gives the entire column bound from \(a_i<\infty\) if a finite iterate makes the row density bounded.
 When both marginals are maximal abelian, this condition can be tested on their conditional spectral densities, uniformly over input word length.
@@ -301,6 +305,8 @@ Its [conditional divergences](../claims/Yin_C_F0281_v1.md#decision-reviewed) qua
 Symmetric ordered couplings with finite reverse product divergence can still have maximal centered correlation one, leaving the other mixed-word tests essential.
 For [a measurable location and scale of a free selfadjoint noise](../claims/Yin_C_F0277_v1.md#decision-reviewed), two explicit weighted differences together with an inverse-scale and marginal vacuum condition characterize both regularity hypotheses.
 On the area disk, simultaneous location \(|Z|^\beta\) and scale \(|Z|^\alpha\) have both properties precisely for \(\alpha<1\) and \(\beta>2\alpha-1\), for positive exponents.
+For a [commuting drift](../claims/Yin_C_F0283_v1.md#decision-reviewed) added to freely independent noise, the joint conditions are equivalent and force the drift to be a measurable function of the observed normal coordinate with square-integrable divided difference.
+In a correlated semicircular pair, folding the first coordinate by absolute value preserves the generated algebra and both marginal conjugate variables but destroys the first joint conjugate variable.
 For old tuples with finite column costs in both orientations, the [bounded semicircular drift theorem](../claims/Yin_C_F0212_v1.md#decision-reviewed) decides both conditions for the tuple obtained by adjoining a free semicircular plus an arbitrary bounded selfadjoint old-algebra element.
 With [arbitrary free selfadjoint noise having a scalar vacuum](../claims/Yin_C_F0268_v1.md#decision-reviewed), the two conditions hold exactly when the commutator of each old canonical slice with the drift is Hilbert–Schmidt.
 The squared norm of each old vacuum increases by the squared Hilbert–Schmidt norm of its commutator times the squared norm of the noise vacuum.
@@ -327,6 +333,8 @@ Realizing those data for an actual coordinate and omitted shift requires the pha
 The [overlapping projection estimates](../claims/Yin_C_F0258_v1.md#decision-reviewed) also test noncommuting projections outside the omitted algebra.
 Writing \(F(r)\) for the supremum, over all omitted shifts, of the singular mass up to \(r\), a finite original column cost \(c\) forces \(\int_0^\infty F(r)^3\,dr/r^3\le24c^2\).
 The shift may vary at every radius, so divergence for this single envelope would give a separating normal tuple after adjoining two free Haar unitaries.
+Conversely, finiteness of the cubic integral gives [both canonical domains and uniform cutoff convergence](../claims/Yin_C_F0287_v1.md#decision-reviewed) on the polar factors of the shifts, their adjoints and their products with omitted contractions on either side.
+The same estimate applies to shifts of a fixed mixed polynomial and, for a selfadjoint polynomial, to every threshold in a family with finite common cubic integral.
 The [supporting-half-plane estimate](../claims/Yin_C_F0231_v1.md#decision-reviewed) shows that \(t^3/r^2\to0\) uniformly when an omitted unitary can put the real part of \(X_i-b\) above \(-\kappa r\) for fixed \(\kappa\), where \(t\) is its singular mass up to \(r\).
 At these shifts a divergent sum still requires an unbounded Gram norm for the normalized inverse tests.
 The [endpoint integral for restricted shifts](../claims/Yin_C_F0261_v1.md#decision-reviewed) follows from the actual vacuum alone for all shifts admitting such a supporting half-plane at the tested radius, and for any fixed family with nonpositive radial phase pairing at every scale.
@@ -384,6 +392,8 @@ For [graph slopes of bounded variation](../claims/Yin_C_F0246_v1.md#decision-rev
 The column bound depends on the total slope variation and the original real conjugate-variable norm, allowing infinitely many jumps of summable magnitude.
 Around one accumulation point, [the localized shell bound](../claims/Yin_C_F0247_v1.md#decision-reviewed) uses only the largest slope variation on a single one-sided shell.
 It proves both domains for the dyadically repeated triangular graph even though its slope has infinite total variation and its sampled inverse secants have unbounded Schur norms on interval-supported marginals.
+The [local slope oscillation estimate](../claims/Yin_C_F0286_v1.md#decision-reviewed) gives both domains when the squared slope oscillations weighted by local linear density sum uniformly over scales.
+On the graph of distance to the middle-thirds Cantor set, the weighted example in that result has uniformly bounded curvature rows exactly for logarithmic decay exponent \(\beta>1/2\).
 On [finite arc networks](../claims/Yin_C_F0248_v2.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
 At a common tangent, encoding intervals of length comparable to the actual branch separation and grouping by height gives the mixed-column bound even at infinite-order contact.
 The finite sum of the pair estimates controls the original mixed words on networks with crossings, branches and cycles.

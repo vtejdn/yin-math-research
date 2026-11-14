@@ -330,6 +330,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0289](Yin_R_F0289_v1.md#finding) | Full mixed columns under an iterated conditional-expectation bound | [v1](Yin_R_F0289_v1.md) |
 | [Yin_R_F0290](Yin_R_F0290_v1.md#finding) | Conditional product divergences, leakage limits and concentration of highly correlated tests | [v1](Yin_R_F0290_v1.md) |
 | [Yin_R_F0291](Yin_R_F0291_v1.md#finding) | Full domains and generic cutoff divergence on each fixed trace layer | [v1](Yin_R_F0291_v1.md) |
+| [Yin_R_F0292](Yin_R_F0292_v1.md#finding) | Recovery and regularity of a commuting drift and changes of semicircular coordinates | [v1](Yin_R_F0292_v1.md) |
+| [Yin_R_F0293](Yin_R_F0293_v1.md#finding) | Canonical slice bounds and approximation by alternating matrix products | [v1](Yin_R_F0293_v1.md) |
+| [Yin_R_F0294](Yin_R_F0294_v1.md#finding) | Mixed spectral projections in both canonical domains and the exceptional dimension | [v1](Yin_R_F0294_v1.md) |
+| [Yin_R_F0295](Yin_R_F0295_v1.md#finding) | Local slope oscillation and curvature rows of weighted Cantor graphs | [v1](Yin_R_F0295_v1.md) |
+| [Yin_R_F0296](Yin_R_F0296_v1.md#finding) | Cubic singular concentration and both domains for polar factors and mixed spectral cuts | [v1](Yin_R_F0296_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
