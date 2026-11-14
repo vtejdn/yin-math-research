@@ -17,8 +17,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [CKMYZ26/Yin_U001](CKMYZ26/Yin_U001.md#ckmyz26-u001) | Second-moment criterion, disk error, Gaussian rotation and comparison with the repository's disk criterion and adopted GUE proof |
 | [Ele03/Yin_U001](Ele03/Yin_U001.md#ele03-u001) | Complete four-page proof audit; finite propagation, local dimension, Følner error and the rational-operator transfer boundary |
 | [JZ19/Yin_U001](JZ19/Yin_U001.md#jz19-u001) | Complete published-edition audit; coefficient change, ranked regular envelopes, arithmetic repairs and the separately reviewed Lemma 9.10(2) completion |
+| [JZ99 source notes](JZ99/readme.md) | Journal original for Lemma 2.15; the scoped tensor-product and scalar-extension check remains in JZ19's source unit |
+| [Li21 source notes](Li21/readme.md) | ArXiv v2 source for the exact-rank-to-length extension matched to JZ19 Proposition 5.6 |
 | [JZLA20/Yin_U001](JZLA20/Yin_U001.md#jzla20-u001) | Complete arXiv v4 audit; Hughes freeness, rational tree complexity, local indicability and actual analytic division rings |
 | [Lin93/Yin_U001](Lin93/Yin_U001.md#lin93-u001) | Complete article audit; free-tree rank mechanism, elementary amenable extensions and distinct universal-field dependencies |
+| [Hug70 source notes](Hug70/readme.md) | Journal original and the scoped uniqueness-argument inspection retained in Lin93's source unit |
+| [Lew74 source notes](Lew74/readme.md) | Journal original, subgroup universal-field embeddings and Proposition 6's Hughes-free interface |
 | [Lin06/Yin_U001](Lin06/Yin_U001.md#lin06-u001) | Selected two-edition audit of localization definitions, Proposition 2.2, Theorem 2.6 and the matrix-localization interface |
 | [Bar19/Yin_U001](Bar19/Yin_U001.md#bar19-u001) | Complete Kielak appendix and necessary Section 2 proof; corrected conventions, nonamenable module injection and Ore flatness |
 | [BCM04/Yin_U001](BCM04/Yin_U001.md#amenable-projective-trace) | Established amenable Bass theorem and integral projective-trace consequence; exact statement, hypothesis and selected trace-interface checks |

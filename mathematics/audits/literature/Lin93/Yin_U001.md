@@ -193,11 +193,25 @@ In Lin93's actual affiliated embedding, the subgroup division closure is \(D(N)\
 It is stronger than the assertion that the abstract group algebra embeds in some division ring.
 
 The [author-hosted Dicks–Herbera–Sánchez reproof](https://mat.uab.cat/~dicks/Hughes.pdf), Section 1, pp. 1–3, and Theorem 7.1, p. 21, was read at statement/interface depth to check the precise locally indicable and independence hypotheses of Hughes uniqueness.
-Its proof and Hughes's 1970 original proof were not audited.
-The [Wiley original-paper request](https://doi.org/10.1002/cpa.3160230205) supplied bibliographic metadata but no original proof text.
-An [AMS request for Lewin's original](https://www.ams.org/tran/1974-192-00/S0002-9947-1974-0338055-4/S0002-9947-1974-0338055-4.pdf) failed with HTTP 403, so Proposition 6 is retained here as the exact external input cited by Lin93, without claiming direct inspection of its original formulation or proof.
-The full universal-field identification is consequently checked as Lin93's dependency interface, not as a newly independent proof of Hughes or Lewin.
-A use needing independent original-proof coverage of those foundations still requires it.
+Its full proof was not audited.
+The [Hug70 journal original](../Hug70/readme.md) is now the direct source for the independence condition and theorem on printed p. 182, PDF p. 2.
+Its Sections 3–7, pp. 183–188, were read for the rational-expression construction, complexity order and final uniqueness argument, with those pages visually checked.
+The argument constructs compatible isomorphisms between the formal inversion levels and proves equality of their evaluation kernels.
+For a nontrivial finitely generated support subgroup, local indicability gives an infinite cyclic quotient, and Hughes freeness embeds the associated division closure into a skew Laurent-series ring.
+Lemma 5 represents an expression by a series with coefficients of smaller complexity; coefficientwise vanishing and transfinite induction transfer each relation to the second division ring.
+Interchanging the two division rings gives equality of kernels and hence the group-ring-fixing isomorphism.
+The paper explicitly omits the proofs of Lemmas 1–4 on p. 183; these auxiliary results and the standard Ore construction were read as source inputs, rather than independently reproved here.
+
+In the [Lew74 journal original](../Lew74/readme.md), Section II, printed pp. 340–342, PDF pp. 2–4, the subgroup-embedding argument and Proposition 6 were read and visually checked.
+Theorem 1 identifies the division closure of each subgroup algebra \(KH\) inside \(U(KF)\) with \(U(KH)\), using the finite-index and free-factor steps of Lemmas 1–5.
+For an indexing \(G/H\cong\mathbb Z\), Proposition 6 forms the skew Laurent polynomial ring \(P=U(KH)[z,z^{-1}]\) with the conjugation action of a lift \(t\).
+The full-matrix specialization argument identifies its quotient division ring with \(U(KG)\) over \(KG\).
+The independence of the powers of \(z\) over \(U(KH)\) therefore gives the required independence of the powers of \(t\).
+The proof uses the universal-field and full-matrix specialization results from Cohn and the subgroup theorem cited in Lemma 5; those foundational proofs were not independently audited.
+
+These primary statements and the displayed proof mechanisms verify the two cited interfaces in Lin93's free-group case, where \(K=\mathbb C\).
+Together with the affiliated coset-independence argument above, Hughes uniqueness identifies the actual \(D(H)\) with the Hughes-free universal field supplied by Lewin.
+This is a scoped check of Lin93's external inputs, not a new foundational proof or an extension of the earlier independent review to every omitted auxiliary argument.
 
 <a id="transfer-boundaries"></a>
 ## What transfers to an affiliated rational-closure argument

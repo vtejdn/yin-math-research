@@ -80,7 +80,8 @@ This primary statement supports DR97's optional free-field interpretation.
 The theorem's original proof, Hughes-free uniqueness, and universal-field construction were not audited.
 The statement is accepted for this identification only.
 Theorem 12, when rationality is defined as division closure inside $D$, does not require it.
-No local Lew74 PDF was retained: the AMS download returned HTTP 403 and the author-page PDF link failed, while the published article's text remained readable.
+That inspection used the online published article text after PDF requests failed.
+The subsequently available [local journal original](../Lew74/readme.md) has its selected Proposition 6 follow-up in the [Lin93 source unit](../Lin93/Yin_U001.md#hughes-lewin-and-universality); this does not enlarge the earlier Theorem 2 inspection recorded here.
 
 ## What transfers to Miy22
 

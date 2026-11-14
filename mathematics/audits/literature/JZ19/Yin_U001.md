@@ -495,12 +495,12 @@ The following distinctions are part of the proof audit, rather than a claim that
 | Regular-ring structure and rank completion | Proposition 3.1 cites Goodearl's regular-ring structure; Proposition 5.7 cites the second edition, Theorems 19.7, 19.13, and 19.14, for regular completion and the equivalence of field center, simplicity, and unique rank. Their formulations and uses in JZ19 were checked; the book's proofs were not inspected here. |
 | Affiliated operators | Section 3.2 cites Berberian [BER82] and Reich [REI98] for the Ore localization and affiliated-ring foundation. Proposition 5.8 also cites Liu [LIU12, Proposition 30] for the center of the affiliated algebra. These are retained analytic foundations, not rederived constructions. |
 | Ring epimorphisms and localization ranks | Stenström XI.1.2/XI.1.4 underlie Propositions 4.1–4.2; Schofield, Theorems 4.2 and 7.4, underlies Proposition 5.4; Malcolmson Lemma 2 underlies well-defined module rank in Proposition 5.2. JZ19's downstream algebraic arguments were reconstructed, but these original proofs were not read. |
-| Extension from exact module rank to length | Proposition 5.6 cites [VIR17], an unnumbered 2017 preprint, for extension to all modules by infima over finite presentations and suprema over finitely generated submodules. This exact original was not located in the bounded search; its JZ19 formulation is explicit, but primary-source verification of that citation remains incomplete. In the regular-ring applications the projective-module dimension foundation is the needed content. |
+| Extension from exact module rank to length | Proposition 5.6 cites [VIR17], an unnumbered 2017 preprint. The exact-rank condition and extension formulas are matched directly to Li21, arXiv:1901.07158v2, Corollary 4.3 and Lemma 3.8, as checked below. The historical identity of Vir17 remains unverified; this attribution limit does not leave the matched extension theorem without a readable source. |
 | Entropy extension | Proposition 7.1 cites Virili [VIR17a, Theorem B], discussed below at statement-and-applicability depth. Its full external proof was not audited. |
 | Dedekind and curve theory | Section 8.3 uses Narkiewicz, Chapter 1, including projectivity of finitely generated torsion-free modules and localization to discrete valuations. Lemma 8.9 cites Hartshorne II.6.9. The standard nonconstant degree formula, finite ramification, and valuation-extension identities are external foundations; the constant-function errors of JZ19 are separately demonstrated above. |
 | Hilbert-module dimension | Proposition 9.1 cites Lück, Theorem 1.12, for additivity in weakly exact Hilbert-module sequences. The finite Jordan centralizer formula cited to Collingwood–McGovern, Theorem 6.13, was also reconstructed directly from Jordan blocks. The affiliated cutoff/weak-injectivity step has the separately reviewed completion linked above; the original general dimension foundations remain accepted inputs. |
 | Sofic closure and the rational starting case | The group-theoretic closure needed to embed in a sofic ICC group is cited to Hayes–Sale. The rational/general approximation starting case is identified in the author's survey below; it is not a consequence of JZ19's later complex approximation theorem. |
-| Scalar-extension quotient rings | Theorem 10.7 uses Goldie's theorem, Hilbert basis, Artin–Wedderburn, [JAI99, Lemma 2.15], and [RS13, Lemma 1.1]. The Rowen–Saltman lemma and proof were checked in the primary preprint below. The original [JAI99] almost-simple-ring lemma was not inspected, so that citation remains an explicit external interface. |
+| Scalar-extension quotient rings | Theorem 10.7 uses Goldie's theorem, Hilbert basis, Artin–Wedderburn, [JAI99, Lemma 2.15], and [RS13, Lemma 1.1]. The Rowen–Saltman lemma and proof were checked in the primary preprint below. JZ99 Lemma 2.15 and its density-theorem proof have also been checked in the journal original against the simple factors in Theorem 10.7. |
 
 In [Virili, arXiv:1410.8306v2](https://arxiv.org/pdf/1410.8306v2), Theorem B on PDF p. 4 states that entropy is a length function for a compatible length on an amenable crossed product, with the specified value on induced modules.
 The inspected version is retained as the [local Vir19 arXiv v2 original](../../../literature/pdf/Vir19--arxiv-v2.pdf#page=4).
@@ -524,12 +524,50 @@ The authors explicitly remove finite-dimensionality over the center and finite g
 The inspected version is retained as the [local RS13 arXiv v1 original](../../../literature/pdf/RS13--arxiv-v1.pdf#page=3).
 Only this Rowen–Saltman lemma and its proof were audited, and the journal version was not separately compared.
 
-Two original-source interfaces remain suitable for a bounded literature-maintenance follow-up.
-For [JAI99], the [publisher's article record](https://doi.org/10.1006/jabr.1998.7733) identifies *Modules over Crossed Products*, *Journal of Algebra* 215 (1999), 114–134; the next action is to obtain the lawful journal or author text and inspect Lemma 2.15 and its hypotheses against the scalar-extension application in JZ19 Theorem 10.7.
-The bibliographic work is located, but that original lemma was not read in this audit.
-For [VIR17], the next action is to search the author's publication and preprint list for the exact cited title *Crawley-Boewey's extension of invariants in the non-discrete case* and any documented later title, then locate the extension theorem used in Proposition 5.6.
-The unnumbered 2017 citation is not identified with the distinct entropy paper [VIR17a] merely because both have the same author.
-Until its original or an explicitly matched replacement is located, the extension theorem remains a stated external foundation.
+<a id="jz99-lemma-215"></a>
+### JZ99 Lemma 2.15 and the scalar-extension application
+
+The [JZ99 journal original](../JZ99/readme.md) is the article cited as JAI99 by JZ19.
+The definition on printed p. 116, PDF p. 3, calls a ring \(A\) almost simple when every nonzero two-sided ideal has nonzero intersection with \(Z(A)\).
+Lemma 2.15 on printed pp. 125–126, PDF pp. 12–13, states that a finite tensor product of simple rings over a common central subring is almost simple.
+The statement and the complete displayed two-factor proof were read, and the lemma pages were visually checked.
+The proof applies the density theorem to isolate one coefficient over the first center and then does the same for the second factor, producing a nonzero central element in the ideal generated by the original nonzero tensor.
+The density theorem itself and the remainder of JZ99 were not audited.
+
+In JZ19 Theorem 10.7(2), apply the lemma to each simple ring \(M_{n_i}(D_i)\) and the extension field \(K\) over the common central field \(\overline{\mathbb Q}\).
+The finite product of these scalar-extended components has the same ideal-intersection property, so simplicity is required of the components rather than of the entire initial semisimple ring.
+The lemma establishes almost simplicity, not semiprimeness by itself.
+JZ19 separately uses that the center is semiprime: a nonzero nilpotent ideal would meet that center in a nonzero nilpotent element.
+The independently checked RS13 domain input for each \(D_i\otimes_{\overline{\mathbb Q}}K\) also retains its separate role in identifying division-ring quotient components.
+The JZ99 statement and this direct componentwise specialization are accepted for the cited scalar-extension step, without claiming a new proof of the density or Goldie theorems.
+
+<a id="exact-rank-to-length"></a>
+### A readable source for the exact-rank extension
+
+JZ19 Section 5.5, printed pp. 485–486, defines an exact Sylvester module rank \(d\) by the additional requirement
+
+\[
+d(M)-d(N)=\inf\{d(L):L\twoheadrightarrow\ker\phi,\ L\text{ finitely presented}\}
+\]
+
+for every surjection \(\phi:M\twoheadrightarrow N\) of finitely presented left \(R\)-modules.
+A normalized length function on a unital ring \(R\) is an isomorphism-invariant map from left \(R\)-modules to \([0,+\infty]\), vanishing at zero, taking value one at \(R\), additive on all short exact sequences, and satisfying \(d(M)=\sup_{L\le M,\ L\text{ finitely generated}}d(L)\).
+Proposition 5.6 specifies the infimum over finitely presented covers for finitely generated modules and then the supremum over finitely generated submodules for arbitrary modules.
+
+The [Li21 arXiv v2 original](../Li21/readme.md), Theorem 3.3 on p. 6, Lemma 3.8 on pp. 7–8 and Definition 4.1 through Corollary 4.3 on pp. 16–17, gives the same exactness condition, extension formulas and normalization.
+These statements were compared directly with JZ19 Section 5.5; the relevant pages and formulas were visually checked.
+Corollary 4.3 states that precisely this exactness condition is equivalent to extension to a unique normalized length function.
+Lemma 3.8 identifies the finitely generated value with the infimum over finitely presented covers, and Definition 4.1 supplies the supremum formula and additivity on arbitrary short exact sequences.
+The proof of Proposition 4.2 was read for the passage from relative rank to an ordinary length function; the full proof of the general bivariant extension theorem in Section 3 was not audited.
+These identified established statements are accepted as a readable alternative source for Proposition 5.6's extension theorem, with the exactness hypothesis retained.
+No extension of an arbitrary nonexact Sylvester rank to an additive length function is inferred.
+
+Li21 attributes Corollary 4.3 to the published article registered as [Vir19b](../Vir19b/readme.md), not to the distinct entropy paper Vir19.
+The publisher metadata identifies Vir19b, but its PDF endpoints did not yield a readable article in this search.
+The exact title *Crawley-Boewey's extension of invariants in the non-discrete case* was found only as the unnumbered 2017 citation in other primary papers, not as an accessible original.
+Neither Vir19b nor Vir19 is identified with Vir17 without documentary evidence.
+The remaining follow-up is the historical citation's exact identity or a documented title change; the extension statement itself now has the explicitly matched Li21 source above.
+These supplements record scoped literature checks and do not enlarge the earlier independent-review relationship or assert complete audits of the newly consulted articles.
 
 <a id="affiliated-and-schur-applicability"></a>
 ## Applicability to the actual affiliated rational closure and Schur complements
