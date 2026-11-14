@@ -316,6 +316,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0275](Yin_R_F0275_v1.md#finding) | Isometric adjoint implementation at a real coordinate and the criterion for scalar domination | [v1](Yin_R_F0275_v1.md) |
 | [Yin_R_F0276](Yin_R_F0276_v1.md#finding) | Exact planar scalar weight criterion, normalized curvature identity and disk obstruction | [v1](Yin_R_F0276_v1.md) |
 | [Yin_R_F0277](Yin_R_F0277_v1.md#finding) | Hilbert–Schmidt criterion and original canonical domains for arbitrary free selfadjoint noise | [v1](Yin_R_F0277_v1.md) |
+| [Yin_R_F0278](Yin_R_F0278_v1.md#finding) | Joint spectral localization at one point along a divergent singular concentration envelope | [v1](Yin_R_F0278_v1.md) |
+| [Yin_R_F0279](Yin_R_F0279_v1.md#finding) | Normality of shifted coordinates, stable rigidity and the normal-residual concentration bound | [v1](Yin_R_F0279_v1.md) |
+| [Yin_R_F0280](Yin_R_F0280_v1.md#finding) | Two marginal curvature tests and projected mixed column estimates for correlated normal tuples | [v1](Yin_R_F0280_v1.md) |
+| [Yin_R_F0281](Yin_R_F0281_v1.md#finding) | Cubic concentration over all shifts when the marginal secants have small angular spread | [v1](Yin_R_F0281_v1.md) |
+| [Yin_R_F0282](Yin_R_F0282_v1.md#finding) | Quantitative angular spread at a common singular concentration point | [v1](Yin_R_F0282_v1.md) |
+| [Yin_R_F0283](Yin_R_F0283_v1.md#finding) | Secant spread and the singular-mass exponent for regularly varying fixed shifts | [v1](Yin_R_F0283_v1.md) |
+| [Yin_R_F0284](Yin_R_F0284_v1.md#finding) | Common character on a correlated disk pair and a nonnormal residual with quadratic singular mass | [v1](Yin_R_F0284_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
