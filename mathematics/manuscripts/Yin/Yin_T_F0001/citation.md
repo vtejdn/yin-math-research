@@ -106,7 +106,7 @@ Source evidence: [CS77-U001](../../../audits/literature/CS77/Yin_U001.md#cs77-u0
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/dual-system-criterion.tex`, `lem:normal-intertwining` | `\cite[Proposition~1]{CS77}` | Supplies adjoint intertwining for the stated bounded map \(\M\to H\); later module extensions are separate local arguments. |
+| `paper/sections/dual-system-criterion.tex`, `lem:normal-intertwining` | `\cite[Proposition~1]{CS77}` | Supplies adjoint intertwining for the stated bounded map \(\M\to H\), also used by `lem:dual-conjugates` for the starred-commutator remainder. The module extensions, bounded-set weak continuity and spectral pinching are separate local arguments. |
 
 ## `Dab10`
 
@@ -131,6 +131,7 @@ Source evidence: [Fug50-U001, bounded commutation](../../../audits/literature/Fu
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/dual-system-criterion.tex`, direct classical commutation sentence before `lem:normal-intertwining` | `\cite[Theorem~I, p.~35]{Fug50}` | For bounded \(S\) and bounded normal \(N\), the source's \(SN=NS\) implication yields \(SN^*=N^*S\); the original proof was not re-audited. |
+| `paper/sections/conjugate-variable-criterion.tex`, `lem:normal-adjoint-uniqueness` proof | `\cite[Theorem~I, p.~35]{Fug50}` | The Hilbert--Schmidt difference S is bounded and commutes with the bounded normal x, so it also commutes with x*. This is now the first substantive use after the section swap and uses the same inspected bounded specialization. |
 
 ## `Hun74`
 
@@ -269,5 +270,5 @@ These retained accounts cover Sections 1–9 and 13; they provide no recorded re
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, immediately before `def:liberation-dual-system` | `\cite[Definition~13.1]{Voi99}` | Identifies the source of the liberation commutation pattern. The manuscript definition is a domain variant for arbitrary tuples \(X\in\mathcal M^d\), with \(\mathcal M\Omega\subseteq\operatorname{Dom}L_i\cap\operatorname{Dom}L_i^*\). The source requires bounded selfadjoint operators. Neither definition imposes vacuum normalization. The manuscript additionally defines a normalized system by its sum being P_Omega on M Omega; this condition and the normalization construction in Lemma 4.1 are local and are not attributed to Voi99. For a general tuple, the manuscript specifies the displayed generator commutators; it does not assert additional adjoint-generator or von Neumann subalgebra relations. The citation supplies no existence theorem for the manuscript's variant and no replacement for its analytic estimates. |
 | `paper/sections/conjugate-variable-criterion.tex`, introduction to `def:liberation-gradients` | `\cite[5.3--5.4 and Proposition~6.1]{Voi99}` | Supplies the liberation prescriptions, gradient moments and signed actual-adjoint characterization. The manuscript adopts the L2 case on each algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), and explicitly requires well-definedness of the represented derivations. |
-| `paper/sections/conjugate-variable-criterion.tex`, after `def:liberation-gradients` | `\cite[Definition~9.1]{Voi99}` | Identifies the sum of squared coordinate-gradient norms with liberation Fisher information relative to scalars; finiteness does not supply the nonatomicity imposed separately in Proposition 6.3. |
+| `paper/sections/conjugate-variable-criterion.tex`, after `def:liberation-gradients` | `\cite[Definition~9.1]{Voi99}` | Identifies the sum of squared coordinate-gradient norms with liberation Fisher information relative to scalars; finiteness does not supply the nonatomicity imposed separately in Proposition 5.3. |
 | `paper/sections/conjugate-variable-criterion.tex`, `lem:conjugate-liberation` proof | `\cite[Remark~5.5(c)]{Voi99}` | Extends the polynomial word-moment formula to the coordinate von Neumann algebras by bounded Kaplansky approximation. The current round checked the published pp.115--116 directly. The descent through represented relations and the actual adjoint pairing on every \(p\in\mathcal P_i\) are proved locally, so the source's initial algebraic-freeness convention is not silently assumed. |

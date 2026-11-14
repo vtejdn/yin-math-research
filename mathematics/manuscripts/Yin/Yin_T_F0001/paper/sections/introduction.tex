@@ -230,8 +230,10 @@ For every $u\in L^0(\M)$ and every fraction pair $Q=(s,a,b,t)$ for $u$, the foll
 When these equivalent conditions hold, the rank of each $\overline{\Gamma[Q,D_i]}$ is independent of $Q$.
 \end{theorem}
 
-Theorem~\ref{thm:analytic} identifies the finite-rank operators in Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} with fraction-commutator closures for a dual system.
-Lemma~\ref{lem:fundamental} constructs a normalized liberation dual system $(L_1,\ldots,L_d)$ from $(D_1,\ldots,D_d)$ and verifies regularity of every scalar shift.
+We deduce Theorem~\ref{thm:analytic} from the conjugate-variable case of Corollary~\ref{prop:normal-conjugates}.
+Lemma~\ref{lem:dual-conjugates} shows that normal generators admitting a dual system also admit conjugate variables.
+The corollary then supplies finite-rank certificates for rationality, and Lemma~\ref{lem:finite-rank-identification} identifies their coordinates with the corresponding fraction-commutator closures.
+For the converse, Lemma~\ref{lem:fundamental} constructs a normalized liberation dual system $(L_1,\ldots,L_d)$ from $(D_1,\ldots,D_d)$.
 For this system,
 \[
  \overline{\Gamma[Q,L_i]}
@@ -242,14 +244,14 @@ Consequently, when these closures have finite rank, they are the finite-rank sol
 \[
  \sum_{i=1}^d[\rho(X_i),\overline{\Gamma[Q,D_i]}]=\Gamma[Q,P_\Omega].
 \]
-Conversely, normalization and Lemma~\ref{lem:finite-rank-identification} identify the finite-rank operators required in Theorem~\ref{thm:intrinsic-analytic}~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} with these closures.
+The converse certificate criterion in Corollary~\ref{prop:normal-conjugates} now gives rationality.
 
-A dual system for normal generators yields conjugate variables; the arcsine tuple of Remark~\ref{rem:liberation-without-conjugates} has a normalized liberation dual system but no conjugate variable, hence no dual system.
+A dual system for normal generators yields conjugate variables by Lemma~\ref{lem:dual-conjugates}; the arcsine tuple of Remark~\ref{rem:liberation-without-conjugates} has a normalized liberation dual system but no conjugate variable, hence no dual system.
 The arcsine tuple therefore satisfies the hypotheses of Theorem~\ref{thm:intrinsic-analytic} but not those of Theorem~\ref{thm:analytic}.
 Hence the hypotheses of Theorem~\ref{thm:analytic} are strictly stronger than those of Theorem~\ref{thm:intrinsic-analytic}.
 
 At present, we do not know whether normal generators admitting conjugate variables necessarily admit a dual system in the sense of Definition~\ref{def:dual-system}.
-We present the two criteria in this order for convenience of exposition.
+We establish the conjugate-variable case before proving the dual-system criterion.
  
 For normal operators admitting bounded dual systems, the fraction commutators are bounded and $\overline{\Gamma[Q,D_i]}=\Gamma[Q,D_i]$.
 Theorem~\ref{thm:analytic} therefore recovers the criteria of Duchamp and Reutenauer and Linnell for free Haar unitaries, and of Miyagawa for free semicircular operators.
@@ -259,7 +261,8 @@ Theorem~\ref{thm:analytic} therefore recovers the criteria of Duchamp and Reuten
 Section~\ref{sec:preliminaries} collects the algebraic preliminaries on division closures and the free field, followed by fractions of affiliated operators, finite-rank tensor realizations and the consequences of maximal $\Delta$.
 Section~\ref{sec:maximal-delta} proves Theorem~\ref{thm:delta} using denominator clearing and the tensor realization of finite-rank operators.
 Section~\ref{sec:liberation-dual-system-criterion} proves that liberation dual systems give maximal $\Delta$ when every $X_i-\lambda$ is regular, and establishes Theorem~\ref{thm:intrinsic-analytic} by recovering algebraic $L^2$ tensors.
-Section~\ref{sec:dual-system-criterion} proves independence of the fraction pair, identifies finite-rank solutions with fraction-commutator closures, and constructs a normalized liberation dual system to deduce Theorem~\ref{thm:analytic} from Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-fraction-commutators})}.
 Section~\ref{sec:conjugate-variable-criterion} constructs normalized liberation dual systems from $L^2$ liberation gradients and applies Theorem~\ref{thm:intrinsic-analytic} to normal generators with nonatomic spectral distributions.
 It then obtains the conjugate-variable case as Corollary~\ref{prop:normal-conjugates} and gives an arcsine example separating the two hypotheses.
+Section~\ref{sec:dual-system-criterion} proves independence of the fraction pair, identifies finite-rank certificates with fraction-commutator closures and establishes conjugate variables from a dual system.
+It then deduces Theorem~\ref{thm:analytic} from Corollary~\ref{prop:normal-conjugates}, using the summed fraction-commutator identity for the converse.
 Section~\ref{sec:examples} uses a circular operator to illustrate the role of normality in Theorem~\ref{thm:analytic}.

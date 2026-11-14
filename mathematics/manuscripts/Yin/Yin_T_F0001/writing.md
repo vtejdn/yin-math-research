@@ -57,6 +57,12 @@ State the sum-to-\(P_\Omega\) normalization of liberation dual systems as a lemm
 Define the correction and all corrected operators on \(\M\Omega\), and verify the liberation relations, the sum identity and the common adjoint-domain condition explicitly.
 The normalization lemma uses only the liberation dual-system conditions and imposes no normality, scalar-shift regularity or generation hypothesis.
 
+## Applications and the Dual-System Criterion
+
+Present the applications to liberation gradients and conjugate variables in Section 5, before the dual-system criterion in Section 6.
+Deduce the dual-system criterion through the conjugate-variable case after proving that normal generators admitting a dual system admit conjugate variables.
+Retain the direct normalized liberation construction for its summed fraction-commutator identity.
+
 ## Mathematical Citations and Attribution
 
 Cite adopted specialized formulations and substantive external results for their actual role.
