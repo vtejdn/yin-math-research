@@ -7,6 +7,11 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 ## Group index
 
+### Measurable Schur multipliers and graph Cauchy integrals
+
+The [Schur multiplier for two measure spaces](../audits/literature/AP25/Yin_U001.md#measurable-schur-factorization) is defined by its action on trace-class integral kernels, with the corresponding norm and measurable factorization.
+The [graph Cauchy singular integral](../audits/literature/Mus14/Yin_U001.md#cauchy-integral-on-a-lipschitz-graph) uses a real graph parameter, Lebesgue measure and Muscalu's kernel normalization.
+
 ### Return operators, graph atoms and group-word compatibility
 
 The [SW20 spectral definitions](../audits/literature/SW20/Yin_U001.md#spectral-definitions) distinguish Hermitian, quasi-Hermitian and quasi-symmetric group algebras and their exact support quantifiers; C_A0014_v3 uses the quasi-Hermitian condition in its global-filter obstruction.

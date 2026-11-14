@@ -154,6 +154,11 @@ When only one coordinate has such a carrier, its own original canonical operator
 The same coordinate can carry [finitely many separated regular curves](../claims/Yin_C_F0237_v1.md#decision-reviewed), including both arcs and complete loops.
 For general diffuse marginals the [inverse spectral gap criterion](../claims/Yin_C_F0238_v1.md#decision-reviewed) computes the squared norm of the full conjugate vector as the squared marginal norm plus the inverse squared gap integral of its liberation gradient.
 The remaining universal implication is equivalent to boundedness, for each such tuple and coordinate, of the regularized column costs as the cutoff tends to zero.
+The [dyadic estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) bounds their growth by a logarithm for every actual normal tuple and gives the two canonical domains when its scale estimates are summable.
+For arbitrarily correlated selfadjoint coordinates, passing to [real Lipschitz graphs](../claims/Yin_C_F0244_v1.md#decision-reviewed) preserves actual conjugate variables in both directions.
+At any such graph coordinate a measurable Schur bound for its inverse secant yields both original canonical domains.
+If the [graph slope has bounded variation](../claims/Yin_C_F0246_v1.md#decision-reviewed), both domains hold with an absolute multiple of \((1+\operatorname{Var}(g_i'))\|\xi_{S_i}\|_2\) as the column bound, including at corners with a non-Schur inverse secant.
+[Uniform slope variation on each one-sided dyadic shell](../claims/Yin_C_F0247_v1.md#decision-reviewed) about a point also suffices, even for a polygon with infinite total slope variation and unbounded inverse-secant Schur norm.
 
 ## Starting evidence
 

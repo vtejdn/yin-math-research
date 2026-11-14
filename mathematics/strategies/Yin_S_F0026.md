@@ -311,12 +311,22 @@ The full comparison holds when each coordinate admits one of these two carrier t
 The [separated component theorem](../claims/Yin_C_F0237_v1.md#decision-reviewed) also controls mixed words within each regularly parametrized component, even when a single coordinate carries both arcs and complete loops.
 For arbitrary diffuse marginals, the [inverse spectral gap criterion](../claims/Yin_C_F0238_v1.md#decision-reviewed) separates the marginal and off-diagonal contributions to the actual vacuum and recovers the original column cost by testing uniform boundedness of its regularizations.
 Any separating example must have finite inverse-gap energy of the liberation vector and fail a uniform regularized column bound, possibly after taking the adjoint tuple and adjoining two free Haar unitaries.
+The [dyadic column estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) gives at most logarithmic growth as the cutoff is removed, with square-root logarithmic growth for the off-diagonal vacuum contribution.
+Its shell bounds are summable under the stated logarithmic improvements in the marginal ball masses and the inverse-gap energy.
+For general marginals the remaining issue is cancellation across shells.
+Even for correlated Haar generators with bounded duals, the [fixed-cutoff counterexample](../claims/Yin_C_F0245_v1.md#decision-reviewed) shows that evaluating the free model's sliced words at the correlated generators gives an unbounded map on the correlated operator-norm unit ball.
 The [two-block criterion](../claims/Yin_C_F0239_v1.md#decision-reviewed) excludes the pair consisting of a diffuse normal coordinate and its conjugate by an independent free unitary of nonzero trace.
 The [singular disk coupling](../claims/Yin_C_F0240_v1.md#decision-reviewed) nevertheless supports bounded tests in both two-block directions even with positive diagonal mass.
 In its commuting realization a degree-three zero relation detects the failure of the full vacuum.
-In its noncommuting realization the uniform planar marginal laws meet the [upper-growth condition](../claims/Yin_C_F0078_v1.md#statement), so even a proof of full ACSY for that realization would give strong duals.
+In its noncommuting realization neither coordinate has a full mixed-word vacuum, by the [free conjugation theorem](../claims/Yin_C_F0243_v1.md#decision-reviewed) for diffuse commuting normal generators and a free unitary of nonzero trace.
 In the [two-segment Gaussian example](../claims/Yin_C_F0241_v1.md#decision-reviewed), an inverse divided difference with logarithmically divergent Schur multiplier norms still permits finite original columns in both orientations.
-Thus failure of the Fourier multiplier bound for a change of variables leaves the actual mixed-word endpoint to be tested.
+More generally, the [spectral relabelling theorem](../claims/Yin_C_F0244_v1.md#decision-reviewed) tests the transformed vacuum by its scalar marginal and the pushforward inverse-gap integral of the same liberation vector.
+Both tests are invariant under a real Lipschitz graph over a selfadjoint coordinate, in arbitrary correlated tuples.
+A measurable Schur bound on the inverse secant suffices to control the original columns after the coordinate change.
+For [graph slopes of bounded variation](../claims/Yin_C_F0246_v1.md#decision-reviewed), integrating the slope variation against the estimates for single vertices controls both original columns, even when the inverse secant has infinite Schur norm.
+The column bound depends on the total slope variation and the original real conjugate-variable norm, allowing infinitely many jumps of summable magnitude.
+Around one accumulation point, [the localized shell bound](../claims/Yin_C_F0247_v1.md#decision-reviewed) uses only the largest slope variation on a single one-sided shell.
+It proves both domains for the dyadically repeated triangular graph even though its slope has infinite total variation and its sampled inverse secants have unbounded Schur norms on interval-supported marginals.
 The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
 For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 

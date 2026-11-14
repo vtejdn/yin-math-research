@@ -289,6 +289,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0248](Yin_R_F0248_v1.md#whole-proof-finding) | Ordered two-block vacuum, conditional atoms and free-unitary conjugation | [v1](Yin_R_F0248_v1.md) |
 | [Yin_R_F0249](Yin_R_F0249_v1.md#whole-proof-finding) | Singular coupling backgrounds, their realizations and finite-degree vacuum tests | [v1](Yin_R_F0249_v1.md) |
 | [Yin_R_F0250](Yin_R_F0250_v1.md#finding) | Gaussian column bounds under relabelling and Schur norm growth at a corner | [v1](Yin_R_F0250_v1.md) |
+| [Yin_R_F0251](Yin_R_F0251_v1.md#whole-proof-finding) | Dyadic estimates for regularized columns and sufficient logarithmic endpoint conditions | [v1](Yin_R_F0251_v1.md) |
+| [Yin_R_F0252](Yin_R_F0252_v1.md#finding) | Full mixed-word vacuum obstruction after free-unitary conjugation of a commuting diffuse pair | [v1](Yin_R_F0252_v1.md) |
+| [Yin_R_F0253](Yin_R_F0253_v1.md#whole-proof-finding) | Borel relabelling, measurable Schur column bounds and actual conjugate variables on Lipschitz graphs | [v1](Yin_R_F0253_v1.md) |
+| [Yin_R_F0254](Yin_R_F0254_v1.md#finding) | Failure of free-reference slice subtraction at a fixed positive cutoff in a correlated Haar pair | [v1](Yin_R_F0254_v1.md) |
+| [Yin_R_F0255](Yin_R_F0255_v1.md#finding) | Uniform original column bounds on Lipschitz graphs whose slope has bounded variation | [v1](Yin_R_F0255_v1.md) |
+| [Yin_R_F0256](Yin_R_F0256_v1.md#finding) | Variation on individual dyadic shells, original mixed columns and an infinite polygon with an unbounded Schur multiplier | [v1](Yin_R_F0256_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

@@ -271,6 +271,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Zei13 source notes](Zei13/readme.md) | Cycle products and finite-type angle convention |
 | [Kam26 source notes](Kam26/readme.md) | Heisenberg finite-quotient determinant counterexample |
 | [Tao08 source notes](Tao08/readme.md) | Simultaneous torus returns with bounded gaps |
+| [Tao08b source notes](Tao08b/readme.md) | Hilbert norm convergence of unitary ergodic averages to the fixed-space projection |
+| [Tao09 source notes](Tao09/readme.md) | The Riemann–Lebesgue lemma for integrable densities and decay of Fourier coefficients on the circle |
+| [AP25/Yin_U001](AP25/Yin_U001.md#measurable-schur-factorization) | Measurable Schur multipliers, operator-norm characterization and factorization with pointwise square-sum bounds |
+| [Mus14/Yin_U001](Mus14/Yin_U001.md#cauchy-integral-on-a-lipschitz-graph) | Graph Cauchy integral with Lebesgue parameter measure and its bounded extension on \(L^p\) |
 | [Ken11 source notes](Ken11/readme.md) | Graph connections, gauge equivalence and cycle monodromy |
 | [HZ25/Yin_U001](HZ25/Yin_U001.md) | Regular-bulk Haar additive local laws, conditional input boundaries and ultra-small logarithms |
 | [Sch05/Yin_U001](Sch05/Yin_U001.md) | Exact real-Ginibre affine resolvent estimate and its matrix-coefficient GOE Hermitization specialization |
