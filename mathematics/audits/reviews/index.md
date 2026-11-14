@@ -295,7 +295,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0254](Yin_R_F0254_v1.md#finding) | Failure of free-reference slice subtraction at a fixed positive cutoff in a correlated Haar pair | [v1](Yin_R_F0254_v1.md) |
 | [Yin_R_F0255](Yin_R_F0255_v1.md#finding) | Uniform original column bounds on Lipschitz graphs whose slope has bounded variation | [v1](Yin_R_F0255_v1.md) |
 | [Yin_R_F0256](Yin_R_F0256_v1.md#finding) | Variation on individual dyadic shells, original mixed columns and an infinite polygon with an unbounded Schur multiplier | [v1](Yin_R_F0256_v1.md) |
-| [Yin_R_F0257](Yin_R_F0257_v1.md#finding) | Canonical domains for finite planar arc networks and localized estimates at branching vertices | [v1](Yin_R_F0257_v1.md) |
+| [Yin_R_F0257](Yin_R_F0257_v2.md#finding) | Canonical domains for finite planar arc networks, including arbitrary tangencies at vertices | [v1](Yin_R_F0257_v1.md), [v2](Yin_R_F0257_v2.md) |
+| [Yin_R_F0258](Yin_R_F0258_v1.md#finding) | Trace and variance tests on semicircular mixed words and the exact graph pairing | [v1](Yin_R_F0258_v1.md) |
+| [Yin_R_F0259](Yin_R_F0259_v1.md#finding) | Interleaved parameters and both canonical domains at power-order tangencies | [v1](Yin_R_F0259_v1.md) |
+| [Yin_R_F0260](Yin_R_F0260_v1.md#finding) | Ordered rectangular cuts and negative diagonal forms in a correlated pair of Haar generators | [v1](Yin_R_F0260_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

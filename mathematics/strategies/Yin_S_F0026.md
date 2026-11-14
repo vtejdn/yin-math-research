@@ -327,13 +327,16 @@ For [graph slopes of bounded variation](../claims/Yin_C_F0246_v1.md#decision-rev
 The column bound depends on the total slope variation and the original real conjugate-variable norm, allowing infinitely many jumps of summable magnitude.
 Around one accumulation point, [the localized shell bound](../claims/Yin_C_F0247_v1.md#decision-reviewed) uses only the largest slope variation on a single one-sided shell.
 It proves both domains for the dyadically repeated triangular graph even though its slope has infinite total variation and its sampled inverse secants have unbounded Schur norms on interval-supported marginals.
-On [finite arc networks](../claims/Yin_C_F0248_v1.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
-The finite sum of their estimates controls the original mixed words, including for networks with crossings, branches and cycles.
-At a common outgoing tangent the signed parameters on the two sides can separate faster than their images in the plane, as for the branches \(x\pm i x^2\).
+On [finite arc networks](../claims/Yin_C_F0248_v2.md#decision-reviewed), each pair of incident branches with distinct outgoing tangents has its own real projection chart.
+At a common tangent, encoding intervals of length comparable to the actual branch separation and grouping by height gives the mixed-column bound even at infinite-order contact.
+The finite sum of the pair estimates controls the original mixed words on networks with crossings, branches and cycles.
+For [power-order contact](../claims/Yin_C_F0250_v1.md#decision-reviewed), interleaving the two branches in real intervals of the size of their separation gives a forward Lipschitz decoder and a cross-branch Schur estimate, including for \(x\pm i x^2\).
 For arbitrary planar marginals, the [rectangular liberation calculation](../drafts/Yin_D_F0002.md#a-rectangular-liberation-block-and-the-remaining-diagonal-terms) retains the two diagonal quadratic forms omitted by a cross-only estimate.
 The fixed-center mass series in (R3) there is bounded uniformly by scalar packing.
+In the [Poisson unitary pair](../claims/Yin_C_F0251_v1.md#decision-reviewed), both diagonal forms can be arbitrarily negative on the same norm-one mixed word as the law varies; the actual cross compression of the liberation vacuum controls their weighted sum on all the tested powers.
 For a Lipschitz graph the [weak trace-class estimate](../audits/literature/CSZ18/Yin_U001.md#csz18-u001) applies to the exact inverse-secant symbol, and the [heat-semigroup BMO estimate](../audits/literature/CJSZ20/Yin_U001.md#cjsz20-u001) acts on its finite spectral blocks.
-Using either estimate on arbitrary mixed columns still requires control of the test inputs in the corresponding operator space before the right trace.
+The [semicircular Chebyshev tests](../claims/Yin_C_F0249_v1.md#decision-reviewed) have degree-dependent unbounded pairings on the entire graph heat BMO and weak trace-class unit balls, even for length-one mixed columns.
+For each fixed actual inverse secant their pairings are square summable, so a proof using these operator estimates must retain the special symbol in the mixed-word test.
 The [two-point modulus rank obstruction](../claims/Yin_C_F0232_v1.md#decision-reviewed) excludes every normal encoding retaining the full matrix-amplified star algebra of the nonnormal example, and rules out bounded-vacuum approximation of its real–imaginary and polar pairs in moments.
 For the alternative representation as the midpoint of two unitaries, [localization of the relative unitary](../drafts/Yin_D_F0006.md#two-point-modulus-matrix-encoding) forces vacuum blowup even for perturbations retaining just one approximate atom of positive mass.
 

@@ -275,6 +275,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Tao09 source notes](Tao09/readme.md) | The Riemann–Lebesgue lemma for integrable densities and decay of Fourier coefficients on the circle |
 | [AP25/Yin_U001](AP25/Yin_U001.md#measurable-schur-factorization) | Measurable Schur multipliers, operator-norm characterization and factorization with pointwise square-sum bounds |
 | [Mus14/Yin_U001](Mus14/Yin_U001.md#cauchy-integral-on-a-lipschitz-graph) | Graph Cauchy integral with Lebesgue parameter measure and its bounded extension on \(L^p\) |
+| [Gla63 source notes](Gla63/readme.md#lemme-i) | Square-root derivative estimate for a positive function and attribution of Lemma I |
 | [CSZ18/Yin_U001](CSZ18/Yin_U001.md#weak-endpoint-for-the-planar-symbol) | Weak trace-class estimate for double operator integrals and the planar inverse-secant symbol |
 | [CJSZ20/Yin_U001](CJSZ20/Yin_U001.md#graph-heat-semigroup-and-bmo) | Graph heat semigroup, divided-difference BMO estimate and finite spectral transference |
 | [Ken11 source notes](Ken11/readme.md) | Graph connections, gauge equivalence and cycle monodromy |
