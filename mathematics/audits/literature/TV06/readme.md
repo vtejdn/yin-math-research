@@ -12,3 +12,4 @@ The inspected source is the [publisher’s 16-page PDF](https://www.acadsci.fi/m
 The following selected units retain their stated editions, passages, inspection dates, and review limits.
 
 - [Yin_U001](Yin_U001.md)
+- [Yin_U002](Yin_U002.md)

@@ -804,6 +804,8 @@ The cubic integral for these abstract tests diverges since \(3\alpha-3<-1\).
 Thus a uniform allowance \(\rho>1/3\) in (P1) permits abstract radial data with all the stated radial vacuum pairings and divergent cubic concentration.
 These data have no established realization by an actual normal tuple and omitted shift.
 For arbitrary actual shifts the positive phase has only its contraction bound; (P1) with the smaller quantitative coefficient remains an additional assumption.
+The [sharp uniform estimate](../claims/Yin_C_F0261_v2.md#decision-reviewed) subsequently extends this absorption argument to every coefficient strictly below \(1/3\) by averaging the signed kernels over scales.
+At equality its scalar endpoint example represents all \(C^1\) radial tests while the integral diverges logarithmically.
 
 <a id="weak-fourth-moment-gaussian-density"></a>
 ## The weak fourth-moment endpoint for the mixed Gaussian column
@@ -866,3 +868,90 @@ Indeed take a continuous \(0\le u_r\le e_r\) equal to one on \(e_{r/2}\), so \((
 Both \(u_r\) and \(f\) are continuous on the compact two-disk support and hence uniformly approximable by starred polynomials in \(Z\).
 For the approximants \(p_n=u_nTv_n\), the outputs \(Ep_n=u_n\tau(v_n)\) converge in norm to \(q u_r\), and \(p_n^*p_n\) converges in norm to \((u_rTf)^*(u_rTf)\), allowing testing against any state.
 Domination on the core would force \(q^2(5/32)r^2\le C^2\varphi(B_r)\le4C^2s_r=C^2r^{5/2}\) at every scale.
+
+<a id="radial-disk-weights"></a>
+## Radial dominating weights on a disk and its free extensions
+
+For normalized area measure \(\mu=dA/\pi\) on the unit disk, let \(E\) be the right slice of the normal coordinate \(Z(z)=z\).
+The [disk indicator estimate](../claims/Yin_C_F0267_v1.md#a-disk-with-vanishing-one-dimensional-density) forces logarithmic growth in the mass of a dominating weight near the origin.
+The full test on radial weights requires a stronger exponent.
+For \(D(|z|)\in L^1(\mu)_+\), there is a finite \(C\) with
+\[
+                  \|Ep\|_2^2\le C^2\int|p|^2D\,d\mu
+                   \qquad(p\in\mathbb C[Z,Z^*])
+\]
+if and only if, for some \(a>0\),
+\[
+   D(r)\ge a r^2\quad\text{almost everywhere},\qquad
+   H_D:=\sup_{0<r<1}\log(1/r)\int_0^r\frac{s}{D(s)}\,ds<\infty .        \tag{D1}
+\]
+In particular \(D_\alpha(r)=r^2(\log(e/r))^\alpha\) dominates exactly for \(\alpha\ge2\).
+
+Write \(\mathcal C f(z)=\int f(w)/(z-w)\,d\mu(w)\) for the unbarred Cauchy transform.
+On the original core one has \(E f=\bar z f-\mathcal C f\) by the disk calculation in C0267.
+The kernel \(1/|z-w|\) has uniformly bounded integrals in either variable, so \(\mathcal C\) extends continuously on ordinary \(L^2(\mu)\) by Cauchy–Schwarz in the integration variable followed by Fubini.
+The pointwise multiplier necessity in [C0267](../claims/Yin_C_F0267_v1.md#localizing-the-multiplier-part) gives \(D\ge C^{-2}r^2\) for any dominating \(D\).
+With this condition, multiplication by \(\bar z\) is bounded from \(L^2(D\mu)\) to \(L^2(\mu)\), so the remaining question is boundedness of \(\mathcal C\) between the same spaces.
+To test (or extend) the core inequality on bounded Borel functions one can approximate by starred polynomials in \(L^2((1+D)\mu)\), using both operator bounds and the ordinary \(L^2\) realization just given.
+
+For a bounded angular mode \(f(se^{it})=h(s)e^{int}\), geometric-series integration in \(t\) gives a single output mode \(e^{i(n-1)\phi}\) at \(z=re^{i\phi}\).
+Its radial coefficient is
+\[
+ \begin{cases}
+  \displaystyle\frac{2}{r}\int_0^r (s/r)^{-n}h(s)s\,ds, & n\le0,\\[4pt]
+  \displaystyle-2\int_r^1 (r/s)^{n-1} h(s)\,ds, & n\ge1 .
+ \end{cases}                                                            \tag{D2}
+\]
+The expansions are valid for each \(s\ne r\), and the original disk kernel is absolutely integrable for each \(z\) and bounded input.
+Distinct input modes thus give orthogonal output modes.
+In absolute value each nonpositive mode is dominated by the radial Hardy operator of mode zero applied to \(|h|\).
+Each positive mode is dominated by \(2\int_r^1 |h(s)|\,ds\).
+Writing \(F(r)=\int_r^1 |h(s)|\,ds\), integration by parts for bounded \(h\) gives
+\[
+ \int_0^1 F(r)^2r\,dr=\int_0^1 r^2F(r)|h(r)|\,dr
+ \le\left(\int_0^1 F^2 r\,dr\right)^{1/2}
+     \left(\int_0^1 |h|^2r^3\,dr\right)^{1/2}.
+\]
+The first condition in (D1) therefore handles all positive modes.
+
+For mode zero put \(V(r)=\int_0^r s/D(s)\,ds\).
+Dropping the fixed numerical factors in (D2) and the area measure leaves the inequality
+\[
+    \int_0^1\left|\int_0^r h(s)s\,ds\right|^2\frac{dr}{r}
+             \le K\int_0^1 |h(s)|^2D(s)s\,ds .                          \tag{D3}
+\]
+For \(h(s)=1_{\{s<r_0\}}\min(D(s)^{-1},m)\), the left side is at least \(\log(1/r_0)(\int_0^{r_0}h(s)s\,ds)^2\), whereas the input norm squared is at most \(\int_0^{r_0}h(s)s\,ds\).
+Letting \(m\) tend to infinity proves \(H_D\le K\).
+
+Conversely, suppose \(H_D<\infty\).
+Then \(0<V(r)<\infty\) for \(0<r<1\), \(V\) tends to zero at zero, and \(V'(s)=s/D(s)\) almost everywhere.
+Cauchy–Schwarz gives
+\[
+ \left(\int_0^r |h(s)|s\,ds\right)^2
+ \le 2\sqrt{V(r)}
+       \int_0^r |h(s)|^2D(s)s\sqrt{V(s)}\,ds ,
+\]
+since \(\int_0^r V'(s)/\sqrt{V(s)}\,ds=2\sqrt{V(r)}\).
+The bound \(V(r)\le H_D/\log(1/r)\) gives, for \(0<s<1\),
+\[
+ \int_s^1\sqrt{V(r)}\,\frac{dr}{r}
+ \le 2\sqrt{H_D\log(1/s)}\le \frac{2H_D}{\sqrt{V(s)}} .
+\]
+Interchanging the nonnegative integrals proves (D3) with \(K=4H_D\).
+These estimates control all finite angular sums by orthogonality since \(D\) is radial, in particular every starred polynomial.
+For \(D_\alpha\), one has \(V(r)=\int_{\log(e/r)}^\infty u^{-\alpha}du\).
+It is infinite for \(\alpha\le1\) and otherwise equals \((\log(e/r))^{1-\alpha}/(\alpha-1)\).
+Thus \(H_{D_\alpha}<\infty\) precisely for \(\alpha\ge2\), and those weights also satisfy the pointwise condition.
+
+Adjoin any finite family of freely independent actual normal coordinates free from \(Z\), including for example one Haar unitary.
+For the expanded tuple and the distinguished coordinate \(Z\), each original mixed starred polynomial \(p\) has the finite orthogonal right-module expansion \(p=\sum_u u b_u\).
+The [right-module decomposition](../claims/Yin_C_F0160_v1.md#2-right-modules-and-the-actual-adjoint) gives \(E_{\rm mixed}p=\sum_u u E b_u\) and \(\mathbb E_{W^*(Z)}(p^*p)=\sum_u |b_u|^2\).
+Therefore
+\[
+       \|E_{\rm mixed}p\|_2^2=\sum_u\|E b_u\|_2^2
+                    \le C^2\sum_u\int D|b_u|^2\,d\mu
+                    = C^2\tau(Dp^*p).
+\]
+Restriction to marginal polynomials recovers the scalar inequality with the same constant.
+Thus the least constant for a given marginal weight agrees on both cores, and (D1) and the \(\alpha=2\) endpoint characterize these radial weights even on the full mixed core.
+For a general correlated actual tuple with this disk marginal, a mixed weight whose conditional expectation onto the disk is radial must still satisfy (D1) after compression by the pure polynomial tests.

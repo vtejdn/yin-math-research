@@ -308,9 +308,14 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0267](Yin_R_F0267_v1.md#finding) | Overlapping approximate projections and the uniform cubic singular concentration integral | [v1](Yin_R_F0267_v1.md) |
 | [Yin_R_F0268](Yin_R_F0268_v1.md#finding) | A correlated Gaussian pair for which all semicircular marginal weights fail | [v1](Yin_R_F0268_v1.md) |
 | [Yin_R_F0269](Yin_R_F0269_v1.md#finding) | Actual vacua, original domains and columns for measurable Gaussian drift and variable amplitude | [v1](Yin_R_F0269_v1.md) |
-| [Yin_R_F0270](Yin_R_F0270_v1.md#finding) | Cubic concentration from the vacuum at accretive and nonpositive-phase omitted shifts | [v1](Yin_R_F0270_v1.md) |
+| [Yin_R_F0270](Yin_R_F0270_v2.md#finding) | Cubic concentration at accretive shifts and below the sharp radial phase threshold | [v1](Yin_R_F0270_v1.md), [v2](Yin_R_F0270_v2.md) |
 | [Yin_R_F0271](Yin_R_F0271_v1.md#finding) | Marginal domination and the exact right slice norm at a Gaussian Markov coordinate | [v1](Yin_R_F0271_v1.md) |
 | [Yin_R_F0272](Yin_R_F0272_v1.md#finding) | Explicit Gaussian density, exclusion of marginal mixtures and sharp fourth-moment obstruction | [v1](Yin_R_F0272_v1.md) |
+| [Yin_R_F0273](Yin_R_F0273_v1.md#finding) | Local density obstruction in a separated-interval law and its semicircular extension | [v1](Yin_R_F0273_v1.md) |
+| [Yin_R_F0274](Yin_R_F0274_v1.md#finding) | Free unitary rotations with arbitrary Borel phase and both original canonical domains | [v1](Yin_R_F0274_v1.md) |
+| [Yin_R_F0275](Yin_R_F0275_v1.md#finding) | Isometric adjoint implementation at a real coordinate and the criterion for scalar domination | [v1](Yin_R_F0275_v1.md) |
+| [Yin_R_F0276](Yin_R_F0276_v1.md#finding) | Exact planar scalar weight criterion, normalized curvature identity and disk obstruction | [v1](Yin_R_F0276_v1.md) |
+| [Yin_R_F0277](Yin_R_F0277_v1.md#finding) | Hilbert–Schmidt criterion and original canonical domains for arbitrary free selfadjoint noise | [v1](Yin_R_F0277_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
