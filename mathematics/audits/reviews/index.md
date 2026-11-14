@@ -304,6 +304,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0263](Yin_R_F0263_v1.md#finding) | Square-Dini changes of planar coordinates and the quantitative bounds on actual conjugate variables | [v1](Yin_R_F0263_v1.md) |
 | [Yin_R_F0264](Yin_R_F0264_v1.md#whole-proof-finding) | Maximal density, curvature and the scalar and mixed vacuum criteria | [v1](Yin_R_F0264_v1.md) |
 | [Yin_R_F0265](Yin_R_F0265_v1.md#finding) | Weighted corona packing and invariance of the geometric energy and actual vacua under planar bilipschitz maps | [v1](Yin_R_F0265_v1.md) |
+| [Yin_R_F0266](Yin_R_F0266_v1.md#whole-proof-finding) | Exact transfer of mixed column costs, Lipschitz variations and column-induced complex measures | [v1](Yin_R_F0266_v1.md) |
+| [Yin_R_F0267](Yin_R_F0267_v1.md#finding) | Overlapping approximate projections and the uniform cubic singular concentration integral | [v1](Yin_R_F0267_v1.md) |
+| [Yin_R_F0268](Yin_R_F0268_v1.md#finding) | A correlated Gaussian pair for which all semicircular marginal weights fail | [v1](Yin_R_F0268_v1.md) |
+| [Yin_R_F0269](Yin_R_F0269_v1.md#finding) | Actual vacua, original domains and columns for measurable Gaussian drift and variable amplitude | [v1](Yin_R_F0269_v1.md) |
+| [Yin_R_F0270](Yin_R_F0270_v1.md#finding) | Cubic concentration from the vacuum at accretive and nonpositive-phase omitted shifts | [v1](Yin_R_F0270_v1.md) |
+| [Yin_R_F0271](Yin_R_F0271_v1.md#finding) | Marginal domination and the exact right slice norm at a Gaussian Markov coordinate | [v1](Yin_R_F0271_v1.md) |
+| [Yin_R_F0272](Yin_R_F0272_v1.md#finding) | Explicit Gaussian density, exclusion of marginal mixtures and sharp fourth-moment obstruction | [v1](Yin_R_F0272_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

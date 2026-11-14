@@ -1852,3 +1852,132 @@ The scalar converse just proved gives the actual vacuum for the image.
 For each coordinate of an actual correlated normal tuple, the [Borel relabelling criterion](../claims/Yin_C_F0244_v1.md#statement), item 1, preserves the liberation vacuum and bounds the target inverse-gap integral by \(\operatorname{Lip}(h^{-1})^2\) times the original one.
 Hence actual ACSY transfers on the represented mixed starred polynomial algebra, and the inverse maps give the reverse implication.
 This argument concerns the actual tensor vacua; estimates of the mixed slice on arbitrary columns require additional information.
+
+<a id="poisson-haar-bilipschitz-orbit"></a>
+## Full mixed columns on the bilipschitz orbit of the Poisson–Haar pair
+
+Let \(U\) be Haar and \(V\) free from \(U\), with Poisson law \(w_r\,dm\) for a fixed \(0<r<1\) and Haar probability \(m\) on the circle.
+Set \(A=W^*(U)\), \(B=W^*(V)\), \(M=A*B\) with its free product trace, and \(X=(U,U^*V)\).
+For any two globally bilipschitz homeomorphisms \(\phi_1,\phi_2\) of the plane, the tuple \(Y=(\phi_1(U),\phi_2(U^*V))\) has finite distinguished right column costs at both coordinates in both orientations, and its negative canonical closures witness the full strong dual condition.
+We first prove the right estimate at \(\phi(U)\) with the second generator left unchanged.
+
+### Reduction to a bounded kernel on a free product
+
+The Laurent cores for \(X\) and for the free reference pair \(X^0=(U,V)\) coincide as represented algebras, since \(V=X_1X_2\).
+Write \(\delta,\delta^0\) for the original distinguished derivatives at \(U\) on this common core, and use the free-coordinate derivation \(L\) that kills \(A\)-polynomials and satisfies \(L(V)=1\otimes V,\ L(V^*)=-V^*\otimes1\).
+For the corresponding partial liberations at \(U\), the [free-coordinate calculation](../claims/Yin_C_F0251_v1.md#the-liberation-vacuum-in-free-coordinates) gives
+\[
+ \gamma-\gamma^0=(I_{z\bar w}-1)L,\qquad
+ \gamma=I_{z-w}\delta,\qquad \gamma^0=I_{z-w}\delta^0 .
+\]
+The symbol \(I\) acts on the inner copies of \(A\) in the coarse tensor space.
+On the circle \(z\bar w-1=(z-w)\bar w\), and \(I_{z-w}\) is injective by diffuseness and [coarse product-law domination](../claims/Yin_C_F0238_v1.md#recovering-the-divided-difference-on-the-represented-core).
+Putting \(K=(z-w)/(\phi(z)-\phi(w))\) therefore gives, on all old mixed words,
+\[
+             C I_K\delta=C I_K\delta^0+C I_k L,\qquad
+             k(z,w)=\bar w K(z,w),\qquad
+             \|k\|_\infty\le\operatorname{Lip}(\phi^{-1}).                \tag{PH1}
+\]
+Here \(C=\mathrm{id}\otimes\tau\).
+The free reference term has finite column cost.
+Indeed the freely independent normal pair \((\phi(U),V)\) is actual by [bilipschitz invariance](../claims/Yin_C_F0256_v1.md#statement) applied to the actual free reference pair.
+Adding two free Haar unitaries preserves its distinguished vacuum and leaves all four marginal algebras freely independent.
+The [free normal one-input estimate](../claims/Yin_C_F0162_v1.md#statement), part B, and the [two-Haar encoding](../claims/Yin_C_F0208_v1.md#statement) bound the target reference column cost by twelve times its distinguished vacuum norm.
+That vacuum is the scalar vacuum by the centered reduced-word pairing in the free product.
+The [two-direction graph comparison](../claims/Yin_C_F0244_v1.md#passing-to-the-original-core-of-the-relabelled-tuple), applied as detailed below, identifies this cost with that of \(C I_K\delta^0\) on the common old core.
+
+### The last \(B\)-block
+
+In fact \(C I_k L\) extends boundedly to \(L^2(M)\) for any bounded measurable \(k\) on the marginal square with product law \(m^2\).
+Write \(D=C L|_B\), first on \(V\)-Laurent polynomials.
+The [calculation on the Poisson marginal](#spectral-phases-in-r1-and-collinear-annular-outputs-in-a-correlated-haar-pair) gives \(\|D\|_{L^2(B)\to L^2(B)}=1/(1-r)\).
+On \(L^2(A)=L^2(m)\) define
+\[
+           O_k a(z)=\int k(z,w)a(w)\,dm(w),\qquad r_k=O_k1 .
+\]
+Writing \(K_*=\|k\|_\infty\), Cauchy–Schwarz gives \(\|O_k\|_{2\to2}\le K_*\), \(\|r_k\|_\infty\le K_*\), and \(\sup_z\|k(z,\cdot)\|_2\le K_*\) with essential supremum.
+
+Use the orthogonal reduced-word decomposition into alternating tensor products of \(A^\circ=L^2(A)\ominus\mathbb C1\) and \(B^\circ=L^2(B)\ominus\mathbb C1\).
+It suffices initially to consider words with centered Laurent-polynomial blocks.
+If the word contains a \(B\)-block, let \(b\) be its last such block and let \(p\) be the prefix preceding \(b\).
+This prefix is empty or ends in a centered \(A\)-block.
+For a word ending at \(b\), or having a final centered \(A\)-block \(a\), the two formulas are
+\[
+          C I_k L(pb)=p(Db)r_k(U),\qquad
+          C I_k L(pba)=p(Db)(O_ka)(U).                                 \tag{PH2}
+\]
+The output is zero on the scalar and the words with only an \(A\)-block.
+For a separated symbol \(v(z)w(t)\), any earlier differentiated \(B\)-block leaves in its right leg \(w(U)d(V)\) followed by a reduced centered suffix starting in \(A^\circ\) and containing a further \(B^\circ\) block.
+Splitting \(d\) into mean and centered part shows this right leg has trace zero.
+For the centered part, the word following the initial \(A\)-factor is reduced and contains a centered \(B\)-block.
+For the scalar part, the initial two \(A\)-factors combine and the remaining centered \(B\)-block still forces zero trace.
+At the last \(b\), freeness gives \(\tau(w d)=\tau(w)\tau(d)\) or \(\tau(w d a)=\tau(d)\tau(aw)\), proving (PH2) term by term.
+Uniformly bounded rectangle-step approximants converging \(m^2\)-almost everywhere extend the identities to \(k\) by strong inner multiplication on fixed coarse inputs and by dominated convergence in the two displayed integral operators on fixed polynomial tests.
+
+To bound (PH2) on Hilbert words it is essential to account for the case when the mean of \(Db\) removes the separating \(B\)-block.
+If \(p=p'x\) with \(x\in A^\circ\), the product \(x(O_k a)\) is given by the map
+\[
+       F(z,w)\longmapsto \int k(z,w)F(z,w)\,dm(w)
+          \quad\text{from } L^2(m^2)\text{ to }L^2(m),
+\]
+evaluated at \(F=x\otimes a\).
+This map has norm at most \(K_*\) by Cauchy–Schwarz in the second variable and integration in the first.
+When the input ends at \(b\), the corresponding map on \(x\) is multiplication by \(r_k\), also of norm at most \(K_*\).
+
+More explicitly, on each alternating word space split \(Db\) by the orthogonal projections onto \(B^\circ\) and \(\mathbb C1\).
+In the centered case also split the final \(O_ka\) or \(r_k\) into its mean and centered part.
+The prefix is untouched, and each of the two resulting tensor maps has norm at most \(\|D\|K_*\).
+In the scalar case apply the mean functional of \(Db\) followed by the preceding two-variable map or the multiplier by \(r_k\), and split its output into mean and centered part.
+The unaffected prefix now ends in \(B^\circ\) or is empty, so again each result is a reduced word with no further merger and each tensor map costs at most \(\|D\|K_*\).
+For an empty \(p\), the scalar case simply uses \(O_k a\) or \(r_k\) without a merger.
+Tensoring the bounds with the identity on the unaffected prefix spaces and taking Hilbert closures proves them for arbitrary vectors in each alternating word space.
+There are at most four such terms per fixed input pattern, and their output lengths lie between \(n-3\) and \(n+1\) for an input length \(n\).
+At each length there are at most two alternating input patterns.
+Thus each fixed length and pattern has output norm at most \(4\|D\|K_*\) times the input norm, and at each output length at most ten input summands can contribute.
+Cauchy–Schwarz over those summands and orthogonality of the output length spaces give
+\[
+                         \|C I_k L\|_{2\to2}\le4\sqrt{10}\,\|D\|K_* .    \tag{PH3}
+\]
+For a finite mixed column \((p_j)\), \(\sum_j\|p_j\|_2^2=\tau(\sum_jp_j^*p_j)\le\|\sum_jp_j^*p_j\|\).
+Consequently (PH3) also bounds its column cost.
+
+### Target cores, the other coordinate and adjoints
+
+For the distinguished bilipschitz map in (PH1), the [mixed-core approximation](../claims/Yin_C_F0244_v1.md#passing-to-the-original-core-of-the-relabelled-tuple) approximates every unit target column in the distinguished old derivation graph with limsup column norm at most \(1+\varepsilon\).
+The old coarse divided differences of \(\phi(U),\phi(U)^*\) multiplied by \(K\) give \(1\otimes1\) and the new forced star phase.
+The old derivative vanishes on the omitted marginal, including bounded Borel functions of its generator in the graph obtained by bounded strong-star approximation.
+The Leibniz rule identifies \(I_K\overline\delta\) on target words with the actual distinguished derivative.
+Since \(K\) is bounded, the old cost in (PH1) passes to this graph limit, followed by \(\varepsilon\downarrow0\).
+For the free reference term apply the same argument from \((\phi(U),V)\) back to \((U,V)\), taking \(K\) as the target symbol in the \(U\)-variables.
+In the \(\phi(U)\)-variables that symbol becomes \(K(\phi^{-1}(y),\phi^{-1}(y'))\), whose product with \((y-y')/(\phi^{-1}(y)-\phi^{-1}(y'))\) is one off the diffuse diagonal.
+Using both directions gives the reference cost identity used above.
+
+The proof of the distinguished right estimate also permits any bounded Borel change of the omitted generator with a conull Borel inverse.
+The distinguished target vacuum exists in this setting by [liberation invariance and the inverse-gap criterion](../claims/Yin_C_F0244_v1.md#the-invariant-liberation-derivation), since that omitted algebra is unchanged and \(\phi(U)\) has its actual scalar vacuum.
+This observation requires only the distinguished actual derivative for the estimate.
+A general Borel change in an omitted marginal need not preserve that marginal's own scalar vacuum.
+When both changes are globally bilipschitz on the plane, both transformed coordinates are actual by C_F0256.
+
+To interchange the coordinates, let \(U'=U^*V\) and \(V'=U'U=U^*VU\).
+First \(U'\) is Haar free from \(B\).
+Indeed, expand each nonzero power of \(U^*V\) or its adjoint as a string of \(U\)-letters and unitary \(B\)-coefficients.
+In an alternating product with centered \(B\)-blocks, the coefficient between opposite signs at a junction is the centered separating block itself or its conjugate by \(V\).
+Inside each power all \(U\)-letters have the same sign.
+By trace cyclicity combine the outer \(B\)-coefficients and check cyclically alternating tests with a centered separator at every junction.
+Expanding the remaining intervening coefficients into centered and scalar parts can merge only same-sign \(U\)-powers, each still a nonzero centered Haar power.
+Every resulting term is a centered reduced trace, including the sole-power test for Haar moments in which all signs agree.
+This proves the asserted free Haar property by the centered-word criterion (general alternating tests reduce to cyclic ones by traciality, centering and induction).
+Conjugation by \(U'\) fixes its marginal pointwise and sends \(V\) to \(V'\), because \(U'V(U')^*=U^*VU\).
+Thus \(U',V'\) are free with the same two marginal laws, and \((U^*V,U)=(U',(U')^*V')\).
+The distinguished estimate therefore applies at the second coordinate with the first as the omitted marginal.
+
+For the adjoint pair \((U^*,V^*U)\) put \(\widehat U=U^*\) and \(\widehat V=U^*V^*U\).
+Conjugating the original free factors by \(U^*\) and taking adjoints gives freeness of \(\widehat U,\widehat V\), and the Poisson law is invariant under complex conjugation for real \(r\).
+The adjoint pair is exactly \((\widehat U,\widehat U^*\widehat V)\).
+For \(Y^*\) the coordinate maps on these adjoint generators become \(z\mapsto\overline{\phi_j(\bar z)}\), with unchanged bilipschitz constants.
+Hence both adjoint coordinates also have the right estimates just proved.
+The tracial flip-adjoint converts them to single-input left-slice estimates on the original \(Y\)-core. [Normal companion](../claims/Yin_C_F0076_v1.md#statement)
+The [two-slice theorem](../claims/Yin_C_F0072_v1.md#statement) gives both original canonical bounded-vector domains, and the generator commutator extends from the core by graph convergence, with negative closure in the generator-first convention.
+The constants may depend on \(r\) and the distinguished map's bilipschitz constant.
+This calculation uses the free two-factor decomposition and the bounded one-factor operator \(D_r\) of this correlated model.
+Whether all actual correlated normal tuples have the full strong dual condition remains open.

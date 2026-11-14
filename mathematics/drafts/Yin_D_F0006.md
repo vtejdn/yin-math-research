@@ -728,3 +728,141 @@ Suppose a projection \(e\) of trace \(m>0\) in a common ambient tracial algebra 
 Then \(m_{2\eta}\ge3m/4\) by testing \(|W-\lambda|^2\ge4\eta^2 1_{(2\eta,\infty)}(|W-\lambda|)\) against \(e\).
 In particular \(\|\xi_{B'}\|_2\ge (3m/4)^{3/2}/(16\eta)\), independently of which star algebra the perturbed pair generates.
 Thus perturbing the two midpoint unitaries while retaining either approximate half-trace atom cannot give the bounded vacua required in a separating sequence.
+
+<a id="positive-phase-concentration-integral"></a>
+## Cubic concentration with a small positive radial phase
+
+Keep the actual normal tuple, distinguished vacuum \(\xi\), and fixed family of omitted shifts \(\mathcal G\) from the [cubic concentration theorem](../claims/Yin_C_F0261_v1.md#statement).
+Write \(Z-b=U_bP_b\), let \(\mu_b\) be the law of \(P_b\), and set \(F(r)=\sup_{b\in\mathcal G}\mu_b([0,r])\).
+Take the empty supremum to be zero.
+With \(a_s(v)=sv/(v^2+s^2)\) and the [compressed marginal phase](../claims/Yin_C_F0229_v1.md#the-integrated-phase-defect) \(m_b\), suppose that a single \(\rho\ge0\) satisfies
+\[
+  \operatorname{Re}\iint a_s(v)a_s(w)m_b(v,w)\,d\mu_b(v)d\mu_b(w)
+       \le \rho\left(\int a_s(v)\,d\mu_b(v)\right)^2
+          \qquad(b\in\mathcal G,\ s>0).                                           \tag{P1}
+\]
+Define
+\[
+    k(y)=\frac{y^2-1}{(1+y^2)^2}\quad(y\ge1),\qquad
+    K=\int_1^\infty k(y)y^{2/3}\,dy,\qquad B_\lambda=(1+\lambda^{-2})\lambda^{2/3}
+                        \quad(\lambda\ge1).
+\]
+If \(B_\lambda K\sqrt\rho<1\), there is an absolute \(C\) such that
+\[
+     \int_0^\infty F(r)^3\,\frac{dr}{r^3}
+       \le C\left(\frac{B_\lambda}{1-B_\lambda K\sqrt\rho}\right)^4\|\xi\|_2^2 . \tag{P2}
+\]
+The condition includes \(\rho<1/36\) at \(\lambda=1\), since \(k(y)<y^{-2}\) gives \(K<3\).
+The factor \(B_\lambda=\lambda^{2/3}+\lambda^{-4/3}\) reaches its minimum on \([1,\infty)\) at \(\lambda=\sqrt2\), by differentiation.
+The bound \(K<3\) alone then includes \(\rho<4/(81\sqrt[3]{4})\).
+
+For the proof put \(v=|\xi|^*\), the decreasing rearrangement of the singular values of \(\xi\), \(H(t)=\int_0^t v(u)\,du\), and \(D(s)=\int_s^\infty H(F(x))\,dx/x^2\).
+For each shift the [original vacuum resolvent identity](../claims/Yin_C_F0261_v1.md#nonpositive-radial-phase-on-a-fixed-shift-family) has left side \((\int h_s\,d\mu_b)^2\), where \(h_s(t)=s^2/(s^2+t^2)\).
+Its first term is \(s^2\operatorname{Re}\langle\xi,U_bP_b(P_b^2+s^2)^{-1}\rangle\).
+The test has operator norm at most \(1/s\), and the trace of its singular values above \(y>0\) is at most \(F(1/y)\).
+The [vacuum rearrangement bound](../claims/Yin_C_F0261_v1.md#testing-the-actual-vacuum-against-a-truncated-inverse) bounds this term above by \(s^2D(s)\).
+Estimate the second term by (P1), take a square root, and put \(s=\lambda r\).
+Since \(h_{\lambda r}\ge(1+\lambda^{-2})^{-1}\) on \([0,r]\), this gives
+\[
+ \mu_b([0,r])\le(1+\lambda^{-2})\left(s\sqrt{D(s)}
+                      +\sqrt\rho\int a_s\,d\mu_b\right).
+\]
+One has \(\int_t^\infty k(y)\,dy=t/(1+t^2)\) for \(t\ge1\).
+Hence \(\int_1^\infty k(y)1_{\{v\le sy\}}dy=a_s(v)\) for \(v\ge s\), and equals \(1/2\ge a_s(v)\) for \(v\le s\).
+Integration against \(\mu_b\), followed by the supremum over shifts, yields
+\[
+ F(r)\le(1+\lambda^{-2})\left(\lambda r\sqrt{D(\lambda r)}
+               +\sqrt\rho\int_1^\infty k(y) F(\lambda r y)\,dy\right).         \tag{P3}
+\]
+
+For \(\varepsilon>0\), write \(I_\varepsilon=\int_\varepsilon^\infty F(r)^3\,dr/r^3\) and \(J_\varepsilon=\int_\varepsilon^\infty H(F(r))^{3/2}\,dr/r^{3/2}\).
+These are finite as \(F\le1\) and \(H\le\|\xi\|_2\).
+In \(L^3([\varepsilon,\infty),dr/r)\) the norm of \(r^{-2/3}F(r)\) is \(I_\varepsilon^{1/3}\).
+For any \(c\ge1\) the norm of \(r^{-2/3}F(cr)\) there is \(c^{2/3}I_{c\varepsilon}^{1/3}\le c^{2/3}I_\varepsilon^{1/3}\).
+Minkowski therefore bounds the scaled integral term of (P3) by \(B_\lambda K\sqrt\rho\,I_\varepsilon^{1/3}\).
+For the first term use
+\[
+ s^{2/3}D(s)=\int_1^\infty u^{-2/3}\frac{H(F(su))}{(su)^{1/3}}\,\frac{du}{u}.
+\]
+Minkowski in \(L^{3/2}([\lambda\varepsilon,\infty),ds/s)\) bounds the norm of this expression by \((3/2)J_\varepsilon^{2/3}\), since \(su\) ranges only over radii at least \(\varepsilon\).
+Taking the square root gives the first term of (P3), after scaling by \(r^{-2/3}\), a norm at most \(\sqrt{3/2}\,B_\lambda J_\varepsilon^{1/3}\).
+The [layer and Hardy calculation](../claims/Yin_C_F0261_v1.md#a-nonlinear-integral-estimate) for these same \(F,v\) gives \(J_\varepsilon\le 3(2I_\varepsilon/3)^{1/4}\sqrt2\,\|\xi\|_2^{3/2}\), independently of the radial phase.
+Thus \((1-B_\lambda K\sqrt\rho)I_\varepsilon^{1/3}\le C_1B_\lambda I_\varepsilon^{1/12}\|\xi\|_2^{1/2}\) with an absolute \(C_1\).
+For \(I_\varepsilon>0\) division and the fourth power yield (P2) at the truncated lower limit, and monotone convergence gives the full result.
+
+The [scalar radial models](Yin_D_F0003.md#sharp-scalar-limits-of-radial-vacuum-tests-at-an-omitted-shift) also quantify a limitation of this proof.
+For \(1/2<\alpha<2/3\) those laws have \(F(r)=r^\alpha\) on \((0,1)\) and constant compressed phase \(\rho_\alpha=(B_\alpha-A_\alpha)/(B_\alpha+A_\alpha)\), with the integrals defined there.
+In fact \(B_\alpha=\pi/\sin(\pi\alpha)\) and \(A_\alpha=-\pi\cot(\pi\alpha)\).
+To see both signs, integrate \(z^{\alpha-1}/(1+z)\) on a positively oriented slit annulus about the positive real axis with \(\arg z\in(0,2\pi)\).
+The two bank integrals converge to \((1-e^{2\pi i\alpha})B_\alpha\), the inner and outer circles vanish, and the residue at \(-1\) gives \(2\pi i e^{i\pi(\alpha-1)}\).
+With \(1-z\) in the denominator instead, indent the banks at \(1\) by clockwise semicircles of radius \(\epsilon\), excluding the pole and enclosing no others.
+The small arcs on the two banks contribute \(i\pi(1+e^{2\pi i\alpha})\) in the limit.
+The principal value \(I=\operatorname{pv}\int_0^\infty t^{\alpha-1}/(1-t)\,dt\) therefore satisfies \((1-e^{2\pi i\alpha})I+i\pi(1+e^{2\pi i\alpha})=0\), yielding \(I=\pi\cot(\pi\alpha)\).
+Inversion above one gives \(I=-A_\alpha\); replacing the lower cutoff \(1-\epsilon\) by \(1/(1+\epsilon)\) changes the integral by \(O(\epsilon)\).
+Consequently \(\rho_\alpha=\cot^2(\pi\alpha/2)\downarrow1/3\) as \(\alpha\uparrow2/3\).
+The cubic integral for these abstract tests diverges since \(3\alpha-3<-1\).
+Thus a uniform allowance \(\rho>1/3\) in (P1) permits abstract radial data with all the stated radial vacuum pairings and divergent cubic concentration.
+These data have no established realization by an actual normal tuple and omitted shift.
+For arbitrary actual shifts the positive phase has only its contraction bound; (P1) with the smaller quantitative coefficient remains an additional assumption.
+
+<a id="weak-fourth-moment-gaussian-density"></a>
+## The weak fourth-moment endpoint for the mixed Gaussian column
+
+Consider the two-disk pair of [C0259](../claims/Yin_C_F0259_v1.md#the-semicircular-marginal-and-the-conditional-square).
+Write \(N=W^*(Z)\), \(D=W^*(T)\), \(q=\mu(D_1)=3/8\), \(f=1_{D_1}\), \(e_r=1_{\{|z|\le r\}}\), and \(m(z)=\sqrt{|z|}/2\) on \(D_0\).
+The [full-algebra density](../claims/Yin_C_F0263_v1.md#right-creation-and-the-explicit-density) \(d_*=(\xi^2+h)/(2\|\xi\|_2^2)\), \(h=\mathbb E_N(\xi^2)\), dominates the canonical right slice \(E=(\mathrm{id}\otimes\tau)\delta_T\) on every original mixed column.
+On this fixed pair \(d_*\) belongs to weak \(L^4(M)\), and every density \(d\) with \(\|Ep\|_2^2\le C^2\tau(dp^*p)\) on the polynomial core satisfies
+\[
+ \inf_{0<t\le 3/32}t^{-3/4}\int_0^t\mu_d(u)\,du
+       \ \ge\ \frac{5q^2}{8C^2}(32/3)^{3/4}.                           \tag{W1}
+\]
+Here \(\mu_d\) is the decreasing rearrangement of \(d\ge0\) for the normalized trace.
+
+To prove (W1), set \(B_r=fT e_r T f\) and \(s_r=\int_{e_r}m\,d\mu=r^{5/2}/4\), by polar integration for \(0<r\le1\).
+The [two compressed creation bounds and original polynomial tests](../claims/Yin_C_F0263_v1.md#the-two-disk-pair-and-its-cutoffs) give
+\[
+ \tau(B_r)=q s_r,\qquad
+ \|e_rTf\|\le\sqrt{s_r}+\sqrt{q\sqrt r/2}\le r^{1/4},\qquad
+ C^2\tau(dB_r)\ge q^2(5/8)r^2 .
+\]
+For \(V=B_r/\sqrt r\) one therefore has \(0\le V\le1\) and \(\tau(V)=(3/32)r^2\).
+Integrating \(\tau(1_{(y,\infty)}(d)V)\le\min(\tau(1_{(y,\infty)}(d)),\tau(V))\) over \(y>0\) gives \(\tau(dV)\le\int_0^{\tau(V)}\mu_d(u)\,du\), which proves (W1).
+In particular a dominating density cannot satisfy \(u^{1/4}\mu_d(u)\to0\) at zero, since this would make the integral in (W1) \(o(t^{3/4})\).
+This excludes all \(L^{4,j}\) with \(1\le j<\infty\), since monotonicity bounds \(u^{j/4}\mu_d(u)^j\) by a constant times \(\int_{u/2}^u(v^{1/4}\mu_d(v))^j\,dv/v\).
+
+For the endpoint upper bound, the [reciprocal-kernel decomposition](../claims/Yin_C_F0263_v1.md#integrability-of-the-full-algebra-density) gives \(\xi=K+gSf+fSg\), with \(K\) bounded, \(S\) standard semicircular and \(g=1_{D_0}m^{-1/2}\).
+The projection \(P_L=1_{\{g>L\}}\) has trace at most \(10L^{-8}\), by \(g=\sqrt2|z|^{-1/4}\) on \(D_0\).
+Replacing \(g\) by \(g1_{\{g\le L\}}\) leaves a bounded part of norm at most \(\|K\|+4L\).
+The two discarded terms each have right support of trace at most \(\tau(P_L)\), since the first has left support under \(P_L\), the second has right support under \(P_L\), and polar decomposition equates the two support traces.
+On the intersection of their kernels the original \(\xi\) is thus bounded by \(\|K\|+4L\).
+The spectral projection of \(|\xi|\) strictly above this bound has trace at most \(2\tau(P_L)\), since any projection of larger trace meets that intersection nontrivially.
+This proves \(\tau(1_{(\lambda,\infty)}(\xi^2))=O(\lambda^{-4})\) at infinity.
+The same bound holds for \(h\) because it is bounded on \(D_1\) and at most \(1+q/m\) on \(D_0\).
+Intersect the spectral cutoffs of \(\xi^2\) and \(h\) at level \(\lambda\).
+On this intersection their sum has norm at most \(2\lambda\), with complementary trace \(O(\lambda^{-4})\), proving \(d_*\in L^{4,\infty}(M)\).
+
+There is also a uniform obstruction for products of marginal weights.
+For \(v\in L^2(N)\), \(w\in L^1(D)_+\), let \(d_{v,w}=yy^*\) with \(y=v\sqrt w\in L^2(M)\).
+The relative Wick basis \(U_n(T)\) of \(L^2(D)\) lies in degree \(n\), so \(\mathbb E_D(u)=\tau(u)1\) for bounded \(u\in N\) by orthogonality to every positive degree.
+By truncation, \(\mathbb E_D(|v|^2)=\|v\|_2^2 1\).
+For bounded \(v\in N\), \(b\in D\) the trace identity gives \(\|vb\|_2=\|v\|_2\|b\|_2\).
+Applying it to differences of bounded truncations of either factor gives the stated \(L^2\) product as their joint limit, with \(\tau(d_{v,w})=\|v\|_2^2\tau(w)\).
+
+For bounded \(v\), put \(j=fv\).
+The degree-zero and degree-two projections of \(j^*T e_r Tj\) onto \(L^2(D)\) give
+\[
+ \mathbb E_D(j^*T e_r Tj)=A+B(T^2-1),\qquad
+ A=s_r\int_{D_1}|v|^2\,d\mu,\qquad
+ B=\left(\int_{e_r}m^2\,d\mu\right)\left|\int_{D_1}v\,d\mu\right|^2 .
+\]
+Indeed the scalar coefficient integrates \(|j(z)|^2a(z,x)^2e_r(x)\), and pairing the two-edge path \(\overline{j(z)}a(z,x)e_r(x)a(x,y)j(y)\) with \(U_2(T)\) replaces both edge factors by \(a^2\).
+On the two cross rectangles each squared edge equals \(m(x)\).
+Since \(m\le1\) and \(|\int_{D_1}v|^2\le q\int_{D_1}|v|^2\), one has \(0\le B\le A\).
+The spectrum of \(T^2-1\) lies in \([-1,3]\), giving \(\tau(d_{v,w}B_r)\le4s_r\tau(d_{v,w})\), first for bounded factors and then by the \(L^2\) product convergence and boundedness of \(B_r\).
+The normalized states from these products include every probability density in either marginal by taking \(v=1\) or \(w=1\).
+Their closed convex hull in \(\sigma(M^*,M)\) still satisfies \(\varphi(B_r)\le4s_r\) for each fixed \(r\).
+Even a singular state in this hull fails on the original polynomial core.
+Indeed take a continuous \(0\le u_r\le e_r\) equal to one on \(e_{r/2}\), so \((u_rTf)^*(u_rTf)\le B_r\).
+Both \(u_r\) and \(f\) are continuous on the compact two-disk support and hence uniformly approximable by starred polynomials in \(Z\).
+For the approximants \(p_n=u_nTv_n\), the outputs \(Ep_n=u_n\tau(v_n)\) converge in norm to \(q u_r\), and \(p_n^*p_n\) converges in norm to \((u_rTf)^*(u_rTf)\), allowing testing against any state.
+Domination on the core would force \(q^2(5/32)r^2\le C^2\varphi(B_r)\le4C^2s_r=C^2r^{5/2}\) at every scale.
