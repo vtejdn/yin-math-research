@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Structural companion to route four: seek an independent projective-generation constraint for an actual finite crossed product beyond known coverage, retaining the distinction between Artinianness and division. |
+| priority | Test the ordered norm equation in the first prime-index extension of a known-good subgroup outside existing permanence results, using information that survives finite abelianization. |
 
 ## Mechanism and missing bridge
 
@@ -57,6 +57,12 @@ The 11 November 2026 investigation therefore completes this calibration without 
 The [independent whole-argument review](../audits/reviews/Yin_R_A0005_v1.md#whole-argument-finding) found no remaining mathematical or source-applicability gap in the stated scope.
 
 ## First discriminating step
+
+The [prime-index descent](../claims/Yin_C_A0036_v1.md#statement) identifies a finite-order element in one homogeneous coset of the actual division-ring crossed product as an exact obstruction.
+It would give a finite matrix of nullity \(1/p\); at odd index \(p\) the rank denominator bound already rules out \(1/2\) for every matrix at that step.
+In screening an extension, first test the [abelianized norm class](../claims/Yin_C_A0036_v1.md#an-abelianized-norm-obstruction-and-the-limit-of-integer-valuations).
+An invariant integer valuation detecting the class exists precisely when the quotient character lifts integrally up to changing the quotient generator.
+For finite abelianization, invest in the division-ring unit class or a residue of the ordered norm only after identifying a group outside established transfer results.
 
 For a new-coverage attempt, first identify a concrete \(H\) and extension not already covered by applicable finite-extension theorems; the bounded screening has not yet established such a pair.
 For a distinct mechanism test, the retained [Promislow pair](../ledger/Yin_L_A0003_v1.md#retained-candidate-beyond-the-ambient-cyclic-quotient-test) has no nonzero ambient homomorphism to \(\mathbb Z\), so the successful cyclic reduction cannot be repeated directly.

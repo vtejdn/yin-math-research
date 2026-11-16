@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test other four-coset tables for identities between whole coefficient equations. Apply the finite-window and moment tests to components that satisfy every fiber equation. |
+| priority | Test character-reversing index-two subgroups for a finite Schur coefficient detecting rank beyond one half, and pursue characteristic-zero lifting when actual product-fiber data are available. |
 
 ## Current structural investigation
 
@@ -91,6 +91,11 @@ The [boundary-support calculation](../claims/Yin_C_A0033_v1.md#cutting-a-compone
 For a component satisfying every equation, [window ranks and finite moments](../claims/Yin_C_A0034_v1.md#statement) can exclude two half ranks.
 On fixed amenable supports every negative instance has a finite window certificate, with no uniform size bound supplied by the argument.
 Finding an exclusion that works over all remaining torsion-free four-coset tables is open.
+Finite abelianization of the difference group still permits a character on an index-two subgroup, reversed by the other coset.
+The [two-by-two restriction and Schur coefficient test](../claims/Yin_C_A0037_v1.md#statement) converts such a character into a half-rank criterion when a leading group term is a unit as specified there.
+In the [twelve-row calculation](../claims/Yin_C_A0037_v1.md#the-second-coefficient-on-the-actual-twelve-row-support), the first two coefficients vanish identically on the binary family, but the next one certifies full rank on an open subset.
+The next structural test is an intrinsic difference group admitting this index-two character beyond the known-domain example, or a characterization of which support arrangements supply the required leading pivot.
+The separately selectable [lifting investigation](Yin_S_A0008.md#which-equations-can-discriminate) seeks a scalar counterexample directly from a finite-characteristic input.
 The [exact projection norms on product windows](../ledger/Yin_L_A0035_v1.md) show that a subexponential estimate would already require additional structure on the finite annihilator in a single factor.
 On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f. Cancellation on individual group-product fibers remains a separate question.
 
