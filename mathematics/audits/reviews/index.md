@@ -48,6 +48,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0048](Yin_R_A0048_v1.md#whole-argument) | Independent whole-proof review of localized cut directions, actual boundary factorization, phase-sensitive commutator bounds and two gap-forcing upgrades | [v1](Yin_R_A0048_v1.md) |
 | [Yin_R_A0049](Yin_R_A0049_v1.md#whole-argument-finding) | Three fixed diagonal perturbations: whole-argument review | [v1](Yin_R_A0049_v1.md) |
 | [Yin_R_A0050](Yin_R_A0050_v1.md#whole-argument-finding) | Cyclic coset covers and regular rank: whole-argument review | [v1](Yin_R_A0050_v1.md) |
+| [Yin_R_A0051](Yin_R_A0051_v1.md#whole-argument-finding) | Primitive four-coset factors and finite abelianization | [v1](Yin_R_A0051_v1.md) |
+| [Yin_R_A0052](Yin_R_A0052_v1.md#whole-argument-finding) | Laurent kernels on cyclic cosets and expansion under a zero product | [v1](Yin_R_A0052_v1.md) |
+| [Yin_R_A0053](Yin_R_A0053_v1.md#whole-argument-finding) | Exposed coefficient sums and binomial coefficient equations | [v1](Yin_R_A0053_v1.md) |
+| [Yin_R_A0054](Yin_R_A0054_v1.md#whole-argument-finding) | Four cyclic cosets with a common intersection | [v1](Yin_R_A0054_v1.md) |
+| [Yin_R_A0055](Yin_R_A0055_v1.md#whole-argument-finding) | The subgroup of a complementary kernel projection | [v1](Yin_R_A0055_v1.md) |
+| [Yin_R_A0056](Yin_R_A0056_v1.md#whole-argument-finding) | Three-term fibers and the saturation of the binomial relations | [v1](Yin_R_A0056_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

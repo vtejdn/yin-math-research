@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [NS24](NS24/readme.md#author-manuscript) | Non-unique products of finite sets in a torsion-free group, Theorem 1.4 of the author manuscript and its computational input. |
 | [KLS17/Yin_U001](KLS17/Yin_U001.md#kls17-u001) | Complete journal-edition audit, corrected finite trace lattice, projective Artinian criterion, unresolved G-theory implication and precise quotient approximation |
 | [LS12 source notes](LS12/readme.md) | Selected primary Artinian and rank-density inputs for KLS17, with journal/preprint numbering correspondence |
 | [Nic08/Yin_U001](Nic08/Yin_U001.md#nic08-u001) | Unconditional completions, relative spectral equivalence and the amenable obstruction in Proposition 8.7; final arXiv v2 |
