@@ -1981,3 +1981,8 @@ The [two-slice theorem](../claims/Yin_C_F0072_v1.md#statement) gives both origin
 The constants may depend on \(r\) and the distinguished map's bilipschitz constant.
 This calculation uses the free two-factor decomposition and the bounded one-factor operator \(D_r\) of this correlated model.
 Whether all actual correlated normal tuples have the full strong dual condition remains open.
+
+## Subtracting circular components from the curvature form
+
+The [signed block criterion and countable circle calculation](../claims/Yin_C_F0292_v1.md#statement) isolate the within-circle curvature contributions, even when the fourth curvature composition diverges.
+For a general planar marginal it remains to dominate the negative part after subtracting such contributions or to construct an actual normal tuple with unbounded original slices.

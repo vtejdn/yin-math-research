@@ -145,6 +145,9 @@ Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribe
 For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.
 Both oriented slices have limiting values on every one of those projections.
 The outstanding estimate is a uniform bound for these values at each coordinate of an arbitrary actual normal tuple, or an example on which the bound fails.
+If an orientation fails, the [localized projection theorem](../claims/Yin_C_F0295_v1.md#statement) gives mutually orthogonal projections near at most two marginal spectral points whose individual cutoff values converge but whose every infinite subsum lies outside that forward domain.
+On the counterexample side, a [divergent cubic concentration integral](../claims/Yin_C_F0294_v1.md#statement) excludes bare duals even on the original normal pair, and its divergence is equivalent to a dyadic series of least-squares residuals.
+On the positive side, the [signed curvature estimate](../claims/Yin_C_F0292_v1.md#statement) gives both original domains at a coordinate carried by countably many disjoint circles under a mass and separation condition, with arbitrary correlations to the other coordinates.
 The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed) controls one projection of the required column bound on all starred words.
 For any shift of a coordinate by the algebra of the remaining coordinates, the [singular-value estimate](../claims/Yin_C_F0229_v1.md#decision-reviewed) bounds the trace of the singular projection at radius \(r\) by \((\pi r\|\xi_i\|_2)^{1/2}\).
 The [four-point theorem](../claims/Yin_C_F0230_v1.md#decision-reviewed) excludes vanishing polar phase loss on corners of uniformly positive trace for bounded shifts when no line carries the required marginal mass.
@@ -197,7 +200,7 @@ Ordinary manuscript editing and Git delivery are not part of this contract.
 
 ## Current decision
 
-[Selected decision](#decision-pause-after-round)
+[Selected decision](#decision-resume-normal-converse)
 
 ## Lifecycle and completion
 
@@ -222,6 +225,19 @@ Ordinary manuscript editing and Git delivery are not part of this contract.
 | status | paused |
 | authority | Yin directed the main agent to finish the current exploration round and then pause the Task. |
 | reason | The arbitrary-tuple comparison is resolved. The converse for arbitrary correlated normal tuples remains open at the uniform projection estimate above. Resume research only on Yin's explicit instruction. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [Contract](#contract) | Both original comparison objectives, their operator domains and the independent review required for completion. |
+
+### Decision resume-normal-converse
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-16T14:54 |
+| status | active |
+| authority | Yin explicitly resumed F0011 to pursue the converse for arbitrary correlated normal tuples. |
+| reason | The implication from actual starred conjugate variables to strong duals remains open under the original normal-tuple hypotheses. |
 
 | Relation | Target | Scope |
 | --- | --- | --- |

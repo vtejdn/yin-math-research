@@ -339,6 +339,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0298](Yin_R_F0298_v1.md#finding) | Original slice and adjoint domains on the orbit of one free projection | [v1](Yin_R_F0298_v1.md) |
 | [Yin_R_F0299](Yin_R_F0299_v1.md#finding) | Exact vacuum and dual-domain criteria for the disk-valued Möbius coupling | [v1](Yin_R_F0299_v1.md) |
 | [Yin_R_F0300](Yin_R_F0300_v1.md#finding) | Weighted curvature-row criterion and the limits of three-site certificates | [v1](Yin_R_F0300_v1.md) |
+| [Yin_R_F0301](Yin_R_F0301_v1.md#finding) | Review of localization to two spectral points and divergence on every infinite subsum | [v1](Yin_R_F0301_v1.md) |
+| [Yin_R_F0302](Yin_R_F0302_v1.md#finding) | Review of canonical domains after subtracting circular curvature components | [v1](Yin_R_F0302_v1.md) |
+| [Yin_R_F0303](Yin_R_F0303_v1.md#finding) | Review of the cubic singular-mass bound and its least-squares criterion | [v1](Yin_R_F0303_v1.md) |
+| [Yin_R_F0304](Yin_R_F0304_v1.md#finding) | Independent review of the affine matching criterion for two normal coordinates | [v1](Yin_R_F0304_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

@@ -13,10 +13,10 @@ author: Yin
 
 | Field | Value |
 | --- | --- |
-| disposition | paused |
-| priority | Resolve the converse for arbitrary correlated normal coordinates. Control the two canonical slices on unrestricted words, or build a normal separating tuple. The arbitrary-tuple maximal-Delta comparison is settled. |
+| disposition | active |
+| priority | Bound the two oriented slices on orthogonal projections localized near at most two spectral points, or construct an actual normal pair with divergent cubic concentration. |
 
-Updated: 2026-11-14.
+Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
 
 ## Current question and exact reduction
@@ -294,6 +294,11 @@ At every dimension the [fixed-trace cutoff test](../claims/Yin_C_F0282_v1.md#dec
 Failure omits a dense \(G_\delta\) of the same projections from the original domain and makes their regularized outputs unbounded along that sequence.
 On an original tuple of at least two coordinates, [negative spectral projections of polynomial congruences](../claims/Yin_C_F0288_v1.md#decision-reviewed) give a countable dense family of any prescribed trace on which both limiting slice values exist.
 Uniform boundedness on this family suffices, although the unsliced derivatives are unbounded in every open patch.
+The [localization theorem](../claims/Yin_C_F0295_v1.md#statement) permits a different test on the original algebra.
+For each fixed tuple and orientation it suffices to bound the forward norms along each sequence of good spectral cuts on disjoint annuli shrinking to at most two marginal points, allowing the bound to depend on the sequence.
+Indeed, failure produces one such sequence with forward norms tending to infinity, while a finite slice norm bounds every sequence.
+If the forward domain contains \(M\Omega\), averaging the squared norm of the slice of an independently signed sum of orthogonal projections bounds the sum of their squared slice norms by the squared single-input norm, since each signed sum is a contraction.
+The missing implication is to control these disjoint tests using the actual joint vacuum.
 After freely adjoining a Haar unitary, the [unitary orbit of one fixed projection](../claims/Yin_C_F0289_v1.md#decision-reviewed) gives the exact original single-input norm up to the factor \(\sqrt{t(1-t)}\), where \(t\) is the projection trace.
 For a fixed selfadjoint mixed polynomial, its [spectral projections](../claims/Yin_C_F0285_v1.md#decision-reviewed) belong to both canonical domains and their cutoffs converge in norm outside a set of thresholds of Hausdorff dimension at most \(2/3\).
 The exceptional dimension is sharp for the sufficient integral estimate, and the good thresholds need not cut a prescribed trace.
@@ -351,6 +356,8 @@ The [normal-residual classification](../claims/Yin_C_F0270_v1.md#decision-review
 For [marginal secants in a single narrow cone](../claims/Yin_C_F0272_v1.md#decision-reviewed), the two resolvent traces give a quantitative cubic bound over the entire omitted algebra, including shifts leaving nonnormal residuals.
 The [local secant obstruction](../claims/Yin_C_F0273_v1.md#decision-reviewed) excludes divergence if every marginal spectral point has a unique limiting chord direction, even when those directions vary across the spectrum.
 At a putative fixed critical shift the limiting marginal point must have phase spread at least \(4/\sqrt3-2\).
+For a compact family of affine shifts by a second coordinate with slope bounded away from zero, the [simultaneous marginal test](../claims/Yin_C_F0296_v1.md#statement) constrains both spectra at the same character of the generated two-coordinate \(C^*\)-algebra.
+The [remaining arbitrary-shift problem](../drafts/Yin_D_F0006.md#matching-singular-points-for-affine-shifts) concerns shifts for which that second derivative has variable tensor values or is undefined.
 For a [regularly varying singular law](../claims/Yin_C_F0274_v1.md#decision-reviewed) of index \(\alpha\) with divergent cubic integral, the corresponding bound is \(2(\csc(\pi\alpha/2)-1)\), including critical laws with a vanishing slowly varying factor.
 The [localization of the divergent integral](../drafts/Yin_D_F0006.md#local-critical-shell-integrals) retains radii of infinite cubic integral in every neighborhood of one exceptional point.
 The [disk pair with a common character](../claims/Yin_C_F0275_v1.md#decision-reviewed) realizes all marginal secant directions at that character while its nonnormal residual has singular mass asymptotic to \(s^2\).

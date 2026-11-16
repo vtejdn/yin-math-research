@@ -1069,3 +1069,18 @@ The interior of their union is a countable union of open intervals.
 Every included point outside the interior is the left endpoint of an interior component, so the entire union is Borel.
 Thus the relaxed admissible set contains a Borel superset of the stronger set of radii, which by construction has infinite \(\nu\)-measure.
 The argument needs only monotonicity and right continuity of the hard spectral measures for each shift.
+
+<a id="projection-regression-for-the-cubic-obstruction"></a>
+## Searching for a divergent sequence of regression residuals
+
+The [original-tuple cubic obstruction and least-squares construction](../claims/Yin_C_F0294_v1.md#statement) formulates a sufficient separation test for an actual normal pair.
+A prospective example must have small conditional regression errors on explicit shrinking projections often enough for the displayed dyadic series there to diverge.
+For any fixed projection the regularized shift witnesses in that construction allow the required approximation without a bounded minimizing shift.
+The existence of a joint law with the required divergence remains open.
+
+<a id="matching-singular-points-for-affine-shifts"></a>
+## Extending the obstruction from affine to arbitrary omitted shifts
+
+The [two-coordinate concentration argument](../claims/Yin_C_F0296_v1.md#argument) rescales a second coordinate derivation because differentiating an affine shift gives a nonzero scalar multiple of the vacuum tensor.
+For an arbitrary omitted shift, the corresponding derivative may have variable tensor values or the shift may lie outside its domain.
+It remains open whether such shifts can produce the divergent regression series above when the actual starred conjugate variables exist.

@@ -116,7 +116,7 @@ Each Task entrance includes only that route's explicit Task associations.
 
 | Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Yin_S_F0026](Yin_S_F0026.md) | From ACSY vacua to full bounded-vector duals | Yin | paused | Resolve the converse for arbitrary correlated normal coordinates. Control the two canonical slices on unrestricted words, or build a normal separating tuple. The arbitrary-tuple maximal-Delta comparison is settled. | [Yin_T_F0011_v1: Full-domain duals and ACSY conjugate variables: rationality and maximal Delta](../tasks/Yin_T_F0011_v1.md#contract) | Compare the normal analytic hypotheses S and A, and the general maximal-Delta hypotheses F and A, including actual canonical domains and existential quantifiers. | Root |
+| [Yin_S_F0026](Yin_S_F0026.md) | From ACSY vacua to full bounded-vector duals | Yin | active | Bound the two oriented slices on orthogonal projections localized near at most two spectral points, or construct an actual normal pair with divergent cubic concentration. | [Yin_T_F0011_v1: Full-domain duals and ACSY conjugate variables: rationality and maximal Delta](../tasks/Yin_T_F0011_v1.md#contract) | Compare the normal analytic hypotheses S and A, and the general maximal-Delta hypotheses F and A, including actual canonical domains and existential quantifiers. | Root |
 
 <a id="task-yin_t_f0012"></a>
 ## Yin_T_F0012
