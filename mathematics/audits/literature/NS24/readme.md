@@ -13,3 +13,8 @@ The [finite-set input in L_A0037](../../../ledger/Yin_L_A0037_v1.md#the-exterior
 For nonempty finite subsets of a torsion-free group, the absence of a uniquely represented product forces their sizes to sum to at least 16.
 Section 2.2 on p. 5 describes the authors' exhaustive presentation search.
 This use relies on their reported computation.
+
+Section 4, p. 8, gives the fourteen defining equalities for the eight row and eight column elements in \(G_3\), their two-generator presentation, and the correspondence with the Section 3 tables.
+The authors report that the group is torsion-free, all eight elements on either side are distinct, and there are exactly two fibers of size three while the rest have size two.
+They also report the exclusion of a zero product over a domain on these supports and refer to [Soelberg's thesis](https://scholarsarchive.byu.edu/etd/6932/) for the computation.
+The [four-equation proof](../../../claims/Yin_C_A0031_v1.md#argument) uses the paper's group and multiplicity results and checks three particular double fibers in a finite image. This calculation does not rerun the source's full presentation search.

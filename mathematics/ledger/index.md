@@ -43,6 +43,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0036](Yin_L_A0036_v1.md) | Joint Fourier overlap for the two factors of a putative zero product | [v1](Yin_L_A0036_v1.md) |
 | [Yin_L_A0037](Yin_L_A0037_v1.md) | Laurent endpoint constraints on products supported in four cyclic cosets | [v1](Yin_L_A0037_v1.md) |
 | [Yin_L_A0038](Yin_L_A0038_v1.md) | Fourth moments across double cosets of a cyclic subgroup | [v1](Yin_L_A0038_v1.md) |
+| [Yin_L_A0039](Yin_L_A0039_v1.md) | A four-coset higher-moment test in the Promislow group | [v1](Yin_L_A0039_v1.md) |
+| [Yin_L_A0040](Yin_L_A0040_v1.md) | Projective dimension tests on a component of the cancelling coefficient table | [v1](Yin_L_A0040_v1.md) |
+| [Yin_L_A0041](Yin_L_A0041_v1.md) | Four coefficient equations in the Nielsen–Soelberg eight-by-eight table | [v1](Yin_L_A0041_v1.md) |
+| [Yin_L_A0042](Yin_L_A0042_v1.md) | Exterior cyclic covers of the Nielsen–Soelberg eight-by-eight pair | [v1](Yin_L_A0042_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

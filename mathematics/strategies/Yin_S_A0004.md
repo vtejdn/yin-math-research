@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For a four-coset half-rank pair, test the coefficient fibers that survive cyclic-coset localization, finite abelianization, endpoint cancellation and the fourth-moment bound. The unrestricted three-point test still requires an independent restriction on fractional column increments. |
+| priority | Test genuinely coupled multiterm fibers on four cyclic cosets by propagating their coefficient ratios and by sampling within the actual cancelling varieties. Seek rank bounds for components that survive the higher-moment and boundary tests. |
 
 ## Current structural investigation
 
@@ -72,7 +72,16 @@ In that same orientation, the [double-coset coefficient equations](../ledger/Yin
 The [exposed-coefficient bounds](../claims/Yin_C_A0022_v1.md#statement) also test weights that need only respect the finite multiplication table. For entirely paired fibers one can test consistency by the parity of integral relations and, if a half-rank solution exists, choose one with all coefficient moduli one.
 Independently of the second factor, the [fourth-moment rank bound](../claims/Yin_C_A0023_v1.md#statement) gives rank at least \(4/7\) when the twelve ordered off-diagonal double cosets of one factor are distinct and the four conjugate cyclic subgroups have a common pairwise intersection. The [full moment calculation](../ledger/Yin_L_A0038_v1.md) also applies to overlapping classes with their actual coefficient phases.
 For actual fibers with three terms, the [cubic coefficient obstruction](../claims/Yin_C_A0025_v1.md#statement) tests whether the two-term cancellations already force their three moduli to agree. If they do, the three phase ratios must have order three, giving an integer-lattice test on the same finite table.
-The remaining cases include a subgroup with finite abelianization and fibers whose internal differences lie outside that saturation, or whose allowed phase ratios pass the test. The current results do not universally exclude complementary half ranks there.
+In a three-term equation whose first ratio \(\zeta\) is fixed, the remaining ratio is \(-(1+\zeta)\) even when its exponent difference is outside the binomial saturation.
+The [unit and prime-norm test](../claims/Yin_C_A0026_v1.md#coefficient-table-and-statement) compares this forced value with units propagated from other multiterm equations, and gives an exact polynomial test with one residual direction.
+In the [Nielsen–Soelberg table](../claims/Yin_C_A0031_v1.md#statement), three actual double fibers force a pair in an actual triple to cancel already. Both exterior covers have four occupied cosets, their difference double cosets repeat, and the common difference group has finite abelianization.
+
+The [higher moments and coefficient concentration bound](../claims/Yin_C_A0027_v1.md#statement) test either factor without assuming independent group coefficients.
+The [Promislow calculation](../ledger/Yin_L_A0039_v1.md) gives a four-coset example where the fourth moment alone misses the strict rank bound.
+The [analytic-family and phase test](../claims/Yin_C_A0028_v1.md#statement) applies when a nonhomogeneous triple or several coefficient polynomials preserve a common curve. The average over its boundary phases uses actual cancelling specializations.
+For a fixed table, [componentwise sampling](../claims/Yin_C_A0030_v1.md#statement) detects a half pair almost surely on its smooth component if one exists there. The projective [dimension test](../ledger/Yin_L_A0040_v1.md) excludes components whose boundary would force a factor onto too few support points.
+For amenable groups one can also [test the same group and supports in growing residue characteristics](../claims/Yin_C_A0029_v1.md#statement) through uniform finite-window comparisons.
+The outstanding case includes genuinely coupled coefficient equations for which the local ratios remain consistent and the component boundaries and moment inequalities yield no contradiction. Neither a finite stopping order for the moment test nor a uniform rank exclusion across all such support tables is established.
 The [exact projection norms on product windows](../ledger/Yin_L_A0035_v1.md) show that a subexponential estimate would already require additional structure on the finite annihilator in a single factor.
 On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f. Cancellation on individual group-product fibers remains a separate question.
 

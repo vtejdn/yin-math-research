@@ -54,6 +54,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0054](Yin_R_A0054_v1.md#whole-argument-finding) | Four cyclic cosets with a common intersection | [v1](Yin_R_A0054_v1.md) |
 | [Yin_R_A0055](Yin_R_A0055_v1.md#whole-argument-finding) | The subgroup of a complementary kernel projection | [v1](Yin_R_A0055_v1.md) |
 | [Yin_R_A0056](Yin_R_A0056_v1.md#whole-argument-finding) | Three-term fibers and the saturation of the binomial relations | [v1](Yin_R_A0056_v1.md) |
+| [Yin_R_A0057](Yin_R_A0057_v1.md#whole-argument-finding) | Unit propagation, cyclotomic norms and univariate coefficient equations | [v1](Yin_R_A0057_v1.md) |
+| [Yin_R_A0058](Yin_R_A0058_v1.md#whole-argument-finding) | Moment inequalities and the four-point concentration bound | [v1](Yin_R_A0058_v1.md) |
+| [Yin_R_A0059](Yin_R_A0059_v1.md#whole-argument-finding) | Regular ranks along connected analytic families | [v1](Yin_R_A0059_v1.md) |
+| [Yin_R_A0060](Yin_R_A0060_v1.md#whole-argument-finding) | Rank specialization on fixed supports in an amenable group | [v1](Yin_R_A0060_v1.md) |
+| [Yin_R_A0061](Yin_R_A0061_v1.md#whole-argument-finding) | Generic sampling and finite moments on the coefficient variety | [v1](Yin_R_A0061_v1.md) |
+| [Yin_R_A0062](Yin_R_A0062_v1.md#whole-argument-finding) | The Nielsen–Soelberg eight-by-eight product table | [v1](Yin_R_A0062_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
