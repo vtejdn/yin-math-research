@@ -146,6 +146,10 @@ Suppose their represented starred polynomial algebra admits an outer derivation 
 The required estimate is \(\|(\mathrm{id}\otimes\tau)\delta x\|_2\le K\|\xi\|_2\|x\|\) for all such polynomials, with one finite \(K\) for all such laws.
 If these ratios diverge along any sequence of models, the [free-noise assembly](../claims/Yin_C_F0305_v1.md#decision-reviewed) produces a single normal pair with actual variables at both coordinates and no bare dual system.
 The existence of a finite \(K\), or of a sequence with divergent ratios, is unresolved.
+One can equivalently test [pairs exchanged by a trace-preserving involution](../claims/Yin_C_F0311_v1.md#decision-reviewed), retaining only the part of the right slice orthogonal to the distinguished marginal algebra.
+If the universal implication fails, [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) has actual conjugate variables and infinite original right slice costs at both coordinates.
+For the [common Borel reparametrizations of a correlated Haar pair](../claims/Yin_C_F0315_v1.md#statement), actuality implies both canonical bounded-vector domains at each coordinate.
+On arbitrary exchange-symmetric pairs, the [lower bound for the scalar curvature difference](../claims/Yin_C_F0314_v1.md#decision-reviewed) is still open.
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
 For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.

@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Bound the relative slice-to-vacuum ratio uniformly for a normal generator and one trace-half projection, or find a sequence of such models with unbounded ratios. |
+| priority | Bound the mixed part of the right slice on exchange-symmetric normal pairs, or find polynomial contractions with diverging slice-to-vacuum ratios. |
 
 Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
@@ -311,8 +311,27 @@ The [matrix encoding](../claims/Yin_C_F0306_v1.md#decision-reviewed) compares fi
 It suffices to solve the [uniform problem for one projection](../claims/Yin_C_F0308_v1.md#decision-reviewed), which is killed by the distinguished derivation and has trace exactly one half.
 To pursue a separator it now suffices to exhibit a sequence of norm-one mixed polynomial tests with slice-to-vacuum ratios tending to infinity, even if every individual cost in the sequence is finite.
 The [relative Gaussian theorem](../claims/Yin_C_F0307_v1.md#decision-reviewed) bounds this ratio by \(\sqrt{17}\) for pure Hermitian Gaussian coefficient fields, even when only the distinguished vacuum exists.
-The [compression estimate](../claims/Yin_C_F0309_v1.md#statement) rules out importing the earlier nonnormal example with a uniformly bounded vacuum by realizing its two-point singular law on a corner of fixed trace \(t>0\).
-If half of the compressed singular mass is at \(\varepsilon\) and the other half at one, the original vacuum norm is at least \(t^{3/2}/(4\pi\varepsilon)\) for \(0<\varepsilon\le1/2\).
+The [exchange-symmetric transfer](../claims/Yin_C_F0311_v1.md#decision-reviewed) reduces the uniform problem to the output orthogonal to \(W^*(Z_0)\) in a fully actual normal pair \((Z_0,Z_1)\) exchanged by a trace-preserving involution.
+Failure of a uniform bound even across different laws would yield [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) on which both original right slices have infinite cost.
+On these pairs the two partial liberation derivations add to the inner difference on every mixed word.
+The [signed curvature identity](../claims/Yin_C_F0314_v1.md#statement) reduces the required estimate to a scalar lower bound for the difference of the two marginal curvature kernels on analytic unitaries.
+A free pair with strong duals already gives divergent coarse tensor norms for this difference on a fixed exchange-invariant test.
+The remaining estimate must retain the trace pairing.
+For a concrete family let \(X\) be Haar unitary, \(V\) a free unitary and \(Y=X^*V\), and relabel \(X,Y\) by the same bounded Borel map generating their marginal algebras.
+The [product-algebra calculation](../claims/Yin_C_F0315_v1.md#statement) controls the signed scalar form on every analytic test in \(W^*(XY)\) or \(W^*(YX)\).
+Each actual pair in this family has strong duals.
+The entire polynomial unit ball has a uniform normalized slice bound for all Poisson laws of \(V\), and also when \(\|\xi_V V^*-1\|_2\) is bounded away from zero.
+An unbounded sequence in this family would therefore require non-Poisson product laws approaching Haar in this norm and tests outside the two product algebras.
+One non-Poisson product law to test is normalized arclength on a subarc of the unit circle with Haar mass \(1-\epsilon\).
+It has a scalar vacuum by the [geometric criterion](../claims/Yin_C_F0255_v1.md#statement).
+For a circle density \(w\) with respect to Haar probability and with actual scalar vacuum, the [scalar weight identity](../claims/Yin_C_F0267_v1.md#statement) has \(\theta=w/(2\pi)\) and \(g=1\) almost everywhere, so \(3\|\xi_V\|_2^2=2+\int w^3\,dm\).
+For this arc the squared norm of \(\xi_V V^*-1\) is therefore \(((1-\epsilon)^{-2}-1)/3\), which tends to zero with the excluded arc.
+For the unrestricted problem, test whether the auxiliary summand in the [single-pair construction](../claims/Yin_C_F0313_v1.md#choosing-the-corners-before-introducing-the-common-noise) can carry a free semicircular coordinate and a free symmetry with mass tending to one.
+Control of both the off-summand vacuum energy and the change of the two generators in trace Hilbert norm would determine whether a counterexample could also be placed arbitrarily close to a free semicircular pair with its two vacua.
+In the projection model, every scalar shift of a [diagonal block](../claims/Yin_C_F0310_v1.md#decision-reviewed) and each [off-diagonal block](../claims/Yin_C_F0312_v1.md#decision-reviewed) has diffuse singular law at trace one half.
+This excludes exact realizations of the earlier two-point modulus in all four blocks.
+For an approximate realization in a diagonal block of trace \(t\), half the normalized singular mass in \([0,\varepsilon]\) already forces the ambient vacuum norm to be at least \(t^{3/2}/(4\pi\varepsilon)\) by the [compression estimate](../claims/Yin_C_F0309_v1.md#decision-reviewed).
+The off-diagonal estimate gives the same bound at trace one half.
 After freely adjoining a Haar unitary, the [unitary orbit of one fixed projection](../claims/Yin_C_F0289_v1.md#decision-reviewed) gives the exact original single-input norm up to the factor \(\sqrt{t(1-t)}\), where \(t\) is the projection trace.
 For a fixed selfadjoint mixed polynomial, its [spectral projections](../claims/Yin_C_F0285_v1.md#decision-reviewed) belong to both canonical domains and their cutoffs converge in norm outside a set of thresholds of Hausdorff dimension at most \(2/3\).
 The exceptional dimension is sharp for the sufficient integral estimate, and the good thresholds need not cut a prescribed trace.

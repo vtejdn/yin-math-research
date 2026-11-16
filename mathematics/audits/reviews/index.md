@@ -370,6 +370,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0316](Yin_R_F0316_v1.md#finding) | Review of the relative Gaussian vacuum and its uniform slice constant | [v1](Yin_R_F0316_v1.md) |
 | [Yin_R_F0317](Yin_R_F0317_v1.md#finding) | Review of the reduction to one projection of trace one half | [v1](Yin_R_F0317_v1.md) |
 | [Yin_R_F0318](Yin_R_F0318_v1.md#finding) | Singular-value mass for a compressed normal coordinate | [v1](Yin_R_F0318_v1.md) |
+| [Yin_R_F0319](Yin_R_F0319_v1.md#whole-proof-finding) | Review of singular atoms after compression by a killed projection | [v1](Yin_R_F0319_v1.md) |
+| [Yin_R_F0320](Yin_R_F0320_v1.md#finding) | Independent review of exchange symmetry and the mixed slice output | [v1](Yin_R_F0320_v1.md) |
+| [Yin_R_F0321](Yin_R_F0321_v1.md#finding) | Review of the single exchange-symmetric pair criterion | [v1](Yin_R_F0321_v1.md) |
+| [Yin_R_F0322](Yin_R_F0322_v1.md#finding) | Review of the singular law of the rectangular block at an omitted projection | [v1](Yin_R_F0322_v1.md) |
+| [Yin_R_F0323](Yin_R_F0323_v1.md#finding) | Review of the curvature difference on exchange-symmetric normal pairs | [v1](Yin_R_F0323_v1.md) |
+| [Yin_R_F0324](Yin_R_F0324_v1.md#finding) | Review of strong duals and product-algebra curvature for reparametrized Haar marginals | [v1](Yin_R_F0324_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
