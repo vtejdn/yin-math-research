@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Establish an independent algebraic constraint on principal annihilators for torsion-free amenable groups that makes the known projective integer trace apply to their individual Hilbert kernels; the known Atiyah/domain equivalence and new rational-kernel localization are interfaces, not a resolution of that constraint. |
+| priority | Seek an independent restriction on fractional column increments in the same-group three-point test. For finite annihilators, use cyclic-coset and stabilizer bounds on the two factors to test the remaining support configurations. |
 
 ## Current structural investigation
 
@@ -52,6 +52,19 @@ A singular actual pivot of nullity \(0<\alpha<1\) would give positive finite gro
 Consequently even a group-dependent lower bound for positive nullities on this test family would suffice, provided it is uniform over the inputs in each group.
 In the amenable scalar group-ring case, [minimum annihilator support](../claims/Yin_C_A0017_v2.md#minimum-support-of-an-annihilator) grows as \(s^n\) along the same construction, so the finite-support existence theorem alone gives no subexponential support bound.
 An independent structural estimate on these explicit kernels or a finite projective extraction for the original principal annihilator remains the missing input.
+
+The [three-point comparison](../claims/Yin_C_A0018_v1.md#statement) tests the original group using finite Hermitian matrices with one varying diagonal entry.
+For a column increment \(d\), its [explicit witness](../claims/Yin_C_A0018_v1.md#a-witness-over-the-original-group-ring) has excess nullities \(d,1-d,0\) at \(0,1,2\).
+Orthogonality bounds their sum by one, allowing both to be positive. The positive normalized test isolates scalar injectivity.
+The [wreath-product path and fixed pencil](../ledger/Yin_L_A0033_v1.md) describe the stronger pattern of a dense set of exceptional parameters after a hypothetical failure is transported to a different group.
+
+The [cyclic-coset estimate](../claims/Yin_C_A0019_v1.md#statement) excludes a zero product when each factor occupies at most two cosets of an infinite cyclic subgroup, even with arbitrarily many terms.
+It also excludes covers of sizes two and three when both set stabilizers are trivial: the respective lower rank bounds \((\sqrt5-1)/2\) and \(\sqrt2-1\) sum to more than one.
+Schweitzer's [small-support results](https://doi.org/10.1515/jgt-2013-0017) constrain support cardinalities over the rationals. The coset calculation uses the arrangement of the supports over the complex numbers.
+For larger covers, the [joint Fourier estimate](../ledger/Yin_L_A0036_v1.md#the-overlap-inequality) uses the orthogonality of the ranges of \(a^*\) and \(b\) to exclude simultaneous near-minimal ranks when the two stabilizers intersect trivially.
+At four cosets per factor the estimates still allow both ranks to equal one half; further progress must constrain the original product fibers or the Fourier coefficients beyond their two leakage norms.
+The [exact projection norms on product windows](../ledger/Yin_L_A0035_v1.md) show that a subexponential estimate would already require additional structure on the finite annihilator in a single factor.
+On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f. Cancellation on individual group-product fibers remains a separate question.
 
 ## Mechanism and obstruction
 

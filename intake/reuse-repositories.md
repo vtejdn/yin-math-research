@@ -6,10 +6,11 @@ Supplementary entrances are [Share your ACME repository](https://github.com/vtej
 Listing is separate from actual acquisition provenance under `intake/<initiator>/`.
 The [public repository reuse rule](../framework/rules/literature-search.md#public-repository-discovery-and-reuse) owns search and refresh responsibilities.
 
-Sharing discussion last checked (UTC): **2026-11-13**.
-Coverage: the discussion body and all three displayed repository-sharing comments, each showing no replies.
-This date covers that discussion read, not the Topic or README searches linked above or the freshness or whole-repository inspection of the entries below.
-The summaries use the sharing descriptions and the explicitly linked entrances read; no mathematical statement, proof, formalization build or review was checked for this index.
+On **2026-11-16 UTC**, the Topic search returned the framework repository [vtejdn/acme](https://github.com/vtejdn/acme).
+The full-name README search returned that repository, yin-math-research and Lehmer-problem.
+GitHub marked both result sets complete for the specified queries.
+The sharing discussion, previously inspected on November 13, still displayed the three project descriptions below and zero replies to each.
+The table retains the original sharing descriptions and the earlier readings of the linked project entrances.
 
 | Public repository | Topics and short summary | Entrances read | Category, summary basis and limits |
 | --- | --- | --- | --- |

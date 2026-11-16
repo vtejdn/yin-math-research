@@ -37,6 +37,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0030](Yin_L_A0030_v1.md) | The remaining amenable obstruction after kernel localization | [v1](Yin_L_A0030_v1.md) |
 | [Yin_L_A0031](Yin_L_A0031_v2.md) | Analytic and graph obstructions, global filter failure and local kernel alternatives | [v1](Yin_L_A0031_v1.md), [v2](Yin_L_A0031_v2.md) |
 | [Yin_L_A0032](Yin_L_A0032_v1.md) | Testing zero cokernel classes against the ICC regular trace | [v1](Yin_L_A0032_v1.md) |
+| [Yin_L_A0033](Yin_L_A0033_v1.md) | Fixed local interactions and exceptional ranks on a torsion-free wreath product | [v1](Yin_L_A0033_v1.md) |
+| [Yin_L_A0034](Yin_L_A0034_v1.md) | A complex rank obstruction for the prescribed common-label degrees | [v1](Yin_L_A0034_v1.md) |
+| [Yin_L_A0035](Yin_L_A0035_v1.md) | Projection norms on product windows of a scalar annihilator | [v1](Yin_L_A0035_v1.md) |
+| [Yin_L_A0036](Yin_L_A0036_v1.md) | Joint Fourier overlap for the two factors of a putative zero product | [v1](Yin_L_A0036_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

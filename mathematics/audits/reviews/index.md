@@ -46,6 +46,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0045](Yin_R_A0045_v1.md#whole-content) | Independent review of local Abel inverses, annihilator projection constants, Roe locality and Følner norm-defect barriers | [v1](Yin_R_A0045_v1.md) |
 | [Yin_R_A0047](Yin_R_A0047_v1.md#whole-argument) | Independent whole-proof review of finite-window compatibility, fixed-kernel norm convergence, the half-unit cut-energy obstruction and solid convolution norm bounds | [v1](Yin_R_A0047_v1.md) |
 | [Yin_R_A0048](Yin_R_A0048_v1.md#whole-argument) | Independent whole-proof review of localized cut directions, actual boundary factorization, phase-sensitive commutator bounds and two gap-forcing upgrades | [v1](Yin_R_A0048_v1.md) |
+| [Yin_R_A0049](Yin_R_A0049_v1.md#whole-argument-finding) | Three fixed diagonal perturbations: whole-argument review | [v1](Yin_R_A0049_v1.md) |
+| [Yin_R_A0050](Yin_R_A0050_v1.md#whole-argument-finding) | Cyclic coset covers and regular rank: whole-argument review | [v1](Yin_R_A0050_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
