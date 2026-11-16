@@ -356,6 +356,14 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0307](Yin_R_F0307_v1.md#finding) | Review of the one-point test for a deficient normal slice | [v1](Yin_R_F0307_v1.md) |
 | [Yin_R_F0308](Yin_R_F0308_v1.md#finding) | Review of localized curvature on a single Lipschitz graph | [v1](Yin_R_F0308_v1.md) |
 | [Yin_R_F0309](Yin_R_F0309_v1.md#finding) | Review of the relative conjugate variable and slice in a spectral corner | [v1](Yin_R_F0309_v1.md) |
+| [Yin_R_F0310](Yin_R_F0310_v1.md#finding) | Review of negative liberation forms on restricted circular curvature kernels | [v1](Yin_R_F0310_v1.md) |
+| [Yin_R_F0311](Yin_R_F0311_v1.md#finding) | Review of marginal commutator bounds and the scale of block noise | [v1](Yin_R_F0311_v1.md) |
+| [Yin_R_F0313](Yin_R_F0313_v1.md#finding) | Review of spectral relabelling from unbounded relative corner ratios, vacuum proximity and the two Möbius orientations | [v1](Yin_R_F0313_v1.md) |
+| [Yin_R_F0314](Yin_R_F0314_v1.md#finding) | Independent review of the assembly of relative normal models | [v1](Yin_R_F0314_v1.md) |
+| [Yin_R_F0315](Yin_R_F0315_v1.md#finding) | Review of transfer from finite relative inputs to a normal pair | [v1](Yin_R_F0315_v1.md) |
+| [Yin_R_F0316](Yin_R_F0316_v1.md#finding) | Review of the relative Gaussian vacuum and its uniform slice constant | [v1](Yin_R_F0316_v1.md) |
+| [Yin_R_F0317](Yin_R_F0317_v1.md#finding) | Review of the reduction to one projection of trace one half | [v1](Yin_R_F0317_v1.md) |
+| [Yin_R_F0318](Yin_R_F0318_v1.md#finding) | Singular-value mass for a compressed normal coordinate | [v1](Yin_R_F0318_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

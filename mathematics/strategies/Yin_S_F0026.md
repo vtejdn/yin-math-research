@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Bound both oriented cutoff norms on a neighborhood of each single marginal point for tuples of length at least three, or construct an actual normal pair with divergent cubic concentration. |
+| priority | Bound the relative slice-to-vacuum ratio uniformly for a normal generator and one trace-half projection, or find a sequence of such models with unbounded ratios. |
 
 Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
@@ -304,6 +304,15 @@ Local control at every point on the original pair itself gives an unconditional 
 The [spectral corner formula](../claims/Yin_C_F0301_v1.md#statement) identifies the cutoff test on any Borel spectral set of positive mass with a relative single-input slice in the corner.
 At a putative bad point, every neighborhood has infinite relative cost even though \(t^3\|\xi^e\|_{2,\tau_e}^2\) tends to zero with its marginal mass \(t\).
 The next local estimate must use how the relative slice acts on mixed inputs in that same corner; small weighted vacuum energy alone supplies no bound in the calculation.
+The [spectral relabelling construction](../claims/Yin_C_F0304_v1.md#decision-reviewed) turns unbounded relative corner ratios within a single bounded-slice tuple into a separator, while making arbitrarily small changes to the generator and its vacuum in the trace Hilbert norm.
+Across different laws, [direct sum and free-noise assembly](../claims/Yin_C_F0305_v1.md#decision-reviewed) needs only a distinguished actual derivative killing a fixed number of selfadjoint coefficients, whose own vacua are unrestricted.
+The [commutator bound for spectral blocks](../claims/Yin_C_F0303_v1.md#decision-reviewed) limits the extent to which that noise may be reduced.
+The [matrix encoding](../claims/Yin_C_F0306_v1.md#decision-reviewed) compares finite tests across arbitrary coefficient counts to those in actual pairs with one selfadjoint second coordinate.
+It suffices to solve the [uniform problem for one projection](../claims/Yin_C_F0308_v1.md#decision-reviewed), which is killed by the distinguished derivation and has trace exactly one half.
+To pursue a separator it now suffices to exhibit a sequence of norm-one mixed polynomial tests with slice-to-vacuum ratios tending to infinity, even if every individual cost in the sequence is finite.
+The [relative Gaussian theorem](../claims/Yin_C_F0307_v1.md#decision-reviewed) bounds this ratio by \(\sqrt{17}\) for pure Hermitian Gaussian coefficient fields, even when only the distinguished vacuum exists.
+The [compression estimate](../claims/Yin_C_F0309_v1.md#statement) rules out importing the earlier nonnormal example with a uniformly bounded vacuum by realizing its two-point singular law on a corner of fixed trace \(t>0\).
+If half of the compressed singular mass is at \(\varepsilon\) and the other half at one, the original vacuum norm is at least \(t^{3/2}/(4\pi\varepsilon)\) for \(0<\varepsilon\le1/2\).
 After freely adjoining a Haar unitary, the [unitary orbit of one fixed projection](../claims/Yin_C_F0289_v1.md#decision-reviewed) gives the exact original single-input norm up to the factor \(\sqrt{t(1-t)}\), where \(t\) is the projection trace.
 For a fixed selfadjoint mixed polynomial, its [spectral projections](../claims/Yin_C_F0285_v1.md#decision-reviewed) belong to both canonical domains and their cutoffs converge in norm outside a set of thresholds of Hausdorff dimension at most \(2/3\).
 The exceptional dimension is sharp for the sufficient integral estimate, and the good thresholds need not cut a prescribed trace.
@@ -393,9 +402,11 @@ The [density factorization argument](../drafts/Yin_D_F0002.md#cauchy-measure-wit
 Any separating example must have finite inverse-gap energy of the liberation vector and fail a uniform regularized column bound, possibly after taking the adjoint tuple and adjoining two free Haar unitaries.
 The [dyadic column estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) gives at most logarithmic growth as the cutoff is removed, with square-root logarithmic growth for the off-diagonal vacuum contribution.
 The [localized curvature estimate](../claims/Yin_C_F0297_v1.md#decision-reviewed) sums the squared dyadic marginal ball densities without any separate summability assumption on the liberation vacuum.
+Its shell bounds are summable under the stated logarithmic improvements in the marginal ball masses and the inverse-gap energy.
 Even on a [single nondecreasing Lipschitz graph](../claims/Yin_C_F0300_v1.md#decision-reviewed) with finite total squared curvature, bounding each shell kernel by its supremum on a supporting square costs a positive amount on every sufficiently small scale, for every partition of the integrated third variable.
 Further use of this estimate at that endpoint requires cancellation or finer control in the two remaining spectral variables.
-Its shell bounds are summable under the stated logarithmic improvements in the marginal ball masses and the inverse-gap energy.
+On a [fixed correlated Möbius pair](../claims/Yin_C_F0302_v1.md#decision-reviewed) the negative signed form on actual mixed unitaries also has no bound proportional to the curvature mass of an individual shrinking endpoint rectangle.
+The pair has full domains, so an estimate using this decomposition must also control its vacuum contribution or the interactions between rectangles.
 For general marginals the remaining issue is cancellation across shells.
 On a [fixed correlated pair with rectangular spectral support](../claims/Yin_C_F0253_v1.md#decision-reviewed), the full soft cutoff has a uniform column bound, while a single half-plane cutoff costs at least a constant times \((\log(1/r))^{1/4}\).
 At each radius one mixed polynomial also gives this lower bound for the angular root mean square, so the estimate requires cancellation between opposite directions before taking norms.

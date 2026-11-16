@@ -140,6 +140,12 @@ The [review of the new separation](../audits/reviews/Yin_R_F0233_v1.md#whole-pro
 
 Objective 1 remains open for arbitrary correlated normal coordinates.
 Here \(\mathsf S\Rightarrow\mathsf A\) and the [canonical fraction-operator comparison under \(\mathsf S\)](../claims/Yin_C_F0075_v1.md#statement) are established.
+The universal converse is equivalent to [one uniform estimate with a projection coefficient](../claims/Yin_C_F0308_v1.md#decision-reviewed).
+Let \(Z\) be bounded and normal and let \(P\) be a projection of trace \(1/2\).
+Suppose their represented starred polynomial algebra admits an outer derivation with \(\delta Z=1\otimes1,\ \delta P=0\) and \(\xi=\delta^*(1\otimes1)\).
+The required estimate is \(\|(\mathrm{id}\otimes\tau)\delta x\|_2\le K\|\xi\|_2\|x\|\) for all such polynomials, with one finite \(K\) for all such laws.
+If these ratios diverge along any sequence of models, the [free-noise assembly](../claims/Yin_C_F0305_v1.md#decision-reviewed) produces a single normal pair with actual variables at both coordinates and no bare dual system.
+The existence of a finite \(K\), or of a sequence with divergent ratios, is unresolved.
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
 For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.
