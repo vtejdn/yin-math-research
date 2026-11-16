@@ -398,6 +398,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0331](Yin_R_F0331_v1.md#finding) | Independent review of the four-point Gram measure and the three-factor slice | [v1](Yin_R_F0331_v1.md) |
 | [Yin_R_F0332](Yin_R_F0332_v1.md#finding) | Review of the liberation gradients after free Poisson conjugation | [v1](Yin_R_F0332_v1.md) |
 | [Yin_R_F0333](Yin_R_F0333_v1.md#finding) | Independent review of Hilbert-kernel estimates under spectral domination | [v1](Yin_R_F0333_v1.md) |
+| [Yin_R_F0334](Yin_R_F0334_v1.md#finding) | Independent review of the Poisson conjugation of a spectral projection | [v1](Yin_R_F0334_v1.md) |
+| [Yin_R_F0335](Yin_R_F0335_v1.md#finding) | Review of the decay criterion and divergent rectangular curvature costs | [v1](Yin_R_F0335_v1.md) |
+| [Yin_R_F0336](Yin_R_F0336_v1.md#finding) | Independent review of finite alternating depth and transported free slices | [v1](Yin_R_F0336_v1.md) |
+| [Yin_R_F0337](Yin_R_F0337_v1.md#finding) | Review of the critical spectral-decay example for rectangular estimates | [v1](Yin_R_F0337_v1.md) |
+| [Yin_R_F0338](Yin_R_F0338_v1.md#finding) | Independent review of the mixed curvature measure criterion | [v1](Yin_R_F0338_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

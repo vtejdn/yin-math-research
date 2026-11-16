@@ -1177,5 +1177,37 @@ For a fixed unitary the insertion pairing there is a normal functional of the bo
 The resulting kernels increase to \(g\), and their products with \(z-w\) converge to \((z-w)g\) in the marginal coarse space by the [gap-weighted curvature estimate](../claims/Yin_C_F0292_v1.md#the-signed-estimate-on-analytic-unitaries).
 The generator identities and the convergent analytic series then give convergence of the matched forms on each fixed test.
 The cost contains only the actual liberation-vector measures of the two endpoint squares and of their cross terms.
-Whether it is finite for every pair in the [restricted comparison](../claims/Yin_C_F0324_v1.md#statement) is open.
-The denominators in the rectangular estimate require control of the masses of the individual angular level sets inside each disk.
+The [critical example](../claims/Yin_C_F0331_v1.md#decision-reviewed) makes this integrated cost infinite within the restricted comparison.
+The [smaller-endpoint subdivision](../claims/Yin_C_F0332_v1.md#decision-reviewed) controls the actual signed form there using a finite measure of mixed curvature.
+
+## Subdivision by values of a marginal function
+
+Suppose the spectral measure \(\nu\) of the actual partial liberation vacuum satisfies \(d\nu\le\|\phi(z)-\phi(w)\|^2d\mu(z)d\mu(w)\), where \(\phi\) is a bounded Borel map into a separable Hilbert space and its image has zero two-dimensional Hausdorff measure.
+This includes real-valued and circle-valued maps.
+Assume the divided-difference energy \(J_\phi=\iint\|\phi(z)-\phi(w)\|^2|z-w|^{-2}d\mu(z)d\mu(w)\) is finite.
+For the threshold sets \(E,F\) above write \(t=\mu(E)\ge s=\mu(F)>0\).
+Partition \(F\) by the inverse images of a countable Borel cover of the range with sum of squared diameters less than \(\epsilon\), assigning overlaps to their first member.
+Then \(\sum_i\nu(F_i^2)/\mu(F_i)^2\le\epsilon\) after omitting null cells.
+The first rectangular calculation in [C_F0332](../claims/Yin_C_F0332_v1.md#subdivision-by-cubes) gives
+\[
+ -F_{q_{EF}}(u)
+ \le \frac{2s}{t^2}\nu(E^2)+\frac{\nu(E\times F)+\nu(F\times E)}{t}
+ \le \frac{10}{t}\int_{E\times F}\|\phi(z)-\phi(w)\|^2\,d\mu(z)d\mu(w).
+\]
+For the first inequality let \(\epsilon\) decrease to zero.
+For the second, insert any \(w\in F\) between two points of \(E\) in the squared triangle inequality, then average over \(w\).
+For either ordering of the endpoint masses and any constant vector \(c\), the last bound is at most \(20\int_B\|\phi-c\|^2d\mu\).
+For \(B=B(a,r)\) and fixed third point \(v\), the area of thresholds with nonempty endpoint sets is at most half the squared oscillation of \(p\) on \(B\).
+The formula for \(h_v\) bounds that area by \(C\min(1,r^2/|a-v|^2)\), using the bound \(2\) for the oscillation if \(|a-v|\le 2r\).
+
+For \(|a-v|\le 2r\) take \(c=\phi(v)\).
+Given \(z\in B\), the admissible centers have area at most \(\pi r^2\) and require \(r\ge |z-v|/3\).
+Integration against \(dA(a)\,dr/r^5\) thus charges this entire near part to \(C J_\phi\) for every marginal.
+For the far part set \(T(B)=\int\min(1,r^2/|a-v|^2)\,d\mu(v)\).
+On disks with \(T(B)\le K\mu(3B)\), average \(c=\phi(w)\) against normalized \(\mu\) on \(3B\).
+After integrating the thresholds and \(v\), the cost there is at most \(C K\int_{B\times3B}\|\phi(z)-\phi(w)\|^2 d\mu(z)d\mu(w)\).
+Now \(r\ge |z-w|/4\) and the centers still have area at most \(\pi r^2\), so these disks also cost at most \(C K J_\phi\) in total.
+In particular this argument covers measures satisfying \(\mu(B(x,R))\le K_0(R/s)^d\mu(B(x,s))\) for all \(x\) in their support and \(0<s<R\), with \(d<2\).
+Indeed for \(x\in B\) in the support the annuli at distances \(2^k r\) from \(a\) contribute at most \(C K_0 2^{-k(2-d)}\mu(3B)\) each.
+For arbitrary marginals the outstanding contribution in this argument is from distant third points on disks where \(T(B)/\mu(3B)\) is large.
+The calculation assumes the stated domination by \(\phi\); its availability under the original hypotheses is a separate question.

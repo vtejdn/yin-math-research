@@ -336,7 +336,16 @@ Pointwise upper and lower bounds for this matrix control slices on three-factor 
 Under the product-density bound for the liberation gradient, [square-integrable kernels](../claims/Yin_C_F0326_v1.md#statement) have uniform signed form bounds, including the remainder after subtraction of admissible positive diagonal terms.
 Consequently a deficient pair in this restricted class must have a curvature kernel outside \(L^2(\mu\otimes\mu)\).
 The [disk and angular level-set representation](../drafts/Yin_D_F0006.md#positive-rectangular-representation-of-the-menger-kernel) writes this kernel as a positive integral of disjoint rectangular tests.
-The remaining estimate on this route is summability of the signed costs at their actual level-set masses, or a different estimate retaining cancellation for mixed contractions.
+The [integrated rectangle estimate](../claims/Yin_C_F0329_v1.md#decision-reviewed) gives both domains when the liberation density is bounded by a modulus \(\omega(|z-w|)\) with \(\int_0^1\omega(r)\,dr/r^2<\infty\).
+At critical linear decay, a [single exchange-symmetric pair](../claims/Yin_C_F0331_v1.md#decision-reviewed) already has divergent integrated cost even after choosing the best of three bounds on each rectangle.
+Its actual slices are bounded, and its curvature kernel admits no positive diagonal decomposition with a square-integrable remainder.
+The [smaller-endpoint partition](../claims/Yin_C_F0332_v1.md#decision-reviewed) controls the same example and treats every Lipschitz graph marginal with critical linear decay.
+It uses a finite control measure with finite mixed curvature and bounds the two angular level masses through their variance.
+An actual two-arc model in the same Claim admits no such control measure.
+The next estimate must therefore cover interactions for which that local mass bound fails.
+One possibility is to [partition by a marginal function](../drafts/Yin_D_F0006.md#subdivision-by-values-of-a-marginal-function) and charge the remaining cross terms to its divided-difference energy.
+In the projection formulation, a [free Poisson conjugation of a marginal sign](../claims/Yin_C_F0327_v1.md#decision-reviewed) has uniform column bounds for every actual relative law in that family.
+Matching any prescribed finite number of alternating moments with a free pair still permits [unbounded error upon transporting the free slice](../claims/Yin_C_F0330_v1.md#decision-reviewed), even with a fixed positive cutoff on the Haar generators.
 In the projection model, every scalar shift of a [diagonal block](../claims/Yin_C_F0310_v1.md#decision-reviewed) and each [off-diagonal block](../claims/Yin_C_F0312_v1.md#decision-reviewed) has diffuse singular law at trace one half.
 This excludes exact realizations of the earlier two-point modulus in all four blocks.
 For an approximate realization in a diagonal block of trace \(t\), half the normalized singular mass in \([0,\varepsilon]\) already forces the ambient vacuum norm to be at least \(t^{3/2}/(4\pi\varepsilon)\) by the [compression estimate](../claims/Yin_C_F0309_v1.md#decision-reviewed).

@@ -155,6 +155,10 @@ For arbitrary normal tuples it would suffice to bound the first right slice on e
 One may further restrict to any operator-norm neighborhood of the free standard semicircular pair in a tracial coupling, with the actual vacua close to the same reference variables in trace Hilbert norm.
 The [liberation gradients](../claims/Yin_C_F0324_v1.md#statement) in the same test class can be arbitrarily small in operator norm and have arbitrarily small product-dominated spectral densities.
 On arbitrary exchange-symmetric pairs, the [lower bound for the scalar curvature difference](../claims/Yin_C_F0314_v1.md#decision-reviewed) is still open.
+At any coordinate, [a finite measure controlling the liberation density at the endpoint distance](../claims/Yin_C_F0332_v1.md#decision-reviewed) gives both original bounded-vector domains when its mixed squared curvature with two copies of the marginal law is finite.
+On a Lipschitz graph marginal it suffices that the liberation density relative to the product law be bounded by a constant times \(|z-w|\), for arbitrary correlations.
+If each coordinate satisfies the criterion, the tuple satisfies \(\mathsf S\) and the canonical fraction comparison applies.
+At that same critical decay a [pair with bounded slices](../claims/Yin_C_F0331_v1.md#decision-reviewed) defeats all three unsubdivided rectangular cost bounds, even when the choice is made separately on each rectangle.
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
 For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.
