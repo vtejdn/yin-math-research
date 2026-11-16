@@ -380,6 +380,15 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0322](Yin_R_F0322_v1.md#finding) | Review of the singular law of the rectangular block at an omitted projection | [v1](Yin_R_F0322_v1.md) |
 | [Yin_R_F0323](Yin_R_F0323_v1.md#finding) | Review of the curvature difference on exchange-symmetric normal pairs | [v1](Yin_R_F0323_v1.md) |
 | [Yin_R_F0324](Yin_R_F0324_v1.md#finding) | Review of strong duals and product-algebra curvature for reparametrized Haar marginals | [v1](Yin_R_F0324_v1.md) |
+| [Yin_R_F0325](Yin_R_F0325_v1.md#finding) | Review of the operator-norm neighborhood of a free semicircular pair | [v1](Yin_R_F0325_v1.md) |
+| [Yin_R_F0326](Yin_R_F0326_v1.md#finding) | Independent review of the uniform slice bound at bounded product density | [v1](Yin_R_F0326_v1.md) |
+| [Yin_R_F0327](Yin_R_F0327_v1.md#finding) | Review of directional Cauchy energy and the transverse slice | [v1](Yin_R_F0327_v1.md) |
+| [Yin_R_F0328](Yin_R_F0328_v1.md#finding) | Independent review of the uniform slice estimate for measurable phase models | [v1](Yin_R_F0328_v1.md) |
+| [Yin_R_F0329](Yin_R_F0329_v1.md#finding) | Independent review of the reduction to product two-marginal traces | [v1](Yin_R_F0329_v1.md) |
+| [Yin_R_F0330](Yin_R_F0330_v1.md#finding) | Review of a single deficient pair with independent marginal traces near free semicirculars | [v1](Yin_R_F0330_v1.md) |
+| [Yin_R_F0331](Yin_R_F0331_v1.md#finding) | Independent review of the four-point Gram measure and the three-factor slice | [v1](Yin_R_F0331_v1.md) |
+| [Yin_R_F0332](Yin_R_F0332_v1.md#finding) | Review of the liberation gradients after free Poisson conjugation | [v1](Yin_R_F0332_v1.md) |
+| [Yin_R_F0333](Yin_R_F0333_v1.md#finding) | Independent review of Hilbert-kernel estimates under spectral domination | [v1](Yin_R_F0333_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

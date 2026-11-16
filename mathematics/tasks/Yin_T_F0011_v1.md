@@ -149,6 +149,11 @@ The existence of a finite \(K\), or of a sequence with divergent ratios, is unre
 One can equivalently test [pairs exchanged by a trace-preserving involution](../claims/Yin_C_F0311_v1.md#decision-reviewed), retaining only the part of the right slice orthogonal to the distinguished marginal algebra.
 If the universal implication fails, [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) has actual conjugate variables and infinite original right slice costs at both coordinates.
 For the [common Borel reparametrizations of a correlated Haar pair](../claims/Yin_C_F0315_v1.md#statement), actuality implies both canonical bounded-vector domains at each coordinate.
+The [full phase-model estimate](../claims/Yin_C_F0320_v1.md#decision-reviewed) bounds the normalized cost in that family by an absolute constant.
+For these actual pairs, rationality can therefore be tested both by the existential finite-rank boundary equation and by the prescribed fraction commutators for every bounded regular fraction pair, with the [canonical finite-rank closure comparison](../claims/Yin_C_F0075_v1.md#statement).
+For arbitrary normal tuples it would suffice to bound the first right slice on every actual exchange-symmetric pair satisfying [exact product traces for all two-marginal tests](../claims/Yin_C_F0322_v1.md#statement), even if the bound depends on the pair.
+One may further restrict to any operator-norm neighborhood of the free standard semicircular pair in a tracial coupling, with the actual vacua close to the same reference variables in trace Hilbert norm.
+The [liberation gradients](../claims/Yin_C_F0324_v1.md#statement) in the same test class can be arbitrarily small in operator norm and have arbitrarily small product-dominated spectral densities.
 On arbitrary exchange-symmetric pairs, the [lower bound for the scalar curvature difference](../claims/Yin_C_F0314_v1.md#decision-reviewed) is still open.
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.

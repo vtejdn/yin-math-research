@@ -1084,3 +1084,98 @@ The existence of a joint law with the required divergence remains open.
 The [two-coordinate concentration argument](../claims/Yin_C_F0296_v1.md#argument) rescales a second coordinate derivation because differentiating an affine shift gives a nonzero scalar multiple of the vacuum tensor.
 For an arbitrary omitted shift, the corresponding derivative may have variable tensor values or the shift may lie outside its domain.
 It remains open whether such shifts can produce the divergent regression series above when the actual starred conjugate variables exist.
+
+## Curvature forms on three and four alternating marginal unitaries
+
+Let \(A,B\) be the coordinate algebras in an [actual pair with product two-marginal trace](../claims/Yin_C_F0321_v1.md#statement), so \(\tau(ab)=\tau(a)\tau(b)\) for \(a\in A,\ b\in B\).
+For \(j=A,B\), use the [partial liberation form](../claims/Yin_C_F0314_v1.md#statement) \(F^j_{q_j}\) with any bounded nonnegative real symmetric marginal kernel \(q_j\).
+Put
+\[
+ K_j(m)=\operatorname{Re}\iint q_j(z,v)\overline{m(z)}m(v)\,d\mu_j(z)d\mu_j(v),
+ \qquad J_j(a)=K_j(1)-K_j(a)\ge0
+\]
+for a marginal unitary \(a\), the inequality following from \(\operatorname{Re}(\overline{a(z)}a(v))\le1\).
+In a product of marginal unitaries, a letter \(a\) in marginal \(j\), followed by the suffix \(v\), contributes \(K_j(\mathbb E_j v)-K_j(a\mathbb E_j v)\) to the matched form.
+Indeed the product rule inserts \(a\otimes1-1\otimes a\), and in the pairing with the whole unitary its adjoint cancels the preceding prefix on the first trace leg.
+The two remaining pairs of scalar traces evaluate \(K_j\) on the suffix and on \(av\).
+Bounded Borel marginal letters are allowed by the [bounded strong-star graph approximation for liberation](../claims/Yin_C_F0315_v1.md#actuality-of-the-product-law), since on a single marginal the prescribed derivative is the inner difference or zero.
+
+For \(a,c\in A,\ b\in B\) unitary, the product trace gives \(\mathbb E_A(bc)=\tau(b)c\) and \(\mathbb E_B c=\tau(c)1\).
+The suffix formula gives
+\[
+ F^A_{q_A}(abc)=(1-|\tau b|^2)J_A(c)+|\tau b|^2J_A(ac),
+ \qquad F^B_{q_B}(abc)=|\tau c|^2J_B(b).
+\]
+Both forms are nonnegative, also after exchanging \(A,B\).
+This applies to each curvature truncation and its scalar limit by dominated convergence against the integrable curvature kernel.
+In particular on such products the curvature difference in the [conservation identity](../claims/Yin_C_F0314_v1.md#adding-the-two-partial-liberations) is bounded below by \(-4s^2\) in the exchange-symmetric setting.
+The bounded-kernel calculation holds for these graph unitaries directly.
+Linear combinations have cross terms, and functional calculus of a strict mixed polynomial can introduce arbitrarily many alternating letters.
+
+For one more marginal unitary \(d\in B\), put \(M=\mathbb E_A(bcd)\) and \(x^\circ=x-\tau(x)1\).
+The same calculation gives
+\[
+\begin{split}
+ F^B_{q_B}(abcd)&=(1-|\tau c|^2)J_B(d)+|\tau c|^2J_B(bd),\\
+ F^A_{q_A}(abcd)&=|\tau d|^2J_A(c)+K_A(M)-K_A(aM),\\
+ M&=\tau(c)\tau(bd)1+\tau(b)\tau(d)c^\circ+
+                                  \mathbb E_A(b^\circ c^\circ d^\circ).
+\end{split}
+\]
+Here \(\mathbb E_A(b^\circ c^\circ d^\circ)\) is centered, and pairing it with a centered element of \(A\) tests a fourth mixed moment.
+Product two-marginal trace alone leaves this term undetermined.
+
+The actual liberation vacuum \(\eta=\gamma_A^*(1\otimes1)\) restricts these fourth moments.
+Let \(\mathcal U,\mathcal W\) be the trace Hilbert closures of the linear spans of \(A^\circ B^\circ,B^\circ A^\circ\), respectively.
+If \(x\in\mathcal W\cap M\), then \(x(1+\eta)\perp\mathcal U\).
+For finite products \(x=b a,\ y=c d\) of centered marginal letters in the indicated orders, the double trace of \(\gamma_A(x^*y)\) is \(-\tau(x^*y)\): the two end-letter traces vanish by centering and the middle product of traces vanishes by two-marginal independence.
+Hence \(\langle x\eta,y\rangle=-\langle x,y\rangle\).
+First extend in \(x\) against a fixed bounded \(y\) in the finite span, using \(y\eta^*\in L^2(M)\), and then in \(y\) for bounded \(x\), using \(x\eta\in L^2(M)\).
+The vacuum is skew-adjoint, because the flip-adjoint reverses the sign of the liberation derivation.
+Consequently \(\operatorname{Re}\langle x,x\eta\rangle=0\), and pairing \(x(1+\eta)\) with the component of \(x\) perpendicular to \(\mathcal U\) gives
+\[
+ \operatorname{dist}_2(x,\mathcal U)\ge
+       \frac{\|x\|_2^2}{\sqrt{\|x\|_2^2+\|x\eta\|_2^2}}
+       \qquad (x\ne0).
+\]
+In particular, for centered marginal unitaries \(b,a\), one has \(\|P_{\mathcal U}(ba)\|_2\le\|\eta\|_2/\sqrt{1+\|\eta\|_2^2}\).
+This estimates an opposite-order projection in the unweighted Hilbert norm.
+The term \(K_A(M)-K_A(aM)\) involves the actual curvature kernel, and a lower bound for arbitrary strict analytic tests remains open.
+
+## Positive rectangular representation of the Menger kernel
+
+For a marginal probability \(\mu\) with an actual scalar vacuum let \(g(z,w)=\int\kappa(z,v,w)^2\,d\mu(v)\).
+There is a positive integral representation in which every summand tests two disjoint endpoint sets.
+This permits use of the [signed rectangular estimate](../claims/Yin_C_F0326_v1.md#statement) at the scale and angle of the triangle.
+
+Let \(dA\) be planar Lebesgue measure and \(B(a,r)\) an open disk.
+For \(z\ne w\) the change of variables \(a=z+|z-w|a'\), \(r=|z-w|r'\), followed by a rotation gives
+\[
+ \int_0^\infty\int_{\mathbb C}
+    1_{B(a,r)}(z)1_{B(a,r)}(w)\,\frac{dA(a)\,dr}{r^5}
+        =\frac{c_0}{|z-w|^2}.
+\]
+Here \(0<c_0<\infty\) is the same integral at the points zero and one.
+The disks do not meet both points when \(r<1/2\).
+For \(r\ge1/2\) their possible centers have area at most \(\pi r^2\), and a positive measure of centers works for \(r>1\).
+For fixed \(v\) put \(h_v(z)=(z-v)/(\bar z-\bar v)\) away from \(v\).
+The inscribed-angle formula gives \(\kappa(z,v,w)^2=|h_v(z)-h_v(w)|^2/|z-w|^2\) on distinct triples, including collinear triples.
+Coincidences are product-null by diffuseness.
+
+For either \(p=\operatorname{Re}h_v\) or \(p=\operatorname{Im}h_v\) and \(-1<l<u<1\), set
+\[
+     E=B(a,r)\cap\{p>u\},\qquad F=B(a,r)\cap\{p<l\}.
+\]
+On each pair in the disk, integrating \(1_E(z)1_F(w)+1_F(z)1_E(w)\) over \(l<u\) gives \((p(z)-p(w))^2/2\), by the area of the triangle between the two real values.
+Consequently \(g\) is exactly \(2/c_0\) times the sum over both choices of \(p\) of the integrals of \(1_E\otimes1_F+1_F\otimes1_E\) against \(d\mu(v)\,dA(a)\,dr\,dl\,du/r^5\).
+This identity keeps the angular differences even when most of the mass is locally on a line.
+
+As a sufficient test, integrate the nonnegative cost on the right of the rectangular lower bound in C_F0326 against these same parameters, taking cost zero when either set has zero mass.
+Finiteness bounds the negative matched curvature form uniformly on the specified analytic unitaries.
+Indeed on \(1/n<r<n\) the bounded kernels have a finite integration domain after restricting centers to distance \(n\) from the compact spectrum.
+For a fixed unitary the insertion pairing there is a normal functional of the bounded kernel, so scalar Fubini applies.
+The resulting kernels increase to \(g\), and their products with \(z-w\) converge to \((z-w)g\) in the marginal coarse space by the [gap-weighted curvature estimate](../claims/Yin_C_F0292_v1.md#the-signed-estimate-on-analytic-unitaries).
+The generator identities and the convergent analytic series then give convergence of the matched forms on each fixed test.
+The cost contains only the actual liberation-vector measures of the two endpoint squares and of their cross terms.
+Whether it is finite for every pair in the [restricted comparison](../claims/Yin_C_F0324_v1.md#statement) is open.
+The denominators in the rectangular estimate require control of the masses of the individual angular level sets inside each disk.

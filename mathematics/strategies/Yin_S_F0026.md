@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Bound the mixed part of the right slice on exchange-symmetric normal pairs, or find polynomial contractions with diverging slice-to-vacuum ratios. |
+| priority | Bound the transverse slice on exchange-symmetric normal pairs with product two-marginal traces near free semicirculars, or realize unbounded mixed tests under these hypotheses. |
 
 Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
@@ -319,15 +319,24 @@ A free pair with strong duals already gives divergent coarse tensor norms for th
 The remaining estimate must retain the trace pairing.
 For a concrete family let \(X\) be Haar unitary, \(V\) a free unitary and \(Y=X^*V\), and relabel \(X,Y\) by the same bounded Borel map generating their marginal algebras.
 The [product-algebra calculation](../claims/Yin_C_F0315_v1.md#statement) controls the signed scalar form on every analytic test in \(W^*(XY)\) or \(W^*(YX)\).
-Each actual pair in this family has strong duals.
-The entire polynomial unit ball has a uniform normalized slice bound for all Poisson laws of \(V\), and also when \(\|\xi_V V^*-1\|_2\) is bounded away from zero.
-An unbounded sequence in this family would therefore require non-Poisson product laws approaching Haar in this norm and tests outside the two product algebras.
-One non-Poisson product law to test is normalized arclength on a subarc of the unit circle with Haar mass \(1-\epsilon\).
-It has a scalar vacuum by the [geometric criterion](../claims/Yin_C_F0255_v1.md#statement).
-For a circle density \(w\) with respect to Haar probability and with actual scalar vacuum, the [scalar weight identity](../claims/Yin_C_F0267_v1.md#statement) has \(\theta=w/(2\pi)\) and \(g=1\) almost everywhere, so \(3\|\xi_V\|_2^2=2+\int w^3\,dm\).
-For this arc the squared norm of \(\xi_V V^*-1\) is therefore \(((1-\epsilon)^{-2}-1)/3\), which tends to zero with the excluded arc.
-For the unrestricted problem, test whether the auxiliary summand in the [single-pair construction](../claims/Yin_C_F0313_v1.md#choosing-the-corners-before-introducing-the-common-noise) can carry a free semicircular coordinate and a free symmetry with mass tending to one.
-Control of both the off-summand vacuum energy and the change of the two generators in trace Hilbert norm would determine whether a counterexample could also be placed arbitrarily close to a free semicircular pair with its two vacua.
+The [bounded-density estimate](../claims/Yin_C_F0316_v1.md#decision-reviewed) controls the whole polynomial unit ball even for a normalized arc with a shrinking spectral hole.
+The [dyadic estimate for arbitrary densities](../claims/Yin_C_F0320_v1.md#decision-reviewed) gives one absolute normalized bound for every compatible product law and common relabelling in this family.
+The [semicircular coupling](../claims/Yin_C_F0317_v1.md#decision-reviewed) places a hypothetical counterexample arbitrarily close in operator norm to a free standard semicircular pair, with the two actual vacua simultaneously close in trace Hilbert norm.
+The [matrix transfer](../claims/Yin_C_F0321_v1.md#decision-reviewed) preserves any finite bad test up to a fixed factor on pairs satisfying \(\tau(f(W_0)g(W_1))=\tau(f(W_0))\tau(g(W_1))\) for every two bounded marginal functions.
+The [single-pair construction](../claims/Yin_C_F0322_v1.md#statement) imposes this equality in the same arbitrarily small semicircular neighborhood while retaining infinite costs at both coordinates if the general implication fails.
+The [unitary conjugation construction](../claims/Yin_C_F0324_v1.md#statement) also makes the joint liberation gradients arbitrarily small in operator norm.
+For either coordinate their spectral measures under left and right marginal multiplication have arbitrarily small bounded densities relative to the product marginal law.
+The [directional energy formula](../claims/Yin_C_F0318_v1.md#decision-reviewed) bounds total squared curvature by three times the squared norm of any directional component of the marginal vacuum.
+It identifies the remaining signed form with the transverse mixed slices.
+For [three alternating marginal unitaries](../drafts/Yin_D_F0006.md#curvature-forms-on-three-and-four-alternating-marginal-unitaries) both matched curvature forms are nonnegative under the product-trace hypothesis.
+At four factors the calculation already uses the conditional expectation of a product of three centered letters.
+Estimates on general contractions must also control linear combinations of words.
+The [four-point Gram identity](../claims/Yin_C_F0323_v1.md#decision-reviewed) bounds the integrated defect of a matrix of these moments and its inverse by the squared liberation gradient per channel.
+Pointwise upper and lower bounds for this matrix control slices on three-factor inputs.
+Under the product-density bound for the liberation gradient, [square-integrable kernels](../claims/Yin_C_F0326_v1.md#statement) have uniform signed form bounds, including the remainder after subtraction of admissible positive diagonal terms.
+Consequently a deficient pair in this restricted class must have a curvature kernel outside \(L^2(\mu\otimes\mu)\).
+The [disk and angular level-set representation](../drafts/Yin_D_F0006.md#positive-rectangular-representation-of-the-menger-kernel) writes this kernel as a positive integral of disjoint rectangular tests.
+The remaining estimate on this route is summability of the signed costs at their actual level-set masses, or a different estimate retaining cancellation for mixed contractions.
 In the projection model, every scalar shift of a [diagonal block](../claims/Yin_C_F0310_v1.md#decision-reviewed) and each [off-diagonal block](../claims/Yin_C_F0312_v1.md#decision-reviewed) has diffuse singular law at trace one half.
 This excludes exact realizations of the earlier two-point modulus in all four blocks.
 For an approximate realization in a diagonal block of trace \(t\), half the normalized singular mass in \([0,\varepsilon]\) already forces the ambient vacuum norm to be at least \(t^{3/2}/(4\pi\varepsilon)\) by the [compression estimate](../claims/Yin_C_F0309_v1.md#decision-reviewed).
