@@ -23,7 +23,7 @@ Scope: future mathematical presentation slides prepared for Yin.
   Use distinct blocks for examples or questions when this helps distinguish their roles.
 - Include the author, abbreviated talk title, date and frame number in the footer.
   On the title slide, give the talk title, speaker, affiliation, event or location, and date; identify joint work where applicable.
-- Write mathematical slide text in English by default, following Yin's current terminology and notation choices.
+- Write mathematical slide text in English by default, following [Yin's terminology and notation](../terminology.md) at their stated scope.
 
 ## Default Talk Organization
 

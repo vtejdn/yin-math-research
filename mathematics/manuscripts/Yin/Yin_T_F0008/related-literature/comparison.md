@@ -241,6 +241,7 @@ q_{\mathrm{gen}}(b)-q_{\mathrm{HS}}(b)
 \]
 The first line follows by substituting \(Z_b=a_0b\) and \(c_b=b^{-1/2}\); expanding the squared commutator proves the second.
 The last line uses the directly inspected Wigner--Yanase definition in H08.
+In the [normalized determinant exponents](../paper/sections/imaginary-hs.tex), the difference contributed by these corrections is \((q_{\mathrm{gen}}(b)-q_{\mathrm{HS}}(b))/(2m)\).
 This is an elementary local calculation, self-checked here, not a newly accepted project Claim.
 
 It explains exactly why the \(\eta=0\) comparison is strict when \([b,a_0]\ne0\), and why scalar data cannot display this discrepancy.
@@ -290,5 +291,3 @@ Access limitations: original L99 full text could not be inspected; the official 
 SH15's published PDF was discoverable but later extraction requests failed; exact theorem locators use its accessible v3 preprint.
 The coordinating reader subsequently obtained the UCLA author copy of Boyd--Vandenberghe; the specific passages read are recorded in [the min--max analysis](minmax.md).
 No new artifacts were retained in that pass and no canonical source-registration or proof-review status is claimed.
-
-The original independent checks of the two local identifications, including their normalization and scope limits, are retained in [the manuscript-local bounded findings](../paper/review.md#original-related-literature-bounded-review).

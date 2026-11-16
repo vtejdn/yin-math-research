@@ -22,6 +22,7 @@ Source: the author's [English homepage](https://www.yin-sheng.xyz/) and [Chinese
 
 - [Execution default](execution.md): account weekly exhaustion; existing E authority and stopped periods remain binding.
 - [Author-wide writing](writing/readme.md): actual personal choices, models and algebra conventions.
+- [Terminology and notation](terminology.md): Yin's mathematical names and symbols, with their field and writing scope.
 - [Free-probability writing](writing/free_probability.md): applicable audience and community references.
 
 An active override belongs under the relevant topic only when a real instruction creates one.

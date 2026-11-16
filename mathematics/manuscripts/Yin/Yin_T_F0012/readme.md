@@ -7,7 +7,7 @@ It also presents almost-sure convergence of affine logarithmic determinants, con
 
 - [Paper sources and build instructions](paper/readme.md)
 - [Organization](organization.md) and [writing conventions](conventions.md)
-- [Citation map](citation.md) and [manuscript review](paper/review.md)
+- [Citation map](citation.md) and [open manuscript problems](paper/review.md)
 
 ## Mathematical provenance
 
@@ -19,4 +19,4 @@ It also presents almost-sure convergence of affine logarithmic determinants, con
 | Proposition `prop:distance` | [C_F0186 v2, affine compression and Hermitian lifting](../../../claims/Yin_C_F0186_v2.md#affine-repair). |
 
 [R_F0190 v3](../../../audits/reviews/Yin_R_F0190_v3.md#independent-strong-proof) independently reviewed the fixed strengthened argument and its application to the Task v2 contract.
-The [manuscript-local review](paper/review.md) records checks of its current exposition.
+The [revision requests](paper/revisions.md) identify the changes needed in the current exposition.

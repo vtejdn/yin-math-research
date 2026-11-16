@@ -20,7 +20,7 @@ The authorized revision includes the substantive connections across the whole in
 Several original rows share one nearby explanation; elementary steps and searches that found no suitable additional theorem retain their existing proofs without a forced citation.
 The table uses semantic TeX labels so that added remarks do not make this navigation depend on obsolete theorem numbers.
 Source keys are the actual canonical keys in [references.bib](../../../../literature/references.bib).
-The [current manuscript review](../paper/review.md#citation-and-mathematical-comparison-checks) owns integration verification.
+The [citation map](../citation.md) identifies the sources used in the manuscript and the scope of their use.
 The [document README](../paper/readme.md#receiving-build) owns build evidence.
 
 | Current placement | Semantic labels or nearby passage | Integrated connection and canonical sources |
@@ -160,7 +160,7 @@ At that stage the Alt--Kruger deformed-circular source still needed its artifact
 The current integration above records the subsequent `AK26` and `Bel15` work without retrospectively expanding those original reading scopes.
 The Kronecker-matrix and noncommutative-inner-rank leads remain outside the adopted theorem-level comparisons.
 
-The original bounded independent checks of the three local identifications, including the required rho=0 correction and reviewer relationship, are retained in the [manuscript-local bounded findings](../paper/review.md#original-related-literature-bounded-review).
+For the diagonal covariance reduction and its additional hypothesis, see the [Brown-measure comparison](brown.md); for the spectral-edge and skew-information identities, see the [comparison note](comparison.md).
 
 The public Speicher proposal remains `Spe26`; historical abbreviations in the detailed notes do not rename canonical keys.
 

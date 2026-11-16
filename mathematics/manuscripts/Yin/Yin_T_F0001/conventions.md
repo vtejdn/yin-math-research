@@ -46,6 +46,11 @@ For the fixed tuple X, write $\Psi_i:=\Psi_{X_i}$.
 In the proof of Lemma 4.3, right multiplication by $x^{\mathrm{op}}$ on the second factor sends $v^{\mathrm{op}}$ to $(xv)^{\mathrm{op}}$.
 Use a tilde for the induced quotient-space maps there, reserving the bar for operator closure.
 
+For the range assertion in [Lemma 4.3](paper/sections/liberation-dual-system-criterion.tex), put \(U:=L^0(\mathcal M)\), \(V:=U\otimes_{\mathbb C}U^{\mathrm{op}}\) and \(W:=H\otimes_{\mathbb C}H\), with the second factor identified as in Definition 1.3.
+The linear map \(m:V\to U\), \(m(u\otimes v^{\mathrm{op}}):=uv\), satisfies \(m\Psi_x(u\otimes v^{\mathrm{op}})=uxv-u(xv)=0\).
+Since \(m(1\otimes1)=1\), the tensor \(1\otimes1\in W\) does not belong to \(\Psi_x(V)\).
+For \(x\in\mathcal M\) with every \(x-\lambda\) regular, Lemma 4.3 gives injectivity on \(V\) and \(\Psi_x^{-1}(W)=W\); thus \(\Psi_x|_W\) is a bijection onto \(\Psi_x(V)\cap W\), a proper subspace of \(W\).
+
 ## Dual Systems and Fraction Commutators
 
 Use \(D_i\) for a dual system in Definition 1.8, with

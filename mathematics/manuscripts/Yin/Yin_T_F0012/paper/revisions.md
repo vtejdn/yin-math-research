@@ -1,15 +1,12 @@
 # F0012 Revision Requests
 
-These requests concern the current working-tree manuscript inspected in the [whole-manuscript review](review.md).
-The earlier accepted corrections remain in the text.
+These requests identify changes to the current manuscript.
 
 ## R9. State the quadratic-map hypothesis in the added-coordinate estimate
 
 **Location:** [affine.tex](sections/affine.tex), lines 42–50, subsection `subsec:global-floor`.
 
-**Finding:** The passage introduces “a map \(F\) on \(\mathbb R^p\) with empty zero set” and then asserts that \((x,y)\mapsto(yF(x),y(y-1))\) has degree at most three and gives exponent \(E_F=3\cdot15^p\).
-These assertions use the fact that \(F\) is one of the quadratic compressed maps \(F_{k,\ell}\).
-The local statement leaves that hypothesis implicit and reads more generally than the estimate supports.
+**Mathematical finding:** [Hypothesis of the added-coordinate estimate](review.md#hypothesis-of-the-added-coordinate-estimate).
 
 **Revision:** Introduce \(F\) explicitly as one of the quadratic maps \(F_{k,\ell}:\mathbb R^p\to\mathbb R^r\) with empty zero set, then retain the displayed construction and exponent.
 
@@ -50,8 +47,7 @@ Priority: P2.
 
 **Location:** [affine.tex](sections/affine.tex), line 6, “If all the random coefficients vanish”.
 
-**Finding:** The matrices \(A_j\) are fixed coefficients; the evaluated GUE matrices are random.
-Calling the coefficients random obscures the deterministic case being separated.
+**Mathematical finding:** [Fixed coefficients in the deterministic case](review.md#fixed-coefficients-in-the-deterministic-case).
 
 **Revision:** Replace the condition with “If \(A_1=\cdots=A_d=0\)”, retaining the conclusions and the following nonzero-coefficient assumption.
 
@@ -62,9 +58,7 @@ Priority: P3.
 
 **Location:** [introduction.tex](sections/introduction.tex), lines 21–24, Definition `def:brown-measure` (currently Definition 1.1).
 
-**Finding:** The symbol \(\Delta\) is used to define Brown measure, but the following sentence only says that it acts in the sense of distributions on \(\mathbb C\).
-It does not identify the operator as the planar Laplacian or fix its sign and normalization.
-The later identity \(\Delta\log|z|=2\pi\delta_0\) in [brown.tex](sections/brown.tex), line 166, makes the intended convention inferable after its first use.
+**Mathematical finding:** [Laplacian in the definition of Brown measure](review.md#laplacian-in-the-definition-of-brown-measure).
 
 **Revision:** At the first definition write that, for \(z=x+\mathrm i y\), \(\Delta:=\partial_x^2+\partial_y^2\) is the planar Laplacian, interpreted distributionally.
 The distributional convention is \(\langle\Delta u,\varphi\rangle:=\langle u,\Delta\varphi\rangle\) for \(\varphi\in C_c^\infty(\mathbb C)\).

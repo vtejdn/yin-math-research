@@ -3,7 +3,7 @@
 The [paper](main.tex) proves almost-sure Brown-measure convergence for polynomials in independent GUE matrices and convergence results for normalized determinants and logarithmic determinants of affine pencils.
 The entry point is `main.tex`, which reads the five files in `sections/`, the [bibliography subset](references.bib) and the [bibliography style](yin-amsalpha.bst).
 The bibliography style reuses the repository's adapted AMS style for alphabetic labels, author initials and alphabetical sorting.
-The [project record](../readme.md) identifies the underlying arguments, and the [manuscript review](review.md) and [citation map](../citation.md) record the checks on this exposition.
+The [project record](../readme.md) identifies the underlying arguments, the [problem list](review.md) locates unresolved mathematical issues, and the [citation map](../citation.md) gives the source passages used here.
 
 ## Local build
 

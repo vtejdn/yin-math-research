@@ -91,7 +91,8 @@ Checks of the extracted PDF text and metadata confirmed that the byline, running
 
 ## Manuscript review
 
-The [manuscript-local review record](review.md) owns the current expanded review, definition and citation coverage, object and hypothesis correspondence, result connections, circular example checks and bounded related-literature findings.
+The [mathematical problem list](review.md) is for unresolved findings about the paper.
+The [citation map](../citation.md) identifies the cited passages and their scope.
 The [project record](../readme.md#result-and-proof-provenance) selects the fixed mathematical evidence and records its actual review relationships.
 
 ## Earlier build evidence

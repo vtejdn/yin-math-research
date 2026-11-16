@@ -80,7 +80,7 @@ This selection changes no fixed mathematical Claim, review, Role or completed Ta
 ### Brown Application Selection and Placement
 
 The following writing choices retain the exact source scopes and do not themselves establish independent review.
-Actual manuscript inspections and builds belong in the [manuscript record](paper/review.md#expanded-review).
+Record open manuscript problems in the [mathematical problem list](paper/review.md) and build results in the [document README](paper/readme.md#latest-build).
 
 | Planned subsection | Content and exposition | Responsible material and exact scope |
 | --- | --- | --- |
@@ -102,7 +102,6 @@ Mathematical, definition/citation and build reviews cover the actual manuscript 
 The earlier main-theorem proof stays logically independent of these applications and of the Speicher comparison.
 Selection for writing does not settle literature priority; the limited related-literature inspection in C_F0170 remains limited.
 No new Claim decision, project Role or Task completion decision is implied by this plan.
-
 
 <a id="intro-result-organization"></a>
 ## Results in the Introduction

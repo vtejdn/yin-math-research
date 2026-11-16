@@ -5,6 +5,8 @@ These personal defaults apply to Yin's mathematical writing where relevant, incl
 Select the applicable rules through the [four-layer writing hierarchy](../../../framework/rules/preferences.md#scope-and-adoption).
 Manuscript and subfield choices override conflicting portions at their own scope; the remaining rules are inherited.
 
+For Yin's [free field terminology](../terminology.md#free-field-terminology) and [notation for papers and slides](../terminology.md#mathematical-symbols), see the terminology file.
+
 ## Default policy
 
 Write Yin's mathematical manuscripts in English by default.
@@ -138,28 +140,6 @@ Scope: Yin's mathematical writing.
 When defining a symbol, quantity, set, operator or map, use $:=$, including pointwise definitions and local constructions in proofs.
 In an equality chain, use $:=$ for the defining step and $=$ for subsequent identities.
 Keep $=$ for hypotheses, fraction representations, tuple-coordinate descriptions and proved identities that do not introduce a definition.
-
-<a id="free-field-terminology"></a>
-## Free Field Terminology
-
-Scope: Yin's mathematical writing.
-
-Use **free field** as the standard term for the universal division ring of fractions of a free polynomial algebra.
-Do not use **free skew field** for this object.
-
-<a id="mathematical-symbols"></a>
-## Mathematical Symbols
-
-Scope: Yin's mathematical writing and presentation slides.
-
-| Object | Preferred notation | Meaning and source boundary |
-| --- | --- | --- |
-| Free field | Use the user's supplied `\moverlay`, `\plangle` and `\prangle` macros to superimpose round parentheses with `<` and `>`, with the coefficient field in front. | Preserve the formal-field/evaluated-division-closure distinction. |
-| Affiliated operators | `L^0(\M)`, with `\M=\mathcal M`. | The *-algebra of closed densely defined operators affiliated with the specified finite tracial von Neumann algebra. Sums and products use affiliated closures; this change of notation adds no domain hypothesis. |
-| Algebra-generated GNS vectors | `\M\Omega` for the subspace; `x\Omega` for an individual vector with `x\in\M`. | In a tracial GNS space $H=L^2(\M,\tau)$ with $\Omega=1$, $\M\Omega=\{x\Omega:x\in\M\}$ is a dense subspace used for operator domains. Do not call its elements "bounded vectors"; use $\M\Omega$ or say "vectors of the form $x\Omega$ with $x\in\M$." |
-| Finite-rank operators | `\F(H)`, with `\F=\mathcal F`. | The finite-rank bounded operators on H, matching MSY23, p. 13. Do not use this symbol as an abbreviation for the evaluated free field. |
-| Finite-dimensional Fuglede-Kadison determinant | Use uppercase `\Delta_m(B)=\lvert\det B\rvert^{1/m}` for `B` in `M_m(\mathbb C)`, and the corresponding dimension subscript for other matrix sizes. Do not use lowercase `\delta` for this determinant. | The subscript records the matrix size and the normalized matrix trace. This changes notation only; Dirac masses, Kronecker symbols and unrelated uses of lowercase delta are unaffected. |
-| Random-matrix expectation | Write the composite as `\mathbb E\circ\tr_N`, with the composition sign between the expectation and the normalized trace; do not write the bare product `\mathbb E\tr_N`. | The expectation is applied after the normalized trace, so the composition order is visible. This is a notation choice, not a probability-model hypothesis. |
 
 <a id="formula-emphasis"></a>
 ## Formula Emphasis
