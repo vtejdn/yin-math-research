@@ -217,7 +217,7 @@ C_F0057's mixed-defect negativity does not by itself refute either the single-sq
 The universal normal problem can be concentrated on the left inequality, provided the final theorem covers the entire adjoint-stable normal ACSY class.
 Hilbert-space bounded slices give a direct positive subclass through (3); the other-coordinate algebra gives a different restricted subclass.
 A fixed-functional proof would follow from the precisely stated finite-family inequality.
-None of these reductions proves the left estimate for a general correlated normal system, gives a separating normal law, or changes the unresolved Task classification.
+None of these reductions proves the left estimate for a general correlated normal system, gives a separating normal law, or by itself classifies the Task.
 
 <a id="selfadjoint-tests-and-the-correlated-unitary-obstruction"></a>
 ## Selfadjoint tests and a correlated-unitary obstruction
@@ -282,7 +282,7 @@ The N=8 and N=12 values for the first test at r=1/2 were approximately 1.0562741
 These are positive diagnostics only.
 The infinite-series tail was not combined with a quantitative least-eigenvalue estimate, and no statement for all polynomials or arbitrary normal laws follows.
 
-The endpoint problem remains unresolved in this round.
+This calculation did not yield an endpoint bound.
 The specific new negative result is the strictly positive mixed-test obstruction to the sharp scalar fixed-vacuum identity.
 The weaker positive-input estimate (R1) with an unspecified finite constant, or a full-domain counterexample for one fixed actual-A normal tuple, remains the mathematical continuation.
 
@@ -397,7 +397,7 @@ The [two reference-to-target contraction estimates of C_F0156](../claims/Yin_C_F
 The involutions preserve both norms, so (C3) gives this bound on each \(Z\) leg for all mixed target tests despite the marginal curvature divergence.
 Along \(\gamma=1/4\) the squared correction norm grows comparably to \((2\beta-1)^{-1}\) as \(\beta\downarrow1/2\), by (C6) and integral comparison.
 This calculation determines the growth of the vacuum correction and supplies an upper bound on the cut norm.
-Below the integrability threshold the pair fails the required antecedent \(\mathsf A\), so the unrestricted normal converse remains open.
+Below the integrability threshold the pair fails the required antecedent \(\mathsf A\), so these parameters do not test the unrestricted normal converse.
 
 <a id="first-output-layer-and-two-occurrence-inputs"></a>
 ## The first output layer and the full slice on two-occurrence inputs
@@ -1140,7 +1140,7 @@ Consequently \(\operatorname{Re}\langle x,x\eta\rangle=0\), and pairing \(x(1+\e
 \]
 In particular, for centered marginal unitaries \(b,a\), one has \(\|P_{\mathcal U}(ba)\|_2\le\|\eta\|_2/\sqrt{1+\|\eta\|_2^2}\).
 This estimates an opposite-order projection in the unweighted Hilbert norm.
-The term \(K_A(M)-K_A(aM)\) involves the actual curvature kernel, and a lower bound for arbitrary strict analytic tests remains open.
+The term \(K_A(M)-K_A(aM)\) involves the actual curvature kernel. The later uniform original slice estimate controls the corresponding matched energy on strict analytic tests.
 
 ## Positive rectangular representation of the Menger kernel
 
@@ -1265,3 +1265,7 @@ In particular it would suffice to construct such matrices from the scalar data a
 The diagonal entry at \(i=l\) carries zero liberation cost.
 Feasibility with an absolute constant is open.
 Failure of this sufficient matrix construction would leave open whether an actual word test has an unbounded negative Gram pairing.
+
+The [unrestricted proof](../claims/Yin_C_F0346_v1.md#argument) uses positive matrices on the larger disk and retains their scalar cost under compression to the smaller disk.
+It integrates that cost against the actual marginal curvature and uses the signed estimate on the complementary disks.
+This proves the uniform bound for all actual models without requiring the scalar sufficient certificate here on every disk.

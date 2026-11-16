@@ -409,9 +409,15 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0342](Yin_R_F0342_v1.md#finding) | Review of the local spectral mass reduction for signed curvature | [v1](Yin_R_F0342_v1.md) |
 | [Yin_R_F0343](Yin_R_F0343_v1.md#finding) | Independent review of positive endpoint costs in a normal Gaussian pair | [v1](Yin_R_F0343_v1.md) |
 | [Yin_R_F0344](Yin_R_F0344_v1.md#finding) | Review of the finite-label lattice criterion for the normal converse | [v1](Yin_R_F0344_v1.md) |
-| [Yin_R_F0345](Yin_R_F0345_v1.md#finding) | Independent review of collinear and strip slice bounds | [v1](Yin_R_F0345_v1.md) |
+| [Yin_R_F0345](Yin_R_F0345_v2.md#finding) | Independent review of the uniform slice bound on parallel lines | [v1](Yin_R_F0345_v1.md), [v2](Yin_R_F0345_v2.md) |
 | [Yin_R_F0346](Yin_R_F0346_v1.md#finding) | Independent review of the finite-dimensional lattice liberation criterion | [v1](Yin_R_F0346_v1.md) |
 | [Yin_R_F0347](Yin_R_F0347_v1.md#finding) | Review of the signed Cauchy Gram criterion on finite lattices | [v1](Yin_R_F0347_v1.md) |
+| [Yin_R_F0348](Yin_R_F0348_v1.md#finding) | Review of the type I obstruction for finite-label liberation | [v1](Yin_R_F0348_v1.md) |
+| [Yin_R_F0349](Yin_R_F0349_v1.md#finding) | Independent review of the lattice curvature graph certificates | [v1](Yin_R_F0349_v1.md) |
+| [Yin_R_F0350](Yin_R_F0350_v1.md#finding) | Whole-proof review of the normal canonical-domain and fraction theorem | [v1](Yin_R_F0350_v1.md) |
+| [Yin_R_F0352](Yin_R_F0352_v1.md#finding) | Uniformity of the disk estimates and transfer through finite spectral labels | [v1](Yin_R_F0352_v1.md) |
+| [Yin_R_F0353](Yin_R_F0353_v1.md#finding) | Full-domain duals and conjugate variables for normal and arbitrary tuples | [v1](Yin_R_F0353_v1.md) |
+| [Yin_R_F0354](Yin_R_F0354_v1.md#finding) | Post-completion review of the normal rationality and general maximality criteria | [v1](Yin_R_F0354_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

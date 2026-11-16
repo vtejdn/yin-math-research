@@ -13,22 +13,21 @@ author: Yin
 
 | Field | Value |
 | --- | --- |
-| disposition | active |
-| priority | Bound the discrete Cauchy slice uniformly on finite planar lattice labels and one trace-half projection, or exhibit actual finite-label laws with divergent normalized costs. |
+| disposition | completed |
+| priority | The uniform original slice estimate and both canonical domains are proved for every actual finite normal tuple. |
 
 Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
 
-## Current question and exact reduction
+<a id="current-question-and-exact-reduction"></a>
+## Resolution and proof route
 
-Let X be a finite bounded generating tuple in a finite tracial von Neumann algebra.
-The three hypotheses are exactly those of the linked Task: S requires dual and adjoint domains containing all M Omega, F requires only bare linear full-domain duals, and A requires represented starred Hilbert-valued derivations with actual vacuum adjoints.
-They concern existence, not the behavior of one arbitrarily selected witness.
-
-For normal tuples [C_F0075](../claims/Yin_C_F0075_v1.md#statement) proves S(X) iff F(X) and F(X*).
-Since A is adjoint stable, the two universal normal implications A implies S and A implies F are equivalent.
-A normal separating example for A versus S yields an A-but-not-F example at X or X*.
-This does not assert the pointwise implication A(X) and F(X) implies S(X).
+For arbitrary correlated normal tuples, [C_F0346](../claims/Yin_C_F0346_v1.md#decision-reviewed) proves that the actual starred conjugate-variable condition is equivalent to the strong dual condition.
+It bounds both original slices by an absolute constant times the corresponding actual vacuum norm and obtains the original closure, its adjoint and the commutators on all bounded vectors.
+The signed angular estimate compresses two positive matrices per pivot from the triple disk onto the smaller disk.
+The extra scalar term integrates against squared Menger curvature, and the remaining pivot costs integrate against the inverse-gap liberation energy.
+The [circle-to-lattice transfer](../claims/Yin_C_F0339_v1.md#recovering-the-discrete-derivative-on-circles) gives a bound independent of lattice size.
+Both fraction criteria therefore apply under either normal hypothesis, with the fixed-fraction sign and closure comparison in [the theorem](../claims/Yin_C_F0346_v1.md#the-two-fraction-criteria).
 
 For arbitrary tuples the applicability classes of the two maximal-Delta criteria are incomparable.
 The [two-point modulus](../claims/Yin_C_F0225_v1.md#decision-reviewed) has a uniformly bounded actual vacuum as its small singular value tends to zero, while the corresponding left and right singular projections force the bounded-dual cost to diverge.
@@ -43,22 +42,24 @@ Both A and S fail there, so it does not separate the two normal hypotheses.
 The [rank obstruction](../drafts/Yin_D_F0002.md#a-rank-obstruction-to-recovering-independent-selfadjoint-coordinates) rules out obtaining independent selfadjoint coordinates by inverting the normal phase matrix.
 The [Die26 source boundary](../audits/literature/Die26/readme.md#normal-dual-domain-boundary) retains the additional assumptions in the almost-coassociative route; it supplies no unrestricted endpoint estimate.
 
-## Inputs and remaining estimates
+<a id="inputs-and-remaining-estimates"></a>
+## Inputs to the comparison
 
 - [C_F0070](../claims/Yin_C_F0070_v1.md#statement) identifies normal A-to-F with the actual full-domain problem for the canonical right contraction and already proves normal S implies A.
 - [C_F0072](../claims/Yin_C_F0072_v1.md#statement) turns two operator-norm-to-L2 contraction bounds into both actual canonical domains.
   No reality premise is needed once these bounds have been obtained.
 - [C_F0075](../claims/Yin_C_F0075_v1.md#statement) compares every supplied strong normal system with the canonical system on M Omega and transfers finite-rank closures for each complete natural-domain fraction operator.
-  Thus the operator-compatibility obligation is resolved under S; it is not inferred from A alone.
+  The normal implication in C_F0346 makes this comparison available under actual starred conjugate variables.
 - [C_F0074](../claims/Yin_C_F0074_v1.md#statement) remains the distinct circular obstruction to removing normality from the specified fraction-commutator rationality criterion.
   It satisfies all three hypotheses and does not separate them.
 - The accepted special classes and the independent normal F-to-A left-contraction reductions remain in [L_F0050 v5](../ledger/Yin_L_F0050_v5.md).
-  They are inputs, not a general solution.
+  These results gave the earlier special cases.
 
-## Paired quadratic estimates and the remaining correlated scope
+<a id="paired-quadratic-estimates-and-the-remaining-correlated-scope"></a>
+## Earlier paired quadratic estimates
 
 Write T_ell(a)=delta_i*(a tensor 1) and T_r(a)=delta_i*(1 tensor a) on the full represented starred polynomial core.
-The current route seeks a finite constant for ||T_ell(a)||2 squared <= C_ell ||T_ell(a*a)||2 and separately ||T_r(a)||2 squared <= C_r ||T_r(aa*)||2.
+This approach sought a finite constant for ||T_ell(a)||2 squared <= C_ell ||T_ell(a*a)||2 and separately ||T_r(a)||2 squared <= C_r ||T_r(aa*)||2.
 The direct actual-adjoint power bound makes Hilbert-valued power iteration available once these inequalities are proved.
 Both resulting slice bounds then give the original canonical domains through C_F0072 Part B.
 
@@ -75,7 +76,7 @@ The adopted [C_F0159](../claims/Yin_C_F0159_v1.md#decision-reviewed-quadratic) g
 However, the adopted [C_F0161](../claims/Yin_C_F0161_v1.md#decision-reviewed-quadratic) gives a normal actual-A example supported on three displaced circles where this vacuum-norm constant fails.
 Together with C_F0162, that example has an optimal constant strictly larger than ||xi||2 and at most 2||xi||2; it does not refute the existence of a finite constant or A implies S.
 
-The unresolved target is the paired quadratic estimate for arbitrary correlated normal tuples with general normal coordinates.
+This stronger route asks for the paired quadratic estimate for arbitrary correlated normal tuples with general normal coordinates.
 Neither scalar real-imaginary decomposition nor the free-product direct-sum identity applies at that scope.
 [D_F0002](../drafts/Yin_D_F0002.md#paired-quadratic-route-current-boundary) retains the paired quadratic route.
 The [spectral cut criterion](../drafts/Yin_D_F0006.md#spectral-cuts-for-the-two-contraction-bounds) identifies the optimal positive-core bound on each leg with a supremum of spectral cut pairings.
@@ -85,7 +86,11 @@ The test on arbitrary endpoint vectors omits constraints satisfied by the three 
 Equations (P14) and (P15) retain those constraints and give a finite positive-semidefinite sufficient condition whose uniform validity remains open.
 The [positive-mixture estimate and three-circle example](../drafts/Yin_D_F0002.md#positive-mixtures-of-spectral-projection-blocks) extend the projection-block bound to an integral of such blocks and exhibit a scalar ACSY curvature kernel that has no exact representation of that kind.
 
-## Work branches and decision conditions
+<a id="work-branches-and-decision-conditions"></a>
+## Earlier approaches and their decision conditions
+
+The following investigations record the estimates, examples and alternative approaches developed before the unrestricted proof in C_F0346.
+The fixed materials retain the scope of each intermediate result.
 
 The normal branch has a directly ACSY-based proof of the actual joint tensor-leg phase domains and starred-core coassociativity in [C_F0076](../claims/Yin_C_F0076_v1.md#statement), independently reviewed in [R_F0049](../audits/reviews/Yin_R_F0049_v1.md#conclusion).
 The subsequent reuse check located the main actual-domain mechanism already in [C_F0056](../claims/Yin_C_F0056_v1.md#statement) and [L_F0011](../ledger/Yin_L_F0011_v1.md); C_F0076 supplies an alternative proof and improves the regularized intermediate bound from 132 to 24, rather than first establishing the entire domain result.
@@ -217,7 +222,7 @@ The accepted [C_F0157](../claims/Yin_C_F0157_v1.md#statement), independently rev
 Actual target linear tests exclude zero sets; an explicit trace-preserving phase automorphism handles complex Hermitian kernels.
 This implies F but gives no bare-F converse.
 Under these equivalent conditions the already accepted C_F0075 comparison applies to the specified canonical operators and each fraction pair.
-D_F0002 retains the unique phase and lower-form diagnostics for the unrestricted correlated-normal question, which remains open.
+D_F0002 retains the unique phase and lower-form diagnostics for the unrestricted correlated-normal question before its resolution.
 Its later developer-checked [colored-adjoint calculation](../drafts/Yin_D_F0002.md#the-actual-colored-adjoint-reverses-the-second-matrix-index) corrects a proposed matrix cancellation route: the actual real positive-matrix vacuum uses R minus its inverse transpose, so the constant-one coefficient estimate survives.
 The untransposed counterexample is retained only as an inapplicable surrogate.
 Actual multicoordinate moment extraction, generation and original domain passage remain separate obligations.
@@ -226,7 +231,7 @@ The accepted [C_F0154](../claims/Yin_C_F0154_v1.md#statement), independently rev
 The accepted [C_F0155](../claims/Yin_C_F0155_v1.md#statement), checked in [R_F0163's whole-proof finding](../audits/reviews/Yin_R_F0163_v1.md#conclusion) with an unknown initial-context relationship, removes the scalar-null blocks relevant to a relation, proves regularity of the surviving block through rectangular finite-rank cycles, and transfers through a bounded polynomial linearization.
 Consequently every bounded relation Pa=0 for a holomorphic polynomial matrix has a Hilbert solution Pz=-(id tensor tau)((delta_i P) dot a), with a bounded linear choice for each fixed P,i.
 This removes all such finite range obstructions.
-Choices and bounds still depend on P; constructing one coherent dual on all M remains open.
+The choices in that construction depend on P; C_F0346 supplies the canonical dual on all bounded vectors by a different argument.
 D_F0003 owns the remaining finite-to-global interface.
 [C_F0200](../claims/Yin_C_F0200_v1.md#decision-reviewed), independently checked in [R_F0208](../audits/reviews/Yin_R_F0208_v1.md#whole-proof-finding), gives one normalized dual on the holomorphic module generated by any prescribed countable set of bounded inputs and the unit.
 Stabilization of closed restriction images permits a summably convergent choice on each countable chain.
@@ -318,10 +323,12 @@ Thus the comparison constants are absolute in both directions.
 The analogous continuous tests may all be taken on finite unions of horizontal segments of the same length.
 The [discrete Cauchy Gram identity](../claims/Yin_C_F0342_v1.md#decision-reviewed) further reduces the estimate to the negative pairing of one explicitly positive semidefinite matrix with the signed test matrix.
 It gives a \(C\sqrt{n-1}\) bound for \(n\) labels, uniformly over the other data.
-The [line and strip bounds](../claims/Yin_C_F0340_v1.md#decision-reviewed) are independent of the number of labels on a line or in a fixed number of consecutive lattice rows or columns.
+The [parallel-line estimates](../claims/Yin_C_F0340_v2.md#decision-reviewed) give a cost bound proportional to the square of the number of lines with no dependence on their separation.
 The [finite-dimensional rank obstruction](../claims/Yin_C_F0343_v1.md#decision-reviewed) excludes every nontrivial trace-half model whose projection and labels generate a finite-dimensional algebra.
+The [type I classification](../claims/Yin_C_F0344_v1.md#decision-reviewed) excludes three or more nonzero labels in a type I generated algebra.
 To obtain a dimension-free upper bound, the [matrix inequalities from the individual spectral rows](../drafts/Yin_D_F0006.md#positive-matrix-bounds-for-the-lattice-cauchy-gram-form) can be tested on finite scalar data before constructing an operator model.
-On the lower-bound side an actual separating family must have increasing numbers of labels, unbounded strip widths in both grid directions and genuinely infinite-dimensional generated algebras.
+The [curvature graph calculation](../claims/Yin_C_F0345_v1.md#decision-reviewed) gives explicit scalar certificates for collinear and concyclic data.
+C_F0346 resolves the general signed bound by integrating the enlarged-disk estimate.
 The [relative Gaussian theorem](../claims/Yin_C_F0307_v1.md#decision-reviewed) bounds this ratio by \(\sqrt{17}\) for pure Hermitian Gaussian coefficient fields, even when only the distinguished vacuum exists.
 The [exchange-symmetric transfer](../claims/Yin_C_F0311_v1.md#decision-reviewed) reduces the uniform problem to the output orthogonal to \(W^*(Z_0)\) in a fully actual normal pair \((Z_0,Z_1)\) exchanged by a trace-preserving involution.
 Failure of a uniform bound even across different laws would yield [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) on which both original right slices have infinite cost.
@@ -543,14 +550,13 @@ C_F0150 gives an actual A-positive single hidden-factor candidate, while C_F0151
 C_F0152 constructs the required bare dual and original canonical forward domain for that candidate.
 C_F0153 proves the finite normal Gaussian correction theorem; C_F0154-C_F0155 give actual matrix inverse estimates and every finite polynomial relation compatibility.
 C_F0156-C_F0157 restore the original domains for measurable Gaussian kernels and give the exact Hermitian class criterion.
-The unrestricted normal implication remains open.
+The unrestricted normal implication was subsequently proved in C_F0346.
 Their selected Claim decisions own acceptance.
 The continuing D materials retain the further constructions and useful failures at their stated development scope; none of these results supplies a completion decision for this Task.
 
-The Task remains active.
-Completion still requires the normal A-to-S direction and its consequences for the two fraction criteria at that scope, followed by review of the full contract.
+The [Task completion decision](../tasks/Yin_T_F0011_v1.md#decision-complete-comparison) selects the normal theorem, general-tuple separations and full-contract review.
 
-The explicit normal-endpoint continuation is retained in [D_F0006](../drafts/Yin_D_F0006.md#selfadjoint-tests-and-the-correlated-unitary-obstruction).
+The earlier normal-endpoint calculation is retained in [D_F0006](../drafts/Yin_D_F0006.md#selfadjoint-tests-and-the-correlated-unitary-obstruction).
 It reduces a sufficient universal quadratic theorem to positive core inputs and excludes the sharp scalar fixed-vacuum domination even on a strictly positive mixed test in an actual correlated-unitary model.
 The same model's all-degree adjoint norms remain bounded for each fixed law.
 The finite normal-coordinate-change tests in J_F0009 are diagnostic only and provide neither the unrestricted endpoint estimate nor an actual domain counterexample.

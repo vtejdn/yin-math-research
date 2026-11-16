@@ -138,79 +138,30 @@ The [bounded-similarity construction](../claims/Yin_C_F0133_v1.md#statement) and
 Consequently the two hypotheses for maximal Delta are incomparable, and the stronger \(\mathsf S\) and \(\mathsf A\) are likewise incomparable on arbitrary tuples.
 The [review of the new separation](../audits/reviews/Yin_R_F0233_v1.md#whole-proof-finding) checks the actual vacuum and the passage from divergent bounded costs to exclusion of all algebraic systems on the enlarged tuple.
 
-Objective 1 remains open for arbitrary correlated normal coordinates.
-Here \(\mathsf S\Rightarrow\mathsf A\) and the [canonical fraction-operator comparison under \(\mathsf S\)](../claims/Yin_C_F0075_v1.md#statement) are established.
-The universal converse is equivalent to [one uniform estimate with a projection coefficient](../claims/Yin_C_F0308_v1.md#decision-reviewed).
-Let \(Z\) be bounded and normal and let \(P\) be a projection of trace \(1/2\).
-Suppose their represented starred polynomial algebra admits an outer derivation with \(\delta Z=1\otimes1,\ \delta P=0\) and \(\xi=\delta^*(1\otimes1)\).
-The required estimate is \(\|(\mathrm{id}\otimes\tau)\delta x\|_2\le K\|\xi\|_2\|x\|\) for all such polynomials, with one finite \(K\) for all such laws.
-If these ratios diverge along any sequence of models, the [free-noise assembly](../claims/Yin_C_F0305_v1.md#decision-reviewed) produces a single normal pair with actual variables at both coordinates and no bare dual system.
-The existence of a finite \(K\), or of a sequence with divergent ratios, is unresolved.
-Equivalently, the [finite lattice test](../claims/Yin_C_F0339_v1.md#decision-reviewed) asks for one uniform estimate on a finite partition of unity, its actual partial liberation and the same trace-half projection.
-Labelling the partition by complex lattice points gives an explicit off-diagonal Cauchy kernel and a denominator computed from the label masses, their scalar Cauchy sums and the liberation-vector blocks.
-The two optimal constants bound one another up to absolute factors.
-Every finite lattice test can be recovered from a normal coordinate on equal-radius circles, and every finite original witness transfers up to an absolute factor to a coordinate on finitely many parallel line segments.
-Each such continuous model has finite cost; uniformity across models is the unresolved requirement.
-The [Cauchy Gram identity](../claims/Yin_C_F0342_v1.md#decision-reviewed) expresses that requirement as a uniform lower bound for one signed scalar pairing and gives an upper bound of order \(\sqrt n\) for \(n\) labels.
-There is an [absolute estimate on a line and a width-dependent estimate on a grid strip](../claims/Yin_C_F0340_v1.md#decision-reviewed), both independent of label count.
-For more than one label the trace-half data [cannot generate a finite-dimensional algebra](../claims/Yin_C_F0343_v1.md#decision-reviewed).
-One can equivalently test [pairs exchanged by a trace-preserving involution](../claims/Yin_C_F0311_v1.md#decision-reviewed), retaining only the part of the right slice orthogonal to the distinguished marginal algebra.
-If the universal implication fails, [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) has actual conjugate variables and infinite original right slice costs at both coordinates.
-For the [common Borel reparametrizations of a correlated Haar pair](../claims/Yin_C_F0315_v1.md#statement), actuality implies both canonical bounded-vector domains at each coordinate.
-The [full phase-model estimate](../claims/Yin_C_F0320_v1.md#decision-reviewed) bounds the normalized cost in that family by an absolute constant.
-For these actual pairs, rationality can therefore be tested both by the existential finite-rank boundary equation and by the prescribed fraction commutators for every bounded regular fraction pair, with the [canonical finite-rank closure comparison](../claims/Yin_C_F0075_v1.md#statement).
-For arbitrary normal tuples it would suffice to bound the first right slice on every actual exchange-symmetric pair satisfying [exact product traces for all two-marginal tests](../claims/Yin_C_F0322_v1.md#statement), even if the bound depends on the pair.
-One may further restrict to any operator-norm neighborhood of the free standard semicircular pair in a tracial coupling, with the actual vacua close to the same reference variables in trace Hilbert norm.
-The [liberation gradients](../claims/Yin_C_F0324_v1.md#statement) in the same test class can be arbitrarily small in operator norm and have arbitrarily small product-dominated spectral densities.
-On arbitrary exchange-symmetric pairs, the [lower bound for the scalar curvature difference](../claims/Yin_C_F0314_v1.md#decision-reviewed) is still open.
-At any coordinate, [a finite measure controlling the liberation density at the endpoint distance](../claims/Yin_C_F0332_v1.md#decision-reviewed) gives both original bounded-vector domains when its mixed squared curvature with two copies of the marginal law is finite.
-On a Lipschitz graph marginal it suffices that the liberation density relative to the product law be bounded by a constant times \(|z-w|\), for arbitrary correlations.
-If each coordinate satisfies the criterion, the tuple satisfies \(\mathsf S\) and the canonical fraction comparison applies.
-At that same critical decay a [pair with bounded slices](../claims/Yin_C_F0331_v1.md#decision-reviewed) defeats all three unsubdivided rectangular cost bounds, even when the choice is made separately on each rectangle.
-Without any growth restriction on an actual scalar marginal, [the density-square and disk estimate](../claims/Yin_C_F0337_v1.md#decision-reviewed) removes the disks of small local mass from the signed comparison.
-It gives both original domains whenever the liberation density is dominated by squared differences of a finite-energy marginal map with two-dimensional Hausdorff-null image.
-An [actual Gaussian example](../claims/Yin_C_F0338_v1.md#decision-reviewed) shows that the original hypotheses do not force this domination.
-Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
-Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
-For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.
-Both oriented slices have limiting values on every one of those projections.
-The outstanding estimate is a uniform bound for these values at each coordinate of an arbitrary actual normal tuple, or an example on which the bound fails.
-If an orientation fails, the [localized projection theorem](../claims/Yin_C_F0295_v1.md#statement) gives mutually orthogonal projections near at most two marginal spectral points whose individual cutoff values converge but whose every infinite subsum lies outside that forward domain.
-For three or more coordinates the [one-point test](../claims/Yin_C_F0299_v1.md#statement) localizes such a family at a single point and requires testing only inputs and outputs compressed to the same marginal corner.
-This suffices for the universal problem because adjoining a free Haar unitary preserves any failure on an original pair.
-For any marginal spectral projection \(e\) of positive trace \(t\), the [spectral corner formula](../claims/Yin_C_F0301_v1.md#statement) identifies this compressed cutoff test with a single relative slice in \(eMe\) with trace \(\tau/t\).
-Its conjugate vector has a scalar term for the restricted marginal law and the term \(t^{-1}e(\xi-\mathbb E_{W^*(Z)}\xi)e\) for the correlations.
-On the counterexample side, a [divergent cubic concentration integral](../claims/Yin_C_F0294_v1.md#statement) excludes bare duals even on the original normal pair, and its divergence is equivalent to a dyadic series of least-squares residuals.
-On the positive side, the [signed curvature estimate](../claims/Yin_C_F0292_v1.md#statement) gives both original domains at a coordinate carried by countably many disjoint circles under a mass and separation condition, with arbitrary correlations to the other coordinates.
-The [averaged square-density theorem](../claims/Yin_C_F0297_v1.md#statement) gives both domains from summability over dyadic scales of the squared marginal ball density integrated against the marginal law.
-For a [fixed bounded Borel shift by a second coordinate](../claims/Yin_C_F0298_v1.md#statement), divergence of the cubic integral forces the two limiting singular states to have disjoint atoms at the regular inverse branches of the essential fiber.
-The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed) controls one projection of the required column bound on all starred words.
-For any shift of a coordinate by the algebra of the remaining coordinates, the [singular-value estimate](../claims/Yin_C_F0229_v1.md#decision-reviewed) bounds the trace of the singular projection at radius \(r\) by \((\pi r\|\xi_i\|_2)^{1/2}\).
-The [four-point theorem](../claims/Yin_C_F0230_v1.md#decision-reviewed) excludes vanishing polar phase loss on corners of uniformly positive trace for bounded shifts when no line carries the required marginal mass.
-The [column packing condition](../claims/Yin_C_F0211_v1.md#statement) also tests families of projections whose traces tend to zero.
-At shifts admitting a [supporting half-plane](../claims/Yin_C_F0231_v1.md#decision-reviewed) up to order \(r\) after omitted unitary multiplication, the singular mass is uniformly \(o(r^{2/3})\).
-The [packing estimate for local finite-spectrum approximations](../claims/Yin_C_F0233_v1.md#decision-reviewed) controls entire orthogonal families when the effective number of spectral values and the relative errors satisfy its bounds.
-The nonnormal separating example does not settle this implication.
-For correlated tuples in which each coordinate has either a [finite disjoint regular arc cover](../claims/Yin_C_F0234_v1.md#decision-reviewed) or a [regular closed carrier with weighted summable Fourier coefficients](../claims/Yin_C_F0236_v1.md#decision-reviewed), the actual conjugate-variable, bare and strong dual conditions are equivalent.
-When only one coordinate has such a carrier, its own original canonical operator already has both full bounded-vector domains under the actual conjugate-variable hypothesis.
-The same coordinate can carry [finitely many separated regular curves](../claims/Yin_C_F0237_v1.md#decision-reviewed), including both arcs and complete loops.
-For general diffuse marginals the [inverse spectral gap criterion](../claims/Yin_C_F0238_v1.md#decision-reviewed) computes the squared norm of the full conjugate vector as the squared marginal norm plus the inverse squared gap integral of its liberation gradient.
-The [geometric marginal criterion](../claims/Yin_C_F0255_v1.md#decision-reviewed) identifies existence of the scalar conjugate variable with finite total squared Menger curvature and square-integrability of the maximal linear density.
-Together with existence of the liberation gradient and finiteness of its inverse squared gap integral, this gives a necessary and sufficient test for actual conjugate variables on the original mixed starred algebra.
-[Global bilipschitz homeomorphisms of the plane](../claims/Yin_C_F0256_v1.md#decision-reviewed) preserve this condition in both directions under simultaneous changes of coordinates, with each mixed vacuum norm comparable up to constants depending only on that coordinate's distortion.
-The remaining universal implication is equivalent to boundedness, for each such tuple and coordinate, of the regularized column costs as the cutoff tends to zero.
-The [dyadic estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) bounds their growth by a logarithm for every actual normal tuple and gives the two canonical domains when its scale estimates are summable.
-For arbitrarily correlated selfadjoint coordinates, passing to [real Lipschitz graphs](../claims/Yin_C_F0244_v1.md#decision-reviewed) preserves actual conjugate variables in both directions.
-At any such graph coordinate a measurable Schur bound for its inverse secant yields both original canonical domains.
-If the [graph slope has bounded variation](../claims/Yin_C_F0246_v1.md#decision-reviewed), both domains hold with an absolute multiple of \((1+\operatorname{Var}(g_i'))\|\xi_{S_i}\|_2\) as the column bound, including at corners with a non-Schur inverse secant.
-[Uniform slope variation on each one-sided dyadic shell](../claims/Yin_C_F0247_v1.md#decision-reviewed) about a point also suffices, even for a polygon with infinite total slope variation and unbounded inverse-secant Schur norm.
-The [finite planar network theorem](../claims/Yin_C_F0248_v2.md#decision-reviewed) gives both domains on any finite network of regular \(C^2\) arcs meeting only at vertices after subdivision, including crossings and tangencies of arbitrary order.
-Other coordinates may have arbitrary spectra and correlations.
-For two \(C^{1,1}\) graphs with equal slopes at every common point, the [closed contact set theorem](../claims/Yin_C_F0252_v1.md#decision-reviewed) gives both domains even if the graphs meet on a set of positive spectral mass with infinitely many complementary intervals.
+For Objective 1, [the uniform slice theorem](../claims/Yin_C_F0346_v1.md#decision-reviewed) establishes \(\mathsf A\Leftrightarrow\mathsf S\) for arbitrary finite correlated normal generating tuples.
+If \(\xi_i=\partial_i^*(\Omega\otimes\Omega)\), the two slices of the represented starred derivation have operator-norm-to-\(L^2\) cost at most \(C\|\xi_i\|_2\) with an absolute \(C\).
+Both the original canonical \(D_i=-\overline{(\mathrm{id}\otimes\tau)\partial_i}\) and its actual Hilbert adjoint are defined on every \(a\Omega\) with \(a\in M\).
+Their generator-first commutators there are \([X_j,D_i]=\delta_{ij}P_\Omega\).
+
+For \(u\in L^0(M)\), let \(Q=(s,a,b,t)\) denote a bounded regular fraction with \(u=s^{-1}a=bt^{-1}\).
+Membership in the division closure of the unstarred generator algebra is equivalent to [existence of a common fraction and finite-rank boundary solution](../claims/Yin_C_F0068_v1.md#statement).
+It is also equivalent, for every such fraction, to finite rank in all coordinates of the [specified fraction commutators](../claims/Yin_C_F0068_v1.md#dual-specializations) on \(\{q:bq,tq\in\operatorname{Dom}D_i\}\).
+In the finite-rank case the negatives of their bounded closures solve the operator-first boundary equation in Objective 1.
+At a fixed fraction, the generator-first canonical and supplied systems have the [same finite-rank closures](../claims/Yin_C_F0075_v1.md#fractions-and-exact-finite-rank-transfer), and the rank in each coordinate is independent of the fraction.
+
+The proof uses the [finite lattice reduction](../claims/Yin_C_F0339_v1.md#decision-reviewed) to recover each discrete mixed derivative from relative models supported on separated circles.
+On each such model the liberation mass vanishes on the square of each individual label.
+The [larger-disk matrix estimate](../claims/Yin_C_F0346_v1.md#a-positive-matrix-on-the-larger-disk) bounds the negative angular form on disks of comparable local mass, uniformly in the number and masses of the circles.
+The remaining disks are controlled by the [integrated density square estimate](../claims/Yin_C_F0337_v1.md#disks-of-small-local-mass) using only the actual vacuum.
+Both directions of the lattice comparison have absolute constants.
+The [research strategy](../strategies/Yin_S_F0026.md#route) retains the exchange-pair, corner and projection reductions, marginal examples and earlier sufficient conditions with their fixed proofs.
+
+After the [completion decision](#decision-complete-comparison), a separate reviewer inspected the adopted chain from the actual core and adjoint domains through both fraction tests and both arbitrary-tuple counterexamples.
+The [post-completion finding](../audits/reviews/Yin_R_F0354_v1.md#finding) confirms the original contract at its stated scope.
 
 ## Starting evidence
 
-The current synthesis is [L_F0050 v5](../ledger/Yin_L_F0050_v5.md), including the distinction between boundary solvability and specified fraction commutators.
+The earlier [synthesis in L_F0050 v5](../ledger/Yin_L_F0050_v5.md) records the special cases and distinguishes boundary solvability from specified fraction commutators.
 Reuse the following inputs at their recorded scopes:
 
 | Input | Role and limit |
@@ -230,13 +181,12 @@ This Task registers the comparison problem and does not create a new mathematica
 
 Local execution requires separate preparation of `execution/Yin_E_F0011.md` under the execution rules.
 The lifecycle recorded here does not activate a local run.
-The continuing mathematical route is [S_F0026](../strategies/Yin_S_F0026.md#route).
+The mathematical route and its intermediate results are recorded in [S_F0026](../strategies/Yin_S_F0026.md#route).
 Registration itself recorded no execution period or usage allowance.
 Ordinary manuscript editing and Git delivery are not part of this contract.
 
 ## Current decision
-
-[Selected decision](#decision-resume-normal-converse)
+[Selected decision](#decision-complete-comparison)
 
 ## Lifecycle and completion
 
@@ -278,3 +228,27 @@ Ordinary manuscript editing and Git delivery are not part of this contract.
 | Relation | Target | Scope |
 | --- | --- | --- |
 | contract | [Contract](#contract) | Both original comparison objectives, their operator domains and the independent review required for completion. |
+
+### Decision complete-comparison
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-16T19:56 |
+| status | completed |
+| authority | Completion of Yin's resumed F0011 research under the original contract and its independent review requirements. |
+| reason | The unrestricted normal implication and both fraction criteria are proved with the original canonical domains. Both directions of the arbitrary-tuple comparison are separated by actual examples. R_F0353 independently checked the full contract and all selected inputs. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [Original F0011 contract](#contract) | Finite normal equivalence, both rationality tests, arbitrary-tuple maximality hypotheses, actual domains and existential quantifiers. |
+| support | [General normal equivalence](../claims/Yin_C_F0346_v1.md#statement) | Original starred hypotheses, canonical domains, generators and every-fraction conclusions. |
+| support | [Proof of the normal converse](../claims/Yin_C_F0346_v1.md#argument) | Enlarged-disk estimate, lattice transfer, restoration of both canonical domains and compatibility. |
+| support | [Actual tuple excluding all bare duals](../claims/Yin_C_F0225_v1.md#all-bounded-duals-and-the-separating-tuple) | Countable assembly and a free extension exclude every algebraic bare system under actual ACSY. |
+| support | [Strong tuple without any normalized starred derivation](../claims/Yin_C_F0133_v1.md#statement) | A bounded full-Hilbert-space strong dual coexists with failure of the normalized starred derivation. |
+| support | [Bare maximality](../claims/Yin_C_F0024_v1.md#3-maximal-delta-from-dual-identities-on-all-bounded-vectors) | The full bounded-vector bare-domain commutator suffices for maximal Delta. |
+| support | [Actual starred maximality](../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) | Proposition 3.5 applies to the actual adjoint on the represented starred core. |
+| support | [Existential fraction criterion](../claims/Yin_C_F0068_v1.md#statement) | Some bounded regular fraction has a finite-rank solution of the boundary equation. |
+| support | [Specified fraction operators](../claims/Yin_C_F0068_v1.md#dual-specializations) | Every-fraction operator realization with its actual domain, sign and numerical rank. |
+| support | [Canonical fraction comparison](../claims/Yin_C_F0075_v1.md#fractions-and-exact-finite-rank-transfer) | Supplied and canonical fraction operators agree on bounded vectors and share their finite-rank closures. |
+| support | [Nonnormal rationality boundary](../claims/Yin_C_F0074_v1.md#statement) | The circular example rules out dropping normality from the prescribed commutator criterion. |
+| review | [Independent full-contract finding](../audits/reviews/Yin_R_F0353_v1.md#finding) | Whole contract and the complete selected support for both original objectives, including the source and review limits in the finding. |
