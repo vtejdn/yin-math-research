@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test genuinely coupled multiterm fibers on four cyclic cosets by propagating their coefficient ratios and by sampling within the actual cancelling varieties. Seek rank bounds for components that survive the higher-moment and boundary tests. |
+| priority | Test other four-coset tables for identities between whole coefficient equations. Apply the finite-window and moment tests to components that satisfy every fiber equation. |
 
 ## Current structural investigation
 
@@ -81,7 +81,16 @@ The [Promislow calculation](../ledger/Yin_L_A0039_v1.md) gives a four-coset exam
 The [analytic-family and phase test](../claims/Yin_C_A0028_v1.md#statement) applies when a nonhomogeneous triple or several coefficient polynomials preserve a common curve. The average over its boundary phases uses actual cancelling specializations.
 For a fixed table, [componentwise sampling](../claims/Yin_C_A0030_v1.md#statement) detects a half pair almost surely on its smooth component if one exists there. The projective [dimension test](../ledger/Yin_L_A0040_v1.md) excludes components whose boundary would force a factor onto too few support points.
 For amenable groups one can also [test the same group and supports in growing residue characteristics](../claims/Yin_C_A0029_v1.md#statement) through uniform finite-window comparisons.
-The outstanding case includes genuinely coupled coefficient equations for which the local ratios remain consistent and the component boundaries and moment inequalities yield no contradiction. Neither a finite stopping order for the moment test nor a uniform rank exclusion across all such support tables is established.
+On the [twelve-by-twelve extension](../claims/Yin_C_A0035_v1.md#an-identity-using-five-double-fibers), five doubles and a Laurent linear combination of two triples and one quintuple leave a single nonzero term.
+All 37 binary equations allow a six-parameter family in which the ratios inside each of those larger fibers vary.
+The original supports remain subsets of the enlarged supports, so the two shared differences generating \(G_3\) still occur and its finite abelianization still excludes a nonzero integer character.
+On the [eight-by-twelve table](../ledger/Yin_L_A0044_v1.md#solving-the-triples-with-variable-ratios), six variable-ratio triples and all the binary equations admit full-support solutions, but a further coefficient stays nonzero.
+These groups have a [known domain result](../audits/literature/NS24/readme.md#the-subsequent-domain-result).
+For another table, [elimination of one factor](../claims/Yin_C_A0032_v1.md#full-support-and-rank-strata) gives exact minor tests, including a two-direction test that handles curves and isolated solutions.
+The [boundary-support calculation](../claims/Yin_C_A0033_v1.md#cutting-a-component-by-product-coordinates) bounds component dimension by combined support minus sixteen and checks individual Newton edges on two-parameter curves.
+For a component satisfying every equation, [window ranks and finite moments](../claims/Yin_C_A0034_v1.md#statement) can exclude two half ranks.
+On fixed amenable supports every negative instance has a finite window certificate, with no uniform size bound supplied by the argument.
+Finding an exclusion that works over all remaining torsion-free four-coset tables is open.
 The [exact projection norms on product windows](../ledger/Yin_L_A0035_v1.md) show that a subexponential estimate would already require additional structure on the finite annihilator in a single factor.
 On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f. Cancellation on individual group-product fibers remains a separate question.
 

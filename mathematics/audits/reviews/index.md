@@ -60,6 +60,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0060](Yin_R_A0060_v1.md#whole-argument-finding) | Rank specialization on fixed supports in an amenable group | [v1](Yin_R_A0060_v1.md) |
 | [Yin_R_A0061](Yin_R_A0061_v1.md#whole-argument-finding) | Generic sampling and finite moments on the coefficient variety | [v1](Yin_R_A0061_v1.md) |
 | [Yin_R_A0062](Yin_R_A0062_v1.md#whole-argument-finding) | The Nielsen–Soelberg eight-by-eight product table | [v1](Yin_R_A0062_v1.md) |
+| [Yin_R_A0063](Yin_R_A0063_v1.md#whole-argument-finding) | Eliminating one vector of group-ring coefficients | [v1](Yin_R_A0063_v1.md) |
+| [Yin_R_A0064](Yin_R_A0064_v1.md#whole-argument-finding) | Boundary supports and Newton polygons in the coefficient variety | [v1](Yin_R_A0064_v1.md) |
+| [Yin_R_A0065](Yin_R_A0065_v1.md#whole-argument-finding) | Finite tests for exclusion of two half ranks | [v1](Yin_R_A0065_v1.md) |
+| [Yin_R_A0066](Yin_R_A0066_v1.md#whole-argument-finding) | Coupled fibers in exterior thickenings of the Nielsen–Soelberg table | [v1](Yin_R_A0066_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
