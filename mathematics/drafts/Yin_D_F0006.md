@@ -1209,5 +1209,59 @@ After integrating the thresholds and \(v\), the cost there is at most \(C K\int_
 Now \(r\ge |z-w|/4\) and the centers still have area at most \(\pi r^2\), so these disks also cost at most \(C K J_\phi\) in total.
 In particular this argument covers measures satisfying \(\mu(B(x,R))\le K_0(R/s)^d\mu(B(x,s))\) for all \(x\) in their support and \(0<s<R\), with \(d<2\).
 Indeed for \(x\in B\) in the support the annuli at distances \(2^k r\) from \(a\) contribute at most \(C K_0 2^{-k(2-d)}\mu(3B)\) each.
-For arbitrary marginals the outstanding contribution in this argument is from distant third points on disks where \(T(B)/\mu(3B)\) is large.
-The calculation assumes the stated domination by \(\phi\); its availability under the original hypotheses is a separate question.
+The [reweighted square-function argument](../claims/Yin_C_F0337_v1.md#decision-reviewed) bounds the signed contribution from the remaining disks without a growth restriction, completing the criterion under the stated domination by \(\phi\).
+The [Gaussian example](../claims/Yin_C_F0338_v1.md#decision-reviewed) excludes such domination under the original hypotheses.
+
+## Radial planar smoothing of the finite labels
+
+In the [lattice reduction](../claims/Yin_C_F0339_v1.md#decision-reviewed), the conditional circle law may also be replaced by a smooth radial planar probability supported in the disk of radius \(h/8\) about each grid center \(c_i\).
+Take dilates of one fixed smooth bounded rotation-invariant density supported in the unit disk.
+A bounded measurable map of the diffuse compressed semicircular in each corner realizes the prescribed probability there, for example by using the odd and even binary digits of its uniform quantile to generate independent radius and angle variables.
+Conditional expectation onto the old algebra is still the corner trace on those functions.
+All positive complex moments about the center vanish, so the same convergent geometric expansion of \(1/(z-w)\) gives exact recovery of each off-diagonal word derivative.
+The normalized disk law has a scalar vacuum of norm \(O(1/h)\) by the absolute inverse-distance integral of a bounded planar density after rescaling.
+The other terms of the scalar vacuum estimate and the block inverse-gap estimate need only the support separation and are unchanged.
+Thus the same two-sided comparison can use smooth compactly supported planar densities as its continuous relative witnesses.
+
+For a further test of potential separating sequences on a lattice of mesh \(h\), put
+\[
+ W_c=\sum_i t_i\sum_{k\ge0}
+ \left(\frac{\sum_{|c_j-c_i|\le 32\,2^k h}t_j}{2^k h}\right)^2.
+\]
+For the smooth spread law, at \(z\) in component \(i\) and radius \(r<h/16\), the mass of \(B(z,8r)\) is at most \(Ct_i r^2/h^2\).
+At larger radii, grouping center distances by dyadic scales starting at \(h\) costs at most \(CW_c\) in the integrated squared-density sum.
+The finitely many intermediate radii comparable to \(h\) obey the first term of \(W_c\).
+The small radii have total cost at most \(C\sum_i t_i^3/h^2\le C W_c\) by the geometric series.
+This argument also compares dyadic scales starting at the actual support diameter to those starting at \(h\), by enclosing a radius between two successive multiples and using monotonicity of the ball mass.
+The [localized square-density estimate](../claims/Yin_C_F0297_v1.md#summing-by-triangle-diameter) uses just the distinguished vacuum and its liberation, so the spread model has right-slice cost at most \(C(B_c+\sqrt{W_c})\).
+The circle-mean calculation just proved for radial densities transfers this bound to the exact discrete word algebra.
+In particular a separating lattice sequence must have \(W_c/B_c^2\) unbounded along the diverging witnesses.
+The quantity \(W_c\) can contain many scales of approximately linear mass growth even for collinear labels; it carries no information about angular cancellation.
+
+## Positive matrix bounds for the lattice Cauchy Gram form
+
+For the [exact discrete identity](../claims/Yin_C_F0342_v1.md#statement), write \(K_{ij}=\operatorname{Re}\sum_l t_l k_{li}\overline{k_{lj}}\), \(F=(f_{ij})\) and \(t=(t_i)_i\).
+Set \(X=tt^{\mathsf T}-F\).
+Then \(X_{ii}=t_i^2\), because the insertion on a repeated label vanishes.
+For each label \(l\) the [spectral row estimate](../claims/Yin_C_F0335_v1.md#statement) gives
+\[
+          X+D_l\succeq0,\qquad (D_l)_{ii}=2\nu_{il}/t_l
+\]
+with \(D_l\) diagonal and \(\nu_{il}=\|e_i\zeta e_l\|_2^2\).
+Indeed use the circle realization of [C_F0339](../claims/Yin_C_F0339_v1.md#free-noise-in-each-spectral-corner) and take the testing function constant on each label.
+On component \(l\) the liberation density in row \(i\) is \(\nu_{il}/(t_i t_l)\).
+The row proof uses only the distinguished relative derivative and its vacuum.
+The fixed analytic test of the old word algebra is admissible by approximating the separated label projections in the liberation graph, preserving the strict norm margin for its defining selfadjoint element.
+The enlarged liberation agrees with the old one on these projections and the killed projection.
+
+For any real diagonal \(\Lambda=\operatorname{diag}(\lambda_i)\) and real positive semidefinite matrices \(A_l\) satisfying \(\Lambda-K=\sum_l A_l\), these constraints give
+\[
+ -F_K(u)\le \sum_i\lambda_i t_i^2
+          +2\sum_{il}(A_l)_{ii}\nu_{il}/t_l
+          -\sum_i t_i|H_i|^2 .
+\]
+Indeed \(\operatorname{tr}(A_l X)\ge-\operatorname{tr}(A_lD_l)\); insert this in \(\operatorname{tr}(KX)-t^{\mathsf T}Kt\).
+In particular it would suffice to construct such matrices from the scalar data alone with \(\sum_i\lambda_i t_i^2\le C\sum_i t_i(M_i^2+|H_i|^2)\) and \((A_l)_{ii}\le C t_l/|c_i-c_l|^2\) for all \(i\ne l\).
+The diagonal entry at \(i=l\) carries zero liberation cost.
+Feasibility with an absolute constant is open.
+Failure of this sufficient matrix construction would leave open whether an actual word test has an unbounded negative Gram pairing.

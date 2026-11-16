@@ -13,6 +13,11 @@ The [Schur multiplier for two measure spaces](../audits/literature/AP25/Yin_U001
 The [graph Cauchy singular integral](../audits/literature/Mus14/Yin_U001.md#cauchy-integral-on-a-lipschitz-graph) uses a real graph parameter, Lebesgue measure and Muscalu's kernel normalization.
 For double operator integrals, the [left and right spectral measures](../audits/literature/CSZ18/Yin_U001.md#weak-endpoint-for-the-planar-symbol) fix the action of a symbol, while the [graph heat semigroup and its column BMO norm](../audits/literature/CJSZ20/Yin_U001.md#graph-heat-semigroup-and-bmo) specify the variance norm of an output.
 
+### Vertical square functions and vector-valued singular integrals
+
+The [vertical square function and its cube tests](../audits/literature/LM17/Yin_U001.md#indicator-testing) use the scale measure \(dt/t\) and a kernel regular in its input variable.
+The [vector-valued Calderón–Zygmund operator](../audits/literature/GM00/Yin_U001.md#operator-kernel) uses operator-norm size, integral oscillation in both variables and representation off the support of the input.
+
 ### Return operators, graph atoms and group-word compatibility
 
 The [SW20 spectral definitions](../audits/literature/SW20/Yin_U001.md#spectral-definitions) distinguish Hermitian, quasi-Hermitian and quasi-symmetric group algebras and their exact support quantifiers; C_A0014_v3 uses the quasi-Hermitian condition in its global-filter obstruction.

@@ -403,6 +403,15 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0336](Yin_R_F0336_v1.md#finding) | Independent review of finite alternating depth and transported free slices | [v1](Yin_R_F0336_v1.md) |
 | [Yin_R_F0337](Yin_R_F0337_v1.md#finding) | Review of the critical spectral-decay example for rectangular estimates | [v1](Yin_R_F0337_v1.md) |
 | [Yin_R_F0338](Yin_R_F0338_v1.md#finding) | Independent review of the mixed curvature measure criterion | [v1](Yin_R_F0338_v1.md) |
+| [Yin_R_F0339](Yin_R_F0339_v1.md#finding) | Review of far-point rectangle costs for a striped disk phase | [v1](Yin_R_F0339_v1.md) |
+| [Yin_R_F0340](Yin_R_F0340_v1.md#finding) | Review of the spectral-row inequality and positive-density partition endpoint | [v1](Yin_R_F0340_v1.md) |
+| [Yin_R_F0341](Yin_R_F0341_v2.md#finding) | The dihedral rotation law and the original relative derivation | [v1](Yin_R_F0341_v1.md), [v2](Yin_R_F0341_v2.md) |
+| [Yin_R_F0342](Yin_R_F0342_v1.md#finding) | Review of the local spectral mass reduction for signed curvature | [v1](Yin_R_F0342_v1.md) |
+| [Yin_R_F0343](Yin_R_F0343_v1.md#finding) | Independent review of positive endpoint costs in a normal Gaussian pair | [v1](Yin_R_F0343_v1.md) |
+| [Yin_R_F0344](Yin_R_F0344_v1.md#finding) | Review of the finite-label lattice criterion for the normal converse | [v1](Yin_R_F0344_v1.md) |
+| [Yin_R_F0345](Yin_R_F0345_v1.md#finding) | Independent review of collinear and strip slice bounds | [v1](Yin_R_F0345_v1.md) |
+| [Yin_R_F0346](Yin_R_F0346_v1.md#finding) | Independent review of the finite-dimensional lattice liberation criterion | [v1](Yin_R_F0346_v1.md) |
+| [Yin_R_F0347](Yin_R_F0347_v1.md#finding) | Review of the signed Cauchy Gram criterion on finite lattices | [v1](Yin_R_F0347_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

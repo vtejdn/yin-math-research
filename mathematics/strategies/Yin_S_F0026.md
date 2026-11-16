@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Bound the transverse slice on exchange-symmetric normal pairs with product two-marginal traces near free semicirculars, or realize unbounded mixed tests under these hypotheses. |
+| priority | Bound the discrete Cauchy slice uniformly on finite planar lattice labels and one trace-half projection, or exhibit actual finite-label laws with divergent normalized costs. |
 
 Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
@@ -310,6 +310,18 @@ The [commutator bound for spectral blocks](../claims/Yin_C_F0303_v1.md#decision-
 The [matrix encoding](../claims/Yin_C_F0306_v1.md#decision-reviewed) compares finite tests across arbitrary coefficient counts to those in actual pairs with one selfadjoint second coordinate.
 It suffices to solve the [uniform problem for one projection](../claims/Yin_C_F0308_v1.md#decision-reviewed), which is killed by the distinguished derivation and has trace exactly one half.
 To pursue a separator it now suffices to exhibit a sequence of norm-one mixed polynomial tests with slice-to-vacuum ratios tending to infinity, even if every individual cost in the sequence is finite.
+The [equivalent lattice inequality](../claims/Yin_C_F0339_v1.md#decision-reviewed) replaces the normal variable by a finite partition of unity labelled by any finite subset of the square lattice.
+The off-diagonal Cauchy kernel acts on its actual partial liberation relative to the same projection.
+The denominator uses only scalar masses and Cauchy sums on the lattice and the inverse-gap-weighted norms of the liberation blocks.
+Rounding preserves each fixed polynomial slice in the limit, and spreading each label on a circle recovers every discrete word derivative exactly by conditional expectation.
+Thus the comparison constants are absolute in both directions.
+The analogous continuous tests may all be taken on finite unions of horizontal segments of the same length.
+The [discrete Cauchy Gram identity](../claims/Yin_C_F0342_v1.md#decision-reviewed) further reduces the estimate to the negative pairing of one explicitly positive semidefinite matrix with the signed test matrix.
+It gives a \(C\sqrt{n-1}\) bound for \(n\) labels, uniformly over the other data.
+The [line and strip bounds](../claims/Yin_C_F0340_v1.md#decision-reviewed) are independent of the number of labels on a line or in a fixed number of consecutive lattice rows or columns.
+The [finite-dimensional rank obstruction](../claims/Yin_C_F0343_v1.md#decision-reviewed) excludes every nontrivial trace-half model whose projection and labels generate a finite-dimensional algebra.
+To obtain a dimension-free upper bound, the [matrix inequalities from the individual spectral rows](../drafts/Yin_D_F0006.md#positive-matrix-bounds-for-the-lattice-cauchy-gram-form) can be tested on finite scalar data before constructing an operator model.
+On the lower-bound side an actual separating family must have increasing numbers of labels, unbounded strip widths in both grid directions and genuinely infinite-dimensional generated algebras.
 The [relative Gaussian theorem](../claims/Yin_C_F0307_v1.md#decision-reviewed) bounds this ratio by \(\sqrt{17}\) for pure Hermitian Gaussian coefficient fields, even when only the distinguished vacuum exists.
 The [exchange-symmetric transfer](../claims/Yin_C_F0311_v1.md#decision-reviewed) reduces the uniform problem to the output orthogonal to \(W^*(Z_0)\) in a fully actual normal pair \((Z_0,Z_1)\) exchanged by a trace-preserving involution.
 Failure of a uniform bound even across different laws would yield [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) on which both original right slices have infinite cost.
@@ -342,9 +354,14 @@ Its actual slices are bounded, and its curvature kernel admits no positive diago
 The [smaller-endpoint partition](../claims/Yin_C_F0332_v1.md#decision-reviewed) controls the same example and treats every Lipschitz graph marginal with critical linear decay.
 It uses a finite control measure with finite mixed curvature and bounds the two angular level masses through their variance.
 An actual two-arc model in the same Claim admits no such control measure.
-The next estimate must therefore cover interactions for which that local mass bound fails.
-One possibility is to [partition by a marginal function](../drafts/Yin_D_F0006.md#subdivision-by-values-of-a-marginal-function) and charge the remaining cross terms to its divided-difference energy.
+For an arbitrary actual marginal, the [smooth density square estimate](../claims/Yin_C_F0337_v1.md#decision-reviewed) controls the entire signed contribution of disks whose local mass is small compared with the weighted mass of the third vertex.
+On the other disks the same theorem bounds the original slices if squared differences of a marginal function with two-dimensional Hausdorff-null image dominate the liberation density and its divided-difference energy is finite.
+The [striped area example](../claims/Yin_C_F0333_v1.md#decision-reviewed) already forces infinite integral of the centered rectangle costs after every endpoint subdivision, even with a two-valued function of finite energy.
+The [Gaussian pair on a Cantor product and horizontal segments](../claims/Yin_C_F0338_v1.md#decision-reviewed) has full domains and excludes both a finite control measure and a dominating function with such an image.
+The [spectral row inequality](../claims/Yin_C_F0335_v1.md#decision-reviewed) supplies a different bound on rank-one tests and on positive Cauchy Gram kernels using only the actual vacuum.
 In the projection formulation, a [free Poisson conjugation of a marginal sign](../claims/Yin_C_F0327_v1.md#decision-reviewed) has uniform column bounds for every actual relative law in that family.
+For the [two-point amalgamated model](../claims/Yin_C_F0334_v2.md#decision-reviewed), actuality is characterized by the scalar marginal vacuum, a cubic circle-density condition for the product of the two signs, and a finite secant energy when that circle law is non-Haar.
+Its liberation density is an exact squared difference of a two-valued function, so C_F0337 bounds both relative slices by an absolute multiple of the joint vacuum norm.
 Matching any prescribed finite number of alternating moments with a free pair still permits [unbounded error upon transporting the free slice](../claims/Yin_C_F0330_v1.md#decision-reviewed), even with a fixed positive cutoff on the Haar generators.
 In the projection model, every scalar shift of a [diagonal block](../claims/Yin_C_F0310_v1.md#decision-reviewed) and each [off-diagonal block](../claims/Yin_C_F0312_v1.md#decision-reviewed) has diffuse singular law at trace one half.
 This excludes exact realizations of the earlier two-point modulus in all four blocks.

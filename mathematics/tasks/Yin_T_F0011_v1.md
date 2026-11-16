@@ -146,6 +146,14 @@ Suppose their represented starred polynomial algebra admits an outer derivation 
 The required estimate is \(\|(\mathrm{id}\otimes\tau)\delta x\|_2\le K\|\xi\|_2\|x\|\) for all such polynomials, with one finite \(K\) for all such laws.
 If these ratios diverge along any sequence of models, the [free-noise assembly](../claims/Yin_C_F0305_v1.md#decision-reviewed) produces a single normal pair with actual variables at both coordinates and no bare dual system.
 The existence of a finite \(K\), or of a sequence with divergent ratios, is unresolved.
+Equivalently, the [finite lattice test](../claims/Yin_C_F0339_v1.md#decision-reviewed) asks for one uniform estimate on a finite partition of unity, its actual partial liberation and the same trace-half projection.
+Labelling the partition by complex lattice points gives an explicit off-diagonal Cauchy kernel and a denominator computed from the label masses, their scalar Cauchy sums and the liberation-vector blocks.
+The two optimal constants bound one another up to absolute factors.
+Every finite lattice test can be recovered from a normal coordinate on equal-radius circles, and every finite original witness transfers up to an absolute factor to a coordinate on finitely many parallel line segments.
+Each such continuous model has finite cost; uniformity across models is the unresolved requirement.
+The [Cauchy Gram identity](../claims/Yin_C_F0342_v1.md#decision-reviewed) expresses that requirement as a uniform lower bound for one signed scalar pairing and gives an upper bound of order \(\sqrt n\) for \(n\) labels.
+There is an [absolute estimate on a line and a width-dependent estimate on a grid strip](../claims/Yin_C_F0340_v1.md#decision-reviewed), both independent of label count.
+For more than one label the trace-half data [cannot generate a finite-dimensional algebra](../claims/Yin_C_F0343_v1.md#decision-reviewed).
 One can equivalently test [pairs exchanged by a trace-preserving involution](../claims/Yin_C_F0311_v1.md#decision-reviewed), retaining only the part of the right slice orthogonal to the distinguished marginal algebra.
 If the universal implication fails, [one such pair](../claims/Yin_C_F0313_v1.md#decision-reviewed) has actual conjugate variables and infinite original right slice costs at both coordinates.
 For the [common Borel reparametrizations of a correlated Haar pair](../claims/Yin_C_F0315_v1.md#statement), actuality implies both canonical bounded-vector domains at each coordinate.
@@ -159,6 +167,9 @@ At any coordinate, [a finite measure controlling the liberation density at the e
 On a Lipschitz graph marginal it suffices that the liberation density relative to the product law be bounded by a constant times \(|z-w|\), for arbitrary correlations.
 If each coordinate satisfies the criterion, the tuple satisfies \(\mathsf S\) and the canonical fraction comparison applies.
 At that same critical decay a [pair with bounded slices](../claims/Yin_C_F0331_v1.md#decision-reviewed) defeats all three unsubdivided rectangular cost bounds, even when the choice is made separately on each rectangle.
+Without any growth restriction on an actual scalar marginal, [the density-square and disk estimate](../claims/Yin_C_F0337_v1.md#decision-reviewed) removes the disks of small local mass from the signed comparison.
+It gives both original domains whenever the liberation density is dominated by squared differences of a finite-energy marginal map with two-dimensional Hausdorff-null image.
+An [actual Gaussian example](../claims/Yin_C_F0338_v1.md#decision-reviewed) shows that the original hypotheses do not force this domination.
 Under \(\mathsf A\), maximal Delta gives the existential finite-rank boundary criterion of Objective 1.
 Whether \(\mathsf A\) always gives both bounded-vector domains for the prescribed canonical operators is unresolved.
 For two or more coordinates, one can test a [countable dense family of projections of trace one half](../claims/Yin_C_F0288_v1.md#decision-reviewed) in the original algebra.

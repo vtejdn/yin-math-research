@@ -74,3 +74,17 @@ Linear growth is essential to the imported statement and is not obtained from th
 Theorem 17.2 was inspected only to locate the stronger, every-square truncated testing condition for L2 operator boundedness.
 It is not used in the consumer's global infinity-to-2 argument.
 This unit imports no principal-value convergence from an L2 distributional density, no arbitrary-growth identity, and no extension to noncommutative mixed polynomials.
+
+### The global square function under uniform linear growth
+
+Yin's F0011 research agent inspected Theorem 19.1 on printed and PDF page 102 of the [archived preprint](../../../literature/pdf/Tol17--arxiv-v2.pdf) and the opening of its proof on pp. 102–103.
+For a finite positive planar Radon measure \(\rho\) satisfying \(\rho(B(x,t))\le Lt\) at every center and radius, the theorem gives
+\[
+ \int\!\int_0^\infty
+ \left|\frac{\rho(B(x,t))}{t}-\frac{\rho(B(x,2t))}{2t}\right|^2\frac{dt}{t}\,d\rho(x)
+ \le C L^2\rho(\mathbb C)+C\iiint\kappa^2\,d\rho^3 .
+\]
+The version with the displayed growth factor follows by applying the normalized bound to \(\rho/L\); both sides scale cubically.
+The source uses a dyadic corona decomposition and its packing estimate in Lemma 19.2.
+The inspection covers this theorem interface and its normalization.
+An estimate with only an integrated maximal density in place of the uniform growth assumption requires an additional argument.

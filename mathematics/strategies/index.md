@@ -117,7 +117,7 @@ Each Task entrance includes only that route's explicit Task associations.
 
 | Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Yin_S_F0026](Yin_S_F0026.md) | From ACSY vacua to full bounded-vector duals | Yin | active | Bound the transverse slice on exchange-symmetric normal pairs with product two-marginal traces near free semicirculars, or realize unbounded mixed tests under these hypotheses. | [Yin_T_F0011_v1: Full-domain duals and ACSY conjugate variables: rationality and maximal Delta](../tasks/Yin_T_F0011_v1.md#contract) | Compare the normal analytic hypotheses S and A, and the general maximal-Delta hypotheses F and A, including actual canonical domains and existential quantifiers. | Root |
+| [Yin_S_F0026](Yin_S_F0026.md) | From ACSY vacua to full bounded-vector duals | Yin | active | Bound the discrete Cauchy slice uniformly on finite planar lattice labels and one trace-half projection, or exhibit actual finite-label laws with divergent normalized costs. | [Yin_T_F0011_v1: Full-domain duals and ACSY conjugate variables: rationality and maximal Delta](../tasks/Yin_T_F0011_v1.md#contract) | Compare the normal analytic hypotheses S and A, and the general maximal-Delta hypotheses F and A, including actual canonical domains and existential quantifiers. | Root |
 
 <a id="task-yin_t_f0012"></a>
 ## Yin_T_F0012

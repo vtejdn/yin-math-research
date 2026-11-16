@@ -75,6 +75,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Dab14/Yin_U001](Dab14/Yin_U001.md) | Dab14-U001: q-Gaussian Defect Kernels and Projective Inverses |
 | [Dab14/Yin_U002](Dab14/Yin_U002.md) | Dab14-U002: Lipschitz conjugate systems and exact q/tensor conventions |
 | [Fug50/Yin_U001](Fug50/Yin_U001.md) | Fug50-U001: Bounded normal commutation from the exact original theorem |
+| [GM00/Yin_U001](GM00/Yin_U001.md#gm00-u001) | Strong type for a vector-valued Calderón–Zygmund operator on a measure of polynomial growth. |
 | [GS14/Yin_U001](GS14/Yin_U001.md) | GS14: Selected Analytic Transport Input |
 | [GW25/Yin_U001](GW25/Yin_U001.md) | GW25: The Classical Polynomial Runge Interface |
 | [Han26/Yin_U001](Han26/Yin_U001.md#han26-u001) | Brown measure convergence for holomorphic Ginibre polynomials, the proof and its GUE boundary |
@@ -89,6 +90,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [KS26/Yin_U001](KS26/Yin_U001.md#ks26-u001) | Vector small-ball estimate of Proposition 2.4 with short deterministic columns and independent real multipliers |
 | [Erd45 source notes](Erd45/readme.md#interval-theorem) | The signed interval concentration theorem on printed page 898 and its antichain proof |
 | [KV12/Yin_U001](KV12/Yin_U001.md) | Rational Difference-Differential Operators |
+| [LM17/Yin_U001](LM17/Yin_U001.md#lm17-u001) | Local indicator testing for a global vertical square function estimate. |
 | [Kat95/Yin_U001](Kat95/Yin_U001.md) | Closable Finite-Rank Operators |
 | [Kro81/Yin_U001](Kro81/Yin_U001.md) | Kro81-U001: Rational Laurent Series, Recurrences and Hankel Rank |
 | [Lau88/Yin_U001](Lau88/Yin_U001.md) | Algebraic spectral subspaces and continuity of intertwiners |
