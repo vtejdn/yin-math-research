@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Bound the two oriented slices on orthogonal projections localized near at most two spectral points, or construct an actual normal pair with divergent cubic concentration. |
+| priority | Bound both oriented cutoff norms on a neighborhood of each single marginal point for tuples of length at least three, or construct an actual normal pair with divergent cubic concentration. |
 
 Updated: 2026-11-16.
 This route starts with the present Task and does not take over T_F0005's distinct obligations.
@@ -299,6 +299,11 @@ For each fixed tuple and orientation it suffices to bound the forward norms alon
 Indeed, failure produces one such sequence with forward norms tending to infinity, while a finite slice norm bounds every sequence.
 If the forward domain contains \(M\Omega\), averaging the squared norm of the slice of an independently signed sum of orthogonal projections bounds the sum of their squared slice norms by the squared single-input norm, since each signed sum is a contraction.
 The missing implication is to control these disjoint tests using the actual joint vacuum.
+For the universal implication the [one-point corner criterion](../claims/Yin_C_F0299_v1.md#statement) permits testing just one marginal point at a time, since a pair can be enlarged by a free Haar unitary.
+Local control at every point on the original pair itself gives an unconditional weighted estimate, with weight determined by its liberation vacuum.
+The [spectral corner formula](../claims/Yin_C_F0301_v1.md#statement) identifies the cutoff test on any Borel spectral set of positive mass with a relative single-input slice in the corner.
+At a putative bad point, every neighborhood has infinite relative cost even though \(t^3\|\xi^e\|_{2,\tau_e}^2\) tends to zero with its marginal mass \(t\).
+The next local estimate must use how the relative slice acts on mixed inputs in that same corner; small weighted vacuum energy alone supplies no bound in the calculation.
 After freely adjoining a Haar unitary, the [unitary orbit of one fixed projection](../claims/Yin_C_F0289_v1.md#decision-reviewed) gives the exact original single-input norm up to the factor \(\sqrt{t(1-t)}\), where \(t\) is the projection trace.
 For a fixed selfadjoint mixed polynomial, its [spectral projections](../claims/Yin_C_F0285_v1.md#decision-reviewed) belong to both canonical domains and their cutoffs converge in norm outside a set of thresholds of Hausdorff dimension at most \(2/3\).
 The exceptional dimension is sharp for the sufficient integral estimate, and the good thresholds need not cut a prescribed trace.
@@ -358,6 +363,7 @@ The [local secant obstruction](../claims/Yin_C_F0273_v1.md#decision-reviewed) ex
 At a putative fixed critical shift the limiting marginal point must have phase spread at least \(4/\sqrt3-2\).
 For a compact family of affine shifts by a second coordinate with slope bounded away from zero, the [simultaneous marginal test](../claims/Yin_C_F0296_v1.md#statement) constrains both spectra at the same character of the generated two-coordinate \(C^*\)-algebra.
 The [remaining arbitrary-shift problem](../drafts/Yin_D_F0006.md#matching-singular-points-for-affine-shifts) concerns shifts for which that second derivative has variable tensor values or is undefined.
+For a [fixed bounded Borel shift](../claims/Yin_C_F0298_v1.md#decision-reviewed), local adjoint tests on regular inverse branches constrain the two singular states even if the shift lies outside the global coarse derivative domain.
 For a [regularly varying singular law](../claims/Yin_C_F0274_v1.md#decision-reviewed) of index \(\alpha\) with divergent cubic integral, the corresponding bound is \(2(\csc(\pi\alpha/2)-1)\), including critical laws with a vanishing slowly varying factor.
 The [localization of the divergent integral](../drafts/Yin_D_F0006.md#local-critical-shell-integrals) retains radii of infinite cubic integral in every neighborhood of one exceptional point.
 The [disk pair with a common character](../claims/Yin_C_F0275_v1.md#decision-reviewed) realizes all marginal secant directions at that character while its nonnormal residual has singular mass asymptotic to \(s^2\).
@@ -386,6 +392,9 @@ Thus even a discontinuous phase with finite energy can be treated on the full mi
 The [density factorization argument](../drafts/Yin_D_F0002.md#cauchy-measure-with-cubic-density) also considers representations of a scalar law as an \(L^3\) density over a measure with uniformly bounded hard Cauchy truncations on \(L^2\).
 Any separating example must have finite inverse-gap energy of the liberation vector and fail a uniform regularized column bound, possibly after taking the adjoint tuple and adjoining two free Haar unitaries.
 The [dyadic column estimate](../claims/Yin_C_F0242_v1.md#decision-reviewed) gives at most logarithmic growth as the cutoff is removed, with square-root logarithmic growth for the off-diagonal vacuum contribution.
+The [localized curvature estimate](../claims/Yin_C_F0297_v1.md#decision-reviewed) sums the squared dyadic marginal ball densities without any separate summability assumption on the liberation vacuum.
+Even on a [single nondecreasing Lipschitz graph](../claims/Yin_C_F0300_v1.md#decision-reviewed) with finite total squared curvature, bounding each shell kernel by its supremum on a supporting square costs a positive amount on every sufficiently small scale, for every partition of the integrated third variable.
+Further use of this estimate at that endpoint requires cancellation or finer control in the two remaining spectral variables.
 Its shell bounds are summable under the stated logarithmic improvements in the marginal ball masses and the inverse-gap energy.
 For general marginals the remaining issue is cancellation across shells.
 On a [fixed correlated pair with rectangular spectral support](../claims/Yin_C_F0253_v1.md#decision-reviewed), the full soft cutoff has a uniform column bound, while a single half-plane cutoff costs at least a constant times \((\log(1/r))^{1/4}\).

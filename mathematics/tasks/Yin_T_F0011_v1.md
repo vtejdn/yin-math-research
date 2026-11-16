@@ -146,8 +146,14 @@ For two or more coordinates, one can test a [countable dense family of projectio
 Both oriented slices have limiting values on every one of those projections.
 The outstanding estimate is a uniform bound for these values at each coordinate of an arbitrary actual normal tuple, or an example on which the bound fails.
 If an orientation fails, the [localized projection theorem](../claims/Yin_C_F0295_v1.md#statement) gives mutually orthogonal projections near at most two marginal spectral points whose individual cutoff values converge but whose every infinite subsum lies outside that forward domain.
+For three or more coordinates the [one-point test](../claims/Yin_C_F0299_v1.md#statement) localizes such a family at a single point and requires testing only inputs and outputs compressed to the same marginal corner.
+This suffices for the universal problem because adjoining a free Haar unitary preserves any failure on an original pair.
+For any marginal spectral projection \(e\) of positive trace \(t\), the [spectral corner formula](../claims/Yin_C_F0301_v1.md#statement) identifies this compressed cutoff test with a single relative slice in \(eMe\) with trace \(\tau/t\).
+Its conjugate vector has a scalar term for the restricted marginal law and the term \(t^{-1}e(\xi-\mathbb E_{W^*(Z)}\xi)e\) for the correlations.
 On the counterexample side, a [divergent cubic concentration integral](../claims/Yin_C_F0294_v1.md#statement) excludes bare duals even on the original normal pair, and its divergence is equivalent to a dyadic series of least-squares residuals.
 On the positive side, the [signed curvature estimate](../claims/Yin_C_F0292_v1.md#statement) gives both original domains at a coordinate carried by countably many disjoint circles under a mass and separation condition, with arbitrary correlations to the other coordinates.
+The [averaged square-density theorem](../claims/Yin_C_F0297_v1.md#statement) gives both domains from summability over dyadic scales of the squared marginal ball density integrated against the marginal law.
+For a [fixed bounded Borel shift by a second coordinate](../claims/Yin_C_F0298_v1.md#statement), divergence of the cubic integral forces the two limiting singular states to have disjoint atoms at the regular inverse branches of the essential fiber.
 The [first-output-layer estimate](../claims/Yin_C_F0223_v1.md#decision-reviewed) controls one projection of the required column bound on all starred words.
 For any shift of a coordinate by the algebra of the remaining coordinates, the [singular-value estimate](../claims/Yin_C_F0229_v1.md#decision-reviewed) bounds the trace of the singular projection at radius \(r\) by \((\pi r\|\xi_i\|_2)^{1/2}\).
 The [four-point theorem](../claims/Yin_C_F0230_v1.md#decision-reviewed) excludes vanishing polar phase loss on corners of uniformly positive trace for bounded shifts when no line carries the required marginal mass.

@@ -345,6 +345,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0302](Yin_R_F0302_v1.md#finding) | Review of canonical domains after subtracting circular curvature components | [v1](Yin_R_F0302_v1.md) |
 | [Yin_R_F0303](Yin_R_F0303_v1.md#finding) | Review of the cubic singular-mass bound and its least-squares criterion | [v1](Yin_R_F0303_v1.md) |
 | [Yin_R_F0304](Yin_R_F0304_v1.md#finding) | Independent review of the affine matching criterion for two normal coordinates | [v1](Yin_R_F0304_v1.md) |
+| [Yin_R_F0305](Yin_R_F0305_v1.md#finding) | Review of the averaged square-density criterion for canonical domains | [v1](Yin_R_F0305_v1.md) |
+| [Yin_R_F0306](Yin_R_F0306_v1.md#finding) | Review of singular states on the essential fibers of a Borel shift | [v1](Yin_R_F0306_v1.md) |
+| [Yin_R_F0307](Yin_R_F0307_v1.md#finding) | Review of the one-point test for a deficient normal slice | [v1](Yin_R_F0307_v1.md) |
+| [Yin_R_F0308](Yin_R_F0308_v1.md#finding) | Review of localized curvature on a single Lipschitz graph | [v1](Yin_R_F0308_v1.md) |
+| [Yin_R_F0309](Yin_R_F0309_v1.md#finding) | Review of the relative conjugate variable and slice in a spectral corner | [v1](Yin_R_F0309_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
