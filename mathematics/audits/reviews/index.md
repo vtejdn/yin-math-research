@@ -68,6 +68,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0068](Yin_R_A0068_v1.md#whole-argument-finding) | An index-two character, analytic rank and the second Schur coefficient | [v1](Yin_R_A0068_v1.md) |
 | [Yin_R_A0069](Yin_R_A0069_v1.md#whole-argument-finding) | Binary incidence obstructions and lifting a fixed zero product | [v1](Yin_R_A0069_v1.md) |
 | [Yin_R_A0070](Yin_R_A0070_v1.md#whole-argument-finding) | Saturation and ramified lifting at a marked coefficient tuple | [v1](Yin_R_A0070_v1.md) |
+| [Yin_R_A0071](Yin_R_A0071_v1.md#whole-argument-finding) | Connectivity, collision counts and the explicit character bound | [v1](Yin_R_A0071_v1.md) |
+| [Yin_R_A0072](Yin_R_A0072_v1.md#whole-argument-finding) | Fixed finite targets for source matchings and a planted cyclic quotient | [v1](Yin_R_A0072_v1.md) |
+| [Yin_R_A0073](Yin_R_A0073_v1.md#whole-argument-finding) | Precision eight and characteristic-zero lifting on the seven-cycle | [v1](Yin_R_A0073_v1.md) |
+| [Yin_R_A0074](Yin_R_A0074_v1.md#whole-argument-finding) | Deterministic restrictions on the seven color classes | [v1](Yin_R_A0074_v1.md) |
+| [Yin_R_A0075](Yin_R_A0075_v1.md#whole-argument-finding) | Matching presentations over a prescribed finite quotient | [v1](Yin_R_A0075_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

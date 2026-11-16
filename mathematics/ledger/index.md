@@ -50,6 +50,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0043](Yin_L_A0043_v1.md) | Coupled coefficient equations on exterior thickenings of the Nielsen–Soelberg pair | [v1](Yin_L_A0043_v1.md) |
 | [Yin_L_A0044](Yin_L_A0044_v1.md) | Six triples remain compatible with all binary equations on the eight-by-twelve support | [v1](Yin_L_A0044_v1.md) |
 | [Yin_L_A0045](Yin_L_A0045_v1.md) | Small quotient groups in the first lifting test | [v1](Yin_L_A0045_v1.md) |
+| [Yin_L_A0046](Yin_L_A0046_v1.md) | The seven complete fibers in the exceptional even-support quotient test | [v1](Yin_L_A0046_v1.md) |
+| [Yin_L_A0047](Yin_L_A0047_v1.md) | Torsion-free matching presentations with a prescribed quotient of order seven | [v1](Yin_L_A0047_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |
