@@ -36,13 +36,13 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 ## Latest Build
 
 The in-directory MiKTeX sequence above succeeded on 2026-11-17 with the current sources.
-It used MiKTeX 25.4, pdfLaTeX 1.40.27 and BibTeX 0.99d, producing a 24-page PDF of 577353 bytes.
+It used MiKTeX 25.4, pdfLaTeX 1.40.27 and BibTeX 0.99d, producing a 24-page PDF of 576813 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
-Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for both quotient maps in Lemma 4.4.
+Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for Psi_x and both quotient maps in Lemma 4.4.
 Lemma 4.4 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
 Its proof explicitly records preservation of the algebraic L2 tensor product, introduces k for the reverse inclusion and gives both factor right multiplication maps and their induced maps on the vector-space quotients.
-Its injectivity conclusion now follows from maximal Delta for the one-element tuple and Lemma 3.2; the quotient-space proof of the L2 assertion is retained.
+Its injectivity conclusion follows directly from Lemma 4.3, since neither factor multiplication map has a nonzero finite-dimensional invariant subspace; the quotient-space proof of the L2 assertion is retained.
 The [tensor convention](../conventions.md#tensor-right-multiplication) gives the multiplication argument that excludes surjectivity onto the full tensor space.
 
 Section 5 is titled Applications to liberation gradients and conjugate variables.
@@ -57,7 +57,7 @@ The proof of Theorem 1.9 now uses the certificate criterion in Corollary 5.7, Le
 All existing mathematical environments and semantic labels remain present.
 
 The final log contains no compilation errors, undefined citations or references, duplicate-label warnings, or overfull or underfull boxes.
-The final log contains no warnings or missing-character diagnostics.
+The final log reports one pdfTeX font-expansion warning, "font should be expanded before its first use", and no missing-character diagnostics.
 The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed for this build.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).

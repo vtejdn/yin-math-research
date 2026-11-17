@@ -70,12 +70,7 @@ The map $\Psi_x$ of Definition~\ref{def:psi} is injective and satisfies
 \]
 \end{lemma}
 \begin{proof}
-If $T\in\F(H)$ satisfies $[T,x]=0$, then $\operatorname{ran}T$ is a finite-dimensional invariant subspace for $x$.
-A nonzero such subspace would contain an eigenvector, contradicting regularity of $x-\lambda$.
-Thus $T=0$, so Remark~\ref{rem:cycle-characterization} gives $\Delta(x)=1$.
-Lemma~\ref{lem:tensor-injectivity}, applied to the one-element tuple $(x)$, now shows that $\Psi_x$ is injective.
-
-To prove the remaining assertion, put $U:=L^0(\M)$ and define the right multiplication maps
+Put $U:=L^0(\M)$ and define the right multiplication maps
 \[
  \begin{aligned}
  R_x:U&\longrightarrow U,& R_x(u)&:=ux,\\
@@ -85,7 +80,10 @@ To prove the remaining assertion, put $U:=L^0(\M)$ and define the right multipli
 \]
 Thus $\Psi_x=R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$.
 Neither right multiplication map has a nonzero finite-dimensional invariant subspace: such a subspace would contain an eigenvector, contradicting regularity of $x-\lambda$.
-Since $x\in\M$, both maps preserve $H$, and their restrictions to $H$ have the same property.
+Lemma~\ref{lem:tensor-difference-injectivity} therefore implies that $\Psi_x$ is injective.
+
+For the preimage equality, observe that $x\in\M$ implies that both maps preserve $H$.
+Their restrictions to $H$ also have no nonzero finite-dimensional invariant subspace.
 In particular, $\Psi_x$ preserves $H\otimes_{\C}H$.
 
 The induced linear maps on the quotient spaces are
