@@ -1356,6 +1356,24 @@ The coordinatewise truncation preserves independence within each input, but the 
 It also gives no fresh-row independence after any additional sample-dependent selection of a surviving principal minor.
 These are genuine remaining interfaces, not conclusions of the subsequence selection.
 
+<a id="rare-coordinate-log-cost"></a>
+## The cost of resampling a rare entry can depend logarithmically on its location
+
+Consider comparison of two expected ordinary logarithms after exposing every coordinate except one.
+A uniform constant bound on the cost per entry resampled from its tail can fail already for the affine test \(y\mapsto c-y\), with an absolutely continuous law satisfying (T).
+Let \(b_1\ge10,\ b_{j+1}=\exp(b_j^2)\), give \(K=b_j\) probability \(p_j=1/(j^2b_j^2)\), and put the unused mass at zero.
+With \(U\) an independent uniform variable on \([-1,1]\), let \(Y=(K+U-\mathbb E K)/\sigma\) have variance one.
+The translations of the uniform law give a Lipschitz total-variation bound, and the sum of the raw second moments of the levels is finite.
+Put \(c_j=(b_j-\mathbb E K)/\sigma\) and split the law of \(Y\) at \(|Y|=c_j/2\).
+For large \(j\) the levels below \(j\) are precisely the lower part of this split.
+There \(|c_j-Y|/c_j\) is bounded above and below by absolute positive constants, so the conditional logarithmic expectation is \(\log c_j+O(1)\).
+On the upper part the \(j\)-th level gives the fixed finite integral \(\mathbb E\log|U/\sigma|\).
+Higher levels contribute \(o(1)\) to the conditional expectation, since \(\sum_{\ell>j}p_\ell(1+\log b_\ell)=o(p_j)\).
+The two conditional log potentials thus differ by \(\log c_j+O(1)\).
+For \(N\) of order \(c_j^2\) this is \((\log N)/2+O(1)\).
+An improvement on rank times log depth through such coordinate replacements must therefore use the distribution of the Schur target or a joint comparison.
+The targets \(c_j\) here are deterministic and the example makes no assertion about the frequency of these targets in an actual Wigner minor.
+
 <a id="flat-two-row-slope-test"></a>
 ## Two original rows improve the flat-mode loss by one power, but do not remove it
 

@@ -165,6 +165,12 @@ With a finite third absolute off-diagonal moment, the [uniform count](../claims/
 The [translation-regular theorem](../claims/Yin_C_F0186_v38.md#decision-translation-smoothing-reviewed) proves the upper-limit equality for every fixed affine pencil under its input-law and \(2+\delta\) off-diagonal moment conditions.
 With only the two moments under the same translation condition, its [least-value estimate](../claims/Yin_C_F0186_v38.md#floor-statement) holds at every sufficiently large dimension admitting an invertible witness.
 
+The [two tail criteria](../claims/Yin_C_F0186_v39.md#statement) give full limits along good dimensions under a pencil-dependent logarithmic moment, or an ordinary limit on favorable even dimensions when \(N\log N\sum_j\Pr(|\xi_j|>N^{1/4})\to0\) on that sequence.
+The latter gives the upper-limit equality even for [explicit smooth laws with no positive second-logarithmic moment](../claims/Yin_C_F0186_v39.md#tail-examples).
+
+For every fixed finite-variance law, the [dyadic theorem](../claims/Yin_C_F0195_v3.md#statement) controls the logarithm down to the stated subpolynomial cutoff on selected even dimensions.
+If the raw second moments have logarithmic weight of order \(2/\theta\) for its uniform free exponent, (T) gives the ordinary dimension-limsup equality.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

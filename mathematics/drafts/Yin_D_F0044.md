@@ -115,4 +115,6 @@ A second Bernoulli lower-tail bound gives the claimed matching.
 
 This excludes exact diagonal sign-cancellation through the first nontrivial Laurent coefficient of the original minor, with an unconditional exponential exceptional probability.
 It does not transfer the matching at infinity to quantitative quadratic small-ball at a fixed nonreal spectral parameter or to the subsequent compressed minors.
-The high-probability estimates for those actual inverse coefficients and the conditional behavior of the full discrete interior remain open.
+The [multishift sign-flag estimate](../claims/Yin_C_F0351_v5.md#sign-flag-area) obtains fixed-shift physical corner spread from the full law of the minor and controls exceptional areas throughout the flag.
+
+The [paired restoration estimate](../claims/Yin_C_F0351_v5.md#paired-sign-restoration) completes the terminal comparison when both matrices have sign diagonals and strict upper entries.

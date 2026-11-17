@@ -17,20 +17,24 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For the real quadratic and finite-support strict upper laws, control the actual multi-column compression determinant and the matched discrete interior with summable failure. For general pencils test rank-degenerate Hermitian evaluations beyond free ellipticity and the applicable static square certificates. |
+| priority | For the real quadratic, test the sign proof with other discrete border laws. For general pencils under translation regularity, control the singular logarithms down to the polynomial floor for arbitrary finite-variance tails. |
 
 ## Current allocation and discriminating tests
 
 The [fine-component theorem](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) settles the integrated terminal series for the two-component classes and a pair of purely atomic dyadic-grid inputs.
 The first selected singular-space overlaps already admit a [summable test for arbitrary original laws](../claims/Yin_C_F0351_v2.md#discrete-overlaps).
 For Rademacher entries, a single real sign hyperplane can give [order-one loss on an entire disk](../ledger/Yin_L_F0067_v4.md#sign-compression) on a deterministic exterior.
-The [actual first-minor constraints and discrete interior coefficient](../drafts/Yin_D_F0044.md) narrow the remaining problem to the probability of such cancellations under the joint Wigner law and their behavior through subsequent compressions.
+For two sign Wigner matrices, the [actual-minor theorem](../claims/Yin_C_F0351_v5.md#decision-sign-terminal-reviewed) controls many separated parameters jointly through every deletion and paired restoration, proving summability of the integrated terminal loss.
+The argument uses the sign law in both fresh borders and a bounded norm for its physical free-corner comparison.
 The [fixed-fraction initialization](../claims/Yin_C_F0351_v3.md#argument) handles arbitrary prescribed sequences converging off the real line.
 The [uniform shrinking count](../claims/Yin_C_F0195_v2.md#statement) controls intermediate singular values under its moment hypotheses.
 
 For F0013 the [free elliptic recursion](../claims/Yin_C_F0186_v37.md#partial-chain) reduces singular-value estimates to the remaining undamped columns.
 For translation-regular real and complex laws the [translated Gaussian tube](../claims/Yin_C_F0186_v38.md#argument) handles arbitrary coefficients, and its [fractional comparison](../claims/Yin_C_F0186_v38.md#fractional-count) removes the logarithmic cutoff with a \(2+\delta\) off-diagonal moment.
-In the translation-regular finite-second-moment model the outstanding determinant step is the contribution of the intermediate singular values between the established polynomial floor and a fixed clip.
+The [logarithmic tail theorem](../claims/Yin_C_F0186_v39.md#statement) reaches the ordinary determinant under either its endpoint log moment or its favorable-size tail condition.
+For every finite-second-moment law, the [dyadic comparison](../claims/Yin_C_F0195_v3.md#decision-dyadic-depth-reviewed) controls the logarithm clipped at \(\exp[-B(\log(N+2))^{\theta/(\theta+2)}]\) along a deterministic even sequence.
+Under (T) the remaining integral on that sequence lies between this cutoff and the polynomial floor.
+A [rare-coordinate example](../drafts/Yin_D_F0033.md#rare-coordinate-log-cost) shows why a comparison through resampled large entries must account for the actual Schur target.
 For F0014 the [affine static observation](../claims/Yin_C_F0350_v1.md#affine-lift) supplies exact determinant transfer when it has an explicit witness.
 The [winding tests at all parameters](../claims/Yin_C_F0349_v2.md#statement) rule out applying that dissipative representation with ordinary multiplicity one to all polynomials, already for \(xy+2yx-z\).
 

@@ -112,6 +112,7 @@ The [mean-potential comparison](../claims/Yin_C_F0348_v1.md#decision-polar-envel
 
 For all fixed scalar polynomials, the [translation-regular theorem](../claims/Yin_C_F0186_v38.md#decision-translation-smoothing-reviewed) proves the full weak almost-sure Brown limit for raw laws satisfying its power total-variation translation bound, finite \(2+\delta\) off-diagonal moments and finite second diagonal moments.
 The proof treats real and complex colors in the same tuple.
+The [logarithmic-moment extension](../claims/Yin_C_F0186_v39.md#assembly) also gives this Brown limit under the same translation modulus if the raw upper second moments remain finite after weighting by every positive power of the logarithm.
 
 ## The quadratic terminal loss
 
@@ -119,7 +120,7 @@ For \(A_NB_N+2B_NA_N\) with real finite fourth off-diagonal moments and finite s
 The [fine-component theorem](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) also proves it for certain fixed purely atomic laws, including the [explicit dyadic pair](../claims/Yin_C_F0351_v4.md#dyadic-example).
 Both give full-sequence weak Brown convergence almost surely under every allowed coupling for those inputs.
 For arbitrary real fourth-moment laws, [the moving-shift theorem](../claims/Yin_C_F0351_v3.md#statement) gives convergence of the trimmed logarithms at every prescribed nonreal shift and along every prescribed sequence approaching it.
-For fixed Bernoulli strict upper entries the remaining discrete interior and compression estimates are identified in the [actual-minor calculation](../drafts/Yin_D_F0044.md).
+When every upper entry including the diagonal in both matrices is a Rademacher sign before normalization, the [sign theorem](../claims/Yin_C_F0351_v5.md#decision-sign-terminal-reviewed) proves the terminal series for every fixed disk and positive tolerance, and the weak Brown limit almost surely under every cross-dimensional coupling.
 
 ## Separate determinant objectives
 

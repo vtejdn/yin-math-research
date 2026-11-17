@@ -279,3 +279,5 @@ Indeed solving \(Xh=(y,w)\) with \(h_I=y,\ h_J=(V^*)^\dagger(w-B_{II}y)\) bounds
 Taking \(b'\ge0\) bounding both log inverse norms gives \(e_{a+2b'}(Q_{\rm in})\le e_a(\mathcal U-W)\).
 The inequality distinguishes the extreme singular loss of the compression from that of the realized repeated block.
 The [fixed exterior chain](../ledger/Yin_L_F0066_v23.md#exterior-chain) can have an exponentially small singular value in the first factor while the conditional determinant is uniformly bounded below on the disk at exponential scale in \(k\).
+
+For two Rademacher matrices the [paired Schur restoration](../claims/Yin_C_F0351_v5.md#paired-sign-restoration) uses fresh length-\(n\) sign rows after the whole \(II\) block has been exposed.

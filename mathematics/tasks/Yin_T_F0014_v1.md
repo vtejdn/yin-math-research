@@ -135,6 +135,12 @@ For real fourth-moment \(xy+2yx\), the [moving-shift theorem](../claims/Yin_C_F0
 The [scalar linearization application](../claims/Yin_C_F0186_v38.md#polynomial-consequences) gives the ordinary upper-limit equality for every fixed polynomial and shift under power total-variation translation regularity, finite \(2+\delta\) off-diagonal moments and finite second diagonal moments.
 It includes \(z=P(0)\) and retains the exact distinction between dimensions with and without invertible witnesses.
 
+The [tail criteria and exact Schur transfer](../claims/Yin_C_F0186_v39.md#assembly) also prove the equality under (T) on the common even sequence specified by the raw tails, or under the logarithmic moment condition for the fixed linearization.
+Both finite and free logarithms acquire the same auxiliary dimension factor at every fixed shift.
+
+For finite second moments the [selected-dimension estimate](../claims/Yin_C_F0195_v3.md#deep-clips) also gives a clipped log limit for the linearized pencil.
+Under its logarithmic weight and (T), removing the clip on the pencil gives the ordinary scalar determinant upper limit at every fixed shift, including \(P(0)\).
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.
