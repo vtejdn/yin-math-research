@@ -1,7 +1,7 @@
 # Paper Source and Build
 
-The [manuscript](main.pdf) compares actual conjugate variables and full-domain dual systems, proves the normal equivalence and its affiliated rationality application, and gives both nonnormal separations.
-The entry point is [main.tex](main.tex), which reads the six section files in `sections/` and the eleven-work [bibliography subset](references.bib).
+The [manuscript](main.pdf), titled *On conjugate variables and dual systems*, compares actual conjugate variables and full-domain dual systems, proves the normal equivalence and the maximal-Delta consequence, and gives both nonnormal separations.
+The entry point is [main.tex](main.tex), which reads the five section files in `sections/` and the ten-work [bibliography subset](references.bib).
 The local `yin-amsalpha.bst` is reused from the F0012 manuscript and gives author–year alphabetic labels, initialed given names, full family names and alphabetical author order.
 The [project record](../readme.md) identifies the responsible mathematical arguments and the [citation map](../citation.md) identifies the external interfaces used here.
 
@@ -22,8 +22,8 @@ Yin's manuscript policy calls for source, reference and compilation-diagnostic c
 
 ## Build record
 
-On 2026-11-17, MiKTeX 25.4 with pdfTeX 1.40.27 and BibTeX 0.99d compiled the initial manuscript into a 22-page PDF with automatic package installation disabled.
-The final source checks found 52 unique labels, no unresolved source references, 26 citation uses and exactly eleven cited bibliography entries.
+On 2026-11-17, MiKTeX 25.4 with pdfTeX 1.40.27 and BibTeX 0.99d compiled the revised manuscript into an 18-page PDF with automatic package installation disabled.
+The final source checks found 41 unique labels, no unresolved source references, 22 citation uses and exactly ten cited bibliography entries.
 The supporting Markdown links and their local targets were checked.
 The final TeX and BibTeX diagnostics contain no unresolved references or citations, missing-character reports or box diagnostics.
 Text extraction confirmed an empty PDF author field and readable text without replacement characters.

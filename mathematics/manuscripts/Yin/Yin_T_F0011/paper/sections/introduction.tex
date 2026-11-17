@@ -1,14 +1,14 @@
 \section{Introduction}
 Dual systems express differentiation through rank-one commutators.
 For selfadjoint generators, their relation to conjugate variables is part of the analytic approach to free entropy developed by Voiculescu \cite{Voi98}.
-Conjugate variables also impose algebraic regularity: they lead to maximal $\Delta$, and maximal $\Delta$ realizes the free field inside the algebra of affiliated operators \cite{ACSY24,MSY23}.
-For unbounded dual operators, the domain on which a commutator is known matters when one passes from polynomial differentiation to rational functions.
+Conjugate variables also imply maximal $\Delta$, characterized by the absence of nonzero finite-rank commutator cycles \cite{ACSY24,MSY23}.
+In these comparisons, the domain of an unbounded dual operator is essential.
 In particular, an operator initially defined on a polynomial algebra need not have all of $\M\Omega$ in its domain.
 
 This paper compares the actual adjoint condition for a derivation on a represented star algebra with dual identities on $\M\Omega$.
 For bounded normal generators the two conditions are equivalent when the dual operators and their Hilbert space adjoints are both required to be defined on $\M\Omega$.
 The main analytic step is a uniform estimate for both slices of a coordinate derivation, without a freeness assumption on the generators.
-It applies to the canonical polynomial operators themselves and therefore identifies the closures used in the resulting rationality criterion.
+The estimate gives both domain inclusions for the original canonical closures.
 The comparison changes for nonnormal generators: we construct examples separating the two hypotheses in both directions.
 
 Throughout, $(\M,\tau)$ is a finite von Neumann algebra with a faithful normal probability trace,
@@ -20,10 +20,9 @@ Thus the inner product is linear in its second variable.
 We identify $a\in\M$ with $a\Omega$ when no domain ambiguity results.
 Let $X=(X_1,\ldots,X_d)$ be a finite tuple of bounded operators generating $\M$ as a von Neumann algebra, and set
 \[
- A_X:=\C\langle X_1,\ldots,X_d\rangle,\qquad
  \A_X:=\C\langle X_1,\ldots,X_d,X_1^*,\ldots,X_d^*\rangle.
 \]
-These are represented algebras; their relations are retained.
+This is the represented star algebra, with its actual relations retained.
 In particular, the adjoints are not independent formal generators.
 The outer bimodule actions on the Hilbert space tensor product $H\bar\otimes H$ are
 \[
@@ -78,62 +77,19 @@ Theorem~\ref{thm:normal} extends the polynomial-core construction of \cite[Theor
 Its proof uses the normal spectral phase, partial liberation, and a signed curvature estimate.
 An estimate first proved for separated spectral components is transferred to arbitrary spectra through finite lattice approximations and a projection encoding of the other coefficients.
 
-Write $L^0(\M)$ for the algebra of affiliated operators, with sums and products understood as affiliated closures.
-An element of $\M$ is called regular if it is invertible in $L^0(\M)$, equivalently if its action on $H$ is injective with dense range.
-
-\begin{definition}\label{def:rational}
-Put $\mathcal D_X:=\Div_{L^0(\M)}A_X$, the smallest unital complex subalgebra containing $A_X$ and closed under inverses of its elements that are invertible in $L^0(\M)$.
-For $u\in L^0(\M)$, a bounded regular fraction is a quadruple $Q=(s,a,b,t)\in\M^4$ with $s,t$ regular and
-\[
- u=s^{-1}a=bt^{-1}.
-\]
-For a specified operator $D$, define
-\[
- \Gamma[Q,D]:=sDb-aDt,
- \qquad \Dom\Gamma[Q,D]:=\{v\in H:bv,tv\in\Dom D\}.
-\]
-Finite rank of this expression means finite-dimensional range on its entire stated domain.
-\end{definition}
-
-Let $\rho(x)v:=vx$ denote bounded right multiplication when $x\in\M$, and let $\F(H)$ be the finite-rank bounded operators on $H$.
-\begin{theorem}\label{thm:rational}
-Suppose $X$ is a normal generating tuple satisfying either equivalent condition of Theorem~\ref{thm:normal}, and let $D_i$ be its canonical generator-first operators.
-For every $u\in L^0(\M)$ the following are equivalent:
-\begin{enumerate}
-\item $u\in\mathcal D_X$;
-\item there is one bounded regular fraction $Q=(s,a,b,t)$ for $u$ and a tuple $T_i\in\F(H)$ satisfying
-\begin{equation}\label{eq:boundary}
- \sum_i[\rho(X_i),T_i]=aP_\Omega t-sP_\Omega b;
-\end{equation}
-\item for one common bounded regular fraction $Q$ for $u$, every $\Gamma[Q,D_i]$ has finite rank;
-\item for every bounded regular fraction $Q$ for $u$, every $\Gamma[Q,D_i]$ has finite rank.
-\end{enumerate}
-In the finite-rank case these expressions have bounded finite-rank closures, and
-\[
- T_i=-\overline{\Gamma[Q,D_i]}
-\]
-is the unique solution of \eqref{eq:boundary} at that fraction.
-The numerical rank in each coordinate is independent of $Q$.
-For any supplied system witnessing $\mathsf S(X)$, its fraction expressions agree with the canonical ones on $\M\Omega$ and have the same bounded finite-rank closures whenever either has finite rank on its natural domain.
-\end{theorem}
-
-The algebra in this theorem is generated by the unstarred coordinates.
-The star algebra supplies the analytic core, rather than changing the meaning of rationality.
-The existential fraction condition in item~2 also holds for arbitrary bounded tuples with maximal $\Delta$; its specified-operator realization uses the additional normal and domain hypotheses.
-
 \begin{theorem}\label{thm:general}
 For arbitrary finite bounded generating tuples, $\mathsf A$ and $\mathsf F$ are incomparable, and $\mathsf A$ and $\mathsf S$ are incomparable.
 There is a two-coordinate tuple satisfying $\mathsf A$ and failing $\mathsf F$, and a one-coordinate tuple satisfying $\mathsf S$ for which no normalized Hilbert-valued derivation on the represented star algebra exists.
 Either $\mathsf A(X)$ or $\mathsf F(X)$ implies $\Delta(X)=d$.
 \end{theorem}
 
+Let $\rho(x)v:=vx$ denote bounded right multiplication when $x\in\M$, and let $\F(H)$ be the finite-rank bounded operators on $H$.
 We use $\Delta$ in the sense of \cite{MSY23} and only need its maximality characterization:
 \begin{equation}\label{eq:cycles}
  \Delta(X)=d\quad\Longleftrightarrow\quad
  \left[\sum_i[\rho(X_i),T_i]=0,\quad T_i\in\F(H)\right]
  \Longrightarrow T_1=\cdots=T_d=0.
 \end{equation}
-This characterization and the free-field realization are valid without normality \cite[Theorems~3.1 and~1.1]{MSY23}.
+This characterization is valid without normality \cite[Theorem~3.1]{MSY23}.
 The implication from $\mathsf A$ is \cite[Proposition~3.5]{ACSY24}.
 We give a direct proof for the algebraic hypothesis $\mathsf F$ below.
-The final circular example shows that even $\mathsf A$ together with a bounded canonical dual does not extend Theorem~\ref{thm:rational} to arbitrary nonnormal generators.
