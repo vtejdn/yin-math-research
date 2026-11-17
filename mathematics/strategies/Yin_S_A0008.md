@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Test many-basepoint pairings of left color 3 using alternate fillings and protected vertices in four-line tuples without an odd-bin certificate. |
+| priority | Test whether translated left-side relations can complete a pairing of left color 3 when the available finite quotients give only even bins. |
 
 ## Input and distinction from rank sampling
 
@@ -126,6 +126,16 @@ In any other pairing of those same vertices the total opposite-side edge chain m
 For a full-color construction, test forced alternative fillings on the same vertex set and certify an original equality for each pair that remains.
 The [restricted-turn result](../claims/Yin_C_A0059_v1.md#which-choices-of-letters-are-covered) gives a further exclusion on its high-probability event: distinct vertices joined by a reduced path on any 62 inverse pairs cannot be given the same group label by any cone relations.
 Whether every legitimate tuple without a \(C_{21}\) certificate has an odd original label in left color \(3\) remains open.
+
+For a single color set, its [absolute homology class](../claims/Yin_C_A0060_v1.md#an-absolute-class-for-one-even-set) tests all pairings at once, even with arbitrarily many right-side basepoints.
+In genuine four-line examples with no order-21 quotient over the given character and trivial relative binary homology, this class forbids any complete pairing proved solely with right-side relators.
+The [Schreier coset test](../claims/Yin_C_A0060_v1.md#arbitrarily-many-pairs-outside-the-opposite-side-normal-closure) can force at least \(2k\) pairs to require additional relations for arbitrarily large \(k\) along a sequence of realizations.
+Translating relators from both sides reduces the linear test to \(H_1(\ker\eta;\mathbb F_2)\), which vanishes on these examples.
+In a separate [four-line law with a nonsolvable quotient](../claims/Yin_C_A0061_v1.md#statement), the \(C_7\)-kernel is perfect and both \(C_7\times A_5\) bins of size \(n/420+1\) over left color \(3\) have odd counts.
+These tuples retain at least two original labels of odd multiplicity in that color under all group relations.
+For a tuple with only even known bins, try to force two saturations of the same vertex set whose [central signatures](../claims/Yin_C_A0063_v1.md#evaluating-an-equality-certificate) disagree.
+Such a disagreement contradicts the asphericity safeguard even when integral first-homology comparisons all agree.
+Realizing it for the prescribed four-line vertex types, or constructing a legitimate erasing pairing using translated left relators, remains open.
 
 ## What happens to the original product in random matchings?
 

@@ -109,7 +109,12 @@ For a fixed word matrix on a sequence of good groups the [free projection compar
 For all word degrees at once, the [restricted-turn estimate](../claims/Yin_C_A0059_v1.md#bounded-path-systems-with-some-comparisons-replaced-by-an-alphabet-restriction) gives actual embedded free subgroups on any 62 marked inverse pairs, or 64 when at most two mixed pairs occur, with probability tending to one.
 All rectangular matrices over one such subgroup have an integer kernel dimension and an [exponentially weighted square-summable kernel projection](../claims/Yin_C_A0058_v1.md#argument), even at nonclosed range.
 The same holds after multiplying the rows and columns by arbitrary group elements: the kernel projection is then a diagonal unitary conjugate, which shifts its finitely many entries on the left and right by bounded word distances.
-For supports outside these subgroups, a bound on the remaining infinite spatial tail of each individual projection is still needed.
+On one fixed group, the [endpoint moments with squared return increments](../claims/Yin_C_A0062_v1.md#argument) bound the whole weighted tail beyond each radius by the remaining terms of one series.
+A schedule making this series finite exists exactly when the projection has the required spatial moment.
+Two whole-group constructions verify the estimate at nonclosed range with explicit spectral exponents.
+There are also [whole-group examples with no nonzero finitely supported null vector](../claims/Yin_C_A0064_v1.md#statement).
+For these a gapped row operator with the same kernel gives a geometric bound on all later endpoint moments from a single finite return moment.
+For general nonclosed-range matrices on the four-line groups, it remains to bound the return increments and endpoint moments from the product relations, or to find a gapped operator with the same kernel.
 
 ## Mechanism and obstruction
 

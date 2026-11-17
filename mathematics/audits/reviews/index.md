@@ -93,6 +93,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0093](Yin_R_A0093_v1.md#whole-argument-finding) | Endpoint weights for the powers of a normalized Gram operator | [v1](Yin_R_A0093_v1.md) |
 | [Yin_R_A0094](Yin_R_A0094_v1.md#whole-argument-finding) | Free-subgroup kernels, bounded rationality and exponential Fourier tails | [v1](Yin_R_A0094_v1.md) |
 | [Yin_R_A0095](Yin_R_A0095_v1.md#whole-argument-finding) | Free subgroups and prescribed path languages in the matching models | [v1](Yin_R_A0095_v1.md) |
+| [Yin_R_A0096](Yin_R_A0096_v1.md#whole-argument-finding) | A homology test before coning both sides | [v1](Yin_R_A0096_v1.md) |
+| [Yin_R_A0097](Yin_R_A0097_v1.md#whole-argument-finding) | Growing subgroup-index bounds, integral perfection and an alternating-group image | [v1](Yin_R_A0097_v1.md) |
+| [Yin_R_A0098](Yin_R_A0098_v1.md#whole-argument-finding) | A summable schedule of weighted moments and two whole-group examples | [v1](Yin_R_A0098_v1.md) |
+| [Yin_R_A0099](Yin_R_A0099_v1.md#whole-argument-finding) | Central signatures of opposite-side loop certificates | [v1](Yin_R_A0099_v1.md) |
+| [Yin_R_A0100](Yin_R_A0100_v1.md#whole-argument-finding) | A finite return moment for a kernel without finite flows | [v1](Yin_R_A0100_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
