@@ -161,6 +161,10 @@ The [uniform choice of favorable dimensions](../claims/Yin_C_F0358_v4.md#stateme
 In the [shared-input example](../claims/Yin_C_F0360_v1.md#statement), two separate input conditions give the ordinary limsup at every prescribed nonreal point, including the free positivity edge when \(X\) is GUE.
 The [bounded and atomic first-color cases](../claims/Yin_C_F0361_v1.md#statement) give locally uniform limits on the indicated dimensions, also when the other colors have arbitrary discrete or heavy-tailed two-moment laws.
 The [conditional diagonal-shift theorem](../claims/Yin_C_F0360_v2.md#statement) gives full-sequence almost-sure convergence for arbitrary real \(c\) at each prescribed nonreal \(z\) under its partial smoothing hypotheses.
+At \(c=2\) the [dilation argument](../claims/Yin_C_F0365_v1.md#statement) obtains the ordinary fixed-\(i\) limsup for an arbitrary first input law with finite second moment, arbitrary third color, and the stated total-variation dilation condition on the middle color.
+For arbitrary middle laws the [fixed-point criterion](../claims/Yin_C_F0365_v2.md#fixed) identifies the remaining loss from eigenvalues at distances below every prescribed polynomial scale along favorable dimensions.
+With the same fixed spectral point \(i\), [variation of the coefficient](../claims/Yin_C_F0358_v5.md#statement) gives all-dyadic convergence for quasi-every real \(c>2\) even with entirely atomic laws and an arbitrary shared selfadjoint second factor.
+For \(1+x^2y+yx\) the [real-shift extension](../claims/Yin_C_F0362_v3.md#statement) gives this Task's ordinary limsup at every prescribed complex parameter for two independent real finite-variance Wigner inputs.
 
 ## Public literature boundary
 

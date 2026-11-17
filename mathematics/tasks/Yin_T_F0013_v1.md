@@ -189,6 +189,9 @@ Its fixed [nonreal obstruction](../claims/Yin_C_F0356_v3.md#nonreal) limits the 
 For word-chain linearizations of the two [free positive symmetrizer classes](../claims/Yin_C_F0358_v4.md#statement), one deterministic subsequence controls each fixed nonreal parameter outside a deterministic polar set.
 For \(P=(c+X)(XY+YX+ZYZ)\) the [fixed nonreal parameter results](../claims/Yin_C_F0360_v1.md#statement) and the [bounded real first-color theorem](../claims/Yin_C_F0361_v1.md#statement) include \(i\) under the stated input hypotheses and transfer with the exact auxiliary trace factor.
 The [conditional Hermitian correction](../claims/Yin_C_F0360_v2.md#repair) gives the corresponding full-sequence ordinary limit when the first diagonal is Gaussian and the second color has the specified smoothing law.
+The [second-color dilation theorem](../claims/Yin_C_F0365_v1.md#statement) gives the fixed \(i\) limsup for its word-chain pencil with arbitrary finite-variance first and third colors under its stated dilation condition on the middle color.
+Under completely arbitrary raw laws the [dyadic strip comparison](../claims/Yin_C_F0365_v2.md#fixed) isolates the remaining sub-polynomial root-distance loss at \(i\).
+The [unequal-length cubic theorem](../claims/Yin_C_F0362_v3.md#statement) similarly gives every prescribed shift of its exact scalar linearization in the real two-moment model.
 
 ## Public literature boundary
 

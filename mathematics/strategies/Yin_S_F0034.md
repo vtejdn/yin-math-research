@@ -54,6 +54,12 @@ The [bounded real first input estimate](../claims/Yin_C_F0361_v1.md#rates) allow
 The [purely atomic construction](../claims/Yin_C_F0361_v1.md#atomic) allows the first law itself to lack every moment above two on its selected dimensions.
 When the first raw diagonal is a nondegenerate Gaussian and the second color is GUE or has the specified full complex translation modulus, the [conditional smoothing theorem](../claims/Yin_C_F0360_v2.md#statement) gives full-sequence almost-sure ordinary convergence at every prescribed nonreal parameter.
 It permits arbitrary two-moment first upper entries and arbitrary two-moment third color.
-An arbitrary fixed first law with infinite fourth moment can have many negative modes at the free edge.
-Controlling their interaction with arbitrary atomic or heavy-tailed second and third colors at the specified shift remains open.
+For this degree-four product, the [summable strip-count theorem](../claims/Yin_C_F0365_v2.md#statement) permits arbitrary finite-variance laws of all three colors, including fully atomic inputs.
+It yields the ordinary logarithm on all dyadic dimensions at each nonreal point outside a deterministic polar set.
+At the prescribed \(i\), the [dilation estimate](../claims/Yin_C_F0365_v1.md#dilation) proves the limsup under the same unrestricted first and third laws whenever both raw laws of \(Y\) have the stated Hölder total-variation modulus under dilation.
+For an arbitrary atomic middle law, on the specified favorable dimensions the [remaining loss](../claims/Yin_C_F0365_v2.md#fixed) involves only roots closer to \(i\) than \(N^{-b}\), for any fixed \(b>0\).
+An exact root counts with infinite loss.
+Thus a sufficient next estimate is a vanishing probability of any root in one such disk on a further subsequence; an estimate on the normalized sum of the log distances would suffice even when the disk is occasionally occupied.
+With the test point kept at \(i\) and the first factor changed to \(c+X\), the [coefficient half-plane argument](../claims/Yin_C_F0358_v5.md#statement) gives summable deviations on all dyadic sizes for every real \(c>2\) outside a deterministic polar set, for every fixed selfadjoint second polynomial and arbitrary two-moment input laws.
+Its clipped reference has a strictly positive first factor, and its estimates on compact subsets of the coefficient half-plane do not reach the endpoint \(c=2\).
 This route requires a positive free symmetrizer or factor, while the [ordinary row-restoration route](Yin_S_F0032.md#current-allocation-and-discriminating-tests) also covers free limits with two-dimensional Brown support.

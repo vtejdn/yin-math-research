@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Control the small-singular-value contribution to a planar integral at ordinary scalar shifts of the cyclic affine pencil. |
+| priority | For longer unequal-length words, prove the principal trims and the joint physical corner estimates needed by the single-flag exterior. |
 
 ## The full polynomial as one spectral problem
 
@@ -56,6 +56,17 @@ Any one fixed \(B>0\) suffices.
 The [unequal-length cubic](../claims/Yin_C_F0359_v1.md#example) provides a test with repeated colors, a constant term, and a nonzero structural atom in the original cyclic realization.
 For \(P=1+x^2y+yx\), the [principal-minor theorem](../claims/Yin_C_F0362_v1.md#statement) controls the ordinary scalar potential after deleting just \(h_N\) or \(2h_N\) bottom singular values, \(h_N=\lceil\log(N+3)\log\log(N+3)\rceil\), under two real finite-variance input laws.
 Its independent-row estimate excludes a vector and its \(Y\)-image from lying nearly in the same two thin spectral windows of \(X\).
-For this cubic, the [first physical compression](../ledger/Yin_L_F0069_v1.md#compression) cancels the independent new \(Y\)-columns and represents what remains by a bordered determinant linear in each new \(X\)-column.
-The [one-site calculation](../ledger/Yin_L_F0069_v1.md#one-site) identifies four independent rational kernels and a first-gap problem involving two dependent columns at each site.
-The required terminal probability estimate is open for general polynomials.
+Exposing new \(Y\)-columns in the [first physical compression](../ledger/Yin_L_F0069_v1.md#compression) gives two dependent columns per site.
+Their [projected area](../ledger/Yin_L_F0069_v2.md#energy) has positive coefficient energy at a nonreal shift, yet on certain deterministic old blocks that area vanishes for every equal-modulus sign column.
+Fixing \(Y\) and exposing \(X\) instead gives the [one-direction initial compression](../claims/Yin_C_F0362_v2.md#exterior) and the [three-direction restoration](../claims/Yin_C_F0362_v2.md#restoration).
+The [six-panel probability bound](../claims/Yin_C_F0363_v1.md#statement) closes the scalar terminal series.
+The [real-axis rectangular test](../claims/Yin_C_F0362_v3.md#statement) also gives the ordinary determinant limsup for every prescribed complex point of this cubic.
+
+For a new cyclic realization, first identify a fresh physical color and a lower-dimensional initial exterior whose full determinant is comparable with the retained product.
+Then test whether the physical corner coefficient span contains an invertible matrix after the known scalar and rank errors are removed.
+The [fixed-dimensional restoration lemma](../claims/Yin_C_F0363_v3.md#statement) supplies the joint probability estimate when the projected spread, Fourier and actual conditional product hypotheses hold.
+The padded constant column in the seven-channel cyclic example has zero variable coefficient, so these hypotheses require an actual reduction of the deterministic directions.
+For \(1+x^q y+yx\) with any fixed integer \(q\ge2\), the [longer-word calculation](../ledger/Yin_L_F0069_v3.md#partial) exhibits an exterior with only one initial scalar direction per independent background column.
+At every \(w\ne1\) a [sum of scalar pole residues](../ledger/Yin_L_F0069_v3.md#residues) yields an invertible matrix in the tested coefficient directions.
+For \(q>2\) the principal trims and joint spread of the actual corner kernels remain to be established.
+No terminal estimate for a general cyclic pencil has been deduced from this calculation.
