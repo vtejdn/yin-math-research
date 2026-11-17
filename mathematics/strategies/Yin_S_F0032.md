@@ -17,13 +17,14 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test which binary quadratic tensors admit the auxiliary-coordinate restoration and which three-direction pencils supply its four independent Schur kernels. |
+| priority | For the remaining correlated rank-one products, test a nonreal shift of two injective sign forms and the two real energies where the Hermitian Dyson stability degenerates. |
 
 ## Current allocation and discriminating tests
 
 For any real quadratic in independent real finite-variance Wigner inputs, the [general quadratic theorem](../claims/Yin_C_F0186_v42.md#statement) gives the two initial trims and summable deviations of the area where the first left or right overlap is inadequate.
 It allows the two new columns at a step to be dependent.
 The remaining step for the full quadratic question is the ordinary determinant comparison from the exterior back to the original matrix.
+For a free positive symmetrizer the [negative-inertia strategy](Yin_S_F0034.md#the-remaining-probability-question) instead isolates the ordinary loss at a nonreal shift on the exceptional part of the spectrum.
 
 For a distinguished color \(A\), the [two-observation construction](../claims/Yin_C_F0351_v9.md#exterior) restores \(e_i,Ce_i\) on the left and \(e_i,Be_i\) on the right.
 For nonzero \(B=b\cdot Y,\ C=c\cdot Y\) it erases a background quadratic tensor exactly when it equals \(c u^{\mathsf T}+v b^{\mathsf T}\) for some \(u,v\).
@@ -45,11 +46,18 @@ Take the known limits at fixed \(d,z\), then \(d\downarrow0\), and apply convers
 An exact zero contributes infinite loss.
 The [rotated Hermitian-part bound](../claims/Yin_C_F0357_v1.md#sector) gives full-sequence locally uniform ordinary potential convergence in the closed region \(\operatorname{Re}z\le|\operatorname{Im}z|\).
 
-For a binary quadratic \(ax^2+bxy+cyx+dy^2\) with \(a\ne0\), test the same graph with lower block \(-a^{-1}I\) and normals built from \(cBe_i\) and \(bBe_i\).
-The initial correction has coefficient \(d-bc/a\), and the commuting numerators to test are \(1,ax+by,ax+cy,(ax+by)(ax+cy)\).
-When \(b\ne c\) and \(ad-bc\ne0\), the two linear forms are independent and their product differs from \(a\) times the commuting quadratic by \(-(ad-bc)y^2\).
-The remaining proof must verify the initial perturbation, the actual Schur ratios and their joint probability bounds for those coefficients.
-When \(ad=bc\), the initial correction vanishes and supplies no comparison across the first adaptive gap.
+The [binary quadratic theorem](../claims/Yin_C_F0351_v12.md#statement) now gives the full-sequence planar Brown limit for every nonsymmetric invertible real two-by-two quadratic tensor, with arbitrary real affine terms and two real finite-variance input laws.
+For \(a\ne0\) the initial rank correction has coefficient \(d-bc/a\), and the four commuting numerators distinguish the restored directions.
+When both original squares vanish, the [two-site test and normal branch](../claims/Yin_C_F0351_v12.md#pointwise) cover the remaining planar cases.
+For a nonconstant commuting image the ordinary log converges in probability through all sizes and almost surely on \(2^j\) at every prescribed complex shift.
+For a translated pure commutator the normal argument gives the planar result and the off-line pointwise conclusion, while the central determinant vanishes in odd dimension.
+
+When \(ad=bc\), the initial correction vanishes.
+The [correlated-product theorem](../claims/Yin_C_F0356_v3.md#statement) handles a class of these rank-one tensors by a Hermitian two-channel realization at real shifts, positive differences of two diagonal sign words and an explicit stability calculation.
+In the original Rademacher example \(U=A+2B,\ V=3A+B\), each raw form determines the other.
+The theorem gives the ordinary determinant limsup for \(UV\) at every real shift apart from the two specified [critical energies](../claims/Yin_C_F0356_v3.md#example).
+The [constant-basis obstruction](../claims/Yin_C_F0356_v3.md#nonreal) makes \(UV-iI\) a discriminating test for a genuinely nonselfadjoint comparison.
+At this test a useful new estimate must control the terminal logarithm using the original independent colors even though both conditional variances of the forms vanish.
 
 For general fixed affine pencils with finite free logarithm, the [bounded-core covariance comparison](../claims/Yin_C_F0195_v4.md#free-background) and [free estimate with deterministic shifts](../claims/Yin_C_F0352_v1.md#statement) give the [polynomial-window count](../claims/Yin_C_F0186_v40.md#argument) under finite second moments.
 The [closed-band estimate](../claims/Yin_C_F0186_v40.md#band) controls both atoms at its endpoints, including the interval from the earlier [selected-dimension clip](../claims/Yin_C_F0195_v3.md#statement) to any fixed polynomial cutoff.

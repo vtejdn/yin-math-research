@@ -151,6 +151,11 @@ For \(P_*=x^2+y^2+xy-yx\), the [two-coordinate restoration](../claims/Yin_C_F035
 The [unit triangular determinant identity and bottom-loss comparison](../claims/Yin_C_F0357_v1.md#limits) use the physical trace \(1/N\) for the scalar polynomial and \(1/(3N)\) for its pencil.
 The ordinary scalar logarithm converges in probability through all sizes and almost surely along \(2^j\), giving the desired all-size almost-sure limsup under every coupling.
 On compact subsets of \(\operatorname{Re}z\le|\operatorname{Im}z|\), the [positive-square comparison](../claims/Yin_C_F0357_v1.md#sector) gives uniform almost-sure convergence through all sizes.
+The [binary theorem](../claims/Yin_C_F0351_v12.md#statement) gives this Task's fixed-shift limsup for every nonsymmetric invertible real binary quadratic tensor with nonconstant commuting image, in the real finite-variance input model.
+When the tensor has rank one, the [correlated sign product](../claims/Yin_C_F0356_v3.md#example) provides a concrete determinant test with both forms determining each other and all but two real shifts controlled.
+For a [polynomial with a free positive symmetrizer](../claims/Yin_C_F0358_v2.md#loss), the remaining ordinary loss at each nonreal parameter comes only from the distances to its exceptional nonreal roots.
+For two selfadjoint factors with a positive injective first free factor, the [exact finite compression](../claims/Yin_C_F0358_v3.md#statement) expresses this remaining determinant question on the negative subspace of the finite first factor.
+At \(z=i\) the compressed matrix is a corner of a unitary, and the [norm criterion](../claims/Yin_C_F0358_v3.md#sufficient) yields full-sequence convergence away from the real line in its stated range.
 
 ## Public literature boundary
 

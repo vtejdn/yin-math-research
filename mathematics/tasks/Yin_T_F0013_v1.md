@@ -182,6 +182,9 @@ Conjugation by \(\operatorname{diag}(1,Q)\), \(Q=\left(\begin{smallmatrix}1&1\\-
 The [real-shift limit and dyadic deviation series](../claims/Yin_C_F0357_v1.md#limits) and the [fixed-nonreal ordinary comparison](../claims/Yin_C_F0351_v11.md#terminal) give the required dimension-limsup equality at each prescribed shift for this pencil under any two fixed real finite-variance Wigner laws.
 For either realization, [fixed clipping and the product coupling](../audits/reviews/Yin_R_F0365_v1.md#real-axis-whole-proof) give summability of the dyadic singularity probabilities and of each fixed positive deviation of the normalized negative logarithm below any deterministic cutoff tending to zero.
 A general three-dimensional coefficient space still needs a quantitative bottom estimate under the iid sign model.
+The [binary quadratic companion family](../claims/Yin_C_F0351_v12.md#statement) gives the ordinary equality at every prescribed shift for all nonsymmetric invertible real binary tensors with nonconstant commuting image and arbitrary real affine terms.
+The [two-channel correlated-product calculation](../claims/Yin_C_F0356_v3.md#stability) also gives a polynomial floor for its specified positive-chord sign pencils at nonzero stable real shifts.
+Its fixed [nonreal obstruction](../claims/Yin_C_F0356_v3.md#nonreal) limits the use of constant channel changes to continue this argument to complex shifts.
 
 ## Public literature boundary
 

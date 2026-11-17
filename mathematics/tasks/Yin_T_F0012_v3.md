@@ -130,7 +130,10 @@ The [binary null-line criterion](../claims/Yin_C_F0355_v2.md#statement) gives th
 For \(P_*=x^2+y^2+xy-yx\), the [augmented Schur comparison](../claims/Yin_C_F0351_v11.md#square) puts the fresh square in an auxiliary coordinate.
 The initial graph then leaves a sum of background outer products whose determinant can be compared with the two trims.
 This proves full-sequence almost-sure weak Brown convergence for this polynomial under every coupling of the two independent real finite-variance Wigner laws.
-A general quadratic tensor still requires control of the corresponding rows and the remaining background terms.
+The [general binary calculation](../claims/Yin_C_F0351_v12.md#statement) gives full-sequence almost-sure weak Brown convergence for every nonsymmetric invertible real two-by-two quadratic tensor with arbitrary real affine terms under these real finite-variance laws.
+The selfadjoint case already has its weak spectral limit, so among real binary quadratics the remaining planar obstruction is concentrated in nonsymmetric rank-one tensors.
+For a [free positive symmetrizer](../claims/Yin_C_F0358_v2.md#statement), the number of nonreal roots is bounded by twice the negative index of the finite symmetrizer plus its nullity.
+This proves abundance of exactly real roots, strengthening the weak conclusion already available from [thin support](../claims/Yin_C_F0186_v25.md#statement).
 
 ## Separate determinant objectives
 
