@@ -159,20 +159,20 @@ Using $\pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2$, we similar
 \]
 \end{proof}
 
-For a liberation dual system $(L_1,\ldots,L_d)$ and $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, let $\Phi_i(\ell):\M\Omega\to H$ be the linear operator defined by linear extension of
+For a liberation dual system $(L_1,\ldots,L_d)$ and $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, let $m_{L_i}(\ell):\M\Omega\to H$ be the linear operator defined by linear extension of
 \[
- \Phi_i(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega},\qquad c,d\in\M.
+ m_{L_i}(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega},\qquad c,d\in\M.
 \]
 The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
 \begin{equation}\label{eq:liberation-tensor-actions}
- \Phi_i(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
+ m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
  \quad\text{on }\M\Omega.
 \end{equation}
 Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Omega$,
 \[
  \begin{aligned}
- \Phi_i(\Psi_j(\ell))
- &=\Phi_i(cX_j\otimes d^{\mathrm{op}}-c\otimes(X_jd)^{\mathrm{op}})\\
+ m_{L_i}(\Psi_j(\ell))
+ &=m_{L_i}(cX_j\otimes d^{\mathrm{op}}-c\otimes(X_jd)^{\mathrm{op}})\\
  &=cX_jL_id-cL_iX_jd\\
  &=c[X_j,L_i]d\\
  &=\delta_{ij}c[X_i,P_\Omega]d\\
@@ -182,9 +182,9 @@ Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Ome
 The last equality uses equation~\eqref{eq:theta-bounded}.
 Linearity gives equation~\eqref{eq:liberation-tensor-actions} for every $\ell$.
 
-For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $\Phi_i$ also gives
+For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $m_{L_i}$ also gives
 \begin{equation}\label{eq:liberation-phi-bimodule}
- \Phi_i((s\otimes t^{\mathrm{op}})\ell)=s\Phi_i(\ell)t
+ m_{L_i}((s\otimes t^{\mathrm{op}})\ell)=sm_{L_i}(\ell)t
  \quad\text{on }\M\Omega.
 \end{equation}
 For $\ell=c\otimes d^{\mathrm{op}}$, multiplication in the opposite factor gives
@@ -194,9 +194,9 @@ For $\ell=c\otimes d^{\mathrm{op}}$, multiplication in the opposite factor gives
 \]
 and hence, on $\M\Omega$,
 \[
- \Phi_i((s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}}))
+ m_{L_i}((s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}}))
  =scL_idt
- =s\Phi_i(c\otimes d^{\mathrm{op}})t.
+ =sm_{L_i}(c\otimes d^{\mathrm{op}})t.
 \]
 Linearity proves equation~\eqref{eq:liberation-phi-bimodule} for every $\ell$.
 
@@ -216,9 +216,9 @@ By equation~\eqref{eq:tensor-commutator-general},
 Since $\Theta$ is injective, $\sum_i\Psi_i(k_i)=0$.
 By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that $\ell_i:=(s\otimes t^{\mathrm{op}})k_i\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $i$.
 Equation~\eqref{eq:psi-left-linearity} yields $\sum_i\Psi_i(\ell_i)=0$.
-Applying $\Phi_i$ and equation~\eqref{eq:liberation-tensor-actions} gives, on $\M\Omega$,
+Applying $m_{L_i}$ and equation~\eqref{eq:liberation-tensor-actions} gives, on $\M\Omega$,
 \[
- 0=\Phi_i\!\left(\sum_j\Psi_j(\ell_j)\right)
+ 0=m_{L_i}\!\left(\sum_j\Psi_j(\ell_j)\right)
  =\Theta(\Psi_i(\ell_i)).
 \]
 Since $\Theta(\Psi_i(\ell_i))$ is bounded and $\M\Omega$ is dense in $H$, it vanishes on $H$.
@@ -238,11 +238,11 @@ If $k_1,\ldots,k_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfy
 then, for every $i$,
 \[
  k_i\in H\otimes_{\C}H,
- \qquad \overline{\Phi_i(\ell_0)}=\Theta(\Psi_i(k_i)).
+ \qquad \overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(k_i)).
 \]
 \end{lemma}
 \begin{proof}
-Fix $i$, write $\ell_0=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $S_i:=\Phi_i(\ell_0)$ on $\M\Omega$.
+Fix $i$, write $\ell_0=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $S_i:=m_{L_i}(\ell_0)$ on $\M\Omega$.
 The adjoint-domain condition in Definition~\ref{def:liberation-dual-system} gives
 \[
  \M\Omega\subseteq\dom S_i^*,\qquad
@@ -264,9 +264,9 @@ Using equation~\eqref{eq:liberation-phi-bimodule} in the second equality below a
 \begin{equation}\label{eq:liberation-cleared-operator}
  \begin{aligned}
  sS_it
- &=s\Phi_i(\ell_0)t\\
- &=\Phi_i((s\otimes t^{\mathrm{op}})\ell_0)\\
- &=\Phi_i\!\left(\sum_j\Psi_j(\ell_j)\right)\\
+ &=sm_{L_i}(\ell_0)t\\
+ &=m_{L_i}((s\otimes t^{\mathrm{op}})\ell_0)\\
+ &=m_{L_i}\!\left(\sum_j\Psi_j(\ell_j)\right)\\
  &=\Theta(\Psi_i(\ell_i)).
  \end{aligned}
 \end{equation}
@@ -297,10 +297,10 @@ Set
  \ell_0:=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
    =\sum_i\Psi_i(\ell_i).
 \]
-Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{\Phi_i(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
-By definition, $\Phi_i(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
+Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
+By definition, $m_{L_i}(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
 The common adjoint-domain condition makes $\Gamma[Q,L_i]$ closable by Lemma~\ref{lem:fraction-domains}.
-Its closure extends the bounded, everywhere-defined operator $-\overline{\Phi_i(\ell_0)}$ and therefore equals it.
+Its closure extends the bounded, everywhere-defined operator $-\overline{m_{L_i}(\ell_0)}$ and therefore equals it.
 With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator-general} now gives
 \[
  \overline{\Gamma[Q,L_i]}
