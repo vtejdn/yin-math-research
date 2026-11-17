@@ -1,0 +1,22 @@
+# Citation Map
+
+This map records the external results actually used in `paper/main.tex` and its sections.
+The [project record](readme.md#mathematical-provenance) owns the mapping to internal proofs and their review scope.
+The bibliography subset contains the eleven works cited in the paper; the manuscript does not cite internal record identifiers in place of mathematical arguments.
+
+| Work | Use in the manuscript | Inspected source interface |
+| --- | --- | --- |
+| Voi98 | Introduction and the tracial Hilbert–Schmidt realization; historical dual-system and conjugate-variable context. | [U005](../../../audits/literature/Voi98/Yin_U005.md#voi98-u005), including Definitions 5.1–5.4 and the free-product model. |
+| ACSY24 | Definition `def:hypotheses`, maximality, marginal diffuseness, and comparison with the polynomial-core construction. | [U001](../../../audits/literature/ACSY24/Yin_U001.md#acsy24-u001), Section 3.2, Lemma 3.3, Theorem 3.4 and Proposition 3.5. The all-`M Omega` domain assertion is proved in the manuscript, rather than attributed to Theorem 3.4. |
+| MSY23 | Maximal-Delta finite-rank cycles, free-field evaluation and the free diffuse selfadjoint pair in Remark `rem:some-every`. | [U002](../../../audits/literature/MSY23/Yin_U002.md#msy23-u002), [U004](../../../audits/literature/MSY23/Yin_U004.md#msy23-u004), and [U005](../../../audits/literature/MSY23/Yin_U005.md#msy23-u005), especially Theorems 3.1 and 1.1 and the Section 6 entropy interfaces. |
+| Pis12 | Scalar finite-column bound and state factorization used only after obtaining the scalar uniform-norm slice bound. | [U001](../../../audits/literature/Pis12/Yin_U001.md#pis12-u001), equation (5.2), Theorem 5.2(ii). Normality of the factorization state is justified separately in the manuscript. |
+| Tol17 | Global sharp density-square bound under uniform linear growth, applied to each restriction of the auxiliary measure `sigma`. | [U001](../../../audits/literature/Tol17/Yin_U001.md#the-global-square-function-under-uniform-linear-growth), Theorem 19.1, printed/PDF p. 102 of arXiv:1408.6979v2. The citation explicitly identifies arXiv theorem numbering. The author's [publication list](https://mat.uab.cat/~xtolsa/xtolsarecentpapers.html) was checked on 2026-11-17 for the published year, volume and number; it supplies no new proof input. |
+| LM17 | Local indicator testing implies the global `L2(sigma; K)` estimate for the smooth density-square operator. | [U001](../../../audits/literature/LM17/Yin_U001.md#indicator-testing), Theorem 1.3 and (1.1)–(1.4). Growth, kernel regularity, support, mean and testing conditions are checked in the paper. |
+| GM00 | Strong `L3` extrapolation for the Hilbert-valued smooth square operator. | [U001](../../../audits/literature/GM00/Yin_U001.md#operator-kernel) and [strong-type passage](../../../audits/literature/GM00/Yin_U001.md#strong-type), Definition 2.1 and Theorem 2.7. The global `L2` bound, off-support formula and both integral oscillation estimates are supplied before applying it. |
+| Kat95 | A densely defined closable finite-rank operator has an everywhere-defined bounded finite-rank closure of the same rank. | [U001](../../../audits/literature/Kat95/Yin_U001.md#selected-citation-check), Problem III.5.18. The actual adjoint-domain tests for fraction expressions are given in the paper. |
+| Lau88 | Automatic continuity of the algebraic full-domain map in Lemma `lem:automatic`. | [U001](../../../audits/literature/Lau88/Yin_U001.md), Proposition 3.7, p. 164, and Theorem 4.1, p. 166; application reconstructed in [C_F0069](../../../claims/Yin_C_F0069_v1.md#argument). The triangular calculus, divisible-subspace exclusion, decomposability and absence of critical eigenvalues are checked in the paper. |
+| NS06 | Semicircular moments and compression in the circle transfer. | [U004](../../../audits/literature/NS06/Yin_U004.md#ns06-u004). Conditional expectations and the new derivative/vacuum construction are proved in the appendix. |
+| Miy22 | Standard tracial semicircular Fock representation and the polynomial basis used in the similarity example. | [U001](../../../audits/literature/Miy22/Yin_U001.md#miy22-u001). The similarity, represented relation and nonintegrable tensor coefficient are project arguments, not assertions attributed to Miy22. |
+
+These source interfaces retain their recorded original-proof and edition limits.
+The manuscript's use of an established external theorem does not claim a fresh recursive audit of its proof.

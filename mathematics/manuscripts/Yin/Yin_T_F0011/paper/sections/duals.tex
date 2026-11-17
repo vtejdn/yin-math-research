@@ -1,0 +1,164 @@
+\section{Dual identities, normal phases and actual domains}\label{sec:duals}
+For $g,h\in H$ let $\Theta(g\otimes h)$ be the rank-one operator
+\[
+ \Theta(g\otimes h)v:=g\tau(hv).
+\]
+The tracial pairing is defined for products of two $L^2$ vectors.
+The map $\Theta$ is a unitary identification of $H\bar\otimes H$ with $\HS(H)$, the Hilbert--Schmidt operators for the usual trace $\Tr$ on $\mathcal B(H)$.
+It takes algebraic tensors to $\F(H)$ and satisfies
+\begin{equation}\label{eq:theta}
+ \Theta(a\cdot q\cdot b)=a\Theta(q)b,\qquad
+ \Theta(q)\Omega=(\id\otimes\tau)q.
+\end{equation}
+These conventions agree with the tracial realization used in \cite{Voi98,ACSY24}.
+
+\begin{lemma}\label{lem:phase}
+Suppose $\mathsf A(X)$ holds and each $X_j$ is a bounded normal operator.
+Every marginal spectral law $\mu_j$ is diffuse, and the derivations are uniquely determined by
+\begin{equation}\label{eq:phase}
+ \partial_iX_j^*=\delta_{ij}k_j,\qquad
+ k_j(z,w):=\frac{\bar z-\bar w}{z-w}\quad(z\ne w).
+\end{equation}
+Here $k_j$ belongs to the marginal subspace $L^2(\mu_j^2)$ of the coarse Hilbert space; its value on the diagonal may be set to zero.
+\end{lemma}
+\begin{proof}
+By \cite[Proposition~3.5]{ACSY24}, $\Delta(X)=d$.
+If $e=1_{\{z\}}(X_j)$ were nonzero, the rank-one projection onto $\C e\Omega$ would commute with $\rho(X_j)$, contradicting \eqref{eq:cycles}.
+Differentiate $X_jX_j^*=X_j^*X_j$ to obtain
+\[
+ (\lambda(X_j)\otimes1-1\otimes\rho(X_j))\partial_iX_j^*
+ =\delta_{ij}(X_j^*\otimes1-1\otimes X_j^*).
+\]
+The spectral diagonal of the operator on the left is zero on the entire coarse Hilbert space.
+Indeed, the two marginal spectral actions form a normal representation of the product abelian algebra, whose faithful product trace gives the diagonal mass zero by diffuseness.
+Consequently the operator is injective.
+The vector in \eqref{eq:phase} solves this equation, and uniqueness follows.
+\end{proof}
+
+We shall also need a version of this conclusion starting from dual operators.
+\begin{lemma}\label{lem:commutation}
+Let $x\in\M$ be a bounded normal operator and let $E:\M\to H$ be bounded for the operator norm on $\M$.
+If $[E,x]=P_\Omega$, then the law $\mu$ of $x$ is diffuse and
+\[
+ [E,x^*]=\Theta(k_x)|_{\M\Omega},\qquad
+ k_x(z,w):=(\bar z-\bar w)/(z-w).
+\]
+If $[E,x]=0$, then $[E,x^*]=0$ without a diffuseness assumption.
+\end{lemma}
+\begin{proof}
+For the homogeneous assertion the map
+\[
+ z\longmapsto e^{zx^*}Ee^{-zx^*}
+ =e^{zx^*-\bar z x}Ee^{-zx^*+\bar z x}
+\]
+is entire with values in $\mathcal B(\M,H)$ and uniformly bounded.
+The equality uses the assumed commutation with $x$, and the two displayed multipliers are unitary.
+Scalar Liouville applied through continuous linear functionals gives the assertion by differentiation at zero.
+
+In the inhomogeneous case a spectral atom $e$ at $\lambda$ would satisfy
+$(x-\lambda)E(e)=-\tau(e)\Omega$.
+Multiplying by $e$ gives a contradiction.
+Put $K:=\Theta(k_x)$ and $F:=[E,x^*]-K|_\M$.
+The kernel identity $[K,x]=[P_\Omega,x^*]$ and Jacobi's identity show that $[F,x]=0$.
+The homogeneous assertion gives $[F,x^*]=0$.
+
+Partition the spectrum into finitely many cells of diameter at most $\varepsilon$ with $\mu$-null boundaries, and let $e_r$ be their spectral projections.
+Continuous cutoffs from inside a cell and its complement converge strongly to $e_r$ and $1-e_r$.
+Since $F$ commutes with continuous functions of $x$, applying these cutoffs to the fixed vectors $F(e_ra)$ and $F(a)$ proves
+\[
+ F(e_ra)=e_rF(a)\qquad(a\in\M).
+\]
+No limit is passed through $F$.
+Choose $\lambda_r$ in each cell and put $x_\varepsilon:=\sum_r\lambda_re_r$ and $E_\varepsilon:=\sum_re_rEe_r$ as maps $\M\to H$.
+Averaging $u_\sigma E u_\sigma$ over the unitaries $u_\sigma:=\sum_r\sigma_re_r$, $\sigma_r\in\{1,-1\}$, gives $\|E_\varepsilon\|\le\|E\|$.
+Since $E_\varepsilon$ commutes with $x_\varepsilon^*$,
+\[
+ \|F\|_{\mathcal B(\M,H)}
+ \le2\varepsilon\|E\|+
+ \left\|\sum_re_rKe_r\right\|_{\HS}.
+\]
+The last squared norm is at most $\mu^2\{|z-w|\le\varepsilon\}$ and tends to zero.
+This proves the inhomogeneous assertion.
+\end{proof}
+
+\begin{proof}[Proof of $\mathsf S\Rightarrow\mathsf A$ in Theorem~\ref{thm:normal}]
+Let $D_i$ witness $\mathsf S$ and put $\eta_i:=D_i\Omega$.
+Each $D_i$ is closable, and its closure is defined on $\M\Omega$.
+The closed graph theorem applied to $a\mapsto\overline{D_i}(a\Omega)$ from the Banach space $\M$ to $H$ makes $D_i|_{\M\Omega}$ bounded for the operator norm.
+Set
+\[
+ E_i(a\Omega):=-D_i(a\Omega)+a\eta_i.
+\]
+Then $E_i\Omega=0$ and $[E_i,X_j]=\delta_{ij}P_\Omega$.
+Lemma~\ref{lem:commutation} determines the adjoint-generator commutators as the normal phases.
+By expanding commutators, $[E_i,p]$ is the restriction of a Hilbert--Schmidt operator for every $p\in\A_X$.
+Define $\partial_i p:=\Theta^{-1}([E_i,p])$.
+The extension from $\M\Omega$ is unique by density, so this definition respects every represented relation.
+Equation~\eqref{eq:theta} proves the outer Leibniz rule and gives
+\[
+ (\id\otimes\tau)\partial_i p=E_i(p\Omega).
+\]
+Testing at the vacuum now yields
+\[
+ \langle\Omega\otimes\Omega,\partial_i p\rangle
+ =\langle-D_i^*\Omega+\eta_i^*,p\Omega\rangle.
+\]
+This is the actual Hilbert adjoint condition and proves \eqref{eq:strong-vacuum}.
+Uniqueness follows from the injective-gap argument of Lemma~\ref{lem:phase}.
+\end{proof}
+
+\begin{lemma}\label{lem:graph}
+Let $\A\subset\M$ be a weakly dense unital star algebra, and let $\partial:\A\to H\bar\otimes H$ be an outer derivation with actual vacuum $\xi$.
+Suppose its right and left slices $E$ and $L$ satisfy
+\[
+ \|Ep\|_2\le C_E\|p\|,\qquad \|Lp\|_2\le C_L\|p\|.
+\]
+The operator $E^\circ$ with domain $\A\Omega$ is closable, and
+\begin{equation}\label{eq:slice-adjoint}
+ (E^\circ)^*(p\Omega)=p\xi-(L(p^*))^*\qquad(p\in\A).
+\end{equation}
+Both $\overline{E^\circ}$ and $(E^\circ)^*$ are defined on $\M\Omega$.
+Any bounded-generator commutator identity for $E^\circ$ passes to $\M\Omega$ for this closure.
+\end{lemma}
+\begin{proof}
+The Leibniz rule gives
+\[
+ (\tau\otimes\tau)\partial(ab)=\tau(L(a)b)+\tau(aE(b)).
+\]
+Use the vacuum pairing on $p^*q$ to obtain \eqref{eq:slice-adjoint}.
+Thus the adjoint has dense domain and
+\[
+ \|(E^\circ)^*(p\Omega)\|_2\le(\|\xi\|_2+C_L)\|p\|.
+\]
+For $a\in\M$, Kaplansky density followed by norm approximation supplies $p_\alpha\in\A$ with $p_\alpha\Omega\to a\Omega$ and $\sup_\alpha\|p_\alpha\|\le\|a\|+\varepsilon$.
+The two image nets are bounded in $H$.
+Pass to a common weakly convergent subnet and use weak closedness of both closed graphs.
+It follows that $a\Omega$ belongs to both actual domains.
+For a commutator, include the approximants $X_jp_\alpha$ in the same argument; the bounded commutator term identifies the graph limit.
+\end{proof}
+
+We record separately why the weakest full-domain condition still gives maximal $\Delta$.
+\begin{proposition}\label{prop:bare-maximal}
+For an arbitrary bounded tuple, $\mathsf F(X)$ implies $\Delta(X)=d$.
+\end{proposition}
+\begin{proof}
+Use the equivalent left-multiplication form of \eqref{eq:cycles}, obtained by adjoints and tracial conjugation.
+Suppose $\sum_i[T_i,X_i]=0$ with $T_i\in\F(H)$.
+Choose a bounded regular $r\in\M$ such that every vector in the finite-dimensional space $\sum_i\Ran T_i$ becomes an element of $\M\Omega$ after right multiplication by $r$.
+Such an $r$ exists by clearing a finite family of affiliated right denominators.
+For $c,e\in\M$, put $Q:=\rho(r)$ and $S_i:=\rho(c)QT_i\rho(e)$.
+All right multipliers commute with the left $X_i$, so the $S_i$ form another cycle and their ranges lie in $\M\Omega$.
+Each $D_jS_i$ is an everywhere-defined bounded finite-rank operator: express its range through a finite basis of $\Ran S_i$ and apply the algebraic map $D_j$ to that basis.
+Applying $D_j$ to the cycle, with the generator-first sign, gives
+\[
+ 0=\sum_i[D_jS_i,X_i]+P_\Omega S_j.
+\]
+All operators in this equality are bounded and finite rank, so taking the usual trace gives
+\[
+ 0=\Tr(P_\Omega S_j)
+ =\langle\rho(c)^*\Omega,QT_j\rho(e)\Omega\rangle.
+\]
+The two test families are independently dense in $H$.
+Hence $QT_j=0$, and injectivity of $Q$ gives $T_j=0$.
+This proves maximality.
+\end{proof}

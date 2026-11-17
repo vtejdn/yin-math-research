@@ -1,0 +1,414 @@
+\section{The estimate for normal coordinates}\label{sec:estimate}
+We work first with one bounded normal operator $Z$ and finitely many bounded selfadjoint coefficients $H_1,\ldots,H_m$.
+Their represented star algebra is denoted by $\A$.
+Assume that an outer derivation $\delta$ satisfies
+\[
+ \delta Z=1\otimes1,\qquad \delta H_l=0,\qquad
+ \xi:=\delta^*(1\otimes1)\in H.
+\]
+The marginal law $\mu$ is diffuse, and $\delta Z^*=(\bar z-\bar w)/(z-w)$.
+Restriction followed by projection to the marginal coarse space gives an actual one-coordinate derivation.
+Thus the one-coordinate case of \cite[Proposition~3.5]{ACSY24} gives diffuseness, and the injective-gap argument of Lemma~\ref{lem:phase} determines the starred value in the full coarse space.
+The formula for omitted coefficients is part of the present relative hypothesis.
+Write $C:=\id\otimes\tau$ in this section.
+Constants denoted by $c$ or $C_0,C_1,\ldots$ are absolute and may increase between estimates.
+
+\subsection{Scalar control and liberation}
+Let $\kappa(z,w,v)$ be the reciprocal circumradius of three distinct noncollinear planar points, with value zero for collinear or repeated triples.
+Set
+\begin{equation}\label{eq:scalar-budget}
+ M_1\mu(z):=\sup_{r>0}\frac{\mu(B(z,r))}{r},\qquad
+ G(\mu):=\int(M_1\mu)^2\dd\mu+\iiint\kappa^2\dd\mu^3.
+\end{equation}
+
+\begin{lemma}\label{lem:scalar}
+If the scalar divided difference on $\C[Z,Z^*]$ has actual vacuum $\xi_\mu$, then
+\begin{equation}\label{eq:scalar-estimates}
+ G(\mu)\le c\|\xi_\mu\|_2^2,\qquad
+ \left\|\int\frac{\overline{z-w}}{|z-w|^2+r^2}\dd\mu(w)\right\|_2
+ \le\|\xi_\mu\|_2\quad(r>0).
+\end{equation}
+Its right slice is bounded from the uniform norm to $L^2(\mu)$ with norm at most $c\|\xi_\mu\|_2$.
+\end{lemma}
+\begin{proof}
+Put $k_t(a):=\bar a/(|a|^2+t)$ and $C_t\mu(z):=\int k_t(z-w)\dd\mu(w)$.
+The actual vacuum identity extends from polynomials to $C^1$ functions on a containing rectangle by polynomial approximation of the function and its first real derivatives.
+The mean-value estimate controls the corresponding divided differences uniformly.
+
+For a triple write $x:=|z-v|^2$, $y:=|w-v|^2$, $r:=|z-w|^2$ and $J:=2xy+2yr+2rx-x^2-y^2-r^2$.
+Thus $J$ is sixteen times the squared triangle area.
+The cyclic sum of $\Rea(k_t(z-w)\overline{k_t(z-v)})$ is
+\[
+ S_t=\frac{J+t(x+y+r)}{2(x+t)(y+t)(r+t)}\ge0.
+\]
+The cyclic sum of the real divided differences of $\overline{C_t\mu}$ has three-point kernel
+\begin{equation}\label{eq:positive-soft}
+ Q_t=\frac{J+\tfrac t2(x+y+r)+\tfrac{tJ}2(1/x+1/y+1/r)+3t^2}
+ {(x+t)(y+t)(r+t)}\ge S_t.
+\end{equation}
+Both formulas follow by putting the three fractions over their common denominator; collision sets are product-null.
+Fubini and the vacuum identity give
+\[
+ \|C_t\mu\|_2^2=\tfrac13\int S_t\dd\mu^3
+ \le\tfrac13\int Q_t\dd\mu^3
+ =\Rea\langle\xi_\mu,\overline{C_t\mu}\rangle.
+\]
+This proves the soft estimate, and Fatou gives $\int\kappa^2\dd\mu^3\le6\|\xi_\mu\|_2^2$.
+For real $\|f\|_\infty\le1$, the positive measure $(1+f/2)\mu$ lies between $\mu/2$ and $3\mu/2$.
+Positivity of $S_t$ therefore bounds its soft Cauchy transform in $L^2(\mu)$ by $\sqrt{27}\|\xi_\mu\|_2/2$.
+Subtracting $C_t\mu$ and splitting complex $f$ into real and imaginary parts proves a uniform $L^\infty\to L^2$ bound for $C_t(f\mu)$.
+For a scalar polynomial $p$,
+\[
+ pC_t\mu-C_t(p\mu)
+ =\int\frac{p(z)-p(w)}{z-w}\frac{|z-w|^2}{|z-w|^2+t}\dd\mu(w)
+ \longrightarrow E p
+\]
+in $L^2(\mu)$ by dominated convergence.
+This proves the slice bound.
+
+For completeness, the maximal-density term follows from a weighted commutator.
+The little Grothendieck inequality \cite[Theorem~5.2]{Pis12} bounds the finite-column norm of $E:C(\operatorname{supp}\mu)\to L^2(\mu)$ by $c\|\xi_\mu\|_2$.
+State factorization gives a state $\varphi$ and $c_0\le c\|\xi_\mu\|_2$ with $\|Ep\|_2^2\le c_0^2\varphi(|p|^2)$.
+One may take a normal state with respect to $\mu$.
+Indeed, the actual densely defined Hilbert adjoint of $E$ makes the bidual extension of $E$ vanish on the central summand killed by the representation on $L^2(\mu)$.
+In the GNS factorization of $\varphi$, restriction to the remaining summand gives a normal positive functional of mass at most one with the same domination; adding the missing mass times $\mu$ gives a normal state.
+The same bidual construction extends $E$ normally to $L^\infty(\mu)$, preserving $E1=0$, $[E,Z]=P_\Omega$ and the domination inequality.
+Write it as $d\mu$ with $d\ge0$ and $\int d\dd\mu=1$.
+The map $T(p\sqrt d):=Ep$ extends boundedly with norm at most $c_0$.
+The commutator $[E,Z]=P_\Omega$ implies
+\[
+ |\tau(a)|\le2c_0\|Z-\lambda\|\|a\sqrt d\|_2.
+\]
+Testing at $(d+\varepsilon)^{-1}$ proves $d>0$ almost everywhere and $d^{-1}\in L^1(\mu)$.
+Consequently $[T,Z]=|1\rangle\langle d^{-1/2}|$ on all of $L^2(\mu)$.
+For a square $Q$ of side $\ell$, compress this identity and subtract its center from $Z$ to obtain
+\[
+ \mu(Q)^{1/2}\left(\int_Qd^{-1}\dd\mu\right)^{1/2}
+ \le\sqrt2 c_0\ell,\qquad
+ \frac{\mu(Q)}\ell\le\sqrt2 c_0\frac1{\mu(Q)}\int_Q\sqrt d\dd\mu.
+\]
+The second inequality uses Jensen's inequality for $s\mapsto s^{-2}$.
+Four translated dyadic square filtrations contain every sufficiently small ball in a square of comparable side length.
+Their $L^2$ maximal inequalities applied to $\sqrt d$ bound $\|M_1\mu\|_2$ by $cc_0$.
+For radii larger than the support diameter $D$, use $1/D\le2c_0$, which follows from the uncompressed weighted commutator.
+This completes \eqref{eq:scalar-estimates}.
+\end{proof}
+
+For a marginal tensor $a\otimes b$ let
+\[
+ I_{a\otimes b}(v\otimes w):=va\otimes bw.
+\]
+This is inner insertion and commutes with both outer actions.
+The partial liberation derivation is
+\[
+ \gamma:=I_{z-w}\delta,
+ \qquad \gamma f=f\otimes1-1\otimes f\quad(f\in\C[Z,Z^*]),
+ \qquad \gamma H_l=0.
+\]
+Put $\zeta:=(i\gamma)^*(1\otimes1)=-i[Z^*,\xi]$.
+It is selfadjoint.
+Its left-right marginal spectral measure is
+\[
+ \nu(A\times B):=\|1_A(Z)\zeta1_B(Z)\|_2^2.
+\]
+This measure is symmetric, has zero diagonal mass, and satisfies
+\begin{equation}\label{eq:gap-budget}
+ I:=\int_{z\ne w}|z-w|^{-2}\dd\nu(z,w)\le\|\xi\|_2^2.
+\end{equation}
+Indeed $\zeta=-iS_{\bar z-\bar w}\xi$ for the left-right spectral calculus $S$.
+The scalar vacuum is the orthogonal projection of $\xi$ onto $L^2(W^*(Z))$, so its norm is at most $\|\xi\|_2$.
+
+For a bounded real symmetric marginal kernel $q$ and an analytic test
+\[
+ u=b\pm i\sqrt{1-b^2},\qquad b=b^*\in\A,\quad\|b\|<1,
+\]
+write
+\[
+ F_q(u):=\Rea\langle u,CI_q\gamma(u)\rangle.
+\]
+For a fixed test, this evaluation is continuous in the $L^2(\mu^2)$ norm of a kernel.
+To see this, expand $\gamma b$ into finitely many bounded outer coefficients and differentiate the binomial series; its derivative terms are bounded by a summable multiple of $n\|b\|^{n-1}$.
+
+\begin{lemma}\label{lem:kernel-energy}
+For a marginal projection $e$ of mass $t>0$,
+\begin{equation}\label{eq:projection-square}
+ tF_{e\otimes e}(u)=\|iCI_{e\otimes e}\gamma(u)-ue\zeta e\|_2^2-\|e\zeta e\|_2^2.
+\end{equation}
+For a nonzero bounded real marginal function $k$,
+\begin{equation}\label{eq:uncentered}
+ F_{k\otimes k}(u)\le(\tau k)^2+\frac{\|k\zeta k\|_2^2}{\|k\|_2^2}.
+\end{equation}
+If $q$ is bounded, real, symmetric and supported on $B^2$, where $t:=\mu(B)$, then
+\begin{equation}\label{eq:localized}
+ |F_q(u)|\le\|q\|_\infty\bigl(2\sqrt{t\nu(B^2)}+3t^2\bigr).
+\end{equation}
+\end{lemma}
+\begin{proof}
+The marginal tensor adjoint formula is
+\[
+ (i\gamma)^*q=S_q\zeta+i(\operatorname{col}q-\operatorname{row}q).
+\]
+The row and column maps are bounded on $L^2(\mu^2)$.
+Closedness of this adjoint implies $\nu\ll\mu^2$: approximate an indicator of a $\mu^2$-null set in $L^2(\mu^2+\nu)$ by polynomial tensors and apply the formula.
+The graph closure of the marginal restriction has domain $L^2(\mu^2)\cap L^2(\nu)$ and the same formula.
+In particular $\beta_q:=iI_q\gamma$ has actual vacuum $\eta_q=S_q\zeta$ for real symmetric bounded $q$.
+
+Here are the finite-kernel calculations needed below.
+Put $E_q:=C\beta_q$, $a_q:=\operatorname{row}q$ and $q^{\circ2}(z,v):=\int q(z,w)q(w,v)\dd\mu(w)$.
+Put $C_q:=(\id\otimes\tau\otimes\tau)((\beta_q\otimes1)\beta_q-(1\otimes\beta_q)\beta_q)$.
+The product rule gives
+\begin{align*}
+ C_qp&=i\{E_q(p)a_q+E_q(pa_q)-pE_q(a_q)-E_{q^{\circ2}}p\},\\
+ \Rea\langle u,C_qu\rangle
+ &=-2\Ima\tau(a_qu^*E_qu)+\Ima\langle u,E_{q^{\circ2}}u\rangle,\\
+ \|E_qu\|_2^2&=2\Rea\langle E_qu,u\eta_q\rangle-\Rea\langle u,C_qu\rangle.
+\end{align*}
+One obtains the last identity first on polynomials, with the additional term $-\Rea\langle\beta_q(p^*p),1\otimes\eta_q\rangle$, and then passes to $u$ by the differentiated binomial series.
+This passage uses first derivatives of the defect, which is itself an outer derivation, and requires no second-iterate domain assertion at $u$.
+Bounded Borel marginal factors are allowed by uniformly bounded strong-star graph approximation in the liberation derivation.
+
+For $q=e\otimes e$, use $a_q=te$, $q^{\circ2}=tq$ and the right support $E_qu=E_qu e$ to obtain \eqref{eq:projection-square}.
+For $q=k\otimes k$ the same identities give
+\[
+ \|k\|_2^2F_q(u)=\|k\zeta k\|_2^2-\|E_qu-uk\zeta k\|_2^2
+ +2(\tau k)\Ima\tau(ku^*E_qu).
+\]
+Completing the square against $i(\tau k)uk$ proves \eqref{eq:uncentered}.
+For \eqref{eq:localized}, normalize $\|q\|_\infty\le1$ and put $q_j:=q^{\circ j}$.
+Then $\|q_j\|_\infty\le t^{j-1}$, $\|\eta_{q_j}\|_2\le t^{j-1}\nu(B^2)^{1/2}$ and $\|a_{q_j}\|_2\le t^{j+1/2}$.
+The displayed energy identities and right support give, with $v_j:=\|E_{q_j}u\|_2$,
+\[
+ v_j^2\le2(t^{j-1}\nu(B^2)^{1/2}+t^{j+1/2})v_j+\sqrt t\,v_{2j}.
+\]
+For this fixed test the finite expansion gives $v_j\le C_ut^j$.
+Thus the finite supremum of $v_j/t^{j-1}$ over dyadic $j$ is at most $2\nu(B^2)^{1/2}+3t^{3/2}$.
+Pairing once more with $u1_B$, of norm $\sqrt t$, proves \eqref{eq:localized}.
+Conditional expectations onto finite product partitions preserve symmetry, support and the uniform norm and converge in $L^2(\mu^2)$, so the conclusion passes from finite kernels to bounded measurable ones.
+\end{proof}
+
+\subsection{The mixed curvature energy}
+Put $\delta^\#p:=(\delta(p^*))^\dagger$, where $(v\otimes w)^\dagger:=w^*\otimes v^*$, and set
+\[
+ \delta_x:=(\delta+\delta^\#)/2,\qquad
+ \delta_y:=(\delta-\delta^\#)/(2i),\qquad T_a:=C\delta_a\quad(a=x,y).
+\]
+Their actual selfadjoint vacua are $\zeta_x=(\xi+\xi^*)/2$ and $\zeta_y=i(\xi-\xi^*)/2$, with squared norms summing to $\|\xi\|_2^2$.
+For
+\[
+ g(z,w):=\int\kappa(z,v,w)^2\dd\mu(v),\qquad
+ V(u)^2:=\|T_xu\|_2^2+\|T_yu\|_2^2,
+\]
+the required energy identity is
+\begin{equation}\label{eq:mixed-energy}
+ V(u)^2=2\Rea\sum_{a=x,y}\langle T_au,u\zeta_a\rangle-\tfrac12F_g(u).
+\end{equation}
+The kernel $g$ need not belong to $L^2(\mu^2)$.
+Its use here is through the generator tensors $(z-w)g$ and $(\bar z-\bar w)g$.
+They do belong to $L^2(\mu^2)$, since Jensen's inequality and $|z-w|\kappa(z,v,w)\le2$ give
+\begin{equation}\label{eq:gap-g}
+ \int|z-w|^2g(z,w)^2\dd\mu^2\le4\int\kappa^2\dd\mu^3.
+\end{equation}
+
+We give the domain justification for \eqref{eq:mixed-energy}.
+The smooth phases $h_t(z,w):=(\bar z-\bar w)^2/(|z-w|^2+t)$ have modulus at most one.
+Their first-leg divided differences, the second-leg divided differences and their conjugate-denominator versions have squared modulus at most $8Q_t$ from \eqref{eq:positive-soft}.
+For example, writing $a=z-v$, $b=w-v$, the numerator identity
+\[
+ \bar a^2(|b|^2+t)-\bar b^2(|a|^2+t)
+ =\bar a\bar b(\bar a b-\bar b a)+t(\bar a-\bar b)(\bar a+\bar b)
+\]
+gives this bound by separating the area term and the remaining positive terms of $Q_t$.
+Its integral is at most $24\|\xi_\mu\|_2^2$ by the scalar vacuum calculation.
+Approximate $h_t$ in $C^1$ on a containing real box by polynomial tensors.
+Weak closedness of the joint graph of the four tensor-leg derivatives puts both phases in that original joint graph closure as $t\downarrow0$.
+Convex combinations turn the weak graph convergence into strong graph convergence while keeping uniform bounds for the tensors.
+Their limiting first divided difference is
+\[
+ \frac{(\bar z-\bar v)(w-v)-(\bar w-\bar v)(z-v)}
+ {(z-v)(w-v)(z-w)},
+\]
+whose squared modulus is $\kappa(z,w,v)^2$.
+The same approximants work in the mixed tensor-leg graphs.
+Multiplication by each fixed core outer coefficient is continuous in these graphs; the Leibniz rule therefore supplies actual joint graph approximants to $\delta p$ and $\delta^\#p$ for every $p\in\A$.
+Their partial traces are uniformly operator-norm bounded and converge in the first-derivative graphs, so their products with each fixed $L^2$ vacuum converge in $H$.
+The actual adjoint formula for each real slice is $T_a^*p=p\zeta_a-T_ap$.
+
+Let $A_a:=(\delta_a\otimes1)\delta_a-(1\otimes\delta_a)\delta_a$.
+The cross terms in its Leibniz rule cancel.
+The just established graphs justify contracting these actual iterates and pairing with a polynomial.
+For the sum $A_x+A_y$, direct evaluation at $Z,Z^*$ gives, after tracing the middle leg, the tensors $(z-w)g/2$ and $(\bar z-\bar w)g/2$; all omitted coefficients are annihilated.
+For instance, if $N:=\bar a b-\bar b a$, the relevant numerator at $Z$ is $-N^2/(\bar a|b|^2|a-b|^2)=a\kappa(a,b,0)^2$ before the factor $1/2$.
+Equality on generators and the outer Leibniz rule identify the whole defect with one half of the weighted liberation.
+The real-slice energy calculation used in Lemma~\ref{lem:kernel-energy} now proves \eqref{eq:mixed-energy} on analytic tests.
+Positive kernel approximations dominated by $g$ pass to this identity by \eqref{eq:gap-g}, the finite word rule and the differentiated binomial series.
+Consequently a bound $F_g(u)\ge-c\|\xi\|_2^2$ implies $V(u)\le c\|\xi\|_2$.
+Averaging the two signs in $u=b\pm i\sqrt{1-b^2}$, then scaling and splitting real and imaginary parts, gives the right-slice estimate on $\A$.
+
+\subsection{Disks with small local mass}
+Fix a smooth decreasing cutoff $\psi$ equal to one on $[0,1]$ and zero on $[2,\infty)$, and define
+\[
+ \theta(x,r):=r^{-1}\int\psi(|x-y|/r)\dd\mu(y).
+\]
+We need the following square estimate without a uniform growth assumption on $\mu$:
+\begin{equation}\label{eq:density-square}
+ \int\int_0^\infty|\theta(x,r)-\theta(x,2r)|^2\frac{dr}{r}\dd\mu(x)
+ \le c_\psi G(\mu).
+\end{equation}
+Here is a reduction to three established harmonic-analysis results, with their hypotheses made explicit.
+Write $b(x)^2:=\iint\kappa(x,y,z)^2\dd\mu(y)\dd\mu(z)$, $f:=M_1\mu+b$ and $\sigma:=\mu/f$ on the full-measure set where $f$ is finite.
+The positive lower bound for $M_1\mu$ on its compact support makes $\sigma$ finite.
+For every disk, $\sigma(B(a,r))\le2r$, since $M_1\mu(x)\ge\mu(B(a,r))/(2r)$ for $x\in B(a,r)$.
+For every Borel set $Q$,
+\[
+ \iiint_{Q^3}\kappa^2\dd\sigma^3\le3\sigma(Q),\qquad
+ \int f^3\dd\sigma=\int f^2\dd\mu\le2G(\mu).
+\]
+For the first estimate, assign each triple to a point with smallest $f$ and bound the reciprocal product by that point's $f^{-3}$.
+
+Tolsa's global density-square estimate under linear growth \cite[Theorem~19.1, arXiv version]{Tol17}, applied to $\sigma|_Q$, bounds its sharp square integral by $c\sigma(Q)$.
+Smooth density differences are positive averages of sharp ones with weights $s(-\psi'(s))\,ds$, $1\le s\le2$, so the same testing bound holds for the smooth operator $U$ with values in $\mathcal K:=L^2((0,\infty),dr/r)$.
+Its scalar kernel at scale $r$ is supported on $|x-y|\le4r$, is bounded by $c/r$, and has both first gradients bounded by $c/r^2$.
+The indicator tests $b_Q=1_Q$, the linear growth of $\sigma$ and these size and second-variable regularity estimates verify \cite[Theorem~1.3]{LM17} with $m=\alpha=1$.
+Thus $U:L^2(\sigma)\to L^2(\sigma;\mathcal K)$ is bounded uniformly.
+The $\mathcal K$-valued kernel has size $c/|x-y|$ and difference bound $c|x-x'|/|x-y|^2$ when $|x-x'|\le|x-y|/2$, in both variables.
+Linear growth and annular summation give both integral H\"ormander conditions; the component formula represents $U$ away from the support of the input.
+These are precisely the additional hypotheses in \cite[Definition~2.1 and Theorem~2.7]{GM00}, which yield the strong $L^3(\sigma)\to L^3(\sigma;\mathcal K)$ bound.
+Since $\mu=f\sigma$, H\"older's inequality gives
+\[
+ \int\|Uf\|_{\mathcal K}^2f\dd\sigma
+ \le\|Uf\|_{L^3(\sigma;\mathcal K)}^2\|f\|_{L^3(\sigma)}
+ \le c_\psi\int f^3\dd\sigma.
+\]
+This proves \eqref{eq:density-square} for the original measure.
+
+For a disk $B=B(a,r)$ put
+\[
+ T(B):=\int\min(1,r^2/|a-v|^2)\dd\mu(v),\qquad
+ d\lambda(B):=dA(a)\,dr/r^5,
+\]
+where $dA$ is planar area measure.
+Fix an absolute large $K$ and call a disk small in local mass when $T(B)>K\mu(3B)$.
+For $x\in B$, annular decomposition and $r\theta(x,r)\le\mu(3B)$ show that, on these disks,
+\[
+ \frac{T(B)^2}{r^2}
+ \le c\sum_{j\ge0}2^{-j}|\theta(x,2^jr)-\theta(x,2^{j+1}r)|^2.
+\]
+Indeed $T(B)/r\le c_0\sum_j2^{-j}\theta(x,2^jr)$; for $K>4c_0$ the initial constant term is absorbed, after which telescoping and weighted Cauchy--Schwarz give the assertion.
+Integrating over $x\in B$ and the centers of the disks gives, with $\mathcal B$ the selected disks,
+\begin{equation}\label{eq:small-budgets}
+ L:=\int_{\mathcal B}\mu(B)T(B)^2\dd\lambda(B)\le cG(\mu),\qquad
+ N:=\int\nu(B^2)\dd\lambda(B)\le cI.
+\end{equation}
+The first bound uses \eqref{eq:density-square} and the area $\pi r^2$ of possible centers for a fixed $x$.
+For the second, a disk containing $z,w$ has $r\ge|z-w|/2$ and the same center-area bound; integration in $r$ costs $c|z-w|^{-2}$.
+
+Set $h_v(z):=(z-v)/(\bar z-\bar v)$ away from $v$.
+Its squared oscillation on $3B$, integrated in $v$, is at most $cT(B)$, by differentiation when $|a-v|>6r$ and the bound $|h_v|\le1$ otherwise.
+Thus the collected angular kernel
+\[
+ q_B(z,w):=1_B(z)1_B(w)\int|h_v(z)-h_v(w)|^2\dd\mu(v)
+\]
+satisfies $\|q_B\|_\infty\le cT(B)$.
+By \eqref{eq:localized} its absolute signed cost is at most
+\[
+ cT(B)\{\sqrt{\mu(B)\nu(B^2)}+\mu(B)^2\}.
+\]
+As $\mu(B)\le T(B)$, its integral over $\mathcal B$ is bounded by $c(\sqrt{LN}+L)\le c\|\xi\|_2^2$.
+
+\subsection{The signed estimate on a larger disk}
+Assume temporarily that a finite marginal partition $(C_j)$ satisfies $\nu(C_j^2)=0$ for every $j$.
+We prove that for $B=B(a,r)$, $Q=3B$, $m=\mu(Q)>0$ and real bounded $p$ on $Q$,
+\begin{align}
+ F_{1_B(z)1_B(w)(p(z)-p(w))^2}(u)
+ \ge{}&-\int_{B\times(Q\setminus B)}|p(z)-p(w)|^2\dd\mu(z)\dd\mu(w)\notag\\
+ &-\frac{8\osc_Q(p)^2}{m}\nu(B\times Q).\label{eq:disk}
+\end{align}
+Zero-mass disks contribute zero.
+First let $p$ be simple and partition $Q$ into positive-mass cells refining $(C_j)$, $B,Q\setminus B$ and the level sets of $p$.
+Write $t_i$ for their masses, $p_i$ for their values, $s_i=1$ on $B$ and zero otherwise, and $\nu_{il}$ for the corresponding spectral rectangles.
+Let $F=(f_{ij})$ be the real symmetric matrix representing the signed pairings of cell kernels, with the off-diagonal entries symmetrized.
+The projection square identity gives $f_{ii}\ge0$, also for any subcell, since $\nu_{ii}=0$.
+Put $t=(t_i)$ and $X_0:=tt^{\mathsf T}-F$.
+For every pivot $l$,
+\begin{equation}\label{eq:row-positive}
+ X_0+D_l\succeq0,\qquad D_l:=\operatorname{diag}(2\nu_{il}/t_l)_i.
+\end{equation}
+To check this, split cell $l$ into $N$ sets $R$ of mass $t_l/N$ and apply \eqref{eq:uncentered} at $k\pm N^{3/4}1_R$ for a fixed real cell function $k$.
+Average the signs and discard the extra nonnegative term $N^{3/2}F_{1_R\otimes1_R}$.
+The squared denominator is $t_l\sqrt N(1+o(1))$, uniformly over $R$, while the trace perturbation tends to zero.
+Since $\nu(R^2)=0$, the averaged numerator is exactly
+\[
+ \|k\zeta k\|_2^2+N^{3/2}\int\{k(z)^21_R(w)+1_R(z)k(w)^2\}\dd\nu.
+\]
+Averaging the $N$ choices of $R$ and using symmetry of $\nu$ yields $2\sum_i k_i^2\nu_{il}/t_l$ in the limit.
+The normalized positive numerators have bounded average, so the uniform relative denominator error may be removed.
+This proves \eqref{eq:row-positive}.
+
+Center $p$ in the $Q$-weights, so $\sum_it_ip_i=0$, and put $v_0:=m^{-1}\sum_it_ip_i^2$.
+On all cells of $Q$ form the weighted Laplacian with off-diagonal entries $-(p_i-p_j)^2$ and diagonal $\sum_j(p_i-p_j)^2t_j/t_i$.
+Compress it by $\operatorname{diag}(s_i)$ and call the resulting positive matrix $L$.
+Then
+\[
+ t^{\mathsf T}Lt=\sum_{i\in B,\ j\in Q\setminus B}t_it_j(p_i-p_j)^2.
+\]
+There is a useful positive decomposition $L=\sum_lA_l$, where
+\begin{align*}
+ r_l(i)&:=\sqrt{t_l/m}\sqrt{p_l^2+v_0}\,s_i((m/t_l)1_{i=l}-1),\\
+ b_l(i)&:=\sqrt{2t_l/m}\,s_ip_i,\qquad
+ A_l:=r_lr_l^{\mathsf T}+b_lb_l^{\mathsf T}.
+\end{align*}
+The off-diagonal sum is $-s_is_j(p_i-p_j)^2$.
+Before compression each vector is perpendicular to $t$, which determines the diagonal of the sum uniquely.
+For $i\ne l$,
+\[
+ (A_l)_{ii}\le4(t_l/m)s_i\osc_Q(p)^2.
+\]
+No bound is needed at $i=l$, since $(D_l)_{ll}=0$.
+With $W_{ij}:=s_is_j(p_i-p_j)^2$, the matrix $W+L$ is nonnegative and diagonal, whence
+\[
+ \operatorname{tr}(WF)\ge-\operatorname{tr}(LF)
+ =\operatorname{tr}(LX_0)-t^{\mathsf T}Lt
+ \ge-\sum_l\operatorname{tr}(A_lD_l)-t^{\mathsf T}Lt.
+\]
+This proves \eqref{eq:disk} for simple functions.
+Uniform quantization of bounded real functions and the fixed-test insertion continuity extend it to bounded Borel $p$.
+
+The disk identity
+\[
+ \int1_B(z)1_B(w)\dd\lambda(B)=\frac{c_*}{|z-w|^2}\quad(z\ne w)
+\]
+has $0<c_*<\infty$ by translation and dilation.
+Also $|h_v(z)-h_v(w)|^2=|z-w|^2\kappa(z,w,v)^2$ off coincidences.
+Apply \eqref{eq:disk} to the real and imaginary parts of $h_v$ and integrate against $c_*^{-1}d\mu(v)d\lambda(B)$.
+For its first term, $z\in B,w\in3B$ forces $r\ge|z-w|/4$ and a center area at most $\pi r^2$.
+The cost is at most $c\int\kappa^2\dd\mu^3$.
+On disks outside $\mathcal B$, the integrated second term costs at most
+\[
+ cK\int\nu(B\times3B)\dd\lambda(B)\le cKI.
+\]
+On $\mathcal B$, use the absolute bound already obtained from \eqref{eq:small-budgets}.
+At bounded radii these are ordinary scalar Fubini computations for each test.
+The positive kernels exhaust $g$, and \eqref{eq:gap-g} passes their signed evaluations to the limit.
+We have proved
+\begin{equation}\label{eq:partition-bound}
+ F_g(u)\ge-c\|\xi\|_2^2,\qquad
+ \|C\delta p\|_2\le c\|\xi\|_2\|p\|,
+\end{equation}
+under the auxiliary finite-partition hypothesis, with a constant independent of its masses and cardinality.
+
+\subsection{Passage to the original tuple}
+The auxiliary partition cannot be imposed on an arbitrary original coordinate.
+Lemma~\ref{lem:lattice-transfer}, proved in Appendix~\ref{sec:reductions}, transfers any finite lattice model to an actual relative coordinate on finitely many separated circles, with zero liberation mass on every individual circle square.
+The relative vacuum costs at most a fixed multiple of the lattice budget, and conditional expectation recovers the lattice derivative on every old word.
+Thus \eqref{eq:partition-bound} gives a uniform lattice estimate.
+The reverse transfer, by rounding a diffuse spectral law, gives the same uniform bound for every relative model with one trace-half projection coefficient.
+Lemma~\ref{lem:projection-transfer} then passes the bound, with at most a factor two, to finitely many selfadjoint coefficients.
+
+For a normal generating tuple with $\mathsf A$, Lemma~\ref{lem:phase} says that $\partial_i$ kills the adjoints of the omitted coordinates.
+Their real and imaginary parts are therefore exactly coefficients of the permitted kind.
+We obtain the right-slice estimate of \eqref{eq:main-slices} on the original $\A_X$.
+The derivation $p\mapsto(\partial_i(p^*))^\dagger$ is the normalized coordinate derivation for the adjoint tuple $X^*$, with actual vacuum $\xi_i^*$.
+Its right slice is the tracial involution of the original left slice at $p^*$.
+Applying the same estimate gives the other slice with the same absolute constant.
+Lemma~\ref{lem:graph} restores both actual domains of $\overline{E_i^\circ}$ and its adjoint and passes the commutator to $\M\Omega$.
+Negating these closures proves $\mathsf A\Rightarrow\mathsf S$ and completes Theorem~\ref{thm:normal}.

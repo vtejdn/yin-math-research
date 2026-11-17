@@ -1,0 +1,191 @@
+\section{Spectral and coefficient transfers}\label{sec:reductions}
+This appendix supplies the two transfers used to remove the auxiliary partition in Section~\ref{sec:estimate}.
+All derivations in this appendix are relative: a coefficient is killed by the distinguished derivation and is not required to have a conjugate variable of its own.
+
+\begin{lemma}\label{lem:lattice-transfer}
+Let $P=P^*=P^2$ have trace $1/2$, and let $(e_i)$ be a finite partition of unity by nonzero projections with $t_i:=\tau(e_i)$.
+On the word algebra $\mathcal N:=\operatorname{alg}^*(P,(e_i)_i)$ assume actual partial liberation
+\[
+ \gamma e_i=e_i\otimes1-1\otimes e_i,\qquad \gamma P=0,
+ \qquad \eta:=\gamma^*(1\otimes1)\in L^2(N),
+\]
+where $N:=W^*(P,(e_i)_i)$.
+Label the $e_i$ by distinct points $c_i$ of a square lattice of mesh $h>0$ and put
+\begin{align*}
+ U&:=\sum_ic_ie_i,\qquad
+ d_c:=I_{\sum_{i\ne j}(c_i-c_j)^{-1}e_i\otimes e_j}\gamma,
+ \qquad E_c:=(\id\otimes\tau)d_c,\\
+ H_i&:=\sum_{j\ne i}\frac{t_j}{c_i-c_j},\qquad
+ M_i:=\sup_{s\ge h}\frac{\sum_{|c_i-c_j|\le s}t_j}{s},\\
+ B_c^2&:=\sum_it_i(M_i^2+|H_i|^2)
+ +\sum_{i\ne j}\frac{\|e_i\eta e_j\|_2^2}{|c_i-c_j|^2}.
+\end{align*}
+There are the following transfers, with absolute constants.
+\begin{enumerate}
+\item Any such finite model admits an actual relative coordinate $V$ on disjoint circles of radius $h/8$ about $c_i$, with the same coefficient $P$, actual vacuum norm at most $cB_c$, and zero liberation mass on each circle square.
+For every old word, its $d_c$ derivative is the conditional projection of its derivative in the enlarged model, interpreted by original-core graph approximation.
+\item Rounding any actual relative coordinate $Z,P$ to spectral lattice cells gives models with $B_c\le c\|\xi\|_2$.
+The word values converge in operator norm and their $d_c$ derivatives converge to the original derivatives in coarse Hilbert norm.
+\end{enumerate}
+Consequently a uniform slice bound for the circle models gives a uniform slice bound for all actual relative coordinates with coefficient $P$.
+\end{lemma}
+\begin{proof}
+We first describe the reconstruction of a distinguished derivative from scalar and liberation data.
+If $\mu$ is diffuse, has scalar vacuum $\xi_\mu$, and an actual liberation vacuum $\eta$ satisfies $\int|z-w|^{-2}\dd\nu_\eta<\infty$, then the relative derivative exists and
+\begin{equation}\label{eq:reconstruct}
+ \xi=\xi_\mu+S_{1/(\bar z-\bar w)}\eta,\qquad
+ \|\xi\|_2^2=\|\xi_\mu\|_2^2+\int|z-w|^{-2}\dd\nu_\eta.
+\end{equation}
+To verify this, assign the normal phase to $Z^*$ and zero to the coefficients on formal words.
+The identity $\gamma=I_{z-w}\delta$ and injectivity of the coarse inner gap make this prescription respect represented relations.
+For $k_r(z,w):=(\bar z-\bar w)/(|z-w|^2+r^2)$, the marginal liberation adjoint formula gives, on every mixed word $p$,
+\[
+ \langle S_{\bar k_r}\eta+2\operatorname{row}(\bar k_r),p\rangle
+ =\langle1\otimes1,I_{|z-w|^2/(|z-w|^2+r^2)}\delta p\rangle.
+\]
+The spectral term converges strongly by the inverse-gap condition.
+The row terms are uniformly bounded by Lemma~\ref{lem:scalar}; testing marginal polynomials shows $2\operatorname{row}(\bar k_r)\rightharpoonup\xi_\mu$.
+The coarse multiplier tends strongly to one.
+This proves the actual vacuum identity on all mixed words.
+The two terms in \eqref{eq:reconstruct} are orthogonal because the spectral term has zero diagonal component and $L^2(W^*(Z))$ is diagonal.
+
+For the first transfer, freely adjoin independent standard semicircular operators $S_i$ to $N$.
+In the normalized corner $e_i$, the operator $t_i^{-1/2}e_iS_ie_i$ is standard semicircular, and bounded Borel functions of it have conditional expectation onto $N$ equal to their normalized corner trace times $e_i$.
+These facts follow from the semicircular moment and compression formulas \cite{NS06}; the conditional identity follows first for polynomials by the same moment calculation and then by bounded approximation.
+Choose a Borel function of each diffuse corner variable to obtain $V_i$ uniform on the circle of radius $h/8$ about $c_i$ and put $V:=\sum_iV_i$.
+Its component projections recover the $e_i$, so $N\subseteq M':=W^*(V,P)$.
+
+On the old algebra let $\Lambda:=\operatorname{ad}-\gamma$, where $\operatorname{ad}(a):=a\otimes1-1\otimes a$.
+It kills all $e_i$ and has vacuum $-\eta$.
+Extend it by zero on the new free noises.
+This preserves the actual vacuum: in every centered reduced word involving a new free factor, at least one trace leg at each cut retains a centered new letter, so its double trace vanishes.
+Bounded functions of the compressed noises are obtained by bounded strong-star graph approximation, since the extended derivative kills both the $e_i$ and the noises.
+Subtracting this extension from $\operatorname{ad}$ produces actual partial liberation at $V$, killing $P$, with vacuum $\eta$.
+Also $e_i\eta e_i=0$: insertion of $e_i\otimes e_i$ into the old $\gamma$ is zero on generators and hence on all words, and its vacuum is $e_i\eta e_i$ because the two end corrections cancel.
+The inverse-gap energy in the new model is at most
+\[
+ \frac{16}{9}\sum_{i\ne j}\frac{\|e_i\eta e_j\|_2^2}{|c_i-c_j|^2},
+\]
+since distinct circles are separated by at least $3|c_i-c_j|/4$.
+
+Write $\mu_i'$ for uniform probability on the $i$th circle and $\mu':=\sum_it_i\mu_i'$.
+Each circle has scalar vacuum $(z-c_i)/(h/8)^2$, of norm $8/h$.
+This is checked on Laurent monomials by their circle moments.
+The conjugate of the scalar vacuum for $\mu'$ on component $i$ is
+\[
+ t_i\overline{\xi_{\mu_i'}(z)}+2\sum_{j\ne i}t_j\int\frac1{z-w}\dd\mu_j'(w).
+\]
+The identity follows by separating the within-component and cross-component double integrals in the divided-difference pairing.
+The cross kernel differs from $(c_i-c_j)^{-1}$ by at most $ch/|c_i-c_j|^2$.
+Dyadic annuli and $t_i/h\le M_i$ bound the scalar vacuum squared norm by $c\sum_it_i(M_i^2+|H_i|^2)$.
+Equation~\eqref{eq:reconstruct} supplies the actual relative derivative at $V$ with vacuum norm at most $cB_c$.
+
+Smooth functions equal to one near one circle and zero near the others approximate the $e_i$ in operator norm and in the original derivative graph, using $C^1$ polynomial approximation.
+Their derivative tensors have symbols $(1_i(z)-1_i(w))/(z-w)$.
+On two distinct circles the product mean of $(z-w)^{-1}$ is exactly $(c_i-c_j)^{-1}$: expand in the centered displacements by a uniformly convergent geometric series and use the vanishing of every nonconstant circle moment.
+The conditional expectation onto $N$ takes each bounded marginal function to its circle mean on each component.
+Consequently its tensor square takes these graph derivatives to $d_ce_i$.
+It also preserves the zero derivative of $P$.
+Outer bimodularity recovers $d_cp$ for every old word, and projection of its right slice is contractive.
+This proves the first transfer without presupposing domains beyond the original graph limits.
+
+For the second transfer, partition the compact spectrum of $Z$ into half-open squares of side $h$, omit null cells and let $c_i$ be their centers.
+Then $\|Z-U\|\le h$.
+Liberation extends to bounded Borel marginal functions by bounded strong-star graph approximation, so its restriction to $N:=W^*(P,(e_i)_i)$ has vacuum $\eta=\E_N[Z^*,\xi]$.
+Conditional expectation is bimodular over the cell algebra.
+For $i\ne j$, old spectral distances are at most $3|c_i-c_j|$, so \eqref{eq:gap-budget} bounds the inverse-gap sum by $9\|\xi\|_2^2$.
+For $x$ in cell $i$, $M_i\le4M_1\mu(x)$.
+Comparison with the soft Cauchy transform at radius $h$ gives
+\[
+ \left|H_i-\int\frac{\overline{x-y}}{|x-y|^2+h^2}\dd\mu(y)\right|
+ \le cM_1\mu(x).
+\]
+For cells within $6h$, both kernels are bounded by $1/h$ and their mass is at most $chM_1\mu(x)$.
+On other cells their difference is at most $ch/|x-y|^2$; summing dyadic annuli gives the displayed estimate.
+Lemma~\ref{lem:scalar} therefore yields $B_c\le c\|\xi\|_2$.
+The generator tensors at $U,U^*,P$ are respectively
+\[
+ 1\otimes1-\sum_ie_i\otimes e_i,\qquad
+ \sum_{i\ne j}\frac{\bar c_i-\bar c_j}{c_i-c_j}e_i\otimes e_j,\qquad0.
+\]
+They converge almost everywhere off the diffuse spectral diagonal to the original generator tensors and have modulus at most one.
+Dominated convergence, norm convergence of word values and the finite Leibniz expansion prove the asserted derivative convergence.
+\end{proof}
+
+\begin{lemma}\label{lem:projection-transfer}
+Let $K_{\rm rel}$ be the supremum of $\|C\delta p\|_2/\|\xi\|_2$ over actual relative normal coordinates with finitely many bounded selfadjoint coefficients and core contractions $p$.
+Let $K_{\rm proj}$ be the same supremum with one trace-half projection as coefficient.
+In the extended nonnegative reals,
+\[
+ K_{\rm proj}\le K_{\rm rel}\le2K_{\rm proj}.
+\]
+\end{lemma}
+\begin{proof}
+Fix a relative model and one polynomial witness $p$.
+Rescale its $m$ coefficients to contractions, set $k:=m+1$, $d:=2k$, $t:=1/d$, and freely adjoin standard semicirculars $s_2,\ldots,s_d$.
+In the normalized $d$-by-$d$ matrix algebra put
+\[
+ W:=E_{11}\alpha Z+\sum_{r=2}^dE_{rr}(10r+s_r),\qquad
+ B:=\sum_{r=2}^k(E_{1r}+E_{r1})(2+H_{r-1})^{1/2},
+\]
+where $0<\alpha\|Z\|\le1$ and $B$ is viewed in the upper $k$-by-$k$ corner.
+Choose $c>\max(1,\|B\|)$ and form the trace-half projection
+\[
+ P_0:=\frac12
+ \begin{pmatrix}I+B/c&(I-(B/c)^2)^{1/2}\\(I-(B/c)^2)^{1/2}&I-B/c\end{pmatrix}.
+\]
+The square roots are norm limits of coefficient polynomials, so their distinguished derivatives are zero in the corresponding graph.
+
+We describe the derivative and its cost explicitly.
+The entrywise lift of a base derivative $d_r$ sends a tensor $a\otimes b$ in entry $(i,j)$ to $E_{ir}a\otimes E_{rj}b$.
+For normalized matrix trace its vacuum is $tE_{rr}\xi_r$, of norm $t^{3/2}\|\xi_r\|_2$.
+Use $\delta/\alpha$ in slot one and the semicircular difference quotients in the other slots.
+Their sum kills $P_0$ and takes $W$ to $\sum_rE_{rr}\otimes E_{rr}$.
+Add the inner derivation with marginal kernel $(z-w)^{-1}$ on distinct summand spectra and zero on equal summands.
+The spectra are separated by at least six, so this kernel has norm at most one, its vacuum costs at most two, and its derivative at $P_0$ has norm at most two.
+The resulting $L$ satisfies $LW=1\otimes1$.
+
+Freely adjoin one more standard semicircular $S$ and put $Y:=P_0+\varepsilon S$, where $2\varepsilon<1/4$.
+Extend $L$ by zero on $S$ and add $I_{-LP_0/\varepsilon}\partial_S$.
+It kills $Y$ and leaves the values at $W,W^*$ unchanged.
+Its added vacuum has norm $\|LP_0\|_2/\varepsilon$: on base tensors the map giving this vacuum is the free isometry $a^*\otimes b^*\mapsto a^*Sb^*$.
+The reduced-word calculation proves the actual vacuum identities for these free extensions.
+Now $P:=1_{(1/2,\infty)}(Y)$ is a norm limit of polynomials in $Y$ and has zero derivative.
+The spectral gap and continuous functional calculus give $\|P-P_0\|\to0$ as $\varepsilon\downarrow0$.
+For small $\varepsilon$ these projections are equivalent, hence $\tau(P)=1/2$.
+Restricting to $W^*(W,P)$ and projecting the vacuum supplies an actual relative model with
+\begin{equation}\label{eq:encoding-vacuum}
+ \|\xi'\|_2\le t^{3/2}\|\xi\|_2/\alpha+t^{3/2}\sqrt{d-1}+2+2/\varepsilon.
+\end{equation}
+The forced normal phase makes the restricted generator tensors intrinsic to this algebra.
+
+Let $e:=E_{11}$ and $e_r:=E_{rr}$.
+The corner coefficients
+\[
+ H_l':=(2c)^2ePe_{l+1}Pe-2e
+\]
+converge in norm to $E_{11}H_l$, since the $(1,l+1)$ entry of $P_0$ is $(2+H_l)^{1/2}/(2c)$.
+All $e_r$ are smooth spectral cuts of $\Rea W$, constant on neighborhoods of the separated components.
+Polynomial $C^1$ approximation places them in the original relative graph with derivative symbol $(e_r(z)-e_r(w))/(z-w)$.
+Insert $e\otimes e$ in both inner legs and denote the resulting derivative by $\theta$.
+It kills the $e_r$, $P$ and the $H_l'$, and its value on the first corner is the original phase after multiplication by $\alpha$.
+
+If $a'$ is the slice norm of this projection model, the product rule gives for $x=exe$ in this graph algebra
+\[
+ (\id\otimes\tau')I_{e\otimes e}\delta' x
+ =(E'(xe)-xE'(e))e,\qquad E':=(\id\otimes\tau')\delta'.
+\]
+Its norm is at most $2a'\|x\|$.
+Under the normalized corner trace $\tau_e=\tau'/t$, the left side has norm $t^{3/2}\|(\id\otimes\tau_e)\theta x\|_{2,\tau_e}$.
+Evaluate the fixed word $p$ at $eWe/\alpha,H_1',\ldots,H_m'$ with unit $e$.
+As $\varepsilon\downarrow0$, its norm tends to $\|p\|\le1$, and its scaled derivative slice tends to $E_{11}C\delta p$ in normalized corner norm.
+These comparisons are independent of $\alpha$ after multiplication of the derivative by $\alpha$.
+Thus, for any small $\eta>0$, first choose $\varepsilon$ so that
+\[
+ 2\alpha a'(1+\eta)\ge t^{3/2}(\|C\delta p\|_2-\eta).
+\]
+Next send $\alpha$ to zero in \eqref{eq:encoding-vacuum} and then $\eta$ to zero.
+The ratio $a'/\|\xi'\|_2$ approaches from below at least $\|C\delta p\|_2/(2\|\xi\|_2)$.
+If $a'$ is infinite the same conclusion for the suprema is immediate.
+Taking the supremum over the original finite witnesses proves the upper comparison; the lower comparison is inclusion of classes.
+\end{proof}

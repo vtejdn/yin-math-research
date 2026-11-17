@@ -1,0 +1,52 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\numberwithin{equation}{section}
+\newcommand{\M}{\mathcal M}
+\newcommand{\A}{\mathcal A}
+\newcommand{\F}{\mathcal F}
+\newcommand{\C}{\mathbb C}
+\newcommand{\R}{\mathbb R}
+\newcommand{\E}{\mathbb E}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\dd}{\,d}
+\newcommand{\HS}{\mathcal S_2}
+\DeclareMathOperator{\Dom}{Dom}
+\DeclareMathOperator{\Ran}{Ran}
+\DeclareMathOperator{\Div}{Div}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\osc}{osc}
+\DeclareMathOperator{\Rea}{Re}
+\DeclareMathOperator{\Ima}{Im}
+\title[Conjugate variables and full-domain dual systems]{Conjugate variables and full-domain dual systems for normal operators}
+\date{}
+\begin{document}
+\begin{abstract}
+For a finite tuple of bounded normal generators of a finite tracial von Neumann algebra, we prove that actual conjugate variables on the represented star algebra are equivalent to strong dual systems whose operators and adjoints are defined on $\M\Omega$.
+Both slices of each coordinate derivation satisfy a universal operator-norm-to-$L^2$ estimate, which gives these domains for the original canonical closures.
+We obtain finite-rank criteria for affiliated rationality with arbitrary bounded regular fractions.
+For general bounded generators, the conjugate-variable and full-domain dual hypotheses are incomparable, although either implies maximal $\Delta$.
+\end{abstract}
+\maketitle
+\input{sections/introduction}
+\input{sections/duals}
+\input{sections/normal-estimate}
+\input{sections/fractions}
+\input{sections/examples}
+\appendix
+\input{sections/reductions}
+\bibliographystyle{yin-amsalpha}
+\bibliography{references}
+\end{document}

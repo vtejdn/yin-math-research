@@ -1,0 +1,176 @@
+\section{Affiliated rationality and regular fractions}\label{sec:fractions}
+All tensor products in this section that carry no bar are algebraic over the indicated field.
+Set $U:=L^0(\M)$.
+Under $\Delta(X)=d$, the algebra $\mathcal D_X$ is a division ring, the image of the free field under evaluation \cite[Theorem~1.1]{MSY23}.
+Define
+\[
+ \Psi_i(g\otimes h):=gX_i\otimes h-g\otimes X_ih,
+ \qquad g,h\in U.
+\]
+The maps $\Psi_i$ commute with the outer $U$-bimodule actions.
+
+\begin{proposition}\label{prop:intrinsic}
+For an arbitrary bounded tuple with $\Delta(X)=d$ and every $u\in U$,
+\begin{equation}\label{eq:affiliated-tensor}
+ u\in\mathcal D_X
+ \quad\Longleftrightarrow\quad
+ u\otimes1-1\otimes u=\sum_i\Psi_i(k_i),\qquad k_i\in U\otimes_\C U.
+\end{equation}
+The tensors $k_i$ are unique when they exist.
+Moreover \eqref{eq:affiliated-tensor} is equivalent to existence of one bounded regular fraction and finite-rank operators satisfying \eqref{eq:boundary}.
+At a fixed fraction the solution tuple is unique.
+\end{proposition}
+\begin{proof}
+For a scalar rational expression defining $u\in\mathcal D_X$, form its derivative tensors by the product rule and
+\[
+ \partial_i(v^{-1})=-v^{-1}\cdot(\partial_i v)\cdot v^{-1}.
+\]
+The map $u\mapsto u\otimes1-1\otimes u$ has the same product and inverse rules and takes $X_j$ to $\Psi_j(1\otimes1)$.
+Induction proves the forward direction.
+For the reverse, project to $U\otimes_{\mathcal D_X}U$.
+Balancing kills every $\Psi_i(k_i)$, so $u\otimes_{\mathcal D_X}1=1\otimes_{\mathcal D_X}u$.
+If $u\notin\mathcal D_X$, the vectors $1,u$ are right-linearly independent over this division ring.
+Extend them to a right basis and choose a right-linear functional taking $1$ to zero and $u$ to one.
+Applying this functional on the first leg contradicts the equality.
+
+For uniqueness, clear the finitely many first tensor legs on the left and second legs on the right by bounded regular $s,t$ so that $sk_it\in\M\otimes_\C\M$.
+One may obtain these denominators from an affiliated row $G$ and column $B$ as $(1+GG^*)^{-1/2}$ and $(1+B^*B)^{-1/2}$.
+For algebraic $L^2$ tensors,
+\begin{equation}\label{eq:psi-theta}
+ [\rho(X_i),\Theta(k)]=\Theta(\Psi_i(k)).
+\end{equation}
+Thus a zero sum of the $\Psi_i(k_i)$ gives a finite-rank cycle after clearing.
+Equation~\eqref{eq:cycles} makes every cleared tensor zero, and invertibility of $s,t$ in $U$ gives uniqueness.
+
+For the fraction assertion, clear $u$ as well as all the tensor legs in \eqref{eq:affiliated-tensor}, put $a:=su$, $b:=ut$, and take $T_i:=\Theta(sk_it)$.
+Then
+\[
+ \sum_i\Psi_i(sk_it)=a\otimes t-s\otimes b,
+\]
+which gives \eqref{eq:boundary} by \eqref{eq:psi-theta}.
+Conversely, represent each finite-rank $T_i$ by an algebraic $L^2$ tensor, include those tensors in $U\otimes_\C U$, and divide the resulting identity on the left by $s$ and on the right by $t$.
+This gives \eqref{eq:affiliated-tensor}.
+Uniqueness at fixed $Q$ also follows by subtracting two solutions in \eqref{eq:boundary} and using \eqref{eq:cycles}.
+\end{proof}
+
+The next argument explains why the specified duals realize the certificate at every fraction under the stronger domain hypotheses.
+We give the algebraic fraction calculations before using normality.
+Let $E_i$ be operators defined on $\M\Omega$, with $\M\Omega\subseteq\Dom E_i^*$ and $[E_i,X_j]=\delta_{ij}P_\Omega$ there.
+For a fraction $Q$ put
+\[
+ K_i^Qz:=sE_i(bz)-aE_i(tz),\qquad z\in\M\Omega.
+\]
+Its adjoint is defined on $\M\Omega$ by testing against
+\begin{equation}\label{eq:fraction-adjoint}
+ b^*E_i^*(s^*w)-t^*E_i^*(a^*w).
+\end{equation}
+Consequently $K_i^Q$ is closable.
+A densely defined closable finite-rank operator has a bounded finite-rank closure of the same rank \cite[Problem~III.5.18]{Kat95}.
+
+For two fractions of the same $u$, choose bounded regular common left and right multiples
+\[
+ xs=ys_1,\qquad tx'=t_1y'.
+\]
+Such multiples exist by expressing $ss_1^{-1}$ as a bounded left fraction and $t^{-1}t_1$ as a bounded right fraction; the auxiliary numerators are regular because these ratios are units of $U$.
+The fraction identities give $xa=ya_1$, $bx'=b_1y'$, whence
+\begin{equation}\label{eq:common-defect}
+ yK_i^{Q_1}(y'z)=xK_i^Q(x'z)\qquad(z\in\M\Omega).
+\end{equation}
+Finite rank can be cancelled through a bounded injective left multiplier and a bounded regular right input multiplier.
+Indeed, the latter sends $\M\Omega$ to a dense subspace of $H$; the restriction of a closable operator to this subspace, if finite rank, has a bounded closure on all $H$.
+Its graph is contained in the original closed graph, forcing the same bounded extension and finite rank for the original restriction.
+The numerical ranks agree by density and injectivity.
+Thus finite rank and its value in each coordinate are independent of the chosen fraction.
+
+The class of elements whose $K_i^Q$ are all finite rank is a unital complex algebra closed under affiliated inverses.
+Addition uses common left and right denominators and adds the defects.
+For multiplication, write $u_l=s_l^{-1}a_l=b_lt_l^{-1}$ and choose
+\[
+ a_1s_2^{-1}=x^{-1}y,\qquad t_1^{-1}b_2=pq^{-1},
+\]
+with $x,q$ regular; no regularity of $y,p$ is needed.
+A fraction for $u_1u_2$ is $(xs_1,ya_2,b_1p,t_2q)$ and its defect is
+\[
+ xK_i^{Q_1}(pz)+yK_i^{Q_2}(qz).
+\]
+The two middle terms cancel because $xa_1=ys_2$ and $t_1p=b_2q$.
+For an invertible $u$, the inverse fraction $(a,s,t,b)$ has defect $-K_i^Q$.
+Finally the generator fractions have defects $[E_i,X_j]=\delta_{ij}P_\Omega$.
+We have proved that every $u\in\mathcal D_X$ has finite-rank defects at every bounded regular fraction.
+
+\begin{lemma}\label{lem:fundamental}
+Suppose the $X_j$ are bounded normal operators generating $\M$ and the $E_i$ satisfy the domain and commutator hypotheses just used.
+If the $K_i^Q$ have bounded extensions, then these extensions satisfy \eqref{eq:boundary}.
+\end{lemma}
+\begin{proof}
+The closed graph theorem for their closures restricted to $\M$ makes the $E_i$ bounded $\M\to H$.
+Their densely defined adjoints imply weak continuity on operator-norm-bounded sets that converge in $L^2$: test first against the adjoint domain and then use boundedness and density.
+Define on $\M\Omega$
+\[
+ C_0:=\sum_i(\rho(X_i)E_i-E_i\rho(X_i))+P_\Omega.
+\]
+This map is bounded $\M\to H$ and has the same bounded-set weak continuity.
+The generator commutators and traciality give $C_0X_j=X_jC_0$.
+The homogeneous argument in Lemma~\ref{lem:commutation} gives commutation with every $X_j^*$.
+Kaplansky approximation and bounded-set weak continuity therefore give $C_0(az)=aC_0z$ for all $a,z\in\M$.
+Since $sb=at$, direct expansion yields
+\[
+ \sum_i[\rho(X_i),K_i^Q]z
+ =s(C_0-P_\Omega)(bz)-a(C_0-P_\Omega)(tz)
+ =(aP_\Omega t-sP_\Omega b)z.
+\]
+Both sides are bounded and agree on the dense subspace $\M\Omega$, proving the identity.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:rational}]
+Theorem~\ref{thm:normal} supplies the required actual domains for $E_i:=-D_i$ and their adjoints.
+Maximal $\Delta$ follows either from \cite[Proposition~3.5]{ACSY24} or Proposition~\ref{prop:bare-maximal}.
+Proposition~\ref{prop:intrinsic} proves the equivalence of items~1 and~2.
+The fraction algebra just proved gives item~4 from item~1.
+Item~4 implies item~3.
+Under item~3, closability gives bounded finite-rank extensions; Lemma~\ref{lem:fundamental} and Proposition~\ref{prop:intrinsic} give item~1.
+This also proves the realization $T_i=-\overline{\Gamma[Q,D_i]}$ and uniqueness at a fixed fraction.
+
+We check the full natural domains in the statement.
+For a bounded representative $K_i$ agreeing on $\M\Omega$, test its adjoint against $w\in\M\Omega$ using \eqref{eq:fraction-adjoint}.
+Density identifies that vector with $K_i^*w$.
+The same pairing against any $v$ in the natural fraction domain gives $\Gamma[Q,D_i]v=-K_iv$.
+Thus the equality holds on the entire natural domain.
+Conversely, finite rank there restricts to finite rank on $\M\Omega$.
+All these natural domains are dense because they contain $\M\Omega$.
+Fraction independence and equality of numerical ranks follow from \eqref{eq:common-defect}.
+
+For a supplied strong system, put $\eta_i:=D_i\Omega$.
+The normalized map $-D_i(a\Omega)+a\eta_i$ has adjoint values $-D_i^*(a\Omega)+a\eta_i^*$ on $\M\Omega$, and is therefore closable.
+It agrees on the star core with the canonical right slice by the proof of $\mathsf S\Rightarrow\mathsf A$.
+The canonical closure is contained in its closure, and both are defined on $\M\Omega$ by Theorem~\ref{thm:normal}; hence there
+\[
+ D_i^{\rm can}(a\Omega)=D_i(a\Omega)-a\eta_i.
+\]
+The normalization cancels in each fraction expression because $sb=at$.
+Both fraction expressions are closable by the adjoint test, even if their natural domains differ.
+If either is finite rank, its bounded closure is determined by the common dense restriction to $\M\Omega$.
+The other closed graph contains this everywhere-defined bounded graph and hence equals it.
+This proves the final assertion without identifying the two unclosed domains.
+\end{proof}
+
+\begin{remark}\label{rem:some-every}
+The boundary certificate in Proposition~\ref{prop:intrinsic} quantifies over some fraction.
+Maximal $\Delta$ alone does not guarantee a certificate at every prescribed fraction.
+For example, let $h$ be uniform on $(0,1)$, let $S$ be a standard semicircular operator free from $h$, and put $Y=hSh$.
+The pair $(h,Y)$ has maximal $\Delta$: writing $R=\rho(h)$, $B=\rho(S)$, use
+\[
+ [RBR,T]=[R,BRT+TRB]+[B,RTR]
+\]
+to transfer any finite-rank cycle to the free diffuse pair $(h,S)$, which has maximal $\Delta$ by \cite[Section~6]{MSY23}.
+The element $S=h^{-1}Yh^{-1}$ is rational.
+For its trivial fraction a certificate would force $RT_YR=P_\Omega$ by maximality of $(h,S)$.
+Applying this to $\Omega$ would require an $L^2$ vector $v$ with $hv=1$, whereas $h^{-1}\notin L^2(0,1)$.
+At the fraction $(h,hS,Sh,h)$, the operators
+\[
+ T_Y=P_\Omega,\qquad T_h=-P_\Omega Sh-hSP_\Omega
+\]
+do satisfy the boundary equation.
+The same obstruction precludes a full-domain dual at $Y$, since $[E,h]=0$ and $[E,hSh]=P_\Omega$ would give $h(E(Sh)-SE(h))=1$.
+Thus this example does not meet the additional hypotheses of Theorem~\ref{thm:rational}.
+\end{remark}

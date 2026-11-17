@@ -1,0 +1,228 @@
+\section{Nonnormal generators and the limits of the comparison}\label{sec:examples}
+We first record an automatic-continuity fact used to exclude every algebraic full-domain system in the first separation.
+
+\begin{lemma}\label{lem:automatic}
+Let $x\in\M$ be a bounded normal operator and $E:\M\Omega\to H$ a complex-linear map satisfying $[E,x]=P_\Omega$.
+Then $E$ is bounded from the operator norm on $\M$ to $H$.
+No adjoint or closability hypothesis on $E$ is required.
+\end{lemma}
+\begin{proof}
+The spectral-atom argument in Lemma~\ref{lem:commutation} gives a diffuse law.
+On the Banach space $H\oplus\M$, put
+\[
+ R:=\begin{pmatrix}N&P_\Omega|_\M\\0&T\end{pmatrix},\qquad
+ N:=\lambda(x)|_H,\quad T(a):=xa,\quad J(a):=(Ea,a).
+\]
+The dual identity is $RJ=JT$.
+We verify the automatic-intertwining hypotheses of \cite[Proposition~3.7 and Theorem~4.1]{Lau88}.
+For a smooth function $\phi$ on a neighborhood of $\sigma(x)$, define
+\[
+ \Phi(\phi):=
+ \begin{pmatrix}\phi(N)&\Gamma_\phi|_\M\\0&L_{\phi(x)}\end{pmatrix},\qquad
+ \Gamma_\phi:=\iint\frac{\phi(z)-\phi(w)}{z-w}\,dE_x(z)P_\Omega\,dE_x(w).
+\]
+The integral is Hilbert--Schmidt, with norm bounded by the Lipschitz norm on a fixed compact neighborhood.
+Its product-null diagonal causes no ambiguity.
+The divided-difference product rule gives a multiplicative calculus with $\Phi(1)=1$ and $\Phi(z)=R$.
+Given a finite open spectral cover, a smooth partition of unity supplies commuting splitting maps whose closed ranges are $R$-invariant and have spectra inside the corresponding members of the cover.
+For the spectral containment, multiply a cutoff by a smooth local reciprocal $(z-\lambda)^{-1}$ outside its compact support.
+This is the super-decomposability condition used in the cited proposition.
+The operator $T$ is decomposable, by its left spectral projections on $\M$.
+
+There is no nonzero algebraically divisible subspace for $N$.
+Indeed, a vector $v$ in such a subspace belongs to $\Ran(N-\lambda)^2$ for every $\lambda$, so its spectral measure satisfies $I_v(\lambda):=\int|z-\lambda|^{-4}\dd\nu_v(z)<\infty$ everywhere.
+If $\nu_v\ne0$, some set $A_n:=\{I_v\le n\}$ has positive $\nu_v$ measure.
+For centers in $A_n$, $\nu_v(B(\lambda,r))\le nr^4$.
+A grid covers bounded $A_n$ by $O(r^{-2})$ disks of radius $O(r)$ centered in $A_n$, forcing $\nu_v(A_n)\le cnr^2$, a contradiction.
+The inclusion $\M\hookrightarrow H$ rules out divisible subspaces for $T$ as well.
+Projecting a putative $R$-divisible subspace to its second coordinate and then its first rules it out for $R$.
+By \cite[Proposition~3.7]{Lau88}, its algebraic spectral subspaces for closed sets are closed.
+Both $R$ and $T$ have no eigenvalues, so there are no critical eigenvalues for this pair.
+The intertwining theorem \cite[Theorem~4.1]{Lau88} therefore makes $J$ continuous.
+Its first component is $E$.
+\end{proof}
+
+\subsection{Conjugate variables without any algebraic full-domain system}
+For a bounded single generator $T$ define
+\[
+ \beta(T):=\inf\{\|E\|_{\M\to H}:[E,T]=P_\Omega\text{ on }\M\Omega\},
+\]
+with infinite value if there is no bounded witness.
+The value $E\Omega$ is unrestricted.
+Let $G:=\langle u,s\mid s^2=1\rangle=\mathbb Z*\mathbb Z_2$ and work in its group von Neumann algebra with the identity trace.
+For $0<\varepsilon\le1/2$, put
+\[
+ p:=(1+s)/2,\quad q:=1-p,\quad h:=\varepsilon p+q,\quad T:=uh.
+\]
+Since $T^*T=\varepsilon^2p+q$, its represented star algebra contains $p,s,h^{-1}$ and $u=Th^{-1}$ and is exactly $\C G$.
+In particular $T$ generates the algebra and has norm one.
+Writing $t:=usu^{-1}$, prescribe
+\begin{equation}\label{eq:group-derivative}
+ \delta u=1\otimes q+\varepsilon^{-1}t\otimes p,
+ \qquad \delta p=-\frac2{1-\varepsilon}qu^{-1}\otimes p,
+ \qquad \delta(u^{-1})=-u^{-1}(\delta u)u^{-1}.
+\end{equation}
+The prescriptions respect $s^2=1$ and both inverse relations, so they define an outer derivation on the reduced group words.
+They give $\delta T=1\otimes1$.
+Its actual vacuum is
+\begin{equation}\label{eq:group-vacuum}
+ \xi=\tfrac12u-\left(\tfrac12+\frac1{1-\varepsilon}\right)us,
+ \qquad \|\xi\|_2^2\le13/2.
+\end{equation}
+Here is a check on all words.
+For a marked positive $u$ cut, the term $t\otimes p$ would require a prefix ending in $u^{-1}$, which cannot precede $u$ in a reduced word.
+The term $1\otimes q$ contributes $1/2$ at $u$ and $-1/2$ at $us$.
+For a negative $u^{-1}$ cut, a nonzero double trace would require a suffix starting in $u$, which is likewise impossible.
+For an $s$ cut, expand $\delta s=-(u^{-1}-su^{-1})\otimes(1+s)/(1-\varepsilon)$.
+All cuts except the prefix $u$ and empty suffix would force adjacent $ss$; that cut contributes $-1/(1-\varepsilon)$ at $us$.
+This exhausts every marked occurrence in every reduced word and proves the actual pairing in \eqref{eq:group-vacuum}.
+
+For any bounded witness $E$, let $f:=upu^{-1}$.
+Then $\|Tp\|=\|fT\|=\varepsilon$ and $\tau(f)=\tau(p)=1/2$.
+Evaluating the commutator at $p$ and multiplying by $f$ gives
+\begin{equation}\label{eq:dual-cost}
+ \frac1{2\sqrt2}=\|\tau(p)f\|_2
+ \le\|fE(Tp)\|_2+\|fTE(p)\|_2
+ \le2\varepsilon\|E\|_{\M\to H}.
+\end{equation}
+Thus $\beta(T)\ge1/(4\sqrt2\varepsilon)$, uniformly over all witnesses.
+
+We now assemble these increasing costs into a single actual law.
+Choose a sequence $T_n$ of the above examples for which
+\[
+ \beta(T_n)/(1+\|\xi_n\|_2)\ge4^n,
+\]
+and let $K_n:=\delta_n(T_n^*)$.
+Choose positive weights $t_n$ so small that
+\[
+ t_n\le2^{-3n-4},\qquad t_n\|K_n\|_2\le2^{-n},\qquad
+ r_n:=2^nt_n^{3/2}(1+\|\xi_n\|_2)\le2^{-n-4}.
+\]
+Put $t_0:=1-\sum_{n\ge1}t_n>0$ and use a fixed norm-one semicircular input at index zero.
+In the product algebra $\M:=\prod_{n\ge0}\M_n$ with trace $\tau:=\sum_nt_n\tau_n$, set
+\[
+ X_n:=2^{-n}1_n+r_nT_n\ (n\ge1),\qquad
+ X_0:=2\cdot1_0+\tfrac1{16}T_0,\qquad X:=(X_n)_n.
+\]
+The disjoint spectral disks recover each component unit by a contour integral.
+Uniform Neumann resolvent bounds outside their closed union justify this calculus in the product algebra.
+Thus $X$ is bounded and generates $\M$.
+
+On an evaluated star polynomial define the diagonal coarse block of $\delta p(X)$ to be $r_n^{-1}\delta_n(p(X_n))$; use $r_0=1/16$ at zero.
+The diagonal generator values are $1_n\otimes1_n$ at $X$ and $K_n$ at $X^*$, and they are square summable with weights $t_n^2$.
+The diagonal vacuum has component $t_n\xi_n/r_n$ and finite squared norm, since
+\[
+ \sum_{n\ge1}\frac{t_n^3}{r_n^2}\|\xi_n\|_2^2\le\sum_{n\ge1}4^{-n}.
+\]
+On each mixed coarse block choose $k_{ab}$ solving
+\[
+ X_ak_{ab}-k_{ab}X_b=1_a\otimes1_b\qquad(a\ne b).
+\]
+The separated centers and $r_a+r_b\le|\lambda_a-\lambda_b|/2$ give a Neumann solution with
+\[
+ \|k_{ab}\|_2\le\frac{2\sqrt{t_at_b}}{|\lambda_a-\lambda_b|},
+ \qquad \sum_{a\ne b}\|k_{ab}\|_2^2<\infty,
+\]
+where $\lambda_n=2^{-n}$ for $n\ge1$ and $\lambda_0=2$.
+Let $k$ be this direct sum and prescribe the mixed derivative by $p\mapsto p(X)k-kp(X)$.
+It has actual vacuum norm at most $2\|k\|_2$.
+Combining the diagonal and mixed blocks gives a well-defined represented derivation with $\delta X=1\otimes1$ and actual $L^2$ vacuum.
+Consequently $\mathsf A(X)$ holds.
+
+No bounded witness at $X$ exists.
+Indeed, compress any $E:\M\to H$ to input and output corner $n$, measured in normalized norms, and call it $B_n$.
+The corner relation gives $[B_n,T_n]=(t_n/r_n)P_{1_n}$.
+Independent signs on finitely many corner inputs of norm at most one give
+\[
+ \|E\|^2\ge\sum_nt_n\|B_n\|^2
+ \ge\sum_{n\ge1}\frac{t_n^3}{r_n^2}\beta(T_n)^2
+ =\sum_{n\ge1}4^{-n}\frac{\beta(T_n)^2}{(1+\|\xi_n\|_2)^2}=\infty.
+\]
+The sign average cancels the cross terms and therefore also controls witnesses with arbitrary off-diagonal blocks.
+
+Freely adjoin a standard semicircular operator $s_0$ and consider the pair $(X,s_0)$.
+The old derivation extends by zero on $s_0$, preserving its actual vacuum by the centered reduced-word calculation.
+The semicircular difference quotient extends by zero on the old algebra, with actual vacuum $s_0$.
+Thus the pair satisfies $\mathsf A$.
+If it had an algebraic system, change signs to maps $E_X,E_s$ with the operator-first convention.
+Both $E_s$ and $E_s+E_X$ have commutator $P_\Omega$ with the normal operator $s_0$.
+Lemma~\ref{lem:automatic} makes both bounded for the operator norm, hence $E_X$ bounded.
+Restriction to the old algebra and conditional expectation onto its $L^2$ space would give a bounded witness at $X$, a contradiction.
+This excludes all algebraic full-domain systems and proves the first separation in Theorem~\ref{thm:general}.
+
+\subsection{A bounded strong dual without a starred derivation}
+Let
+\[
+ d\mu(s):=\pi^{-1}\sqrt{4-s^2}\,1_{(0,2)}(s)\,ds,
+ \qquad\M:=M_2(L^\infty((0,2),\mu)),
+ \qquad\tau(a):=\tfrac12\int\Tr_2(a(s))\dd\mu(s).
+\]
+Put
+\[
+ J_0:=\begin{pmatrix}1&0\\0&-1\end{pmatrix},\quad
+ h:=\begin{pmatrix}1&-1/2\\0&1\end{pmatrix},\quad
+ K:=hJ_0h^{-1}=\begin{pmatrix}1&1\\0&-1\end{pmatrix},
+ \qquad Y:=sJ_0,\quad X:=sK.
+\]
+The bounded nonnormal operator $X$ generates $\M$.
+Indeed, $X^2=s^2I_2$ recovers the scalar center and bounded truncations of $s^{-1}X$ recover $K$.
+With $q:=(K+I_2)/2$ one has $e_{11}=4qq^*/5$, $e_{12}=2(q-e_{11})$, and hence all constant matrix units.
+
+The operator $Y$ has the standard semicircle law, by integrating $f(s)$ and $f(-s)$ with weight $1/2$.
+On $L^2(W^*(Y))$ its polynomial basis identifies $Y$ with $\ell+\ell^*$ and gives $[\ell^*,Y]=P_\Omega$ \cite{Miy22}.
+This subspace reduces $Y$; extend $\ell^*$ by zero on its orthogonal complement to obtain $E_Y\in\mathcal B(H)$ with the same commutator on all $H$.
+The bounded invertible map $W(a\Omega):=hah^{-1}\Omega$ intertwines $Y$ and $X$.
+It fixes $\Omega$ and preserves the vacuum functional by traciality, so $WP_\Omega W^{-1}=P_\Omega$.
+Consequently $D:=-WE_YW^{-1}$ is bounded on all $H$ and satisfies $[X,D]=P_\Omega$.
+It witnesses $\mathsf S(X)$.
+
+Suppose, on the other hand, that an outer derivation on $\C\langle X,X^*\rangle$ with $\delta X=1\otimes1$ existed, and put $\beta:=\delta X^*$.
+Differentiate the represented relation $[X^2,X^*]=0$ to obtain
+\[
+ (X^2\otimes1-1\otimes X^2)\beta
+ =X^*\delta(X^2)-\delta(X^2)X^*,\qquad
+ \delta(X^2)=X\otimes1+1\otimes X.
+\]
+In the two scalar coordinates $s,t$, this says
+\[
+ (s^2-t^2)\beta(s,t)
+ =s^2K^*K\otimes I_2+stK^*\otimes K-stK\otimes K^*-t^2I_2\otimes KK^*.
+\]
+Extracting the $e_{21}\otimes e_{11}$ coefficient gives $(s^2-t^2)b(s,t)=s(s+t)$, and hence $b(s,t)=s/(s-t)$ almost everywhere.
+This function is not in $L^2(\mu\otimes\mu)$, since the density is bounded below on $[1/2,1]^2$.
+Coefficient extraction is bounded on the finite-dimensional matrix tensor factor, contradicting $\beta\in H\bar\otimes H$.
+This excludes every normalized starred Hilbert-valued derivation before any vacuum condition is imposed.
+Together with Proposition~\ref{prop:bare-maximal} and \cite[Proposition~3.5]{ACSY24}, it completes Theorem~\ref{thm:general}.
+
+\subsection{The circular obstruction to the rationality criterion}
+On the full Fock space over $\C^2$, let $S_j=\ell_j+\ell_j^*$ be the standard free semicircular pair and $r_j$ the right creation operators.
+The word basis gives $[r_i^*,S_j]=\delta_{ij}P_\Omega$.
+Set
+\[
+ c:=(S_1+iS_2)/\sqrt2,\qquad
+ E:=(r_1^*-ir_2^*)/\sqrt2,\qquad D:=-E.
+\]
+Then $[E,c]=P_\Omega$, $[E,c^*]=0$ and $E\Omega=0$.
+For $p\in\C\langle c,c^*\rangle$ the formula $\delta p:=\Theta^{-1}([E,p])$ is a represented outer derivation, with $\delta c=1\otimes1$ and $\delta c^*=0$.
+Moreover
+\[
+ \langle1\otimes1,\delta p\rangle=\langle E^*\Omega,p\Omega\rangle,
+ \qquad E^*\Omega=c\Omega.
+\]
+Thus $\mathsf A(c)$ holds, and its canonical right-slice closure is exactly the bounded operator $E$.
+The same $D$ witnesses $\mathsf S(c)$.
+
+The affiliated centralizer $\{v\in L^0(\M):vc=cv\}$ is a unital subalgebra closed under taking affiliated inverses.
+It contains $\C[c]$ and therefore its division closure.
+But
+\[
+ (cc^*-c^*c)\Omega=i(e_2\otimes e_1-e_1\otimes e_2)\ne0,
+\]
+so $c^*$ is not rational in $c$.
+For every bounded regular fraction $Q=(s,a,b,t)$ of $u=c^*$, however,
+\[
+ \Gamma[Q,D]=sDut-suDt=s[D,u]t=0
+\]
+on all of $H$.
+This example satisfies $\mathsf A$, $\mathsf S$ and maximal $\Delta(c)=1$.
+It separates the specified fraction criterion from holomorphic rationality when normality is removed; it does not separate the two existence hypotheses.
