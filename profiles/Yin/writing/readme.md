@@ -27,9 +27,9 @@ Check the revised source, references and compilation diagnostics as appropriate 
 
 Scope: Yin's manuscript abstracts.
 
-Keep abstracts as concise as possible and focus on the key information: the central problem and principal results.
-Omit secondary technical details and explanatory qualifications that are unnecessary for understanding those results.
-Retain assumptions needed for an accurate statement, and leave further technical detail to the introduction or body.
+Keep abstracts concise and focus on the central problem, essential ideas and principal results.
+An abstract need not enumerate all technical hypotheses or explanatory qualifications.
+Include conditions that determine the essential scope of the contribution, and leave secondary technical details to the introduction or body.
 
 ## Manuscript PDF Tracking
 
@@ -63,9 +63,11 @@ Local notation explanations and short comments directly accompanying a formula m
 
 Scope: Yin's manuscript writing.
 
-Keep proofs concise and clear while emphasizing readability: a human reader should be able to follow the logical chain easily.
+Keep proofs precise, correct and easy to read, so that a human reader can follow the logical chain and recognize its key steps.
 Explain the purpose of a construction and the reason for a consequential inference where these would otherwise be implicit.
 Use short transitions and well-placed formulas to connect the steps; do not compress away logical links or add routine calculations that obscure the argument.
+Use symbols, displayed formulas and explicit constructions to present substantive steps when they make the argument easier to follow than a brief prose description.
+Retain auxiliary notation and intermediate calculations when they help the reader see the main idea; concision alone is not a reason to remove them.
 
 Set the level of detail by what the intended reader needs to understand and verify the argument.
 A technical fact's use in the reasoning does not by itself require a separate full statement and proof in the manuscript.

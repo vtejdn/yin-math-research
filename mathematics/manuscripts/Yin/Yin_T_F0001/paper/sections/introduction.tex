@@ -35,8 +35,11 @@ Throughout the paper, $(\M,\tau)$ is a tracial $W^*$-probability space, that is,
 Let $X=(X_1,\ldots,X_d)\in\M^d$, with $d\geq1$.
 Put $H:=L^2(\M,\tau)$ and $\Omega:=1$.
 Inner products on $H$ are linear in the second variable, and we identify elements of $\M$ with left multiplication on $H$.
-The condition $\Delta(X)=d$ means that there are no nonzero finite-rank operators $T_i\in\F(H)$ such that
-\[\sum_i[\rho(X_i),T_i]=0;\]
+The condition $\Delta(X)=d$ means that, for $T_1,\ldots,T_d\in\F(H)$,
+\[
+ \sum_{i=1}^d[\rho(X_i),T_i]=0
+ \quad\Longrightarrow\quad T_1=\cdots=T_d=0;
+\]
 see Section~\ref{subsec:delta-tensor-maps} for details.
 Here $\rho(X_i)$ denotes the right multiplication operator by $X_i$ on $H$.
 
@@ -147,7 +150,7 @@ Condition~\textup{(\ref{item:delta-finite-rank})} in Theorem~\ref{thm:delta} req
 The next theorem gives a rationality criterion that is valid for every fraction pair.
 That is, \eqref{eq:certificate} admits a finite-rank solution either for every fraction pair or for none.
 
-To formulate this analytic criterion, we write $\M\Omega:=\{x\Omega:x\in\M\}\subset H$.
+To formulate this analytic criterion, we use the dense subspace $\M\Omega:=\{x\Omega:x\in\M\}$ of $H$.
 We use the following variant of the (liberation) dual systems in \cite[Definition~13.1]{Voi99}.
 \begin{definition}\label{def:liberation-dual-system}
 Let $X=(X_1,\ldots,X_d)\in\M^d$.
@@ -256,6 +259,7 @@ Theorem~\ref{thm:analytic} therefore recovers the criteria of Duchamp and Reuten
 Section~\ref{sec:preliminaries} collects the algebraic preliminaries on division closures and the free field, followed by fractions of affiliated operators, finite-rank tensor realizations and the consequences of maximal $\Delta$.
 Section~\ref{sec:maximal-delta} proves Theorem~\ref{thm:delta} using denominator clearing and the tensor realization of finite-rank operators.
 Section~\ref{sec:liberation-dual-system-criterion} proves that liberation dual systems give maximal $\Delta$ when every $X_i-\lambda$ is regular, and establishes Theorem~\ref{thm:intrinsic-analytic} by recovering algebraic $L^2$ tensors.
-Section~\ref{sec:dual-system-criterion} proves independence of the fraction pair, identifies finite-rank certificates with fraction-commutator closures and constructs normalized liberation dual systems from dual systems.
+Section~\ref{sec:dual-system-criterion} proves that, for each $i$, the condition $\overline{\Gamma[Q,D_i]}\in\F(H)$ and the rank in that case are independent of the fraction pair $Q$.
+It identifies the finite-rank solutions of equation~\eqref{eq:certificate} as the tuples $(\overline{\Gamma[Q,D_i]})_{i=1}^d$, and constructs normalized liberation dual systems from dual systems.
 It then deduces Theorem~\ref{thm:analytic} directly from Theorem~\ref{thm:intrinsic-analytic}.
 Section~\ref{sec:examples} gives an arcsine example distinguishing the two analytic hypotheses and a circular example illustrating the role of normality in Theorem~\ref{thm:analytic}.
