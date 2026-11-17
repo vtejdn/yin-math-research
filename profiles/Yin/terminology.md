@@ -48,6 +48,9 @@ When adapting sources with $[D_i,X_j]=\delta_{ij}P_\Omega$, negate their dual op
 Keep boundedness, selfadjointness and domain assumptions explicit: adopting the sign convention does not identify an unbounded-domain extension with either source's bounded definition.
 Preserve original source quotations and fixed inspection records.
 
+<a id="liberation-derivation-notation"></a>
+Use $\delta_i$ rather than $\gamma_i$ for liberation derivations in Yin's free-probability writing, with $\delta_i^\circ$ for their restrictions to specified polynomial domains.
+
 For Hochschild chain differentials in Yin's free-probability writing, follow the $d$ notation of Wei94 Section 9.1.1 and write $d_n$ for its degree-n component, in particular $d_1$ in degree one.
 Keep the face maps $\partial_i$ distinct from the alternating-sum differential.
 This is the selected notation for this scope, not a claim that Wei94 uses $d$ exclusively: Section 9.6.5 also uses $b$.

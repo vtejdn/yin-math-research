@@ -101,9 +101,9 @@ Its converse needs only the specified fraction pair; propagation between pairs i
 
 Section 5 first treats liberation gradients and then derives the ordinary conjugate-variable case.
 Definition 5.1, `def:liberation-gradients`, uses the represented derivations on each full algebra \(\mathcal P_i=\operatorname{Alg}(W^*(X_i),W^*(X_j:j\ne i))\).
-It explicitly requires well-definedness and the actual Hilbert-adjoint condition, with \(j_i=-\gamma_i^*(1\otimes1)\).
-Lemma 5.2, `lem:gradient-liberation`, uses \(\delta_i=\mathrm i\gamma_i\) and proves the energy estimate with its nonzero coassociativity defect.
-Analytic polynomial approximation of unitaries and closedness of \(\overline{\delta_i}\) give an operator-norm-to-L2 bound for the contraction.
+It explicitly requires well-definedness and the actual Hilbert-adjoint condition, with \(j_i=-\delta_i^*(1\otimes1)\).
+Lemma 5.2, `lem:gradient-liberation`, uses \(\widehat\delta_i=\mathrm i\delta_i\) and proves the energy estimate with its nonzero coassociativity defect.
+Analytic polynomial approximation of unitaries and closedness of \(\overline{\widehat\delta_i}\) give an operator-norm-to-L2 bound for the contraction.
 The core adjoint formula supplies the corresponding adjoint bound.
 Kaplansky approximation and weakly closed graphs put \(\mathcal M\Omega\) in both domains of the actual closure \(C_i=\overline{C_i^\circ}\).
 Graph-core approximation extends the generator relation, and \(L_i=\mathrm i C_i\) is a liberation dual system.
@@ -117,7 +117,7 @@ The normal-adjoint kernel and Lemma 5.5, `lem:normal-adjoint-uniqueness`, retain
 Lemma 5.6, `lem:conjugate-liberation`, assumes normal generators admitting conjugate variables in the sense of Definition 5.4.
 It proves nonatomicity directly from closability of the conjugate derivations, using the retained Neumann-series domain check and a spectral limit in the graph of each closed derivation.
 It does not use maximal Delta or the free-field embedding.
-The polynomial derivation \(\gamma_i^\circ=\Psi_i\partial_i\) has the actual adjoint vector \([X_i^*,\xi_i]\), giving \(j_i=[\xi_i,X_i^*]\).
+The polynomial derivation \(\delta_i^\circ=\Psi_i\partial_i\) has the actual adjoint vector \([X_i^*,\xi_i]\), giving \(j_i=[\xi_i,X_i^*]\).
 Voiculescu's word-moment formula and bounded Kaplansky approximation extend this identity to the coordinate von Neumann algebras.
 Testing formal relations against products \(urv\) proves that the derivation descends to \(\mathcal P_i\), where the L2 moment identity establishes the actual adjoint condition.
 Thus Proposition 5.3 applies.

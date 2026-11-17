@@ -19,6 +19,15 @@ Run from this document directory with TeX Live, pdfLaTeX and BibTeX available:
 latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 ```
 
+The following in-directory sequence is also tested with MiKTeX and disables automatic package installation:
+
+```powershell
+pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex
+bibtex main
+pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex
+pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex
+```
+
 The document uses `amsart`, `fontenc`, `lmodern`, `amsmath`, `amssymb`, `mathtools`, `geometry`, `microtype`, `needspace` and `hyperref`.
 The bibliography style is `amsalpha`.
 Build products stay in this document directory.
@@ -26,8 +35,8 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The in-directory build succeeded on 2026-11-14 with `latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex`.
-It used TeX Live 2026, pdfLaTeX 1.40.29, BibTeX 0.99e and latexmk 4.88, producing a 24-page PDF of 483005 bytes.
+The in-directory MiKTeX sequence above succeeded on 2026-11-17 with the current sources.
+It used MiKTeX 25.4, pdfLaTeX 1.40.27 and BibTeX 0.99d, producing a 24-page PDF of 576339 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
 Lemma 4.3 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
@@ -47,7 +56,7 @@ The proof of Theorem 1.9 now uses the certificate criterion in Corollary 5.7, Le
 All existing mathematical environments and semantic labels remain present.
 
 The final log contains no compilation errors, undefined citations or references, duplicate-label warnings, or overfull or underfull boxes.
-The build command reported the locale fallback, and the final log retains a font-expansion warning.
+The final log contains no warnings or missing-character diagnostics.
 The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed for this build.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).

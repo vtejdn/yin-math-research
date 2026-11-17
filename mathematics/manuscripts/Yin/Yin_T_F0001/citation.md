@@ -197,8 +197,8 @@ Source evidence: [Mai15-U001](../../../audits/literature/Mai15/Yin_U001.md#mai15
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:conjugate-liberation` proof | `\cite[Lemma~4.3]{Mai15}` | Supplies the actual polynomial tensor-adjoint formula yielding \((\gamma_i^\circ)^*(1\otimes1)=[X_i^*,\xi_i]\) for \(\gamma_i^\circ=\Psi_i\partial_i\). No reality of \(\partial_i\) is assumed. |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:gradient-liberation` proof | `\cite[Lemmas~4.6--4.7]{Mai15}` | Supplies the real-adjoint and dense tensor-adjoint-domain identities for \(\delta_i=\mathrm i\gamma_i\), after reality is established on \(A_i,B_i\). These imply closability and the actual core-adjoint formula; the energy estimate and both full bounded-vector domain extensions are proved locally. |
+| `paper/sections/conjugate-variable-criterion.tex`, `lem:conjugate-liberation` proof | `\cite[Lemma~4.3]{Mai15}` | Supplies the actual polynomial tensor-adjoint formula yielding \((\delta_i^\circ)^*(1\otimes1)=[X_i^*,\xi_i]\) for \(\delta_i^\circ=\Psi_i\partial_i\). No reality of \(\partial_i\) is assumed. |
+| `paper/sections/conjugate-variable-criterion.tex`, `lem:gradient-liberation` proof | `\cite[Lemmas~4.6--4.7]{Mai15}` | Supplies the real-adjoint and dense tensor-adjoint-domain identities for \(\widehat\delta_i=\mathrm i\delta_i\), after reality is established on \(A_i,B_i\). These imply closability and the actual core-adjoint formula; the energy estimate and both full bounded-vector domain extensions are proved locally. |
 
 ## `Miy22`
 
@@ -260,7 +260,7 @@ Source evidence: [Wei94-U001](../../../audits/literature/Wei94/Yin_U001.md#wei94
 ## `Voi99`
 
 Source evidence: [Voi99-U001](../../../audits/literature/Voi99/Yin_U001.md#voi99-u001) checks the published Section 13, pp.160–161, including Definition 13.1 and the bounded selfadjoint commutation conditions.
-The [gradient and adjoint unit](../../../audits/literature/Voi99/Yin_U003.md#voi99-u003) checks 5.3--5.5 and Proposition 6.1, including the word-moment extension to von Neumann closures and the sign \(\gamma_i^*(1\otimes1)=-j_i\).
+The [gradient and adjoint unit](../../../audits/literature/Voi99/Yin_U003.md#voi99-u003) checks 5.3--5.5 and Proposition 6.1, including the word-moment extension to von Neumann closures and the sign \(\delta_i^*(1\otimes1)=-j_i\).
 The [information unit](../../../audits/literature/Voi99/Yin_U004.md#voi99-u004) checks Definition 9.1 and its finite-coordinate norm convention.
 The [source edition note](../../../audits/literature/Voi99/readme.md#yin-edition) identifies the inspected published edition.
 Source corrections and inspection limits remain in the linked units; [Voi99-U002](../../../audits/literature/Voi99/Yin_U002.md#voi99-u002) additionally covers the Introduction and Sections 1–4.

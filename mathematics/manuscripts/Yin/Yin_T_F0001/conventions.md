@@ -97,9 +97,9 @@ Use “von Neumann dimension” for the module dimension in \(\Delta\), with Luc
 ## Liberation Gradients and Conjugate Variables
 
 Use Definition 5.1 for \(L^2\) liberation gradients on \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), where \(A_i=W^*(X_i)\) and \(B_i=W^*(X_j:j\ne i)\), with \(B_1=\mathbb C1\) when \(d=1\).
-The represented derivations \(\gamma_i\) must be well-defined on this full algebra and satisfy \(1\otimes1\in\operatorname{Dom}\gamma_i^*\) for their actual Hilbert-space adjoints.
-With the manuscript's second-variable-linear inner product, write \(j_i:=j(A_i:B_i)=-\gamma_i^*(1\otimes1)\), so \(j_i^*=-j_i\) and \(\tau(j_ip)=(\tau\otimes\tau)(\gamma_ip)\).
-For the real derivation and its adjoint vector, use \(\delta_i:=\mathrm i\gamma_i\) and \(\eta:=\mathrm i j_i=\delta_i^*(1\otimes1)\).
+The represented derivations \(\delta_i\) must be well-defined on this full algebra and satisfy \(1\otimes1\in\operatorname{Dom}\delta_i^*\) for their actual Hilbert-space adjoints.
+With the manuscript's second-variable-linear inner product, write \(j_i:=j(A_i:B_i)=-\delta_i^*(1\otimes1)\), so \(j_i^*=-j_i\) and \(\tau(j_ip)=(\tau\otimes\tau)(\delta_ip)\).
+For the real derivation and its adjoint vector, use \(\widehat\delta_i:=\mathrm i\delta_i\) and \(\eta:=\mathrm i j_i=\widehat\delta_i^*(1\otimes1)\).
 Lemma 5.2 constructs a normalized liberation dual system from these hypotheses.
 Proposition 5.3 adds normality and nonatomic spectral distributions explicitly; finiteness of liberation Fisher information alone does not supply nonatomicity.
 
@@ -109,7 +109,7 @@ Choose the derivations from that definition at the start of a proof when they ar
 The tuple X generates M, so the starred polynomial algebra is dense in H.
 The definition requires derivations \(\partial_i\) with \(\partial_iX_j=\delta_{ij}1\otimes1\) and \(1\otimes1\in\operatorname{Dom}\partial_i^*\).
 For such derivations, write \(\xi_i:=\partial_i^*(1\otimes1)\in H\) for the conjugate variables.
-In Lemma 5.6, distinguish the polynomial derivation \(\gamma_i^\circ:=\Psi_i\partial_i\) from the derivation \(\gamma_i\) on \(\mathcal P_i\).
+In Lemma 5.6, distinguish the polynomial derivation \(\delta_i^\circ:=\Psi_i\partial_i\) from the derivation \(\delta_i\) on \(\mathcal P_i\).
 The formula \(j_i=[\xi_i,X_i^*]\) is first proved on the polynomial algebra; the word-moment extension and relation descent establish the full-domain actual adjoint condition before Proposition 5.3 is applied.
 Remark 5.8 retains the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
 

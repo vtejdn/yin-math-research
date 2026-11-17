@@ -23,6 +23,7 @@ When the vacuum projection first appears in a theorem statement, place its brief
 ## Community References
 
 For the sign of a dual system, Hochschild differentials, free Haar unitaries, tensor products, traces and module dimension, see Yin's [free-probability terminology](../terminology.md#free-probability-terminology).
+The [liberation-derivation notation](../terminology.md#liberation-derivation-notation) also applies throughout this subfield.
 
 ### Reference Collection
 
