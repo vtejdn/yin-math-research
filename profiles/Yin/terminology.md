@@ -18,6 +18,7 @@ Scope: Yin's mathematical writing and presentation slides.
 
 | Object | Preferred notation | Meaning and source boundary |
 | --- | --- | --- |
+| Linear functionals | `\varphi`, with indices such as `\varphi_j` when needed. | Default notation for linear functionals. |
 | Free field | Use the user's supplied `\moverlay`, `\plangle` and `\prangle` macros to superimpose round parentheses with `<` and `>`, with the coefficient field in front. | Preserve the formal-field/evaluated-division-closure distinction. |
 | Affiliated operators | `L^0(\M)`, with `\M=\mathcal M`. | The *-algebra of closed densely defined operators affiliated with the specified finite tracial von Neumann algebra. Sums and products use affiliated closures; this change of notation adds no domain hypothesis. |
 | Algebra-generated GNS vectors | `\M\Omega` for the subspace; `x\Omega` for an individual vector with `x\in\M`. | In a tracial GNS space $H=L^2(\M,\tau)$ with $\Omega=1$, $\M\Omega=\{x\Omega:x\in\M\}$ is a dense subspace used for operator domains. Do not call its elements "bounded vectors"; use $\M\Omega$ or say "vectors of the form $x\Omega$ with $x\in\M$." |
