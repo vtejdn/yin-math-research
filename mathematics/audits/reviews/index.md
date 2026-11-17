@@ -111,6 +111,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0111](Yin_R_A0111_v1.md#whole-argument-finding) | What simultaneous readable words preserve on independent commutator blocks | [v1](Yin_R_A0111_v1.md) |
 | [Yin_R_A0112](Yin_R_A0112_v1.md#whole-argument-finding) | Review of finite signed first-return sums on spatial shells | [v1](Yin_R_A0112_v1.md) |
 | [Yin_R_A0113](Yin_R_A0113_v1.md#whole-argument-finding) | Central values of all-position bridges and the matchings they witness | [v1](Yin_R_A0113_v1.md) |
+| [Yin_R_A0114](Yin_R_A0114_v1.md#whole-argument-finding) | Private-line boundaries and words with few changes of line | [v1](Yin_R_A0114_v1.md) |
+| [Yin_R_A0115](Yin_R_A0115_v1.md#whole-argument-finding) | Integral exchange obstructions, refined states and tree attachments | [v1](Yin_R_A0115_v1.md) |
+| [Yin_R_A0116](Yin_R_A0116_v1.md#whole-argument-finding) | Review of conjugation estimates and finite row fits for kernel dimension | [v1](Yin_R_A0116_v1.md) |
+| [Yin_R_A0117](Yin_R_A0117_v1.md#whole-argument-finding) | Closed range and signed shell estimates from a cyclic minor | [v1](Yin_R_A0117_v1.md) |
+| [Yin_R_A0118](Yin_R_A0118_v1.md#whole-argument-finding) | Review of signed shell estimates from collected row products in a free subgroup | [v1](Yin_R_A0118_v1.md) |
+| [Yin_R_A0119](Yin_R_A0119_v1.md#whole-argument-finding) | Full color erasure and failure of common-word exchange at the prescribed four-line counts | [v1](Yin_R_A0119_v1.md) |
+| [Yin_R_A0120](Yin_R_A0120_v1.md#whole-argument-finding) | Finite kernel witnesses and certified errors for signed first-return shells | [v1](Yin_R_A0120_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

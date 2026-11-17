@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Test whether a complete color-3 pairing forces a cycle of cross-block identifications forbidden by the common-word rank constraint. |
+| priority | Test whether the global cone geometry turns the active-letter disagreements of a complete color-3 pairing into a forbidden exchange. |
 
 ## Input and distinction from rank sampling
 
@@ -154,7 +154,12 @@ Squaring an all-position bridge gives a [central bridge with nonzero change at e
 On two disjoint six-vertex blocks, every one of the 720 fully crossing matchings uses all thirteen positions in every pair and has the same rank-two total as all internal matchings.
 A chain can even contain two bridges of different central ranks with the same directed change at every slot.
 Their contributions cancel in the matching total when each block has six marks.
-What remains is to derive a forbidden exchange, or another incompatible bridge cycle, from full erasure and the actual vertex types.
+For genuine commutator blocks the [integral displacement test](../claims/Yin_C_A0079_v1.md#divisibility-for-a-cyclic-exchange) forces each individual change of mark number to be divisible by the cycle length for independent diagonal types.
+Even genuine blocks with the same thirteen visible coordinates and original label can admit all crossing matchings while a finer state action excludes every common-word swap between those blocks.
+The [line-incidence calculation](../claims/Yin_C_A0078_v1.md#statement) instead follows every true pairing at once: on the stated geometric event a complete pairing has at least one active letter readable on just one endpoint at more than a constant times \(\log n\) distinct labels.
+The [exact-type comparison](../claims/Yin_C_A0083_v1.md#statement) preserves the old fine populations, full erased color and all thirteen certificate requirements, but its cone group is \(C_7\) and its roots are not separated.
+The [torsion-free tree attachment](../claims/Yin_C_A0079_v1.md#keeping-the-old-factors-while-adjoining-trees) preserves root separation and the original factors, but its completely erased color has the wrong size and uses a new character.
+It remains to use the global geometry with the exact populations to rule out full erasure or to build a realization satisfying both.
 
 ## What happens to the original product in random matchings?
 

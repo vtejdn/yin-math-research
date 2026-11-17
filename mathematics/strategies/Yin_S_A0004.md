@@ -122,7 +122,11 @@ Already in their first real diagonal coordinate, the [smaller of the positive an
 The coisometric two-channel example in the [finite-time first-return calculation](../claims/Yin_C_A0073_v1.md#a-nonzero-signed-endpoint-and-the-rate-of-its-raw-first-mean) explicitly cancels the leading time bias at a nonzero coefficient.
 For arbitrary inputs the cumulative signed return differences satisfy a [joint square bound across time and endpoints](../claims/Yin_C_A0076_v1.md#the-joint-square-bound-across-time-and-endpoints).
 If scalar dyadic return differences decay as time to power \(-\alpha\), \(0<\alpha<2\), a shell of radius \(R\) needs time only through \(O(R^\kappa\log R)\) for the stated truncation estimate whenever \(\kappa\alpha>\beta\).
-For a general matrix it remains to bound the resulting signed arrays across infinitely many shells, including when a same-kernel gapped factor is unavailable.
+When the collected row product \(AA^*\) is supported on a verified free subgroup, the [exact power identity on cosets](../claims/Yin_C_A0082_v1.md#collecting-equal-endpoints-before-applying-a-subgroup-estimate) proves a summable exterior bound for the signed arrays of the original probes, even for matrices and projections requiring the entire group.
+If the matrix instead has a [full-row-rank cyclic Laurent minor](../claims/Yin_C_A0081_v1.md#statement), collecting coefficient columns by cyclic coset determines the gapless factors and gives the shell estimate even in examples with row products generating the whole group.
+Outside these classes the [widened-shell conjugation estimate](../claims/Yin_C_A0080_v1.md#signed-estimates-on-widened-shells) reduces the required sum to differences of original finite products at conjugate endpoints.
+The [finite kernel and cokernel bounds](../claims/Yin_C_A0084_v1.md#statement) can certify sufficient temporal precision without a known return exponent when finite null vectors generate either Hilbert kernel.
+Controlling the retained signed contributions over all distant shells for an arbitrary matrix still needs a spatial estimate.
 On a different group \(H\times\mathbb Z^4\), with \(H\) any fixed four-line group, [the lattice calculation](../claims/Yin_C_A0068_v1.md#grouped-endpoints-and-adjacent-times) gives polynomial tails for a projection that has no closed-range representative.
 The dimension-three comparison there gives identical row products and scalar return moments with opposite answers for every spatial exponent above three.
 
