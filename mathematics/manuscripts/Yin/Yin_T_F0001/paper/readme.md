@@ -31,7 +31,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The current working TeX sources compiled successfully in this directory on 2026-11-17 with TeX Live 2025 and pdfTeX 1.40.27, producing a 20-page PDF of 455391 bytes.
+The current working TeX sources compiled successfully in this directory on 2026-11-17 with two passes of `pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex`, using MiKTeX 25.4 and pdfTeX 1.40.27 and producing a 20-page PDF of 536461 bytes.
 The bibliography was unchanged, so the build reused the existing BibTeX 0.99d output.
 The liberation-gradient implication is stated briefly in Remark 4.8 at the end of Section 4.
 The dual-system criterion is Section 5, and the arcsine and circular examples are Remarks 6.1 and 6.2 in Section 6.
