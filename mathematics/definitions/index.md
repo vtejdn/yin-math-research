@@ -519,3 +519,8 @@ Recorded consumer navigation: the [conditional logarithmic argument](../claims/Y
 
 The [capacity convention](../claims/Yin_C_F0348_v1.md#polar-convention) uses finite logarithmic energy on compact subsets, following [Saf10, Section 1](../audits/literature/Saf10/readme.md).
 The [lower-envelope argument](../claims/Yin_C_F0348_v1.md#lower-envelope) uses this convention for deterministic exceptional sets of spectral shifts.
+
+### Free elliptic matrix pencils
+
+The [recursive definition](../claims/Yin_C_F0186_v37.md#elliptic-definition) follows Definition 2.1 in the [KPV17 author manuscript](../audits/literature/KPV17/readme.md), including the kernel restriction for a semidefinite multiplier.
+The [Wigner logarithm proof](../claims/Yin_C_F0186_v37.md#argument) uses this recursion for deterministic inverse-tail estimates.

@@ -303,3 +303,5 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Lat05/Yin_U001](Lat05/Yin_U001.md#lat05-u001) | Expected operator norm of an independent centered real matrix from row and column variance sums and total fourth moments; triangular-array and symmetric-part applicability |
 | [Saf10 source notes](Saf10/readme.md) | Logarithmic capacity and polar sets |
 | [Cha08 source notes](Cha08/readme.md) | Compact-support lower-envelope theorem in the 2008 single-author manuscript |
+| [KPV17 source notes](KPV17/readme.md) | Free ellipticity and the finite test for full column rank on Hermitian tuples |
+| [Cos00 source notes](Cos00/readme.md#ordered-real-field) | Tarski–Seidenberg for first-order formulas over the reals in Coste’s October 2002 text |

@@ -17,9 +17,22 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For real fourth-moment xy+2yx, estimate the unconditional probability of macroscopic planar loss among the last \(q_N=\lceil\log(N+3)\log\log(N+3)\rceil\) singular values. For general pencils, seek a square observation with a tractable determinant at the prescribed shift. |
+| priority | For the real quadratic and finite-support strict upper laws, control the actual multi-column compression determinant and the matched discrete interior with summable failure. For general pencils test rank-degenerate Hermitian evaluations beyond free ellipticity and the applicable static square certificates. |
 
 ## Current allocation and discriminating tests
+
+The [fine-component theorem](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) settles the integrated terminal series for the two-component classes and a pair of purely atomic dyadic-grid inputs.
+The first selected singular-space overlaps already admit a [summable test for arbitrary original laws](../claims/Yin_C_F0351_v2.md#discrete-overlaps).
+For Rademacher entries, a single real sign hyperplane can give [order-one loss on an entire disk](../ledger/Yin_L_F0067_v4.md#sign-compression) on a deterministic exterior.
+The [actual first-minor constraints and discrete interior coefficient](../drafts/Yin_D_F0044.md) narrow the remaining problem to the probability of such cancellations under the joint Wigner law and their behavior through subsequent compressions.
+The [fixed-fraction initialization](../claims/Yin_C_F0351_v3.md#argument) handles arbitrary prescribed sequences converging off the real line.
+The [uniform shrinking count](../claims/Yin_C_F0195_v2.md#statement) controls intermediate singular values under its moment hypotheses.
+
+For F0013 the [free elliptic recursion](../claims/Yin_C_F0186_v37.md#partial-chain) reduces singular-value estimates to the remaining undamped columns.
+For translation-regular real and complex laws the [translated Gaussian tube](../claims/Yin_C_F0186_v38.md#argument) handles arbitrary coefficients, and its [fractional comparison](../claims/Yin_C_F0186_v38.md#fractional-count) removes the logarithmic cutoff with a \(2+\delta\) off-diagonal moment.
+In the translation-regular finite-second-moment model the outstanding determinant step is the contribution of the intermediate singular values between the established polynomial floor and a fixed clip.
+For F0014 the [affine static observation](../claims/Yin_C_F0350_v1.md#affine-lift) supplies exact determinant transfer when it has an explicit witness.
+The [winding tests at all parameters](../claims/Yin_C_F0349_v2.md#statement) rule out applying that dissipative representation with ordinary multiplicity one to all polynomials, already for \(xy+2yx-z\).
 
 For \(AB+2BA\), the [paired block inequality](../claims/Yin_C_F0347_v1.md#decision-paired-volumes-reviewed) supplies the deterministic step of the [trimmed potential theorem](../claims/Yin_C_F0186_v36.md#decision-trimmed-planar-reviewed).
 The [one-coordinate test](../ledger/Yin_L_F0067_v3.md#one-coordinate) exhibits positive-probability Wigner exteriors on which one raw diagonal coordinate changes an entire disk potential by a fixed amount.

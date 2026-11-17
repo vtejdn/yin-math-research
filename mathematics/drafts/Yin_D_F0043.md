@@ -42,4 +42,5 @@ A sufficient estimate involving only the least singular value is
 Indeed \(Y_N(z)\le(q_N/N)\log^-s_{\min}(P_N-zI)\).
 A summable bound for the expected area of this sublevel set would imply the displayed estimate, but the threshold permits a much smaller singular value than a polynomial floor.
 The [single exceptional chain](../ledger/Yin_L_F0067_v3.md#terminal-loss) shows how an order-one disk loss can survive a floor whose failure probability merely tends to zero.
-A bound at the original unconditional Wigner probabilities, or a direct estimate for the terminal product, remains to be proved.
+The [mixed-law compression theorem](../claims/Yin_C_F0351_v2.md#decision-mixed-components-reviewed) proves terminal summability under its component hypotheses, and the [fine-grid argument](../claims/Yin_C_F0351_v4.md#dyadic-example) includes fixed countably supported laws.
+The [finite-support investigation](Yin_D_F0044.md) treats the remaining terminal tests, including the interior coefficient on the sign cube and restrictions on the first physical minor.

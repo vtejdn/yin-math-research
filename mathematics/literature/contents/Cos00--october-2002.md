@@ -1,0 +1,61 @@
+# An Introduction to Semialgebraic Geometry
+
+Michel Coste, English text, October 2002.
+The complete contents appear on [PDF p. 2](../pdf/Cos00--october-2002.pdf#page=2) and [PDF p. 3](../pdf/Cos00--october-2002.pdf#page=3).
+Page numbers below are the printed destinations.
+
+- Introduction — 3
+- 1 Counting the real roots — 5
+  - 1.1 Sturm’s theorem — 5
+    - 1.1.1 *P* without multiple root — 5
+    - 1.1.2 *P* with multiple roots — 6
+    - 1.1.3 A bound for the roots — 7
+  - 1.2 Real roots satisfying inequalities — 7
+    - 1.2.1 One inequality — 7
+    - 1.2.2 Several inequalities — 9
+    - 1.2.3 Deciding the existence of a solution of a system of polynomial equations and inequalities — 10
+  - 1.3 Systems with parameters — 10
+    - 1.3.1 Tarski-Seidenberg — 11
+    - 1.3.2 Systems with one equation — 12
+    - 1.3.3 Example: polynomial of degree 4 — 13
+    - 1.3.4 General systems — 16
+  - 1.4 Another method for counting real roots — 17
+    - 1.4.1 Hermite’s method — 17
+    - 1.4.2 Determination of the signature — 19
+    - 1.4.3 Principal subresultant coefficients — 21
+- 2 Semialgebraic sets — 25
+  - 2.1 Stability properties — 25
+    - 2.1.1 Definition and first examples — 25
+    - 2.1.2 Consequences of Tarski-Seidenberg principle — 26
+  - 2.2 Semialgebraic functions — 29
+    - 2.2.1 Definition and first properties — 29
+    - 2.2.2 The Łojasiewicz inequality — 30
+  - 2.3 Decomposition of a semialgebraic set — 32
+    - 2.3.1 Cylindrical algebraic decomposition — 32
+    - 2.3.2 Construction of an adapted c.a.d. — 34
+    - 2.3.3 The c.a.d. algorithm — 38
+    - 2.3.4 Connected components of semialgebraic sets — 40
+- 3 Triangulation of semialgebraic sets — 41
+  - 3.1 Thom’s lemma — 43
+    - 3.1.1 For one variable — 43
+    - 3.1.2 For several variables — 44
+    - 3.1.3 The finiteness theorem — 48
+  - 3.2 Triangulation — 49
+    - 3.2.1 Simplicial complexes — 49
+    - 3.2.2 Triangulation of a compact semialgebraic set — 51
+    - 3.2.3 The curve selection lemma — 54
+  - 3.3 Dimension — 55
+    - 3.3.1 Dimension via c.a.d. — 55
+    - 3.3.2 Dimension of algebraic sets — 57
+- 4 Families. Uniform bounds — 61
+  - 4.1 Semialgebraic triviality of families — 61
+    - 4.1.1 Hardt’s theorem — 61
+    - 4.1.2 Local conic structure of semialgebraic sets — 63
+    - 4.1.3 Finiteness of the number of topological types — 64
+  - 4.2 Number of connected components — 65
+    - 4.2.1 Reduction to the case of a compact smooth hypersurface — 67
+    - 4.2.2 The case of a compact smooth hypersurface — 68
+    - 4.2.3 Bound for the number of connected components of a semialgebraic set — 70
+  - 4.3 An application to lower bounds — 70
+- Bibliography — 75
+- Index — 77

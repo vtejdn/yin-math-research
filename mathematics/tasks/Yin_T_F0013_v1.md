@@ -154,6 +154,17 @@ The [path example](../claims/Yin_C_F0186_v35.md#irreducible-path) has irreducibl
 For arbitrary coefficients, the [mean-potential theorem](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) gives the upper-limit equality outside a deterministic polar set in the unbounded component of the complement of the free Brown support as the scalar shift varies.
 A prescribed shift such as zero can belong to the exceptional set.
 
+## Free ellipticity and static observations
+
+The [free ellipticity theorem](../claims/Yin_C_F0186_v37.md#decision-free-elliptic-reviewed) gives full-sequence almost-sure and finite \(L^p\) logarithmic convergence in the original finite-variance model whenever the fixed pencil has full rank at every finite Hermitian tuple.
+A finite auxiliary-size test for this hypothesis is given by [KPV17](../audits/literature/KPV17/readme.md).
+The [static observation criterion](../claims/Yin_C_F0350_v1.md#decision-static-observation-reviewed) identifies the finite-target tail condition for \(H+iJ^*J\) with that of the Gram polynomial \(H^2+J^*J\).
+A simpler square combination of the rows of \(H,J\) suffices.
+With a finite third absolute off-diagonal moment, the [uniform count](../claims/Yin_C_F0195_v2.md#decision-uniform-count-reviewed) bounds the singular mass to a polynomial cutoff throughout each specified compact semialgebraic drift family with zero free kernel.
+
+The [translation-regular theorem](../claims/Yin_C_F0186_v38.md#decision-translation-smoothing-reviewed) proves the upper-limit equality for every fixed affine pencil under its input-law and \(2+\delta\) off-diagonal moment conditions.
+With only the two moments under the same translation condition, its [least-value estimate](../claims/Yin_C_F0186_v38.md#floor-statement) holds at every sufficiently large dimension admitting an invertible witness.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

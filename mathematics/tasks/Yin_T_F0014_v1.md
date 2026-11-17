@@ -124,6 +124,17 @@ The [spectral-point example](../claims/Yin_C_F0186_v34.md#zero-frame-example) ha
 The [mean-potential theorem](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) gives the upper-limit equality for every polynomial at each fixed shift outside a deterministic polar set in the unbounded component of the complement of its Brown support.
 When the mean eigenvalue measures approach the Brown measure along a subsequence, this conclusion covers the whole plane outside a polar set.
 
+## Scalar transfer and winding
+
+The [affine Schur realization](../claims/Yin_C_F0350_v1.md#affine-lift) preserves the static observation certificate, with full normalized determinant transfer at each shift satisfying its hypotheses.
+The [winding obstruction](../claims/Yin_C_F0349_v2.md#decision-all-shift-winding-reviewed) excludes a universal multiplicity-one dissipative realization for \(xy+2yx-z\) at every prescribed \(z\) on Hermitian tuples, with the stated regular auxiliary factor.
+The [free elliptic linearization result](../claims/Yin_C_F0186_v37.md#scalar-application) gives full-sequence convergence when \(P(X)-zI\) is invertible on every finite Hermitian tuple.
+Under third absolute off-diagonal moments the [polynomial cutoff result](../claims/Yin_C_F0195_v2.md#scalar-shifts) is uniform on compact sets including \(P(0)\).
+For real fourth-moment \(xy+2yx\), the [moving-shift theorem](../claims/Yin_C_F0351_v3.md#decision-moving-shifts-reviewed) and its [atomic extension](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) give full-sequence ordinary logarithmic limits at every prescribed nonreal shift under their respective component hypotheses.
+
+The [scalar linearization application](../claims/Yin_C_F0186_v38.md#polynomial-consequences) gives the ordinary upper-limit equality for every fixed polynomial and shift under power total-variation translation regularity, finite \(2+\delta\) off-diagonal moments and finite second diagonal moments.
+It includes \(z=P(0)\) and retains the exact distinction between dimensions with and without invertible witnesses.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

@@ -110,6 +110,17 @@ For \(P_N=A_NB_N+2B_NA_N\) with real fourth off-diagonal and second diagonal mom
 The untrimmed every-coupling assertion for this model is equivalent to the theorem's summability condition on the integrated negative logarithms of those last \(q_N\) values.
 The [mean-potential comparison](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) also shows that Brown convergence in probability along a subsequence gives the determinant upper-limit equality at every fixed shift outside a deterministic polar set.
 
+For all fixed scalar polynomials, the [translation-regular theorem](../claims/Yin_C_F0186_v38.md#decision-translation-smoothing-reviewed) proves the full weak almost-sure Brown limit for raw laws satisfying its power total-variation translation bound, finite \(2+\delta\) off-diagonal moments and finite second diagonal moments.
+The proof treats real and complex colors in the same tuple.
+
+## The quadratic terminal loss
+
+For \(A_NB_N+2B_NA_N\) with real finite fourth off-diagonal moments and finite second diagonal moments, the [two-component theorem](../claims/Yin_C_F0351_v2.md#decision-mixed-components-reviewed) proves summability of the integrated terminal loss when both strict upper laws have a positive-mass component with the specified logarithmic concentration bound.
+The [fine-component theorem](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) also proves it for certain fixed purely atomic laws, including the [explicit dyadic pair](../claims/Yin_C_F0351_v4.md#dyadic-example).
+Both give full-sequence weak Brown convergence almost surely under every allowed coupling for those inputs.
+For arbitrary real fourth-moment laws, [the moving-shift theorem](../claims/Yin_C_F0351_v3.md#statement) gives convergence of the trimmed logarithms at every prescribed nonreal shift and along every prescribed sequence approaching it.
+For fixed Bernoulli strict upper entries the remaining discrete interior and compression estimates are identified in the [actual-minor calculation](../drafts/Yin_D_F0044.md).
+
 ## Separate determinant objectives
 
 The separately authorized [matrix-valued affine-pencil Task F0013](Yin_T_F0013_v1.md#contract) and [scalar-valued polynomial Task F0014](Yin_T_F0014_v1.md#contract) study normalized determinant upper-limit equalities under the same fixed-law finite-variance model.
