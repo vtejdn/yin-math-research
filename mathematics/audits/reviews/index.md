@@ -73,6 +73,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0073](Yin_R_A0073_v1.md#whole-argument-finding) | Precision eight and characteristic-zero lifting on the seven-cycle | [v1](Yin_R_A0073_v1.md) |
 | [Yin_R_A0074](Yin_R_A0074_v1.md#whole-argument-finding) | Deterministic restrictions on the seven color classes | [v1](Yin_R_A0074_v1.md) |
 | [Yin_R_A0075](Yin_R_A0075_v1.md#whole-argument-finding) | Matching presentations over a prescribed finite quotient | [v1](Yin_R_A0075_v1.md) |
+| [Yin_R_A0076](Yin_R_A0076_v1.md#whole-argument-finding) | Pairing alternatives and the role of root separation in class erasure | [v1](Yin_R_A0076_v1.md) |
+| [Yin_R_A0077](Yin_R_A0077_v1.md#whole-argument-finding) | Character ratios forced by isolated simultaneous edges | [v1](Yin_R_A0077_v1.md) |
+| [Yin_R_A0078](Yin_R_A0078_v1.md#whole-argument-finding) | Common-step return probabilities and binary homology in the seven-sheeted cover | [v1](Yin_R_A0078_v1.md) |
+| [Yin_R_A0079](Yin_R_A0079_v1.md#whole-argument-finding) | Growth of odd support classes in a tower of cyclic quotients | [v1](Yin_R_A0079_v1.md) |
+| [Yin_R_A0080](Yin_R_A0080_v1.md#whole-argument-finding) | Two prescribed vertices and typical purity of a product fiber | [v1](Yin_R_A0080_v1.md) |
+| [Yin_R_A0081](Yin_R_A0081_v1.md#whole-argument-finding) | Stability of the cycle-lattice obstruction under merged product fibers | [v1](Yin_R_A0081_v1.md) |
+| [Yin_R_A0082](Yin_R_A0082_v1.md#whole-argument-finding) | The four-line construction with nonzero projected factors | [v1](Yin_R_A0082_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

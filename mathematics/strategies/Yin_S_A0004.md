@@ -97,7 +97,9 @@ In the [twelve-row calculation](../claims/Yin_C_A0037_v1.md#the-second-coefficie
 The next structural test is an intrinsic difference group admitting this index-two character beyond the known-domain example, or a characterization of which support arrangements supply the required leading pivot.
 The separately selectable [lifting investigation](Yin_S_A0008.md#which-equations-can-discriminate) seeks a scalar counterexample directly from a finite-characteristic input.
 The [exact projection norms on product windows](../ledger/Yin_L_A0035_v1.md) show that a subexponential estimate would already require additional structure on the finite annihilator in a single factor.
-On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f. Cancellation on individual group-product fibers remains a separate question.
+On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f.
+For the original and balanced cyclic matching laws, the [actual group-product equations](../claims/Yin_C_A0050_v1.md#statement) also exclude a complex zero product on the same two collected supports with probability tending to one.
+The [exceptional matching question](Yin_S_A0008.md#when-can-a-whole-color-disappear) asks whether collisions of vertex labels can realize the sparse cyclic obstruction.
 
 ## Mechanism and obstruction
 

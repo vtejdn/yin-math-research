@@ -52,6 +52,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0045](Yin_L_A0045_v1.md) | Small quotient groups in the first lifting test | [v1](Yin_L_A0045_v1.md) |
 | [Yin_L_A0046](Yin_L_A0046_v1.md) | The seven complete fibers in the exceptional even-support quotient test | [v1](Yin_L_A0046_v1.md) |
 | [Yin_L_A0047](Yin_L_A0047_v1.md) | Torsion-free matching presentations with a prescribed quotient of order seven | [v1](Yin_L_A0047_v1.md) |
+| [Yin_L_A0048](Yin_L_A0048_v1.md) | The binary type and matching equations allow both exceptional seven-color parities | [v1](Yin_L_A0048_v1.md) |
+| [Yin_L_A0049](Yin_L_A0049_v1.md) | A finite integral feasibility test for prescribed type and color parities | [v1](Yin_L_A0049_v1.md) |
+| [Yin_L_A0050](Yin_L_A0050_v1.md) | Exact counts in the cross-side simultaneous-step forest | [v1](Yin_L_A0050_v1.md) |
+| [Yin_L_A0051](Yin_L_A0051_v1.md) | How many product fibers must merge when a vertex color disappears? | [v1](Yin_L_A0051_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

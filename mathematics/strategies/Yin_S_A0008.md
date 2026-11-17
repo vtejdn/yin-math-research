@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Seek a verified sparse projection of the collected supports of an exceptional matching, using the mod-eight criterion on a cyclic quotient of order seven. |
+| priority | Test erasure of entire colors on exceptional matchings using the original relators and computable refinements of the cyclic quotient. |
 
 ## Input and distinction from rank sampling
 
@@ -66,3 +66,37 @@ The [neighbor and integer-height tests](../claims/Yin_C_A0043_v1.md#neighbor-con
 For this quotient, pursue only an exceptional matching with a verified nonzero character and sufficient group-label collision data to distinguish missing classes from occupied classes of even count.
 In particular, in a nearly injectively labelled connected realization the remaining obstruction requires just one nonzero pair of letter increments and full occurrence coverage on at least one side.
 Without a candidate meeting these conditions, use complete original fibers or investigate a different quotient.
+
+## When can a whole color disappear?
+
+For one permitted inverse pairing the [four-line construction](../claims/Yin_C_A0051_v1.md#four-lines-and-the-exact-color-matchings) realizes both nonzero odd masks in genuine connected, torsion-free Ope26f examples.
+Before collection each side has \(n/7+3\) occurrences in each of its four odd classes and \(n/7-4\) in each remaining class.
+The complete quotient fibers on vertex pairs have sizes \(n^2/7+84\) over zero and \(n^2/7-14\) over every other residue.
+Typically all seven colors survive collection.
+To force just the four odd classes on each side in this family, at least \(3n/7-12\) vertices per side must carry repeated labels.
+The [resulting mergers of product fibers](../ledger/Yin_L_A0051_v1.md#consequences-for-a-sparse-quotient) would affect more than \(66\%\) of all pairs for large \(n\).
+For proposed erased lists of sizes \(N_A,N_B\), a [fourth-moment calculation with independent vertex phases](../ledger/Yin_L_A0051_v1.md#a-fourth-moment-for-repetitions-on-both-sides) also yields an exclusion when the measured fourth-moment excess is below \(2N_A N_B\) in a verified quotient.
+
+On a proposed matching, verify the character on fundamental loops and count the vertices in each color before collection.
+For other prescribed inverse pairings the [binary type equations](../ledger/Yin_L_A0048_v1.md) always allow both odd masks for some increments.
+For fixed increments the [integral feasibility test](../ledger/Yin_L_A0049_v1.md#correcting-a-lift-modulo-256) determines which parities can be realized by integer counts after a permitted even balanced enlargement.
+When the desired four colors have odd counts, a further occupied color disappears exactly when its vertices can be paired by equal group labels.
+The [pairing test](../claims/Yin_C_A0045_v1.md#synchronous-components-and-protected-vertices) propagates those equalities along common edges and rejects pairings that identify a protected pair of vertices.
+A connected example with arbitrary girth realizes all three erasures on each side, but its vertex types differ from the source and its two root factors have nonzero product.
+For a proposed source-type matching, an [odd bin in the mod-two homology of the kernel](../claims/Yin_C_A0047_v1.md#a-finite-test-for-complete-erasure-of-a-color) certifies survival of a color.
+A [lift of the character to a larger cyclic seven-group](../claims/Yin_C_A0048_v1.md#statement) gives another such test and bounds the required sizes of the two supports.
+If these tests leave pairings, seek a word proof in the cone presentation for every paired equality, or a certified surviving group label in an outside color on either side.
+Existence of a connected matching with these erasures, the prescribed source types, the geometric safeguards and the binary zero product remains open.
+
+## What happens to the original product in random matchings?
+
+The [common-step walk and finite forest count](../ledger/Yin_L_A0050_v1.md#forest-and-return-probability) describe how pairs of vertices with the same group product are connected by shared letters.
+The [two-root estimate](../claims/Yin_C_A0049_v1.md#statement) shows that in both the original and balanced cyclic matching laws, with probability tending to one, all but a vanishing fraction of pairs lie in a component that already contains their whole product fiber.
+On two-vertex components that are whole fibers, cancellation of two unit terms forces [ratios along ordinary letters](../claims/Yin_C_A0046_v1.md#the-two-cycle-lattices).
+With probability tending to one in either law, the [stability of the resulting cycle equations](../claims/Yin_C_A0050_v1.md#positive-density-for-the-actual-collected-supports) forces at least \(c n^2\) nonzero product coefficients simultaneously for every assignment of nonzero complex coefficients to the two exact collected supports, for a fixed \(c>0\).
+The same bound excludes a lift of the marked binary point on these supports modulo four even after arbitrary finite ramification.
+On each such matching the ideal of the complete product equations in the Laurent ring of unit coefficients contains \(2\).
+Indeed its universal quotient has a unit zero-product solution, so the bound over every commutative ring with \(1\ne-1\) forces \(2=0\) in that quotient.
+Thus the [local saturation test](../claims/Yin_C_A0039_v1.md#statement) already has an exponent-one certificate there.
+In the balanced law every class of the prescribed quotient already has even occurrence count, so it cannot exhibit the four odd classes.
+The [four-line law](../claims/Yin_C_A0051_v1.md#product-fibers-and-complex-coefficients-in-the-four-line-law) realizes the four odd classes on both sides and retains the positive-density bound in the original group.
