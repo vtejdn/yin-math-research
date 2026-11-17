@@ -59,7 +59,18 @@ is injective.
 Suppose that $B$ has no nonzero finite-dimensional invariant subspace.
 If a nonzero kernel vector existed, write it as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal.
 By minimality of $n$, both families are linearly independent.
-Projecting the second factor modulo $\operatorname{span}\{w_1,\ldots,w_n\}$ shows that this span is $B$-invariant, a contradiction.
+Set $E:=\operatorname{span}\{w_1,\ldots,w_n\}$, and let $q:W\to W/E$ be the quotient map.
+Since the tensor lies in the kernel, we have
+\[
+ \sum_{r=1}^n Av_r\otimes w_r=\sum_{r=1}^n v_r\otimes Bw_r.
+\]
+Applying $I_V\otimes q$ and using $q(w_r)=0$ gives
+\[
+ \sum_{r=1}^n v_r\otimes q(Bw_r)=0.
+\]
+Since $v_1,\ldots,v_n$ are linearly independent, choose linear functionals $f_j:V\to\C$ satisfying $f_j(v_r)=\delta_{jr}$.
+Applying $f_j\otimes I_{W/E}$ yields $q(Bw_j)=0$, and hence $Bw_j\in E$, for every $1\leq j\leq n$.
+Thus $B(E)\subseteq E$, contradicting the assumption on $B$, since $E$ is nonzero and finite-dimensional.
 The case where $A$ has the stated property follows by interchanging the tensor factors.
 \end{proof}
 

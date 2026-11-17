@@ -36,10 +36,11 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 ## Latest Build
 
 The in-directory build succeeded on 2026-11-17 after two pdfLaTeX passes with unchanged bibliography inputs.
-It used MiKTeX 25.4, pdfLaTeX 1.40.27 and the BibTeX 0.99d bibliography, producing a 24-page PDF of 576875 bytes.
+It used MiKTeX 25.4, pdfLaTeX 1.40.27 and the BibTeX 0.99d bibliography, producing a 25-page PDF of 579405 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
 Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for Psi_x and both quotient maps in Lemma 4.4.
+Its proof explicitly applies the quotient map in the second factor and uses linear functionals to extract the coefficients, proving invariance of the finite-dimensional span.
 Lemma 4.4 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
 Its proof explicitly records preservation of the algebraic L2 tensor product, introduces k for the reverse inclusion and gives both factor right multiplication maps and their induced maps on the vector-space quotients.
 Its injectivity conclusion follows directly from Lemma 4.3, since neither factor multiplication map has a nonzero finite-dimensional invariant subspace; the quotient-space proof of the L2 assertion is retained.
