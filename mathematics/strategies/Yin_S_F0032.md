@@ -17,7 +17,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For real quadratics, control the square of a fresh row in the compressed exterior. For sign pencils with three coefficient directions, seek a fixed-energy bottom estimate when neither a monotone sign difference nor the two-form Schur test applies. |
+| priority | Test which binary quadratic tensors admit the auxiliary-coordinate restoration and which three-direction pencils supply its four independent Schur kernels. |
 
 ## Current allocation and discriminating tests
 
@@ -31,11 +31,25 @@ The [two-site commutator calculation and binary cases](../claims/Yin_C_F0351_v10
 For mixed effective colors, [positive conditional variance on a set of sites](../claims/Yin_C_F0355_v1.md#masked-panels) permits a full comparison even when both original squares occur.
 For a nonsingular binary quadratic tensor with indefinite symmetric part, its two [real null lines](../claims/Yin_C_F0355_v2.md#laws) give a direct test of that hypothesis against the original input law.
 
-A concrete next test is \(P_*(x,y)=x^2+y^2+xy-yx\).
-Its quadratic coefficient along any nonzero real fresh direction \(d=(d_1,d_2)\) is \(d_1^2+d_2^2>0\); no invertible real linear change of the two colors creates a missing square.
-Upon deleting a site its fresh-square term gives an outer product of the fresh cross vector with itself, which is not in general removed by a pair of normal directions fixed from the background.
-Its companion with first row \((-z,\,x-y,\,x+y)\), and auxiliary rows \((x,-1,0),(y,0,-1)\), has rank two in every nonzero variable direction, and the nonzero constant direction gives an invertible lower block.
-This test asks for a mechanism to control the surviving outer product.
+For \(P_*(x,y)=x^2+y^2+xy-yx\), every real direction has a positive square coefficient.
+The [auxiliary-coordinate comparison](../claims/Yin_C_F0351_v11.md#square) gives the full almost-sure Brown limit under two finite second moments.
+The initial graph cancels the two mixed fresh-row terms and leaves \(2WW^{\mathsf T}\), where \(W\) consists of the independent background cross columns.
+The [first perturbations](../claims/Yin_C_F0351_v11.md#initial) use the same columns on both sides of the old near-kernel, and the [row restoration](../claims/Yin_C_F0351_v11.md#restoration) supplies four independent quadratic kernels.
+
+For the same polynomial the [real-shift principal trims](../claims/Yin_C_F0357_v1.md#real-trim) use \(\operatorname{Re}\langle v,P_*v\rangle=\|Av\|^2+\|Bv\|^2\) and the exclusion of a common approximate eigenvector of \(A,B\) at bounded energies.
+The [real one-node restoration](../claims/Yin_C_F0357_v1.md#real-restoration) extends the ordinary determinant comparison to every prescribed real shift, including atoms of the old spectrum by continuity of the undivided inequality.
+Combining this with the [fixed-nonreal limit](../claims/Yin_C_F0351_v11.md#terminal) gives all-dimension convergence in probability and almost-sure convergence along \(2^j\) for each specified \(z\in\mathbb C\).
+For either the scalar or pencil and any prescribed \(\eta_N\downarrow0\), the normalized sum of the negative logarithms below \(\eta_N\) tends to zero along that subsequence, with summable deviation probabilities.
+Indeed for any fixed \(0<d<1\), eventually \(\eta_N\le d^2\), and the loss is at most twice the difference between the \(d\)-clipped and ordinary normalized logarithms.
+Take the known limits at fixed \(d,z\), then \(d\downarrow0\), and apply converse Borel--Cantelli in a product coupling as in the [bottom-loss proof](../claims/Yin_C_F0357_v1.md#limits).
+An exact zero contributes infinite loss.
+The [rotated Hermitian-part bound](../claims/Yin_C_F0357_v1.md#sector) gives full-sequence locally uniform ordinary potential convergence in the closed region \(\operatorname{Re}z\le|\operatorname{Im}z|\).
+
+For a binary quadratic \(ax^2+bxy+cyx+dy^2\) with \(a\ne0\), test the same graph with lower block \(-a^{-1}I\) and normals built from \(cBe_i\) and \(bBe_i\).
+The initial correction has coefficient \(d-bc/a\), and the commuting numerators to test are \(1,ax+by,ax+cy,(ax+by)(ax+cy)\).
+When \(b\ne c\) and \(ad-bc\ne0\), the two linear forms are independent and their product differs from \(a\) times the commuting quadratic by \(-(ad-bc)y^2\).
+The remaining proof must verify the initial perturbation, the actual Schur ratios and their joint probability bounds for those coefficients.
+When \(ad=bc\), the initial correction vanishes and supplies no comparison across the first adaptive gap.
 
 For general fixed affine pencils with finite free logarithm, the [bounded-core covariance comparison](../claims/Yin_C_F0195_v4.md#free-background) and [free estimate with deterministic shifts](../claims/Yin_C_F0352_v1.md#statement) give the [polynomial-window count](../claims/Yin_C_F0186_v40.md#argument) under finite second moments.
 The [closed-band estimate](../claims/Yin_C_F0186_v40.md#band) controls both atoms at its endpoints, including the interval from the earlier [selected-dimension clip](../claims/Yin_C_F0195_v3.md#statement) to any fixed polynomial cutoff.

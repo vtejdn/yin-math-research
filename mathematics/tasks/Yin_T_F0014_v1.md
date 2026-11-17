@@ -147,6 +147,11 @@ The [tridiagonal Schur realization](../claims/Yin_C_F0356_v1.md#examples) also g
 The mixed-form results concern every prescribed shift under their sign tests, while the tridiagonal case uses the energy of the specified realization.
 For a nonsingular binary tensor with indefinite symmetric part, the [null-line test](../claims/Yin_C_F0355_v2.md#laws) verifies the two sign hypotheses when each of the two null lines contains a nonzero difference of two raw sign words.
 
+For \(P_*=x^2+y^2+xy-yx\), the [two-coordinate restoration](../claims/Yin_C_F0351_v11.md#terminal) and [real-shift argument](../claims/Yin_C_F0357_v1.md#real-restoration) address each prescribed complex shift under the original two real finite-variance Wigner laws, including two independent Rademacher laws.
+The [unit triangular determinant identity and bottom-loss comparison](../claims/Yin_C_F0357_v1.md#limits) use the physical trace \(1/N\) for the scalar polynomial and \(1/(3N)\) for its pencil.
+The ordinary scalar logarithm converges in probability through all sizes and almost surely along \(2^j\), giving the desired all-size almost-sure limsup under every coupling.
+On compact subsets of \(\operatorname{Re}z\le|\operatorname{Im}z|\), the [positive-square comparison](../claims/Yin_C_F0357_v1.md#sector) gives uniform almost-sure convergence through all sizes.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

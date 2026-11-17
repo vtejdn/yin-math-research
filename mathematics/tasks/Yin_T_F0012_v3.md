@@ -127,7 +127,10 @@ The [oblique restoration theorem](../claims/Yin_C_F0351_v9.md#statement) and its
 This includes every real binary quadratic with at least one of \(x^2,y^2\) absent.
 The [conditional two-form argument](../claims/Yin_C_F0355_v1.md#statement) gives further cases with both original squares present.
 The [binary null-line criterion](../claims/Yin_C_F0355_v2.md#statement) gives the Brown limit for any nonsingular binary tensor with indefinite symmetric part if the joint raw law has a positive absolutely continuous component, and also gives an explicit original-law condition for discrete inputs.
-A general quadratic tensor can still produce a fresh-row square outside these two observed directions.
+For \(P_*=x^2+y^2+xy-yx\), the [augmented Schur comparison](../claims/Yin_C_F0351_v11.md#square) puts the fresh square in an auxiliary coordinate.
+The initial graph then leaves a sum of background outer products whose determinant can be compared with the two trims.
+This proves full-sequence almost-sure weak Brown convergence for this polynomial under every coupling of the two independent real finite-variance Wigner laws.
+A general quadratic tensor still requires control of the corresponding rows and the remaining background terms.
 
 ## Separate determinant objectives
 

@@ -175,6 +175,12 @@ The [two-form companion](../claims/Yin_C_F0355_v1.md#statement) is a nonselfadjo
 Its fixed-parameter logarithms converge in probability and almost surely on \(2^j\) under the bidirectional sign condition.
 For Hermitian pencils with a [positive difference of sign words at a stable energy](../claims/Yin_C_F0356_v2.md#statement), the original ensemble has \(\Pr(s_{\min}\le N^{-3})\le C_E N^{-1/4}\).
 The signed diagonal flow covers three random coefficients that are all invertible and indefinite.
+A different nonselfadjoint example is the [three-channel pencil for \(x^2+y^2+xy-yx\)](../claims/Yin_C_F0357_v1.md#statement).
+In the realization with first row \((-z,x-y,x+y)\) and lower rows \((x,-1,0),(y,0,-1)\), every combination with nonzero constant coefficient has an invertible lower two-by-two block.
+Every nonzero pure variable direction has both a nonzero top row and a nonzero first column, so the three-dimensional coefficient span contains no rank-one matrix even over the complex scalars.
+Conjugation by \(\operatorname{diag}(1,Q)\), \(Q=\left(\begin{smallmatrix}1&1\\-1&1\end{smallmatrix}\right)\), gives the realization used in the real-shift proof.
+The [real-shift limit and dyadic deviation series](../claims/Yin_C_F0357_v1.md#limits) and the [fixed-nonreal ordinary comparison](../claims/Yin_C_F0351_v11.md#terminal) give the required dimension-limsup equality at each prescribed shift for this pencil under any two fixed real finite-variance Wigner laws.
+For either realization, [fixed clipping and the product coupling](../audits/reviews/Yin_R_F0365_v1.md#real-axis-whole-proof) give summability of the dyadic singularity probabilities and of each fixed positive deviation of the normalized negative logarithm below any deterministic cutoff tending to zero.
 A general three-dimensional coefficient space still needs a quantitative bottom estimate under the iid sign model.
 
 ## Public literature boundary
