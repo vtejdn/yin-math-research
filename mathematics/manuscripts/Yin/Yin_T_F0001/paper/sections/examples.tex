@@ -1,7 +1,43 @@
 \section{Examples}
 \label{sec:examples}
 
-A circular operator illustrates the distinction between the criteria in Theorems~\ref{thm:intrinsic-analytic} and~\ref{thm:analytic}.
+The following examples distinguish the hypotheses of the two analytic criteria and explain the role of normality.
+
+% Proof input: C_F0080, arcsine moments and the monomial obstruction;
+% the obstruction is applied directly to the dual commutator here.
+\begin{remark}\label{rem:liberation-without-duals}
+The existence of a liberation dual system does not imply the existence of a dual system, even for normal generators with nonatomic spectral distributions.
+Indeed, let
+\[
+ d\mu(x):=\frac{dx}{\pi\sqrt{1-x^2}}\quad(-1<x<1),\qquad
+ \M:=L^\infty((-1,1),\mu),\qquad \tau(f):=\int f\,d\mu,
+\]
+and let $X(x):=x$.
+Then $X=X^*$ generates $\M$ and has nonatomic spectral distribution, so every $X-\lambda$, $\lambda\in\C$, is regular.
+Taking $L:=P_\Omega$ gives a normalized liberation dual system, since $[X,L]=[X,P_\Omega]$ and $L$ is bounded on $H$.
+The liberation derivation relative to scalars is $a\mapsto a\otimes1-1\otimes a$, whose trace pairing is zero, so $j(W^*(X):\C)=0$.
+
+Suppose that $D$ is a dual system for $X$ in the sense of Definition~\ref{def:dual-system}.
+The commutator product rule gives on $\M\Omega$
+\[
+ [X^{2n+1},D]=\sum_{k=0}^{2n}X^kP_\Omega X^{2n-k}.
+\]
+The moments $\tau(X^{2r})=4^{-r}\binom{2r}{r}$ and $\tau(X^{2r+1})=0$ therefore give
+\[
+ \langle\Omega,[X^{2n+1},D]\Omega\rangle
+ =4^{-n}\sum_{r=0}^{n}\binom{2r}{r}\binom{2n-2r}{n-r}=1,
+\]
+where the last equality follows by comparing coefficients in $(1-z)^{-1/2}(1-z)^{-1/2}=(1-z)^{-1}$.
+On the other hand, $\|X^{2n+1}\|_2\to0$ by dominated convergence.
+Since $\Omega\in\dom D\cap\dom D^*$ and $X=X^*$,
+\[
+ 1=\bigl|\langle\Omega,[X^{2n+1},D]\Omega\rangle\bigr|
+ \leq\bigl(\|D\Omega\|_2+\|D^*\Omega\|_2\bigr)\|X^{2n+1}\|_2
+ \longrightarrow0,
+\]
+a contradiction.
+Thus this tuple satisfies the hypotheses of Theorem~\ref{thm:intrinsic-analytic} but not those of Theorem~\ref{thm:analytic}.
+\end{remark}
 
 \begin{remark}\label{rem:normality}
 The normality assumption in Theorem~\ref{thm:analytic} cannot be omitted.

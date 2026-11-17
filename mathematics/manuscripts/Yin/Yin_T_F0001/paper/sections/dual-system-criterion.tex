@@ -1,12 +1,11 @@
-% Provenance: C_F0024 v2 P3, C_F0037 and C_F0070 Parts A and C;
+% Provenance: C_F0024 v2 P1 and P3, and C_F0033 P1;
 % C_F0031 and C_F0068 Part C for finite-rank closure and domains.
 \section{Dual system criterion}
 \label{sec:dual-system-criterion}
 
-We prove Theorem~\ref{thm:analytic} by applying the conjugate-variable case of Corollary~\ref{prop:normal-conjugates}.
+We prove Theorem~\ref{thm:analytic} by applying Theorem~\ref{thm:intrinsic-analytic} to a normalized liberation dual system constructed from the given dual system.
 We first prove that the existence of a finite-rank closure and its rank are independent of the fraction pair, and identify finite-rank solutions of equation~\eqref{eq:certificate} with the closures of the corresponding fraction commutators.
-We then show that normal generators admitting a dual system also admit conjugate variables.
-A direct normalized liberation construction supplies the summed fraction-commutator identity needed for the converse.
+The construction also supplies the summed fraction-commutator identity needed for the converse.
 
 The following lemma supplies the domain facts needed for the fraction commutators.
 \begin{lemma}\label{lem:fraction-domains}
@@ -139,89 +138,6 @@ For fixed \(\xi\in\M\Omega\),
 Closedness of \(\overline T\) and \(a\xi\in\M\Omega\) give \(T(a\xi)=aT\xi\).
 \end{proof}
 
-% Proof inputs: C_F0037 spectral pinching and C_F0070 vacuum corollary,
-% specialized to the common domain and adjoint domain in Definition 1.8.
-
-We now establish the conjugate-variable hypothesis needed for Corollary~\ref{prop:normal-conjugates}.
-
-\begin{lemma}\label{lem:dual-conjugates}
-Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
-Then $X$ admits conjugate variables in the sense of Definition~\ref{def:conjugate-variables}, with
-\[
- \xi_i:=-D_i^*\Omega+(D_i\Omega)^*\qquad(1\leq i\leq d).
-\]
-\end{lemma}
-\begin{proof}
-For a spectral projection $e:=1_{\{\lambda\}}(X_j)$, the dual relation gives
-$eP_\Omega e=e[X_j,D_j]e=0$ on $\M\Omega$.
-Density and faithfulness give $e=0$, so every $X_j$ has nonatomic spectral distribution.
-Fix $i,j$, put $x:=X_j$ and $D_i^\circ:=D_i|_{\M\Omega}$, and let $K_x$ be as in equation~\eqref{eq:normal-phase-kernel}.
-We claim that
-\begin{equation}\label{eq:dual-starred-commutator}
- [D_i^\circ,X_j^*]=-\delta_{ij}K_{X_j}|_{\M\Omega}.
-\end{equation}
-
-The operator $D_i^\circ$ is closable, and Lemma~\ref{lem:module-commutation} makes $a\mapsto D_i(a\Omega)$ bounded from $\M$ to $H$.
-This map is weakly continuous on operator-norm-bounded strongly convergent nets: testing against $\dom(D_i^\circ)^*$ gives weak convergence on a dense set, and the uniform bound extends it to every test vector.
-The same properties hold for
-\[
- A:=[D_i^\circ,x^*]+\delta_{ij}K_x|_{\M\Omega}.
-\]
-Normality, the dual relation and $[K_x,x]=[P_\Omega,x^*]$ give
-\[
- [A,x]=[[D_i^\circ,x],x^*]+\delta_{ij}[K_x,x]=0.
-\]
-Lemma~\ref{lem:normal-intertwining} gives $[A,x^*]=0$.
-Polynomial approximation followed by bounded Kaplansky approximation and the preceding weak continuity therefore gives
-\[
- A(b\xi)=bA\xi\qquad(b\in W^*(x),\ \xi\in\M\Omega).
-\]
-
-Partition the spectrum of $x$ into finitely many Borel cells of diameter at most $\varepsilon$, with spectral projections $e_r$ summing to one.
-Choose $\lambda_r$ in each nonempty cell and set $r_r:=(x^*-\bar\lambda_r)e_r$, so $\|r_r\|\leq\varepsilon$.
-For fixed $\xi\in\M\Omega$, let $c_\xi$ be the norm of the bounded map $a\mapsto D_i(a\xi)$ from $\M$ to $H$.
-Averaging over independent signs and using the disjoint spectral supports gives
-\[
- \sum_r\|D_i(e_r\xi)\|_2^2\leq c_\xi^2,\qquad
- \sum_r\|D_i(r_r\xi)\|_2^2\leq\varepsilon^2c_\xi^2.
-\]
-The output projections are orthogonal, and cancellation of the scalar $\bar\lambda_r$ yields
-\[
- \left\|\sum_r e_r[D_i^\circ,x^*]e_r\xi\right\|_2
- =\left\|\sum_r\bigl(e_rD_i(r_r\xi)-r_rD_i(e_r\xi)\bigr)\right\|_2
- \leq2\varepsilon c_\xi.
-\]
-Under $\Theta^{-1}$, the operator $\sum_r e_rK_xe_r$ has kernel $v_x(z,w)$ restricted to pairs in the same cell.
-Its Hilbert--Schmidt norm tends to zero as $\varepsilon\downarrow0$, since this kernel is bounded by one and supported on $|z-w|\leq\varepsilon$, while the diagonal has product measure zero.
-Since $A$ commutes with every $e_r$,
-\[
- A\xi=\sum_r e_r[D_i^\circ,x^*]e_r\xi
-       +\delta_{ij}\sum_r e_rK_xe_r\xi\longrightarrow0.
-\]
-This proves equation~\eqref{eq:dual-starred-commutator}.
-
-The commutator product rule now shows that $[D_i^\circ,p]$ extends uniquely to a Hilbert--Schmidt operator for every $p\in\A_X^\ast$.
-Define
-\[
- \partial_i p:=-\Theta^{-1}\!\left(\overline{[D_i^\circ,p]}\right).
-\]
-This depends only on the represented element $p$.
-The bimodule identities for $\Theta$ and the commutator product rule make $\partial_i$ a derivation, with
-\[
- \partial_iX_j=\delta_{ij}1\otimes1,\qquad
- \partial_iX_j^*=\delta_{ij}v_{X_j}.
-\]
-For $p\in\A_X^\ast$, the vacuum pairing is
-\[
- \begin{aligned}
- \langle1\otimes1,\partial_i p\rangle
- &=-\langle\Omega,[D_i^\circ,p]\Omega\rangle\\
- &=\langle-D_i^*\Omega+(D_i\Omega)^*,p\Omega\rangle.
- \end{aligned}
-\]
-Thus $1\otimes1\in\dom\partial_i^*$ with adjoint vector $\xi_i$, as required.
-\end{proof}
-
 % Provenance: C_F0024-P1 and C_F0033-P1, specialized to M Omega.
 
 We now construct a normalized liberation dual system from a dual system for normal generators and compare their fraction commutators.
@@ -290,11 +206,12 @@ Finally, summing equation~\eqref{eq:dual-liberation-fractions} on $\M\Omega$ and
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:analytic}]
-By Lemma~\ref{lem:dual-conjugates}, $X$ admits conjugate variables, so Corollary~\ref{prop:normal-conjugates} applies.
+By Lemma~\ref{lem:fundamental}, every $X_i-\lambda$, $\lambda\in\C$, is regular and $X$ admits a normalized liberation dual system.
+Thus Theorem~\ref{thm:intrinsic-analytic} applies.
 Fix $u\in L^0(\M)$ and a fraction pair $Q$ for $u$.
 
 $\textup{(1)}\implies\textup{(3)}$.
-Corollary~\ref{prop:normal-conjugates} and Proposition~\ref{prop:liberation-gradients} give $T_1,\ldots,T_d\in\F(H)$ satisfying
+Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-criterion})} gives $T_1,\ldots,T_d\in\F(H)$ satisfying
 \[
  \sum_i[\rho(X_i),T_i]=\Gamma[Q,P_\Omega].
 \]
@@ -306,7 +223,7 @@ Equation~\eqref{eq:fundamental} gives
 \[
  \sum_i[\rho(X_i),T_i]=\Gamma[Q,P_\Omega].
 \]
-The converse criterion in Corollary~\ref{prop:normal-conjugates} and Proposition~\ref{prop:liberation-gradients} yields $u\in\Div_{L^0(\M)}\A_X$.
+Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-existence-criterion})} yields $u\in\Div_{L^0(\M)}\A_X$.
 
 $\textup{(2)}\Longleftrightarrow\textup{(3)}$.
 Lemma~\ref{lem:fraction-domains} gives closability, and Lemma~\ref{lem:finite-closure} gives the forward implication.

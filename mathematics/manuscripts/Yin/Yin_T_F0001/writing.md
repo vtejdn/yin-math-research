@@ -59,9 +59,10 @@ The normalization lemma uses only the liberation dual-system conditions and impo
 
 ## Applications and the Dual-System Criterion
 
-Present the applications to liberation gradients and conjugate variables in Section 5, before the dual-system criterion in Section 6.
-Deduce the dual-system criterion through the conjugate-variable case after proving that normal generators admitting a dual system admit conjugate variables.
-Retain the direct normalized liberation construction for its summed fraction-commutator identity.
+Present the application to liberation gradients in Section 5, before the dual-system criterion in Section 6.
+Deduce the dual-system criterion directly from the liberation dual-system criterion using the normalized liberation construction and its summed fraction-commutator identity.
+Keep the discussion of conjugate variables in the [F0011 manuscript](../Yin_T_F0011/readme.md).
+Place the arcsine and circular counterexamples in Examples.
 
 ## Mathematical Citations and Attribution
 

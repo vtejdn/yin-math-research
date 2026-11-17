@@ -13,21 +13,16 @@ Current manuscript citation applications and their source-evidence links are in 
 
 ## Build
 
-Run from this document directory with TeX Live, pdfLaTeX and BibTeX available:
+Run the following sequence from this document directory with TeX Live, pdfLaTeX and BibTeX available:
 
 ```powershell
-latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
-```
-
-The following in-directory sequence is also tested with MiKTeX and disables automatic package installation:
-
-```powershell
-pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex
+pdflatex -interaction=nonstopmode -halt-on-error main.tex
 bibtex main
-pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex
-pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex
+pdflatex -interaction=nonstopmode -halt-on-error main.tex
+pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
+Repeat pdfLaTeX when the log requests another pass to settle cross-references.
 The document uses `amsart`, `fontenc`, `lmodern`, `amsmath`, `amssymb`, `mathtools`, `geometry`, `microtype`, `needspace` and `hyperref`.
 The bibliography style is `amsalpha`.
 Build products stay in this document directory.
@@ -35,31 +30,14 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The in-directory build succeeded on 2026-11-17 after two pdfLaTeX passes with unchanged bibliography inputs.
-It used MiKTeX 25.4, pdfLaTeX 1.40.27 and the BibTeX 0.99d bibliography, producing a 25-page PDF of 582934 bytes.
+The in-directory build succeeded on 2026-11-17 with TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d, producing a 22-page PDF of 467303 bytes.
+The current sources move the arcsine example to Remark 7.1, retain the circular example as Remark 7.2 and prove Theorem 1.9 directly from Theorem 1.7.
+The liberation-gradient application remains in Section 5.
+The [organization record](../organization.md) gives the current environments and proof dependencies.
 
-Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
-Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for Psi_x and both quotient maps in Lemma 4.5.
-Its proof explicitly applies the quotient map in the second factor and uses linear functionals to extract the coefficients, proving invariance of the finite-dimensional span.
-Lemma 4.4 gives both kernel equalities for tensor products of a quotient map, using a complement to the subspace in its proof.
-Lemma 4.5 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
-Its proof defines both quotient maps and explicitly computes the image after quotienting each tensor factor; Lemmas 4.3 and 4.4 give the two successive inclusions.
-Its injectivity conclusion follows directly from Lemma 4.3, since neither factor multiplication map has a nonzero finite-dimensional invariant subspace; the quotient-space proof of the L2 assertion is retained.
-The [tensor convention](../conventions.md#tensor-right-multiplication) gives the multiplication argument that excludes surjectivity onto the full tensor space.
-
-Section 5 is titled Applications to liberation gradients and conjugate variables.
-Definition 5.1 and Lemma 5.2 establish the full-domain gradient-to-dual construction, followed by the criterion in Proposition 5.3.
-Definition 5.4, Lemmas 5.5-5.6 and Corollary 5.7 give the ordinary conjugate-variable case; Remark 5.8 retains the arcsine example.
-All pre-existing semantic labels are retained, including `prop:normal-conjugates` for the authorized change to a corollary.
-The introduction, [citation map](../citation.md), [organization record](../organization.md) and [conventions](../conventions.md) use these locations and numbering.
-
-Section 6 is titled Dual system criterion.
-Lemma 6.6 proves that normal generators admitting a dual system admit conjugate variables, with the actual adjoint vector $\xi_i=-D_i^*\Omega+(D_i\Omega)^*$.
-The proof of Theorem 1.9 now uses the certificate criterion in Corollary 5.7, Lemma 6.3 to identify the finite-rank coordinates and the retained summed identity of Lemma 6.7 for the converse.
-All existing mathematical environments and semantic labels remain present.
-
-The final log contains no compilation errors, undefined citations or references, duplicate-label warnings, or overfull or underfull boxes.
-The final log reports one pdfTeX font-expansion warning, "font should be expanded before its first use", and no missing-character diagnostics.
-The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed for this build.
+The source check found 83 unique labels, no unresolved references and exactly 23 cited bibliography entries.
+The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
+The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
+The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).

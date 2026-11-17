@@ -19,7 +19,7 @@ Explain the setting and operator actions at their first mathematical use rather 
 
 ## Algebras, Fractions and Rationality
 
-Write \(\mathcal A_X=\mathbb C\langle X_1,\ldots,X_d\rangle\) and \(\mathcal A_X^\ast=\mathbb C\langle X_1,\ldots,X_d,X_1^\ast,\ldots,X_d^\ast\rangle\).
+Write \(\mathcal A_X=\mathbb C\langle X_1,\ldots,X_d\rangle\).
 Use \(\operatorname{Div}_{L^0(\mathcal M)}\mathcal A_X\) and \(\operatorname{Div}_{\mathcal M}\mathcal A_X\) directly.
 Do not introduce aliases such as \(F_X\) or \(R_X\) for these division closures.
 Use “rational in \(X\)” for membership in the division closure and distinguish this from rational closure when the distinction matters.
@@ -72,7 +72,7 @@ This sum condition is a manuscript convention; it is not the zero-vacuum normali
 Use normalized rather than canonical: the sum condition does not select a unique system.
 Theorem 1.7 fixes any such normalized system and includes \(\overline{\Gamma[Q,L_i]}\in[\rho(X_i),\mathcal F(H)]\) for every fraction pair and every index as assertion (4).
 The liberation criterion assumes that \(X_i-\lambda\) is regular for every \(1\leq i\leq d\) and every \(\lambda\in\mathbb C\).
-Generation of the ambient algebra is specified where needed, in particular in the liberation-gradient and conjugate-variable constructions.
+Generation of the ambient algebra is specified where needed, in particular in the liberation-gradient construction.
 For the liberation contraction on \(\mathcal P_i\Omega\), use \(C_i^\circ\), its actual closure \(C_i:=\overline{C_i^\circ}\), and \(L_i:=\mathrm i C_i\), consistent with the generator-first liberation commutator.
 Lemma 4.1 then supplies a normalized system.
 
@@ -93,8 +93,8 @@ Use \(\mathcal F(H)\) for bounded finite-rank operators and \(S_2(H)\) for the S
 Use \(T_i\) for finite-rank operator witnesses and \(T=(T_1,\ldots,T_d)\) for a tuple.
 Use “von Neumann dimension” for the module dimension in \(\Delta\), with Luc02 Definition 1.10 for the name and CS05 Definition 2.10 for the general tracial-algebra construction.
 
-<a id="conjugate-variables"></a>
-## Liberation Gradients and Conjugate Variables
+<a id="liberation-gradients"></a>
+## Liberation Gradients
 
 Use Definition 5.1 for \(L^2\) liberation gradients on \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), where \(A_i=W^*(X_i)\) and \(B_i=W^*(X_j:j\ne i)\), with \(B_1=\mathbb C1\) when \(d=1\).
 The represented derivations \(\delta_i\) must be well-defined on this full algebra and satisfy \(1\otimes1\in\operatorname{Dom}\delta_i^*\) for their actual Hilbert-space adjoints.
@@ -103,15 +103,8 @@ For the real derivation and its adjoint vector, use \(\widehat\delta_i:=\mathrm 
 Lemma 5.2 constructs a normalized liberation dual system from these hypotheses.
 Proposition 5.3 adds normality and nonatomic spectral distributions explicitly; finiteness of liberation Fisher information alone does not supply nonatomicity.
 
-Use Definition 5.4 for the existence of ordinary conjugate variables on \(\mathcal A_X^\ast\).
-In Lemma 5.6 and Corollary 5.7, write admits conjugate variables and cite Definition 5.4 rather than repeating the derivation conditions.
-Choose the derivations from that definition at the start of a proof when they are used.
-The tuple X generates M, so the starred polynomial algebra is dense in H.
-The definition requires derivations \(\partial_i\) with \(\partial_iX_j=\delta_{ij}1\otimes1\) and \(1\otimes1\in\operatorname{Dom}\partial_i^*\).
-For such derivations, write \(\xi_i:=\partial_i^*(1\otimes1)\in H\) for the conjugate variables.
-In Lemma 5.6, distinguish the polynomial derivation \(\delta_i^\circ:=\Psi_i\partial_i\) from the derivation \(\delta_i\) on \(\mathcal P_i\).
-The formula \(j_i=[\xi_i,X_i^*]\) is first proved on the polynomial algebra; the word-moment extension and relation descent establish the full-domain actual adjoint condition before Proposition 5.3 is applied.
-Remark 5.8 retains the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
+Remark 7.1 gives the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
+It excludes ordinary dual systems by applying the dual commutator to odd monomials and using both vacuum domain inclusions.
 
 ## Terminology and Concise Explanations
 

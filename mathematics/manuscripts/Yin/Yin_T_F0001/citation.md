@@ -9,16 +9,6 @@ Each row is one source-specific use of a citation that appears in the current ma
 The canonical bibliography owns bibliographic fields, and the linked U or other fixed source record owns source statements, inspected editions and source-review limits.
 This map records only current citation applications, not consulted or uncited works.
 
-## `ACSY24`
-
-Source evidence: [ACSY24-U001](../../../audits/literature/ACSY24/Yin_U001.md#acsy24-u001) records the derivation and actual adjoint-domain condition in the published Proposition 3.5, pp.34--36, with its source-review limits.
-[ACSY24-U003](../../../audits/literature/ACSY24/Yin_U003.md#derivation-adjoint-and-compression) checks Lemma 3.3's adjoint-domain equivalence on a weakly dense starred algebra, without a reality assumption.
-
-| TeX use | Citation locator | Application and boundary |
-| --- | --- | --- |
-| `paper/sections/conjugate-variable-criterion.tex`, introduction to `def:conjugate-variables` | `\cite[Proposition~3.5]{ACSY24}` | Identifies the adopted derivation and actual adjoint-domain condition used in the definition of conjugate variables; it does not supply the manuscript's rationality criterion. |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:conjugate-liberation` proof | `\cite[Lemma~3.3]{ACSY24}` | The actual vacuum adjoint puts the dense algebraic tensor product in the adjoint domain, so each conjugate derivation is closable. The Neumann-series domain check and the proof of nonatomicity are given directly in the manuscript; maximal Delta and Proposition 3.5 are not used for this step. |
-
 ## `AP18`
 
 Source evidence: [AP18-U001](../../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
@@ -28,7 +18,7 @@ The inspected artifact is the undated 338-page author draft; 2018 is not a verif
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, setting paragraph before `def:fraction-pair` | `\cite[Theorem~7.3.2]{AP18}` | Identifies \(L^2(\M,\tau)\) with square-integrable affiliated operators in the tracial setting, so that \(H\otimes_{\C}H\subseteq L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}\); Subsection 2.4 uses this identification for the tensor realization. |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:gradient-liberation` proof | `\cite[Theorem~2.3.1]{AP18}` | Kaplansky density supplies uniformly bounded approximants from the individual algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\); the two local norm bounds and weakly closed graphs put \(\M\Omega\) in the domains of the actual contraction closure and its adjoint. |
+| `paper/sections/liberation-gradients.tex`, `lem:gradient-liberation` proof | `\cite[Theorem~2.3.1]{AP18}` | Kaplansky density supplies uniformly bounded approximants from the individual algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\); the two local norm bounds and weakly closed graphs put \(\M\Omega\) in the domains of the actual contraction closure and its adjoint. |
 | `paper/sections/dual-system-criterion.tex`, `lem:module-commutation` proof | `\cite[Theorem~2.3.1]{AP18}` | Supplies a uniformly bounded net from the generated unital \(*\)-algebra for the module-commutation extension. |
 | `paper/sections/preliminaries.tex`, `subsec:rational-affiliated` | `\cite[Section 7.2]{AP18}` | Supports the definition of affiliation by commutation with commutant unitaries, including domain invariance. |
 | `paper/sections/preliminaries.tex`, Hilbert--Schmidt setup in `subsec:finite-rank-tensors` | `\cite[Section 8.4]{AP18}` | Supports the ordinary trace on \(\B(H)\); it is distinct from the canonical trace on a general module commutant. |
@@ -106,7 +96,7 @@ Source evidence: [CS77-U001](../../../audits/literature/CS77/Yin_U001.md#cs77-u0
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/dual-system-criterion.tex`, `lem:normal-intertwining` | `\cite[Proposition~1]{CS77}` | Supplies adjoint intertwining for the stated bounded map \(\M\to H\), also used by `lem:dual-conjugates` for the starred-commutator remainder. The module extensions, bounded-set weak continuity and spectral pinching are separate local arguments. |
+| `paper/sections/dual-system-criterion.tex`, `lem:normal-intertwining` | `\cite[Proposition~1]{CS77}` | Supplies adjoint intertwining for the stated bounded map \(\M\to H\). The closed graph theorem and Kaplansky density supply the subsequent module extension in `lem:module-commutation`. |
 
 ## `Dab10`
 
@@ -114,7 +104,7 @@ Source evidence: [Dab10-U002](../../../audits/literature/Dab10/Yin_U002.md#dab10
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:gradient-liberation` proof | `\cite[proof of Lemma~12]{Dab10}` | Provides the contraction-method model for the general liberation estimate. The manuscript retains the nonzero coassociativity defect, proves the analytic-unitary approximation and checks both actual bounded-vector domains locally; it does not invoke a coassociative estimate without its hypotheses. |
+| `paper/sections/liberation-gradients.tex`, `lem:gradient-liberation` proof | `\cite[proof of Lemma~12]{Dab10}` | Provides the contraction-method model for the general liberation estimate. The manuscript retains the nonzero coassociativity defect, proves the analytic-unitary approximation and checks both actual bounded-vector domains locally; it does not invoke a coassociative estimate without its hypotheses. |
 
 ## `DR97`
 
@@ -131,7 +121,6 @@ Source evidence: [Fug50-U001, bounded commutation](../../../audits/literature/Fu
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/dual-system-criterion.tex`, direct classical commutation sentence before `lem:normal-intertwining` | `\cite[Theorem~I, p.~35]{Fug50}` | For bounded \(S\) and bounded normal \(N\), the source's \(SN=NS\) implication yields \(SN^*=N^*S\); the original proof was not re-audited. |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:normal-adjoint-uniqueness` proof | `\cite[Theorem~I, p.~35]{Fug50}` | The Hilbert--Schmidt difference S is bounded and commutes with the bounded normal x, so it also commutes with x*. This is now the first substantive use after the section swap and uses the same inspected bounded specialization. |
 
 ## `Hun74`
 
@@ -197,8 +186,7 @@ Source evidence: [Mai15-U001](../../../audits/literature/Mai15/Yin_U001.md#mai15
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:conjugate-liberation` proof | `\cite[Lemma~4.3]{Mai15}` | Supplies the actual polynomial tensor-adjoint formula yielding \((\delta_i^\circ)^*(1\otimes1)=[X_i^*,\xi_i]\) for \(\delta_i^\circ=\Psi_i\partial_i\). No reality of \(\partial_i\) is assumed. |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:gradient-liberation` proof | `\cite[Lemmas~4.6--4.7]{Mai15}` | Supplies the real-adjoint and dense tensor-adjoint-domain identities for \(\widehat\delta_i=\mathrm i\delta_i\), after reality is established on \(A_i,B_i\). These imply closability and the actual core-adjoint formula; the energy estimate and both full bounded-vector domain extensions are proved locally. |
+| `paper/sections/liberation-gradients.tex`, `lem:gradient-liberation` proof | `\cite[Lemmas~4.6--4.7]{Mai15}` | Supplies the real-adjoint and dense tensor-adjoint-domain identities for \(\widehat\delta_i=\mathrm i\delta_i\), after reality is established on \(A_i,B_i\). These imply closability and the actual core-adjoint formula; the energy estimate and both full bounded-vector domain extensions are proved locally. |
 
 ## `Miy22`
 
@@ -240,7 +228,7 @@ These units inspect the 50-page published article; their proof and external-inpu
 
 ## `Voi98`
 
-Source evidence: [Voi98-U002](../../../audits/literature/Voi98/Yin_U002.md#voi98-u002), [Voi98-U005](../../../audits/literature/Voi98/Yin_U005.md#voi98-u005), and [Voi98-U006](../../../audits/literature/Voi98/Yin_U006.md#voi98-u006) record the conjugate-variable, dual-system, Fock-model and Fisher-information passages.
+Source evidence: [Voi98-U002](../../../audits/literature/Voi98/Yin_U002.md#voi98-u002), [Voi98-U005](../../../audits/literature/Voi98/Yin_U005.md#voi98-u005), and [Voi98-U006](../../../audits/literature/Voi98/Yin_U006.md#voi98-u006) record the dual-system, Fock-model and Fisher-information passages used here.
 The inspected source is the published 39-page article; the exact proof repairs and source limits remain in those units.
 
 | TeX use | Citation locator | Application and boundary |
@@ -269,6 +257,5 @@ These retained accounts cover Sections 1–9 and 13; they provide no recorded re
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, immediately before `def:liberation-dual-system` | `\cite[Definition~13.1]{Voi99}` | Identifies the source of the liberation commutation pattern. The manuscript definition is a domain variant for arbitrary tuples \(X\in\mathcal M^d\), with \(\mathcal M\Omega\subseteq\operatorname{Dom}L_i\cap\operatorname{Dom}L_i^*\). The source requires bounded selfadjoint operators. Neither definition imposes vacuum normalization. The manuscript additionally defines a normalized system by its sum being P_Omega on M Omega; this condition and the normalization construction in Lemma 4.1 are local and are not attributed to Voi99. For a general tuple, the manuscript specifies the displayed generator commutators; it does not assert additional adjoint-generator or von Neumann subalgebra relations. The citation supplies no existence theorem for the manuscript's variant and no replacement for its analytic estimates. |
-| `paper/sections/conjugate-variable-criterion.tex`, introduction to `def:liberation-gradients` | `\cite[5.3--5.4 and Proposition~6.1]{Voi99}` | Supplies the liberation prescriptions, gradient moments and signed actual-adjoint characterization. The manuscript adopts the L2 case on each algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), and explicitly requires well-definedness of the represented derivations. |
-| `paper/sections/conjugate-variable-criterion.tex`, after `def:liberation-gradients` | `\cite[Definition~9.1]{Voi99}` | Identifies the sum of squared coordinate-gradient norms with liberation Fisher information relative to scalars; finiteness does not supply the nonatomicity imposed separately in Proposition 5.3. |
-| `paper/sections/conjugate-variable-criterion.tex`, `lem:conjugate-liberation` proof | `\cite[Remark~5.5(c)]{Voi99}` | Extends the polynomial word-moment formula to the coordinate von Neumann algebras by bounded Kaplansky approximation. The current round checked the published pp.115--116 directly. The descent through represented relations and the actual adjoint pairing on every \(p\in\mathcal P_i\) are proved locally, so the source's initial algebraic-freeness convention is not silently assumed. |
+| `paper/sections/liberation-gradients.tex`, introduction to `def:liberation-gradients` | `\cite[5.3--5.4 and Proposition~6.1]{Voi99}` | Supplies the liberation prescriptions, gradient moments and signed actual-adjoint characterization. The manuscript adopts the L2 case on each algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), and explicitly requires well-definedness of the represented derivations. |
+| `paper/sections/liberation-gradients.tex`, after `def:liberation-gradients` | `\cite[Definition~9.1]{Voi99}` | Identifies the sum of squared coordinate-gradient norms with liberation Fisher information relative to scalars; finiteness does not supply the nonatomicity imposed separately in Proposition 5.3. |
