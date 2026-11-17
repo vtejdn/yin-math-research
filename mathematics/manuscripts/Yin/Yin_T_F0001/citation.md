@@ -18,7 +18,6 @@ The inspected artifact is the undated 338-page author draft; 2018 is not a verif
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, setting paragraph before `def:fraction-pair` | `\cite[Theorem~7.3.2]{AP18}` | Identifies \(L^2(\M,\tau)\) with square-integrable affiliated operators in the tracial setting, so that \(H\otimes_{\C}H\subseteq L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}\); Subsection 2.4 uses this identification for the tensor realization. |
-| `paper/sections/liberation-gradients.tex`, `lem:gradient-liberation` proof | `\cite[Theorem~2.3.1]{AP18}` | Kaplansky density supplies uniformly bounded approximants from the individual algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\); the two local norm bounds and weakly closed graphs put \(\M\Omega\) in the domains of the actual contraction closure and its adjoint. |
 | `paper/sections/dual-system-criterion.tex`, `lem:module-commutation` proof | `\cite[Theorem~2.3.1]{AP18}` | Supplies a uniformly bounded net from the generated unital \(*\)-algebra for the module-commutation extension. |
 | `paper/sections/preliminaries.tex`, `subsec:rational-affiliated` | `\cite[Section 7.2]{AP18}` | Supports the definition of affiliation by commutation with commutant unitaries, including domain invariance. |
 | `paper/sections/preliminaries.tex`, Hilbert--Schmidt setup in `subsec:finite-rank-tensors` | `\cite[Section 8.4]{AP18}` | Supports the ordinary trace on \(\B(H)\); it is distinct from the canonical trace on a general module commutant. |
@@ -98,14 +97,6 @@ Source evidence: [CS77-U001](../../../audits/literature/CS77/Yin_U001.md#cs77-u0
 | --- | --- | --- |
 | `paper/sections/dual-system-criterion.tex`, `lem:normal-intertwining` | `\cite[Proposition~1]{CS77}` | Supplies adjoint intertwining for the stated bounded map \(\M\to H\). The closed graph theorem and Kaplansky density supply the subsequent module extension in `lem:module-commutation`. |
 
-## `Dab10`
-
-Source evidence: [Dab10-U002](../../../audits/literature/Dab10/Yin_U002.md#dab10-u002) retains the selfadjoint contraction-method interface and its scope.
-
-| TeX use | Citation locator | Application and boundary |
-| --- | --- | --- |
-| `paper/sections/liberation-gradients.tex`, `lem:gradient-liberation` proof | `\cite[proof of Lemma~12]{Dab10}` | Provides the contraction-method model for the general liberation estimate. The manuscript retains the nonzero coassociativity defect, proves the analytic-unitary approximation and checks both actual bounded-vector domains locally; it does not invoke a coassociative estimate without its hypotheses. |
-
 ## `DR97`
 
 Source evidence: [DR97-U003](../../../audits/literature/DR97/Yin_U003.md#dr97-u003) checks Theorem 7's finite-generator inverse-closure conclusion and its proof repairs.
@@ -180,14 +171,6 @@ The general tracial-algebra dimension construction has its separately cited CS05
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Section~8.2.1]{Luc02}` | Supplies the left/right fraction terminology. |
 | `paper/sections/preliminaries.tex`, `def:delta` | `\cite[Definition~1.10]{Luc02}` | Gives the manuscript's named terminology locator, whose primary-source inspection is not established by retained Luc02-U001; the general tracial-algebra construction is separately linked to CS05. |
 
-## `Mai15`
-
-Source evidence: [Mai15-U001](../../../audits/literature/Mai15/Yin_U001.md#mai15-u001) checks the actual adjoint-domain multiplication and real adjoint identities in the retained arXiv version.
-
-| TeX use | Citation locator | Application and boundary |
-| --- | --- | --- |
-| `paper/sections/liberation-gradients.tex`, `lem:gradient-liberation` proof | `\cite[Lemmas~4.6--4.7]{Mai15}` | Supplies the real-adjoint and dense tensor-adjoint-domain identities for \(\widehat\delta_i=\mathrm i\delta_i\), after reality is established on \(A_i,B_i\). These imply closability and the actual core-adjoint formula; the energy estimate and both full bounded-vector domain extensions are proved locally. |
-
 ## `Miy22`
 
 Source evidence: [Miy22-U005](../../../audits/literature/Miy22/Yin_U005.md#miy22-u005), [Miy22-U006](../../../audits/literature/Miy22/Yin_U006.md#miy22-u006), and [Miy22-U007](../../../audits/literature/Miy22/Yin_U007.md#miy22-u007) retain the bounded theorem, fraction interfaces and affiliated rationality theorem.
@@ -249,13 +232,10 @@ Source evidence: [Wei94-U001](../../../audits/literature/Wei94/Yin_U001.md#wei94
 
 Source evidence: [Voi99-U001](../../../audits/literature/Voi99/Yin_U001.md#voi99-u001) checks the published Section 13, pp.160–161, including Definition 13.1 and the bounded selfadjoint commutation conditions.
 The [gradient and adjoint unit](../../../audits/literature/Voi99/Yin_U003.md#voi99-u003) checks 5.3--5.5 and Proposition 6.1, including the word-moment extension to von Neumann closures and the sign \(\delta_i^*(1\otimes1)=-j_i\).
-The [information unit](../../../audits/literature/Voi99/Yin_U004.md#voi99-u004) checks Definition 9.1 and its finite-coordinate norm convention.
 The [source edition note](../../../audits/literature/Voi99/readme.md#yin-edition) identifies the inspected published edition.
 Source corrections and inspection limits remain in the linked units; [Voi99-U002](../../../audits/literature/Voi99/Yin_U002.md#voi99-u002) additionally covers the Introduction and Sections 1–4.
-These retained accounts cover Sections 1–9 and 13; they provide no recorded review coverage for Sections 10–12 and do not establish a complete-source audit.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, immediately before `def:liberation-dual-system` | `\cite[Definition~13.1]{Voi99}` | Identifies the source of the liberation commutation pattern. The manuscript definition is a domain variant for arbitrary tuples \(X\in\mathcal M^d\), with \(\mathcal M\Omega\subseteq\operatorname{Dom}L_i\cap\operatorname{Dom}L_i^*\). The source requires bounded selfadjoint operators. Neither definition imposes vacuum normalization. The manuscript additionally defines a normalized system by its sum being P_Omega on M Omega; this condition and the normalization construction in Lemma 4.1 are local and are not attributed to Voi99. For a general tuple, the manuscript specifies the displayed generator commutators; it does not assert additional adjoint-generator or von Neumann subalgebra relations. The citation supplies no existence theorem for the manuscript's variant and no replacement for its analytic estimates. |
-| `paper/sections/liberation-gradients.tex`, introduction to `def:liberation-gradients` | `\cite[5.3--5.4 and Proposition~6.1]{Voi99}` | Supplies the liberation prescriptions, gradient moments and signed actual-adjoint characterization. The manuscript adopts the L2 case on each algebra \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), and explicitly requires well-definedness of the represented derivations. |
-| `paper/sections/liberation-gradients.tex`, after `def:liberation-gradients` | `\cite[Definition~9.1]{Voi99}` | Identifies the sum of squared coordinate-gradient norms with liberation Fisher information relative to scalars; finiteness does not supply the nonatomicity imposed separately in Proposition 5.3. |
+| `paper/sections/liberation-dual-system-criterion.tex`, `rem:liberation-gradients` | `\cite[Sections~5.3--5.4]{Voi99}` | Supplies the liberation-gradient formulation for the algebras A_i and B_i. The implication to the manuscript's normalized dual-system domain variant is the project deduction retained in C_F0082, linked from the project provenance map; it is not attributed to the cited source as a verbatim existence theorem. |

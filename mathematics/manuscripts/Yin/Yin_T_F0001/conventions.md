@@ -72,9 +72,6 @@ This sum condition is a manuscript convention; it is not the zero-vacuum normali
 Use normalized rather than canonical: the sum condition does not select a unique system.
 Theorem 1.7 fixes any such normalized system and includes \(\overline{\Gamma[Q,L_i]}\in[\rho(X_i),\mathcal F(H)]\) for every fraction pair and every index as assertion (4).
 The liberation criterion assumes that \(X_i-\lambda\) is regular for every \(1\leq i\leq d\) and every \(\lambda\in\mathbb C\).
-Generation of the ambient algebra is specified where needed, in particular in the liberation-gradient construction.
-For the liberation contraction on \(\mathcal P_i\Omega\), use \(C_i^\circ\), its actual closure \(C_i:=\overline{C_i^\circ}\), and \(L_i:=\mathrm i C_i\), consistent with the generator-first liberation commutator.
-Lemma 4.1 then supplies a normalized system.
 
 Use “fraction commutator” for the project-local construction associated with \(Q\):
 \[
@@ -96,14 +93,12 @@ Use “von Neumann dimension” for the module dimension in \(\Delta\), with Luc
 <a id="liberation-gradients"></a>
 ## Liberation Gradients
 
-Use Definition 5.1 for \(L^2\) liberation gradients on \(\mathcal P_i=\operatorname{Alg}(A_i,B_i)\), where \(A_i=W^*(X_i)\) and \(B_i=W^*(X_j:j\ne i)\), with \(B_1=\mathbb C1\) when \(d=1\).
-The represented derivations \(\delta_i\) must be well-defined on this full algebra and satisfy \(1\otimes1\in\operatorname{Dom}\delta_i^*\) for their actual Hilbert-space adjoints.
-With the manuscript's second-variable-linear inner product, write \(j_i:=j(A_i:B_i)=-\delta_i^*(1\otimes1)\), so \(j_i^*=-j_i\) and \(\tau(j_ip)=(\tau\otimes\tau)(\delta_ip)\).
-For the real derivation and its adjoint vector, use \(\widehat\delta_i:=\mathrm i\delta_i\) and \(\eta:=\mathrm i j_i=\widehat\delta_i^*(1\otimes1)\).
-Lemma 5.2 constructs a normalized liberation dual system from these hypotheses.
-Proposition 5.3 adds normality and nonatomic spectral distributions explicitly; finiteness of liberation Fisher information alone does not supply nonatomicity.
+Remark 4.8 uses \(j(A_i:B_i)\) for the liberation gradients, where \(A_i=W^*(X_i)\) and \(B_i=W^*(X_j:j\ne i)\), with \(B_1=\mathbb C1\) when \(d=1\).
+It cites Voi99 Sections 5.3--5.4 for the gradient formulation and states the existence of a normalized liberation dual system with the domains in Definition 1.6.
+The construction and estimates remain in [C_F0082](../../../claims/Yin_C_F0082_v1.md#argument).
+For the normal-operator application, nonatomicity is a separate hypothesis.
 
-Remark 7.1 gives the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
+Remark 6.1 gives the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
 It excludes ordinary dual systems by applying the dual commutator to odd monomials and using both vacuum domain inclusions.
 
 ## Terminology and Concise Explanations

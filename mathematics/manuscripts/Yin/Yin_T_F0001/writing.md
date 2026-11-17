@@ -59,7 +59,8 @@ The normalization lemma uses only the liberation dual-system conditions and impo
 
 ## Applications and the Dual-System Criterion
 
-Present the application to liberation gradients in Section 5, before the dual-system criterion in Section 6.
+At the end of Section 4, state in a short remark that L2 liberation gradients give a normalized liberation dual system, without developing the construction or estimates.
+Omit a separate section on liberation gradients; the dual-system criterion is Section 5 and Examples is Section 6.
 Deduce the dual-system criterion directly from the liberation dual-system criterion using the normalized liberation construction and its summed fraction-commutator identity.
 Keep the discussion of conjugate variables in the [F0011 manuscript](../Yin_T_F0011/readme.md).
 Place the arcsine and circular counterexamples in Examples.

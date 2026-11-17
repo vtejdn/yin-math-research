@@ -10,17 +10,16 @@ It does not select a new research objective or change Claim status.
 
 ## Document Order
 
-The paper is compiled from `main.tex` and seven section files.
+The paper is compiled from `main.tex` and six section files.
 
 | Section | Current title | Mathematical content |
 | --- | --- | --- |
 | 1 | Introduction | Definitions 1.1-1.3, 1.6 and 1.8, Theorems 1.4, 1.7 and 1.9, the intervening remark and the statement of the paper's organization. |
 | 2 | Preliminaries | Division closures, the abstract free field and coordinate separation; fractions of affiliated operators; tensor realizations of finite-rank operators; Delta and free-field realization. |
 | 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
-| 4 | Liberation dual system criterion | The normalization Lemma 4.1, finite-rank closure and individual tensor lemmas, Lemma 4.4 on quotient maps and tensor products, Proposition 4.6, the L2 recovery Lemma 4.7 and the proof of Theorem 1.7. |
-| 5 | Applications to liberation gradients | Definition 5.1, the liberation construction in Lemma 5.2 and the rationality criterion in Proposition 5.3. |
-| 6 | Dual system criterion | Lemmas 6.1-6.5 on fraction domains, rank independence, identification of finite-rank solutions and module commutation; Lemma 6.6 gives the normalized liberation construction and summed identity. Theorem 1.9 follows directly from Theorem 1.7. |
-| 7 | Examples | The arcsine example in Remark 7.1 distinguishes the two analytic hypotheses; the circular counterexample in Remark 7.2 shows why normality is needed for the ordinary dual-system criterion. |
+| 4 | Liberation dual system criterion | The normalization Lemma 4.1, finite-rank closure and individual tensor lemmas, Lemma 4.4 on quotient maps and tensor products, Proposition 4.6, the L2 recovery Lemma 4.7, the proof of Theorem 1.7 and the short liberation-gradient remark, Remark 4.8. |
+| 5 | Dual system criterion | Lemmas 5.1-5.5 on fraction domains, rank independence, identification of finite-rank solutions and module commutation; Lemma 5.6 gives the normalized liberation construction and summed identity. Theorem 1.9 follows directly from Theorem 1.7. |
+| 6 | Examples | The arcsine example in Remark 6.1 distinguishes the two analytic hypotheses; the circular counterexample in Remark 6.2 shows why normality is needed for the ordinary dual-system criterion. |
 
 ## Preliminary Order
 
@@ -43,21 +42,21 @@ The Hilbert–Schmidt space is defined before the unitary extension of Theta, an
 | Environment | Hypotheses and conclusion | Proof route |
 | --- | --- | --- |
 | Theorem 1.4, `thm:delta` | For a bounded tuple with Delta(X)=d, rationality is equivalent to an affiliated tensor identity, the tensor identity for every fraction pair, bounded tensor witnesses for some fraction pair, and a finite-rank certificate for some fraction pair. The witnesses are unique for the specified data. | Section 3 proves the five-condition cycle using the free-field realization, difference quotients, denominator clearing, tensor injectivity, the Theta correspondence and the balanced-tensor equalizer. |
-| Theorem 1.7, `thm:intrinsic-analytic` | For X in M^d with every scalar shift regular, fix a normalized liberation dual system. Rationality is equivalent to a finite-rank certificate for some fraction pair, to such certificates for every pair, and to closure Gamma[Q,L_i] lying in [rho(X_i),F(H)] for every pair and every i. The certificate tuple is unique for each fixed pair. | The cycle is (1) implies (4) implies (3) implies (2) implies (1). Proposition 4.6 gives maximal Delta. Theorem 1.4(3) and Lemma 4.7 give algebraic L2 tensors and closure Phi_i(h)=Theta(Psi_i(ell_i)); Lemma 6.1 identifies the full fraction-commutator closure, with T_i=-Theta(ell_i). Summing uses the normalization. Theorem 1.4 gives the converse and uniqueness. |
-| Theorem 1.9, `thm:analytic` | For bounded normal generators and a dual system in the sense of Definition 1.8, rationality is equivalent to finite rank of every fraction commutator, equivalently bounded finite-rank closure on its full natural domain. Each coordinate rank is independent of the fraction pair. | Lemma 6.6 supplies a normalized liberation dual system and scalar-shift regularity. Theorem 1.7 gives finite-rank certificates for each prescribed fraction pair; Lemma 6.3 identifies them with the ordinary fraction-commutator closures. Conversely, the summed identity of Lemma 6.6 supplies a certificate, so Theorem 1.7 gives rationality. Lemmas 6.1 and 4.2 give (2) equivalent to (3); Lemma 6.2 gives rank independence. |
+| Theorem 1.7, `thm:intrinsic-analytic` | For X in M^d with every scalar shift regular, fix a normalized liberation dual system. Rationality is equivalent to a finite-rank certificate for some fraction pair, to such certificates for every pair, and to closure Gamma[Q,L_i] lying in [rho(X_i),F(H)] for every pair and every i. The certificate tuple is unique for each fixed pair. | The cycle is (1) implies (4) implies (3) implies (2) implies (1). Proposition 4.6 gives maximal Delta. Theorem 1.4(3) and Lemma 4.7 give algebraic L2 tensors and closure Phi_i(h)=Theta(Psi_i(ell_i)); Lemma 5.1 identifies the full fraction-commutator closure, with T_i=-Theta(ell_i). Summing uses the normalization. Theorem 1.4 gives the converse and uniqueness. |
+| Theorem 1.9, `thm:analytic` | For bounded normal generators and a dual system in the sense of Definition 1.8, rationality is equivalent to finite rank of every fraction commutator, equivalently bounded finite-rank closure on its full natural domain. Each coordinate rank is independent of the fraction pair. | Lemma 5.6 supplies a normalized liberation dual system and scalar-shift regularity. Theorem 1.7 gives finite-rank certificates for each prescribed fraction pair; Lemma 5.3 identifies them with the ordinary fraction-commutator closures. Conversely, the summed identity of Lemma 5.6 supplies a certificate, so Theorem 1.7 gives rationality. Lemmas 5.1 and 4.2 give (2) equivalent to (3); Lemma 5.2 gives rank independence. |
 
 Theorem 1.4 does not require normality or generation of M.
 Its finite-rank condition asks for some fraction pair.
 Theorem 1.7 applies to every prescribed fraction pair, and its witnesses may depend on that pair.
-For the normalized liberation system constructed from a dual system in Lemma 6.6, the identity closure Gamma[Q,L_i]=[rho(X_i),closure Gamma[Q,D_i]] holds when the ordinary fraction commutator has bounded closure.
-The resulting summed identity verifies the certificate required by Theorem 1.7, while Lemma 6.3 identifies the certificate coordinates with the ordinary fraction-commutator closures.
+For the normalized liberation system constructed from a dual system in Lemma 5.6, the identity closure Gamma[Q,L_i]=[rho(X_i),closure Gamma[Q,D_i]] holds when the ordinary fraction commutator has bounded closure.
+The resulting summed identity verifies the certificate required by Theorem 1.7, while Lemma 5.3 identifies the certificate coordinates with the ordinary fraction-commutator closures.
 The arcsine example shows that the liberation criterion has strictly weaker hypotheses than the ordinary dual-system criterion.
 
 ## Tensor and Liberation Results
 
 Subsection 2.4, “Algebraic tensors and finite-rank operators”, uses CS05 equations (1.1)–(1.2) for Theta and its four tensor-factor actions.
 It gives the linear bijection from algebraic L2 tensors to bounded finite-rank operators, its Hilbert–Schmidt extension, the bounded-factor specialization and the commutator identity.
-It also fixes the extension \(\tau(\xi)=\langle\Omega,\xi\rangle\) for \(\xi\in H\), used in the liberation-gradient construction.
+It also fixes the extension \(\tau(\xi)=\langle\Omega,\xi\rangle\) for \(\xi\in H\).
 Lemma 2.2 is the balanced-tensor equalizer used by Theorem 1.4.
 
 Lemmas 3.1–3.3 respectively clear a finite family of affiliated tensors, prove tensor injectivity under maximal Delta, and convert algebraic L2 tensor certificates into finite-rank operator certificates with the sign T_i=-Theta(ell_i).
@@ -79,46 +78,38 @@ The density needed in these proofs is that of M Omega and t M Omega in H.
 Proposition 4.6, Lemma 4.7 and Theorem 1.7 require neither normality nor generation of M by X.
 The proof of Theorem 1.7 follows Lemma 4.7 in Section 4.
 Its new assertion (4) uses a normalized system; normalization is always available and hence does not restrict the admissible tuples X.
-The reference to Lemma 6.1 uses only its common-domain hypotheses and has no dependence on Theorem 1.7.
+The reference to Lemma 5.1 uses only its common-domain hypotheses and has no dependence on Theorem 1.7.
 
 ## Ordinary Duals and Liberation Gradients
 
 Definition 1.8, `def:dual-system`, precedes Theorem 1.9 and states the common domain and adjoint-domain inclusion and the generator-first relations on M Omega.
-Theorem 1.9 and Lemmas 6.3 and 6.6 use this definition; normality and generation remain separate hypotheses wherever needed.
-Lemma 6.1 supplies closability on the natural fraction-commutator domain.
-Lemma 6.2, `lem:fraction-ranks`, uses common denominators and the finite-rank closure lemma to propagate finite rank from one fraction pair to every pair and prove equality of the ranks.
-Lemma 6.3, `lem:finite-rank-identification`, clears the tensor factors of a finite-rank solution and applies the ordinary dual relation on M Omega to identify its coordinates with the actual fraction-commutator closures.
+Theorem 1.9 and Lemmas 5.3 and 5.6 use this definition; normality and generation remain separate hypotheses wherever needed.
+Lemma 5.1 supplies closability on the natural fraction-commutator domain.
+Lemma 5.2, `lem:fraction-ranks`, uses common denominators and the finite-rank closure lemma to propagate finite rank from one fraction pair to every pair and prove equality of the ranks.
+Lemma 5.3, `lem:finite-rank-identification`, clears the tensor factors of a finite-rank solution and applies the ordinary dual relation on M Omega to identify its coordinates with the actual fraction-commutator closures.
 These fraction lemmas require no normality or generation of M.
-The generic domain assumptions in Lemmas 6.1 and 6.2 remain sufficient, so Lemma 6.1 can also be used with liberation dual operators in Section 4.
-Lemma 6.4, `lem:normal-intertwining`, gives the bounded-map adjoint intertwining from CS77; the classical Fuglede statement precedes it.
-Lemma 6.5 uses that lemma, the closed graph theorem and Kaplansky density for closable module commutation.
-Lemma 6.6, `lem:fundamental`, sets K_i=[rho(X_i),D_i restricted to M Omega], C=sum_i K_i-P_Omega and L_i=K_i-C/d.
+The generic domain assumptions in Lemmas 5.1 and 5.2 remain sufficient, so Lemma 5.1 can also be used with liberation dual operators in Section 4.
+Lemma 5.4, `lem:normal-intertwining`, gives the bounded-map adjoint intertwining from CS77; the classical Fuglede statement precedes it.
+Lemma 5.5 uses that lemma, the closed graph theorem and Kaplansky density for closable module commutation.
+Lemma 5.6, `lem:fundamental`, sets K_i=[rho(X_i),D_i restricted to M Omega], C=sum_i K_i-P_Omega and L_i=K_i-C/d.
 It checks the common adjoint domain, normalized liberation relations and regularity of scalar shifts.
-Lemma 6.5 makes C left M-linear, so Gamma[Q,C] vanishes on M Omega.
+Lemma 5.5 makes C left M-linear, so Gamma[Q,C] vanishes on M Omega.
 This gives closure Gamma[Q,L_i]=[rho(X_i),closure Gamma[Q,D_i]] whenever the latter ordinary fraction commutator has bounded closure, and retains the fundamental summed identity.
-The proof of Theorem 1.9 uses Theorem 1.7 in both directions, independently of Section 5.
+The proof of Theorem 1.9 uses Theorem 1.7 in both directions.
 Its converse needs only the specified fraction pair; propagation between pairs is retained for rank independence.
 
-Section 5 treats liberation gradients.
-Definition 5.1, `def:liberation-gradients`, uses the represented derivations on each full algebra \(\mathcal P_i=\operatorname{Alg}(W^*(X_i),W^*(X_j:j\ne i))\).
-It explicitly requires well-definedness and the actual Hilbert-adjoint condition, with \(j_i=-\delta_i^*(1\otimes1)\).
-Lemma 5.2, `lem:gradient-liberation`, uses \(\widehat\delta_i=\mathrm i\delta_i\) and proves the energy estimate with its nonzero coassociativity defect.
-Analytic polynomial approximation of unitaries and closedness of \(\overline{\widehat\delta_i}\) give an operator-norm-to-L2 bound for the contraction.
-The core adjoint formula supplies the corresponding adjoint bound.
-Kaplansky approximation and weakly closed graphs put \(\mathcal M\Omega\) in both domains of the actual closure \(C_i=\overline{C_i^\circ}\).
-Graph-core approximation extends the generator relation, and \(L_i=\mathrm i C_i\) is a liberation dual system.
-Lemma 4.1 supplies normalization.
-Proposition 5.3, `prop:liberation-gradients`, assumes normal generators with nonatomic spectral distributions in addition to \(L^2\) liberation gradients.
-Nonatomicity makes every scalar shift regular, so Theorem 1.7 gives the rationality criterion for every fraction pair, uniqueness for each fixed pair and all its conclusions for any normalized system.
-Proposition 4.6 gives maximal Delta.
+Remark 4.8, `rem:liberation-gradients`, closes Section 4.
+For the coordinate algebras A_i and the algebras B_i generated by the other coordinates, it states that L2 liberation gradients give a normalized liberation dual system in the sense of Definition 1.6.
+The definition is cited to Voi99 Sections 5.3--5.4; the construction and estimates remain in C_F0082 and are not developed in the manuscript.
+Normality and nonatomic spectral distributions supply the regularity hypothesis when applying Theorem 1.7.
 
-Section 7, Examples, begins with the arcsine example in Remark 7.1, `rem:liberation-without-duals`.
+Section 6, Examples, begins with the arcsine example in Remark 6.1, `rem:liberation-without-duals`.
 The arcsine coordinate has nonatomic law, regular scalar shifts and the normalized liberation dual \(L=P_\Omega\).
 Its liberation gradient relative to scalars is zero.
 The odd monomials tend to zero in L2, whereas the vacuum pairing of their ordinary dual commutators would equal one.
 The two vacuum domain inclusions bound that pairing by a fixed constant times the L2 norm, excluding every ordinary dual system.
 
-Remark 7.2 retains the circular counterexample.
+Remark 6.2 retains the circular counterexample.
 The example applies MSY23 Proposition 6.2 directly to its bounded dual for maximal Delta and compares Theorems 1.4 and 1.9.
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
 
