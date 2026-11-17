@@ -88,7 +88,7 @@ For $w\in L^0(\M)$, define the right multiplication map
 \]
 by
 \begin{equation}
- \Psi_w(k):=k(w\otimes1-1\otimes w^{\mathrm{op}})
+ \Psi_w(\ell):=\ell(w\otimes1-1\otimes w^{\mathrm{op}})
  \label{eq:psi}
 \end{equation}
 \end{definition}
@@ -106,9 +106,9 @@ Suppose $\Delta(X)=d$.
 For $u\in L^0(\M)$ the following are equivalent:
 \begin{enumerate}
 \item $u\in\Div_{L^0(\M)}\A_X$.
-\item\label{item:delta-tensors} There are $k_i\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ such that
+\item\label{item:delta-tensors} There are $\ell_i\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ such that
 \begin{equation}
- \sum_{i=1}^d\Psi_i(k_i)=u\otimes1-1\otimes u^{\mathrm{op}}.
+ \sum_{i=1}^d\Psi_i(\ell_i)=u\otimes1-1\otimes u^{\mathrm{op}}.
  \label{eq:tensor-criterion}
 \end{equation}
 \item\label{item:delta-all-fraction-tensors}
@@ -125,7 +125,7 @@ There exist a fraction pair $Q=(s,a,b,t)$ for $u$ and tensors $\ell_1,\ldots,\el
  \label{eq:certificate}
 \end{equation}
 \end{enumerate}
-In~\textup{(\ref{item:delta-tensors})}, $k_1,\ldots,k_d$ are uniquely determined by $u$.
+In~\textup{(\ref{item:delta-tensors})}, $\ell_1,\ldots,\ell_d$ are uniquely determined by $u$.
 The tensors $\ell_1,\ldots,\ell_d$ in \textup{(\ref{item:delta-all-fraction-tensors})} and \textup{(\ref{item:delta-bounded-fraction-tensors})} and the tuple $T$ in~\textup{(\ref{item:delta-finite-rank})} are uniquely determined by the fraction pair $Q$.
 \end{theorem}
 
@@ -137,7 +137,7 @@ By Definition~\ref{def:fraction-commutator},
 The left-hand sides of equations~\eqref{eq:tensor-criterion} and~\eqref{eq:certificate} are values of degree-one Hochschild differentials with the corresponding coefficient bimodules; see Remark~\ref{rem:boundary-interpretation}.
 
 \begin{remark}
-When the equivalent assertions of Theorem~\ref{thm:delta} hold, the tensors in assertion~\textup{(\ref{item:delta-tensors})} are the free difference quotients $k_i=\partial_i u$ of $u$ with respect to $X_1,\ldots,X_d$;
+When the equivalent assertions of Theorem~\ref{thm:delta} hold, the tensors in assertion~\textup{(\ref{item:delta-tensors})} are the free difference quotients $\ell_i=\partial_i u$ of $u$ with respect to $X_1,\ldots,X_d$;
 see the implication $(1)\implies(2)$ in its proof.
 The implication $(2)\implies(3)$ follows as $\Psi_i$ is a right multiplication map.
 The implication $(3)\implies(4)$ is obtained by clearing denominators in $\ell_i$.

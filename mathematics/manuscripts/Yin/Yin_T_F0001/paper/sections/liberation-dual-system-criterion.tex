@@ -57,10 +57,10 @@ is injective.
 \end{lemma}
 \begin{proof}
 Suppose that $B$ has no nonzero finite-dimensional invariant subspace.
-If a nonzero kernel vector existed, write it as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal.
+If a nonzero kernel vector $\ell$ existed, write $\ell=\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal.
 By minimality of $n$, both families are linearly independent.
 Set $E:=\operatorname{span}\{w_1,\ldots,w_n\}$, and let $\pi:W\to W/E$ be the quotient map.
-Since the tensor lies in the kernel, we have
+Since $\ell$ lies in the kernel, we have
 \[
  \sum_{r=1}^n Av_r\otimes w_r=\sum_{r=1}^n v_r\otimes Bw_r.
 \]
@@ -137,38 +137,38 @@ They satisfy
  \qquad
  \pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2.
 \]
-Now let $k\in U\otimes_{\C}U^{\mathrm{op}}$ satisfy $\Psi_x(k)\in H\otimes_{\C}H$.
+Now let $\ell\in U\otimes_{\C}U^{\mathrm{op}}$ satisfy $\Psi_x(\ell)\in H\otimes_{\C}H$.
 Using $\pi_1R_x=\widetilde R_x\pi_1$, we obtain
 \[
  \begin{aligned}
  &\bigl(\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}\bigr)
-    (\pi_1\otimes I)k\\
- &\qquad=(\pi_1\otimes I)\Psi_x(k)=0.
+    (\pi_1\otimes I)\ell\\
+ &\qquad=(\pi_1\otimes I)\Psi_x(\ell)=0.
  \end{aligned}
 \]
-The last equality follows from $\Psi_x(k)\in H\otimes_{\C}H$ and $\pi_1|_H=0$.
+The last equality follows from $\Psi_x(\ell)\in H\otimes_{\C}H$ and $\pi_1|_H=0$.
 By Lemma~\ref{lem:tensor-difference-injectivity}, the map $\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$ is injective on $(U/H)\otimes_{\C}U^{\mathrm{op}}$, since $R_{x^{\mathrm{op}}}$ has no nonzero finite-dimensional invariant subspace.
-Consequently, $(\pi_1\otimes I)k=0$.
+Consequently, $(\pi_1\otimes I)\ell=0$.
 Applying the first kernel equality of Lemma~\ref{lem:tensor-quotient-kernels} with $V=U$, $E=H$, $W=U^{\mathrm{op}}$ and $\pi=\pi_1$ gives
 \[
- k\in\ker(\pi_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
+ \ell\in\ker(\pi_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
 \]
 
-Now regard $k$ as an element of $H\otimes_{\C}U^{\mathrm{op}}$.
+Now regard $\ell$ as an element of $H\otimes_{\C}U^{\mathrm{op}}$.
 Using $\pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2$, we similarly obtain
 \[
  \begin{aligned}
  &\bigl((R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}\bigr)
-    (I\otimes \pi_2)k\\
- &\qquad=(I\otimes \pi_2)\Psi_x(k)=0.
+    (I\otimes \pi_2)\ell\\
+ &\qquad=(I\otimes \pi_2)\Psi_x(\ell)=0.
  \end{aligned}
 \]
-The last equality again follows from $\Psi_x(k)\in H\otimes_{\C}H$ and $\pi_2|_H=0$.
+The last equality again follows from $\Psi_x(\ell)\in H\otimes_{\C}H$ and $\pi_2|_H=0$.
 The map $(R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}$ is injective on $H\otimes_{\C}(U^{\mathrm{op}}/H)$ by Lemma~\ref{lem:tensor-difference-injectivity}, since $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
-Thus $(I\otimes \pi_2)k=0$.
+Thus $(I\otimes \pi_2)\ell=0$.
 Applying the second kernel equality of Lemma~\ref{lem:tensor-quotient-kernels} with $V=U^{\mathrm{op}}$, $E=H$, $W=H$ and $\pi=\pi_2$ gives
 \[
- k\in\ker(I\otimes \pi_2)=H\otimes_{\C}H.
+ \ell\in\ker(I\otimes \pi_2)=H\otimes_{\C}H.
 \]
 \end{proof}
 
@@ -178,11 +178,11 @@ For a liberation dual system $(L_1,\ldots,L_d)$, define linear maps
  \longrightarrow\Hom_{\C}(\M\Omega,H),\qquad
  \Phi_i(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega}.
 \]
-The liberation commutator relations give, for $z\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$,
+The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$,
 \begin{equation}\label{eq:liberation-tensor-actions}
- \Phi_i(\Psi_j(z))=\delta_{ij}\Theta(\Psi_i(z)),
+ \Phi_i(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell)),
  \qquad
- \Phi_i((s\otimes t^{\mathrm{op}})z)=s\Phi_i(z)t
+ \Phi_i((s\otimes t^{\mathrm{op}})\ell)=s\Phi_i(\ell)t
  \quad\text{on }\M\Omega.
 \end{equation}
 Indeed, the first identity on $c\otimes d^{\mathrm{op}}$ is $c[X_j,L_i]d=\delta_{ij}c[X_i,P_\Omega]d$, and the second follows from multiplication in the opposite factor.
@@ -192,35 +192,35 @@ Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for e
 If $X$ admits a liberation dual system, then $\Delta(X)=d$.
 \end{proposition}
 \begin{proof}
-Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $k_i:=\Theta^{-1}(T_i)$.
-Equation~\eqref{eq:tensor-commutator} gives $\sum_i\Psi_i(k_i)=0$.
-By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that $m_i:=(s\otimes t^{\mathrm{op}})k_i\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $i$.
-Equation~\eqref{eq:psi-left-linearity} yields $\sum_i\Psi_i(m_i)=0$.
+Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $\ell_i:=\Theta^{-1}(T_i)$.
+Equation~\eqref{eq:tensor-commutator} gives $\sum_i\Psi_i(\ell_i)=0$.
+By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that $\widetilde\ell_i:=(s\otimes t^{\mathrm{op}})\ell_i\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $i$.
+Equation~\eqref{eq:psi-left-linearity} yields $\sum_i\Psi_i(\widetilde\ell_i)=0$.
 Applying $\Phi_i$ and equation~\eqref{eq:liberation-tensor-actions}, then using density of $\M\Omega$, we obtain
 \[
- \Theta(\Psi_i(m_i))=0.
+ \Theta(\Psi_i(\widetilde\ell_i))=0.
 \]
-Hence $\Psi_i(m_i)=0$.
-The regularity assumption and Lemma~\ref{lem:tensor-l2-recovery} give $m_i=0$.
-Cancellation of $s\otimes t^{\mathrm{op}}$ gives $k_i=0$, and therefore $T_i=0$.
+Hence $\Psi_i(\widetilde\ell_i)=0$.
+The regularity assumption and Lemma~\ref{lem:tensor-l2-recovery} give $\widetilde\ell_i=0$.
+Cancellation of $s\otimes t^{\mathrm{op}}$ gives $\ell_i=0$, and therefore $T_i=0$.
 Remark~\ref{rem:cycle-characterization} now gives $\Delta(X)=d$.
 \end{proof}
 
 \begin{lemma}\label{lem:tensor-images-l2}
 Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
 Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
-If $k_1,\ldots,k_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfy
+If $\ell_1,\ldots,\ell_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfy
 \[
- h:=\sum_{i=1}^d\Psi_i(k_i)\in\M\otimes_{\C}\M^{\mathrm{op}},
+ \ell_0:=\sum_{i=1}^d\Psi_i(\ell_i)\in\M\otimes_{\C}\M^{\mathrm{op}},
 \]
 then, for every $i$,
 \[
- k_i\in H\otimes_{\C}H,
- \qquad \overline{\Phi_i(h)}=\Theta(\Psi_i(k_i)).
+ \ell_i\in H\otimes_{\C}H,
+ \qquad \overline{\Phi_i(\ell_0)}=\Theta(\Psi_i(\ell_i)).
 \]
 \end{lemma}
 \begin{proof}
-Fix $i$, write $h=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $S_i:=\Phi_i(h)$ on $\M\Omega$.
+Fix $i$, write $\ell_0=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $S_i:=\Phi_i(\ell_0)$ on $\M\Omega$.
 The adjoint-domain condition in Definition~\ref{def:liberation-dual-system} gives
 \[
  \M\Omega\subseteq\dom S_i^*,\qquad
@@ -230,27 +230,27 @@ The adjoint-domain condition in Definition~\ref{def:liberation-dual-system} give
 Thus $S_i$ is closable.
 By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that
 \[
- m_j:=(s\otimes t^{\mathrm{op}})k_j
+ \widetilde\ell_j:=(s\otimes t^{\mathrm{op}})\ell_j
  \in\M\otimes_{\C}\M^{\mathrm{op}}
  \qquad(1\leq j\leq d).
 \]
-Applying $\Phi_i$ to $\sum_j\Psi_j(m_j)=(s\otimes t^{\mathrm{op}})h$ and using equation~\eqref{eq:liberation-tensor-actions} gives
+Applying $\Phi_i$ to $\sum_j\Psi_j(\widetilde\ell_j)=(s\otimes t^{\mathrm{op}})\ell_0$ and using equation~\eqref{eq:liberation-tensor-actions} gives
 \begin{equation}\label{eq:liberation-cleared-operator}
- sS_it=\Theta(\Psi_i(m_i))\quad\text{on }\M\Omega.
+ sS_it=\Theta(\Psi_i(\widetilde\ell_i))\quad\text{on }\M\Omega.
 \end{equation}
 The right-hand side has finite rank and $s$ is injective, so the restriction of $S_i$ to $t\M\Omega$ has finite rank.
 Since $t$ has dense range, $t\M\Omega$ is dense in $H$.
 This restriction is closable, and Lemma~\ref{lem:finite-closure} makes its closure a bounded finite-rank operator on $H$.
 The operator $\overline{S_i}$ extends that closure and therefore equals it.
-Set $h_i:=\Theta^{-1}(\overline{S_i})\in H\otimes_{\C}H$.
+Set $\ell_i':=\Theta^{-1}(\overline{S_i})\in H\otimes_{\C}H$.
 Extending equation~\eqref{eq:liberation-cleared-operator} by boundedness and density, and using the outer bimodule actions of $\Theta$, we obtain
 \[
- (s\otimes t^{\mathrm{op}})h_i
- =\Psi_i(m_i)
- =(s\otimes t^{\mathrm{op}})\Psi_i(k_i).
+ (s\otimes t^{\mathrm{op}})\ell_i'
+ =\Psi_i(\widetilde\ell_i)
+ =(s\otimes t^{\mathrm{op}})\Psi_i(\ell_i).
 \]
-Cancellation of the regular outside factors gives $\Psi_i(k_i)=h_i\in H\otimes_{\C}H$.
-Since every $X_i-\lambda$ is regular, Lemma~\ref{lem:tensor-l2-recovery} gives $k_i\in H\otimes_{\C}H$.
+Cancellation of the regular outside factors gives $\Psi_i(\ell_i)=\ell_i'\in H\otimes_{\C}H$.
+Since every $X_i-\lambda$ is regular, Lemma~\ref{lem:tensor-l2-recovery} gives $\ell_i\in H\otimes_{\C}H$.
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:intrinsic-analytic}]
@@ -262,13 +262,13 @@ Fix any fraction pair $Q=(s,a,b,t)$ for $u$.
 By Theorem~\ref{thm:delta}\textup{(\ref{item:delta-all-fraction-tensors})}, there are tensors $\ell_i\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfying equation~\eqref{eq:all-fraction-tensor-criterion}.
 Set
 \[
- h:=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
+ \ell_0:=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
    =\sum_i\Psi_i(\ell_i).
 \]
-Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{\Phi_i(h)}=\Theta(\Psi_i(\ell_i))$.
-By definition, $\Phi_i(h)=-\Gamma[Q,L_i]|_{\M\Omega}$.
+Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{\Phi_i(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
+By definition, $\Phi_i(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
 The common adjoint-domain condition makes $\Gamma[Q,L_i]$ closable by Lemma~\ref{lem:fraction-domains}.
-Its closure extends the bounded, everywhere-defined operator $-\overline{\Phi_i(h)}$ and therefore equals it.
+Its closure extends the bounded, everywhere-defined operator $-\overline{\Phi_i(\ell_0)}$ and therefore equals it.
 With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator} now gives
 \[
  \overline{\Gamma[Q,L_i]}

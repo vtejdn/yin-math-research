@@ -39,9 +39,16 @@ Use “free field” for the universal division ring of fractions of a free poly
 Do not use “free skew field” for this object.
 When specifying a finite-generator free group, write “a free group \(\mathbb F_d\) with \(d\) generators” and use the manuscript macro `\bF_d`.
 
+<a id="tensor-element-notation"></a>
+## Tensor Element Notation
+
+Use $\ell$ as the default symbol for elements of algebraic tensor products throughout this paper, including $\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}$, $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$ and $H\otimes_{\mathbb C}H$.
+Use indices, primes or tildes to distinguish tensors that occur together, such as $\ell_i$, $\ell_i'$, $\widetilde\ell_i$ and $\ell_0$.
+Keep the notation for tensor factors, linear maps and operators appropriate to those objects.
+
 ## Tensor Right Multiplication
 
-For $x\in L^0(\mathcal M)$, use $\Psi_x(k):=k(x\otimes1-1\otimes x^{\mathrm{op}})$ on $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$.
+For $x\in L^0(\mathcal M)$, use $\Psi_x(\ell):=\ell(x\otimes1-1\otimes x^{\mathrm{op}})$ on $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$.
 For the fixed tuple X, write $\Psi_i:=\Psi_{X_i}$.
 In the proof of Lemma 4.5, right multiplication by $x^{\mathrm{op}}$ on the second factor sends $v^{\mathrm{op}}$ to $(xv)^{\mathrm{op}}$.
 Use a tilde for the induced quotient-space maps there, reserving the bar for operator closure.
