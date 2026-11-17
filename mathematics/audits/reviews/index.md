@@ -118,6 +118,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0118](Yin_R_A0118_v1.md#whole-argument-finding) | Review of signed shell estimates from collected row products in a free subgroup | [v1](Yin_R_A0118_v1.md) |
 | [Yin_R_A0119](Yin_R_A0119_v1.md#whole-argument-finding) | Full color erasure and failure of common-word exchange at the prescribed four-line counts | [v1](Yin_R_A0119_v1.md) |
 | [Yin_R_A0120](Yin_R_A0120_v1.md#whole-argument-finding) | Finite kernel witnesses and certified errors for signed first-return shells | [v1](Yin_R_A0120_v1.md) |
+| [Yin_R_A0121](Yin_R_A0121_v1.md#whole-argument-finding) | Reviewing the graph of odd stubs and its alternating paths | [v1](Yin_R_A0121_v1.md) |
+| [Yin_R_A0122](Yin_R_A0122_v1.md#whole-argument-finding) | Review of active-letter discrepancies on a pairable subset with isolated simultaneous edges | [v1](Yin_R_A0122_v1.md) |
+| [Yin_R_A0123](Yin_R_A0123_v1.md#whole-argument-finding) | Independent review of cyclic packets for separate row blocks | [v1](Yin_R_A0123_v1.md) |
+| [Yin_R_A0124](Yin_R_A0124_v1.md#whole-argument-finding) | Reviewing the 62-pair forest and short-relation test | [v1](Yin_R_A0124_v1.md) |
+| [Yin_R_A0125](Yin_R_A0125_v1.md#whole-argument-finding) | Independent review of perturbed translation commutators and signed shell estimates | [v1](Yin_R_A0125_v1.md) |
+| [Yin_R_A0126](Yin_R_A0126_v1.md#whole-argument-finding) | Independent review of the linear survivor bound and short-cycle packing | [v1](Yin_R_A0126_v1.md) |
+| [Yin_R_A0127](Yin_R_A0127_v1.md#whole-argument-finding) | Independent review of the complex rank of sparse relations | [v1](Yin_R_A0127_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

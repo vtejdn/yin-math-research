@@ -125,6 +125,13 @@ If scalar dyadic return differences decay as time to power \(-\alpha\), \(0<\alp
 When the collected row product \(AA^*\) is supported on a verified free subgroup, the [exact power identity on cosets](../claims/Yin_C_A0082_v1.md#collecting-equal-endpoints-before-applying-a-subgroup-estimate) proves a summable exterior bound for the signed arrays of the original probes, even for matrices and projections requiring the entire group.
 If the matrix instead has a [full-row-rank cyclic Laurent minor](../claims/Yin_C_A0081_v1.md#statement), collecting coefficient columns by cyclic coset determines the gapless factors and gives the shell estimate even in examples with row products generating the whole group.
 Outside these classes the [widened-shell conjugation estimate](../claims/Yin_C_A0080_v1.md#signed-estimates-on-widened-shells) reduces the required sum to differences of original finite products at conjugate endpoints.
+For matrices with finite column combinations giving full Laurent blocks along pairwise nonconjugate maximal cyclic subgroups, [separation of the small spectral intervals](../claims/Yin_C_A0087_v1.md#angular-separation-and-the-gram-lower-bound) constructs a surjective row factor.
+It gives a summable signed exterior even in a nonclosed example for which no group-ring right column combinations produce a common full-rank cyclic block.
+One can also [insert four perturbed translation commutators into the original finite products](../claims/Yin_C_A0089_v1.md#finite-products-and-contraction-off-the-identity).
+If these translations reduce the kernel and their total perturbation norm is below the conjugation contraction margin, the projection has exponential spatial decay.
+With a dyadic return rate this bounds the original conjugate-endpoint differences and the finite first-return sums.
+More generally the same estimate only needs the weighted square sum of the perturbed differences on widened shells.
+The [example with positive spectral exponent \(1/4\)](../claims/Yin_C_A0089_v1.md#a-nonclosed-example-with-a-whole-group-row-gram-and-projection) has a row Gram and a projection that each require the whole group.
 The [finite kernel and cokernel bounds](../claims/Yin_C_A0084_v1.md#statement) can certify sufficient temporal precision without a known return exponent when finite null vectors generate either Hilbert kernel.
 Controlling the retained signed contributions over all distant shells for an arbitrary matrix still needs a spatial estimate.
 On a different group \(H\times\mathbb Z^4\), with \(H\) any fixed four-line group, [the lattice calculation](../claims/Yin_C_A0068_v1.md#grouped-endpoints-and-adjacent-times) gives polynomial tails for a projection that has no closed-range representative.

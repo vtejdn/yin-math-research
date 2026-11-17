@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Test whether the global cone geometry turns the active-letter disagreements of a complete color-3 pairing into a forbidden exchange. |
+| priority | Bound the fraction of neutral 62-pair alphabets supporting short relations in an exceptional cone group, or locate a shared readable exchange in their fillings. |
 
 ## Input and distinction from rank sampling
 
@@ -159,7 +159,18 @@ Even genuine blocks with the same thirteen visible coordinates and original labe
 The [line-incidence calculation](../claims/Yin_C_A0078_v1.md#statement) instead follows every true pairing at once: on the stated geometric event a complete pairing has at least one active letter readable on just one endpoint at more than a constant times \(\log n\) distinct labels.
 The [exact-type comparison](../claims/Yin_C_A0083_v1.md#statement) preserves the old fine populations, full erased color and all thirteen certificate requirements, but its cone group is \(C_7\) and its roots are not separated.
 The [torsion-free tree attachment](../claims/Yin_C_A0079_v1.md#keeping-the-old-factors-while-adjoining-trees) preserves root separation and the original factors, but its completely erased color has the wrong size and uses a new character.
-It remains to use the global geometry with the exact populations to rule out full erasure or to build a realization satisfying both.
+On an [actually pairable subset with the exact populations](../claims/Yin_C_A0086_v1.md#statement), each active letter has forced one-sided discrepancies at \(n^{0.33}\) distinct original labels.
+The simultaneous readings of each designated pair of opposite types there can only traverse one edge and return.
+A whole-color pairing would also propagate an [odd number of alternating paths](../claims/Yin_C_A0085_v1.md#alternating-paths-across-odd-edges) along each neutral edge of odd stub multiplicity.
+Such paths can switch which side of a pair reads the next step.
+For a test that does not need a common word, retain 62 of the 8252 neutral inverse pairs.
+Under complete erasure [over \(1/4000\) of these alphabets](../claims/Yin_C_A0088_v1.md#a-finite-length-and-a-positive-fraction-of-alphabets) must admit a short original relation.
+Under asphericity the [one-side homology injection](../claims/Yin_C_A0090_v1.md#folding-all-neutral-occurrences-before-reducing-modulo-two) makes the number of surviving distinct labels exceed one fifth of the color population if every such alphabet freely generates.
+An erased aspherical tuple must instead contain \(\Omega(n/\log n)\) vertex-disjoint short cycles for each alphabet on the positive-surplus event.
+Their independent based chains may still be translates of the same relation.
+On the same sampled alphabet the [short oriented cycles](../claims/Yin_C_A0091_v1.md#compression-to-the-finite-edge-set) must generate a complex relation matrix of regular rank at least \(1/128\), and all finite cycles span a closed space of dimension at least \(1/64\).
+An upper bound on the fraction of alphabets with these ranks can therefore exclude erasure even in the presence of short relations.
+It remains open whether the translated cone fillings of an exceptional tuple force a simultaneous exchange, or rule out this many sparse relations directly.
 
 ## What happens to the original product in random matchings?
 
