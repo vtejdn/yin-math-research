@@ -87,7 +87,7 @@ The source begins with bounded tensor factors; Subsection 2.4 restricts its Hilb
 | `paper/sections/preliminaries.tex`, `def:delta` | `\cite{CS05}` | Supplies the source definition of \(\Delta\); the paper also follows MSY23 Section 3. |
 | `paper/sections/preliminaries.tex`, `def:delta` | `\cite[Definition~2.10]{CS05}` | Supplies the general tracial von Neumann module-dimension definition alongside Luc02's named terminology. |
 | `paper/sections/preliminaries.tex`, `eq:theta` and its Hilbert–Schmidt extension | `\cite[Section~1.1, equation~(1.1)]{CS05}` | Supplies the rank-one tensor representation and its Hilbert-space isometry. The paper uses \(H\otimes_{\mathbb C}H\) for all bounded finite-rank operators and records the bounded-factor specialization at `eq:theta-bounded`. |
-| `paper/sections/preliminaries.tex`, the \(\Theta\) bimodule actions and `eq:tensor-commutator` | `\cite[equation~(1.2)]{CS05}` | Supplies all four tensor-factor actions. The paper combines them and subtracts the two right-multiplication identities with its existing generator-first commutator convention. |
+| `paper/sections/preliminaries.tex`, the \(\Theta\) bimodule actions, `eq:tensor-commutator` and `eq:tensor-commutator-general` | `\cite[equation~(1.2)]{CS05}` | Supplies all four tensor-factor actions. Subtracting the two right-multiplication identities and extending by linearity gives the paper's commutator formula on \(H\otimes_{\mathbb C}H\), with its generator-first commutator convention. |
 
 ## `CS77`
 

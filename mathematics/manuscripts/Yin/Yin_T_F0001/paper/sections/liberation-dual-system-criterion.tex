@@ -207,7 +207,7 @@ If $X$ admits a liberation dual system, then $\Delta(X)=d$.
 \begin{proof}
 Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $k_i:=\Theta^{-1}(T_i)\in H\otimes_{\C}H$.
 Since $X_i\in\M$, each $\Psi_i(k_i)$ belongs to $H\otimes_{\C}H$.
-By equation~\eqref{eq:tensor-commutator} and linearity of $\Theta$,
+By equation~\eqref{eq:tensor-commutator-general},
 \[
  \Theta\!\left(\sum_i\Psi_i(k_i)\right)
  =\sum_i\Theta(\Psi_i(k_i))
@@ -301,7 +301,7 @@ Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline
 By definition, $\Phi_i(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
 The common adjoint-domain condition makes $\Gamma[Q,L_i]$ closable by Lemma~\ref{lem:fraction-domains}.
 Its closure extends the bounded, everywhere-defined operator $-\overline{\Phi_i(\ell_0)}$ and therefore equals it.
-With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator} now gives
+With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator-general} now gives
 \[
  \overline{\Gamma[Q,L_i]}
  =-\Theta(\Psi_i(\ell_i))
