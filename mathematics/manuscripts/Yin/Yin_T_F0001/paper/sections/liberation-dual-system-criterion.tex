@@ -165,14 +165,42 @@ For a liberation dual system $(L_1,\ldots,L_d)$, define linear maps
  \longrightarrow\Hom_{\C}(\M\Omega,H),\qquad
  \Phi_i(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega}.
 \]
-The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$,
+The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
 \begin{equation}\label{eq:liberation-tensor-actions}
- \Phi_i(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell)),
- \qquad
+ \Phi_i(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
+ \quad\text{on }\M\Omega.
+\end{equation}
+Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Omega$,
+\[
+ \begin{aligned}
+ \Phi_i(\Psi_j(\ell))
+ &=\Phi_i(cX_j\otimes d^{\mathrm{op}}-c\otimes(X_jd)^{\mathrm{op}})\\
+ &=cX_jL_id-cL_iX_jd\\
+ &=c[X_j,L_i]d\\
+ &=\delta_{ij}c[X_i,P_\Omega]d\\
+ &=\delta_{ij}\Theta(\Psi_i(\ell)).
+ \end{aligned}
+\]
+The last equality uses equation~\eqref{eq:theta-bounded}.
+Linearity gives equation~\eqref{eq:liberation-tensor-actions} for every $\ell$.
+
+For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $\Phi_i$ also gives
+\begin{equation}\label{eq:liberation-phi-bimodule}
  \Phi_i((s\otimes t^{\mathrm{op}})\ell)=s\Phi_i(\ell)t
  \quad\text{on }\M\Omega.
 \end{equation}
-Indeed, the first identity on $c\otimes d^{\mathrm{op}}$ is $c[X_j,L_i]d=\delta_{ij}c[X_i,P_\Omega]d$, and the second follows from multiplication in the opposite factor.
+For $\ell=c\otimes d^{\mathrm{op}}$, multiplication in the opposite factor gives
+\[
+ (s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}})
+ =sc\otimes(dt)^{\mathrm{op}},
+\]
+and hence, on $\M\Omega$,
+\[
+ \Phi_i((s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}}))
+ =scL_idt
+ =s\Phi_i(c\otimes d^{\mathrm{op}})t.
+\]
+Linearity proves equation~\eqref{eq:liberation-phi-bimodule} for every $\ell$.
 
 \begin{proposition}\label{prop:liberation-delta}
 Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
@@ -183,10 +211,12 @@ Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $k_i:=\T
 Equation~\eqref{eq:tensor-commutator} gives $\sum_i\Psi_i(k_i)=0$.
 By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that $\ell_i:=(s\otimes t^{\mathrm{op}})k_i\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $i$.
 Equation~\eqref{eq:psi-left-linearity} yields $\sum_i\Psi_i(\ell_i)=0$.
-Applying $\Phi_i$ and equation~\eqref{eq:liberation-tensor-actions}, then using density of $\M\Omega$, we obtain
+Applying $\Phi_i$ and equation~\eqref{eq:liberation-tensor-actions} gives, on $\M\Omega$,
 \[
- \Theta(\Psi_i(\ell_i))=0.
+ 0=\Phi_i\!\left(\sum_j\Psi_j(\ell_j)\right)
+ =\Theta(\Psi_i(\ell_i)).
 \]
+Since $\Theta(\Psi_i(\ell_i))$ is bounded and $\M\Omega$ is dense in $H$, it vanishes on $H$.
 Hence $\Psi_i(\ell_i)=0$.
 The regularity assumption and Lemma~\ref{lem:tensor-l2-recovery} give $\ell_i=0$.
 Cancellation of $s\otimes t^{\mathrm{op}}$ gives $k_i=0$, and therefore $T_i=0$.
@@ -221,11 +251,21 @@ By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that
  \in\M\otimes_{\C}\M^{\mathrm{op}}
  \qquad(1\leq j\leq d).
 \]
-Applying $\Phi_i$ to $\sum_j\Psi_j(\ell_j)=(s\otimes t^{\mathrm{op}})\ell_0$ and using equation~\eqref{eq:liberation-tensor-actions} gives
+Equation~\eqref{eq:psi-left-linearity} gives
+\[
+ \sum_j\Psi_j(\ell_j)=(s\otimes t^{\mathrm{op}})\ell_0.
+\]
+Using equation~\eqref{eq:liberation-phi-bimodule} in the second equality below and equation~\eqref{eq:liberation-tensor-actions} in the last equality, we obtain, on $\M\Omega$,
 \begin{equation}\label{eq:liberation-cleared-operator}
- sS_it=\Theta(\Psi_i(\ell_i))\quad\text{on }\M\Omega.
+ \begin{aligned}
+ sS_it
+ &=s\Phi_i(\ell_0)t\\
+ &=\Phi_i((s\otimes t^{\mathrm{op}})\ell_0)\\
+ &=\Phi_i\!\left(\sum_j\Psi_j(\ell_j)\right)\\
+ &=\Theta(\Psi_i(\ell_i)).
+ \end{aligned}
 \end{equation}
-The right-hand side has finite rank and $s$ is injective, so the restriction of $S_i$ to $t\M\Omega$ has finite rank.
+The operator $\Theta(\Psi_i(\ell_i))$ has finite rank and $s$ is injective, so the restriction of $S_i$ to $t\M\Omega$ has finite rank.
 Since $t$ has dense range, $t\M\Omega$ is dense in $H$.
 This restriction is closable, and Lemma~\ref{lem:finite-closure} makes its closure a bounded finite-rank operator on $H$.
 The operator $\overline{S_i}$ extends that closure and therefore equals it.
