@@ -59,17 +59,17 @@ is injective.
 Suppose that $B$ has no nonzero finite-dimensional invariant subspace.
 If a nonzero kernel vector existed, write it as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal.
 By minimality of $n$, both families are linearly independent.
-Set $E:=\operatorname{span}\{w_1,\ldots,w_n\}$, and let $q:W\to W/E$ be the quotient map.
+Set $E:=\operatorname{span}\{w_1,\ldots,w_n\}$, and let $\pi:W\to W/E$ be the quotient map.
 Since the tensor lies in the kernel, we have
 \[
  \sum_{r=1}^n Av_r\otimes w_r=\sum_{r=1}^n v_r\otimes Bw_r.
 \]
-Applying $I_V\otimes q$ and using $q(w_r)=0$ gives
+Applying $I_V\otimes \pi$ and using $\pi(w_r)=0$ gives
 \[
- \sum_{r=1}^n v_r\otimes q(Bw_r)=0.
+ \sum_{r=1}^n v_r\otimes \pi(Bw_r)=0.
 \]
 Since $v_1,\ldots,v_n$ are linearly independent, choose linear functionals $\varphi_j:V\to\C$ satisfying $\varphi_j(v_r)=\delta_{jr}$.
-Applying $\varphi_j\otimes I_{W/E}$ yields $q(Bw_j)=0$, and hence $Bw_j\in E$, for every $1\leq j\leq n$.
+Applying $\varphi_j\otimes I_{W/E}$ yields $\pi(Bw_j)=0$, and hence $Bw_j\in E$, for every $1\leq j\leq n$.
 Thus $B(E)\subseteq E$, contradicting the assumption on $B$, since $E$ is nonzero and finite-dimensional.
 The case where $A$ has the stated property follows by interchanging the tensor factors.
 \end{proof}
@@ -98,7 +98,7 @@ For the preimage equality, observe that $x\in\M$ implies that both maps preserve
 Their restrictions to $H$ also have no nonzero finite-dimensional invariant subspace.
 In particular, $\Psi_x$ preserves $H\otimes_{\C}H$.
 
-Let $q_1:U\to U/H$ and $q_2:U^{\mathrm{op}}\to U^{\mathrm{op}}/H$ be the quotient maps.
+Let $\pi_1:U\to U/H$ and $\pi_2:U^{\mathrm{op}}\to U^{\mathrm{op}}/H$ be the quotient maps.
 The induced linear maps on the quotient spaces are
 \[
  \begin{aligned}
@@ -110,39 +110,39 @@ The induced linear maps on the quotient spaces are
 \]
 They satisfy
 \[
- q_1R_x=\widetilde R_xq_1,
+ \pi_1R_x=\widetilde R_x\pi_1,
  \qquad
- q_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}q_2.
+ \pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2.
 \]
 Now let $k\in U\otimes_{\C}U^{\mathrm{op}}$ satisfy $\Psi_x(k)\in H\otimes_{\C}H$.
-Since $q_1$ vanishes on $H$, we have
+Since $\pi_1$ vanishes on $H$, we have
 \[
  \begin{aligned}
  &\bigl(\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}\bigr)
-    (q_1\otimes I)k\\
- &\qquad=(q_1\otimes I)\Psi_x(k)=0.
+    (\pi_1\otimes I)k\\
+ &\qquad=(\pi_1\otimes I)\Psi_x(k)=0.
  \end{aligned}
 \]
 By Lemma~\ref{lem:tensor-difference-injectivity}, the map $\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$ is injective on $(U/H)\otimes_{\C}U^{\mathrm{op}}$, since $R_{x^{\mathrm{op}}}$ has no nonzero finite-dimensional invariant subspace.
-Consequently, $(q_1\otimes I)k=0$.
+Consequently, $(\pi_1\otimes I)k=0$.
 Exactness of tensoring over $\C$ then gives
 \[
- k\in\ker(q_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
+ k\in\ker(\pi_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
 \]
 
 Now regard $k$ as an element of $H\otimes_{\C}U^{\mathrm{op}}$.
-Since $q_2$ vanishes on $H$, we similarly obtain
+Since $\pi_2$ vanishes on $H$, we similarly obtain
 \[
  \begin{aligned}
  &\bigl((R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}\bigr)
-    (I\otimes q_2)k\\
- &\qquad=(I\otimes q_2)\Psi_x(k)=0.
+    (I\otimes \pi_2)k\\
+ &\qquad=(I\otimes \pi_2)\Psi_x(k)=0.
  \end{aligned}
 \]
 The map $(R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}$ is injective on $H\otimes_{\C}(U^{\mathrm{op}}/H)$ by Lemma~\ref{lem:tensor-difference-injectivity}, since $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
-Thus $(I\otimes q_2)k=0$, and exactness of tensoring over $\C$ gives
+Thus $(I\otimes \pi_2)k=0$, and exactness of tensoring over $\C$ gives
 \[
- k\in\ker(I\otimes q_2)=H\otimes_{\C}H.
+ k\in\ker(I\otimes \pi_2)=H\otimes_{\C}H.
 \]
 \end{proof}
 
