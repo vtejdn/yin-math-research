@@ -98,6 +98,7 @@ For the preimage equality, observe that $x\in\M$ implies that both maps preserve
 Their restrictions to $H$ also have no nonzero finite-dimensional invariant subspace.
 In particular, $\Psi_x$ preserves $H\otimes_{\C}H$.
 
+Let $q_1:U\to U/H$ and $q_2:U^{\mathrm{op}}\to U^{\mathrm{op}}/H$ be the quotient maps.
 The induced linear maps on the quotient spaces are
 \[
  \begin{aligned}
@@ -107,20 +108,42 @@ The induced linear maps on the quotient spaces are
  \widetilde R_{x^{\mathrm{op}}}(v^{\mathrm{op}}+H)&:=(xv)^{\mathrm{op}}+H.
  \end{aligned}
 \]
+They satisfy
+\[
+ q_1R_x=\widetilde R_xq_1,
+ \qquad
+ q_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}q_2.
+\]
 Now let $k\in U\otimes_{\C}U^{\mathrm{op}}$ satisfy $\Psi_x(k)\in H\otimes_{\C}H$.
-Projecting the first factor of $k$ modulo $H$ gives a vector in the kernel of
+Since $q_1$ vanishes on $H$, we have
 \[
- \widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}
- \quad\text{on }(U/H)\otimes_{\C}U^{\mathrm{op}}.
+ \begin{aligned}
+ &\bigl(\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}\bigr)
+    (q_1\otimes I)k\\
+ &\qquad=(q_1\otimes I)\Psi_x(k)=0.
+ \end{aligned}
 \]
-This map is injective by Lemma~\ref{lem:tensor-difference-injectivity}, so exactness of tensoring over $\C$ gives $k\in H\otimes_{\C}U^{\mathrm{op}}$.
-Projecting the second factor modulo $H$ now gives a vector in the kernel of
+By Lemma~\ref{lem:tensor-difference-injectivity}, the map $\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$ is injective on $(U/H)\otimes_{\C}U^{\mathrm{op}}$, since $R_{x^{\mathrm{op}}}$ has no nonzero finite-dimensional invariant subspace.
+Consequently, $(q_1\otimes I)k=0$.
+Exactness of tensoring over $\C$ then gives
 \[
- (R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}
- \quad\text{on }H\otimes_{\C}(U^{\mathrm{op}}/H).
+ k\in\ker(q_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
 \]
-Lemma~\ref{lem:tensor-difference-injectivity} applies because $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
-It follows that $k\in H\otimes_{\C}H$.
+
+Now regard $k$ as an element of $H\otimes_{\C}U^{\mathrm{op}}$.
+Since $q_2$ vanishes on $H$, we similarly obtain
+\[
+ \begin{aligned}
+ &\bigl((R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}\bigr)
+    (I\otimes q_2)k\\
+ &\qquad=(I\otimes q_2)\Psi_x(k)=0.
+ \end{aligned}
+\]
+The map $(R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}$ is injective on $H\otimes_{\C}(U^{\mathrm{op}}/H)$ by Lemma~\ref{lem:tensor-difference-injectivity}, since $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
+Thus $(I\otimes q_2)k=0$, and exactness of tensoring over $\C$ gives
+\[
+ k\in\ker(I\otimes q_2)=H\otimes_{\C}H.
+\]
 \end{proof}
 
 For a liberation dual system $(L_1,\ldots,L_d)$, define linear maps
