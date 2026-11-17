@@ -114,7 +114,12 @@ A schedule making this series finite exists exactly when the projection has the 
 Two whole-group constructions verify the estimate at nonclosed range with explicit spectral exponents.
 There are also [whole-group examples with no nonzero finitely supported null vector](../claims/Yin_C_A0064_v1.md#statement).
 For these a gapped row operator with the same kernel gives a geometric bound on all later endpoint moments from a single finite return moment.
-For general nonclosed-range matrices on the four-line groups, it remains to bound the return increments and endpoint moments from the product relations, or to find a gapped operator with the same kernel.
+For an individual group the [coefficient test on a finite power](../claims/Yin_C_A0069_v1.md#statement) gives both bounds directly from the original matrix when the matrix of absolute sums over endpoint fibers has spectral radius at most one in suitable constant coordinates.
+The finite components reconstruct the kernel projection and infinite components give a squared time-error bound of order \(k^{-1/2}\).
+The [polarized first-return formula](../claims/Yin_C_A0067_v1.md#argument) handles arbitrary complex coefficients and compares the weighted exterior norm to signed time sums at each individual endpoint.
+Beyond the finite coefficient test, it remains to bound those signed sums on the four-line group itself.
+On a different group \(H\times\mathbb Z^4\), with \(H\) any fixed four-line group, [the lattice calculation](../claims/Yin_C_A0068_v1.md#grouped-endpoints-and-adjacent-times) gives polynomial tails for a projection that has no closed-range representative.
+The dimension-three comparison there gives identical row products and scalar return moments with opposite answers for every spatial exponent above three.
 
 ## Mechanism and obstruction
 

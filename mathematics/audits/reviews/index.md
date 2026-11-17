@@ -98,6 +98,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0098](Yin_R_A0098_v1.md#whole-argument-finding) | A summable schedule of weighted moments and two whole-group examples | [v1](Yin_R_A0098_v1.md) |
 | [Yin_R_A0099](Yin_R_A0099_v1.md#whole-argument-finding) | Central signatures of opposite-side loop certificates | [v1](Yin_R_A0099_v1.md) |
 | [Yin_R_A0100](Yin_R_A0100_v1.md#whole-argument-finding) | A finite return moment for a kernel without finite flows | [v1](Yin_R_A0100_v1.md) |
+| [Yin_R_A0101](Yin_R_A0101_v1.md#whole-argument-finding) | Required translates in both graph presentations of a color pairing | [v1](Yin_R_A0101_v1.md) |
+| [Yin_R_A0102](Yin_R_A0102_v1.md#whole-argument-finding) | Mixed tensor signatures of two translated loop families | [v1](Yin_R_A0102_v1.md) |
+| [Yin_R_A0103](Yin_R_A0103_v1.md#whole-argument-finding) | Polarized renewal means and uniform tests for closed range | [v1](Yin_R_A0103_v1.md) |
+| [Yin_R_A0104](Yin_R_A0104_v1.md#whole-argument-finding) | Identical row Gram matrices and different kernel projections on a product group | [v1](Yin_R_A0104_v1.md) |
+| [Yin_R_A0105](Yin_R_A0105_v1.md#whole-argument-finding) | A coefficient test for finite support of the kernel projection | [v1](Yin_R_A0105_v1.md) |
+| [Yin_R_A0106](Yin_R_A0106_v1.md#whole-argument-finding) | Matchings on marked commutator paths and their common extension | [v1](Yin_R_A0106_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

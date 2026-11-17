@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Test whether translated left-side relations can complete a pairing of left color 3 when the available finite quotients give only even bins. |
+| priority | Seek an independent path forced by the four-line vertex types whose central value contradicts a full pairing of left color 3. |
 
 ## Input and distinction from rank sampling
 
@@ -136,6 +136,14 @@ These tuples retain at least two original labels of odd multiplicity in that col
 For a tuple with only even known bins, try to force two saturations of the same vertex set whose [central signatures](../claims/Yin_C_A0063_v1.md#evaluating-an-equality-certificate) disagree.
 Such a disagreement contradicts the asphericity safeguard even when integral first-homology comparisons all agree.
 Realizing it for the prescribed four-line vertex types, or constructing a legitimate erasing pairing using translated left relators, remains open.
+
+A [two-sided count of translated relations](../claims/Yin_C_A0065_v1.md#counting-the-relator-terms-of-an-arbitrary-certificate) limits arbitrary proofs on an exceptional family with perfect coarse kernel.
+For every fixed \(k\), avoiding even one of thirteen side and translation choices leaves at least \(4k\) unmatched vertices in left color \(3\).
+In the fourteen-color family there are [actual commutators with independent mixed tensors](../claims/Yin_C_A0066_v1.md#a-grid-of-actual-commutators-in-a-four-line-tuple), using the two translated graph relations in the same proof.
+On repeated commutator paths, [many different pairings](../claims/Yin_C_A0070_v1.md#extending-witnessed-matchings-on-even-blocks) cover the same marked vertices and all have the same central product.
+Any hypothesized complete pairing can be spliced to use these alternatives with a common matching outside the blocks.
+To obtain a contradiction, seek an additional path or type-forced equality whose central value cannot be obtained from the displacements along the existing chains.
+The rank lower bound for the mixed tensor assumes balanced certificates; the thirteen-position count applies to arbitrary products of conjugates.
 
 ## What happens to the original product in random matchings?
 
