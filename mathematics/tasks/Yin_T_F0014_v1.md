@@ -157,6 +157,11 @@ For a [polynomial with a free positive symmetrizer](../claims/Yin_C_F0358_v2.md#
 For two selfadjoint factors with a positive injective first free factor, the [exact finite compression](../claims/Yin_C_F0358_v3.md#statement) expresses this remaining determinant question on the negative subspace of the finite first factor.
 At \(z=i\) the compressed matrix is a corner of a unitary, and the [norm criterion](../claims/Yin_C_F0358_v3.md#sufficient) yields full-sequence convergence away from the real line in its stated range.
 
+The [uniform choice of favorable dimensions](../claims/Yin_C_F0358_v4.md#statement) gives summable probabilities of a loss exceeding \(3/j\) in the normalized compressed determinant at each prescribed nonreal shift outside one polar set.
+In the [shared-input example](../claims/Yin_C_F0360_v1.md#statement), two separate input conditions give the ordinary limsup at every prescribed nonreal point, including the free positivity edge when \(X\) is GUE.
+The [bounded and atomic first-color cases](../claims/Yin_C_F0361_v1.md#statement) give locally uniform limits on the indicated dimensions, also when the other colors have arbitrary discrete or heavy-tailed two-moment laws.
+The [conditional diagonal-shift theorem](../claims/Yin_C_F0360_v2.md#statement) gives full-sequence almost-sure convergence for arbitrary real \(c\) at each prescribed nonreal \(z\) under its partial smoothing hypotheses.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

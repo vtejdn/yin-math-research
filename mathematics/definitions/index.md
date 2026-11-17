@@ -79,6 +79,7 @@ The remaining entries serve the S_A0006/S_A0007 literature comparison; their act
 
 Exact definition homes and conventions: NS06: [probability space and operator terminology](../audits/literature/NS06/Yin_U002.md#probability-space), [free independence](../audits/literature/NS06/Yin_U002.md#free-independence), [Haar unitary](../audits/literature/NS06/Yin_U002.md#haar-unitary), [semicircular normalization](../audits/literature/NS06/Yin_U002.md#semicircular), and [R-diagonal cumulants](../audits/literature/NS06/Yin_U002.md#r-diagonal).
 Han26's [normalized complex Ginibre matrix](../audits/literature/Han26/Yin_U001.md#statements) and the [GUE-pair realization](../audits/literature/Han26/Yin_U001.md#gue-boundary) specify the variances used in the [F0012 question](../tasks/Yin_T_F0012_v1.md#contract).
+EYY12's [normalized counting function and classical eigenvalue locations](../audits/literature/EYY12/Yin_U001.md#semicircle-counting-and-locations) use the right-continuous empirical distribution and the \(j/N\) semicircle quantiles, including the upper endpoint.
 Sch05's [real Ginibre and GOE normalizations](../audits/literature/Sch05/Yin_U001.md#gaussian-and-free-normalizations) distinguish independent real entries from symmetric GOE entries and state the corresponding free circular normalization, at arXiv:math/0308192v1 PDF pp. 2 and 9.
 The [GOE theorem's model](../claims/Yin_C_F0186_v8.md#statement) and its [affine Hermitization match](../claims/Yin_C_F0186_v8.md#goe-affine-input) use these exact variances.
 

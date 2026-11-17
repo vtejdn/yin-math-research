@@ -25,6 +25,7 @@ For any real quadratic in independent real finite-variance Wigner inputs, the [g
 It allows the two new columns at a step to be dependent.
 The remaining step for the full quadratic question is the ordinary determinant comparison from the exterior back to the original matrix.
 For a free positive symmetrizer the [negative-inertia strategy](Yin_S_F0034.md#the-remaining-probability-question) instead isolates the ordinary loss at a nonreal shift on the exceptional part of the spectrum.
+For general scalar polynomials, F0012 now selects the [ordinary-shift cyclic strategy](Yin_S_F0035.md#the-full-polynomial-as-one-spectral-problem), whose full-sequence terminal criterion applies to every degree.
 
 For a distinguished color \(A\), the [two-observation construction](../claims/Yin_C_F0351_v9.md#exterior) restores \(e_i,Ce_i\) on the left and \(e_i,Be_i\) on the right.
 For nonzero \(B=b\cdot Y,\ C=c\cdot Y\) it erases a background quadratic tensor exactly when it equals \(c u^{\mathsf T}+v b^{\mathsf T}\) for some \(u,v\).

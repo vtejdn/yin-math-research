@@ -47,4 +47,13 @@ On two sites take \(A=\operatorname{diag}(1,-1)\), \(B=\left(\begin{smallmatrix}
 Then \(n_-(A)=1\) while \(AB\) has the eigenvalues \(i,-i\) in every dimension.
 To realize the displayed polynomial, take \(X=A-2I,\ Z=0\), set \(Y_{12}=Y_{21}=-1/4\) on the two sites and set \(Y=-I/2\) on their complement, with all other entries zero.
 The matrices in this example are deterministic, so controlling the original Wigner law remains a separate probability question.
+The [common-subsequence theorem](../claims/Yin_C_F0358_v4.md#statement) gives summable marginal small-determinant probabilities for both symmetrizer classes outside one deterministic polar set, on one subsequence extracted from any starting dimensions.
+The set may contain the specified point \(i\).
+For the shared-input cubic second factor above, the [Gaussian radius and negative-trace tests](../claims/Yin_C_F0360_v1.md#statement) do give the prescribed-shift equality, including \(i\), under their respective hypotheses.
+The [bounded real first input estimate](../claims/Yin_C_F0361_v1.md#rates) allows arbitrary two-moment laws for the other colors and makes the compression close to minus identity with polynomially small failure probability.
+The [purely atomic construction](../claims/Yin_C_F0361_v1.md#atomic) allows the first law itself to lack every moment above two on its selected dimensions.
+When the first raw diagonal is a nondegenerate Gaussian and the second color is GUE or has the specified full complex translation modulus, the [conditional smoothing theorem](../claims/Yin_C_F0360_v2.md#statement) gives full-sequence almost-sure ordinary convergence at every prescribed nonreal parameter.
+It permits arbitrary two-moment first upper entries and arbitrary two-moment third color.
+An arbitrary fixed first law with infinite fourth moment can have many negative modes at the free edge.
+Controlling their interaction with arbitrary atomic or heavy-tailed second and third colors at the specified shift remains open.
 This route requires a positive free symmetrizer or factor, while the [ordinary row-restoration route](Yin_S_F0032.md#current-allocation-and-discriminating-tests) also covers free limits with two-dimensional Brown support.

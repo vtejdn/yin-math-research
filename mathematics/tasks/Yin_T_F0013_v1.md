@@ -186,6 +186,10 @@ The [binary quadratic companion family](../claims/Yin_C_F0351_v12.md#statement) 
 The [two-channel correlated-product calculation](../claims/Yin_C_F0356_v3.md#stability) also gives a polynomial floor for its specified positive-chord sign pencils at nonzero stable real shifts.
 Its fixed [nonreal obstruction](../claims/Yin_C_F0356_v3.md#nonreal) limits the use of constant channel changes to continue this argument to complex shifts.
 
+For word-chain linearizations of the two [free positive symmetrizer classes](../claims/Yin_C_F0358_v4.md#statement), one deterministic subsequence controls each fixed nonreal parameter outside a deterministic polar set.
+For \(P=(c+X)(XY+YX+ZYZ)\) the [fixed nonreal parameter results](../claims/Yin_C_F0360_v1.md#statement) and the [bounded real first-color theorem](../claims/Yin_C_F0361_v1.md#statement) include \(i\) under the stated input hypotheses and transfer with the exact auxiliary trace factor.
+The [conditional Hermitian correction](../claims/Yin_C_F0360_v2.md#repair) gives the corresponding full-sequence ordinary limit when the first diagonal is Gaussian and the second color has the specified smoothing law.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.
