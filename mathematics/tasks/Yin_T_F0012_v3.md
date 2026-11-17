@@ -144,6 +144,9 @@ For \(1+x^2y+yx\), the [two-slice border estimate](../claims/Yin_C_F0362_v1.md#s
 Keeping \(Y\) fixed in the [partially linearized exterior](../claims/Yin_C_F0362_v2.md#exterior) gives a single scalar deletion per site, including odd initial gaps.
 The [three-direction Schur estimate](../claims/Yin_C_F0363_v1.md#statement) completes the all-dimension terminal series and hence the almost-sure weak Brown limit for this cubic.
 The [independent-panel extension](../claims/Yin_C_F0363_v3.md#statement) applies to any fixed restoration dimension under the stated corner and starting-determinant hypotheses.
+For every fixed integer \(q\ge2\), the [unequal-volume principal trims](../claims/Yin_C_F0367_v1.md#statement) and [joint quotient restoration](../claims/Yin_C_F0363_v4.md#statement) now give the [full Brown limit](../claims/Yin_C_F0362_v4.md#statement) for \(1+x^qy+yx\) and its fixed outer scalar polynomial images under the original real two-moment laws.
+The argument verifies a selected-channel gain condition without a full right directional floor.
+Its extension to an arbitrary polynomial and to the full complex-input contract remains open.
 
 The separately authorized [matrix-valued affine-pencil Task F0013](Yin_T_F0013_v1.md#contract) and [scalar-valued polynomial Task F0014](Yin_T_F0014_v1.md#contract) study normalized determinant upper-limit equalities under the same fixed-law finite-variance model.
 The matrix question is sufficient for the scalar question through exact linearization.

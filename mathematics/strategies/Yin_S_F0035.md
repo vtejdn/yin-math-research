@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For longer unequal-length words, prove the principal trims and the joint physical corner estimates needed by the single-flag exterior. |
+| priority | Test compatible exteriors and unequal selected channel volumes when both colors occur repeatedly in the highest-degree word. |
 
 ## The full polynomial as one spectral problem
 
@@ -68,5 +68,18 @@ The [fixed-dimensional restoration lemma](../claims/Yin_C_F0363_v3.md#statement)
 The padded constant column in the seven-channel cyclic example has zero variable coefficient, so these hypotheses require an actual reduction of the deterministic directions.
 For \(1+x^q y+yx\) with any fixed integer \(q\ge2\), the [longer-word calculation](../ledger/Yin_L_F0069_v3.md#partial) exhibits an exterior with only one initial scalar direction per independent background column.
 At every \(w\ne1\) a [sum of scalar pole residues](../ledger/Yin_L_F0069_v3.md#residues) yields an invertible matrix in the tested coefficient directions.
-For \(q>2\) the principal trims and joint spread of the actual corner kernels remain to be established.
-No terminal estimate for a general cyclic pencil has been deduced from this calculation.
+The [joint quotient argument](../claims/Yin_C_F0363_v4.md#quotient) now handles dependent resolvent entries at all fixed degrees by detecting one node at a time in a common coefficient space.
+Its compact parameter patches give an actual joint physical-corner bound with summable bad-area deviations.
+The [unequal-border inequality](../claims/Yin_C_F0366_v1.md#statement) allows selection of different numbers of fresh rows and columns.
+For these words the [principal trim proof](../claims/Yin_C_F0367_v1.md#statement) uses every left channel and only four right channels, reducing the deficit by four at each physical addition.
+Together they give the [full fixed-power Brown limit](../claims/Yin_C_F0362_v4.md#statement), including the quartic \(1+x^3y+yx\).
+
+The [agent-S counterexample](../ledger/Yin_L_F0069_v4.md#counterexample) shows why requiring the full right directional floor would obstruct this proof.
+It has bounded selfadjoint old matrices, an exact nonreal eigenvalue and a vanishing directional map, with its physical vector spread over arbitrarily many \(X\)-spectral values.
+Choosing a smaller right volume resolves this test while retaining positive deficit decrease.
+The separate proposed two-site mixed-color exposure in that ledger remains an exploratory alternative for other representations.
+
+For a general realization adding \(p\) channels, test selected left and right volumes of sizes \(a,b\) with \(a+b>p\), an exterior matching its initial principal trims, and invertible joint node detectors with physical projected spread.
+A next concrete test is \(1+x^2y^2+yx\), whose highest-degree word repeats both colors.
+First compute the extra principal blocks at a physical deletion and check whether they are killed by an exterior for which the initial scalar near-kernel overlap can be estimated under the original law.
+The general cyclic-pencil terminal estimate remains open.
