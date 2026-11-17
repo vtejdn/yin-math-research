@@ -137,6 +137,11 @@ Both finite and free scalar logarithms equal the logarithms for the matrix word-
 The [scalar word-chain proof](../claims/Yin_C_F0195_v4.md#statement) also gives the required intermediate scales using free Fisher information for the scalar polynomial.
 In both arguments the remaining obligation for the broader contract without (T) concerns the singular logarithms below a polynomial cutoff.
 
+Under the real finite-variance laws, the [scalar elimination applications](../claims/Yin_C_F0353_v2.md#scalar) give the ordinary limsup at every prescribed shift for bipartite quadratics with disjoint color groups and for formulas in which all but one variable occur at most once.
+For Rademacher inputs the [all-shift sign theorem](../claims/Yin_C_F0351_v7.md#statement) treats \(xy+\lambda yx\), \(\lambda\in\mathbb R\setminus\{0,-1\}\), and fixed outer polynomials of it, including real roots and \(z=0\).
+In each case the deterministic even sizes \(2^j\) give almost-sure convergence under every coupling.
+For an arbitrary nonconstant polynomial the [sign-support theorem](../claims/Yin_C_F0354_v1.md#statement) gives actual invertible evaluations, while the ordinary iid probability of a large bottom-logarithm loss remains to be controlled in the general contract.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

@@ -17,20 +17,23 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For the unrestricted finite-variance tasks, the affine count now reaches polynomial scales; the next determinant estimate must control the loss below that cutoff under the original entry laws. For the real quadratic, locate the fourth-moment uses in the initial trim and overlap estimates. |
+| priority | Control typical loss below a polynomial cutoff for discrete affine coefficients beyond rank-one elimination. For the Brown problem, test which near-kernel and restoration estimates for the real two-sided product extend to other polynomials. |
 
 ## Current allocation and discriminating tests
 
-For \(AB+2BA\) the [original real-law theorem](../claims/Yin_C_F0351_v6.md#decision-fourth-terminal-reviewed) proves summability of the terminal planar deviations when both strict upper laws have finite fourth moments and the diagonal laws have finite second moments.
-This includes different biased two-point laws, arbitrary finite supports and unbounded strict upper laws.
-A [single deterministic exterior](../ledger/Yin_L_F0067_v4.md#sign-compression) can still give order-one disk loss.
-The proof uses the free limits of the actual physical corners, the [difference-law Fourier estimate](../claims/Yin_C_F0351_v6.md#border-tests), and joint testing of separated shifts through [deletion and restoration](../claims/Yin_C_F0351_v6.md#ratios).
-The [initial principal-minor trims](../claims/Yin_C_F0351_v1.md#minor-trims) and the [first near-kernel overlaps](../claims/Yin_C_F0351_v2.md#discrete-overlaps) retain their stated moment hypotheses.
+For real \(AB+2BA\) the [finite-variance theorem](../claims/Yin_C_F0351_v8.md#decision-two-moment-terminal-reviewed) proves the terminal series and every-coupling weak Brown convergence.
+In the [initial trim](../claims/Yin_C_F0186_v41.md#argument), the polynomial norm loss acts on a singular-value threshold and the fresh row is tested on an orthogonal projection of dimension comparable to the deficit.
+The [near-kernel estimate](../claims/Yin_C_F0196_v6.md#first-overlaps) obtains summable failures by combining a polylogarithmic core with partial-alphabet exclusion.
+The remaining [actual-law Schur restorations](../claims/Yin_C_F0351_v8.md#ratios) keep the free-corner and independent-border comparison of the real fourth-moment proof.
+For two sign matrices and a fixed spectral target, the [spectral-window argument](../claims/Yin_C_F0351_v7.md#spectral-gap) also treats every real shift of \(AB+\lambda BA\) for \(\lambda\ne0,-1\).
 
 For general fixed affine pencils with finite free logarithm, the [bounded-core covariance comparison](../claims/Yin_C_F0195_v4.md#free-background) and [free estimate with deterministic shifts](../claims/Yin_C_F0352_v1.md#statement) give the [polynomial-window count](../claims/Yin_C_F0186_v40.md#argument) under finite second moments.
 The [closed-band estimate](../claims/Yin_C_F0186_v40.md#band) controls both atoms at its endpoints, including the interval from the earlier [selected-dimension clip](../claims/Yin_C_F0195_v3.md#statement) to any fixed polynomial cutoff.
 With the original-law translation modulus, the [least-value floor](../claims/Yin_C_F0186_v38.md#floor-statement) gives ordinary convergence along all good dimensions and the dimension-limsup equality for every fixed pencil and scalar polynomial.
-The unrestricted contracts still include laws without that floor, such as purely atomic laws.
+For arbitrary real finite-variance inputs the [rank-one elimination and triangular base](../claims/Yin_C_F0353_v2.md#rank-one-step) supply a polynomial floor for their specified coefficient class, covering dyadic original sign matrices.
+The [block-circulant construction](../claims/Yin_C_F0354_v1.md#galois-orbits) gives exact sign-support witnesses for every full pencil.
+The remaining probability problem is typical singularity or exceptionally small nonzero values under independent signs, in particular when no rank-one color can be eliminated and the residual coefficient span has dimension at least three.
+The unrestricted contracts include these models without the translation-regular floor.
 For them a lower estimate for the bottom loss on favorable dimensions would suffice for the determinant limsup by the [marginal criterion](../claims/Yin_C_F0190_v1.md#coupling-criterion).
 The [rare-coordinate example](../drafts/Yin_D_F0033.md#rare-coordinate-log-cost) explains why a comparison through resampled large entries must account for the actual Schur target.
 

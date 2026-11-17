@@ -167,6 +167,12 @@ For a finite target it gives ordinary almost-sure and finite-\(L^r\) convergence
 The [logarithmic interval estimate](../claims/Yin_C_F0186_v40.md#band) already holds in every sufficiently large dimension for arbitrary laws in the finite-variance model.
 Without the translation condition the outstanding general issue is the logarithmic loss below the polynomial cutoff.
 
+The [elimination theorem](../claims/Yin_C_F0353_v2.md#decision-two-direction-elimination-reviewed) proves an original-law polynomial least-value bound whenever the rank-one variable coefficients can be removed leaving the constant and remaining coefficients in a space of dimension at most two.
+For these real-input pencils it gives convergence in probability through all sizes, almost-sure convergence on \(N=2^j\) under every coupling, and the ordinary dimension-limsup equality without (T).
+For arbitrary full pencils the [sign-support construction](../claims/Yin_C_F0354_v1.md#decision-sign-support-reviewed) gives an invertible symmetric sign tuple in each \(N=rp\) with a fixed even \(r\) and all sufficiently large odd primes \(p\).
+Its probability tending to one concerns the auxiliary block-circulant sampling law.
+The original iid sign model still needs a quantitative lower estimate outside the classes with an established floor.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

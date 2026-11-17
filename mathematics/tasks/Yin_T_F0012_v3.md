@@ -116,11 +116,11 @@ A second scalar argument uses [word-chain regularity via free Fisher information
 
 ## The quadratic terminal loss
 
-For \(A_NB_N+2B_NA_N\) the [real two-color theorem](../claims/Yin_C_F0351_v6.md#decision-fourth-terminal-reviewed) proves the integrated terminal deviation series on each disk with \(q_N=\lceil\log(N+3)\log\log(N+3)\rceil\).
-Its hypotheses are real centered variance-one upper laws with finite fourth moments and centered real diagonal laws with finite second moments.
-The two strict upper laws may be different biased two-point laws or arbitrary finite-support laws; no translation condition is required.
-The empirical eigenvalue measure therefore converges weakly almost surely under every allowed coupling in this model.
-The [prescribed nonreal shift results](../claims/Yin_C_F0351_v3.md#statement) have their own input-law and trimming conditions.
+For \(A_NB_N+2B_NA_N\) with arbitrary real Wigner inputs in the finite-variance contract, the [two-moment terminal theorem](../claims/Yin_C_F0351_v8.md#decision-two-moment-terminal-reviewed) proves the integrated terminal deviation series on every disk at \(q_N=\lceil\log(N+3)\log\log(N+3)\rceil\).
+The empirical eigenvalue law therefore converges weakly almost surely to the free Brown measure under every permitted coupling.
+The [initial trimmed product and near-full minor](../claims/Yin_C_F0186_v41.md#terminal) and the [near-kernel overlap calculation](../claims/Yin_C_F0196_v6.md#first-overlaps) both use only the two moments in the contract.
+The same ordinary log converges in probability at each prescribed nonreal shift and almost surely along \(N=2^j\).
+For two sign Wigner inputs, the [prescribed-parameter theorem](../claims/Yin_C_F0351_v7.md#statement) also reaches the real axis, including zero.
 
 ## Separate determinant objectives
 
