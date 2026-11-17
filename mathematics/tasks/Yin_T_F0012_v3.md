@@ -122,6 +122,13 @@ The [initial trimmed product and near-full minor](../claims/Yin_C_F0186_v41.md#t
 The same ordinary log converges in probability at each prescribed nonreal shift and almost surely along \(N=2^j\).
 For two sign Wigner inputs, the [prescribed-parameter theorem](../claims/Yin_C_F0351_v7.md#statement) also reaches the real axis, including zero.
 
+For every degree-two polynomial with real coefficients, the [general trim and initial-overlap theorem](../claims/Yin_C_F0186_v42.md#statement) gives the two retained-log limits and the first flag controls under the real two-moment input model.
+The [oblique restoration theorem](../claims/Yin_C_F0351_v9.md#statement) and its [proportional and binary extension](../claims/Yin_C_F0351_v10.md#statement) give the untrimmed almost-sure weak Brown limit for \(AB+CA+CU+VB+\ell(A,Y)\), with \(A\) independent of the background \(Y\), \(B,C\) nonzero real linear forms, \(U,V\) real linear forms of \(Y\), and \(\ell\) real affine.
+This includes every real binary quadratic with at least one of \(x^2,y^2\) absent.
+The [conditional two-form argument](../claims/Yin_C_F0355_v1.md#statement) gives further cases with both original squares present.
+The [binary null-line criterion](../claims/Yin_C_F0355_v2.md#statement) gives the Brown limit for any nonsingular binary tensor with indefinite symmetric part if the joint raw law has a positive absolutely continuous component, and also gives an explicit original-law condition for discrete inputs.
+A general quadratic tensor can still produce a fresh-row square outside these two observed directions.
+
 ## Separate determinant objectives
 
 The separately authorized [matrix-valued affine-pencil Task F0013](Yin_T_F0013_v1.md#contract) and [scalar-valued polynomial Task F0014](Yin_T_F0014_v1.md#contract) study normalized determinant upper-limit equalities under the same fixed-law finite-variance model.

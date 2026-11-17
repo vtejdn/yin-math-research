@@ -17,22 +17,35 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Control typical loss below a polynomial cutoff for discrete affine coefficients beyond rank-one elimination. For the Brown problem, test which near-kernel and restoration estimates for the real two-sided product extend to other polynomials. |
+| priority | For real quadratics, control the square of a fresh row in the compressed exterior. For sign pencils with three coefficient directions, seek a fixed-energy bottom estimate when neither a monotone sign difference nor the two-form Schur test applies. |
 
 ## Current allocation and discriminating tests
 
-For real \(AB+2BA\) the [finite-variance theorem](../claims/Yin_C_F0351_v8.md#decision-two-moment-terminal-reviewed) proves the terminal series and every-coupling weak Brown convergence.
-In the [initial trim](../claims/Yin_C_F0186_v41.md#argument), the polynomial norm loss acts on a singular-value threshold and the fresh row is tested on an orthogonal projection of dimension comparable to the deficit.
-The [near-kernel estimate](../claims/Yin_C_F0196_v6.md#first-overlaps) obtains summable failures by combining a polylogarithmic core with partial-alphabet exclusion.
-The remaining [actual-law Schur restorations](../claims/Yin_C_F0351_v8.md#ratios) keep the free-corner and independent-border comparison of the real fourth-moment proof.
-For two sign matrices and a fixed spectral target, the [spectral-window argument](../claims/Yin_C_F0351_v7.md#spectral-gap) also treats every real shift of \(AB+\lambda BA\) for \(\lambda\ne0,-1\).
+For any real quadratic in independent real finite-variance Wigner inputs, the [general quadratic theorem](../claims/Yin_C_F0186_v42.md#statement) gives the two initial trims and summable deviations of the area where the first left or right overlap is inadequate.
+It allows the two new columns at a step to be dependent.
+The remaining step for the full quadratic question is the ordinary determinant comparison from the exterior back to the original matrix.
+
+For a distinguished color \(A\), the [two-observation construction](../claims/Yin_C_F0351_v9.md#exterior) restores \(e_i,Ce_i\) on the left and \(e_i,Be_i\) on the right.
+For nonzero \(B=b\cdot Y,\ C=c\cdot Y\) it erases a background quadratic tensor exactly when it equals \(c u^{\mathsf T}+v b^{\mathsf T}\) for some \(u,v\).
+The [two-site commutator calculation and binary cases](../claims/Yin_C_F0351_v10.md#statement) give the planar conclusions for every proportional case and for every binary polynomial missing either square.
+For mixed effective colors, [positive conditional variance on a set of sites](../claims/Yin_C_F0355_v1.md#masked-panels) permits a full comparison even when both original squares occur.
+For a nonsingular binary quadratic tensor with indefinite symmetric part, its two [real null lines](../claims/Yin_C_F0355_v2.md#laws) give a direct test of that hypothesis against the original input law.
+
+A concrete next test is \(P_*(x,y)=x^2+y^2+xy-yx\).
+Its quadratic coefficient along any nonzero real fresh direction \(d=(d_1,d_2)\) is \(d_1^2+d_2^2>0\); no invertible real linear change of the two colors creates a missing square.
+Upon deleting a site its fresh-square term gives an outer product of the fresh cross vector with itself, which is not in general removed by a pair of normal directions fixed from the background.
+Its companion with first row \((-z,\,x-y,\,x+y)\), and auxiliary rows \((x,-1,0),(y,0,-1)\), has rank two in every nonzero variable direction, and the nonzero constant direction gives an invertible lower block.
+This test asks for a mechanism to control the surviving outer product.
 
 For general fixed affine pencils with finite free logarithm, the [bounded-core covariance comparison](../claims/Yin_C_F0195_v4.md#free-background) and [free estimate with deterministic shifts](../claims/Yin_C_F0352_v1.md#statement) give the [polynomial-window count](../claims/Yin_C_F0186_v40.md#argument) under finite second moments.
 The [closed-band estimate](../claims/Yin_C_F0186_v40.md#band) controls both atoms at its endpoints, including the interval from the earlier [selected-dimension clip](../claims/Yin_C_F0195_v3.md#statement) to any fixed polynomial cutoff.
 With the original-law translation modulus, the [least-value floor](../claims/Yin_C_F0186_v38.md#floor-statement) gives ordinary convergence along all good dimensions and the dimension-limsup equality for every fixed pencil and scalar polynomial.
 For arbitrary real finite-variance inputs the [rank-one elimination and triangular base](../claims/Yin_C_F0353_v2.md#rank-one-step) supply a polynomial floor for their specified coefficient class, covering dyadic original sign matrices.
 The [block-circulant construction](../claims/Yin_C_F0354_v1.md#galois-orbits) gives exact sign-support witnesses for every full pencil.
-The remaining probability problem is typical singularity or exceptionally small nonzero values under independent signs, in particular when no rank-one color can be eliminated and the residual coefficient span has dimension at least three.
+For a [three-dimensional space with no rank-one member](../claims/Yin_C_F0355_v1.md#statement), the dependent-form realization proves the ordinary limsup at all specified parameters under the two sign-variance tests.
+The [positive difference of two diagonal sign words](../claims/Yin_C_F0356_v2.md#statement) gives an original-law polynomial floor for Hermitian pencils at stable real energies, including an irreducible triple of invertible indefinite coefficients.
+The [tridiagonal scalar realization](../claims/Yin_C_F0356_v1.md#examples) yields ordinary limits for its recursions.
+The residual probability problem includes general nonselfadjoint three-direction pencils and energies outside the stable sign-flow hypotheses.
 The unrestricted contracts include these models without the translation-regular floor.
 For them a lower estimate for the bottom loss on favorable dimensions would suffice for the determinant limsup by the [marginal criterion](../claims/Yin_C_F0190_v1.md#coupling-criterion).
 The [rare-coordinate example](../drafts/Yin_D_F0033.md#rare-coordinate-log-cost) explains why a comparison through resampled large entries must account for the actual Schur target.

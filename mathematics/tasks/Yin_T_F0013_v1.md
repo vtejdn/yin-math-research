@@ -171,7 +171,11 @@ The [elimination theorem](../claims/Yin_C_F0353_v2.md#decision-two-direction-eli
 For these real-input pencils it gives convergence in probability through all sizes, almost-sure convergence on \(N=2^j\) under every coupling, and the ordinary dimension-limsup equality without (T).
 For arbitrary full pencils the [sign-support construction](../claims/Yin_C_F0354_v1.md#decision-sign-support-reviewed) gives an invertible symmetric sign tuple in each \(N=rp\) with a fixed even \(r\) and all sufficiently large odd primes \(p\).
 Its probability tending to one concerns the auxiliary block-circulant sampling law.
-The original iid sign model still needs a quantitative lower estimate outside the classes with an established floor.
+The [two-form companion](../claims/Yin_C_F0355_v1.md#statement) is a nonselfadjoint three-direction example with no rank-one matrix anywhere in its coefficient span.
+Its fixed-parameter logarithms converge in probability and almost surely on \(2^j\) under the bidirectional sign condition.
+For Hermitian pencils with a [positive difference of sign words at a stable energy](../claims/Yin_C_F0356_v2.md#statement), the original ensemble has \(\Pr(s_{\min}\le N^{-3})\le C_E N^{-1/4}\).
+The signed diagonal flow covers three random coefficients that are all invertible and indefinite.
+A general three-dimensional coefficient space still needs a quantitative bottom estimate under the iid sign model.
 
 ## Public literature boundary
 
