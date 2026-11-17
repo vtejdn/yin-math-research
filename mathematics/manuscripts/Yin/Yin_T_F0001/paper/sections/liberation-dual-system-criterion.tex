@@ -75,24 +75,24 @@ The case where $A$ has the stated property follows by interchanging the tensor f
 \end{proof}
 
 \begin{lemma}\label{lem:tensor-quotient-kernels}
-Let $V_0$ be a subspace of a complex vector space $V$, and let $\pi:V\to V/V_0$ be the quotient map.
-For every complex vector space $W$, the natural maps $V_0\otimes_{\C}W\to V\otimes_{\C}W$ and $W\otimes_{\C}V_0\to W\otimes_{\C}V$ are injective.
+Let $E$ be a subspace of a complex vector space $V$, and let $\pi:V\to V/E$ be the quotient map.
+For every complex vector space $W$, the natural maps $E\otimes_{\C}W\to V\otimes_{\C}W$ and $W\otimes_{\C}E\to W\otimes_{\C}V$ are injective.
 Under these identifications,
 \[
- \ker(\pi\otimes I_W)=V_0\otimes_{\C}W,
+ \ker(\pi\otimes I_W)=E\otimes_{\C}W,
  \qquad
- \ker(I_W\otimes\pi)=W\otimes_{\C}V_0.
+ \ker(I_W\otimes\pi)=W\otimes_{\C}E.
 \]
 \end{lemma}
 \begin{proof}
-Choose a complement $V_1$ such that $V=V_0\oplus V_1$.
+Choose a complement $V_1$ such that $V=E\oplus V_1$.
 Then
 \[
  V\otimes_{\C}W
- =(V_0\otimes_{\C}W)\oplus(V_1\otimes_{\C}W),
+ =(E\otimes_{\C}W)\oplus(V_1\otimes_{\C}W),
 \]
 which shows that the first natural map is injective.
-The map $\pi\otimes I_W$ vanishes on the first summand and maps the second summand isomorphically onto $(V/V_0)\otimes_{\C}W$, since $\pi|_{V_1}:V_1\to V/V_0$ is an isomorphism.
+The map $\pi\otimes I_W$ vanishes on the first summand and maps the second summand isomorphically onto $(V/E)\otimes_{\C}W$, since $\pi|_{V_1}:V_1\to V/E$ is an isomorphism.
 This proves the first kernel equality.
 Interchanging the tensor factors proves injectivity of the other natural map and the second kernel equality.
 \end{proof}
@@ -149,7 +149,7 @@ Using $\pi_1R_x=\widetilde R_x\pi_1$, we obtain
 The last equality follows from $\Psi_x(k)\in H\otimes_{\C}H$ and $\pi_1|_H=0$.
 By Lemma~\ref{lem:tensor-difference-injectivity}, the map $\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$ is injective on $(U/H)\otimes_{\C}U^{\mathrm{op}}$, since $R_{x^{\mathrm{op}}}$ has no nonzero finite-dimensional invariant subspace.
 Consequently, $(\pi_1\otimes I)k=0$.
-Lemma~\ref{lem:tensor-quotient-kernels}, applied to $\pi_1$, then gives
+Applying the first kernel equality of Lemma~\ref{lem:tensor-quotient-kernels} with $V=U$, $E=H$, $W=U^{\mathrm{op}}$ and $\pi=\pi_1$ gives
 \[
  k\in\ker(\pi_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
 \]
@@ -166,7 +166,7 @@ Using $\pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2$, we similar
 The last equality again follows from $\Psi_x(k)\in H\otimes_{\C}H$ and $\pi_2|_H=0$.
 The map $(R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}$ is injective on $H\otimes_{\C}(U^{\mathrm{op}}/H)$ by Lemma~\ref{lem:tensor-difference-injectivity}, since $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
 Thus $(I\otimes \pi_2)k=0$.
-Applying the second kernel equality of Lemma~\ref{lem:tensor-quotient-kernels} to $\pi_2$ gives
+Applying the second kernel equality of Lemma~\ref{lem:tensor-quotient-kernels} with $V=U^{\mathrm{op}}$, $E=H$, $W=H$ and $\pi=\pi_2$ gives
 \[
  k\in\ker(I\otimes \pi_2)=H\otimes_{\C}H.
 \]
