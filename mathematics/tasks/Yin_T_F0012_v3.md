@@ -105,6 +105,11 @@ A counterexample must identify fixed entry laws, a fixed polynomial, an allowed 
 A self-adjoint special case, Gaussian-smoothed model, convergence only in probability, or a result with extra moment/density assumptions is partial progress rather than completion.
 Completion requires review of the complete proof or counterexample against this contract.
 
+The [paired-block estimate](../claims/Yin_C_F0347_v1.md#decision-paired-volumes-reviewed) controls the product of the leading singular values when a fixed block of rows and columns is added to a minor.
+For \(P_N=A_NB_N+2B_NA_N\) with real fourth off-diagonal and second diagonal moments, the [trimmed potential theorem](../claims/Yin_C_F0186_v36.md#decision-trimmed-planar-reviewed) gives full-sequence almost-sure local planar \(L^1\) convergence after omitting \(q_N=\lceil\log(N+3)\log\log(N+3)\rceil\) smallest singular values at each shift.
+The untrimmed every-coupling assertion for this model is equivalent to the theorem's summability condition on the integrated negative logarithms of those last \(q_N\) values.
+The [mean-potential comparison](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) also shows that Brown convergence in probability along a subsequence gives the determinant upper-limit equality at every fixed shift outside a deterministic polar set.
+
 ## Separate determinant objectives
 
 The separately authorized [matrix-valued affine-pencil Task F0013](Yin_T_F0013_v1.md#contract) and [scalar-valued polynomial Task F0014](Yin_T_F0014_v1.md#contract) study normalized determinant upper-limit equalities under the same fixed-law finite-variance model.

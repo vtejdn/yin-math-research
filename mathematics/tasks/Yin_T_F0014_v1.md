@@ -118,6 +118,12 @@ The [adopted two-mode and free-gap assembly C194v27](../claims/Yin_C_F0194_v27.m
 Its application to a scalar polynomial still requires an actual linearization satisfying every remaining hypothesis and the exact finite/free determinant normalization.
 It supplies no such certificate for arbitrary polynomials, no general complex-input extension, and no automatic floor transfer or Brown conclusion.
 
+The [square domination theorem](../claims/Yin_C_F0186_v34.md#scalar-domination) proves the upper-limit equality on the real axis for \(P=H+i(B^*B+\sum_j R_j^*R_j)\), where \(H=H^*\), the \(R_j\) are arbitrary polynomials and \(B\) is a nonzero scalar affine polynomial.
+Inputs may recur in all factors.
+The [spectral-point example](../claims/Yin_C_F0186_v34.md#zero-frame-example) has a finite free logarithm at zero and may have identically singular odd-dimensional evaluations.
+The [mean-potential theorem](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) gives the upper-limit equality for every polynomial at each fixed shift outside a deterministic polar set in the unbounded component of the complement of its Brown support.
+When the mean eigenvalue measures approach the Brown measure along a subsequence, this conclusion covers the whole plane outside a polar set.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.

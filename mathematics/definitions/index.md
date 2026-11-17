@@ -514,3 +514,8 @@ Exact source home: [the Carbery--Wright convention](../audits/literature/CW01/Yi
 Source scope: the inspected author version, printed/PDF p. 13, immediately after Theorem 8.
 Recorded application: [the dimension-free polynomial sublevel bound](../audits/literature/CW01/Yin_U001.md#theorem-eight-q-one), used at \(q=1\) with a real or complex Banach target.
 Recorded consumer navigation: the [conditional logarithmic argument](../claims/Yin_C_F0186_v28.md#source-input) and [original independent row law](../claims/Yin_C_F0186_v28.md#original-row-degree), with log-concavity required for all random diagonal and off-diagonal coordinates.
+
+### Polar sets and quasi-everywhere assertions in the complex plane
+
+The [capacity convention](../claims/Yin_C_F0348_v1.md#polar-convention) uses finite logarithmic energy on compact subsets, following [Saf10, Section 1](../audits/literature/Saf10/readme.md).
+The [lower-envelope argument](../claims/Yin_C_F0348_v1.md#lower-envelope) uses this convention for deterministic exceptional sets of spectral shifts.

@@ -301,3 +301,5 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Erd49/Yin_U001](Erd49/Yin_U001.md) | Hsu--Robbins finite-variance complete convergence, inspected sufficiency and squared-entry paired-row specialization |
 | [CW01/Yin_U001](CW01/Yin_U001.md#cw01-u001) | Banach-valued polynomial sublevel bound at q equals one for affine-support log-concave laws; exact logarithmic normalization and scope |
 | [Lat05/Yin_U001](Lat05/Yin_U001.md#lat05-u001) | Expected operator norm of an independent centered real matrix from row and column variance sums and total fourth moments; triangular-array and symmetric-part applicability |
+| [Saf10 source notes](Saf10/readme.md) | Logarithmic capacity and polar sets |
+| [Cha08 source notes](Cha08/readme.md) | Compact-support lower-envelope theorem in the 2008 single-author manuscript |

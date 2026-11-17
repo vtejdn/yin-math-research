@@ -266,4 +266,5 @@ The related source LHZ21, inspected in [arXiv:2008.01312v3](https://arxiv.org/pd
 In the notation above, its Theorem 2 gives \(\|PR\|_q\le2\|(T-R)_{\max(k)}\|_q\) for \(1\le q\le\infty\).
 These norm bounds do not imply (Projection-volume-target), which controls the product of the first \(k\) singular values rather than their \(q\)-power sum.
 No proof or counterexample for (Projection-volume-target) at \(k=2\) was obtained in this bounded follow-up.
-The next mathematical decision is whether that specific multiplicative inequality holds; the original-law projection estimates and terminal Schur control remain separate even if it does.
+The [fixed projection and border proof](../claims/Yin_C_F0347_v1.md#decision-paired-volumes-reviewed) now establishes that inequality for every fixed block size.
+The [companion calculation](../claims/Yin_C_F0186_v36.md#one-step) treats the original-law projected volumes in the real quadratic model.

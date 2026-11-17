@@ -17,9 +17,23 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | With real fourth-moment xy+2yx Brown convergence in probability established, first seek full-sequence almost-sure convergence through the remaining planar negative-logarithmic defect. The complex original-law coefficient extension remains a separate obligation. |
+| priority | For real fourth-moment xy+2yx, estimate the unconditional probability of macroscopic planar loss among the last \(q_N=\lceil\log(N+3)\log\log(N+3)\rceil\) singular values. For general pencils, seek a square observation with a tractable determinant at the prescribed shift. |
 
 ## Current allocation and discriminating tests
+
+For \(AB+2BA\), the [paired block inequality](../claims/Yin_C_F0347_v1.md#decision-paired-volumes-reviewed) supplies the deterministic step of the [trimmed potential theorem](../claims/Yin_C_F0186_v36.md#decision-trimmed-planar-reviewed).
+The [one-coordinate test](../ledger/Yin_L_F0067_v3.md#one-coordinate) exhibits positive-probability Wigner exteriors on which one raw diagonal coordinate changes an entire disk potential by a fixed amount.
+The [terminal sublevel test](../drafts/Yin_D_F0043.md#terminal-area) requires an estimate after averaging over these exteriors.
+For F0013 and F0014 the [observability criterion](../claims/Yin_C_F0186_v35.md#decision-observability-reviewed) and the [boundary square comparison](../claims/Yin_C_F0186_v34.md#scalar-domination) provide routes using deterministic positive imaginary parts.
+The [polar exception theorem](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) yields upper limits at fixed exterior shifts outside a polar set, leaving the exceptional prescribed parameters and the interior of a general Brown support as separate obligations.
+
+For an arbitrary pencil \(L\), the elementary Hermitian doubling \(H=\left(\begin{smallmatrix}0&L\\L^*&0\end{smallmatrix}\right)\) with \(J=(I,0)\) illustrates the limit of the observation approach.
+The first two observation rows stack to \(\operatorname{diag}(I,L)\).
+All later rows have the forms \(((LL^*)^j,0)\) and \((0,(LL^*)^j L)\).
+Every square polynomial combination \(B\) of the observation rows therefore factors as \(M\operatorname{diag}(I,L)\) with a square polynomial \(M\).
+At a finite free target, ordinary determinant multiplicativity and the separate upper bounds for the factors force both normalized factor logarithms to attain their targets along any subsequence on which the product does so in probability.
+Indeed the two upper deviations vanish in probability, so an appreciable lower deviation of either factor forces a lower deviation of their sum, outside events of vanishing probability.
+This doubling retains precisely the original lower-tail obligation in its shortest observation, while the tridiagonal construction reduces its observation to known scalar affine factors.
 
 The [reviewed Wigner count theorem](../claims/Yin_C_F0195_v1.md#decision-count-reviewed) now supplies the quantitative small-singular-value count for every fixed affine pencil with finite free logarithm, and for every fixed nonconstant scalar polynomial at each \(z\ne P(0)\).
 It requires only third absolute off-diagonal moments and second diagonal moments, allows arbitrary complex entry covariance, and uses no norm guard.

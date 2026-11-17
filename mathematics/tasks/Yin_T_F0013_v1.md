@@ -148,6 +148,12 @@ Their independent whole-proof findings [R200v29](../audits/reviews/Yin_R_F0200_v
 This removes the spectral-position restriction only within that coefficient class; arbitrary auxiliary dimension, degenerate or nonselfadjoint coefficients and general complex input laws remain outside it.
 No full-sequence almost-sure logarithmic conclusion or completion of this unchanged contract is asserted.
 
+The [semidefinite imaginary-part theorem](../claims/Yin_C_F0186_v34.md#decision-accretive-complement-reviewed) proves the required equality for selfadjoint affine pencils with an added fixed positive imaginary part whose kernel has dimension at most one.
+The [observation theorem](../claims/Yin_C_F0186_v35.md#decision-observability-reviewed) covers every fixed Hermitian tridiagonal affine pencil with nonzero scalar affine edges and imaginary term at a single endpoint.
+The [path example](../claims/Yin_C_F0186_v35.md#irreducible-path) has irreducible coefficients, a vanishing bilinear frame and an imaginary part of corank \(m-1\).
+For arbitrary coefficients, the [mean-potential theorem](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) gives the upper-limit equality outside a deterministic polar set in the unbounded component of the complement of the free Brown support as the scalar shift varies.
+A prescribed shift such as zero can belong to the exceptional set.
+
 ## Public literature boundary
 
 The [2026-11-05 primary-source comparison](../ledger/Yin_L_F0062_v1.md#wigner-status) found no theorem or counterexample covering this exact contract and identified explicit related conjectures still discussed in 2026.
