@@ -110,17 +110,17 @@ For \(P_N=A_NB_N+2B_NA_N\) with real fourth off-diagonal and second diagonal mom
 The untrimmed every-coupling assertion for this model is equivalent to the theorem's summability condition on the integrated negative logarithms of those last \(q_N\) values.
 The [mean-potential comparison](../claims/Yin_C_F0348_v1.md#decision-polar-envelope-reviewed) also shows that Brown convergence in probability along a subsequence gives the determinant upper-limit equality at every fixed shift outside a deterministic polar set.
 
-For all fixed scalar polynomials, the [translation-regular theorem](../claims/Yin_C_F0186_v38.md#decision-translation-smoothing-reviewed) proves the full weak almost-sure Brown limit for raw laws satisfying its power total-variation translation bound, finite \(2+\delta\) off-diagonal moments and finite second diagonal moments.
-The proof treats real and complex colors in the same tuple.
-The [logarithmic-moment extension](../claims/Yin_C_F0186_v39.md#assembly) also gives this Brown limit under the same translation modulus if the raw upper second moments remain finite after weighting by every positive power of the logarithm.
+For every fixed scalar polynomial, the [translation-regular finite-variance theorem](../claims/Yin_C_F0186_v40.md#scalar) gives full-sequence weak Brown convergence almost surely under each cross-dimensional coupling.
+It permits mixed real symmetric and complex Hermitian colors, using the power total-variation translation modulus on every raw law and only the second moments in the contract.
+A second scalar argument uses [word-chain regularity via free Fisher information](../claims/Yin_C_F0195_v4.md#scalar-fisher).
 
 ## The quadratic terminal loss
 
-For \(A_NB_N+2B_NA_N\) with real finite fourth off-diagonal moments and finite second diagonal moments, the [two-component theorem](../claims/Yin_C_F0351_v2.md#decision-mixed-components-reviewed) proves summability of the integrated terminal loss when both strict upper laws have a positive-mass component with the specified logarithmic concentration bound.
-The [fine-component theorem](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) also proves it for certain fixed purely atomic laws, including the [explicit dyadic pair](../claims/Yin_C_F0351_v4.md#dyadic-example).
-Both give full-sequence weak Brown convergence almost surely under every allowed coupling for those inputs.
-For arbitrary real fourth-moment laws, [the moving-shift theorem](../claims/Yin_C_F0351_v3.md#statement) gives convergence of the trimmed logarithms at every prescribed nonreal shift and along every prescribed sequence approaching it.
-When every upper entry including the diagonal in both matrices is a Rademacher sign before normalization, the [sign theorem](../claims/Yin_C_F0351_v5.md#decision-sign-terminal-reviewed) proves the terminal series for every fixed disk and positive tolerance, and the weak Brown limit almost surely under every cross-dimensional coupling.
+For \(A_NB_N+2B_NA_N\) the [real two-color theorem](../claims/Yin_C_F0351_v6.md#decision-fourth-terminal-reviewed) proves the integrated terminal deviation series on each disk with \(q_N=\lceil\log(N+3)\log\log(N+3)\rceil\).
+Its hypotheses are real centered variance-one upper laws with finite fourth moments and centered real diagonal laws with finite second moments.
+The two strict upper laws may be different biased two-point laws or arbitrary finite-support laws; no translation condition is required.
+The empirical eigenvalue measure therefore converges weakly almost surely under every allowed coupling in this model.
+The [prescribed nonreal shift results](../claims/Yin_C_F0351_v3.md#statement) have their own input-law and trimming conditions.
 
 ## Separate determinant objectives
 

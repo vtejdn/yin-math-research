@@ -132,14 +132,10 @@ The [free elliptic linearization result](../claims/Yin_C_F0186_v37.md#scalar-app
 Under third absolute off-diagonal moments the [polynomial cutoff result](../claims/Yin_C_F0195_v2.md#scalar-shifts) is uniform on compact sets including \(P(0)\).
 For real fourth-moment \(xy+2yx\), the [moving-shift theorem](../claims/Yin_C_F0351_v3.md#decision-moving-shifts-reviewed) and its [atomic extension](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) give full-sequence ordinary logarithmic limits at every prescribed nonreal shift under their respective component hypotheses.
 
-The [scalar linearization application](../claims/Yin_C_F0186_v38.md#polynomial-consequences) gives the ordinary upper-limit equality for every fixed polynomial and shift under power total-variation translation regularity, finite \(2+\delta\) off-diagonal moments and finite second diagonal moments.
-It includes \(z=P(0)\) and retains the exact distinction between dimensions with and without invertible witnesses.
-
-The [tail criteria and exact Schur transfer](../claims/Yin_C_F0186_v39.md#assembly) also prove the equality under (T) on the common even sequence specified by the raw tails, or under the logarithmic moment condition for the fixed linearization.
-Both finite and free logarithms acquire the same auxiliary dimension factor at every fixed shift.
-
-For finite second moments the [selected-dimension estimate](../claims/Yin_C_F0195_v3.md#deep-clips) also gives a clipped log limit for the linearized pencil.
-Under its logarithmic weight and (T), removing the clip on the pencil gives the ordinary scalar determinant upper limit at every fixed shift, including \(P(0)\).
+The [finite-variance determinant theorem](../claims/Yin_C_F0186_v40.md#scalar) proves the ordinary dimension-limsup equality for every scalar polynomial and each prescribed shift, including \(z=P(0)\), under the raw-law translation modulus (T).
+Both finite and free scalar logarithms equal the logarithms for the matrix word-chain multiplied by the same auxiliary dimension.
+The [scalar word-chain proof](../claims/Yin_C_F0195_v4.md#statement) also gives the required intermediate scales using free Fisher information for the scalar polynomial.
+In both arguments the remaining obligation for the broader contract without (T) concerns the singular logarithms below a polynomial cutoff.
 
 ## Public literature boundary
 

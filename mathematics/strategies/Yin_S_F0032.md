@@ -17,24 +17,23 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For the real quadratic, test the sign proof with other discrete border laws. For general pencils under translation regularity, control the singular logarithms down to the polynomial floor for arbitrary finite-variance tails. |
+| priority | For the unrestricted finite-variance tasks, the affine count now reaches polynomial scales; the next determinant estimate must control the loss below that cutoff under the original entry laws. For the real quadratic, locate the fourth-moment uses in the initial trim and overlap estimates. |
 
 ## Current allocation and discriminating tests
 
-The [fine-component theorem](../claims/Yin_C_F0351_v4.md#decision-fine-atoms-reviewed) settles the integrated terminal series for the two-component classes and a pair of purely atomic dyadic-grid inputs.
-The first selected singular-space overlaps already admit a [summable test for arbitrary original laws](../claims/Yin_C_F0351_v2.md#discrete-overlaps).
-For Rademacher entries, a single real sign hyperplane can give [order-one loss on an entire disk](../ledger/Yin_L_F0067_v4.md#sign-compression) on a deterministic exterior.
-For two sign Wigner matrices, the [actual-minor theorem](../claims/Yin_C_F0351_v5.md#decision-sign-terminal-reviewed) controls many separated parameters jointly through every deletion and paired restoration, proving summability of the integrated terminal loss.
-The argument uses the sign law in both fresh borders and a bounded norm for its physical free-corner comparison.
-The [fixed-fraction initialization](../claims/Yin_C_F0351_v3.md#argument) handles arbitrary prescribed sequences converging off the real line.
-The [uniform shrinking count](../claims/Yin_C_F0195_v2.md#statement) controls intermediate singular values under its moment hypotheses.
+For \(AB+2BA\) the [original real-law theorem](../claims/Yin_C_F0351_v6.md#decision-fourth-terminal-reviewed) proves summability of the terminal planar deviations when both strict upper laws have finite fourth moments and the diagonal laws have finite second moments.
+This includes different biased two-point laws, arbitrary finite supports and unbounded strict upper laws.
+A [single deterministic exterior](../ledger/Yin_L_F0067_v4.md#sign-compression) can still give order-one disk loss.
+The proof uses the free limits of the actual physical corners, the [difference-law Fourier estimate](../claims/Yin_C_F0351_v6.md#border-tests), and joint testing of separated shifts through [deletion and restoration](../claims/Yin_C_F0351_v6.md#ratios).
+The [initial principal-minor trims](../claims/Yin_C_F0351_v1.md#minor-trims) and the [first near-kernel overlaps](../claims/Yin_C_F0351_v2.md#discrete-overlaps) retain their stated moment hypotheses.
 
-For F0013 the [free elliptic recursion](../claims/Yin_C_F0186_v37.md#partial-chain) reduces singular-value estimates to the remaining undamped columns.
-For translation-regular real and complex laws the [translated Gaussian tube](../claims/Yin_C_F0186_v38.md#argument) handles arbitrary coefficients, and its [fractional comparison](../claims/Yin_C_F0186_v38.md#fractional-count) removes the logarithmic cutoff with a \(2+\delta\) off-diagonal moment.
-The [logarithmic tail theorem](../claims/Yin_C_F0186_v39.md#statement) reaches the ordinary determinant under either its endpoint log moment or its favorable-size tail condition.
-For every finite-second-moment law, the [dyadic comparison](../claims/Yin_C_F0195_v3.md#decision-dyadic-depth-reviewed) controls the logarithm clipped at \(\exp[-B(\log(N+2))^{\theta/(\theta+2)}]\) along a deterministic even sequence.
-Under (T) the remaining integral on that sequence lies between this cutoff and the polynomial floor.
-A [rare-coordinate example](../drafts/Yin_D_F0033.md#rare-coordinate-log-cost) shows why a comparison through resampled large entries must account for the actual Schur target.
+For general fixed affine pencils with finite free logarithm, the [bounded-core covariance comparison](../claims/Yin_C_F0195_v4.md#free-background) and [free estimate with deterministic shifts](../claims/Yin_C_F0352_v1.md#statement) give the [polynomial-window count](../claims/Yin_C_F0186_v40.md#argument) under finite second moments.
+The [closed-band estimate](../claims/Yin_C_F0186_v40.md#band) controls both atoms at its endpoints, including the interval from the earlier [selected-dimension clip](../claims/Yin_C_F0195_v3.md#statement) to any fixed polynomial cutoff.
+With the original-law translation modulus, the [least-value floor](../claims/Yin_C_F0186_v38.md#floor-statement) gives ordinary convergence along all good dimensions and the dimension-limsup equality for every fixed pencil and scalar polynomial.
+The unrestricted contracts still include laws without that floor, such as purely atomic laws.
+For them a lower estimate for the bottom loss on favorable dimensions would suffice for the determinant limsup by the [marginal criterion](../claims/Yin_C_F0190_v1.md#coupling-criterion).
+The [rare-coordinate example](../drafts/Yin_D_F0033.md#rare-coordinate-log-cost) explains why a comparison through resampled large entries must account for the actual Schur target.
+
 For F0014 the [affine static observation](../claims/Yin_C_F0350_v1.md#affine-lift) supplies exact determinant transfer when it has an explicit witness.
 The [winding tests at all parameters](../claims/Yin_C_F0349_v2.md#statement) rule out applying that dissipative representation with ordinary multiplicity one to all polynomials, already for \(xy+2yx-z\).
 
@@ -86,7 +85,7 @@ The [independent whole-proof finding](../audits/reviews/Yin_R_F0190_v26.md#globa
 The [adopted log-concave theorem C186v28](../claims/Yin_C_F0186_v28.md#decision-log-concave-planar-brown-reviewed) now closes this planar-loss estimate when both off-diagonal laws and every nondeterministic diagonal law are log-concave.
 Its [independent whole-proof review](../audits/reviews/Yin_R_F0190_v27.md#log-concave-planar-brown-whole-proof) covers the original row-block determinant degree, the accepted Carbery--Wright input, conditional logarithmic moments, elementary martingale concentration and both cap-removal steps.
 For each fixed disk and positive threshold, the actual defect probability is bounded eventually by a sum of \(O(N^{-3})\), \(2\exp[-cN/(L_N+\log N)^2]\) and \(2e^{-cN}\).
-This proves full-sequence almost-sure Brown convergence under every cross-size coupling for that stronger subclass; arbitrary finite-fourth-moment laws, including atomic laws, remain unresolved.
+The [general real fourth-moment theorem](../claims/Yin_C_F0351_v6.md#statement) extends this Brown limit to the original real model, including atomic laws.
 The coefficient-uniform conditional logarithmic estimate fails even for a fixed Rademacher law, so the original-law continuation must exploit the actual random background or another planar mechanism.
 
 For the original fourth-moment model, the [adopted sparse-truncation theorem C198v1](../claims/Yin_C_F0198_v1.md#decision-truncation-stability-reviewed), with [independent whole-proof review](../audits/reviews/Yin_R_F0206_v1.md#truncation-stability-whole-proof), supplies a triangular array with summable fixed-norm exceptions and complete convergence of the clipped-potential comparison.

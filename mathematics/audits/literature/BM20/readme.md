@@ -13,3 +13,6 @@ This association concerns the preprint and does not substitute journal paginatio
 
 The [MS23 application](../MS23/Yin_U005.md#corollary-12-item-3-the-nonconstant-qualification) records the accepted Theorem 1.1 statement and hypotheses at PDF p. 3, its independent primary recheck and the limit that the original proof was not audited.
 The contents supply navigation and do not enlarge that inspection or review scope.
+
+<a id="finite-fisher-constant"></a>
+[The inspected Hölder constant](Yin_U001.md#finite-fisher-constant) is recorded with its hypotheses and application scope.
