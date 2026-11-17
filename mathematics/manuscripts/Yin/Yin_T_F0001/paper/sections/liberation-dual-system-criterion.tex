@@ -47,6 +47,21 @@ Let \(T\) be a densely defined closable operator on a Hilbert space \(H\).
 If \(T\) has finite rank, then \(\overline T\in\F(H)\), with the same range and rank as \(T\).
 \end{lemma}
 
+\begin{lemma}\label{lem:tensor-difference-injectivity}
+Let $V,W$ be complex vector spaces, and let $A:V\to V$ and $B:W\to W$ be linear maps.
+If $A$ or $B$ has no nonzero finite-dimensional invariant subspace, then
+\[
+ A\otimes I_W-I_V\otimes B:V\otimes_{\C}W\longrightarrow V\otimes_{\C}W
+\]
+is injective.
+\end{lemma}
+\begin{proof}
+Suppose that $B$ has no nonzero finite-dimensional invariant subspace.
+If a nonzero kernel vector existed, write it as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal, so both families are linearly independent.
+Projecting the second factor modulo $\operatorname{span}\{w_1,\ldots,w_n\}$ shows that this span is $B$-invariant, a contradiction.
+The case where $A$ has the stated property follows by interchanging the tensor factors.
+\end{proof}
+
 \begin{lemma}\label{lem:tensor-l2-recovery}
 Let $x\in\M$ and suppose that $x-\lambda$ is regular for every $\lambda\in\C$.
 The map $\Psi_x$ of Definition~\ref{def:psi} is injective and satisfies
@@ -73,11 +88,6 @@ Neither right multiplication map has a nonzero finite-dimensional invariant subs
 Since $x\in\M$, both maps preserve $H$, and their restrictions to $H$ have the same property.
 In particular, $\Psi_x$ preserves $H\otimes_{\C}H$.
 
-For linear maps $A:V\to V$ and $B:W\to W$ on complex vector spaces, $A\otimes I-I\otimes B$ is injective on $V\otimes_{\C}W$ if $B$ has no nonzero finite-dimensional invariant subspace.
-Indeed, write a nonzero kernel vector as $\sum_{r=1}^n v_r\otimes w_r$ with $n$ minimal, so both families are linearly independent.
-Projecting the second factor modulo $\operatorname{span}\{w_1,\ldots,w_n\}$ shows that this span is $B$-invariant, a contradiction.
-The same conclusion holds with $A$ in place of $B$.
-
 The induced linear maps on the quotient spaces are
 \[
  \begin{aligned}
@@ -93,13 +103,13 @@ Projecting the first factor of $k$ modulo $H$ gives a vector in the kernel of
  \widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}
  \quad\text{on }(U/H)\otimes_{\C}U^{\mathrm{op}}.
 \]
-This map is injective by the preceding observation, so exactness of tensoring over $\C$ gives $k\in H\otimes_{\C}U^{\mathrm{op}}$.
+This map is injective by Lemma~\ref{lem:tensor-difference-injectivity}, so exactness of tensoring over $\C$ gives $k\in H\otimes_{\C}U^{\mathrm{op}}$.
 Projecting the second factor modulo $H$ now gives a vector in the kernel of
 \[
  (R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}
  \quad\text{on }H\otimes_{\C}(U^{\mathrm{op}}/H).
 \]
-This map is injective because $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
+Lemma~\ref{lem:tensor-difference-injectivity} applies because $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
 It follows that $k\in H\otimes_{\C}H$.
 \end{proof}
 

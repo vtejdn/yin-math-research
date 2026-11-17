@@ -36,10 +36,11 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 ## Latest Build
 
 The in-directory MiKTeX sequence above succeeded on 2026-11-17 with the current sources.
-It used MiKTeX 25.4, pdfLaTeX 1.40.27 and BibTeX 0.99d, producing a 24-page PDF of 576339 bytes.
+It used MiKTeX 25.4, pdfLaTeX 1.40.27 and BibTeX 0.99d, producing a 24-page PDF of 577353 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
-Lemma 4.3 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
+Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for both quotient maps in Lemma 4.4.
+Lemma 4.4 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
 Its proof explicitly records preservation of the algebraic L2 tensor product, introduces k for the reverse inclusion and gives both factor right multiplication maps and their induced maps on the vector-space quotients.
 Its injectivity conclusion now follows from maximal Delta for the one-element tuple and Lemma 3.2; the quotient-space proof of the L2 assertion is retained.
 The [tensor convention](../conventions.md#tensor-right-multiplication) gives the multiplication argument that excludes surjectivity onto the full tensor space.
