@@ -42,13 +42,13 @@ When specifying a finite-generator free group, write “a free group \(\mathbb F
 <a id="tensor-element-notation"></a>
 ## Tensor Element Notation
 
-Use $\ell$ as the default symbol for elements of algebraic tensor products throughout this paper, including $\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}$, $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$ and $H\otimes_{\mathbb C}H$.
-Use indices, primes or tildes to distinguish tensors that occur together, such as $\ell_i$, $\ell_i'$, $\widetilde\ell_i$ and $\ell_0$.
-Keep the notation for tensor factors, linear maps and operators appropriate to those objects.
+Use $\ell$ as the default symbol for elements introduced in the algebraic tensor product $\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}$ in this paper.
+Use indices or other decorations to distinguish such tensors that occur together, such as $\ell_i$ and $\ell_0$.
+Retain existing notation for tensors introduced in $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$, $H\otimes_{\mathbb C}H$ or abstract vector-space tensor products.
 
 ## Tensor Right Multiplication
 
-For $x\in L^0(\mathcal M)$, use $\Psi_x(\ell):=\ell(x\otimes1-1\otimes x^{\mathrm{op}})$ on $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$.
+For $x\in L^0(\mathcal M)$, use $\Psi_x(k):=k(x\otimes1-1\otimes x^{\mathrm{op}})$ on $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$.
 For the fixed tuple X, write $\Psi_i:=\Psi_{X_i}$.
 In the proof of Lemma 4.5, right multiplication by $x^{\mathrm{op}}$ on the second factor sends $v^{\mathrm{op}}$ to $(xv)^{\mathrm{op}}$.
 Use a tilde for the induced quotient-space maps there, reserving the bar for operator closure.

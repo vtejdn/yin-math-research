@@ -5,21 +5,21 @@ We prove Theorem~\ref{thm:delta} in this section.
 By Definition~\ref{def:psi}, $\Psi_i$ is right multiplication by $X_i\otimes1-1\otimes X_i^{\mathrm{op}}$.
 In particular,
 \begin{equation}\label{eq:psi-left-linearity}
- \Psi_i(\ell'\ell)=\ell'\Psi_i(\ell),\qquad
- \ell',\ell\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}.
+ \Psi_i(rk)=r\Psi_i(k),\qquad
+ r,k\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}.
 \end{equation}
 
 \begin{lemma}\label{lem:tensor-clearing}
-Given $\ell_1,\ldots,\ell_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$, there are regular $s,t\in\M$ such that
+Given $k_1,\ldots,k_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$, there are regular $s,t\in\M$ such that
 \[
- (s\otimes t^{\mathrm{op}})\ell_i
+ (s\otimes t^{\mathrm{op}})k_i
  \in\M\otimes_{\C}\M^{\mathrm{op}}\qquad(1\leq i\leq d).
 \]
 \end{lemma}
 \begin{proof}
 For simplicity of notation, we give the calculation for simple tensors
 \[
- \ell_i=u_i\otimes v_i^{\mathrm{op}},\qquad u_i,v_i\in L^0(\M).
+ k_i=u_i\otimes v_i^{\mathrm{op}},\qquad u_i,v_i\in L^0(\M).
 \]
 The same argument applies to general finite sums.
 Applying Lemma~\ref{lem:clearing} to $u_1,\ldots,u_d$ gives a regular $s\in\M$ such that
@@ -32,7 +32,7 @@ Applying its right-denominator assertion to $v_1,\ldots,v_d$ gives a regular $t\
 \]
 Then
 \[
- (s\otimes t^{\mathrm{op}})\ell_i
+ (s\otimes t^{\mathrm{op}})k_i
  =su_i\otimes(v_it)^{\mathrm{op}}
  \in\M\otimes_{\C}\M^{\mathrm{op}}.
 \]
@@ -44,21 +44,21 @@ The map
 \[
  (L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}})^d\longrightarrow
  L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}},\qquad
- (\ell_i)\longmapsto\sum_i\Psi_i(\ell_i)
+ (k_i)\longmapsto\sum_i\Psi_i(k_i)
 \]
 is injective.
 \end{lemma}
 \begin{proof}
-Suppose $\sum_i\Psi_i(\ell_i)=0$.
-Choose regular $s,t\in\M$ as in Lemma~\ref{lem:tensor-clearing} and set $T_i:=\Theta((s\otimes t^{\mathrm{op}})\ell_i)\in\F(H)$.
+Suppose $\sum_i\Psi_i(k_i)=0$.
+Choose regular $s,t\in\M$ as in Lemma~\ref{lem:tensor-clearing} and set $T_i:=\Theta((s\otimes t^{\mathrm{op}})k_i)\in\F(H)$.
 By \eqref{eq:tensor-commutator} and \eqref{eq:psi-left-linearity},
 \[
  \sum_i[\rho(X_i),T_i]
- =\Theta\left((s\otimes t^{\mathrm{op}})\sum_i\Psi_i(\ell_i)\right)=0.
+ =\Theta\left((s\otimes t^{\mathrm{op}})\sum_i\Psi_i(k_i)\right)=0.
 \]
 Remark~\ref{rem:cycle-characterization} gives $T_i=0$ for every $i$.
-Injectivity of $\Theta$ implies $(s\otimes t^{\mathrm{op}})\ell_i=0$.
-Left multiplication by $s^{-1}\otimes(t^{-1})^{\mathrm{op}}$ then gives $\ell_i=0$.
+Injectivity of $\Theta$ implies $(s\otimes t^{\mathrm{op}})k_i=0$.
+Left multiplication by $s^{-1}\otimes(t^{-1})^{\mathrm{op}}$ then gives $k_i=0$.
 \end{proof}
 
 \begin{lemma}\label{lem:tensor-certificate}
@@ -109,7 +109,7 @@ Direct expansion gives
 For constants, $\delta c=0$, while for generators, $\delta X_j=\Psi_j(1\otimes1)=\sum_i\Psi_i(\partial_iX_j)$.
 We now show that this identity extends from constants and generators to all rational elements using the product and inverse rules.
 
-If $\delta v_r=\sum_i\Psi_i(\partial_i v_r)$ for $r=1,2$, the product rules and equation~\eqref{eq:psi-left-linearity} give
+If $\delta v_\ell=\sum_i\Psi_i(\partial_i v_\ell)$ for $\ell=1,2$, the product rules and equation~\eqref{eq:psi-left-linearity} give
 \begin{align*}
  \delta(v_1v_2)
  &=(1\otimes v_2^{\mathrm{op}})\sum_i\Psi_i(\partial_i v_1)
@@ -127,14 +127,14 @@ Similarly, if $0\ne v\in F$ satisfies $\delta v=\sum_i\Psi_i(\partial_i v)$, the
 \end{align*}
 Together with linearity, this shows that the elements satisfying the identity form a division subalgebra of $F$ containing $\C$ and $X_1,\ldots,X_d$.
 Since these generate $F$, the identity holds for every rational element $u\in F$.
-This proves equation~\eqref{eq:tensor-criterion} with $\ell_i:=\partial_i u$; thus assertion~\textup{(\ref{item:delta-tensors})} holds.
+This proves equation~\eqref{eq:tensor-criterion} with $k_i:=\partial_i u$; thus assertion~\textup{(\ref{item:delta-tensors})} holds.
 Lemma~\ref{lem:tensor-injectivity} proves uniqueness of the tensors in assertion~\textup{(\ref{item:delta-tensors})}.
 
 $(2)\implies(3)$.
-Given tensors $\ell_i$ as in assertion~\textup{(2)}, for any fraction pair $Q=(s,a,b,t)$ set $\widetilde\ell_i:=(s\otimes t^{\mathrm{op}})\ell_i$.
+Given tensors $k_i$ as in assertion~\textup{(2)}, for any fraction pair $Q=(s,a,b,t)$ set $\ell_i:=(s\otimes t^{\mathrm{op}})k_i$.
 By equation~\eqref{eq:psi-left-linearity},
 \[
- \sum_i\Psi_i(\widetilde\ell_i)
+ \sum_i\Psi_i(\ell_i)
  =(s\otimes t^{\mathrm{op}})
    (u\otimes1-1\otimes u^{\mathrm{op}})
  =a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}},
@@ -222,9 +222,9 @@ Hence the two tuples coincide, proving uniqueness of the finite-rank solution tu
 \end{proof}
 
 \begin{remark}\label{rem:boundary-interpretation}
-Equip $L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ with the $L^0(\M)$-bimodule structure defined, for $u,v\in L^0(\M)$ and $\ell\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$, by
+Equip $L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ with the $L^0(\M)$-bimodule structure defined, for $u,v\in L^0(\M)$ and $k\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$, by
 \[
- u\cdot \ell\cdot v:=\ell(v\otimes u^{\mathrm{op}}).
+ u\cdot k\cdot v:=k(v\otimes u^{\mathrm{op}}).
 \]
 The degree-one Hochschild differential with these coefficients \cite[Section~9.1.1, p.~300]{Wei94} is the map
 \[
@@ -234,8 +234,8 @@ The degree-one Hochschild differential with these coefficients \cite[Section~9.1
 \]
 given by
 \[
- d_1(\ell\otimes u):=\ell\cdot u-u\cdot \ell
- =\ell(u\otimes1-1\otimes u^{\mathrm{op}}).
+ d_1(k\otimes u):=k\cdot u-u\cdot k
+ =k(u\otimes1-1\otimes u^{\mathrm{op}}).
 \]
 Put $V_X:=\operatorname{span}_{\C}\{X_1,\ldots,X_d\}$.
 Restricting the last tensor factor to $V_X$, we obtain
@@ -248,8 +248,8 @@ Restricting the last tensor factor to $V_X$, we obtain
 \]
 By Definition~\ref{def:psi},
 \[
- \partial_X\!\left(\sum_i \ell_i\otimes X_i\right)
- =\sum_i\Psi_i(\ell_i).
+ \partial_X\!\left(\sum_i k_i\otimes X_i\right)
+ =\sum_i\Psi_i(k_i).
 \]
 This restriction to the linear span of the generators follows \cite[Section~3.1.1, equation~(3.1)]{CS05}, with $L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ as the coefficient bimodule.
 Thus condition~\textup{(\ref{item:delta-tensors})} in Theorem~\ref{thm:delta} requires $u\otimes1-1\otimes u^{\mathrm{op}}$ to lie in the image of $\partial_X$.

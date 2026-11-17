@@ -9,7 +9,7 @@ author: Yin
 The paper addresses readers in free probability and operator algebras.
 The explicit manuscript choices below apply together with the current repository's mathematical writing rules.
 Omit the manuscript byline and author contact details.
-Use the [tensor-element notation](conventions.md#tensor-element-notation) throughout the paper.
+Use the [tensor-element notation](conventions.md#tensor-element-notation) for elements introduced in $\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}$.
 
 ## Style and Terminology Sources
 
