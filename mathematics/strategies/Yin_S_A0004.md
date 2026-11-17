@@ -100,6 +100,9 @@ The [exact projection norms on product windows](../ledger/Yin_L_A0035_v1.md) sho
 On the counterexample side, the [common-label rank calculation](../ledger/Yin_L_A0034_v1.md) excludes a rank-one complex weighting on the full prescribed type array in Ope26f.
 For the original and balanced cyclic matching laws, the [actual group-product equations](../claims/Yin_C_A0050_v1.md#statement) also exclude a complex zero product on the same two collected supports with probability tending to one.
 The [exceptional matching question](Yin_S_A0008.md#when-can-a-whole-color-disappear) asks whether collisions of vertex labels can realize the sparse cyclic obstruction.
+On the pattern-free four-line groups, [hyperbolicity and reduced assembly](../ledger/Yin_L_A0054_v1.md#from-hyperbolicity-to-integral-traces) give exact integrality for closed-range complex matrices.
+The ranks of each fixed word matrix also converge to the integer free-group rank as the graph sizes increase.
+For nonclosed-range matrices, investigate the [spatial decay of the actual kernel projection](../ledger/Yin_L_A0055_v1.md#proof-and-the-obstruction-at-a-fractional-trace): a finite weighted square sum with exponent \(3+\delta\), \(\delta>0\), suffices on each such group and requires no uniform spectral gap.
 
 ## Mechanism and obstruction
 

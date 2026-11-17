@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Test erasure of entire colors on exceptional matchings using the original relators and computable refinements of the cyclic quotient. |
+| priority | Seek a pattern-free matching whose left color 3 survives all pairing rejection tests and is erased in the original cone group. |
 
 ## Input and distinction from rank sampling
 
@@ -87,6 +87,20 @@ For a proposed source-type matching, an [odd bin in the mod-two homology of the 
 A [lift of the character to a larger cyclic seven-group](../claims/Yin_C_A0048_v1.md#statement) gives another such test and bounds the required sizes of the two supports.
 If these tests leave pairings, seek a word proof in the cone presentation for every paired equality, or a certified surviving group label in an outside color on either side.
 Existence of a connected matching with these erasures, the prescribed source types, the geometric safeguards and the binary zero product remains open.
+
+## Which exceptional matchings remain after testing the left color 3?
+
+One can [force all six erasures by prescribed graph loops](../ledger/Yin_L_A0052_v1.md#a-matching-prescription-that-forces-the-equalities-in-its-own-group) while retaining connectedness, the prescribed types and logarithmic girth.
+The resulting original cone group equals \(C_7\), so the construction loses torsion-freeness and root separation.
+Asphericity rules out the same-line duplication method on a legitimate tuple: among the \(M/2\) proposed pairs in color \(3\), at most \(M/63\) can use vertices on the same ordinary projective line, where \(M=n/7-4\).
+Once the [shortest nontrivial free relation](../ledger/Yin_L_A0054_v1.md#the-geometric-input-and-its-application-to-the-planted-laws) has length at least three, any full pairing needs at least [8193 distinct based witness words up to inversion](../ledger/Yin_L_A0052_v1.md#how-many-different-copied-words-are-needed).
+
+In a legitimate [order-21 refinement](../ledger/Yin_L_A0053_v1.md#a-smaller-quotient-of-odd-order-even-when-the-relative-mod-two-test-is-trivial), put \(u=n/21\), an even integer.
+At left color \(3\) the three fine counts are \(u-6,u+1,u+1\); no complete equal-label pairing exists there.
+The same prescribed refinement supplies odd bins in the two other even colors on the left and all three on the right, and can do so with trivial relative mod-two homology.
+For an arbitrary finite two-group image of the original group, [disagreement of the four odd pieces](../ledger/Yin_L_A0056_v1.md#the-six-coefficient-equations) is another necessary exclusion test for simultaneous erasure.
+For a supplied pattern-free matching still passing those tests, the [bounded cone-picture algorithm](../claims/Yin_C_A0052_v1.md#enumerating-the-witnesses) decides the exact original equality partition in color \(3\) and then each remaining color.
+An extension to all six now requires a legitimate tuple passing those six exact parity decisions.
 
 ## What happens to the original product in random matchings?
 

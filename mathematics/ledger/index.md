@@ -56,6 +56,11 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0049](Yin_L_A0049_v1.md) | A finite integral feasibility test for prescribed type and color parities | [v1](Yin_L_A0049_v1.md) |
 | [Yin_L_A0050](Yin_L_A0050_v1.md) | Exact counts in the cross-side simultaneous-step forest | [v1](Yin_L_A0050_v1.md) |
 | [Yin_L_A0051](Yin_L_A0051_v1.md) | How many product fibers must merge when a vertex color disappears? | [v1](Yin_L_A0051_v1.md) |
+| [Yin_L_A0052](Yin_L_A0052_v1.md) | Forcing original cone equalities and testing proposed erasures against asphericity | [v1](Yin_L_A0052_v1.md) |
+| [Yin_L_A0053](Yin_L_A0053_v1.md) | Distinguishing the three even colors of the four-line construction in a finite quotient | [v1](Yin_L_A0053_v1.md) |
+| [Yin_L_A0054](Yin_L_A0054_v1.md) | Linear fillings and complex operator ranks in the matching groups | [v1](Yin_L_A0054_v1.md) |
+| [Yin_L_A0055](Yin_L_A0055_v1.md) | Spatial decay of a kernel projection would give integrality on the four-line groups | [v1](Yin_L_A0055_v1.md) |
+| [Yin_L_A0056](Yin_L_A0056_v1.md) | A simultaneous constraint from all finite two-group images of the original factors | [v1](Yin_L_A0056_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

@@ -80,6 +80,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0080](Yin_R_A0080_v1.md#whole-argument-finding) | Two prescribed vertices and typical purity of a product fiber | [v1](Yin_R_A0080_v1.md) |
 | [Yin_R_A0081](Yin_R_A0081_v1.md#whole-argument-finding) | Stability of the cycle-lattice obstruction under merged product fibers | [v1](Yin_R_A0081_v1.md) |
 | [Yin_R_A0082](Yin_R_A0082_v1.md#whole-argument-finding) | The four-line construction with nonzero projected factors | [v1](Yin_R_A0082_v1.md) |
+| [Yin_R_A0083](Yin_R_A0083_v1.md#whole-argument-finding) | Deciding erasure on a supplied four-line matching | [v1](Yin_R_A0083_v1.md) |
+| [Yin_R_A0084](Yin_R_A0084_v1.md#whole-argument-finding) | Forced equalities, homology of folds, and the cost of copied null words | [v1](Yin_R_A0084_v1.md) |
+| [Yin_R_A0085](Yin_R_A0085_v1.md#whole-argument-finding) | Finite quotients detecting the three even colors of the four-line construction | [v1](Yin_R_A0085_v1.md) |
+| [Yin_R_A0086](Yin_R_A0086_v1.md#whole-argument-finding) | Filling length, closed range and ranks on balls of fixed radius | [v1](Yin_R_A0086_v1.md) |
+| [Yin_R_A0087](Yin_R_A0087_v1.md#whole-argument-finding) | Spatial decay and the trace of the kernel projection | [v1](Yin_R_A0087_v1.md) |
+| [Yin_R_A0088](Yin_R_A0088_v1.md#whole-argument-finding) | Finite two-group constraints on simultaneous erasure | [v1](Yin_R_A0088_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
