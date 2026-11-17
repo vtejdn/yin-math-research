@@ -205,8 +205,15 @@ Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for e
 If $X$ admits a liberation dual system, then $\Delta(X)=d$.
 \end{proposition}
 \begin{proof}
-Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $k_i:=\Theta^{-1}(T_i)$.
-Equation~\eqref{eq:tensor-commutator} gives $\sum_i\Psi_i(k_i)=0$.
+Let $T_1,\ldots,T_d\in\F(H)$ satisfy $\sum_i[\rho(X_i),T_i]=0$, and put $k_i:=\Theta^{-1}(T_i)\in H\otimes_{\C}H$.
+Since $X_i\in\M$, each $\Psi_i(k_i)$ belongs to $H\otimes_{\C}H$.
+By equation~\eqref{eq:tensor-commutator} and linearity of $\Theta$,
+\[
+ \Theta\!\left(\sum_i\Psi_i(k_i)\right)
+ =\sum_i\Theta(\Psi_i(k_i))
+ =\sum_i[\rho(X_i),T_i]=0.
+\]
+Since $\Theta$ is injective, $\sum_i\Psi_i(k_i)=0$.
 By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that $\ell_i:=(s\otimes t^{\mathrm{op}})k_i\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $i$.
 Equation~\eqref{eq:psi-left-linearity} yields $\sum_i\Psi_i(\ell_i)=0$.
 Applying $\Phi_i$ and equation~\eqref{eq:liberation-tensor-actions} gives, on $\M\Omega$,
