@@ -35,8 +35,8 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The in-directory MiKTeX sequence above succeeded on 2026-11-17 with the current sources.
-It used MiKTeX 25.4, pdfLaTeX 1.40.27 and BibTeX 0.99d, producing a 24-page PDF of 576813 bytes.
+The in-directory build succeeded on 2026-11-17 after two pdfLaTeX passes with unchanged bibliography inputs.
+It used MiKTeX 25.4, pdfLaTeX 1.40.27 and the BibTeX 0.99d bibliography, producing a 24-page PDF of 576875 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
 Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for Psi_x and both quotient maps in Lemma 4.4.
