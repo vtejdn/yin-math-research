@@ -31,7 +31,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The current working TeX sources compiled successfully in this directory on 2026-11-18 with two passes of `pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex`, using MiKTeX 25.4 and pdfTeX 1.40.27 and producing a 21-page PDF of 542970 bytes.
+The current working TeX sources compiled successfully in this directory on 2026-11-18 with two passes of `pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex`, using MiKTeX 25.4 and pdfTeX 1.40.27 and producing a 21-page PDF of 542941 bytes.
 The bibliography was unchanged, so the build reused the existing BibTeX 0.99d output.
 Equations (18) and (19) state the two formulas for \(m_{L_i}\) separately and are proved on simple tensors.
 Proposition 4.6 uses equation (18) to isolate one term; Lemma 4.7 uses both formulas in the calculation numbered (20).
