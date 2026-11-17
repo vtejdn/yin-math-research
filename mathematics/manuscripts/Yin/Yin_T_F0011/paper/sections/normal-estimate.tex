@@ -209,38 +209,8 @@ They do belong to $L^2(\mu^2)$, since Jensen's inequality and $|z-w|\kappa(z,v,w
  \int|z-w|^2g(z,w)^2\dd\mu^2\le4\int\kappa^2\dd\mu^3.
 \end{equation}
 
-We give the domain justification for \eqref{eq:mixed-energy}.
-The smooth phases $h_t(z,w):=(\bar z-\bar w)^2/(|z-w|^2+t)$ have modulus at most one.
-Their first-leg divided differences, the second-leg divided differences and their conjugate-denominator versions have squared modulus at most $8Q_t$ from \eqref{eq:positive-soft}.
-For example, writing $a=z-v$, $b=w-v$, the numerator identity
-\[
- \bar a^2(|b|^2+t)-\bar b^2(|a|^2+t)
- =\bar a\bar b(\bar a b-\bar b a)+t(\bar a-\bar b)(\bar a+\bar b)
-\]
-gives this bound by separating the area term and the remaining positive terms of $Q_t$.
-Its integral is at most $24\|\xi_\mu\|_2^2$ by the scalar vacuum calculation.
-Approximate $h_t$ in $C^1$ on a containing real box by polynomial tensors.
-Weak closedness of the joint graph of the four tensor-leg derivatives puts both phases in that original joint graph closure as $t\downarrow0$.
-Convex combinations turn the weak graph convergence into strong graph convergence while keeping uniform bounds for the tensors.
-Their limiting first divided difference is
-\[
- \frac{(\bar z-\bar v)(w-v)-(\bar w-\bar v)(z-v)}
- {(z-v)(w-v)(z-w)},
-\]
-whose squared modulus is $\kappa(z,w,v)^2$.
-The same approximants work in the mixed tensor-leg graphs.
-Multiplication by each fixed core outer coefficient is continuous in these graphs; the Leibniz rule therefore supplies actual joint graph approximants to $\delta p$ and $\delta^\#p$ for every $p\in\A$.
-Their partial traces are uniformly operator-norm bounded and converge in the first-derivative graphs, so their products with each fixed $L^2$ vacuum converge in $H$.
-The actual adjoint formula for each real slice is $T_a^*p=p\zeta_a-T_ap$.
-
-Let $A_a:=(\delta_a\otimes1)\delta_a-(1\otimes\delta_a)\delta_a$.
-The cross terms in its Leibniz rule cancel.
-The just established graphs justify contracting these actual iterates and pairing with a polynomial.
-For the sum $A_x+A_y$, direct evaluation at $Z,Z^*$ gives, after tracing the middle leg, the tensors $(z-w)g/2$ and $(\bar z-\bar w)g/2$; all omitted coefficients are annihilated.
-For instance, if $N:=\bar a b-\bar b a$, the relevant numerator at $Z$ is $-N^2/(\bar a|b|^2|a-b|^2)=a\kappa(a,b,0)^2$ before the factor $1/2$.
-Equality on generators and the outer Leibniz rule identify the whole defect with one half of the weighted liberation.
-The real-slice energy calculation used in Lemma~\ref{lem:kernel-energy} now proves \eqref{eq:mixed-energy} on analytic tests.
-Positive kernel approximations dominated by $g$ pass to this identity by \eqref{eq:gap-g}, the finite word rule and the differentiated binomial series.
+The domain justification and tensor-leg calculation of~\eqref{eq:mixed-energy} are given in Appendix~\ref{subsec:mixed-energy-graphs}.
+The calculation identifies the mixed defect with one half of the weighted liberation, using approximants in the original joint derivative graphs.
 Consequently a bound $F_g(u)\ge-c\|\xi\|_2^2$ implies $V(u)\le c\|\xi\|_2$.
 Averaging the two signs in $u=b\pm i\sqrt{1-b^2}$, then scaling and splitting real and imaginary parts, gives the right-slice estimate on $\A$.
 
@@ -249,37 +219,16 @@ Fix a smooth decreasing cutoff $\psi$ equal to one on $[0,1]$ and zero on $[2,\i
 \[
  \theta(x,r):=r^{-1}\int\psi(|x-y|/r)\dd\mu(y).
 \]
-We need the following square estimate without a uniform growth assumption on $\mu$:
+\begin{lemma}\label{lem:density-square}
+In the relative setting above, the smooth density differences satisfy
 \begin{equation}\label{eq:density-square}
  \int\int_0^\infty|\theta(x,r)-\theta(x,2r)|^2\frac{dr}{r}\dd\mu(x)
- \le c_\psi G(\mu).
+ \le c_\psi G(\mu),
 \end{equation}
-Here is a reduction to three established harmonic-analysis results, with their hypotheses made explicit.
-Write $b(x)^2:=\iint\kappa(x,y,z)^2\dd\mu(y)\dd\mu(z)$, $f:=M_1\mu+b$ and $\sigma:=\mu/f$ on the full-measure set where $f$ is finite.
-The positive lower bound for $M_1\mu$ on its compact support makes $\sigma$ finite.
-For every disk, $\sigma(B(a,r))\le2r$, since $M_1\mu(x)\ge\mu(B(a,r))/(2r)$ for $x\in B(a,r)$.
-For every Borel set $Q$,
-\[
- \iiint_{Q^3}\kappa^2\dd\sigma^3\le3\sigma(Q),\qquad
- \int f^3\dd\sigma=\int f^2\dd\mu\le2G(\mu).
-\]
-For the first estimate, assign each triple to a point with smallest $f$ and bound the reciprocal product by that point's $f^{-3}$.
-
-Tolsa's global density-square estimate under linear growth \cite[Theorem~19.1, arXiv version]{Tol17}, applied to $\sigma|_Q$, bounds its sharp square integral by $c\sigma(Q)$.
-Smooth density differences are positive averages of sharp ones with weights $s(-\psi'(s))\,ds$, $1\le s\le2$, so the same testing bound holds for the smooth operator $U$ with values in $\mathcal K:=L^2((0,\infty),dr/r)$.
-Its scalar kernel at scale $r$ is supported on $|x-y|\le4r$, is bounded by $c/r$, and has both first gradients bounded by $c/r^2$.
-The indicator tests $b_Q=1_Q$, the linear growth of $\sigma$ and these size and second-variable regularity estimates verify \cite[Theorem~1.3]{LM17} with $m=\alpha=1$.
-Thus $U:L^2(\sigma)\to L^2(\sigma;\mathcal K)$ is bounded uniformly.
-The $\mathcal K$-valued kernel has size $c/|x-y|$ and difference bound $c|x-x'|/|x-y|^2$ when $|x-x'|\le|x-y|/2$, in both variables.
-Linear growth and annular summation give both integral H\"ormander conditions; the component formula represents $U$ away from the support of the input.
-These are precisely the additional hypotheses in \cite[Definition~2.1 and Theorem~2.7]{GM00}, which yield the strong $L^3(\sigma)\to L^3(\sigma;\mathcal K)$ bound.
-Since $\mu=f\sigma$, H\"older's inequality gives
-\[
- \int\|Uf\|_{\mathcal K}^2f\dd\sigma
- \le\|Uf\|_{L^3(\sigma;\mathcal K)}^2\|f\|_{L^3(\sigma)}
- \le c_\psi\int f^3\dd\sigma.
-\]
-This proves \eqref{eq:density-square} for the original measure.
+where $c_\psi$ depends only on the fixed cutoff $\psi$.
+\end{lemma}
+The estimate requires no uniform growth assumption on $\mu$.
+Its proof in Appendix~\ref{subsec:density-square-proof} changes measure to obtain linear growth, then applies square-function and extrapolation theorems.
 
 For a disk $B=B(a,r)$ put
 \[

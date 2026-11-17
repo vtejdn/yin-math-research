@@ -10,7 +10,8 @@ It also gives both arbitrary-tuple separations and proves maximal Delta from the
 - [Citation map](citation.md)
 
 The paper is organized around the normal comparison and the nonnormal examples, with the maximality consequence proved alongside the domain arguments.
-The appendix proves the lattice and projection transfers used in the analytic estimate.
+The first appendix gives the joint-graph justification of the mixed curvature energy and proves the density-square estimate.
+The second appendix proves the lattice and projection transfers used in the analytic estimate.
 The manuscript uses Yin's current [author-wide policy](../../../../profiles/Yin/writing/readme.md), [free-probability policy](../../../../profiles/Yin/writing/free_probability.md) and [terminology](../../../../profiles/Yin/terminology.md).
 It is an English research manuscript for free-probability and operator-algebra readers.
 The byline is omitted under the default for new manuscripts; this does not change the writer attribution above.
