@@ -36,13 +36,14 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 ## Latest Build
 
 The in-directory build succeeded on 2026-11-17 after two pdfLaTeX passes with unchanged bibliography inputs.
-It used MiKTeX 25.4, pdfLaTeX 1.40.27 and the BibTeX 0.99d bibliography, producing a 25-page PDF of 580602 bytes.
+It used MiKTeX 25.4, pdfLaTeX 1.40.27 and the BibTeX 0.99d bibliography, producing a 25-page PDF of 582777 bytes.
 
 Definition 1.3 now defines Psi_x for every x in L0(M), with Psi_i denoting Psi_(X_i).
-Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for Psi_x and both quotient maps in Lemma 4.4.
+Lemma 4.3 states the algebraic tensor-difference injectivity criterion used for Psi_x and both quotient maps in Lemma 4.5.
 Its proof explicitly applies the quotient map in the second factor and uses linear functionals to extract the coefficients, proving invariance of the finite-dimensional span.
-Lemma 4.4 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
-Its proof defines both quotient maps and explicitly computes the image after quotienting each tensor factor; Lemma 4.3 and exactness of tensoring over C give the two successive inclusions.
+Lemma 4.4 gives both kernel equalities for tensor products of a quotient map, using a complement to the subspace in its proof.
+Lemma 4.5 states injectivity and the compact preimage equality $\Psi_x^{-1}(H\otimes_{\mathbb C}H)=H\otimes_{\mathbb C}H$.
+Its proof defines both quotient maps and explicitly computes the image after quotienting each tensor factor; Lemmas 4.3 and 4.4 give the two successive inclusions.
 Its injectivity conclusion follows directly from Lemma 4.3, since neither factor multiplication map has a nonzero finite-dimensional invariant subspace; the quotient-space proof of the L2 assertion is retained.
 The [tensor convention](../conventions.md#tensor-right-multiplication) gives the multiplication argument that excludes surjectivity onto the full tensor space.
 

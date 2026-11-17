@@ -74,6 +74,29 @@ Thus $B(E)\subseteq E$, contradicting the assumption on $B$, since $E$ is nonzer
 The case where $A$ has the stated property follows by interchanging the tensor factors.
 \end{proof}
 
+\begin{lemma}\label{lem:tensor-quotient-kernels}
+Let $V_0$ be a subspace of a complex vector space $V$, and let $\pi:V\to V/V_0$ be the quotient map.
+For every complex vector space $W$, the natural maps $V_0\otimes_{\C}W\to V\otimes_{\C}W$ and $W\otimes_{\C}V_0\to W\otimes_{\C}V$ are injective.
+Under these identifications,
+\[
+ \ker(\pi\otimes I_W)=V_0\otimes_{\C}W,
+ \qquad
+ \ker(I_W\otimes\pi)=W\otimes_{\C}V_0.
+\]
+\end{lemma}
+\begin{proof}
+Choose a complement $V_1$ such that $V=V_0\oplus V_1$.
+Then
+\[
+ V\otimes_{\C}W
+ =(V_0\otimes_{\C}W)\oplus(V_1\otimes_{\C}W),
+\]
+which shows that the first natural map is injective.
+The map $\pi\otimes I_W$ vanishes on the first summand and maps the second summand isomorphically onto $(V/V_0)\otimes_{\C}W$, since $\pi|_{V_1}:V_1\to V/V_0$ is an isomorphism.
+This proves the first kernel equality.
+Interchanging the tensor factors proves injectivity of the other natural map and the second kernel equality.
+\end{proof}
+
 \begin{lemma}\label{lem:tensor-l2-recovery}
 Let $x\in\M$ and suppose that $x-\lambda$ is regular for every $\lambda\in\C$.
 The map $\Psi_x$ of Definition~\ref{def:psi} is injective and satisfies
@@ -115,7 +138,7 @@ They satisfy
  \pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2.
 \]
 Now let $k\in U\otimes_{\C}U^{\mathrm{op}}$ satisfy $\Psi_x(k)\in H\otimes_{\C}H$.
-Since $\pi_1$ vanishes on $H$, we have
+Using $\pi_1R_x=\widetilde R_x\pi_1$, we obtain
 \[
  \begin{aligned}
  &\bigl(\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}\bigr)
@@ -123,15 +146,16 @@ Since $\pi_1$ vanishes on $H$, we have
  &\qquad=(\pi_1\otimes I)\Psi_x(k)=0.
  \end{aligned}
 \]
+The last equality follows from $\Psi_x(k)\in H\otimes_{\C}H$ and $\pi_1|_H=0$.
 By Lemma~\ref{lem:tensor-difference-injectivity}, the map $\widetilde R_x\otimes I-I\otimes R_{x^{\mathrm{op}}}$ is injective on $(U/H)\otimes_{\C}U^{\mathrm{op}}$, since $R_{x^{\mathrm{op}}}$ has no nonzero finite-dimensional invariant subspace.
 Consequently, $(\pi_1\otimes I)k=0$.
-Exactness of tensoring over $\C$ then gives
+Lemma~\ref{lem:tensor-quotient-kernels}, applied to $\pi_1$, then gives
 \[
  k\in\ker(\pi_1\otimes I)=H\otimes_{\C}U^{\mathrm{op}}.
 \]
 
 Now regard $k$ as an element of $H\otimes_{\C}U^{\mathrm{op}}$.
-Since $\pi_2$ vanishes on $H$, we similarly obtain
+Using $\pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2$, we similarly obtain
 \[
  \begin{aligned}
  &\bigl((R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}\bigr)
@@ -139,8 +163,10 @@ Since $\pi_2$ vanishes on $H$, we similarly obtain
  &\qquad=(I\otimes \pi_2)\Psi_x(k)=0.
  \end{aligned}
 \]
+The last equality again follows from $\Psi_x(k)\in H\otimes_{\C}H$ and $\pi_2|_H=0$.
 The map $(R_x|_H)\otimes I-I\otimes\widetilde R_{x^{\mathrm{op}}}$ is injective on $H\otimes_{\C}(U^{\mathrm{op}}/H)$ by Lemma~\ref{lem:tensor-difference-injectivity}, since $R_x|_H$ has no nonzero finite-dimensional invariant subspace.
-Thus $(I\otimes \pi_2)k=0$, and exactness of tensoring over $\C$ gives
+Thus $(I\otimes \pi_2)k=0$.
+Applying the second kernel equality of Lemma~\ref{lem:tensor-quotient-kernels} to $\pi_2$ gives
 \[
  k\in\ker(I\otimes \pi_2)=H\otimes_{\C}H.
 \]
