@@ -90,6 +90,13 @@ Existence of a connected matching with these erasures, the prescribed source typ
 
 ## Which exceptional matchings remain after testing the left color 3?
 
+In genuine torsion-free realizations, [short cycles read as open paths on the other side](../claims/Yin_C_A0053_v1.md#reading-the-same-word-on-disjoint-open-paths) yield actual pairs inside the left color \(3\) and the other five designated colors at the same time.
+For every fixed \(0<\delta<1\), a sufficiently small fixed logarithmic girth constant gives at least \(\lfloor n^{1-\delta}\rfloor\) disjoint equal-label pairs per specified bin with probability tending to one.
+The number of different group elements that repeat in a coarse color must grow as well.
+If \(r\) of its vertices share a label with another vertex and \(k\) distinct labels occur more than once, the [fold bound (3)](../ledger/Yin_L_A0052_v1.md#a-homological-rejection-test-under-the-source-safeguards) gives \(126(r-16513k)\le 2(r-k)\): a repeated label can use at most \(16513\) distinct ordinary lines, and the singleton labels contribute zero to both sums in (3).
+Thus \(k\ge124r/(126\cdot16513-2)\).
+Even with these collisions, the typical left color \(3\) still has \(n/7-o(n)\) surviving labels.
+
 One can [force all six erasures by prescribed graph loops](../ledger/Yin_L_A0052_v1.md#a-matching-prescription-that-forces-the-equalities-in-its-own-group) while retaining connectedness, the prescribed types and logarithmic girth.
 The resulting original cone group equals \(C_7\), so the construction loses torsion-freeness and root separation.
 Asphericity rules out the same-line duplication method on a legitimate tuple: among the \(M/2\) proposed pairs in color \(3\), at most \(M/63\) can use vertices on the same ordinary projective line, where \(M=n/7-4\).

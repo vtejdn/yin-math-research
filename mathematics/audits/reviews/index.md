@@ -86,6 +86,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0086](Yin_R_A0086_v1.md#whole-argument-finding) | Filling length, closed range and ranks on balls of fixed radius | [v1](Yin_R_A0086_v1.md) |
 | [Yin_R_A0087](Yin_R_A0087_v1.md#whole-argument-finding) | Spatial decay and the trace of the kernel projection | [v1](Yin_R_A0087_v1.md) |
 | [Yin_R_A0088](Yin_R_A0088_v1.md#whole-argument-finding) | Finite two-group constraints on simultaneous erasure | [v1](Yin_R_A0088_v1.md) |
+| [Yin_R_A0089](Yin_R_A0089_v1.md#whole-argument-finding) | Disjoint open lifts of an opposite-side cycle in the four-line laws | [v1](Yin_R_A0089_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
