@@ -117,7 +117,12 @@ For these a gapped row operator with the same kernel gives a geometric bound on 
 For an individual group the [coefficient test on a finite power](../claims/Yin_C_A0069_v1.md#statement) gives both bounds directly from the original matrix when the matrix of absolute sums over endpoint fibers has spectral radius at most one in suitable constant coordinates.
 The finite components reconstruct the kernel projection and infinite components give a squared time-error bound of order \(k^{-1/2}\).
 The [polarized first-return formula](../claims/Yin_C_A0067_v1.md#argument) handles arbitrary complex coefficients and compares the weighted exterior norm to signed time sums at each individual endpoint.
-Beyond the finite coefficient test, it remains to bound those signed sums on the four-line group itself.
+On the four-line group itself, [integer rows with a massive walk Green kernel](../claims/Yin_C_A0074_v1.md#taking-the-signed-time-sum-at-its-endpoint) have nonzero signed means at every nonidentity endpoint and an exponentially decreasing weighted tail despite failing every finite-power test.
+Already in their first real diagonal coordinate, the [smaller of the positive and negative temporal contributions](../claims/Yin_C_A0074_v1.md#cancellation-in-the-single-coordinate-with-nonzero-residual-at-every-endpoint) has infinite weighted square sum outside every ball for exponents above three.
+The coisometric two-channel example in the [finite-time first-return calculation](../claims/Yin_C_A0073_v1.md#a-nonzero-signed-endpoint-and-the-rate-of-its-raw-first-mean) explicitly cancels the leading time bias at a nonzero coefficient.
+For arbitrary inputs the cumulative signed return differences satisfy a [joint square bound across time and endpoints](../claims/Yin_C_A0076_v1.md#the-joint-square-bound-across-time-and-endpoints).
+If scalar dyadic return differences decay as time to power \(-\alpha\), \(0<\alpha<2\), a shell of radius \(R\) needs time only through \(O(R^\kappa\log R)\) for the stated truncation estimate whenever \(\kappa\alpha>\beta\).
+For a general matrix it remains to bound the resulting signed arrays across infinitely many shells, including when a same-kernel gapped factor is unavailable.
 On a different group \(H\times\mathbb Z^4\), with \(H\) any fixed four-line group, [the lattice calculation](../claims/Yin_C_A0068_v1.md#grouped-endpoints-and-adjacent-times) gives polynomial tails for a projection that has no closed-range representative.
 The dimension-three comparison there gives identical row products and scalar return moments with opposite answers for every spatial exponent above three.
 

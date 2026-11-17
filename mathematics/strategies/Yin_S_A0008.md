@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Seek an independent path forced by the four-line vertex types whose central value contradicts a full pairing of left color 3. |
+| priority | Test whether a complete color-3 pairing forces a cycle of cross-block identifications forbidden by the common-word rank constraint. |
 
 ## Input and distinction from rank sampling
 
@@ -143,7 +143,18 @@ In the fourteen-color family there are [actual commutators with independent mixe
 On repeated commutator paths, [many different pairings](../claims/Yin_C_A0070_v1.md#extending-witnessed-matchings-on-even-blocks) cover the same marked vertices and all have the same central product.
 Any hypothesized complete pairing can be spliced to use these alternatives with a common matching outside the blocks.
 To obtain a contradiction, seek an additional path or type-forced equality whose central value cannot be obtained from the displacements along the existing chains.
-The rank lower bound for the mixed tensor assumes balanced certificates; the thirteen-position count applies to arbitrary products of conjugates.
+The earlier rank lower bound for the mixed tensor uses balanced certificates.
+On a single thirteen-position model there are now [actual bridges whose every original proof uses all thirteen positions](../claims/Yin_C_A0072_v1.md#reading-prescribed-state-changes-and-parallel-bridges).
+On a specified set of \(2K\) matched vertices, the [quotient of the two first-coordinate spaces](../claims/Yin_C_A0072_v1.md#a-tensor-bound-on-unrestricted-certificates) gives a combined lower bound \(K+22t\) on relator occurrences even for unrestricted proofs.
+[Three disjoint six-vertex blocks](../claims/Yin_C_A0075_v1.md#genuine-bridges-between-disjoint-six-vertex-blocks) can have one original label with two bridges joining the middle block to the outer ones.
+Other [pairs of blocks with identical state and tensor](../claims/Yin_C_A0071_v1.md#choosing-blocks-with-small-coincidence-probability) provably have different original labels.
+For two independent tensor types, a simultaneous word returning to the same two blocks preserves both mark parities, even if the starting labels are unknown.
+A common word that exchanges the blocks would enforce equal labels by torsion-freeness, and the sum of the two internal changes would have to be a [tensor of rank at most one](../claims/Yin_C_A0075_v1.md#a-common-word-cycling-among-blocks).
+Squaring an all-position bridge gives a [central bridge with nonzero change at every slot](../claims/Yin_C_A0077_v1.md#making-every-position-change-with-a-central-value).
+On two disjoint six-vertex blocks, every one of the 720 fully crossing matchings uses all thirteen positions in every pair and has the same rank-two total as all internal matchings.
+A chain can even contain two bridges of different central ranks with the same directed change at every slot.
+Their contributions cancel in the matching total when each block has six marks.
+What remains is to derive a forbidden exchange, or another incompatible bridge cycle, from full erasure and the actual vertex types.
 
 ## What happens to the original product in random matchings?
 

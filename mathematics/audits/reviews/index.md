@@ -104,6 +104,13 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0104](Yin_R_A0104_v1.md#whole-argument-finding) | Identical row Gram matrices and different kernel projections on a product group | [v1](Yin_R_A0104_v1.md) |
 | [Yin_R_A0105](Yin_R_A0105_v1.md#whole-argument-finding) | A coefficient test for finite support of the kernel projection | [v1](Yin_R_A0105_v1.md) |
 | [Yin_R_A0106](Yin_R_A0106_v1.md#whole-argument-finding) | Matchings on marked commutator paths and their common extension | [v1](Yin_R_A0106_v1.md) |
+| [Yin_R_A0107](Yin_R_A0107_v1.md#whole-argument-finding) | Distinct original labels on paths with identical six-vertex pairing signatures | [v1](Yin_R_A0107_v1.md) |
+| [Yin_R_A0108](Yin_R_A0108_v1.md#whole-argument-finding) | Thirteen visible positions and a mixed tensor bound for arbitrary proofs | [v1](Yin_R_A0108_v1.md) |
+| [Yin_R_A0109](Yin_R_A0109_v1.md#whole-argument-finding) | Finite prefixes of polarized first-return means | [v1](Yin_R_A0109_v1.md) |
+| [Yin_R_A0110](Yin_R_A0110_v1.md#whole-argument-finding) | Review of signed returns for a kernel projection supported on the whole group | [v1](Yin_R_A0110_v1.md) |
+| [Yin_R_A0111](Yin_R_A0111_v1.md#whole-argument-finding) | What simultaneous readable words preserve on independent commutator blocks | [v1](Yin_R_A0111_v1.md) |
+| [Yin_R_A0112](Yin_R_A0112_v1.md#whole-argument-finding) | Review of finite signed first-return sums on spatial shells | [v1](Yin_R_A0112_v1.md) |
+| [Yin_R_A0113](Yin_R_A0113_v1.md#whole-argument-finding) | Central values of all-position bridges and the matchings they witness | [v1](Yin_R_A0113_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
