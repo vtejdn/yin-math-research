@@ -103,6 +103,13 @@ The [exceptional matching question](Yin_S_A0008.md#when-can-a-whole-color-disapp
 On the pattern-free four-line groups, [hyperbolicity and reduced assembly](../ledger/Yin_L_A0054_v1.md#from-hyperbolicity-to-integral-traces) give exact integrality for closed-range complex matrices.
 The ranks of each fixed word matrix also converge to the integer free-group rank as the graph sizes increase.
 For nonclosed-range matrices, investigate the [spatial decay of the actual kernel projection](../ledger/Yin_L_A0055_v1.md#proof-and-the-obstruction-at-a-fractional-trace): a finite weighted square sum with exponent \(3+\delta\), \(\delta>0\), suffices on each such group and requires no uniform spectral gap.
+The [endpoint-weighted paired-word sums](../claims/Yin_C_A0057_v1.md#argument) test this condition by taking the moment limit at each fixed spatial scale first.
+Uniformly bounding the weighted mass of the unmodified powers would already force closed range, and [ordinary return moments near the spectral edge](../claims/Yin_C_A0056_v1.md#a-common-spectral-interval-for-a-fixed-word-matrix) supply a separate gap test.
+For a fixed word matrix on a sequence of good groups the [free projection comparison](../ledger/Yin_L_A0057_v1.md) controls its weighted mass on growing finite windows.
+For all word degrees at once, the [restricted-turn estimate](../claims/Yin_C_A0059_v1.md#bounded-path-systems-with-some-comparisons-replaced-by-an-alphabet-restriction) gives actual embedded free subgroups on any 62 marked inverse pairs, or 64 when at most two mixed pairs occur, with probability tending to one.
+All rectangular matrices over one such subgroup have an integer kernel dimension and an [exponentially weighted square-summable kernel projection](../claims/Yin_C_A0058_v1.md#argument), even at nonclosed range.
+The same holds after multiplying the rows and columns by arbitrary group elements: the kernel projection is then a diagonal unitary conjugate, which shifts its finitely many entries on the left and right by bounded word distances.
+For supports outside these subgroups, a bound on the remaining infinite spatial tail of each individual projection is still needed.
 
 ## Mechanism and obstruction
 

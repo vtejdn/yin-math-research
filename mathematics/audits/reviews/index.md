@@ -87,6 +87,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0087](Yin_R_A0087_v1.md#whole-argument-finding) | Spatial decay and the trace of the kernel projection | [v1](Yin_R_A0087_v1.md) |
 | [Yin_R_A0088](Yin_R_A0088_v1.md#whole-argument-finding) | Finite two-group constraints on simultaneous erasure | [v1](Yin_R_A0088_v1.md) |
 | [Yin_R_A0089](Yin_R_A0089_v1.md#whole-argument-finding) | Disjoint open lifts of an opposite-side cycle in the four-line laws | [v1](Yin_R_A0089_v1.md) |
+| [Yin_R_A0090](Yin_R_A0090_v1.md#whole-argument-finding) | Bounded sets of loop bases, finite simple quotients and simultaneous paths | [v1](Yin_R_A0090_v1.md) |
+| [Yin_R_A0091](Yin_R_A0091_v1.md#whole-argument-finding) | Grading copied relators in the universal-cover homology calculation | [v1](Yin_R_A0091_v1.md) |
+| [Yin_R_A0092](Yin_R_A0092_v1.md#whole-argument-finding) | Positive spectral mass at the bottom of the spectrum | [v1](Yin_R_A0092_v1.md) |
+| [Yin_R_A0093](Yin_R_A0093_v1.md#whole-argument-finding) | Endpoint weights for the powers of a normalized Gram operator | [v1](Yin_R_A0093_v1.md) |
+| [Yin_R_A0094](Yin_R_A0094_v1.md#whole-argument-finding) | Free-subgroup kernels, bounded rationality and exponential Fourier tails | [v1](Yin_R_A0094_v1.md) |
+| [Yin_R_A0095](Yin_R_A0095_v1.md#whole-argument-finding) | Free subgroups and prescribed path languages in the matching models | [v1](Yin_R_A0095_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

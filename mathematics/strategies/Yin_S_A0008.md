@@ -15,7 +15,7 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Seek a pattern-free matching whose left color 3 survives all pairing rejection tests and is erased in the original cone group. |
+| priority | Test many-basepoint pairings of left color 3 using alternate fillings and protected vertices in four-line tuples without an odd-bin certificate. |
 
 ## Input and distinction from rank sampling
 
@@ -108,6 +108,24 @@ The same prescribed refinement supplies odd bins in the two other even colors on
 For an arbitrary finite two-group image of the original group, [disagreement of the four odd pieces](../ledger/Yin_L_A0056_v1.md#the-six-coefficient-equations) is another necessary exclusion test for simultaneous erasure.
 For a supplied pattern-free matching still passing those tests, the [bounded cone-picture algorithm](../claims/Yin_C_A0052_v1.md#enumerating-the-witnesses) decides the exact original equality partition in color \(3\) and then each remaining color.
 An extension to all six now requires a legitimate tuple passing those six exact parity decisions.
+
+## Many loops when finite quotients see even counts
+
+The [fourteen-color construction](../claims/Yin_C_A0054_v1.md#excluding-all-orders-with-prescribed-simple-composition-factors) keeps both fine bins even over left color \(3\) and the other five target colors.
+It can exclude every quotient of order \(21\) over the given character and every odd-bin test from relative finite kernels with any prescribed finite list of simple composition factors, at all orders for that list.
+For each fixed \(0<\delta<1\), the same typical tuples in this exceptional family have [at least \(\lfloor n^{\delta/32}\rfloor\) independent opposite-side cycles](../claims/Yin_C_A0054_v1.md#many-opposite-cycles-and-simultaneous-open-lifts), each giving at least \(\lfloor n^{1-\delta}\rfloor\) disjoint actual pairs per fine bin.
+The paths for distinct cycles can be chosen disjoint. The occupied class still has \(n/7-o(n)\) distinct surviving labels.
+For a certificate naming a particular survivor, fix a vertex of left color \(3\) before sampling and apply the [rooted separation test](../claims/Yin_C_A0045_v1.md#synchronous-components-and-protected-vertices) to this root as well as the original roots.
+The rooted bound is uniform for each fixed vertex in the perturbed law, so both separations hold simultaneously with probability tending to one.
+On an individual tuple the additional rooted condition certifies that this vertex has multiplicity exactly one.
+
+In any connected tuple with the four-line type counts, even all directly readable closed walks at any chosen 49 opposite-side base vertices, including their successive use, [leave some color-3 vertices untouched](../claims/Yin_C_A0054_v1.md#how-many-opposite-side-base-vertices-are-necessary).
+For longer lists, each original equality carries an [opposite-side homology vector indexed by its translated starting label](../claims/Yin_C_A0055_v1.md#from-cycles-in-the-lifted-rose-to-vertex-potentials).
+Alternative fillings saturating the same set must have equal vector totals. For example, retain an odd number of disjoint pairs per independent cycle in the preceding construction.
+In any other pairing of those same vertices the total opposite-side edge chain must still include every retained cycle edge oddly, even after forgetting the translation indices.
+For a full-color construction, test forced alternative fillings on the same vertex set and certify an original equality for each pair that remains.
+The [restricted-turn result](../claims/Yin_C_A0059_v1.md#which-choices-of-letters-are-covered) gives a further exclusion on its high-probability event: distinct vertices joined by a reduced path on any 62 inverse pairs cannot be given the same group label by any cone relations.
+Whether every legitimate tuple without a \(C_{21}\) certificate has an odd original label in left color \(3\) remains open.
 
 ## What happens to the original product in random matchings?
 
