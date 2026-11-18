@@ -33,14 +33,8 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 The sources for the numbered closure identity in Lemma 4.7 compiled successfully on 2026-11-18 with the commands above using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
 The resulting PDF has 21 pages.
-Section 4 opens with an unnumbered recall of Definition 1.6, including the common operator and adjoint domains, the liberation commutator relations and sum normalization.
-The tensor-evaluation passage follows this definition, before Lemma 4.1; the result numbers in Section 4 are unchanged.
-Equations (18) and (19) state the two formulas for \(m_{L_i}\) separately and are proved on simple tensors.
-Proposition 4.6 uses equation (18) to isolate one term.
-Lemma 4.7 uses equations (18) and (19) in equation (21).
-The proof of Theorem 1.7 cites the closure identity in equation (20).
-The liberation-gradient implication is stated briefly in Remark 4.8 at the end of Section 4.
-The dual-system criterion is Section 5, and the arcsine and circular examples are Remarks 6.1 and 6.2 in Section 6.
+This build precedes the relocation of the liberation-gradient remark.
+In the current source, Remark 4.1 immediately follows the recalled definition at the start of Section 4.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 
 The source check found 82 unique labels, no unresolved references and exactly 21 cited bibliography entries.

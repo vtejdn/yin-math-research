@@ -50,13 +50,13 @@ Retain existing notation for tensors introduced in $L^0(\mathcal M)\otimes_{\mat
 
 For $x\in L^0(\mathcal M)$, use $\Psi_x(k):=k(x\otimes1-1\otimes x^{\mathrm{op}})$ on $L^0(\mathcal M)\otimes_{\mathbb C}L^0(\mathcal M)^{\mathrm{op}}$.
 For the fixed tuple X, write $\Psi_i:=\Psi_{X_i}$.
-In the proof of Lemma 4.5, right multiplication by $x^{\mathrm{op}}$ on the second factor sends $v^{\mathrm{op}}$ to $(xv)^{\mathrm{op}}$.
+In the proof of Lemma 4.6, right multiplication by $x^{\mathrm{op}}$ on the second factor sends $v^{\mathrm{op}}$ to $(xv)^{\mathrm{op}}$.
 Use a tilde for the induced quotient-space maps there, reserving the bar for operator closure.
 
-For the range assertion in [Lemma 4.5](paper/sections/liberation-dual-system-criterion.tex), put \(U:=L^0(\mathcal M)\), \(V:=U\otimes_{\mathbb C}U^{\mathrm{op}}\) and \(W:=H\otimes_{\mathbb C}H\), with the second factor identified as in Definition 1.3.
+For the range assertion in [Lemma 4.6](paper/sections/liberation-dual-system-criterion.tex), put \(U:=L^0(\mathcal M)\), \(V:=U\otimes_{\mathbb C}U^{\mathrm{op}}\) and \(W:=H\otimes_{\mathbb C}H\), with the second factor identified as in Definition 1.3.
 The linear map \(m:V\to U\), \(m(u\otimes v^{\mathrm{op}}):=uv\), satisfies \(m\Psi_x(u\otimes v^{\mathrm{op}})=uxv-u(xv)=0\).
 Since \(m(1\otimes1)=1\), the tensor \(1\otimes1\in W\) does not belong to \(\Psi_x(V)\).
-For \(x\in\mathcal M\) with every \(x-\lambda\) regular, Lemma 4.5 gives injectivity on \(V\) and \(\Psi_x^{-1}(W)=W\); thus \(\Psi_x|_W\) is a bijection onto \(\Psi_x(V)\cap W\), a proper subspace of \(W\).
+For \(x\in\mathcal M\) with every \(x-\lambda\) regular, Lemma 4.6 gives injectivity on \(V\) and \(\Psi_x^{-1}(W)=W\); thus \(\Psi_x|_W\) is a bijection onto \(\Psi_x(V)\cap W\), a proper subspace of \(W\).
 
 ## Dual Systems and Fraction Commutators
 
@@ -102,7 +102,7 @@ Use “von Neumann dimension” for the module dimension in \(\Delta\), with Luc
 <a id="liberation-gradients"></a>
 ## Liberation Gradients
 
-Remark 4.8 uses \(j(A_i:B_i)\) for the liberation gradients, where \(A_i=W^*(X_i)\) and \(B_i=W^*(X_j:j\ne i)\), with \(B_1=\mathbb C1\) when \(d=1\).
+Remark 4.1 uses \(j(A_i:B_i)\) for the liberation gradients, where \(A_i=W^*(X_i)\) and \(B_i=W^*(X_j:j\ne i)\), with \(B_1=\mathbb C1\) when \(d=1\).
 It cites Voi99 Sections 5.3--5.4 for the gradient formulation and states the existence of a normalized liberation dual system with the domains in Definition 1.6.
 The construction and estimates remain in [C_F0082](../../../claims/Yin_C_F0082_v1.md#argument).
 For the normal-operator application, nonatomicity is a separate hypothesis.

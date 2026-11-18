@@ -55,15 +55,15 @@ Preserve the existing mathematical environments and their semantic labels when r
 ## Liberation Normalization
 
 At the start of Section 4, recall the complete liberation dual-system definition, including sum normalization, in an unnumbered definition.
-Immediately after it, introduce \(m_{L_i}\) and give its two identities and their simple-tensor verifications.
-Then state the sum-to-\(P_\Omega\) normalization lemma, retaining its number 4.1 and the subsequent result numbers.
+Immediately after the definition, state in a short numbered remark that \(L^2\) liberation gradients give a normalized liberation dual system.
+Keep the construction and estimates in the supporting Claim.
+Then introduce \(m_{L_i}\) and give its two identities and their simple-tensor verifications before stating the sum-to-\(P_\Omega\) normalization lemma.
 Define the correction and all corrected operators on \(\M\Omega\), and verify the liberation relations and the sum identity explicitly.
 Show that \(\mathcal M\Omega\subseteq\operatorname{Dom}\widetilde L_i^*\) for every corrected operator \(\widetilde L_i\).
 The normalization lemma uses only the liberation dual-system conditions and imposes no normality, scalar-shift regularity or generation hypothesis.
 
 ## Applications and the Dual-System Criterion
 
-At the end of Section 4, state in a short remark that L2 liberation gradients give a normalized liberation dual system, without developing the construction or estimates.
 Omit a separate section on liberation gradients; the dual-system criterion is Section 5 and Examples is Section 6.
 Deduce the dual-system criterion directly from the liberation dual-system criterion using the normalized liberation construction and its summed fraction-commutator identity.
 Keep the discussion of conjugate variables in the [F0011 manuscript](../Yin_T_F0011/readme.md).
