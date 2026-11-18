@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test compatible exteriors and unequal selected channel volumes when both colors occur repeatedly in the highest-degree word. |
+| priority | Seek a favorable spectral point on each disk and test the quartic exterior on the original sign or two-moment inputs. |
 
 ## The full polynomial as one spectral problem
 
@@ -80,6 +80,8 @@ Choosing a smaller right volume resolves this test while retaining positive defi
 The separate proposed two-site mixed-color exposure in that ledger remains an exploratory alternative for other representations.
 
 For a general realization adding \(p\) channels, test selected left and right volumes of sizes \(a,b\) with \(a+b>p\), an exterior matching its initial principal trims, and invertible joint node detectors with physical projected spread.
-A next concrete test is \(1+x^2y^2+yx\), whose highest-degree word repeats both colors.
-First compute the extra principal blocks at a physical deletion and check whether they are killed by an exterior for which the initial scalar near-kernel overlap can be estimated under the original law.
+For \(1+x^2y^2+yx\), the [two-channel border](../ledger/Yin_L_F0070_v1.md#quartic) keeps the rank correction as an affine border in the independent cross columns.
+The two initial trims and the joint lower bound for the resulting physical column pairs remain open.
+The [spectral-parameter route](Yin_S_F0036.md#route) seeks a large determinant somewhere in each small disk, permitting the center itself to be singular.
+The [erased-observation route](Yin_S_F0037.md#route) first tests an arbitrary diagonal law and a high continuous component mass in the off-diagonal laws.
 The general cyclic-pencil terminal estimate remains open.

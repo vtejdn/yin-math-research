@@ -474,6 +474,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0357](Yin_R_F0357_v1.md#finding) | Independent proof review of deterministic polar exceptions for Wigner determinant upper limits | [v1](Yin_R_F0357_v1.md) |
 | [Yin_R_F0358](Yin_R_F0358_v4.md#fine-atomic-laws-whole-proof) | Independent reviews of terminal compression, mixture laws, nonreal shifts and a fixed purely atomic example | [v1](Yin_R_F0358_v1.md), [v2](Yin_R_F0358_v2.md), [v3](Yin_R_F0358_v3.md), [v4](Yin_R_F0358_v4.md) |
 | [Yin_R_F0359](Yin_R_F0359_v2.md#all-shifts) | Independent reviews of the winding obstruction, static Gram observation, affine realization and counterexamples at every shift | [v1](Yin_R_F0359_v1.md), [v2](Yin_R_F0359_v2.md) |
+| [Yin_R_F0367](Yin_R_F0367_v3.md#disk-minors-whole-proof) | Independent reviews of the cyclic pencil, the polynomial cutoff and the disk criterion with Taylor minors | [v1](Yin_R_F0367_v1.md), [v2](Yin_R_F0367_v2.md), [v3](Yin_R_F0367_v3.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

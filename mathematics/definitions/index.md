@@ -508,6 +508,7 @@ Recorded consumer navigation: [real fourth-moment Brown convergence in probabili
 ### Clipped singular-value potentials and excess logarithmic loss
 
 Exact project formulation: [the clipped potential and loss](../claims/Yin_C_F0186_v27.md#clipping-definition), retaining the squared-singular normalization, deterministic clipping height and planar-null eigenvalue convention.
+On a cyclic spectral chart, the disk test compares the maximum of the ordinary potential with the free potential using the uniform polynomial clip. [Disk test and its Taylor formulation](../claims/Yin_C_F0359_v3.md#statement)
 Recorded consumer navigation: the [global clipping theorem](../claims/Yin_C_F0186_v27.md#stretched-clipped-potential) and [remaining almost-sure Brown defect](../claims/Yin_C_F0186_v27.md#extreme-planar-defect).
 Further consumers: [log-concave planar deviations](../claims/Yin_C_F0186_v28.md#clipped-planar-defect) and [sparse fourth-moment truncation](../claims/Yin_C_F0198_v1.md#complete-clipped-transfer), each at its own selected assessment and distributional scope.
 

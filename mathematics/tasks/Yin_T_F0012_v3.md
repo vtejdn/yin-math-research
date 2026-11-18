@@ -140,6 +140,10 @@ This proves abundance of exactly real roots, strengthening the weak conclusion a
 The [ordinary cyclic affine pencil](../claims/Yin_C_F0359_v1.md#statement) encodes the full finite and free eigenvalue measures of any fixed scalar polynomial, including its atom at zero.
 For the full complex finite-variance contract, the [local cutoff theorem](../claims/Yin_C_F0359_v2.md#statement) proves uniform complete convergence above every fixed polynomial cutoff on a chart away from zero.
 The [selected cyclic strategy](../strategies/Yin_S_F0035.md#the-full-polynomial-as-one-spectral-problem) reduces the remaining question to a summable bound for the area-integrated logarithmic loss below that cutoff.
+The [reviewed disk criterion](../claims/Yin_C_F0359_v3.md#decision-disk-witness-reviewed) equivalently requires a summable probability that the normalized log determinant stays below the free potential's disk infimum by a fixed amount throughout a rational test disk.
+A favorable point can depend on the realization, and Taylor coefficients can supply it even if the disk center is singular.
+The [independent review](../audits/reviews/Yin_R_F0367_v3.md#disk-minors-whole-proof) covers that reduction and a sufficient bottom-space minor test.
+Establishing the disk bound for arbitrary input laws remains open.
 For \(1+x^2y+yx\), the [two-slice border estimate](../claims/Yin_C_F0362_v1.md#statement) reduces this loss to the bottom \(O(\log N\log\log N)\) singular values under the original real two-moment laws.
 Keeping \(Y\) fixed in the [partially linearized exterior](../claims/Yin_C_F0362_v2.md#exterior) gives a single scalar deletion per site, including odd initial gaps.
 The [three-direction Schur estimate](../claims/Yin_C_F0363_v1.md#statement) completes the all-dimension terminal series and hence the almost-sure weak Brown limit for this cubic.

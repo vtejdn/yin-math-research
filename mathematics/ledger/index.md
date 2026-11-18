@@ -130,5 +130,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0067](Yin_L_F0067_v2.md) | Independent row replacements and paired border growth | [v1](Yin_L_F0067_v1.md), [v2](Yin_L_F0067_v2.md) |
 | [Yin_L_F0068](Yin_L_F0068_v1.md) | Gaussian rotation and the fourth-moment Wigner disk lower bound | [v1](Yin_L_F0068_v1.md) |
 | [Yin_L_F0069](Yin_L_F0069_v4.md) | Unequal-length word compressions, projected-pair energy, sign cancellation, higher-degree residues and the full-direction obstruction | [v1](Yin_L_F0069_v1.md), [v2](Yin_L_F0069_v2.md), [v3](Yin_L_F0069_v3.md), [v4](Yin_L_F0069_v4.md) |
+| [Yin_L_F0070](Yin_L_F0070_v1.md) | Disk tests for Wigner determinants, masked trace observations, mixed sign differences and a quartic border | [v1](Yin_L_F0070_v1.md) |
 | [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
 | [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |
