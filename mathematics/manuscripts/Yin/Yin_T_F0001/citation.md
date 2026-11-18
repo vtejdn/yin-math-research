@@ -104,6 +104,7 @@ Source evidence: [DR97-U003](../../../audits/literature/DR97/Yin_U003.md#dr97-u0
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, free-group criterion paragraph | `\cite[Theorem 7]{DR97}` | Supports the finite-generator converse and equality of rational and division closures; the manuscript states \(d\geq1\) and makes no arbitrary-rank extension. |
+| `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{DR97}` | Credits the bounded free-group criterion recovered by the free Haar specialization of Theorem 1.9 together with Linnell's identification of the bounded part of the affiliated division closure. |
 
 ## `Fug50`
 
@@ -156,6 +157,7 @@ All theorem and section locators below refer to the retained arXiv v1, not the j
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, Linnell criterion paragraph | `\cite[Theorem 1.1]{Lin00}` | Supports the affiliated-operator fraction criterion in the finite-generator free-group setting. |
+| `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{Lin00}` | Credits the affiliated rationality criterion recovered by specializing Theorem 1.9 to free Haar unitaries. |
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Section~1]{Lin00}` | Supports the common-denominator terminology for finite families. |
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Theorem~1.1]{Lin00}` | Supports the characterization of rational affiliated operators by finite-rank conditions on bounded operators obtained from left and right fractions, in the finite-generator free-group setting; the following Miy22 sentence gives the semicircular analogue. |
 | `paper/sections/preliminaries.tex`, paragraph before `lem:clearing` | `\cite[Section~1, p.~2 of the arXiv version]{Lin00}` | Supplies the finite-family common-denominator interface; the manuscript proves its own induction. |
@@ -179,6 +181,7 @@ The inspected work is the 24-page 2022 journal PDF; its original foundations rem
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, semicircular criterion paragraph | `\cite[Theorems 3.1 and 4.5]{Miy22}` | Supports the semicircular bounded and affiliated rationality criteria. |
+| `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{Miy22}` | Credits the rationality criterion recovered by specializing Theorem 1.9 to free semicircular operators. |
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Lemma~4.1]{Miy22}` | Supplies the two-element common-denominator construction. |
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Section~4]{Miy22}` | Supplies the semicircular analogue of the preceding Lin00 rationality criterion, using the cleared expressions with bounded right annihilation operators; \(\Gamma[Q,r_i^*]\) is the manuscript's notation for these expressions. |
 | `paper/sections/preliminaries.tex`, paragraph before `lem:clearing` | `\cite[Lemma~4.1]{Miy22}` | Supplies the two-element step iterated in the manuscript's finite-family proof. |
