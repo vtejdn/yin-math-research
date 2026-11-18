@@ -54,7 +54,9 @@ Preserve the existing mathematical environments and their semantic labels when r
 
 ## Liberation Normalization
 
-State the sum-to-\(P_\Omega\) normalization of liberation dual systems as a lemma at the beginning of Section 4.
+At the start of Section 4, recall the complete liberation dual-system definition, including sum normalization, in an unnumbered definition.
+Immediately after it, introduce \(m_{L_i}\) and give its two identities and their simple-tensor verifications.
+Then state the sum-to-\(P_\Omega\) normalization lemma, retaining its number 4.1 and the subsequent result numbers.
 Define the correction and all corrected operators on \(\M\Omega\), and verify the liberation relations and the sum identity explicitly.
 Show that \(\mathcal M\Omega\subseteq\operatorname{Dom}\widetilde L_i^*\) for every corrected operator \(\widetilde L_i\).
 The normalization lemma uses only the liberation dual-system conditions and imposes no normality, scalar-shift regularity or generation hypothesis.

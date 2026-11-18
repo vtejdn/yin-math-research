@@ -31,8 +31,9 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The current working TeX sources compiled successfully in this directory on 2026-11-18 with two passes of `pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex`, using MiKTeX 25.4 and pdfTeX 1.40.27 and producing a 21-page PDF of 543669 bytes.
-The bibliography was unchanged, so the build reused the existing BibTeX 0.99d output.
+The source set prepared for this Section 4 revision compiled successfully on 2026-11-18 with the commands above, using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d and producing a 21-page PDF of 459532 bytes.
+Section 4 opens with an unnumbered recall of Definition 1.6, including the common operator and adjoint domains, the liberation commutator relations and sum normalization.
+The tensor-evaluation passage follows this definition, before Lemma 4.1; the result numbers in Section 4 are unchanged.
 Equations (18) and (19) state the two formulas for \(m_{L_i}\) separately and are proved on simple tensors.
 Proposition 4.6 uses equation (18) to isolate one term; Lemma 4.7 uses both formulas in the calculation numbered (20).
 The liberation-gradient implication is stated briefly in Remark 4.8 at the end of Section 4.

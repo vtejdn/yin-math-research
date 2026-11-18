@@ -17,7 +17,7 @@ The paper is compiled from `main.tex` and six section files.
 | 1 | Introduction | Definitions 1.1-1.3, 1.6 and 1.8, Theorems 1.4, 1.7 and 1.9, the intervening remark and the statement of the paper's organization. |
 | 2 | Preliminaries | Division closures, the abstract free field and coordinate separation; fractions of affiliated operators; tensor realizations of finite-rank operators; Delta and free-field realization. |
 | 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
-| 4 | Liberation dual system criterion | The normalization Lemma 4.1, finite-rank closure and individual tensor lemmas, Lemma 4.4 on quotient maps and tensor products, Proposition 4.6, the L2 recovery Lemma 4.7, the proof of Theorem 1.7 and the short liberation-gradient remark, Remark 4.8. |
+| 4 | Liberation dual system criterion | An unnumbered recall of Definition 1.6 and the two tensor-evaluation identities precede the normalization Lemma 4.1, finite-rank closure and individual tensor lemmas, Lemma 4.4 on quotient maps and tensor products, Proposition 4.6, the L2 recovery Lemma 4.7, the proof of Theorem 1.7 and the short liberation-gradient remark, Remark 4.8. |
 | 5 | Dual system criterion | Lemmas 5.1-5.5 on fraction domains, rank independence, identification of finite-rank solutions and module commutation; Lemma 5.6 gives the normalized liberation construction and summed identity. Theorem 1.9 follows directly from Theorem 1.7. |
 | 6 | Examples | The arcsine example in Remark 6.1 distinguishes the two analytic hypotheses; the circular counterexample in Remark 6.2 shows why normality is needed for the ordinary dual-system criterion. |
 

@@ -4,6 +4,68 @@
 
 We prove Theorem~\ref{thm:intrinsic-analytic} in this section.
 
+We begin by recalling Definition~\ref{def:liberation-dual-system}.
+\begin{definition*}
+Let $X=(X_1,\ldots,X_d)\in\M^d$, and put $H:=L^2(\M,\tau)$ and $\Omega:=1$.
+A \emph{liberation dual system} for $X$ is a tuple $(L_1,\ldots,L_d)$ of linear operators on $H$ such that
+\[
+ \M\Omega\subseteq\dom L_i\cap\dom L_i^*
+ \qquad(1\leq i\leq d),
+\]
+and
+\[
+ [X_j,L_i]\xi=\delta_{ij}[X_i,P_\Omega]\xi
+ \qquad(\xi\in\M\Omega,\ 1\leq i,j\leq d).
+\]
+Here $\M\Omega:=\{x\Omega:x\in\M\}$ and $P_\Omega$ is the orthogonal projection onto $\C\Omega$.
+We call this system \emph{normalized} if
+\[
+ \sum_{i=1}^dL_i\xi=P_\Omega\xi
+ \qquad(\xi\in\M\Omega).
+\]
+\end{definition*}
+
+For a liberation dual system $(L_1,\ldots,L_d)$ and $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, let $m_{L_i}(\ell):\M\Omega\to H$ be the linear operator defined by linear extension of
+\[
+ m_{L_i}(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega},\qquad c,d\in\M.
+\]
+The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
+\begin{equation}\label{eq:liberation-tensor-actions}
+ m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
+ \quad\text{on }\M\Omega.
+\end{equation}
+Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Omega$,
+\[
+ \begin{aligned}
+ m_{L_i}(\Psi_j(\ell))
+ &=m_{L_i}(cX_j\otimes d^{\mathrm{op}}-c\otimes(X_jd)^{\mathrm{op}})\\
+ &=cX_jL_id-cL_iX_jd\\
+ &=c[X_j,L_i]d\\
+ &=\delta_{ij}c[X_i,P_\Omega]d\\
+ &=\delta_{ij}\Theta(\Psi_i(\ell)).
+ \end{aligned}
+\]
+The last equality uses equation~\eqref{eq:theta-bounded}.
+Linearity gives equation~\eqref{eq:liberation-tensor-actions} for every $\ell$.
+
+For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $m_{L_i}$ also gives
+\begin{equation}\label{eq:liberation-phi-bimodule}
+ m_{L_i}((s\otimes t^{\mathrm{op}})\ell)=sm_{L_i}(\ell)t
+ \quad\text{on }\M\Omega.
+\end{equation}
+For $\ell=c\otimes d^{\mathrm{op}}$, multiplication in the opposite factor gives
+\[
+ (s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}})
+ =sc\otimes(dt)^{\mathrm{op}},
+\]
+and hence, on $\M\Omega$,
+\[
+ m_{L_i}((s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}}))
+ =scL_idt
+ =sm_{L_i}(c\otimes d^{\mathrm{op}})t.
+\]
+Linearity proves equation~\eqref{eq:liberation-phi-bimodule} for every $\ell$.
+
 \begin{lemma}\label{lem:liberation-normalization}
 If $X\in\M^d$ admits a liberation dual system, then it admits a normalized liberation dual system.
 \end{lemma}
@@ -158,47 +220,6 @@ Using $\pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2$, we similar
  k\in\ker(I\otimes \pi_2)=H\otimes_{\C}H.
 \]
 \end{proof}
-
-For a liberation dual system $(L_1,\ldots,L_d)$ and $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, let $m_{L_i}(\ell):\M\Omega\to H$ be the linear operator defined by linear extension of
-\[
- m_{L_i}(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega},\qquad c,d\in\M.
-\]
-The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
-\begin{equation}\label{eq:liberation-tensor-actions}
- m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
- \quad\text{on }\M\Omega.
-\end{equation}
-Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Omega$,
-\[
- \begin{aligned}
- m_{L_i}(\Psi_j(\ell))
- &=m_{L_i}(cX_j\otimes d^{\mathrm{op}}-c\otimes(X_jd)^{\mathrm{op}})\\
- &=cX_jL_id-cL_iX_jd\\
- &=c[X_j,L_i]d\\
- &=\delta_{ij}c[X_i,P_\Omega]d\\
- &=\delta_{ij}\Theta(\Psi_i(\ell)).
- \end{aligned}
-\]
-The last equality uses equation~\eqref{eq:theta-bounded}.
-Linearity gives equation~\eqref{eq:liberation-tensor-actions} for every $\ell$.
-
-For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $m_{L_i}$ also gives
-\begin{equation}\label{eq:liberation-phi-bimodule}
- m_{L_i}((s\otimes t^{\mathrm{op}})\ell)=sm_{L_i}(\ell)t
- \quad\text{on }\M\Omega.
-\end{equation}
-For $\ell=c\otimes d^{\mathrm{op}}$, multiplication in the opposite factor gives
-\[
- (s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}})
- =sc\otimes(dt)^{\mathrm{op}},
-\]
-and hence, on $\M\Omega$,
-\[
- m_{L_i}((s\otimes t^{\mathrm{op}})(c\otimes d^{\mathrm{op}}))
- =scL_idt
- =sm_{L_i}(c\otimes d^{\mathrm{op}})t.
-\]
-Linearity proves equation~\eqref{eq:liberation-phi-bimodule} for every $\ell$.
 
 \begin{proposition}\label{prop:liberation-delta}
 Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
