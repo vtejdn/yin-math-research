@@ -17,7 +17,8 @@ For every \(u\in L^0(\M)\), every fraction pair \(Q\) of \(u\), and every \(i\),
 \begin{proof}
 Fix \(i\) and write \(Q=(s,a,b,t)\).
 Since \(b,t\in\M\) preserve \(\M\Omega\), the domain of \(\Gamma[Q,D_i]\) contains \(\M\Omega\).
-For \(\eta\in\M\Omega\) and \(\xi\in\dom\Gamma[Q,D_i]\), the hypothesis of the lemma gives
+For \(\eta\in\M\Omega\), we have \(s^*\eta,a^*\eta\in\M\Omega\subseteq\dom D_i^*\).
+Thus, for \(\xi\in\dom\Gamma[Q,D_i]\),
 \begin{equation}\label{eq:defect-adjoint}
  \langle\eta,\Gamma[Q,D_i]\xi\rangle
  =\left\langle
@@ -168,7 +169,8 @@ $eP_\Omega e=e[X_i,D_i]e=0$ on $\M\Omega$.
 Density and faithfulness of the trace give $e=0$.
 Normality then implies that $X_i-\lambda$ is regular.
 
-Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the adjoint-domain hypothesis gives
+By Definition~\ref{def:dual-system}, $\M\Omega\subseteq\dom D_i^*$.
+Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the definition of the adjoint gives
 \[
  \M\Omega\subseteq\dom K_i^*,\qquad
  K_i^*\eta=D_i^*\rho(X_i^*)\eta-\rho(X_i^*)D_i^*\eta

@@ -223,7 +223,7 @@ Applying $m_{L_i}$ and equation~\eqref{eq:liberation-tensor-actions} gives, on $
 \]
 Since $\Theta(\Psi_i(\ell_i))$ is bounded and $\M\Omega$ is dense in $H$, it vanishes on $H$.
 Hence $\Psi_i(\ell_i)=0$.
-The regularity assumption and Lemma~\ref{lem:tensor-l2-recovery} give $\ell_i=0$.
+Since $X_i-\lambda$ is regular for every $\lambda\in\C$, Lemma~\ref{lem:tensor-l2-recovery} gives $\ell_i=0$.
 Cancellation of $s\otimes t^{\mathrm{op}}$ gives $k_i=0$, and therefore $T_i=0$.
 Remark~\ref{rem:cycle-characterization} now gives $\Delta(X)=d$.
 \end{proof}
@@ -243,7 +243,8 @@ then, for every $i$,
 \end{lemma}
 \begin{proof}
 Fix $i$, write $\ell_0=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $T_i:=m_{L_i}(\ell_0)$ on $\M\Omega$.
-The adjoint-domain condition in Definition~\ref{def:liberation-dual-system} gives
+By Definition~\ref{def:liberation-dual-system}, $\M\Omega\subseteq\dom L_i^*$.
+Since $c_r^*\M\Omega\subseteq\M\Omega$, the definition of the adjoint gives
 \[
  \M\Omega\subseteq\dom T_i^*,\qquad
  T_i^*\eta=\sum_r d_r^*L_i^*(c_r^*\eta)
@@ -299,7 +300,8 @@ Set
 \]
 Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
 By definition, $m_{L_i}(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
-The common adjoint-domain condition makes $\Gamma[Q,L_i]$ closable by Lemma~\ref{lem:fraction-domains}.
+By Definition~\ref{def:liberation-dual-system}, $\M\Omega\subseteq\dom L_i\cap\dom L_i^*$.
+Lemma~\ref{lem:fraction-domains} therefore implies that $\Gamma[Q,L_i]$ is closable.
 Its closure extends the bounded, everywhere-defined operator $-\overline{m_{L_i}(\ell_0)}$ and therefore equals it.
 With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator-general} now gives
 \[

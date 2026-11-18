@@ -64,35 +64,36 @@ Lemmas 3.1–3.3 respectively clear a finite family of affiliated tensors, prove
 | Environment | Statement or construction | Proof route |
 | --- | --- | --- |
 | Definition 1.6, `def:liberation-dual-system` | For an arbitrary tuple X in M^d, operators L_i with M Omega contained in Dom L_i and Dom L_i*, and [X_j,L_i]=delta_ij[X_i,P_Omega] on M Omega. | This is the manuscript's domain variant of Voi99 Definition 13.1. The definition additionally calls a system normalized when its sum equals P_Omega on M Omega; Lemma 4.1 constructs such a system without extra hypotheses on X. This sum convention is local. |
-| Lemma 4.1, `lem:liberation-normalization` | Every X in M^d admitting a liberation dual system admits a normalized one. | The proof sets C=sum_k L_k-P_Omega and subtracts C/d from each L_i on M Omega. Since C commutes with each X_j, the corrected operators retain the liberation relations and sum to P_Omega; an explicit inner-product identity verifies their common adjoint domain. No normality, regularity or generation hypothesis is used. |
+| Lemma 4.1, `lem:liberation-normalization` | Every X in M^d admitting a liberation dual system admits a normalized one. | The proof sets C=sum_k L_k-P_Omega and subtracts C/d from each L_i on M Omega. Since C commutes with each X_j, the corrected operators retain the liberation relations and sum to P_Omega; an explicit inner-product identity verifies \(\mathcal M\Omega\subseteq\operatorname{Dom}\widetilde L_i^*\) for every \(i\). No normality, regularity or generation hypothesis is used. |
 | Lemma 4.2, `lem:finite-closure` | A densely defined closable finite-rank operator has a bounded finite-rank closure with the same range and rank. | The statement is cited to Kat95 Problem III.5.18. |
 | Lemma 4.3, `lem:tensor-difference-injectivity` | For linear maps A on V and B on W, A tensor I minus I tensor B is injective on the algebraic tensor product if either map has no nonzero finite-dimensional invariant subspace. | A minimal tensor decomposition of a nonzero kernel vector would give a finite-dimensional invariant subspace; interchange the factors for the symmetric case. |
 | Lemma 4.4, `lem:tensor-quotient-kernels` | For a subspace E of a complex vector space V and the quotient map pi, the natural maps in both tensor orders are injective, and ker(pi tensor I)=E tensor W and ker(I tensor pi)=W tensor E. | Choose a complement V_1 with \(V=E\oplus V_1\), distribute the tensor product over this direct sum and use that pi restricts to an isomorphism on V_1. Interchange the tensor factors for the second equality. |
 | Lemma 4.5, `lem:tensor-l2-recovery` | If every x-lambda is regular, the map Psi_x from Definition 1.3 is injective; an algebraic L2 image has an algebraic L2 preimage. | Regularity of every x-lambda excludes nonzero finite-dimensional invariant subspaces for both factor multiplication maps, so Lemma 4.3 gives injectivity of Psi_x. For each tensor factor, passing to the quotient by H, applying Lemma 4.3 and identifying the kernel by Lemma 4.4 gives recovery. |
 | Proposition 4.6, `prop:liberation-delta` | Tuples X in M^d with X_i-lambda regular for every i and every complex lambda and with a liberation dual system satisfy Delta(X)=d. | Clear a finite-rank cycle's tensor factors and use m_{L_i}(Psi_j(ell))=delta_ij Theta(Psi_i(ell)) to separate the i-th term on M Omega. Boundedness and density, individual injectivity and cancellation of the denominators give the conclusion. |
-| Lemma 4.7, `lem:tensor-images-l2` | Under the same hypotheses, a bounded algebraic total image ell_0=sum_i Psi_i(k_i) forces each k_i into H tensor_alg H and gives closure m_{L_i}(ell_0)=Theta(Psi_i(k_i)). | m_{L_i}(ell_0) is closable by the adjoint-domain condition. The two separately numbered formulas for m_{L_i} move the outside factors inside m_{L_i} and separate the i-th term, giving sT_i t=Theta(Psi_i(ell_i)). This makes the restriction to t M Omega finite rank, so Lemma 4.2 gives a bounded finite-rank closure. Theta, regular cancellation and Lemma 4.5 recover the tensors. |
+| Lemma 4.7, `lem:tensor-images-l2` | Under the same hypotheses, a bounded algebraic total image ell_0=sum_i Psi_i(k_i) forces each k_i into H tensor_alg H and gives closure m_{L_i}(ell_0)=Theta(Psi_i(k_i)). | The inclusion \(\mathcal M\Omega\subseteq\operatorname{Dom}L_i^*\) gives \(\mathcal M\Omega\subseteq\operatorname{Dom}T_i^*\) for \(T_i=m_{L_i}(\ell_0)\), so \(T_i\) is closable. The two separately numbered formulas for m_{L_i} move the outside factors inside m_{L_i} and separate the i-th term, giving sT_i t=Theta(Psi_i(ell_i)). This makes the restriction to t M Omega finite rank, so Lemma 4.2 gives a bounded finite-rank closure. Theta, regular cancellation and Lemma 4.5 recover the tensors. |
 
 Proposition 4.6 is proved separately from Lemma 4.7.
-Its proof uses the liberation commutator relations and regularity of every scalar shift; the recovery lemma uses the adjoint-domain condition to obtain closability.
+Its proof uses the liberation commutator relations and regularity of every scalar shift; the recovery lemma uses \(\mathcal M\Omega\subseteq\operatorname{Dom}L_i^*\) to obtain closability.
 The density needed in these proofs is that of M Omega and t M Omega in H.
 Proposition 4.6, Lemma 4.7 and Theorem 1.7 require neither normality nor generation of M by X.
 The proof of Theorem 1.7 follows Lemma 4.7 in Section 4.
 Its new assertion (4) uses a normalized system; normalization is always available and hence does not restrict the admissible tuples X.
-The reference to Lemma 5.1 uses only its common-domain hypotheses and has no dependence on Theorem 1.7.
+The application of Lemma 5.1 uses \(\mathcal M\Omega\subseteq\operatorname{Dom}L_i\cap\operatorname{Dom}L_i^*\), and the proof of Lemma 5.1 does not use Theorem 1.7.
 
 ## Ordinary Duals and Liberation Gradients
 
-Definition 1.8, `def:dual-system`, precedes Theorem 1.9 and states the common domain and adjoint-domain inclusion and the generator-first relations on M Omega.
+Definition 1.8, `def:dual-system`, precedes Theorem 1.9 and states \(\mathcal M\Omega\subseteq\operatorname{Dom}D_i\cap\operatorname{Dom}D_i^*\) and the generator-first relations on M Omega.
 Theorem 1.9 and Lemmas 5.3 and 5.6 use this definition; normality and generation remain separate hypotheses wherever needed.
 Lemma 5.1 supplies closability on the natural fraction-commutator domain.
 Lemma 5.2, `lem:fraction-ranks`, uses common denominators and the finite-rank closure lemma to propagate finite rank from one fraction pair to every pair and prove equality of the ranks.
 Lemma 5.3, `lem:finite-rank-identification`, clears the tensor factors of a finite-rank solution and applies the ordinary dual relation on M Omega to identify its coordinates with the actual fraction-commutator closures.
 These fraction lemmas require no normality or generation of M.
-The generic domain assumptions in Lemmas 5.1 and 5.2 remain sufficient, so Lemma 5.1 can also be used with liberation dual operators in Section 4.
+For each operator \(D\), Lemmas 5.1 and 5.2 require \(\mathcal M\Omega\subseteq\operatorname{Dom}D\cap\operatorname{Dom}D^*\).
+They require no ordinary dual commutator relations, so Lemma 5.1 also applies to the liberation dual operators in Section 4.
 Lemma 5.4, `lem:normal-intertwining`, gives the bounded-map adjoint intertwining from CS77; the classical Fuglede statement precedes it.
 Lemma 5.5 uses that lemma, the closed graph theorem and Kaplansky density for closable module commutation.
 Lemma 5.6, `lem:fundamental`, sets K_i=[rho(X_i),D_i restricted to M Omega], C=sum_i K_i-P_Omega and L_i=K_i-C/d.
-It checks the common adjoint domain, normalized liberation relations and regularity of scalar shifts.
+It proves \(\mathcal M\Omega\subseteq\operatorname{Dom}K_i^*\cap\operatorname{Dom}C^*\cap\operatorname{Dom}L_i^*\) for every \(i\), verifies the normalized liberation relations and proves regularity of every scalar shift.
 Lemma 5.5 makes C left M-linear, so Gamma[Q,C] vanishes on M Omega.
 This gives closure Gamma[Q,L_i]=[rho(X_i),closure Gamma[Q,D_i]] whenever the latter ordinary fraction commutator has bounded closure, and retains the fundamental summed identity.
 The proof of Theorem 1.9 uses Theorem 1.7 in both directions.
