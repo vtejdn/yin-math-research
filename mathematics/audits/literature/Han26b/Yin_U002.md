@@ -137,3 +137,4 @@ The active [F0012 v3 contract](../../../tasks/Yin_T_F0012_v3.md#contract) also a
 It asks for full-sequence weak convergence almost surely under every coupling across sizes.
 The density-based bottom singular-value proof, the fractional moment for the mesoscopic count, and the convergence-in-probability conclusion each mark a separate limit to applying Han26b to that contract.
 The repository's [almost-sure GUE case](../../../claims/Yin_C_F0186_v3.md#statement) has its own proof and stronger convergence mode.
+The project subsequently adapted the Wigner trace observations to [arbitrary diagonal laws and positive continuous components in the upper laws](../../../claims/Yin_C_F0186_v45.md#statement), using the separate finite-variance clipping estimate for the almost-sure conclusion.

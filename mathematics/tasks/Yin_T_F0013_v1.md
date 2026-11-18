@@ -168,6 +168,8 @@ The [logarithmic interval estimate](../claims/Yin_C_F0186_v40.md#band) already h
 Without the translation condition the outstanding general issue is the logarithmic loss below the polynomial cutoff.
 The [product-measure tube bound](../claims/Yin_C_F0186_v43.md#application) controls that loss on all good dimensions under its power concentration or planar density hypotheses, including singular drift and the indicated skew colors with zero diagonal.
 For [independent coordinates with logarithmic concentration](../claims/Yin_C_F0368_v1.md#argument), a stretched-exponential lower bound suffices because the singular-value count at a polynomial cutoff decays by a power.
+Under [positive continuous component masses](../claims/Yin_C_F0186_v45.md#statement), arbitrary diagonal laws and finite second moments suffice for every fixed affine pencil.
+At finite free logarithm the ordinary determinant logarithms converge along multiples of each invertible witness size, which proves the required dimension-limsup even for singular constant terms.
 
 The [elimination theorem](../claims/Yin_C_F0353_v2.md#decision-two-direction-elimination-reviewed) proves an original-law polynomial least-value bound whenever the rank-one variable coefficients can be removed leaving the constant and remaining coefficients in a space of dimension at most two.
 For these real-input pencils it gives convergence in probability through all sizes, almost-sure convergence on \(N=2^j\) under every coupling, and the ordinary dimension-limsup equality without (T).

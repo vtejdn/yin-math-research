@@ -34,3 +34,9 @@ The [two-moment quadratic trims](../claims/Yin_C_F0186_v42.md#statement) provide
 For \(1+x^2y^2+yx\), the [mixed same-edge sign difference](../ledger/Yin_L_F0070_v1.md#sign) identifies a legal discrete observation at the polynomial level.
 Proceed to joint volume estimates only if the coefficient survives conditioning at the terminal singular subspace and is large relative to the retained singular product.
 Neither a first characteristic coefficient at infinity nor pointwise convergence in probability supplies the disk probability series.
+
+For a purely atomic upper law \(\mu\) and an absolutely continuous replacement \(\nu\), consider the mixture \((1-\theta_N)\mu+\theta_N\nu\) on its \(M=N(N-1)/2\) independent upper entries.
+The original product is supported on the \(M\)-fold power of a countable set, to which the mixture product assigns exactly \((1-\theta_N)^M\).
+Conditioning on no replacements recovers the original product, so the total variation distance is exactly \(1-(1-\theta_N)^M\).
+A direct comparison with vanishing total variation requires \(N^2\theta_N\to0\), in which case the chance of even one marked edge tends to zero.
+The [positive-component proof](../claims/Yin_C_F0186_v45.md#marks) uses a fixed positive frequency of marked edges, so the unperturbed sign experiment still needs its own determinant estimate.

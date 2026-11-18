@@ -83,5 +83,5 @@ For a general realization adding \(p\) channels, test selected left and right vo
 For \(1+x^2y^2+yx\), the [two-channel border](../ledger/Yin_L_F0070_v1.md#quartic) keeps the rank correction as an affine border in the independent cross columns.
 The two initial trims and the joint lower bound for the resulting physical column pairs remain open.
 The [spectral-parameter route](Yin_S_F0036.md#route) seeks a large determinant somewhere in each small disk, permitting the center itself to be singular.
-The [erased-observation route](Yin_S_F0037.md#route) first tests an arbitrary diagonal law and a high continuous component mass in the off-diagonal laws.
+The [erased-observation route](Yin_S_F0037.md#route) gives the three Wigner limits for arbitrary diagonal laws in the contract when every upper law has a fixed positive absolutely continuous part.
 The general cyclic-pencil terminal estimate remains open.
