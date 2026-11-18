@@ -29,7 +29,6 @@ We call this system \emph{normalized} if
 \begin{remark}\label{rem:liberation-gradients}
 For $X\in\M^d$, put $A_i:=W^*(X_i)$ and $B_i:=W^*(X_j:j\ne i)$, with $B_1:=\C1$ if $d=1$.
 If the liberation gradients $j(A_i:B_i)$ in the sense of \cite[Sections~5.3--5.4]{Voi99} exist in $L^2(\M,\tau)$ for every $i$, then $X$ admits a normalized liberation dual system in the sense of Definition~\ref{def:liberation-dual-system}.
-Thus Theorem~\ref{thm:intrinsic-analytic} applies when the $X_i$ are normal operators with nonatomic spectral distributions.
 \end{remark}
 
 For a liberation dual system $(L_1,\ldots,L_d)$ and $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, let $m_{L_i}(\ell):\M\Omega\to H$ be the linear operator defined by linear extension of
@@ -351,8 +350,7 @@ Set
  \ell_0:=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
    =\sum_i\Psi_i(\ell_i).
 \]
-Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$.
-By equation~\eqref{eq:liberation-tensor-closure}, $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
+Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
 For $\xi\in\M\Omega$, by the definition of $m_{L_i}$ and $\ell_0$,
 \[
  m_{L_i}(\ell_0)\xi
@@ -361,7 +359,10 @@ For $\xi\in\M\Omega$, by the definition of $m_{L_i}$ and $\ell_0$,
 \]
 By Definition~\ref{def:liberation-dual-system}, $\M\Omega\subseteq\dom L_i\cap\dom L_i^*$.
 Lemma~\ref{lem:fraction-domains} therefore implies that $\Gamma[Q,L_i]$ is closable.
-Its closure extends the bounded, everywhere-defined operator $-\overline{m_{L_i}(\ell_0)}$ and therefore equals it.
+Thus we have
+\[
+\overline{\Gamma[Q,L_i]}=-\overline{m_{L_i}(\ell_0)}=-\Theta(\Psi_i(\ell_i)).
+\]
 With $T_i:=-\Theta(\ell_i)\in\F(H)$, equation~\eqref{eq:tensor-commutator-general} now gives
 \[
  \overline{\Gamma[Q,L_i]}
