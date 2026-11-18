@@ -274,6 +274,7 @@ Sections 3–4 rely on fresh independent entries in one omitted block column and
 If a pencil contains both \(G\) and \(G^*\), other columns can contain conjugates of entries in the omitted column, so freezing the former no longer gives the exposed-column law used in (3.13)–(3.16).
 This identifies the failed transfer at a specific step.
 Han explicitly places polynomials with adjoints in Question 1.8 (p. 6).
+The November sequel gives a new inverse-row and determinant-gradient proof for this extension under its bounded-density and moment hypotheses. [Han26b, Theorems 1.1 and 1.4](../Han26b/Yin_U002.md#f0012)
 
 The local proof of the full GUE result supplies its own small-singular-value and logarithmic-tail estimates for the logarithmic criterion in Section 5.
 The independent whole-chain review checks that use of Han26. [C_F0186 v1](../../../claims/Yin_C_F0186_v1.md#argument), [R_F0190 v1](../../reviews/Yin_R_F0190_v1.md#whole-chain-finding).

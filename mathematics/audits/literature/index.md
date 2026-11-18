@@ -80,6 +80,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [GS14/Yin_U001](GS14/Yin_U001.md) | GS14: Selected Analytic Transport Input |
 | [GW25/Yin_U001](GW25/Yin_U001.md) | GW25: The Classical Polynomial Runge Interface |
 | [Han26/Yin_U001](Han26/Yin_U001.md#han26-u001) | Brown measure convergence for holomorphic Ginibre polynomials, the proof and its GUE boundary |
+| [Han26b/Yin_U001](Han26b/Yin_U001.md#han26b-u001) | Least singular values of pencils with adjoints and Wigner symmetry, independent edge exposure and the diagonal moment in the localization rate |
+| [Han26b/Yin_U002](Han26b/Yin_U002.md#han26b-u002) | Brown measure convergence for general Wigner polynomials and iid polynomials with adjoints, including the expected spatial logarithmic limit |
 | [Hun74/Yin_U001](Hun74/Yin_U001.md) | Modules, Homomorphisms and Exact Sequences |
 | [Hun74/Yin_U002](Hun74/Yin_U002.md) | Free Modules and Vector Spaces |
 | [Hun74/Yin_U003](Hun74/Yin_U003.md) | Projective and Injective Modules |
