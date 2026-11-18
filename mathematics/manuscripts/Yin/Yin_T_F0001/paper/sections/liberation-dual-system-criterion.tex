@@ -3,8 +3,8 @@
 \label{sec:liberation-dual-system-criterion}
 
 We prove Theorem~\ref{thm:intrinsic-analytic} in this section.
-
 We begin by recalling Definition~\ref{def:liberation-dual-system}.
+
 \begin{definition*}
 Let $X=(X_1,\ldots,X_d)\in\M^d$, and put $H:=L^2(\M,\tau)$ and $\Omega:=1$.
 A \emph{liberation dual system} for $X$ is a tuple $(L_1,\ldots,L_d)$ of linear operators on $H$ such that
@@ -296,7 +296,11 @@ Since $t$ has dense range, $t\M\Omega$ is dense in $H$.
 This restriction is closable, and Lemma~\ref{lem:finite-closure} makes its closure a bounded finite-rank operator on $H$.
 The operator $\overline{T_i}$ extends that closure and therefore equals it.
 Set $h_i:=\Theta^{-1}(\overline{T_i})\in H\otimes_{\C}H$.
-Extending equation~\eqref{eq:liberation-cleared-operator} by boundedness and density, and using the outer bimodule actions of $\Theta$, we obtain
+Extending equation~\eqref{eq:liberation-cleared-operator} by boundedness and density, we have
+\[
+ s\overline{T_i}t=\Theta(\Psi_i(\ell_i)).
+\]
+Applying $\Theta^{-1}$ to both sides, we obtain
 \[
  (s\otimes t^{\mathrm{op}})h_i
  =\Psi_i(\ell_i)
@@ -320,7 +324,12 @@ Set
 \]
 Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$.
 By equation~\eqref{eq:liberation-tensor-closure}, $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
-By definition, $m_{L_i}(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
+For $\xi\in\M\Omega$, by the definition of $m_{L_i}$ and $\ell_0$,
+\[
+ m_{L_i}(\ell_0)\xi
+ = aL_i(t\xi)-sL_i(b\xi)
+ = -\Gamma[Q,L_i]\xi.
+\]
 By Definition~\ref{def:liberation-dual-system}, $\M\Omega\subseteq\dom L_i\cap\dom L_i^*$.
 Lemma~\ref{lem:fraction-domains} therefore implies that $\Gamma[Q,L_i]$ is closable.
 Its closure extends the bounded, everywhere-defined operator $-\overline{m_{L_i}(\ell_0)}$ and therefore equals it.

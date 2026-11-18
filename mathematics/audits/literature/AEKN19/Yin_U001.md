@@ -25,3 +25,18 @@ If \(M(E+i\eta)\) and the inverse stability operator are bounded uniformly for \
 In (B.2) the diagonal resolvent block error is then stochastically dominated by \(C((N\eta)^{-1/2}+N^{-1/2}+(N\eta)^{-1})\) for \(N^{-1+\gamma}\le\eta\le2\).
 Using Definition 4.2 with a sufficiently small stochastic-domination exponent gives a uniform constant bound on all its diagonal blocks at a polynomial number of specified scales, except with probability \(O_D(N^{-D})\) for each fixed \(D\).
 The input is the stable-regime local law at its stated hypotheses; its long proof and the paper's conclusions for non-Hermitian spectra were not independently re-audited.
+
+<a id="kronecker-pseudospectrum"></a>
+## Exclusion of singular values outside the deterministic pseudospectrum
+
+The 18 November 2026 inspection of the [same v3 original](../../../literature/pdf/AEKN19--arxiv-v3.pdf) covers Definition 2.1 and equations (2.6)–(2.12) on pp. 4–6 and the statement and use of Lemma 6.1 on pp. 25–26.
+Definition 2.1 permits a sum of arbitrary fixed structure matrices tensored with independent centered Hermitian input matrices whose entries are independent up to reflection.
+Consequently one physical variable can occur in several auxiliary blocks of a single structure matrix.
+The input bounds (2.9)–(2.12) control the upper variances by a constant times the inverse matrix dimension, bound every moment of the rescaled entries, and bound the finitely many structure matrices and site drifts in operator norm.
+For each complex parameter the unique positive-imaginary-part solution of the Hermitized Dyson equation in Lemma 2.2 defines a deterministic law on the real axis.
+Write \(D_b\) for the parameters at which the distance from zero to the support of this law is at most \(b\).
+For fixed \(0<e\le1,\ d>0\) and \(M>0\), Lemma 6.1 puts the entire \(e\)-pseudospectrum of the finite matrix inside \(D_{e+d}\) with failure probability at most \(C_{e,d,M}N^{-M}\).
+Here the finite pseudospectrum includes all parameters with smallest singular value at most \(e\).
+The estimate includes the non-Hermitian case and needs no lower variance or irreducibility assumption.
+The source theorem is used at statement and applicability depth.
+The [balanced companion calculation](../../../ledger/Yin_L_F0070_v2.md#exterior) identifies its deterministic law with the free Hermitization in the equal-variance model.
