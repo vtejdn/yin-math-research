@@ -27,6 +27,8 @@ Several bad singular values require a joint minor or other control of cancellati
 
 For \(P=(A+2B)(3A+B)\) near \(i\), first estimate the bilinear overlap with \(3A+B\) for the actual nearly singular vector on the original sign ensemble.
 Use an independently exposed block to address the dependence of this vector on the tested entries.
+The [elliptic companion](../ledger/Yin_L_F0070_v2.md#elliptic) gives the exact potential at \(i\), where the test point lies strictly inside the free spectrum.
+The [uniform exterior floor](../ledger/Yin_L_F0070_v2.md#exterior) covers every compact set outside the explicit ellipse for the sign matrices.
 The [bounded symmetric Jordan example](../ledger/Yin_L_F0070_v1.md#spatial) eliminates an argument from factor symmetry and a second-value floor alone.
 The [two-moment quadratic trims](../claims/Yin_C_F0186_v42.md#statement) provide the scalar bulk comparison at nonreal centers. [Descent from the top trimmed product](../ledger/Yin_L_F0070_v1.md#spatial)
 For \(1+x^2y^2+yx\), the [mixed same-edge sign difference](../ledger/Yin_L_F0070_v1.md#sign) identifies a legal discrete observation at the polynomial level.

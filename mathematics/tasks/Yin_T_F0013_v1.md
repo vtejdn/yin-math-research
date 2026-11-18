@@ -166,6 +166,8 @@ The [finite-variance affine theorem](../claims/Yin_C_F0186_v40.md#decision-finit
 For a finite target it gives ordinary almost-sure and finite-\(L^r\) convergence along every dimension admitting an invertible witness.
 The [logarithmic interval estimate](../claims/Yin_C_F0186_v40.md#band) already holds in every sufficiently large dimension for arbitrary laws in the finite-variance model.
 Without the translation condition the outstanding general issue is the logarithmic loss below the polynomial cutoff.
+The [product-measure tube bound](../claims/Yin_C_F0186_v43.md#application) controls that loss on all good dimensions under its power concentration or planar density hypotheses, including singular drift and the indicated skew colors with zero diagonal.
+For [independent coordinates with logarithmic concentration](../claims/Yin_C_F0368_v1.md#argument), a stretched-exponential lower bound suffices because the singular-value count at a polynomial cutoff decays by a power.
 
 The [elimination theorem](../claims/Yin_C_F0353_v2.md#decision-two-direction-elimination-reviewed) proves an original-law polynomial least-value bound whenever the rank-one variable coefficients can be removed leaving the constant and remaining coefficients in a space of dimension at most two.
 For these real-input pencils it gives convergence in probability through all sizes, almost-sure convergence on \(N=2^j\) under every coupling, and the ordinary dimension-limsup equality without (T).

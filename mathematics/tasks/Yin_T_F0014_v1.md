@@ -136,6 +136,9 @@ The [finite-variance determinant theorem](../claims/Yin_C_F0186_v40.md#scalar) p
 Both finite and free scalar logarithms equal the logarithms for the matrix word-chain multiplied by the same auxiliary dimension.
 The [scalar word-chain proof](../claims/Yin_C_F0195_v4.md#statement) also gives the required intermediate scales using free Fisher information for the scalar polynomial.
 In both arguments the remaining obligation for the broader contract without (T) concerns the singular logarithms below a polynomial cutoff.
+The [product-measure tube theorem](../claims/Yin_C_F0186_v43.md#application) removes (T) for its power-concentrated, bounded planar-density and skew classes.
+The [quantile-grid estimate](../claims/Yin_C_F0368_v1.md#statement) handles independent coordinates with faster-than-inverse-log-power concentration even when every positive power interval estimate fails.
+Both give the ordinary determinant limsup at every prescribed \(z\), including \(P(0)\), by using the good even dimensions.
 
 Under the real finite-variance laws, the [scalar elimination applications](../claims/Yin_C_F0353_v2.md#scalar) give the ordinary limsup at every prescribed shift for bipartite quadratics with disjoint color groups and for formulas in which all but one variable occur at most once.
 For Rademacher inputs the [all-shift sign theorem](../claims/Yin_C_F0351_v7.md#statement) treats \(xy+\lambda yx\), \(\lambda\in\mathbb R\setminus\{0,-1\}\), and fixed outer polynomials of it, including real roots and \(z=0\).

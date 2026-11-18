@@ -52,6 +52,7 @@ In the induction, the cut term for the last plane uses only earlier planes restr
 Two different planes fixing the same coordinate have empty intersection.
 There are at most \(\binom{k}{j}K^j\) slices of codimension \(j\), and every vertex misses \(M\).
 On a slice of dimension \(l=k-j\ge1\), Milnor's bound gives at most \(D(2D-1)^{l-1}\le(2D)^l\) components, including for noncompact affine levels. [Milnor, Theorem 2, p. 275](https://doi.org/10.1090/S0002-9939-1964-0161339-9)
+The statement and the passage to the whole affine variety appear on printed pp. 275 and 278 of the [journal edition](../literature/pdf/Mil64.pdf).
 Each component of the complement of the planes in \(M\) belongs to one open box.
 Summing the slice bounds for \(0\le j\le k-1\) gives the claimed count.
 

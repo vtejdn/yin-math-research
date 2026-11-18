@@ -25,6 +25,10 @@ At the good sites two constraints are available, proximity to the active image a
 Test the net on these sites with the Gram projection error included, keeping the Chernoff exceptions separate from the union over erasures.
 Once the frame holds for every possible exceptional set, retain the actual marked coordinate derivatives in [Han's determinant argument](../audits/literature/Han26b/Yin_U001.md#wigner-edges).
 First target all absolutely continuous upper laws in their declared coordinate spaces, with finite second moments and arbitrary diagonals.
+When all raw blocks satisfy the [product-measure tube hypotheses](../claims/Yin_C_F0186_v43.md#statement), the three Wigner limits already follow by repairing the kernel.
+For arbitrary fixed diagonal values, the [diagonal-preserving repair](../ledger/Yin_L_F0061_v6.md#repair) yields another test under regular upper laws.
+It requires a bound on the projection onto the span of the physical components of an approximate kernel vector.
+The [two-channel example](../ledger/Yin_L_F0061_v6.md#obstruction) distinguishes that projection from the mass of the vector at one site.
 A second target permits a small singular component whose mass may depend on the number of colors and the cyclic coefficient size.
 The [polynomial localization and pointwise-to-planar argument](../ledger/Yin_L_F0070_v1.md#localization) explains why the frame can use a polynomial norm guard and shift-dependent powers of \(N\).
 A Bernoulli upper law leaves no continuous marks.

@@ -144,6 +144,9 @@ The [reviewed disk criterion](../claims/Yin_C_F0359_v3.md#decision-disk-witness-
 A favorable point can depend on the realization, and Taylor coefficients can supply it even if the disk center is singular.
 The [independent review](../audits/reviews/Yin_R_F0367_v3.md#disk-minors-whole-proof) covers that reduction and a sufficient bottom-space minor test.
 Establishing the disk bound for arbitrary input laws remains open.
+For real entries satisfying a power interval bound, and for the specified planar and purely imaginary colors, the [product-measure tube theorem](../claims/Yin_C_F0186_v43.md#statement) now gives the full weak Brown limit with only second moments.
+The [quantile-grid theorem](../claims/Yin_C_F0368_v1.md#statement) also treats independent real coordinates whose interval concentrations decay faster than all inverse logarithmic powers, including a law of Hausdorff dimension zero.
+For the original correlated sign product \((A+2B)(3A+B)\), the [elliptic companion calculation](../ledger/Yin_L_F0070_v2.md#elliptic) identifies the free target and gives a summable exterior estimate, leaving the disk bound around \(i\) open.
 For \(1+x^2y+yx\), the [two-slice border estimate](../claims/Yin_C_F0362_v1.md#statement) reduces this loss to the bottom \(O(\log N\log\log N)\) singular values under the original real two-moment laws.
 Keeping \(Y\) fixed in the [partially linearized exterior](../claims/Yin_C_F0362_v2.md#exterior) gives a single scalar deletion per site, including odd initial gaps.
 The [three-direction Schur estimate](../claims/Yin_C_F0363_v1.md#statement) completes the all-dimension terminal series and hence the almost-sure weak Brown limit for this cubic.

@@ -512,6 +512,11 @@ On a cyclic spectral chart, the disk test compares the maximum of the ordinary p
 Recorded consumer navigation: the [global clipping theorem](../claims/Yin_C_F0186_v27.md#stretched-clipped-potential) and [remaining almost-sure Brown defect](../claims/Yin_C_F0186_v27.md#extreme-planar-defect).
 Further consumers: [log-concave planar deviations](../claims/Yin_C_F0186_v28.md#clipped-planar-defect) and [sparse fourth-moment truncation](../claims/Yin_C_F0198_v1.md#complete-clipped-transfer), each at its own selected assessment and distributional scope.
 
+### Interval concentration of a raw Wigner coordinate
+
+The concentration function is \(Q(r)=\sup_a\Pr\{a\le X\le a+r\}\) for a real raw entry coordinate \(X\).
+The [power interval estimate](../claims/Yin_C_F0186_v43.md#statement) and the [inverse logarithmic power estimate](../claims/Yin_C_F0368_v1.md#statement) specify the rates used in two determinant arguments.
+
 ### Log-concave probability law on an affine support
 
 Exact source home: [the Carbery--Wright convention](../audits/literature/CW01/Yin_U001.md#log-concavity-definition), including product laws, affine supports and deterministic coordinates.

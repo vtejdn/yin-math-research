@@ -121,7 +121,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0058](Yin_L_F0058_v2.md) | F0012: conditional Gaussian subclasses, exact pencil reduction and logarithmic tails | [v1](Yin_L_F0058_v1.md), [v2](Yin_L_F0058_v2.md) |
 | [Yin_L_F0059](Yin_L_F0059_v1.md) | Degenerate GUE pencils: actual eliminations and the arbitrary-minor obstruction | [v1](Yin_L_F0059_v1.md) |
 | [Yin_L_F0060](Yin_L_F0060_v1.md) | Affine determinant formulas: finite-GUE comparison barriers and one-sided targets | [v1](Yin_L_F0060_v1.md) |
-| [Yin_L_F0061](Yin_L_F0061_v4.md) | Wigner determinant limits, the fourth-moment spectral-gap case and direct Hermitization with original-law small-value targets | [v1](Yin_L_F0061_v1.md), [v2](Yin_L_F0061_v2.md), [v3](Yin_L_F0061_v3.md), [v4](Yin_L_F0061_v4.md) |
+| [Yin_L_F0061](Yin_L_F0061_v6.md) | Wigner determinant limits, quantile-grid tube bounds and repair with fixed diagonal entries | [v1](Yin_L_F0061_v1.md), [v2](Yin_L_F0061_v2.md), [v3](Yin_L_F0061_v3.md), [v4](Yin_L_F0061_v4.md), [v5](Yin_L_F0061_v5.md), [v6](Yin_L_F0061_v6.md) |
 | [Yin_L_F0062](Yin_L_F0062_v1.md) | Public literature boundaries for Wigner, Haar and permutation determinant limits | [v1](Yin_L_F0062_v1.md) |
 | [Yin_L_F0063](Yin_L_F0063_v10.md) | Coupling, coefficient-class propagation and rejection tests for Wigner determinant strategies | [v1](Yin_L_F0063_v1.md), [v2](Yin_L_F0063_v2.md), [v3](Yin_L_F0063_v3.md), [v4](Yin_L_F0063_v4.md), [v5](Yin_L_F0063_v5.md), [v6](Yin_L_F0063_v6.md), [v7](Yin_L_F0063_v7.md), [v8](Yin_L_F0063_v8.md), [v9](Yin_L_F0063_v9.md), [v10](Yin_L_F0063_v10.md) |
 | [Yin_L_F0064](Yin_L_F0064_v1.md) | Alternative Schur pivots and phase anti-concentration boundaries for Haar pencils | [v1](Yin_L_F0064_v1.md) |
@@ -130,6 +130,6 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_F0067](Yin_L_F0067_v2.md) | Independent row replacements and paired border growth | [v1](Yin_L_F0067_v1.md), [v2](Yin_L_F0067_v2.md) |
 | [Yin_L_F0068](Yin_L_F0068_v1.md) | Gaussian rotation and the fourth-moment Wigner disk lower bound | [v1](Yin_L_F0068_v1.md) |
 | [Yin_L_F0069](Yin_L_F0069_v4.md) | Unequal-length word compressions, projected-pair energy, sign cancellation, higher-degree residues and the full-direction obstruction | [v1](Yin_L_F0069_v1.md), [v2](Yin_L_F0069_v2.md), [v3](Yin_L_F0069_v3.md), [v4](Yin_L_F0069_v4.md) |
-| [Yin_L_F0070](Yin_L_F0070_v1.md) | Disk tests for Wigner determinants, masked trace observations, mixed sign differences and a quartic border | [v1](Yin_L_F0070_v1.md) |
+| [Yin_L_F0070](Yin_L_F0070_v2.md) | Disk tests, marked trace observations and the elliptic companion of a correlated Wigner product | [v1](Yin_L_F0070_v1.md), [v2](Yin_L_F0070_v2.md) |
 | [Yin_L_G0001](Yin_L_G0001_v1.md) | G0001 exploration: integer orbit Gram determinants | [v1](Yin_L_G0001_v1.md) |
 | [Yin_L_G0002](Yin_L_G0002_v1.md) | Single-Haar weight identity, regularization and the lower-certificate boundary | [v1](Yin_L_G0002_v1.md) |

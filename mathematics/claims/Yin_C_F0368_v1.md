@@ -73,7 +73,7 @@ The law is bounded and nondegenerate, and centering and variance normalization p
 Independent copies in the real upper entries and diagonals therefore give all three conclusions under this singular continuous law.
 
 ## Current assessment
-[Selected decision](#decision-log-concentration-candidate)
+[Selected decision](#decision-log-concentration-reviewed)
 
 ## Assessment history
 
@@ -91,3 +91,19 @@ Independent copies in the real upper entries and diagonals therefore give all th
 | argument | [Rare very small singular values](#argument) | Summable loss on good dimensions and almost-sure weak Brown convergence. |
 | support | [Dimension-zero example](#example) | A law with all inverse logarithmic concentration rates and no positive power rate. |
 | dependency | [Quantile grids](../ledger/Yin_L_F0061_v5.md#box-count) | Degree-linear tube bound in independent scalar coordinates. |
+
+### Decision log-concentration-reviewed
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-18T11:36 |
+| status | proved |
+| reason | Independent whole-proof review verifies the algebraic grid estimate, the singular-value count and the good-dimension and planar conclusions, including the dimension-zero example. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Finite-variance limits](#statement) | Independent real coordinates with logarithmic interval concentration. |
+| argument | [Stretched-exponential floor and counting](#argument) | Summable lower-tail failures, vanishing normalized loss and the determinant and Brown limits. |
+| support | [Zero-dimensional support](#example) | Explicit input law outside every positive power interval concentration class. |
+| dependency | [Quantile grid](../ledger/Yin_L_F0061_v5.md#box-count) | Coefficient-independent estimate with linear dependence on degree and quadratic dependence on dimension. |
+| review | [Independent whole-proof finding](../audits/reviews/Yin_R_F0376_v1.md#log-concentration-whole-proof) | Full argument, grid construction, affine component bound, exceptional dimensions and planar transfer. |
