@@ -73,9 +73,9 @@ and hence, on $\M\Omega$,
 \]
 Linearity proves equation~\eqref{eq:liberation-phi-bimodule} for every $\ell$.
 
-\begin{lemma}\label{lem:liberation-normalization}
+\begin{proposition}\label{prop:liberation-normalization}
 If $X\in\M^d$ admits a liberation dual system, then it admits a normalized liberation dual system.
-\end{lemma}
+\end{proposition}
 \begin{proof}
 Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
 Define operators $C,\widetilde L_1,\ldots,\widetilde L_d$, each with domain $\M\Omega$, by
@@ -315,6 +315,28 @@ Applying $\Theta^{-1}$ to both sides, we obtain
 \]
 Cancellation of the regular outside factors gives $\Psi_i(k_i)=h_i\in H\otimes_{\C}H$.
 Since every $X_i-\lambda$ is regular, Lemma~\ref{lem:tensor-l2-recovery} gives $k_i\in H\otimes_{\C}H$.
+\end{proof}
+
+The proof of Theorem~\ref{thm:intrinsic-analytic} uses the following closability result for fraction commutators.
+
+\begin{lemma}\label{lem:fraction-domains}
+Let \(D_1,\ldots,D_d\) be densely defined linear operators on \(H\) such that
+\[\M\Omega\subseteq\dom D_i\cap\dom D_i^*\]
+for \(1\leq i\leq d\).
+For every \(u\in L^0(\M)\), every fraction pair \(Q\) of \(u\), and every \(i\), the operator \(\Gamma[Q,D_i]\) is closable and densely defined.
+\end{lemma}
+\begin{proof}
+Fix \(i\) and write \(Q=(s,a,b,t)\).
+Since \(b,t\in\M\) preserve \(\M\Omega\), the domain of \(\Gamma[Q,D_i]\) contains \(\M\Omega\).
+For \(\eta\in\M\Omega\), we have \(s^*\eta,a^*\eta\in\M\Omega\subseteq\dom D_i^*\).
+Thus, for \(\xi\in\dom\Gamma[Q,D_i]\),
+\begin{equation}\label{eq:defect-adjoint}
+ \langle\eta,\Gamma[Q,D_i]\xi\rangle
+ =\left\langle
+ b^*D_i^*(s^*\eta)-t^*D_i^*(a^*\eta),\xi
+ \right\rangle.
+\end{equation}
+Thus \(\M\Omega\subseteq\dom(\Gamma[Q,D_i])^*\), so \(\Gamma[Q,D_i]\) is closable.
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:intrinsic-analytic}]

@@ -14,7 +14,7 @@ Current writing opinions are in [revisions.md](revisions.md).
 
 ## Build
 
-Run the following sequence from this document directory with TeX Live, pdfLaTeX and BibTeX available:
+Run the following sequence from this document directory with pdfLaTeX and BibTeX available:
 
 ```powershell
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
@@ -23,6 +23,7 @@ pdflatex -interaction=nonstopmode -halt-on-error main.tex
 pdflatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
+With MiKTeX, pass `--disable-installer` to each pdfLaTeX invocation.
 Repeat pdfLaTeX when the log requests another pass to settle cross-references.
 The document uses `amsart`, `fontenc`, `lmodern`, `amsmath`, `amssymb`, `mathtools`, `geometry`, `microtype`, `needspace` and `hyperref`.
 The bibliography style is `amsalpha`.
@@ -31,15 +32,14 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The sources for the numbered closure identity in Lemma 4.7 compiled successfully on 2026-11-18 with the commands above using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The sources with Proposition 4.2 and Lemma 4.9 preceding the proof of Theorem 1.7 compiled successfully on 2026-11-18 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
+The build ran in the directory containing `main.tex` with the commands above and one extra pdfLaTeX pass to settle cross-references.
 The resulting PDF has 21 pages.
-This build precedes the relocation of the liberation-gradient remark.
-In the current source, Remark 4.1 immediately follows the recalled definition at the start of Section 4.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 
-The source check found 82 unique labels, no unresolved references and exactly 21 cited bibliography entries.
+The source check found 82 unique labels and the build resolved all cross-references and 21 bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
-The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed.
+The check covered the revised source, references and compilation diagnostics.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).

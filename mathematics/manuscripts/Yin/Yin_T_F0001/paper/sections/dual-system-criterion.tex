@@ -7,29 +7,6 @@ We prove Theorem~\ref{thm:analytic} by applying Theorem~\ref{thm:intrinsic-analy
 We first prove that the existence of a finite-rank closure and its rank are independent of the fraction pair, and identify finite-rank solutions of equation~\eqref{eq:certificate} with the closures of the corresponding fraction commutators.
 The construction also supplies the summed fraction-commutator identity needed for the converse.
 
-The following lemma supplies the domain facts needed for the fraction commutators.
-\begin{lemma}\label{lem:fraction-domains}
-Let \(D_1,\ldots,D_d\) be densely defined linear operators on \(H\) such that
-\[\M\Omega\subseteq\dom D_i\cap\dom D_i^*\]
-for \(1\leq i\leq d\).
-For every \(u\in L^0(\M)\), every fraction pair \(Q\) of \(u\), and every \(i\), the operator \(\Gamma[Q,D_i]\) is closable and densely defined.
-\end{lemma}
-\begin{proof}
-Fix \(i\) and write \(Q=(s,a,b,t)\).
-Since \(b,t\in\M\) preserve \(\M\Omega\), the domain of \(\Gamma[Q,D_i]\) contains \(\M\Omega\).
-For \(\eta\in\M\Omega\), we have \(s^*\eta,a^*\eta\in\M\Omega\subseteq\dom D_i^*\).
-Thus, for \(\xi\in\dom\Gamma[Q,D_i]\),
-\begin{equation}\label{eq:defect-adjoint}
- \langle\eta,\Gamma[Q,D_i]\xi\rangle
- =\left\langle
- b^*D_i^*(s^*\eta)-t^*D_i^*(a^*\eta),\xi
- \right\rangle.
-\end{equation}
-Thus \(\M\Omega\subseteq\dom(\Gamma[Q,D_i])^*\), so \(\Gamma[Q,D_i]\) is closable.
-\end{proof}
-
-The next lemma shows that the finite-rank condition and the resulting ranks are independent of the fraction pair.
-
 \begin{lemma}\label{lem:fraction-ranks}
 Let $D$ be a densely defined linear operator on $H$ such that
 $\M\Omega\subseteq\dom D\cap\dom D^*$.
