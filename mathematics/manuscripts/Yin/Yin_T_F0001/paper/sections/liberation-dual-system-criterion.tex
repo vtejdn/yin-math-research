@@ -256,11 +256,10 @@ If $k_1,\ldots,k_d\in L^0(\M)\otimes_{\C}L^0(\M)^{\mathrm{op}}$ satisfy
 \[
  \ell_0:=\sum_{i=1}^d\Psi_i(k_i)\in\M\otimes_{\C}\M^{\mathrm{op}},
 \]
-then, for every $i$,
-\[
- k_i\in H\otimes_{\C}H,
- \qquad \overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(k_i)).
-\]
+then, for every $i$, $k_i\in H\otimes_{\C}H$ and
+\begin{equation}\label{eq:liberation-tensor-closure}
+ \overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(k_i)).
+\end{equation}
 \end{lemma}
 \begin{proof}
 Fix $i$, write $\ell_0=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $T_i:=m_{L_i}(\ell_0)$ on $\M\Omega$.
@@ -319,7 +318,8 @@ Set
  \ell_0:=a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}
    =\sum_i\Psi_i(\ell_i).
 \]
-Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$ and $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
+Lemma~\ref{lem:tensor-images-l2} gives $\ell_i\in H\otimes_{\C}H$.
+By equation~\eqref{eq:liberation-tensor-closure}, $\overline{m_{L_i}(\ell_0)}=\Theta(\Psi_i(\ell_i))$.
 By definition, $m_{L_i}(\ell_0)=-\Gamma[Q,L_i]|_{\M\Omega}$.
 By Definition~\ref{def:liberation-dual-system}, $\M\Omega\subseteq\dom L_i\cap\dom L_i^*$.
 Lemma~\ref{lem:fraction-domains} therefore implies that $\Gamma[Q,L_i]$ is closable.

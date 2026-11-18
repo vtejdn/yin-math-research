@@ -31,16 +31,19 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The source set prepared for this Section 4 revision compiled successfully on 2026-11-18 with the commands above, using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d and producing a 21-page PDF of 459532 bytes.
+The sources for the numbered closure identity in Lemma 4.7 compiled successfully on 2026-11-18 with the commands above using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The resulting PDF has 21 pages.
 Section 4 opens with an unnumbered recall of Definition 1.6, including the common operator and adjoint domains, the liberation commutator relations and sum normalization.
 The tensor-evaluation passage follows this definition, before Lemma 4.1; the result numbers in Section 4 are unchanged.
 Equations (18) and (19) state the two formulas for \(m_{L_i}\) separately and are proved on simple tensors.
-Proposition 4.6 uses equation (18) to isolate one term; Lemma 4.7 uses both formulas in the calculation numbered (20).
+Proposition 4.6 uses equation (18) to isolate one term.
+Lemma 4.7 uses equations (18) and (19) in equation (21).
+The proof of Theorem 1.7 cites the closure identity in equation (20).
 The liberation-gradient implication is stated briefly in Remark 4.8 at the end of Section 4.
 The dual-system criterion is Section 5, and the arcsine and circular examples are Remarks 6.1 and 6.2 in Section 6.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 
-The source check found 81 unique labels, no unresolved references and exactly 21 cited bibliography entries.
+The source check found 82 unique labels, no unresolved references and exactly 21 cited bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
 The revised source and compilation diagnostics were checked; no page rendering or visual layout inspection was performed.
