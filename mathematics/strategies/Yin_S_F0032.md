@@ -17,7 +17,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | For the remaining correlated rank-one products, test a nonreal shift of two injective sign forms and the two real energies where the Hermitian Dyson stability degenerates. |
+| priority | For F0012, prioritize discrete Schur restoration and finite matrix residue detectors through S_F0035; retain the unresolved correlated-product tests at their stated scopes. |
 
 ## Current allocation and discriminating tests
 

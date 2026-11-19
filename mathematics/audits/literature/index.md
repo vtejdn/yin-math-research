@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [RV09/Yin_U001](RV09/Yin_U001.md#rv09-u001) | Subspace least common denominator and Theorem 4.2 distance bound; arXiv v4 statement and applicability inspection, with the local rescaling correction and no whole-proof audit |
 | [NS24](NS24/readme.md#author-manuscript) | Non-unique products of finite sets in a torsion-free group, Theorem 1.4 of the author manuscript and its computational input. |
 | [KLS17/Yin_U001](KLS17/Yin_U001.md#kls17-u001) | Complete journal-edition audit, corrected finite trace lattice, projective Artinian criterion, unresolved G-theory implication and precise quotient approximation |
 | [LS12 source notes](LS12/readme.md) | Selected primary Artinian and rank-density inputs for KLS17, with journal/preprint numbering correspondence |

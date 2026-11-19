@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test a bottom left-right pairing for a correlated sign product and a surviving mixed sign difference for the quartic before extending to general pencils. |
+| priority | Carry the finite-matrix residue detector through the actual cross-color Schur observation, and test its extension beyond commuting polynomial specializations. |
 | parent | [Ordinary cyclic shifts](Yin_S_F0035.md#route) |
 
 ## Determinant growth in a fixed disk
@@ -34,6 +34,12 @@ The [two-moment quadratic trims](../claims/Yin_C_F0186_v42.md#statement) provide
 For \(1+x^2y^2+yx\), the [mixed same-edge sign difference](../ledger/Yin_L_F0070_v1.md#sign) identifies a legal discrete observation at the polynomial level.
 Proceed to joint volume estimates only if the coefficient survives conditioning at the terminal singular subspace and is large relative to the retained singular product.
 Neither a first characteristic coefficient at infinity nor pointwise convergence in probability supplies the disk probability series.
+
+The 19 November 2026 [discrete tests](../ledger/Yin_L_F0070_v3.md#density-obstructions) rule out replacing density slicing by coefficient irreducibility or large Boolean relative gradients alone.
+The [finite matrix residue detector](../ledger/Yin_L_F0070_v3.md#physical-detector) provides a different source of algebraic information, including an antisymmetric physical cross-color test that recovers all three auxiliary directions.
+The [commutator-cubic extension](../ledger/Yin_L_F0070_v4.md#schur) supplies the analogous full four-channel detector for \([x,y]x\).
+Prioritize its actual independent-panel and selected-volume interface; the earlier commutator companion has a thin-support Brown problem and served only as the first test of this mechanism.
+The correlated-product disk pairing and the quartic principal trims above remain unresolved, without a claim that this new detector supplies either estimate.
 
 For a purely atomic upper law \(\mu\) and an absolutely continuous replacement \(\nu\), consider the mixture \((1-\theta_N)\mu+\theta_N\nu\) on its \(M=N(N-1)/2\) independent upper entries.
 The original product is supported on the \(M\)-fold power of a countable set, to which the mixture product assigns exactly \((1-\theta_N)^M\).

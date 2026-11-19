@@ -15,7 +15,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Seek a favorable spectral point on each disk and test the quartic exterior on the original sign or two-moment inputs. |
+| priority | Test finite matrix residue detectors and the actual discrete Schur border on Rademacher inputs, retaining the full finite-variance contract. |
 
 ## The full polynomial as one spectral problem
 
@@ -85,3 +85,17 @@ The two initial trims and the joint lower bound for the resulting physical colum
 The [spectral-parameter route](Yin_S_F0036.md#route) seeks a large determinant somewhere in each small disk, permitting the center itself to be singular.
 The [erased-observation route](Yin_S_F0037.md#route) gives the three Wigner limits for arbitrary diagonal laws in the contract when every upper law has a fixed positive absolutely continuous part.
 The general cyclic-pencil terminal estimate remains open.
+
+## Discrete continuation through matrix evaluations
+
+The 19 November 2026 [matrix-evaluation test](../ledger/Yin_L_F0070_v3.md#matrix-detector) exhibits an irreducible three-channel pencil invisible to every commuting residue test but with an invertible detector after a two-dimensional symmetric evaluation.
+Its [cross-color physical observation](../ledger/Yin_L_F0070_v3.md#physical-detector) survives the transpose symmetry of the actual Schur quadratic form.
+The [four-channel extension](../ledger/Yin_L_F0070_v4.md#schur) now supplies an invertible physical detector for \([x,y]x\), with determinant \(1/81\), even though its commuting specialization vanishes identically.
+The [independent bounded review](../audits/reviews/Yin_R_F0377_v2.md#commutator-cubic-detector) verifies this algebraic statement and its exact limitations; the [prototype and covariance review](../audits/reviews/Yin_R_F0377_v1.md) covers the earlier tests separately.
+The next test is to carry this actual two-color observation through independent-panel polarization and selected-volume restoration.
+The [explicit projected incoming and outgoing columns](../drafts/Yin_D_F0045.md#cubic-physical-columns) fix the next covariance test on the original signs, including their shared occurrences on the two sides.
+This algebraic result supplies neither the initial trims nor the projected spread required by the restoration theorem.
+For the two-repeated-color quartic, first test the [transverse covariance](../ledger/Yin_L_F0070_v3.md#joint-covariance) of the old near-kernels under \(Y_0\) and \(X_0^2\), using the existing oversampled independent-column estimate only before those columns have entered the tested subspaces.
+The [fresh-border degree bound](../ledger/Yin_L_F0070_v3.md#fresh-border) gives a size-independent success probability once a quantitative conditional sign completion is available; such a completion and an amplification argument remain open.
+The separate [joint arithmetic calculation](../drafts/Yin_D_F0045.md) records a sufficient LCD condition after actual independent-panel differences, with its decoupling exponent and summability threshold.
+Its joint Gram and arithmetic hypotheses have not been proved for the Schur coefficients, so it remains a conditional alternative when the existing oversampled subspace argument does not apply.
