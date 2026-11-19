@@ -81,7 +81,7 @@ Theorem 1.7 fixes any such normalized system and includes \(\overline{\Gamma[Q,L
 The liberation criterion assumes that \(X_i-\lambda\) is regular for every \(1\leq i\leq d\) and every \(\lambda\in\mathbb C\).
 
 For a linear operator \(L\) on \(H\) with \(\mathcal M\Omega\subseteq\operatorname{Dom}L\), use \(m_L(\ell):\mathcal M\Omega\to H\) for \(\ell\in\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}\).
-Define it by \(m_L(c\otimes e^{\mathrm{op}})\xi:=cL(e\xi)\) for \(c,e\in\mathcal M\) and \(\xi\in\mathcal M\Omega\) and extend linearly in \(\ell\).
+On \(\mathcal M\Omega\), set \(m_L(c\otimes e^{\mathrm{op}}):=cLe\) for \(c,e\in\mathcal M\) and extend linearly in \(\ell\).
 Use \(m_{L_i}\) in Section 4 and \(m_{D_i}\) in Lemma 5.3.
 
 Use “fraction commutator” for the project-local construction associated with \(Q\):

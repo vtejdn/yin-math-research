@@ -32,7 +32,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The revision explaining the projection commutator by the trace in the proof of Proposition 5.6 compiled successfully on 2026-11-20 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
+The revision stating the common domain \(\mathcal M\Omega\) in prose before the relevant displays compiled successfully on 2026-11-20 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above and `--disable-installer` on each pdfLaTeX pass.
 The resulting PDF has 23 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
@@ -40,6 +40,6 @@ The [organization record](../organization.md) gives the current environments and
 The source check found 85 unique labels and the build resolved all cross-references and 21 bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
-The check confirmed the numbering of equations (9), (13) and (15), Proposition 5.6 and equations (25) through (28).
+The check confirmed the numbering of equations (7), (18), (19) and (28) and resolved the references to them.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).

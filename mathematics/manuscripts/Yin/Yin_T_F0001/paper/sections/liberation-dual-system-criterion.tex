@@ -10,18 +10,17 @@ Let $X=(X_1,\ldots,X_d)\in\M^d$, and put $H:=L^2(\M,\tau)$ and $\Omega:=1$.
 A \emph{liberation dual system} for $X$ is a tuple $(L_1,\ldots,L_d)$ of linear operators on $H$ such that
 \[
  \M\Omega\subseteq\dom L_i\cap\dom L_i^*
- \qquad(1\leq i\leq d),
+ \qquad(1\leq i\leq d)
 \]
-and
+and, on $\M\Omega$,
 \[
- [X_j,L_i]\xi=\delta_{ij}[X_i,P_\Omega]\xi
- \qquad(\xi\in\M\Omega,\ 1\leq i,j\leq d).
+ [X_j,L_i]=\delta_{ij}[X_i,P_\Omega]
+ \qquad(1\leq i,j\leq d).
 \]
 Here $\M\Omega:=\{x\Omega:x\in\M\}$ and $P_\Omega$ is the orthogonal projection onto $\C\Omega$.
-We call this system \emph{normalized} if
+We call this system \emph{normalized} if, on $\M\Omega$,
 \[
- \sum_{i=1}^dL_i\xi=P_\Omega\xi
- \qquad(\xi\in\M\Omega).
+ \sum_{i=1}^dL_i=P_\Omega.
 \]
 \end{definition*}
 
@@ -32,18 +31,17 @@ If the liberation gradients $j(A_i:B_i)$ in the sense of \cite[Sections~5.3--5.4
 \end{remark}
 
 Let $L$ be a linear operator on $H$ with $\M\Omega\subseteq\dom L$.
-For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, define $m_L(\ell):\M\Omega\to H$ by linear extension of
+For $c,e\in\M$, define on $\M\Omega$
 \[
- m_L(c\otimes e^{\mathrm{op}})\xi:=cL(e\xi),
- \qquad c,e\in\M,\ \xi\in\M\Omega.
+ m_L(c\otimes e^{\mathrm{op}}):=cLe.
 \]
-Since $e\M\Omega\subseteq\M\Omega$, the right-hand side is defined on $\M\Omega$ and is bilinear in $c$ and $e$.
+Since $e\M\Omega\subseteq\M\Omega$, this expression is well defined and bilinear in $c$ and $e$.
+Extending linearly gives $m_L(\ell):\M\Omega\to H$ for every $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$.
 
 Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
-Then for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $1\leq i,j\leq d$, we have
+Then for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $1\leq i,j\leq d$, we have on $\M\Omega$
 \begin{equation}\label{eq:liberation-tensor-actions}
- m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
- \quad\text{on }\M\Omega.
+ m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell)).
 \end{equation}
 Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Omega$,
 \[
@@ -59,10 +57,9 @@ Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Ome
 The fourth equality uses Definition~\ref{def:liberation-dual-system}, and the last uses equation~\eqref{eq:theta-bounded}.
 Linearity gives equation~\eqref{eq:liberation-tensor-actions} for every $\ell$.
 
-For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $m_{L_i}$ also gives
+For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $m_{L_i}$ also gives on $\M\Omega$
 \begin{equation}\label{eq:liberation-phi-bimodule}
- m_{L_i}((s\otimes t^{\mathrm{op}})\ell)=sm_{L_i}(\ell)t
- \quad\text{on }\M\Omega.
+ m_{L_i}((s\otimes t^{\mathrm{op}})\ell)=sm_{L_i}(\ell)t.
 \end{equation}
 For $\ell=c\otimes d^{\mathrm{op}}$, multiplication in the opposite factor gives
 \[
@@ -82,11 +79,10 @@ If $X\in\M^d$ admits a liberation dual system, then it admits a normalized liber
 \end{proposition}
 \begin{proof}
 Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
-Define operators $C,\widetilde L_1,\ldots,\widetilde L_d$, each with domain $\M\Omega$, by
+Define operators $C,\widetilde L_1,\ldots,\widetilde L_d$ on $\M\Omega$ by
 \[
- C\xi:=\sum_{k=1}^dL_k\xi-P_\Omega\xi,
- \qquad \widetilde L_i\xi:=L_i\xi-\frac1dC\xi
- \qquad(\xi\in\M\Omega,\ 1\leq i\leq d).
+ C:=\sum_{k=1}^dL_k-P_\Omega,
+ \qquad \widetilde L_i:=L_i-\frac1dC.
 \]
 Since $X_j\M\Omega\subseteq\M\Omega$, the commutator $[X_j,C]$ is defined on $\M\Omega$.
 On this subspace,
@@ -281,11 +277,9 @@ then, for every $i$, $k_i\in H\otimes_{\C}H$ and
 \begin{proof}
 Fix $i$, write $\ell_0=\sum_r c_r\otimes d_r^{\mathrm{op}}$ with $c_r,d_r\in\M$, and put $T_i:=m_{L_i}(\ell_0)$ on $\M\Omega$.
 By Definition~\ref{def:liberation-dual-system}, $\M\Omega\subseteq\dom L_i^*$.
-Since $c_r^*\M\Omega\subseteq\M\Omega$, the definition of the adjoint gives
+Since $c_r^*\M\Omega\subseteq\M\Omega$, the definition of the adjoint gives $\M\Omega\subseteq\dom T_i^*$ and, on $\M\Omega$,
 \[
- \M\Omega\subseteq\dom T_i^*,\qquad
- T_i^*\eta=\sum_r d_r^*L_i^*(c_r^*\eta)
- \quad(\eta\in\M\Omega).
+ T_i^*=\sum_r d_r^*L_i^*c_r^*.
 \]
 Thus $T_i$ is closable.
 By Lemma~\ref{lem:tensor-clearing}, choose regular $s,t\in\M$ such that
