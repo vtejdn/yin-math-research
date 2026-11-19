@@ -141,13 +141,6 @@ For fixed \(\xi\in\M\Omega\),
 Closedness of \(\overline T\) and \(a\xi\in\M\Omega\) give \(T(a\xi)=aT\xi\).
 \end{proof}
 
-For scalar shifts, we apply the trace argument in \cite[proof of Proposition~6.2]{MSY23} to rank-one operators with both vectors in $\M\Omega$.
-
-\begin{lemma}\label{lem:dual-regular-shifts}
-Let $X=(X_1,\ldots,X_d)\in\M^d$ admit a dual system.
-Then $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
-\end{lemma}
-
 % Provenance: C_F0024-P1 and C_F0033-P1, specialized to M Omega.
 
 We adapt Voiculescu's construction in \cite[Remark~13.2(c)]{Voi99} to obtain a normalized liberation dual system.
@@ -241,7 +234,11 @@ Both sides are bounded operators, so density gives equation~\eqref{eq:fundamenta
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:analytic}]
-By Lemma~\ref{lem:dual-regular-shifts}, every $X_i-\lambda$, $\lambda\in\C$, is regular.
+Take the fraction pair $Q_0:=(1,0,0,1)$ for $0$.
+Then $\Gamma[Q_0,P_\Omega]=0$ and $\Gamma[Q_0,D_i]$ vanishes on its dense domain $\dom D_i$.
+For any $T\in\mathcal C_X$, Lemma~\ref{lem:finite-rank-identification} gives $T_i=\overline{\Gamma[Q_0,D_i]}=0$ for every $i$.
+Thus $\Delta(X)=d$ by Remark~\ref{rem:cycle-characterization}.
+By the free-field embedding in Lemma~\ref{lem:free-field}, the image $X_i-\lambda$ of the nonzero element $x_i-\lambda$ is regular for every $i$ and every $\lambda\in\C$.
 Lemma~\ref{lem:dual-liberation-construction} supplies a normalized liberation dual system for $X$.
 Thus Theorem~\ref{thm:intrinsic-analytic} applies.
 Fix $u\in L^0(\M)$ and a fraction pair $Q$ for $u$.
