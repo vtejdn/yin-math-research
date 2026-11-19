@@ -32,7 +32,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The revision simplifying the projection commutator calculation in the proof of Proposition 5.6 compiled successfully on 2026-11-20 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
+The revision explaining the projection commutator by the trace in the proof of Proposition 5.6 compiled successfully on 2026-11-20 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above and `--disable-installer` on each pdfLaTeX pass.
 The resulting PDF has 23 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
