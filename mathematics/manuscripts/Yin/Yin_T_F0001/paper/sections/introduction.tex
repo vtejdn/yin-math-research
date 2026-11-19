@@ -207,7 +207,8 @@ so $(T_1,\ldots,T_d)$ is the solution in assertion~\textup{(\ref{item:intrinsic-
 Theorems~\ref{thm:delta} and~\ref{thm:intrinsic-analytic} allow the $X_i$ to be nonnormal.
 When $X_1,\ldots,X_d$ are normal operators that generate $\M$ and admit a dual system $(D_1,\ldots,D_d)$, Theorem~\ref{thm:analytic} characterizes rationality by the finite rank of the fraction commutators $\Gamma[Q,D_i]$ for a given fraction pair $Q$.
 If $u$ is rational in $X$, the proof shows that the solution in Theorem~\ref{thm:intrinsic-analytic} for each fraction pair $Q$ of $u$ is given by $T_i=\overline{\Gamma[Q,D_i]}$ for every $i$.
-We use the following variant of the dual systems in \cite[Definition~5.1]{Voi98}.
+
+To state our third main result in a general setting, we use the following unbounded variant of the dual systems in \cite[Definition~5.1]{Voi98}.
 
 \begin{definition}\label{def:dual-system}
 Let $X=(X_1,\ldots,X_d)\in\M^d$.
@@ -230,22 +231,6 @@ For every $u\in L^0(\M)$ and every fraction pair $Q=(s,a,b,t)$ for $u$, the foll
 \end{enumerate}
 When these equivalent conditions hold, the rank of each $\overline{\Gamma[Q,D_i]}$ is independent of $Q$.
 \end{theorem}
-
-We deduce Theorem~\ref{thm:analytic} directly from Theorem~\ref{thm:intrinsic-analytic}.
-Lemma~\ref{lem:fundamental} constructs a normalized liberation dual system $(L_1,\ldots,L_d)$ from $(D_1,\ldots,D_d)$ and proves regularity of every scalar shift.
-If $u$ is rational in $X$, then for each fraction pair $Q$ of $u$, Theorem~\ref{thm:intrinsic-analytic} gives operators $T_1,\ldots,T_d\in\F(H)$ satisfying equation~\eqref{eq:certificate}.
-By Lemma~\ref{lem:finite-rank-identification}, $\overline{\Gamma[Q,D_i]}=T_i$ for every $i$.
-For the converse, Lemma~\ref{lem:fundamental} gives
-\[
- \overline{\Gamma[Q,L_i]}
- =[\rho(X_i),\overline{\Gamma[Q,D_i]}]
-\]
-whenever $\overline{\Gamma[Q,D_i]}$ is bounded.
-Consequently, when these closures have finite rank,
-\[
- \sum_{i=1}^d[\rho(X_i),\overline{\Gamma[Q,D_i]}]=\Gamma[Q,P_\Omega].
-\]
-Theorem~\ref{thm:intrinsic-analytic} then gives rationality.
 
 Even among normal generators, the hypotheses of Theorem~\ref{thm:analytic} are strictly stronger than those of Theorem~\ref{thm:intrinsic-analytic}.
 The arcsine generator $X$ in Remark~\ref{rem:liberation-without-duals} admits a normalized liberation dual system, and $X-\lambda$ is regular for every $\lambda\in\C$.

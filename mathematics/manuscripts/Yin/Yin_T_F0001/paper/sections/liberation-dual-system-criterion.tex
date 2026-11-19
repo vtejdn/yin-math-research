@@ -227,6 +227,8 @@ Using $\pi_2R_{x^{\mathrm{op}}}=\widetilde R_{x^{\mathrm{op}}}\pi_2$, we similar
 \]
 \end{proof}
 
+To prove Theorem~\ref{thm:intrinsic-analytic} using Theorem~\ref{thm:delta}, we first need to establish that the existence of a liberation dual system implies the maximality of $\Delta$, which is captured by the following proposition.
+
 \begin{proposition}\label{prop:liberation-delta}
 Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
 If $X$ admits a liberation dual system, then $\Delta(X)=d$.
@@ -254,6 +256,8 @@ Since $X_i-\lambda$ is regular for every $\lambda\in\C$, Lemma~\ref{lem:tensor-l
 Cancellation of $s\otimes t^{\mathrm{op}}$ gives $k_i=0$, and therefore $T_i=0$.
 Remark~\ref{rem:cycle-characterization} now gives $\Delta(X)=d$.
 \end{proof}
+
+We records two technical lemmas that will be useful in the subsequent proof for Theorem~\ref{thm:intrinsic-analytic}.
 
 \begin{lemma}\label{lem:tensor-images-l2}
 Let $X=(X_1,\ldots,X_d)\in\M^d$, and suppose that $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
@@ -315,8 +319,6 @@ Applying $\Theta^{-1}$ to both sides, we obtain
 Cancellation of the regular outside factors gives $\Psi_i(k_i)=h_i\in H\otimes_{\C}H$.
 Since every $X_i-\lambda$ is regular, Lemma~\ref{lem:tensor-l2-recovery} gives $k_i\in H\otimes_{\C}H$.
 \end{proof}
-
-The proof of Theorem~\ref{thm:intrinsic-analytic} uses the following closability result for fraction commutators.
 
 \begin{lemma}\label{lem:fraction-domains}
 Let \(D_1,\ldots,D_d\) be densely defined linear operators on \(H\) such that
