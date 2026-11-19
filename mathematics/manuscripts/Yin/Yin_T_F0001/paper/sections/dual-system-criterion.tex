@@ -180,7 +180,7 @@ Closedness of \(\overline T\) and \(a\xi\in\M\Omega\) give \(T(a\xi)=aT\xi\).
 
 We adapt Voiculescu's construction in \cite[Remark~13.2(c)]{Voi99} to obtain a normalized liberation dual system.
 
-\begin{lemma}\label{lem:dual-liberation-construction}
+\begin{proposition}\label{prop:dual-liberation-construction}
 Let $X\in\M^d$ and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
 Define on $\M\Omega$
 \begin{equation}\label{eq:dual-liberation-construction}
@@ -190,7 +190,7 @@ Define on $\M\Omega$
 \end{equation}
 The tuple $(L_1,\ldots,L_d)$ is a normalized liberation dual system for $X$.
 The operator $C$ is closable and satisfies $[X_j,C]=0$ on $\M\Omega$ for every $j$.
-\end{lemma}
+\end{proposition}
 \begin{proof}
 By Definition~\ref{def:dual-system}, $\M\Omega\subseteq\dom D_i^*$.
 Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the definition of the adjoint gives
@@ -222,7 +222,7 @@ For normal generators we can now compare the fraction commutators of the two sys
 
 \begin{lemma}\label{lem:fundamental}
 Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
-Let $(L_1,\ldots,L_d)$ be the system constructed in Lemma~\ref{lem:dual-liberation-construction}.
+Let $(L_1,\ldots,L_d)$ be the system constructed in Proposition~\ref{prop:dual-liberation-construction}.
 For every fraction pair $Q$ and every $i$, if $\overline{\Gamma[Q,D_i]}$ is bounded on $H$, then
 \begin{equation}\label{eq:dual-liberation-fractions}
  \overline{\Gamma[Q,L_i]}
@@ -235,7 +235,7 @@ In particular, if $\overline{\Gamma[Q,D_i]}\in\F(H)$ for every $i$, then
 \end{lemma}
 \begin{proof}
 Let $K_i$ and $C$ be as in equation~\eqref{eq:dual-liberation-construction}.
-By Lemma~\ref{lem:dual-liberation-construction}, $C$ is closable and commutes with every $X_j$ on $\M\Omega$.
+By Proposition~\ref{prop:dual-liberation-construction}, $C$ is closable and commutes with every $X_j$ on $\M\Omega$.
 Since the normal operators $X_j$ generate $\M$, Lemma~\ref{lem:module-commutation} gives $C(z\xi)=zC\xi$ for all $z\in\M$ and $\xi\in\M\Omega$.
 For a fraction pair $Q=(s,a,b,t)$ for $u$, we have $sb=s(ut)=(su)t=at$ in $L^0(\M)$.
 Thus
@@ -271,7 +271,7 @@ Both sides are bounded operators, so density gives equation~\eqref{eq:fundamenta
 \begin{proof}[Proof of Theorem~\ref{thm:analytic}]
 Remark~\ref{rem:dual-maximality} gives $\Delta(X)=d$.
 By the free-field embedding in Lemma~\ref{lem:free-field}, the image $X_i-\lambda$ of the nonzero element $x_i-\lambda$ is regular for every $i$ and every $\lambda\in\C$.
-Lemma~\ref{lem:dual-liberation-construction} supplies a normalized liberation dual system for $X$.
+Proposition~\ref{prop:dual-liberation-construction} supplies a normalized liberation dual system for $X$.
 Thus Theorem~\ref{thm:intrinsic-analytic} applies.
 Fix $u\in L^0(\M)$ and a fraction pair $Q$ for $u$.
 

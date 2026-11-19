@@ -2,7 +2,7 @@
 
 ## The equalities in the liberation dual construction
 
-Optional clarification of the Jacobi calculation in `lem:dual-liberation-construction`.
+Optional clarification of the Jacobi calculation in `prop:dual-liberation-construction`.
 Jacobi's identity gives the first equality for \([X_j,K_i]\) using commutation of left and right multiplication.
 Identify equation (9) and the preceding equality for \([\rho(X_i),P_\Omega]\) as the inputs for the second equality, then deduce \([X_j,C]=0\) from the definition of \(C\) in equation (25).
 See [Section 5](sections/dual-system-criterion.tex).
