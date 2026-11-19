@@ -39,7 +39,8 @@ For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, define $m_L(\ell):\M\Omega\to H$ by
 \]
 Since $e\M\Omega\subseteq\M\Omega$, the right-hand side is defined on $\M\Omega$ and is bilinear in $c$ and $e$.
 
-If $(L_1,\ldots,L_d)$ is a liberation dual system, its commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
+Let $(L_1,\ldots,L_d)$ be a liberation dual system for $X$.
+Then for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $1\leq i,j\leq d$, we have
 \begin{equation}\label{eq:liberation-tensor-actions}
  m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
  \quad\text{on }\M\Omega.
@@ -55,7 +56,7 @@ Indeed, for $\ell=c\otimes d^{\mathrm{op}}$ with $c,d\in\M$, we have, on $\M\Ome
  &=\delta_{ij}\Theta(\Psi_i(\ell)).
  \end{aligned}
 \]
-The last equality uses equation~\eqref{eq:theta-bounded}.
+The fourth equality uses Definition~\ref{def:liberation-dual-system}, and the last uses equation~\eqref{eq:theta-bounded}.
 Linearity gives equation~\eqref{eq:liberation-tensor-actions} for every $\ell$.
 
 For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$ and $s,t\in\M$, the definition of $m_{L_i}$ also gives
@@ -87,13 +88,15 @@ Define operators $C,\widetilde L_1,\ldots,\widetilde L_d$, each with domain $\M\
  \qquad \widetilde L_i\xi:=L_i\xi-\frac1dC\xi
  \qquad(\xi\in\M\Omega,\ 1\leq i\leq d).
 \]
-Since $X_j\M\Omega\subseteq\M\Omega$, the liberation relations give, on $\M\Omega$,
+Since $X_j\M\Omega\subseteq\M\Omega$, the commutator $[X_j,C]$ is defined on $\M\Omega$.
+On this subspace,
 \[
  [X_j,C]
  =\sum_{k=1}^d[X_j,L_k]-[X_j,P_\Omega]
  =\sum_{k=1}^d\delta_{kj}[X_k,P_\Omega]-[X_j,P_\Omega]
  =0.
 \]
+The second equality uses Definition~\ref{def:liberation-dual-system}.
 Consequently, for $\xi\in\M\Omega$ and $1\leq i,j\leq d$,
 \[
  [X_j,\widetilde L_i]\xi
