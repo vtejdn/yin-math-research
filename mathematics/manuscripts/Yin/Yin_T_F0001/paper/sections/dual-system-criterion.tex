@@ -77,18 +77,26 @@ Equation~\eqref{eq:psi-left-linearity} gives
  \sum_j\Psi_j(\ell_j')
  =s'a\otimes(tt')^{\mathrm{op}}-s's\otimes(bt')^{\mathrm{op}}.
 \]
-For fixed $i$ and $\xi\in\M\Omega$, apply to this equality the linear map
+For fixed $i$, apply $m_{D_i}$ to both sides and evaluate at $\xi\in\M\Omega$.
+For $c,e\in\M$, we have
 \[
- \M\otimes_{\C}\M^{\mathrm{op}}\longrightarrow H,\qquad
- c\otimes e^{\mathrm{op}}\longmapsto cD_i(e\xi).
+ \Psi_j(c\otimes e^{\mathrm{op}})
+ =cX_j\otimes e^{\mathrm{op}}-c\otimes(X_je)^{\mathrm{op}}.
 \]
-All inputs of $D_i$ lie in $\M\Omega$, and the dual relations give
+The dual relations and equation~\eqref{eq:theta-bounded} give
 \[
- cX_jD_i(e\xi)-cD_i(X_je\xi)=\delta_{ij}cP_\Omega e\xi.
+ \begin{aligned}
+ m_{D_i}(\Psi_j(c\otimes e^{\mathrm{op}}))\xi
+ &=cX_jD_i(e\xi)-cD_i(X_je\xi)\\
+ &=\delta_{ij}cP_\Omega e\xi\\
+ &=\delta_{ij}\Theta(c\otimes e^{\mathrm{op}})\xi.
+ \end{aligned}
 \]
-By equation~\eqref{eq:theta-bounded} and linearity, the image of the tensor sum is
+By linearity,
 \[
- \sum_j\delta_{ij}\Theta(\ell_j')\xi=\Theta(\ell_i')\xi.
+ m_{D_i}\!\left(\sum_j\Psi_j(\ell_j')\right)\xi
+ =\sum_j\delta_{ij}\Theta(\ell_j')\xi
+ =\Theta(\ell_i')\xi.
 \]
 The image of the right-hand side of the tensor equality is
 \[

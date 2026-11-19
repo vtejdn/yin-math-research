@@ -80,7 +80,9 @@ Use normalized rather than canonical: the sum condition does not select a unique
 Theorem 1.7 fixes any such normalized system and includes \(\overline{\Gamma[Q,L_i]}\in[\rho(X_i),\mathcal F(H)]\) for every fraction pair and every index as assertion (4).
 The liberation criterion assumes that \(X_i-\lambda\) is regular for every \(1\leq i\leq d\) and every \(\lambda\in\mathbb C\).
 
-For \(\ell\in\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}\), use \(m_{L_i}(\ell):\mathcal M\Omega\to H\), determined by \(m_{L_i}(c\otimes d^{\mathrm{op}}):=cL_i d|_{\mathcal M\Omega}\) and linearity in \(\ell\).
+For a linear operator \(A\) on \(H\) with \(\mathcal M\Omega\subseteq\operatorname{Dom}A\), use \(m_A(\ell):\mathcal M\Omega\to H\) for \(\ell\in\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}\).
+Define it by \(m_A(c\otimes e^{\mathrm{op}})\xi:=cA(e\xi)\) for \(c,e\in\mathcal M\) and \(\xi\in\mathcal M\Omega\) and extend linearly in \(\ell\).
+Use this notation with \(A=L_i\) in Section 4 and \(A=D_i\) in Lemma 5.2.
 
 Use “fraction commutator” for the project-local construction associated with \(Q\):
 \[

@@ -31,11 +31,15 @@ For $X\in\M^d$, put $A_i:=W^*(X_i)$ and $B_i:=W^*(X_j:j\ne i)$, with $B_1:=\C1$ 
 If the liberation gradients $j(A_i:B_i)$ in the sense of \cite[Sections~5.3--5.4]{Voi99} exist in $L^2(\M,\tau)$ for every $i$, then $X$ admits a normalized liberation dual system in the sense of Definition~\ref{def:liberation-dual-system}.
 \end{remark}
 
-For a liberation dual system $(L_1,\ldots,L_d)$ and $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, let $m_{L_i}(\ell):\M\Omega\to H$ be the linear operator defined by linear extension of
+Let $A$ be a linear operator on $H$ with $\M\Omega\subseteq\dom A$.
+For $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$, define $m_A(\ell):\M\Omega\to H$ by linear extension of
 \[
- m_{L_i}(c\otimes d^{\mathrm{op}}):=cL_id|_{\M\Omega},\qquad c,d\in\M.
+ m_A(c\otimes e^{\mathrm{op}})\xi:=cA(e\xi),
+ \qquad c,e\in\M,\ \xi\in\M\Omega.
 \]
-The liberation commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
+Since $e\M\Omega\subseteq\M\Omega$, the right-hand side is defined on $\M\Omega$ and is bilinear in $c$ and $e$.
+
+If $(L_1,\ldots,L_d)$ is a liberation dual system, its commutator relations give, for $\ell\in\M\otimes_{\C}\M^{\mathrm{op}}$,
 \begin{equation}\label{eq:liberation-tensor-actions}
  m_{L_i}(\Psi_j(\ell))=\delta_{ij}\Theta(\Psi_i(\ell))
  \quad\text{on }\M\Omega.

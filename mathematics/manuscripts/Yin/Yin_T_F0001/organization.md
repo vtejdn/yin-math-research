@@ -86,7 +86,9 @@ The proof applies Lemma 4.9 with \(D_i=L_i\) using \(\mathcal M\Omega\subseteq\o
 Definition 1.8, `def:dual-system`, precedes Theorem 1.9 and states \(\mathcal M\Omega\subseteq\operatorname{Dom}D_i\cap\operatorname{Dom}D_i^*\) and the generator-first relations on M Omega.
 Theorem 1.9 and Lemmas 5.2 and 5.5 use this definition. Their statements specify normality and generation where needed.
 Lemma 5.1, `lem:fraction-ranks`, uses common denominators and the finite-rank closure lemma to propagate finite rank from one fraction pair to every pair and prove equality of the ranks.
-Lemma 5.2, `lem:finite-rank-identification`, clears the tensor factors of a finite-rank solution and applies the ordinary dual relation on M Omega to identify its coordinates with the actual fraction-commutator closures.
+Lemma 5.2, `lem:finite-rank-identification`, clears the tensor factors of a finite-rank solution and applies \(m_{D_i}\) to the resulting tensor equality.
+The ordinary dual relation on \(\mathcal M\Omega\) selects the \(i\)-th term.
+Agreement on a dense subspace and closability give \(\overline{\Gamma[Q,D_i]}=T_i\).
 These fraction lemmas require no normality or generation of M.
 Lemmas 4.9 and 5.1 apply whenever \(\mathcal M\Omega\subseteq\operatorname{Dom}D\cap\operatorname{Dom}D^*\).
 Lemma 5.3, `lem:normal-intertwining`, gives the bounded-map adjoint intertwining from CS77; the classical Fuglede statement precedes it.
