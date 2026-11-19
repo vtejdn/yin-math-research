@@ -225,12 +225,28 @@ Linearity and equation~\eqref{eq:theta-bounded} give
  \end{aligned}
 \]
 
-Because left and right multipliers commute, Jacobi's identity gives the first equality below on $\M\Omega$.
-Equation~\eqref{eq:analytic-hyp} and the preceding computation give the second equality.
+The left multiplier $X_j$ and the right multiplier $\rho(X_i)$ commute and preserve $\M\Omega$.
+Jacobi's identity gives on $\M\Omega$
 \[
- [X_j,K_i]=[\rho(X_i),[X_j,D_i]]
- =\delta_{ij}[X_i,P_\Omega].
+ \begin{aligned}
+  [X_j,K_i]
+  &=[X_j,[\rho(X_i),D_i]]\\
+  &=[[X_j,\rho(X_i)],D_i]+[\rho(X_i),[X_j,D_i]]\\
+  &=[\rho(X_i),[X_j,D_i]].
+ \end{aligned}
 \]
+
+For $\xi\in\M\Omega$, applying equation~\eqref{eq:analytic-hyp} at $\xi$ and $\rho(X_i)\xi$ gives
+\[
+ \begin{aligned}
+  [\rho(X_i),[X_j,D_i]]\xi
+  &=\rho(X_i)[X_j,D_i]\xi-[X_j,D_i]\rho(X_i)\xi\\
+  &=\delta_{ij}[\rho(X_i),P_\Omega]\xi\\
+  &=\delta_{ij}[X_i,P_\Omega]\xi.
+ \end{aligned}
+\]
+The last equality uses $[\rho(X_i),P_\Omega]=[X_i,P_\Omega]$.
+
 Taking the commutator with $X_j$ in the definition of $C$ in equation~\eqref{eq:dual-liberation-construction} gives $[X_j,C]=0$ on $\M\Omega$.
 It follows that $[X_j,L_i]=\delta_{ij}[X_i,P_\Omega]$ and $\sum_iL_i=P_\Omega$ on $\M\Omega$.
 Thus $(L_1,\ldots,L_d)$ is a normalized liberation dual system.
