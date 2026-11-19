@@ -4,6 +4,41 @@
 \label{sec:dual-system-criterion}
 
 We prove Theorem~\ref{thm:analytic} by applying Theorem~\ref{thm:intrinsic-analytic} to a normalized liberation dual system constructed from the given dual system.
+
+We recall Definition~\ref{def:dual-system}.
+
+\begin{definition*}
+Let $X=(X_1,\ldots,X_d)\in\M^d$.
+A \emph{dual system} for $X$ is a tuple $(D_1,\ldots,D_d)$ of linear operators on $H$ such that
+\[
+ \M\Omega\subseteq\dom D_i\cap\dom D_i^*,\qquad
+ [X_j,D_i]|_{\M\Omega}=\delta_{ij}P_\Omega|_{\M\Omega}
+ \qquad(1\leq i,j\leq d).
+\]
+\end{definition*}
+
+% Proof input: C_F0024 v1, Section 3, with the generator-first sign.
+\begin{remark}\label{rem:dual-maximality}
+If $X$ admits a dual system in the sense of Definition~\ref{def:dual-system}, then $\Delta(X)=d$.
+The trace argument in \cite[proof of Proposition~6.2]{MSY23} applies \emph{mutatis mutandis}.
+Suppose that $\sum_i[T_i,X_i]=0$ for $T_i\in\F(H)$.
+Apply Lemma~\ref{lem:clearing} to a basis of $\sum_i\operatorname{Ran}T_i$ to choose a regular $r\in\M$ such that $\rho(r)\operatorname{Ran}T_i\subseteq\M\Omega$ for every $i$.
+For $a,b\in\M$, set $S_i:=\rho(a)\rho(r)T_i\rho(b)$.
+The right multipliers commute with each $X_i$, so $\sum_i[S_i,X_i]=0$.
+Each $S_i$ has finite-dimensional range in $\M\Omega$, so $D_jS_i$ is a bounded finite-rank operator.
+Applying $D_j$ on the left to the cycle and using the dual identities gives
+\[
+ 0=\sum_i[D_jS_i,X_i]+P_\Omega S_j.
+\]
+Taking the usual trace on $\B(H)$ yields
+\[
+ 0=\operatorname{Tr}(P_\Omega S_j)
+  =\langle\rho(a)^*\Omega,\rho(r)T_j\rho(b)\Omega\rangle.
+\]
+As $a$ and $b$ vary, the two test-vector families are independently dense in $H$, so $\rho(r)T_j=0$.
+Since $\rho(r)$ is injective, every $T_j$ vanishes, and Remark~\ref{rem:cycle-characterization} gives the conclusion.
+\end{remark}
+
 We first prove that the existence of a finite-rank closure and its rank are independent of the fraction pair, and identify finite-rank solutions of equation~\eqref{eq:certificate} with the closures of the corresponding fraction commutators.
 For the right annihilation operators of a free semicircular system, the finite-rank equivalence in Lemma~\ref{lem:fraction-ranks} is the one proved by Miyagawa \cite[Lemma~4.6]{Miy22}.
 
@@ -234,10 +269,7 @@ Both sides are bounded operators, so density gives equation~\eqref{eq:fundamenta
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:analytic}]
-Take the fraction pair $Q_0:=(1,0,0,1)$ for $0$.
-Then $\Gamma[Q_0,P_\Omega]=0$ and $\Gamma[Q_0,D_i]$ vanishes on its dense domain $\dom D_i$.
-For any $T\in\mathcal C_X$, Lemma~\ref{lem:finite-rank-identification} gives $T_i=\overline{\Gamma[Q_0,D_i]}=0$ for every $i$.
-Thus $\Delta(X)=d$ by Remark~\ref{rem:cycle-characterization}.
+Remark~\ref{rem:dual-maximality} gives $\Delta(X)=d$.
 By the free-field embedding in Lemma~\ref{lem:free-field}, the image $X_i-\lambda$ of the nonzero element $x_i-\lambda$ is regular for every $i$ and every $\lambda\in\C$.
 Lemma~\ref{lem:dual-liberation-construction} supplies a normalized liberation dual system for $X$.
 Thus Theorem~\ref{thm:intrinsic-analytic} applies.

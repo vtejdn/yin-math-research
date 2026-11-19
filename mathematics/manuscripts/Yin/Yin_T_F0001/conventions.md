@@ -82,7 +82,7 @@ The liberation criterion assumes that \(X_i-\lambda\) is regular for every \(1\l
 
 For a linear operator \(L\) on \(H\) with \(\mathcal M\Omega\subseteq\operatorname{Dom}L\), use \(m_L(\ell):\mathcal M\Omega\to H\) for \(\ell\in\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}\).
 Define it by \(m_L(c\otimes e^{\mathrm{op}})\xi:=cL(e\xi)\) for \(c,e\in\mathcal M\) and \(\xi\in\mathcal M\Omega\) and extend linearly in \(\ell\).
-Use \(m_{L_i}\) in Section 4 and \(m_{D_i}\) in Lemma 5.2.
+Use \(m_{L_i}\) in Section 4 and \(m_{D_i}\) in Lemma 5.3.
 
 Use “fraction commutator” for the project-local construction associated with \(Q\):
 \[
