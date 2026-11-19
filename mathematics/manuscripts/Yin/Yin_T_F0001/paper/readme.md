@@ -32,14 +32,14 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The TeX sources with the expanded calculation in Lemma 5.1 compiled successfully on 2026-11-19 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
-The build ran in the directory containing `main.tex` with one pdfLaTeX pass before BibTeX and one after it.
+The TeX sources with the two added equalities in equation (23) compiled successfully on 2026-11-19 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The build ran in the directory containing `main.tex` with the commands above.
 The resulting PDF has 21 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 
 The source check found 82 unique labels and the build resolved all cross-references and 21 bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
-The check covered the revised source, references and compilation diagnostics.
+The check covered the revised source, references, compilation diagnostics and the layout of PDF pages 17 through 21.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).
