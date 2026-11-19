@@ -186,6 +186,7 @@ The inspected work is the 24-page 2022 journal PDF; its original foundations rem
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Section~4]{Miy22}` | Supplies the semicircular analogue of the preceding Lin00 rationality criterion, using the cleared expressions with bounded right annihilation operators; \(\Gamma[Q,r_i^*]\) is the manuscript's notation for these expressions. |
 | `paper/sections/preliminaries.tex`, paragraph before `lem:clearing` | `\cite[Lemma~4.1]{Miy22}` | Supplies the two-element step iterated in the manuscript's finite-family proof. |
 | `paper/sections/preliminaries.tex`, `lem:common` proof | `\cite[proof of Lemma~4.1]{Miy22}` | Identifies the source construction of a common multiple; the displayed fraction argument is checked locally. |
+| `paper/sections/dual-system-criterion.tex`, paragraph before `lem:fraction-ranks` | `\cite[Lemma~4.6]{Miy22}` | Identifies the finite-rank equivalence for the bounded right annihilation operators of a free semicircular system. |
 
 ## `MSY23`
 
