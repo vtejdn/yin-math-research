@@ -73,42 +73,35 @@ By Lemma~\ref{lem:tensor-certificate},
 Lemma~\ref{lem:tensor-clearing} gives regular $s',t'\in\M$ such that
 $\ell_j':=(s'\otimes(t')^{\mathrm{op}})\ell_j\in\M\otimes_{\C}\M^{\mathrm{op}}$ for every $j$.
 Equation~\eqref{eq:psi-left-linearity} gives
-\[
+\begin{equation}\label{eq:dual-certificate-tensors}
  \sum_j\Psi_j(\ell_j')
  =s'a\otimes(tt')^{\mathrm{op}}-s's\otimes(bt')^{\mathrm{op}}.
-\]
-For fixed $i$, apply $m_{D_i}$ to both sides and evaluate at $\xi\in\M\Omega$.
-For $c,e\in\M$, we have
-\[
- \Psi_j(c\otimes e^{\mathrm{op}})
- =cX_j\otimes e^{\mathrm{op}}-c\otimes(X_je)^{\mathrm{op}}.
-\]
-Thus
+\end{equation}
+Let us fix $i$ and $\xi\in\M\Omega$.
+To evaluate the left-hand side of equation~\eqref{eq:dual-certificate-tensors}, we first calculate on a simple tensor $c\otimes e^{\mathrm{op}}$ with $c,e\in\M$.
+Expanding $\Psi_j$ gives
 \[
  \begin{aligned}
  m_{D_i}(\Psi_j(c\otimes e^{\mathrm{op}}))\xi
  &=cX_jD_i(e\xi)-cD_i(X_je\xi)\\
- &=\delta_{ij}cP_\Omega e\xi\\
- &=\delta_{ij}\Theta(c\otimes e^{\mathrm{op}})\xi.
+ &=\delta_{ij}cP_\Omega e\xi
+  =\delta_{ij}\Theta(c\otimes e^{\mathrm{op}})\xi.
  \end{aligned}
 \]
-The second equality uses equation~\eqref{eq:analytic-hyp}, and the last uses equation~\eqref{eq:theta-bounded}.
-By linearity,
+The second equality uses Definition~\ref{def:dual-system} of a dual system at $e\xi\in\M\Omega$, and the last uses equation~\eqref{eq:theta-bounded}.
+By linearity, we obtain
+\begin{align*}
+ \sum_jm_{D_i}(\Psi_j(\ell_j'))\xi
+ &=\sum_j\delta_{ij}\Theta(\ell_j')\xi\\
+ &=\Theta(\ell_i')\xi\\
+ &=s'\Theta(\ell_i)(t')\xi\\
+ &=-s'T_it'\xi.
+\end{align*}
+Evaluating the right-hand side of equation~\eqref{eq:dual-certificate-tensors} under $\ell\mapsto m_{D_i}(\ell)\xi$ and comparing with the left-hand side, we obtain
 \[
- m_{D_i}\!\left(\sum_j\Psi_j(\ell_j')\right)\xi
- =\sum_j\delta_{ij}\Theta(\ell_j')\xi
- =\Theta(\ell_i')\xi.
-\]
-The image of the right-hand side of the tensor equality is
-\[
- s'aD_i(tt'\xi)-s'sD_i(bt'\xi)=-s'\Gamma[Q,D_i]t'\xi.
-\]
-Using the bimodule identity for $\Theta$, we obtain
-\[
- -s'\Gamma[Q,D_i]t'\xi
- =\Theta(\ell_i')\xi
- =s'\Theta(\ell_i)t'\xi
- =-s'T_it'\xi.
+ -s'T_it'\xi
+ =s'aD_i(tt'\xi)-s'sD_i(bt'\xi)
+ =-s'\Gamma[Q,D_i]t'\xi.
 \]
 Since $s'$ is injective, $\Gamma[Q,D_i]$ agrees with $T_i$ on the dense subspace $t'\M\Omega$.
 Lemma~\ref{lem:fraction-domains} gives closability of $\Gamma[Q,D_i]$.
