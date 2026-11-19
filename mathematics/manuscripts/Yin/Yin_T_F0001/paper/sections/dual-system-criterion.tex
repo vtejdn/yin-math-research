@@ -247,7 +247,15 @@ For $\xi\in\M\Omega$, applying equation~\eqref{eq:analytic-hyp} at $\xi$ and $\r
 \]
 The last equality uses $[\rho(X_i),P_\Omega]=[X_i,P_\Omega]$.
 
-Taking the commutator with $X_j$ in the definition of $C$ in equation~\eqref{eq:dual-liberation-construction} gives $[X_j,C]=0$ on $\M\Omega$.
+By equation~\eqref{eq:dual-liberation-construction}, on $\M\Omega$ we have
+\[
+ \begin{aligned}
+  [X_j,C]
+  &=\sum_i[X_j,K_i]-[X_j,P_\Omega]\\
+  &=\sum_i\delta_{ij}[\rho(X_i),P_\Omega]-[X_j,P_\Omega]\\
+  &=[\rho(X_j),P_\Omega]-[X_j,P_\Omega]=0.
+ \end{aligned}
+\]
 It follows that $[X_j,L_i]=\delta_{ij}[X_i,P_\Omega]$ and $\sum_iL_i=P_\Omega$ on $\M\Omega$.
 Thus $(L_1,\ldots,L_d)$ is a normalized liberation dual system.
 \end{proof}
