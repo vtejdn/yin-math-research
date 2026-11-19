@@ -32,8 +32,8 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The TeX sources with the revised proof of Theorem 1.7 compiled successfully on 2026-11-19 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
-The build ran in the directory containing `main.tex` with the commands above and one extra pdfLaTeX pass to settle cross-references.
+The TeX sources with the expanded calculation in Lemma 5.1 compiled successfully on 2026-11-19 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The build ran in the directory containing `main.tex` with one pdfLaTeX pass before BibTeX and one after it.
 The resulting PDF has 21 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 

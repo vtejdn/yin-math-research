@@ -20,9 +20,15 @@ When these conditions hold, the two closures have the same rank.
 \begin{proof}
 Write $Q=(s,a,b,t)$ and $Q'=(s',a',b',t')$.
 Lemma~\ref{lem:common} gives regular $x,y,p,q\in\M$ such that $xs=ys'$ and $tp=t'q$.
-Since $xa=ya'$ and $bp=b'q$, we have on $\M\Omega$
+Since both fraction pairs represent $u$, we have $a=su$, $a'=s'u$, $b=ut$ and $b'=ut'$ in $L^0(\M)$.
+Thus
+\begin{align*}
+ xa&=x(su)=(xs)u=(ys')u=y(s'u)=ya',\\
+ bp&=(ut)p=u(tp)=u(t'q)=(ut')q=b'q.
+\end{align*}
+By equation~\eqref{eq:fraction-commutator}, these identities and the common multiples give on $\M\Omega$
 \begin{equation}\label{eq:fraction-common-comparison}
- x\Gamma[Q,D]p=y\Gamma[Q',D]q.
+ x\Gamma[Q,D]p=(xs)D(bp)-(xa)D(tp)=y\Gamma[Q',D]q.
 \end{equation}
 Suppose that $\overline{\Gamma[Q,D]}\in\F(H)$.
 The left-hand side of equation~\eqref{eq:fraction-common-comparison} has finite rank, and $y$ is injective.
