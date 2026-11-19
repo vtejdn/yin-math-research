@@ -57,7 +57,7 @@ Preserve the existing mathematical environments and their semantic labels when r
 At the start of Section 4, recall the complete liberation dual-system definition, including sum normalization, in an unnumbered definition.
 Immediately after the definition, state in a short numbered remark that \(L^2\) liberation gradients give a normalized liberation dual system.
 Keep the construction and estimates in the supporting Claim.
-Then introduce \(m_A\) for linear operators with \(\mathcal M\Omega\subseteq\operatorname{Dom}A\).
+Then introduce \(m_L\) for linear operators with \(\mathcal M\Omega\subseteq\operatorname{Dom}L\).
 Give the two identities for \(m_{L_i}\) and their simple-tensor verifications before stating the sum-to-\(P_\Omega\) normalization proposition.
 Define the correction and all corrected operators on \(\M\Omega\), and verify the liberation relations and the sum identity explicitly.
 Show that \(\mathcal M\Omega\subseteq\operatorname{Dom}\widetilde L_i^*\) for every corrected operator \(\widetilde L_i\).
