@@ -77,7 +77,7 @@ Equation~\eqref{eq:psi-left-linearity} gives
  \sum_j\Psi_j(\ell_j')
  =s'a\otimes(tt')^{\mathrm{op}}-s's\otimes(bt')^{\mathrm{op}}.
 \end{equation}
-Let us fix $i$ and $\xi\in\M\Omega$.
+Let us fix $i$ and $\xi\in\M\Omega$ and we evaluate the equation under $\ell\mapsto m_{D_i}(\ell)\xi$ for both sides.
 To evaluate the left-hand side of equation~\eqref{eq:dual-certificate-tensors}, we first calculate on a simple tensor $c\otimes e^{\mathrm{op}}$ with $c,e\in\M$.
 Expanding $\Psi_j$ gives
 \[
@@ -97,11 +97,9 @@ By linearity, we obtain
  &=s'\Theta(\ell_i)(t')\xi\\
  &=-s'T_it'\xi.
 \end{align*}
-Evaluating the right-hand side of equation~\eqref{eq:dual-certificate-tensors} under $\ell\mapsto m_{D_i}(\ell)\xi$ and comparing with the left-hand side, we obtain
+Evaluating the right-hand side of equation~\eqref{eq:dual-certificate-tensors}, we obtain
 \[
- -s'T_it'\xi
- =s'aD_i(tt'\xi)-s'sD_i(bt'\xi)
- =-s'\Gamma[Q,D_i]t'\xi.
+s'aD_i(tt'\xi)-s'sD_i(bt'\xi)=-s'\Gamma[Q,D_i]t'\xi.
 \]
 Since $s'$ is injective, $\Gamma[Q,D_i]$ agrees with $T_i$ on the dense subspace $t'\M\Omega$.
 Lemma~\ref{lem:fraction-domains} gives closability of $\Gamma[Q,D_i]$.
@@ -121,8 +119,7 @@ Let \(T:\M\Omega\to H\) be a closable linear operator.
 Then \(y\mapsto T(y\Omega)\) is bounded from \(\M\) to \(H\).
 If \(x_1,\ldots,x_m\in\M\) are normal and \(T(x_j\xi)=x_jT\xi\) for every \(j\) and \(\xi\in\M\Omega\), then
 \[
- T(a\xi)=aT\xi
- \qquad(a\in W^*(x_1,\ldots,x_m),\ \xi\in\M\Omega).
+ T(a\xi)=aT\xi,\qquad\text{for any }a\in W^*(x_1,\ldots,x_m),\ \xi\in\M\Omega.
 \]
 \end{lemma}
 \begin{proof}
@@ -144,13 +141,20 @@ For fixed \(\xi\in\M\Omega\),
 Closedness of \(\overline T\) and \(a\xi\in\M\Omega\) give \(T(a\xi)=aT\xi\).
 \end{proof}
 
+For scalar shifts, we apply the trace argument in \cite[proof of Proposition~6.2]{MSY23} to rank-one operators with both vectors in $\M\Omega$.
+
+\begin{lemma}\label{lem:dual-regular-shifts}
+Let $X=(X_1,\ldots,X_d)\in\M^d$ admit a dual system.
+Then $X_i-\lambda$ is regular for every $1\leq i\leq d$ and every $\lambda\in\C$.
+\end{lemma}
+
 % Provenance: C_F0024-P1 and C_F0033-P1, specialized to M Omega.
 
 We now construct a normalized liberation dual system from a dual system for normal generators and compare their fraction commutators.
+We adapt Voiculescu's construction in \cite[Remark~13.2(c)]{Voi99}.
 
 \begin{lemma}\label{lem:fundamental}
 Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
-Then every $X_i-\lambda$, $\lambda\in\C$, is regular.
 Define on $\M\Omega$
 \begin{equation}\label{eq:dual-liberation-construction}
  K_i:=[\rho(X_i),D_i|_{\M\Omega}],\qquad
@@ -169,19 +173,6 @@ In particular, if $\overline{\Gamma[Q,D_i]}\in\F(H)$ for every $i$, then
 \end{equation}
 \end{lemma}
 \begin{proof}
-Fix $i$ and $\lambda\in\C$, and set $e:=1_{\{\lambda\}}(X_i)$.
-Using equation~\eqref{eq:analytic-hyp} with $j=i$ and the identities $eX_i=X_ie=\lambda e$, we have on $\M\Omega$
-\[
- eP_\Omega e=e[X_i,D_i]e=\lambda eD_ie-\lambda eD_ie=0.
-\]
-In particular,
-\[
- 0=\langle\Omega,eP_\Omega e\Omega\rangle
- =\|P_\Omega e\Omega\|_2^2=|\tau(e)|^2.
-\]
-Faithfulness of $\tau$ yields $e=0$.
-Since $\ker(X_i-\lambda)=eH$ and $X_i-\lambda$ is normal, it is injective with dense range and hence regular.
-
 By Definition~\ref{def:dual-system}, $\M\Omega\subseteq\dom D_i^*$.
 Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the definition of the adjoint gives
 \[
@@ -239,7 +230,8 @@ Both sides are bounded operators, so density gives equation~\eqref{eq:fundamenta
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:analytic}]
-By Lemma~\ref{lem:fundamental}, every $X_i-\lambda$, $\lambda\in\C$, is regular and $X$ admits a normalized liberation dual system.
+By Lemma~\ref{lem:dual-regular-shifts}, every $X_i-\lambda$, $\lambda\in\C$, is regular.
+Lemma~\ref{lem:fundamental} supplies a normalized liberation dual system for $X$.
 Thus Theorem~\ref{thm:intrinsic-analytic} applies.
 Fix $u\in L^0(\M)$ and a fraction pair $Q$ for $u$.
 

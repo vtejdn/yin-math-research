@@ -1,6 +1,6 @@
 # Current writing opinions
 
-## The sources of the equalities in Lemma 5.5
+## The sources of the equalities in Lemma 5.6
 
 Optional clarification at “Jacobi's identity therefore gives” in `lem:fundamental`.
 Jacobi's identity gives the first equality for \([X_j,K_i]\) using commutation of left and right multiplication.
