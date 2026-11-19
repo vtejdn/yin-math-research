@@ -202,29 +202,6 @@ Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the definition of the adjo
 Consequently, $\M\Omega$ is contained in the adjoint domains of $C$ and each $L_i$ as well.
 In particular, $C$ is closable.
 
-For $u,v\in\M$, equation~\eqref{eq:theta-bounded} reads
-\[
- \Theta(u\otimes v^{\mathrm{op}})=uP_\Omega v.
-\]
-For $x\in\M$ and $k\in H\otimes_{\C}H$, equation~\eqref{eq:tensor-commutator-general} reads
-\[
- [\rho(x),\Theta(k)]=\Theta(\Psi_x(k)).
-\]
-Taking $u=v=1$ in the first formula gives $\Theta(1\otimes1)=P_\Omega$.
-Taking $x=X_i$ and $k=1\otimes1$ in the second then gives on $H$
-\[
- [\rho(X_i),P_\Omega]=\Theta\bigl(\Psi_i(1\otimes1)\bigr).
-\]
-By Definition~\ref{def:psi}, $\Psi_i(1\otimes1)=X_i\otimes1-1\otimes X_i^{\mathrm{op}}$.
-Linearity and equation~\eqref{eq:theta-bounded} give
-\[
- \begin{aligned}
-  \Theta\bigl(\Psi_i(1\otimes1)\bigr)
-  &=\Theta(X_i\otimes1)-\Theta(1\otimes X_i^{\mathrm{op}})\\
-  &=X_iP_\Omega-P_\Omega X_i=[X_i,P_\Omega].
- \end{aligned}
-\]
-
 The left multiplier $X_j$ and the right multiplier $\rho(X_i)$ commute and preserve $\M\Omega$.
 Jacobi's identity gives on $\M\Omega$
 \[
@@ -241,11 +218,9 @@ For $\xi\in\M\Omega$, applying equation~\eqref{eq:analytic-hyp} at $\xi$ and $\r
  \begin{aligned}
   [\rho(X_i),[X_j,D_i]]\xi
   &=\rho(X_i)[X_j,D_i]\xi-[X_j,D_i]\rho(X_i)\xi\\
-  &=\delta_{ij}[\rho(X_i),P_\Omega]\xi\\
-  &=\delta_{ij}[X_i,P_\Omega]\xi.
+  &=\delta_{ij}[\rho(X_i),P_\Omega]\xi.
  \end{aligned}
 \]
-The last equality uses $[\rho(X_i),P_\Omega]=[X_i,P_\Omega]$.
 
 By equation~\eqref{eq:dual-liberation-construction}, on $\M\Omega$ we have
 \[
@@ -257,6 +232,7 @@ By equation~\eqref{eq:dual-liberation-construction}, on $\M\Omega$ we have
  \end{aligned}
 \]
 It follows that $[X_j,L_i]=\delta_{ij}[X_i,P_\Omega]$ and $\sum_iL_i=P_\Omega$ on $\M\Omega$.
+Since $\rho(X_j)\Omega=X_j\Omega$ and traciality gives $P_\Omega\rho(X_j)=P_\Omega X_j$, we have $[\rho(X_j),P_\Omega]=[X_j,P_\Omega]$.
 Thus $(L_1,\ldots,L_d)$ is a normalized liberation dual system.
 \end{proof}
 
