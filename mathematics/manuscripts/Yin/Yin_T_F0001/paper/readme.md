@@ -33,7 +33,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The comparison of Theorems 1.7 and 1.9 in Remark 6.2 compiled successfully on 2026-11-20 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The revised proof of the finite-rank obstruction in Remark 6.2 compiled successfully on 2026-11-20 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above.
 The resulting PDF has 23 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
@@ -41,6 +41,6 @@ The [organization record](../organization.md) gives the current environments and
 The source check found 86 unique labels and the build resolved all cross-references and 21 bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
-The check confirmed the references to condition (3) and equation (8) in Remark 6.2 and the layout of PDF pages 22 and 23.
+The check confirmed the references to Lemma 5.3 and equation (8) in Remark 6.2 and the layout of PDF pages 22 and 23.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).

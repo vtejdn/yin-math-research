@@ -89,21 +89,20 @@ Thus the implication from condition~\textup{(\ref{item:analytic-fraction-commuta
 The bounded dual $D$ gives $\Delta(c)=1$ by \cite[Proposition~6.2]{MSY23}.
 The free-field embedding in Lemma~\ref{lem:free-field} then shows that $c-\lambda$ is invertible in $L^0(\M)$ for every $\lambda\in\C$.
 The single operator $L:=P_\Omega$ is a normalized liberation dual system for $c$, so Theorem~\ref{thm:intrinsic-analytic} applies.
-Since $c^*$ is not rational in $c$, the equivalence of conditions~\textup{(1)} and~\textup{(\ref{item:intrinsic-analytic-existence-criterion})} in that theorem rules out a finite-rank solution of equation~\eqref{eq:intrinsic-analytic-criterion} for any fraction pair for $c^*$.
-Thus for every fraction pair $Q=(s,a,b,t)$ for $c^*$, we have
+Fix a fraction pair $Q=(s,a,b,t)$ for $c^*$, and suppose that $T\in\F(H)$ satisfies equation~\eqref{eq:intrinsic-analytic-criterion}.
+Lemma~\ref{lem:finite-rank-identification} then gives $T=\overline{\Gamma[Q,D]}=0$, so
 \[
- \Gamma[Q,D]=0\in\F(H),\qquad
- \Gamma[Q,L]=\Gamma[Q,P_\Omega]\notin[\rho(c),\F(H)].
+ 0=[\rho(c),T]=\Gamma[Q,P_\Omega]=s[P_\Omega,c^*]t.
 \]
-For the candidate $T=\Gamma[Q,D]$, equation~\eqref{eq:intrinsic-analytic-criterion} fails directly, since
-\[
- [\rho(c),\Gamma[Q,D]]=0
- \ne \Gamma[Q,P_\Omega]=s[P_\Omega,c^*]t.
-\]
-Indeed, $\tau(c^*)=0$ gives
+Since $\tau(c^*)=0$, we have
 \[
  [P_\Omega,c^*]\Omega=-c^*\Omega\ne0,
 \]
 where $c^*\Omega$ is nonzero by faithfulness of the vacuum trace.
-Regularity makes $s$ injective and $t$ have dense range, so $s[P_\Omega,c^*]t\ne0$.
+Regularity makes $s$ injective and $t$ have dense range, so $s[P_\Omega,c^*]t\ne0$, a contradiction.
+Since $Q$ was arbitrary, we have for every fraction pair for $c^*$
+\[
+ \Gamma[Q,D]=0\in\F(H),\qquad
+ \Gamma[Q,L]=\Gamma[Q,P_\Omega]\notin[\rho(c),\F(H)].
+\]
 \end{remark}
