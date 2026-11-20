@@ -32,7 +32,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The revision of Lemma 5.7 for an arbitrary normalized liberation dual system compiled successfully on 2026-11-20 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The notation change in the density formula of Remark 6.1 compiled successfully on 2026-11-20 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above.
 The resulting PDF has 23 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
@@ -40,6 +40,6 @@ The [organization record](../organization.md) gives the current environments and
 The source check found 85 unique labels and the build resolved all cross-references and 21 bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
-The check confirmed the numbering of Lemma 5.7 and equations (26) through (28), the reference to equation (27) in the proof of Theorem 1.9, and the layout of PDF pages 20 and 21.
+The check confirmed the revised density formula and the layout of Remark 6.1 on PDF page 21.
 
 See the [open manuscript problems](../review.md) and the [provenance of the mathematical results](../readme.md#mathematical-provenance).
