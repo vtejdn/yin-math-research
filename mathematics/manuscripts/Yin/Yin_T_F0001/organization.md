@@ -48,7 +48,7 @@ The Hilbert–Schmidt space is defined before the unitary extension of Theta, an
 Theorem 1.4 does not require normality or generation of M.
 Its finite-rank condition asks for some fraction pair.
 Theorem 1.7 applies to every prescribed fraction pair, and its witnesses may depend on that pair.
-Lemma 5.7 compares the fraction commutators for a dual system and the normalized liberation dual system constructed in Proposition 5.6.
+Lemma 5.7 compares the fraction commutators for a dual system and any normalized liberation dual system for the same tuple.
 For normal generators, it identifies \(\overline{\Gamma[Q,L_i]}\) with \([\rho(X_i),\overline{\Gamma[Q,D_i]}]\) on \(\mathcal M\Omega\).
 For finite-rank ordinary closures, the summed identity extends by density to the certificate identity on \(H\) required by Theorem 1.7.
 Lemma 5.3 identifies the certificate coordinates with the ordinary fraction-commutator closures.
@@ -102,8 +102,9 @@ Lemma 5.5 uses that lemma, the closed graph theorem and Kaplansky density for cl
 Proposition 5.6, `prop:dual-liberation-construction`, sets K_i=[rho(X_i),D_i restricted to M Omega], C=sum_i K_i-P_Omega and L_i=K_i-C/d for any tuple admitting a dual system.
 It proves \(\mathcal M\Omega\subseteq\operatorname{Dom}K_i^*\cap\operatorname{Dom}C^*\cap\operatorname{Dom}L_i^*\) for every \(i\), verifies the normalized liberation relations, and shows that \(C\) commutes with each \(X_j\) on \(\mathcal M\Omega\).
 Lemma 5.7, `lem:fundamental`, assumes that the \(X_j\) are normal and generate \(\mathcal M\).
-By Lemma 5.5, \(C\) is then left \(\mathcal M\)-linear, so \(\Gamma[Q,C]\) vanishes on \(\mathcal M\Omega\).
-This gives the coordinate and summed fraction-commutator identities on \(\mathcal M\Omega\).
+For each \(i\), the difference \(C_i=K_i-L_i\) is closable and commutes with every \(X_j\) on \(\mathcal M\Omega\).
+Lemma 5.5 makes each \(C_i\) left \(\mathcal M\)-linear, so \(\Gamma[Q,C_i]\) vanishes on \(\mathcal M\Omega\).
+This gives the coordinate identity on \(\mathcal M\Omega\), and normalization gives the summed identity there.
 The proof of Theorem 1.9 starts with maximal Delta from Remark 5.1.
 Maximal Delta then supplies the free-field embedding, so the nonzero free-field element \(x_i-\lambda\) evaluates to a regular element of \(\mathcal M\).
 The proof uses Theorem 1.7 in both directions.
