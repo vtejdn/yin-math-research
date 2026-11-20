@@ -4,8 +4,7 @@
 \label{sec:dual-system-criterion}
 
 We prove Theorem~\ref{thm:analytic} by applying Theorem~\ref{thm:intrinsic-analytic} to a normalized liberation dual system constructed from the given dual system.
-
-We recall Definition~\ref{def:dual-system}.
+We first recall Definition~\ref{def:dual-system} of the dual system for reader's convenience.
 
 \begin{definition*}
 Let $X=(X_1,\ldots,X_d)\in\M^d$.
@@ -20,23 +19,7 @@ A \emph{dual system} for $X$ is a tuple $(D_1,\ldots,D_d)$ of linear operators o
 % Proof input: C_F0024 v1, Section 3, with the generator-first sign.
 \begin{remark}\label{rem:dual-maximality}
 If $X$ admits a dual system in the sense of Definition~\ref{def:dual-system}, then $\Delta(X)=d$.
-The trace argument in \cite[proof of Proposition~6.2]{MSY23} applies \emph{mutatis mutandis}.
-Suppose that $\sum_i[T_i,X_i]=0$ for $T_i\in\F(H)$.
-Apply Lemma~\ref{lem:clearing} to a basis of $\sum_i\operatorname{Ran}T_i$ to choose a regular $r\in\M$ such that $\rho(r)\operatorname{Ran}T_i\subseteq\M\Omega$ for every $i$.
-For $a,b\in\M$, set $S_i:=\rho(a)\rho(r)T_i\rho(b)$.
-The right multipliers commute with each $X_i$, so $\sum_i[S_i,X_i]=0$.
-Each $S_i$ has finite-dimensional range in $\M\Omega$, so $D_jS_i$ is a bounded finite-rank operator.
-Applying $D_j$ on the left to the cycle and using the dual identities gives
-\[
- 0=\sum_i[D_jS_i,X_i]+P_\Omega S_j.
-\]
-Taking the usual trace on $\B(H)$ yields
-\[
- 0=\operatorname{Tr}(P_\Omega S_j)
-  =\langle\rho(a)^*\Omega,\rho(r)T_j\rho(b)\Omega\rangle.
-\]
-As $a$ and $b$ vary, the two test-vector families are independently dense in $H$, so $\rho(r)T_j=0$.
-Since $\rho(r)$ is injective, every $T_j$ vanishes, and Remark~\ref{rem:cycle-characterization} gives the conclusion.
+The argument in \cite[proof of Proposition~6.2]{MSY23} applies \emph{mutatis mutandis}.
 \end{remark}
 
 We first prove that the existence of a finite-rank closure and its rank are independent of the fraction pair, and identify finite-rank solutions of equation~\eqref{eq:certificate} with the closures of the corresponding fraction commutators.
@@ -179,7 +162,7 @@ Closedness of \(\overline T\) and \(a\xi\in\M\Omega\) give \(T(a\xi)=aT\xi\).
 
 % Provenance: C_F0024-P1 and C_F0033-P1, specialized to M Omega.
 
-We adapt Voiculescu's construction in \cite[Remark~13.2(c)]{Voi99} to obtain a normalized liberation dual system.
+We adapt Voiculescu's construction in \cite[Remark~13.2(c)]{Voi99} to obtain a normalized liberation dual system, whenever a dual system exists.
 
 \begin{proposition}\label{prop:dual-liberation-construction}
 Let $X\in\M^d$ and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
@@ -193,31 +176,34 @@ The tuple $(L_1,\ldots,L_d)$ is a normalized liberation dual system for $X$.
 The operator $C$ is closable and satisfies $[X_j,C]=0$ on $\M\Omega$ for every $j$.
 \end{proposition}
 \begin{proof}
-By Definition~\ref{def:dual-system}, $\M\Omega\subseteq\dom D_i^*$.
-Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, the definition of the adjoint gives $\M\Omega\subseteq\dom K_i^*$ and, on $\M\Omega$,
+By Definition~\ref{def:dual-system}, $\M\Omega\subseteq\dom D_i^*$ for every $i$.
+Since $\rho(X_i)^*=\rho(X_i^*)$ preserves $\M\Omega$, for $\xi,\eta\in\M\Omega$ we have
 \[
- K_i^*=D_i^*\rho(X_i^*)-\rho(X_i^*)D_i^*.
+ \langle K_i\xi,\eta\rangle
+ =\big\langle \xi,D_i^*\rho(X_i^*)\eta-\rho(X_i^*)D_i^*\eta\big\rangle.
 \]
-Consequently, $\M\Omega$ is contained in the adjoint domains of $C$ and each $L_i$ as well.
+Thus $\M\Omega\subseteq\dom K_i^*$ for every $i$.
+By equation~\eqref{eq:dual-liberation-construction}, $C$ and each $L_i$ are linear combinations of the $K_j$ and the bounded projection $P_\Omega$.
+Hence $\M\Omega\subseteq\dom C^*\cap\dom L_i^*$ for every $i$.
 In particular, $C$ is closable.
 
-The left multiplier $X_j$ and the right multiplier $\rho(X_i)$ commute and preserve $\M\Omega$.
-Jacobi's identity gives on $\M\Omega$
+Next, we want to show that $[X_j,C]=0$ on $\M\Omega$ for any $j$.
+Thanks to Jacobi's identity, we have on $\M\Omega$
 \[
  \begin{aligned}
   [X_j,K_i]
   &=[X_j,[\rho(X_i),D_i]]\\
   &=[[X_j,\rho(X_i)],D_i]+[\rho(X_i),[X_j,D_i]]\\
-  &=[\rho(X_i),[X_j,D_i]].
+  &=[\rho(X_i),[X_j,D_i]],
  \end{aligned}
 \]
-
-For $\xi\in\M\Omega$, applying equation~\eqref{eq:analytic-hyp} at $\xi$ and $\rho(X_i)\xi$ gives
+where the last equality is due to $[X_j,\rho(X_i)]=0$, as the left multiplication by $X_j$ and $\rho(X_i)$ commute and preserve $\M\Omega$.
+We then have on $\M\Omega$
 \[
  \begin{aligned}
-  [\rho(X_i),[X_j,D_i]]\xi
-  &=\rho(X_i)[X_j,D_i]\xi-[X_j,D_i]\rho(X_i)\xi\\
-  &=\delta_{ij}[\rho(X_i),P_\Omega]\xi.
+  [X_j,K_i]
+  &=\rho(X_i)[X_j,D_i]-[X_j,D_i]\rho(X_i)\\
+  &=\delta_{ij}[\rho(X_i),P_\Omega].
  \end{aligned}
 \]
 
@@ -230,19 +216,17 @@ By equation~\eqref{eq:dual-liberation-construction}, on $\M\Omega$ we have
   &=[\rho(X_j),P_\Omega]-[X_j,P_\Omega]=0.
  \end{aligned}
 \]
-For the last equality, we use $P_\Omega(a\Omega)=\tau(a)\Omega$ for $a\in\M$.
-Since $\rho(X_j)\Omega=X_j\Omega$, we have
+The last equality $[\rho(X_j),P_\Omega]=[X_j,P_\Omega]$ can be concluded from the identities
 \[
- \rho(X_j)P_\Omega(a\Omega)=\tau(a)X_j\Omega=X_jP_\Omega(a\Omega).
+ \rho(X_j)P_\Omega(a\Omega)=\tau(a)X_j\Omega=X_jP_\Omega(a\Omega)
 \]
-When the projection is applied after multiplication, traciality gives
+and
 \[
  P_\Omega\rho(X_j)(a\Omega)=\tau(aX_j)\Omega
  =\tau(X_j a)\Omega=P_\Omega X_j(a\Omega).
 \]
-The two product identities extend to $H$ by density and boundedness, giving $[\rho(X_j),P_\Omega]=[X_j,P_\Omega]$.
 
-It follows that $[X_j,L_i]=\delta_{ij}[X_i,P_\Omega]$ and $\sum_iL_i=P_\Omega$ on $\M\Omega$.
+It follows that $[X_j,L_i]=[X_j,K_i]=\delta_{ij}[X_i,P_\Omega]$ and $\sum_iL_i=P_\Omega$ on $\M\Omega$.
 Thus $(L_1,\ldots,L_d)$ is a normalized liberation dual system.
 \end{proof}
 
@@ -264,7 +248,7 @@ In particular, if $\overline{\Gamma[Q,D_i]}\in\F(H)$ for every $i$, then
 \begin{proof}
 Let $K_i$ and $C$ be as in equation~\eqref{eq:dual-liberation-construction}.
 By Proposition~\ref{prop:dual-liberation-construction}, $C$ is closable and commutes with every $X_j$ on $\M\Omega$.
-Since the normal operators $X_j$ generate $\M$, Lemma~\ref{lem:module-commutation} gives $C(z\xi)=zC\xi$ for all $z\in\M$ and $\xi\in\M\Omega$.
+Since the normal operators $X_j$ generate $\M$, Lemma~\ref{lem:module-commutation} gives $C(y\xi)=yC\xi$ for all $y\in\M$ and $\xi\in\M\Omega$.
 For a fraction pair $Q=(s,a,b,t)$ for $u$, we have $sb=s(ut)=(su)t=at$ in $L^0(\M)$.
 Thus on $\M\Omega$,
 \[
