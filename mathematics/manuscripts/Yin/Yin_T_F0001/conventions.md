@@ -93,8 +93,8 @@ The formal cleared-denominator identity is \(\Gamma[Q,D]=s[D,u]t\) when the comp
 The expression \(sDb-aDt\) on the stated domain defines the operator; the formal identity alone does not establish boundedness or an everywhere-defined commutator.
 For bounded \(u\), the unit-denominator fraction pair recovers \([D,u]\) on its natural domain.
 The operator may depend on the fraction pair.
-Use \(\Gamma[Q,D_i]\) for bounded duals and \(\overline{\Gamma[Q,D_i]}\) for a bounded closure.
-State the domain and bounded-extension hypotheses whenever an unbounded dual is used.
+Use \(\Gamma[Q,D_i]\) for the fraction commutator and \(\overline{\Gamma[Q,D_i]}\) for its closure.
+Specify the domain of an identity involving possibly unbounded operators and state any bounded-extension hypotheses it uses.
 Do not attribute the local name “fraction commutator” to Miy22.
 
 Use \(\mathcal F(H)\) for bounded finite-rank operators and \(S_2(H)\) for the Schatten class of Hilbert--Schmidt operators.

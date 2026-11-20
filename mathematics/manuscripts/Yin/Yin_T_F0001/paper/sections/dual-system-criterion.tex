@@ -234,15 +234,16 @@ For normal generators we can now compare the fraction commutators of the two sys
 
 \begin{lemma}\label{lem:fundamental}
 Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
-Let $(L_1,\ldots,L_d)$ be the system constructed in Proposition~\ref{prop:dual-liberation-construction}.
-For every fraction pair $Q$ and every $i$, if $\overline{\Gamma[Q,D_i]}$ is bounded on $H$, then
+Let $(L_1,\ldots,L_d)$ be the normalized liberation dual system constructed in Proposition~\ref{prop:dual-liberation-construction}.
+For every fraction pair $Q$ and every $\xi\in\M\Omega$, we have
 \begin{equation}\label{eq:dual-liberation-fractions}
- \overline{\Gamma[Q,L_i]}
- =[\rho(X_i),\overline{\Gamma[Q,D_i]}].
+ \overline{\Gamma[Q,L_i]}\xi
+ =[\rho(X_i),\overline{\Gamma[Q,D_i]}]\xi
+ \qquad(1\leq i\leq d).
 \end{equation}
-In particular, if $\overline{\Gamma[Q,D_i]}\in\F(H)$ for every $i$, then
+Consequently,
 \begin{equation}\label{eq:fundamental}
- \sum_{i=1}^d[\rho(X_i),\overline{\Gamma[Q,D_i]}]=\Gamma[Q,P_\Omega].
+ \sum_{i=1}^d[\rho(X_i),\overline{\Gamma[Q,D_i]}]\xi=\Gamma[Q,P_\Omega]\xi.
 \end{equation}
 \end{lemma}
 \begin{proof}
@@ -266,22 +267,18 @@ Using equations~\eqref{eq:fraction-commutator} and~\eqref{eq:dual-liberation-con
   &=\rho(X_i)\Gamma[Q,D_i]-\Gamma[Q,D_i]\rho(X_i).
  \end{aligned}
 \end{equation}
-If $\overline{\Gamma[Q,D_i]}$ is bounded on $H$, the right-hand side extends to
-$[\rho(X_i),\overline{\Gamma[Q,D_i]}]\in\B(H)$.
-By Lemma~\ref{lem:fraction-domains}, $\Gamma[Q,L_i]$ is closable on its natural domain.
-Its closure extends this bounded operator on all of $H$, proving equation~\eqref{eq:dual-liberation-fractions}.
-When all $\overline{\Gamma[Q,D_i]}$ have finite rank, equation~\eqref{eq:dual-liberation-fractions} holds for every $i$.
-For $\xi\in\M\Omega$, both $b\xi$ and $t\xi$ belong to $\M\Omega$, and normalization gives
+By Lemma~\ref{lem:fraction-domains}, $\Gamma[Q,D_i]$ and $\Gamma[Q,L_i]$ are closable, and their closures agree with them on $\M\Omega$.
+Since $\rho(X_i)$ preserves $\M\Omega$, equation~\eqref{eq:dual-liberation-on-domain} gives equation~\eqref{eq:dual-liberation-fractions}.
+
+For $\xi\in\M\Omega$, both $b\xi$ and $t\xi$ belong to $\M\Omega$, so the identity $\sum_iL_i=P_\Omega$ on $\M\Omega$ gives
 \[
  \begin{aligned}
  \sum_i[\rho(X_i),\overline{\Gamma[Q,D_i]}]\xi
  &=\sum_i\overline{\Gamma[Q,L_i]}\xi\\
- &=s\Bigl(\sum_iL_i\Bigr)b\xi-a\Bigl(\sum_iL_i\Bigr)t\xi\\
- &=sP_\Omega b\xi-aP_\Omega t\xi
+ &=\Gamma[Q,\textstyle\sum_iL_i]\xi
   =\Gamma[Q,P_\Omega]\xi.
  \end{aligned}
 \]
-Both sides are bounded operators, so density gives equation~\eqref{eq:fundamental} on $H$.
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:analytic}]
@@ -300,10 +297,11 @@ Lemma~\ref{lem:finite-rank-identification} gives $\overline{\Gamma[Q,D_i]}=T_i$ 
 
 $\textup{(3)}\implies\textup{(1)}$.
 Put $T_i:=\overline{\Gamma[Q,D_i]}\in\F(H)$.
-Equation~\eqref{eq:fundamental} gives
+Equation~\eqref{eq:fundamental} gives on $\M\Omega$
 \[
  \sum_i[\rho(X_i),T_i]=\Gamma[Q,P_\Omega].
 \]
+Both sides are bounded, so density gives the equality on $H$.
 Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-existence-criterion})} yields $u\in\Div_{L^0(\M)}\A_X$.
 
 $\textup{(2)}\Longleftrightarrow\textup{(3)}$.
