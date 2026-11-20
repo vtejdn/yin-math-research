@@ -122,7 +122,8 @@ The odd monomials tend to zero in L2, whereas the vacuum pairing of their ordina
 The two vacuum domain inclusions bound that pairing by a fixed constant times the L2 norm, excluding every ordinary dual system.
 
 Remark 6.2 retains the circular counterexample.
-The example applies MSY23 Proposition 6.2 directly to its bounded dual for maximal Delta and compares Theorems 1.4 and 1.9.
+The bounded dual gives maximal Delta by MSY23 Proposition 6.2, and the free-field embedding gives regular scalar shifts.
+With \(L=P_\Omega\), the example applies Theorem 1.7 and compares its commutator condition with the finite-rank condition in Theorem 1.9.
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
 
 The project README maps these environments to responsible mathematical records.

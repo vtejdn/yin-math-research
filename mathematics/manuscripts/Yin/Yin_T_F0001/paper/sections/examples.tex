@@ -72,7 +72,9 @@ Put
  c:=\frac{S_1+\mathrm iS_2}{\sqrt2},\qquad
  \M:=W^*(c)=W^*(S_1,S_2).
 \]
-In this realization the full Fock space identifies with $H=L^2(\M,\tau)$.
+Let us consider $c^*$ as an element of $L^0(\M)$.
+Since every element of $\Div_{L^0(\M)}\C[c]$ commutes with $c$ and $[c,c^*]=\mathrm i[S_2,S_1]\ne0$, we have $c^*\notin\Div_{L^0(\M)}\C[c]$.
+
 Define
 \[
  D:=-\frac{r_1^*-\mathrm i r_2^*}{\sqrt2}\in\B(H).
@@ -82,17 +84,21 @@ Thus, for every fraction pair $Q=(s,a,b,t)$ for $c^*$,
 \[
  \Gamma[Q,D]=s[D,c^*]t=0\in\F(H).
 \]
-The elements of $L^0(\M)$ commuting with $c$ form a unital subalgebra containing $\C[c]$ and closed under inversion in $L^0(\M)$.
-Thus every element of $\Div_{L^0(\M)}\C[c]$ commutes with $c$.
-Since $[c,c^*]=\mathrm i[S_2,S_1]\ne0$, we have $c^*\notin\Div_{L^0(\M)}\C[c]$.
+Thus the implication from condition~\textup{(\ref{item:analytic-fraction-commutators})} of Theorem~\ref{thm:analytic} to rationality fails when normality is dropped.
 
-The bounded dual $D$ also gives $\Delta(c)=1$ by \cite[Proposition~6.2]{MSY23}, so Theorem~\ref{thm:delta} still applies to $c$.
-Since $c^*$ is not rational in $c$, none of its equivalent conditions holds for $c^*$.
-In particular, the equation in Theorem~\ref{thm:delta}\textup{(\ref{item:delta-finite-rank})} has no finite-rank solution for any fraction pair for $c^*$.
-For every fraction pair $Q=(s,a,b,t)$ for $c^*$, $\Gamma[Q,D]=0$ and thus fails to solve this equation:
+The bounded dual $D$ gives $\Delta(c)=1$ by \cite[Proposition~6.2]{MSY23}.
+The free-field embedding in Lemma~\ref{lem:free-field} then shows that $c-\lambda$ is invertible in $L^0(\M)$ for every $\lambda\in\C$.
+The single operator $L:=P_\Omega$ is a normalized liberation dual system for $c$, so Theorem~\ref{thm:intrinsic-analytic} applies.
+Since $c^*$ is not rational in $c$, the equivalence of conditions~\textup{(1)} and~\textup{(\ref{item:intrinsic-analytic-existence-criterion})} in that theorem rules out a finite-rank solution of equation~\eqref{eq:intrinsic-analytic-criterion} for any fraction pair for $c^*$.
+Thus for every fraction pair $Q=(s,a,b,t)$ for $c^*$, we have
+\[
+ \Gamma[Q,D]=0\in\F(H),\qquad
+ \Gamma[Q,L]=\Gamma[Q,P_\Omega]\notin[\rho(c),\F(H)].
+\]
+For the candidate $T=\Gamma[Q,D]$, equation~\eqref{eq:intrinsic-analytic-criterion} fails directly, since
 \[
  [\rho(c),\Gamma[Q,D]]=0
- \ne s[P_\Omega,c^*]t=\Gamma[Q,P_\Omega].
+ \ne \Gamma[Q,P_\Omega]=s[P_\Omega,c^*]t.
 \]
 Indeed, $\tau(c^*)=0$ gives
 \[
