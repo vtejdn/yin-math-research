@@ -270,11 +270,17 @@ Thus on $\M\Omega$,
 \[
  \Gamma[Q,C]=sCb-aCt=(sb-at)C=0.
 \]
-Right multipliers commute with the left multipliers in $Q$, so on $\M\Omega$ we have
+The right multiplier $\rho(X_i)$ commutes with the left multipliers $s,a,b,t$.
+Using equations~\eqref{eq:fraction-commutator} and~\eqref{eq:dual-liberation-construction}, we obtain on $\M\Omega$
 \begin{equation}\label{eq:dual-liberation-on-domain}
- \Gamma[Q,L_i]
- =\Gamma[Q,K_i]
- =\rho(X_i)\Gamma[Q,D_i]-\Gamma[Q,D_i]\rho(X_i).
+ \begin{aligned}
+  \Gamma[Q,L_i]
+  &=\Gamma[Q,K_i]-\frac1d\Gamma[Q,C]
+   =\Gamma[Q,K_i]\\
+  &=s[\rho(X_i),D_i]b-a[\rho(X_i),D_i]t\\
+  &=\rho(X_i)(sD_i b-aD_i t)-(sD_i b-aD_i t)\rho(X_i)\\
+  &=\rho(X_i)\Gamma[Q,D_i]-\Gamma[Q,D_i]\rho(X_i).
+ \end{aligned}
 \end{equation}
 If $\overline{\Gamma[Q,D_i]}$ is bounded on $H$, the right-hand side extends to
 $[\rho(X_i),\overline{\Gamma[Q,D_i]}]\in\B(H)$.
