@@ -234,7 +234,7 @@ For normal generators we can now compare the fraction commutators of the two sys
 
 \begin{lemma}\label{lem:fundamental}
 Let $X_1,\ldots,X_d\in\M$ be normal operators generating $\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$.
-Let $(L_1,\ldots,L_d)$ be the normalized liberation dual system constructed in Proposition~\ref{prop:dual-liberation-construction}.
+Let $(L_1,\ldots,L_d)$ be any normalized liberation dual system for $X$.
 For every fraction pair $Q$ and every $\xi\in\M\Omega$, we have
 \begin{equation}\label{eq:dual-liberation-fractions}
  \overline{\Gamma[Q,L_i]}\xi
@@ -247,20 +247,25 @@ Consequently,
 \end{equation}
 \end{lemma}
 \begin{proof}
-Let $K_i$ and $C$ be as in equation~\eqref{eq:dual-liberation-construction}.
-By Proposition~\ref{prop:dual-liberation-construction}, $C$ is closable and commutes with every $X_j$ on $\M\Omega$.
-Since the normal operators $X_j$ generate $\M$, Lemma~\ref{lem:module-commutation} gives $C(y\xi)=yC\xi$ for all $y\in\M$ and $\xi\in\M\Omega$.
+Let $K_i$ be as in equation~\eqref{eq:dual-liberation-construction}, and set $C_i:=K_i-L_i$ on $\M\Omega$.
+The proof of Proposition~\ref{prop:dual-liberation-construction} gives $\M\Omega\subseteq\dom K_i^*$ and $[X_j,K_i]=\delta_{ij}[X_i,P_\Omega]$ on $\M\Omega$.
+Since $\M\Omega\subseteq\dom L_i^*$, we have $\M\Omega\subseteq\dom C_i^*$, so $C_i$ is closable.
+By Definition~\ref{def:liberation-dual-system}, we have on $\M\Omega$
+\[
+ [X_j,C_i]=[X_j,K_i]-[X_j,L_i]=0
+ \qquad(1\leq j\leq d).
+\]
+Since the normal operators $X_j$ generate $\M$, Lemma~\ref{lem:module-commutation} gives $C_i(y\xi)=yC_i\xi$ for all $y\in\M$ and $\xi\in\M\Omega$.
 For a fraction pair $Q=(s,a,b,t)$ for $u$, we have $sb=s(ut)=(su)t=at$ in $L^0(\M)$.
 Thus on $\M\Omega$,
 \[
- \Gamma[Q,C]=sCb-aCt=(sb-at)C=0.
+ \Gamma[Q,C_i]=sC_i b-aC_i t=(sb-at)C_i=0.
 \]
-The right multiplier $\rho(X_i)$ commutes with the left multipliers $s,a,b,t$.
-Using equations~\eqref{eq:fraction-commutator} and~\eqref{eq:dual-liberation-construction}, we obtain on $\M\Omega$
+Substituting $L_i=K_i-C_i$ into equation~\eqref{eq:fraction-commutator} gives on $\M\Omega$
 \begin{equation}\label{eq:dual-liberation-on-domain}
  \begin{aligned}
   \Gamma[Q,L_i]
-  &=\Gamma[Q,K_i]-\frac1d\Gamma[Q,C]
+  &=\Gamma[Q,K_i]-\Gamma[Q,C_i]
    =\Gamma[Q,K_i]\\
   &=s[\rho(X_i),D_i]b-a[\rho(X_i),D_i]t\\
   &=\rho(X_i)(sD_i b-aD_i t)-(sD_i b-aD_i t)\rho(X_i)\\
@@ -272,12 +277,8 @@ Since $\rho(X_i)$ preserves $\M\Omega$, equation~\eqref{eq:dual-liberation-on-do
 
 For $\xi\in\M\Omega$, both $b\xi$ and $t\xi$ belong to $\M\Omega$, so the identity $\sum_iL_i=P_\Omega$ on $\M\Omega$ gives
 \[
- \begin{aligned}
  \sum_i[\rho(X_i),\overline{\Gamma[Q,D_i]}]\xi
- &=\sum_i\overline{\Gamma[Q,L_i]}\xi\\
- &=\Gamma[Q,\textstyle\sum_iL_i]\xi
-  =\Gamma[Q,P_\Omega]\xi.
- \end{aligned}
+ =\sum_i\overline{\Gamma[Q,L_i]}\xi=\Gamma[Q,P_\Omega]\xi.
 \]
 \end{proof}
 

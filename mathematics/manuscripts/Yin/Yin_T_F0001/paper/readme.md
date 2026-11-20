@@ -32,7 +32,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
-The revision of equations (26) and (27) compiled successfully on 2026-11-20 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
+The revision of Lemma 5.7 for an arbitrary normalized liberation dual system compiled successfully on 2026-11-20 using TeX Live 2025, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above.
 The resulting PDF has 23 pages.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
