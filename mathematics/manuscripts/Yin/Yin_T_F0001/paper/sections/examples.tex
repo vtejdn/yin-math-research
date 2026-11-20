@@ -21,12 +21,24 @@ The commutator product rule gives on $\M\Omega$
 \[
  [X^{2n+1},D]=\sum_{k=0}^{2n}X^kP_\Omega X^{2n-k}.
 \]
-The moments $\tau(X^{2r})=4^{-r}\binom{2r}{r}$ and $\tau(X^{2r+1})=0$ therefore give
+Write $m_r:=\tau(X^{2r})=4^{-r}\binom{2r}{r}$ for $r\geq0$.
+Pairing the commutator identity with $\Omega$ and using $\tau(X^{2r+1})=0$ gives
 \[
+ \begin{aligned}
  \langle\Omega,[X^{2n+1},D]\Omega\rangle
- =4^{-n}\sum_{r=0}^{n}\binom{2r}{r}\binom{2n-2r}{n-r}=1,
+ &=\sum_{k=0}^{2n}\tau(X^k)\tau(X^{2n-k})\\
+ &=\sum_{r=0}^{n}m_r m_{n-r}.
+ \end{aligned}
 \]
-where the last equality follows by comparing coefficients in $(1-z)^{-1/2}(1-z)^{-1/2}=(1-z)^{-1}$.
+By the binomial series, $\sum_{r=0}^\infty m_r z^r=(1-z)^{-1/2}$ for $|z|<1$.
+The Cauchy product of this series with itself gives
+\[
+ \sum_{n=0}^\infty\Bigl(\sum_{r=0}^n m_r m_{n-r}\Bigr)z^n
+ =\Bigl(\sum_{r=0}^\infty m_r z^r\Bigr)^2
+ =(1-z)^{-1}
+ =\sum_{n=0}^\infty z^n.
+\]
+Comparing coefficients of $z^n$ shows that $\langle\Omega,[X^{2n+1},D]\Omega\rangle=1$.
 On the other hand, $\|X^{2n+1}\|_2\to0$ by dominated convergence.
 Since $X=X^*$, $\Omega\in\dom D\cap\dom D^*$ and $X^{2n+1}\Omega\in\dom D$, we have
 \[
