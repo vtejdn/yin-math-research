@@ -11,6 +11,8 @@ For Yin's [free field terminology](../terminology.md#free-field-terminology) and
 
 Write Yin's mathematical manuscripts in English by default.
 Explain the problem, relevant existing results, precise contribution and main proof mechanism for the intended audience.
+In general exposition, foreground the main point and include the key information the reader needs to understand it.
+Omit secondary details that do not affect the main point.
 Organize the paper around its argument rather than research-log chronology.
 Choose wording, theorem organization and proof detail for the actual paper, checking every assertion, reference and contribution claim when adapting a model.
 
