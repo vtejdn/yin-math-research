@@ -127,9 +127,10 @@ With \(L=P_\Omega\), the example applies Theorem 1.7 and compares its commutator
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
 
 Example 6.3, `ex:bounded-rational-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
-The proof uses an operator on the last two tensor factors and a weighted Hilbert transform on the last factor to construct the bounded dual system.
+The bicommutant theorem gives \(W^*(X,Y)=W^*(X,S)\) from injectivity and dense range of \(X\).
+The proof constructs the bounded dual for \(Y\) using an operator on the last two tensor factors and uses Voiculescu's free-product representation to lift the weighted Hilbert-transform operator for \(X\).
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
-A matrix with entries in \(C^*(X,Y)\) and an inverse over \(\mathcal M\) has its inverse over \(C^*(X,Y)\).
+Spectral permanence gives inverse closure of \(M_n(C^*(X,Y))\) in \(M_n(\mathcal M)\) for every \(n\).
 Thus \(S=X^{-1}YX^{-1}\) separates the two rational closures on bounded elements.
 
 The project README maps these environments to responsible mathematical records.

@@ -21,12 +21,11 @@ An Oberwolfach search hit brings up adjacent abstracts on ordinary dual systems 
 Within this search scope, no source was found that explicitly gives a liberation dual system and excludes an ordinary dual system for the same example.
 Example 6.1 uses its direct argument for that conclusion.
 
-### Resolvent alternative
+### Arcsine Cauchy transform
 
-The search on 2026-11-21 UTC for the arcsine Cauchy transform checked Sch17, arXiv:1605.06689v4, §§2.1–2.2 and Example 2.8.
+The search on 2026-11-21 UTC for the arcsine Cauchy transform checked §§2.1–2.2 and Example 2.8. [Sch17, arXiv v4](https://arxiv.org/html/1605.06689v4).
 For variance $1/2$ the density in that example is the one in the manuscript, and its reciprocal Cauchy transform is $F_\mu(z)=\sqrt{z^2-1}$ in the upper half-plane.
 Taking the reciprocal and passing to the real axis on $(1,\infty)$ gives $G_\mu(r)=(r^2-1)^{-1/2}$, with the positive square root since $G_\mu(r)>0$.
-This supplies the formula used in the proposed [resolvent argument](revisions.md#example-61), which establishes the ordinary dual obstruction using Definition 1.8. [Sch17, arXiv v4, Example 2.8](https://arxiv.org/html/1605.06689v4).
 
 ## Example 6.3
 

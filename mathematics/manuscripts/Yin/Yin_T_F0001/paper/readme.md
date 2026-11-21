@@ -39,7 +39,7 @@ The resulting PDF has 25 pages and lists the three constructions in the final se
 The statement and argument for the pair \((X,XSX)\) both appear in Example 6.3.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 
-The source check found 89 unique LaTeX labels and the build resolved all cross-references and 22 bibliography entries.
+The source check found 89 unique LaTeX labels and the build resolved all cross-references and 23 bibliography entries.
 The final TeX and BibTeX logs contain no compilation errors, unresolved citations or references, duplicate-label warnings, missing-character diagnostics, box diagnostics or requests for another pass.
 The final TeX log retains the pdfTeX font-expansion warning, "font should be expanded before its first use".
 

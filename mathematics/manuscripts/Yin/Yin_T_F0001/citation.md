@@ -14,6 +14,7 @@ This map records only current citation applications, not consulted or uncited wo
 Source evidence: [AP18-U001](../../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
 The [AP18-U003, affiliation and domains](../../../audits/literature/AP18/Yin_U003.md#affiliation-interface), [square-integrable affiliated-operator interface](../../../audits/literature/Miy26/Yin_U004.md#miy26-u004), and [AP18-U002, canonical-conjugation reading](../../../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
 The inspected artifact is the undated 338-page author draft; 2018 is not a verified draft date.
+For the generation argument in Example 6.3, the inspection covers the statement of the bicommutant theorem and its applicability. [AP18, Theorem 2.1.3, p. 30](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=36).
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -22,6 +23,7 @@ The inspected artifact is the undated 338-page author draft; 2018 is not a verif
 | `paper/sections/preliminaries.tex`, `subsec:rational-affiliated` | `\cite[Section 7.2]{AP18}` | Supports the definition of affiliation by commutation with commutant unitaries, including domain invariance. |
 | `paper/sections/preliminaries.tex`, Hilbert--Schmidt setup in `subsec:finite-rank-tensors` | `\cite[Section 8.4]{AP18}` | Supports the ordinary trace on \(\B(H)\); it is distinct from the canonical trace on a general module commutant. |
 | `paper/sections/preliminaries.tex`, `subsec:finite-rank-tensors` | `\cite[Section~7.1.1]{AP18}` | Supplies the tracial standard-representation conjugation \(J(x\Omega)=x^*\Omega\), with the exact construction retained in the linked source record. |
+| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Theorem~2.1.3]{AP18}` | Gives \(\mathcal N''=\mathcal N\) for the unital von Neumann algebra \(\mathcal N=W^*(X,Y)\) on \(H\). The cancellation of \(X\) establishing \(S\in\mathcal N''\) is proved in the example. |
 
 ## `BD78`
 
@@ -214,6 +216,15 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |
 | `paper/sections/preliminaries.tex`, Tomita-conjugation paragraph in `subsec:finite-rank-tensors` | `\cite[p.~13]{MSY23}` | Supports the Tomita-conjugation terminology; the tensor identification is separately attributed to CS05. |
 
+## `Put19`
+
+The source is Putnam's lecture notes dated 3 January 2019.
+The inspection covers the statement of spectral permanence and its applicability. [Put19, Theorem 1.5.3, p. 24](https://web.uvic.ca/~ifputnam/ln/C%2A-algebras.pdf#page=24).
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Theorem~1.5.3]{Put19}` | Gives equality of spectra in a unital \(C^*\)-algebra and a \(C^*\)-subalgebra with the same unit. The matrix algebras \(M_n(C^*(X,Y))\subseteq M_n(\mathcal M)\) share their unit for every \(n\), so the theorem gives inverse closure at all matrix sizes. |
+
 ## `Tao06`
 
 The source is Tao's Fall 2006 UCLA Math 247A lecture notes, with kernel normalization in equation (1) and the \(L^2\) estimate in Proposition 1.2 and its consequence by Plancherel on pp. 3–4.
@@ -232,6 +243,7 @@ The inspected source is the published 39-page article; the exact proof repairs a
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, introduction to `def:dual-system` | `\cite[Definition~5.1]{Voi98}` | Gives the original bounded selfadjoint dual-system formulation for selfadjoint generators, with a coefficient algebra and commutators \([X_j,Y_i]=\mathrm i\delta_{ij}P_\Omega\). Taking the coefficient algebra to be \(\mathbb C1\) and setting \(D_i=-\mathrm iY_i\) gives the manuscript's generator-first normalization in that setting. The joint “see also” citation does not attribute the manuscript's formulation for arbitrary tuples in \(\mathcal M^d\) and possibly unbounded operators to Voi98; the inclusion \(\mathcal M\Omega\subseteq\operatorname{Dom}D_i\cap\operatorname{Dom}D_i^*\) is a local manuscript requirement. The published Definition 5.1 is on p.208 and is checked in Voi98-U005. |
 | `paper/sections/examples.tex`, `ex:normality` | `\cite[5.13]{Voi98}` | Supplies the standard free semicircular Fock model; the circular counterexample and rationality conclusion are local. |
+| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[5.5]{Voi98}` | Supplies the right representation of \(B(K)\) for \(K=L^2(W^*(X),\tau)\) in the pointed free product of \(W^*(X)\) and \(W^*(S)\). The same-factor commutator extends \([X,T_0]\) by zero off \(K\), and the cross-factor commutator with \(S\) vanishes. The example constructs \(T_0\), the bounded dual \(D_2\) for \(Y\), and the correction yielding \(D_1\). |
 | `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[Section~3, pp.~192--193]{Voi98}` | Supplies the polynomial free-difference-quotient convention before its separately cited free-field extension. |
 
 ## `Wei94`
