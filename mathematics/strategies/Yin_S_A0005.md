@@ -43,6 +43,10 @@ Free projections with arbitrary real trace satisfy the same analytic spanning co
 An unchanged original summand can supply only a constant determined edge action in this free extension.
 New integer information must therefore come from the original finite coefficients, an independent rank calculation or a different coupling.
 The rational support alone leaves the off-corner correction in v5 to be controlled.
+The [constant-field calculation](../claims/Yin_C_A0007_v10.md#statement) puts the determined edge action \(b_jq\) in \((D\cap\mathbb C)(z)\) for the cyclic skew-field construction over \(D\).
+In the free cyclic amalgam, vertex inputs over a conjugation-stable field \(k\) give determined entries in \(k(z)\), including genuine subordination boundaries under the bounded-inverse hypothesis.
+For a number-field input the [mixed moment test](../claims/Yin_C_A0097_v1.md#statement) gives specific rational ranks on a direct power that would detect a fractional column increment.
+Their integrality for the residual matrices in v9 remains independent input.
 Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
 An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.
 

@@ -31,6 +31,10 @@ The [extreme-layer argument](../claims/Yin_C_A0095_v1.md#testing-the-extreme-lay
 For additional layers test whether successive extremal coefficients force commutation or produce a strictly smaller nonnormal witness.
 A character defined on the subgroup of the support suffices.
 The case where there is no nonconstant real grading on the support needs a separate mechanism.
+The [layer and coefficient tests](../claims/Yin_C_A0095_v2.md#statement) now exclude a singleton extreme above a sufficiently large character gap and a three-layer support with reciprocal singleton extremes at minimum support.
+For an ungraded support the same result gives a finite rational linear test on the collected word coefficients.
+The [affine Serre calculation](../ledger/Yin_L_A0063_v1.md) further places the spectral measure of the self-commutator derivation at \(D\) in nonnegative frequencies and gives the exact trace transported across each spectral cut.
+Test whether scalar group support can force that transport to vanish when the rational linear test is inconclusive.
 
 The [single-prime route](Yin_S_A0009.md) supplies a second source of candidate pairs \(D,F\) via the integral defects of a modular one-sided inverse.
 A noncommuting finite-dimensional adjoint orbit in the actual group algebra already implies a nonzero nilpotent.

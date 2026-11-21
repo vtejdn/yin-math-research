@@ -39,6 +39,13 @@ The [common-alphabet certificate](../claims/Yin_C_A0092_v1.md#exact-alphabet-pro
 For example, a complete list with at most four two-label minimal supports has weight below \(1/4000\).
 The exact four-line type counts and geometric safeguards have not yet bounded this antichain or eliminated every output.
 That fixed-tuple counting obligation is the next test; the [common-path diagnostic](../ledger/Yin_L_A0058_v1.md#a-contact-cancellation-that-a-counting-argument-must-retain) still excludes relying on individual cone support sizes alone.
+The [complete-alphabet estimates](../ledger/Yin_L_A0064_v1.md) use actual overlaps of minimal supports or disjoint label sets which each carry a full row basis for every covering configuration.
+At \(D=8252,s=62\), 619 sliding triples give a certified upper bound below \(1/4000\), while 619 disjoint triples force the output event above that threshold.
+Five distinct two-label minimal supports already obstruct this zero-output certificate.
+Four triangular cones in a free-group example have a nonzero sparse output although every proper subfamily has zero sparse output for that alphabet.
+Thus checking only two- and three-cone subfamilies cannot justify truncating the full list under the general aspherical cone hypotheses.
+The four-line safeguards still need to control which larger configurations occur on a fixed tuple.
+The [independent calculation](../audits/reviews/Yin_R_A0128_v2.md#whole-finding) checks the exact sampling law, both numerical comparisons and the geometric scope of the examples.
 
 ## Input and distinction from rank sampling
 

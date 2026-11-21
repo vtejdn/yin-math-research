@@ -24,6 +24,8 @@ The [finite off-alphabet contact matrix and output space](../ledger/Yin_L_A0058_
 The [marked Schur observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) specifies the parameter derivative and auxiliary-block contribution needed to retain the original Cauchy residue.
 
 The [partition of support products](../audits/literature/MD26/Yin_U001.md#the-partition-of-the-support-products) records equalities among the products of two enumerated supports, as used in MD26 Proposition 8.3.
+The [alternating tensor on separate group coordinates](../claims/Yin_C_A0096_v1.md#an-integral-annihilator-on-a-direct-power) specifies the signed integral test and the multiplicity classes used to remove the original coefficients.
+The [affine Serre relations and their polynomial current realization](../ledger/Yin_L_A0063_v1.md#the-exact-serre-to-current-interface) specify which powers of the self-commutator derivation are represented by positive-root currents.
 The [type-incidence and squared-turn matrices](../audits/literature/MD26/Yin_U001.md#type-incidence-and-squared-turn-matrix) retain MD26 Section 8's inverse-pair balance, probability weights and zero convention for inverse turns.
 
 The [SW20 spectral definitions](../audits/literature/SW20/Yin_U001.md#spectral-definitions) distinguish Hermitian, quasi-Hermitian and quasi-symmetric group algebras and their exact support quantifiers; C_A0014_v3 uses the quasi-Hermitian condition in its global-filter obstruction.

@@ -48,3 +48,7 @@ A [finite orbit under commutators](../claims/Yin_C_A0039_v3.md#a-finite-adjoint-
 The [source-weight calculation and obstructions](../ledger/Yin_L_A0061_v1.md) show why a modular witness alone cannot guarantee compression for a chosen integral lift.
 The [support bound for trace-zero idempotents](../claims/Yin_C_A0094_v1.md#statement) independently excludes bounded support of the reverse idempotent defects at unbounded precision, for any group.
 The [normality route](Yin_S_A0010.md) also tests finite commutator orbits directly in the complex algebra.
+The [residual representative test](../ledger/Yin_L_A0062_v1.md) changes the integral lift of the right inverse by \(pW\) and checks \(D-AW\) by an integer linear system on a proposed support.
+A one-sided height with a separately injective bottom coefficient excludes an analytic kernel of the fixed left factor.
+Applying this calculation to a source witness requires its collected group labels and products.
+The [signed direct-power construction](Yin_S_A0011.md) supplies a converse characteristic transfer from a hypothetical complex zero product, with an explicit change of group.
