@@ -94,9 +94,7 @@ The manuscript `references.bib` is a synchronized typesetting subset of the cano
 Store complete author, title and publication fields from the canonical bibliography in the subset, with MR journal abbreviations; retain full journal names and complete publication/edition facts in the canonical bibliography.
 Keep category-appropriate structured fields for articles, books, chapters, preprints and article identifiers.
 Do not duplicate a complete journal citation in a `note` field.
-A note may identify a cited edition or add information not already printed from structured fields.
-Omit generic draft-status descriptions and commentary about which version is cited from the printed reference list.
-For published works, give the publication details and omit arXiv version numbers, manuscript dates, and reprint notes.
+A note may supplement the structured fields within the author-wide reference-list preferences.
 
 The selected display is informed by the [MSY23 bibliography observations](../../../audits/literature/MSY23/Yin_U005.md#bibliographic-display-observed-in-the-published-edition) and the recorded [AMS/EMS/LMS comparisons](../../bibliography-guidelines.md).
 These sources support a family of mathematical bibliography practices, not a single universal BibTeX style.

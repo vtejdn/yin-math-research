@@ -288,7 +288,10 @@ Combine it with the following settings:
 - For journal articles, give the authors, article title, abbreviated journal title, volume, issue number if available, year in parentheses, and page range or article number, in that order.
   Use sentence case for article titles by default.
 - For books, normally give the title, edition or series volume as applicable, publisher, place of publication, and year.
-- For arXiv preprints, give the arXiv identifier and year.
+- For published works, list only the formal publication details.
+  Omit arXiv version numbers, manuscript dates, and reprint notes.
+- For unpublished arXiv preprints, give the arXiv identifier and year.
+- Omit phrases such as “Cited version” and “Undated draft” from the reference list.
 - Preserve complete available author information in BibTeX, including verified given and family names, name particles and accents.
   Generate initials and labels through the selected bibliography style rather than shortening the stored author information.
 
