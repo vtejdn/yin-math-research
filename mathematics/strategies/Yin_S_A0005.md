@@ -53,6 +53,10 @@ The construction places the group supporting \(P\) in one vertex, so independent
 For fixed finite inputs in the [cyclic skew Laurent setting](../claims/Yin_C_A0007_v12.md#statement), \(q\) and all determined actions have one scalar polynomial denominator with no unit-circle zero.
 If the exponents and zero lie in \([\ell,u]\), \(w=u-\ell\), the input rank over the skew field is \(a\) and the expected support rank is \(s>0\), its degree is at most \(2saw-\ell\), improving to \(naw-\ell\) for full support.
 Size-three examples require a linear dependence on \(w\), and width two alone gives no uniform distance of the poles from the circle.
+For any two vertex matrices with a common input, the [graph projection formula](../claims/Yin_C_A0007_v13.md#statement) gives the kernel dimension of the sum from the expected support of its kernel graph and two vertex ranks.
+It applies to rectangular matrices and arbitrarily small nonzero spectrum of the expected graph projection.
+For finite inputs over a cyclic edge, rationality of that graph support is sufficient to reduce both ranks to finite vertex group-ring ranks.
+Rationality for a general such finite input remains open.
 Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
 An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.
 

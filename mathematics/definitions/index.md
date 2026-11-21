@@ -89,6 +89,7 @@ The remaining entries serve the S_A0006/S_A0007 literature comparison; their act
 The [two-generator balls](../claims/Yin_C_A0105_v2.md#statement) use \(a,b\) and their inverses.
 The [outer-layer criterion](../claims/Yin_C_A0106_v1.md#statement) uses length in all seven triangle generators and their inverses.
 The [biradial operator convention](../ledger/Yin_L_A0067_v1.md#the-group-and-the-biradial-convention) and [spherical measure](../ledger/Yin_L_A0067_v1.md#the-precise-spherical-measure) fix the normalizations for their sum.
+The [skew polynomial model](../claims/Yin_C_A0108_v1.md#statement) defines the type \(d\), the seven-valued homomorphism \(\psi\), and a lift of the type kernel used for the [modular rank criterion](../claims/Yin_C_A0109_v1.md#statement).
 
 ### Cyclic affiliated intertwiners
 

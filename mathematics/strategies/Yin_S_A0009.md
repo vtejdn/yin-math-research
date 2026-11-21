@@ -67,4 +67,9 @@ For larger supports in the same group, the [seven-generator outer-layer test](..
 For the [seven predecessor triples](../claims/Yin_C_A0106_v2.md#statement) the actual product graph has girth 24, so every right support with no unique product has at least 126 elements, or at least 189 if a product has three representations.
 The [endpoint multiplicities of nonbacktracking paths](../claims/Yin_C_A0106_v3.md#statement) improve the two necessary sizes to 362 and 655, respectively.
 Together these results exclude every left support among the seven positive generators against every right support of size at most 361, at arbitrary word radius.
-The larger right supports for the seven triples reduce to three-term coefficients in explicit index-six subgroups.
+In characteristics zero and two the [modular character and finite-quotient criterion](../claims/Yin_C_A0109_v1.md#statement) removes the right-support size bound for every nonzero linear combination of the seven positive generators.
+Over the complex numbers it proves zero kernel on the full regular Hilbert space.
+It also covers arbitrary three-point supports on which the seven-valued character takes at least two values, irrespective of type and word length.
+These tests use the [separating finite quotients of the type kernel](../claims/Yin_C_A0108_v1.md#explicit-separating-quotients).
+For a normalized support \(\{1,u,v\}\) inside the type kernel, the [reduced norms and adjoint determinant](../claims/Yin_C_A0110_v1.md#statement) impose three tests even when all seven-valued labels coincide.
+For fixed nonidentity \(u,v\), at most one index \(j\) with three distinct support points can pass the norm test on \(\{1,u,v^{2^j}\}\).

@@ -40,6 +40,8 @@ On the Klein bottle group a bounded measurable partner exists for the indicated 
 The [coproduct and augmentation tests](../ledger/Yin_L_A0066_v1.md) impose other restrictions on denominators.
 It remains open whether they control an unrestricted pair in the rational division closure.
 For the Gardam group, the [biradial rank and spectrum formulas](../claims/Yin_C_A0107_v1.md#statement) compute matrix ranks over the two spherical generators and exclude every affiliated partner for a nonconstant real affine function of the symmetric adjacency operator.
+The [finite-quotient rank comparison](../claims/Yin_C_A0109_v1.md#complex-rank-and-the-lift-of-a-character) gives lower bounds for arbitrary complex matrices from ranks over the three-element type quotient after a characteristic-two reduction and a character twist.
+It proves full regular rank for every nonzero complex scalar linear combination of the seven positive triangle generators, with unrestricted input vectors in the regular Hilbert space.
 
 ## A finite-support test for the signed alternating factor
 
