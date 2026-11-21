@@ -200,7 +200,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0053](Yin_R_F0053_v1.md) | Review of the arcsine liberation-dual counterexample | [v1](Yin_R_F0053_v1.md) |
 | [Yin_R_F0054](Yin_R_F0054_v1.md) | Yin_T_F0001: Original-Contract Completion Audit | [v1](Yin_R_F0054_v1.md) |
 | [Yin_R_F0055](Yin_R_F0055_v5.md) | Retained review-applicability and contract-organization findings | [v1](Yin_R_F0055_v1.md), [v2](Yin_R_F0055_v2.md), [v3](Yin_R_F0055_v3.md), [v4](Yin_R_F0055_v4.md), [v5](Yin_R_F0055_v5.md) |
-| [Yin_R_F0056](Yin_R_F0056_v2.md) | Self-review of the nonnormal one-sided product variant; independent review of the selfadjoint sandwich remains in v1 | [v1](Yin_R_F0056_v1.md), [v2](Yin_R_F0056_v2.md) |
+| [Yin_R_F0056](Yin_R_F0056_v3.md) | Independent review of the three-selfadjoint quadratic counterexample and its exact simplification scope | [v1](Yin_R_F0056_v1.md), [v2](Yin_R_F0056_v2.md), [v3](Yin_R_F0056_v3.md) |
 | [Yin_R_F0057](Yin_R_F0057_v1.md) | MS23: Original foundation, derivative and integration findings | [v1](Yin_R_F0057_v1.md) |
 | [Yin_R_F0058](Yin_R_F0058_v4.md) | Self-review of the liberation-dual rationality criterion | [v1](Yin_R_F0058_v1.md), [v2](Yin_R_F0058_v2.md), [v3](Yin_R_F0058_v3.md), [v4](Yin_R_F0058_v4.md) |
 | [Yin_R_F0059](Yin_R_F0059_v1.md) | Isolated whole-proof review of the intrinsic affiliated rationality criterion | [v1](Yin_R_F0059_v1.md) |
@@ -496,6 +496,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0359](Yin_R_F0359_v2.md#all-shifts) | Independent reviews of the winding obstruction, static Gram observation, affine realization and counterexamples at every shift | [v1](Yin_R_F0359_v1.md), [v2](Yin_R_F0359_v2.md) |
 | [Yin_R_F0367](Yin_R_F0367_v3.md#disk-minors-whole-proof) | Independent reviews of the cyclic pencil, the polynomial cutoff and the disk criterion with Taylor minors | [v1](Yin_R_F0367_v1.md), [v2](Yin_R_F0367_v2.md), [v3](Yin_R_F0367_v3.md) |
 | [Yin_R_F0376](Yin_R_F0376_v1.md#log-concentration-whole-proof) | Independent review of quantile-grid tube probabilities and Wigner limits under logarithmic concentration | [v1](Yin_R_F0376_v1.md) |
+| [Yin_R_F0378](Yin_R_F0378_v1.md#quadratic-finding) | Self-review of anticommutator duals and the precise quadratic selfadjoint obstructions | [v1](Yin_R_F0378_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |
