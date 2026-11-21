@@ -36,6 +36,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 The manuscript compiled successfully on 2026-11-22 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above and `--disable-installer` on each pdfLaTeX invocation.
 The resulting PDF has 25 pages and lists the three constructions in the final section as Examples 6.1–6.3.
+The statement and argument for the pair \((X,XSX)\) both appear in Example 6.3.
 The [organization record](../organization.md) gives the current environments and proof dependencies.
 
 The source check found 89 unique LaTeX labels and the build resolved all cross-references and 22 bibliography entries.

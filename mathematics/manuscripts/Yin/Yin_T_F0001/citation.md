@@ -217,11 +217,11 @@ These units inspect the 50-page published article; their proof and external-inpu
 ## `Tao06`
 
 The source is Tao's Fall 2006 UCLA Math 247A lecture notes, with kernel normalization in equation (1) and the \(L^2\) estimate in Proposition 1.2 and its consequence by Plancherel on pp. 3–4.
-The source interface is also checked in the [independent review of C_F0012 v3](../../../audits/reviews/Yin_R_F0056_v3.md#quadratic-selfadjoint-finding).
+The source interface is also checked in the [independent review of C_F0012 v1](../../../audits/reviews/Yin_R_F0056_v1.md#main-counterexample-finding).
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, proof of `ex:bounded-rational-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. The proof performs the change of measure and checks the commutator with \(h\). |
+| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. Multiplication by \(2t^{3/2}\) on both sides gives the bound \(4\pi\) for \(T_0\) on \(L^2((0,1),\mu)\). The manuscript verifies the commutator with \(X\). |
 
 ## `Voi98`
 

@@ -70,6 +70,7 @@ Omit a separate section on liberation gradients; the dual-system criterion is Se
 Deduce the dual-system criterion directly from the liberation dual-system criterion using the normalized liberation construction and its summed fraction-commutator identity.
 Keep the discussion of conjugate variables in the [F0011 manuscript](../Yin_T_F0011/readme.md).
 Use numbered Example environments for all three examples in Section 6.
+Include each argument in the same Example environment as its statement.
 
 ## Mathematical Citations and Attribution
 

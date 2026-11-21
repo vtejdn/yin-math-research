@@ -126,10 +126,11 @@ The bounded dual gives maximal Delta by MSY23 Proposition 6.2, and the free-fiel
 With \(L=P_\Omega\), the example applies Theorem 1.7 and compares its commutator condition with the finite-rank condition in Theorem 1.9.
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
 
-Example 6.3, `ex:bounded-rational-closure`, gives a selfadjoint tuple with a bounded dual system for which the rational closure in \(\mathcal M\) is strictly smaller than the bounded part of the rational closure in \(L^0(\mathcal M)\).
-The proof uses right tensor appending to construct the duals and to separate \(z^*z\) from the generated C*-algebra in norm.
-Every matrix over \(C^*(X)\) that is invertible over \(\mathcal M\) has its inverse over \(C^*(X)\).
-The norm separation therefore excludes \(z^*z\) from the rational closure in \(\mathcal M\).
+Example 6.3, `ex:bounded-rational-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
+The proof uses an operator on the last two tensor factors and a weighted Hilbert transform on the last factor to construct the bounded dual system.
+Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
+A matrix with entries in \(C^*(X,Y)\) and an inverse over \(\mathcal M\) has its inverse over \(C^*(X,Y)\).
+Thus \(S=X^{-1}YX^{-1}\) separates the two rational closures on bounded elements.
 
 The project README maps these environments to responsible mathematical records.
 The project review distinguishes manuscript-local checks from fixed proof and source reviews.
