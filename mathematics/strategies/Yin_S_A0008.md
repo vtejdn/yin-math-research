@@ -8,6 +8,7 @@ author: Yin
 | Task | Scope |
 | --- | --- |
 | [Yin_T_A0001](../tasks/Yin_T_A0001_v1.md#contract) | Seek a scalar counterexample over the complex numbers by lifting a fixed finite zero product in an actual torsion-free group. |
+| [Yin_T_A0002](../tasks/Yin_T_A0002_v1.md#contract) | Test whether the collected four-line supports and coefficient equations can yield a finite complex zero product in the original cone group. |
 
 ## Route
 
@@ -41,7 +42,11 @@ The exact four-line type counts and geometric safeguards have not yet bounded th
 That fixed-tuple counting obligation is the next test; the [common-path diagnostic](../ledger/Yin_L_A0058_v1.md#a-contact-cancellation-that-a-counting-argument-must-retain) still excludes relying on individual cone support sizes alone.
 The [complete-alphabet estimates](../ledger/Yin_L_A0064_v1.md) use actual overlaps of minimal supports or disjoint label sets which each carry a full row basis for every covering configuration.
 At \(D=8252,s=62\), 619 sliding triples give a certified upper bound below \(1/4000\), while 619 disjoint triples force the output event above that threshold.
-Five distinct two-label minimal supports already obstruct this zero-output certificate.
+Five distinct two-label minimal supports already exceed the earlier \(1/4000\) threshold.
+Under full color erasure the [truncated degree estimate](../claims/Yin_C_A0091_v2.md#statement) gives probability greater than \(\rho=0.04283973615\ldots\) that the short-relation matrix has rank at least \(1/128\) on the fixed tuple.
+A sufficient upper bound for the complete covering family is therefore \(\rho\).
+The union bound permits 771 minimal supports when all are pairs, or 106045 when all are triples.
+Erasure also forces every set meeting all minimal supports to contain at least fifteen labels.
 Four triangular cones in a free-group example have a nonzero sparse output although every proper subfamily has zero sparse output for that alphabet.
 Thus checking only two- and three-cone subfamilies cannot justify truncating the full list under the general aspherical cone hypotheses.
 The four-line safeguards still need to control which larger configurations occur on a fixed tuple.

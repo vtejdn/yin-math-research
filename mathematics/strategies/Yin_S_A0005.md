@@ -46,7 +46,13 @@ The rational support alone leaves the off-corner correction in v5 to be controll
 The [constant-field calculation](../claims/Yin_C_A0007_v10.md#statement) puts the determined edge action \(b_jq\) in \((D\cap\mathbb C)(z)\) for the cyclic skew-field construction over \(D\).
 In the free cyclic amalgam, vertex inputs over a conjugation-stable field \(k\) give determined entries in \(k(z)\), including genuine subordination boundaries under the bounded-inverse hypothesis.
 For a number-field input the [mixed moment test](../claims/Yin_C_A0097_v1.md#statement) gives specific rational ranks on a direct power that would detect a fractional column increment.
-Their integrality for the residual matrices in v9 remains independent input.
+Integrality of those ranks for the residual matrices in v9 remains an independent input.
+The [prescribed-boundary construction](../claims/Yin_C_A0007_v11.md#statement) realizes every bounded selfadjoint matrix over \(k(z)\) on a block of the actual norm boundary in the free noncentral cyclic amalgam.
+It keeps the entire compressed pair and its boundary functions fixed while the off-corner correction equals the regular rank of an arbitrary matrix \(P\) over a torsion-free group.
+The construction places the group supporting \(P\) in one vertex, so independent vertex information can still constrain the correction.
+For fixed finite inputs in the [cyclic skew Laurent setting](../claims/Yin_C_A0007_v12.md#statement), \(q\) and all determined actions have one scalar polynomial denominator with no unit-circle zero.
+If the exponents and zero lie in \([\ell,u]\), \(w=u-\ell\), the input rank over the skew field is \(a\) and the expected support rank is \(s>0\), its degree is at most \(2saw-\ell\), improving to \(naw-\ell\) for full support.
+Size-three examples require a linear dependence on \(w\), and width two alone gives no uniform distance of the poles from the circle.
 Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
 An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.
 

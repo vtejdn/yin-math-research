@@ -61,5 +61,10 @@ An application to a Mghirbi–Douglas family would require verifying this quotie
 The [socle and small-product estimates](../claims/Yin_C_A0103_v2.md#statement) lower the binomial length bound by at least \(\min(a-1,b-1)+1\) for a torsion-free realization and by one more if either size is at least four.
 For the [Mian–Siddique appendix supports](../claims/Yin_C_A0105_v1.md#argument), all 896 products collide in the full table, but three short coefficient certificates exclude every possible subrectangle over every field.
 The [exact two-generator calculation](../claims/Yin_C_A0105_v2.md#statement) excludes all competing pairs in balls with radius sum at most nine.
+The [first possible failure of unique products](../claims/Yin_C_A0105_v3.md#statement) occurs at radius sum ten, witnessed by seventeen rows in \(B_4\) and 28 columns in \(B_6\).
+Their coefficient equations still exclude all zero products over every field.
 For larger supports in the same group, the [seven-generator outer-layer test](../claims/Yin_C_A0106_v1.md#statement) removes the restriction on the right radius when the top left words satisfy its terminal-letter condition.
-Supports whose top letters lie in a single predecessor triple are an explicit remaining test for that criterion.
+For the [seven predecessor triples](../claims/Yin_C_A0106_v2.md#statement) the actual product graph has girth 24, so every right support with no unique product has at least 126 elements, or at least 189 if a product has three representations.
+The [endpoint multiplicities of nonbacktracking paths](../claims/Yin_C_A0106_v3.md#statement) improve the two necessary sizes to 362 and 655, respectively.
+Together these results exclude every left support among the seven positive generators against every right support of size at most 361, at arbitrary word radius.
+The larger right supports for the seven triples reduce to three-term coefficients in explicit index-six subgroups.
