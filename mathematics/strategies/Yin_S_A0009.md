@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Identify a family of actual positive-characteristic tables where the smallest graded block after pair-column elimination has bounded size or a controlled integral minor. |
+| priority | Test sparse primitive annihilators at increasing precision for a fixed integral lift of a Mghirbi–Douglas factor, alongside complete-fiber pairing tests on its collected coefficients. |
 
 The [single-prime test](../claims/Yin_C_A0093_v1.md#statement) represents the projective coefficient problem by one integer matrix.
 Its rational rank decides whether the two sets contain a complex zero product.
@@ -30,6 +30,15 @@ Application here needs the complete equal-product partition, or a sufficient sys
 When the given point must retain every label, the [exact-support analysis](../ledger/Yin_L_A0059_v1.md) supplies a separate arithmetic threshold and an odd-characteristic transfer for pair-only tables.
 For an abstract feasible coefficient pattern, its partial transport maps can already force torsion.
 Check their finite compositions before investing in a geometric realization.
-A first mixed case keeps the pair equations and one larger actual fiber.
-After fixing a pair character, test when reduction modulo the witness prime changes the monomial support of that last Laurent polynomial.
-This separates the remaining coefficient-field calculation from the group realization test and can be compared directly with the graded integer minors.
+The [one-fiber classification](../claims/Yin_C_A0026_v2.md#statement) gives the exact exceptional odd primes when the characteristic-zero torus has no point.
+A nonzero centered reverse product and opposite-term pairings off one output suffice for a cyclotomic lift.
+The MD26 right-inverse relation supplies the former condition automatically.
+The [source application](../claims/Yin_C_A0026_v2.md#the-witnesses-in-mghirbi-douglas-section-75) also proves that the original signed occurrence lifts have at least two nonzero output coefficients divisible by \(p\).
+The actual pairing test therefore concerns the collected coefficients.
+The [dihedral comparison](../ledger/Yin_L_A0060_v1.md) exhibits a fixed-coefficient obstruction alongside freely chosen complex solutions with identical supports.
+
+The [fixed-factor precision test](../claims/Yin_C_A0039_v2.md#statement) uses a single MD26 tuple and a single prime throughout.
+Every integral lift \(A\) of its right-invertible factor has primitive finite annihilators modulo every \(p^e\).
+A witness of actual size \(s\) with \(p^e>\|A\|_2^s\) forces a finite complex annihilator for that very \(A\).
+For increasing \(e\), seek a bound on the smallest primitive support or on the integer minors of the connected support components.
+Separate support of the correction sum after collection from the number of occurrences in its geometric-series expression.

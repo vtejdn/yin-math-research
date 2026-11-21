@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Determine which finite vertex pencils force rational edge boundaries beyond a prescribed positive Schur denominator, starting with a boundary whose denominator is inferred from the pencil. |
+| priority | Extend finite-conjugate boundary recovery to a kernel whose rational projection or ambient division ring is not supplied, and identify the exact support-cut rank still needed for a transfer. |
 
 ## Algebraically normalized affiliated frames
 
@@ -34,7 +34,11 @@ The [positive-denominator family](../claims/Yin_C_A0007_v7.md#statement) now has
 The two vertex pencils have finite group-ring entries even for a nonconstant positive Laurent polynomial \(h\).
 Edge-polynomial shifts cannot remove these boundaries, and their rational denominators are independently certified.
 The construction uses the prescribed \(h\) in the two Schur factorizations.
-For further progress, recover or constrain denominators from a pencil without such a supplied factorization, or exhibit a boundary outside the cyclic rational field.
+The [finite conjugate formula](../claims/Yin_C_A0007_v8.md#statement) now recovers the rational boundary from the pencil for the whole free cyclic-amalgam class under the theorem's bounded-inverse hypothesis.
+It also identifies every expected support as a rational projection in the stated cyclic splitting with a certified coefficient division ring.
+A stationary join is fixed by conjugation and therefore equals the expected support; integral ranks guarantee stationarity after at most \(n-r\) increases.
+The next case must remove an input to that argument, for example by using free copies to force a finite join without presupposing integral ranks, and must account for how to recover coefficients when the projection itself is unavailable in a controlled field.
+The rational support alone leaves the off-corner correction in v5 to be controlled.
 Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
 An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.
 

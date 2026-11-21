@@ -162,6 +162,9 @@ Both whole sides have \(n\) vertices, and the existence theorem requires suffici
 The witnesses have at most \(n\) terms each before collecting repeated group labels.
 Section 7 uses \(q=p^5\), \(v=q^2+q+1\), and a uniform family of \(p^2v^2\) vertices, repeated sufficiently many times and modified by corrections that are fixed for each \(p\).
 Proposition 7.11 gives \(ab=1\) and \(ac=0\) from the resulting root-component sums.
+On PDF page 30 the displayed witnesses are \(a=\sum_{x\in A'}\sigma(x)g_x\), \(b=-\sum_{x\in A'}g_x^{-1}\), and \(c=\sum_{y\in B'}h_y^{-1}\).
+The root protection in the proof of Theorem C gives \(c\ne0\) in the same finite-field group algebra.
+These statements and occurrence signs were checked on that page for the fixed-integral-factor and reverse-product applications.
 Section 8 explicitly records that these constructions supply no support bound independent of \(p\).
 
 The source's mechanism explains why a fixed alphabet cannot implement the same family of type identities.

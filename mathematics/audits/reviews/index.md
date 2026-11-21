@@ -22,7 +22,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0017](Yin_R_A0017_v3.md#whole-artifact-finding) | Independent whole-artifact reviews of incidence atoms, signed edge potentials, complete cell return matrices, spectral asymptotics, projection geometry and height or quotient certificates | [v1](Yin_R_A0017_v1.md), [v2](Yin_R_A0017_v2.md), [v3](Yin_R_A0017_v3.md) |
 | [Yin_R_A0018](Yin_R_A0018_v4.md#finding-rank-two-noncommuting-transport) | Independent whole-argument reviews of height recurrences, commuting paths, rational finite-coefficient transport, integer Boolean traces and exact noncommuting rank-two common-defect kernels | [v1](Yin_R_A0018_v1.md), [v2](Yin_R_A0018_v2.md), [v3](Yin_R_A0018_v3.md), [v4](Yin_R_A0018_v4.md) |
 | [Yin_R_A0019](Yin_R_A0019_v1.md#whole-claim-finding) | Independent whole-claim review of the actual rational-Haar inverse-difference obstruction, exact coefficient-kernel preservation, finite realization and joint-word limits | [v1](Yin_R_A0019_v1.md) |
-| [Yin_R_A0020](Yin_R_A0020_v7.md#whole-finding) | Independent reviews of complete affiliated frames, actual boundary coefficients and rational nonpolynomial edge boundaries | [v1](Yin_R_A0020_v1.md), [v2](Yin_R_A0020_v2.md), [v3](Yin_R_A0020_v3.md), [v4](Yin_R_A0020_v4.md), [v5](Yin_R_A0020_v5.md), [v6](Yin_R_A0020_v6.md), [v7](Yin_R_A0020_v7.md) |
+| [Yin_R_A0020](Yin_R_A0020_v8.md#whole-finding) | Independent reviews of affiliated frames, nonpolynomial boundaries and finite-conjugate recovery on a cyclic edge | [v1](Yin_R_A0020_v1.md), [v2](Yin_R_A0020_v2.md), [v3](Yin_R_A0020_v3.md), [v4](Yin_R_A0020_v4.md), [v5](Yin_R_A0020_v5.md), [v6](Yin_R_A0020_v6.md), [v7](Yin_R_A0020_v7.md), [v8](Yin_R_A0020_v8.md) |
 | [Yin_R_A0021](Yin_R_A0021_v1.md#whole-artifact-finding) | Independent whole-artifact review of central winding, exact joint canonical trace, atom disintegration, exceptional quotient fibers and known scalar height coverage | [v1](Yin_R_A0021_v1.md) |
 | [Yin_R_A0022](Yin_R_A0022_v1.md#whole-artifact-finding) | Independent whole-artifact review of the original-label power-column reduction, exact trinomial kernels, all degeneracies and actual Promislow character calibration | [v1](Yin_R_A0022_v1.md) |
 | [Yin_R_A0023](Yin_R_A0023_v1.md#whole-artifact-finding) | Independent whole-artifact review of normal compressed hopping, finite incidence input, complete scalar-potential kernels and the unresolved zero-potential coefficient | [v1](Yin_R_A0023_v1.md) |
@@ -54,7 +54,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0054](Yin_R_A0054_v1.md#whole-argument-finding) | Four cyclic cosets with a common intersection | [v1](Yin_R_A0054_v1.md) |
 | [Yin_R_A0055](Yin_R_A0055_v1.md#whole-argument-finding) | The subgroup of a complementary kernel projection | [v1](Yin_R_A0055_v1.md) |
 | [Yin_R_A0056](Yin_R_A0056_v1.md#whole-argument-finding) | Three-term fibers and the saturation of the binomial relations | [v1](Yin_R_A0056_v1.md) |
-| [Yin_R_A0057](Yin_R_A0057_v1.md#whole-argument-finding) | Unit propagation, cyclotomic norms and univariate coefficient equations | [v1](Yin_R_A0057_v1.md) |
+| [Yin_R_A0057](Yin_R_A0057_v2.md#whole-finding) | Independent reviews of unit propagation, cyclotomic norms and exact-support transfer with one residual fiber | [v1](Yin_R_A0057_v1.md), [v2](Yin_R_A0057_v2.md) |
 | [Yin_R_A0058](Yin_R_A0058_v1.md#whole-argument-finding) | Moment inequalities and the four-point concentration bound | [v1](Yin_R_A0058_v1.md) |
 | [Yin_R_A0059](Yin_R_A0059_v1.md#whole-argument-finding) | Regular ranks along connected analytic families | [v1](Yin_R_A0059_v1.md) |
 | [Yin_R_A0060](Yin_R_A0060_v1.md#whole-argument-finding) | Rank specialization on fixed supports in an amenable group | [v1](Yin_R_A0060_v1.md) |
@@ -67,7 +67,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0067](Yin_R_A0067_v1.md#whole-argument-finding) | A homogeneous unit and a prime denominator in a cyclic extension | [v1](Yin_R_A0067_v1.md) |
 | [Yin_R_A0068](Yin_R_A0068_v1.md#whole-argument-finding) | An index-two character, analytic rank and the second Schur coefficient | [v1](Yin_R_A0068_v1.md) |
 | [Yin_R_A0069](Yin_R_A0069_v1.md#whole-argument-finding) | Binary incidence obstructions and lifting a fixed zero product | [v1](Yin_R_A0069_v1.md) |
-| [Yin_R_A0070](Yin_R_A0070_v1.md#whole-argument-finding) | Saturation and ramified lifting at a marked coefficient tuple | [v1](Yin_R_A0070_v1.md) |
+| [Yin_R_A0070](Yin_R_A0070_v2.md#whole-finding) | Independent reviews of marked-point lifting and fixed-factor precision and support | [v1](Yin_R_A0070_v1.md), [v2](Yin_R_A0070_v2.md) |
 | [Yin_R_A0071](Yin_R_A0071_v1.md#whole-argument-finding) | Connectivity, collision counts and the explicit character bound | [v1](Yin_R_A0071_v1.md) |
 | [Yin_R_A0072](Yin_R_A0072_v1.md#whole-argument-finding) | Fixed finite targets for source matchings and a planted cyclic quotient | [v1](Yin_R_A0072_v1.md) |
 | [Yin_R_A0073](Yin_R_A0073_v1.md#whole-argument-finding) | Precision eight and characteristic-zero lifting on the seven-cycle | [v1](Yin_R_A0073_v1.md) |
