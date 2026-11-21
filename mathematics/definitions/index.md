@@ -20,6 +20,9 @@ The [vector-valued Calderón–Zygmund operator](../audits/literature/GM00/Yin_U
 
 ### Return operators, graph atoms and group-word compatibility
 
+The [partition of support products](../audits/literature/MD26/Yin_U001.md#the-partition-of-the-support-products) records equalities among the products of two enumerated supports, as used in MD26 Proposition 8.3.
+The [type-incidence and squared-turn matrices](../audits/literature/MD26/Yin_U001.md#type-incidence-and-squared-turn-matrix) retain MD26 Section 8's inverse-pair balance, probability weights and zero convention for inverse turns.
+
 The [SW20 spectral definitions](../audits/literature/SW20/Yin_U001.md#spectral-definitions) distinguish Hermitian, quasi-Hermitian and quasi-symmetric group algebras and their exact support quantifiers; C_A0014_v3 uses the quasi-Hermitian condition in its global-filter obstruction.
 The [Nic08 spectral-equivalence convention](../audits/literature/Nic08/Yin_U001.md#spectral-equivalence) and [unconditional-completion and Sigma-one definitions](../audits/literature/Nic08/Yin_U001.md#unconditional-completion) distinguish a common finite-support algebra from its completions and coefficientwise absolute value from operator absolute value; C_A0014_v4 compares its norm obstruction with Nic08, Proposition 8.7.
 The [finite-window kernel correlations](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) define the displacement-grouped and absolute-matrix coefficient sums, with their scalar trace normalization.

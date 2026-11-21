@@ -5,6 +5,9 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [MD26/Yin_U001](MD26/Yin_U001.md#md26-u001) | Section 8 proof inspection, finite support-product partitions, algebraic coefficient transfer and the limits of current graph-size estimates |
+| [Iva26 source notes](Iva26/readme.md) | ArXiv v1 and the fixed-group transfer in Section 8.3 |
+| [KLM88 source notes](KLM88/readme.md) | Publisher original and the Theorem 1.4 locator |
 | [RV09/Yin_U001](RV09/Yin_U001.md#rv09-u001) | Subspace least common denominator and Theorem 4.2 distance bound; arXiv v4 statement and applicability inspection, with the local rescaling correction and no whole-proof audit |
 | [NS24](NS24/readme.md#author-manuscript) | Non-unique products of finite sets in a torsion-free group, Theorem 1.4 of the author manuscript and its computational input. |
 | [KLS17/Yin_U001](KLS17/Yin_U001.md#kls17-u001) | Complete journal-edition audit, corrected finite trace lattice, projective Artinian criterion, unresolved G-theory implication and precise quotient approximation |
