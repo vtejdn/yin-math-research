@@ -34,7 +34,12 @@ At degree \(2^j\), the [quaternion representation](../claims/Yin_C_A0102_v1.md#s
 For the canonical group labeling the two Cayley transforms of individual group elements cannot satisfy the anticommutation identity used by this model.
 The [free word-ball construction](../ledger/Yin_L_A0065_v1.md#scope) preserves the rank tests and a fractional-rank witness while matching the canonical trace on any prescribed finite radius in a fixed five-generator marking.
 The recovered witness uses longer words as the radius increases.
-For biquadratic coefficient fields, test whether the analogous anticommutation relations can occur for general rational affiliated expressions in the actual regular representation.
+For a biquadratic field, assuming rational integrality on the square group, failure is equivalent to [two equations in the actual rational division closure](../claims/Yin_C_A0104_v2.md#statement) and gives a finite matrix of nullity \(1/2\).
+For a prescribed rational function of one group element, the [double-coset support and parity tests](../claims/Yin_C_A0104_v3.md#statement) constrain all candidate partners.
+On the Klein bottle group a bounded measurable partner exists for the indicated input although every rational partner is excluded.
+The [coproduct and augmentation tests](../ledger/Yin_L_A0066_v1.md) impose other restrictions on denominators.
+It remains open whether they control an unrestricted pair in the rational division closure.
+For the Gardam group, the [biradial rank and spectrum formulas](../claims/Yin_C_A0107_v1.md#statement) compute matrix ranks over the two spherical generators and exclude every affiliated partner for a nonconstant real affine function of the symmetric adjacency operator.
 
 ## A finite-support test for the signed alternating factor
 

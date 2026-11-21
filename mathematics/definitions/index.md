@@ -84,6 +84,16 @@ The [positive-definite word kernel](../ledger/Yin_L_A0017_v1.md#positive-definit
 The [cogrowth and D-finite conventions](../ledger/Yin_L_A0017_v1.md#regularity-obstructions) concern full-alphabet identity-word counts and linear differential equations with polynomial coefficients.
 The remaining entries serve the S_A0006/S_A0007 literature comparison; their actual mathematical use and source scope remain at the linked homes.
 
+### Word lengths and spherical operators for Gardam's group
+
+The [two-generator balls](../claims/Yin_C_A0105_v2.md#statement) use \(a,b\) and their inverses.
+The [outer-layer criterion](../claims/Yin_C_A0106_v1.md#statement) uses length in all seven triangle generators and their inverses.
+The [biradial operator convention](../ledger/Yin_L_A0067_v1.md#the-group-and-the-biradial-convention) and [spherical measure](../ledger/Yin_L_A0067_v1.md#the-precise-spherical-measure) fix the normalizations for their sum.
+
+### Cyclic affiliated intertwiners
+
+The [double-coset convention](../claims/Yin_C_A0104_v3.md#statement) specifies the two integer exponents and the root-of-unity symmetry.
+
 <a id="probability-and-models"></a>
 ### Probability spaces and free-probability models
 

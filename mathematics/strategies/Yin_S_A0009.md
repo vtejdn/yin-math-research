@@ -58,3 +58,8 @@ For arbitrary support sizes, first pass to a pair minimal over the algebraic clo
 The [degree and grading bound](../claims/Yin_C_A0103_v1.md#statement) requires its normalized common support subgroup to have finite abelianization of order at most \(\binom{a+b-2}{a-1}\).
 For example, if this subgroup has a quotient of order \(p\) in the witness characteristic \(p\), then the same binomial coefficient must be at least \(p\).
 An application to a Mghirbi–Douglas family would require verifying this quotient on the minimal supports after collection; the alphabet size alone provides no such verification.
+The [socle and small-product estimates](../claims/Yin_C_A0103_v2.md#statement) lower the binomial length bound by at least \(\min(a-1,b-1)+1\) for a torsion-free realization and by one more if either size is at least four.
+For the [Mian–Siddique appendix supports](../claims/Yin_C_A0105_v1.md#argument), all 896 products collide in the full table, but three short coefficient certificates exclude every possible subrectangle over every field.
+The [exact two-generator calculation](../claims/Yin_C_A0105_v2.md#statement) excludes all competing pairs in balls with radius sum at most nine.
+For larger supports in the same group, the [seven-generator outer-layer test](../claims/Yin_C_A0106_v1.md#statement) removes the restriction on the right radius when the top left words satisfy its terminal-letter condition.
+Supports whose top letters lie in a single predecessor triple are an explicit remaining test for that criterion.

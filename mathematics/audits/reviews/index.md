@@ -136,9 +136,12 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0136](Yin_R_A0136_v1.md#whole-finding) | Independent review of scalar adjunction for commuting affiliated coefficients | [v1](Yin_R_A0136_v1.md) |
 | [Yin_R_A0137](Yin_R_A0137_v1.md#whole-finding) | Independent review of the integral three-row eliminant and the arithmetic of its admissible rows | [v1](Yin_R_A0137_v1.md) |
 | [Yin_R_A0138](Yin_R_A0138_v1.md#whole-finding) | Independent review of noncommuting tracial representations at the number-field threshold | [v1](Yin_R_A0138_v1.md) |
-| [Yin_R_A0139](Yin_R_A0139_v1.md#whole-finding) | Independent review of minimal support pairs, grading and coefficient fields | [v1](Yin_R_A0139_v1.md) |
+| [Yin_R_A0139](Yin_R_A0139_v2.md#whole-finding) | Independent reviews of minimal support pairs, grading, coefficient fields and length deficits | [v1](Yin_R_A0139_v1.md), [v2](Yin_R_A0139_v2.md) |
 | [Yin_R_A0140](Yin_R_A0140_v1.md#whole-finding) | Independent review of rational ranks under a prescribed free-word trace test | [v1](Yin_R_A0140_v1.md) |
-| [Yin_R_A0141](Yin_R_A0141_v1.md#whole-finding) | Independent review of rank-denominator divisibility for Galois fields | [v1](Yin_R_A0141_v1.md) |
+| [Yin_R_A0141](Yin_R_A0141_v3.md#whole-finding) | Independent reviews of Galois divisibility, biquadratic splitting and cyclic intertwiners | [v1](Yin_R_A0141_v1.md), [v2](Yin_R_A0141_v2.md), [v3](Yin_R_A0141_v3.md) |
+| [Yin_R_A0142](Yin_R_A0142_v2.md#whole-finding) | Independent reviews of the Mian–Siddique coefficient equations, exact products and bounded unique products | [v1](Yin_R_A0142_v1.md), [v2](Yin_R_A0142_v2.md) |
+| [Yin_R_A0143](Yin_R_A0143_v1.md#whole-finding) | Independent review of the seven-generator outer-layer criterion over arbitrary fields | [v1](Yin_R_A0143_v1.md) |
+| [Yin_R_A0144](Yin_R_A0144_v1.md#whole-finding) | Independent review of biradial matrix ranks and the spectral obstruction to affiliated splitting | [v1](Yin_R_A0144_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

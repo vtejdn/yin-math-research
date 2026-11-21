@@ -8,6 +8,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_J_A0001](programs/Yin_J_A0001/readme.md) | Exact signed cycle classes, tree moments, weighted polynomial certificates, negative ten-cycle orbits and bounded Nielsen certificates; no actual-group word solver |  |
 | [Yin_J_A0002](programs/Yin_J_A0002/readme.md) | Three double fibers in a finite image of the Nielsen–Soelberg eight-by-eight product table |  |
 | [Yin_J_A0003](programs/Yin_J_A0003/readme.md) | Exact fibers, coefficient families and an eight-equation contradiction on exterior thickenings of the Nielsen–Soelberg pair |  |
+| [Yin_J_A0004](programs/Yin_J_A0004/readme.md) | Product buckets, all possible sub-supports and coefficient contradictions on the Mian–Siddique rectangle |  |
+| [Yin_J_A0005](programs/Yin_J_A0005/readme.md) | Exact group rewriting, appendix products and unique-product tests on two-generator balls in Gardam's group |  |
 | [Yin_J_F0001](programs/Yin_J_F0001/readme.md) | dr97-tree-commutator — finite free-group endpoint/suffix and auxiliary scalar-column comparisons |  |
 | [Yin_J_F0002](programs/Yin_J_F0002/readme.md) | miy22-commutators — finite exact Fock word-action and adjoint-sign comparisons |  |
 | [Yin_J_F0003](programs/Yin_J_F0003/readme.md) | ms23-dual-combinatorics — finite exact q-polynomial dual, crossing and one-variable checks |  |
