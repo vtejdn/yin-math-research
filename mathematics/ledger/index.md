@@ -62,6 +62,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0055](Yin_L_A0055_v1.md) | Spatial decay of a kernel projection would give integrality on the four-line groups | [v1](Yin_L_A0055_v1.md) |
 | [Yin_L_A0056](Yin_L_A0056_v1.md) | A simultaneous constraint from all finite two-group images of the original factors | [v1](Yin_L_A0056_v1.md) |
 | [Yin_L_A0057](Yin_L_A0057_v1.md) | How far the free product-fiber moments control an actual four-line kernel | [v1](Yin_L_A0057_v1.md) |
+| [Yin_L_A0058](Yin_L_A0058_v1.md) | Probability and analysis strategies through linearization and algebraic functions | [v1](Yin_L_A0058_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

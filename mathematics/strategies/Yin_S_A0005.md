@@ -14,7 +14,19 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Seek a defect certificate with independently controlled vertices and proved complete-kernel inclusion; exact maximal expected support and finite boundary normalization can still leave an arbitrary original Task rank as the correction. |
+| priority | Test boundary recovery from a complete affiliated rational kernel frame with independently certified denominators and positive algebraic normalization, retaining expected-support and off-corner corrections. |
+
+## Algebraically normalized affiliated frames
+
+The [21 November agent-S synthesis](../ledger/Yin_L_A0058_v1.md#first-priority-in-s_a0005) selects an enlargement of the witness class.
+For the free-boundary row, its affiliated graph construction and positive inverse square root give a bounded complete kernel frame even though the polynomial kernel is zero.
+The same calculation preserves the intrinsic expected-support deficit.
+This is the completed first diagnostic and the reason to pursue boundary recovery with these witnesses while retaining the support correction.
+
+The next bounded investigation computes \(E_H(VV^*)\) and \(E_H(Y_jVV^*)\) for independently certified cyclic denominators and tests a coupled additive pencil with independently controlled vertices.
+It must identify the actual boundary coefficient class and the full kernel, with the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) retained through every Schur enlargement.
+Continue if a controlled boundary or vertex-kernel certificate reaches beyond the existing unit-pivot calculation.
+An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank requires revising the candidate.
 
 ## Mechanism and exact relationship to A0001
 

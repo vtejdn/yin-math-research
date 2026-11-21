@@ -15,7 +15,19 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Bound the fraction of neutral 62-pair alphabets supporting short relations in an exceptional cone group, or locate a shared readable exchange in their fillings. |
+| priority | Eliminate off-alphabet contacts in finite translated cone fillings and test whether the surviving sparse cycle space admits the fixed-tuple probability bound required by C_A0091. |
+
+## Finite contact elimination
+
+The [21 November probability candidate](../ledger/Yin_L_A0058_v1.md#probability-after-eliminating-off-alphabet-contacts) counts sparse chain outputs after eliminating all off-alphabet Cayley edges with their actual signs and translations.
+For a finite filling matrix the output dimension is the difference between its rank and the rank of its off-alphabet rows.
+A finite covering statement for all relevant fillings is still required before using that calculation to bound the regular rank of the short-relation module.
+
+The completed [common-path diagnostic](../ledger/Yin_L_A0058_v1.md#a-contact-cancellation-that-a-counting-argument-must-retain) shows why large supports of individual cones and general torsion-free hyperbolic geometry do not suffice.
+The first next test is to eliminate two-cone and three-cone contact configurations under the exact four-line types, marked length and filling bounds.
+For each surviving output, identify any forced subset of the sampled alphabet and calculate its hypergeometric probability.
+Continue toward the C_A0091 threshold only with a justified coverage and overlap bound.
+A surviving contact loop records a concrete missing geometric constraint and prevents extrapolating a single-cone counting estimate.
 
 ## Input and distinction from rank sampling
 

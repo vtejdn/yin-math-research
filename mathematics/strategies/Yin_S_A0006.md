@@ -18,6 +18,12 @@ author: Yin
 
 ## Current structural boundary
 
+The [agent-S linearization diagnostic](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) fixes the observable as the original-coordinate resolvent compression or the trace of \(L^{-1}\partial_zL\), with its auxiliary-block contribution.
+An unmarked inverse trace can double a pole even in a two-square scalar test.
+For a noncommutative implicit system, the [Jacobian representation and continuous-spectrum tests](../ledger/Yin_L_A0058_v1.md#noncommutative-algebraic-functions-and-their-jacobians) are preliminary requirements before attributing a group-module dimension to the derivative.
+The next useful algebraic-function calculation should control the finite signed commutator array in [C_A0089](../claims/Yin_C_A0089_v1.md#statement) or an independently justified boundary defect.
+Its source of information must include the joint group coefficients, since the existing same-moment examples leave their spatial behavior undetermined.
+
 The [localized-direction refinement](../claims/Yin_C_A0014_v5.md#statement) removes the convolution condition-number factor from the fixed-support cut bound and gives a two-scale upper bound on the dimension of exceptional kernel-side directions.
 Its [actual boundary factorization](../claims/Yin_C_A0014_v5.md#the-actual-boundary-space-behind-the-compression-defect) identifies the finite boundary map and Gram inverse through which the local compression defect propagates.
 The [phase-sensitive commutator polynomial](../claims/Yin_C_A0014_v5.md#a-finite-phase-sensitive-commutator-polynomial) retains equal-label cancellations and bounds the original-input energy form; the complementary exceptional directions are forced toward the small positive spectrum.

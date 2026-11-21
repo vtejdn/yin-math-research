@@ -18,6 +18,14 @@ author: Yin
 
 ## Mechanism and actual input
 
+The [21 November source and mechanism comparison](../ledger/Yin_L_A0058_v1.md#source-scope-and-surviving-use) retains relative algebraic return systems as an exploratory tool over the actual infinite-dimensional coefficient algebra.
+Anderson's free-variable theorem and finite-coordinate evaluation do not supply that relative theorem.
+A context-free description of the entire group word problem forces virtual freeness, while a selected weighted return function requires its own construction and specialization argument.
+The next discriminating source test is a relative system with a proved original-resolvent realization, a specified coefficient algebra and the correct left/right derivative representation.
+Its first use is the boundary-product calculation in [S_A0005](Yin_S_A0005.md#algebraically-normalized-affiliated-frames).
+The [free-group Jacobian example](../ledger/Yin_L_A0058_v1.md#a-free-group-representation-test) excludes replacing the natural bimodule action by regular convolution on a product group.
+The [cyclic endpoint example](../ledger/Yin_L_A0058_v1.md#a-continuous-spectrum-endpoint-test) excludes an automatic bounded derivative inverse at the spectral boundary.
+
 For the current amenable investigation, [optimal polynomial minima](../claims/Yin_C_A0014_v2.md#definition-christoffel-minima-at-the-target-point) convert the same finite return-word moments into an exact \(L^2\) projection approximation.
 The [finite-kernel correlation target](../claims/Yin_C_A0014_v3.md#finite-window-kernel-correlation-criterion) groups the local kernel projection by actual group displacements before taking absolute values.
 It retains tied-coefficient cancellation while avoiding the proved extra spectral requirement of global heat/Euler boundedness.

@@ -20,6 +20,9 @@ The [vector-valued Calderón–Zygmund operator](../audits/literature/GM00/Yin_U
 
 ### Return operators, graph atoms and group-word compatibility
 
+The [finite off-alphabet contact matrix and output space](../ledger/Yin_L_A0058_v1.md#the-finite-elimination-object) retain actual oriented Cayley edges, group translations and complex signs before computing sparse cycle outputs.
+The [marked Schur observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) specifies the parameter derivative and auxiliary-block contribution needed to retain the original Cauchy residue.
+
 The [partition of support products](../audits/literature/MD26/Yin_U001.md#the-partition-of-the-support-products) records equalities among the products of two enumerated supports, as used in MD26 Proposition 8.3.
 The [type-incidence and squared-turn matrices](../audits/literature/MD26/Yin_U001.md#type-incidence-and-squared-turn-matrix) retain MD26 Section 8's inverse-pair balance, probability weights and zero convention for inverse turns.
 
