@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Seek controlled genuine boundary coefficients in a full-expected-support realization whose summands do not separately annihilate the complete kernel, retaining exact kernel transport and independently certified vertex ranks. |
+| priority | Determine which finite vertex pencils force rational edge boundaries beyond a prescribed positive Schur denominator, starting with a boundary whose denominator is inferred from the pencil. |
 
 ## Algebraically normalized affiliated frames
 
@@ -30,8 +30,11 @@ The same result supplies a coupled indefinite realization with no nonzero polyno
 An explicit invertible polynomial matrix transports the original complete kernel into this realization with zero nullity correction.
 Thus changing the realization can repair this example's expected support, whereas frame normalization alone cannot.
 
-The remaining coefficient test must involve summands that do not separately kill the complete kernel.
-In the successful calibration they both do, which forces the boundary values to vanish and leaves general coefficient control unresolved.
+The [positive-denominator family](../claims/Yin_C_A0007_v7.md#statement) now has summands acting nontrivially on the kernel and actual boundary values \(\mp h^{-1}e_{22}\).
+The two vertex pencils have finite group-ring entries even for a nonconstant positive Laurent polynomial \(h\).
+Edge-polynomial shifts cannot remove these boundaries, and their rational denominators are independently certified.
+The construction uses the prescribed \(h\) in the two Schur factorizations.
+For further progress, recover or constrain denominators from a pencil without such a supplied factorization, or exhibit a boundary outside the cyclic rational field.
 Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
 An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.
 
