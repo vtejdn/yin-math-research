@@ -9,7 +9,8 @@ Primary Task: [Yin_T_F0001](../../../tasks/Yin_T_F0001_v7.md#yin_t_f0001).
 ## Paper
 
 The current paper is [paper/main.tex](paper/main.tex).
-It contains the maximal-\(\Delta\) rationality criterion, the criterion for tuples admitting a liberation dual system with every scalar shift regular, the dual-system criterion, the arcsine example and a circular counterexample.
+It contains the maximal-\(\Delta\) rationality criterion, the criterion for tuples admitting a liberation dual system with every scalar shift regular, and the dual-system criterion.
+The final section includes the arcsine and circular examples and an example in which the rational closures in \(\mathcal M\) and in \(L^0(\mathcal M)\) differ on bounded elements.
 Remark 4.1 follows the recalled definition at the start of Section 4 and states that L2 liberation gradients give a normalized liberation dual system.
 The current theorem order, hypotheses, proof routes and numbering are recorded in [organization.md](organization.md).
 
@@ -29,11 +30,12 @@ The current theorem order, hypotheses, proof routes and numbering are recorded i
 | `prop:dual-liberation-construction` (Proposition 5.6) and `lem:fundamental` (Lemma 5.7) | Proposition 5.6 constructs a normalized liberation dual system for any tuple with a dual system. Lemma 5.7 uses the residual-operator argument for normal generators to compare the fraction commutators and derive the summed identity. |
 | `rem:liberation-without-duals` (Remark 6.1) | [C_F0080](../../../claims/Yin_C_F0080_v1.md#argument) supplies the arcsine law, moments and odd-monomial sequence; its [R_F0053 self-review](../../../audits/reviews/Yin_R_F0053_v1.md#whole-proof-finding) retains its fixed original scope. The manuscript applies the moment calculation directly to the ordinary dual commutator and bounds its vacuum pairing using the two domain inclusions. |
 | `rem:normality` (Remark 6.2) | [C_F0074](../../../claims/Yin_C_F0074_v1.md#statement) and [R_F0047](../../../audits/reviews/Yin_R_F0047_v1.md#conclusion). |
+| `prop:bounded-rational-closure` (Proposition 6.3) | [C_F0012 v3](../../../claims/Yin_C_F0012_v3.md#statement) and its [independent mathematical review](../../../audits/reviews/Yin_R_F0056_v3.md#quadratic-selfadjoint-finding) give the selfadjoint tuple and the positive witness \(z^*z\). The manuscript uses \(V_q\), the adjoint of the weighted annihilation operator in the Claim, to write the duals in the generator-first convention and to present the norm estimate using the same family \(V_\eta\). The cited review covers the fixed Claim. |
 
 Fixed Claim, R and U assessments remain at their responsible mathematical homes.
 See the [open manuscript problems](review.md) and the [paper's build record](paper/readme.md).
 
-Section 5 proves the dual-system criterion directly from Theorem 1.7, followed by the arcsine and circular examples in Section 6.
+Section 5 proves the dual-system criterion directly from Theorem 1.7.
 
 ## Project Choices and Sources
 

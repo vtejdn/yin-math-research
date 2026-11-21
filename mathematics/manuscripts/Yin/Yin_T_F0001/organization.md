@@ -19,7 +19,7 @@ The paper is compiled from `main.tex` and six section files.
 | 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
 | 4 | Liberation dual system criterion | An unnumbered recall of Definition 1.6 is followed by Remark 4.1 on liberation gradients and the two tensor-evaluation identities. Proposition 4.2 normalizes the system, and Lemmas 4.3 through 4.6 give closure and tensor tools. The proof of Theorem 1.7 follows Proposition 4.7 and Lemmas 4.8 and 4.9 on algebraic L2 recovery and closability of fraction commutators. |
 | 5 | Dual system criterion | An unnumbered recall of Definition 1.8 is followed by Remark 5.1 on maximal Delta. Lemmas 5.2 through 5.5 establish rank independence, identify finite-rank solutions and give the required module commutation. Proposition 5.6 constructs the normalized liberation dual system. Lemma 5.7 compares fraction commutators and gives the summed identity. Theorem 1.9 uses maximal Delta to obtain scalar-shift regularity before applying Theorem 1.7. |
-| 6 | Examples | The arcsine example in Remark 6.1 distinguishes the two analytic hypotheses; the circular counterexample in Remark 6.2 shows why normality is needed for the ordinary dual-system criterion. |
+| 6 | Examples | Remark 6.1 distinguishes the two analytic hypotheses, Remark 6.2 shows why normality is needed for the dual-system criterion, and Proposition 6.3 separates the rational closures on bounded elements. |
 
 ## Preliminary Order
 
@@ -125,6 +125,11 @@ Remark 6.2 retains the circular counterexample.
 The bounded dual gives maximal Delta by MSY23 Proposition 6.2, and the free-field embedding gives regular scalar shifts.
 With \(L=P_\Omega\), the example applies Theorem 1.7 and compares its commutator condition with the finite-rank condition in Theorem 1.9.
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
+
+Proposition 6.3, `prop:bounded-rational-closure`, gives a selfadjoint tuple with a bounded dual system for which the rational closure in \(\mathcal M\) is strictly smaller than the bounded part of the rational closure in \(L^0(\mathcal M)\).
+The proof uses right tensor appending to construct the duals and to separate \(z^*z\) from the generated C*-algebra in norm.
+Every matrix over \(C^*(X)\) that is invertible over \(\mathcal M\) has its inverse over \(C^*(X)\).
+The norm separation therefore excludes \(z^*z\) from the rational closure in \(\mathcal M\).
 
 The project README maps these environments to responsible mathematical records.
 The project review distinguishes manuscript-local checks from fixed proof and source reviews.

@@ -214,6 +214,15 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |
 | `paper/sections/preliminaries.tex`, Tomita-conjugation paragraph in `subsec:finite-rank-tensors` | `\cite[p.~13]{MSY23}` | Supports the Tomita-conjugation terminology; the tensor identification is separately attributed to CS05. |
 
+## `Tao06`
+
+The source is Tao's Fall 2006 UCLA Math 247A lecture notes, with kernel normalization in equation (1) and the \(L^2\) estimate in Proposition 1.2 and its consequence by Plancherel on pp. 3–4.
+The source interface is also checked in the [independent review of C_F0012 v3](../../../audits/reviews/Yin_R_F0056_v3.md#quadratic-selfadjoint-finding).
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/examples.tex`, proof of `prop:bounded-rational-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. The proof performs the change of measure and checks the commutator with \(h\). |
+
 ## `Voi98`
 
 Source evidence: [Voi98-U002](../../../audits/literature/Voi98/Yin_U002.md#voi98-u002), [Voi98-U005](../../../audits/literature/Voi98/Yin_U005.md#voi98-u005), and [Voi98-U006](../../../audits/literature/Voi98/Yin_U006.md#voi98-u006) record the dual-system, Fock-model and Fisher-information passages used here.
