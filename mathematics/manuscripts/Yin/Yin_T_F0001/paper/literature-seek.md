@@ -1,8 +1,8 @@
 # Literature Search
 
-## Remark 6.1
+## Example 6.1
 
-Remark 6.1 in [examples.tex](sections/examples.tex), label `rem:liberation-without-duals`, exhibits a selfadjoint generator with arcsine law and regular scalar shifts.
+Example 6.1 in [examples.tex](sections/examples.tex), label `ex:liberation-without-duals`, exhibits a selfadjoint generator with arcsine law and regular scalar shifts.
 It takes \(L=P_\Omega\) and excludes an ordinary dual system in the domain sense of Definition 1.8.
 The search looked for a source that explicitly exhibits both properties for the same example, including other laws and the original bounded formulations.
 
@@ -19,4 +19,4 @@ They covered general web search, arXiv-oriented searches and the relevant passag
 An Oberwolfach search hit brings up adjacent abstracts on ordinary dual systems and liberation. [Oberwolfach Reports 2015, No. 28, pp. 1587–1588](https://publications.mfo.de/bitstream/handle/mfo/3475/OWR_2015_28.pdf?sequence=1)
 
 Within this search scope, no source was found that explicitly gives a liberation dual system and excludes an ordinary dual system for the same example.
-Remark 6.1 uses its direct argument for that conclusion.
+Example 6.1 uses its direct argument for that conclusion.

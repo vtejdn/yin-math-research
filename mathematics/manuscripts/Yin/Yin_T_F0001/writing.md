@@ -69,7 +69,7 @@ The normalization proposition uses only the liberation dual-system conditions an
 Omit a separate section on liberation gradients; the dual-system criterion is Section 5 and Examples is Section 6.
 Deduce the dual-system criterion directly from the liberation dual-system criterion using the normalized liberation construction and its summed fraction-commutator identity.
 Keep the discussion of conjugate variables in the [F0011 manuscript](../Yin_T_F0011/readme.md).
-Place the arcsine and circular counterexamples in Examples.
+Use numbered Example environments for all three examples in Section 6.
 
 ## Mathematical Citations and Attribution
 

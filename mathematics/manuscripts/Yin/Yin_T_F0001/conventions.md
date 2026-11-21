@@ -109,7 +109,7 @@ It cites Voi99 Sections 5.3--5.4 for the gradient formulation and states the exi
 The construction and estimates remain in [C_F0082](../../../claims/Yin_C_F0082_v1.md#argument).
 For the normal-operator application, nonatomicity is a separate hypothesis.
 
-Remark 6.1 gives the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
+Example 6.1 gives the arcsine example and records \(j(W^*(X):\mathbb C)=0\).
 It excludes ordinary dual systems by applying the dual commutator to odd monomials and using both vacuum domain inclusions.
 
 ## Terminology and Concise Explanations

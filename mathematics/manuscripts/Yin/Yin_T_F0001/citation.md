@@ -199,7 +199,7 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/introduction.tex`, free-group criterion paragraph | `\cite[Proposition 6.3]{MSY23}` | Provides a bounded-dual example for free Haar unitaries; the source convention's sign is stated in the manuscript. |
 | `paper/sections/introduction.tex`, paragraph after Theorem 1.4 | `\cite[Theorem~1.1]{MSY23}` | Supplies the division-ring property used in the \((5)\Rightarrow(1)\) interpretation of the maximal-\(\Delta\) criterion. |
 | `paper/sections/dual-system-criterion.tex`, `rem:dual-maximality` | `\cite[proof of Proposition~6.2]{MSY23}` | Supplies the trace argument for bounded dual systems. The remark moves the ranges of a finite-rank cycle into \(\mathcal M\Omega\) by right multiplication with one regular element before applying the trace to bounded finite-rank compositions. |
-| `paper/sections/examples.tex`, `rem:normality` | `\cite[Proposition~6.2]{MSY23}` | The bounded dual D with [c,D]=P_Omega gives Delta(c)=1 directly; the source allows arbitrary bounded tuples and requires no normality. |
+| `paper/sections/examples.tex`, `ex:normality` | `\cite[Proposition~6.2]{MSY23}` | The bounded dual D with [c,D]=P_Omega gives Delta(c)=1 directly; the source allows arbitrary bounded tuples and requires no normality. |
 | `paper/sections/maximal-delta.tex`, proof of `thm:delta` | `\cite[Theorem~1.1, (i) and (v)]{MSY23}` | Identifies the evaluated free field with the affiliated division closure under \(\Delta(X)=d\). |
 | `paper/sections/preliminaries.tex`, `subsec:rational-affiliated` | `\cite[Section 5.1]{MSY23}` | Supports affiliation through commutation with commutant unitaries, including domain invariance. |
 | `paper/sections/preliminaries.tex`, paragraph after `eq:canonical` | `\cite[Section 5.1]{MSY23}` | Supports the affiliated functional-calculus and polar-decomposition facts used to construct a fraction pair. |
@@ -221,7 +221,7 @@ The source interface is also checked in the [independent review of C_F0012 v3](.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, proof of `prop:bounded-rational-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. The proof performs the change of measure and checks the commutator with \(h\). |
+| `paper/sections/examples.tex`, proof of `ex:bounded-rational-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. The proof performs the change of measure and checks the commutator with \(h\). |
 
 ## `Voi98`
 
@@ -231,7 +231,7 @@ The inspected source is the published 39-page article; the exact proof repairs a
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, introduction to `def:dual-system` | `\cite[Definition~5.1]{Voi98}` | Gives the original bounded selfadjoint dual-system formulation for selfadjoint generators, with a coefficient algebra and commutators \([X_j,Y_i]=\mathrm i\delta_{ij}P_\Omega\). Taking the coefficient algebra to be \(\mathbb C1\) and setting \(D_i=-\mathrm iY_i\) gives the manuscript's generator-first normalization in that setting. The joint “see also” citation does not attribute the manuscript's formulation for arbitrary tuples in \(\mathcal M^d\) and possibly unbounded operators to Voi98; the inclusion \(\mathcal M\Omega\subseteq\operatorname{Dom}D_i\cap\operatorname{Dom}D_i^*\) is a local manuscript requirement. The published Definition 5.1 is on p.208 and is checked in Voi98-U005. |
-| `paper/sections/examples.tex`, `rem:normality` | `\cite[5.13]{Voi98}` | Supplies the standard free semicircular Fock model; the circular counterexample and rationality conclusion are local. |
+| `paper/sections/examples.tex`, `ex:normality` | `\cite[5.13]{Voi98}` | Supplies the standard free semicircular Fock model; the circular counterexample and rationality conclusion are local. |
 | `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[Section~3, pp.~192--193]{Voi98}` | Supplies the polynomial free-difference-quotient convention before its separately cited free-field extension. |
 
 ## `Wei94`
