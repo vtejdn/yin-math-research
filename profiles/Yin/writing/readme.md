@@ -284,11 +284,16 @@ Combine it with the following settings:
 - Sort the bibliography alphabetically by author, following the [EMS ordering rule](../../../mathematics/manuscripts/bibliography-guidelines.md#ems) and [LMS sorting guidance](../../../mathematics/manuscripts/bibliography-guidelines.md#lms).
   Order works with the same author list chronologically and use a consistent style-generated tie-break when necessary.
 - Display given-name initials followed by complete family names, following the [LMS name convention](../../../mathematics/manuscripts/bibliography-guidelines.md#lms).
+  Separate authors with commas.
+- For journal articles, give the authors, article title, abbreviated journal title, volume, issue number if available, year in parentheses, and page range or article number, in that order.
+  Use sentence case for article titles by default.
+- For books, normally give the title, edition or series volume as applicable, publisher, place of publication, and year.
+- For arXiv preprints, give the arXiv identifier and year.
 - Preserve complete available author information in BibTeX, including verified given and family names, name particles and accents.
   Generate initials and labels through the selected bibliography style rather than shortening the stored author information.
 
 Prepare the reference list with BibTeX under the repository's [bibliographic data and typesetting-subset rules](../../../framework/rules/writing.md#citations-notation-and-versions).
-Choose a style that implements this combination and check labels, author sorting and name display in its generated bibliography.
+Choose a style that implements these choices and check labels, author sorting, name display, and entry formats in the generated bibliography.
 Apply the existing [mathematical citation and attribution rules](#definition-citations) to the purpose, placement and source support of citations.
 
 <a id="style-selection"></a>
