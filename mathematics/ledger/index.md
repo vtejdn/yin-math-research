@@ -65,6 +65,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0058](Yin_L_A0058_v1.md) | Probability and analysis strategies through linearization and algebraic functions | [v1](Yin_L_A0058_v1.md) |
 | [Yin_L_A0059](Yin_L_A0059_v1.md) | Exact-support characteristic transfer and tests for torsion-free realizability | [v1](Yin_L_A0059_v1.md) |
 | [Yin_L_A0060](Yin_L_A0060_v1.md) | Odd-characteristic transfer for a single reflection in generalized dihedral groups | [v1](Yin_L_A0060_v1.md) |
+| [Yin_L_A0061](Yin_L_A0061_v1.md) | Compression tests for integral lifts of a modular right inverse and annihilator | [v1](Yin_L_A0061_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

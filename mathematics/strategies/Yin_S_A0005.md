@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Extend finite-conjugate boundary recovery to a kernel whose rational projection or ambient division ring is not supplied, and identify the exact support-cut rank still needed for a transfer. |
+| priority | Seek independent control of the residual finite matrix ranks after free spanning, or a coupling of the original finite group-ring coefficients that constrains their difference. |
 
 ## Algebraically normalized affiliated frames
 
@@ -37,7 +37,11 @@ The construction uses the prescribed \(h\) in the two Schur factorizations.
 The [finite conjugate formula](../claims/Yin_C_A0007_v8.md#statement) now recovers the rational boundary from the pencil for the whole free cyclic-amalgam class under the theorem's bounded-inverse hypothesis.
 It also identifies every expected support as a rational projection in the stated cyclic splitting with a certified coefficient division ring.
 A stationary join is fixed by conjugation and therefore equals the expected support; integral ranks guarantee stationarity after at most \(n-r\) increases.
-The next case must remove an input to that argument, for example by using free copies to force a finite join without presupposing integral ranks, and must account for how to recover coefficients when the projection itself is unavailable in a controlled field.
+The [free-extension theorem](../claims/Yin_C_A0007_v9.md#statement) removes ambient integrality from the finite spanning step for a projection from any original group.
+Its bounded spanning estimate still leaves the original kernel trace as the difference of the nullities of two explicit larger finite matrices.
+Free projections with arbitrary real trace satisfy the same analytic spanning conclusion.
+An unchanged original summand can supply only a constant determined edge action in this free extension.
+New integer information must therefore come from the original finite coefficients, an independent rank calculation or a different coupling.
 The rational support alone leaves the off-corner correction in v5 to be controlled.
 Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
 An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.

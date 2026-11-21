@@ -22,7 +22,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0017](Yin_R_A0017_v3.md#whole-artifact-finding) | Independent whole-artifact reviews of incidence atoms, signed edge potentials, complete cell return matrices, spectral asymptotics, projection geometry and height or quotient certificates | [v1](Yin_R_A0017_v1.md), [v2](Yin_R_A0017_v2.md), [v3](Yin_R_A0017_v3.md) |
 | [Yin_R_A0018](Yin_R_A0018_v4.md#finding-rank-two-noncommuting-transport) | Independent whole-argument reviews of height recurrences, commuting paths, rational finite-coefficient transport, integer Boolean traces and exact noncommuting rank-two common-defect kernels | [v1](Yin_R_A0018_v1.md), [v2](Yin_R_A0018_v2.md), [v3](Yin_R_A0018_v3.md), [v4](Yin_R_A0018_v4.md) |
 | [Yin_R_A0019](Yin_R_A0019_v1.md#whole-claim-finding) | Independent whole-claim review of the actual rational-Haar inverse-difference obstruction, exact coefficient-kernel preservation, finite realization and joint-word limits | [v1](Yin_R_A0019_v1.md) |
-| [Yin_R_A0020](Yin_R_A0020_v8.md#whole-finding) | Independent reviews of affiliated frames, nonpolynomial boundaries and finite-conjugate recovery on a cyclic edge | [v1](Yin_R_A0020_v1.md), [v2](Yin_R_A0020_v2.md), [v3](Yin_R_A0020_v3.md), [v4](Yin_R_A0020_v4.md), [v5](Yin_R_A0020_v5.md), [v6](Yin_R_A0020_v6.md), [v7](Yin_R_A0020_v7.md), [v8](Yin_R_A0020_v8.md) |
+| [Yin_R_A0020](Yin_R_A0020_v9.md#whole-finding) | Independent reviews of affiliated frames, cyclic boundary recovery and finite free-translate spanning | [v1](Yin_R_A0020_v1.md), [v2](Yin_R_A0020_v2.md), [v3](Yin_R_A0020_v3.md), [v4](Yin_R_A0020_v4.md), [v5](Yin_R_A0020_v5.md), [v6](Yin_R_A0020_v6.md), [v7](Yin_R_A0020_v7.md), [v8](Yin_R_A0020_v8.md), [v9](Yin_R_A0020_v9.md) |
 | [Yin_R_A0021](Yin_R_A0021_v1.md#whole-artifact-finding) | Independent whole-artifact review of central winding, exact joint canonical trace, atom disintegration, exceptional quotient fibers and known scalar height coverage | [v1](Yin_R_A0021_v1.md) |
 | [Yin_R_A0022](Yin_R_A0022_v1.md#whole-artifact-finding) | Independent whole-artifact review of the original-label power-column reduction, exact trinomial kernels, all degeneracies and actual Promislow character calibration | [v1](Yin_R_A0022_v1.md) |
 | [Yin_R_A0023](Yin_R_A0023_v1.md#whole-artifact-finding) | Independent whole-artifact review of normal compressed hopping, finite incidence input, complete scalar-potential kernels and the unresolved zero-potential coefficient | [v1](Yin_R_A0023_v1.md) |
@@ -67,7 +67,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0067](Yin_R_A0067_v1.md#whole-argument-finding) | A homogeneous unit and a prime denominator in a cyclic extension | [v1](Yin_R_A0067_v1.md) |
 | [Yin_R_A0068](Yin_R_A0068_v1.md#whole-argument-finding) | An index-two character, analytic rank and the second Schur coefficient | [v1](Yin_R_A0068_v1.md) |
 | [Yin_R_A0069](Yin_R_A0069_v1.md#whole-argument-finding) | Binary incidence obstructions and lifting a fixed zero product | [v1](Yin_R_A0069_v1.md) |
-| [Yin_R_A0070](Yin_R_A0070_v2.md#whole-finding) | Independent reviews of marked-point lifting and fixed-factor precision and support | [v1](Yin_R_A0070_v1.md), [v2](Yin_R_A0070_v2.md) |
+| [Yin_R_A0070](Yin_R_A0070_v3.md#whole-finding) | Independent reviews of marked-point lifting, fixed-factor precision and modular kernel counts | [v1](Yin_R_A0070_v1.md), [v2](Yin_R_A0070_v2.md), [v3](Yin_R_A0070_v3.md) |
 | [Yin_R_A0071](Yin_R_A0071_v1.md#whole-argument-finding) | Connectivity, collision counts and the explicit character bound | [v1](Yin_R_A0071_v1.md) |
 | [Yin_R_A0072](Yin_R_A0072_v1.md#whole-argument-finding) | Fixed finite targets for source matchings and a planted cyclic quotient | [v1](Yin_R_A0072_v1.md) |
 | [Yin_R_A0073](Yin_R_A0073_v1.md#whole-argument-finding) | Precision eight and characteristic-zero lifting on the seven-cycle | [v1](Yin_R_A0073_v1.md) |
@@ -127,6 +127,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0127](Yin_R_A0127_v1.md#whole-argument-finding) | Independent review of the complex rank of sparse relations | [v1](Yin_R_A0127_v1.md) |
 | [Yin_R_A0128](Yin_R_A0128_v1.md#whole-artifact-finding) | Independent review of finite cone contacts and alphabet probabilities | [v1](Yin_R_A0128_v1.md) |
 | [Yin_R_A0129](Yin_R_A0129_v1.md#whole-finding) | Independent review of single-prime transfer on product tables | [v1](Yin_R_A0129_v1.md) |
+| [Yin_R_A0130](Yin_R_A0130_v1.md#whole-finding) | Independent review of the precision bound for trace-zero idempotents | [v1](Yin_R_A0130_v1.md) |
+| [Yin_R_A0131](Yin_R_A0131_v1.md#whole-finding) | Independent review of the normality criterion for the complex group algebra | [v1](Yin_R_A0131_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
