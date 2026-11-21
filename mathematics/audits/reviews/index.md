@@ -200,7 +200,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0053](Yin_R_F0053_v1.md) | Review of the arcsine liberation-dual counterexample | [v1](Yin_R_F0053_v1.md) |
 | [Yin_R_F0054](Yin_R_F0054_v1.md) | Yin_T_F0001: Original-Contract Completion Audit | [v1](Yin_R_F0054_v1.md) |
 | [Yin_R_F0055](Yin_R_F0055_v5.md) | Retained review-applicability and contract-organization findings | [v1](Yin_R_F0055_v1.md), [v2](Yin_R_F0055_v2.md), [v3](Yin_R_F0055_v3.md), [v4](Yin_R_F0055_v4.md), [v5](Yin_R_F0055_v5.md) |
-| [Yin_R_F0056](Yin_R_F0056_v1.md) | Yin_C_F0012: Main Sandwich Counterexample Review and Legacy Core Comparison | [v1](Yin_R_F0056_v1.md) |
+| [Yin_R_F0056](Yin_R_F0056_v2.md) | Self-review of the nonnormal one-sided product variant; independent review of the selfadjoint sandwich remains in v1 | [v1](Yin_R_F0056_v1.md), [v2](Yin_R_F0056_v2.md) |
 | [Yin_R_F0057](Yin_R_F0057_v1.md) | MS23: Original foundation, derivative and integration findings | [v1](Yin_R_F0057_v1.md) |
 | [Yin_R_F0058](Yin_R_F0058_v4.md) | Self-review of the liberation-dual rationality criterion | [v1](Yin_R_F0058_v1.md), [v2](Yin_R_F0058_v2.md), [v3](Yin_R_F0058_v3.md), [v4](Yin_R_F0058_v4.md) |
 | [Yin_R_F0059](Yin_R_F0059_v1.md) | Isolated whole-proof review of the intrinsic affiliated rationality criterion | [v1](Yin_R_F0059_v1.md) |
