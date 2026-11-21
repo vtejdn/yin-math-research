@@ -169,3 +169,26 @@ For example \(u=a^{21}\) and \(v=b^{21}\) are both in this kernel, and the compl
 \]
 The calculation is reproduced by applying \(\mathtt{normal\_form}\) in [J5](../computations/programs/Yin_J_A0005/verify.py) to the two respective concatenations.
 The derived conditions are necessary; a support passing all three still requires a separate argument.
+
+## Assessment history
+
+### Decision norm-tests
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-21T07:19 |
+| status | proved |
+| reason | Independent review verifies both finite-dimensional representations, the admissible row reduction, the valuation at infinity and the claimed index bound. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Three necessary algebraic conditions for exact three-label supports in the type kernel, on either side of a finite zero product in characteristic zero or two, with a power-family exclusion. |
+| argument | [Proof](#argument) | Residual two-group twisting, the cubic characteristic polynomial, reduced norms and the eight-dimensional adjoint determinant. |
+| review | [Whole finding](../audits/reviews/Yin_R_A0147_v1.md#whole-finding) | Independent whole-claim inspection at the scope specified in the finding. |
+| dependency | [Division algebra model](Yin_C_A0108_v1.md#decision-skew-triangle-model) | Faithfulness, the normalized type-kernel lift, and residual two-group separation. |
+| dependency | [Finite-place reduction](Yin_C_A0101_v1.md#decision-three-row-elimination) | A complex three-term zero-product row retains all labels on reduction at two. |
+| dependency | [Normal forms](Yin_C_A0105_v2.md#decision-exact-balls) | Word comparison for the noncommuting power example. |
+
+## Current assessment
+
+[Selected decision](#decision-norm-tests)
