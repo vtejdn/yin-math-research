@@ -19,7 +19,7 @@ The paper is compiled from `main.tex` and six section files.
 | 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
 | 4 | Liberation dual system criterion | An unnumbered recall of Definition 1.6 is followed by Remark 4.1 on liberation gradients and the two tensor-evaluation identities. Proposition 4.2 normalizes the system, and Lemmas 4.3 through 4.6 give closure and tensor tools. The proof of Theorem 1.7 follows Proposition 4.7 and Lemmas 4.8 and 4.9 on algebraic L2 recovery and closability of fraction commutators. |
 | 5 | Dual system criterion | An unnumbered recall of Definition 1.8 is followed by Remark 5.1 on maximal Delta. Lemmas 5.2 through 5.5 establish rank independence, identify finite-rank solutions and give the required module commutation. Proposition 5.6 constructs the normalized liberation dual system. Lemma 5.7 compares fraction commutators and gives the summed identity. Theorem 1.9 uses maximal Delta to obtain scalar-shift regularity before applying Theorem 1.7. |
-| 6 | Examples | Example 6.1 distinguishes the two analytic hypotheses, Example 6.2 shows why normality is needed for the dual-system criterion, and Example 6.3 separates the rational closures on bounded elements. |
+| 6 | Examples | Example 6.1 distinguishes the two analytic hypotheses, Example 6.2 shows why normality is needed for the dual-system criterion, and Example 6.3 separates the division closures on bounded elements. |
 
 ## Preliminary Order
 
@@ -130,8 +130,8 @@ Example 6.3, `ex:bounded-rational-closure`, uses the selfadjoint pair \((X,XSX)\
 The bicommutant theorem gives \(W^*(X,Y)=W^*(X,S)\) from injectivity and dense range of \(X\).
 The proof constructs the bounded dual for \(Y\) using an operator on the last two tensor factors and uses Voiculescu's free-product representation to lift the weighted Hilbert-transform operator for \(X\).
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
-Spectral permanence gives inverse closure of \(M_n(C^*(X,Y))\) in \(M_n(\mathcal M)\) for every \(n\).
-Thus \(S=X^{-1}YX^{-1}\) separates the two rational closures on bounded elements.
+Spectral permanence gives inverse closure of \(C^*(X,Y)\) in \(\mathcal M\).
+Thus \(S=X^{-1}YX^{-1}\) separates the division closures on bounded elements.
 
 The project README maps these environments to responsible mathematical records.
 The project review distinguishes manuscript-local checks from fixed proof and source reviews.

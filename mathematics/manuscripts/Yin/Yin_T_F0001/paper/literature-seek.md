@@ -34,7 +34,7 @@ The search on 2026-11-21 UTC matched the steps of `ex:bounded-rational-closure` 
 - The bicommutant theorem states that a unital strongly closed selfadjoint subalgebra $N\subseteq\mathcal B(H)$ satisfies $N=N''$.
   Here $N=W^*(X,Y)$, and commutation with $X$ and $Y$ implies commutation with $S$ by cancellation of $X$ on the left and its dense range on the right. [AP18, Theorem 2.1.3, p. 30](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=36).
 - Spectral permanence applies to arbitrary elements of a unital $C^*$-subalgebra containing the ambient unit.
-  In $M_n(C^*(X,Y))\subseteq M_n(M)$ the unit is shared, so invertibility in the ambient matrix algebra supplies the inverse in the subalgebra for each $n$. [Put19, Theorem 1.5.3, p. 24](https://web.uvic.ca/~ifputnam/ln/C%2A-algebras.pdf#page=24).
+  The inclusion $C^*(X,Y)\subseteq M$ shares the unit, so an element of $C^*(X,Y)$ invertible in $M$ has its inverse in $C^*(X,Y)$. [Put19, Theorem 1.5.3, p. 24](https://web.uvic.ca/~ifputnam/ln/C%2A-algebras.pdf#page=24).
 - Voi98, §5.5, gives the pointed free-product left and right representations and their commutator identities.
   For the right lift of $T_0$ the same-factor commutator is the extension of $[X,T_0]$ by zero off the vacuum-plus-one-factor space, and the cross-factor commutator with $S$ is zero.
   Proposition 5.6 also gives this lift using the bounded dual to the semicircular factor in §5.13, with $iT_0$ as the bounded selfadjoint input to the first factor and $-i$ times its lift as the output in the manuscript's normalization.

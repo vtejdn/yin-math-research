@@ -160,7 +160,7 @@ All theorem and section locators below refer to the retained arXiv v1, not the j
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, Linnell criterion paragraph | `\cite[Theorem 1.1]{Lin00}` | Supports the affiliated-operator fraction criterion in the finite-generator free-group setting. |
 | `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{Lin00}` | Credits the affiliated rationality criterion recovered by specializing Theorem 1.9 to free Haar unitaries. |
-| `paper/sections/examples.tex`, paragraph before `ex:bounded-rational-closure` | `\cite[Theorem~1.1]{Lin00}` | Identifies the bounded part of the affiliated division closure of the free group algebra with its rational closure in the reduced group \(C^*\)-algebra. Maximal \(\Delta\) identifies the affiliated division and rational closures, and monotonicity through the reduced \(C^*\)-algebra, the group von Neumann algebra and its affiliated algebra gives the displayed equality. Adjoining the inverse generators to the polynomial algebra leaves its rational closures unchanged because those inverses are already in the closures. |
+| `paper/sections/examples.tex`, paragraph before `ex:bounded-rational-closure` | `\cite[Theorem~1.1]{Lin00}` | Identifies the bounded part of the affiliated division closure of the free group algebra with its division closure in the reduced group \(C^*\)-algebra. The division closure in the group von Neumann algebra lies between these equal algebras by monotonicity. In all three ambient algebras the division closure of the polynomial algebra already contains the inverse generators, so it equals the division closure of the group algebra. [Bounded division-closure identification](../../../audits/literature/Lin00/Yin_U004.md#lin00-u004). |
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Section~1]{Lin00}` | Supports the common-denominator terminology for finite families. |
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Theorem~1.1]{Lin00}` | Supports the characterization of rational affiliated operators by finite-rank conditions on bounded operators obtained from left and right fractions, in the finite-generator free-group setting; the following Miy22 sentence gives the semicircular analogue. |
 | `paper/sections/preliminaries.tex`, paragraph before `lem:clearing` | `\cite[Section~1, p.~2 of the arXiv version]{Lin00}` | Supplies the finite-family common-denominator interface; the manuscript proves its own induction. |
@@ -184,7 +184,7 @@ The inspected work is the 24-page 2022 journal PDF; its original foundations rem
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, semicircular criterion paragraph | `\cite[Theorems 3.1 and 4.5]{Miy22}` | Supports the semicircular bounded and affiliated rationality criteria. |
-| `paper/sections/examples.tex`, paragraph before `ex:bounded-rational-closure` | `\cite[Theorems~3.1 and~4.5]{Miy22}` | Theorem 3.1 identifies the rational and division closures in the generated von Neumann algebra. Theorem 4.5 identifies that division closure with the bounded part of the affiliated division closure. Maximal \(\Delta\) identifies affiliated division and rational closures. |
+| `paper/sections/examples.tex`, paragraph before `ex:bounded-rational-closure` | `\cite[Theorem~4.5]{Miy22}` | Identifies the division closure of the free semicircular polynomial algebra in the generated von Neumann algebra with the bounded part of its affiliated division closure. |
 | `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{Miy22}` | Credits the rationality criterion recovered by specializing Theorem 1.9 to free semicircular operators. |
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Lemma~4.1]{Miy22}` | Supplies the two-element common-denominator construction. |
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Section~4]{Miy22}` | Supplies the semicircular analogue of the preceding Lin00 rationality criterion, using the cleared expressions with bounded right annihilation operators; \(\Gamma[Q,r_i^*]\) is the manuscript's notation for these expressions. |
@@ -225,7 +225,7 @@ The inspection covers the statement of spectral permanence and its applicability
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Theorem~1.5.3]{Put19}` | Gives equality of spectra in a unital \(C^*\)-algebra and a \(C^*\)-subalgebra with the same unit. The matrix algebras \(M_n(C^*(X,Y))\subseteq M_n(\mathcal M)\) share their unit for every \(n\), so the theorem gives inverse closure at all matrix sizes. |
+| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Theorem~1.5.3]{Put19}` | Gives inverse closure for a \(C^*\)-subalgebra containing the ambient unit. The inclusion \(C^*(X,Y)\subseteq\mathcal M\) has this property, so \(C^*(X,Y)\) contains the division closure in \(\mathcal M\) of the polynomial algebra. |
 
 ## `Tao06`
 
