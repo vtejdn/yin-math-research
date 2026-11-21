@@ -15,14 +15,26 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test the Gram matrix of translates on finite supports and the rational ranks that realize mixed moments of successive column spaces. |
+| priority | Test whether a noncommuting single-parameter pencil admits a square-group rank certificate, and use finite row coefficients and translate expansion to constrain scalar witnesses. |
 
 [Alternation on direct powers](../claims/Yin_C_A0096_v1.md#statement) removes the complex coefficients in the two universal questions.
 A finite set of alternating rational expressions in the affiliated algebras is sufficient for a given complex matrix.
-For [number-field coefficients](../claims/Yin_C_A0097_v1.md#statement), external tensor products of two consecutive column prefixes give a smaller coordinate count independent of size.
-At an actual number-field obstruction, among the explicitly given restriction-of-scalars matrices for some column step and some \(l\le2k\), at least one has noninteger rank.
+For [number-field coefficients](../claims/Yin_C_A0097_v2.md#statement) of degree \(d\), external tensor products of two consecutive column prefixes give the coordinate count \(j=\lfloor\log_2 d\rfloor+1\) independently of size.
+At an actual number-field obstruction, among the explicitly given restriction-of-scalars matrices for some column step and some \(l\le j\), at least one has noninteger rank.
 Computing the separate conjugate ranks is unnecessary if an independent rational rank certificate is available.
 The missing input is a constraint on these particular rational ranks valid on arbitrary torsion-free direct powers.
+For a [central polynomial pencil of degree \(h\) and generic rank \(r\)](../claims/Yin_C_A0096_v2.md#statement), \(rh+1\) coordinates now control every specialization, with at most \(rh\) exceptions to the generic rank.
+Two coordinates suffice for the rank-one parameter channel and the stated diagonal factorizations.
+For a [subfield in one abelian affiliated algebra](../claims/Yin_C_A0100_v1.md#statement), the two-coordinate common-root argument admits one arbitrary scalar parameter at every polynomial degree and matrix size.
+Its tracial example preserves any prescribed finite set of group moments and still fails at a higher power with a noncanonical trace.
+To pass beyond the commuting case, an argument must control the individual deficiencies of noncommuting matrix coefficients or exploit the full canonical trace.
+For a Galois number field \(K\) and \(j\ge2\), the [matrix-unit calculation](../claims/Yin_C_A0104_v1.md#statement) gives a common denominator \(s\) with \(s^j\mid[K:K\cap D_{\mathbb Q}(G)]\).
+This gives full square-group transfer at squarefree Galois degree and isolates possible repeated prime powers in larger degrees.
+At degree \(2^j\), the [quaternion representation](../claims/Yin_C_A0102_v1.md#statement) passes all rational rank tests through power \(j\) with its own trace and has a scalar coefficient witness of rank \(1/2\).
+For the canonical group labeling the two Cayley transforms of individual group elements cannot satisfy the anticommutation identity used by this model.
+The [free word-ball construction](../ledger/Yin_L_A0065_v1.md#scope) preserves the rank tests and a fractional-rank witness while matching the canonical trace on any prescribed finite radius in a fixed five-generator marking.
+The recovered witness uses longer words as the radius increases.
+For biquadratic coefficient fields, test whether the analogous anticommutation relations can occur for general rational affiliated expressions in the actual regular representation.
 
 ## A finite-support test for the signed alternating factor
 
@@ -61,6 +73,10 @@ For three left labels the [matching argument](../claims/Yin_C_A0098_v1.md#statem
 In this exceptional case the two cyclic orientations would give a common finite set stabilized by all quotients of the three oriented translations.
 Torsion-freeness prevents it.
 The remaining three-label case therefore has an actual translate progression \(b,xb,x^2b\) in the right support for one left-label ratio \(x\).
+The [quantitative count](../claims/Yin_C_A0098_v2.md#statement-and-counts) forces at least two labelled progressions and bounds their density below in terms of the expansion of the specified ratio subgroup.
+The [modulus and phase tests](../claims/Yin_C_A0099_v1.md#statement) constrain the triple fibers needed by unequal moduli and give finite normalized phases when all fibers are pairs.
+The [three-row eliminant](../claims/Yin_C_A0101_v1.md#statement) bounds the actual left ratios by algebraic units and gives at most \(b^2\) projective rows even with triple fibers.
+Apply the full translation matrix to any surviving candidate since the determinant norm may have extraneous roots.
 
 ## Group scope
 

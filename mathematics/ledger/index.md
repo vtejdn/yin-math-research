@@ -69,6 +69,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0062](Yin_L_A0062_v1.md) | Residual representatives with a controlled extreme coefficient | [v1](Yin_L_A0062_v1.md) |
 | [Yin_L_A0063](Yin_L_A0063_v1.md) | Positive commutator frequencies from the affine Serre relations | [v1](Yin_L_A0063_v1.md) |
 | [Yin_L_A0064](Yin_L_A0064_v1.md) | Overlap and basis certificates for sparse-alphabet cone outputs | [v1](Yin_L_A0064_v1.md) |
+| [Yin_L_A0065](Yin_L_A0065_v1.md) | Preserving rational rank tests while matching a prescribed free word ball | [v1](Yin_L_A0065_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

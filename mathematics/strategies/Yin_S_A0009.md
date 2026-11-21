@@ -52,3 +52,9 @@ The [residual representative test](../ledger/Yin_L_A0062_v1.md) changes the inte
 A one-sided height with a separately injective bottom coefficient excludes an analytic kernel of the fixed left factor.
 Applying this calculation to a source witness requires its collected group labels and products.
 The [signed direct-power construction](Yin_S_A0011.md) supplies a converse characteristic transfer from a hypothetical complex zero product, with an explicit change of group.
+For three distinct left labels, [integral elimination on the same group](../claims/Yin_C_A0101_v1.md#statement) preserves all left labels at every finite place, and bounds the entire joint row field by the square of the allowed right support size.
+One may check a surviving row by exact computation over that field and test individual primes for a decrease on the right.
+For arbitrary support sizes, first pass to a pair minimal over the algebraic closure in the characteristic being tested.
+The [degree and grading bound](../claims/Yin_C_A0103_v1.md#statement) requires its normalized common support subgroup to have finite abelianization of order at most \(\binom{a+b-2}{a-1}\).
+For example, if this subgroup has a quotient of order \(p\) in the witness characteristic \(p\), then the same binomial coefficient must be at least \(p\).
+An application to a Mghirbi–Douglas family would require verifying this quotient on the minimal supports after collection; the alphabet size alone provides no such verification.

@@ -25,6 +25,8 @@ The [marked Schur observable](../ledger/Yin_L_A0058_v1.md#linearization-must-pre
 
 The [partition of support products](../audits/literature/MD26/Yin_U001.md#the-partition-of-the-support-products) records equalities among the products of two enumerated supports, as used in MD26 Proposition 8.3.
 The [alternating tensor on separate group coordinates](../claims/Yin_C_A0096_v1.md#an-integral-annihilator-on-a-direct-power) specifies the signed integral test and the multiplicity classes used to remove the original coefficients.
+The [three-translation progression count](../claims/Yin_C_A0098_v2.md#statement-and-counts) fixes the edge, center and isolate multiplicities and the symmetric-difference normalization of the subgroup expansion.
+For a geometrically minimal support pair the [normalized product-table grading](../claims/Yin_C_A0103_v1.md#the-normalized-coefficient-algebra-and-a-finite-basis) retains the finite grading group, its degree-zero coefficient algebra and its primary torsion.
 The [affine Serre relations and their polynomial current realization](../ledger/Yin_L_A0063_v1.md#the-exact-serre-to-current-interface) specify which powers of the self-commutator derivation are represented by positive-root currents.
 The [type-incidence and squared-turn matrices](../audits/literature/MD26/Yin_U001.md#type-incidence-and-squared-turn-matrix) retain MD26 Section 8's inverse-pair balance, probability weights and zero convention for inverse turns.
 

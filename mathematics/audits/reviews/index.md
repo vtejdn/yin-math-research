@@ -129,9 +129,16 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0129](Yin_R_A0129_v1.md#whole-finding) | Independent review of single-prime transfer on product tables | [v1](Yin_R_A0129_v1.md) |
 | [Yin_R_A0130](Yin_R_A0130_v1.md#whole-finding) | Independent review of the precision bound for trace-zero idempotents | [v1](Yin_R_A0130_v1.md) |
 | [Yin_R_A0131](Yin_R_A0131_v2.md#whole-finding) | Independent reviews of the normality criterion, layer reductions and finite coefficient certificate | [v1](Yin_R_A0131_v1.md), [v2](Yin_R_A0131_v2.md) |
-| [Yin_R_A0132](Yin_R_A0132_v1.md#whole-finding) | Independent review of coefficient change on finite direct powers | [v1](Yin_R_A0132_v1.md) |
-| [Yin_R_A0133](Yin_R_A0133_v1.md#whole-finding) | Independent review of mixed column-rank moments for number-field coefficients | [v1](Yin_R_A0133_v1.md) |
-| [Yin_R_A0134](Yin_R_A0134_v1.md#whole-finding) | Independent review of the progression forced by three left labels | [v1](Yin_R_A0134_v1.md) |
+| [Yin_R_A0132](Yin_R_A0132_v2.md#whole-finding) | Independent reviews of coefficient change on finite direct powers and the degree bound for polynomial pencils | [v1](Yin_R_A0132_v1.md), [v2](Yin_R_A0132_v2.md) |
+| [Yin_R_A0133](Yin_R_A0133_v2.md#whole-finding) | Independent reviews of mixed column-rank moments and the odd and even number-field bounds | [v1](Yin_R_A0133_v1.md), [v2](Yin_R_A0133_v2.md) |
+| [Yin_R_A0134](Yin_R_A0134_v2.md#whole-finding) | Independent reviews of three-label progressions, expansion and finite kernel deficiency | [v1](Yin_R_A0134_v1.md), [v2](Yin_R_A0134_v2.md) |
+| [Yin_R_A0135](Yin_R_A0135_v1.md#whole-finding) | Independent review of phase rigidity and finite translation chains | [v1](Yin_R_A0135_v1.md) |
+| [Yin_R_A0136](Yin_R_A0136_v1.md#whole-finding) | Independent review of scalar adjunction for commuting affiliated coefficients | [v1](Yin_R_A0136_v1.md) |
+| [Yin_R_A0137](Yin_R_A0137_v1.md#whole-finding) | Independent review of the integral three-row eliminant and the arithmetic of its admissible rows | [v1](Yin_R_A0137_v1.md) |
+| [Yin_R_A0138](Yin_R_A0138_v1.md#whole-finding) | Independent review of noncommuting tracial representations at the number-field threshold | [v1](Yin_R_A0138_v1.md) |
+| [Yin_R_A0139](Yin_R_A0139_v1.md#whole-finding) | Independent review of minimal support pairs, grading and coefficient fields | [v1](Yin_R_A0139_v1.md) |
+| [Yin_R_A0140](Yin_R_A0140_v1.md#whole-finding) | Independent review of rational ranks under a prescribed free-word trace test | [v1](Yin_R_A0140_v1.md) |
+| [Yin_R_A0141](Yin_R_A0141_v1.md#whole-finding) | Independent review of rank-denominator divisibility for Galois fields | [v1](Yin_R_A0141_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
