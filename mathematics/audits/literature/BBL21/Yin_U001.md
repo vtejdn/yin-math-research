@@ -52,6 +52,9 @@ On 2026-11-11, the main agent read the introduction and Theorem 3.5 in the [matc
 The theorem itself allows a general von Neumann subalgebra \(B\); the finite-dimensional matrix base in the preceding reconstruction is its selected application, not a restriction of the source theorem.
 The hypothesis \(E_B(p)>0\) means positive with a bounded inverse.
 Under this hypothesis, the theorem supplies selfadjoint \(b_1,b_2\in B\), with \(b_1+b_2=b\), and the exact kernel-trace identity stated above.
+Theorem 3.5(vii) also identifies \(p=p_1\wedge p_2\), where \(p_j=P_{\ker(b_j-Y_j)}\).
+For the 21 November A0001 boundary calculation, the displayed equation (3.7), this intersection identity and the norm-boundary construction on PDF pp.6--8 were checked directly in the same selected edition.
+Their analytic foundations remain accepted at the source's stated hypotheses.
 The introduction and the closed-range discussion in Section 2 identify why a finite-dimensional base makes support restriction effective; full support alone in a diffuse base gives no bounded inverse.
 This is a statement and applicability check, not an additional audit of the analytic proof or the journal edition.
 

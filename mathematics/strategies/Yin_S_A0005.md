@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Test boundary recovery from a complete affiliated rational kernel frame with independently certified denominators and positive algebraic normalization, retaining expected-support and off-corner corrections. |
+| priority | Seek controlled genuine boundary coefficients in a full-expected-support realization whose summands do not separately annihilate the complete kernel, retaining exact kernel transport and independently certified vertex ranks. |
 
 ## Algebraically normalized affiliated frames
 
@@ -23,10 +23,17 @@ For the free-boundary row, its affiliated graph construction and positive invers
 The same calculation preserves the intrinsic expected-support deficit.
 This is the completed first diagnostic and the reason to pursue boundary recovery with these witnesses while retaining the support correction.
 
-The next bounded investigation computes \(E_H(VV^*)\) and \(E_H(Y_jVV^*)\) for independently certified cyclic denominators and tests a coupled additive pencil with independently controlled vertices.
-It must identify the actual boundary coefficient class and the full kernel, with the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) retained through every Schur enlargement.
-Continue if a controlled boundary or vertex-kernel certificate reaches beyond the existing unit-pivot calculation.
-An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank requires revising the candidate.
+The [completed boundary calculation](../claims/Yin_C_A0007_v6.md#statement) computes both expectations for the free-boundary matrix.
+Its least-squares edge coefficient has a residual with squared unnormalized \(L^2\)-norm \(1/3\), so it cannot be an actual finite norm subordination boundary.
+Normalizing the complete affiliated frame leaves this obstruction unchanged.
+The same result supplies a coupled indefinite realization with no nonzero polynomial kernel vector, a full expected kernel bounded below by \((9-\sqrt{33})/24\), and genuine boundary values \(b_a=b_b=0\).
+An explicit invertible polynomial matrix transports the original complete kernel into this realization with zero nullity correction.
+Thus changing the realization can repair this example's expected support, whereas frame normalization alone cannot.
+
+The remaining coefficient test must involve summands that do not separately kill the complete kernel.
+In the successful calibration they both do, which forces the boundary values to vanish and leaves general coefficient control unresolved.
+Keep the [marked spectral observable](../ledger/Yin_L_A0058_v1.md#linearization-must-preserve-the-spectral-observable) through any further Schur enlargement; the kernel transport just obtained does not assert equality of full spectral distributions.
+An uncontrolled affiliated inverse of the expected kernel or a correction carrying the original unknown rank still requires revising the candidate.
 
 ## Mechanism and exact relationship to A0001
 
@@ -112,12 +119,12 @@ The [whole-artifact finding](../audits/reviews/Yin_R_A0027_v1.md#whole-artifact-
 The concrete corner compression succeeds only with a proved extra kernel dimension; it is not a nullity-preserving deletion and is already explained by a certified boundary row.
 Thus more kernel columns or zero stabilization within that shear family cannot automatically supply the full-support premise.
 
-## Next discriminating investigation
+## Polynomial witness tests and their remaining corrections
 
 The [two-variable stabilization obstruction](../ledger/Yin_L_A0026_v1.md), with its [whole-artifact review](../audits/reviews/Yin_R_A0033_v1.md#whole-artifact-finding), preserves the nonfree local coefficient module after every finite number of identity witness blocks.
 It excludes only square polynomial normalization of those specified stabilized witnesses; changing the coefficient module or using a rectangular enlargement remains possible and requires its own exact rank correction.
 
-Select a genuine additive group-ring matrix outside the completed finite-tree and energy reductions, preferably over a noncentral cyclic edge with independently controlled vertex ranks, and determine whether explicit polynomial kernel columns have full expected support.
+The polynomial-witness branch asks whether an additive group-ring matrix outside the completed finite-tree and energy reductions has explicit kernel columns with full expected support, preferably over a noncentral cyclic edge with independently controlled vertex ranks.
 If they do not, retain the precise failure and seek a constrained boundary recovery that does not assume rationality of the whole expected kernel.
 Polynomial kernel columns need not exist even when the analytic kernel is nonzero.
 Full support of their original expected Gram still does not imply its bounded inverse, but the proved cyclic polynomial congruence now supplies the needed inverse for the normalized realization.
@@ -145,7 +152,7 @@ Both normalized vertex matrices in this encoding are zero.
 Thus general integrality of these corrections is equivalent to the original Task, even with that strongest support equality.
 The [independent whole-artifact finding](../audits/reviews/Yin_R_A0020_v5.md#whole-artifact-finding) verifies every kernel, support, group and analytic-boundary interface and the independently pivoted comparison family.
 This does not exclude a theorem for independently controlled vertices: the arbitrary-input encoding places the original group inside its first vertex, so assuming that vertex's Atiyah property already resolves the original input.
-The next discriminating test must keep genuinely independent vertex information, establish complete-kernel inclusion, and constrain an off-corner rank not already known from a unit pivot or an energy calculation.
+Beyond the completed calibrations, new group coverage requires genuinely independent vertex information, complete-kernel inclusion, and control of any off-corner rank not already known from a unit pivot or an energy calculation.
 An arbitrary analytic kernel may still lack finite polynomial witnesses, and even all polynomial witnesses may fail to contain its expected support.
 Further opposite base shifts or examples whose whole kernel is a constant tree gauge do not resolve these obligations.
 

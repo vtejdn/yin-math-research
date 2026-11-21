@@ -15,19 +15,30 @@ author: Yin
 | --- | --- |
 | parent | [Relations-compatible analytic and algebraic ranks](Yin_S_A0004.md#current-structural-investigation) |
 | disposition | active |
-| priority | Eliminate off-alphabet contacts in finite translated cone fillings and test whether the surviving sparse cycle space admits the fixed-tuple probability bound required by C_A0091. |
+| priority | Bound the minimal sampled-label supports of the complete contact cycle space on a fixed exceptional tuple, over the bounded-cone covering supplied by the linear filling estimate. |
 
 ## Finite contact elimination
 
-The [21 November probability candidate](../ledger/Yin_L_A0058_v1.md#probability-after-eliminating-off-alphabet-contacts) counts sparse chain outputs after eliminating all off-alphabet Cayley edges with their actual signs and translations.
-For a finite filling matrix the output dimension is the difference between its rank and the rank of its off-alphabet rows.
-A finite covering statement for all relevant fillings is still required before using that calculation to bound the regular rank of the short-relation module.
+The [completed full-cone calculation](../claims/Yin_C_A0092_v1.md#full-cone-cycle-spaces-and-the-exact-sequence) replaces arbitrary selected filling columns by the entire cycle spaces of finitely many actual lifted cones.
+After contracting the sampled-edge components, the remaining signed contact matrix \(T_S\) gives
+\[
+ \dim_{\mathbb C}W_S=b_1(\Lambda_S)+\dim_{\mathbb C}\ker T_S.
+\]
+This is a finite ordinary dimension formula.
+Unique nonzero rows provide an exact elimination certificate, while a leaf in the coarse graph of touching cones need not do so.
 
-The completed [common-path diagnostic](../ledger/Yin_L_A0058_v1.md#a-contact-cancellation-that-a-counting-argument-must-retain) shows why large supports of individual cones and general torsion-free hyperbolic geometry do not suffice.
-The first next test is to eliminate two-cone and three-cone contact configurations under the exact four-line types, marked length and filling bounds.
-For each surviving output, identify any forced subset of the sampled alphabet and calculate its hypergeometric probability.
-Continue toward the C_A0091 threshold only with a justified coverage and overlap bound.
-A surviving contact loop records a concrete missing geometric constraint and prevents extrapolating a single-cone counting estimate.
+The [two- and three-column tests](../claims/Yin_C_A0092_v1.md#two-and-three-chosen-cycle-columns) preserve the signs lost over characteristic two.
+A contact tree without an anchor leaves a parameter; a contact triangle retains it precisely when the product of its gains is one.
+The displayed determinant-\(\pm2\) examples eliminate binary cancellations over \(\mathbb C\), but their occurrence in an actual four-line tuple has not been established.
+For a whole cone, apply the complete cycle-space matrix rather than one selected column.
+
+The [linear-filling deduction](../claims/Yin_C_A0092_v1.md#the-number-of-cones-required-at-the-c_a0091-scale) now supplies a finite covering list whenever the fixed tuple has the stated filling estimate.
+At the C_A0091 cutoff it needs at most \(K_n=\lfloor H/(c_*L)\rfloor\) cone occurrences per short word.
+This bound is uniform in large \(n\), but the available constant does not reduce the list to two or three cones.
+The [common-alphabet certificate](../claims/Yin_C_A0092_v1.md#exact-alphabet-probabilities-and-a-usable-conditional-threshold) reduces the needed probability upper bound to the total hypergeometric weight of minimal label supports across that entire list.
+For example, a complete list with at most four two-label minimal supports has weight below \(1/4000\).
+The exact four-line type counts and geometric safeguards have not yet bounded this antichain or eliminated every output.
+That fixed-tuple counting obligation is the next test; the [common-path diagnostic](../ledger/Yin_L_A0058_v1.md#a-contact-cancellation-that-a-counting-argument-must-retain) still excludes relying on individual cone support sizes alone.
 
 ## Input and distinction from rank sampling
 
