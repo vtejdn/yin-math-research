@@ -185,11 +185,13 @@ For every bounded interval $I$ of positive length, the spectral projection $E_X(
 \[
  \|P_1 E_X(I)\|^2=\|E_X(I)1\|_2^2=\mu(I).
 \]
-By Kato's criterion \cite[(2.2), p.~536]{Kat68}, $P_1$ is $X$-smooth if and only if
+Let $\|\cdot\|_X$ denote Kato's $X$-smoothness norm \cite[(2.2), p.~536]{Kat68}.
+The preceding identity gives
 \[
- c:=\sup_{0<|I|<\infty}\frac{\mu(I)}{|I|}<\infty,
+ c:=\|P_1\|_X^2=\sup_{0<|I|<\infty}\frac{\mu(I)}{|I|},
 \]
-The supremum is taken over intervals $I$, and when finite, $c$ is the squared $X$-smoothness norm of $P_1$.
+where the supremum is over intervals $I$.
+Thus $P_1$ is $X$-smooth if and only if $c<\infty$.
 If $c<\infty$, covering Borel sets by intervals gives $\mu\leq c\,dt$.
 Conversely, if $d\mu(t)=w(t)\,dt$ with $w\in L^\infty(\mathbb R)$, then $\mu(I)\leq\|w\|_\infty |I|$ for every such interval.
 Thus $c=\|w\|_\infty$ whenever the density is essentially bounded.
