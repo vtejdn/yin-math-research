@@ -21,8 +21,9 @@ Choose wording, theorem organization and proof detail for the actual paper, chec
 
 Scope: Yin's manuscript writing.
 
-After compilation, do not render pages or inspect the visual layout unless the user explicitly requests a layout check.
-Check the revised source, references and compilation diagnostics as appropriate to the change.
+Check the revised source, citations and cross-references in manuscript-writing tasks.
+Compile the manuscript only when the user explicitly requests compilation, and check the resulting diagnostics.
+Render pages or inspect the visual layout only when the user explicitly requests a layout check.
 
 <a id="abstract-concision"></a>
 ## Concise Abstracts

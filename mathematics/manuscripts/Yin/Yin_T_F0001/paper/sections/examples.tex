@@ -170,12 +170,36 @@ For a nonconstant word $Z_1\cdots Z_m$ with $m\geq1$ and $Z_j\in\{X,Y\}$, these 
 \]
 where the empty product is the identity when $m=1$.
 Thus for a polynomial $p$ with constant term $c=p(0,0)$ we have $\|(p(X,Y)-c)\xi_\varepsilon\|_2\to0$.
-Freeness and traciality give
+Since $\pi_\varepsilon\in W^*(X)$ and $S^k\in W^*(S)$, freeness gives
 \[
+ \tau(S^k\pi_\varepsilon)=\tau(S^k)\tau(\pi_\varepsilon)
+ \qquad(k=1,2).
+\]
+The standard semicircular law gives $\tau(S)=0$ and $\tau(S^2)=1$.
+The $L^2$ inner product, the identities $\pi_\varepsilon^*=\pi_\varepsilon^2=\pi_\varepsilon$ and traciality give
+\[
+ \begin{aligned}
  \langle \xi_\varepsilon,S\xi_\varepsilon\rangle
- =\frac{\tau(S\pi_\varepsilon)}{\tau(\pi_\varepsilon)}=0,\qquad
+ &=\frac{\langle\pi_\varepsilon\Omega,S\pi_\varepsilon\Omega\rangle}{\tau(\pi_\varepsilon)}
+ =\frac{\tau(\pi_\varepsilon S\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
+ &=\frac{\tau(S\pi_\varepsilon^2)}{\tau(\pi_\varepsilon)}
+ =\frac{\tau(S\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
+ &=\frac{\tau(S)\tau(\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
+ =\tau(S)=0.
+ \end{aligned}
+\]
+Since $S^*=S$, the squared norm is
+\[
+ \begin{aligned}
  \|S\xi_\varepsilon\|_2^2
- =\frac{\tau(S^2\pi_\varepsilon)}{\tau(\pi_\varepsilon)}=1.
+ &=\frac{\|S\pi_\varepsilon\Omega\|_2^2}{\tau(\pi_\varepsilon)}
+ =\frac{\tau((S\pi_\varepsilon)^*(S\pi_\varepsilon))}{\tau(\pi_\varepsilon)}\\
+ &=\frac{\tau(\pi_\varepsilon S^2\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
+ =\frac{\tau(S^2\pi_\varepsilon^2)}{\tau(\pi_\varepsilon)}
+ =\frac{\tau(S^2\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
+ &=\frac{\tau(S^2)\tau(\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
+ =\tau(S^2)=1.
+ \end{aligned}
 \]
 Since $S\xi_\varepsilon$ and $\xi_\varepsilon$ are orthogonal unit vectors,
 \[
