@@ -58,9 +58,9 @@ The triangular-kernel construction and the correction producing $D_1$ continue t
 
 ### Bounded dual for the scalar factor
 
-The search on 2026-11-22 UTC checked one-variable bounded dual systems and bounded positive rank-one commutators for the step \([X,T_0]=P_\Omega\) on \(K=L^2(\mu)\) in [examples.tex](sections/examples.tex), label `ex:bounded-division-closure`.
+The search on 2026-11-22 UTC checked one-variable bounded dual systems and bounded positive rank-one commutators for the step \([X,D_X]=P_\Omega|_{H_0}\) on \(H_0=L^2(\mu)\) in [examples.tex](sections/examples.tex), label `ex:bounded-division-closure`.
 
-- Kato's (2.2), p. 536, and Theorem (6.2), p. 543, give a bounded solution of \([X,T_0]=P_\Omega\) exactly when the spectral measure of \(\Omega\) has an essentially bounded Lebesgue density.
+- Kato's (2.2), p. 536, and Theorem (6.2), p. 543, give a bounded solution of \([X,D_X]=P_\Omega|_{H_0}\) exactly when the spectral measure of \(\Omega\) has an essentially bounded Lebesgue density.
   In this case \(w(t)=4t^3\mathbf 1_{(0,1)}(t)\), so the result applies directly.
   The sufficiency argument on p. 545 also gives a skew-adjoint solution of norm at most \(4\pi\) after centering the selfadjoint solution and multiplying by \(i\).
   Proposition 6.4 states the scalar criterion and the general norm bound. Example 6.5 applies both to the given density. [Kat68, published edition](https://doi.org/10.4064/sm-31-5-535-546) · [Inspected passage and specialization](../../../../audits/literature/Kat68/Yin_U001.md#scalar-bounded-dual).
@@ -76,8 +76,8 @@ The search on 2026-11-22 UTC checked the application of Voi98 to both lifted dua
 - On p. 212, the basic Fock commutators in §5.13 give \([\ell(h)^*,r(h)]=P\) and \([\ell(h),r(h)]=0\) for a unit vector \(h\), hence \([S,r(h)]=P\) for the variance-one element \(S=\ell(h)+\ell(h)^*\).
   The right representations in §5.5, p. 209, lift this operator and \(T_0\) to a generator-first dual system for the free pair \((X,S)\).
   Proposition 5.6, pp. 209–210, gives the free-product existence statement in the selfadjoint convention. [Voi98](https://doi.org/10.1007/s002220050222) · [Source inspection](../../../../audits/literature/Voi98/Yin_U005.md#free-products-55-58).
-- The reduced free-product and semicircular Fock realizations from those sections give \(H_n=K^{\bar\otimes(n+1)}\) by grouping according to the total semicircular degree.
-  The current proof writes \(Y=L+L^*\) with \(L=XlX\), then computes the commutators with \(Y\) using the last-two-factor operator \(R\) and the scalar dual \(T_0\) acting on the last factor. [Fixed model and construction](../../../../claims/Yin_C_F0012_v1.md#1-an-explicit-tracial-fock-model).
+- The reduced free-product and semicircular Fock realizations from those sections give \(H_n=H_0^{\bar\otimes(n+1)}\) by grouping according to the total semicircular degree.
+  The current proof writes \(Y=L+L^*\) with \(L=XlX\), then computes the commutators with \(Y\) using the last-two-factor operator \(R\) and the scalar dual \(D_X\) acting on the last factor. [Fixed model and construction](../../../../claims/Yin_C_F0012_v1.md#1-an-explicit-tracial-fock-model).
 
 Searches on bounded dual systems, rank-one commutators and operator-valued semicircular Fock constructions found sources for the Fock model and the lift.
 The inspected passages did not provide a bounded \(D_2\) with \([X,D_2]=0\) and \([Y,D_2]=P_\Omega\) for the sandwich with \(0\in\sigma(X)\).

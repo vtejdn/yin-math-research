@@ -136,7 +136,7 @@ It takes \(\mathcal M=W^*(X,Y)\) and computes the product \(X^{-1}YX^{-1}=S\) in
 Thus \(X,S\) generate \(\mathcal M\) and give its reduced free product representation.
 The tensor representation gives \(Y\) as the sum of a weighted creation operator and its adjoint.
 A bounded operator on the last two factors gives \(D_2\) through its commutator with \(Y\).
-Proposition 6.4 supplies the scalar operator \(T_0\) acting on the last factor, and a correction by right multiplications cancels the remaining commutator with \(Y\) to give \(D_1\).
+Proposition 6.4 supplies the scalar operator \(D_X\) acting on the last factor, and a correction by right multiplications cancels the remaining commutator with \(Y\) to give \(D_1\).
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
 Spectral permanence gives inverse closure of \(C^*(X,Y)\) in \(\mathcal M\).
 The norm separation then excludes \(S\) from the division closure in \(\mathcal M\).
