@@ -49,3 +49,16 @@ The scalar free-product lift applies to the free factors $W^*(X)$ and $W^*(S)$.
 For the change from $S$ to $Y$, the free difference quotient in the $S$ coordinate is $X\otimes X^{\mathrm{op}}$, which has no bounded inverse in $M\bar\otimes M^{\mathrm{op}}$ because $0\in\sigma(X)$.
 Thus a change-of-variables argument requiring bounded invertibility is inapplicable here.
 The triangular-kernel construction and the correction producing $D_1$ continue to supply the bounded dual system, and the small-spectral-vector argument supplies the quantitative norm separation. [C_F0012 v1 and its review](../../../../audits/reviews/Yin_R_F0056_v1.md#main-counterexample-finding).
+
+### Bounded dual for the scalar factor
+
+The search on 2026-11-22 UTC checked one-variable bounded dual systems and bounded positive rank-one commutators for the step \([X,T_0]=P_\Omega\) on \(K=L^2(\mu)\) in [examples.tex](sections/examples.tex), label `ex:bounded-division-closure`.
+
+- Kato's (2.2), p. 536, and Theorem (6.2), p. 543, give a bounded solution of \([X,T_0]=P_\Omega\) exactly when the spectral measure of \(\Omega\) has an essentially bounded Lebesgue density.
+  In this case \(w(t)=4t^3\mathbf 1_{(0,1)}(t)\), so the result applies directly.
+  The sufficiency argument on p. 545 also gives a skew-adjoint solution of norm at most \(4\pi\) after centering the selfadjoint solution and multiplying by \(i\).
+  This provides a citation for the scalar existence step and its norm bound. [Kat68, published edition](https://doi.org/10.4064/sm-31-5-535-546) · [Inspected passage and specialization](../../../../audits/literature/Kat68/Yin_U001.md#scalar-bounded-dual).
+- Voiculescu's §5.1 fixes the bounded selfadjoint convention, §5.6 gives the free-product lift, and §5.13 supplies the semicircular dual.
+  Mai, Speicher and Yin use the manuscript's normalization in Definition 6.1 and deduce \(\Delta=n\) in Proposition 6.2 for an \(n\)-tuple with a bounded dual system. [Voi98](https://doi.org/10.1007/s002220050222) · [MSY23](https://doi.org/10.1016/j.jfa.2023.110016).
+- Shlyakhtenko's Corollary 2 relates finite free Fisher information to closable skew-symmetric duals on the polynomial domain.
+  The boundedness needed for the scalar free-product input is supplied by the Kato criterion. [Shl06, author preprint, §1.2](https://abelsymposium.no/symp2004/preprints/shlyakhtenko.pdf#page=4) · [Inspection of Corollary 2](../../../../audits/literature/Shl06/Yin_U001.md#corollary-2-and-the-essential-skew-adjointness-limit).

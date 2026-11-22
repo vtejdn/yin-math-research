@@ -232,6 +232,7 @@ Recorded consumer navigation: Statement/proof uses: [Yin_C_F0013-P1](../ledger/Y
 ### Bounded dual systems and polynomial-domain normalizations
 
 Exact definition homes and conventions: [MSY23 bounded duals and sign conversion](../audits/literature/MSY23/Yin_U005.md#definition-61-and-proposition-62-the-dual-system-route), [Voi98's selfadjoint convention](../audits/literature/Voi98/Yin_U002.md#bounded-dual-systems), [MS23's normalized polynomial-domain dual](../audits/literature/MS23/Yin_U001.md#normalized-polynomial-domain-duals), and [the canonical contraction](../audits/literature/ACSY24/Yin_U001.md#canonical-contraction-dual).
+Kato's [\(T\)-smoothness in the bounded selfadjoint setting](../audits/literature/Kat68/Yin_U001.md#t-smoothness) supplies the spectral-measure condition for the [scalar bounded dual criterion](../audits/literature/Kat68/Yin_U001.md#scalar-bounded-dual).
 
 Recorded consumer navigation: Bounded-dual statement use: [Yin_C_F0001](../ledger/Yin_L_F0004_v1.md#yin_c_f0001-definitions); polynomial-domain statement/proof uses: [Yin_C_F0022-P1](../ledger/Yin_L_F0004_v1.md#yin_c_f0022-definitions), [Yin_C_F0023](../ledger/Yin_L_F0004_v1.md#yin_c_f0023-definitions).
 

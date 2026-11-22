@@ -99,6 +99,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Erd45 source notes](Erd45/readme.md#interval-theorem) | The signed interval concentration theorem on printed page 898 and its antichain proof |
 | [KV12/Yin_U001](KV12/Yin_U001.md) | Rational Difference-Differential Operators |
 | [LM17/Yin_U001](LM17/Yin_U001.md#lm17-u001) | Local indicator testing for a global vertical square function estimate. |
+| [Kat68/Yin_U001](Kat68/Yin_U001.md#kat68-u001) | Bounded positive commutators and the bounded density criterion for a scalar dual |
 | [Kat95/Yin_U001](Kat95/Yin_U001.md) | Closable Finite-Rank Operators |
 | [Kro81/Yin_U001](Kro81/Yin_U001.md) | Kro81-U001: Rational Laurent Series, Recurrences and Hankel Rank |
 | [Lau88/Yin_U001](Lau88/Yin_U001.md) | Algebraic spectral subspaces and continuity of intertwiners |
