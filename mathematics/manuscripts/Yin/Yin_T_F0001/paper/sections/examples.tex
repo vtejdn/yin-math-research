@@ -152,6 +152,34 @@ Regularity makes $s$ injective and $t$ have dense range, so $s[P_\Omega,c^*]t\ne
 
 \end{example}
 
+\begin{proposition}\label{prop:scalar-bounded-dual}
+Let $X$ be a bounded selfadjoint element of a tracial $W^*$-probability space $(\mathcal N,\tau)$ and let $\mu$ be its distribution.
+Then $X$ admits a bounded dual system on $L^2(W^*(X),\tau)$ if and only if $d\mu(t)=w(t)\,dt$ for some $w\in L^\infty(\mathbb R)$.
+In this case, the dual operator can be chosen skew-adjoint with norm at most $\pi\|w\|_\infty$.
+\end{proposition}
+
+\begin{proof}
+Identify $K:=L^2(W^*(X),\tau)$ with $L^2(\mathbb R,\mu)$, where $X$ acts by coordinate multiplication, and let $P_1$ be the orthogonal projection onto $\C1$.
+For every bounded interval $I$ of positive length, the spectral projection $E_X(I)$ satisfies
+\[
+ \|P_1 E_X(I)\|^2=\|E_X(I)1\|_2^2=\mu(I).
+\]
+By Kato's criterion \cite[(2.2), p.~536]{Kat68}, $P_1$ is $X$-smooth if and only if
+\[
+ c:=\sup_{0<|I|<\infty}\frac{\mu(I)}{|I|}<\infty,
+\]
+The supremum is taken over intervals $I$, and when finite, $c$ is the squared $X$-smoothness norm of $P_1$.
+If $c<\infty$, covering Borel sets by intervals gives $\mu\leq c\,dt$.
+Conversely, if $d\mu(t)=w(t)\,dt$ with $w\in L^\infty(\mathbb R)$, then $\mu(I)\leq\|w\|_\infty |I|$ for every such interval.
+Thus $c=\|w\|_\infty$ whenever the density is essentially bounded.
+
+Since $P_1^{1/2}=P_1$, Kato's commutator theorem \cite[Theorem~(6.2), p.~543]{Kat68} states that $P_1$ is $X$-smooth if and only if there exists a bounded selfadjoint operator $B$ with $\mathrm i[X,B]=P_1$.
+For such a $B$, the operator $D:=\mathrm iB$ satisfies $[X,D]=P_1$.
+Conversely, a bounded $D$ with $[X,D]=P_1$ satisfies $[X,D^*]=-P_1$, so $B:=(D-D^*)/(2\mathrm i)$ is a bounded selfadjoint solution of $\mathrm i[X,B]=P_1$.
+The proof of Kato's theorem \cite[p.~545]{Kat68} gives a solution $B$ with $0\leq B\leq 2\pi c I_K$.
+Hence $D:=\mathrm i(B-\pi c I_K)$ is a skew-adjoint dual operator with $\|D\|\leq\pi c$.
+\end{proof}
+
 For a tuple $X$ of free Haar unitaries \cite[Theorem~1.1]{Lin00} or of free semicircular elements \cite[Theorem~4.5]{Miy22}, set $\M:=W^*(X)$ and $\A_X:=\C\langle X\rangle$.
 Then
 \[
@@ -264,15 +292,7 @@ It remains to construct a bounded dual system for $(X,Y)$.
 Since $S\in\M$ and $Y=XSX$, the free pair $(X,S)$ generates $\M$.
 
 Let $K:=L^2((0,1),\mu)$, on which $X$ acts by coordinate multiplication, and let $P_1$ be the projection onto $\C1$ in $K$.
-For the spectral projection $E_X(I)$ of $X$ on $K$ and any bounded interval $I$,
-\[
- \|P_1 E_X(I)\|^2=\|E_X(I)1\|_2^2=\mu(I)\leq 4|I|.
-\]
-Since $P_1=P_1^{1/2}$, Kato's smoothness criterion and commutator theorem give a bounded selfadjoint operator $B$ on $K$ with $\mathrm i[X,B]=P_1$ and $0\leq B\leq 8\pi I_K$ \cite[(2.2), Theorem~(6.2), and its proof]{Kat68}.
-Centering $B$ gives
-\[
- T_0:=\mathrm i(B-4\pi I_K),\qquad [X,T_0]=P_1,\qquad \|T_0\|\leq 4\pi.
-\]
+The density of $\mu$ has essential supremum $4$, so Proposition~\ref{prop:scalar-bounded-dual} gives a bounded dual operator $T_0$ on $K$ with $[X,T_0]=P_1$ and $\|T_0\|\leq 4\pi$.
 Right creation $r_0$ is a bounded dual for $S$ on $L^2(W^*(S),\tau)$ \cite[5.13]{Voi98}.
 The right free-product lifts $T$ of $T_0$ and $r$ of $r_0$ form a bounded dual system for $(X,S)$ by the commutator identities in \cite[5.5]{Voi98}.
 

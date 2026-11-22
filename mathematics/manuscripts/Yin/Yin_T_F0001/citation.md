@@ -14,7 +14,7 @@ This map records only current citation applications, not consulted or uncited wo
 Source evidence: [AP18-U001](../../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
 The [AP18-U003, affiliation and domains](../../../audits/literature/AP18/Yin_U003.md#affiliation-interface), [square-integrable affiliated-operator interface](../../../audits/literature/Miy26/Yin_U004.md#miy26-u004), and [AP18-U002, canonical-conjugation reading](../../../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
 The inspected artifact is the undated 338-page author draft; 2018 is not a verified draft date.
-For Example 6.4, the inspection covers the spectral characterization of affiliation and the rule for multiplying affiliated operators. [AP18, Proposition 7.2.3 and Theorem 7.2.8, pp. 103–105](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=109).
+For Example 6.5, the inspection covers the spectral characterization of affiliation and the rule for multiplying affiliated operators. [AP18, Proposition 7.2.3 and Theorem 7.2.8, pp. 103–105](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=109).
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -236,7 +236,7 @@ The [published edition and source inspection](../../../audits/literature/Kat68/Y
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[(2.2), Theorem~(6.2), and its proof]{Kat68}` | Formula (2.2) gives squared smoothness norm at most \(4\) for \(P_1=P_1^{1/2}\) by the density bound. The theorem and its proof give \(B=B^*\) with \(i[X,B]=P_1\) and \(0\leq B\leq8\pi I_K\). The local choice \(T_0=i(B-4\pi I_K)\) gives the normalized commutator and the bound \(4\pi\). |
+| `paper/sections/examples.tex`, `prop:scalar-bounded-dual` | `\cite[(2.2), p.~536]{Kat68}`, `\cite[Theorem~(6.2), p.~543]{Kat68}`, `\cite[p.~545]{Kat68}` | Formula (2.2) identifies the squared \(X\)-smoothness norm of \(P_1\) with the supremum of the interval ratios \(\mu(I)/|I|\). Theorem (6.2) identifies finite smoothness with the existence of a bounded selfadjoint solution of \(i[X,B]=P_1\). The estimate in its proof gives the norm bound for the centered solution. |
 
 ## `Voi98`
 

@@ -19,7 +19,7 @@ The paper is compiled from `main.tex` and six section files.
 | 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
 | 4 | Liberation dual system criterion | An unnumbered recall of Definition 1.6 is followed by Remark 4.1 on liberation gradients and the two tensor-evaluation identities. Proposition 4.2 normalizes the system, and Lemmas 4.3 through 4.6 give closure and tensor tools. The proof of Theorem 1.7 follows Proposition 4.7 and Lemmas 4.8 and 4.9 on algebraic L2 recovery and closability of fraction commutators. |
 | 5 | Dual system criterion | An unnumbered recall of Definition 1.8 is followed by Remark 5.1 on maximal Delta. Lemmas 5.2 through 5.5 establish rank independence, identify finite-rank solutions and give the required module commutation. Proposition 5.6 constructs the normalized liberation dual system. Lemma 5.7 compares fraction commutators and gives the summed identity. Theorem 1.9 uses maximal Delta to obtain scalar-shift regularity before applying Theorem 1.7. |
-| 6 | Examples | Example 6.1 separates maximal Delta from liberation duals, Example 6.2 distinguishes the two analytic hypotheses, Example 6.3 shows why normality is needed, and Example 6.4 separates the division closures on bounded elements. |
+| 6 | Examples | Example 6.1 separates maximal Delta from liberation duals, Example 6.2 distinguishes the two analytic hypotheses, Example 6.3 shows why normality is needed, Proposition 6.4 characterizes bounded duals for one selfadjoint generator, and Example 6.5 separates the division closures on bounded elements. |
 
 ## Preliminary Order
 
@@ -129,10 +129,12 @@ The bounded dual gives maximal Delta by MSY23 Proposition 6.2, and the free-fiel
 With \(L=P_\Omega\), the example applies Theorem 1.7 and compares its commutator condition with the finite-rank condition in Theorem 1.9.
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
 
-Example 6.4, `ex:bounded-division-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
+Proposition 6.4, `prop:scalar-bounded-dual`, uses Kato's theorem to characterize the existence of a bounded dual operator by the density of the scalar distribution.
+
+Example 6.5, `ex:bounded-division-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
 It takes \(\mathcal M=W^*(X,Y)\) and computes the product \(X^{-1}YX^{-1}=S\) in the algebra of affiliated operators, giving \(S\in\operatorname{Div}_{L^0(\mathcal M)}\mathcal A\cap\mathcal M\).
 Thus \(X,S\) generate \(\mathcal M\) and give its reduced free product representation.
-Kato's commutator theorem gives a bounded scalar dual for \(X\), and Voiculescu's right free-product representations lift it and semicircular right creation to the bounded dual system \((T,r)\) for \((X,S)\).
+Proposition 6.4 gives a bounded scalar dual for \(X\), and Voiculescu's right free-product representations lift it and semicircular right creation to the bounded dual system \((T,r)\) for \((X,S)\).
 The change of generators identifies the rank-one commutator with \(S\) required of the new second dual.
 In the semicircular Fock realization of the free product, a bounded operator on the last two tensor factors realizes this commutator, and a correction by right multiplications gives the first dual.
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
