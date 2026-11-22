@@ -129,9 +129,9 @@ The bounded-dual specialization is described directly in the introduction throug
 Example 6.3, `ex:bounded-division-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
 It takes \(\mathcal M=W^*(X,Y)\) and computes the product \(X^{-1}YX^{-1}=S\) in the algebra of affiliated operators, giving \(S\in\operatorname{Div}_{L^0(\mathcal M)}\mathcal A\cap\mathcal M\).
 Thus \(X,S\) generate \(\mathcal M\) and give its reduced free product representation.
-Kato's commutator theorem gives a bounded scalar dual for \(X\), and its right free-product lift \(T\) and right creation \(r\) give bounded duals for \((X,S)\).
+Kato's commutator theorem gives a bounded scalar dual for \(X\), and Voiculescu's right free-product representations lift it and semicircular right creation to the bounded dual system \((T,r)\) for \((X,S)\).
 The change of generators identifies the rank-one commutator with \(S\) required of the new second dual.
-A bounded operator on the last two tensor factors realizes this commutator, and a correction by right multiplications gives the first dual.
+In the semicircular Fock realization of the free product, a bounded operator on the last two tensor factors realizes this commutator, and a correction by right multiplications gives the first dual.
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
 Spectral permanence gives inverse closure of \(C^*(X,Y)\) in \(\mathcal M\).
 The norm separation then excludes \(S\) from the division closure in \(\mathcal M\).

@@ -39,7 +39,7 @@ The search on 2026-11-21 UTC matched the steps of `ex:bounded-division-closure` 
 - Voi98, §5.5, gives the pointed free-product left and right representations and their commutator identities.
   For the right lift of $T_0$ the same-factor commutator is the extension of $[X,T_0]$ by zero off the vacuum-plus-one-factor space, and the cross-factor commutator with $S$ is zero.
   Proposition 5.6 also gives this lift using the bounded dual to the semicircular factor in §5.13, with $iT_0$ as the bounded selfadjoint input to the first factor and $-i$ times its lift as the output in the manuscript's normalization.
-  Skew-adjointness of $T_0$ follows from the compressed skew-adjoint Hilbert transform and the same real multiplication operator on each side.
+  In the earlier Hilbert-transform proof, skew-adjointness of $T_0$ follows from the compressed skew-adjoint Hilbert transform and the same real multiplication operator on each side.
   The elementary tensor model used for the construction of $D_2$ still requires its own identification with the free-product space. [Voi98, §§5.5–5.6 and §5.13](https://doi.org/10.1007/s002220050222) · [Source inspection](../../../../audits/literature/Voi98/Yin_U005.md#free-products-55-58).
 - Tao06, Proposition 1.2, supplies the unweighted bound in the earlier Hilbert-transform construction of the scalar $T_0$.
   The local application conjugates by the square root of the density, bounds the resulting multiplication operators and calculates the rank-one commutator. [Tao06, Proposition 1.2](https://www.math.ucla.edu/~tao/247a.1.06f/notes4.pdf) · [Review of the source application in C_F0012 v1](../../../../audits/reviews/Yin_R_F0056_v1.md#main-counterexample-finding).
@@ -62,3 +62,16 @@ The search on 2026-11-22 UTC checked one-variable bounded dual systems and bound
   Mai, Speicher and Yin use the manuscript's normalization in Definition 6.1 and deduce \(\Delta=n\) in Proposition 6.2 for an \(n\)-tuple with a bounded dual system. [Voi98](https://doi.org/10.1007/s002220050222) · [MSY23](https://doi.org/10.1016/j.jfa.2023.110016).
 - Shlyakhtenko's Corollary 2 relates finite free Fisher information to closable skew-symmetric duals on the polynomial domain.
   The boundedness needed for the scalar free-product input is supplied by the Kato criterion. [Shl06, author preprint, §1.2](https://abelsymposium.no/symp2004/preprints/shlyakhtenko.pdf#page=4) · [Inspection of Corollary 2](../../../../audits/literature/Shl06/Yin_U001.md#corollary-2-and-the-essential-skew-adjointness-limit).
+
+### Free-product lift and the tensor realization used for the second dual
+
+The search on 2026-11-22 UTC checked the application of Voi98 to both lifted duals and looked for a direct source for the second dual after the change of generators.
+
+- On p. 212, the basic Fock commutators in §5.13 give \([\ell(h)^*,r(h)]=P\) and \([\ell(h),r(h)]=0\) for a unit vector \(h\), hence \([S,r(h)]=P\) for the variance-one element \(S=\ell(h)+\ell(h)^*\).
+  The right representations in §5.5, p. 209, lift this operator and \(T_0\) to a generator-first dual system for the free pair \((X,S)\).
+  Proposition 5.6, pp. 209–210, gives the free-product existence statement in the selfadjoint convention. [Voi98](https://doi.org/10.1007/s002220050222) · [Source inspection](../../../../audits/literature/Voi98/Yin_U005.md#free-products-55-58).
+- The reduced free-product and semicircular Fock realizations from those sections give \(H_n=K^{\bar\otimes(n+1)}\) by grouping according to the total semicircular degree.
+  The manuscript uses these tensor spaces for the inverse-weight calculation and the last-two-factor operator \(R\) in the construction of \(D_2\). [Fixed construction](../../../../claims/Yin_C_F0012_v4.md#the-bounded-second-dual).
+
+Searches on bounded dual systems, rank-one commutators and operator-valued semicircular Fock constructions found sources for the Fock model and the lift.
+The inspected passages did not provide a bounded \(D_2\) with \([X,D_2]=0\) and \([Y,D_2]=P_\Omega\) for the sandwich with \(0\in\sigma(X)\).
