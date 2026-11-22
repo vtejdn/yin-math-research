@@ -333,59 +333,59 @@ Thanks to Cauchy--Schwarz equality, we obtain
  \leq 2\int_0^1\int_0^1|\zeta(s,t)|^2\,d\mu(t)\,d\mu(s)
  =2\|\zeta\|_2^2.
 \]
-Let $R$ be a linear operator on $H$ that vanishes on $H_0$ and
+Let $\tilde{R}$ be a linear operator on $H$ that vanishes on $H_0$ and
 \[
-R|_{H_n}:=I_{H_0}^{\otimes(n-1)}\otimes K\quad\text{for } n\geq1.
+\tilde{R}|_{H_n}:=I_{H_0}^{\otimes(n-1)}\otimes K\quad\text{for } n\geq1.
 \]
-Then we have $\|R\|\leq\|K\|\leq\sqrt{2}$.
-Note that the formula for $K$ gives $K(X\otimes I_{H_0})=XT_1$, so we see that $R$ commutes with $X$ on $H$ by a simple verification on each $H_n$.
+Then we have $\|\tilde{R}\|\leq\|K\|\leq\sqrt{2}$.
+Note that the formula for $K$ gives $K(X\otimes I_{H_0})=XK$, so we see that $\tilde{R}$ commutes with $X$ on $H$ by a simple verification on each $H_n$.
 
-Next, we calculate $RL$ and $LR$ on $H_0$ and and show that $RL=LR$ on $H_n$ for $n\geq1$.
-For $f\in H_0$, $LRf=0$ and
+Next, we calculate $\tilde{R}L$ and $L\tilde{R}$ on $H_0$ and and show that $\tilde{R}L=L\tilde{R}$ on $H_n$ for $n\geq1$.
+For $f\in H_0$, $L\tilde{R}f=0$ and
 \[
- (RLf)(s)=\bigl(K(x\otimes Xf)\bigr)(s)
+ (\tilde{R}Lf)(s)=\bigl(K(x\otimes Xf)\bigr)(s)
  =s\int_0^1 k(s,t)t f(t)\,d\mu(t)
  =\int_0^s f(t)\,d\mu(t).
 \]
 Write $V$ for this integral operator on $H_0$.
-On $H_1$, the identity $K(X\otimes I_{H_0})=XT_1$ gives
+On $H_1$, the identity $K(X\otimes I_{H_0})=XK$ gives
 \[
- RL(\xi_0\otimes\xi_1)
+ \tilde{R}L(\xi_0\otimes\xi_1)
  =x\otimes K(X\xi_0\otimes\xi_1)
  =x\otimes X K(\xi_0\otimes\xi_1)
- =LR(\xi_0\otimes\xi_1).
+ =L\tilde{R}(\xi_0\otimes\xi_1).
 \]
-On $H_n$ for $n\geq2$, $L$ prepends $x$ and multiplies the first factor by $X$, while $R$ acts on the last two factors.
-Thus $RL=LR$ on $H_n$ for $n\geq2$.
+On $H_n$ for $n\geq2$, $L$ prepends $x$ and multiplies the first factor by $X$, while $\tilde{R}$ acts on the last two factors.
+Thus $\tilde{R}L=L\tilde{R}$ on $H_n$ for $n\geq2$.
 
-We next verify that $RL^*=L^*R$ on $H_n$ for $n\geq0$.
-Both $RL^*$ and $L^*R$ vanish on $H_0$ and $H_1$ by definition.
+We next verify that $\tilde{R}L^*=L^*\tilde{R}$ on $H_n$ for $n\geq0$.
+Both $\tilde{R}L^*$ and $L^*\tilde{R}$ vanish on $H_0$ and $H_1$ by definition.
 On $H_2$ we have
 \[
  \begin{aligned}
- RL^*(\xi_0\otimes\xi_1\otimes\xi_2)
+ \tilde{R}L^*(\xi_0\otimes\xi_1\otimes\xi_2)
  &=\langle x,\xi_0\rangle K(X\xi_1\otimes\xi_2)\\
  &=\langle x,\xi_0\rangle X K(\xi_1\otimes\xi_2)
- =L^*R(\xi_0\otimes\xi_1\otimes\xi_2).
+ =L^*\tilde{R}(\xi_0\otimes\xi_1\otimes\xi_2).
  \end{aligned}
 \]
-On $H_n$ for $n\geq3$, $L^*$ acts on the first two factors and $R$ on the last two, so the two compositions agree there as well.
+On $H_n$ for $n\geq3$, $L^*$ acts on the first two factors and $\tilde{R}$ on the last two, so the two compositions agree there as well.
 
 As $Y=L+L^*$, the above computations give
 \begin{equation}\label{eq:sandwich-last-two-factor-commutator}
- [R,Y]=V\oplus0\qquad\text{on } H_0\oplus\bigoplus_{n\geq1}H_n.
+ [\tilde{R},Y]=V\oplus0\qquad\text{on } H_0\oplus\bigoplus_{n\geq1}H_n.
 \end{equation}
-Set $D_2:=R^*-R$.
-Since $X=X^*$, taking adjoints in $RX=XR$ gives $XR^*=R^*X$.
-Thus both terms in $[X,D_2]=[X,R^*]-[X,R]$ vanish.
+Set $D_2:=\tilde{R}^*-\tilde{R}$.
+Since $X=X^*$, taking adjoints in $\tilde{R}X=X\tilde{R}$ gives $X\tilde{R}^*=\tilde{R}^*X$.
+Thus both terms in $[X,D_2]=[X,\tilde{R}^*]-[X,\tilde{R}]$ vanish.
 
 Since $Y=Y^*$,
 \[
- [R,Y]^*=(RY-YR)^*=YR^*-R^*Y=[Y,R^*].
+ [\tilde{R},Y]^*=(\tilde{R}Y-Y\tilde{R})^*=Y\tilde{R}^*-\tilde{R}^*Y=[Y,\tilde{R}^*].
 \]
-Using $-[Y,R]=[R,Y]$ and equation~\eqref{eq:sandwich-last-two-factor-commutator}, we obtain
+Using $-[Y,\tilde{R}]=[\tilde{R},Y]$ and equation~\eqref{eq:sandwich-last-two-factor-commutator}, we obtain
 \[
- [Y,D_2]=[Y,R^*]-[Y,R]=[R,Y]^*+[R,Y]=(V^*+V)\oplus0.
+ [Y,D_2]=[Y,\tilde{R}^*]-[Y,\tilde{R}]=[\tilde{R},Y]^*+[\tilde{R},Y]=(V^*+V)\oplus0.
 \]
 The kernel of $V$ is $1_{\{t\leq s\}}$, so $(V^*f)(s)=\int_s^1 f(t)\,d\mu(t)$.
 Since $\mu$ has no atoms,
@@ -398,33 +398,33 @@ As $\mu$ is a probability measure, this is the orthogonal projection of $f$ onto
 The vacuum $\Omega$ is the constant $1$ in $H_0$, so extending this projection by zero to the higher grades gives $P_\Omega$.
 Consequently
 \begin{equation}\label{eq:sandwich-second-dual}
- [X,D_2]=0,\qquad [Y,D_2]=[R,Y]^*+[R,Y]=P_\Omega.
+ [X,D_2]=0,\qquad [Y,D_2]=[\tilde{R},Y]^*+[\tilde{R},Y]=P_\Omega.
 \end{equation}
 
 The density of $\mu$ has essential supremum $4$, so Proposition~\ref{prop:scalar-bounded-dual} gives a skew-adjoint $D_X$ on $H_0$ with $[X,D_X]=P_\Omega|_{H_0}$ and $\|D_X\|\leq4\pi$.
-Define the bounded skew-adjoint operator $T$ on $H$ by $T|_{H_n}:=I_{H_0}^{\otimes n}\otimes D_X$.
-The commutator satisfies $[X,T]|_{H_0}=P_\Omega|_{H_0}$, and on every positive grade the actions of $X$ and $T$ are on distinct factors.
-It follows that $[X,T]=P_\Omega$.
+Define the bounded skew-adjoint operator $\tilde{D}_X$ on $H$ by $\tilde{D}_X|_{H_n}:=I_{H_0}^{\otimes n}\otimes D_X$.
+The commutator satisfies $[X,\tilde{D}_X]|_{H_0}=P_\Omega|_{H_0}$, and on every positive grade the actions of $X$ and $\tilde{D}_X$ are on distinct factors.
+It follows that $[X,\tilde{D}_X]=P_\Omega$.
 
 Set $a:=YX^{-1}$ in $L^0(\M)$.
 The identity $S=X^{-1}YX^{-1}$ gives $a=XS\in\M$.
 As $l^*\Omega=0$, the vacuum vector of $a$ is $a\Omega=X(1\otimes1)=x\otimes1$.
-On positive grades, $L$ and $T$ commute because $L$ prepends a factor and multiplies the first factor while $T$ acts on the last.
+On positive grades, $L$ and $\tilde{D}_X$ commute because $L$ prepends a factor and multiplies the first factor while $\tilde{D}_X$ acts on the last.
 On $H_0$,
 \[
- [L,T]f=x\otimes(XT_0-T_0X)f
+ [L,\tilde{D}_X]f=x\otimes(X D_X-D_X X)f
  =x\otimes (P_\Omega|_{H_0})f
  =aP_\Omega f.
 \]
-Since $T^*=-T$, taking adjoints gives $[L^*,T]=[L,T]^*$.
-Therefore $[Y,T]=aP_\Omega+P_\Omega a^*$.
+Since $\tilde{D}_X^*=-\tilde{D}_X$, taking adjoints gives $[L^*,\tilde{D}_X]=[L,\tilde{D}_X]^*$.
+Therefore $[Y,\tilde{D}_X]=aP_\Omega+P_\Omega a^*$.
 
 Define the bounded operator
 \[
- D_1:=T-\rho(a)D_2-D_2\rho(a^*).
+ D_1:=\tilde{D}_X-\rho(a)D_2-D_2\rho(a^*).
 \]
 Right multiplications commute with the left actions of $X$ and $Y$.
-Thus $[X,D_1]=[X,T]=P_\Omega$ by equation~\eqref{eq:sandwich-second-dual}.
+Thus $[X,D_1]=[X,\tilde{D}_X]=P_\Omega$ by equation~\eqref{eq:sandwich-second-dual}.
 Since $\rho(a)\Omega=a\Omega$, we have $\rho(a)P_\Omega=aP_\Omega$.
 For $b\in\M$, traciality gives
 \[
@@ -438,7 +438,7 @@ Consequently
 \[
  \begin{aligned}
  [Y,D_1]
- &=[Y,T]-\rho(a)[Y,D_2]-[Y,D_2]\rho(a^*)\\
+ &=[Y,\tilde{D}_X]-\rho(a)[Y,D_2]-[Y,D_2]\rho(a^*)\\
  &=aP_\Omega+P_\Omega a^*-\rho(a)P_\Omega-P_\Omega\rho(a^*)\\
  &=0.
  \end{aligned}

@@ -77,7 +77,7 @@ The search on 2026-11-22 UTC checked the application of Voi98 to both lifted dua
   The right representations in §5.5, p. 209, lift this operator and \(T_0\) to a generator-first dual system for the free pair \((X,S)\).
   Proposition 5.6, pp. 209–210, gives the free-product existence statement in the selfadjoint convention. [Voi98](https://doi.org/10.1007/s002220050222) · [Source inspection](../../../../audits/literature/Voi98/Yin_U005.md#free-products-55-58).
 - The reduced free-product and semicircular Fock realizations from those sections give \(H_n=H_0^{\bar\otimes(n+1)}\) by grouping according to the total semicircular degree.
-  The current proof writes \(Y=L+L^*\) with \(L=XlX\), then computes the commutators with \(Y\) using the last-two-factor operator \(R\) and the scalar dual \(D_X\) acting on the last factor. [Fixed model and construction](../../../../claims/Yin_C_F0012_v1.md#1-an-explicit-tracial-fock-model).
+  The current proof writes \(Y=L+L^*\) with \(L=XlX\), then computes the commutators with \(Y\) using the last-two-factor operator \(\tilde{R}\) and the lift \(\tilde{D}_X\) of the scalar dual \(D_X\) to the last factor. [Fixed model and construction](../../../../claims/Yin_C_F0012_v1.md#1-an-explicit-tracial-fock-model).
 
 Searches on bounded dual systems, rank-one commutators and operator-valued semicircular Fock constructions found sources for the Fock model and the lift.
 The inspected passages did not provide a bounded \(D_2\) with \([X,D_2]=0\) and \([Y,D_2]=P_\Omega\) for the sandwich with \(0\in\sigma(X)\).
