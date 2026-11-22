@@ -230,6 +230,14 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |
 | `paper/sections/preliminaries.tex`, Tomita-conjugation paragraph in `subsec:finite-rank-tensors` | `\cite[p.~13]{MSY23}` | Supports the Tomita-conjugation terminology; the tensor identification is separately attributed to CS05. |
 
+## `Pin68`
+
+Theorem 2.1 gives the singular integral representation, and the proof on p. 226 constructs the operator with the prescribed commutator. [Published edition, pp. 224–226](https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6064-11511_2006_Article_BF02391914.pdf#page=6) · [Literature search](paper/literature-seek.md#proposition-64).
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/examples.tex`, paragraph preceding `prop:scalar-bounded-dual` | `\cite[Theorem~2.1 and p.~226]{Pin68}` | Gives the density characterization and the bounded dual construction in Proposition 6.4 through the cyclic rank-one specialization. |
+
 ## `CP71`
 
 The [literature search](paper/literature-seek.md#proposition-64) records the application of the singular integral model on p. 452 of the published edition.
