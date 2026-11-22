@@ -176,7 +176,7 @@ This proposition may be known to experts, but we include a proof for completenes
 Let $X$ be a bounded selfadjoint element of a tracial $W^*$-probability space $(\M,\tau)$ and let $\mu$ be its distribution.
 Then $X$ admits a bounded dual system $(D)$ on $L^2(\M,\tau)$ if and only if $d\mu(t)=w(t)\,dt$ for some $w\in L^\infty(\mathbb R)$.
 In this case, the dual operator can be chosen such that
-\[D^*=-D,\qquad\text{and}\qquad\|D\|\leq\pi\|w\|_\infty\].
+\[D^*=-D,\qquad\text{and}\qquad\|D\|\leq\pi\|w\|_\infty.\]
 \end{proposition}
 
 \begin{proof}
@@ -193,6 +193,7 @@ The preceding identity gives
 where the supremum is over intervals $I$.
 Thus $P_1$ is $X$-smooth if and only if $c<\infty$.
 If $c<\infty$, covering Borel sets by intervals gives $\mu\leq c\,dt$.
+Thus $\mu$ has a density $w$ with $w\in L^\infty(\mathbb R)$.
 Conversely, if $d\mu(t)=w(t)\,dt$ with $w\in L^\infty(\mathbb R)$, then $\mu(I)\leq\|w\|_\infty |I|$ for every such interval.
 Thus $c=\|w\|_\infty$ whenever the density is essentially bounded.
 
@@ -200,7 +201,7 @@ Since $P_1^{1/2}=P_1$, Kato's commutator theorem \cite[Theorem~(6.2), p.~543]{Ka
 For such a $B$, the operator $D:=\mathrm iB$ satisfies $[X,D]=P_1$.
 Conversely, a bounded $D$ with $[X,D]=P_1$ satisfies $[X,D^*]=-P_1$, so $B:=(D-D^*)/(2\mathrm i)$ is a bounded selfadjoint solution of $\mathrm i[X,B]=P_1$.
 The proof of Kato's theorem \cite[p.~545]{Kat68} gives a solution $B$ with $0\leq B\leq 2\pi c I_K$.
-Hence $D:=\mathrm i(B-\pi c I_K)$ is a skew-adjoint dual operator with $\|D\|\leq\pi c$.
+Hence $D:=\mathrm i(B-\pi c I_K)$ is the desired dual operator.
 \end{proof}
 
 % Mathematical input: C_F0012 v1 for the tensor model, bounded dual construction and norm separation.
