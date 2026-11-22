@@ -375,10 +375,28 @@ As $Y=L+L^*$, the above computations give
 \begin{equation}\label{eq:sandwich-last-two-factor-commutator}
  [R,Y]=V\oplus0\qquad\text{on } K_0\oplus\bigoplus_{n\geq1}K_n.
 \end{equation}
-The adjoint of $V$ satisfies $(V^*f)(s)=\int_s^1 f(t)\,d\mu(t)$.
-Since $\mu$ has no atoms, $(V+V^*)f$ is the constant function $\int_0^1 f(t)\,d\mu(t)$.
 Set $D_2:=R^*-R$.
-Equation~\eqref{eq:sandwich-last-two-factor-commutator} and selfadjointness of $X$ and $Y$ give
+Since $X=X^*$, taking adjoints in $RX=XR$ gives $XR^*=R^*X$.
+Thus both terms in $[X,D_2]=[X,R^*]-[X,R]$ vanish.
+
+Since $Y=Y^*$,
+\[
+ [R,Y]^*=(RY-YR)^*=YR^*-R^*Y=[Y,R^*].
+\]
+Using $-[Y,R]=[R,Y]$ and equation~\eqref{eq:sandwich-last-two-factor-commutator}, we obtain
+\[
+ [Y,D_2]=[Y,R^*]-[Y,R]=[R,Y]^*+[R,Y]=(V^*+V)\oplus0.
+\]
+The kernel of $V$ is $1_{\{t\leq s\}}$, so $(V^*f)(s)=\int_s^1 f(t)\,d\mu(t)$.
+Since $\mu$ has no atoms,
+\[
+ ((V^*+V)f)(s)
+ =\int_s^1 f(t)\,d\mu(t)+\int_0^s f(t)\,d\mu(t)
+ =\int_0^1 f(t)\,d\mu(t).
+\]
+As $\mu$ is a probability measure, this is the orthogonal projection of $f$ onto $\C1$ in $K_0$.
+The vacuum $\Omega$ is the constant $1$ in $K_0$, so extending this projection by zero to the higher grades gives $P_\Omega$.
+Consequently
 \begin{equation}\label{eq:sandwich-second-dual}
  [X,D_2]=0,\qquad [Y,D_2]=[R,Y]^*+[R,Y]=P_\Omega.
 \end{equation}
