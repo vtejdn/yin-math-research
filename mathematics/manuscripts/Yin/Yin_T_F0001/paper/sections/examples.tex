@@ -212,53 +212,21 @@ Since $X,Y$ are selfadjoint, $\A$ is norm dense in $C^*(X,Y)$, so $\dist(S,C^*(X
 The unital $C^*$-subalgebra $C^*(X,Y)$ is closed under inversion in $\M$ \cite[Corollary~II.1.6.7]{Bla06}, so $\Div_{\M}\A=\Div_{C^*(X,Y)}\A$.
 Since $S\notin C^*(X,Y)$, we have $S\notin\Div_{\M}\A$.
 
-It remains to construct the dual system for $X$ and $Y$.
-Since $S\in\M$ and $Y=XSX$, the free variables $X$ and $S$ generate $\M$.
-To construct the dual system, put $K:=L^2((0,1),\mu)$ and use their reduced free product representation of $\M$ on
+Since $X,S\in\M$ and $Y=XSX\in W^*(X,S)$, we have $\M=W^*(X,S)$.
+Let $K:=L^2((0,1),\mu)$ and use the reduced free product representation of $\M$ on
 \[
  H=L^2(\M,\tau)=\bigoplus_{n\geq0}H_n,\qquad H_n:=K^{\bar\otimes(n+1)}.
 \]
 For $n\geq1$, the summand $H_n$ represents $n$ copies of the one-dimensional semicircular creation space, with a copy of $K$ before, after and between them.
 Splitting each $K$ into $\C 1\oplus(K\ominus\C 1)$ and grouping successive creation vectors separated by scalar factors gives the alternating tensors of the reduced free product.
-The vacuum is $1$ in $H_0$, and $X$ acts on the first factor by multiplication by the coordinate function.
-Let $l$ prepend $1$ to an elementary tensor, so that $S=l+l^*$ by the one-variable version of the Fock representation in Example~\ref{ex:normality}.
-On $H_n$ with $n\geq1$, $l^*$ contracts the first factor against $1$, and it vanishes on $H_0$.
+The vacuum is $1$ in $H_0$, and left and right multiplication by $X$ multiply the first and last factors by the coordinate function, respectively.
+Let $l$ prepend $1$ to an elementary tensor and let $r$ append $1$.
+As in Example~\ref{ex:normality}, $S=l+l^*$, where $l^*$ contracts the first factor against $1$ on positive degrees and vanishes on $H_0$.
+Since $r$ acts at the right end, it commutes with $X$ and $l$.
+It commutes with $l^*$ on positive degrees, and on $H_0$ one has $l^*r\xi=\langle 1,\xi\rangle 1$ and $rl^*\xi=0$.
+Thus $[S,r]=P_\Omega$.
 
-For $q(t):=t^{-1}$ we have $q\in K$ with $\|q\|_2^2=2$ and $Xq=\Omega$.
-Define
-\[
- k(s,t):=\frac{1_{\{t\leq s\}}}{st},\qquad
- (T_1\zeta)(s):=\int_0^1 k(s,t)\zeta(s,t)\,d\mu(t)
- \qquad(\zeta\in K\bar\otimes K).
-\]
-For each $s\in(0,1)$,
-\[
- \int_0^1|k(s,t)|^2\,d\mu(t)
- =\frac{4}{s^2}\int_0^s t\,dt=2.
-\]
-Cauchy--Schwarz in $t$, followed by integration in $s$, gives $\|T_1\|\leq\sqrt{2}$.
-Define $R$ to vanish on $H_0$ and to apply $T_1$ to the last two tensor factors on $H_n$ for $n\geq1$, leaving all earlier factors fixed.
-The images of different input degrees lie in orthogonal summands, so $R\in\B(H)$ with $\|R\|\leq\sqrt{2}$.
-On $H_1$, multiplication by $X$ on the first factor passes through $T_1$ as multiplication by $s$.
-On higher degrees $R$ leaves the first factor fixed.
-Therefore $R$ and $R^*$ commute with $X$.
-
-On $H_0$, $[R,l]\xi=T_1(1\otimes\xi)$.
-On positive degrees, prepending $1$ commutes with applying $T_1$ at the other end, so $[R,l]$ vanishes there.
-Also $[R,l^*]=0$, since both compositions vanish on $H_0$ and $H_1$, and on higher degrees the contraction and $T_1$ act on disjoint factors.
-Thus $[R,S]$ is the integral operator with kernel $k$ on $H_0$, extended by zero on higher degrees.
-Since $S=S^*$ we have $[S,R^*]=[R,S]^*$.
-Putting $D_2:=R^*-R$, we obtain
-\begin{equation}\label{eq:sandwich-semicircular-commutator}
- [S,D_2]\xi=q\langle q,\xi\rangle\qquad(\xi\in H).
-\end{equation}
-Indeed, on $H_0$ the kernel is $k(s,t)+\overline{k(t,s)}=q(s)q(t)$ off the diagonal, which is a $\mu\otimes\mu$-null set.
-Since $Xq=\Omega$ and $D_2$ commutes with $X$, equation~\eqref{eq:sandwich-semicircular-commutator} gives
-\begin{equation}\label{eq:sandwich-second-dual}
- [X,D_2]=0,\qquad [Y,D_2]=X[S,D_2]X=P_\Omega.
-\end{equation}
-
-For the dual associated with $X$, define $T_0$ on smooth functions of compact support in $(0,1)$ by
+On smooth functions of compact support in $(0,1)$, set
 \[
  (T_0\xi)(s):=\operatorname{p.v.}\int_0^1\frac{\xi(t)}{s-t}\,d\mu(t).
 \]
@@ -267,18 +235,59 @@ By zero extension and restriction, the unweighted operator is the compression of
 It follows that $T_0$ extends to $K$ with $\|T_0\|\leq4\pi$.
 On smooth functions the factor $s-t$ in the kernel of $[X,T_0]$ cancels the denominator, giving $[X,T_0]\xi=(\int_0^1\xi\,d\mu)1$.
 By density, $[X,T_0]$ is the projection onto $\C1$ on $K$.
+Let $T$ apply $T_0$ to the last factor on each $H_n$, as in the right free-product representation \cite[5.5]{Voi98}.
+On $H_0$ its commutator with $X$ is the projection onto $\C1$, and on positive degrees $T$ and $X$ act on different factors.
+Applying $T_0$ to the last factor commutes with prepending and contracting at the left end, so $[S,T]=0$.
+Thus $[X,T]=P_\Omega$ and $(T,r)$ is a bounded dual system for $(X,S)$.
 
-Let $T$ be the bounded lift of $T_0$ to $H$ given by the right free-product representation of $\B(K)$ for the $W^*(X)$ factor \cite[5.5]{Voi98}.
-Here $X$ and $S$ act through the left representations of their respective free factors.
-The same-factor commutator formula gives $[X,T]$ as the extension of $[X,T_0]$ by zero on $H_0^\perp$, so $[X,T]=P_\Omega$.
-The cross-factor commutator formula gives $[S,T]=0$.
-The commutator product rule gives $[Y,T]=XSP_\Omega+P_\Omega SX$.
-Put
+For the new generator $Y=XSX$, the product rule gives
+\[
+ [Y,r]=XP_\Omega X,\qquad [Y,T]=XSP_\Omega+P_\Omega SX.
+\]
+Since $\tau(SX)=0$ and $X$ is injective, $[Y,T]\Omega=XS\Omega\ne0$.
+Set $q(t):=t^{-1}$ in $H_0=K$, so $\|q\|_2^2=2$ and $Xq=\Omega$.
+If a bounded operator $D_2$ commutes with $X$, its commutator with $Y$ is $X[S,D_2]X$.
+Since $X=X^*$ and $Xq=\Omega$, the following identity on $H$ gives $[Y,D_2]=P_\Omega$.
+\begin{equation}\label{eq:sandwich-semicircular-commutator}
+ [S,D_2]\xi=q\langle q,\xi\rangle .
+\end{equation}
+Put $Q:=\rho(X)^{-1}$.
+The composition $QrQ$ is defined on $\operatorname{Dom}Q$ because $r$ appends $1$ and $q\in K$.
+Since the domain of $Q$ is invariant under left multiplication by $S$ and $Q$ commutes there with $S$, the commutator $[S,QrQ]$ on that domain is $QP_\Omega Q=q\langle q,\cdot\rangle$.
+On bounded functions $f\in H_0$, $QrQ$ sends $f$ to $(qf)\otimes q$.
+Multiplication by $q$ on $K$ makes this composition unbounded.
+
+To obtain a bounded realization, split $q(s)q(t)=k(s,t)+k(t,s)$ off the diagonal, with
+\[
+ k(s,t):=\frac{1_{\{t\leq s\}}}{st},\qquad
+ (T_1\zeta)(s):=\int_0^1 k(s,t)\zeta(s,t)\,d\mu(t).
+\]
+The diagonal has $\mu\otimes\mu$ measure zero.
+For $s\in(0,1)$,
+\[
+ \int_0^1|k(s,t)|^2\,d\mu(t)
+ =\frac{4}{s^2}\int_0^s t\,dt=2.
+\]
+Cauchy--Schwarz in $t$, followed by integration in $s$, gives $\|T_1\|\leq\sqrt{2}$ from $K\bar\otimes K$ to $K$.
+Let $R$ vanish on $H_0$ and apply $T_1$ to the last two factors of every positive degree, leaving the earlier factors fixed.
+The output degrees are orthogonal, so $\|R\|\leq\sqrt2$.
+On $H_1$, multiplication by $X$ on the first factor passes through $T_1$ as multiplication by $s$, and on higher degrees $R$ leaves the first factor fixed.
+Thus $R$ and $R^*$ commute with $X$.
+On $H_0$, $[R,l]\xi=T_1(1\otimes\xi)$, while on positive degrees prepending $1$ commutes with $R$.
+Both compositions in $[R,l^*]$ vanish on $H_0$ and $H_1$, and on higher degrees they act on disjoint factors.
+Hence $[R,S]$ has kernel $k$ on $H_0$ and vanishes on positive degrees.
+For $D_2:=R^*-R$, selfadjointness of $S$ gives $[S,D_2]=[R,S]^*+[R,S]$, with kernel $k(t,s)+k(s,t)=q(s)q(t)$ on $H_0$.
+This proves equation~\eqref{eq:sandwich-semicircular-commutator} and
+\begin{equation}\label{eq:sandwich-second-dual}
+ [X,D_2]=0,\qquad [Y,D_2]=X[S,D_2]X=P_\Omega.
+\end{equation}
+
+The commutator $[Y,T]$ is canceled by the right-multiplication correction
 \[
  D_1:=T-\rho(XS)D_2-D_2\rho(SX).
 \]
-All operators on the right are bounded on $H$.
-Since right multiplication commutes with left multiplication, equation~\eqref{eq:sandwich-second-dual} gives $[X,D_1]=P_\Omega$ and
+All three terms are bounded.
+Right multiplication commutes with left multiplication, so $[X,D_1]=P_\Omega$ and equation~\eqref{eq:sandwich-second-dual} gives
 \[
  [Y,D_1]
  =XSP_\Omega+P_\Omega SX-\rho(XS)P_\Omega-P_\Omega\rho(SX)
