@@ -35,6 +35,15 @@ The inspected locator is the published 1978 version; the source record does not 
 | --- | --- | --- |
 | `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[Section~2.1, (4), pp.~298--299]{BD78}` | Supports unique extension of polynomial free difference quotients to the free field; the algebraic tensor target is separately cited to KV12. |
 
+## `Bla06`
+
+Yin20 cites Corollary II.1.6.7 in the proof of Theorem VII.2.1 to place a matrix inverse in a $C^*$-subalgebra. [Yin20, Section VII.2, p. 92](https://www.yin-sheng.xyz/static/files/thesis.pdf#page=102).
+The corollary and its proof were checked on p. 60 of Blackadar's author revision dated 8 February 2017. [Bla06, Corollary II.1.6.7](https://bruceblackadar.com/Mathematics/Cycr.pdf#page=68).
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Corollary~II.1.6.7]{Bla06}` | Preserves the spectrum of each element under a unital \(C^*\)-inclusion. Thus \(C^*(X,Y)\) is closed under inversion in \(\mathcal M\), and the division closures of \(\mathcal A\) in the two algebras coincide. |
+
 ## `Coh06`
 
 Source evidence: [Coh06-U001](../../../audits/literature/Coh06/Yin_U001.md#coh06-u001) records the division-closure terminology.
@@ -218,15 +227,6 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `rem:cycle-characterization` | `\cite[Section~3 and Remark~3.2]{MSY23}` | Supplies the equivalence between maximal \(\Delta\), vanishing cycles and the commutator-kernel condition. |
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |
 | `paper/sections/preliminaries.tex`, Tomita-conjugation paragraph in `subsec:finite-rank-tensors` | `\cite[p.~13]{MSY23}` | Supports the Tomita-conjugation terminology; the tensor identification is separately attributed to CS05. |
-
-## `Put19`
-
-The source is Putnam's lecture notes dated 3 January 2019.
-The inspection covers the statement of spectral permanence and its applicability. [Put19, Theorem 1.5.3, p. 24](https://web.uvic.ca/~ifputnam/ln/C%2A-algebras.pdf#page=24).
-
-| TeX use | Citation locator | Application and boundary |
-| --- | --- | --- |
-| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Theorem~1.5.3]{Put19}` | Gives inverse closure for a \(C^*\)-subalgebra containing the ambient unit. The inclusion \(C^*(X,Y)\subseteq\mathcal M\) has this property, so \(C^*(X,Y)\) contains the division closure in \(\mathcal M\) of the polynomial algebra. |
 
 ## `Tao06`
 
