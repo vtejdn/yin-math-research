@@ -6,7 +6,7 @@ author: Yin
 
 This proof of the bounded-dual part of the [selfadjoint example in v1](Yin_C_F0012_v1.md#statement) uses Kato's positive commutator theorem for the scalar factor.
 It replaces the weighted Hilbert-transform step used in [v4](Yin_C_F0012_v4.md#original-free-pair-and-the-inverse-weights) and retains the coordinate change, inverse weights and last-two-factor kernel from that proof.
-This is the proof used for the bounded duals in [F0001, Example 6.3](../manuscripts/Yin/Yin_T_F0001/readme.md#mathematical-provenance).
+This is the proof used for the bounded duals in [F0001's example on bounded division closures](../manuscripts/Yin/Yin_T_F0001/readme.md#mathematical-provenance).
 The [norm-separation argument in v1](Yin_C_F0012_v1.md#6-exclusion-from-the-norm-closed-and-scalar-division-algebras) supplies the other part of the example.
 
 ## Current assessment
@@ -91,7 +91,7 @@ This proves \(W^*(X,Y)=W^*(X,S)\).
 
 ## Assessment history
 
-### Decision Kato scalar dual
+### Decision kato-scalar-dual
 
 | Field | Value |
 | --- | --- |
@@ -104,7 +104,7 @@ This proves \(W^*(X,Y)=W^*(X,S)\).
 | statement | [Statement](#statement) | Normalized tracial transfer, concrete bounded duals and unbounded direct inverse-weight composition. |
 | argument | [Argument](#argument) | Scalar positive commutator, free-product lift and assembly of the transfer. |
 | support | [Kat68-U001](../audits/literature/Kat68/Yin_U001.md#kat68-u001) | Published formula (2.2), Theorem (6.2) and its sufficiency estimate for the positive projection \(P_1\). |
-| support | [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#free-products-55-58) | Right lift and same- and different-factor commutator identities in §5.5. |
+| support | [Voi98-U005](../audits/literature/Voi98/Yin_U005.md#voi98-u005) | Right lift and same- and different-factor commutator identities in §5.5. |
 | support | [v1 tracial tensor model](Yin_C_F0012_v1.md#1-an-explicit-tracial-fock-model) | The same measure, semicircular creation space and represented tracial space. |
 | support | [v4 rank-one calculation and correction](Yin_C_F0012_v4.md#the-rank-one-commutator-after-the-change-of-generators) | Bounded-operator transfer with the newly obtained \(T\). |
 | support | [v4 original free pair and inverse weights](Yin_C_F0012_v4.md#original-free-pair-and-the-inverse-weights) | Domain and unboundedness of \(QrQ\) for the verified right creation operator. |

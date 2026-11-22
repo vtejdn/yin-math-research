@@ -46,7 +46,7 @@ Conversely, if a bounded \(T_0\) satisfies the normalized equation, then \(K=(T_
 Consequently the spectral measure of \(\Omega\) has an essentially bounded Lebesgue density if and only if the bounded dual equation has a solution.
 One can choose \(T_0\) skew-adjoint with \(\|T_0\|\leq\pi\|w\|_\infty\).
 
-For \(X\) acting by multiplication on \(L^2(\mu)\) in F0001, Example 6.3, \(\Omega=1\) and \(w(t)=4t^3\mathbf 1_{(0,1)}(t)\).
+For \(X\) acting by multiplication on \(L^2(\mu)\) in the F0001 example on bounded division closures, \(\Omega=1\) and \(w(t)=4t^3\mathbf 1_{(0,1)}(t)\).
 The criterion gives a bounded \(T_0\) with \(\|T_0\|\leq 4\pi\).
 The free-product lift to the pair \((X,S)\) uses Voiculescu's separate proposition.
 [Voi98, §5.6](../Voi98/Yin_U005.md#free-products-55-58)

@@ -32,7 +32,7 @@ The second-dual calculation in v4 uses \(\|q\|_2^2=2\) and the same row \(L^2\) 
 The domain argument for \(QrQ\) uses \(Qr\) appending \(q\); its values on concentrated functions show unboundedness.
 The bounded spectral cutoffs verify the generation claim.
 These interfaces and the new scalar step supply the v5 statement.
-The norm separation used in Example 6.3 is covered by the separate [v1 finding](Yin_R_F0056_v1.md#main-counterexample-finding).
+The norm separation in the F0001 example on bounded division closures is covered by the separate [v1 finding](Yin_R_F0056_v1.md#main-counterexample-finding).
 
 ## Review relationships
 

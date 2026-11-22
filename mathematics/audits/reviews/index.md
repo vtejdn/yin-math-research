@@ -510,6 +510,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_F0367](Yin_R_F0367_v3.md#disk-minors-whole-proof) | Independent reviews of the cyclic pencil, the polynomial cutoff and the disk criterion with Taylor minors | [v1](Yin_R_F0367_v1.md), [v2](Yin_R_F0367_v2.md), [v3](Yin_R_F0367_v3.md) |
 | [Yin_R_F0376](Yin_R_F0376_v1.md#log-concentration-whole-proof) | Independent review of quantile-grid tube probabilities and Wigner limits under logarithmic concentration | [v1](Yin_R_F0376_v1.md) |
 | [Yin_R_F0378](Yin_R_F0378_v1.md#quadratic-finding) | Self-review of anticommutator duals and the precise quadratic selfadjoint obstructions | [v1](Yin_R_F0378_v1.md) |
+| [Yin_R_F0379](Yin_R_F0379_v1.md#shared-projection-finding) | Self-review of the maximal Delta example without a liberation dual system | [v1](Yin_R_F0379_v1.md) |
 | [Yin_R_G0001](Yin_R_G0001_v1.md) | Scalar positive-weight functional interface checked in the multiplier review | [v1](Yin_R_G0001_v1.md) |
 | [Yin_R_G0002](Yin_R_G0002_v1.md) | Complete retained orbit-Gram check | [v1](Yin_R_G0002_v1.md) |
 | [Yin_R_G0003](Yin_R_G0003_v1.md) | Original orbit-Gram targeted findings | [v1](Yin_R_G0003_v1.md) |

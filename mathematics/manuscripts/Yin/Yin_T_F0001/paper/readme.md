@@ -33,6 +33,7 @@ The document-local ignore rule permits tracking `main.pdf`; non-PDF TeX auxiliar
 
 ## Latest Build
 
+The latest recorded build predates the direct-sum example.
 The manuscript with the coordinate-change proof in Example 6.3 compiled successfully on 2026-11-22 using MiKTeX 25.4, pdfTeX 1.40.27 and BibTeX 0.99d.
 The build ran in the directory containing `main.tex` with the commands above and `--disable-installer` on each pdfLaTeX invocation.
 The resulting PDF has 26 pages and lists the three constructions in the final section as Examples 6.1–6.3.

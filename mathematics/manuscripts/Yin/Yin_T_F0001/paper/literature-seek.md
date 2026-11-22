@@ -2,7 +2,13 @@
 
 ## Example 6.1
 
-Example 6.1 in [examples.tex](sections/examples.tex), label `ex:liberation-without-duals`, exhibits a selfadjoint generator with arcsine law and regular scalar shifts.
+The lookup for `ex:maximal-delta-without-liberation` checked the published MSY23 Theorem 3.1 and Proposition 6.2 and the semicircular Fock commutators in Voi98, §5.13.
+The full linear matrix criterion shows that the direct sum of the semicircular pair and its translate has maximal Delta.
+The obstruction using the common spectral projection is supplied by the fixed local argument, including the two adjoint-domain pairings. [MSY23](https://doi.org/10.1016/j.jfa.2023.110016) · [Voi98](https://doi.org/10.1007/s002220050222) · [C_F0370 v1](../../../../claims/Yin_C_F0370_v1.md#argument).
+
+## Example 6.2
+
+Example 6.2 in [examples.tex](sections/examples.tex), label `ex:liberation-without-duals`, exhibits a selfadjoint generator with arcsine law and regular scalar shifts.
 It takes \(L=P_\Omega\) and excludes an ordinary dual system in the domain sense of Definition 1.8.
 The search looked for a source that explicitly exhibits both properties for the same example, including other laws and the original bounded formulations.
 
@@ -19,7 +25,7 @@ They covered general web search, arXiv-oriented searches and the relevant passag
 An Oberwolfach search hit brings up adjacent abstracts on ordinary dual systems and liberation. [Oberwolfach Reports 2015, No. 28, pp. 1587–1588](https://publications.mfo.de/bitstream/handle/mfo/3475/OWR_2015_28.pdf?sequence=1)
 
 Within this search scope, no source was found that explicitly gives a liberation dual system and excludes an ordinary dual system for the same example.
-Example 6.1 uses its direct argument for that conclusion.
+Example 6.2 uses its direct argument for that conclusion.
 
 ### Arcsine Cauchy transform
 
@@ -27,7 +33,7 @@ The search on 2026-11-21 UTC for the arcsine Cauchy transform checked §§2.1–
 For variance $1/2$ the density in that example is the one in the manuscript, and its reciprocal Cauchy transform is $F_\mu(z)=\sqrt{z^2-1}$ in the upper half-plane.
 Taking the reciprocal and passing to the real axis on $(1,\infty)$ gives $G_\mu(r)=(r^2-1)^{-1/2}$, with the positive square root since $G_\mu(r)>0$.
 
-## Example 6.3
+## Example 6.4
 
 The search on 2026-11-21 UTC matched the steps of `ex:bounded-division-closure` in [examples.tex](sections/examples.tex) with results on bicommutants, inverse closure of unital $C^*$-subalgebras, free-product duals and bounded commutators for operator-valued semicircular variables.
 
@@ -57,7 +63,7 @@ The search on 2026-11-22 UTC checked one-variable bounded dual systems and bound
 - Kato's (2.2), p. 536, and Theorem (6.2), p. 543, give a bounded solution of \([X,T_0]=P_\Omega\) exactly when the spectral measure of \(\Omega\) has an essentially bounded Lebesgue density.
   In this case \(w(t)=4t^3\mathbf 1_{(0,1)}(t)\), so the result applies directly.
   The sufficiency argument on p. 545 also gives a skew-adjoint solution of norm at most \(4\pi\) after centering the selfadjoint solution and multiplying by \(i\).
-  Example 6.3 now uses this theorem for the scalar existence step and its norm bound. [Kat68, published edition](https://doi.org/10.4064/sm-31-5-535-546) · [Inspected passage and specialization](../../../../audits/literature/Kat68/Yin_U001.md#scalar-bounded-dual).
+  Example 6.4 now uses this theorem for the scalar existence step and its norm bound. [Kat68, published edition](https://doi.org/10.4064/sm-31-5-535-546) · [Inspected passage and specialization](../../../../audits/literature/Kat68/Yin_U001.md#scalar-bounded-dual).
 - Voiculescu's §5.1 fixes the bounded selfadjoint convention, §5.6 gives the free-product lift, and §5.13 supplies the semicircular dual.
   Mai, Speicher and Yin use the manuscript's normalization in Definition 6.1 and deduce \(\Delta=n\) in Proposition 6.2 for an \(n\)-tuple with a bounded dual system. [Voi98](https://doi.org/10.1007/s002220050222) · [MSY23](https://doi.org/10.1016/j.jfa.2023.110016).
 - Shlyakhtenko's Corollary 2 relates finite free Fisher information to closable skew-symmetric duals on the polynomial domain.
