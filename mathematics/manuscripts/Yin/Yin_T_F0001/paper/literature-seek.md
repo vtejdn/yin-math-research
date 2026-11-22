@@ -33,6 +33,33 @@ The search on 2026-11-21 UTC for the arcsine Cauchy transform checked §§2.1–
 For variance $1/2$ the density in that example is the one in the manuscript, and its reciprocal Cauchy transform is $F_\mu(z)=\sqrt{z^2-1}$ in the upper half-plane.
 Taking the reciprocal and passing to the real axis on $(1,\infty)$ gives $G_\mu(r)=(r^2-1)^{-1/2}$, with the positive square root since $G_\mu(r)>0$.
 
+## Proposition 6.4
+
+The follow-up search on 2026-11-22 UTC targeted the equivalence between a bounded solution of \([X,D]=P_1\) and an essentially bounded Lebesgue density for the law of one bounded selfadjoint \(X\) in [examples.tex](sections/examples.tex), label `prop:scalar-bounded-dual`.
+The search used `bounded dual system`, `rank-one commutator`, `rank-one self-commutator`, `bounded density` and `Hilbert transform`, and followed references in the papers on singular integral models.
+Compression to the cyclic subspace \(L^2(W^*(X),\tau)\) and extension by zero identify solvability there with solvability on the ambient Hilbert space, since the cyclic subspace reduces \(X\) and contains \(1\).
+
+- Formula (2.2), Theorem (6.2) and the estimate on p. 545 of Kat68 give the full equivalence and a skew-adjoint solution of norm at most \(\pi\|w\|_\infty\) by taking the positive commutator to be \(P_1\). [Kat68](https://doi.org/10.4064/sm-31-5-535-546) · [Inspected rank-one specialization](../../../../audits/literature/Kat68/Yin_U001.md#scalar-bounded-dual).
+- Pin68, Theorem 2.1 and the proof on pp. 224–226, give a singular integral representation for bounded selfadjoint \(U,V\) with \(VU-UV=(\pi i)^{-1}C\) for positive trace-class \(C\).
+  On the cyclic space, take \(U=X\), \(V=iD_0\), and \(C=\pi P_1\), where \(D_0=(D-D^*)/2\) still satisfies \([X,D_0]=P_1\).
+  In the scalar representation the coefficient \(k(t)^*\) in the proof is \(\sqrt{\pi}\) times the image of \(1\) under the representing unitary.
+  The essential boundedness of \(k\) therefore gives a spectral density \(w(t)=|k(t)|^2/\pi\). [Pin68, published edition, Theorem 2.1](https://archive.ymsc.tsinghua.edu.cn/pacm_download/117/6064-11511_2006_Article_BF02391914.pdf#page=6).
+- CP71, p. 452, states the model in both directions for hyponormal operators whose rank-one self-commutator vector is cyclic for the real part.
+  Applied to \(T=X+D_0\), whose self-commutator is \(2P_1\), their formulas (1.6)–(1.10) identify the law of \(X\) as \(w(t)\,dt\), where \(w(t)=|b(t)|^2/\pi\) on the Lebesgue model space \(L^2(E,dt)\).
+  Conversely, given \(w\), set \(E=\{w>0\}\), \(a=0\) and \(b=\sqrt{\pi w}\) in (1.7).
+  The unitary \(f\mapsto\sqrt{w}\,f\) from \(L^2(\mu)\) onto \(L^2(E,dt)\) identifies the model solution with the desired dual.
+  The normalized Hilbert transform on \(L^2(\mathbb R,dt)\) has norm one, so the constructed dual has norm at most \(\pi\|w\|_\infty\).
+  The authors attribute the cyclic rank-one representation to Xa Dao-xeng and point to Rosenblum's proof on p. 326.
+  These earlier works were identified through CP71 and their relevant passages remain uninspected. [CP71, published edition, p. 452](https://www.e-periodica.ch/cntmng?pid=com-001%3A1971%3A46%3A%3A38#page=3).
+- Kap15, Theorem 1.1 and (1.3), characterize solvability of the commutator equation on \(L^2(\mu)\) by uniform boundedness of the regularized Cauchy operators.
+  For a compactly supported atomless real measure and the constant kernel \(1\) of \(P_1\), these are the regularizations of the Hilbert kernel \(1/(s-t)\), up to the commutator sign.
+  Taking the limit against functions with separated compact supports gives the restricted bound used in LT13, Theorem 5.1, with both measures equal to \(\mu\).
+  In dimension one its growth bound \(\mu(I)\leq C|I|\) gives the bounded-density necessity.
+  The atomless assumption follows from the commutator equation by compression to any point spectral projection. [Kap15, published edition, p. 128](https://emis.de/ft/8583#page=4) · [LT13, published edition, Theorem 5.1](https://ems.press/content/serial-article-files/38411#page=19).
+- Within the free-probability sources checked, the closest formulation is Shl24, p. 1273, which identifies the scalar dual with the Hilbert kernel and then discusses bounded dual systems for tuples.
+  The inspected free-probability passages yielded no explicit scalar bounded-density equivalence.
+  The operator-theory sources above already cover the equivalence, with Kat68 supplying the most direct reference for the current proof. [Shl24, published report, p. 1273](https://content.ems.press/assets/public/full-texts/serials/owr/21/2/14298372/online/10.4171-owr-2024-22.pdf#page=47).
+
 ## Example 6.5
 
 The search on 2026-11-21 UTC matched the steps of `ex:bounded-division-closure` in [examples.tex](sections/examples.tex) with results on bicommutants, inverse closure of unital $C^*$-subalgebras, free-product duals and bounded commutators for operator-valued semicircular variables.
