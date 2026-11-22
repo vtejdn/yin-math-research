@@ -14,7 +14,7 @@ This map records only current citation applications, not consulted or uncited wo
 Source evidence: [AP18-U001](../../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
 The [AP18-U003, affiliation and domains](../../../audits/literature/AP18/Yin_U003.md#affiliation-interface), [square-integrable affiliated-operator interface](../../../audits/literature/Miy26/Yin_U004.md#miy26-u004), and [AP18-U002, canonical-conjugation reading](../../../audits/literature/AP18/Yin_U002.md#tomita-foundational-reference) retain additional Section 7 evidence at their own scopes.
 The inspected artifact is the undated 338-page author draft; 2018 is not a verified draft date.
-For the generation argument in Example 6.3, the inspection covers the statement of the bicommutant theorem and its applicability. [AP18, Theorem 2.1.3, p. 30](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=36).
+For Example 6.3, the inspection covers the spectral characterization of affiliation and the rule for multiplying affiliated operators. [AP18, Proposition 7.2.3 and Theorem 7.2.8, pp. 103–105](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=109).
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
@@ -23,7 +23,8 @@ For the generation argument in Example 6.3, the inspection covers the statement 
 | `paper/sections/preliminaries.tex`, `subsec:rational-affiliated` | `\cite[Section 7.2]{AP18}` | Supports the definition of affiliation by commutation with commutant unitaries, including domain invariance. |
 | `paper/sections/preliminaries.tex`, Hilbert--Schmidt setup in `subsec:finite-rank-tensors` | `\cite[Section 8.4]{AP18}` | Supports the ordinary trace on \(\B(H)\); it is distinct from the canonical trace on a general module commutant. |
 | `paper/sections/preliminaries.tex`, `subsec:finite-rank-tensors` | `\cite[Section~7.1.1]{AP18}` | Supplies the tracial standard-representation conjugation \(J(x\Omega)=x^*\Omega\), with the exact construction retained in the linked source record. |
-| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Theorem~2.1.3]{AP18}` | Gives \(\mathcal N''=\mathcal N\) for the unital von Neumann algebra \(\mathcal N=W^*(X,Y)\) on \(H\). The cancellation of \(X\) establishing \(S\in\mathcal N''\) is proved in the example. |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Theorem~7.2.8]{AP18}` | Supplies multiplication by closure for affiliated operators on the \(L^2\)-space of the ambient tracial algebra. The example verifies the domain and closure of \(YX^{-1}\) and computes \(X^{-1}(XS)\) on the whole space. |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Proposition~7.2.3]{AP18}` | The spectral characterization gives membership in \(\mathcal M\) for the bounded operator \(S\) once the preceding identity has shown its affiliation with \(\mathcal M\). |
 
 ## `BD78`
 

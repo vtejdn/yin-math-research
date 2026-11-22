@@ -43,7 +43,7 @@ The Hilbert–Schmidt space is defined before the unitary extension of Theta, an
 | --- | --- | --- |
 | Theorem 1.4, `thm:delta` | For a bounded tuple with Delta(X)=d, rationality is equivalent to an affiliated tensor identity, the tensor identity for every fraction pair, bounded tensor witnesses for some fraction pair, and a finite-rank certificate for some fraction pair. The witnesses are unique for the specified data. | Section 3 proves the five-condition cycle using the free-field realization, difference quotients, denominator clearing, tensor injectivity, the Theta correspondence and the balanced-tensor equalizer. |
 | Theorem 1.7, `thm:intrinsic-analytic` | For X in M^d with every scalar shift regular, fix a normalized liberation dual system. Rationality is equivalent to a finite-rank certificate for some fraction pair, to such certificates for every pair, and to closure Gamma[Q,L_i] lying in [rho(X_i),F(H)] for every pair and every i. The certificate tuple is unique for each fixed pair. | The cycle is (1) implies (4) implies (3) implies (2) implies (1). Proposition 4.7 gives maximal Delta. Theorem 1.4(3) and Lemma 4.8 give algebraic L2 tensors and closure m_{L_i}(ell_0)=Theta(Psi_i(ell_i)). Lemma 4.9 gives closability of Gamma[Q,L_i], whose closure equals the bounded closure of its restriction to M Omega. Take T_i=-Theta(ell_i). Summing uses the normalization. Theorem 1.4 gives the converse and uniqueness. |
-| Theorem 1.9, `thm:analytic` | For bounded normal generators and a dual system in the sense of Definition 1.8, rationality is equivalent to finite rank of every fraction commutator, equivalently bounded finite-rank closure on its full natural domain. Each coordinate rank is independent of the fraction pair. | Remark 5.1 gives maximal Delta, and the free-field embedding gives scalar-shift regularity. Proposition 5.6 supplies a normalized liberation dual system. Theorem 1.7 gives finite-rank certificates for each prescribed fraction pair, and Lemma 5.3 identifies them with the ordinary fraction-commutator closures. Conversely, the summed identity of Lemma 5.7 supplies a certificate, so Theorem 1.7 gives rationality. Lemmas 4.9 and 4.3 give the equivalence of (2) and (3). Lemma 5.2 gives rank independence. |
+| Theorem 1.9, `thm:analytic` | For a tuple of normal operators with \(W^*(X)=\mathcal M\) and a dual system in the sense of Definition 1.8, rationality is equivalent to finite rank of every fraction commutator, equivalently bounded finite-rank closure on its full natural domain. Each coordinate rank is independent of the fraction pair. | Remark 5.1 gives maximal Delta, and the free-field embedding gives scalar-shift regularity. Proposition 5.6 supplies a normalized liberation dual system. Theorem 1.7 gives finite-rank certificates for each prescribed fraction pair, and Lemma 5.3 identifies them with the ordinary fraction-commutator closures. Conversely, the summed identity of Lemma 5.7 supplies a certificate, so Theorem 1.7 gives rationality. Lemmas 4.9 and 4.3 give the equivalence of (2) and (3). Lemma 5.2 gives rank independence. |
 
 Theorem 1.4 does not require normality or generation of M.
 Its finite-rank condition asks for some fraction pair.
@@ -127,11 +127,12 @@ With \(L=P_\Omega\), the example applies Theorem 1.7 and compares its commutator
 The bounded-dual specialization is described directly in the introduction through Theorem 1.9.
 
 Example 6.3, `ex:bounded-division-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
-The bicommutant theorem gives \(W^*(X,Y)=W^*(X,S)\) from injectivity and dense range of \(X\).
+It takes \(\mathcal M=W^*(X,Y)\) and computes the product \(X^{-1}YX^{-1}=S\) in the algebra of affiliated operators, giving \(S\in\operatorname{Div}_{L^0(\mathcal M)}\mathcal A\cap\mathcal M\).
+Thus \(X,S\) generate \(\mathcal M\) and give its reduced free product representation.
 The proof constructs the bounded dual for \(Y\) using an operator on the last two tensor factors and uses Voiculescu's free-product representation to lift the weighted Hilbert-transform operator for \(X\).
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
 Spectral permanence gives inverse closure of \(C^*(X,Y)\) in \(\mathcal M\).
-Thus \(S=X^{-1}YX^{-1}\) separates the division closures on bounded elements.
+The norm separation then excludes \(S\) from the division closure in \(\mathcal M\).
 
 The project README maps these environments to responsible mathematical records.
 The project review distinguishes manuscript-local checks from fixed proof and source reviews.

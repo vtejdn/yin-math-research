@@ -31,8 +31,9 @@ Taking the reciprocal and passing to the real axis on $(1,\infty)$ gives $G_\mu(
 
 The search on 2026-11-21 UTC matched the steps of `ex:bounded-division-closure` in [examples.tex](sections/examples.tex) with results on bicommutants, inverse closure of unital $C^*$-subalgebras, free-product duals and bounded commutators for operator-valued semicircular variables.
 
-- The bicommutant theorem states that a unital strongly closed selfadjoint subalgebra $N\subseteq\mathcal B(H)$ satisfies $N=N''$.
-  Here $N=W^*(X,Y)$, and commutation with $X$ and $Y$ implies commutation with $S$ by cancellation of $X$ on the left and its dense range on the right. [AP18, Theorem 2.1.3, p. 30](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=36).
+- A bicommutant proof of $S\in W^*(X,Y)$ uses cancellation of $X$ on the left and its dense range on the right to conclude that every operator commuting with $X,Y$ commutes with $S$. [AP18, Theorem 2.1.3, p. 30](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=36).
+- For the calculation of $S=X^{-1}YX^{-1}$ in the example, the product of affiliated operators is the closure of their composition.
+  The spectral characterization of affiliation puts a bounded affiliated operator in the represented von Neumann algebra. [AP18, Proposition 7.2.3 and Theorem 7.2.8, pp. 103–105](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=109).
 - Spectral permanence applies to arbitrary elements of a unital $C^*$-subalgebra containing the ambient unit.
   The inclusion $C^*(X,Y)\subseteq M$ shares the unit, so an element of $C^*(X,Y)$ invertible in $M$ has its inverse in $C^*(X,Y)$. [Put19, Theorem 1.5.3, p. 24](https://web.uvic.ca/~ifputnam/ln/C%2A-algebras.pdf#page=24).
 - Voi98, §5.5, gives the pointed free-product left and right representations and their commutator identities.
