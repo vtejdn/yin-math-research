@@ -26,6 +26,7 @@ Scope: Yin's mathematical writing and presentation slides.
 | Finite-rank operators | `\F(H)`, with `\F=\mathcal F`. | The finite-rank bounded operators on H, matching MSY23, p. 13. Do not use this symbol as an abbreviation for the evaluated free field. |
 | Finite-dimensional Fuglede-Kadison determinant | Use uppercase `\Delta_m(B)=\lvert\det B\rvert^{1/m}` for `B` in `M_m(\mathbb C)`, and the corresponding dimension subscript for other matrix sizes. Do not use lowercase `\delta` for this determinant. | The subscript records the matrix size and the normalized matrix trace. This changes notation only; Dirac masses, Kronecker symbols and unrelated uses of lowercase delta are unaffected. |
 | Random-matrix expectation | Write the composite as `\mathbb E\circ\tr_N`, with the composition sign between the expectation and the normalized trace; do not write the bare product `\mathbb E\tr_N`. | The expectation is applied after the normalized trace, so the composition order is visible. This is a notation choice, not a probability-model hypothesis. |
+| Limits | Use `\rightarrow` by default. | Use `\downarrow` when the decreasing approach or approach from above matters to the argument. |
 
 <a id="operator-restriction-notation"></a>
 ## Operator Restriction Notation
