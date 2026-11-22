@@ -300,8 +300,23 @@ Grouping the reduced free-product tensors by the total semicircular degree gives
  H=L^2(\M,\tau)=\bigoplus_{n\geq0}H_n,\qquad H_n:=K^{\bar\otimes(n+1)}.
 \]
 The vacuum is the constant function $1$ in $H_0$, and $X$ acts by coordinate multiplication on the first factor in each $H_n$.
-In this model $S=\ell+\ell^*$, where $\ell$ prepends $1$.
-Thus $Y=L+L^*$ for $L:=X\ell X$, and
+Let $l$ be the isometry acting on elementary tensors by
+\[
+ l(\xi_0\otimes\cdots\otimes\xi_n)
+ =1\otimes\xi_0\otimes\cdots\otimes\xi_n.
+\]
+Its adjoint vanishes on $H_0$ and acts on elementary tensors in positive degrees by
+\[
+ l^*(\xi_0\otimes\cdots\otimes\xi_n)
+ =\langle 1,\xi_0\rangle\,\xi_1\otimes\cdots\otimes\xi_n.
+\]
+By multilinearity, each tensor factor may be taken to be $1$ or centered.
+If the first factor is centered, left multiplication by $S$ adds a semicircular letter at the beginning of the reduced word, giving the term $l$.
+If the first factor is $1$, left multiplication on the initial semicircular block is given by $Su_m=u_{m+1}+u_{m-1}$, where $u_m$ is the degree-$m$ vector of the one-variable semicircular Fock space and $u_{-1}=0$.
+In the regrouped tensors, increasing that degree prepends a $1$, and decreasing a positive degree removes the leading $1$.
+These elementary tensors span a dense subspace, so left multiplication by $S$ is $l+l^*$ on $H$.
+
+Thus $Y=L+L^*$ for $L:=XlX$, and
 \[
  L(\xi_0\otimes\cdots\otimes\xi_n)
  =x\otimes X\xi_0\otimes\xi_1\otimes\cdots\otimes\xi_n.
@@ -382,7 +397,7 @@ It follows that $[X,T]=P_\Omega$.
 
 Set $a:=YX^{-1}$ in $L^0(\M)$.
 The identity $S=X^{-1}YX^{-1}$ gives $a=XS\in\M$.
-As $\ell^*\Omega=0$, the vacuum vector of $a$ is $a\Omega=X(1\otimes1)=x\otimes1$.
+As $l^*\Omega=0$, the vacuum vector of $a$ is $a\Omega=X(1\otimes1)=x\otimes1$.
 On positive grades, $L$ and $T$ commute because $L$ prepends a factor and multiplies the first factor while $T$ acts on the last.
 On $H_0$,
 \[
