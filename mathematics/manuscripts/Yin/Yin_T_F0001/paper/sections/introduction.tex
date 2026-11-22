@@ -223,12 +223,12 @@ For a tuple $X=(X_1,\ldots,X_d)\in\M^d$, write $W^*(X)=W^*(X_1,\ldots,X_d)$ for 
 
 \Needspace{6\baselineskip}
 \begin{theorem}\label{thm:analytic}
-Suppose that $X\in\M^d$ is a tuple of normal operators with $W^*(X)=\M$, and let $(D_1,\ldots,D_d)$ be a dual system for $X$ in the sense of Definition~\ref{def:dual-system}.
-For every $u\in L^0(\M)$ and every fraction pair $Q=(s,a,b,t)$ for $u$, the following are equivalent:
+Let $X$ be a tuple of bounded normal operators and let $(D_1,\ldots,D_d)$ be a dual system for $X$ on $L^2(W^*(X),\tau)$ in the sense of Definition~\ref{def:dual-system}.
+For every $u\in L^0(W^*(X))$ and every fraction pair $Q=(s,a,b,t)\in W^*(X)^4$ for $u$, the following conditions are equivalent.
 \begin{enumerate}
-\item $u\in\Div_{L^0(\M)}\A_X$.
+\item $u\in\Div_{L^0(W^*(X))}\A_X$.
 \item For every $i$, $\Gamma[Q,D_i]$ has finite rank.
-\item\label{item:analytic-fraction-commutators}  For every $i$, $\overline{\Gamma[Q,D_i]}\in\F(H)$.
+\item\label{item:analytic-fraction-commutators} For every $i$, $\overline{\Gamma[Q,D_i]}\in\F\bigl(L^2(W^*(X),\tau)\bigr)$.
 \end{enumerate}
 When these equivalent conditions hold, the rank of each $\overline{\Gamma[Q,D_i]}$ is independent of $Q$.
 \end{theorem}
