@@ -134,9 +134,9 @@ Proposition 6.4, `prop:scalar-bounded-dual`, uses Kato's theorem to characterize
 Example 6.5, `ex:bounded-division-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
 It takes \(\mathcal M=W^*(X,Y)\) and computes the product \(X^{-1}YX^{-1}=S\) in the algebra of affiliated operators, giving \(S\in\operatorname{Div}_{L^0(\mathcal M)}\mathcal A\cap\mathcal M\).
 Thus \(X,S\) generate \(\mathcal M\) and give its reduced free product representation.
-Proposition 6.4 gives a bounded scalar dual for \(X\), and Voiculescu's right free-product representations lift it and semicircular right creation to the bounded dual system \((T,r)\) for \((X,S)\).
-The change of generators identifies the rank-one commutator with \(S\) required of the new second dual.
-In the semicircular Fock realization of the free product, a bounded operator on the last two tensor factors realizes this commutator, and a correction by right multiplications gives the first dual.
+The tensor representation gives \(Y\) as the sum of a weighted creation operator and its adjoint.
+A bounded operator on the last two factors gives \(D_2\) through its commutator with \(Y\).
+Proposition 6.4 supplies the scalar operator \(T_0\) acting on the last factor, and a correction by right multiplications cancels the remaining commutator with \(Y\) to give \(D_1\).
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).
 Spectral permanence gives inverse closure of \(C^*(X,Y)\) in \(\mathcal M\).
 The norm separation then excludes \(S\) from the division closure in \(\mathcal M\).

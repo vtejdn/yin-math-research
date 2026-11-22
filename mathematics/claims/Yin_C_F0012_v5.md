@@ -6,7 +6,7 @@ author: Yin
 
 This proof of the bounded-dual part of the [selfadjoint example in v1](Yin_C_F0012_v1.md#statement) uses Kato's positive commutator theorem for the scalar factor.
 It replaces the weighted Hilbert-transform step used in [v4](Yin_C_F0012_v4.md#original-free-pair-and-the-inverse-weights) and retains the coordinate change, inverse weights and last-two-factor kernel from that proof.
-This is the proof used for the bounded duals in [F0001's example on bounded division closures](../manuscripts/Yin/Yin_T_F0001/readme.md#mathematical-provenance).
+This proof was used for the bounded duals in an earlier version of [F0001's example on bounded division closures](../manuscripts/Yin/Yin_T_F0001/readme.md#mathematical-provenance).
 The [norm-separation argument in v1](Yin_C_F0012_v1.md#6-exclusion-from-the-norm-closed-and-scalar-division-algebras) supplies the other part of the example.
 
 ## Current assessment
