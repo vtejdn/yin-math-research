@@ -279,18 +279,18 @@ Since $S\notin C^*(X,Y)$, we have $S\notin\Div_{\M}\A$.
 
 It remains to construct a bounded dual system for $(X,Y)$.
 Since $S\in\M=W^*(X,Y)$ and $Y=XSX$, the free pair $(X,S)$ generates $\M$.
-Let $K:=L^2((0,1),\mu)$ and let $x\in K$ be the coordinate function $x(t)=t$.
+Let $K_0:=L^2((0,1),\mu)$ and let $x\in K_0$ be the coordinate function $x(t)=t$.
 Grouping the reduced free-product tensors by the total semicircular degree gives \cite[5.5 and 5.13]{Voi98}
 \[
- H=L^2(\M,\tau)=\bigoplus_{n\geq0}H_n,\qquad H_n:=K^{\bar\otimes(n+1)}.
+ H=L^2(\M,\tau)=\bigoplus_{n\geq0}K_n,\qquad K_n:=K_0^{\bar\otimes(n+1)}.
 \]
-The vacuum is the constant function $1$ in $H_0$, and $X$ acts by coordinate multiplication on the first factor in each $H_n$.
+The vacuum is the constant function $1$ in $K_0$, and $X$ acts by coordinate multiplication on the first factor in each $K_n$.
 Let $l$ be the isometry acting on elementary tensors by
 \[
  l(\xi_0\otimes\cdots\otimes\xi_n)
  =1\otimes\xi_0\otimes\cdots\otimes\xi_n.
 \]
-Its adjoint vanishes on $H_0$ and acts on elementary tensors in positive degrees by
+Its adjoint vanishes on $K_0$ and acts on elementary tensors in positive degrees by
 \[
  l^*(\xi_0\otimes\cdots\otimes\xi_n)
  =\langle 1,\xi_0\rangle\,\xi_1\otimes\cdots\otimes\xi_n.
@@ -306,13 +306,13 @@ Thus $Y=L+L^*$ for $L:=XlX$, and
  L(\xi_0\otimes\cdots\otimes\xi_n)
  =x\otimes X\xi_0\otimes\xi_1\otimes\cdots\otimes\xi_n.
 \]
-Its adjoint vanishes on $H_0$ and acts on $H_n$ for $n\geq1$ by
+Its adjoint vanishes on $K_0$ and acts on $K_n$ for $n\geq1$ by
 \[
  L^*(\xi_0\otimes\cdots\otimes\xi_n)
  =\langle x,\xi_0\rangle X\xi_1\otimes\xi_2\otimes\cdots\otimes\xi_n.
 \]
 
-Define $T_1$ from $K\bar\otimes K$ to $K$ by the kernel
+Define $T_1$ from $K_0\bar\otimes K_0$ to $K_0$ by the kernel
 \[
  k(s,t):=\frac{1_{\{t\leq s\}}}{st},\qquad
  (T_1\zeta)(s):=\int_0^1 k(s,t)\zeta(s,t)\,d\mu(t).
@@ -328,32 +328,32 @@ Cauchy--Schwarz in $t$, followed by integration in $s$, gives
  \leq 2\int_0^1\int_0^1|\zeta(s,t)|^2\,d\mu(t)\,d\mu(s)
  =2\|\zeta\|_2^2.
 \]
-The formula for $T_1$ also gives $T_1(X\otimes I_K)=XT_1$.
-Let $R$ vanish on $H_0$ and set $R|_{H_n}:=I_K^{\otimes(n-1)}\otimes T_1$ for $n\geq1$.
+The formula for $T_1$ also gives $T_1(X\otimes I_{K_0})=XT_1$.
+Let $R$ vanish on $K_0$ and set $R|_{K_n}:=I_{K_0}^{\otimes(n-1)}\otimes T_1$ for $n\geq1$.
 For every $n\geq1$, $R$ maps the summand indexed by $n$ into the one indexed by $n-1$.
 The ranges of these restrictions are pairwise orthogonal, so $\|R\|\leq\|T_1\|\leq\sqrt{2}$.
-On $H_1$, $R$ commutes with the first-factor action of $X$ by the identity for $T_1$.
+On $K_1$, $R$ commutes with the first-factor action of $X$ by the identity for $T_1$.
 On higher grades $R$ leaves the first factor fixed, so $R$ commutes with $X$ on $H$.
 
-For $f\in H_0$, $LRf=0$ and
+For $f\in K_0$, $LRf=0$ and
 \[
  (RLf)(s)=\bigl(T_1(x\otimes Xf)\bigr)(s)
  =s\int_0^1 k(s,t)t f(t)\,d\mu(t)
  =\int_0^s f(t)\,d\mu(t).
 \]
-Write $V$ for this integral operator on $H_0$.
-On $H_1$ the two orders agree because
+Write $V$ for this integral operator on $K_0$.
+On $K_1$ the two orders agree because
 \[
  RL(\xi_0\otimes\xi_1)
  =x\otimes T_1(X\xi_0\otimes\xi_1)
  =x\otimes X T_1(\xi_0\otimes\xi_1)
  =LR(\xi_0\otimes\xi_1).
 \]
-On $H_n$ for $n\geq2$, $L$ prepends $x$ and multiplies the first factor by $X$, while $R$ acts on the last two factors.
+On $K_n$ for $n\geq2$, $L$ prepends $x$ and multiplies the first factor by $X$, while $R$ acts on the last two factors.
 Thus $RL=LR$ on those grades.
 
-Both compositions $RL^*$ and $L^*R$ vanish on $H_0$ and $H_1$.
-On $H_2$ the first-factor identity for $T_1$ gives
+Both compositions $RL^*$ and $L^*R$ vanish on $K_0$ and $K_1$.
+On $K_2$ the first-factor identity for $T_1$ gives
 \[
  \begin{aligned}
  RL^*(\xi_0\otimes\xi_1\otimes\xi_2)
@@ -362,10 +362,10 @@ On $H_2$ the first-factor identity for $T_1$ gives
  =L^*R(\xi_0\otimes\xi_1\otimes\xi_2).
  \end{aligned}
 \]
-On $H_n$ for $n\geq3$, $L^*$ acts on the first two factors and $R$ on the last two, so the two compositions agree there as well.
+On $K_n$ for $n\geq3$, $L^*$ acts on the first two factors and $R$ on the last two, so the two compositions agree there as well.
 As $Y=L+L^*$, these computations give
 \begin{equation}\label{eq:sandwich-last-two-factor-commutator}
- [R,Y]=V\oplus0\qquad\text{on } H_0\oplus\bigoplus_{n\geq1}H_n.
+ [R,Y]=V\oplus0\qquad\text{on } K_0\oplus\bigoplus_{n\geq1}K_n.
 \end{equation}
 The adjoint of $V$ satisfies $(V^*f)(s)=\int_s^1 f(t)\,d\mu(t)$.
 Since $\mu$ has no atoms, $(V+V^*)f$ is the constant function $\int_0^1 f(t)\,d\mu(t)$.
@@ -375,17 +375,17 @@ Equation~\eqref{eq:sandwich-last-two-factor-commutator} and selfadjointness of $
  [X,D_2]=0,\qquad [Y,D_2]=[R,Y]^*+[R,Y]=P_\Omega.
 \end{equation}
 
-Let $P_1$ be the orthogonal projection onto $\C1$ in $K$.
-The density of $\mu$ has essential supremum $4$, so Proposition~\ref{prop:scalar-bounded-dual} gives a skew-adjoint $T_0$ on $K$ with $[X,T_0]=P_1$ and $\|T_0\|\leq4\pi$.
-Define the bounded skew-adjoint operator $T$ on $H$ by $T|_{H_n}:=I_K^{\otimes n}\otimes T_0$.
-On $H_0$, $[X,T]=P_1$, and on every positive grade the actions of $X$ and $T$ are on distinct factors.
+Let $P_1$ be the orthogonal projection onto $\C1$ in $K_0$.
+The density of $\mu$ has essential supremum $4$, so Proposition~\ref{prop:scalar-bounded-dual} gives a skew-adjoint $T_0$ on $K_0$ with $[X,T_0]=P_1$ and $\|T_0\|\leq4\pi$.
+Define the bounded skew-adjoint operator $T$ on $H$ by $T|_{K_n}:=I_{K_0}^{\otimes n}\otimes T_0$.
+On $K_0$, $[X,T]=P_1$, and on every positive grade the actions of $X$ and $T$ are on distinct factors.
 It follows that $[X,T]=P_\Omega$.
 
 Set $a:=YX^{-1}$ in $L^0(\M)$.
 The identity $S=X^{-1}YX^{-1}$ gives $a=XS\in\M$.
 As $l^*\Omega=0$, the vacuum vector of $a$ is $a\Omega=X(1\otimes1)=x\otimes1$.
 On positive grades, $L$ and $T$ commute because $L$ prepends a factor and multiplies the first factor while $T$ acts on the last.
-On $H_0$,
+On $K_0$,
 \[
  [L,T]f=x\otimes(XT_0-T_0X)f
  =x\otimes P_1 f
