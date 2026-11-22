@@ -246,37 +246,22 @@ For a nonconstant word $Z_1\cdots Z_m$ with $m\geq1$ and $Z_j\in\{X,Y\}$, these 
  \end{aligned}
 \]
 Thus for a polynomial $p$ with constant term $c=p(0,0)$ we have $\|(p(X,Y)-c)\xi_\varepsilon\|_2\to0$.
-We further calculate
+Put $B:=(S-c)^*(S-c)$.
+Since $B\in W^*(S)$ and $\pi_\varepsilon\in W^*(X)$, traciality and freeness give
 \[
  \begin{aligned}
- \langle \xi_\varepsilon,S\xi_\varepsilon\rangle
- &=\frac{\langle\pi_\varepsilon\Omega,S\pi_\varepsilon\Omega\rangle}{\tau(\pi_\varepsilon)}
- =\frac{\tau(\pi_\varepsilon S\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
- &=\frac{\tau(S\pi_\varepsilon^2)}{\tau(\pi_\varepsilon)}
- =\frac{\tau(S\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
- &=\frac{\tau(S)\tau(\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
- =\tau(S)=0,
- \end{aligned}
-\]
-and
-\[
- \begin{aligned}
- \|S\xi_\varepsilon\|_2^2
- &=\frac{\|S\pi_\varepsilon\Omega\|_2^2}{\tau(\pi_\varepsilon)}
- =\frac{\tau((S\pi_\varepsilon)^*(S\pi_\varepsilon))}{\tau(\pi_\varepsilon)}\\
- &=\frac{\tau(\pi_\varepsilon S^2\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
- =\frac{\tau(S^2\pi_\varepsilon^2)}{\tau(\pi_\varepsilon)}
- =\frac{\tau(S^2\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
- &=\frac{\tau(S^2)\tau(\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
- =\tau(S^2)=1.
- \end{aligned}
-\]
-Since $S\xi_\varepsilon$ and $\xi_\varepsilon$ are orthogonal unit vectors,
-\[
  \|(S-c)\xi_\varepsilon\|_2^2
- =\|S\xi_\varepsilon\|_2^2+|c|^2\|\xi_\varepsilon\|_2^2
- =1+|c|^2.
+ &=\frac{\|(S-c)\pi_\varepsilon\Omega\|_2^2}{\tau(\pi_\varepsilon)}
+ =\frac{\tau(\pi_\varepsilon B\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
+ &=\frac{\tau(B\pi_\varepsilon^2)}{\tau(\pi_\varepsilon)}
+ =\frac{\tau(B\pi_\varepsilon)}{\tau(\pi_\varepsilon)}\\
+ &=\frac{\tau(B)\tau(\pi_\varepsilon)}{\tau(\pi_\varepsilon)}
+ =\tau(B)\\
+ &=\tau(S^2)-(c+\overline{c})\tau(S)+|c|^2
+ =1+|c|^2,
+ \end{aligned}
 \]
+where the last equality uses $\tau(S)=0$ and $\tau(S^2)=1$.
 The reverse triangle inequality gives
 \[
  \bigl|\|(S-p(X,Y))\xi_\varepsilon\|_2-\sqrt{1+|c|^2}\bigr|
