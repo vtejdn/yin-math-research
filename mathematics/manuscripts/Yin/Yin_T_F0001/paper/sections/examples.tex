@@ -174,8 +174,9 @@ This proposition may be known to experts, but we include a proof for completenes
 
 \begin{proposition}\label{prop:scalar-bounded-dual}
 Let $X$ be a bounded selfadjoint element of a tracial $W^*$-probability space $(\M,\tau)$ and let $\mu$ be its distribution.
-Then $X$ admits a bounded dual system on $L^2(\M,\tau)$ if and only if $d\mu(t)=w(t)\,dt$ for some $w\in L^\infty(\mathbb R)$.
-In this case, the dual operator can be chosen skew-adjoint with norm at most $\pi\|w\|_\infty$.
+Then $X$ admits a bounded dual system $(D)$ on $L^2(\M,\tau)$ if and only if $d\mu(t)=w(t)\,dt$ for some $w\in L^\infty(\mathbb R)$.
+In this case, the dual operator can be chosen such that
+\[D^*=-D,\qquad\text{and}\qquad\|D\|\leq\pi\|w\|_\infty\].
 \end{proposition}
 
 \begin{proof}
@@ -290,7 +291,7 @@ We consider $X,Y,S$ as operators acting on
 \[
  H=L^2(\M,\tau)=\bigoplus_{n\geq0}H_n,\qquad H_n:=H_0^{\bar\otimes(n+1)}.
 \]
-The vacuum vector is the constant function $1$ in $H_0$, and $X$ acts by coordinate multiplication $x$ on the first factor in each $H_n$.
+The vacuum vector $\Omega$ is the constant function $1$ in $H_0$, and $X$ acts by coordinate multiplication $x$ on the first factor in each $H_n$.
 Let $l$ be the isometry determined by
 \[
  l(\xi_0\otimes\cdots\otimes\xi_n)
@@ -378,53 +379,49 @@ As $Y=L+L^*$, the above computations give
 Set $D_2:=\tilde{R}^*-\tilde{R}$.
 Since $X=X^*$, taking adjoints in $\tilde{R}X=X\tilde{R}$ gives $X\tilde{R}^*=\tilde{R}^*X$.
 Thus both terms in $[X,D_2]=[X,\tilde{R}^*]-[X,\tilde{R}]$ vanish.
-
 Since $Y=Y^*$,
 \[
  [\tilde{R},Y]^*=(\tilde{R}Y-Y\tilde{R})^*=Y\tilde{R}^*-\tilde{R}^*Y=[Y,\tilde{R}^*].
 \]
-Using $-[Y,\tilde{R}]=[\tilde{R},Y]$ and equation~\eqref{eq:sandwich-last-two-factor-commutator}, we obtain
+Using equation~\eqref{eq:sandwich-last-two-factor-commutator}, we obtain
 \[
  [Y,D_2]=[Y,\tilde{R}^*]-[Y,\tilde{R}]=[\tilde{R},Y]^*+[\tilde{R},Y]=(V^*+V)\oplus0.
 \]
 The kernel of $V$ is $1_{\{t\leq s\}}$, so $(V^*f)(s)=\int_s^1 f(t)\,d\mu(t)$.
 Since $\mu$ has no atoms,
 \[
- ((V^*+V)f)(s)
- =\int_s^1 f(t)\,d\mu(t)+\int_0^s f(t)\,d\mu(t)
- =\int_0^1 f(t)\,d\mu(t).
+ ((V^*+V)f)(s)=\int_0^1 f(t)\,d\mu(t)=\langle f,1\rangle.
 \]
-As $\mu$ is a probability measure, this is the orthogonal projection of $f$ onto $\C1$ in $H_0$.
-The vacuum $\Omega$ is the constant $1$ in $H_0$, so extending this projection by zero to the higher grades gives $P_\Omega$.
-Consequently
+So we see that $V^*+V=P_{\Omega}|_{H_0}$.
+Consequently, we obtain
 \begin{equation}\label{eq:sandwich-second-dual}
- [X,D_2]=0,\qquad [Y,D_2]=[\tilde{R},Y]^*+[\tilde{R},Y]=P_\Omega.
+ [X,D_2]=0,\qquad [Y,D_2]=P_\Omega.
 \end{equation}
 
-The density of $\mu$ has essential supremum $4$, so Proposition~\ref{prop:scalar-bounded-dual} gives a skew-adjoint $D_X$ on $H_0$ with $[X,D_X]=P_\Omega|_{H_0}$ and $\|D_X\|\leq4\pi$.
+The density of $\mu$ has essential supremum $4$, so Proposition~\ref{prop:scalar-bounded-dual} gives a operator $D_X$ on $H_0$ with $[X,D_X]=P_\Omega|_{H_0}$ and $\|D_X\|\leq4\pi$.
 Define the bounded skew-adjoint operator $\tilde{D}_X$ on $H$ by $\tilde{D}_X|_{H_n}:=I_{H_0}^{\otimes n}\otimes D_X$.
 The commutator satisfies $[X,\tilde{D}_X]|_{H_0}=P_\Omega|_{H_0}$, and on every positive grade the actions of $X$ and $\tilde{D}_X$ are on distinct factors.
 It follows that $[X,\tilde{D}_X]=P_\Omega$.
 
 Set $Z:=YX^{-1}$ in $L^0(\M)$.
-The identity $S=X^{-1}YX^{-1}$ gives $Z=XS\in\M$.
-As $l^*\Omega=0$, the vacuum vector of $Z$ is $Z\Omega=X(1\otimes1)=x\otimes1$.
-On positive grades, $L$ and $\tilde{D}_X$ commute because $L$ prepends a factor and multiplies the first factor while $\tilde{D}_X$ acts on the last.
-On $H_0$,
+The identity $Y=XSX$ gives $Z=XS\in\M$.
+Hence first we observe that for $f\in H_0$,
 \[
  [L,\tilde{D}_X]f=x\otimes(X D_X-D_X X)f
  =x\otimes (P_\Omega|_{H_0})f
  =ZP_\Omega f.
 \]
-Since $\tilde{D}_X^*=-\tilde{D}_X$, taking adjoints gives $[L^*,\tilde{D}_X]=[L,\tilde{D}_X]^*$.
+On $H_n$ for $n\geq1$, $L$ and $\tilde{D}_X$ commute because $L$ prepends x and multiplies the first factor by X, while $\tilde{D}_X$ acts on the last.
+Hence $[L,\tilde{D}_X]=ZP_\Omega$.
+Since $\tilde{D}_X^*=-\tilde{D}_X$ by Proposition~\ref{prop:scalar-bounded-dual}, taking adjoints gives $[L^*,\tilde{D}_X]=[L,\tilde{D}_X]^*$.
 Therefore $[Y,\tilde{D}_X]=ZP_\Omega+P_\Omega Z^*$.
 
-Define the bounded operator
+Finally, let us define the bounded operator
 \[
- D_1:=\tilde{D}_X-\rho(Z)D_2-D_2\rho(Z^*).
+ D_1:=\tilde{D}_X-\rho(Z)D_2-D_2\rho(Z^*),
 \]
-Right multiplications commute with the left actions of $X$ and $Y$.
-Thus $[X,D_1]=[X,\tilde{D}_X]=P_\Omega$ by equation~\eqref{eq:sandwich-second-dual}.
+where $\rho(Z)$ denotes the right multiplication operator by $Z$.
+Thus $[X,D_1]=[X,\tilde{D}_X]=P_\Omega$, thanks to equation~\eqref{eq:sandwich-second-dual}.
 Since $\rho(Z)\Omega=Z\Omega$, we have $\rho(Z)P_\Omega=ZP_\Omega$.
 For $b\in\M$, traciality gives
 \[
