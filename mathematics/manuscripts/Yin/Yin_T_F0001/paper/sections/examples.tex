@@ -141,18 +141,34 @@ Since $S$ is bounded and affiliated with $\M$, it belongs to $\M$ \cite[Proposit
 
 To see why $S$ lies outside $C^*(X,Y)$, put
 \[
- \pi_\varepsilon:=1_{(0,\varepsilon]}(X),\qquad
- \xi_\varepsilon:=\frac{\pi_\varepsilon\Omega}{\sqrt{\tau(\pi_\varepsilon)}},
- \qquad 0<\varepsilon<1.
+ \pi_\varepsilon:=1_{(0,\varepsilon]}(X),\qquad 0<\varepsilon<1.
 \]
-Since $\tau(\pi_\varepsilon)=\varepsilon^4>0$, each $\xi_\varepsilon$ is a unit vector.
+The distribution of $X$ gives
+\[
+ \tau(\pi_\varepsilon)=\mu((0,\varepsilon])
+ =\int_0^\varepsilon 4t^3\,dt=\varepsilon^4>0.
+\]
+Define
+\[
+ \xi_\varepsilon:=\frac{\pi_\varepsilon\Omega}{\sqrt{\tau(\pi_\varepsilon)}}.
+\]
+Since $\pi_\varepsilon$ is a projection, $\|\pi_\varepsilon\Omega\|_2^2=\tau(\pi_\varepsilon)$, so $\|\xi_\varepsilon\|_2=1$.
 Moreover,
 \[
  \|X\xi_\varepsilon\|_2\leq\varepsilon,\qquad
  \|Y\xi_\varepsilon\|_2\leq 2\varepsilon,
 \]
 since $\|X\|=1$ and $\|S\|=2$.
-Every nonconstant word in $X,Y$ tends to zero on $\xi_\varepsilon$, because its rightmost factor sends $\xi_\varepsilon$ to a vector of norm tending to zero.
+For a nonconstant word $Z_1\cdots Z_m$ with $m\geq1$ and $Z_j\in\{X,Y\}$, these estimates give
+\[
+ \begin{aligned}
+ \|Z_1\cdots Z_m\xi_\varepsilon\|_2
+ &\leq\|Z_1\cdots Z_{m-1}\|\,\|Z_m\xi_\varepsilon\|_2\\
+ &\leq2\varepsilon\|Z_1\cdots Z_{m-1}\|
+ \longrightarrow0\qquad(\varepsilon\downarrow0),
+ \end{aligned}
+\]
+where the empty product is the identity when $m=1$.
 Thus for a polynomial $p$ with constant term $c=p(0,0)$ we have $\|(p(X,Y)-c)\xi_\varepsilon\|_2\to0$.
 Freeness and traciality give
 \[
