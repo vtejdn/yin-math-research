@@ -177,11 +177,21 @@ Freeness and traciality give
  \|S\xi_\varepsilon\|_2^2
  =\frac{\tau(S^2\pi_\varepsilon)}{\tau(\pi_\varepsilon)}=1.
 \]
-Consequently
+Since $S\xi_\varepsilon$ and $\xi_\varepsilon$ are orthogonal unit vectors,
 \[
- \|S-p(X,Y)\|
- \geq\lim_{\varepsilon\downarrow0}\|(S-p(X,Y))\xi_\varepsilon\|_2
- =\sqrt{1+|c|^2}\geq1.
+ \|(S-c)\xi_\varepsilon\|_2^2
+ =\|S\xi_\varepsilon\|_2^2+|c|^2\|\xi_\varepsilon\|_2^2
+ =1+|c|^2.
+\]
+The reverse triangle inequality gives
+\[
+ \bigl|\|(S-p(X,Y))\xi_\varepsilon\|_2-\sqrt{1+|c|^2}\bigr|
+ \leq\|(p(X,Y)-c)\xi_\varepsilon\|_2
+ \xrightarrow{\varepsilon\downarrow0}0.
+\]
+Since each $\xi_\varepsilon$ is a unit vector, taking the limit gives
+\[
+ \|S-p(X,Y)\|\geq\sqrt{1+|c|^2}\geq1.
 \]
 Since $X,Y$ are selfadjoint, $\A$ is norm dense in $C^*(X,Y)$, so $\dist(S,C^*(X,Y))\geq1$.
 By spectral permanence \cite[Theorem~1.5.3]{Put19} for the unital inclusion $C^*(X,Y)\subseteq\M$, every element of $C^*(X,Y)$ that is invertible in $\M$ has its inverse in $C^*(X,Y)$.
