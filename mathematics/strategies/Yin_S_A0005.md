@@ -14,7 +14,25 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Seek independent control of the residual finite matrix ranks after free spanning, or a coupling of the original finite group-ring coefficients that constrains their difference. |
+| priority | Test finite-dimensional Hardy defects on noncentral cyclic edges outside the coamenable coset criterion, using actual kernel graphs with positive nullity. |
+
+## Cyclic edge support through a regular group action
+
+For \(G=G_1*_{H}G_2,\ H\cong\mathbb Z\), [the relative Følner theorem](../claims/Yin_C_A0119_v1.md#statement) now transfers integrality of all finite complex vertex matrices to all finite complex matrices over \(G\) if some \(G/K\) admits Følner sets and \(H\) acts freely there.
+A quotient of \(G\) onto an amenable group that detects the edge generator with infinite order suffices.
+The proof obtains the rational graph support from the restrictions of exact solutions with finite coset support.
+The [normal-generator dual test on the edge](../claims/Yin_C_A0120_v1.md#statement) gives another formulation when this group action is unavailable.
+For the graph projection \(P\), edge inclusion \(J\), and projection \(D\) onto nonnegative powers on the edge, bound the dimension of \(PJ D(\ker PJ)\).
+This gives an ordinary finite-rank problem for one explicit cyclic dual.
+The worked example has a one-dimensional image although the expectation before taking support has a nonrational coefficient and no gap on its support.
+
+The [property (T) vertex double](../claims/Yin_C_A0121_v1.md#the-obstruction-to-an-amenable-action) excludes an amenable action free on its cyclic edge.
+Test the Hardy condition there on a two-column, one-row additive matrix with a finite generating sum \(U_j\) from each vertex, for example the sum of rows \((a_1+b,U_1)\) and \((U_2,a_2-b)\) in the notation of that claim.
+Such an input has kernel dimension at least one, so its graph support contains actual information even before its rank is known.
+First test whether the expected graph support is full or is already fixed by edge Laurent relations.
+If neither happens, use exact edge restrictions or bound the ordinary off-support rank; decay or smoothness of the full expected kernel alone does not control this dimension.
+Independently proved vertex ranks are still needed to deduce the target integer.
+The [agent-S comparison](../ledger/Yin_L_A0069_v1.md#first-priority-for-all-matrix-sizes) records the scope relative to finite-edge permanence and the alternative route for an individual pencil.
 
 ## Algebraically normalized affiliated frames
 

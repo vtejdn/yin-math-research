@@ -73,6 +73,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0066](Yin_L_A0066_v1.md) | Fourier tensors, augmentation and the biquadratic splitting equations | [v1](Yin_L_A0066_v1.md) |
 | [Yin_L_A0067](Yin_L_A0067_v1.md) | Biradial ranks, spherical measure and affiliated anticommutators in Gardam's group | [v1](Yin_L_A0067_v1.md) |
 | [Yin_L_A0068](Yin_L_A0068_v1.md) | The cyclic triangle presentation and finite two-group quotients of the type kernel | [v1](Yin_L_A0068_v1.md) |
+| [Yin_L_A0069](Yin_L_A0069_v1.md) | Transferring F0001 rationality tests to the strong Atiyah problem | [v1](Yin_L_A0069_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |
