@@ -18,6 +18,7 @@ Scope: Yin's mathematical writing and presentation slides.
 
 | Object | Preferred notation | Meaning and source boundary |
 | --- | --- | --- |
+| Scalar terms in a unital algebra | Omit the explicit factor $1$ by default, as in $X-\lambda$ and $S+5$. | Write the unit explicitly when it improves readability, for example to distinguish the unit of a corner from the ambient unit. |
 | Linear functionals | `\varphi`, with indices such as `\varphi_j` when needed. | Default notation for linear functionals. |
 | Projections | `\pi`, with indices such as `\pi_1` and `\pi_2` when needed. | Default notation for projections, including quotient maps; more specific conventions such as `P_\Omega` take precedence. |
 | Free field | Use the user's supplied `\moverlay`, `\plangle` and `\prangle` macros to superimpose round parentheses with `<` and `>`, with the coefficient field in front. | Preserve the formal-field/evaluated-division-closure distinction. |
