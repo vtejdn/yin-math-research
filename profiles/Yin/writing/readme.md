@@ -22,6 +22,7 @@ Choose wording, theorem organization and proof detail for the actual paper, chec
 Scope: Yin's manuscript writing.
 
 Check the revised source, citations and cross-references in manuscript-writing tasks.
+After the assigned writing task is complete, leave checks prompted by concurrent edits to the corresponding tasks.
 Compile the manuscript only when the user explicitly requests compilation, and check the resulting diagnostics.
 Render pages or inspect the visual layout only when the user explicitly requests a layout check.
 
