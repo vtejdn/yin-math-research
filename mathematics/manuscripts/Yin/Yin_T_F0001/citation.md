@@ -23,7 +23,7 @@ For the generation argument in Example 6.3, the inspection covers the statement 
 | `paper/sections/preliminaries.tex`, `subsec:rational-affiliated` | `\cite[Section 7.2]{AP18}` | Supports the definition of affiliation by commutation with commutant unitaries, including domain invariance. |
 | `paper/sections/preliminaries.tex`, Hilbert--Schmidt setup in `subsec:finite-rank-tensors` | `\cite[Section 8.4]{AP18}` | Supports the ordinary trace on \(\B(H)\); it is distinct from the canonical trace on a general module commutant. |
 | `paper/sections/preliminaries.tex`, `subsec:finite-rank-tensors` | `\cite[Section~7.1.1]{AP18}` | Supplies the tracial standard-representation conjugation \(J(x\Omega)=x^*\Omega\), with the exact construction retained in the linked source record. |
-| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Theorem~2.1.3]{AP18}` | Gives \(\mathcal N''=\mathcal N\) for the unital von Neumann algebra \(\mathcal N=W^*(X,Y)\) on \(H\). The cancellation of \(X\) establishing \(S\in\mathcal N''\) is proved in the example. |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Theorem~2.1.3]{AP18}` | Gives \(\mathcal N''=\mathcal N\) for the unital von Neumann algebra \(\mathcal N=W^*(X,Y)\) on \(H\). The cancellation of \(X\) establishing \(S\in\mathcal N''\) is proved in the example. |
 
 ## `BD78`
 
@@ -160,7 +160,7 @@ All theorem and section locators below refer to the retained arXiv v1, not the j
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, Linnell criterion paragraph | `\cite[Theorem 1.1]{Lin00}` | Supports the affiliated-operator fraction criterion in the finite-generator free-group setting. |
 | `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{Lin00}` | Credits the affiliated rationality criterion recovered by specializing Theorem 1.9 to free Haar unitaries. |
-| `paper/sections/examples.tex`, paragraph before `ex:bounded-rational-closure` | `\cite[Theorem~1.1]{Lin00}` | Identifies the bounded part of the affiliated division closure of the free group algebra with its division closure in the reduced group \(C^*\)-algebra. The division closure in the group von Neumann algebra lies between these equal algebras by monotonicity. In all three ambient algebras the division closure of the polynomial algebra already contains the inverse generators, so it equals the division closure of the group algebra. [Bounded division-closure identification](../../../audits/literature/Lin00/Yin_U004.md#lin00-u004). |
+| `paper/sections/examples.tex`, paragraph before `ex:bounded-division-closure` | `\cite[Theorem~1.1]{Lin00}` | Identifies the bounded part of the affiliated division closure of the free group algebra with its division closure in the reduced group \(C^*\)-algebra. The division closure in the group von Neumann algebra lies between these equal algebras by monotonicity. In all three ambient algebras the division closure of the polynomial algebra already contains the inverse generators, so it equals the division closure of the group algebra. [Bounded division-closure identification](../../../audits/literature/Lin00/Yin_U004.md#lin00-u004). |
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Section~1]{Lin00}` | Supports the common-denominator terminology for finite families. |
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Theorem~1.1]{Lin00}` | Supports the characterization of rational affiliated operators by finite-rank conditions on bounded operators obtained from left and right fractions, in the finite-generator free-group setting; the following Miy22 sentence gives the semicircular analogue. |
 | `paper/sections/preliminaries.tex`, paragraph before `lem:clearing` | `\cite[Section~1, p.~2 of the arXiv version]{Lin00}` | Supplies the finite-family common-denominator interface; the manuscript proves its own induction. |
@@ -184,7 +184,7 @@ The inspected work is the 24-page 2022 journal PDF; its original foundations rem
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, semicircular criterion paragraph | `\cite[Theorems 3.1 and 4.5]{Miy22}` | Supports the semicircular bounded and affiliated rationality criteria. |
-| `paper/sections/examples.tex`, paragraph before `ex:bounded-rational-closure` | `\cite[Theorem~4.5]{Miy22}` | Identifies the division closure of the free semicircular polynomial algebra in the generated von Neumann algebra with the bounded part of its affiliated division closure. |
+| `paper/sections/examples.tex`, paragraph before `ex:bounded-division-closure` | `\cite[Theorem~4.5]{Miy22}` | Identifies the division closure of the free semicircular polynomial algebra in the generated von Neumann algebra with the bounded part of its affiliated division closure. |
 | `paper/sections/introduction.tex`, final paragraph of Subsection 1.2 | `\cite{Miy22}` | Credits the rationality criterion recovered by specializing Theorem 1.9 to free semicircular operators. |
 | `paper/sections/preliminaries.tex`, `def:fraction-terminology` | `\cite[Lemma~4.1]{Miy22}` | Supplies the two-element common-denominator construction. |
 | `paper/sections/preliminaries.tex`, final paragraph of Subsection 2.3, `subsec:rational-affiliated` | `\cite[Section~4]{Miy22}` | Supplies the semicircular analogue of the preceding Lin00 rationality criterion, using the cleared expressions with bounded right annihilation operators; \(\Gamma[Q,r_i^*]\) is the manuscript's notation for these expressions. |
@@ -225,7 +225,7 @@ The inspection covers the statement of spectral permanence and its applicability
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Theorem~1.5.3]{Put19}` | Gives inverse closure for a \(C^*\)-subalgebra containing the ambient unit. The inclusion \(C^*(X,Y)\subseteq\mathcal M\) has this property, so \(C^*(X,Y)\) contains the division closure in \(\mathcal M\) of the polynomial algebra. |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Theorem~1.5.3]{Put19}` | Gives inverse closure for a \(C^*\)-subalgebra containing the ambient unit. The inclusion \(C^*(X,Y)\subseteq\mathcal M\) has this property, so \(C^*(X,Y)\) contains the division closure in \(\mathcal M\) of the polynomial algebra. |
 
 ## `Tao06`
 
@@ -234,7 +234,7 @@ The source interface is also checked in the [independent review of C_F0012 v1](.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. Multiplication by \(2t^{3/2}\) on both sides gives the bound \(4\pi\) for \(T_0\) on \(L^2((0,1),\mu)\). The manuscript verifies the commutator with \(X\). |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. Multiplication by \(2t^{3/2}\) on both sides gives the bound \(4\pi\) for \(T_0\) on \(L^2((0,1),\mu)\). The manuscript verifies the commutator with \(X\). |
 
 ## `Voi98`
 
@@ -245,7 +245,7 @@ The inspected source is the published 39-page article; the exact proof repairs a
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, introduction to `def:dual-system` | `\cite[Definition~5.1]{Voi98}` | Gives the original bounded selfadjoint dual-system formulation for selfadjoint generators, with a coefficient algebra and commutators \([X_j,Y_i]=\mathrm i\delta_{ij}P_\Omega\). Taking the coefficient algebra to be \(\mathbb C1\) and setting \(D_i=-\mathrm iY_i\) gives the manuscript's generator-first normalization in that setting. The joint “see also” citation does not attribute the manuscript's formulation for arbitrary tuples in \(\mathcal M^d\) and possibly unbounded operators to Voi98; the inclusion \(\mathcal M\Omega\subseteq\operatorname{Dom}D_i\cap\operatorname{Dom}D_i^*\) is a local manuscript requirement. The published Definition 5.1 is on p.208 and is checked in Voi98-U005. |
 | `paper/sections/examples.tex`, `ex:normality` | `\cite[5.13]{Voi98}` | Supplies the standard free semicircular Fock model; the circular counterexample and rationality conclusion are local. |
-| `paper/sections/examples.tex`, `ex:bounded-rational-closure` | `\cite[5.5]{Voi98}` | Supplies the right representation of \(B(K)\) for \(K=L^2(W^*(X),\tau)\) in the pointed free product of \(W^*(X)\) and \(W^*(S)\). The same-factor commutator extends \([X,T_0]\) by zero off \(K\), and the cross-factor commutator with \(S\) vanishes. The example constructs \(T_0\), the bounded dual \(D_2\) for \(Y\), and the correction yielding \(D_1\). |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[5.5]{Voi98}` | Supplies the right representation of \(B(K)\) for \(K=L^2(W^*(X),\tau)\) in the pointed free product of \(W^*(X)\) and \(W^*(S)\). The same-factor commutator extends \([X,T_0]\) by zero off \(K\), and the cross-factor commutator with \(S\) vanishes. The example constructs \(T_0\), the bounded dual \(D_2\) for \(Y\), and the correction yielding \(D_1\). |
 | `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[Section~3, pp.~192--193]{Voi98}` | Supplies the polynomial free-difference-quotient convention before its separately cited free-field extension. |
 
 ## `Wei94`

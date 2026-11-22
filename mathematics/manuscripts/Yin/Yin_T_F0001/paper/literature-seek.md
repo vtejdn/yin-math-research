@@ -29,7 +29,7 @@ Taking the reciprocal and passing to the real axis on $(1,\infty)$ gives $G_\mu(
 
 ## Example 6.3
 
-The search on 2026-11-21 UTC matched the steps of `ex:bounded-rational-closure` in [examples.tex](sections/examples.tex) with results on bicommutants, inverse closure of unital $C^*$-subalgebras, free-product duals and bounded commutators for operator-valued semicircular variables.
+The search on 2026-11-21 UTC matched the steps of `ex:bounded-division-closure` in [examples.tex](sections/examples.tex) with results on bicommutants, inverse closure of unital $C^*$-subalgebras, free-product duals and bounded commutators for operator-valued semicircular variables.
 
 - The bicommutant theorem states that a unital strongly closed selfadjoint subalgebra $N\subseteq\mathcal B(H)$ satisfies $N=N''$.
   Here $N=W^*(X,Y)$, and commutation with $X$ and $Y$ implies commutation with $S$ by cancellation of $X$ on the left and its dense range on the right. [AP18, Theorem 2.1.3, p. 30](https://www.math.ucla.edu/~popa/Books/IIun.pdf#page=36).
