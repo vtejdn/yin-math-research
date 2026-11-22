@@ -406,40 +406,40 @@ Define the bounded skew-adjoint operator $\tilde{D}_X$ on $H$ by $\tilde{D}_X|_{
 The commutator satisfies $[X,\tilde{D}_X]|_{H_0}=P_\Omega|_{H_0}$, and on every positive grade the actions of $X$ and $\tilde{D}_X$ are on distinct factors.
 It follows that $[X,\tilde{D}_X]=P_\Omega$.
 
-Set $a:=YX^{-1}$ in $L^0(\M)$.
-The identity $S=X^{-1}YX^{-1}$ gives $a=XS\in\M$.
-As $l^*\Omega=0$, the vacuum vector of $a$ is $a\Omega=X(1\otimes1)=x\otimes1$.
+Set $Z:=YX^{-1}$ in $L^0(\M)$.
+The identity $S=X^{-1}YX^{-1}$ gives $Z=XS\in\M$.
+As $l^*\Omega=0$, the vacuum vector of $Z$ is $Z\Omega=X(1\otimes1)=x\otimes1$.
 On positive grades, $L$ and $\tilde{D}_X$ commute because $L$ prepends a factor and multiplies the first factor while $\tilde{D}_X$ acts on the last.
 On $H_0$,
 \[
  [L,\tilde{D}_X]f=x\otimes(X D_X-D_X X)f
  =x\otimes (P_\Omega|_{H_0})f
- =aP_\Omega f.
+ =ZP_\Omega f.
 \]
 Since $\tilde{D}_X^*=-\tilde{D}_X$, taking adjoints gives $[L^*,\tilde{D}_X]=[L,\tilde{D}_X]^*$.
-Therefore $[Y,\tilde{D}_X]=aP_\Omega+P_\Omega a^*$.
+Therefore $[Y,\tilde{D}_X]=ZP_\Omega+P_\Omega Z^*$.
 
 Define the bounded operator
 \[
- D_1:=\tilde{D}_X-\rho(a)D_2-D_2\rho(a^*).
+ D_1:=\tilde{D}_X-\rho(Z)D_2-D_2\rho(Z^*).
 \]
 Right multiplications commute with the left actions of $X$ and $Y$.
 Thus $[X,D_1]=[X,\tilde{D}_X]=P_\Omega$ by equation~\eqref{eq:sandwich-second-dual}.
-Since $\rho(a)\Omega=a\Omega$, we have $\rho(a)P_\Omega=aP_\Omega$.
+Since $\rho(Z)\Omega=Z\Omega$, we have $\rho(Z)P_\Omega=ZP_\Omega$.
 For $b\in\M$, traciality gives
 \[
- P_\Omega\rho(a^*)b\Omega
- =\tau(ba^*)\Omega
- =\tau(a^*b)\Omega
- =P_\Omega a^*b\Omega.
+ P_\Omega\rho(Z^*)b\Omega
+ =\tau(bZ^*)\Omega
+ =\tau(Z^*b)\Omega
+ =P_\Omega Z^*b\Omega.
 \]
-Both sides are bounded operators, so $P_\Omega\rho(a^*)=P_\Omega a^*$ by density of $\M\Omega$.
+Both sides are bounded operators, so $P_\Omega\rho(Z^*)=P_\Omega Z^*$ by density of $\M\Omega$.
 Consequently
 \[
  \begin{aligned}
  [Y,D_1]
- &=[Y,\tilde{D}_X]-\rho(a)[Y,D_2]-[Y,D_2]\rho(a^*)\\
- &=aP_\Omega+P_\Omega a^*-\rho(a)P_\Omega-P_\Omega\rho(a^*)\\
+ &=[Y,\tilde{D}_X]-\rho(Z)[Y,D_2]-[Y,D_2]\rho(Z^*)\\
+ &=ZP_\Omega+P_\Omega Z^*-\rho(Z)P_\Omega-P_\Omega\rho(Z^*)\\
  &=0.
  \end{aligned}
 \]
