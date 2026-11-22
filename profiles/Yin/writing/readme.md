@@ -16,6 +16,11 @@ Omit secondary details that do not affect the main point.
 Organize the paper around its argument rather than research-log chronology.
 Choose wording, theorem organization and proof detail for the actual paper, checking every assertion, reference and contribution claim when adapting a model.
 
+## Author Information
+
+Whenever a mathematical manuscript lists Yin as an author, include his institutional affiliation and email address with his name in the author information.
+Use the details recorded in his [personal profile](../readme.md#author-information).
+
 <a id="compilation-and-layout-checks"></a>
 ## Compilation and Layout Checks
 
