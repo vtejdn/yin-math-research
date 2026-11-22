@@ -129,7 +129,7 @@ The bounded-dual specialization is described directly in the introduction throug
 Example 6.3, `ex:bounded-division-closure`, uses the selfadjoint pair \((X,XSX)\), where \(X\) has law \(4t^3\,dt\) on \((0,1)\) and \(S\) is a standard semicircular element free from \(X\).
 It takes \(\mathcal M=W^*(X,Y)\) and computes the product \(X^{-1}YX^{-1}=S\) in the algebra of affiliated operators, giving \(S\in\operatorname{Div}_{L^0(\mathcal M)}\mathcal A\cap\mathcal M\).
 Thus \(X,S\) generate \(\mathcal M\) and give its reduced free product representation.
-The proof first constructs bounded duals \((T,r)\) for \((X,S)\) by a weighted Hilbert-transform lift and right creation.
+Kato's commutator theorem gives a bounded scalar dual for \(X\), and its right free-product lift \(T\) and right creation \(r\) give bounded duals for \((X,S)\).
 The change of generators identifies the rank-one commutator with \(S\) required of the new second dual.
 A bounded operator on the last two tensor factors realizes this commutator, and a correction by right multiplications gives the first dual.
 Small spectral projections of \(X\) give \(\operatorname{dist}(S,C^*(X,Y))\geq1\).

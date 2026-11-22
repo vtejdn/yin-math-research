@@ -112,7 +112,7 @@ Then
 \]
 This equality can fail even for selfadjoint generators admitting a bounded dual system.
 
-% Mathematical input: C_F0012 v1, main sandwich example.
+% Mathematical inputs: C_F0012 v1 for norm separation and v5 for bounded duals.
 \begin{example}\label{ex:bounded-division-closure}
 In a tracial $W^*$-probability space, let $X$ be a positive operator with distribution $d\mu(t)=4t^3\,dt$ on $(0,1)$, and let $S$ be a standard semicircular element free from $X$.
 Put
@@ -212,33 +212,34 @@ Since $X,Y$ are selfadjoint, $\A$ is norm dense in $C^*(X,Y)$, so $\dist(S,C^*(X
 The unital $C^*$-subalgebra $C^*(X,Y)$ is closed under inversion in $\M$ \cite[Corollary~II.1.6.7]{Bla06}, so $\Div_{\M}\A=\Div_{C^*(X,Y)}\A$.
 Since $S\notin C^*(X,Y)$, we have $S\notin\Div_{\M}\A$.
 
-Since $X,S\in\M$ and $Y=XSX\in W^*(X,S)$, we have $\M=W^*(X,S)$.
-Let $K:=L^2((0,1),\mu)$ and use the reduced free product representation of $\M$ on
+It remains to construct a bounded dual system for $(X,Y)$.
+Since $S\in\M$ and $Y=XSX$, the free pair $(X,S)$ generates $\M$.
+
+Let $K:=L^2((0,1),\mu)$, on which $X$ acts by coordinate multiplication, and let $P_1$ be the projection onto $\C1$ in $K$.
+For the spectral projection $E_X(I)$ of $X$ on $K$ and any bounded interval $I$,
+\[
+ \|P_1 E_X(I)\|^2=\|E_X(I)1\|_2^2=\mu(I)\leq 4|I|.
+\]
+Since $P_1=P_1^{1/2}$, Kato's smoothness criterion and commutator theorem give a bounded selfadjoint operator $B$ on $K$ with $\mathrm i[X,B]=P_1$ and $0\leq B\leq 8\pi I_K$ \cite[(2.2), Theorem~(6.2), and its proof]{Kat68}.
+Centering $B$ gives
+\[
+ T_0:=\mathrm i(B-4\pi I_K),\qquad [X,T_0]=P_1,\qquad \|T_0\|\leq 4\pi.
+\]
+In the right free-product representation \cite[5.5]{Voi98}, the lift $T$ of $T_0$ commutes with $S$, which belongs to the other free factor.
+Its commutator with $X$ is $[X,T_0]$ on $K$ and zero on $K^\perp$, so $[X,T]=P_\Omega$.
+
+For the remaining construction, use the tensor realization of the reduced free product,
 \[
  H=L^2(\M,\tau)=\bigoplus_{n\geq0}H_n,\qquad H_n:=K^{\bar\otimes(n+1)}.
 \]
-For $n\geq1$, the summand $H_n$ represents $n$ copies of the one-dimensional semicircular creation space, with a copy of $K$ before, after and between them.
-Splitting each $K$ into $\C 1\oplus(K\ominus\C 1)$ and grouping successive creation vectors separated by scalar factors gives the alternating tensors of the reduced free product.
-The vacuum is $1$ in $H_0$, and left and right multiplication by $X$ multiply the first and last factors by the coordinate function, respectively.
-Let $l$ prepend $1$ to an elementary tensor and let $r$ append $1$.
-As in Example~\ref{ex:normality}, $S=l+l^*$, where $l^*$ contracts the first factor against $1$ on positive degrees and vanishes on $H_0$.
-Since $r$ acts at the right end, it commutes with $X$ and $l$.
-It commutes with $l^*$ on positive degrees, and on $H_0$ one has $l^*r\xi=\langle 1,\xi\rangle 1$ and $rl^*\xi=0$.
-Thus $[S,r]=P_\Omega$.
-
-On smooth functions of compact support in $(0,1)$, set
-\[
- (T_0\xi)(s):=\operatorname{p.v.}\int_0^1\frac{\xi(t)}{s-t}\,d\mu(t).
-\]
-Under the unitary $K\to L^2((0,1),dt)$ given by multiplication by $2t^{3/2}$, this is the unweighted operator with kernel $1/(s-t)$ composed on each side with multiplication by $2t^{3/2}$.
-By zero extension and restriction, the unweighted operator is the compression of $\pi$ times the Hilbert transform on $\mathbb R$ and has norm at most $\pi$ \cite[Proposition~1.2]{Tao06}.
-It follows that $T_0$ extends to $K$ with $\|T_0\|\leq4\pi$.
-On smooth functions the factor $s-t$ in the kernel of $[X,T_0]$ cancels the denominator, giving $[X,T_0]\xi=(\int_0^1\xi\,d\mu)1$.
-By density, $[X,T_0]$ is the projection onto $\C1$ on $K$.
-Let $T$ apply $T_0$ to the last factor on each $H_n$, as in the right free-product representation \cite[5.5]{Voi98}.
-On $H_0$ its commutator with $X$ is the projection onto $\C1$, and on positive degrees $T$ and $X$ act on different factors.
-Applying $T_0$ to the last factor commutes with prepending and contracting at the left end, so $[S,T]=0$.
-Thus $[X,T]=P_\Omega$ and $(T,r)$ is a bounded dual system for $(X,S)$.
+The $n$ gaps between the copies of $K$ in $H_n$ represent $n$ semicircular creation vectors.
+Splitting $K$ into $\C1\oplus(K\ominus\C1)$ and grouping consecutive creation vectors separated by scalar factors gives the alternating tensors of the free product.
+The vacuum is $1$ in $H_0$, and $X$ and $\rho(X)$ multiply the first and last factors by the coordinate, respectively.
+Let $l$ prepend $1$ and let $r$ append $1$.
+Then $S=l+l^*$, where $l^*$ contracts the first factor against $1$ on positive degrees and vanishes on $H_0$.
+The operator $r$ commutes with $X$ and $l$, and on positive degrees it commutes with $l^*$.
+On $H_0$, the map $l^*r$ is $P_1$ and $rl^*=0$, so $[S,r]=P_\Omega$.
+Thus $(T,r)$ is a bounded dual system for $(X,S)$.
 
 For the new generator $Y=XSX$, the product rule gives
 \[

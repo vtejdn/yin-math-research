@@ -228,14 +228,13 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |
 | `paper/sections/preliminaries.tex`, Tomita-conjugation paragraph in `subsec:finite-rank-tensors` | `\cite[p.~13]{MSY23}` | Supports the Tomita-conjugation terminology; the tensor identification is separately attributed to CS05. |
 
-## `Tao06`
+## `Kat68`
 
-The source is Tao's Fall 2006 UCLA Math 247A lecture notes, with kernel normalization in equation (1) and the \(L^2\) estimate in Proposition 1.2 and its consequence by Plancherel on pp. 3–4.
-The source interface is also checked in the [independent review of C_F0012 v1](../../../audits/reviews/Yin_R_F0056_v1.md#main-counterexample-finding).
+The [published edition and source inspection](../../../audits/literature/Kat68/Yin_U001.md#kat68-u001) identify formula (2.2), p. 536, Theorem (6.2), p. 543, and the positive-solution estimate in its proof on p. 545.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[Proposition~1.2]{Tao06}` | The norm-one real-line Hilbert transform with kernel \(1/(\pi(s-t))\) supplies the bound \(\pi\) for the kernel \(1/(s-t)\) by zero extension and restriction. Multiplication by \(2t^{3/2}\) on both sides gives the bound \(4\pi\) for \(T_0\) on \(L^2((0,1),\mu)\). The manuscript verifies the commutator with \(X\). |
+| `paper/sections/examples.tex`, `ex:bounded-division-closure` | `\cite[(2.2), Theorem~(6.2), and its proof]{Kat68}` | Formula (2.2) gives squared smoothness norm at most \(4\) for \(P_1=P_1^{1/2}\) by the density bound. The theorem and its proof give \(B=B^*\) with \(i[X,B]=P_1\) and \(0\leq B\leq8\pi I_K\). The local choice \(T_0=i(B-4\pi I_K)\) gives the normalized commutator and the bound \(4\pi\). |
 
 ## `Voi98`
 
