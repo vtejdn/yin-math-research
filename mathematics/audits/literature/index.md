@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [Ope26g/Yin_U001](Ope26g/Yin_U001.md#ope26g-u001) | Torsion-free algebraic trace range in Corollary 1.2(i), using Theorem 1.1 as a preprint input |
 | [MD26/Yin_U001](MD26/Yin_U001.md#md26-u001) | Section 8 proof inspection, finite support-product partitions, algebraic coefficient transfer and the limits of current graph-size estimates |
 | [Iva26 source notes](Iva26/readme.md) | ArXiv v1 and the fixed-group transfer in Section 8.3 |
 | [KLM88 source notes](KLM88/readme.md) | Publisher original and the Theorem 1.4 locator |
