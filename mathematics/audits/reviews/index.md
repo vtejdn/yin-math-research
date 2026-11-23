@@ -158,6 +158,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0158](Yin_R_A0158_v1.md#whole-finding) | Independent review of full regular rank in the congruence subgroup double | [v1](Yin_R_A0158_v1.md) |
 | [Yin_R_A0159](Yin_R_A0159_v1.md#whole-finding) | Independent review of the mixed commutation relation and the four-dimensional rank test | [v1](Yin_R_A0159_v1.md) |
 | [Yin_R_A0160](Yin_R_A0160_v1.md#whole-finding) | Regular rank for a sum of two vertex matrices and its triangular chains | [v1](Yin_R_A0160_v1.md) |
+| [Yin_R_A0162](Yin_R_A0162_v1.md#whole-finding) | Free cyclic extension and finite-layer detection of amplified Schur kernels | [v1](Yin_R_A0162_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
