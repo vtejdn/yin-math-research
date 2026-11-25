@@ -33,6 +33,13 @@ Each Task entrance includes only that route's explicit Task associations.
 | [Yin_S_A0010](Yin_S_A0010.md) | Normality from a triple commutator in a torsion-free group algebra | Yin | active | Determine when finite group support forces normality from the vanishing triple commutator, starting with a support admitting an extremal layer and retaining candidates with trivial real character space. | [Yin_T_A0002_v1: Kaplansky's zero-divisor conjecture over the complex numbers](../tasks/Yin_T_A0002_v1.md#contract) | Test the fixed-group domain assertion by the equivalent normality condition on a single finite group-ring element. | Root |
 | [Yin_S_A0011](Yin_S_A0011.md) | Integral obstructions on finite direct powers | Yin | active | Test whether a noncommuting single-parameter pencil admits a square-group rank certificate, and use finite row coefficients and translate expansion to constrain scalar witnesses. | [Yin_T_A0002_v1: Kaplansky's zero-divisor conjecture over the complex numbers](../tasks/Yin_T_A0002_v1.md#contract) | Test signed integral products and the alternating tensor of the left support on powers of one finite right support. | Root |
 
+<a id="task-yin_t_a0003"></a>
+## Yin_T_A0003
+
+| Route | Title | Author | Disposition | Priority | Exact Task contract | Association scope | Organization |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Yin_S_A0013](Yin_S_A0013.md) | Kernel projections and the unrestricted finite-rank equation | Yin | active | Determine when the zero-kernel spectral projection of a bordered group-algebra pencil has its last diagonal coefficient in the division closure. | [Yin_T_A0003_v3: Simplifying the finite-rank rationality criterion for torsion-free groups](../tasks/Yin_T_A0003_v3.md#contract) | Decide how far the local commutation condition can be removed for finitely generated torsion-free groups. | Root |
+
 <a id="task-yin_t_f0001"></a>
 ## Yin_T_F0001
 

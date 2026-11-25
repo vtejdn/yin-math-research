@@ -77,6 +77,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0070](Yin_L_A0070_v1.md) | Detecting Schur kernel dimension by direct sums and scalar inverses | [v1](Yin_L_A0070_v1.md) |
 | [Yin_L_A0071](Yin_L_A0071_v1.md) | Original-group tests for a Schur kernel of dimension one half | [v1](Yin_L_A0071_v1.md) |
 | [Yin_L_A0072](Yin_L_A0072_v1.md) | Positive gaps for a fixed Schur matrix, the scalar hypothesis in wreath products and relative parity | [v1](Yin_L_A0072_v1.md) |
+| [Yin_L_A0073](Yin_L_A0073_v1.md) | Finite-index transfer for the unrestricted commutator criterion | [v1](Yin_L_A0073_v1.md) |
+| [Yin_L_A0074](Yin_L_A0074_v1.md) | A diagonal kernel coefficient and rank bounds in the torsion-free commutator problem | [v1](Yin_L_A0074_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |
