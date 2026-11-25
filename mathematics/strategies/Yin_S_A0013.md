@@ -72,4 +72,13 @@ For other edge algebras test the finite-copy inequality on every edge subproject
 Test whether the scalar case can be lifted by one column over a torsion-free group, analyzing the relative inverse on the kernel left by the preceding columns.
 On the original finite-rank witnesses a single positive denominator suffices, while fixing it spectrally or choosing a least-norm solution fails already for the two-torus. [Single denominator](../claims/Yin_C_A0135_v1.md#statement) and [least-norm obstruction](../ledger/Yin_L_A0079_v1.md)
 A negative resolution requires proving nonmembership of the actual coefficient for a specified torsion-free group.
+On a fixed marking, seek a projection of the division closure separating the ranges of a rank-one commutator sum and its adjoint.
+When their left translates together span the Hilbert space, they determine the only possible separator. [Rank-one commutator sums](../claims/Yin_C_A0157_v1.md#rank-one-commutator-sums-on-one-fixed-marking)
+For amenable targets, look for approximate inner inverses of fixed size and word support in finite models, where growing cyclic quotients already rule out these bounds for exact model inverses. [Uniform finite-window estimates](../claims/Yin_C_A0156_v1.md#statement)
+In torsion-free amenable groups a counterexample must avoid the affiliated rings of all subgroups with semisimple Artinian division closure. [Subgroup intersections](../claims/Yin_C_A0158_v1.md#exact-agreement-on-subgroup-projections)
+For a fixed sofic group one can restrict the matrix search to integer coefficients by allowing finitely many additional central variables in the rational witnesses. [Coefficient descent](../claims/Yin_C_A0159_v1.md#finite-matrices-in-the-countable-test)
 The finite-index result excludes proposed counterexamples commensurable with groups already known to admit complete deletion.
+For the formal residue of a positive resolvent, use Christoffel minima as upper bounds for the kernel trace and bounded positive rational annihilators as lower certificates.
+It suffices to keep the group support and matrix size of the annihilator realizations fixed while the two bounds converge to each other.
+For amenable groups the coset construction gives annihilators with ranks tending to the required value.
+The remaining issue is a uniform bound on their realization complexity, allowing the coefficients to change with the moment order. [Moment criterion](../claims/Yin_C_A0160_v1.md#maximal-rank-with-fixed-group-support-and-size) and [coset construction](../claims/Yin_C_A0134_v1.md#statement)

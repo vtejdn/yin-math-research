@@ -93,6 +93,17 @@ For virtually locally indicable groups and cyclic edges one can recover the expe
 A variational formula gives the exact trace still missing after any prescribed number of free copies over an edge algebra. [Free copies](../claims/Yin_C_A0150_v1.md#statement)
 Two affiliated vertex commutators of full row rank suffice to recover kernels of additive rational matrices even on a torsion-free cyclic amalgam without an amenable action free on the edge. [Vertex commutators](../claims/Yin_C_A0152_v1.md#statement)
 
+On any one finite marking, complete deletion is equivalent to separation of the ranges of each rank-one commutator sum and its adjoint by right multiplication by a projection of \(D_G\).
+Excluding rank-one sums altogether is equivalent, for torsion-free \(G\), to the complex strong Atiyah conjecture. [Rank-one separation](../claims/Yin_C_A0157_v1.md#separating-the-ranges-and-excluding-rank-one)
+In an amenable marked limit, two limiting ranks from witnesses of fixed word support and size detect rationality of a kernel projection, even when their complex coefficients vary. [Finite-window test](../claims/Yin_C_A0156_v1.md#statement)
+For a torsion-free amenable group, a scalar kernel projection witnessing failure would lie outside the von Neumann algebra of every abelian subgroup and would have the same normalized trace on every nonzero central cut. [Subgroup and center restrictions](../claims/Yin_C_A0158_v1.md#statement)
+For a fixed sofic group the full complex question is equivalent to the existence of rational inner inverses for integer group-ring matrices after adjoining finitely many central generators. [Countable coefficient test](../claims/Yin_C_A0159_v1.md#statement)
+
+For \(B=X^*X\), the Christoffel minima computed from its scalar moments bound the normalized trace of the constant term of \(z(z+B)^{-1}\) from above.
+Rational matrices \(Y\) with \(XY=0\) give lower bounds from their range ranks.
+The kernel projection is rational exactly when the gap tends to zero for witnesses of fixed group support and realization size.
+At one fixed two-by-two input over \(\mathbb Z\), every finite list of moments agrees exactly with an invertible input even though the fixed kernel has normalized trace \(1/2\). [Spectral moment criterion](../claims/Yin_C_A0160_v1.md#statement)
+
 ## Current decision
 
 [Reopened research](#decision-reopened)
