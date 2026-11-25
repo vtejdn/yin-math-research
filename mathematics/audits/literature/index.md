@@ -315,3 +315,5 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Cha08 source notes](Cha08/readme.md) | Compact-support lower-envelope theorem in the 2008 single-author manuscript |
 | [KPV17 source notes](KPV17/readme.md) | Free ellipticity and the finite test for full column rank on Hermitian tuples |
 | [Cos00 source notes](Cos00/readme.md#ordered-real-field) | Tarski–Seidenberg for first-order formulas over the reals in Coste’s October 2002 text |
+| [Nic76/Yin_U001](Nic76/Yin_U001.md#nic76-u001) | Semiregularity modulo the Jacobson radical |
+| [Ued08/Yin_U001](Ued08/Yin_U001.md#ued08-u001) | The amplified HNN model in Proposition 2.1 |

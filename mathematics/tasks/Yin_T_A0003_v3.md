@@ -75,6 +75,17 @@ For a group-ring matrix \(X\), the resolvent at the central shift \(Z\) belongs 
 Even on \(\mathbb Z\), agreement of every asymptotic coefficient can coexist with divergence of the series at each sufficiently small positive argument. [Analytic specialization](../claims/Yin_C_A0143_v1.md#statement)
 For a sofic group, rationality of any given matrix kernel projection is equivalent to two normalized ranks in finite models tending to the same prescribed integer for one fixed polynomial witness. [Finite-model test](../claims/Yin_C_A0144_v1.md#statement)
 
+For a fixed group in the contract, deleting the local condition is equivalent to lifting each scalar kernel projection to an exact idempotent in the ring of rational power series in \(z\).
+A single rational inverse recovers the projection from any such lift. [Idempotent lifting](../claims/Yin_C_A0147_v1.md#statement)
+Finite-order lifts always exist.
+They imply exact lifting when their group support, realization size and polynomial degree stay bounded as the order grows, even with varying complex coefficients and inverse pole orders. [Finite determination](../claims/Yin_C_A0149_v1.md#statement)
+Whether those bounds exist for each rational input in every finitely generated torsion-free group remains open.
+Requiring every rational element after adjoining a central group generator to arise from a formal Laurent series would imply the complex strong Atiyah conjecture across these groups. [Evaluation and stable kernels](../claims/Yin_C_A0146_v1.md#statement)
+
+The unrestricted equation also suffices for graph groups with regular vertex division closures and finite edges, or under the specified amenable-action and edge-ring hypotheses. [Graph theorem](../claims/Yin_C_A0145_v1.md#statement)
+For virtually locally indicable groups and cyclic edges one can recover the expected support of a rational projection from finitely many copies. [Cyclic support theorem](../claims/Yin_C_A0148_v1.md#statement)
+A variational formula gives the exact trace still missing after any prescribed number of free copies over an edge algebra. [Free copies](../claims/Yin_C_A0150_v1.md#statement)
+
 ## Current decision
 
 [Reopened research](#decision-reopened)

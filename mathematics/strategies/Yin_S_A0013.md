@@ -60,6 +60,11 @@ When that projection is rational over the edge and both vertex division closures
 The central series admit asymptotic evaluation in measure to every order, even in examples where their pointwise sums diverge.
 For a pencil \(zI-X\), test stabilization of \(\ker X^m\) to determine whether its analytic inverse at the central shift comes from the formal ring. [Laurent asymptotics](../claims/Yin_C_A0143_v1.md#statement)
 In the sofic case a single parameter escaping finite exceptional sets makes two ordinary matrix ranks in the same finite permutation models sufficient for the kernel projection test. [Finite-model witnesses](../claims/Yin_C_A0144_v1.md#statement)
+For each \(x\in D_G\), seek approximate idempotents with residue \(p_{\ker x}\) in a single finite group support, realization size and polynomial degree.
+At fixed bounds the rank gap for a polynomial family makes a sufficiently deep approximation exact, and a compression recovers the constant projection. [Finite determination](../claims/Yin_C_A0149_v1.md#statement) and [recovery](../claims/Yin_C_A0147_v1.md#statement)
+For graph groups, rationality of the expected edge support gives the kernel from two vertex rows. [Graph kernels](../claims/Yin_C_A0145_v1.md#statement)
+For cyclic edges in virtually locally indicable groups the shift on an amalgam of copies recovers this support after finitely many steps. [Cyclic intersection](../claims/Yin_C_A0148_v1.md#statement)
+For other edge algebras test the finite-copy inequality on every edge subprojection, then establish rational descent to the edge division closure. [Exact finite-copy test](../claims/Yin_C_A0150_v1.md#statement)
 Test whether the scalar case can be lifted by one column over a torsion-free group, analyzing the relative inverse on the kernel left by the preceding columns.
 On the original finite-rank witnesses a single positive denominator suffices, while fixing it spectrally or choosing a least-norm solution fails already for the two-torus. [Single denominator](../claims/Yin_C_A0135_v1.md#statement) and [least-norm obstruction](../ledger/Yin_L_A0079_v1.md)
 A negative resolution requires proving nonmembership of the actual coefficient for a specified torsion-free group.
