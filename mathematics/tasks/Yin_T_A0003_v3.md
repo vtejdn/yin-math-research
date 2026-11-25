@@ -60,6 +60,14 @@ In the finite-rank formulation every pair of denominators can be replaced by one
 In a cyclic extension the increase in kernel dimension from one height interval to the next equals the global rank captured by translates of that interval's solutions.
 Universal finite stabilization over torsion-free groups, even restricted to full-row-rank matrices whose kernel projections are already rational, is equivalent to the complex strong Atiyah conjecture. [Interval ranks](../claims/Yin_C_A0136_v1.md#statement)
 
+There is now a one-parameter formulation entirely over the original group.
+In the scalar division closure of \(\mathbb CG[z]\) inside \(U((z))\), the constant terms of the power series are precisely the solutions of (1), and the constant series are precisely the elements of \(D_G\).
+Thus the remaining question is whether taking the constant term as a constant series preserves this scalar division closure for every finitely generated torsion-free \(G\). [Formal constant terms](../claims/Yin_C_A0141_v1.md#statement)
+For group-ring matrices one can also encode every input width by positive scalars using the same two-generator lamplighter group as an auxiliary direct factor. [Exact transfer to scalar kernels](../claims/Yin_C_A0138_v1.md#statement)
+On the original group a finite set of relations detecting the closed range of a block of columns eliminates those columns and leaves a smaller group-ring kernel test.
+For the presentation gradient this reduction is possible precisely at vanishing first \(L^2\)-Betti number. [Elimination of columns](../claims/Yin_C_A0139_v1.md#statement)
+Tracial representations with all prescribed finitely many regular moments and injective nonzero scalars can still fail the two-column test. [Marked tracial example](../claims/Yin_C_A0140_v1.md#statement)
+
 ## Current decision
 
 [Reopened research](#decision-reopened)
