@@ -17,3 +17,8 @@ They do not reconstruct the unrecorded September snapshot.
 - [00OO: dimension of finite type algebras over fields](../../../literature/pdf/The26b/00OO--20261101.html), [official section](https://stacks.math.columbia.edu/tag/00OO).
 
 The polynomial-ring uses and their own inspection limits remain in the [planar obstruction](../../../claims/Yin_C_F0091_v1.md#yin_c_f0091).
+
+### Hilbert Nullstellensatz
+
+The [official page for Tag 00FV](https://stacks.math.columbia.edu/tag/00FV) was retained on 2026-11-25 as [Theorem 10.34.1](../../../literature/pdf/The26b/00FV--20261125.html#00FV).
+Item 00FW identifies part (1) on that page and supplies the [finite residue extension theorem](Yin_U002.md#residue-fields-of-finite-type-algebras).

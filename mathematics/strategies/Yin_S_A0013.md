@@ -82,3 +82,8 @@ For the formal residue of a positive resolvent, use Christoffel minima as upper 
 It suffices to keep the group support and matrix size of the annihilator realizations fixed while the two bounds converge to each other.
 For amenable groups the coset construction gives annihilators with ranks tending to the required value.
 The remaining issue is a uniform bound on their realization complexity, allowing the coefficients to change with the moment order. [Moment criterion](../claims/Yin_C_A0160_v1.md#maximal-rank-with-fixed-group-support-and-size) and [coset construction](../claims/Yin_C_A0134_v1.md#statement)
+The graph row of a single Ore fraction shows exactly when group-ring columns can replace a rational witness.
+Making this replacement throughout the torsion-free amenable class already requires the complex strong Atiyah conjecture. [One shift denominator](../claims/Yin_C_A0161_v1.md#torsion-free-amenable-groups)
+In a fixed example the trace upper bound can be exponentially close while all polynomial columns on the corresponding number of sites still give zero. [Exact tree-ball minimum](../claims/Yin_C_A0163_v1.md#exact-moment-bounds-on-the-tree-balls)
+For coefficient descent, look for an admissible specialization of a pivot chosen for the particular inner inverse.
+Universal algebraic maximal-rank attainment even for one-variable integer pencils over torsion-free amenable groups is equivalent to strong Atiyah integrality in that class. [Individual pivot descent](../claims/Yin_C_A0162_v1.md#rational-attainment-and-descent-of-an-inner-inverse) and [the universal obstruction](../claims/Yin_C_A0164_v1.md#statement)

@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [LLS03/Yin_U001](LLS03/Yin_U001.md#lls03-u001) | Dicks' two-element Ore obstruction for the finite cyclic lamp and the shift |
 | [dO14/Yin_U001](dO14/Yin_U001.md#do14-u001) | De Oliveira's finite-dimensional real implicit function theorem, journal Theorem 5 |
 | [Ope26g/Yin_U001](Ope26g/Yin_U001.md#ope26g-u001) | Torsion-free algebraic trace range in Corollary 1.2(i), using Theorem 1.1 as a preprint input |
 | [MD26/Yin_U001](MD26/Yin_U001.md#md26-u001) | Section 8 proof inspection, finite support-product partitions, algebraic coefficient transfer and the limits of current graph-size estimates |
@@ -169,6 +170,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [FK86/Yin_U001](FK86/Yin_U001.md) | FK86-U001: The finite-tracial affiliated measure topology |
 | [Lyn73/Yin_U001](Lyn73/Yin_U001.md) | Lyn73-U001: The finite-index free subgroup of a finite free product |
 | [The26b/Yin_U001](The26b/Yin_U001.md) | The26b-U001: Local normal-domain and valuation interfaces |
+| [The26b/Yin_U002](The26b/Yin_U002.md) | Finite residue extensions at closed points |
 | [Yin20/Yin_U002](Yin20/Yin_U002.md) | Yin20: Evaluation Consistency, Schur Complements, and the Two Closures |
 | [BSS17/Yin_U001](BSS17/Yin_U001.md) | BSS17: The Standard Two-Projection Representation |
 | [BZ22/Yin_U001](BZ22/Yin_U001.md) | BZ22-U001: Brown potential and the normal-source density interface |

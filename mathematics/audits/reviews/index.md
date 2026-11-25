@@ -169,6 +169,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0170](Yin_R_A0170_v1.md#graphs-of-groups) | Reviews of rational series, graph kernels and free copies of projections | [v1](Yin_R_A0170_v1.md) |
 | [Yin_R_A0171](Yin_R_A0171_v1.md#sublinear-degree) | Reviews of degree bounds, spectral data and vertex conjugations | [v1](Yin_R_A0171_v1.md) |
 | [Yin_R_A0172](Yin_R_A0172_v1.md#amenable-limits) | Reviews of rank-one separation, spectral moments and coefficient descent | [v1](Yin_R_A0172_v1.md) |
+| [Yin_R_A0173](Yin_R_A0173_v1.md#ore-graph-kernels) | Reviews of Ore denominators, sparse kernels and algebraic rank attainment | [v1](Yin_R_A0173_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

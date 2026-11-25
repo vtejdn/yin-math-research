@@ -104,6 +104,13 @@ Rational matrices \(Y\) with \(XY=0\) give lower bounds from their range ranks.
 The kernel projection is rational exactly when the gap tends to zero for witnesses of fixed group support and realization size.
 At one fixed two-by-two input over \(\mathbb Z\), every finite list of moments agrees exactly with an invertible input even though the fixed kernel has normalized trace \(1/2\). [Spectral moment criterion](../claims/Yin_C_A0160_v1.md#statement)
 
+For a single row \([s,-a]\) with \(s\) an affiliated unit in the group ring, its rational kernel has a finite set of group-ring columns spanning it after closure exactly when \(s^{-1}a\) has a single right denominator in the group ring.
+Requiring finite group-ring exhaustion of every rational kernel throughout the torsion-free amenable class is equivalent to the complex strong Atiyah conjecture throughout that class. [Ore denominators and the wreath-product test](../claims/Yin_C_A0161_v1.md#statement)
+Even in one two-generated torsion-free amenable group, some one-dimensional kernels admit a fixed-size rational expression while the smallest nonzero group-ring solution needs arbitrarily many sites. [Sparse solutions and the exact moment gap](../claims/Yin_C_A0163_v1.md#statement)
+
+If maximal rank is attained at rational parameters for every group-ring polynomial matrix over a sofic group, the rational-coefficient test for complete deletion needs no extra central generators. [Coefficient specialization](../claims/Yin_C_A0162_v1.md#statement)
+Even asking for one algebraic maximal-rank parameter for each integral affine pencil throughout the torsion-free amenable class is equivalent to the complex strong Atiyah conjecture throughout that class. [Algebraic rank attainment](../claims/Yin_C_A0164_v1.md#statement)
+
 ## Current decision
 
 [Reopened research](#decision-reopened)
