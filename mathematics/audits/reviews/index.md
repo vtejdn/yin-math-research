@@ -161,7 +161,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0162](Yin_R_A0162_v1.md#whole-finding) | Free cyclic extension and finite-layer detection of amplified Schur kernels | [v1](Yin_R_A0162_v1.md) |
 | [Yin_R_A0163](Yin_R_A0163_v1.md#original-group-test-and-depth-two) | Half-dimensional Schur kernels in the original group and the role of the regular trace | [v1](Yin_R_A0163_v1.md) |
 | [Yin_R_A0164](Yin_R_A0164_v1.md#wreath-product-defects) | Positive kernel gaps, fixed-support rank strata, odd stabilization and a nonregular comparison | [v1](Yin_R_A0164_v1.md) |
-| [Yin_R_A0165](Yin_R_A0165_v1.md#group-algebra-criterion) | The finite-rank criterion for the regular closure of a group algebra | [v1](Yin_R_A0165_v1.md) |
+| [Yin_R_A0165](Yin_R_A0165_v2.md#division-closure-criterion) | The finite-rank and matrix criteria for the division closure of a group algebra | [v1](Yin_R_A0165_v1.md), [v2](Yin_R_A0165_v2.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
