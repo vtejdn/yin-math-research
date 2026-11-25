@@ -163,6 +163,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0164](Yin_R_A0164_v1.md#wreath-product-defects) | Positive kernel gaps, fixed-support rank strata, odd stabilization and a nonregular comparison | [v1](Yin_R_A0164_v1.md) |
 | [Yin_R_A0165](Yin_R_A0165_v5.md#prescribed-witness-space) | Independent reviews of the prescribed witness space and partial deletion results | [v1](Yin_R_A0165_v1.md), [v2](Yin_R_A0165_v2.md), [v3](Yin_R_A0165_v3.md), [v4](Yin_R_A0165_v4.md), [v5](Yin_R_A0165_v5.md) |
 | [Yin_R_A0166](Yin_R_A0166_v1.md#maximal-rank-fibers) | Reviews of maximal-rank fibers, annihilator tests and two kernel constructions | [v1](Yin_R_A0166_v1.md) |
+| [Yin_R_A0167](Yin_R_A0167_v1.md#finite-dimensional-tests) | Reviews of finite-dimensional vanishing tests, denominator restrictions and cyclic kernel ranks | [v1](Yin_R_A0167_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

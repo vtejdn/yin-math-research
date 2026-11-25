@@ -51,6 +51,15 @@ If \(G\) has a coamenable subgroup with regular division closure, each rational 
 For each \(x\in D_G\), attainment of this supremum is equivalent to \(p_{\ker x}\in D_G\). [Finite coset estimates](../claims/Yin_C_A0134_v1.md#statement)
 The full deletion question is the finitely generated torsion-free complex case of [Linnell's Problem 4.4](../audits/literature/Lin06/Yin_U001.md#regularity-of-the-rational-closure).
 
+Membership in \(D_G\) now has a criterion with just one finite-dimensional space \(V\subset U\) containing \(1,u\).
+A linear map on the first translates of \(V\) that kills \(1\) and respects the marked right translations must kill every vector in \(V\).
+Requiring vanishing only at \(u\) instead characterizes solvability of (1).
+Restricting \(V\) to \(\mathbb CG+u\mathbb CG\) gives exactly the single group-ring right fractions. [Finite-dimensional criteria](../claims/Yin_C_A0137_v1.md#statement)
+Allowing at most \(k\) auxiliary vectors besides \(1,u\), across all finite markings, makes promotion of single-vector vanishing to rationality equivalent to rationality of the kernel projections of group-ring matrices with \(k\) input columns. [Matrix-size equivalence](../claims/Yin_C_A0137_v1.md#the-number-of-auxiliary-vectors)
+In the finite-rank formulation every pair of denominators can be replaced by one positive contraction while preserving all witness ranks and the local matrix test. [Positive denominator](../claims/Yin_C_A0135_v1.md#statement)
+In a cyclic extension the increase in kernel dimension from one height interval to the next equals the global rank captured by translates of that interval's solutions.
+Universal finite stabilization over torsion-free groups, even restricted to full-row-rank matrices whose kernel projections are already rational, is equivalent to the complex strong Atiyah conjecture. [Interval ranks](../claims/Yin_C_A0136_v1.md#statement)
+
 ## Current decision
 
 [Reopened research](#decision-reopened)
