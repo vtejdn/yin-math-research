@@ -41,6 +41,16 @@ For a fixed group the remaining question is equivalent to membership in \(D_G\) 
 Even on \(\mathbb Z^2\), two tuples for the same fractions can differ on the local test. [Example](../ledger/Yin_L_A0074_v1.md#a-solution-with-a-nonrational-range-on-the-two-torus)
 The uniform deletion question for all finitely generated torsion-free groups remains open here.
 
+For direct products with \(\mathbb Z^d\), a single fiber of maximal rank determines rationality of an entire group-ring kernel projection.
+In particular complete deletion holds for \(H\times V\) exactly when it holds for \(H\), for every finitely generated virtually abelian \(V\). [Fiber criterion and transfer](../claims/Yin_C_A0132_v1.md#statement)
+For finitely generated amenable \(G\), the outstanding condition is equivalent to finite generation of the scalar right annihilators in \(D_G\). [Annihilator criterion](../claims/Yin_C_A0133_v1.md#statement)
+A right coherent group algebra suffices in that class. [Finitely supported kernel generators](../ledger/Yin_L_A0076_v1.md#amenable-groups-with-a-right-coherent-complex-group-algebra)
+For any finitely generated group the existence of all rational kernel projections is equivalent to flatness of \(U_G\) as a left \(D_G\)-module.
+For a given \(x\), the obstruction is the quotient \(p_{\ker x}U_G/\operatorname{ann}_{D_G}(x)U_G\). [Principal right ideals](../ledger/Yin_L_A0077_v1.md#the-obstruction-for-one-principal-right-ideal)
+If \(G\) has a coamenable subgroup with regular division closure, each rational kernel dimension is the supremum of ranks of bounded positive rational annihilators.
+For each \(x\in D_G\), attainment of this supremum is equivalent to \(p_{\ker x}\in D_G\). [Finite coset estimates](../claims/Yin_C_A0134_v1.md#statement)
+The full deletion question is the finitely generated torsion-free complex case of [Linnell's Problem 4.4](../audits/literature/Lin06/Yin_U001.md#regularity-of-the-rational-closure).
+
 ## Current decision
 
 [Reopened research](#decision-reopened)

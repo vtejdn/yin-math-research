@@ -79,6 +79,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0072](Yin_L_A0072_v1.md) | Positive gaps for a fixed Schur matrix, the scalar hypothesis in wreath products and relative parity | [v1](Yin_L_A0072_v1.md) |
 | [Yin_L_A0073](Yin_L_A0073_v1.md) | Finite-index transfer for the unrestricted commutator criterion | [v1](Yin_L_A0073_v1.md) |
 | [Yin_L_A0074](Yin_L_A0074_v1.md) | A diagonal kernel coefficient and rank bounds in the torsion-free commutator problem | [v1](Yin_L_A0074_v1.md) |
+| [Yin_L_A0075](Yin_L_A0075_v1.md) | Right polynomial relations and the zero spectral projection of a bordered pencil | [v1](Yin_L_A0075_v1.md) |
+| [Yin_L_A0076](Yin_L_A0076_v1.md) | Finitely supported kernel generators for the unrestricted commutator criterion | [v1](Yin_L_A0076_v1.md) |
+| [Yin_L_A0077](Yin_L_A0077_v1.md) | Principal right ideals and kernel projections after extension to affiliated operators | [v1](Yin_L_A0077_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

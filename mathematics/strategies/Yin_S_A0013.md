@@ -35,6 +35,13 @@ Each such compression is rational by scalar Gram elimination and spectral calcul
 The unresolved step is an algebraic formula for this particular limit using inverses of affiliated units.
 If a nonzero scalar polynomial \(q\) satisfies \(q(B^*B)J=0\), the spectral measure on the range of \(J\) is supported on the finite set of nonnegative roots of \(q\).
 Polynomial interpolation gives a scalar polynomial equal to one at zero and zero at every positive root, so applying it to \(B^*B\) and compressing by \(J\) gives the required kernel coefficient in the group algebra.
-For infinite spectral support, test whether a recurrence with group-algebra coefficients on the columns \((B^*B)^jJ\) still isolates the zero projection by scalar rational operations.
+Group-algebra coefficients can recover the kernel corner for some pencils of infinite spectral support, but a pencil over the free group \(F_2\) has rational kernel corner and admits no such relation of any degree. [Formula and obstruction](../ledger/Yin_L_A0075_v1.md#a-free-group-pencil-with-no-right-polynomial-relation)
+For a specified pencil the remaining analytic question is whether its compressed resolvent has a rational expression all of whose inverses are defined at zero. [Regular specialization](../ledger/Yin_L_A0075_v1.md#regular-specialization-of-the-compressed-resolvent)
+A single maximal-rank fiber suffices for matrices over a central free abelian direct factor, with the rank loss giving the exact error at every other fiber having a rational kernel projection. [Fiber formula](../claims/Yin_C_A0132_v1.md#argument)
+For amenable groups, target finite generation of the right annihilator of a scalar rational element. [Exact algebraic criterion](../claims/Yin_C_A0133_v1.md#the-amenable-case)
+Right coherence of the original group algebra suffices, whereas a free-group pencil shows why finitely supported solutions need not span the required kernel outside the amenable case. [Kernel generators](../ledger/Yin_L_A0076_v1.md#amenable-groups-with-a-right-coherent-complex-group-algebra)
+For a coamenable subgroup with regular division closure, [finite coset matrices](../claims/Yin_C_A0134_v1.md#lifting-kernel-columns) give positive rational annihilators with ranks approaching the full kernel dimension.
+The remaining step is attainment of that rank by one rational annihilator, equivalently the exact finite membership \(p_{\ker x}\in \operatorname{ann}_{D_G}(x)U_G\). [Principal-ideal obstruction](../ledger/Yin_L_A0077_v1.md#the-obstruction-for-one-principal-right-ideal)
+Test whether the cyclic quotient case admits a uniform finite generation argument for the annihilator at a rational input over a regular base with zero divisors.
 A negative resolution requires proving nonmembership of the actual coefficient for a specified torsion-free group.
 The finite-index result excludes proposed counterexamples commensurable with groups already known to admit complete deletion.

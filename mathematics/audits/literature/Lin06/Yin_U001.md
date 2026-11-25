@@ -162,3 +162,13 @@ Conversely, an abstract division-ring embedding or a universal matrix localizati
 
 The source's open-problem remarks describe the 2004/2006 text.
 This unit does not present those historical remarks as a current classification of arbitrary crossed products.
+
+## Regularity of the rational closure
+
+On November 25, 2026 a researcher read the notation and Problems 4.2 through 4.5 in the [arXiv second version, pp. 8–9](../../../literature/pdf/Lin06--arxiv-v2.pdf#page=8), checking Problem 4.4 also against [the published chapter, p. 51](https://webhomes.maths.ed.ac.uk/~v1ranick/books/nlat.pdf#page=61).
+Linnell writes \(R(kG)\) for the matrix rational closure in \(\mathcal U(G)\).
+Problem 4.4 asks whether this ring is von Neumann regular for every group \(G\) and every subfield \(k\subseteq\mathbb C\).
+Problem 4.5 singles out the complex lamplighter group algebra, and Proposition 4.3 addresses invertibility of non-zero-divisors for amenable groups.
+For \(k=\mathbb C\), the [scalar Gram argument](../../../claims/Yin_C_A0131_v2.md#linear-pencils-for-scalar-rational-operations) identifies Linnell's matrix rational closure with the scalar division closure \(D_G\) used in [A0003](../../../tasks/Yin_T_A0003_v3.md#contract).
+Thus Problem 4.4 specializes exactly to the regularity question equivalent to complete deletion for finitely generated torsion-free groups.
+The published question supplies the historical formulation and scope.
