@@ -62,6 +62,10 @@ For a pencil \(zI-X\), test stabilization of \(\ker X^m\) to determine whether i
 In the sofic case a single parameter escaping finite exceptional sets makes two ordinary matrix ranks in the same finite permutation models sufficient for the kernel projection test. [Finite-model witnesses](../claims/Yin_C_A0144_v1.md#statement)
 For each \(x\in D_G\), seek approximate idempotents with residue \(p_{\ker x}\) in a single finite group support, realization size and polynomial degree.
 At fixed bounds the rank gap for a polynomial family makes a sufficiently deep approximation exact, and a compression recovers the constant projection. [Finite determination](../claims/Yin_C_A0149_v1.md#statement) and [recovery](../claims/Yin_C_A0147_v1.md#statement)
+Aim for sublinear degree at fixed support and size, since degree \(N\) at order \(N\) is always attainable. [Linear threshold](../claims/Yin_C_A0151_v1.md#statement)
+With varying support, compare ordinary evaluations in the rank metric using the product of degree and matrix size divided by jet order. [Rank error](../claims/Yin_C_A0155_v1.md#statement)
+Bounding just the number of group elements in a support fails for the zero test in a single elementary amenable group with torsion. [Support-cardinality obstruction](../claims/Yin_C_A0153_v1.md#statement)
+When restricting to commuting auxiliary observables, test whether the zero part of their joint law gives mass to the algebraic closure of the positive part. [Exact separation condition](../claims/Yin_C_A0154_v1.md#statement)
 For graph groups, rationality of the expected edge support gives the kernel from two vertex rows. [Graph kernels](../claims/Yin_C_A0145_v1.md#statement)
 For cyclic edges in virtually locally indicable groups the shift on an amalgam of copies recovers this support after finitely many steps. [Cyclic intersection](../claims/Yin_C_A0148_v1.md#statement)
 For other edge algebras test the finite-copy inequality on every edge subprojection, then establish rational descent to the edge division closure. [Exact finite-copy test](../claims/Yin_C_A0150_v1.md#statement)

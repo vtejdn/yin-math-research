@@ -317,3 +317,4 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Cos00 source notes](Cos00/readme.md#ordered-real-field) | Tarski–Seidenberg for first-order formulas over the reals in Coste’s October 2002 text |
 | [Nic76/Yin_U001](Nic76/Yin_U001.md#nic76-u001) | Semiregularity modulo the Jacobson radical |
 | [Ued08/Yin_U001](Ued08/Yin_U001.md#ued08-u001) | The amplified HNN model in Proposition 2.1 |
+| [You13/Yin_U001](You13/Yin_U001.md#you13-u001) | Six elementary generators in the presentation of the integral special linear group |

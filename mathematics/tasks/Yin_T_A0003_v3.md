@@ -80,11 +80,18 @@ A single rational inverse recovers the projection from any such lift. [Idempoten
 Finite-order lifts always exist.
 They imply exact lifting when their group support, realization size and polynomial degree stay bounded as the order grows, even with varying complex coefficients and inverse pole orders. [Finite determination](../claims/Yin_C_A0149_v1.md#statement)
 Whether those bounds exist for each rational input in every finitely generated torsion-free group remains open.
+At fixed finite group support and matrix size the polynomial degree may grow sublinearly with the jet order \(N\).
+This is still an exact criterion for membership in \(D_G\), while every regular-closure residue admits a realization of degree at most \(N\). [Sublinear degree criterion](../claims/Yin_C_A0151_v1.md#statement)
+Allowing the group support to vary gives a quantitative rank approximation whenever size times degree grows sublinearly.
+For a full constant jet the error at each admissible scalar parameter is at most \(nd/N\), where \(n\) is the realization size and \(d\) its degree. [Specialization estimates](../claims/Yin_C_A0155_v1.md#statement)
+An example over the infinite cyclic group has a rational matrix kernel projection which no rational function of the positive matrix alone can recover.
+The joint law with one additional commuting group-ring observable separates the kernel from the positive part. [Spectral separation](../claims/Yin_C_A0154_v1.md#statement)
 Requiring every rational element after adjoining a central group generator to arise from a formal Laurent series would imply the complex strong Atiyah conjecture across these groups. [Evaluation and stable kernels](../claims/Yin_C_A0146_v1.md#statement)
 
 The unrestricted equation also suffices for graph groups with regular vertex division closures and finite edges, or under the specified amenable-action and edge-ring hypotheses. [Graph theorem](../claims/Yin_C_A0145_v1.md#statement)
 For virtually locally indicable groups and cyclic edges one can recover the expected support of a rational projection from finitely many copies. [Cyclic support theorem](../claims/Yin_C_A0148_v1.md#statement)
 A variational formula gives the exact trace still missing after any prescribed number of free copies over an edge algebra. [Free copies](../claims/Yin_C_A0150_v1.md#statement)
+Two affiliated vertex commutators of full row rank suffice to recover kernels of additive rational matrices even on a torsion-free cyclic amalgam without an amenable action free on the edge. [Vertex commutators](../claims/Yin_C_A0152_v1.md#statement)
 
 ## Current decision
 
