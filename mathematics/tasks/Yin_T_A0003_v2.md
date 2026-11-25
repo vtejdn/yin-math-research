@@ -34,8 +34,7 @@ For the particular choice of (1) with unrestricted finite-rank witnesses, the [e
 This identifies the [earlier kernel-projection question](Yin_T_A0003_v1.md#contract) as the specialization that asks for (1) verbatim.
 
 ## Current decision
-
-[Revised objective](#decision-revised-objective)
+[Selected decision](#decision-finite-rank-characterization)
 
 ## Lifecycle and completion
 
@@ -53,3 +52,20 @@ This identifies the [earlier kernel-projection question](Yin_T_A0003_v1.md#contr
 | contract | [Finite-rank criterion](#contract) | A finite-rank commutator criterion for every affiliated element of every finitely generated torsion-free group, allowing coverage of all finitely generated groups. |
 | support | [Finite-rank commutation on a subspace](../claims/Yin_C_A0131_v3.md#decision-local-commutation) | The fraction equation and a local commutation test using only finite-rank operators as test maps on the regular Hilbert space. |
 | support | [Criterion with a range condition](../claims/Yin_C_A0131_v2.md#decision-division-closure-criterion) | An established variant valid for every finitely generated group in its regular representation. |
+
+### Decision finite-rank-characterization
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-25T07:45 |
+| status | completed |
+| authority | Yin requested a completion determination for the revised finite-rank objective. |
+| reason | The fraction equation together with the local commutation condition is necessary and sufficient for division-closure membership of every affiliated element of every finitely generated group. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| contract | [A0003 objective](#contract) | A finite-rank commutator criterion in the regular representation under at most torsion-freeness. |
+| support | [Finite-rank characterization](../claims/Yin_C_A0131_v3.md#statement) | Both directions for every affiliated element, including unbounded elements, using the same fraction pair, witnesses and finite-dimensional subspace. |
+| dependency | [Affine realizations and scalar pivots](../claims/Yin_C_A0131_v2.md#linear-pencils-for-scalar-rational-operations) | Realization at all finite inverse depths and inversion of injective positive group-algebra matrices by scalar division closure. |
+| dependency | [Fraction and finite-rank witnesses](../claims/Yin_C_A0131_v2.md#constructing-the-finite-rank-operators) | Common bounded denominators, an affine row and solutions of the fraction equation with the specified ranges. |
+| review | [Independent completion review](../audits/reviews/Yin_R_A0165_v4.md#completion-of-a0003) | Full proof of the characterization, its required inputs and coverage of the revised contract. |
