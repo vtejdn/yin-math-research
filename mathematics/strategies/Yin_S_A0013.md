@@ -55,6 +55,11 @@ In the regular representation a coproduct slice with a positive rational density
 The remaining intrinsic test admits a formal variable: for \(T=X^*X\), each entry of \(z(T+zI)^{-1}\) is a power series in the scalar division closure over \(\mathbb CG[z]\), with constant term the corresponding kernel entry.
 Investigate whether those particular constant terms can be represented by constant series in the same closure, starting with two columns where finite elimination is unavailable. [Constant terms and constant series](../claims/Yin_C_A0141_v1.md#statement)
 The [lamplighter encoding](../claims/Yin_C_A0138_v1.md#encoding-the-input-columns) supplies a scalar test for the same kernels at every width, with torsion in the auxiliary factor.
+For an additive matrix on an amalgam, use operator-valued free additive convolution to obtain a maximizing edge projection.
+When that projection is rational over the edge and both vertex division closures are regular, one Gram inverse recovers the entire kernel and gives an expression for its scaled resolvent defined at zero. [Recovery of the zero atom](../claims/Yin_C_A0142_v1.md#statement)
+The central series admit asymptotic evaluation in measure to every order, even in examples where their pointwise sums diverge.
+For a pencil \(zI-X\), test stabilization of \(\ker X^m\) to determine whether its analytic inverse at the central shift comes from the formal ring. [Laurent asymptotics](../claims/Yin_C_A0143_v1.md#statement)
+In the sofic case a single parameter escaping finite exceptional sets makes two ordinary matrix ranks in the same finite permutation models sufficient for the kernel projection test. [Finite-model witnesses](../claims/Yin_C_A0144_v1.md#statement)
 Test whether the scalar case can be lifted by one column over a torsion-free group, analyzing the relative inverse on the kernel left by the preceding columns.
 On the original finite-rank witnesses a single positive denominator suffices, while fixing it spectrally or choosing a least-norm solution fails already for the two-torus. [Single denominator](../claims/Yin_C_A0135_v1.md#statement) and [least-norm obstruction](../ledger/Yin_L_A0079_v1.md)
 A negative resolution requires proving nonmembership of the actual coefficient for a specified torsion-free group.

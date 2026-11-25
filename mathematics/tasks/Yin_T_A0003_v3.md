@@ -68,6 +68,13 @@ On the original group a finite set of relations detecting the closed range of a 
 For the presentation gradient this reduction is possible precisely at vanishing first \(L^2\)-Betti number. [Elimination of columns](../claims/Yin_C_A0139_v1.md#statement)
 Tracial representations with all prescribed finitely many regular moments and injective nonzero scalars can still fail the two-column test. [Marked tracial example](../claims/Yin_C_A0140_v1.md#statement)
 
+In a free product, regularity of both vertex division closures now suffices for complete deletion.
+The same recovery of the zero atom works over a finite edge, or over a semisimple Artinian edge division closure when the edge group acts freely on a coamenable coset space of the amalgam. [Free convolution and the kernel projection](../claims/Yin_C_A0142_v1.md#statement)
+Every formal rational expression from the one-parameter test can be evaluated outside a countable exceptional set, and its formal coefficients give all orders of its asymptotic expansion in measure.
+For a group-ring matrix \(X\), the resolvent at the central shift \(Z\) belongs to the image of this formal ring precisely when the kernels of the powers of \(X\) stabilize.
+Even on \(\mathbb Z\), agreement of every asymptotic coefficient can coexist with divergence of the series at each sufficiently small positive argument. [Analytic specialization](../claims/Yin_C_A0143_v1.md#statement)
+For a sofic group, rationality of any given matrix kernel projection is equivalent to two normalized ranks in finite models tending to the same prescribed integer for one fixed polynomial witness. [Finite-model test](../claims/Yin_C_A0144_v1.md#statement)
+
 ## Current decision
 
 [Reopened research](#decision-reopened)
