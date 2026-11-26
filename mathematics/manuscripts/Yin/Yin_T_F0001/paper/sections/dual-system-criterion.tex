@@ -404,7 +404,13 @@ Lemma~\ref{lem:fraction-ranks} gives the same rank for every fraction pair for $
 
 In one variable, write $A(x)=A_0+xA_1$ for the pencil in the minimal linear representation $r=uA^{-1}v$ used in Proposition~\ref{prop:fraction-commutator-rank}.
 Its determinant is a nonzero polynomial because $A(x)$ is invertible over $\C(x)$.
-Choose $\lambda\in\C$ with $A(\lambda)$ invertible and write $r(\lambda+z)=\sum_{n\geq 0}c_nz^n$.
+Choose $\lambda\in\C$ with $A(\lambda)$ invertible.
+Since $\det A(\lambda)\ne 0$, the entries of $A(x)^{-1}=\operatorname{adj}(A(x))/\det A(x)$ are analytic near $\lambda$, and so is $r(x)=uA(x)^{-1}v$.
+The Taylor expansion of $r$ at $\lambda$ is
+\[
+ r(\lambda+z)=\sum_{n\geq 0}c_nz^n,
+ \qquad c_n=\frac{r^{(n)}(\lambda)}{n!}.
+\]
 The free difference quotient is the divided difference, which has the expansion
 \[
  \frac{r(\lambda+z)-r(\lambda+w)}{z-w}
