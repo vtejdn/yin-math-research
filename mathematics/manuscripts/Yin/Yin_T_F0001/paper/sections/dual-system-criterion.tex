@@ -402,8 +402,9 @@ It follows that $\overline{\Gamma[Q,D_i]}=BA_iC$ has rank $\rank_{\C}A_i$, since
 Lemma~\ref{lem:fraction-ranks} gives the same rank for every fraction pair for $f$.
 \end{proof}
 
-In one variable, write $A(x)=A_0+xA_1$ for the pencil in the minimal linear representation $r=uA^{-1}v$ used in Proposition~\ref{prop:fraction-commutator-rank}.
-Its determinant is a nonzero polynomial because $A(x)$ is invertible over $\C(x)$.
+When \(d=1\), let \(D_1\) be a dual operator for a normal operator \(X\) as in Proposition~\ref{prop:fraction-commutator-rank}.
+Write $A(x)=A_0+xA_1$ for a minimal linear representation $(u,A,v)$ of $r$ used in Proposition~\ref{prop:fraction-commutator-rank}.
+The determinant $\det A(x)$ is a nonzero polynomial because $A(x)$ is invertible over $\C(x)$.
 Choose $\lambda\in\C$ with $A(\lambda)$ invertible.
 Since $\det A(\lambda)\ne 0$, the entries of $A(x)^{-1}=\operatorname{adj}(A(x))/\det A(x)$ are analytic near $\lambda$, and so is $r(x)=uA(x)^{-1}v$.
 The Taylor expansion of $r$ at $\lambda$ is
@@ -416,7 +417,6 @@ The free difference quotient is the divided difference, which has the expansion
  \frac{r(\lambda+z)-r(\lambda+w)}{z-w}
  =\sum_{j,k\geq 0} c_{j+k+1}z^jw^k.
 \]
-Taylor expansion at $\lambda$ is injective on rational functions regular there, so it preserves the linear independence of each family $(g_j)_j$ and $(h_k)_k$ from the proof.
 Hence the tensor rank of $\partial_1 r$ equals the algebraic rank of $(c_{j+k+1})_{j,k\geq 0}$, the Hankel matrix of the Laurent series $r(\lambda+z^{-1})-r(\lambda)$.
-By Proposition~\ref{prop:fraction-commutator-rank}, this is also the rank of $\overline{\Gamma[Q,D_1]}$ for every fraction pair $Q$ for $r(X)$.
-Kronecker's theorem \cite[Articles~VII and~IX]{Kro81} characterizes rationality of a Laurent series vanishing at infinity by finite Hankel rank and identifies this rank with the degree of the reduced denominator.
+Recall that Kronecker's theorem \cite[Articles~VII and~IX]{Kro81} characterizes rationality of a Laurent series vanishing at infinity by finite rankness of its Hankel matrix.
+Thus Proposition~\ref{prop:fraction-commutator-rank} can be understood as a noncommutative analogue of Kronecker's theorem, relating the rank of the commutator to a measure of the rationality complexity of the underlying function.
