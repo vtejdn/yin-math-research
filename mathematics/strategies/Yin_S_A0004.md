@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. For two labels, concentrate on the short normal closures required at half nullity and on the scalar kernel obtained with one bounded positive denominator. At orders 20, 25 and 26 test the two-coordinate and companion remainders over the original perfect commutator subgroup. |
+| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. For two labels, test the two-sided denominator obstruction on the index-two sign subgroup and the compatible norm matrices on the common index-four subgroup. When neither sign separates the marks, test the nonclosed positive Schur scalar and the original group-ring companion remainders. |
 
 ## Rank-one commutator sums in the regular representation
 
@@ -79,15 +79,28 @@ Under scalar group-ring injectivity the [four-column reduction](../claims/Yin_C_
 Every noninteger rank in that pencil family requires two full four-dimensional coefficient spans and invertible cyclic blocks, leaving a transfer \(sI_2-M(t)\).
 If \(1,s,s^2,s^3\) represent four distinct right cosets of \(\langle t,sts^{-1},s^2ts^{-2}\rangle\), the [quartic transfer theorem](../claims/Yin_C_A0325_v1.md#statement) gives a strictly positive gap below \(1/2\) for every noninteger rectangle nullity and for the smaller support trace of every permitted rank-one commutator output.
 The gap is uniform in all four coefficient matrices on a finite neighborhood of each such marking.
-For a putative half witness, three consecutive \(s\)-conjugates of \(t\) must generate its normal closure with quotient of order at most three.
+For a putative half witness, three consecutive \(s\)-conjugates of \(t\) generate its normal closure, and the [three-phase estimate](../claims/Yin_C_A0327_v1.md#actual-phases-and-the-normal-closure-of-a-mark) reduces the index of this subgroup to at most two.
 If a sign character fixes \(t\) and negates \(s\), two consecutive conjugates already generate its index-two kernel.
-Both tests apply with the marks exchanged; in every abelian quotient each single mark must therefore generate a subgroup of index at most three.
-For three distinct cosets the [cubic classification](../claims/Yin_C_A0326_v1.md#statement) gives a strict local gap below \(2/3\); the half value still requires further information in this case.
+Both tests apply with the marks exchanged.
+For three distinct window cosets the [cubic classification](../claims/Yin_C_A0326_v1.md#statement) gives a strict local gap below \(2/3\).
+An actual order-three character fixing \(t\) and separating \(s\) improves the upper bound to \(1/3\); a marking with three distinct cosets alone may lack this character.
+More generally, if \(U=s^{-1}P(t)Q(t)^{-1}\) has a fractional eigenspace, the [rank of each nonzero polynomial in \(U\) of degree at most three](../claims/Yin_C_A0329_v1.md#statement) is at least one.
+Hence two distinct eigenvalues whose kernel dimensions sum to one exhaust the allowable point spectrum.
+
+For such a pair the [two actual Schur kernels](../claims/Yin_C_A0330_v1.md#statement) are given by complementary scalar idempotents after adjoining one specified group-ring inverse; the direct sum has inner rank exactly three there.
+Their [orthogonal projections and the two rank-one outputs](../claims/Yin_C_A0295_v2.md#statement) admit bounded commutator witnesses over the original group with one further inverse.
+In the sign case test the explicit scalar norm \(V\,{\rm Ad}_{s^{-1}}(V)=s^2\) on the index-two kernel: no nonzero group-ring multipliers can clear \(V\) from both sides.
+An integer-valued homomorphism on \(K_0(D_1(H))\) invariant under the sign and odd on the unit would also exclude the half kernel.
+When both signs are available simultaneously, an [eight-site group-ring matrix on their common index-four subgroup](../claims/Yin_C_A0331_v1.md#statement) must have rank two and no polynomial row or column syzygy.
+Its [explicit second-layer kernel basis](../claims/Yin_C_A0331_v2.md#statement) realizes both norm equations with the actual commutator compatibility on the same two coordinates.
+Test whether this particular rank-two matrix has a finite-dimensional evaluation of larger rank and whether its two norm equations can hold in that subgroup.
 
 For every fractional rectangle there is a constant input direction with [positive invertible scalar Gram entry](../claims/Yin_C_A0323_v1.md#statement).
 The resulting single positive Schur scalar has exactly the original nullity.
 Test its kernel projection in the reduced group algebra, including at nonclosed range, using the [two-coordinate graph and weighted Fourier criteria](../claims/Yin_C_A0323_v2.md#statement).
-The remaining group equations and the regular trace must still exclude the scalar kernel at the desired dimension.
+Under rapid decay, test the [positive spectral mass in an annulus around each small spectral point](../claims/Yin_C_A0323_v3.md#statement) using finite original-group Gram moments.
+A finite negative moment at the critical exponent would imply closed range; the estimates alone do not give the trace of the zero projection.
+The [free-pair column estimate](../claims/Yin_C_A0323_v4.md#statement) also supplies a bounded positive pivot for suitable Laurent-vector columns on two translates, allowing the other column to have arbitrary finite support.
 The [endpoint geometry and coefficient determinant](../claims/Yin_C_A0182_v2.md#a-coefficient-determinant-for-constant-directions) test whether a proposed ordinary rank-one witness can have those endpoint directions.
 If the subgroup generated by the labels maps onto the integers, the [character deformation and opposite pivot](../claims/Yin_C_A0179_v1.md#off-diagonal-pivot-and-the-coefficients-of-the-remaining-scalar) exclude **every** fractional rank in the four-column family under the scalar hypothesis.
 For the normalized transfer, an integer character with reduced denominator at least three for the ratio of the two nonzero label weights even gives full rank by torsion-freeness alone.
@@ -98,7 +111,11 @@ At the critical marking of order 32, [comparison of two augmented characteristic
 More generally equality gives an [actual finite-support kernel column](../claims/Yin_C_A0197_v1.md#the-companion-and-a-column-over-the-original-group-ring), whose generated module would have dimension one inside a smaller kernel.
 Using the [full character group of a finite abelian quotient](../claims/Yin_C_A0198_v1.md#the-lattice-of-all-finite-characters) now excludes half rank for quotient **order** 23 or at least 27 by the [combined order test](../claims/Yin_C_A0201_v1.md#consequence-for-finite-abelian-quotient-orders).
 The [short characters on all cyclic divisors](../claims/Yin_C_A0311_v1.md#statement) give nullity at most \(9/19,3/7,5/11\) for a noninteger input at orders 19, 21 and 22 respectively.
-Together with the order-24 exclusion below, a half increment now requires finite abelianization of order at most 18 or exactly 20, 25 or 26.
+Combining the order bounds, individual mark indices and all short-character costs leaves [35 marked abelianizations](../claims/Yin_C_A0332_v1.md#statement) up to quotient isomorphism, inversions and exchange.
+These comprise the trivial group, thirty nontrivial cyclic markings and one marking on each of \(C_2^2,C_4\times C_2,C_6\times C_2,C_{10}\times C_2\).
+At cyclic order 16 only \((1,6)\) survives these comparisons.
+Its [remaining metabelian module](../claims/Yin_C_A0328_v3.md#statement) is an odd-order cyclic \(\mathbb Z[\zeta_{16}]\)-module of size at most \(2^{40}\), with \(S^8=-I\).
+Test the primitive sixteenth-root action and the sign-kernel scalar norm at this marking.
 A [cyclic quotient of order 20](../claims/Yin_C_A0314_v1.md#statement) excludes a half increment for every marking.
 At the only candidate degrees the [five evaluations of a bounded transfer](../claims/Yin_C_A0312_v1.md#statement) first force zero trace and then contradict the original-group coefficient supports.
 With simple poles, the number of group labels having the same coefficient modulus grows along each geometric sequence; the two sequences cannot have the required marked degrees.
@@ -109,7 +126,7 @@ If there is a nonabelian solvable image, the [uniform bound \(19/40\)](../claims
 In particular \(H'\) must be perfect at equality.
 The proof uses the [sixteen-point affine test](../claims/Yin_C_A0317_v1.md#statement) on the two-primary component and [ten coupled channels](../claims/Yin_C_A0319_v1.md#statement) on the nontrivial signs.
 On this perfect subgroup, test the two degree-three deformations of the same rectangle arising from weights \((1,2),(2,-1)\); their six-dimensional companions each have a rank-one remainder at the ten actual phases.
-Both binary characters also force the adjacent-pair generation condition in the two label directions.
+Compare those remainders with the simultaneous rank-two basis on the common index-four subgroup, whose abelianization is cyclic of order five since it contains the perfect commutator subgroup.
 
 For a cyclic quotient of order 26 the remaining marking is \((1,10)\); at order 25 it is \((1,7)\), in both cases with four invertible coefficient matrices.
 The [six- and seven-point permutation tests](../claims/Yin_C_A0306_v1.md#statement) show that every action on at most seven points has cyclic image under the half-rank hypothesis.

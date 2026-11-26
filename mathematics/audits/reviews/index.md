@@ -219,6 +219,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0223](Yin_R_A0223_v1.md#level-sets-of-the-bounded-middle-product) | Cubic and quartic transfers, finite coefficient matching and strict window bounds | [v1](Yin_R_A0223_v1.md) |
 | [Yin_R_A0224](Yin_R_A0224_v1.md#ten-coupled-channels-at-the-exceptional-primes) | Ten coupled channels and the gap at noncyclic order 20 | [v1](Yin_R_A0224_v1.md) |
 | [Yin_R_A0225](Yin_R_A0225_v1.md#a-bounded-scalar-pivot-in-the-regular-representation) | A bounded scalar Gram pivot and the two kernel projections at nonclosed range | [v1](Yin_R_A0225_v1.md) |
+| [Yin_R_A0226](Yin_R_A0226_v1.md#three-phases-on-a-common-circle) | Rank bounds for cubic remainders and arbitrary spectral parameters | [v1](Yin_R_A0226_v1.md) |
+| [Yin_R_A0227](Yin_R_A0227_v1.md#two-original-kernels-after-one-scalar-inverse) | Original-group Schur witnesses, inner ranks and index-four descent | [v1](Yin_R_A0227_v1.md) |
+| [Yin_R_A0228](Yin_R_A0228_v1.md#corner-ranks-and-dihedral-images-at-order-sixteen) | The remaining marked abelianizations and the sixteenth-root module | [v1](Yin_R_A0228_v1.md) |
+| [Yin_R_A0229](Yin_R_A0229_v1.md#spectral-mass-at-each-positive-schur-spectral-point) | Positive Schur spectral mass and columns on two cyclic translates | [v1](Yin_R_A0229_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

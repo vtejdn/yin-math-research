@@ -68,3 +68,19 @@ Run `node verify_five_fibers.mjs` in this directory.
 The [verifier](verify_five_fibers.mjs) selects two fourth-root eigenvalues with multiplicity in each of five fibers, multiplies their linear factors and tests the six missing-coefficient equations over the field with 101 elements.
 Of the 100000 choices, the numbers surviving with zero through five opposite pairs are respectively 0, 0, 0, 0, 60 and 32.
 The [five-fiber argument](../../../claims/Yin_C_A0312_v1.md#the-five-numerical-fibers) explains why these finite-field ranks give a necessary condition on complex matrices.
+
+## Four-channel matchings at the order-sixteen marking
+
+Run `python -B verify_four_phase_extrema.py` in this directory with assertions enabled.
+The [standard-library verifier](verify_four_phase_extrema.py) checks the seven fourth-root module certificates in the [order-sixteen calculation](../../../claims/Yin_C_A0328_v2.md#all-small-fourth-root-modules).
+The 256 paths give sixteen admissible pairs of used edge sets.
+At every tested minimum the single-path sites require only the second-site coefficient or the product-site coefficient, and at every maximum they require only the identity-site or the first-site coefficient.
+The two extremal pairs are unique in all seven cases; the numerical extrema are printed with the four integer weights.
+
+## Eight-channel interval and matching tests
+
+Run `python -B verify_eighth_phase_extrema.py` in this directory with assertions enabled.
+The [standard-library verifier](verify_eighth_phase_extrema.py) covers all prime-field and quadratic eighth-root modules of odd order at most \(16^4\).
+The interval test leaves 41 of 1614 split primes and 14 of 86 quadratic factors; testing each marked root leaves 178 cases for the weighted matchings.
+For each possible missing singleton corner it checks the unique extremal flow and the ratio of matching spread to \(128p\), with maximum \(11/48\) over the chosen certificates.
+The [order-sixteen proof](../../../claims/Yin_C_A0328_v3.md#both-possible-missing-corners-at-the-remaining-178-markings) supplies the original representation and the rank estimate.

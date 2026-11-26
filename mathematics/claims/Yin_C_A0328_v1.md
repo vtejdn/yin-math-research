@@ -1,0 +1,115 @@
+---
+author: Yin
+---
+
+# Singular corner costs and the dihedral obstruction at the order-sixteen marking of degrees one and six
+
+## Statement
+
+Let \(H=\langle s,t\rangle\) be torsion-free with regular scalar group-ring injectivity and a character of order sixteen with marked degrees \(1,6\).
+For \(K=B+At-s(D+Ct)\) with complex two-square corners, write \(\delta=\dim_H\ker K\) using unnormalized coordinate trace, and suppose its regular rank is noninteger.
+Then
+\[
+ \begin{aligned}
+ B\text{ or }C\text{ singular}&\quad\Longrightarrow\quad \delta\le7/16,\\
+ A\text{ and }D\text{ singular}&\quad\Longrightarrow\quad \delta\le3/8 .
+ \end{aligned}
+\]
+If there is also a dihedral quotient sending \(s\) to a reflection and \(t\) to a generator of the rotations of odd order \(m\ge3\), then \(\delta\le11/24\) for \(m=3\) and \(\delta\le7/16\) for \(m\ge5\).
+
+Consequently at a half kernel with this cyclic quotient the abelianization is \(C_{16}\), there is no nonabelian dihedral image, and if \(S\) acts by conjugation by \(s\) on \(M=H'/H''\), both \(S-I\) and \(S+I\) are automorphisms of the finite abelian group \(M\) of odd order.
+In particular \(\Phi_4(S)\Phi_8(S)\Phi_{16}(S)M=0\).
+This leaves the three indicated cyclotomic components available.
+
+## Degree lost at singular extreme corners
+
+We give the estimate also for other marked character lifts with unequal nonzero absolute weights.
+Let the character have exponent parameter \(n\) and choose such a lift \((u,v)\).
+Put \(d=|u|+|v|\), \(g=\min(|u|,|v|)\), so \(d>2g\).
+After a monomial shift the rectangle polynomial is
+\[
+                 Q(z)=Q_0+z^g Q_g+z^{d-g}Q_{d-g}+z^d Q_d .
+\]
+Each coefficient \(Q_j\) is one numerical corner, with sign and group translation.
+The [central-parameter rank theorem](Yin_C_A0180_v1.md#an-integer-rank-for-a-formal-circle-parameter) gives maximum regular rank two and nullity \(\delta\in(0,1)\) at each of the \(n\) roots of unity.
+Here the generic integer rank is two since the noninteger rank is strictly between one and two by scalar injectivity.
+If \(r\) of the two extreme numerical corners are singular, then
+\[
+                              n\delta\ \le\ 2d-rg-1 .
+\]
+
+If there is only one singular end, reverse the polynomial when needed so it is the constant term.
+Take a constant column basis beginning with a vector in its kernel and divide the first column by \(z^g\).
+The prescribed column degrees after this change are \(d-g,d\).
+If both ends are singular, choose a line in each of their numerical kernels.
+For distinct lines, use one basis vector on each, the low-end vector first, and divide that first column by \(z^g\).
+Both columns now have prescribed degree \(d-g\).
+For identical lines, take the common vector first, complete to a basis, and again divide the first column by \(z^g\).
+Its prescribed degree is \(d-2g\) and the other's is \(d\).
+For two full endpoints keep the original degrees \(d,d\).
+These operations preserve the kernels at nonzero parameters up to an invertible change of input.
+Every prescribed degree \(d_j\) is positive and their sum is \(2d-rg\).
+Because the four indicated exponents are distinct, the top coefficient of each resulting column at its own prescribed degree is a single constant vector times a group element, allowing the zero vector.
+Thus the matrix of these two top columns either has regular rank at most one or is invertible over \(\mathbb CH\), by taking the group factors on the right of the numerical columns.
+
+In the first case reverse the columns with their respective degrees, replacing column \(j\) by \(z^{d_j}Q_j^{\rm col}(1/z)\).
+The rank at zero is then at most one, and at all roots the nullity is still \(\delta\).
+Applying the [column-degree interpolation inequality](Yin_C_A0202_v2.md#column-widths-and-interpolation) to those \(n+1\) points gives \(n\delta+1\le d_1+d_2\).
+More explicitly, evaluate the outputs of polynomial inputs of respective degrees less than \((n+1-d_j)_+\).
+Full generic rank makes the map on these polynomial inputs injective, while their outputs have degree at most \(n\) and embed by evaluation in the sum of the \(n+1\) matrix ranges.
+Comparing dimensions gives total nullity at most \(\sum_j\min(n+1,d_j)\).
+
+In the other case multiply on the left by the inverse top matrix.
+For each input variable \(v_j\) use the states \(v_j,zv_j,\ldots,z^{d_j-1}v_j\).
+The two polynomial equations now solve for \(z^{d_j}v_j\) using the lower states with group-ring coefficients, since the two top columns are the standard basis.
+Together with the shift rows this gives a companion in \(d_1+d_2\) coordinates over \(\mathbb CH\), whose eigenspace at a scalar \(z\) identifies with the polynomial kernel via the initial states.
+If its \(n\)-th power were the identity, the interpolation idempotent for the root one would have a nonzero group-ring column in an eigenspace of dimension \(\delta<1\).
+Scalar injectivity gives dimension one to the submodule generated by such a column, which is impossible.
+The companion remainder is therefore a nonzero group-ring matrix and has rank at least one.
+Its kernel is the direct sum of the \(n\) root eigenspaces by interpolation, proving the bound. [Finite-support argument](Yin_C_A0197_v1.md#the-companion-and-a-column-over-the-original-group-ring)
+
+At the order-sixteen marking take \((u,v)=(3,2)\) modulo sixteen, a multiple of \((1,6)\).
+The extreme coefficients are \(B,-sCt\), and \(d=5,g=2\).
+One singular end gives \(16\delta\le7\), and two give \(16\delta\le5\).
+For the quotient of order eight with weights \((1,-2)\) the polynomial after shifting is \(At-zsCt+z^2B-z^3sD\).
+Its extremes have corners \(A,D\), so two singular ends give \(8\delta\le3\).
+
+## Two-dimensional twists and the sign quotient
+
+It suffices to estimate the cases \(\delta>7/16\).
+Here \(B,C\) are invertible and at least one of \(A,D\) is invertible by the two lifts.
+If \(m\ge5\), at each \(z^m=1\) send the dihedral reflection to the swap and the rotation to \(\operatorname{diag}(z,z^{-1})\).
+After multiplying the second column block of the twisted rectangle by \(z\), its constant coefficient is
+\[
+                  \begin{pmatrix} B&-sCt\\-sD&At\end{pmatrix}.
+\]
+Eliminating \(B\) leaves \((A-s^2 DB^{-1}C)t\).
+The determinant of the numerical polynomial \(A-yDB^{-1}C\) is nonzero, by its constant coefficient if \(A\) is invertible and its highest coefficient if \(D\) is invertible.
+Since \(s^2\) has infinite order, the constant coefficient of the twisted four-square pencil has full regular rank.
+The two-channel [column-degree bound](Yin_C_A0204_v1.md#the-bound-using-individual-column-widths) gives \(2m\delta\le4\), contradicting \(\delta>7/16\).
+
+At \(m=3\), tensor the given cyclic character at \(z^3\) with the reflection swap and rotation phases \(z^{16},z^{-16}\) for all \(z^{48}=1\).
+The resulting \(s\) acts as \(z^3\) times the swap and \(t\) acts diagonally with exponents \(2,-14\), in that order after possibly swapping the channels.
+These exponents are \(18-16\) and \(18+16\) reduced modulo 48.
+All group translations remain in the twisted rectangle, whose nullity is \(2\delta\) at each of these genuine unitary representations by regular absorption.
+Multiply the second block column by \(z^{14}\).
+The two scalar columns in block one now have degree at most five, and the two in block two degree at most seventeen.
+At zero the matrix is block diagonal with blocks \(B,At\), which are invertible if \(A\) is invertible.
+At the reverse endpoint, reversing the two block columns with degrees five and seventeen, the matrix is block antidiagonal with blocks \(-sCt,-sD\), which are invertible if \(D\) is invertible.
+Therefore there is full generic rank in all cases, and the individual degree bound gives \(96\delta\le2(5+17)=44\).
+
+At \(\delta=1/2\), an abelianization properly covering the given quotient would be infinite or of finite order at least thirty-two, both excluded by the [abelian order bound](Yin_C_A0201_v1.md#consequence-for-finite-abelian-quotient-orders).
+Hence \(H_{\rm ab}=C_{16}\).
+A nonabelian finite dihedral image has odd rotation period, since an even period gives abelianization \(C_2^2\).
+The infinite dihedral group also has that abelianization.
+Its unique sign character must take \(s\) to the negative sign and \(t\) to the positive sign.
+Thus the rotation is generated by the marked \(t\), as required in the quantitative bounds.
+
+For completeness \(M\) is finitely generated abelian since \(H'\) has finite index.
+The [cyclic metabelian calculation](Yin_C_A0212_v1.md#finiteness-and-the-cyclic-module) gives \(S-I\) invertible, \(H/H''=M\rtimes C_{16}\) and \(S^{16}=I\).
+On \(M/2M\) the invertible \(S-I\) has zero sixteenth power, hence \(M/2M=0\) and \(M\) is finite of odd order.
+If \(M/(S+I)M\ne0\), it has a quotient of odd prime order on which \(s\) acts by inversion.
+The corresponding semidirect quotient maps onto a nonabelian dihedral group by sending the cyclic complement generator to a reflection and the additive quotient to its rotations.
+The even degree of \(t\) gives a rotation, and the marks generate the image.
+This was excluded, so \(S+I\) is an automorphism.
+Cancelling \(S-I,S+I\) from the factorization of \(S^{16}-I\) gives the asserted cyclotomic restriction.
