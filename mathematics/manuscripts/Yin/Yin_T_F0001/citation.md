@@ -82,6 +82,14 @@ The inspected artifact is the registered electronic book; its pagination is not 
 | `paper/sections/introduction.tex`, Connes motivation paragraph | `\cite[Section IV.5, Remark 3]{Con94}` | Supports Connes's free-group rationality conjecture and its finite-rank forward implication; the converse is explicitly a conjecture there. |
 | `paper/sections/introduction.tex`, operator formulation in the same paragraph | `\cite[Section IV.3, Proposition 1]{Con94}` | Supports the Hardy-projection commutator formulation on the circle; the manuscript does not attribute this operator statement to Kro81. |
 
+## `CR94`
+
+The [source reading](../../../audits/literature/CR94/Yin_U001.md#cr94-u001) checks the minimality condition and the two linear independence assertions in the published article.
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/dual-system-criterion.tex`, `cor:fraction-commutator-rank` proof | `\cite[Lemma~4.5]{CR94}` | Gives linear independence over \(\mathbb C\) of the entries of \(\alpha A^{-1}\) and of \(A^{-1}\beta\) for a minimal linear representation. The manuscript uses the two families to compute the tensor rank of the free difference quotient. |
+
 ## `CS05`
 
 Source evidence: [CS05-U001](../../../audits/literature/CS05/Yin_U001.md#cs05-u001) checks the relative-\(\Delta\) definitions, generator-boundary interface, and Theorem 4.11 within its recorded scope.
@@ -152,6 +160,7 @@ That edition was not collated with the original 1881 printing, and the citation 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, Connes motivation paragraph | `\cite{Kro81}` | Identifies the scalar Kronecker rationality criterion behind the analogy; Con94 is separately cited for the operator formulation. |
+| `paper/sections/dual-system-criterion.tex`, after `cor:fraction-commutator-rank` | `\cite[Articles~VII and~IX]{Kro81}` | Supplies the formal Laurent-series rationality criterion for the coefficient Hankel matrix. The divided-difference expansion identifies its algebraic rank with the one-variable fraction-commutator rank. |
 
 ## `KV12`
 
