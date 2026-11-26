@@ -61,16 +61,19 @@ Source evidence: [Coh71-U001](../../../audits/literature/Coh71/Yin_U001.md#coh71
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/preliminaries.tex`, paragraph after `def:rationality` | `\cite[Section~7]{Coh71}` | Supports the related rational-closure terminology; the manuscript defines division closure separately. |
+| `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[p.~613]{Coh71}` | Supplies the fullness condition for square matrices through factorizations over the polynomial algebra. [Source passage](../../../audits/literature/Coh71/Yin_U001.md#full-square-matrices). |
 
 ## `Coh85`
 
 Source evidence: [Coh85-U001](../../../audits/literature/Coh85/Yin_U001.md#coh85-u001) checks the division-closure definition and its unital convention.
+The [matrix-inverse and linearization reading](../../../audits/literature/Coh85/Yin_U001.md#matrix-inverses-and-linearization) checks Section 5.8 and Theorem 7.1.2 in the retained second edition.
 The source intake's [rational-closure comparison](../../../audits/literature/Coh85/Yin_U001.md#rational-closure-comparison) records the matrix-inverse definition, containment and stated possibility of strict containment; the exercise's proof tasks and examples were not audited.
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/preliminaries.tex`, `def:rationality` | `\cite[Exercise~7.1.4]{Coh85}` | Supports the ambient-algebra definition of division closure. |
 | `paper/sections/preliminaries.tex`, paragraph after `def:rationality` | `\cite[Exercise~7.1.4]{Coh85}` | Supports Cohn's stated comparison, including the possibility of strict containment; no exercise proof or example is imported. |
+| `paper/sections/preliminaries.tex`, `thm:linearization` | `\cite[Section~5.8 and Theorem~7.1.2]{Coh85}` | Theorem 7.1.2 gives the inverse-entry representation and Section 5.8 supplies Higman's enlargement of its polynomial matrix to a linear matrix. The enlargement preserves the inverse entry. |
 
 ## `Con94`
 
@@ -89,7 +92,7 @@ The [source reading](../../../audits/literature/CR94/Yin_U001.md#cr94-u001) chec
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/preliminaries.tex`, `def:linear-representation` | `\cite[Section~3.1]{CR94}` | Defines minimality by the least dimension among linear representations of the same free-field element. |
-| `paper/sections/preliminaries.tex`, `thm:minimal-linear-representation` | `\cite[Section~4.2, Proposition~7]{CR94}` | The proposition on p. 528 characterizes minimality by linear independence over \(\mathbb C\) within each of the two families of entries of \(\alpha A^{-1}\) and \(A^{-1}\beta\). Corollary 5.8 uses the implication from minimality to linear independence. |
+| `paper/sections/preliminaries.tex`, `thm:minimal-linear-representation` | `\cite[Section~4.2, Proposition~7]{CR94}` | The proposition on p. 528 characterizes minimality by linear independence over \(\mathbb C\) within each of the two families of entries of \(uA^{-1}\) and \(A^{-1}v\). Corollary 5.8 uses the implication from minimality to linear independence. |
 
 ## `CS05`
 
@@ -244,7 +247,6 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `def:delta` | `\cite[Section~3]{MSY23}` | Supports the finite-rank-cycle presentation of \(\Delta\). |
 | `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[Section~4.1 and Theorem~4.1]{MSY23}` | Supports the free-field convention and universal division-ring identification. |
 | `paper/sections/preliminaries.tex`, `def:linear-representation` | `\cite[Definition~4.2]{MSY23}` | Supplies the representation by the inverse of a full linear matrix between a scalar row and a scalar column. The manuscript writes the linear matrix in coefficient form for use in Corollary 5.8. |
-| `paper/sections/preliminaries.tex`, `thm:linearization` | `\cite[Theorem~4.3]{MSY23}` | Supplies the existence of a linear representation for every element of the free field. Minimizing the integer dimension gives a minimal representation. |
 | `paper/sections/preliminaries.tex`, paragraph before `rem:cycle-characterization` in `subsec:delta-tensor-maps` | `\cite{MSY23}` | Points to the source's finite-rank characterization and free-field realization, made precise by the following citations. |
 | `paper/sections/preliminaries.tex`, `rem:cycle-characterization` | `\cite[Section~3 and Remark~3.2]{MSY23}` | Supplies the equivalence between maximal \(\Delta\), vanishing cycles and the commutator-kernel condition. |
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |

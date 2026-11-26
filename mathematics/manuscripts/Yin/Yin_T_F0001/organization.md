@@ -28,7 +28,7 @@ All existing mathematical environments and their semantic labels are retained.
 
 | Subsection | Current title | Contents and dependencies |
 | --- | --- | --- |
-| 2.1 | Division closures and the free field | Definition 2.1 gives division closure and rationality. The abstract free field and its difference quotients follow. Definition 2.2 introduces linear representations and minimality. Theorems 2.3 and 2.4 give existence and the minimality characterization. The terminology is justified by the closure equality when Delta(X)=d, with a forward reference to Subsection 2.5. |
+| 2.1 | Division closures, the free field and linearization | Definition 2.1 gives division closure and rationality. The abstract free field, fullness and the free difference quotients follow. Definition 2.2 introduces linear representations and minimality. Theorems 2.3 and 2.4 give existence and the minimality characterization. The terminology is justified by the closure equality when Delta(X)=d, with a forward reference to Subsection 2.5. |
 | 2.2 | Coordinate maps over division subrings | Lemma 2.5 gives the balanced-tensor equalizer for every u in U, using a right-linear coordinate map. This algebraic construction requires no maximal-Delta hypothesis. |
 | 2.3 | Fractions of affiliated operators | Definition 2.6 introduces regularity before the canonical fraction construction. Definition 2.7 gives fraction and common-denominator terminology before Lemmas 2.8–2.9. The Linnell–Miyagawa comparison concludes the subsection. |
 | 2.4 | Algebraic tensors and finite-rank operators | The finite-rank, right-multiplication and Hilbert–Schmidt notation precedes Theta, its unitary extension and its bimodule and commutator identities. The trace extension to H is retained. |

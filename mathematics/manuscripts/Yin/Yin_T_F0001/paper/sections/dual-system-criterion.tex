@@ -313,7 +313,7 @@ The rank independence is Lemma~\ref{lem:fraction-ranks}.
 
 \begin{corollary}\label{cor:fraction-commutator-rank}
 Let $X$ and $(D_1,\ldots,D_d)$ satisfy the hypotheses of Theorem~\ref{thm:analytic}.
-Let $(\alpha,A,\beta)$ be a minimal linear representation of a nonzero $r\in\freefield{x_1,\ldots,x_d}$ as in Definition~\ref{def:linear-representation}, with $A=A_0-\sum_{j=1}^d A_jx_j$ of size $n$.
+Let $(u,A,v)$ be a minimal linear representation of a nonzero $r\in\freefield{x_1,\ldots,x_d}$ as in Definition~\ref{def:linear-representation}, with $A=A_0+\sum_{j=1}^d A_jx_j$ of size $n$.
 Then for every fraction pair $Q$ for $r(X)$,
 \[
  \rank\overline{\Gamma[Q,D_i]}=\rank_{\C} A_i
@@ -321,26 +321,26 @@ Then for every fraction pair $Q$ for $r(X)$,
 \]
 \end{corollary}
 \begin{proof}
-Set $g:=\alpha A^{-1}$ and $h:=A^{-1}\beta$.
+Set $g:=uA^{-1}$ and $h:=A^{-1}v$.
 Applying the product rule entrywise to $AA^{-1}=I_n$ gives
 \[
- \partial_i r=\sum_{j,k=1}^n (A_i)_{jk}\,g_j\otimes h_k^{\mathrm{op}}.
+ \partial_i r=-\sum_{j,k=1}^n (A_i)_{jk}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
 Thus the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, equals $\rank_{\C}A_i$.
 
 Put $\M:=W^*(X)$.
 By Remark~\ref{rem:dual-maximality} and Lemma~\ref{lem:free-field}, evaluation at $X$ is injective.
-Fix a fraction pair $(s_0,a_0,b_0,t_0)$ for $u:=r(X)$.
+Fix a fraction pair $(s_0,a_0,b_0,t_0)$ for $f:=r(X)$.
 Lemma~\ref{lem:clearing} gives regular $p,q\in\M$ such that $ps_0g_j(X)$ and $h_k(X)t_0q$ belong to $\M$ for all $j,k$.
-For the fraction pair $Q=(s,a,b,t):=(ps_0,pa_0,b_0q,t_0q)$, the proof of Theorem~\ref{thm:delta} gives the solution $(s\otimes t^{\mathrm{op}})\partial_i u$ of \eqref{eq:all-fraction-tensor-criterion} in coordinate $i$.
+For the fraction pair $Q=(s,a,b,t):=(ps_0,pa_0,b_0q,t_0q)$, the proof of Theorem~\ref{thm:delta} gives the solution $(s\otimes t^{\mathrm{op}})\partial_i f$ of \eqref{eq:all-fraction-tensor-criterion} in coordinate $i$.
 Lemmas~\ref{lem:tensor-certificate} and~\ref{lem:finite-rank-identification} give
 \[
  \overline{\Gamma[Q,D_i]}
- =-\sum_{j,k=1}^n(A_i)_{jk}\,sg_j(X)P_\Omega h_k(X)t.
+ =\sum_{j,k=1}^n(A_i)_{jk}\,sg_j(X)P_\Omega h_k(X)t.
 \]
 The two families $(sg_j(X)\Omega)_j$ and $(h_k(X)t\Omega)_k$ are linearly independent by injectivity of evaluation and regularity of $s$ and $t$.
-By \eqref{eq:theta}, the operator in the display factors as a surjection onto $\C^n$, followed by $-A_i$ and an injection into $H$, so its rank is $\rank_{\C}A_i$.
+By \eqref{eq:theta}, the operator in the display factors as a surjection onto $\C^n$, followed by $A_i$ and an injection into $H$, so its rank is $\rank_{\C}A_i$.
 Lemma~\ref{lem:fraction-ranks} gives the same rank for every fraction pair.
 \end{proof}
 

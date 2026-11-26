@@ -40,3 +40,9 @@ The bounded search ended once the 1971 primary passage and the directly applicab
 | source-version | Coh71, The American Mathematical Monthly 78(6), 1971, pp.596--615; 21-page published scan with JSTOR cover. |
 | source-locator | Section 7, printed p.612 / PDF p.18, Theorem 7.1 and the following paragraph. |
 | inspection | Direct visual verification of the name, construction and field specialization; historical citation only. Theorem proofs and the whole article were not audited. No computation or formal verification. |
+
+<a id="full-square-matrices"></a>
+## Full square matrices
+
+On 2026-11-26, Yin's writing agent checked the paragraph immediately before Theorem 7.2 in [the published article](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/cohnmont.pdf#page=19), printed p. 613.
+For a square matrix \(A\) of size \(n\) over a ring \(R\), Cohn's fullness condition requires \(k\geq n\) for every factorization \(A=BC\) over \(R\) with \(B\) of size \(n\times k\) and \(C\) of size \(k\times n\).

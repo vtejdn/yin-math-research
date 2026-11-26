@@ -4,7 +4,7 @@
 We first recall division closures, the free field and an algebraic tensor criterion for membership in a division subring.
 We then discuss fractions of affiliated operators, realize algebraic tensors as finite-rank operators and recall the consequences of maximal $\Delta$.
 
-\subsection{Division closures and the free field}\label{subsec:free-field}
+\subsection{Division closures, the free field and linearization}\label{subsec:free-field}
 
 \begin{definition}\label{def:rationality}
 For a unital subalgebra $A$ of a unital algebra $B$, its \emph{division closure} $\Div_B A$ is the smallest unital subalgebra containing $A$ and closed under inversion of its elements that are invertible in $B$; see \cite[Exercise~7.1.4]{Coh85} and \cite[Definition~4.10]{MSY23}.
@@ -16,7 +16,8 @@ It contains the division closure and may be strictly larger in general \cite[Exe
 Since the division and rational closures coincide when $\Delta(X)=d$ (see Subsection~\ref{subsec:delta-tensor-maps}), we use \emph{rational in $X$} for membership in the division closure.
 
 The free field $\freefield{x_1,\ldots,x_d}$ is the universal division ring of fractions of the free polynomial algebra $\C\langle x_1,\ldots,x_d\rangle$; see \cite[Section~4.1 and Theorem~4.1]{MSY23} and \cite[Corollary~7.5.14]{Coh06}.
-It is the universal localization of this algebra at all full square matrices \cite[Theorem~7.5.13 and Corollary~7.5.14]{Coh06}.
+A square matrix $A$ of size $n$ over the polynomial algebra is \emph{full} if every factorization $A=BC$ over that algebra, with $B$ of size $n\times k$ and $C$ of size $k\times n$ for some $k\geq 0$, satisfies $k\geq n$ \cite[p.~613]{Coh71}.
+The free field is the universal localization of the polynomial algebra at all full square matrices \cite[Theorem~7.5.13 and Corollary~7.5.14]{Coh06}.
 
 The free difference quotients on noncommutative polynomials \cite[Section~3, pp.~192--193]{Voi98} extend uniquely to the free field \cite[Section~2.1, (4), pp.~298--299]{BD78}.
 An explicit construction of these extensions on noncommutative rational functions is given in \cite[Section~4.4, Definition~4.4 and Corollary~4.11]{KV12}.
@@ -38,22 +39,22 @@ For $c\in\C$ and $u,v\in\freefield{x_1,\ldots,x_d}$, with $u\ne0$, they satisfy
 
 \begin{definition}\label{def:linear-representation}
 Let $r\in\freefield{x_1,\ldots,x_d}$ be a rational function.
-A \emph{linear representation} of $r$ is a tuple $(\alpha,A,\beta)$ consisting of a full linear matrix
+A \emph{linear representation} of $r$ is a tuple $(u,A,v)$ consisting of a full linear matrix
 \[
- A=A_0-\sum_{j=1}^d A_jx_j,\qquad A_0,\ldots,A_d\in M_n(\C),\qquad n\geq 1,
+ A=A_0+\sum_{j=1}^d A_jx_j,\qquad A_0,\ldots,A_d\in M_n(\C),\qquad n\geq 1,
 \]
-a row vector $\alpha\in M_{1,n}(\C)$, and a column vector $\beta\in M_{n,1}(\C)$ such that $r=\alpha A^{-1}\beta$ in the free field \cite[Definition~4.2]{MSY23}.
-The dimension of this representation is $n$.
+a row vector $u\in M_{1,n}(\C)$, and a column vector $v\in M_{n,1}(\C)$ such that $r=uA^{-1}v$ in the free field \cite[Definition~4.2]{MSY23}.
+The \emph{dimension} of this representation is $n$.
 The representation is \emph{minimal} if $n$ is the least possible dimension among all representations of $r$ \cite[Section~3.1]{CR94}.
 \end{definition}
 
-\begin{theorem}[{\cite[Theorem~4.3]{MSY23}}]\label{thm:linearization}
+\begin{theorem}[{\cite[Section~5.8 and Theorem~7.1.2]{Coh85}}]\label{thm:linearization}
 Each rational function $r\in\freefield{x_1,\ldots,x_d}$ admits a linear representation in the sense of Definition~\ref{def:linear-representation}, and hence a minimal one.
 \end{theorem}
 
 \begin{theorem}[{\cite[Section~4.2, Proposition~7]{CR94}}]\label{thm:minimal-linear-representation}
-Let $(\alpha,A,\beta)$ be a linear representation of a nonzero rational function.
-It is minimal if and only if the entries of $\alpha A^{-1}$ are linearly independent over $\C$ and so are the entries of $A^{-1}\beta$.
+Let $(u,A,v)$ be a linear representation of a nonzero rational function.
+It is minimal if and only if the entries of $uA^{-1}$ are linearly independent over $\C$ and so are the entries of $A^{-1}v$.
 \end{theorem}
 
 \subsection{Coordinate maps over division subrings}
