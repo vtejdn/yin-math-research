@@ -1,5 +1,26 @@
 # Literature Search
 
+## Introduction
+
+The search on 2026-11-26 examined sources for the problem introduced after the free-field realization theorem, the transition from the semicircular result to the dual-system criterion, and the role of finite rank in [the introduction](sections/introduction.tex).
+The search used combinations of `affiliated division closure`, `rationality criterion`, `finite rank commutators`, `dual system` and `noncommutative Hankel matrix` and followed the references from the free-group and semicircular criteria.
+
+- Collins, Mai, Miyagawa, Parraud and Yin explicitly ask for a criterion of the Duchamp–Reutenauer and Linnell type for membership in the affiliated division closure when \(\Delta(X)=d\).
+  The final substantive paragraph of the introduction, arXiv v4 p. 4, states the question for operators affiliated with \(W^*(X)\).
+  This is the direct motivation for `thm:delta` after the opening sentence citing MSY23.
+  The locator was checked in arXiv v4 and the bibliographic identity was checked against the publisher record. [CMM+24, Introduction](https://arxiv.org/pdf/2103.05962#page=4) · [Journal record](https://link.springer.com/article/10.1007/s00208-022-02530-5).
+- Miyagawa leaves the extension of Theorem 3.1 to general tuples admitting a dual system for future work in Remark 3.11, p. 18 of the published edition.
+  Theorem 3.1 concerns bounded division closure and the remark uses bounded dual operators.
+  The remark can motivate the affiliated criterion for normal tuples in `thm:analytic`, alongside Theorem 4.5 in the existing Miy22 paragraph.
+  The distinction between the two ambient algebras matters because `ex:bounded-division-closure` gives strict inclusion for a selfadjoint tuple with a bounded dual system. [Miy22, Theorem 3.1 and Remark 3.11](https://doi.org/10.1016/j.jfa.2022.109609) · [Local example](sections/examples.tex).
+- Berstel and Reutenauer, Chapter 2, §1, Theorem 1.6, give the finite-Hankel-rank characterization of rational formal series, credited there to Carlyle–Paz and Fliess.
+  The retained manuscript statement on p. 31 supplies optional background for the sentence on Duchamp and Reutenauer's use of rational series.
+  The rank is algebraic and the rows and columns are indexed by words. [BR10 source reading](../../../../audits/literature/BR10/Yin_U002.md#formal-hankel-rank).
+- Shlyakhtenko's discussion of unbounded dual systems in §1.1, Theorem 1 and its corollary, is an optional precedent at `def:dual-system`.
+  He treats selfadjoint generators on the polynomial domain.
+  The manuscript uses \(\mathcal M\Omega\) as a common subspace of the domains of the operators and their adjoints.
+  The candidate citation concerns the unbounded formulation. [Shl06 source reading](../../../../audits/literature/Shl06/Yin_U001.md#shl06-normalized-dual-construction).
+
 ## Example 6.1
 
 The lookup for `ex:maximal-delta-without-liberation` checked the published MSY23 Theorem 3.1 and Proposition 6.2 and the semicircular Fock commutators in Voi98, §5.13.
