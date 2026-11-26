@@ -77,10 +77,16 @@ Thus the commutator subgroup itself must have zero binary homology at a half-ran
 Nonzero [ternary homology](../claims/Yin_C_A0209_v1.md#statement) gives the sharper bound \(8/25\) with the same single invertible corner.
 Write \(S\) for conjugation by \(s\) on \(M\).
 At half nullity the [fifth cyclotomic quotient](../claims/Yin_C_A0215_v1.md#statement) vanishes, so \(\Phi_5(S)\) is onto and \(\Phi_{25}(S)M=0\).
-Hence \(M=M/\Phi_{25}(S)M\), and the [prime-power bound](../claims/Yin_C_A0212_v1.md#statement) gives \(|M|\le 88^{20}\).
-By [independent choices on five slices](../claims/Yin_C_A0216_v1.md#the-remaining-prime-divisors), each prime divisor of \(|M|\) is congruent to \(1,7,18\) or \(24\) modulo 25.
-For these primes the extension from fifth to twenty-fifth roots has degree one, so the five slices depend on a common functional.
-Test the joint orbit of that functional against the zero-parameter matching with the actual marked order of the rows.
+Hence \(M=M/\Phi_{25}(S)M\).
+The [Euclidean lattice and randomized rounding](../claims/Yin_C_A0218_v1.md#simultaneously-positive-representatives-by-rounding) give \(|M|<18^{20}\).
+The [five Gaussian periods](../claims/Yin_C_A0220_v1.md#the-five-periods-of-the-trace) rule out the quartic simple quotients in the two classes \(7,18\bmod25\) left by the earlier slice argument.
+Their order \(p^4\) puts every possible characteristic under the verified cutoff \(18^5\).
+Thus every prime divisor satisfies \(p\equiv1\) or \(-1\bmod25\).
+For split primes through 100000 the [two extremal matching costs](../claims/Yin_C_A0219_v1.md#split-primes-and-a-strict-improvement-over-column-widths) give a strict half bound for every marked root.
+For quadratic primes through the same cutoff, [four initial pairs in the trace recurrence](../claims/Yin_C_A0221_v1.md#both-matching-costs-for-the-ten-traces) suffice at every marking.
+A prime divisor in the split class must therefore lie between \(100000\) and \(18^{20}\), and one in the quadratic class between \(100000\) and \(18^{10}\), both inequalities strict.
+For the remaining quadratic primes, test whether the two matching costs and an invertible endpoint can be forced directly from \(e_{i+2}=v e_{i+1}-e_i\), with \(v=\alpha+\alpha^{-1}\) for a primitive twenty-fifth root.
+For split primes the corresponding input is the one-dimensional orbit \(c\alpha^i\).
 When \(M=0\), [restriction to the second derived subgroup](../claims/Yin_C_A0214_v1.md#restricting-the-four-site-matrix) instead gives a size-fifty group-ring matrix of nullity \(25/2\) with at most eight monomials per row and column.
 
 For small or trivial abelianization, test [two-dimensional unitary representations with fixed spectra on the marked generators](../claims/Yin_C_A0194_v1.md#normal-form-for-a-pair-of-unitary-matrices).
