@@ -47,3 +47,18 @@ It tests witness costs on all feasible matching flows, allowing a rank-one local
 The three cosets give 53, 78 and 78 classes.
 Two in the last coset use the twelve-site permutation action induced from the six-letter action of the alternating subgroup.
 The [normal alternating subgroup theorem](../../../claims/Yin_C_A0341_v3.md#ordinary-and-induced-actions-for-every-marking) gives the regular bound \(19/40\).
+
+## Small permutation images with independent binary signs
+
+Run `node verify_small_permutations_twenty.mjs` from this directory, adding `--witnesses` for the complete marked witnesses.
+The [ten-phase verifier](verify_small_permutations_twenty.mjs) checks the 600 marked transitive actions on five and six points of order at least sixty and all 114 generating classes of the linear group on seven points.
+It includes odd and even choices for each mark, all tied optimal edge sets, and the two sign degrees and order-five degree of each recurrent circuit.
+The [regular-kernel bounds](../../../claims/Yin_C_A0346_v1.md#six-site-images-and-the-seven-point-linear-group) are \(7/15\) for nonsolvable images through six sites and \(16/35\) for the linear group.
+
+## Seven sites at noncyclic order twenty
+
+Run `node verify_seven_permutations_twenty.mjs` from this directory; `--witnesses` prints every marked pair, selected ordinary or exterior action, weights, feasible occupancy and optimality distances.
+The [integer verifier](verify_seven_permutations_twenty.mjs) checks 114, 916 and 3090 seven-site marked classes at orders 168, 2520 and 5040, respectively, and directly checks the other transitive images are solvable.
+It recomputes each matching spread by negative-cycle cancellation, checks the inequalities on all residual edges and evaluates every recurrent zero-cost word in the marked quotient or permutation action.
+Across the given seven sites, 21 unordered pairs and 21 exterior coordinates the largest certified spread divided by the selected degree is \(49/21\).
+The [seven-site rank theorem](../../../claims/Yin_C_A0346_v2.md#checking-optimality-and-the-recurrent-group-words) applies to the original regular operator regardless of its five numerical character ranks.

@@ -357,4 +357,5 @@ if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) 
 }
 
 export {identity, compose, inverse, key, permutations, cycleLengths, group, canonical,
-  cyclicSubgroups, cheaperRepair, simpleCycles, matchingFlows, certificate};
+  cyclicSubgroups, cheaperRepair, simpleCycles, matchingFlows, certificate, solvable,
+  linearPairs, outer, partitions};

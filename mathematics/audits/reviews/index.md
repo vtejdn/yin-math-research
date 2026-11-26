@@ -230,6 +230,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0234](Yin_R_A0234_v1.md#the-clifford-pencil-parameter-budget) | The Clifford parameter, coefficient embeddings and sofic heights | [v1](Yin_R_A0234_v1.md) |
 | [Yin_R_A0235](Yin_R_A0235_v1.md#small-nonsolvable-permutation-images) | Small nonsolvable images and two finite normalizers at order sixteen | [v1](Yin_R_A0235_v1.md) |
 | [Yin_R_A0236](Yin_R_A0236_v1.md#the-infinite-parameter-binomial-and-the-absolute-gap) | Scattering, the absolute gap at order twenty and the actual subgroup pivots | [v1](Yin_R_A0236_v1.md) |
+| [Yin_R_A0237](Yin_R_A0237_v1.md#simultaneous-actual-pivots-on-the-common-sign-subgroup) | Simultaneous inverses, finite-power bounds, short relations and Banach spectra | [v1](Yin_R_A0237_v1.md) |
+| [Yin_R_A0238](Yin_R_A0238_v1.md#exterior-square-certificates-on-seven-points) | Permutation and exterior-square certificates at noncyclic order twenty | [v1](Yin_R_A0238_v1.md) |
+| [Yin_R_A0239](Yin_R_A0239_v1.md#scalar-atomlessness-at-every-inverse-layer) | Brown atoms, rational evaluations and scalar injectivity at each actual inverse layer | [v1](Yin_R_A0239_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

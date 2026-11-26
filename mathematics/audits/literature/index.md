@@ -9,6 +9,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [LLS03/Yin_U001](LLS03/Yin_U001.md#lls03-u001) | Dicks' two-element Ore obstruction for the finite cyclic lamp and the shift |
 | [dO14/Yin_U001](dO14/Yin_U001.md#do14-u001) | De Oliveira's finite-dimensional real implicit function theorem, journal Theorem 5 |
 | [Ope26g/Yin_U001](Ope26g/Yin_U001.md#ope26g-u001) | Torsion-free algebraic trace range in Corollary 1.2(i), using Theorem 1.1 as a preprint input |
+| [Ope26h/Yin_U001](Ope26h/Yin_U001.md#trace-support) | The preprint's trace-support statement for absolutely summable idempotents and its conditional scope |
 | [MD26/Yin_U001](MD26/Yin_U001.md#md26-u001) | Section 8 proof inspection, finite support-product partitions, algebraic coefficient transfer and the limits of current graph-size estimates |
 | [Iva26 source notes](Iva26/readme.md) | ArXiv v1 and the fixed-group transfer in Section 8.3 |
 | [KLM88 source notes](KLM88/readme.md) | Publisher original and the Theorem 1.4 locator |
