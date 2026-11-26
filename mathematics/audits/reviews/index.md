@@ -191,6 +191,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0194](Yin_R_A0194_v1.md#rank-below-two-on-the-commutator-subgroup) | Schur descent and icosahedral quotients in the perfect-commutator case | [v1](Yin_R_A0194_v1.md) |
 | [Yin_R_A0195](Yin_R_A0195_v1.md#single-cycle-specialization-and-fourier-reweighting) | Periodic cycles and the initial matrix of the four-site transfer | [v1](Yin_R_A0195_v1.md) |
 | [Yin_R_A0196](Yin_R_A0196_v1.md#a-uniform-half-nullity-gap-and-solvable-quotients) | Exceptional characteristics and the uniform order-25 gap | [v1](Yin_R_A0196_v1.md) |
+| [Yin_R_A0197](Yin_R_A0197_v1.md#antiperiodic-short-lifts-and-the-half-turn) | Large-character tests and folded cycle norms at order 26 | [v1](Yin_R_A0197_v1.md) |
+| [Yin_R_A0198](Yin_R_A0198_v1.md#the-uniform-gap-and-solvable-quotients-at-order-26) | Exceptional markings and the uniform order-26 gap | [v1](Yin_R_A0198_v1.md) |
+| [Yin_R_A0199](Yin_R_A0199_v1.md#single-translations-of-a-half-trace-kernel) | Original-group Gram tests and single translations of half kernels | [v1](Yin_R_A0199_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

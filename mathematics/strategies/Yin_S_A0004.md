@@ -65,7 +65,13 @@ Combining its two-dimensional representations with the original cyclic character
 For the remaining zero-homology branch, testing the bare norm after abelianization loses the obstruction: the [metabelian quotient already has a scalar solution](../ledger/Yin_L_A0083_v1.md#why-a-global-invariant-degree-does-not-detect-the-norm).
 Instead use the actual coefficient supports of the proposed remainder.
 Every two-by-two corner must pass the [Newton polytope equality on its own support subgroup](../claims/Yin_C_A0207_v1.md#a-necessary-support-identity-for-a-fractional-rank-witness), where a character need not extend to the ambient group.
-The [finite metabelian quotient bound](../claims/Yin_C_A0210_v1.md#statement) gives \(|M|\le 75^{24}\) and \(\gcd(|M|,26)=1\) for \(M=H'/H''\).
+Write \(M=H'/H''\).
+The [uniform order-26 bound](../claims/Yin_C_A0237_v1.md#statement) gives nullity at most \(217/442\) whenever \(M\ne0\) for the normalized invertible corners and assembly.
+The [thirteen-coordinate test](../claims/Yin_C_A0230_v1.md#statement) treats the first cyclotomic component.
+On the primitive twenty-sixth component, a [short lift with half-orbit sum one](../claims/Yin_C_A0233_v1.md#a-short-lift-on-the-selected-line) excludes the additional nonperiodic ties from the initial graph.
+The [finite interval](../claims/Yin_C_A0235_v1.md#statement) and the [twenty split norm divisors](../claims/Yin_C_A0234_v1.md#statement) cover the remaining simple markings.
+With scalar injectivity a half increment at either critical order now forces \(H'\) perfect.
+For any two-label candidate having a nonabelian solvable quotient the abelianization must have order at most 24 and different from 23.
 Over the original commutator subgroup, [elimination in the thirteen-dimensional norm](../claims/Yin_C_A0213_v2.md#removing-a-cyclic-pair-of-coordinates) produces a nonzero scalar of fractional rank by inverse layer six or a scalar norm by layer seven.
 In the scalar norm branch with solution \(b\), any nonzero two-sided group-ring clearing of \(b\) would give a nonzero scalar with half-dimensional kernel on the index-thirteen subgroup.
 Test the denominators of the actual norm solution against this [clearing obstruction](../claims/Yin_C_A0213_v2.md#two-sided-denominators-in-the-scalar-branch).
@@ -87,6 +93,9 @@ Thus any half witness must have a perfect commutator subgroup \(N=H'\), and all 
 On this perfect subgroup the [fourteen-dimensional companion remainder](../claims/Yin_C_A0222_v1.md#the-companion-over-the-actual-commutator-subgroup) has rank \(3/2\).
 Eliminating any of its entries as a pivot gives an actual two-by-two group-ring submatrix on \(N\) with Schur rank in \((0,1/2]\).
 Test whether the [two-sided nonvanishing](../claims/Yin_C_A0222_v1.md#polynomial-rows-and-columns-at-rank-below-two) of the remainder is compatible with the supports in these submatrices.
+For positive two-column Gram compressions, the [center-valued supremum](../claims/Yin_C_A0232_v1.md#adding-one-monomial-in-the-original-group) describes precisely when their Schur ranks approach one half.
+If the support subgroup admits finite simultaneous avoidance of mixed word relations, [two three-by-three matrices in a common group element](../claims/Yin_C_A0236_v1.md#matching-a-finite-trace-moment-in-the-original-group) have total nullity tending to zero along suitable substitutions.
+Test for a uniform gap in the positive values of this total, which would return both companion projections to the second scalar inverse layer of the original subgroup.
 In the nonsolvable quotient direction, a [marked icosahedral quotient](../claims/Yin_C_A0223_v1.md#statement) already excludes half nullity in the normalized problem.
 The [perfect-commutator examples](../claims/Yin_C_A0224_v1.md#the-numerical-bounds) have the same critical marking and arbitrarily small upper bounds from their marked triangle quotients.
 Test perfect subgroups which admit neither this marked representation nor a known two-by-two integrality theorem.
@@ -256,6 +265,8 @@ The next group-specific issue is whether the original kernel projection, now kno
 The [amplified comparison](../ledger/Yin_L_A0070_v1.md#a-finite-tracial-comparison-inside-one-factor) gives full inner rank at every multiplicity and inverse depth for a scalar-injective polynomial tuple and exhibits a separate failure of descent for an atomic scalar law.
 At nullity one half, an [original-group test](../claims/Yin_C_A0125_v2.md#group-ring-witnesses-and-the-exact-projection) uses a positive three-by-three group-ring matrix for each finite sum of translations.
 Under center-valued trace \(\tfrac12 1\), either one test is injective or the same family has arbitrarily small strictly positive nullities.
+When nonidentity words in the free cyclic extension of the support subgroup can be kept nonidentity under one substitution, [individual group translations](../claims/Yin_C_A0238_v1.md#transferring-the-moment-by-finitely-many-word-tests) suffice for this alternative.
+The free half-projection moment gives a finite list of word tests for each prescribed error.
 One injective test puts the projection and [algebraic matrix units](../claims/Yin_C_A0125_v2.md#algebraic-matrix-units-from-a-single-inverse) in the second inverse layer using a single additional Gram inverse.
 In the free cyclic extension that conclusion holds for every original half-dimensional Schur kernel, making indivisibility of the unit class by two in the second layer a sufficient exclusion criterion.
 In the original group, [finite-index or finite-coset conditions](../ledger/Yin_L_A0071_v1.md#central-fourier-coefficients-and-finite-index) give discrete test nullities or exclude a subgroup-supported kernel.

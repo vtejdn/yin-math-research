@@ -301,6 +301,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [CJSZ20/Yin_U001](CJSZ20/Yin_U001.md#graph-heat-semigroup-and-bmo) | Graph heat semigroup, divided-difference BMO estimate and finite spectral transference |
 | [Ken11 source notes](Ken11/readme.md) | Graph connections, gauge equivalence and cycle monodromy |
 | [Ken83 source notes](Ken83/readme.md) | The marked presentation of the icosahedral group |
+| [HO16/Yin_U001](HO16/Yin_U001.md#mixed-identities-and-simultaneous-substitution) | Mixed identities and simultaneous substitution for a finite set of words |
 | [HZ25/Yin_U001](HZ25/Yin_U001.md) | Regular-bulk Haar additive local laws, conditional input boundaries and ultra-small logarithms |
 | [Sch05/Yin_U001](Sch05/Yin_U001.md) | Exact real-Ginibre affine resolvent estimate and its matrix-coefficient GOE Hermitization specialization |
 | [Par22/Yin_U001](Par22/Yin_U001.md) | Matrix-coefficient Haar resolvent comparison and concentration at its conditional special-unitary center |

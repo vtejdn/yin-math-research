@@ -7,6 +7,11 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 ## Group index
 
+### Mixed identities
+
+The [definition with group constants](../audits/literature/HO16/Yin_U001.md#mixed-identities-and-simultaneous-substitution) specifies the free product in which nontriviality is tested.
+The [single-translation moment bound](../claims/Yin_C_A0238_v1.md#statement) uses simultaneous substitution for a finite set of words.
+
 ### Lifted hyperbolic triangle groups
 
 The [centrally extended triangle group](../audits/literature/Mil75/Yin_U001.md#lifted-triangle-presentation) is the full inverse image of the orientation-preserving triangle group in the universal cover of the isometry group of the hyperbolic plane.
