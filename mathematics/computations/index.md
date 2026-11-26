@@ -12,7 +12,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_J_A0005](programs/Yin_J_A0005/readme.md) | Exact group rewriting, appendix products and unique-product tests on two-generator balls in Gardam's group |  |
 | [Yin_J_A0006](programs/Yin_J_A0006/readme.md) | Girth, index-six subgroup certificates and integral abelianizations for the seven exceptional positive triples |  |
 | [Yin_J_A0007](programs/Yin_J_A0007/readme.md) | Endpoint multiplicities of nonbacktracking walks for the seven exceptional positive triples |  |
-| [Yin_J_A0008](programs/Yin_J_A0008/readme.md) | Gaussian periods and prime matching certificates at orders 20 and 25 |  |
+| [Yin_J_A0008](programs/Yin_J_A0008/readme.md) | Gaussian periods and five- and ten-coordinate prime matching certificates at orders 20 and 25 |  |
 | [Yin_J_A0009](programs/Yin_J_A0009/readme.md) | Thirteen- and twenty-six-coordinate character orbits, circulation norms and finite matching certificates at the order-26 marking |  |
 | [Yin_J_A0010](programs/Yin_J_A0010/readme.md) | Cyclotomic norms, marked paths and determinant tests on five and six fibers |  |
 | [Yin_J_A0011](programs/Yin_J_A0011/readme.md) | Permutation and matching certificates on five to seven points at orders 25 and 26 |  |

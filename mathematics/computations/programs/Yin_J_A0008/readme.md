@@ -124,3 +124,13 @@ The five-point permutations have steps one and two.
 Among the 24 different pairs of used edge sets the minimizer and maximizer of each prescribed cost are both unique.
 The largest certified spreads at \(3,11,41,61,101\) are respectively \(25,110,315,395,720\).
 The [order-twenty group-ring application](../../../claims/Yin_C_A0313_v3.md#the-remaining-seventeen-marked-representations) uses the two independent binary signs in choosing its cyclic character.
+
+## Ten coordinates for the three nontrivial binary signs
+
+Run `python -B verify_ten_sign_channels.py` with assertions enabled in this directory.
+The [ten-coordinate verifier](verify_ten_sign_channels.py) uses the Python 3 standard library, reads no data files and writes none.
+It tests the actual phase lifts and finite matching costs for one ternary degree-four module and the sixteen marked split roots at steps \((1,2)\) and again at steps \((1,3)\).
+The periodic binary conservation equation gives 248 admissible pairs of edge sets for step two and 216 for step three.
+Among the seventeen certificates for each step the largest ratios of cost spread to the number of channels times the parameter order are \(1/5\) and \(21/110\), respectively.
+Both extremal pairs of edge sets are unique for every listed certificate.
+The [ten-channel proof](../../../claims/Yin_C_A0319_v1.md#costs-of-the-thirty-four-marked-representations) supplies the actual representation and the group-rank inference.
