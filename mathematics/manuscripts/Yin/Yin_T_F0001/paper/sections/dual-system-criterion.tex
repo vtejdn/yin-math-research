@@ -313,7 +313,7 @@ The rank independence is Lemma~\ref{lem:fraction-ranks}.
 
 \begin{proposition}\label{prop:fraction-commutator-rank}
 Let $X$ and $(D_1,\ldots,D_d)$ satisfy the hypotheses of Theorem~\ref{thm:analytic}.
-Let $(u,A,v)$ be a minimal linear representation of a nonzero $r\in\freefield{x_1,\ldots,x_d}$ as in Definition~\ref{def:linear-representation}, with $A=A_0+\sum_{j=1}^d A_jx_j$ of size $n$.
+Let $(u,A,v)$ be a minimal linear representation of a nonzero $r\in\freefield{x_1,\ldots,x_d}$ as in Definition~\ref{def:linear-representation}, with $A=A_0+\sum_{i=1}^d A_ix_i$ of size $n$.
 Then for every fraction pair $Q$ for $r(X)$,
 \[
  \rank\overline{\Gamma[Q,D_i]}=\rank_{\C} A_i
@@ -323,21 +323,25 @@ Then for every fraction pair $Q$ for $r(X)$,
 \begin{proof}
 Put $\M:=W^*(X)$.
 Remark~\ref{rem:dual-maximality} gives $\Delta(X)=d$, so evaluation at $X$ is injective on the free field by Lemma~\ref{lem:free-field}.
-Write $f:=r(X)$.
+Write $f:=r(X)$ and $A=(A_{jk})_{j,k=1}^n$.
+For $0\leq i\leq d$, let $A_{jk}^{(i)}$ be the $(j,k)$-entry of $A_i$.
+Then
+\[
+ A_{jk}=A_{jk}^{(0)}+\sum_{i=1}^d A_{jk}^{(i)}x_i\in\C\langle x_1,\ldots,x_d\rangle.
+\]
 
-Set $g:=uA^{-1}$ and $h:=A^{-1}v$.
+Set $g:=uA^{-1}$ and $h:=A^{-1}v$, with entries $g_j$ and $h_k$, respectively.
 Applying $\partial_i$ entrywise to $Ah=v$ gives
 \[
- 0=(\partial_i A)h+A\partial_i h,
+ 0=(\partial_i A)h+A\partial_i h.
 \]
-where the matrix products use the left and right actions on the outer tensor factors.
-Since $r=uh$ and $\partial_i(A_{jk})=(A_i)_{jk}(1\otimes1)$, we obtain
+Since $r=uA^{-1}v=uh$ and $\partial_i A_{jk}=A_{jk}^{(i)}(1\otimes1)$, we obtain
 \[
  \partial_i r=u\partial_i h=-g(\partial_i A)h
- =-\sum_{j,k=1}^n (A_i)_{jk}\,g_j\otimes h_k^{\mathrm{op}}.
+ =-\sum_{j,k=1}^n A_{jk}^{(i)}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
-It follows that the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is the rank of the coefficient matrix $-A_i$.
+It follows that the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is $\rank_{\C}A_i$.
 
 Apply Lemma~\ref{lem:clearing} to $f,g_1(X),\ldots,g_n(X)$ on the left and $f,h_1(X),\ldots,h_n(X)$ on the right.
 We obtain regular $s,t\in\M$ such that
@@ -350,11 +354,11 @@ Then $f=s^{-1}a=bt^{-1}$, so $Q:=(s,a,b,t)$ is a fraction pair for $f$.
 Evaluating the formula for $\partial_i r$ in both tensor factors and multiplying by $s\otimes t^{\mathrm{op}}$ gives
 \[
  \ell_i:=(s\otimes t^{\mathrm{op}})\partial_i f
- =-\sum_{j,k=1}^n(A_i)_{jk}\,sg_j(X)\otimes(h_k(X)t)^{\mathrm{op}}.
+ =-\sum_{j,k=1}^n A_{jk}^{(i)}\,sg_j(X)\otimes(h_k(X)t)^{\mathrm{op}}.
 \]
 By equations~\eqref{eq:psi-left-linearity} and~\eqref{eq:tensor-criterion}, these tensors satisfy
 \[
- \sum_i\Psi_i(\ell_i)
+ \sum_{i=1}^d\Psi_i(\ell_i)
  =(s\otimes t^{\mathrm{op}})(f\otimes1-1\otimes f^{\mathrm{op}})
  =a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}.
 \]
