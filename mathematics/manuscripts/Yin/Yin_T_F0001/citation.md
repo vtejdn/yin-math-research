@@ -254,6 +254,14 @@ The [published edition and source inspection](../../../audits/literature/Kat68/Y
 | --- | --- | --- |
 | `paper/sections/examples.tex`, `prop:scalar-bounded-dual` | `\cite[(2.2), p.~536]{Kat68}`, `\cite[Theorem~(6.2), p.~543]{Kat68}`, `\cite[p.~545]{Kat68}` | Formula (2.2) identifies the squared \(X\)-smoothness norm of \(P_1\) with the supremum of the interval ratios \(\mu(I)/|I|\). Theorem (6.2) identifies finite smoothness with the existence of a bounded selfadjoint solution of \(i[X,B]=P_1\). The estimate in its proof gives the norm bound for the centered solution. |
 
+## `Shl06`
+
+The [source reading](../../../audits/literature/Shl06/Yin_U001.md#shl06-normalized-dual-construction) checks the unbounded formulation in the retained Abel Symposium preprint, including Theorem 1 and Corollary 2.
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/dual-system-criterion.tex`, after the recalled `def:dual-system` | `\cite[Section~1.1]{Shl06}` | Gives earlier use of unbounded dual systems for selfadjoint generators with commutator identities on \(\mathcal A_X\Omega\). The domain condition on all of \(\mathcal M\Omega\) belongs to the manuscript's formulation. |
+
 ## `Voi98`
 
 Source evidence: [Voi98-U002](../../../audits/literature/Voi98/Yin_U002.md#voi98-u002), [Voi98-U005](../../../audits/literature/Voi98/Yin_U005.md#voi98-u005), and [Voi98-U006](../../../audits/literature/Voi98/Yin_U006.md#voi98-u006) record the dual-system, Fock-model and Fisher-information passages used here.
