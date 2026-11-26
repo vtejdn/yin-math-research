@@ -209,6 +209,10 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0213](Yin_R_A0213_v1.md#two-commutators-with-prescribed-schur-supports) | Free faces at arbitrary moduli and the bounded Schur commutator formula | [v1](Yin_R_A0213_v1.md) |
 | [Yin_R_A0214](Yin_R_A0214_v1.md#exact-normal-generation-by-the-two-outer-squares) | Singular-value tails, pole separation and normal generation inside four powers | [v1](Yin_R_A0214_v1.md) |
 | [Yin_R_A0215](Yin_R_A0215_v1.md#five-point-actions-at-orders-twenty-five-and-twenty-six) | Five-point permutation certificates and adjacent generators at orders 25 and 26 | [v1](Yin_R_A0215_v1.md) |
+| [Yin_R_A0216](Yin_R_A0216_v1.md#distinct-boundary-double-poles) | The order-24 exclusion, its uniform gap and the support traces of rank-one outputs | [v1](Yin_R_A0216_v1.md) |
+| [Yin_R_A0217](Yin_R_A0217_v1.md#the-common-cyclic-subgroup-of-two-faces) | Explicit gaps from cyclic and sparse intersections of two free faces | [v1](Yin_R_A0217_v1.md) |
+| [Yin_R_A0218](Yin_R_A0218_v1.md#all-actions-on-six-and-seven-points) | Short characters, six- and seven-point actions and small-order fillings | [v1](Yin_R_A0218_v1.md) |
+| [Yin_R_A0219](Yin_R_A0219_v1.md#leading-residues-in-arbitrary-matrix-size) | Four-coset transfers and the finite images of a periodic mark | [v1](Yin_R_A0219_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

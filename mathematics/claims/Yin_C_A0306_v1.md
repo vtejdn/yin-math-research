@@ -122,3 +122,25 @@ The entire permutation image embeds in their product, so is abelian and factors 
 Finally the action on the cosets of any subgroup of index at most seven is transitive.
 A transitive cyclic permutation group acts regularly, so the subgroup is the inverse image of the unique subgroup of that index in \(C_n\).
 This proves the assertions, including the existence and uniqueness at the one indicated nontrivial index.
+
+## Assessment history
+
+### Decision all-actions-on-six-and-seven-points
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:55 |
+| status | proved |
+| reason | The verified matching bounds exclude all noncyclic permutation images through degree seven under the half-kernel assumptions. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The verified matching bounds exclude all noncyclic permutation images through degree seven under the half-kernel assumptions. |
+| argument | [Two optimal sets of permutation edges](#two-optimal-sets-of-permutation-edges) | Two optimal sets of permutation edges. |
+| argument | [Exhausting the six- and seven-point actions](#exhausting-the-six--and-seven-point-actions) | Exhausting the six- and seven-point actions. |
+| argument | [Subgroups of small index](#subgroups-of-small-index) | Subgroups of small index. |
+| review | [All actions on six and seven points](../audits/reviews/Yin_R_A0218_v1.md#all-actions-on-six-and-seven-points) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-all-actions-on-six-and-seven-points)

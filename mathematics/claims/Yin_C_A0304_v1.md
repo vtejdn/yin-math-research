@@ -94,3 +94,24 @@ A bounded opposite side would instead contradict the lower bound for the given s
 Thus all poles on both sides are simple.
 At a simple pole of the reciprocal pencil, the normalized \(T\) has no nontrivial Jordan block at the corresponding eigenvalue and the reciprocal residue has rank equal to the nullity there by its spectral idempotent.
 This gives the stated simple-pole form and the window application.
+
+## Assessment history
+
+### Decision leading-residues-in-arbitrary-matrix-size
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:56 |
+| status | proved |
+| reason | At the specified four-coset endpoint the ranks of the leading residues on either maximal side sum to at most half the matrix size. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | At the specified four-coset endpoint the ranks of the leading residues on either maximal side sum to at most half the matrix size. |
+| argument | [A bounded left inverse for the two outer polynomial pencils](#a-bounded-left-inverse-for-the-two-outer-polynomial-pencils) | A bounded left inverse for the two outer polynomial pencils. |
+| argument | [Residue interactions and the independent subspaces](#residue-interactions-and-the-independent-subspaces) | Residue interactions and the independent subspaces. |
+| review | [Leading residues in arbitrary matrix size](../audits/reviews/Yin_R_A0219_v1.md#leading-residues-in-arbitrary-matrix-size) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-leading-residues-in-arbitrary-matrix-size)

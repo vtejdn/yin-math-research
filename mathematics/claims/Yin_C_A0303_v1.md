@@ -119,3 +119,26 @@ In \(C_{24}\) the two labels on the left have common degree \(4\epsilon-12\) wit
 The possible residues are \(16,8\) on the left and \(4,20\) on the right.
 Their supports cannot be equal.
 This also rules out both affine cases and proves the assertion.
+
+## Assessment history
+
+### Decision exclusion-at-order-twenty-four
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | The six evaluations of the summable coordinate force zero trace, which the support identity in the original group excludes. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The six evaluations of the summable coordinate force zero trace, which the support identity in the original group excludes. |
+| argument | [The two residues occur at the same point](#the-two-residues-occur-at-the-same-point) | The two residues occur at the same point. |
+| argument | [A matrix entry with absolutely summable coefficients](#a-matrix-entry-with-absolutely-summable-coefficients) | A matrix entry with absolutely summable coefficients. |
+| argument | [A cross-ratio forces zero trace](#a-cross-ratio-forces-zero-trace) | A cross-ratio forces zero trace. |
+| argument | [The Fourier support cannot be translated as required](#the-fourier-support-cannot-be-translated-as-required) | The Fourier support cannot be translated as required. |
+| review | [Exclusion at order twenty-four](../audits/reviews/Yin_R_A0216_v1.md#exclusion-at-order-twenty-four) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-exclusion-at-order-twenty-four)

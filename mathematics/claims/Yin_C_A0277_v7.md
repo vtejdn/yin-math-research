@@ -108,3 +108,25 @@ The first two column pairs are \(p,w\) and \(q,z\) up to inverses, and the last 
 Independence makes each two-element pair noncommuting in the ambient free group, and a noncommuting pair in a free group freely generates its subgroup.
 The ambient free-group integrality also holds in this example.
 The estimate above applies in every group satisfying the stated face and intersection hypotheses.
+
+## Assessment history
+
+### Decision one-balanced-free-face
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | The weighted sum in the balanced face controls the nullity for arbitrary moduli in the other face. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The weighted sum in the balanced face controls the nullity for arbitrary moduli in the other face. |
+| argument | [Bounds using one balanced face](#bounds-using-one-balanced-face) | Bounds using one balanced face. |
+| argument | [When the second face is near its balanced projection](#when-the-second-face-is-near-its-balanced-projection) | When the second face is near its balanced projection. |
+| argument | [An intersection with two free generators](#an-intersection-with-two-free-generators) | An intersection with two free generators. |
+| review | [One balanced free face](../audits/reviews/Yin_R_A0217_v1.md#one-balanced-free-face) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-one-balanced-free-face)

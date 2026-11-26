@@ -93,3 +93,25 @@ Hence \(s^{-1}ts=t^{\pm1}\).
 This is a single marked relation, and it holds also in every sufficiently late approximating group.
 Such a group is cyclic-by-cyclic and amenable; scalar injectivity then gives integer matrix ranks by [Ore localization](Yin_C_A0211_v1.md#right-fractions-for-commensurable-amenable-subgroups), contradicting the noninteger inputs used in the sequence.
 All possible limiting planes are excluded, proving the uniform assertion.
+
+## Assessment history
+
+### Decision compactness-at-a-fixed-marking
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | Balancing and compactness turn the exclusion into a strict coefficient-independent gap on a marked neighborhood. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Balancing and compactness turn the exclusion into a strict coefficient-independent gap on a marked neighborhood. |
+| argument | [Balancing the cyclic plane](#balancing-the-cyclic-plane) | Balancing the cyclic plane. |
+| argument | [Compactness of degree-one plane presentations](#compactness-of-degree-one-plane-presentations) | Compactness of degree-one plane presentations. |
+| argument | [Ruling out the limiting intersection](#ruling-out-the-limiting-intersection) | Ruling out the limiting intersection. |
+| review | [Compactness at a fixed marking](../audits/reviews/Yin_R_A0216_v1.md#compactness-at-a-fixed-marking) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-compactness-at-a-fixed-marking)

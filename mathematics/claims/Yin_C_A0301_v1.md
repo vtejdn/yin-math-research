@@ -83,3 +83,24 @@ Since \(f(t)\ne0\), preservation of its singular value distribution gives \(|\la
 Its nonzero bounded polar part satisfies the same equation.
 Square-summable Fourier coefficients on a nonzero orbit of \(h\mapsto s^{-2} h s^{-2}\) then give a finite orbit and an element of negative sign in \(K\), a contradiction.
 This proves the reciprocal exclusion.
+
+## Assessment history
+
+### Decision compression-of-the-simple-residues
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | Compression forces proportional residues when each side has one circle pole, and excludes the specified reciprocal factorization. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Compression forces proportional residues when each side has one circle pole, and excludes the specified reciprocal factorization. |
+| argument | [One pole on a side bounds all residue lines](#one-pole-on-a-side-bounds-all-residue-lines) | One pole on a side bounds all residue lines. |
+| argument | [Different rational functions on the diagonal](#different-rational-functions-on-the-diagonal) | Different rational functions on the diagonal. |
+| review | [Compression of the simple residues](../audits/reviews/Yin_R_A0216_v1.md#compression-of-the-simple-residues) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-compression-of-the-simple-residues)

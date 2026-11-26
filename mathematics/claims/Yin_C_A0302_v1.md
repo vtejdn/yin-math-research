@@ -115,3 +115,25 @@ A nonzero residue cannot annihilate both ranges.
 This contradicts the ordered pair identities.
 Interchanging numerator and denominator gives the same conclusion for \(M^{-1}\).
 The unique residue on each side squares to zero as already proved.
+
+## Assessment history
+
+### Decision trace-tails-of-the-middle-product
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | The weak trace tail and the product moment bound force one simple square-zero residue on each side. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The weak trace tail and the product moment bound force one simple square-zero residue on each side. |
+| argument | [A lower bound for two linear left denominators](#a-lower-bound-for-two-linear-left-denominators) | A lower bound for two linear left denominators. |
+| argument | [A fractional moment lower bound detects interacting residues](#a-fractional-moment-lower-bound-detects-interacting-residues) | A fractional moment lower bound detects interacting residues. |
+| argument | [Counting the poles](#counting-the-poles) | Counting the poles. |
+| review | [Trace tails of the middle product](../audits/reviews/Yin_R_A0216_v1.md#trace-tails-of-the-middle-product) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-trace-tails-of-the-middle-product)

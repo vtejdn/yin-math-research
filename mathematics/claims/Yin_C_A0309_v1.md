@@ -85,3 +85,25 @@ At equality the two disjoint phase sets \(\mu_n,i\mu_n\) would all have nullity 
 After a scalar monomial shift the polynomial has degree seven and an injective endpoint, by the corner hypotheses.
 The [degree budget](Yin_C_A0204_v1.md#the-bound-using-individual-column-widths) is \(7h\), whereas the required sum is \(nh/2>7h\).
 This proves strictness without imposing scalar injectivity.
+
+## Assessment history
+
+### Decision two-adjacent-elements-of-small-order
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:55 |
+| status | proved |
+| reason | The stated triangle relations force the marked fillings, and the disjoint phase count yields the strict window estimate under its separate hypotheses. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The stated triangle relations force the marked fillings, and the disjoint phase count yields the strict window estimate under its separate hypotheses. |
+| argument | [When two equal orders give a solvable group](#when-two-equal-orders-give-a-solvable-group) | When two equal orders give a solvable group. |
+| argument | [The two marked images](#the-two-marked-images) | The two marked images. |
+| argument | [A strict window bound without scalar injectivity](#a-strict-window-bound-without-scalar-injectivity) | A strict window bound without scalar injectivity. |
+| review | [Two adjacent elements of small order](../audits/reviews/Yin_R_A0218_v1.md#two-adjacent-elements-of-small-order) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-two-adjacent-elements-of-small-order)

@@ -75,3 +75,24 @@ Indeed \(M_0=M(\infty)-R_+/2\).
 Both residue columns have both entries nonzero, so every product of two residues is nonzero.
 The determinant of \(M_0\) is \(-7/16\), so all nine ordered products formed from \(R_-,R_+,M_0\) are nonzero.
 The full-matrix test therefore applies, even though the four-step identity already holds at the scalar evaluation \(s=t=1\).
+
+## Assessment history
+
+### Decision cofinite-products-of-fourier-coefficients
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:56 |
+| status | proved |
+| reason | The quartic identity and the cofinite coefficient condition force a product of two cyclic groups inside a cyclic extension. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The quartic identity and the cofinite coefficient condition force a product of two cyclic groups inside a cyclic extension. |
+| argument | [The two products differ by only finitely many labels](#the-two-products-differ-by-only-finitely-many-labels) | The two products differ by only finitely many labels. |
+| argument | [A split pair of poles with a fourth-order scalar evaluation](#a-split-pair-of-poles-with-a-fourth-order-scalar-evaluation) | A split pair of poles with a fourth-order scalar evaluation. |
+| review | [Cofinite products of Fourier coefficients](../audits/reviews/Yin_R_A0219_v1.md#cofinite-products-of-fourier-coefficients) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-cofinite-products-of-fourier-coefficients)

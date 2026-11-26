@@ -145,3 +145,26 @@ But \(Y^2=-k a^{-2}s^2\).
 The positive affiliated scalar \(Y^*Y\) would therefore equal a nonzero scalar multiple of \(s^4\).
 The latter has the full circle of its scalar radius as spectrum in the regular representation, since \(s^4\) has infinite order.
 This is impossible for a positive operator and excludes the distinct double roots.
+
+## Assessment history
+
+### Decision distinct-boundary-double-poles
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | Both coincident and distinct double poles are excluded. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | Both coincident and distinct double poles are excluded. |
+| argument | [Scalar equations from two off-diagonal entries](#scalar-equations-from-two-off-diagonal-entries) | Scalar equations from two off-diagonal entries. |
+| argument | [The commutant of a two-term Laurent polynomial](#the-commutant-of-a-two-term-laurent-polynomial) | The commutant of a two-term Laurent polynomial. |
+| argument | [The two-factor support forces the sign to be positive](#the-two-factor-support-forces-the-sign-to-be-positive) | The two-factor support forces the sign to be positive. |
+| argument | [A positive scalar would be a nontrivial group translation](#a-positive-scalar-would-be-a-nontrivial-group-translation) | A positive scalar would be a nontrivial group translation. |
+| review | [Distinct boundary double poles](../audits/reviews/Yin_R_A0216_v1.md#distinct-boundary-double-poles) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-distinct-boundary-double-poles)

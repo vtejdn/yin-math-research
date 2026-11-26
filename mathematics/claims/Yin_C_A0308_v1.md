@@ -79,3 +79,24 @@ This gives all positive pairs in the two rectangles and proves the supremum iden
 
 Finally apply the [coefficient-independent local gap](Yin_C_A0307_v1.md#statement) to every rectangle contributing to the union at the normalized marking.
 For arbitrary degrees, \((1/2,1/2)\) would force \(\delta=1/2\) in the union, excluded by the [order-24 marking reduction](Yin_C_A0241_v1.md#statement) and the [exact half-kernel theorem](Yin_C_A0303_v1.md#statement).
+
+## Assessment history
+
+### Decision trace-pairs-for-rank-two-inputs
+
+| Field | Value |
+| --- | --- |
+| date | 2026-11-26T15:54 |
+| status | proved |
+| reason | The two increment alternatives and diffuse subprojections realize exactly the stated union of rectangles. |
+
+| Relation | Target | Scope |
+| --- | --- | --- |
+| statement | [Statement](#statement) | The two increment alternatives and diffuse subprojections realize exactly the stated union of rectangles. |
+| argument | [The increment and the smaller side](#the-increment-and-the-smaller-side) | The increment and the smaller side. |
+| argument | [Attaining every pair in the union](#attaining-every-pair-in-the-union) | Attaining every pair in the union. |
+| review | [Trace pairs for rank-two inputs](../audits/reviews/Yin_R_A0216_v1.md#trace-pairs-for-rank-two-inputs) | Independent review of the fixed proof. |
+
+## Current assessment
+
+[Selected decision](#decision-trace-pairs-for-rank-two-inputs)
