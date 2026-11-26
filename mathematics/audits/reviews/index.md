@@ -223,6 +223,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0227](Yin_R_A0227_v1.md#two-original-kernels-after-one-scalar-inverse) | Original-group Schur witnesses, inner ranks and index-four descent | [v1](Yin_R_A0227_v1.md) |
 | [Yin_R_A0228](Yin_R_A0228_v1.md#corner-ranks-and-dihedral-images-at-order-sixteen) | The remaining marked abelianizations and the sixteenth-root module | [v1](Yin_R_A0228_v1.md) |
 | [Yin_R_A0229](Yin_R_A0229_v1.md#spectral-mass-at-each-positive-schur-spectral-point) | Positive Schur spectral mass and columns on two cyclic translates | [v1](Yin_R_A0229_v1.md) |
+| [Yin_R_A0230](Yin_R_A0230_v1.md#a-strict-first-inverse-rank-drop-at-order-twenty) | Character-detected rank drops, formal norm values and small-index actions | [v1](Yin_R_A0230_v1.md) |
+| [Yin_R_A0231](Yin_R_A0231_v1.md#the-full-solvable-image-gap-at-order-sixteen) | The large-prime estimate and all finite certificates at order sixteen | [v1](Yin_R_A0231_v1.md) |
+| [Yin_R_A0232](Yin_R_A0232_v1.md#twenty-exceptional-coefficient-lines) | The twenty determinant lines, their spectral law and two-step returns | [v1](Yin_R_A0232_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

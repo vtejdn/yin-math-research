@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. For two labels, test the two-sided denominator obstruction on the index-two sign subgroup and the compatible norm matrices on the common index-four subgroup. When neither sign separates the marks, test the nonclosed positive Schur scalar and the original group-ring companion remainders. |
+| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of one biorthogonal system from occurring together as finite-rank commutator sums. For two labels at noncyclic order twenty, test the actual identity lost under formal evaluation of one scalar inverse. On the twenty exceptional determinant lines, use the explicit spectral law to test the twisted transfer for a two-step return. On markings without a separating sign, retain the nonclosed positive Schur scalar and the group-ring companion remainders. |
 
 ## Rank-one commutator sums in the regular representation
 
@@ -84,6 +84,7 @@ If a sign character fixes \(t\) and negates \(s\), two consecutive conjugates al
 Both tests apply with the marks exchanged.
 For three distinct window cosets the [cubic classification](../claims/Yin_C_A0326_v1.md#statement) gives a strict local gap below \(2/3\).
 An actual order-three character fixing \(t\) and separating \(s\) improves the upper bound to \(1/3\); a marking with three distinct cosets alone may lack this character.
+Under the same three-coset condition the [actual action on the cosets of \(\langle t,sts^{-1}\rangle\)](../claims/Yin_C_A0334_v1.md#statement) gives the bound \(1/3\) at index three and \(3/8\) at index four or at index five when the shift acts as a three-cycle.
 More generally, if \(U=s^{-1}P(t)Q(t)^{-1}\) has a fractional eigenspace, the [rank of each nonzero polynomial in \(U\) of degree at most three](../claims/Yin_C_A0329_v1.md#statement) is at least one.
 Hence two distinct eigenvalues whose kernel dimensions sum to one exhaust the allowable point spectrum.
 
@@ -114,8 +115,8 @@ The [short characters on all cyclic divisors](../claims/Yin_C_A0311_v1.md#statem
 Combining the order bounds, individual mark indices and all short-character costs leaves [35 marked abelianizations](../claims/Yin_C_A0332_v1.md#statement) up to quotient isomorphism, inversions and exchange.
 These comprise the trivial group, thirty nontrivial cyclic markings and one marking on each of \(C_2^2,C_4\times C_2,C_6\times C_2,C_{10}\times C_2\).
 At cyclic order 16 only \((1,6)\) survives these comparisons.
-Its [remaining metabelian module](../claims/Yin_C_A0328_v3.md#statement) is an odd-order cyclic \(\mathbb Z[\zeta_{16}]\)-module of size at most \(2^{40}\), with \(S^8=-I\).
-Test the primitive sixteenth-root action and the sign-kernel scalar norm at this marking.
+A [uniform bound of \(99/200\)](../claims/Yin_C_A0328_v5.md#statement) holds for noninteger nullity on this marking whenever \(H\) has a nonabelian solvable image.
+Thus a half kernel forces \(H'\) perfect. Test the sign-kernel scalar norm in this residual case.
 A [cyclic quotient of order 20](../claims/Yin_C_A0314_v1.md#statement) excludes a half increment for every marking.
 At the only candidate degrees the [five evaluations of a bounded transfer](../claims/Yin_C_A0312_v1.md#statement) first force zero trace and then contradict the original-group coefficient supports.
 With simple poles, the number of group labels having the same coefficient modulus grows along each geometric sequence; the two sequences cannot have the required marked degrees.
@@ -126,7 +127,11 @@ If there is a nonabelian solvable image, the [uniform bound \(19/40\)](../claims
 In particular \(H'\) must be perfect at equality.
 The proof uses the [sixteen-point affine test](../claims/Yin_C_A0317_v1.md#statement) on the two-primary component and [ten coupled channels](../claims/Yin_C_A0319_v1.md#statement) on the nontrivial signs.
 On this perfect subgroup, test the two degree-three deformations of the same rectangle arising from weights \((1,2),(2,-1)\); their six-dimensional companions each have a rank-one remainder at the ten actual phases.
-Compare those remainders with the simultaneous rank-two basis on the common index-four subgroup, whose abelianization is cyclic of order five since it contains the perfect commutator subgroup.
+On one index-two sign subgroup a [true scalar character detects a strict inner rank drop from two to one](../claims/Yin_C_A0333_v1.md#statement) when a single group-ring scalar inverse is taken in the regular affiliated algebra.
+The same norm solution has [all formal character values with one fixed denominator](../claims/Yin_C_A0335_v1.md#statement), so use an independent reason for an evaluation to extend across the actual inverse.
+On the common index-four subgroup five characters detect a strict drop by the second layer except possibly on [twenty determinant lines](../claims/Yin_C_A0336_v1.md#statement).
+There the normalized transfer has an explicit [spectral density and two-step return test](../claims/Yin_C_A0336_v2.md#statement).
+Determine whether the half kernel forces the extra bounded similarity after multiplication by the other mark, or forces the same nonzero second moment directly from the original product fibers.
 
 For a cyclic quotient of order 26 the remaining marking is \((1,10)\); at order 25 it is \((1,7)\), in both cases with four invertible coefficient matrices.
 The [six- and seven-point permutation tests](../claims/Yin_C_A0306_v1.md#statement) show that every action on at most seven points has cyclic image under the half-rank hypothesis.

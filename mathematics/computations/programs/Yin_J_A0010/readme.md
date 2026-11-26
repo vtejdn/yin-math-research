@@ -84,3 +84,38 @@ The [standard-library verifier](verify_eighth_phase_extrema.py) covers all prime
 The interval test leaves 41 of 1614 split primes and 14 of 86 quadratic factors; testing each marked root leaves 178 cases for the weighted matchings.
 For each possible missing singleton corner it checks the unique extremal flow and the ratio of matching spread to \(128p\), with maximum \(11/48\) over the chosen certificates.
 The [order-sixteen proof](../../../claims/Yin_C_A0328_v3.md#both-possible-missing-corners-at-the-remaining-178-markings) supplies the original representation and the rank estimate.
+
+## Norms of sixteen-site cycles
+
+Run `python -B verify_sixteenth_cycle_norms.py` in this directory with assertions enabled.
+The [integer verifier](verify_sixteenth_cycle_norms.py) enumerates the undirected simple cycles and all integral unit-capacity circulations for the shifts one and six on sixteen sites.
+It finds 15691 cycles, 91 with zero opposite-coordinate difference, and 4213 distinct nonzero projected vectors.
+Their 58 distinct positive norms are at most 3298.
+Among the 2912 circulations the smaller of the two through-site counts is at most four.
+The [large-prime proof](../../../claims/Yin_C_A0328_v4.md#the-two-possible-reversal-counts) uses this last count to bound the rank cost of replacing one possibly singular numerical corner.
+
+## The finite sixteenth-root affine images
+
+Run `node verify_sixteenth_remainder.mjs` from this directory.
+The option `--witnesses` prints all 12692 individual certificates as JSON lines before the summary.
+The [finite verifier](verify_sixteenth_remainder.mjs) uses only the Node.js standard library and writes no files.
+It covers all primitive sixteenth-root marked fields with \(p\le49152\) and \(p^f\le2^{40}\), including 5000 linear, 7512 quadratic and 180 quartic factors.
+It verifies the 2912 feasible pairs of used permutation edges and a unique pair of minimum cost at each chosen functional, and adds the cost of repairing the possible missing corner at the cheaper endpoint.
+The worst selected ratio is \(2985632/6031616<99/200\).
+The masks, weights, modular products and ratio comparisons stay within the exact integer range.
+The [order-sixteen conclusion](../../../claims/Yin_C_A0328_v5.md#the-12692-finite-certificates-with-a-possible-singular-corner) combines these certificates with the stronger ball-volume inequality above the finite range.
+
+## Bidegree-two polynomials on five sign squares
+
+Run `python -B verify_fifth_sign_squares.py` in this directory with assertions enabled.
+The [standard-library verifier](verify_fifth_sign_squares.py) takes two of the four points in each square \((\pm z,\pm z^2)\), \(z^5=1\), and forms the evaluation matrix on \(x^a y^b,\ 0\le a,b\le2\).
+Full rank modulo 101 at the primitive fifth root 36 excludes 7552 of 7776 systems.
+For every remaining system the program computes signed minors in \(\mathbb Z[\zeta_5]\) and checks a full basis for the kernel over \(\mathbb Q(\zeta_5)\).
+There are 4 exact rank-seven and 220 exact rank-eight systems.
+In 104 cases the entire kernel is contained in a corner coordinate hyperplane.
+The other 120 kernels give 20 distinct projective coefficient vectors, each occurring six times, with ten even only in \(x\) and ten even only in \(y\).
+After reversing the first axis to use \(x^2=y^4\) on the squares, these vectors come from the two polynomials \(-1\pm\sqrt5\,y-2y^2+x^2(2\mp\sqrt5\,y+y^2)\) by rotating the five squares and using the corresponding exchange of axes.
+The program compares the full set of projective vectors in the original coordinates to these transformed polynomials.
+If the constraints on the first square are instead \(f=f_x=f_y=0\) at \((1,1)\), 1294 of 1296 systems have full rank modulo 101.
+Both remaining systems have exact rank eight, and neither admits four nonzero corner coefficients.
+The [index-four character test](../../../claims/Yin_C_A0336_v1.md#character-ranks-and-zero-orders-on-the-grid) translates these two enumerations into a restriction on the original regular transfer.
