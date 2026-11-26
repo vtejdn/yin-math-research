@@ -341,17 +341,19 @@ Since $r=uA^{-1}v=uh$ and $\partial_i A_{jk}=A_{jk}^{(i)}(1\otimes1)$, we obtain
  =-\sum_{j,k=1}^n A_{jk}^{(i)}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
-For a decomposition $\partial_i r=\sum_{\nu=1}^p y_\nu\otimes z_\nu^{\mathrm{op}}$, let $U_{j\nu}$ be the coordinate of $y_\nu$ along $g_j$ and $V_{\nu k}$ the coordinate of $z_\nu$ along $h_k$, using bases extending the two families.
-The coefficient of $g_j\otimes h_k^{\mathrm{op}}$ is then $\sum_{\nu=1}^p U_{j\nu}V_{\nu k}$, so $-A_i=UV$ and $\rank_{\C}A_i\leq p$.
-Conversely, a rank factorization $-A_i=UV$ with $m:=\rank_{\C}A_i$ columns in $U$ and $m$ rows in $V$ gives
+Then the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is equal to $m:=\rank_{\C}A_i$.
+We can see this by the following argument.
+Let $p$ be the tensor rank of $\partial_i r$, so that there exists a decomposition $\partial_i r=\sum_{\nu=1}^p y_\nu\otimes z_\nu^{\mathrm{op}}$, let $U_{j\nu}$ be the coordinate of $y_\nu$ along $g_j$ and $V_{\nu k}$ the coordinate of $z_\nu$ along $h_k$, using bases extending the two families.
+The coefficient of $g_j\otimes h_k^{\mathrm{op}}$ is then $\sum_{\nu=1}^p U_{j\nu}V_{\nu k}$, so $-A_i=UV$ and thus $m\leq p$.
+Conversely, a rank factorization $-A_i=UV$ with $m$ columns in $U$ and $m$ rows in $V$ gives
 \[
  \partial_i r
  =\sum_{\nu=1}^m
  \left(\sum_{j=1}^n U_{j\nu}g_j\right)
  \otimes
- \left(\sum_{k=1}^n V_{\nu k}h_k^{\mathrm{op}}\right).
+ \left(\sum_{k=1}^n V_{\nu k}h_k^{\mathrm{op}}\right),
 \]
-Thus the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is $m$.
+from which we infer that $p\leq m$, as desired.
 
 Apply Lemma~\ref{lem:clearing} to $f,g_1(X),\ldots,g_n(X)$ on the left and $f,h_1(X),\ldots,h_n(X)$ on the right.
 We obtain regular $s,t\in\M$ such that
@@ -382,7 +384,7 @@ Define the maps
  \end{aligned}
 \]
 Evaluation at $X$ and multiplication by the regular denominators preserve the linear independence of the two families.
-Thus $B$ is injective, and $C$ is surjective because its adjoint sends the standard basis of $\C^n$ to the linearly independent vectors $J(h_k(X)t\Omega)$.
+Thus $B$ is injective, and $C$ is surjective because its adjoint $C^*$ sends the standard basis of $\C^n$ to the linearly independent vectors $J(h_k(X)t\Omega)$.
 For every $\xi\in H$, equation~\eqref{eq:theta} gives
 \begin{align*}
  \Theta(\ell_i)\xi
