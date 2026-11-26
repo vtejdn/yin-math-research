@@ -233,6 +233,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0237](Yin_R_A0237_v1.md#simultaneous-actual-pivots-on-the-common-sign-subgroup) | Simultaneous inverses, finite-power bounds, short relations and Banach spectra | [v1](Yin_R_A0237_v1.md) |
 | [Yin_R_A0238](Yin_R_A0238_v1.md#exterior-square-certificates-on-seven-points) | Permutation and exterior-square certificates at noncyclic order twenty | [v1](Yin_R_A0238_v1.md) |
 | [Yin_R_A0239](Yin_R_A0239_v1.md#scalar-atomlessness-at-every-inverse-layer) | Brown atoms, rational evaluations and scalar injectivity at each actual inverse layer | [v1](Yin_R_A0239_v1.md) |
+| [Yin_R_A0240](Yin_R_A0240_v1.md#selecting-a-scalar-inverse-outside-absolutely-summable-convolution) | Normal alternating images and the second Schur pivot | [v1](Yin_R_A0240_v1.md) |
+| [Yin_R_A0241](Yin_R_A0241_v1.md#intrinsic-complementary-determinants-on-the-time-chains) | Unbounded generalized kernels, open time chains and the integral determinant property | [v1](Yin_R_A0241_v1.md) |
+| [Yin_R_A0242](Yin_R_A0242_v1.md#one-transcendental-coefficient-at-a-fixed-inverse-depth) | Fixed-depth specialization, one-variable fields and equality of number-field ranks | [v1](Yin_R_A0242_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

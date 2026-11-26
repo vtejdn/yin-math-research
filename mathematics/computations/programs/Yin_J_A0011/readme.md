@@ -62,3 +62,11 @@ The [integer verifier](verify_seven_permutations_twenty.mjs) checks 114, 916 and
 It recomputes each matching spread by negative-cycle cancellation, checks the inequalities on all residual edges and evaluates every recurrent zero-cost word in the marked quotient or permutation action.
 Across the given seven sites, 21 unordered pairs and 21 exterior coordinates the largest certified spread divided by the selected degree is \(49/21\).
 The [seven-site rank theorem](../../../claims/Yin_C_A0346_v2.md#checking-optimality-and-the-recurrent-group-words) applies to the original regular operator regardless of its five numerical character ranks.
+
+## A normal alternating subgroup at noncyclic order twenty
+
+Run `node verify_alternating_normalizer_twenty.mjs` from this directory, adding `--witnesses` to print each marked ten-site pair, selected representation, integral lifts, occupancy and dual potentials.
+The [integer verifier](verify_alternating_normalizer_twenty.mjs) checks 159, 234 and 234 classes in the three groups of order 720 and 468 classes in the full 1440-element normalizer.
+Each calculation uses the ten-site representation or one of its two 45-dimensional pair constructions.
+The largest ratio of matching spread to degree is \(105/45\).
+The [normal alternating subgroup bound](../../../claims/Yin_C_A0346_v3.md#statement) follows for arbitrary quotients containing a normal copy of \(A_6\).

@@ -14,16 +14,19 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude simultaneous traceless rank-one commutator witnesses on a common biorthogonal system. At noncyclic order twenty test the two-square formal residue left by the same two actual invertible pivots at every visible character. For sofic groups, test whether the Brown atom at zero of a mixed Schur complement can be excluded using atomlessness at the preceding actual inverse layer. |
+| priority | Exclude simultaneous traceless rank-one commutator witnesses on a common biorthogonal system. At noncyclic order twenty test the explicit nonsummable inverse at the second Schur pivot. For groups satisfying the integral determinant bound, use the open time chain to compare the generalized kernels of a mixed Schur complement with the preceding layer's atomless scalars. |
 
 ## Rank-one commutator sums in the regular representation
 
 The [rank-one exclusion criterion](../claims/Yin_C_A0157_v1.md#separating-the-ranges-and-excluding-rank-one) applies at all matrix sizes.
-For a sofic group the [Brown criterion on each scalar inverse layer](../claims/Yin_C_A0347_v4.md#statement) applies to algebraic-coefficient rational evaluations, including unbounded scalars.
+For a group satisfying the integral determinant bound, the [intrinsic time-chain theorem](../claims/Yin_C_A0347_v7.md#statement) gives the Brown criterion on each actual scalar inverse layer over the algebraic numbers.
 Every nonzero scalar in a fixed layer is injective precisely when every nonconstant scalar of that layer has atomless Brown measure.
-For a bounded rational matrix the [mass of each Brown atom](../claims/Yin_C_A0347_v3.md#statement) is the limit of the normalized kernel dimensions of powers of the corresponding shift.
+For an unbounded rational matrix as well, the [mass of each Brown atom](../claims/Yin_C_A0347_v6.md#statement) is the limit of the normalized kernel dimensions of powers of the corresponding shift.
 For a nonzero nonunit \(s\), the bounded positive contraction \((1+s^*s)^{-1}\) puts its original kernel mass at one using a single additional inverse.
 The remaining induction problem is to exclude that mass for a sum or product involving different preceding-layer inverses.
+At fixed depth, scalar injectivity already [passes from algebraic coefficients to one transcendental rational variable](../claims/Yin_C_A0351_v1.md#keeping-all-gates-defined-in-an-algebraic-specialization).
+When matrix integrality is known over the algebraic numbers, this also covers matrices over finite algebraic extensions of the one-variable field.
+The same integral determinant hypothesis makes [regular ranks and algebraic Brown masses invariant under number-field embeddings](../claims/Yin_C_A0352_v1.md#statement).
 It now suffices, across torsion-free groups, to exclude one [complete traceless system of size two](../claims/Yin_C_A0250_v1.md#statement).
 A hypothetical failure of any rank, including an irrational rank, supplies all such systems in one finitely generated torsion-free extension by dividing projection traces on finite marked intervals.
 On the same marking the three simultaneous outputs must be \(E_{12},E_{21},E_{11}-E_{22}\) for a single family of bounded biorthogonal vectors with the paired left-translation spans in the [matrix-unit characterization](../claims/Yin_C_A0243_v2.md#statement).
@@ -143,9 +146,11 @@ If all five character ranks are at most two, there is an [absolute gap below hal
 In the remaining rank-three or rank-four evaluations, choose the [nested three-square, two-square and scalar minors](../claims/Yin_C_A0344_v1.md#statement).
 In fact [one pair of actual unit pivots](../claims/Yin_C_A0344_v2.md#statement) works for all detecting characters after constant coordinate changes.
 The resulting two-square Schur remainder is zero in the actual ring and has formal rank \(r_\psi-2\) at every detecting character.
+Among [at most fourteen integer coordinate choices](../claims/Yin_C_A0350_v1.md#selecting-and-approximating-one-actual-scalar-inverse) the inverse of the second scalar pivot has divergent convolution norms along the specified finite-support regularization.
 Use its eight group labels inside the subgroup with abelianization \(C_5\) and perfect derived group to test these relations together.
 Two [bounded-length relators with independent exponent sums](../claims/Yin_C_A0348_v1.md#statement) must already occur in the original marking.
 Every action on at most seven points must factor through the abelianization by the [seven-site certificates](../claims/Yin_C_A0346_v2.md#statement).
+A quotient containing a [normal \(A_6\)](../claims/Yin_C_A0346_v3.md#statement) gives the bound \(7/15\) even with the full outer action on the ten Sylow subgroups.
 In groups with the stated idempotent trace comparison, [a positive regular singular gap](../claims/Yin_C_A0349_v1.md#the-size-of-a-positive-regular-gap) for the eight-label matrix cannot exceed three quarters of its norm.
 The [finite-power test for the product of the two involutions](../claims/Yin_C_A0345_v2.md#statement) applies at any independently signed marking.
 For a sofic group and fixed algebraic assembly, a half kernel forces an [exponential growth rate strictly above one](../claims/Yin_C_A0347_v2.md#a-quantitative-lower-bound-for-the-spectral-radius).

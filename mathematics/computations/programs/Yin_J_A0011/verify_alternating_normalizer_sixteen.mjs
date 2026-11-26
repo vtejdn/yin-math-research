@@ -1,5 +1,6 @@
 // Actions of the normalizer of A6 on its Sylow three subgroups and induced six-site actions.
 import assert from "node:assert/strict";
+import {pathToFileURL} from "node:url";
 import {identity, compose, inverse, key, group, canonical, cycleLengths,
   cheaperRepair, simpleCycles, matchingFlows} from "./verify_small_permutations_sixteen.mjs";
 
@@ -135,25 +136,29 @@ function twelveSite(x, y) {
   return {d, c, adjustS, adjustT, anchor, ties, spread, q: 0};
 }
 
-const counts = [];
-let maximum = [0, 1];
-for (const coset of cosets) {
-  const seen = new Set();
-  let direct = 0, induced = 0;
-  for (const x of coset) for (const y of inner) {
-    const k = canonical(x, y);
-    if (!k || seen.has(k)) continue;
-    seen.add(k);
-    if (group([x, y], 10).length !== 720) continue;
-    let hit = tenSite(x, y);
-    if (hit) direct++;
-    else { hit = twelveSite(x, y); induced++; }
-    const numerator = 2*hit.spread + 16*hit.q, denominator = 16*hit.d;
-    assert(40*numerator <= 19*denominator);
-    if (numerator*maximum[1] > denominator*maximum[0]) maximum = [numerator, denominator];
-    if (printWitnesses) console.log(JSON.stringify({x, y, ...hit}));
+export {inner, normalizer, cosets};
+
+if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) {
+  const counts = [];
+  let maximum = [0, 1];
+  for (const coset of cosets) {
+    const seen = new Set();
+    let direct = 0, induced = 0;
+    for (const x of coset) for (const y of inner) {
+      const k = canonical(x, y);
+      if (!k || seen.has(k)) continue;
+      seen.add(k);
+      if (group([x, y], 10).length !== 720) continue;
+      let hit = tenSite(x, y);
+      if (hit) direct++;
+      else { hit = twelveSite(x, y); induced++; }
+      const numerator = 2*hit.spread + 16*hit.q, denominator = 16*hit.d;
+      assert(40*numerator <= 19*denominator);
+      if (numerator*maximum[1] > denominator*maximum[0]) maximum = [numerator, denominator];
+      if (printWitnesses) console.log(JSON.stringify({x, y, ...hit}));
+    }
+    counts.push([direct, induced]);
   }
-  counts.push([direct, induced]);
+  assert.deepEqual(counts, [[53,0],[78,0],[76,2]]);
+  console.log(JSON.stringify({normalizer: normalizer.length, counts, maximum}));
 }
-assert.deepEqual(counts, [[53,0],[78,0],[76,2]]);
-console.log(JSON.stringify({normalizer: normalizer.length, counts, maximum}));

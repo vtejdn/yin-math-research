@@ -1,5 +1,6 @@
 // Seven-site images and their ordinary or alternating two-subset actions.
 import assert from "node:assert/strict";
+import {pathToFileURL} from "node:url";
 import {identity, key, permutations, cycleLengths, canonical, solvable} from "./verify_small_permutations_sixteen.mjs";
 
 const printWitnesses = process.argv.includes("--witnesses");
@@ -49,8 +50,8 @@ function* transitivePairs() {
 
 function subsetAction(p, k) {
   const lists = [];
-  for (let mask = 0; mask < 128; mask++) {
-    const members = identity(7).filter(i => mask & (1 << i));
+  for (let mask = 0; mask < (1 << p.length); mask++) {
+    const members = identity(p.length).filter(i => mask & (1 << i));
     if (members.length === k) lists.push(members);
   }
   const maskOf = list => list.reduce((m, i) => m | (1 << i), 0);
@@ -119,21 +120,25 @@ function certifyZeroGraph(x, y, weights, state) {
     if (distance[u]+w === distance[v]) adj[u].push([v,e]);
   }
   assert(balance.every(v => v === 0));
-  const reach = adj.map((row, i) => row.reduce((bits, edge) => bits | (1 << edge[0]), 1 << i));
-  for (let k = 0; k < d; k++) for (let i = 0; i < d; i++) {
-    if ((reach[i] >> k) & 1) reach[i] |= reach[k];
+  // Forward and backward reachability give each strong component, also above 32 sites.
+  const reverse = Array.from({length: d}, () => []);
+  for (let i = 0; i < d; i++) for (const [j] of adj[i]) reverse[j].push([i]);
+  function reachable(rows, root) {
+    const found = new Set([root]);
+    for (const v of found) for (const [j] of rows[v]) found.add(j);
+    return found;
   }
-  let seen = 0;
+  const seen = new Set();
   for (let i = 0; i < d; i++) {
-    if ((seen >> i) & 1) continue;
-    let component = 0;
-    for (let j = 0; j < d; j++) if ((reach[i] >> j) & (reach[j] >> i) & 1) component |= 1 << j;
-    seen |= component;
+    if (seen.has(i)) continue;
+    const backward = reachable(reverse, i);
+    const component = new Set([...reachable(adj, i)].filter(j => backward.has(j)));
+    for (const j of component) seen.add(j);
     let v = i, s = 0, t = 0;
     const edges = [];
     do {
-      const internal = adj[v].filter(([j]) => (component >> j) & 1);
-      if (!internal.length) { if (component !== 1 << i) return false; break; }
+      const internal = adj[v].filter(([j]) => component.has(j));
+      if (!internal.length) { if (component.size !== 1) return false; break; }
       if (internal.length !== 1) return false;
       const [next, e] = internal[0];
       edges.push(e);
@@ -209,17 +214,21 @@ function witness(first, second) {
   throw new Error("No certificate for " + key(first) + "/" + key(second));
 }
 
-const counts = {}, actions = {};
-let maxN = 0, maxD = 1;
-for (const {x,y,order} of transitivePairs()) {
-  const w = witness(x,y);
-  counts[order] = (counts[order] || 0)+1;
-  const name = w.k === 1 ? "given" : w.signed ? "exterior" : "pairs";
-  actions[order] ??= {};
-  actions[order][name] = (actions[order][name] || 0)+1;
-  if (w.spread*maxD > w.d*maxN) { maxN = w.spread; maxD = w.d; }
-  if (printWitnesses) console.log(JSON.stringify({order,x,y,...w}));
+export {witness};
+
+if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) {
+  const counts = {}, actions = {};
+  let maxN = 0, maxD = 1;
+  for (const {x,y,order} of transitivePairs()) {
+    const w = witness(x,y);
+    counts[order] = (counts[order] || 0)+1;
+    const name = w.k === 1 ? "given" : w.signed ? "exterior" : "pairs";
+    actions[order] ??= {};
+    actions[order][name] = (actions[order][name] || 0)+1;
+    if (w.spread*maxD > w.d*maxN) { maxN = w.spread; maxD = w.d; }
+    if (printWitnesses) console.log(JSON.stringify({order,x,y,...w}));
+  }
+  assert.deepEqual(counts, {168:114, 2520:916, 5040:3090});
+  assert(3*maxN <= 7*maxD);
+  console.log(JSON.stringify({counts,actions,maximum:[maxN,maxD]}));
 }
-assert.deepEqual(counts, {168:114, 2520:916, 5040:3090});
-assert(3*maxN <= 7*maxD);
-console.log(JSON.stringify({counts,actions,maximum:[maxN,maxD]}));
