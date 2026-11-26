@@ -15,7 +15,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_J_A0008](programs/Yin_J_A0008/readme.md) | Gaussian periods and five- and ten-coordinate prime matching certificates at orders 20 and 25 |  |
 | [Yin_J_A0009](programs/Yin_J_A0009/readme.md) | Thirteen- and twenty-six-coordinate character orbits, circulation norms and finite matching certificates at the order-26 marking |  |
 | [Yin_J_A0010](programs/Yin_J_A0010/readme.md) | Cyclotomic norms, marked paths, order-sixteen phase certificates and five sign squares at order twenty |  |
-| [Yin_J_A0011](programs/Yin_J_A0011/readme.md) | Permutation and matching certificates on five to seven points at orders 25 and 26 |  |
+| [Yin_J_A0011](programs/Yin_J_A0011/readme.md) | Small permutation images and matching certificates for the marked quotients of orders 16, 25 and 26 |  |
 | [Yin_J_F0001](programs/Yin_J_F0001/readme.md) | dr97-tree-commutator — finite free-group endpoint/suffix and auxiliary scalar-column comparisons |  |
 | [Yin_J_F0002](programs/Yin_J_F0002/readme.md) | miy22-commutators — finite exact Fock word-action and adjoint-sign comparisons |  |
 | [Yin_J_F0003](programs/Yin_J_F0003/readme.md) | ms23-dual-combinatorics — finite exact q-polynomial dual, crossing and one-variable checks |  |
