@@ -38,3 +38,44 @@ The [five-coordinate argument](../../../claims/Yin_C_A0215_v1.md#minimum-matchin
 Each of the twelve twenty-five-coordinate graphs has thirteen singleton components and six two-column components with the two required offset pairs.
 The executed block-width sums were \(45,147,213\), respectively.
 The [slice-transfer proof](../../../claims/Yin_C_A0216_v1.md#twelve-zero-parameter-certificates) uses these finite checks for a regular-rank bound.
+
+## Coupled orbits at four primes
+
+Run `python -B verify_coupled.py` from this directory with assertions enabled.
+The [coupled-orbit verifier](verify_coupled.py) includes all its input data, uses Python 3 without external packages and writes no output files.
+At each prime it verifies factor coverage by exact polynomial multiplication and the Frobenius order, constructs every weight list by recurrence from one functional on the marked simple quotient, and checks periodicity.
+It finds a matching and two integer price lists, then directly verifies a tight matching and nonnegative reduced costs on all actual arrows.
+It verifies mutual reachability, every diagonal block type, the total degree and the common numerical bound by integer comparisons.
+The executed counts for primes \(7,43,101,149\) were \(5,5,20,10\) factors, with maximum block-width sums \(959,5925,14750,21100\) respectively.
+The [four-prime proof](../../../claims/Yin_C_A0217_v1.md#verifying-full-rank-away-from-zero) explains how the second choice of row and column powers supplies the full-rank specialization required by the degree estimate.
+
+## Both matching costs at split primes
+
+Run `python -B verify_matching_spread.py` from this directory with assertions enabled.
+The [split-prime verifier](verify_matching_spread.py) imports the integer assignment routine from the coupled-orbit verifier.
+For each split prime through 100000 it generates all twenty primitive roots of order 25 and checks the lower and upper prices on every actual edge.
+At least one of the two directed graphs must yield a block triangular invertible endpoint.
+All 9720 marked roots at the 486 primes passed, using only the multipliers one, two and three.
+For 2866 first successful multipliers the sum of the original block-column widths alone does not give a strict half bound.
+The [output-degree interpolation](../../../claims/Yin_C_A0219_v1.md#interpolation-with-different-output-degrees) gives the regular-rank estimate from the two matching costs.
+
+## Quartic periods through the size cutoff
+
+Run `python -B verify_periods.py` with assertions enabled in this directory.
+The [period verifier](verify_periods.py) uses standard-library integer arithmetic, reads no inputs and writes no files.
+It expands the product over five Gaussian periods in the twenty-fifth cyclotomic ring to recover their quintic polynomial.
+It sieves the primes congruent to 7 or 18 modulo 25 through \(18^5=1889568\), setting aside 7 for the coupled-orbit calculation above.
+At each remaining prime, deterministic polynomial splitting produces five distinct roots and the verifier checks their number and their values by substitution.
+It searches positive multipliers from \(p-1\) down through those strictly above \(p/2\), stopping at the first with period sum \(p\) and checking that every witness found exceeds \(3p/4\).
+Of the 14140 primes in range, 14137 have this trace witness.
+At the two exceptions \(43,157\) it checks the displayed irreducible quartic factors by cyclotomic divisibility and the Frobenius order, and verifies positivity and all five sums by exact recurrence.
+The [quartic character proof](../../../claims/Yin_C_A0220_v1.md#the-five-periods-of-the-trace) identifies these finite lists as actual representations of the marked group and supplies the rank estimate.
+
+## Quadratic matching spread through one hundred thousand
+
+Run `python -B verify_quadratic_spread.py` with assertions enabled in this directory.
+The [quadratic verifier](verify_quadratic_spread.py) uses Python 3 integer arithmetic and reuses the primal and dual matching checks from the split-prime and coupled-orbit verifiers.
+For each of the 463 primes congruent to 24 modulo 25 through 100000 it checks exact order 25 and obtains all ten distinct traces of inverse pairs of primitive roots.
+For each trace it tests four initial pairs in order, constructs the 25 weights by recurrence, and checks the two matching costs and an invertible endpoint.
+The four initial pairs first succeed on 2267, 2283, 78 and 2 traces respectively, accounting for all 4630 marked traces.
+The [matching estimate](../../../claims/Yin_C_A0221_v1.md#both-matching-costs-for-the-ten-traces) deduces a strict half bound from each successful pair.
