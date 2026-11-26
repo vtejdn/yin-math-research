@@ -313,13 +313,7 @@ The rank independence is Lemma~\ref{lem:fraction-ranks}.
 
 \begin{corollary}\label{cor:fraction-commutator-rank}
 Let $X$ and $(D_1,\ldots,D_d)$ satisfy the hypotheses of Theorem~\ref{thm:analytic}.
-Let $r\in\freefield{x_1,\ldots,x_d}$ be nonzero and let
-\[
- r=\alpha A^{-1}\beta,\qquad A=A_0-\sum_{j=1}^d A_jx_j,
-\]
-be a minimal linear representation.
-Here $A_0,\ldots,A_d\in M_n(\C)$, $\alpha\in M_{1,n}(\C)$, $\beta\in M_{n,1}(\C)$, and $A$ is invertible over the free field.
-Minimality means that $n$ is the least possible size of $A$ in such a representation.
+Let $(\alpha,A,\beta)$ be a minimal linear representation of a nonzero $r\in\freefield{x_1,\ldots,x_d}$ as in Definition~\ref{def:linear-representation}, with $A=A_0-\sum_{j=1}^d A_jx_j$ of size $n$.
 Then for every fraction pair $Q$ for $r(X)$,
 \[
  \rank\overline{\Gamma[Q,D_i]}=\rank_{\C} A_i
@@ -332,7 +326,7 @@ Applying the product rule entrywise to $AA^{-1}=I_n$ gives
 \[
  \partial_i r=\sum_{j,k=1}^n (A_i)_{jk}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
-By Cohn and Reutenauer \cite[Lemma~4.5]{CR94}, minimality makes $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ each linearly independent over $\C$.
+By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
 Thus the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, equals $\rank_{\C}A_i$.
 
 Put $\M:=W^*(X)$.

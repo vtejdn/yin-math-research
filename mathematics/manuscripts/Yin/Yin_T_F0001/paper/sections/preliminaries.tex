@@ -36,6 +36,26 @@ For $c\in\C$ and $u,v\in\freefield{x_1,\ldots,x_d}$, with $u\ne0$, they satisfy
 \end{aligned}
 \end{equation}
 
+\begin{definition}\label{def:linear-representation}
+Let $r\in\freefield{x_1,\ldots,x_d}$ be a rational function.
+A \emph{linear representation} of $r$ is a tuple $(\alpha,A,\beta)$ consisting of a full linear matrix
+\[
+ A=A_0-\sum_{j=1}^d A_jx_j,\qquad A_0,\ldots,A_d\in M_n(\C),\qquad n\geq 1,
+\]
+a row vector $\alpha\in M_{1,n}(\C)$, and a column vector $\beta\in M_{n,1}(\C)$ such that $r=\alpha A^{-1}\beta$ in the free field \cite[Definition~4.2]{MSY23}.
+The dimension of this representation is $n$.
+The representation is \emph{minimal} if $n$ is the least possible dimension among all representations of $r$ \cite[Section~3.1]{CR94}.
+\end{definition}
+
+\begin{theorem}[{\cite[Theorem~4.3]{MSY23}}]\label{thm:linearization}
+Each rational function $r\in\freefield{x_1,\ldots,x_d}$ admits a linear representation in the sense of Definition~\ref{def:linear-representation}, and hence a minimal one.
+\end{theorem}
+
+\begin{theorem}[{\cite[Section~4.2, Proposition~7]{CR94}}]\label{thm:minimal-linear-representation}
+Let $(\alpha,A,\beta)$ be a linear representation of a nonzero rational function.
+It is minimal if and only if the entries of $\alpha A^{-1}$ are linearly independent over $\C$ and so are the entries of $A^{-1}\beta$.
+\end{theorem}
+
 \subsection{Coordinate maps over division subrings}
 
 For a division subring $F$ in a unital algebra $U$, the proof below constructs, for $u\notin F$, a right $F$-linear coordinate map $\phi_u:U\longrightarrow F$ satisfying $\phi_u(1)=0$ and $\phi_u(u)=1$.

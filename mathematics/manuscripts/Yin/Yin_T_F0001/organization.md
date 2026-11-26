@@ -15,7 +15,7 @@ The paper is compiled from `main.tex` and six section files.
 | Section | Current title | Mathematical content |
 | --- | --- | --- |
 | 1 | Introduction | Definitions 1.1-1.3, 1.6 and 1.8, Theorems 1.4, 1.7 and 1.9, the intervening remark and the statement of the paper's organization. |
-| 2 | Preliminaries | Division closures, the abstract free field and coordinate separation; fractions of affiliated operators; tensor realizations of finite-rank operators; Delta and free-field realization. |
+| 2 | Preliminaries | Division closures, the abstract free field, linear representations and coordinate separation. Fractions of affiliated operators, tensor realizations of finite-rank operators, Delta and free-field realization. |
 | 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
 | 4 | Liberation dual system criterion | An unnumbered recall of Definition 1.6 is followed by Remark 4.1 on liberation gradients and the two tensor-evaluation identities. Proposition 4.2 normalizes the system, and Lemmas 4.3 through 4.6 give closure and tensor tools. The proof of Theorem 1.7 follows Proposition 4.7 and Lemmas 4.8 and 4.9 on algebraic L2 recovery and closability of fraction commutators. |
 | 5 | Dual system criterion | An unnumbered recall of Definition 1.8 is followed by Remark 5.1 on maximal Delta. Lemmas 5.2 through 5.5 establish rank independence, identify finite-rank solutions and give the required module commutation. Proposition 5.6 constructs the normalized liberation dual system. Lemma 5.7 compares fraction commutators and gives the summed identity. Theorem 1.9 uses maximal Delta to obtain scalar-shift regularity before applying Theorem 1.7. Corollary 5.8 computes the ranks from a minimal linear representation and leads to the comparison with Kronecker's theorem. |
@@ -28,11 +28,11 @@ All existing mathematical environments and their semantic labels are retained.
 
 | Subsection | Current title | Contents and dependencies |
 | --- | --- | --- |
-| 2.1 | Division closures and the free field | Definition 2.1 gives division closure and rationality; the abstract free field and its difference quotients follow. The terminology is justified by the closure equality when Delta(X)=d, with a forward reference to Subsection 2.5. |
-| 2.2 | Coordinate maps over division subrings | Lemma 2.2 gives the balanced-tensor equalizer for every u in U, using a right-linear coordinate map. This algebraic construction requires no maximal-Delta hypothesis. |
-| 2.3 | Fractions of affiliated operators | Definition 2.3 introduces regularity before the canonical fraction construction. Definition 2.4 gives fraction and common-denominator terminology before Lemmas 2.5–2.6. The Linnell–Miyagawa comparison concludes the subsection. |
+| 2.1 | Division closures and the free field | Definition 2.1 gives division closure and rationality. The abstract free field and its difference quotients follow. Definition 2.2 introduces linear representations and minimality. Theorems 2.3 and 2.4 give existence and the minimality characterization. The terminology is justified by the closure equality when Delta(X)=d, with a forward reference to Subsection 2.5. |
+| 2.2 | Coordinate maps over division subrings | Lemma 2.5 gives the balanced-tensor equalizer for every u in U, using a right-linear coordinate map. This algebraic construction requires no maximal-Delta hypothesis. |
+| 2.3 | Fractions of affiliated operators | Definition 2.6 introduces regularity before the canonical fraction construction. Definition 2.7 gives fraction and common-denominator terminology before Lemmas 2.8–2.9. The Linnell–Miyagawa comparison concludes the subsection. |
 | 2.4 | Algebraic tensors and finite-rank operators | The finite-rank, right-multiplication and Hilbert–Schmidt notation precedes Theta, its unitary extension and its bimodule and commutator identities. The trace extension to H is retained. |
-| 2.5 | The invariant Delta and free-field realization | Definition 2.7 defines the cycles and Delta, followed by the maximality characterization in Remark 2.8, the free-field realization in Lemma 2.9 and equality of rational and division closures under maximal Delta. |
+| 2.5 | The invariant Delta and free-field realization | Definition 2.10 defines the cycles and Delta, followed by the maximality characterization in Remark 2.11, the free-field realization in Lemma 2.12 and equality of rational and division closures under maximal Delta. |
 
 The abstract free field is introduced before its evaluation in affiliated operators.
 The Hilbert–Schmidt space is defined before the unitary extension of Theta, and maximal Delta is stated before its free-field and closure consequences.
@@ -59,7 +59,7 @@ The arcsine example shows that the liberation criterion has strictly weaker hypo
 Subsection 2.4, “Algebraic tensors and finite-rank operators”, uses CS05 equations (1.1)–(1.2) for Theta and its four tensor-factor actions.
 It gives the linear bijection from algebraic L2 tensors to bounded finite-rank operators, its Hilbert–Schmidt extension, the bounded-factor specialization and the commutator identity.
 It also fixes the extension \(\tau(\xi)=\langle\Omega,\xi\rangle\) for \(\xi\in H\).
-Lemma 2.2 is the balanced-tensor equalizer used by Theorem 1.4.
+Lemma 2.5 is the balanced-tensor equalizer used by Theorem 1.4.
 
 Lemmas 3.1–3.3 respectively clear a finite family of affiliated tensors, prove tensor injectivity under maximal Delta, and convert algebraic L2 tensor certificates into finite-rank operator certificates with the sign T_i=-Theta(ell_i).
 
