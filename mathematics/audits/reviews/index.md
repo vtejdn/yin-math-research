@@ -206,6 +206,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0210](Yin_R_A0210_v1.md#a-common-word-in-the-two-ten-letter-balls) | Free-face projections, ten-letter tests and finite permutation estimates | [v1](Yin_R_A0210_v1.md) |
 | [Yin_R_A0211](Yin_R_A0211_v1.md#one-inverse-and-the-four-phase-summands) | Original Schur idempotents and the inner rank of four character translates | [v1](Yin_R_A0211_v1.md) |
 | [Yin_R_A0212](Yin_R_A0212_v1.md#all-images-with-periodic-second-mark) | Finite Fourier supports, periodic images and peripheral fillings at order 24 | [v1](Yin_R_A0212_v1.md) |
+| [Yin_R_A0213](Yin_R_A0213_v1.md#two-commutators-with-prescribed-schur-supports) | Free faces at arbitrary moduli and the bounded Schur commutator formula | [v1](Yin_R_A0213_v1.md) |
+| [Yin_R_A0214](Yin_R_A0214_v1.md#exact-normal-generation-by-the-two-outer-squares) | Singular-value tails, pole separation and normal generation inside four powers | [v1](Yin_R_A0214_v1.md) |
+| [Yin_R_A0215](Yin_R_A0215_v1.md#five-point-actions-at-orders-twenty-five-and-twenty-six) | Five-point permutation certificates and adjacent generators at orders 25 and 26 | [v1](Yin_R_A0215_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
