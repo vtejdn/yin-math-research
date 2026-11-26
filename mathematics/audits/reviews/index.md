@@ -176,6 +176,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0177](Yin_R_A0177_v1.md#winding-and-lifted-phases) | Matrix transfers for two marked generators | [v1](Yin_R_A0177_v1.md) |
 | [Yin_R_A0178](Yin_R_A0178_v1.md#finite-phase-estimate) | A uniform finite cyclic quotient test for four-column half increments | [v1](Yin_R_A0178_v1.md) |
 | [Yin_R_A0179](Yin_R_A0179_v1.md#scalar-window) | Four-column pencils and equality in a finite translation window | [v1](Yin_R_A0179_v1.md) |
+| [Yin_R_A0180](Yin_R_A0180_v1.md#low-witness-ranks) | Reviews of witnesses and obstructions at the half-probability threshold | [v1](Yin_R_A0180_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

@@ -133,7 +133,18 @@ Its endpoint spectral projections belong to the division closure, and each inter
 For any affiliated spectral function of this contraction, equation (1) permits finitely many exceptions to agreement with a single complex rational function on the interior rational eigenvalues.
 Membership in the division closure requires agreement at every one of them.
 The endpoint values are arbitrary in both criteria. [Spectral function classification](../claims/Yin_C_A0178_v1.md#statement)
-Whether (1) guarantees the strict inequality for every torsion-free group remains open.
+
+For a torsion-free group, a witness of arbitrary finite rank on one marked generator and total rank at most one elsewhere already gives a constant lift of contraction probability one.
+With \(h\) the first generator and \(g\) the exceptional one, \(u\) is a left fraction with numerator and denominator in \(\mathbb C(h)+g\mathbb C(h)\).
+The proof balances the equation over the field of the cyclic subgroup. [Subgroup fractions](../claims/Yin_C_A0193_v1.md#statement)
+At total rank three, a counterexample requires three distinct labels up to inversion.
+Every pair must generate a subgroup with finite abelianization and admit a nonzero scalar on at most four group elements with nonzero \(\ell^2\)-kernel. [Low-rank obstruction](../claims/Yin_C_A0189_v1.md#statement)
+For an input affiliated to a free abelian subgroup injecting into rational abelianization, possibly after passing to a finite cover, equation (1) forces a rational function even for witnesses of unrestricted rank. [Divided differences](../claims/Yin_C_A0190_v1.md#statement)
+
+Lifting the binary lamplighter by a torsion-free abelian kernel of finite rational rank retains a copy of the binary lamplighter, so this construction cannot give a torsion-free example. [Lifts of binary lamps](../claims/Yin_C_A0191_v1.md#statement)
+In a cyclic quotient, the leading coefficients of longer finite truncations can give rational upper projections with excess trace tending to zero when the subgroup division closure is regular.
+Demanding exact attainment at a finite truncation even on every square unit would imply the complex strong Atiyah conjecture for all finitely generated torsion-free groups. [Least-coset criterion and finite attainment](../claims/Yin_C_A0192_v1.md#statement)
+Whether arbitrary witnesses on a torsion-free group always give a lift above the half-probability threshold remains open.
 
 ## Current decision
 
