@@ -202,6 +202,14 @@ The inspected work is the 24-page 2022 journal PDF; its original foundations rem
 | `paper/sections/preliminaries.tex`, `lem:common` proof | `\cite[proof of Lemma~4.1]{Miy22}` | Identifies the source construction of a common multiple; the displayed fraction argument is checked locally. |
 | `paper/sections/dual-system-criterion.tex`, paragraph before `lem:fraction-ranks` | `\cite[Lemma~4.6]{Miy22}` | Identifies the finite-rank equivalence for the bounded right annihilation operators of a free semicircular system. |
 
+## `MSW17`
+
+The [source reading](../../../audits/literature/MSW17/Yin_U001.md#adjoint-domains-and-the-sources-estimates) identifies the two estimates used in the selfadjoint case.
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/dual-system-criterion.tex`, after the recalled `def:dual-system` | `\cite[Lemma~3.4]{MSW17}` | Bounds the canonical polynomial operator and its adjoint on the polynomial domain in terms of the operator norm. Bounded polynomial approximation and weak closedness of the graphs then give both domain inclusions on \(\mathcal M\Omega\). |
+
 ## `MSY23`
 
 Source evidence: [MSY23-U002](../../../audits/literature/MSY23/Yin_U002.md#msy23-u002), [MSY23-U003](../../../audits/literature/MSY23/Yin_U003.md#msy23-u003), [MSY23-U004](../../../audits/literature/MSY23/Yin_U004.md#msy23-u004), and [MSY23-U005](../../../audits/literature/MSY23/Yin_U005.md#msy23-u005) retain the finite-rank, free-field, affiliated-algebra and bounded-dual interfaces.
@@ -260,7 +268,7 @@ The [source reading](../../../audits/literature/Shl06/Yin_U001.md#shl06-normaliz
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/dual-system-criterion.tex`, after the recalled `def:dual-system` | `\cite[Theorem~1]{Shl06}` | Gives earlier use of unbounded dual systems for selfadjoint generators with commutator identities on \(\mathcal A_X\Omega\). The domain condition on all of \(\mathcal M\Omega\) belongs to the manuscript's formulation. |
+| `paper/sections/dual-system-criterion.tex`, after the recalled `def:dual-system` | `\cite[Theorem~1]{Shl06}` | For selfadjoint generators of \(\mathcal M\), specializes to the existence criterion for normalized duals on the polynomial domain. The manuscript compares existence in the two formulations using the estimates of MSW17, Lemma 3.4. |
 
 ## `Voi98`
 
