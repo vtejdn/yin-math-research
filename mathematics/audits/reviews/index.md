@@ -183,6 +183,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0186](Yin_R_A0186_v1.md#collected-word-list) | Mixed word inputs and scalar inverse layers | [v1](Yin_R_A0186_v1.md) |
 | [Yin_R_A0187](Yin_R_A0187_v1.md#homology-at-thirteen) | Marked homology and regular ranks of four-site matrices | [v1](Yin_R_A0187_v1.md) |
 | [Yin_R_A0188](Yin_R_A0188_v1.md#two-real-signs-on-twenty-five-positions) | The binary obstruction in the commutator subgroup at order 25 | [v1](Yin_R_A0188_v1.md) |
+| [Yin_R_A0189](Yin_R_A0189_v1.md#ternary-characters-at-order-25) | Finite character and size bounds at the two critical orders | [v1](Yin_R_A0189_v1.md) |
+| [Yin_R_A0190](Yin_R_A0190_v1.md#odd-twisted-norms-and-two-sided-clearing) | Leading denominators and descent of the odd norm | [v1](Yin_R_A0190_v1.md) |
+| [Yin_R_A0191](Yin_R_A0191_v1.md#the-fifth-cyclotomic-quotient) | Exclusion of cyclotomic constituents at order 25 | [v1](Yin_R_A0191_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

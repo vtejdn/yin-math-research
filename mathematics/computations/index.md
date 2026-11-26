@@ -12,6 +12,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_J_A0005](programs/Yin_J_A0005/readme.md) | Exact group rewriting, appendix products and unique-product tests on two-generator balls in Gardam's group |  |
 | [Yin_J_A0006](programs/Yin_J_A0006/readme.md) | Girth, index-six subgroup certificates and integral abelianizations for the seven exceptional positive triples |  |
 | [Yin_J_A0007](programs/Yin_J_A0007/readme.md) | Endpoint multiplicities of nonbacktracking walks for the seven exceptional positive triples |  |
+| [Yin_J_A0008](programs/Yin_J_A0008/readme.md) | Split primes and five- and twenty-five-coordinate matchings for the order-25 marking |  |
 | [Yin_J_F0001](programs/Yin_J_F0001/readme.md) | dr97-tree-commutator — finite free-group endpoint/suffix and auxiliary scalar-column comparisons |  |
 | [Yin_J_F0002](programs/Yin_J_F0002/readme.md) | miy22-commutators — finite exact Fock word-action and adjoint-sign comparisons |  |
 | [Yin_J_F0003](programs/Yin_J_F0003/readme.md) | ms23-dual-combinatorics — finite exact q-polynomial dual, crossing and one-variable checks |  |
