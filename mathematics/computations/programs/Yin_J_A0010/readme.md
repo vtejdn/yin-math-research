@@ -53,3 +53,11 @@ It isolates a nonzero frequency at each of the four quadratic and 24 linear mark
 It compares the chosen path with every other pair of intermediate channels, including those with zero Fourier index.
 At \(p=5\) it exhausts all \(6^3\) paths starting at zero for each of the four quadratic factors; none has an isolated nonconstant frequency.
 The [three-step proof](../../../claims/Yin_C_A0251_v1.md#frequency-comparison-on-the-twenty-fourth-simple-factors) supplies the operator nonvanishing and rank implications.
+
+## Alternating group of degree five
+
+Run `python -B verify_a5_transfer.py` with assertions enabled in this directory.
+The [permutation verifier](verify_a5_transfer.py) constructs all 60 even permutations and tests all 3600 ordered pairs.
+Among the 2280 generating pairs, 1560 pass adjacent generation.
+None satisfy either of the two necessary [finite transfer support conditions](../../../claims/Yin_C_A0280_v1.md#statement).
+The separate counts record the 720 pairs that pass the sign condition before testing the identity label.

@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. Test mixed relations in the four-binomial matrix and the order-24 transfer over a perfect commutator subgroup. |
+| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. Test bounded common labels in the four-binomial matrix and the original Schur idempotent when each \(t^{6m}\), \(m\ge1\), normally generates \(H'\) in \(H\). |
 
 ## Rank-one commutator sums in the regular representation
 
@@ -36,7 +36,11 @@ Scalar injectivity also forces each of its six two-row or two-column faces to ge
 For coefficients scalable to unit modulus, compare the actual [alternating products of the two row subgroups](../claims/Yin_C_A0277_v1.md#statement) and the [signed counts of short cycles](../claims/Yin_C_A0279_v1.md#statement).
 A candidate of girth at least sixteen needs 56 distinct deck orbits of sixteen-cycles.
 At arbitrary moduli the [finite moment test](../claims/Yin_C_A0276_v1.md#detecting-closed-walks-at-one-finite-moment) still gives a coefficient-independent bound on the length of a required relation.
-The unresolved case has relations mixing free faces and sufficient signed contributions from paths with equal endpoints.
+After a unit-modulus normalization the two free row subgroups with trivial intersection have nullity at most [253/512](../claims/Yin_C_A0277_v2.md#statement).
+Even one balanced row gives a [strict uniform gap](../claims/Yin_C_A0277_v3.md#statement) for arbitrary moduli of the third row.
+When all four normalized moduli differ from one by at most \(2^{-16}\), search each pair of faces for a [common nonidentity label of length at most ten on both sides](../claims/Yin_C_A0281_v1.md#statement).
+For arbitrary moduli the [finite strip and finite-action tests](../claims/Yin_C_A0285_v1.md#statement) use the support alone; a marked action of degree \(N\) on the specified alternating quotient gives nullity at most \(4/N\).
+The remaining cases require mixed relations and return contributions consistent with these tests.
 The same threshold holds under [virtual character detection of finite conjugacy classes](../claims/Yin_C_A0260_v1.md#statement) and in torsion-free amenable groups.
 For the actual two-column Schur input, [polynomial column shears](../claims/Yin_C_A0257_v1.md#kernel-images-and-the-positive-polynomial-test) measure \(b-h\) by a positive three-square matrix even when the pivot has nonclosed range.
 Test whether the relations on the two sides admit the [triangular or finite-relator exclusion](../claims/Yin_C_A0254_v2.md#statement) before introducing a free extension.
@@ -103,8 +107,14 @@ Comparing [the transfer square and its inverse square](../claims/Yin_C_A0253_v1.
 This intermediate calculation gives odd order at most 117 for the commutator module \(M\).
 From the [twenty explicitly marked groups](../claims/Yin_C_A0263_v1.md#statement), the [alternating cubic characters](../claims/Yin_C_A0265_v1.md#statement) exclude every nonzero sign factor.
 The [four-channel matching bounds](../claims/Yin_C_A0278_v1.md#statement) exclude both fourth-root actions on each of \(C_5,C_{13}\), leaving \(M=0\).
-Every solvable quotient now factors through \(C_{24}\).
-For the remaining branch use the transfer identity on \(F=\langle t_0,t_1\rangle\), or test representations of genuine nonsolvable finite quotients when such quotients exist.
+The [two consecutive Fourier columns](../claims/Yin_C_A0283_v1.md#the-two-complete-rows-and-columns-of-finite-labels) force every group image in which \(t\) has finite order to factor through \(C_{24}\).
+In particular the [normal closure of \(t^{6m}\) is \(H'\) for every positive \(m\)](../claims/Yin_C_A0288_v1.md#normal-closures-and-finite-index-subgroups).
+This excludes all residually finite label groups and all nonabelian finite-dimensional linear images over every field.
+It also [excludes word-hyperbolic label groups and relatively hyperbolic ones with residually finite peripherals](../claims/Yin_C_A0289_v1.md#relatively-hyperbolic-label-groups) by making \(t\) periodic while preserving its sixth power.
+For the remaining groups, use the original four-step transfer and test the normal closures of the high powers within \(H\).
+Every Schur kernel of this rectangle is the image of a [scalar idempotent in the first inverse layer](../claims/Yin_C_A0282_v1.md#recovering-the-scalar-idempotent-from-the-schur-coordinate), and its orthogonal projection lies in the second layer of \(H\).
+The direct sum of the four character translates has group-ring inner rank at least seven and [inner rank six after adjoining just one specified scalar inverse](../claims/Yin_C_A0282_v2.md#six-coordinates-after-one-actual-scalar-inverse).
+Test whether a first-layer idempotent with this image can exist when the perfect subgroup \(H'\) has no proper finite-index subgroup.
 In the common-power case the quotient of \(F\) by the common infinite cyclic group lies [outside Linnell's class and has a nonzero rational extension class on every finite cover](../claims/Yin_C_A0261_v1.md#statement).
 Use the [unit-circle orbit multiplicities and finite four-factor collision test](../claims/Yin_C_A0267_v1.md#statement) to compare the actual denominator roots and central exponents for each proposed common power.
 The [six numerical fibers](../claims/Yin_C_A0244_v1.md#statement) exclude every case where the transfer or its inverse is bounded on the unit circle.

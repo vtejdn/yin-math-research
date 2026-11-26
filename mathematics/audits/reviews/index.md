@@ -203,6 +203,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0207](Yin_R_A0207_v1.md#alternating-cubic-characters-and-the-two-translations) | Alternating cubic characters and central relations at order 24 | [v1](Yin_R_A0207_v1.md) |
 | [Yin_R_A0208](Yin_R_A0208_v1.md#eliminating-the-four-remaining-noncyclic-markings) | Adjacent generators and cyclic solvable quotients at order 24 | [v1](Yin_R_A0208_v1.md) |
 | [Yin_R_A0209](Yin_R_A0209_v1.md#matching-spreads-and-six-free-faces) | Character restrictions and signed path tests for the four-binomial matrix | [v1](Yin_R_A0209_v1.md) |
+| [Yin_R_A0210](Yin_R_A0210_v1.md#a-common-word-in-the-two-ten-letter-balls) | Free-face projections, ten-letter tests and finite permutation estimates | [v1](Yin_R_A0210_v1.md) |
+| [Yin_R_A0211](Yin_R_A0211_v1.md#one-inverse-and-the-four-phase-summands) | Original Schur idempotents and the inner rank of four character translates | [v1](Yin_R_A0211_v1.md) |
+| [Yin_R_A0212](Yin_R_A0212_v1.md#all-images-with-periodic-second-mark) | Finite Fourier supports, periodic images and peripheral fillings at order 24 | [v1](Yin_R_A0212_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
