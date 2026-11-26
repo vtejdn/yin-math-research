@@ -14,11 +14,18 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude ordinary rank one in sums of finite-rank commutators with regular right translations. Start with the actual group labels and multiplicities of a two-by-two Schur input and test a mixed family with overlapping coefficient subgroups. |
+| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. For the four-site Schur input test the singular transfer at order 24. |
 
 ## Rank-one commutator sums in the regular representation
 
 The [rank-one exclusion criterion](../claims/Yin_C_A0157_v1.md#separating-the-ranges-and-excluding-rank-one) applies at all matrix sizes.
+It now suffices, across torsion-free groups, to exclude one [complete traceless system of size two](../claims/Yin_C_A0250_v1.md#statement).
+A hypothetical failure of any rank, including an irrational rank, supplies all such systems in one finitely generated torsion-free extension by dividing projection traces on finite marked intervals.
+On the same marking the three simultaneous outputs must be \(E_{12},E_{21},E_{11}-E_{22}\) for a single family of bounded biorthogonal vectors with the paired left-translation spans in the [matrix-unit characterization](../claims/Yin_C_A0243_v2.md#statement).
+Use the diagonal-difference equation together with both off-diagonal equations; off-diagonal outputs alone already occur in the cyclic calibration.
+In the witness group, adjoining a single constant row must increase the center-valued rank of one polynomial matrix by \((1/2)1\).
+A different test of the full conjecture is whether [one fixed-support Hermitian pencil](../claims/Yin_C_A0246_v1.md#linearization-with-one-varying-diagonal-entry) with affiliated-unit complementary block can have infinitely many singular real parameters.
+After a hypothetical failure the resulting pencil is generically injective and has strictly positive nullities tending to zero on the explicit cosine parameters.
 For a particular group-ring matrix \(M=\sum_g M_g g\) of size two and an affiliated-unit pivot, a Schur scalar of rank \(\delta\in(0,1)\) yields a [pencil with a constant column of exact rank increment \(\delta\)](../claims/Yin_C_A0167_v2.md#a-pencil-for-the-particular-schur-scalar).
 Each nonidentity \(g\) costs at most the ordinary rank of its complex coefficient matrix \(M_g\).
 This formulation uses the original coefficients and retains the dimension of the proposed counterexample.
@@ -75,8 +82,13 @@ For any two-label candidate having a nonabelian solvable quotient the abelianiza
 At order 24 the [only surviving marking](../claims/Yin_C_A0241_v1.md#all-abelian-quotients-of-order-24) has cyclic abelianization and degrees \(3,4\).
 For \(t_i=s^its^{-i}\), each intersection \(\langle t_i,t_{i+1}\rangle\cap\langle t_{i+2},t_{i+3}\rangle\) must map onto the full [subgroup of order six](../claims/Yin_C_A0240_v1.md#statement).
 If a presentation gives a proper image at any one cut, it excludes half nullity.
-For the degree-one conjugation \(S\) on \(M\), the [four-term relations](../claims/Yin_C_A0241_v1.md#the-norm-of-the-resulting-relation) kill \(M/\Phi_8(S)M\) and bound the orders of the quotients for \(\Phi_3,\Phi_{24}\) by 16 and 196 respectively, with the sharper divisor lists given there.
-Test the remaining \(\Phi_6,\Phi_{12}\) components and the cuts even when these three quotients vanish.
+For the degree-one conjugation \(S\) on \(M\), the eighth cyclotomic quotient vanishes and the [three-frequency constraints](../claims/Yin_C_A0251_v1.md#statement) bound \(|M|\) by 159744 with prime divisors among \(2,3,5,13\).
+The [sixth and twelfth quotients](../claims/Yin_C_A0245_v1.md#statement) and the [second and fourth quotients](../claims/Yin_C_A0249_v1.md#statement) have explicit finite lists.
+Test the remaining simple modules, including the four quadratic markings in characteristic five where the three-step frequency test found no isolated nonconstant frequency.
+The [six numerical fibers](../claims/Yin_C_A0244_v1.md#statement) exclude every case where the transfer or its inverse is bounded on the unit circle.
+For transfers with poles the [eight-coordinate closed chain](../claims/Yin_C_A0247_v1.md#statement) has regular rank six, first-layer inner rank six and group-ring inner rank at least seven.
+Use the positions of the four actual cyclic denominators when testing this chain.
+The [Promislow presentation matrix](../claims/Yin_C_A0252_v1.md#the-promislow-group-and-the-index-four-subgroup) realizes an eight-to-six drop with a single cyclic denominator in a torsion-free group satisfying strong Atiyah.
 Over the original commutator subgroup, [elimination in the thirteen-dimensional norm](../claims/Yin_C_A0213_v2.md#removing-a-cyclic-pair-of-coordinates) produces a nonzero scalar of fractional rank by inverse layer six or a scalar norm by layer seven.
 In the scalar norm branch with solution \(b\), any nonzero two-sided group-ring clearing of \(b\) would give a nonzero scalar with half-dimensional kernel on the index-thirteen subgroup.
 Test the denominators of the actual norm solution against this [clearing obstruction](../claims/Yin_C_A0213_v2.md#two-sided-denominators-in-the-scalar-branch).
@@ -270,6 +282,8 @@ The [original polynomial Gram test](../claims/Yin_C_A0239_v1.md#the-exact-origin
 For an original first Schur input its size is \(p+q\), and a positive gap on the strictly positive test nullities gives the same factorization and divisibility in the original group.
 For each fixed divisor \(d>1\), excluding all rational ranks with reduced denominator divisible by \(d\) across torsion-free groups is [equivalent to excluding unital \(M_d(\mathbb C)\) in finite scalar inverse layers](../claims/Yin_C_A0242_v1.md#statement).
 The same equivalence identifies the obstruction with divisibility of the unit by \(d\) in algebraic \(K_0\) of the actual division closure.
+One noninteger rational rank would propagate to [every rational nullity in a single group](../claims/Yin_C_A0248_v1.md#statement), so universal exclusion of unit divisibility by two alone rules out all rational counterexamples.
+For an irrational input the interval construction gives equal projective summands in the star-regular closure; whether those projections occur in the smaller scalar division closure remains open.
 The forward construction can use \(G*\mathbb Z\), and the reverse construction from divisibility gives a group-ring matrix of rank \(a+1/d\) in the very group where the divisibility occurs.
 For a first Schur scalar of rank \(1/q\), test for algebraic matrix units of size \(q\) already in \(D_2(G*\mathbb Z)\).
 For irrational rank the same construction gives positive contractions fixing the kernel with arbitrarily small error in the rank metric.
