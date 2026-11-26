@@ -341,11 +341,17 @@ Since $r=uA^{-1}v=uh$ and $\partial_i A_{jk}=A_{jk}^{(i)}(1\otimes1)$, we obtain
  =-\sum_{j,k=1}^n A_{jk}^{(i)}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
-Extend $(g_j)_{j=1}^n$ and $(h_k^{\mathrm{op}})_{k=1}^n$ to bases of the respective tensor factors.
-In these bases the coefficient matrix of $\partial_i r$ has the block $-A_i$ and is zero elsewhere.
-Each simple tensor contributes a matrix of rank at most one, so any decomposition of $\partial_i r$ requires at least $\rank_{\C}A_i$ simple tensors.
-A rank factorization of $-A_i$ writes it as a sum of $\rank_{\C}A_i$ outer products, each of which gives a simple tensor.
-Thus the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is $\rank_{\C}A_i$.
+For a decomposition $\partial_i r=\sum_{\nu=1}^p y_\nu\otimes z_\nu^{\mathrm{op}}$, let $U_{j\nu}$ be the coordinate of $y_\nu$ along $g_j$ and $V_{\nu k}$ the coordinate of $z_\nu$ along $h_k$, using bases extending the two families.
+The coefficient of $g_j\otimes h_k^{\mathrm{op}}$ is then $\sum_{\nu=1}^p U_{j\nu}V_{\nu k}$, so $-A_i=UV$ and $\rank_{\C}A_i\leq p$.
+Conversely, a rank factorization $-A_i=UV$ with $m:=\rank_{\C}A_i$ columns in $U$ and $m$ rows in $V$ gives
+\[
+ \partial_i r
+ =\sum_{\nu=1}^m
+ \left(\sum_{j=1}^n U_{j\nu}g_j\right)
+ \otimes
+ \left(\sum_{k=1}^n V_{\nu k}h_k^{\mathrm{op}}\right).
+\]
+Thus the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is $m$.
 
 Apply Lemma~\ref{lem:clearing} to $f,g_1(X),\ldots,g_n(X)$ on the left and $f,h_1(X),\ldots,h_n(X)$ on the right.
 We obtain regular $s,t\in\M$ such that
