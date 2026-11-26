@@ -16,10 +16,10 @@ The search used combinations of `affiliated division closure`, `rationality crit
 - Berstel and Reutenauer, Chapter 2, §1, Theorem 1.6, give the finite-Hankel-rank characterization of rational formal series, credited there to Carlyle–Paz and Fliess.
   The retained manuscript statement on p. 31 supplies optional background for the sentence on Duchamp and Reutenauer's use of rational series.
   The rank is algebraic and the rows and columns are indexed by words. [BR10 source reading](../../../../audits/literature/BR10/Yin_U002.md#formal-hankel-rank).
-- Shlyakhtenko's discussion of unbounded dual systems in §1.1, Theorem 1 and its corollary, is an optional precedent at `def:dual-system`.
+- Shlyakhtenko studies unbounded dual systems in §1.2, Theorem 1 and its corollary.
   He treats selfadjoint generators on the polynomial domain.
   The manuscript uses \(\mathcal M\Omega\) as a common subspace of the domains of the operators and their adjoints.
-  The candidate citation concerns the unbounded formulation. [Shl06 source reading](../../../../audits/literature/Shl06/Yin_U001.md#shl06-normalized-dual-construction).
+  Section 5 cites Theorem 1 after the recalled definition of a dual system. [Shl06 source reading](../../../../audits/literature/Shl06/Yin_U001.md#shl06-normalized-dual-construction).
 
 ## Example 6.1
 

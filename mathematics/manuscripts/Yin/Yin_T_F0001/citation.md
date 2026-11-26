@@ -260,7 +260,7 @@ The [source reading](../../../audits/literature/Shl06/Yin_U001.md#shl06-normaliz
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/dual-system-criterion.tex`, after the recalled `def:dual-system` | `\cite[Section~1.1]{Shl06}` | Gives earlier use of unbounded dual systems for selfadjoint generators with commutator identities on \(\mathcal A_X\Omega\). The domain condition on all of \(\mathcal M\Omega\) belongs to the manuscript's formulation. |
+| `paper/sections/dual-system-criterion.tex`, after the recalled `def:dual-system` | `\cite[Theorem~1]{Shl06}` | Gives earlier use of unbounded dual systems for selfadjoint generators with commutator identities on \(\mathcal A_X\Omega\). The domain condition on all of \(\mathcal M\Omega\) belongs to the manuscript's formulation. |
 
 ## `Voi98`
 
