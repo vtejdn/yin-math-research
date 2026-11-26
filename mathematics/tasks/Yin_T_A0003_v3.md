@@ -111,6 +111,30 @@ Even in one two-generated torsion-free amenable group, some one-dimensional kern
 If maximal rank is attained at rational parameters for every group-ring polynomial matrix over a sofic group, the rational-coefficient test for complete deletion needs no extra central generators. [Coefficient specialization](../claims/Yin_C_A0162_v1.md#statement)
 Even asking for one algebraic maximal-rank parameter for each integral affine pencil throughout the torsion-free amenable class is equivalent to the complex strong Atiyah conjecture throughout that class. [Algebraic rank attainment](../claims/Yin_C_A0164_v1.md#statement)
 
+For a symmetric marking, the ranges of one solution of (1) determine a finite complex matrix rank comparison equivalent to \(u\in D_G\).
+Its entries use the linear relations of those ranges and their first translates.
+One can impose a common positive denominator. [Witness range criterion](../claims/Yin_C_A0171_v1.md#statement)
+A second criterion uses mixed trace moments of any bounded right fraction for \(u\).
+On rectangular group-ring inputs the same ordered limits test rationality of the kernel projection using only identity coefficients of finite products. [Mixed trace moments](../claims/Yin_C_A0172_v1.md#statement)
+
+Let \(P_u\) be the graph projection and lift \(2P_u-I\) as the constant coefficient of a matrix of rational power series over the group algebra.
+Then \(u\in D_G\) precisely when some lift is contractive along a single logarithmic spiral approaching zero.
+With the argument sampled uniformly on each small circle, a limiting upper probability strictly greater than \(1/2\) gives the same criterion.
+Allowing exactly \(1/2\) characterizes solvability of (1), as does testing any fixed finite list of rays. [Spiral and half-probability criteria](../claims/Yin_C_A0174_v1.md#statement)
+
+For the binary lamplighter group \(C_2\wr\mathbb Z\), the kernel projection of an explicit positive integral scalar satisfies (1) and lies outside \(D_G\).
+Thus the inclusive and strict probability tests differ on a specified input with torsion.
+On the repeated word \(1^n0^m\), one diagonal projection entry is nonzero exactly when \(n=m\), which is incompatible with a rational realization. [Two-run proof](../claims/Yin_C_A0173_v1.md#argument)
+For a group containing \(\mathbb Z\wr\mathbb Z\), no unital map to finite matrices over a commutative field can evaluate its full division closure, although growing generic periods preserve the rank of each fixed rational expression for \(\mathbb Z\wr\mathbb Z\) itself. [Sharp finite-dimensional bounds](../claims/Yin_C_A0175_v1.md#statement)
+Adding an independent Haar lamp makes one fixed full matrix singular on every decorated one-marker period.
+In the torsion-free construction this uses the additional hypothesis of a nontrivial rational projection in the lamp group. [Endpoint collision formula](../claims/Yin_C_A0176_v1.md#statement)
+For the binary lamplighter, one positive rational contraction has an eigenvalue at every rational number in \([0,1]\).
+Its endpoint spectral projections belong to the division closure, and each interior atom gives a projection satisfying (1) outside that closure. [Exact spectral law](../claims/Yin_C_A0177_v1.md#statement)
+For any affiliated spectral function of this contraction, equation (1) permits finitely many exceptions to agreement with a single complex rational function on the interior rational eigenvalues.
+Membership in the division closure requires agreement at every one of them.
+The endpoint values are arbitrary in both criteria. [Spectral function classification](../claims/Yin_C_A0178_v1.md#statement)
+Whether (1) guarantees the strict inequality for every torsion-free group remains open.
+
 ## Current decision
 
 [Reopened research](#decision-reopened)

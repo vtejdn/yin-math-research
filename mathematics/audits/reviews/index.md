@@ -172,6 +172,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0173](Yin_R_A0173_v1.md#ore-graph-kernels) | Reviews of Ore denominators, sparse kernels and algebraic rank attainment | [v1](Yin_R_A0173_v1.md) |
 | [Yin_R_A0174](Yin_R_A0174_v1.md#prescribed-list-rank-increments) | Mixed cycles, small-rank commutators and the rank increments for prescribed labels | [v1](Yin_R_A0174_v1.md) |
 | [Yin_R_A0175](Yin_R_A0175_v1.md#half-rank-graph-bound) | Half-rank exclusion by subgroup descent and regular vertex tests | [v1](Yin_R_A0175_v1.md) |
+| [Yin_R_A0176](Yin_R_A0176_v1.md#witness-range-tensors) | Reviews of finite-rank, angular and periodic rationality criteria | [v1](Yin_R_A0176_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
