@@ -27,6 +27,11 @@ In the witness group, adjoining a single constant row must increase the center-v
 For a given polynomial kernel measure the dimension \(h\) of its joint image in two selected input coordinates and the dimension \(b\) of the sum of their separate images.
 The [two bounded polynomial tests](../claims/Yin_C_A0255_v1.md#statement) recover both numbers, and \(b>h\) produces a nonzero two-square corner in the original scalar regular closure.
 In an ICC group a failure supplies [an original test at \(b=2h\ge2/3\)](../claims/Yin_C_A0259_v1.md#detecting-a-failure-with-two-coordinates).
+One [translated copy of a selected coordinate](../claims/Yin_C_A0264_v1.md#statement) detects any noncentral coordinate image with a suitable original group element.
+For the \(1/3\) threshold it suffices to add one row \(y=vx_i\), where [\(v\) has at most three monomials with integer coefficients](../claims/Yin_C_A0271_v1.md#statement).
+With the indicated free pair all three words may have length exactly ten; the [radius-five alternative](../claims/Yin_C_A0270_v1.md#statement) instead bounds a denser fixed shear.
+Under scalar injectivity, each distinguished local-relation component needs at least four independent cycles; at four the [remaining minor is \(K_{3,3}\)](../claims/Yin_C_A0266_v3.md#statement).
+Test the resulting two-square matrix of four differences of scalar group monomials and the identity, allowing all four labels in the original group.
 The same threshold holds under [virtual character detection of finite conjugacy classes](../claims/Yin_C_A0260_v1.md#statement) and in torsion-free amenable groups.
 For the actual two-column Schur input, [polynomial column shears](../claims/Yin_C_A0257_v1.md#kernel-images-and-the-positive-polynomial-test) measure \(b-h\) by a positive three-square matrix even when the pivot has nonclosed range.
 Test whether the relations on the two sides admit the [triangular or finite-relator exclusion](../claims/Yin_C_A0254_v2.md#statement) before introducing a free extension.
@@ -90,11 +95,13 @@ At order 24 the [only surviving marking](../claims/Yin_C_A0241_v1.md#all-abelian
 For \(t_i=s^its^{-i}\), each intersection \(\langle t_i,t_{i+1}\rangle\cap\langle t_{i+2},t_{i+3}\rangle\) must map onto the full [subgroup of order six](../claims/Yin_C_A0240_v1.md#statement).
 If a presentation gives a proper image at any one cut, it excludes half nullity.
 Comparing [the transfer square and its inverse square](../claims/Yin_C_A0253_v1.md#statement) kills the third, twelfth and twenty-fourth cyclotomic quotients and excludes every primitive twenty-fourth marking in characteristic five.
-The commutator module \(M\) now has odd order at most 117 with prime divisors among \(3,5,13\).
-In fact it is cyclic and there are [twenty explicit ordered metabelian candidates](../claims/Yin_C_A0263_v1.md#statement), including the abelian case.
-Use the actual action multipliers and the signed common-power congruences to test the surviving cyclic modules; each finite equality is only a necessary test for the original group.
+This intermediate calculation gives odd order at most 117 for the commutator module \(M\).
+From the [twenty explicitly marked groups](../claims/Yin_C_A0263_v1.md#statement), the [alternating cubic characters](../claims/Yin_C_A0265_v1.md#statement) exclude every nonzero sign factor.
+The remaining five have \(M=0,C_5,C_{13}\), with two order-four actions for each nonzero group.
+For the latter cases test the four linked phases with multipliers \(1,i,-1,-i\), \(i^2=-1\bmod |M|\); independent cubic choices are no longer available.
 The neighboring subgroup \(\langle t_0,t_1\rangle\) must have finite abelianization, both [when the cyclic groups have trivial intersection](../claims/Yin_C_A0256_v1.md#statement) and [when they have a common power](../claims/Yin_C_A0258_v1.md#statement).
 In the common-power case this neighboring group is the entire index-four subgroup \(F\), and its quotient by the common infinite cyclic group lies [outside Linnell's class and has a nonzero rational extension class on every finite cover](../claims/Yin_C_A0261_v1.md#statement).
+Use the [unit-circle orbit multiplicities and finite four-factor collision test](../claims/Yin_C_A0267_v1.md#statement) to compare the actual denominator roots and central exponents for each proposed common power.
 The [six numerical fibers](../claims/Yin_C_A0244_v1.md#statement) exclude every case where the transfer or its inverse is bounded on the unit circle.
 For transfers with poles the [eight-coordinate closed chain](../claims/Yin_C_A0247_v1.md#statement) has regular rank six, first-layer inner rank six and group-ring inner rank at least seven.
 Use the positions of the four actual cyclic denominators when testing this chain.
@@ -296,6 +303,10 @@ One noninteger rational rank would propagate to [every rational nullity in a sin
 For an irrational input the interval construction gives equal projective summands in the star-regular closure; whether those projections occur in the smaller scalar division closure remains open.
 The forward construction can use \(G*\mathbb Z\), and the reverse construction from divisibility gives a group-ring matrix of rank \(a+1/d\) in the very group where the divisibility occurs.
 For a first Schur scalar of rank \(1/q\), test for algebraic matrix units of size \(q\) already in \(D_2(G*\mathbb Z)\).
+In the original group, [locality of the division closure](../claims/Yin_C_A0268_v1.md#statement) is exactly exclusion of a positive rational contraction with both endpoint atoms.
+A nontrivial Schur kernel of scalar center-valued rank forces an equal-atom witness in the next layer or strictly positive nullities tending to zero in one fixed polynomial matrix size.
+When either the first row or the first column has closed range, [its bounded Gram scalar](../claims/Yin_C_A0269_v1.md#the-row-and-column-gram-scalars) has the exact Schur rank in the first layer.
+If it generates the full reduced group algebra as a closed ideal, a pair of equal atoms already occurs in the original second layer.
 For irrational rank the same construction gives positive contractions fixing the kernel with arbitrarily small error in the rank metric.
 The next group-specific issue is whether the original kernel projection, now known to be a bounded rational element upstairs in the rational case, can be obtained or excluded in the original group.
 The [amplified comparison](../ledger/Yin_L_A0070_v1.md#a-finite-tracial-comparison-inside-one-factor) gives full inner rank at every multiplicity and inverse depth for a scalar-injective polynomial tuple and exhibits a separate failure of descent for an atomic scalar law.
