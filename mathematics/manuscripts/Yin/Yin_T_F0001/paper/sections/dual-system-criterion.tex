@@ -383,11 +383,16 @@ Define the maps
 \]
 Evaluation at $X$ and multiplication by the regular denominators preserve the linear independence of the two families.
 Thus $B$ is injective, and $C$ is surjective because its adjoint sends the standard basis of $\C^n$ to the linearly independent vectors $J(h_k(X)t\Omega)$.
-By equation~\eqref{eq:theta},
-\[
- \overline{\Gamma[Q,D_i]}=-\Theta(\ell_i)=BA_iC,
-\]
-so $\rank\overline{\Gamma[Q,D_i]}=\rank_{\C}A_i$.
+For every $\xi\in H$, equation~\eqref{eq:theta} gives
+\begin{align*}
+ \Theta(\ell_i)\xi
+ &=-\sum_{j,k=1}^n A_{jk}^{(i)}\,
+   \langle J(h_k(X)t\Omega),\xi\rangle\,sg_j(X)\Omega\\
+ &=-\sum_{j=1}^n
+   \left(\sum_{k=1}^n A_{jk}^{(i)}(C\xi)_k\right)sg_j(X)\Omega\\
+ &=-BA_iC\xi.
+\end{align*}
+It follows that $\overline{\Gamma[Q,D_i]}=BA_iC$ has rank $\rank_{\C}A_i$, since $B$ is injective and $C$ is surjective.
 Lemma~\ref{lem:fraction-ranks} gives the same rank for every fraction pair for $f$.
 \end{proof}
 
