@@ -60,13 +60,26 @@ For a cyclic quotient of order 26 the remaining marking is \((1,10)\); at order 
 Along the tested short directions the [additional nullity bound](../claims/Yin_C_A0201_v1.md#counting-zero-and-additional-parameters) is zero at order 26 and at most \(1/50\) at any additional nonzero parameter at order 25.
 At order 26 test the [rank-one remainder over the actual kernel subgroup](../claims/Yin_C_A0199_v1.md#syzygies-and-the-single-denominator): one finite right relation among its row entries would rule it out, and all its spectral idempotents use one scalar denominator.
 The [odd-dimensional norm](../claims/Yin_C_A0199_v1.md#subgroup-coordinates-and-the-odd-dimensional-norm) offers another test over the first inverse layer of the kernel of the same quotient.
-The existence of such a norm matrix remains open.
+At order 26, [nonzero first homology of the commutator subgroup with coefficients in the field of thirteen elements](../claims/Yin_C_A0203_v1.md#from-homology-to-an-actual-rotation-and-reflection) yields a genuine dihedral quotient.
+Combining its two-dimensional representations with the original cyclic character gives nullity at most four thirteenths on the required normalized matrix.
+For the remaining zero-homology branch, testing the bare norm after abelianization loses the obstruction: the [metabelian quotient already has a scalar solution](../ledger/Yin_L_A0083_v1.md#why-a-global-invariant-degree-does-not-detect-the-norm).
+Instead use the actual coefficient supports of the proposed remainder.
+Every two-by-two corner must pass the [Newton polytope equality on its own support subgroup](../claims/Yin_C_A0207_v1.md#a-necessary-support-identity-for-a-fractional-rank-witness), where a character need not extend to the ambient group.
+Whether a norm with all the required finite-support identities exists remains open.
+At order 25, the [five-sheeted subgroup](../claims/Yin_C_A0206_v1.md#the-two-cyclic-covers) must have zero first homology over the field of two elements.
+Otherwise its signed five-coordinate representation gives the [strict bound of 108 over 250](../claims/Yin_C_A0204_v1.md#five-signed-permutation-coordinates).
+The remaining twenty-dimensional constituent supplies two actual sign evaluations on twenty-five coordinates.
+A [triangular minor and rank comparison](../claims/Yin_C_A0208_v1.md#the-linear-coefficient-and-the-constant-submatrix) give nullity at most two fifths under invertibility of the single corner \(A\).
+Thus the commutator subgroup itself must have zero binary homology at a half-rank input.
+In the remaining finite odd-order commutator abelianization at order 25, test whether another prime yields marked representations with a small linear coefficient and a large triangular submatrix.
 
 For small or trivial abelianization, test [two-dimensional unitary representations with fixed spectra on the marked generators](../claims/Yin_C_A0194_v1.md#normal-form-for-a-pair-of-unitary-matrices).
 Two reflections generating a dihedral quotient with rotation order at least three already [exclude half rank](../claims/Yin_C_A0200_v1.md#the-action-of-the-block-swap-on-the-remaining-image) under scalar injectivity.
 For other finite presentations evaluate the [full relator matrices in one phase parameter](../claims/Yin_C_A0195_v1.md#finite-relators-and-the-exact-count).
 On marked groups mapping onto the [perfect triangle examples](../claims/Yin_C_A0194_v1.md#an-explicit-perfect-marking), the resulting bounds at every coefficient size require no scalar hypothesis for the normalized rectangles.
 The examples themselves have [known all-matrix integrality](../ledger/Yin_L_A0082_v1.md#the-surface-subgroup-and-its-central-extension); the unitary estimate also applies to their marked preimages.
+For longer words the [column estimate](../claims/Yin_C_A0202_v2.md#column-widths-and-interpolation) permits repeated group endpoints in the chosen finite expression.
+In particular the [mixed Schur family](../claims/Yin_C_A0202_v2.md#a-long-mixed-schur-family-on-the-perfect-marking) allows perturbations with arbitrarily many support elements.
 
 For \(K=\langle t\rangle\) compare the powers of \(s\) modulo consecutive conjugates of \(K\).
 The [scalar window](../claims/Yin_C_A0181_v1.md#the-equations-on-the-window) controls a singly occurring label, and the [matrix window](../claims/Yin_C_A0183_v1.md#transfer-matrices-and-equality) controls the rank-two transfer even with unbounded entries.
@@ -212,6 +225,11 @@ For all matrix sizes, the [cyclic-edge transfer](Yin_S_A0005.md#cyclic-edge-supp
 
 For [Yin's inverse layers](../audits/literature/Yin20/Yin_U002.md#61-definition-iv55-and-all-parts-of-remark-iv56), write \(P_j(G)\) for scalar injectivity on all nonzero members of layer \(D_j(G)\).
 Under \(P_0(G)\), invertibility of a nonzero \(d-ca^{-1}b\) is the rank-two question.
+When the support group has an infinite cyclic quotient with kernel \(K\), [faithful height expansion](../claims/Yin_C_A0205_v1.md#realizing-the-height-expansion-faithfully) gives \(P_j(G)\iff P_j(K)\) at each fixed depth.
+Assuming \(P_{j-1}(K)\), a failure at depth \(j\) yields a nonzero coefficient in \(D_j(K)\) whose rank is at most the rank of the offending scalar.
+At depth one test whether an extreme coefficient of the pivot lies in a [single coset of a normal abelian subgroup](../claims/Yin_C_A0205_v1.md#a-first-schur-complement-with-a-denominator-supported-on-one-exposed-coset).
+That condition already gives the zero-or-unit alternative for every pair of off-diagonal inputs under \(P_0(K)\).
+For a pivot outside this case, examine the denominators of successive exposed coefficients in the kernel group; a jump between inverse depths is still required in general.
 If the Schur scalar has rational rank \(p/q\) strictly between zero and one, [free cyclic extension](../claims/Yin_C_A0124_v1.md#the-kernel-projection-and-its-approximants) puts its exact kernel projection in \(D_{1+p}(G*\mathbb Z)\).
 A direct sum with nullity at least one [loses a coordinate](../claims/Yin_C_A0124_v1.md#removing-a-coordinate-from-the-direct-sum) at the next layer, including at equality.
 For irrational rank the same construction gives positive contractions fixing the kernel with arbitrarily small error in the rank metric.
