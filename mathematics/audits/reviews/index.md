@@ -188,6 +188,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0191](Yin_R_A0191_v1.md#the-fifth-cyclotomic-quotient) | Exclusion of cyclotomic constituents at order 25 | [v1](Yin_R_A0191_v1.md) |
 | [Yin_R_A0192](Yin_R_A0192_v1.md#the-quartic-period-calculation) | Positive character weights and exclusion of the quartic primes | [v1](Yin_R_A0192_v1.md) |
 | [Yin_R_A0193](Yin_R_A0193_v1.md#two-matching-bounds-for-interpolation) | Coupled orbit matchings for the two remaining prime classes | [v1](Yin_R_A0193_v1.md) |
+| [Yin_R_A0194](Yin_R_A0194_v1.md#rank-below-two-on-the-commutator-subgroup) | Schur descent and icosahedral quotients in the perfect-commutator case | [v1](Yin_R_A0194_v1.md) |
+| [Yin_R_A0195](Yin_R_A0195_v1.md#single-cycle-specialization-and-fourier-reweighting) | Periodic cycles and the initial matrix of the four-site transfer | [v1](Yin_R_A0195_v1.md) |
+| [Yin_R_A0196](Yin_R_A0196_v1.md#a-uniform-half-nullity-gap-and-solvable-quotients) | Exceptional characteristics and the uniform order-25 gap | [v1](Yin_R_A0196_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |

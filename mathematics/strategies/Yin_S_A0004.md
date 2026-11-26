@@ -77,17 +77,19 @@ Thus the commutator subgroup itself must have zero binary homology at a half-ran
 Nonzero [ternary homology](../claims/Yin_C_A0209_v1.md#statement) gives the sharper bound \(8/25\) with the same single invertible corner.
 Write \(S\) for conjugation by \(s\) on \(M\).
 At half nullity the [fifth cyclotomic quotient](../claims/Yin_C_A0215_v1.md#statement) vanishes, so \(\Phi_5(S)\) is onto and \(\Phi_{25}(S)M=0\).
-Hence \(M=M/\Phi_{25}(S)M\).
-The [Euclidean lattice and randomized rounding](../claims/Yin_C_A0218_v1.md#simultaneously-positive-representatives-by-rounding) give \(|M|<18^{20}\).
-The [five Gaussian periods](../claims/Yin_C_A0220_v1.md#the-five-periods-of-the-trace) rule out the quartic simple quotients in the two classes \(7,18\bmod25\) left by the earlier slice argument.
-Their order \(p^4\) puts every possible characteristic under the verified cutoff \(18^5\).
-Thus every prime divisor satisfies \(p\equiv1\) or \(-1\bmod25\).
-For split primes through 100000 the [two extremal matching costs](../claims/Yin_C_A0219_v1.md#split-primes-and-a-strict-improvement-over-column-widths) give a strict half bound for every marked root.
-For quadratic primes through the same cutoff, [four initial pairs in the trace recurrence](../claims/Yin_C_A0221_v1.md#both-matching-costs-for-the-ten-traces) suffice at every marking.
-A prime divisor in the split class must therefore lie between \(100000\) and \(18^{20}\), and one in the quadratic class between \(100000\) and \(18^{10}\), both inequalities strict.
-For the remaining quadratic primes, test whether the two matching costs and an invertible endpoint can be forced directly from \(e_{i+2}=v e_{i+1}-e_i\), with \(v=\alpha+\alpha^{-1}\) for a primitive twenty-fifth root.
-For split primes the corresponding input is the one-dimensional orbit \(c\alpha^i\).
-When \(M=0\), [restriction to the second derived subgroup](../claims/Yin_C_A0214_v1.md#restricting-the-four-site-matrix) instead gives a size-fifty group-ring matrix of nullity \(25/2\) with at most eight monomials per row and column.
+In fact the [uniform gap at order 25](../claims/Yin_C_A0229_v1.md#statement) excludes every nonzero \(M\).
+The quartic characters are covered by the [Euclidean lattice threshold](../claims/Yin_C_A0218_v1.md#numerical-consequence-for-the-twenty-fifth-component) and [Gaussian periods](../claims/Yin_C_A0220_v1.md#the-five-periods-of-the-trace).
+For the remaining characters the [circulation norms](../claims/Yin_C_A0225_v1.md#the-norm-calculation-and-the-cycles-descending-modulo-five) detect possible ties of minimum matchings.
+After reversing a minimum flow, each recurrent component for a character avoiding the exceptional ties is a [single cycle carrying an infinite-order group element](../claims/Yin_C_A0226_v1.md#why-each-recurrent-component-has-a-single-cycle).
+The [split divisor certificates](../claims/Yin_C_A0227_v1.md#the-finite-endpoint-certificates) and [finite quadratic interval](../claims/Yin_C_A0228_v1.md#extension-of-the-quadratic-certificate) cover the other markings.
+Thus any half witness must have a perfect commutator subgroup \(N=H'\), and all solvable quotients factor through \(C_{25}\).
+
+On this perfect subgroup the [fourteen-dimensional companion remainder](../claims/Yin_C_A0222_v1.md#the-companion-over-the-actual-commutator-subgroup) has rank \(3/2\).
+Eliminating any of its entries as a pivot gives an actual two-by-two group-ring submatrix on \(N\) with Schur rank in \((0,1/2]\).
+Test whether the [two-sided nonvanishing](../claims/Yin_C_A0222_v1.md#polynomial-rows-and-columns-at-rank-below-two) of the remainder is compatible with the supports in these submatrices.
+In the nonsolvable quotient direction, a [marked icosahedral quotient](../claims/Yin_C_A0223_v1.md#statement) already excludes half nullity in the normalized problem.
+The [perfect-commutator examples](../claims/Yin_C_A0224_v1.md#the-numerical-bounds) have the same critical marking and arbitrarily small upper bounds from their marked triangle quotients.
+Test perfect subgroups which admit neither this marked representation nor a known two-by-two integrality theorem.
 
 For small or trivial abelianization, test [two-dimensional unitary representations with fixed spectra on the marked generators](../claims/Yin_C_A0194_v1.md#normal-form-for-a-pair-of-unitary-matrices).
 Two reflections generating a dihedral quotient with rotation order at least three already [exclude half rank](../claims/Yin_C_A0200_v1.md#the-action-of-the-block-swap-on-the-remaining-image) under scalar injectivity.

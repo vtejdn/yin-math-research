@@ -300,6 +300,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [CSZ18/Yin_U001](CSZ18/Yin_U001.md#weak-endpoint-for-the-planar-symbol) | Weak trace-class estimate for double operator integrals and the planar inverse-secant symbol |
 | [CJSZ20/Yin_U001](CJSZ20/Yin_U001.md#graph-heat-semigroup-and-bmo) | Graph heat semigroup, divided-difference BMO estimate and finite spectral transference |
 | [Ken11 source notes](Ken11/readme.md) | Graph connections, gauge equivalence and cycle monodromy |
+| [Ken83 source notes](Ken83/readme.md) | The marked presentation of the icosahedral group |
 | [HZ25/Yin_U001](HZ25/Yin_U001.md) | Regular-bulk Haar additive local laws, conditional input boundaries and ultra-small logarithms |
 | [Sch05/Yin_U001](Sch05/Yin_U001.md) | Exact real-Ginibre affine resolvent estimate and its matrix-coefficient GOE Hermitization specialization |
 | [Par22/Yin_U001](Par22/Yin_U001.md) | Matrix-coefficient Haar resolvent comparison and concentration at its conditional special-unitary center |

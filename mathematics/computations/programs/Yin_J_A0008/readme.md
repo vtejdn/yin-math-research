@@ -79,3 +79,38 @@ For each of the 463 primes congruent to 24 modulo 25 through 100000 it checks ex
 For each trace it tests four initial pairs in order, constructs the 25 weights by recurrence, and checks the two matching costs and an invertible endpoint.
 The four initial pairs first succeed on 2267, 2283, 78 and 2 traces respectively, accounting for all 4630 marked traces.
 The [matching estimate](../../../claims/Yin_C_A0221_v1.md#both-matching-costs-for-the-ten-traces) deduces a strict half bound from each successful pair.
+
+## Quadratic markings through 2300650
+
+Run `python -B verify_quadratic_remainder.py` with assertions enabled in this directory using Python 3.10 or later.
+The [interval verifier](verify_quadratic_remainder.py) reuses the exact arithmetic, primal and dual assignments, and endpoint checks of the quadratic verifier above.
+It checks each prime congruent to 24 modulo 25 in the interval from 100001 through 2300650 and all ten marked quadratic factors at each prime.
+For each trace it tries the five initial pairs `(1,1), (2,1), (3,1), (2,3), (3,4)` in order, using four processes on independent primes.
+The 7978 primes from 100049 to 2300399 give 79780 successful markings, with first-success counts 39228, 39193, 1304, 54 and 1.
+The sole fifth-pair marking has prime 1749499 and trace 728242, with matching costs \(-4290984,4290984\) and both endpoints invertible.
+The [regular nullity estimate](../../../claims/Yin_C_A0228_v1.md#extension-of-the-quadratic-certificate) uses the two certified matching costs of that same character.
+
+## Norms of simple circulation cycles
+
+Run `node verify_cycle_norms.mjs` in this directory using Node.js.
+The [native verifier](verify_cycle_norms.mjs) uses the built-in assertion library, reads no files and prints the exact counts and maximum.
+It enumerates the underlying undirected simple cycles on the 25 vertices with two edge types of steps one and seven.
+An integer mask pair records the signed seven-step edges.
+The arithmetic uses integer Number operands below the exact-integer limit for the two modular products, with BigInt for the final Chinese remainder reconstruction.
+All 2303657 cycles give 92032 projection classes up to translation and reversal.
+There is one zero projection and 31 further cycles whose coefficients are constant on each residue class modulo five.
+The maximum nonzero cyclotomic norm is 5314180901.
+The [circulation proof](../../../claims/Yin_C_A0225_v1.md#the-norm-calculation-and-the-cycles-descending-modulo-five) bounds every integer norm before reconstruction and gives the field and matching implications.
+This computation inspects all simple cycles and does not require that a specified cycle occur in an optimal matching.
+
+## Split factors of the nonzero cycle norms
+
+Run `python -B verify_exceptional_split.py` with assertions enabled in this directory using Python 3 and Node.js.
+The [exceptional-prime verifier](verify_exceptional_split.py) calls the native cycle verifier with `--split-exceptions` and consumes the resulting list of primes through its standard output.
+It creates no data files.
+Trial division of the 10234 distinct nonzero norms gives 5931 distinct prime factors.
+Exactly 5426 exceed 100000 and are congruent to one modulo 25; the largest is 2227495051.
+The Python verifier checks primality and all twenty marked roots at each prime.
+It uses the [matching and dual-price checks](verify_matching_spread.py), distributing independent primes over at most eight worker processes.
+Among the 108520 marked roots, the first successful multipliers \(1,2,3,4\) occur respectively \(101922,6354,240,4\) times.
+The [rank calculation for these factors](../../../claims/Yin_C_A0227_v1.md#the-finite-endpoint-certificates) uses the verified strict spread and invertible endpoint for each individual marking.
