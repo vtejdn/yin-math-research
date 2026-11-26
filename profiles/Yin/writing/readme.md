@@ -16,6 +16,17 @@ Omit secondary details that do not affect the main point.
 Organize the paper around its argument rather than research-log chronology.
 Choose wording, theorem organization and proof detail for the actual paper, checking every assertion, reference and contribution claim when adapting a model.
 
+<a id="revision-scope-and-existing-edits"></a>
+## Revision Scope and Existing Edits
+
+Scope: Yin's mathematical writing.
+
+Make revisions only within the scope authorized by the current instruction.
+Work from the current source and preserve existing edits, including uncommitted changes.
+Obtain Yin's authorization before reverting an existing edit.
+If a change outside the authorized scope appears necessary, explain what needs to change and why, and request Yin's approval.
+Make the change only after receiving approval.
+
 ## Author Information
 
 Whenever a mathematical manuscript lists Yin as an author, include his institutional affiliation and email address with his name in the author information.
