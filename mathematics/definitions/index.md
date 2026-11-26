@@ -7,6 +7,11 @@ Consumer links identify recorded statement uses, preserved proof versions or com
 
 ## Group index
 
+### Lifted hyperbolic triangle groups
+
+The [centrally extended triangle group](../audits/literature/Mil75/Yin_U001.md#lifted-triangle-presentation) is the full inverse image of the orientation-preserving triangle group in the universal cover of the isometry group of the hyperbolic plane.
+The [perfect marking](../claims/Yin_C_A0194_v1.md#an-explicit-perfect-marking) uses the lifted full rotation to specify its two generators.
+
 ### Measurable Schur multipliers and graph Cauchy integrals
 
 The [Schur multiplier for two measure spaces](../audits/literature/AP25/Yin_U001.md#measurable-schur-factorization) is defined by its action on trace-class integral kernels, with the corresponding norm and measurable factorization.

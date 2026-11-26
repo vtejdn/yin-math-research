@@ -86,6 +86,7 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_L_A0079](Yin_L_A0079_v1.md) | Obstructions to group-algebra denominators and least-norm finite-rank witnesses | [v1](Yin_L_A0079_v1.md) |
 | [Yin_L_A0080](Yin_L_A0080_v1.md) | Fourier multipliers on rational elements and on a two-column kernel projection | [v1](Yin_L_A0080_v1.md) |
 | [Yin_L_A0081](Yin_L_A0081_v1.md) | A Schur kernel boundary and two-sided multiplication by group-ring elements | [v1](Yin_L_A0081_v1.md) |
+| [Yin_L_A0082](Yin_L_A0082_v1.md) | Complex Atiyah integrality for the lifted triangle examples | [v1](Yin_L_A0082_v1.md) |
 | [Yin_L_F0001](Yin_L_F0001_v1.md) | Original normal polynomial-domain contract comparison | [v1](Yin_L_F0001_v1.md) |
 | [Yin_L_F0002](Yin_L_F0002_v1.md) | Bounded Linearization: Exploratory Evidence | [v1](Yin_L_F0002_v1.md) |
 | [Yin_L_F0003](Yin_L_F0003_v1.md) | Boundedness after the Affiliated Main Theorem | [v1](Yin_L_F0003_v1.md) |

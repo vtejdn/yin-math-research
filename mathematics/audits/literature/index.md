@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [Mil75/Yin_U001](Mil75/Yin_U001.md#mil75-u001) | Lemma 3.1 on the full lift of the hyperbolic triangle group, its infinite cyclic kernel and its exact presentation |
 | [LLS03/Yin_U001](LLS03/Yin_U001.md#lls03-u001) | Dicks' two-element Ore obstruction for the finite cyclic lamp and the shift |
 | [dO14/Yin_U001](dO14/Yin_U001.md#do14-u001) | De Oliveira's finite-dimensional real implicit function theorem, journal Theorem 5 |
 | [Ope26g/Yin_U001](Ope26g/Yin_U001.md#ope26g-u001) | Torsion-free algebraic trace range in Corollary 1.2(i), using Theorem 1.1 as a preprint input |

@@ -51,9 +51,22 @@ For the normalized transfer, an integer character with reduced denominator at le
 For a finite cyclic quotient of order \(m\), choose a simultaneous pair of small integer representatives for a multiple of the two marked weights.
 The [finite-phase rank estimate](../claims/Yin_C_A0180_v1.md#an-integer-rank-for-a-formal-circle-parameter) compares all \(m\) samples with an integral generic rank after adjoining an independent central circle parameter.
 A [lattice count](../claims/Yin_C_A0180_v1.md#a-short-pair-of-exponents) excludes a half increment for every cyclic quotient of order at least 33.
-Thus the half-rank question in this family remains only for finite abelianization of exponent at most 32, while other fractions remain relevant for finite abelianizations of larger exponent.
-At order 32 start with the marked weights \((1,-7)\) and test simultaneous equality in the finite-evaluation rank bound using different short integer representatives.
-When the leading coefficient of the resulting matrix polynomial is invertible, inspect the eigenspaces of its companion matrix at the 32 character phases and determine whether they force a finite group-ring idempotent of trace one half.
+At the critical marking of order 32, [comparison of two augmented characteristic polynomials](../claims/Yin_C_A0196_v1.md#the-two-primitive-directions) forbids their common saturation.
+More generally equality gives an [actual finite-support kernel column](../claims/Yin_C_A0197_v1.md#the-companion-and-a-column-over-the-original-group-ring), whose generated module would have dimension one inside a smaller kernel.
+Using the [full character group of a finite abelian quotient](../claims/Yin_C_A0198_v1.md#the-lattice-of-all-finite-characters) now excludes half rank for quotient **order** 23 or at least 27 by the [combined order test](../claims/Yin_C_A0201_v1.md#consequence-for-finite-abelian-quotient-orders).
+Other fractional ranks have separate quantitative bounds.
+
+For a cyclic quotient of order 26 the remaining marking is \((1,10)\); at order 25 it is \((1,7)\), in both cases with four invertible coefficient matrices.
+Along the tested short directions the [additional nullity bound](../claims/Yin_C_A0201_v1.md#counting-zero-and-additional-parameters) is zero at order 26 and at most \(1/50\) at any additional nonzero parameter at order 25.
+At order 26 test the [rank-one remainder over the actual kernel subgroup](../claims/Yin_C_A0199_v1.md#syzygies-and-the-single-denominator): one finite right relation among its row entries would rule it out, and all its spectral idempotents use one scalar denominator.
+The [odd-dimensional norm](../claims/Yin_C_A0199_v1.md#subgroup-coordinates-and-the-odd-dimensional-norm) offers another test over the first inverse layer of the kernel of the same quotient.
+The existence of such a norm matrix remains open.
+
+For small or trivial abelianization, test [two-dimensional unitary representations with fixed spectra on the marked generators](../claims/Yin_C_A0194_v1.md#normal-form-for-a-pair-of-unitary-matrices).
+Two reflections generating a dihedral quotient with rotation order at least three already [exclude half rank](../claims/Yin_C_A0200_v1.md#the-action-of-the-block-swap-on-the-remaining-image) under scalar injectivity.
+For other finite presentations evaluate the [full relator matrices in one phase parameter](../claims/Yin_C_A0195_v1.md#finite-relators-and-the-exact-count).
+On marked groups mapping onto the [perfect triangle examples](../claims/Yin_C_A0194_v1.md#an-explicit-perfect-marking), the resulting bounds at every coefficient size require no scalar hypothesis for the normalized rectangles.
+The examples themselves have [known all-matrix integrality](../ledger/Yin_L_A0082_v1.md#the-surface-subgroup-and-its-central-extension); the unitary estimate also applies to their marked preimages.
 
 For \(K=\langle t\rangle\) compare the powers of \(s\) modulo consecutive conjugates of \(K\).
 The [scalar window](../claims/Yin_C_A0181_v1.md#the-equations-on-the-window) controls a singly occurring label, and the [matrix window](../claims/Yin_C_A0183_v1.md#transfer-matrices-and-equality) controls the rank-two transfer even with unbounded entries.
