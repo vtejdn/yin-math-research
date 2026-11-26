@@ -24,6 +24,13 @@ A hypothetical failure of any rank, including an irrational rank, supplies all s
 On the same marking the three simultaneous outputs must be \(E_{12},E_{21},E_{11}-E_{22}\) for a single family of bounded biorthogonal vectors with the paired left-translation spans in the [matrix-unit characterization](../claims/Yin_C_A0243_v2.md#statement).
 Use the diagonal-difference equation together with both off-diagonal equations; off-diagonal outputs alone already occur in the cyclic calibration.
 In the witness group, adjoining a single constant row must increase the center-valued rank of one polynomial matrix by \((1/2)1\).
+For a given polynomial kernel measure the dimension \(h\) of its joint image in two selected input coordinates and the dimension \(b\) of the sum of their separate images.
+The [two bounded polynomial tests](../claims/Yin_C_A0255_v1.md#statement) recover both numbers, and \(b>h\) produces a nonzero two-square corner in the original scalar regular closure.
+In an ICC group a failure supplies [an original test at \(b=2h\ge2/3\)](../claims/Yin_C_A0259_v1.md#detecting-a-failure-with-two-coordinates).
+The same threshold holds under [virtual character detection of finite conjugacy classes](../claims/Yin_C_A0260_v1.md#statement) and in torsion-free amenable groups.
+For the actual two-column Schur input, [polynomial column shears](../claims/Yin_C_A0257_v1.md#kernel-images-and-the-positive-polynomial-test) measure \(b-h\) by a positive three-square matrix even when the pivot has nonclosed range.
+Test whether the relations on the two sides admit the [triangular or finite-relator exclusion](../claims/Yin_C_A0254_v2.md#statement) before introducing a free extension.
+If these tests leave a witness, seek a bound on \(b-h\) for its actual coefficient supports; the factor threshold concerns the supremum across all inputs.
 A different test of the full conjecture is whether [one fixed-support Hermitian pencil](../claims/Yin_C_A0246_v1.md#linearization-with-one-varying-diagonal-entry) with affiliated-unit complementary block can have infinitely many singular real parameters.
 After a hypothetical failure the resulting pencil is generically injective and has strictly positive nullities tending to zero on the explicit cosine parameters.
 For a particular group-ring matrix \(M=\sum_g M_g g\) of size two and an affiliated-unit pivot, a Schur scalar of rank \(\delta\in(0,1)\) yields a [pencil with a constant column of exact rank increment \(\delta\)](../claims/Yin_C_A0167_v2.md#a-pencil-for-the-particular-schur-scalar).
@@ -82,9 +89,12 @@ For any two-label candidate having a nonabelian solvable quotient the abelianiza
 At order 24 the [only surviving marking](../claims/Yin_C_A0241_v1.md#all-abelian-quotients-of-order-24) has cyclic abelianization and degrees \(3,4\).
 For \(t_i=s^its^{-i}\), each intersection \(\langle t_i,t_{i+1}\rangle\cap\langle t_{i+2},t_{i+3}\rangle\) must map onto the full [subgroup of order six](../claims/Yin_C_A0240_v1.md#statement).
 If a presentation gives a proper image at any one cut, it excludes half nullity.
-For the degree-one conjugation \(S\) on \(M\), the eighth cyclotomic quotient vanishes and the [three-frequency constraints](../claims/Yin_C_A0251_v1.md#statement) bound \(|M|\) by 159744 with prime divisors among \(2,3,5,13\).
-The [sixth and twelfth quotients](../claims/Yin_C_A0245_v1.md#statement) and the [second and fourth quotients](../claims/Yin_C_A0249_v1.md#statement) have explicit finite lists.
-Test the remaining simple modules, including the four quadratic markings in characteristic five where the three-step frequency test found no isolated nonconstant frequency.
+Comparing [the transfer square and its inverse square](../claims/Yin_C_A0253_v1.md#statement) kills the third, twelfth and twenty-fourth cyclotomic quotients and excludes every primitive twenty-fourth marking in characteristic five.
+The commutator module \(M\) now has odd order at most 117 with prime divisors among \(3,5,13\).
+In fact it is cyclic and there are [twenty explicit ordered metabelian candidates](../claims/Yin_C_A0263_v1.md#statement), including the abelian case.
+Use the actual action multipliers and the signed common-power congruences to test the surviving cyclic modules; each finite equality is only a necessary test for the original group.
+The neighboring subgroup \(\langle t_0,t_1\rangle\) must have finite abelianization, both [when the cyclic groups have trivial intersection](../claims/Yin_C_A0256_v1.md#statement) and [when they have a common power](../claims/Yin_C_A0258_v1.md#statement).
+In the common-power case this neighboring group is the entire index-four subgroup \(F\), and its quotient by the common infinite cyclic group lies [outside Linnell's class and has a nonzero rational extension class on every finite cover](../claims/Yin_C_A0261_v1.md#statement).
 The [six numerical fibers](../claims/Yin_C_A0244_v1.md#statement) exclude every case where the transfer or its inverse is bounded on the unit circle.
 For transfers with poles the [eight-coordinate closed chain](../claims/Yin_C_A0247_v1.md#statement) has regular rank six, first-layer inner rank six and group-ring inner rank at least seven.
 Use the positions of the four actual cyclic denominators when testing this chain.
