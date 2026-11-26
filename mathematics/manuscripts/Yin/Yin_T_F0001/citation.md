@@ -92,7 +92,7 @@ The [source reading](../../../audits/literature/CR94/Yin_U001.md#cr94-u001) chec
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/preliminaries.tex`, `def:linear-representation` | `\cite[Section~3.1]{CR94}` | Defines minimality by the least dimension among linear representations of the same free-field element. |
-| `paper/sections/preliminaries.tex`, `thm:minimal-linear-representation` | `\cite[Section~4.2, Proposition~7]{CR94}` | The proposition on p. 528 characterizes minimality by linear independence over \(\mathbb C\) within each of the two families of entries of \(uA^{-1}\) and \(A^{-1}v\). Corollary 5.8 uses the implication from minimality to linear independence. |
+| `paper/sections/preliminaries.tex`, `thm:minimal-linear-representation` | `\cite[Section~4.2, Proposition~7]{CR94}` | The proposition on p. 528 characterizes minimality by linear independence over \(\mathbb C\) within each of the two families of entries of \(uA^{-1}\) and \(A^{-1}v\). Proposition 5.8 uses the implication from minimality to linear independence. |
 
 ## `CS05`
 
@@ -164,7 +164,7 @@ That edition was not collated with the original 1881 printing, and the citation 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, Connes motivation paragraph | `\cite{Kro81}` | Identifies the scalar Kronecker rationality criterion behind the analogy; Con94 is separately cited for the operator formulation. |
-| `paper/sections/dual-system-criterion.tex`, after `cor:fraction-commutator-rank` | `\cite[Articles~VII and~IX]{Kro81}` | Supplies the formal Laurent-series rationality criterion for the coefficient Hankel matrix. The divided-difference expansion identifies its algebraic rank with the one-variable fraction-commutator rank. |
+| `paper/sections/dual-system-criterion.tex`, after `prop:fraction-commutator-rank` | `\cite[Articles~VII and~IX]{Kro81}` | Supplies the formal Laurent-series rationality criterion for the coefficient Hankel matrix. The divided-difference expansion identifies its algebraic rank with the one-variable fraction-commutator rank. |
 
 ## `KV12`
 
@@ -246,7 +246,7 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, paragraph after `def:regular` | `\cite[Lemmas 5.1--5.2]{MSY23}` | Supports regularity's equivalence with injectivity and dense range in the finite tracial setting. |
 | `paper/sections/preliminaries.tex`, `def:delta` | `\cite[Section~3]{MSY23}` | Supports the finite-rank-cycle presentation of \(\Delta\). |
 | `paper/sections/preliminaries.tex`, `subsec:free-field` | `\cite[Section~4.1 and Theorem~4.1]{MSY23}` | Supports the free-field convention and universal division-ring identification. |
-| `paper/sections/preliminaries.tex`, `def:linear-representation` | `\cite[Definition~4.2]{MSY23}` | Supplies the representation by the inverse of a full linear matrix between a scalar row and a scalar column. The manuscript writes the linear matrix in coefficient form for use in Corollary 5.8. |
+| `paper/sections/preliminaries.tex`, `def:linear-representation` | `\cite[Definition~4.2]{MSY23}` | Supplies the representation by the inverse of a full linear matrix between a scalar row and a scalar column. The manuscript writes the linear matrix in coefficient form for use in Proposition 5.8. |
 | `paper/sections/preliminaries.tex`, paragraph before `rem:cycle-characterization` in `subsec:delta-tensor-maps` | `\cite{MSY23}` | Points to the source's finite-rank characterization and free-field realization, made precise by the following citations. |
 | `paper/sections/preliminaries.tex`, `rem:cycle-characterization` | `\cite[Section~3 and Remark~3.2]{MSY23}` | Supplies the equivalence between maximal \(\Delta\), vanishing cycles and the commutator-kernel condition. |
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |

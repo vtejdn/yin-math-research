@@ -311,7 +311,7 @@ Theorem~\ref{thm:intrinsic-analytic}\textup{(\ref{item:intrinsic-analytic-existe
 The rank independence is Lemma~\ref{lem:fraction-ranks}.
 \end{proof}
 
-\begin{corollary}\label{cor:fraction-commutator-rank}
+\begin{proposition}\label{prop:fraction-commutator-rank}
 Let $X$ and $(D_1,\ldots,D_d)$ satisfy the hypotheses of Theorem~\ref{thm:analytic}.
 Let $(u,A,v)$ be a minimal linear representation of a nonzero $r\in\freefield{x_1,\ldots,x_d}$ as in Definition~\ref{def:linear-representation}, with $A=A_0+\sum_{j=1}^d A_jx_j$ of size $n$.
 Then for every fraction pair $Q$ for $r(X)$,
@@ -319,39 +319,72 @@ Then for every fraction pair $Q$ for $r(X)$,
  \rank\overline{\Gamma[Q,D_i]}=\rank_{\C} A_i
  \qquad(1\leq i\leq d).
 \]
-\end{corollary}
+\end{proposition}
 \begin{proof}
+Put $\M:=W^*(X)$.
+Remark~\ref{rem:dual-maximality} gives $\Delta(X)=d$, so evaluation at $X$ is injective on the free field by Lemma~\ref{lem:free-field}.
+Write $f:=r(X)$.
+
 Set $g:=uA^{-1}$ and $h:=A^{-1}v$.
-Applying the product rule entrywise to $AA^{-1}=I_n$ gives
+Applying $\partial_i$ entrywise to $Ah=v$ gives
 \[
- \partial_i r=-\sum_{j,k=1}^n (A_i)_{jk}\,g_j\otimes h_k^{\mathrm{op}}.
+ 0=(\partial_i A)h+A\partial_i h,
+\]
+where the matrix products use the left and right actions on the outer tensor factors.
+Since $r=uh$ and $\partial_i(A_{jk})=(A_i)_{jk}(1\otimes1)$, we obtain
+\[
+ \partial_i r=u\partial_i h=-g(\partial_i A)h
+ =-\sum_{j,k=1}^n (A_i)_{jk}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
-Thus the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, equals $\rank_{\C}A_i$.
+It follows that the tensor rank of $\partial_i r$, the least number of simple tensors in a decomposition, is the rank of the coefficient matrix $-A_i$.
 
-Put $\M:=W^*(X)$.
-By Remark~\ref{rem:dual-maximality} and Lemma~\ref{lem:free-field}, evaluation at $X$ is injective.
-Fix a fraction pair $(s_0,a_0,b_0,t_0)$ for $f:=r(X)$.
-Lemma~\ref{lem:clearing} gives regular $p,q\in\M$ such that $ps_0g_j(X)$ and $h_k(X)t_0q$ belong to $\M$ for all $j,k$.
-For the fraction pair $Q=(s,a,b,t):=(ps_0,pa_0,b_0q,t_0q)$, the proof of Theorem~\ref{thm:delta} gives the solution $(s\otimes t^{\mathrm{op}})\partial_i f$ of \eqref{eq:all-fraction-tensor-criterion} in coordinate $i$.
-Lemmas~\ref{lem:tensor-certificate} and~\ref{lem:finite-rank-identification} give
+Apply Lemma~\ref{lem:clearing} to $f,g_1(X),\ldots,g_n(X)$ on the left and $f,h_1(X),\ldots,h_n(X)$ on the right.
+We obtain regular $s,t\in\M$ such that
 \[
- \overline{\Gamma[Q,D_i]}
- =\sum_{j,k=1}^n(A_i)_{jk}\,sg_j(X)P_\Omega h_k(X)t.
+ sf,\;ft,\;sg_j(X),\;h_k(X)t\in\M
+ \qquad(1\leq j,k\leq n).
 \]
-The two families $(sg_j(X)\Omega)_j$ and $(h_k(X)t\Omega)_k$ are linearly independent by injectivity of evaluation and regularity of $s$ and $t$.
-By \eqref{eq:theta}, the operator in the display factors as a surjection onto $\C^n$, followed by $A_i$ and an injection into $H$, so its rank is $\rank_{\C}A_i$.
-Lemma~\ref{lem:fraction-ranks} gives the same rank for every fraction pair.
+Set $a:=sf$ and $b:=ft$.
+Then $f=s^{-1}a=bt^{-1}$, so $Q:=(s,a,b,t)$ is a fraction pair for $f$.
+Evaluating the formula for $\partial_i r$ in both tensor factors and multiplying by $s\otimes t^{\mathrm{op}}$ gives
+\[
+ \ell_i:=(s\otimes t^{\mathrm{op}})\partial_i f
+ =-\sum_{j,k=1}^n(A_i)_{jk}\,sg_j(X)\otimes(h_k(X)t)^{\mathrm{op}}.
+\]
+By equations~\eqref{eq:psi-left-linearity} and~\eqref{eq:tensor-criterion}, these tensors satisfy
+\[
+ \sum_i\Psi_i(\ell_i)
+ =(s\otimes t^{\mathrm{op}})(f\otimes1-1\otimes f^{\mathrm{op}})
+ =a\otimes t^{\mathrm{op}}-s\otimes b^{\mathrm{op}}.
+\]
+Since all the $\ell_i$ lie in $\M\otimes_{\C}\M^{\mathrm{op}}$, Lemmas~\ref{lem:tensor-certificate} and~\ref{lem:finite-rank-identification} give $\overline{\Gamma[Q,D_i]}=-\Theta(\ell_i)$.
+
+Define the maps
+\[
+ \begin{aligned}
+ B&:\C^n\longrightarrow H, & Bc&:=\sum_{j=1}^n c_j\,sg_j(X)\Omega,\\
+ C&:H\longrightarrow\C^n, & C\xi&:=\bigl(\langle J(h_k(X)t\Omega),\xi\rangle\bigr)_{k=1}^n .
+ \end{aligned}
+\]
+Evaluation at $X$ and multiplication by the regular denominators preserve the linear independence of the two families.
+Thus $B$ is injective, and $C$ is surjective because its adjoint sends the standard basis of $\C^n$ to the linearly independent vectors $J(h_k(X)t\Omega)$.
+By equation~\eqref{eq:theta},
+\[
+ \overline{\Gamma[Q,D_i]}=-\Theta(\ell_i)=BA_iC,
+\]
+so $\rank\overline{\Gamma[Q,D_i]}=\rank_{\C}A_i$.
+Lemma~\ref{lem:fraction-ranks} gives the same rank for every fraction pair for $f$.
 \end{proof}
 
-Corollary~\ref{cor:fraction-commutator-rank} measures the rational complexity of $r$ in each variable by the tensor rank of the corresponding free difference quotient.
+Proposition~\ref{prop:fraction-commutator-rank} measures the rational complexity of $r$ in each variable by the tensor rank of the corresponding free difference quotient.
 In one variable, choose $\lambda\in\C$ with $A(\lambda)$ invertible and write $r(\lambda+z)=\sum_{n\geq 0}c_nz^n$.
 The free difference quotient is the divided difference, which has the expansion
 \[
  \frac{r(\lambda+z)-r(\lambda+w)}{z-w}
  =\sum_{j,k\geq 0} c_{j+k+1}z^jw^k.
 \]
-Taylor expansion preserves the linear independence of the two families in the proof, since they are regular at $\lambda$.
+Taylor expansion at $\lambda$ is injective on rational functions regular there, so it preserves the linear independence of each family $(g_j)_j$ and $(h_k)_k$ from the proof.
 It follows that the commutator rank is the algebraic rank of $(c_{j+k+1})_{j,k\geq 0}$.
 This is the Hankel matrix of the Laurent series $r(\lambda+z^{-1})-r(\lambda)$.
 Kronecker's theorem \cite[Articles~VII and~IX]{Kro81} characterizes rationality of a Laurent series vanishing at infinity by finite Hankel rank and identifies this rank with the degree of the reduced denominator.
