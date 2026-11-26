@@ -201,6 +201,8 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0205](Yin_R_A0205_v1.md#the-twenty-marked-metabelian-candidates) | Metabelian markings, adjacent cyclic subgroups and central quotients at order 24 | [v1](Yin_R_A0205_v1.md) |
 | [Yin_R_A0206](Yin_R_A0206_v1.md#three-integer-monomials-and-the-fixed-sphere) | Sparse coordinate shears, support cycles and original-group atoms | [v1](Yin_R_A0206_v1.md) |
 | [Yin_R_A0207](Yin_R_A0207_v1.md#alternating-cubic-characters-and-the-two-translations) | Alternating cubic characters and central relations at order 24 | [v1](Yin_R_A0207_v1.md) |
+| [Yin_R_A0208](Yin_R_A0208_v1.md#eliminating-the-four-remaining-noncyclic-markings) | Adjacent generators and cyclic solvable quotients at order 24 | [v1](Yin_R_A0208_v1.md) |
+| [Yin_R_A0209](Yin_R_A0209_v1.md#matching-spreads-and-six-free-faces) | Character restrictions and signed path tests for the four-binomial matrix | [v1](Yin_R_A0209_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
