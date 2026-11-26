@@ -173,6 +173,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0174](Yin_R_A0174_v1.md#prescribed-list-rank-increments) | Mixed cycles, small-rank commutators and the rank increments for prescribed labels | [v1](Yin_R_A0174_v1.md) |
 | [Yin_R_A0175](Yin_R_A0175_v1.md#half-rank-graph-bound) | Half-rank exclusion by subgroup descent and regular vertex tests | [v1](Yin_R_A0175_v1.md) |
 | [Yin_R_A0176](Yin_R_A0176_v1.md#witness-range-tensors) | Reviews of finite-rank, angular and periodic rationality criteria | [v1](Yin_R_A0176_v1.md) |
+| [Yin_R_A0177](Yin_R_A0177_v1.md#winding-and-lifted-phases) | Matrix transfers for two marked generators | [v1](Yin_R_A0177_v1.md) |
+| [Yin_R_A0178](Yin_R_A0178_v1.md#finite-phase-estimate) | A uniform finite cyclic quotient test for four-column half increments | [v1](Yin_R_A0178_v1.md) |
+| [Yin_R_A0179](Yin_R_A0179_v1.md#scalar-window) | Four-column pencils and equality in a finite translation window | [v1](Yin_R_A0179_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
