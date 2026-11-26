@@ -114,3 +114,13 @@ The Python verifier checks primality and all twenty marked roots at each prime.
 It uses the [matching and dual-price checks](verify_matching_spread.py), distributing independent primes over at most eight worker processes.
 Among the 108520 marked roots, the first successful multipliers \(1,2,3,4\) occur respectively \(101922,6354,240,4\) times.
 The [rank calculation for these factors](../../../claims/Yin_C_A0227_v1.md#the-finite-endpoint-certificates) uses the verified strict spread and invertible endpoint for each individual marking.
+
+## Five coordinates at noncyclic order twenty
+
+Run `python -B verify_noncyclic_twenty.py` with assertions enabled in this directory.
+The [integer verifier](verify_noncyclic_twenty.py) uses Python 3's standard library and writes no files.
+It checks the degree-four ternary orbit and all sixteen marked split roots at the four exceptional primes of the original positive-sum sieve.
+The five-point permutations have steps one and two.
+Among the 24 different pairs of used edge sets the minimizer and maximizer of each prescribed cost are both unique.
+The largest certified spreads at \(3,11,41,61,101\) are respectively \(25,110,315,395,720\).
+The [order-twenty group-ring application](../../../claims/Yin_C_A0313_v3.md#the-remaining-seventeen-marked-representations) uses the two independent binary signs in choosing its cyclic character.

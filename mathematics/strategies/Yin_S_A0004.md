@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. Test the original-group companion remainders at orders 25 and 26 and the intersections of the free faces when the existing length bounds do not apply. |
+| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. Test the three remaining sign actions at noncyclic order 20, the bounded kernel projection at the order-16 four-coset marking, and the original-group companion remainders at orders 25 and 26. |
 
 ## Rank-one commutator sums in the regular representation
 
@@ -88,10 +88,19 @@ More generally equality gives an [actual finite-support kernel column](../claims
 Using the [full character group of a finite abelian quotient](../claims/Yin_C_A0198_v1.md#the-lattice-of-all-finite-characters) now excludes half rank for quotient **order** 23 or at least 27 by the [combined order test](../claims/Yin_C_A0201_v1.md#consequence-for-finite-abelian-quotient-orders).
 The [short characters on all cyclic divisors](../claims/Yin_C_A0311_v1.md#statement) give nullity at most \(9/19,3/7,5/11\) for a noninteger input at orders 19, 21 and 22 respectively.
 Together with the order-24 exclusion below, a half increment now requires finite abelianization of order at most 18 or exactly 20, 25 or 26.
-At order 20 only the cyclic marking \((1,8)\) and the marking \((1,e_1),(2,e_2)\) in \(C_5\times C_2^2\) survive these character inequalities.
-The cyclic marking has a four-coset window by reduction modulo four, so the periodic-image theorem below also excludes it for residually finite label groups.
-In the noncyclic marking the two degree-three deformations with weights \((1,2)\) and \((2,-1)\) both have injective evaluations at every nonzero parameter outside the tenth roots of unity.
-Compare the two resulting six-dimensional companion matrices on the same original coefficients.
+A [cyclic quotient of order 20](../claims/Yin_C_A0314_v1.md#statement) excludes a half increment for every marking.
+At the only candidate degrees the [five evaluations of a bounded transfer](../claims/Yin_C_A0312_v1.md#statement) first force zero trace and then contradict the original-group coefficient supports.
+With simple poles, the number of group labels having the same coefficient modulus grows along each geometric sequence; the two sequences cannot have the required marked degrees.
+For the normalized cyclic order-16 marking where \(s\) has odd degree and \(t\) degree four, a half kernel would instead force a [single bounded range inverse and exponential square decay](../claims/Yin_C_A0316_v1.md#statement).
+A quotient retaining the character modulo four in which the projection trace cannot equal one half excludes that bounded case.
+
+The only order-20 abelianization left is \(C_5\times C_2^2\) with marks \((1,e_1),(2,e_2)\).
+Here every [nilpotent or dihedral image](../claims/Yin_C_A0313_v1.md#statement) is abelian.
+The [metabelian quotient splits with the actual first mark in the complement](../claims/Yin_C_A0313_v2.md#statement).
+The [five-coordinate odd-prime tests](../claims/Yin_C_A0313_v3.md#statement) and the [sixteen-point affine bound \(13/40\)](../claims/Yin_C_A0317_v1.md#statement) show that \(H'/H''\) has order prime to ten and only the three nontrivial binary sign components can occur.
+For each nonzero component, test a simple quotient over \(\mathbb F_p\), where \(p\ne2,5\), with the actual first mark linear and the second mark affine.
+The order-five action on that quotient is multiplication by a primitive fifth root, and the two binary signs specify the two linear parts.
+If all three components vanish, the case of a perfect commutator subgroup will still require an original-group argument.
 
 For a cyclic quotient of order 26 the remaining marking is \((1,10)\); at order 25 it is \((1,7)\), in both cases with four invertible coefficient matrices.
 The [six- and seven-point permutation tests](../claims/Yin_C_A0306_v1.md#statement) show that every action on at most seven points has cyclic image under the half-rank hypothesis.
@@ -123,6 +132,9 @@ The [exact attainable support traces](../claims/Yin_C_A0308_v1.md#statement) of 
 
 For any four distinct window cosets, a two-square half kernel forces every [image in which the second mark has finite order](../claims/Yin_C_A0310_v1.md#statement) to have a normal subgroup equal to a product of two cyclic groups and quotient of order dividing four.
 The third derived subgroup survives in the original group and dies in all these images, excluding residual finiteness.
+At a fixed group with three distinct window cosets the [largest positive fractional nullity is attained and is upper semicontinuous](../claims/Yin_C_A0307_v2.md#statement) under marked-group convergence.
+At a four-coset marking the exact half exclusions therefore yield a coefficient-independent gap on a neighborhood, even if the other groups have different characters.
+The [perfect two-generator examples](../claims/Yin_C_A0315_v1.md#statement) have arbitrarily long windows and give arbitrarily small bounds in neighborhoods of markings with no nontrivial scalar characters.
 For larger matrices, under the stated group and pencil hypotheses, test the [sum of the leading residue ranks](../claims/Yin_C_A0304_v1.md#statement) or the [cofinite support of a bounded scalar compression](../claims/Yin_C_A0305_v1.md#statement) against equality at one quarter of the matrix size.
 
 At orders 25 and 26 a half increment still requires \(H'\) to be perfect.

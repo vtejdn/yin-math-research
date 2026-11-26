@@ -320,7 +320,7 @@ Then for every fraction pair $Q$ for $r(X)$,
  =\text{the tensor rank of }\partial_i r
  \qquad(1\leq i\leq d).
 \]
-The tensor rank of the free difference quotient $\partial_i r$ is the least number of simple tensors needed to express it.
+Here, the tensor rank of a tensor $x$ is the least number $p$ such that $x=\sum_{\nu=1}^p y_\nu\otimes z_\nu$ for some $y_\nu$ and $z_\nu$.
 \end{proposition}
 \begin{proof}
 Write $A=(A_{jk})_{j,k=1}^n$.
@@ -341,8 +341,8 @@ Since $r=uA^{-1}v=uh$ and $\partial_i A_{jk}=A_{jk}^{(i)}(1\otimes1)$, we obtain
  =-\sum_{j,k=1}^n A_{jk}^{(i)}\,g_j\otimes h_k^{\mathrm{op}}.
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
-Choose a decomposition $\partial_i r=\sum_{\nu=1}^p y_\nu\otimes z_\nu^{\mathrm{op}}$ with the least number $p$ of simple tensors.
-By linear independence, choose linear functionals $\varphi_j$ on the first tensor factor and $\widetilde{\varphi}_k$ on the second such that $\varphi_j(g_{j'})=\delta_{jj'}$ and $\widetilde{\varphi}_k(h_{k'}^{\mathrm{op}})=\delta_{kk'}$.
+Choose a decomposition $\partial_i r=\sum_{\nu=1}^p y_\nu\otimes z_\nu^{\mathrm{op}}$ with the least number $p$ of simple tensors $y_\nu\otimes z_\nu^{\mathrm{op}}$.
+By linear independence, choose linear functionals $\varphi_j$ on $g_j$ and $\widetilde{\varphi}_k$ on $h_k^{\mathrm{op}}$ such that $\varphi_j(g_{j'})=\delta_{jj'}$ and $\widetilde{\varphi}_k(h_{k'}^{\mathrm{op}})=\delta_{kk'}$.
 Set $U_{j\nu}:=\varphi_j(y_\nu)$ and $V_{\nu k}:=\widetilde{\varphi}_k(z_\nu^{\mathrm{op}})$.
 Applying $\varphi_j\otimes\widetilde{\varphi}_k$ to the two expressions for $\partial_i r$ gives $-A_{jk}^{(i)}=\sum_{\nu=1}^p U_{j\nu}V_{\nu k}$.
 Thus $-A_i=UV$ and $\rank_{\C}A_i\leq p$.

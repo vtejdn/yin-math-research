@@ -12,9 +12,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_J_A0005](programs/Yin_J_A0005/readme.md) | Exact group rewriting, appendix products and unique-product tests on two-generator balls in Gardam's group |  |
 | [Yin_J_A0006](programs/Yin_J_A0006/readme.md) | Girth, index-six subgroup certificates and integral abelianizations for the seven exceptional positive triples |  |
 | [Yin_J_A0007](programs/Yin_J_A0007/readme.md) | Endpoint multiplicities of nonbacktracking walks for the seven exceptional positive triples |  |
-| [Yin_J_A0008](programs/Yin_J_A0008/readme.md) | Gaussian periods, circulation norms and exceptional prime matchings at the order-25 marking |  |
+| [Yin_J_A0008](programs/Yin_J_A0008/readme.md) | Gaussian periods and prime matching certificates at orders 20 and 25 |  |
 | [Yin_J_A0009](programs/Yin_J_A0009/readme.md) | Thirteen- and twenty-six-coordinate character orbits, circulation norms and finite matching certificates at the order-26 marking |  |
-| [Yin_J_A0010](programs/Yin_J_A0010/readme.md) | Cyclotomic norms, marked path frequencies and the six-fiber determinant at order 24 |  |
+| [Yin_J_A0010](programs/Yin_J_A0010/readme.md) | Cyclotomic norms, marked paths and determinant tests on five and six fibers |  |
 | [Yin_J_A0011](programs/Yin_J_A0011/readme.md) | Permutation and matching certificates on five to seven points at orders 25 and 26 |  |
 | [Yin_J_F0001](programs/Yin_J_F0001/readme.md) | dr97-tree-commutator — finite free-group endpoint/suffix and auxiliary scalar-column comparisons |  |
 | [Yin_J_F0002](programs/Yin_J_F0002/readme.md) | miy22-commutators — finite exact Fock word-action and adjoint-sign comparisons |  |

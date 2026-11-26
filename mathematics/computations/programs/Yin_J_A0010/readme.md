@@ -61,3 +61,10 @@ The [permutation verifier](verify_a5_transfer.py) constructs all 60 even permuta
 Among the 2280 generating pairs, 1560 pass adjacent generation.
 None satisfy either of the two necessary [finite transfer support conditions](../../../claims/Yin_C_A0280_v1.md#statement).
 The separate counts record the 720 pairs that pass the sign condition before testing the identity label.
+
+## Five numerical fibers for the order-twenty marking
+
+Run `node verify_five_fibers.mjs` in this directory.
+The [verifier](verify_five_fibers.mjs) selects two fourth-root eigenvalues with multiplicity in each of five fibers, multiplies their linear factors and tests the six missing-coefficient equations over the field with 101 elements.
+Of the 100000 choices, the numbers surviving with zero through five opposite pairs are respectively 0, 0, 0, 0, 60 and 32.
+The [five-fiber argument](../../../claims/Yin_C_A0312_v1.md#the-five-numerical-fibers) explains why these finite-field ranks give a necessary condition on complex matrices.

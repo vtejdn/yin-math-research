@@ -213,6 +213,9 @@ Mathematical content, source inspections, finite computation limits and review r
 | [Yin_R_A0217](Yin_R_A0217_v1.md#the-common-cyclic-subgroup-of-two-faces) | Explicit gaps from cyclic and sparse intersections of two free faces | [v1](Yin_R_A0217_v1.md) |
 | [Yin_R_A0218](Yin_R_A0218_v1.md#all-actions-on-six-and-seven-points) | Short characters, six- and seven-point actions and small-order fillings | [v1](Yin_R_A0218_v1.md) |
 | [Yin_R_A0219](Yin_R_A0219_v1.md#leading-residues-in-arbitrary-matrix-size) | Four-coset transfers and the finite images of a periodic mark | [v1](Yin_R_A0219_v1.md) |
+| [Yin_R_A0220](Yin_R_A0220_v1.md#five-fibers-and-a-bounded-transfer) | The cyclic order-20 exclusion and the order-16 spectral gap | [v1](Yin_R_A0220_v1.md) |
+| [Yin_R_A0221](Yin_R_A0221_v1.md#the-central-commutator-and-dihedral-quotients) | The metabelian quotient at noncyclic order 20 and the sixteen-point affine bound | [v1](Yin_R_A0221_v1.md) |
+| [Yin_R_A0222](Yin_R_A0222_v1.md#attainment-and-upper-semicontinuity) | Attainment of fractional nullity and perfect two-generator examples | [v1](Yin_R_A0222_v1.md) |
 | [Yin_R_F0001](Yin_R_F0001_v1.md) | Yin_C_F0002 — Independent Review of the Dual-System Derivative Formula | [v1](Yin_R_F0001_v1.md) |
 | [Yin_R_F0002](Yin_R_F0002_v1.md) | Yin_C_F0003 - Independent Review of the Adjoint-Generated Variant | [v1](Yin_R_F0002_v1.md) |
 | [Yin_R_F0003](Yin_R_F0003_v1.md) | Yin_C_F0004: Independent Review of the One-Normal-Generator Proof | [v1](Yin_R_F0003_v1.md) |
