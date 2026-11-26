@@ -14,7 +14,7 @@ author: Yin
 | Field | Value |
 | --- | --- |
 | disposition | active |
-| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. For the four-site Schur input test the singular transfer at order 24. |
+| priority | Exclude the two off-diagonal rank-one operators and the diagonal difference of a single biorthogonal two-by-two system from occurring together as finite-rank commutator sums. Test mixed relations in the four-binomial matrix and the order-24 transfer over a perfect commutator subgroup. |
 
 ## Rank-one commutator sums in the regular representation
 
@@ -31,7 +31,12 @@ One [translated copy of a selected coordinate](../claims/Yin_C_A0264_v1.md#state
 For the \(1/3\) threshold it suffices to add one row \(y=vx_i\), where [\(v\) has at most three monomials with integer coefficients](../claims/Yin_C_A0271_v1.md#statement).
 With the indicated free pair all three words may have length exactly ten; the [radius-five alternative](../claims/Yin_C_A0270_v1.md#statement) instead bounds a denser fixed shear.
 Under scalar injectivity, each distinguished local-relation component needs at least four independent cycles; at four the [remaining minor is \(K_{3,3}\)](../claims/Yin_C_A0266_v3.md#statement).
-Test the resulting two-square matrix of four differences of scalar group monomials and the identity, allowing all four labels in the original group.
+In the resulting four-binomial matrix, a [half-dimensional kernel requires the closed products to generate a subgroup with abelianization of order at most 93](../claims/Yin_C_A0273_v1.md#statement).
+Scalar injectivity also forces each of its six two-row or two-column faces to generate a free group of rank two.
+For coefficients scalable to unit modulus, compare the actual [alternating products of the two row subgroups](../claims/Yin_C_A0277_v1.md#statement) and the [signed counts of short cycles](../claims/Yin_C_A0279_v1.md#statement).
+A candidate of girth at least sixteen needs 56 distinct deck orbits of sixteen-cycles.
+At arbitrary moduli the [finite moment test](../claims/Yin_C_A0276_v1.md#detecting-closed-walks-at-one-finite-moment) still gives a coefficient-independent bound on the length of a required relation.
+The unresolved case has relations mixing free faces and sufficient signed contributions from paths with equal endpoints.
 The same threshold holds under [virtual character detection of finite conjugacy classes](../claims/Yin_C_A0260_v1.md#statement) and in torsion-free amenable groups.
 For the actual two-column Schur input, [polynomial column shears](../claims/Yin_C_A0257_v1.md#kernel-images-and-the-positive-polynomial-test) measure \(b-h\) by a positive three-square matrix even when the pivot has nonclosed range.
 Test whether the relations on the two sides admit the [triangular or finite-relator exclusion](../claims/Yin_C_A0254_v2.md#statement) before introducing a free extension.
@@ -89,18 +94,18 @@ The [uniform order-26 bound](../claims/Yin_C_A0237_v1.md#statement) gives nullit
 The [thirteen-coordinate test](../claims/Yin_C_A0230_v1.md#statement) treats the first cyclotomic component.
 On the primitive twenty-sixth component, a [short lift with half-orbit sum one](../claims/Yin_C_A0233_v1.md#a-short-lift-on-the-selected-line) excludes the additional nonperiodic ties from the initial graph.
 The [finite interval](../claims/Yin_C_A0235_v1.md#statement) and the [twenty split norm divisors](../claims/Yin_C_A0234_v1.md#statement) cover the remaining simple markings.
-With scalar injectivity a half increment at either critical order now forces \(H'\) perfect.
-For any two-label candidate having a nonabelian solvable quotient the abelianization must have order at most 24 and different from 23.
+With scalar injectivity a half increment at any of orders 24, 25 and 26 forces \(H'\) perfect.
+Consequently any two-label candidate having a nonabelian solvable quotient must have abelianization of order at most 22.
 At order 24 the [only surviving marking](../claims/Yin_C_A0241_v1.md#all-abelian-quotients-of-order-24) has cyclic abelianization and degrees \(3,4\).
-For \(t_i=s^its^{-i}\), each intersection \(\langle t_i,t_{i+1}\rangle\cap\langle t_{i+2},t_{i+3}\rangle\) must map onto the full [subgroup of order six](../claims/Yin_C_A0240_v1.md#statement).
-If a presentation gives a proper image at any one cut, it excludes half nullity.
+For \(t_i=s^its^{-i}\), [each adjacent pair generates the entire index-four subgroup](../claims/Yin_C_A0272_v1.md#the-order-24-application), including when the neighboring cyclic groups intersect trivially.
+The [second proof](../claims/Yin_C_A0274_v1.md#comparing-the-first-two-coefficients-at-a-cyclic-translation) distinguishes the generators by two coefficients in an auxiliary cyclic variable.
 Comparing [the transfer square and its inverse square](../claims/Yin_C_A0253_v1.md#statement) kills the third, twelfth and twenty-fourth cyclotomic quotients and excludes every primitive twenty-fourth marking in characteristic five.
 This intermediate calculation gives odd order at most 117 for the commutator module \(M\).
 From the [twenty explicitly marked groups](../claims/Yin_C_A0263_v1.md#statement), the [alternating cubic characters](../claims/Yin_C_A0265_v1.md#statement) exclude every nonzero sign factor.
-The remaining five have \(M=0,C_5,C_{13}\), with two order-four actions for each nonzero group.
-For the latter cases test the four linked phases with multipliers \(1,i,-1,-i\), \(i^2=-1\bmod |M|\); independent cubic choices are no longer available.
-The neighboring subgroup \(\langle t_0,t_1\rangle\) must have finite abelianization, both [when the cyclic groups have trivial intersection](../claims/Yin_C_A0256_v1.md#statement) and [when they have a common power](../claims/Yin_C_A0258_v1.md#statement).
-In the common-power case this neighboring group is the entire index-four subgroup \(F\), and its quotient by the common infinite cyclic group lies [outside Linnell's class and has a nonzero rational extension class on every finite cover](../claims/Yin_C_A0261_v1.md#statement).
+The [four-channel matching bounds](../claims/Yin_C_A0278_v1.md#statement) exclude both fourth-root actions on each of \(C_5,C_{13}\), leaving \(M=0\).
+Every solvable quotient now factors through \(C_{24}\).
+For the remaining branch use the transfer identity on \(F=\langle t_0,t_1\rangle\), or test representations of genuine nonsolvable finite quotients when such quotients exist.
+In the common-power case the quotient of \(F\) by the common infinite cyclic group lies [outside Linnell's class and has a nonzero rational extension class on every finite cover](../claims/Yin_C_A0261_v1.md#statement).
 Use the [unit-circle orbit multiplicities and finite four-factor collision test](../claims/Yin_C_A0267_v1.md#statement) to compare the actual denominator roots and central exponents for each proposed common power.
 The [six numerical fibers](../claims/Yin_C_A0244_v1.md#statement) exclude every case where the transfer or its inverse is bounded on the unit circle.
 For transfers with poles the [eight-coordinate closed chain](../claims/Yin_C_A0247_v1.md#statement) has regular rank six, first-layer inner rank six and group-ring inner rank at least seven.
