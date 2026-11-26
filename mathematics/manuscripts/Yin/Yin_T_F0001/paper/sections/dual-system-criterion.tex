@@ -342,8 +342,10 @@ Since $r=uA^{-1}v=uh$ and $\partial_i A_{jk}=A_{jk}^{(i)}(1\otimes1)$, we obtain
 \]
 By Theorem~\ref{thm:minimal-linear-representation}, both $(g_j)_{j=1}^n$ and $(h_k)_{k=1}^n$ are linearly independent over $\C$.
 Choose a decomposition $\partial_i r=\sum_{\nu=1}^p y_\nu\otimes z_\nu^{\mathrm{op}}$ with the least number $p$ of simple tensors.
-In bases extending the two families, let $U_{j\nu}$ be the coordinate of $y_\nu$ along $g_j$ and $V_{\nu k}$ the coordinate of $z_\nu$ along $h_k$.
-The coefficient of $g_j\otimes h_k^{\mathrm{op}}$ is then $\sum_{\nu=1}^p U_{j\nu}V_{\nu k}$, so $-A_i=UV$ and $\rank_{\C}A_i\leq p$.
+By linear independence, choose linear functionals $\varphi_j$ on the first tensor factor and $\widetilde{\varphi}_k$ on the second such that $\varphi_j(g_{j'})=\delta_{jj'}$ and $\widetilde{\varphi}_k(h_{k'}^{\mathrm{op}})=\delta_{kk'}$.
+Set $U_{j\nu}:=\varphi_j(y_\nu)$ and $V_{\nu k}:=\widetilde{\varphi}_k(z_\nu^{\mathrm{op}})$.
+Applying $\varphi_j\otimes\widetilde{\varphi}_k$ to the two expressions for $\partial_i r$ gives $-A_{jk}^{(i)}=\sum_{\nu=1}^p U_{j\nu}V_{\nu k}$.
+Thus $-A_i=UV$ and $\rank_{\C}A_i\leq p$.
 Conversely, a rank factorization $-A_i=UV$ with $m:=\rank_{\C}A_i$ columns in $U$ and $m$ rows in $V$ gives
 \[
  \partial_i r
