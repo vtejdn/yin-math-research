@@ -11,8 +11,9 @@ For Yin's [free field terminology](../terminology.md#free-field-terminology) and
 
 Write Yin's mathematical manuscripts in English by default.
 Explain the problem, relevant existing results, precise contribution and main proof mechanism for the intended audience.
-In general exposition, foreground the main point and include the key information the reader needs to understand it.
-Omit secondary details that do not affect the main point.
+In exposition outside proofs, choose the level of detail to suit the purpose of the passage and foreground its main point.
+Include the key information the reader needs at that point.
+An overview may leave secondary technical details and exact intermediate steps to the relevant statements and proofs.
 Organize the paper around its argument rather than research-log chronology.
 Choose wording, theorem organization and proof detail for the actual paper, checking every assertion, reference and contribution claim when adapting a model.
 
@@ -48,8 +49,8 @@ Render pages or inspect the visual layout only when the user explicitly requests
 Scope: Yin's manuscript abstracts.
 
 Keep abstracts concise and focus on the central problem, essential ideas and principal results.
-An abstract need not enumerate all technical hypotheses or explanatory qualifications.
-Include conditions that determine the essential scope of the contribution, and leave secondary technical details to the introduction or body.
+Include conditions that determine the essential scope of the contribution.
+Omit secondary technical details, including hypotheses and qualifications that are unnecessary for understanding the principal results.
 
 ## Manuscript PDF Tracking
 
