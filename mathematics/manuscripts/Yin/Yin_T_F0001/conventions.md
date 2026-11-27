@@ -82,7 +82,7 @@ Call a liberation dual system **normalized** when \(\sum_iL_i\xi=P_\Omega\xi\) f
 This sum condition is a manuscript convention; it is not the zero-vacuum normalization of ordinary dual systems in MS23 Definition 2.4.
 Use normalized rather than canonical: the sum condition does not select a unique system.
 Theorem 1.7 fixes any such normalized system.
-For each fraction pair \(Q\), assertion (4) asks for \(T_1,\ldots,T_d\in\mathcal F(H)\) satisfying \([\rho(X_i),T_i]=\overline{\Gamma[Q,L_i]}\) for every \(i\).
+For each fraction pair \(Q\), assertion (4) asks for \(T_1,\ldots,T_d\in\mathcal F(H)\) satisfying equation (9), \([\rho(X_i),T_i]=\overline{\Gamma[Q,L_i]}\) for every \(i\).
 The liberation criterion assumes that \(X_i-\lambda\) is regular for every \(1\leq i\leq d\) and every \(\lambda\in\mathbb C\).
 
 For a linear operator \(L\) on \(H\) with \(\mathcal M\Omega\subseteq\operatorname{Dom}L\), use \(m_L(\ell):\mathcal M\Omega\to H\) for \(\ell\in\mathcal M\otimes_{\mathbb C}\mathcal M^{\mathrm{op}}\).

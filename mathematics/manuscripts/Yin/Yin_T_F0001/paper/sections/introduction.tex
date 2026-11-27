@@ -185,29 +185,31 @@ Then, for every $u\in L^0(\M)$, the following are equivalent:
 \end{equation}
 \item\label{item:intrinsic-analytic-criterion} For every fraction pair $Q$ for $u$, there exist $T_1,\ldots,T_d\in\F(H)$ satisfying \eqref{eq:intrinsic-analytic-criterion}.
 \item\label{item:intrinsic-analytic-fraction-commutators} For every fraction pair $Q$ for $u$, there exist $T_1,\ldots,T_d\in\F(H)$ such that
-\[
+\begin{equation}\label{eq:intrinsic-analytic-coordinates}
  [\rho(X_i),T_i]=\overline{\Gamma[Q,L_i]}
  \qquad(1\leq i\leq d).
-\]
+\end{equation}
 \end{enumerate}
 For each fixed fraction pair $Q$, the solution tuple $(T_1,\ldots,T_d)$ in assertions~\textup{(\ref{item:intrinsic-analytic-existence-criterion})}--\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} is unique whenever it exists.
 \end{theorem}
 
-The operators $\Gamma[Q,L_i]$ are closable by Lemma~\ref{lem:fraction-domains}.
-Summing the equations in assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} and using the normalization in equation~\eqref{eq:liberation-normalization}, we obtain
+Let $(T_1,\ldots,T_d)$ be a finite-rank solution of equation~\eqref{eq:intrinsic-analytic-coordinates} for a fixed fraction pair $Q$.
+Summing over $i$ and using the normalization in equation~\eqref{eq:liberation-normalization}, we obtain
 \[
  \sum_i[\rho(X_i),T_i]
  =\sum_i\overline{\Gamma[Q,L_i]}
  =\Gamma[Q,P_\Omega],
 \]
-so $(T_1,\ldots,T_d)$ is the solution in assertion~\textup{(\ref{item:intrinsic-analytic-criterion})}.
+so the same tuple solves equation~\eqref{eq:intrinsic-analytic-criterion}.
+Conversely, a finite-rank solution of equation~\eqref{eq:intrinsic-analytic-criterion} for $Q$ gives assertion~\textup{(\ref{item:intrinsic-analytic-existence-criterion})}, so assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} supplies a solution of equation~\eqref{eq:intrinsic-analytic-coordinates} for the same $Q$.
+This tuple also solves equation~\eqref{eq:intrinsic-analytic-criterion}, so uniqueness identifies it with the given solution.
 
 By Proposition~\ref{prop:liberation-delta}, the hypotheses on $X$ in Theorem~\ref{thm:intrinsic-analytic} imply $\Delta(X)=d$, the hypothesis of Theorem~\ref{thm:delta}.
 These hypotheses are strictly stronger, as Example~\ref{ex:maximal-delta-without-liberation} in Section~\ref{sec:examples} exhibits a selfadjoint tuple with maximal $\Delta$ and regular scalar shifts that admits no liberation dual system.
 
 Theorems~\ref{thm:delta} and~\ref{thm:intrinsic-analytic} allow the $X_i$ to be nonnormal.
 When $X_1,\ldots,X_d$ are normal operators that generate $\M$ and admit a dual system $(D_1,\ldots,D_d)$, Theorem~\ref{thm:analytic} characterizes rationality by the finite rank of the fraction commutators $\Gamma[Q,D_i]$ for a given fraction pair $Q$.
-If $u$ is rational in $X$, the proof shows that the solution in Theorem~\ref{thm:intrinsic-analytic} for each fraction pair $Q$ of $u$ is given by $T_i=\overline{\Gamma[Q,D_i]}$ for every $i$.
+If $u$ is rational in $X$, the proof identifies the common solution of equations~\eqref{eq:intrinsic-analytic-criterion} and~\eqref{eq:intrinsic-analytic-coordinates} for each fraction pair $Q$ as $T_i=\overline{\Gamma[Q,D_i]}$ for every $i$.
 
 To state our third main result in a general setting, we use the following unbounded variant of the dual systems in \cite[Definition~5.1]{Voi98}.
 
