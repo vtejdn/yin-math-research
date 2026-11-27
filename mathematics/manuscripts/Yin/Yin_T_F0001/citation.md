@@ -164,6 +164,7 @@ That edition was not collated with the original 1881 printing, and the citation 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
 | `paper/sections/introduction.tex`, Connes motivation paragraph | `\cite{Kro81}` | Identifies the scalar Kronecker rationality criterion behind the analogy; Con94 is separately cited for the operator formulation. |
+| `paper/sections/introduction.tex`, paragraph after `thm:analytic` | `\cite{Kro81}` | Supports the characterization of rational Laurent series vanishing at infinity by finite Hankel rank (Articles VII and IX). Proposition 5.8 and its one-variable specialization supply the rank identity used in the comparison with Theorem 1.9. |
 | `paper/sections/dual-system-criterion.tex`, after `prop:fraction-commutator-rank` | `\cite[Articles~VII and~IX]{Kro81}` | Supplies the formal Laurent-series rationality criterion for the coefficient Hankel matrix. The divided-difference expansion identifies its algebraic rank with the one-variable fraction-commutator rank. |
 
 ## `KV12`
