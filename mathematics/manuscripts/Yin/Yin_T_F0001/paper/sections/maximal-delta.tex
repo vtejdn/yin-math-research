@@ -1,4 +1,4 @@
-% Complete proof of C_F0068 Part A, Sections 2--3; no Part B example.
+% Mathematical inputs: C_F0068 Parts A and B.
 \section{Rationality under maximal \texorpdfstring{$\Delta$}{Delta}}\label{sec:maximal-delta}
 
 We prove Theorem~\ref{thm:delta} in this section.
@@ -221,6 +221,43 @@ Since $\Delta(X)=d$, Remark~\ref{rem:cycle-characterization} implies $T_i-S_i=0$
 Hence the two tuples coincide, proving uniqueness of the finite-rank solution tuple for the fixed fraction pair $Q$.
 
 \end{proof}
+
+\begin{remark}\label{rem:fraction-pair-dependence}
+Even for bounded rational elements, the existence of a finite-rank solution to equation~\eqref{eq:certificate} can depend on the fraction pair.
+Let $h$ be selfadjoint with the uniform distribution on $(0,1)$, let $S$ be a standard semicircular element free from $h$, and put $\M:=W^*(h,S)$ and $Y:=hSh$.
+The operator $h$ is regular, so $S=h^{-1}Yh^{-1}$ is rational in $(h,Y)$.
+The integral $\int_0^1 t^{-2}\,dt=\infty$ gives $h^{-1}\notin H$.
+
+Write $R:=\rho(h)$ and $B:=\rho(S)$, so $\rho(Y)=RBR$.
+The free pair $(h,S)$ has nonatomic marginal distributions, and hence $\Delta(h,S)=2$ by \cite[Section~6.1]{MSY23}.
+For any finite-rank operators $T_h,T_Y$, the commutator product rule gives
+\[
+ [R,T_h]+[RBR,T_Y]
+ =[R,T_h+BRT_Y+T_YRB]+[B,RT_YR].
+\]
+If the left-hand side vanishes, maximality for $(h,S)$ gives $RT_YR=0$ and $T_h+BRT_Y+T_YRB=0$.
+Since $R$ is injective and has dense range, we get $T_Y=0$ and then $T_h=0$.
+Thus $\Delta(h,Y)=2$ by Remark~\ref{rem:cycle-characterization}.
+
+Since $B\Omega=S\Omega$ and both $B$ and $S$ are selfadjoint, we have $BP_\Omega=SP_\Omega$ and $P_\Omega B=P_\Omega S$.
+For the fraction pair $(1,S,S,1)$, the right-hand side of equation~\eqref{eq:certificate} is therefore $[P_\Omega,S]=-[B,P_\Omega]$.
+A finite-rank solution would therefore give
+\[
+ [R,T_h+BRT_Y+T_YRB]+[B,RT_YR+P_\Omega]=0.
+\]
+Maximality for $(h,S)$ forces $RT_YR=-P_\Omega$.
+Applying this identity to $\Omega$ yields $R T_Y(h\Omega)=-\Omega$, so $T_Y(h\Omega)$ would equal $-h^{-1}$ under the inclusion $H\subseteq L^0(\M)$.
+This contradicts $h^{-1}\notin H$.
+
+For $Q=(h,hS,Sh,h)$, take $T_Y=-P_\Omega$ and $T_h=BRP_\Omega+P_\Omega RB$.
+Using $RP_\Omega R=hP_\Omega h$, we obtain
+\[
+ [R,T_h]+[RBR,T_Y]
+ =-[B,hP_\Omega h]
+ =hP_\Omega S h-hS P_\Omega h
+ =\Gamma[Q,P_\Omega].
+\]
+\end{remark}
 
 We end this section by a remark on the connection between our criteria and Hochschild homology.
 

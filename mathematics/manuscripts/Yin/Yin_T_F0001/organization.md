@@ -16,9 +16,9 @@ The paper is compiled from `main.tex` and six section files.
 | --- | --- | --- |
 | 1 | Introduction | Definitions 1.1-1.3, 1.6 and 1.8, Theorems 1.4, 1.7 and 1.9, the intervening remark and the statement of the paper's organization. |
 | 2 | Preliminaries | Division closures, the abstract free field, linear representations and coordinate separation. Fractions of affiliated operators, tensor realizations of finite-rank operators, Delta and free-field realization. |
-| 3 | Rationality under maximal Delta | Lemmas 3.1–3.3, the proof of Theorem 1.4 and the Hochschild interpretation in Remark 3.4. |
+| 3 | Rationality under maximal Delta | Lemmas 3.1–3.3 and the proof of Theorem 1.4. Remark 3.4 shows that solvability by finite-rank operators can depend on the fraction pair. Remark 3.5 gives the Hochschild interpretation. |
 | 4 | Liberation dual system criterion | An unnumbered recall of Definition 1.6 is followed by Remark 4.1 on liberation gradients and the two tensor-evaluation identities. Proposition 4.2 normalizes the system, and Lemmas 4.3 through 4.6 give closure and tensor tools. The proof of Theorem 1.7 follows Proposition 4.7 and Lemmas 4.8 and 4.9 on algebraic L2 recovery and closability of fraction commutators. |
-| 5 | Dual system criterion | An unnumbered recall of Definition 1.8 is followed by Remark 5.1 on maximal Delta. Lemmas 5.2 through 5.5 establish rank independence, identify finite-rank solutions and give the required module commutation. Proposition 5.6 constructs the normalized liberation dual system. Lemma 5.7 compares fraction commutators and gives the summed identity. Theorem 1.9 uses maximal Delta to obtain scalar-shift regularity before applying Theorem 1.7. Proposition 5.8 computes the ranks from a minimal linear representation and leads to the comparison with Kronecker's theorem. |
+| 5 | Dual system criterion | An unnumbered recall of Definition 1.8 is followed by Remark 5.1 on maximal Delta. Lemmas 5.2 through 5.5 establish rank independence, identify finite-rank solutions and give the required module commutation. Proposition 5.6 constructs the normalized liberation dual system. Lemma 5.7 compares fraction commutators and gives the summed identity. Theorem 1.9 uses maximal Delta to obtain scalar-shift regularity before applying Theorem 1.7. Proposition 5.8 computes the ranks from a minimal linear representation and leads to the comparison with Kronecker's theorem. Corollary 5.9 uses the ranks to bound the minimal dimension. |
 | 6 | Examples | Example 6.1 separates maximal Delta from liberation duals, Example 6.2 distinguishes the two analytic hypotheses, Example 6.3 shows why normality is needed, Proposition 6.4 characterizes bounded duals for one selfadjoint generator, and Example 6.5 separates the division closures on bounded elements. |
 
 ## Preliminary Order
@@ -123,6 +123,7 @@ The arcsine coordinate has nonatomic law, regular scalar shifts and the normaliz
 Its liberation gradient relative to scalars is zero.
 The odd monomials tend to zero in L2, whereas the vacuum pairing of their ordinary dual commutators would equal one.
 The two vacuum domain inclusions bound that pairing by a fixed constant times the L2 norm, excluding every ordinary dual system.
+The nonrational projection \(\mathbf 1_{(0,1)}(X)\) has finite-rank fraction commutators with \(L\) for every fraction pair, which explains why Theorem 1.7 requires a finite-rank solution of the commutator equation.
 
 Example 6.3 gives the circular counterexample.
 The bounded dual gives maximal Delta by MSY23 Proposition 6.2, and the free-field embedding gives regular scalar shifts.

@@ -420,3 +420,28 @@ The free difference quotient is the divided difference, which has the expansion
 Hence the tensor rank of $\partial_1 r$ equals the algebraic rank of $(c_{j+k+1})_{j,k\geq 0}$, the Hankel matrix of the Laurent series $r(\lambda+z^{-1})-r(\lambda)$.
 Recall that Kronecker's theorem \cite[Articles~VII and~IX]{Kro81} characterizes rationality of a Laurent series vanishing at infinity by finite rankness of its Hankel matrix.
 Thus Proposition~\ref{prop:fraction-commutator-rank} can be understood as a noncommutative analogue of Kronecker's theorem, relating the rank of the commutator to a measure of the rationality complexity of the underlying function.
+
+\begin{corollary}\label{cor:minimal-representation-dimension}
+Under the hypotheses of Proposition~\ref{prop:fraction-commutator-rank}, the dimension $n$ of a minimal linear representation of $r$ satisfies
+\[
+ n\leq 1+\sum_{i=1}^d\rank\overline{\Gamma[Q,D_i]}
+\]
+for every fraction pair $Q$ for $r(X)$.
+\end{corollary}
+
+\begin{proof}
+Write $(u,A,v)$ for a minimal linear representation with $A=A_0+\sum_{i=1}^d A_ix_i$, and put $h:=A^{-1}v$.
+If a complex row vector $w$ annihilates $\C v+\sum_{i=1}^d\Image A_i$, then $wv=0$ and $wA_i=0$ for every $1\leq i\leq d$, so
+\[
+ wA_0h=wAh=wv=0.
+\]
+By Theorem~\ref{thm:minimal-linear-representation}, the entries of $h$ are linearly independent over $\C$, so $wA_0=0$.
+Thus $wA=0$ and $w=0$ by invertibility of $A$.
+It follows that
+\[
+ \C^n=\C v+\sum_{i=1}^d\Image A_i,
+ \qquad
+ n\leq 1+\sum_{i=1}^d\rank_{\C}A_i.
+\]
+Proposition~\ref{prop:fraction-commutator-rank} now gives the asserted bound.
+\end{proof}
