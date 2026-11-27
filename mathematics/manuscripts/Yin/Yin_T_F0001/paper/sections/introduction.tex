@@ -184,18 +184,17 @@ Then, for every $u\in L^0(\M)$, the following are equivalent:
  \label{eq:intrinsic-analytic-criterion}
 \end{equation}
 \item\label{item:intrinsic-analytic-criterion} For every fraction pair $Q$ for $u$, there exist $T_1,\ldots,T_d\in\F(H)$ satisfying \eqref{eq:intrinsic-analytic-criterion}.
-\item\label{item:intrinsic-analytic-fraction-commutators} For every fraction pair $Q$ for $u$ and every $i$,
+\item\label{item:intrinsic-analytic-fraction-commutators} For every fraction pair $Q$ for $u$, there exist $T_1,\ldots,T_d\in\F(H)$ such that
 \[
- \overline{\Gamma[Q,L_i]}\in[\rho(X_i),\F(H)].
+ [\rho(X_i),T_i]=\overline{\Gamma[Q,L_i]}
+ \qquad(1\leq i\leq d).
 \]
 \end{enumerate}
-For each fixed fraction pair $Q$, the tuple $(T_1,\ldots,T_d)$ in assertions~\textup{(\ref{item:intrinsic-analytic-existence-criterion})} and~\textup{(\ref{item:intrinsic-analytic-criterion})} is unique.
+For each fixed fraction pair $Q$, the solution tuple $(T_1,\ldots,T_d)$ in assertions~\textup{(\ref{item:intrinsic-analytic-existence-criterion})}--\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} is unique whenever it exists.
 \end{theorem}
 
-Here $[\rho(X_i),\F(H)]:=\{[\rho(X_i),T]:T\in\F(H)\}$ and $\overline{\Gamma[Q,L_i]}$ denotes the closure of the closable operator $\Gamma[Q,L_i]$.
-The new characterization in assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} can be understood as follows.
-For any fraction pair $Q$, assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} provides $T_i\in\F(H)$ with $[\rho(X_i),T_i]=\overline{\Gamma[Q,L_i]}$.
-Summing over $i$ and using the normalization in equation~\eqref{eq:liberation-normalization}, we obtain
+The operators $\Gamma[Q,L_i]$ are closable by Lemma~\ref{lem:fraction-domains}.
+Summing the equations in assertion~\textup{(\ref{item:intrinsic-analytic-fraction-commutators})} and using the normalization in equation~\eqref{eq:liberation-normalization}, we obtain
 \[
  \sum_i[\rho(X_i),T_i]
  =\sum_i\overline{\Gamma[Q,L_i]}
