@@ -229,7 +229,17 @@ The operator $h$ is regular, so $S=h^{-1}Yh^{-1}$ is rational in $(h,Y)$.
 The integral $\int_0^1 t^{-2}\,dt=\infty$ gives $h^{-1}\notin H$.
 
 The free pair $(h,S)$ has nonatomic marginal distributions, and hence $\Delta(h,S)=2$ by \cite[Section~6.1]{MSY23}.
-Using $\rho(Y)=\rho(h)\rho(S)\rho(h)$, the commutator product rule gives, for any finite-rank operators $T_h,T_Y$,
+Let $T_h,T_Y$ be finite-rank operators.
+Applying the commutator product rule to $\rho(Y)=\rho(h)\rho(S)\rho(h)$ gives
+\[
+ \begin{aligned}
+ [\rho(Y),T_Y]
+ &=[\rho(h),\rho(S)\rho(h)T_Y]\\
+ &\quad+[\rho(S),\rho(h)T_Y\rho(h)]\\
+ &\quad+[\rho(h),T_Y\rho(h)\rho(S)].
+ \end{aligned}
+\]
+Adding $[\rho(h),T_h]$ and using $\rho(S)\rho(h)=\rho(hS)$ and $\rho(h)\rho(S)=\rho(Sh)$, we obtain
 \[
  \begin{aligned}
  [\rho(h),T_h]+[\rho(Y),T_Y]
