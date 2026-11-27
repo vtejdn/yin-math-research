@@ -123,7 +123,8 @@ The arcsine coordinate has nonatomic law, regular scalar shifts and the normaliz
 Its liberation gradient relative to scalars is zero.
 The odd monomials tend to zero in L2, whereas the vacuum pairing of their ordinary dual commutators would equal one.
 The two vacuum domain inclusions bound that pairing by a fixed constant times the L2 norm, excluding every ordinary dual system.
-The nonrational projection \(\mathbf 1_{(0,1)}(X)\) has finite-rank fraction commutators with \(L\) for every fraction pair, which explains why Theorem 1.7 requires a finite-rank solution of the commutator equation.
+Replacing the ordinary dual in Theorem 1.9 by \(L\) makes its finite-rank condition hold for the nonrational projection \(\mathbf 1_{(0,1)}(X)\) for every fraction pair.
+Theorem 1.7 rules out a finite-rank solution of the commutator equation for this projection.
 
 Example 6.3 gives the circular counterexample.
 The bounded dual gives maximal Delta by MSY23 Proposition 6.2, and the free-field embedding gives regular scalar shifts.
