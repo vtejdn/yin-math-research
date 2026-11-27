@@ -237,9 +237,17 @@ When these equivalent conditions hold, the rank of each $\overline{\Gamma[Q,D_i]
 \end{theorem}
 
 Proposition~\ref{prop:fraction-commutator-rank} computes these ranks for $u=r(X)$, where $r$ is a nonzero rational function.
-For each $i$, the rank equals both the rank of the coefficient matrix of $x_i$ in a minimal linear representation of $r$ and the tensor rank of the free difference quotient $\partial_i r$.
+Let $A=A_0+\sum_{j=1}^d A_jx_j$ be the matrix in a minimal linear representation of $r$.
+For every fraction pair $Q$ for $u$, Proposition~\ref{prop:fraction-commutator-rank} gives
+\[
+ \rank\overline{\Gamma[Q,D_i]}
+ =\rank_{\C} A_i
+ =\text{the tensor rank of }\partial_i r
+ \qquad(1\leq i\leq d),
+\]
+where $\partial_i r$ is the $i$th free difference quotient of $r$.
 In one variable, this tensor rank equals the Hankel rank of the associated Laurent series, whose rationality is characterized by finiteness of that rank in Kronecker's theorem \cite{Kro81}.
-Thus Theorem~\ref{thm:analytic}, together with Proposition~\ref{prop:fraction-commutator-rank}, provides a noncommutative analogue of the classical result of Kronecker on the ranks of Hankel matrices of the Laurent series.
+Theorem~\ref{thm:analytic} thus gives a noncommutative counterpart to Kronecker's criterion.
 
 Even among normal generators, the hypotheses of Theorem~\ref{thm:analytic} are strictly stronger than those of Theorem~\ref{thm:intrinsic-analytic}.
 The arcsine generator $X$ in Example~\ref{ex:liberation-without-duals} admits a normalized liberation dual system, and $X-\lambda$ is regular for every $\lambda\in\C$.
