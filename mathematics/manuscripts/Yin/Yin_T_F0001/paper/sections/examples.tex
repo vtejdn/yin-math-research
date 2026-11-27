@@ -113,23 +113,78 @@ By Cauchy--Schwarz,
 \]
 a contradiction.
 Thus this tuple satisfies the hypotheses of Theorem~\ref{thm:intrinsic-analytic} but not those of Theorem~\ref{thm:analytic}.
+\end{example}
 
 Replacing the dual system in Theorem~\ref{thm:analytic} by a normalized liberation dual system can make the finite-rank condition hold for nonrational elements.
-Here $L=P_\Omega$, so for every $u\in L^0(\M)$ and every fraction pair $Q=(s,a,b,t)$ for $u$, both terms in
+In the above example, $L=P_\Omega$ for an arcsine generator $X$, so for every $u\in L^0(\M)$ and every fraction pair $Q=(s,a,b,t)$ for $u$, both terms in
 \[
  \Gamma[Q,L]=sP_\Omega b-aP_\Omega t
 \]
 have rank at most one, and hence $\rank\Gamma[Q,L]\leq 2$.
 Since $\mu$ is nonatomic, $\Div_{L^0(\M)}\C[X]$ is the field of rational functions of $X$.
-The projection $p:=\mathbf 1_{(0,1)}(X)$ is nontrivial and hence nonrational.
+The projection $p:=\mathbf 1_{(0,1)}(X)$ is nonrational, but we cannot use the finite-rank condition of $\Gamma[Q,L]$ to detect this.
 For this projection, equation~\eqref{eq:intrinsic-analytic-coordinates} takes the form
 \[
  [\rho(X),T]=\Gamma[Q,L].
 \]
 By Theorem~\ref{thm:intrinsic-analytic}, it has no solution $T\in\F(H)$ for any fraction pair $Q$ for $p$.
+
+Our next example illustrates the dependence of solutions of equation~\eqref{eq:certificate} in Theorem~\ref{thm:delta} on the choice of fraction pair.
+
+\begin{example}\label{ex:choice-fraction-pair}
+Let $h$ be selfadjoint with the uniform distribution on $(0,1)$, let $S$ be a standard semicircular element free from $h$, and put $\M:=W^*(h,S)$ and $Y:=hSh$.
+The operator $h$ is regular, so $h^{-1}\in L^0(\M)$, while the integral $\int_0^1 t^{-2}\,dt=\infty$ gives $h^{-1}\notin H:=L^2(\M)$.
+We note that $S=h^{-1}Yh^{-1}$ is rational in $(h,Y)$.
+
+The distributions of both $h$ and $S$ has no atoms, and hence $\Delta(h,S)=2$ by \cite[Section~6.1]{MSY23}.
+Let $T_h,T_Y$ be finite-rank operators.
+Applying the commutator product rule to $\rho(Y)=\rho(h)\rho(S)\rho(h)$ gives
+\[
+ \begin{aligned}
+ [\rho(Y),T_Y]
+ &=[\rho(h),\rho(S)\rho(h)T_Y]\\
+ &\quad+[\rho(S),\rho(h)T_Y\rho(h)]\\
+ &\quad+[\rho(h),T_Y\rho(h)\rho(S)].
+ \end{aligned}
+\]
+Adding $[\rho(h),T_h]$ and using $\rho(S)\rho(h)=\rho(hS)$ and $\rho(h)\rho(S)=\rho(Sh)$, we obtain
+\begin{equation}\label{eq:choice-fraction-pair-commutators}
+ \begin{aligned}
+ [\rho(h),T_h]+[\rho(Y),T_Y]
+ &= [\rho(h),T_h+\rho(hS)T_Y+T_Y\rho(Sh)]\\
+ &\quad+[\rho(S),\rho(h)T_Y\rho(h)].
+ \end{aligned}
+\end{equation}
+If the left-hand side of equation~\eqref{eq:choice-fraction-pair-commutators} vanishes, the maximality $\Delta(h,S)=2$ gives
+\[
+\rho(h)T_Y\rho(h)=0 \quad\text{and}\quad T_h+\rho(hS)T_Y+T_Y\rho(Sh)=0.
+\]
+Since $\rho(h)$ is injective and has dense range, we get $T_Y=0$ and then $T_h=0$.
+Thus $\Delta(h,Y)=2$ by Remark~\ref{rem:cycle-characterization} and thus Theorem~\ref{thm:delta} applies to $(h,Y)$.
+
+For the fraction pair $(1,S,S,1)$, the right hand side of equation~\eqref{eq:certificate} is
+\begin{equation}\label{eq:choice-fraction-pair-commutator-S}
+[P_\Omega,S]=-[\rho(S),P_\Omega].
+\end{equation}
+If $(T_h,T_Y)$ were a finite-rank solution of \eqref{eq:certificate}, using equation~\eqref{eq:choice-fraction-pair-commutators} and \eqref{eq:choice-fraction-pair-commutator-S} we obtain
+\[
+ [\rho(h),T_h+\rho(hS)T_Y+T_Y\rho(Sh)]+[\rho(S),\rho(h)T_Y\rho(h)+P_\Omega]=0.
+\]
+The maximality $\Delta(h,S)=2$ forces $\rho(h)T_Y\rho(h)=-P_\Omega$.
+Applying this identity to $\Omega$ yields $\rho(h)T_Y(h\Omega)=-\Omega$, so $T_Y(h\Omega)=-h^{-1}$ and this force $h^{-1}\in H$.
+This contradicts $h^{-1}\notin H$.
+
+For $Q=(h,hS,Sh,h)$, take $T_Y=-P_\Omega$ and $T_h=\rho(hS)P_\Omega+P_\Omega\rho(Sh)$.
+The first commutator on the right of equation~\eqref{eq:choice-fraction-pair-commutators} vanishes, and
+\[
+ [\rho(h),T_h]+[\rho(Y),T_Y]
+ =-[\rho(S),hP_\Omega h]
+ =hP_\Omega S h-hS P_\Omega h
+ =\Gamma[Q,P_\Omega].
+\]
 \end{example}
 
-Our next example illustrates the necessity of the normality assumption in Theorem~\ref{thm:analytic}.
+The last example in this subsection illustrates the necessity of the normality assumption in Theorem~\ref{thm:analytic}.
 
 \begin{example}\label{ex:normality}
 Let $l_j,r_j$, $j=1,2$, be the left and right creation operators on a full Fock space with the vacuum vector $\Omega$.
