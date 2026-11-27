@@ -228,32 +228,35 @@ Let $h$ be selfadjoint with the uniform distribution on $(0,1)$, let $S$ be a st
 The operator $h$ is regular, so $S=h^{-1}Yh^{-1}$ is rational in $(h,Y)$.
 The integral $\int_0^1 t^{-2}\,dt=\infty$ gives $h^{-1}\notin H$.
 
-Write $R:=\rho(h)$ and $B:=\rho(S)$, so $\rho(Y)=RBR$.
 The free pair $(h,S)$ has nonatomic marginal distributions, and hence $\Delta(h,S)=2$ by \cite[Section~6.1]{MSY23}.
-For any finite-rank operators $T_h,T_Y$, the commutator product rule gives
+Using $\rho(Y)=\rho(h)\rho(S)\rho(h)$, the commutator product rule gives, for any finite-rank operators $T_h,T_Y$,
 \[
- [R,T_h]+[RBR,T_Y]
- =[R,T_h+BRT_Y+T_YRB]+[B,RT_YR].
+ \begin{aligned}
+ [\rho(h),T_h]+[\rho(Y),T_Y]
+ &= [\rho(h),T_h+\rho(hS)T_Y+T_Y\rho(Sh)]\\
+ &\quad+[\rho(S),\rho(h)T_Y\rho(h)].
+ \end{aligned}
 \]
-If the left-hand side vanishes, maximality for $(h,S)$ gives $RT_YR=0$ and $T_h+BRT_Y+T_YRB=0$.
-Since $R$ is injective and has dense range, we get $T_Y=0$ and then $T_h=0$.
+If the left-hand side vanishes, maximality for $(h,S)$ gives $\rho(h)T_Y\rho(h)=0$ and $T_h+\rho(hS)T_Y+T_Y\rho(Sh)=0$.
+Since $\rho(h)$ is injective and has dense range, we get $T_Y=0$ and then $T_h=0$.
 Thus $\Delta(h,Y)=2$ by Remark~\ref{rem:cycle-characterization}.
 
-Since $B\Omega=S\Omega$ and both $B$ and $S$ are selfadjoint, we have $BP_\Omega=SP_\Omega$ and $P_\Omega B=P_\Omega S$.
-For the fraction pair $(1,S,S,1)$, the right-hand side of equation~\eqref{eq:certificate} is therefore $[P_\Omega,S]=-[B,P_\Omega]$.
+The operators $\rho(S)$ and $S$ are selfadjoint and both send $\Omega$ to $S\Omega$, so $\rho(S)P_\Omega=SP_\Omega$ and $P_\Omega\rho(S)=P_\Omega S$.
+For the fraction pair $(1,S,S,1)$, the right-hand side of equation~\eqref{eq:certificate} is therefore $[P_\Omega,S]=-[\rho(S),P_\Omega]$.
 A finite-rank solution would therefore give
 \[
- [R,T_h+BRT_Y+T_YRB]+[B,RT_YR+P_\Omega]=0.
+ [\rho(h),T_h+\rho(hS)T_Y+T_Y\rho(Sh)]
+ +[\rho(S),\rho(h)T_Y\rho(h)+P_\Omega]=0.
 \]
-Maximality for $(h,S)$ forces $RT_YR=-P_\Omega$.
-Applying this identity to $\Omega$ yields $R T_Y(h\Omega)=-\Omega$, so $T_Y(h\Omega)$ would equal $-h^{-1}$ under the inclusion $H\subseteq L^0(\M)$.
+Maximality for $(h,S)$ forces $\rho(h)T_Y\rho(h)=-P_\Omega$.
+Applying this identity to $\Omega$ yields $\rho(h)T_Y(h\Omega)=-\Omega$, so $T_Y(h\Omega)$ would equal $-h^{-1}$ under the inclusion $H\subseteq L^0(\M)$.
 This contradicts $h^{-1}\notin H$.
 
-For $Q=(h,hS,Sh,h)$, take $T_Y=-P_\Omega$ and $T_h=BRP_\Omega+P_\Omega RB$.
-Using $RP_\Omega R=hP_\Omega h$, we obtain
+For $Q=(h,hS,Sh,h)$, take $T_Y=-P_\Omega$ and $T_h=\rho(hS)P_\Omega+P_\Omega\rho(Sh)$.
+Using $\rho(h)P_\Omega\rho(h)=hP_\Omega h$, we obtain
 \[
- [R,T_h]+[RBR,T_Y]
- =-[B,hP_\Omega h]
+ [\rho(h),T_h]+[\rho(Y),T_Y]
+ =-[\rho(S),hP_\Omega h]
  =hP_\Omega S h-hS P_\Omega h
  =\Gamma[Q,P_\Omega].
 \]
