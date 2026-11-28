@@ -9,6 +9,15 @@ Each row is one source-specific use of a citation that appears in the current ma
 The canonical bibliography owns bibliographic fields, and the linked U or other fixed source record owns source statements, inspected editions and source-review limits.
 This map records only current citation applications, not consulted or uncited works.
 
+## `AMTS26`
+
+The statements of Corollary 6.9 and Remark 7.5 in arXiv v2 are recorded in [AMTS26-U001](../../../audits/literature/AMTS26/Yin_U001.md#amts26-u001).
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/preliminaries.tex`, closing paragraph of `subsec:delta-tensor-maps` | `\cite[Corollary~6.9]{AMTS26}` | Gives the embedding of the universal skew field of fractions of the convergent power-series ring into \(L^0(\M)\) at a tuple in the row ball of convergence with trivial trace-class solution space for \(\sum_i[T_i,X_i]=0\). Here \(X_i\) acts by left multiplication, as in `rem:cycle-characterization`. |
+| `paper/sections/preliminaries.tex`, closing paragraph of `subsec:delta-tensor-maps` | `\cite[Remark~7.5]{AMTS26}` | Gives the selfadjoint triple with \(\Delta_1<3=\Delta\), which supplies a nonzero trace-class solution of the homogeneous commutator equation at maximal \(\Delta\). |
+
 ## `AP18`
 
 Source evidence: [AP18-U001](../../../audits/literature/AP18/Yin_U001.md#ap18-u001) checks Theorem 2.3.1, and [AP18-U002](../../../audits/literature/AP18/Yin_U002.md#ap18-u002) checks the tracial commutant and Section 8.4 trace interfaces.
