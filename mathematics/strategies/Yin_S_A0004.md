@@ -72,11 +72,10 @@ Test the residual triples with pairwise free subgroups, a genuine relation invol
 The canonical four-term Schur construction [identifies exactly when its uncompressed one-sided local map clears a denominator](../ledger/Yin_L_A0081_v1.md#the-four-terms-before-word-expansion).
 For \(K=P(t)-sQ(t)\), test [strict block Toeplitz feasibility](../claims/Yin_C_A0353_v1.md#the-finite-dimensional-alternative) on its actual coefficients.
 A [four-site pencil](../claims/Yin_C_A0353_v1.md#a-mixed-pencil-with-no-two-sided-group-ring-denominator) fails this feasibility test and has an injective Schur scalar even though no two nonzero group-ring multipliers clear it on the free marking.
-For the [normalized order-twenty prototypes](../claims/Yin_C_A0337_v1.md#statement), \(M=P Q^{-1}\) obeys \(M^2=\omega I\) with \(|\omega|=1\) on the circle and \(Q\) is pointwise invertible there.
-Set \(V=I+MM^*\) and \(W=Q^{-1}V(Q^{-1})^*\).
-The identity \(MVM^*=V\) gives \(PWP^*=QWQ^*\) pointwise, and \(W\) is continuous and strictly positive.
-Thus integration against \(W\) gives strictly positive Toeplitz Gram matrices at every degree, since every nonzero vector polynomial has positive squared norm on a set of positive Haar measure.
-For these prototypes test a Gram matrix also containing \(s t^j\) and their actual translated relations in the group.
+The [scattering theorem](../claims/Yin_C_A0343_v1.md#statement) excludes half nullity for every normalized order-twenty prototype with three independent numerator coefficients.
+The [joint Gram matrix on the two cosets](../claims/Yin_C_A0355_v1.md#a-positive-contraction-in-the-original-input-coordinates) admits half-trace data at every order, even with complement positivity and the scalar Fourier energy bound on all visible group elements.
+The [four-occurrence word test](../claims/Yin_C_A0355_v1.md#a-uniform-cutoff-with-four-occurrences-of-the-other-generator) gives an explicit cutoff of length one hundred throughout the definite interval.
+For a remaining order-twenty half-kernel candidate use the [visible character and the second Schur pivot](../claims/Yin_C_A0350_v1.md#statement) on the common sign subgroup.
 When two rows instead come from separate factors of a central cyclic amalgam, [central character fibers](../claims/Yin_C_A0354_v1.md#the-largest-point-kernels-in-the-two-fibers) exclude a proper kernel for conjugated rational functions of roots of the common central generator, including unbounded pivot inverses.
 
 For half rank there is a stronger [test without a separating character](../claims/Yin_C_A0168_v2.md#projection-comparison-for-the-extra-label).
