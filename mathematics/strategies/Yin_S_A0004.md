@@ -70,7 +70,14 @@ When the short list has integer pencil ranks, [a character of order at least thr
 For example the two remaining rank-one inputs always have integral pencil ranks under the scalar hypothesis by the small-witness theorem and the prescribed-list equivalence.
 Test the residual triples with pairwise free subgroups, a genuine relation involving all three labels, and no character giving the needed separation.
 The canonical four-term Schur construction [identifies exactly when its uncompressed one-sided local map clears a denominator](../ledger/Yin_L_A0081_v1.md#the-four-terms-before-word-expansion).
-Try a different tensor decomposition or multiply the scalar on both sides when that denominator condition fails.
+For \(K=P(t)-sQ(t)\), test [strict block Toeplitz feasibility](../claims/Yin_C_A0353_v1.md#the-finite-dimensional-alternative) on its actual coefficients.
+A [four-site pencil](../claims/Yin_C_A0353_v1.md#a-mixed-pencil-with-no-two-sided-group-ring-denominator) fails this feasibility test and has an injective Schur scalar even though no two nonzero group-ring multipliers clear it on the free marking.
+For the [normalized order-twenty prototypes](../claims/Yin_C_A0337_v1.md#statement), \(M=P Q^{-1}\) obeys \(M^2=\omega I\) with \(|\omega|=1\) on the circle and \(Q\) is pointwise invertible there.
+Set \(V=I+MM^*\) and \(W=Q^{-1}V(Q^{-1})^*\).
+The identity \(MVM^*=V\) gives \(PWP^*=QWQ^*\) pointwise, and \(W\) is continuous and strictly positive.
+Thus integration against \(W\) gives strictly positive Toeplitz Gram matrices at every degree, since every nonzero vector polynomial has positive squared norm on a set of positive Haar measure.
+For these prototypes test a Gram matrix also containing \(s t^j\) and their actual translated relations in the group.
+When two rows instead come from separate factors of a central cyclic amalgam, [central character fibers](../claims/Yin_C_A0354_v1.md#the-largest-point-kernels-in-the-two-fibers) exclude a proper kernel for conjugated rational functions of roots of the common central generator, including unbounded pivot inverses.
 
 For half rank there is a stronger [test without a separating character](../claims/Yin_C_A0168_v2.md#projection-comparison-for-the-extra-label).
 If an extra label lies outside the subgroup \(K\) of an integral short list, the graph projection of that translation has off-diagonal Fourier support outside \(K\).
