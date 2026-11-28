@@ -153,7 +153,11 @@ In the remaining rank-three or rank-four evaluations, choose the [nested three-s
 In fact [one pair of actual unit pivots](../claims/Yin_C_A0344_v2.md#statement) works for all detecting characters after constant coordinate changes.
 The resulting two-square Schur remainder is zero in the actual ring and has formal rank \(r_\psi-2\) at every detecting character.
 Among [at most fourteen integer coordinate choices](../claims/Yin_C_A0350_v1.md#selecting-and-approximating-one-actual-scalar-inverse) the inverse of the second scalar pivot has divergent convolution norms along the specified finite-support regularization.
-Use its eight group labels inside the subgroup with abelianization \(C_5\) and perfect derived group to test these relations together.
+The [finite residual at a common time](../claims/Yin_C_A0356_v1.md#bounded-residuals-built-from-the-same-time-inverse) combines this inverse regularization with the exact kernel projection of the two-row block \(B=[D\ E]\).
+For the original eight labels, compare the [five character constraints with the first two return moments of \(BB^*\)](../claims/Yin_C_A0356_v1.md#a-degree-one-test-on-the-eight-group-labels), using actual endpoint counts whenever the group relations shorten a fiber.
+The full lift of the \((2,3,11)\) triangle group has the same abelianization and perfect derived group, satisfies complex Atiyah integrality and exhibits [exact cancellation in all five classes](../claims/Yin_C_A0357_v1.md#collecting-the-regularizing-products-by-their-actual-endpoint).
+Its rank-four character example even has nonsummable inverses on every repeated constant-fiber compression.
+To seek a strict violation of the moment test, use the two original marked involutions and their four signed intersection dimensions to bound the return moments or reduce the allowable endpoint mass.
 Two [bounded-length relators with independent exponent sums](../claims/Yin_C_A0348_v1.md#statement) must already occur in the original marking.
 Every action on at most seven points must factor through the abelianization by the [seven-site certificates](../claims/Yin_C_A0346_v2.md#statement).
 A quotient containing a [normal \(A_6\)](../claims/Yin_C_A0346_v3.md#statement) gives the bound \(7/15\) even with the full outer action on the ten Sylow subgroups.
