@@ -5,6 +5,7 @@ Mathematical content, source inspections, finite computation limits and review r
 
 | Material | Title and scope |
 | --- | --- |
+| [Pel24/Yin_U001](Pel24/Yin_U001.md#pel24-u001) | Theorem 5.3 on Schatten classes of Hardy-projection commutators and the trace-class Besov criterion |
 | [AMTS26/Yin_U001](AMTS26/Yin_U001.md#amts26-u001) | ArXiv v2 statements of the meromorphic embedding and the selfadjoint triple separating maximal \(\Delta\) from maximal \(\Delta_1\) |
 | [Mil75/Yin_U001](Mil75/Yin_U001.md#mil75-u001) | Lemma 3.1 on the full lift of the hyperbolic triangle group, its infinite cyclic kernel and its exact presentation |
 | [LLS03/Yin_U001](LLS03/Yin_U001.md#lls03-u001) | Dicks' two-element Ore obstruction for the finite cyclic lamp and the shift |

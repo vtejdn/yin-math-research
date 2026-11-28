@@ -15,7 +15,7 @@ The statements of Corollary 6.9 and Remark 7.5 in arXiv v2 are recorded in [AMTS
 
 | TeX use | Citation locator | Application and boundary |
 | --- | --- | --- |
-| `paper/sections/preliminaries.tex`, closing paragraph of `subsec:delta-tensor-maps` | `\cite[Corollary~6.9]{AMTS26}` | Gives the embedding of the universal skew field of fractions of the convergent power-series ring into \(L^0(\M)\) at a tuple in the row ball of convergence with trivial trace-class solution space for \(\sum_i[T_i,X_i]=0\). Here \(X_i\) acts by left multiplication, as in `rem:cycle-characterization`. |
+| `paper/sections/preliminaries.tex`, closing paragraph of `subsec:delta-tensor-maps` | `\cite{AMTS26}` | Points to Corollary 6.9 for meromorphic evaluation into \(L^0(\M)\). The corollary assumes that \(X\) lies in the row ball of convergence and that \(\sum_i[T_i,X_i]=0\) has only the zero solution among trace-class tuples, with \(X_i\) acting by left multiplication. |
 | `paper/sections/preliminaries.tex`, closing paragraph of `subsec:delta-tensor-maps` | `\cite[Remark~7.5]{AMTS26}` | Gives the selfadjoint triple with \(\Delta_1<3=\Delta\), which supplies a nonzero trace-class solution of the homogeneous commutator equation at maximal \(\Delta\). |
 
 ## `AP18`
@@ -262,6 +262,14 @@ These units inspect the 50-page published article; their proof and external-inpu
 | `paper/sections/preliminaries.tex`, `rem:cycle-characterization` | `\cite[Section~3 and Remark~3.2]{MSY23}` | Supplies the equivalence between maximal \(\Delta\), vanishing cycles and the commutator-kernel condition. |
 | `paper/sections/preliminaries.tex`, `lem:free-field` | `\cite[Theorems 1.1, 3.1 and 5.6]{MSY23}` | Supplies the free-field embedding and image identification under maximal \(\Delta\). The proof of Theorem 1.9 uses the embedding to obtain invertibility of \(X_i-\lambda\) from that of \(x_i-\lambda\) in the free field. |
 | `paper/sections/preliminaries.tex`, Tomita-conjugation paragraph in `subsec:finite-rank-tensors` | `\cite[p.~13]{MSY23}` | Supports the Tomita-conjugation terminology; the tensor identification is separately attributed to CS05. |
+
+## `Pel24`
+
+The Hardy-projection formulation in the published English edition is recorded in [Pel24-U001](../../../audits/literature/Pel24/Yin_U001.md#pel24-u001).
+
+| TeX use | Citation locator | Application and boundary |
+| --- | --- | --- |
+| `paper/sections/preliminaries.tex`, last sentence of `subsec:delta-tensor-maps` | `\cite[Theorem~5.3]{Pel24}` | Uses \(p=1\) in the classical Hardy-projection commutator criterion. The commutator is trace class exactly when its full symbol belongs to \(B^1_{1,1}(\mathbb T)\). The finite-rank comparison uses the operator formulation of Kronecker's criterion cited to Con94 in the introduction. |
 
 ## `Pin68`
 
